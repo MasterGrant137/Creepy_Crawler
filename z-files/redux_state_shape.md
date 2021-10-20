@@ -1,6 +1,6 @@
 # Redux State Shape
 
-### session
+### Store
 ```json
 session: {
     user: {
@@ -46,5 +46,5 @@ history: {
 }
 ```
 
-# React Data Flow
+### React Data Flow
 ![React Data Flow](/images/react_data_flow.jpg)
