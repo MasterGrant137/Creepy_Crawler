@@ -10,7 +10,7 @@ function User() {
       return;
     }
     (async () => {
-      const response = await fetch(`/api/users/${userId}`);
+      const response = await fetch(`/creepycrawler/users/${userId}`);
       const user = await response.json();
       setUser(user);
     })();
