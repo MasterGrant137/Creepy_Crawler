@@ -8,7 +8,8 @@ from flask_login import LoginManager
 from .models import db, User
 from .api.routes.user_routes import user_routes
 from .api.routes.auth_routes import auth_routes
-from .api.routes.settings_routes import 
+from .api.routes.search_routes import search_routes
+from .api.routes.settings_routes import settings_routes
 
 from .seeds import seed_commands
 
@@ -32,6 +33,8 @@ app.cli.add_command(seed_commands)
 app.config.from_object(Config)
 app.register_blueprint(user_routes, url_prefix='/creepycrawler/users')
 app.register_blueprint(auth_routes, url_prefix='/creepycrawler/auth')
+app.register_blueprint(search_routes, url_prefix='/creepycrawler/search')
+app.register_blueprint(settings_routes, url_prefix='/creepycrawler/settings')
 db.init_app(app)
 Migrate(app, db)
 
