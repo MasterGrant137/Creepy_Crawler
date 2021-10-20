@@ -41,7 +41,6 @@ export const login = (email, password) => async (dispatch) => {
     })
   });
 
-
   if (response.ok) {
     const data = await response.json();
     dispatch(setUser(data))
@@ -68,7 +67,6 @@ export const logout = () => async (dispatch) => {
     dispatch(removeUser());
   }
 };
-
 
 export const signUp = (username, email, password) => async (dispatch) => {
   const response = await fetch('/creepycrawler/auth/signup', {

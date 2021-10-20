@@ -29,7 +29,7 @@ This is the starter for the Flask React project.
    flask run
    ```
 
-   when updating
+   when updating (note that new tables must be added to imports in __init__.py at routes directory root)
    ```bash
    pipenv shell
    flask db upgrade
