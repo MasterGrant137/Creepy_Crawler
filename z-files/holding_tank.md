@@ -1,14 +1,5 @@
 ```sql
-
-Table users {
-  id serial [pk, increment]
-  email varchar(256)
-  media varchar(1000)
-  hashedPassword bytea
-  created_at timestamp
-  updated_at timestamp
-}
-
+ 
 
 ```
 
