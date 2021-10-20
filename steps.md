@@ -22,21 +22,35 @@ This is the starter for the Flask React project.
 
 5. Get into your pipenv, migrate your database, seed your database, and run your flask app
 
+   when initializing
+   ```bash
+   flask db init
+   flask db migrate
+   flask run
+   ```
+
+   when updating
    ```bash
    pipenv shell
-   ```
-
-   ```bash
    flask db upgrade
+   flask seed all
+   flask run
    ```
 
+   when resetting
    ```bash
+   flask seed undo
+   flask db upgrade
    flask seed all
    ```
 
+   when database models change
    ```bash
-   flask run
+   flask db migrate
+   flask db upgrade
    ```
+
+***Each time the database models change, repeat the migrate and upgrade commands.***
 
 6. To run the React App in development, checkout the [README](./react-app/README.md) inside the `react-app` directory.
 

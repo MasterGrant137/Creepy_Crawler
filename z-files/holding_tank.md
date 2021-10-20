@@ -9,27 +9,7 @@ Table users {
   updated_at timestamp
 }
 
-Table themes {
-  id serial [pk, increment]
-  userID int [ref: < users.id]
-  backgroundColor varchar(7)
-  backgroundImage varchar(1000)
-  fontColor varchar(7)
-  fontFamily varchar(50)
-  fontSize int
-  active boolean
-  createdAt timestamp
-  updatedAt timestamp
-}
 
-Table histories {
-  id serial [pk, increment]
-  userID int [ref: < users.id]
-  search varchar(1000)
-  visit varchar(1000)
-  createdAt timestamp
-  updatedAt timestamp
-}
 ```
 
 
@@ -51,5 +31,6 @@ class DesertSun:
             }
 ```
 
-`fonts: https://www.tutorialbrain.com/css_tutorial/css_font_family_list/
-`
+```
+fonts: https://www.tutorialbrain.com/css_tutorial/css_font_family_list/
+```
