@@ -13,4 +13,4 @@ class History(db.Model):
     search = db.Column(db.String(1000), nullable=False)
     visit = db.Column(db.String(1000), nullable=False)
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now())
-    updated_at = db.Column(db.DateTime, nullable=False, default=datetime.now())
+    updated_at = db.Column(db.DateTime, nullable=False)
