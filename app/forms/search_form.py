@@ -17,7 +17,7 @@ class SearchForm(FlaskForm):
 
     user_id = IntegerField('user_id', validators=[DataRequired()])
     search = StringField('search', validators=[DataRequired()])
-    updated_at = StringField('user_id', validators=[DataRequired()])
+    updated_at = StringField('updated_at', validators=[DataRequired()])
 
 
 class VisitForm(FlaskForm):
