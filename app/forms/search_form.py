@@ -8,7 +8,9 @@ Holds the relevant data for backend routes.
 from flask_wtf import FlaskForm
 from wtforms import StringField, IntegerField
 from wtforms.validators import DataRequired, ValidationError
-from app.models import History
+
+from app.api.routes.user_routes import user
+
 
 class SearchForm(FlaskForm):
     """Responsible for processing search queries."""

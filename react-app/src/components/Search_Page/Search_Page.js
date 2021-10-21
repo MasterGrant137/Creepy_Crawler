@@ -8,7 +8,7 @@ import './Search_Page.css';
 export const SearchPage = () => {
     const [userID, setUserID] = useState();
     const [search, setSearch] = useState('');
-    const [updatedAt, setUpdateAt] = useState('');
+    const [updatedAt, setUpdatedAt] = useState('');
 
     const dispatch = useDispatch();
 
@@ -16,10 +16,11 @@ export const SearchPage = () => {
 
     const searchHandler = (e) => {
         e.preventDefault();
-        // dispatch(createHistoryEntry())
-        // console.log(e.target);
 
-        // dispatch(createHistoryEntry())
+        console.log(userID, search, updatedAt);
+        console.log(typeof(updatedAt));
+
+        dispatch(createHistoryEntry({ userID, search, updatedAt }));
     }
 
     return (
@@ -30,9 +31,9 @@ export const SearchPage = () => {
                     placeholder='Crawl the web.'
                     aria-label='Crawl the web.'
                     onChange={(e) => {
-                        // setUserID(user.id)
-                        // setSearch(e.target.value)
-                        console.log(new Date());
+                        setUserID(user.id)
+                        setSearch(e.target.value)
+                        setUpdatedAt((new Date()).toString())
                     }}
                 />
             </form>

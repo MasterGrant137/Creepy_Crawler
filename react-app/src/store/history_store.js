@@ -26,6 +26,7 @@ const deleteHistory = () => ({
 
 //$ thunks
 export const createHistoryEntry = (entry) => async dispatch => {
+    console.log(entry);
     const response = await fetch('/creepycrawler/history', {
         method: 'POST',
         body: JSON.stringify(entry)
