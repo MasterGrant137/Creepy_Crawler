@@ -5,8 +5,6 @@ import LoginForm from './components/auth/LoginForm';
 import SignUpForm from './components/auth/SignUpForm';
 import NavBar from './components/Navigation/NavBar';
 import ProtectedRoute from './components/auth/ProtectedRoute';
-import UsersList from './components/User/UsersList';
-import User from './components/User/User';
 import { HistoryPage } from './components/History_Page/History_Page';
 import { SearchPage } from './components/Search_Page/Search_Page';
 import { SettingsPage } from './components/Settings_Page/Settings_Page';
@@ -37,12 +35,6 @@ function App() {
         <Route path='/sign-up' exact={true}>
           <SignUpForm />
         </Route>
-        <ProtectedRoute path='/users' exact={true} >
-          <UsersList/>
-        </ProtectedRoute>
-        <ProtectedRoute path='/users/:userId' exact={true} >
-          <User />
-        </ProtectedRoute>
         <ProtectedRoute path='/settings' exact={true}>
           <SettingsPage />
         </ProtectedRoute>

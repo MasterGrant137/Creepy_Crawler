@@ -11,7 +11,6 @@ export const SearchPage = () => {
     const [updated_at, setUpdatedAt] = useState('');
 
     const dispatch = useDispatch();
-
     const user = useSelector(state => state.session.user);
 
     const searchHandler = (e) => {
