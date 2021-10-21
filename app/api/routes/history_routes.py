@@ -34,13 +34,13 @@ def add_history_entry():
     """
     form = SearchForm()
     form['csrf_token'].data = request.cookies['csrf_token']
+
     if form.validate_on_submit():
-        print('I GET HIT')
         js_date = form.data['updated_at']
         js_date_regex = re.compile(r'([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s([A-Z]{1,5}[-|+]\d{4})\s\((.*)\)')
         js_date_parsed = re.search(js_date_regex, js_date).group(1)
         js_timezone_parsed = re.search(js_date_regex, js_date).group(3)
-        print('LISTEN UP', js_date, js_date_parsed, 'js_timezone_parsed')
+
         history_entry = History(
             user_id=form.data['user_id'],
             search=form.data['search'],
@@ -50,6 +50,5 @@ def add_history_entry():
 
         db.session.add(history_entry)
         db.session.commit()
-        return {"message": "successful"}
-    print( {'errors': validation_errors_to_error_messages(form.errors)})
+        return {"1": { "message": "successful" }}
     return {'errors': validation_errors_to_error_messages(form.errors)}, 401

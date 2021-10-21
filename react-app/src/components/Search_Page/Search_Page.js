@@ -16,10 +16,6 @@ export const SearchPage = () => {
 
     const searchHandler = (e) => {
         e.preventDefault();
-
-        console.log(user_id, search, updated_at);
-        console.log(typeof(updated_at));
-
         dispatch(createHistoryEntry({ user_id, search, updated_at }));
     }
 
@@ -31,7 +27,7 @@ export const SearchPage = () => {
                     placeholder='Crawl the web.'
                     aria-label='Crawl the web.'
                     onChange={(e) => {
-                        setUserID(user.id)
+                        if (user) setUserID(user.id)
                         setSearch(e.target.value)
                         setUpdatedAt((new Date()).toString())
                     }}
