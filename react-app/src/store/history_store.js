@@ -25,7 +25,7 @@ const deleteHistory = () => ({
 })
 
 //$ thunks
-const createHistoryEntry = (entry) => async dispatch => {
+export const createHistoryEntry = (entry) => async dispatch => {
     const response = await fetch('/creepycrawler/history', {
         method: 'POST',
         body: JSON.stringify(entry)
@@ -39,3 +39,15 @@ const createHistoryEntry = (entry) => async dispatch => {
 }
 
 //$ reducers
+const initialState = {}
+export const historyReducer = (state = initialState, action) => {
+    let newState;
+    switch (action.type) {
+        case CREATE_HISTORY:
+            newState = Object.assign({}, state);
+            newState[action.payload.id] = action.payload;
+            return newState;
+        default:
+            return state
+    }
+}

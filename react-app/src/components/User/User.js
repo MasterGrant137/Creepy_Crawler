@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import '../Main.css';
+import './User.css';
 
 function User() {
   const [user, setUser] = useState({});
