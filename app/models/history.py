@@ -1,7 +1,7 @@
 """History model creation."""
 
 from .db import db
-from datetime import datetime
+from datetime import datetime, tzinfo
 
 class History(db.Model):
     """History Model."""
