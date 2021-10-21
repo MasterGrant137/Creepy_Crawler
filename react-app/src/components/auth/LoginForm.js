@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import { login } from '../../store/session';
-import '../Auth.css'
+import '../Auth.css';
 
 const LoginForm = () => {
   const [errors, setErrors] = useState([]);
