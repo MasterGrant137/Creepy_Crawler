@@ -6,6 +6,7 @@ use the forms to process data before
 committing the data to the database.
 """
 
+import re
 from datetime import datetime
 from flask import Blueprint, request
 from flask_migrate import Migrate, history
@@ -24,17 +25,31 @@ def validation_errors_to_error_messages(validation_errors):
 
 @history_routes.route('/', methods=['POST'])
 def add_history_entry():
-    """Add a search entry to history."""
+    """Add a search entry to history.
+
+    regex capture groups:
+        group 1: date
+        group 2: gmt offset
+        group 3: timezone
+    """
     form = SearchForm()
     form['csrf_token'].data = request.cookies['csrf_token']
     if form.validate_on_submit():
-        parsed_js_date = form.data['updated_at'].split('-')[0]
+        print('I GET HIT')
+        js_date = form.data['updated_at']
+        js_date_regex = re.compile(r'([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s([A-Z]{1,5}[-|+]\d{4})\s\((.*)\)')
+        js_date_parsed = re.search(js_date_regex, js_date).group(1)
+        js_timezone_parsed = re.search(js_date_regex, js_date).group(3)
+        print('LISTEN UP', js_date, js_date_parsed, 'js_timezone_parsed')
         history_entry = History(
             user_id=form.data['user_id'],
             search=form.data['search'],
-            updated_at=datetime.strptime(parsed_js_date, '%a %b %d %Y %H:%M:%S %Z')
+            timezone=js_timezone_parsed,
+            updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
         )
+
         db.session.add(history_entry)
         db.session.commit()
         return {"message": "successful"}
-    print({'errors': validation_errors_to_error_messages(form.errors)}), 401
+    print( {'errors': validation_errors_to_error_messages(form.errors)})
+    return {'errors': validation_errors_to_error_messages(form.errors)}, 401
