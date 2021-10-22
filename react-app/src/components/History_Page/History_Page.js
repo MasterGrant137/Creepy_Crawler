@@ -13,11 +13,9 @@ export const HistoryPage = () => {
     }, [dispatch])
 
     // const entriesObj = useSelector(state => state.history);
-    // const entries = entriesObj.values().map(entry => (
-    //     <div></div>
-    // ))
+    // const entries = entriesObj.values()
 
-    // console.log(entries);
+    // console.log(entriesObj);
 
     return (
         <div>

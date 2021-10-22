@@ -62,8 +62,8 @@ def add_history_entry():
 def get_history_entries():
     """Get all of the history entries."""
     entries = History.query.filter(History.user_id == current_user.id).all()
-    print(entries)
+    print('HERRRRRRRRRE',entries[0].to_dict())
     return {
-        "history": [ entry for entry in entries ]
+        "history": [ entry.to_dict() for entry in entries ]
     }
     # return { "message": "successful" }

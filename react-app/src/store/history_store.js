@@ -43,12 +43,12 @@ export const createHistoryEntry = (entry) => async dispatch => {
     }
 }
 
-export const readHistoryEntries = (user_id) => async dispatch => {
+export const readHistoryEntries = () => async dispatch => {
     const response = await fetch('/creepycrawler/history/');
     if (response.ok) {
-        console.log('Store response read!!!', response);
-        const entries = response.json();
-        dispatch(readHistory(user_id));
+        const entries = await response.json();
+        console.log('Store response read!!!', entries);
+        dispatch(readHistory(entries));
         return entries;
     }
 }
@@ -64,7 +64,8 @@ export const historyReducer = (state = initialState, action) => {
             return newState;
         case READ_HISTORY:
             newState = {...state};
-            action.payload.forEach(entry => newState[entry.id] = entry);
+            console.log(action.payload, 'payload');
+            // action.payload.history.forEach(entry => newState[entry.id] = entry);
             return {...state,...newState};
         default:
             return state;
