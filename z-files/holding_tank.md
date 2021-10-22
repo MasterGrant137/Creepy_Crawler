@@ -1,9 +1,3 @@
-```sql
- 
-
-```
-
-
 ```python
 
 # caerostris-darwini

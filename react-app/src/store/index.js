@@ -1,9 +1,11 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import session from './session'
+import { historyReducer } from './history_store';
 
 const rootReducer = combineReducers({
   session,
+  history: historyReducer
 });
 
 

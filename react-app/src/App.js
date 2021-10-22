@@ -3,10 +3,11 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import LoginForm from './components/auth/LoginForm';
 import SignUpForm from './components/auth/SignUpForm';
-import NavBar from './components/NavBar';
+import NavBar from './components/Navigation/NavBar';
 import ProtectedRoute from './components/auth/ProtectedRoute';
-import UsersList from './components/UsersList';
-import User from './components/User';
+import { HistoryPage } from './components/History_Page/History_Page';
+import { SearchPage } from './components/Search_Page/Search_Page';
+import { SettingsPage } from './components/Settings_Page/Settings_Page';
 import { authenticate } from './store/session';
 
 function App() {
@@ -34,15 +35,15 @@ function App() {
         <Route path='/sign-up' exact={true}>
           <SignUpForm />
         </Route>
-        <ProtectedRoute path='/users' exact={true} >
-          <UsersList/>
+        <ProtectedRoute path='/settings' exact={true}>
+          <SettingsPage />
         </ProtectedRoute>
-        <ProtectedRoute path='/users/:userId' exact={true} >
-          <User />
+        <ProtectedRoute path='/history' exact={true}>
+          <HistoryPage />
         </ProtectedRoute>
-        <ProtectedRoute path='/' exact={true} >
-          <h1>My Home Page</h1>
-        </ProtectedRoute>
+        <Route path='/' exact={true} >
+          <SearchPage />
+        </Route>
       </Switch>
     </BrowserRouter>
   );
