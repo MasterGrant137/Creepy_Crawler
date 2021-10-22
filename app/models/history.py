@@ -15,3 +15,13 @@ class History(db.Model):
     timezone=db.Column(db.String(50), nullable=False)
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now())
     updated_at = db.Column(db.DateTime, nullable=False)
+
+    def to_dict(self):
+        """Select columns made into dictionary upon invocation by routes."""
+        return {
+            'id': self.user_id,
+            'user_id': self.user_id,
+            'search': self.search,
+            'visit': self.visit,
+            'updated_at': self.updated_at
+        }

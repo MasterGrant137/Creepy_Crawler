@@ -10,9 +10,9 @@ const createHistory = (entry) => ({
     payload: entry
 })
 
-const readHistory = (entry) => ({
+const readHistory = (entries) => ({
     type: READ_HISTORY,
-    payload: entry
+    payload: entries
 })
 
 const updateHistory = (entry) => ({
@@ -26,6 +26,7 @@ const deleteHistory = () => ({
 
 //$ thunks
 export const createHistoryEntry = (entry) => async dispatch => {
+    console.log('HIT');
     const response = await fetch('/creepycrawler/history/', {
         headers: {
             'Content-Type': 'application/json'
@@ -33,24 +34,39 @@ export const createHistoryEntry = (entry) => async dispatch => {
         method: 'POST',
         body: JSON.stringify(entry)
     })
-
+    console.log('HIT');
     if (response.ok) {
         const newEntry = await response.json();
+        console.log('Store response create!!!', newEntry);
         dispatch(createHistory(newEntry));
         return newEntry;
+    }
+}
+
+export const readHistoryEntries = (user_id) => async dispatch => {
+    const response = await fetch('/creepycrawler/history/');
+    if (response.ok) {
+        console.log('Store response read!!!', response);
+        const entries = response.json();
+        dispatch(readHistory(user_id));
+        return entries;
     }
 }
 
 //$ reducers
 const initialState = {}
 export const historyReducer = (state = initialState, action) => {
-    let newState;
+    let newState = {...state};
     switch (action.type) {
         case CREATE_HISTORY:
-            newState = Object.assign({}, state);
-            newState[action.payload.id] = action.payload;
+            const history = action.payload.history;
+            newState[history.id] = history;
             return newState;
+        case READ_HISTORY:
+            newState = {...state};
+            action.payload.forEach(entry => newState[entry.id] = entry);
+            return {...state,...newState};
         default:
-            return state
+            return state;
     }
 }

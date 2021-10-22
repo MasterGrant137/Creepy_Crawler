@@ -12,6 +12,7 @@ from flask import Blueprint, request
 from flask_migrate import Migrate, history
 from app.models import db, History
 from app.forms import SearchForm
+from flask_login import current_user, login_required
 
 history_routes = Blueprint('entries', __name__)
 
@@ -50,5 +51,19 @@ def add_history_entry():
 
         db.session.add(history_entry)
         db.session.commit()
-        return {"1": { "message": "successful" }}
+        return {
+            "history": history_entry.to_dict()
+        }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 401
+
+
+@history_routes.route('/')
+@login_required
+def get_history_entries():
+    """Get all of the history entries."""
+    entries = History.query.filter(History.user_id == current_user.id).all()
+    print(entries)
+    return {
+        "history": [ entry for entry in entries ]
+    }
+    # return { "message": "successful" }
