@@ -33,7 +33,7 @@ def add_history_entry():
     if form.validate_on_submit():
         js_date = form.data['updated_at']
         js_date_regex = re.compile(r'''
-        ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date
+        ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
         \((.*)\) #? timezone
         ''', re.VERBOSE)
