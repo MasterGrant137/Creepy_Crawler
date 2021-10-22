@@ -47,6 +47,7 @@ export const readHistoryEntries = () => async dispatch => {
     const response = await fetch('/creepycrawler/history/');
     if (response.ok) {
         const entries = await response.json();
+        console.log('FRONTEND STORE LISTEN', entries );
         dispatch(readHistory(entries));
         return entries;
     }

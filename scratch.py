@@ -3,6 +3,11 @@
 import re
 from datetime import datetime
 
+string = 'apple'
+pattern = r'ApPlE'
+match = re.search(pattern, string, flags=re.I | re.M)
+print(bool(match))
+
 # js_date = 'Thu Oct 21 2021 00:19:04 GMT-0700 (Pacific Daylight Time)'
 # parsed_js_date = js_date.split('-')[0] # gives Thu Oct 21 2021 00:19:04 GMT
 
@@ -22,10 +27,10 @@ from datetime import datetime
 # js_date_parsed = f"{re.search(js_date_regex, js_date).group(1)} {re.search(js_date_regex, js_date).group(3)}"
 # js_gmt_offset_parsed = re.search(js_date_regex, js_date).group(2)
 # js_timezone_parsed = re.search(js_date_regex, js_date).group(3)
-js_timezone_long = 'Pacific Daylight Time'
-js_timezone_short = ''.join(re.findall(r'([A-Z]){1}\w+', js_timezone_long))
-print(js_timezone_long)
-print(js_timezone_short)
+# js_timezone_long = 'Pacific Daylight Time'
+# js_timezone_short = ''.join(re.findall(r'([A-Z]){1}\w+', js_timezone_long))
+# print(js_timezone_long)
+# print(js_timezone_short)
 # print(js_date_parsed)
 # print(re.search(r'(\w+)-', js_date).group(1)) # GMT
 # print(datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')) # 2021-10-21 00:19:04

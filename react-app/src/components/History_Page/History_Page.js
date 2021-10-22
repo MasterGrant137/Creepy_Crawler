@@ -5,6 +5,7 @@ import '../Main.css';
 import './History_Page.css';
 
 export const HistoryPage = () => {
+    const dateRegex = /([A-Z]{1}[a-z]{2}),\s(\d{2}\s[A-Z]{1}[a-z]{2}\s\d{4})\s(\d{2}:\d{2}:\d{2})\s(.*)/g
 
     const dispatch = useDispatch();
 
