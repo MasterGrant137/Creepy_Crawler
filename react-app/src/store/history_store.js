@@ -63,10 +63,9 @@ export const historyReducer = (state = initialState, action) => {
             newState[history.id] = history;
             return newState;
         case READ_HISTORY:
-            newState = {...state};
-            console.log(action.payload, 'payload');
-            // action.payload.history.forEach(entry => newState[entry.id] = entry);
-            return {...state,...newState};
+            action.payload.history.forEach((entry, idx) => newState[idx] = entry);
+            console.log(newState, 'payload');
+            return newState;
         default:
             return state;
     }
