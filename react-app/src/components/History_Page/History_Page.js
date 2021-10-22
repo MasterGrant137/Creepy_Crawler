@@ -12,14 +12,14 @@ export const HistoryPage = () => {
         dispatch(readHistoryEntries())
     }, [dispatch])
 
-    // const entriesObj = useSelector(state => state.history);
-    // const entries = entriesObj.values()
-
-    // console.log(entriesObj);
+    const entriesObj = useSelector(state => state.history);
+    const entries = Object.values(entriesObj).map(entry => (
+        <div>{entry.search}</div>
+    ))
 
     return (
         <div>
-            History Page
+             {entries}
         </div>
     )
 }
