@@ -9,3 +9,5 @@ import string
 
 # for i in range(50):
 #     print()
+
+print(random.randint(0,1))

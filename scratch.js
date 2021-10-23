@@ -21,7 +21,7 @@
 //     function tz() {
 //         const abbrevTZRegex = /([A-Z]){1}\w+|(\s)/g
 //         const abbrevTZ = entry_timezone.replace(dateRegex, '$1').replace(abbrevTZRegex, '$1')
-//         const natoTZ = /[A-Z]TZ/g
+//         const natoTZ = /[A-Z]TZ/
 
 
 //         // console.log(natoTZ.test(abbrevTZRegex));

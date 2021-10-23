@@ -46,7 +46,7 @@
         ```
 
 ### Unexpected Behaviors
-+ Not only does the JavaScript g flag not stop at the first match within a given string, it is will match over subsequent calls. To solve the bug I encountered, I stripped down my surrounding code. This allowed me to isolate and eliminate the behavior. I had multiple test methods being called for debugging purposes but they were ironically perpetuating the bug by summoning the g flag before it was intended. This is the behavior reduced to its most bare components.
++ Not only does the JavaScript g flag not stop at the first match within a given string, it is will match over subsequent calls. To solve the bug I encountered, I stripped down my surrounding code. This allowed me to isolate and eliminate the behavior. I had multiple test methods being called for debugging purposes but they were ironically perpetuating the bug by summoning the g flag before it was intended. I removed the extra methods along with any unnecessary g flags. This is the behavior reduced to its most bare components:
     ```javascript
         const r = /\w/g;
         const testA = r.test('word'); // true

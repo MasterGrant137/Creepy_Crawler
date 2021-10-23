@@ -24,7 +24,14 @@ export const HistoryPage = () => {
     const entries = Object.values(entriesObj).map(entry => (
         <div>
             <span>{entry['updated_at'].replace(dateRegex, '$1')}</span>
-            <span>{entry.timezone.replace(abbrevTZRegex, '$1')}</span>
+            {/* <span>{entry.timezone.replace(abbrevTZRegex, '$1')}</span> */}
+            <span>
+                {function tz() {
+                    const abbrevTZ = entry.timezone.replace(dateRegex, '$1').replace(abbrevTZRegex, '$1');
+                    const natoTZ = /[A-Z]TZ/;
+                    return !natoTZ.test(abbrevTZ) ? abbrevTZ : abbrevTZ[0];
+                }}
+            </span>
             <span>{entry.search || entry.visit}</span>
         </div>
     ))

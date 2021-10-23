@@ -3,17 +3,18 @@ from faker import Faker
 fake = Faker()
 import random
 
-# Adds a demo user, you can add other users here if you want
+timezones = ['Alpha Time Zone', 'Australian Western Standard Time', 'Eastern Standard Time', 'Pacific Standard Time', 'X-ray Time Zone']
+
 def seed_users():
-    demo = History(
-        username='Demo', email='demo@aa.io', password='password')
+    demo = History(username='Demo', email='demo@aa.io', password='password')
+    db.session.add(demo)
 
     for i in range(250):
         searchEntry = History(
             user_id=random.randint(1, 50),
             search=fake.sentence(nb_words=10),
-            timezone=
-            updated_at
+            timezone=timezones[random.randint(0, 4)],
+            updated_at=fake.date_time()
         )
         db.session.add(searchEntry)
 
