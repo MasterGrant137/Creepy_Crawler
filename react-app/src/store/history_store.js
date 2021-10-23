@@ -26,7 +26,6 @@ const deleteHistory = () => ({
 
 //$ thunks
 export const createHistoryEntry = (entry) => async dispatch => {
-    console.log('HIT');
     const response = await fetch('/creepycrawler/history/', {
         headers: {
             'Content-Type': 'application/json'
@@ -34,10 +33,8 @@ export const createHistoryEntry = (entry) => async dispatch => {
         method: 'POST',
         body: JSON.stringify(entry)
     })
-    console.log('HIT');
     if (response.ok) {
         const newEntry = await response.json();
-        console.log('Store response create!!!', newEntry);
         dispatch(createHistory(newEntry));
         return newEntry;
     }
@@ -47,7 +44,6 @@ export const readHistoryEntries = () => async dispatch => {
     const response = await fetch('/creepycrawler/history/');
     if (response.ok) {
         const entries = await response.json();
-        console.log('FRONTEND STORE LISTEN', entries );
         dispatch(readHistory(entries));
         return entries;
     }
@@ -63,7 +59,7 @@ export const historyReducer = (state = initialState, action) => {
             newState[history.id] = history;
             return newState;
         case READ_HISTORY:
-            action.payload.history.forEach((entry, idx) => newState[idx] = entry);
+            action.payload.history.forEach(entry => newState[entry.id] = entry);
             return newState;
         default:
             return state;

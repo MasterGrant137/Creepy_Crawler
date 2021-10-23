@@ -25,7 +25,7 @@
         match = re.search(pattern, string, flags=re.I | re.M)
         bool(match) # True
         ```
-+ Here are two examples of multiline regex comments, one in JS and the other in Py, both dealing with dates. The question marks
++ The `RegExp` constructor and `re.compile` pattern object allow for multiline comments to be created in their respective languages (JS and Py). `re.compile` is very useful in regex since one can store a flag on the object and reuse that flag in multiple expressions as opposed to including it in every method. This is not a situation one would encounter in JS's flavor of regex since flags are directly appended to the regular expressions. Here are two examples of multiline regex comments, one in JS and the other in Py, both dealing with dates.
     + JS
         ```javascript
         const dateRegex = new RegExp([

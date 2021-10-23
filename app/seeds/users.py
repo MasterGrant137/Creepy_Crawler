@@ -1,27 +1,38 @@
+"""Users seeder.
+
+TRUNCATE removes all the data from the table,
+RESET IDENTITY resets the auto incrementing primary key,
+CASCADE deletes any dependent entities.
+"""
+
 from app.models import db, User
+from faker import Faker
+import random
+import string
 
+fake = Faker()
+password_characters = string.ascii_lowercase + string.ascii_uppercase + string.digits + string.punctuation
 
-# Adds a demo user, you can add other users here if you want
 def seed_users():
-    demo = User(
-        username='Demo', email='demo@aa.io', password='password')
-    marnie = User(
-        username='marnie', email='marnie@aa.io', password='password')
-    bobbie = User(
-        username='bobbie', email='bobbie@aa.io', password='password')
+    """Seed the users."""
+    demo = User(username='Demo', email='demo@aa.io', password='password')
+    johnny_appleseed = User(username='Johnny Appleseed', email='jseed@aa.io', password='password')
 
-    db.session.add(demo)
-    db.session.add(marnie)
-    db.session.add(bobbie)
+    for i in range(50):
+        new_user = User (
+            username=fake.date_time_this_year(),
+            email=fake.safe_email(),
+            password=''.join(random.choice(password_characters) for i in range(15)),
+            media=f"https://randomuser.me/api/portraits/{'men' if i % 2 == 0 else 'women'}/{i}.jpg"
+        )
+
+        db.session.add(demo)
+        db.session.add(johnny_appleseed)
+        db.session.add(new_user)
 
     db.session.commit()
 
-
-# Uses a raw SQL query to TRUNCATE the users table.
-# SQLAlchemy doesn't have a built in function to do this
-# TRUNCATE Removes all the data from the table, and RESET IDENTITY
-# resets the auto incrementing primary key, CASCADE deletes any
-# dependent entities
 def undo_users():
+    """Undo users seed."""
     db.session.execute('TRUNCATE users RESTART IDENTITY CASCADE;')
     db.session.commit()
