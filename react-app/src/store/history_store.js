@@ -45,6 +45,7 @@ export const readHistoryEntries = () => async dispatch => {
     if (response.ok) {
         const entries = await response.json();
         dispatch(readHistory(entries));
+        console.log("dog");
         return entries;
     }
 }
