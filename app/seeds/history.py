@@ -5,23 +5,21 @@ import random
 
 # Adds a demo user, you can add other users here if you want
 def seed_users():
-    demo = User(
+    demo = History(
         username='Demo', email='demo@aa.io', password='password')
+
+    for i in range(250):
+        searchEntry = History(
+            user_id=random.randint(1, 50),
+            search=fake.sentence(nb_words=10),
+            timezone=
+            updated_at
+        )
+        db.session.add(searchEntry)
 
     db.session.commit()
 
-
-for i in range(500):
-    newEntry = History(
-        user_id=random.randint(1, 10)
-        search
-        visit
-        timezone
-        updated_at
-    )
-
-
-def undo_users():
+def undo_history():
     db.session.execute('TRUNCATE users RESTART IDENTITY CASCADE;')
     db.session.commit()
 

@@ -17,6 +17,8 @@ def seed_users():
     """Seed the users."""
     demo = User(username='Demo', email='demo@aa.io', password='password')
     johnny_appleseed = User(username='Johnny Appleseed', email='jseed@aa.io', password='password')
+    db.session.add(demo)
+    db.session.add(johnny_appleseed)
 
     for i in range(50):
         new_user = User (
@@ -25,9 +27,6 @@ def seed_users():
             password=''.join(random.choice(password_characters) for i in range(15)),
             media=f"https://randomuser.me/api/portraits/{'men' if i % 2 == 0 else 'women'}/{i}.jpg"
         )
-
-        db.session.add(demo)
-        db.session.add(johnny_appleseed)
         db.session.add(new_user)
 
     db.session.commit()
