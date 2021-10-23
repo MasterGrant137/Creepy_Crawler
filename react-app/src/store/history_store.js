@@ -52,7 +52,7 @@ export const readHistoryEntries = () => async dispatch => {
 //$ reducers
 const initialState = {}
 export const historyReducer = (state = initialState, action) => {
-    let newState = {...state};
+    let newState = { ...state };
     switch (action.type) {
         case CREATE_HISTORY:
             const history = action.payload.history;

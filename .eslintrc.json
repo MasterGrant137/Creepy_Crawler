@@ -11,13 +11,16 @@
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": 13,
+        "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "plugins": [
         "react"
     ],
     "rules": {
-        "semi": [2, "always"]
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "indent": ["indent", 2],
+        "no-multi-spaces": ["error"]
     }
 }

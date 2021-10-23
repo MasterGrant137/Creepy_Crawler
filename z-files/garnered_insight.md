@@ -1,3 +1,4 @@
+### A Note on my Experience With Different Regex Flavors
 + I've found that JavaScript's regex flavor has a few key differences to Python's. It all revolves around the information packed into the regex string or object vs. the methods surrounding it. Python puts more responsibility on the methods to guide the action of the pattern matching while Javascript embeds all the relevant information in the expression itself. Take the example of making a title abbreviator as I did in this project:
     + Py
         ```python
@@ -43,3 +44,11 @@
         \((.*)\) # timezone
         ''', re.VERBOSE)
         ```
+
+### Unexpected Behaviors
++ Not only does the JavaScript g flag not stop at the first match within a given string, it is will match over subsequent calls. To solve the bug I encountered, I stripped down my surrounding code. This allowed me to isolate and eliminate the behavior. I had multiple test methods being called for debugging purposes but they were ironically perpetuating the bug by summoning the g flag before it was intended. This is the behavior reduced to its most bare components.
+    ```javascript
+        const r = /\w/g;
+        const testA = r.test('word'); // true
+        const testB = r.test('1');  // false
+    ```
