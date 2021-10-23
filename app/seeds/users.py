@@ -20,7 +20,7 @@ def seed_users():
     db.session.add(demo)
     db.session.add(johnny_appleseed)
 
-    for i in range(50):
+    for i in range(15):
         new_user = User (
             username=fake.date_time_this_year(),
             email=fake.safe_email(),
