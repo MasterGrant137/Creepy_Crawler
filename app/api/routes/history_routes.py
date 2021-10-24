@@ -17,7 +17,7 @@ from flask_login import current_user, login_required
 history_routes = Blueprint('entries', __name__)
 
 def validation_errors_to_error_messages(validation_errors):
-    """Simple function that turns the WTForms validation errors into a simple list"""
+    """Turn the WTForms validation errors into a simple list."""
     errorMessages = []
     for field in validation_errors:
         for error in validation_errors[field]:
@@ -26,19 +26,18 @@ def validation_errors_to_error_messages(validation_errors):
 
 @history_routes.route('/', methods=['POST'])
 def add_history_entry():
-    """Add a search entry to history.
-
-    regex capture groups:
-        group 1: date
-        group 2: gmt offset
-        group 3: timezone
-    """
+    """Add a search entry to history."""
     form = SearchForm()
     form['csrf_token'].data = request.cookies['csrf_token']
 
     if form.validate_on_submit():
         js_date = form.data['updated_at']
-        js_date_regex = re.compile(r'([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s([A-Z]{1,5}[-|+]\d{4})\s\((.*)\)')
+        js_date_regex = re.compile(r'''
+        ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
+        ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
+        \((.*)\) #? timezone
+        ''', re.VERBOSE)
+
         js_date_parsed = re.search(js_date_regex, js_date).group(1)
         js_timezone_parsed = re.search(js_date_regex, js_date).group(3)
 
@@ -61,9 +60,7 @@ def add_history_entry():
 @login_required
 def get_history_entries():
     """Get all of the history entries."""
-    entries = History.query.filter(History.user_id == current_user.id).all()
-    print(entries)
+    entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
     return {
-        "history": [ entry for entry in entries ]
+        "history": [ entry.to_dict() for entry in entries ]
     }
-    # return { "message": "successful" }

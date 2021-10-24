@@ -1,0 +1,1 @@
++ Anyone know how to get ESlint to run in all of my directories? I did the npm install —save-dev eslint and npx eslint —init then configured the eslintrc.json in my root but all I have are the warnings that come with the VSCode ESlint extension. The rules I set up in that eslintrc.json only work in my top-most directory, not my react-app.

@@ -26,7 +26,6 @@ const deleteHistory = () => ({
 
 //$ thunks
 export const createHistoryEntry = (entry) => async dispatch => {
-    console.log('HIT');
     const response = await fetch('/creepycrawler/history/', {
         headers: {
             'Content-Type': 'application/json'
@@ -34,23 +33,30 @@ export const createHistoryEntry = (entry) => async dispatch => {
         method: 'POST',
         body: JSON.stringify(entry)
     })
-    console.log('HIT');
     if (response.ok) {
         const newEntry = await response.json();
-        console.log('Store response create!!!', newEntry);
         dispatch(createHistory(newEntry));
         return newEntry;
     }
 }
 
-export const readHistoryEntries = (user_id) => async dispatch => {
+export const readHistoryEntries = () => async dispatch => {
     const response = await fetch('/creepycrawler/history/');
     if (response.ok) {
-        console.log('Store response read!!!', response);
-        const entries = response.json();
-        dispatch(readHistory(user_id));
+        const entries = await response.json();
+        dispatch(readHistory(entries));
         return entries;
     }
+}
+
+export const updateHistoryEntry = (entryID) => async dispatch => {
+    const response = await fetch(`/creepycrawler/history/${entryID}`, {
+        headers: {
+            'Content-Type': 'applications/json'
+        },
+        method: 'PATCH',
+        body: JSON.stringify(entryID)
+    })
 }
 
 //$ reducers
@@ -59,13 +65,12 @@ export const historyReducer = (state = initialState, action) => {
     let newState = {...state};
     switch (action.type) {
         case CREATE_HISTORY:
-            const history = action.payload.history;
-            newState[history.id] = history;
+            const historyEntry = action.payload.history;
+            newState[historyEntry.id] = historyEntry;
             return newState;
         case READ_HISTORY:
-            newState = {...state};
-            action.payload.forEach(entry => newState[entry.id] = entry);
-            return {...state,...newState};
+            const historyEntries = action.payload.history;
+            return {...historyEntries,...newState};
         default:
             return state;
     }

@@ -19,9 +19,10 @@ class History(db.Model):
     def to_dict(self):
         """Select columns made into dictionary upon invocation by routes."""
         return {
-            'id': self.user_id,
+            'id': self.id,
             'user_id': self.user_id,
             'search': self.search,
             'visit': self.visit,
+            'timezone': self.timezone,
             'updated_at': self.updated_at
         }
