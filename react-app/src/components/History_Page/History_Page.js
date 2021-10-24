@@ -16,28 +16,7 @@ export const HistoryPage = () => {
                                 '(.*)' //? timezone
                                 ].join(''), 'g');
 
-    const abbrevTZRegex = /([A-Z]){1}[-]?[a-z]+\s/g
-
-    const queueHandler = (dayOfWk, entryID) => {
-        const historyPageContainer = document.getElementById('history-page-container');
-        // const firstNtryOfWk = document.getElementById('history-page-container');
-        // console.log(dayOfWk, entryID, 'Look Here');
-        if (!dayOfWkLink && dayOfWk) {
-            // const firstNtryOfWk = document.getElementById(`entry-${entryID}`);
-            // const newEle = document.createElement('strong');
-            dayOfWkLink = dayOfWk;
-            // newEle.innerText = dayOfWk;
-            // firstNtryOfWk?.appendChild(newEle);
-            // console.log(dayOfWkLink);
-        } else if (dayOfWkLink !== dayOfWk) {
-            // const firstNtryOfWk = document.getElementById(`entry-${entryID}`);
-            // const newEle = document.createElement('strong');
-            dayOfWkLink = dayOfWk;
-            // newEle.innerText = dayOfWk;
-            // firstNtryOfWk?.appendChild(newEle);
-            // console.log(dayOfWkLink);
-        }
-    }
+    const abbrevTZRegex = /([A-Z]){1}[-]?[a-z]+\s?/g
 
     useEffect(() => {
         dispatch(readHistoryEntries())
@@ -48,9 +27,7 @@ export const HistoryPage = () => {
         <div key={entry.id} id={`entry-${entry.id}`}>
             <span>
                  {function () {
-                    //  const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
                      const time = entry['updated_at'].replace(dateRegex, '$3');
-                    //  queueHandler(dayOfWk, entry.id);
                      return time;
                     }()}
             </span>
