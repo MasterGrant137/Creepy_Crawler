@@ -7,7 +7,7 @@ import './History_Page.css';
 export const HistoryPage = () => {
     const dispatch = useDispatch();
     
-    const dayQueue = [null, null];
+    let dayOfWkLink = null;
 
     const dateRegex = new RegExp([
                                 '([A-Z]{1}[a-z]{2}),\\s', //? day of the week
@@ -19,7 +19,24 @@ export const HistoryPage = () => {
     const abbrevTZRegex = /([A-Z]){1}[-]?[a-z]+\s/g
 
     const queueHandler = (dayOfWk, entryID) => {
-        dayQueue.push('acorn')
+        const historyPageContainer = document.getElementById('history-page-container');
+        // const firstNtryOfWk = document.getElementById('history-page-container');
+        // console.log(dayOfWk, entryID, 'Look Here');
+        if (!dayOfWkLink && dayOfWk) {
+            // const firstNtryOfWk = document.getElementById(`entry-${entryID}`);
+            // const newEle = document.createElement('strong');
+            dayOfWkLink = dayOfWk;
+            // newEle.innerText = dayOfWk;
+            // firstNtryOfWk?.appendChild(newEle);
+            // console.log(dayOfWkLink);
+        } else if (dayOfWkLink !== dayOfWk) {
+            // const firstNtryOfWk = document.getElementById(`entry-${entryID}`);
+            // const newEle = document.createElement('strong');
+            dayOfWkLink = dayOfWk;
+            // newEle.innerText = dayOfWk;
+            // firstNtryOfWk?.appendChild(newEle);
+            // console.log(dayOfWkLink);
+        }
     }
 
     useEffect(() => {
@@ -28,30 +45,38 @@ export const HistoryPage = () => {
 
     const entriesObj = useSelector(state => state.history);
     const entries = Object.values(entriesObj).map(entry => (
-        <div key={entry.id}>
+        <div key={entry.id} id={`entry-${entry.id}`}>
             <span>
                  {function () {
-                     const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
-                     queueHandler(dayOfWk, entry.id)
-
-                     return;
-                 }()}
+                    //  const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
+                     const time = entry['updated_at'].replace(dateRegex, '$3');
+                    //  queueHandler(dayOfWk, entry.id);
+                     return time;
+                    }()}
             </span>
             <span>
                 {function () {
                     const abbrevTZ = entry.timezone.replace(dateRegex, '$1').replace(abbrevTZRegex, '$1');
                     const natoTZ = /[A-Z]TZ/;
-
-                    queueHandler()
                     return !natoTZ.test(abbrevTZ) ? abbrevTZ : abbrevTZ[0];
                 }()}
             </span>
             <span>{entry.search || entry.visit}</span>
+            <strong>
+                {function () {
+                    const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
+                    // queueHandler(dayOfWk, entry.id);
+                    if (!dayOfWkLink || dayOfWk !== dayOfWkLink) {
+                        dayOfWkLink = dayOfWk;
+                        return dayOfWkLink;
+                    }
+                }()}
+            </strong>
         </div>
     ))
 
     return (
-        <div>
+        <div id='history-page-container'>
              {entries}
         </div>
     )
