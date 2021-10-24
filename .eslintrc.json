@@ -4,6 +4,14 @@
         "node": true,
         "es2021": true
     },
+    "settings": {
+        "import/resolver": {
+            "node": {},
+            "babel-module": {
+                "root": ["./react-app"]
+            }
+        }
+    },
     "extends": [
         "plugin:react/recommended",
         "airbnb"
