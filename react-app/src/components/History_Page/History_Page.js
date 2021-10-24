@@ -23,6 +23,8 @@ export const HistoryPage = () => {
     }, [dispatch])
 
     const entriesObj = useSelector(state => state.history);
+    console.log(entriesObj);
+    console.log(Object.values(entriesObj));
     const entries = Object.values(entriesObj).map(entry => (
         <div key={entry.id} id={`entry-${entry.id}`}>
             <span>
@@ -42,7 +44,6 @@ export const HistoryPage = () => {
             <strong>
                 {function () {
                     const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
-                    // queueHandler(dayOfWk, entry.id);
                     if (!dayOfWkLink || dayOfWk !== dayOfWkLink) {
                         dayOfWkLink = dayOfWk;
                         return dayOfWkLink;

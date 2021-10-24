@@ -60,8 +60,7 @@ def add_history_entry():
 @login_required
 def get_history_entries():
     """Get all of the history entries."""
-    entries = History.query.filter(History.user_id == current_user.id).all()
-    print('LISTEN UP', [ entry.to_dict()['updated_at'] for entry in entries ])
+    entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
     return {
         "history": [ entry.to_dict() for entry in entries ]
     }
