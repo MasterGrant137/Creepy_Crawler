@@ -49,14 +49,22 @@ export const readHistoryEntries = () => async dispatch => {
     }
 }
 
-export const updateHistoryEntry = (entryID) => async dispatch => {
-    const response = await fetch(`/creepycrawler/history/${entryID}`, {
+export const updateHistoryEntry = (entry) => async dispatch => {
+    console.log(entry.entryID, entry.updated_at );
+    const response = await fetch(`/creepycrawler/history/${entry.entryID}`, {
         headers: {
-            'Content-Type': 'applications/json'
+            'Content-Type': 'application/json'
         },
         method: 'PATCH',
-        body: JSON.stringify(entryID)
+        body: JSON.stringify({
+            updated_at: entry.updated_at
+        })
     })
+    if (response.ok) {
+        const entry = await response.json();
+        dispatch(updateHistory(entry));
+        return entry;
+    }
 }
 
 //$ reducers

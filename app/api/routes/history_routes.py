@@ -11,7 +11,7 @@ from datetime import datetime
 from flask import Blueprint, request
 from flask_migrate import Migrate, history
 from app.models import db, History
-from app.forms import SearchForm, PatchSearchForm
+from app.forms import SearchForm
 from flask_login import current_user, login_required
 
 history_routes = Blueprint('entries', __name__)
@@ -69,8 +69,10 @@ def get_history_entries():
 def alter_history_entry(entryID):
     """Change the history entry's updated_at column."""
     entry = History.query.filter(History.id == entryID).first()
+
     if entry.user_id == current_user.id:
         js_date = request.json['updated_at']
+        print('DATEEEEEEEEEEEE', request.json['updated_at'])
         js_date_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
@@ -81,8 +83,8 @@ def alter_history_entry(entryID):
         js_timezone_parsed = re.search(js_date_regex, js_date).group(3)
 
         new_updated_at = datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
-        entry['updated_at'] = new_updated_at
-        entry['timezone'] = js_timezone_parsed
+        entry.updated_at = new_updated_at
+        entry.timezone = js_timezone_parsed
 
         db.session.add(entry)
         db.session.commit()
