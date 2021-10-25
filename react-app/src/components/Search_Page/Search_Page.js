@@ -20,6 +20,7 @@ export const SearchPage = () => {
 
     return (
         <div>
+            <h1>Creepy Crawler</h1>
             <form onSubmit={searchHandler}>
                 <input
                     type='text'
