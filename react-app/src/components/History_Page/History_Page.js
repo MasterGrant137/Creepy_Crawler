@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { readHistoryEntries, updateHistoryEntry } from '../../store/history_store';
+import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/history_store';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import '../Main.css';
 import './History_Page.css';
 
@@ -22,11 +24,17 @@ export const HistoryPage = () => {
         dispatch(readHistoryEntries())
     }, [dispatch])
 
-    const clickHandler = async (e, entryID) => {
+    const updateHandler =  (e, entryID) => {
         e.preventDefault();
         dispatch(updateHistoryEntry({ entryID, updated_at }));
     }
    
+    const deleteHandler = (e, entryID) => {
+        e.preventDefault();
+        console.log(entryID);
+        dispatch(deleteHistoryEntry(entryID))
+    }
+
     const entriesObj = useSelector(state => state.history);
    
     const entries = Object.values(entriesObj)
@@ -46,7 +54,7 @@ export const HistoryPage = () => {
                 onClick={(e) => {
                     const date = new Date();
                     setUpdatedAt(date.toString());
-                    clickHandler(e, entry.id);
+                    updateHandler(e, entry.id);
                 }} 
             >
                 {entry.search || entry.visit}
@@ -60,6 +68,7 @@ export const HistoryPage = () => {
                     }
                 }()}
             </span>
+            <FontAwesomeIcon icon={faTrashAlt} onClick={(e) => deleteHandler(e, entry.id)} />
         </div>
     ))
 

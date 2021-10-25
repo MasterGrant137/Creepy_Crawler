@@ -37,19 +37,19 @@ def add_history_entry():
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
         \((.*)\) #? time zone
         ''', re.VERBOSE)
-        abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+\s'
-        natoTZ = r'[A-Z]TZ'
+        abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+'
+        natoTZRegex = r'[A-Z]TZ'
 
         js_date_parsed = re.search(js_date_regex, js_date).group(1)
         js_tz_parsed = re.search(js_date_regex, js_date).group(3)
-        js_tz_abbrev = re.search(abbrevTZRegex, js_tz_parsed).group(1)
+        js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
 
 
         history_entry = History(
             user_id=form.data['user_id'],
             search=form.data['search'],
             tz=js_tz_parsed,
-            tz_abbrev=js_tz_abbrev if not natoTZ.test(js_tz_abbrev) else js_tz_abbrev[0],
+            tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
             updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
         )
 
@@ -99,6 +99,18 @@ def alter_history_entry(entryID):
         db.session.add(entry)
         db.session.commit()
         return {
-            "history": entry.to_dict()
+            'history': entry.to_dict()
         }
     return {'errors': ['You are not permitted to edit this entry.']}, 401
+
+@history_routes.route('/<int:entryID>', methods=['DELETE'])
+@login_required
+def delete_history_entry(entryID):
+    entry = History.query.filter(History.id == entryID).first()
+
+    if entry.user_id == current_user.id:
+        db.session.delete(entry)
+        db.session.commit()
+        return { 'message': 'successful' }
+
+    return { 'errors': ['You are not permitted to edit this entry.'] }, 401

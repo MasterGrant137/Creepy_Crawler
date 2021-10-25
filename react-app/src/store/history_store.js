@@ -35,7 +35,7 @@ export const createHistoryEntry = (entry) => async dispatch => {
     })
     if (response.ok) {
         const newEntry = await response.json();
-        dispatch(createHistory(newEntry));
+        await dispatch(createHistory(newEntry));
         return newEntry;
     }
 }
@@ -44,7 +44,7 @@ export const readHistoryEntries = () => async dispatch => {
     const response = await fetch('/creepycrawler/history/');
     if (response.ok) {
         const entries = await response.json();
-        dispatch(readHistory(entries));
+        await dispatch(readHistory(entries));
         return entries;
     }
 }
@@ -66,6 +66,18 @@ export const updateHistoryEntry = (entry) => async dispatch => {
     }
 }
 
+export const deleteHistoryEntry = (entryID) => async dispatch => {
+    const response = await fetch(`/creepycrawler/history/${entryID}`, {
+        method: 'DELETE'
+    })
+    console.log(entryID);
+    if (response.ok) {
+        const message = await response.json();
+        await dispatch(deleteHistory(entryID));
+        return message;
+    }
+}
+
 //$ reducers
 const initialState = {}
 let newState;
@@ -82,10 +94,14 @@ export const historyReducer = (state = initialState, action) => {
             entries.forEach(entry => newState[entry.id] = entry)
             return newState;
         case UPDATE_HISTORY:
-            const updatedEntry = action.payload.history;
-            newState[updatedEntry.id]['updated_at'] = updatedEntry['updated_at'];
-            newState[updatedEntry.id].tz = updatedEntry.tz;
-            newState[updatedEntry.id]['tz_abbrev'] = updatedEntry['tz_abbrev']
+            const updateEntry = action.payload.history;
+            newState[updateEntry.id]['updated_at'] = updateEntry['updated_at'];
+            newState[updateEntry.id].tz = updateEntry.tz;
+            newState[updateEntry.id]['tz_abbrev'] = updateEntry['tz_abbrev']
+            return newState;
+        case DELETE_HISTORY:
+            const deleteEntry = action.payload.history;
+            delete newState[deleteEntry.id];
             return newState;
         default:
             return state;
