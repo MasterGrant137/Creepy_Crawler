@@ -5,7 +5,7 @@ import '../Main.css';
 import './History_Page.css';
 
 export const HistoryPage = () => {
-    const [updated_at, setUpdatedAt] = useState('');
+    const [updated_at, setUpdatedAt] = useState(new Date().toString());
 
     const dispatch = useDispatch();
     
@@ -26,12 +26,13 @@ export const HistoryPage = () => {
 
     const clickHandler = async (e, entryID) => {
         e.preventDefault();
-        await dispatch(updateHistoryEntry({ entryID, updated_at }));
+        dispatch(updateHistoryEntry({ entryID, updated_at }));
     }
-
+    // .sort((a, b) => {return b - a})
     const entriesObj = useSelector(state => state.history);
    
-    const entries = Object.values(entriesObj).map(entry => (
+    const entries = Object.values(entriesObj)
+        .map(entry => (
         <div key={entry.id} id={`entry-${entry.id}`}>
             <span id='updated-at-ele'>
                  {function () {
@@ -49,7 +50,7 @@ export const HistoryPage = () => {
             <span 
                 id='entry-ele'
                 onClick={(e) => {
-                    setUpdatedAt((new Date()).toString())
+                    setUpdatedAt(new Date().toString())
                     clickHandler(e, entry.id)
                     }} 
             >
