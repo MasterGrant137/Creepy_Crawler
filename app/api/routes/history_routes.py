@@ -35,16 +35,21 @@ def add_history_entry():
         js_date_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
-        \((.*)\) #? timezone
+        \((.*)\) #? time zone
         ''', re.VERBOSE)
+        abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+\s'
+        natoTZ = r'[A-Z]TZ'
 
         js_date_parsed = re.search(js_date_regex, js_date).group(1)
-        js_timezone_parsed = re.search(js_date_regex, js_date).group(3)
+        js_tz_parsed = re.search(js_date_regex, js_date).group(3)
+        js_tz_abbrev = re.search(abbrevTZRegex, js_tz_parsed).group(1)
+
 
         history_entry = History(
             user_id=form.data['user_id'],
             search=form.data['search'],
-            timezone=js_timezone_parsed,
+            tz=js_tz_parsed,
+            tz_abbrev=js_tz_abbrev if not natoTZ.test(js_tz_abbrev) else js_tz_abbrev[0],
             updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
         )
 
@@ -60,8 +65,6 @@ def add_history_entry():
 def get_history_entries():
     """Get all of the history entries."""
     entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-    print({'history': [ entry.to_dict() for entry in entries ]})
-    # [ entry.to_dict() for entry in entries ]
     return {
         'history': [ entry.to_dict() for entry in entries ]
     }
@@ -77,15 +80,23 @@ def alter_history_entry(entryID):
         js_date_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
-        \((.*)\) #? timezone
+        \((.*)\) #? tz
         ''', re.VERBOSE)
+        # abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+\s'
+        abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+'
+        natoTZRegex = r'[A-Z]TZ'
 
         js_date_parsed = re.search(js_date_regex, js_date).group(1)
-        js_timezone_parsed = re.search(js_date_regex, js_date).group(3)
+        js_tz_parsed = re.search(js_date_regex, js_date).group(3)
+        # js_tz_abbrev = re.search(abbrevTZRegex, js_tz_parsed).group(1)
+        js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
 
+        print(js_tz_abbrev)
         new_updated_at = datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
         entry.updated_at = new_updated_at
-        entry.timezone = js_timezone_parsed
+        entry.tz = js_tz_parsed
+        entry.tz_abbrev = js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0]
+
 
         db.session.add(entry)
         db.session.commit()

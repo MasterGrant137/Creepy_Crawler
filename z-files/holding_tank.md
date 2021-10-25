@@ -19,3 +19,10 @@ class DesertSun:
 ```
 fonts: https://www.tutorialbrain.com/css_tutorial/css_font_family_list/
 ```
+
+```javascript
+ {function () {
+                    const abbrevTZ = entry.tz.replace(dateRegex, '$1').replace(abbrevTZRegex, '$1');
+                    return !natoTZ.test(abbrevTZ) ? abbrevTZ : abbrevTZ[0];
+                }()}
+```
