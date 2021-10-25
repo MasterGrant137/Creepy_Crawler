@@ -11,7 +11,7 @@ from datetime import datetime
 from flask import Blueprint, request
 from flask_migrate import Migrate, history
 from app.models import db, History
-from app.forms import SearchForm
+from app.forms import SearchForm, PatchSearchForm
 from flask_login import current_user, login_required
 
 history_routes = Blueprint('entries', __name__)
@@ -51,10 +51,9 @@ def add_history_entry():
         db.session.add(history_entry)
         db.session.commit()
         return {
-            "history": history_entry.to_dict()
+            'history': history_entry.to_dict()
         }
-    return {'errors': validation_errors_to_error_messages(form.errors)}, 401
-
+    return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
 @history_routes.route('/')
 @login_required
@@ -62,5 +61,32 @@ def get_history_entries():
     """Get all of the history entries."""
     entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
     return {
-        "history": [ entry.to_dict() for entry in entries ]
+        'history': [ entry.to_dict() for entry in entries ]
     }
+
+@history_routes.route('/<int:entryID>', methods=['PATCH'])
+@login_required
+def alter_history_entry(entryID):
+    """Change the history entry's updated_at column."""
+    entry = History.query.filter(History.id == entryID).first()
+    if entry.user_id == current_user.id:
+        js_date = request.json['updated_at']
+        js_date_regex = re.compile(r'''
+        ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
+        ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
+        \((.*)\) #? timezone
+        ''', re.VERBOSE)
+
+        js_date_parsed = re.search(js_date_regex, js_date).group(1)
+        js_timezone_parsed = re.search(js_date_regex, js_date).group(3)
+
+        new_updated_at = datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
+        entry['updated_at'] = new_updated_at
+        entry['timezone'] = js_timezone_parsed
+
+        db.session.add(entry)
+        db.session.commit()
+        return {
+            "history": entry.to_dict()
+        }
+    return {'errors': ['You are not permitted to edit this entry.']}, 401
