@@ -24,12 +24,9 @@ export const HistoryPage = () => {
         dispatch(readHistoryEntries())
     }, [dispatch])
 
-    const clickHandler = (e, entryID) => {
+    const clickHandler = async (e, entryID) => {
         e.preventDefault();
-        if (entryID && updated_at) {
-            console.log(entryID, updated_at );
-            dispatch(updateHistoryEntry({ entryID, updated_at }))
-        }
+        await dispatch(updateHistoryEntry({ entryID, updated_at }));
     }
 
     const entriesObj = useSelector(state => state.history);

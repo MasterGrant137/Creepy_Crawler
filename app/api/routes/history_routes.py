@@ -60,6 +60,7 @@ def add_history_entry():
 def get_history_entries():
     """Get all of the history entries."""
     entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
+    print({'history': { entry.id: entry.to_dict() for entry in entries }})
     return {
         'history': [ entry.to_dict() for entry in entries ]
     }
@@ -72,7 +73,6 @@ def alter_history_entry(entryID):
 
     if entry.user_id == current_user.id:
         js_date = request.json['updated_at']
-        print('DATEEEEEEEEEEEE', request.json['updated_at'])
         js_date_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset

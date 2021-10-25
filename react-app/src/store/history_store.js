@@ -44,13 +44,13 @@ export const readHistoryEntries = () => async dispatch => {
     const response = await fetch('/creepycrawler/history/');
     if (response.ok) {
         const entries = await response.json();
+        console.log(entries);
         dispatch(readHistory(entries));
         return entries;
     }
 }
 
 export const updateHistoryEntry = (entry) => async dispatch => {
-    console.log(entry.entryID, entry.updated_at );
     const response = await fetch(`/creepycrawler/history/${entry.entryID}`, {
         headers: {
             'Content-Type': 'application/json'
@@ -73,12 +73,18 @@ export const historyReducer = (state = initialState, action) => {
     let newState = {...state};
     switch (action.type) {
         case CREATE_HISTORY:
-            const historyEntry = action.payload.history;
-            newState[historyEntry.id] = historyEntry;
+            const entry = action.payload.history;
+            newState[entry.id] = entry;
             return newState;
         case READ_HISTORY:
-            const historyEntries = action.payload.history;
-            return {...historyEntries,...newState};
+            const entries = action.payload.history;
+            console.log(entries, 'ENTRIES');
+            newState = entries;
+            return newState;
+        case UPDATE_HISTORY:
+            const updatedEntry = action.payload.history;
+            newState[updatedEntry.id]['updated_at'] = updatedEntry['updated_at'];
+            return newState;
         default:
             return state;
     }
