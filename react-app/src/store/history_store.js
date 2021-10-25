@@ -20,8 +20,9 @@ const updateHistory = (entry) => ({
     payload: entry
 })
 
-const deleteHistory = () => ({
-    type: DELETE_HISTORY
+const deleteHistory = (entryID) => ({
+    type: DELETE_HISTORY,
+    payload: entryID
 })
 
 //$ thunks
@@ -100,8 +101,9 @@ export const historyReducer = (state = initialState, action) => {
             newState[updateEntry.id]['tz_abbrev'] = updateEntry['tz_abbrev']
             return newState;
         case DELETE_HISTORY:
-            const deleteEntry = action.payload.history;
-            delete newState[deleteEntry.id];
+            const entryID = action.payload;
+            console.log(entryID);
+            delete newState[entryID];
             return newState;
         default:
             return state;
