@@ -82,13 +82,11 @@ def alter_history_entry(entryID):
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
         \((.*)\) #? tz
         ''', re.VERBOSE)
-        # abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+\s'
         abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+'
         natoTZRegex = r'[A-Z]TZ'
 
         js_date_parsed = re.search(js_date_regex, js_date).group(1)
         js_tz_parsed = re.search(js_date_regex, js_date).group(3)
-        # js_tz_abbrev = re.search(abbrevTZRegex, js_tz_parsed).group(1)
         js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
 
         print(js_tz_abbrev)

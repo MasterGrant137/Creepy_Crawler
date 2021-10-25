@@ -84,6 +84,8 @@ export const historyReducer = (state = initialState, action) => {
         case UPDATE_HISTORY:
             const updatedEntry = action.payload.history;
             newState[updatedEntry.id]['updated_at'] = updatedEntry['updated_at'];
+            newState[updatedEntry.id].tz = updatedEntry.tz;
+            newState[updatedEntry.id]['tz_abbrev'] = updatedEntry['tz_abbrev']
             return newState;
         default:
             return state;
