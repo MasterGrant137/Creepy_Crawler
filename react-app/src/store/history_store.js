@@ -87,7 +87,6 @@ let historyCache = {};
 
 export const historyReducer = (state = initialState, action) => {
     newState = {...state};
-    // historyCache = {};
     switch (action.type) {
         case CREATE_HISTORY:
             const entry = action.payload.history;
@@ -95,36 +94,16 @@ export const historyReducer = (state = initialState, action) => {
             return newState;
         case READ_HISTORY:
             const entries = action.payload.history;
-            
-            // entries.forEach(entry => newState[entry.id] = entry)
-            // console.log({...entries,...newState});
-            // console.log(newState);
-            // return newState;
-
             entries.forEach((entry, idx) => historyCache[entry.id] = idx)
-            console.log('ohhhhhh', historyCache);
-            // let i = 0;
-            // for (let entry in entryCache) {
-            //      entry = entries[i];
-            //     i++;
-            // }
-            // console.log(entryCache);
             return {...entries,...newState};
         case UPDATE_HISTORY:
             const updateEntry = action.payload.history;
-            // console.log('history store', Object.values(newState).find(entry => entry.id === updateEntry.id));
-            // newState[updateEntry.id]['updated_at'] = updateEntry['updated_at'];
-            // newState[updateEntry.id].tz = updateEntry.tz;
-            // newState[updateEntry.id]['tz_abbrev'] = updateEntry['tz_abbrev']
-
-            console.log('AYYYY',newState[historyCache[updateEntry.id]]['updated_at']);
             newState[historyCache[updateEntry.id]]['updated_at'] = updateEntry['updated_at'];
             newState[historyCache[updateEntry.id]].tz = updateEntry.tz;
             newState[historyCache[updateEntry.id]]['tz_abbrev'] = updateEntry['tz_abbrev']
             return newState;
         case DELETE_HISTORY:
             const entryID = action.payload;
-            console.log('mmmmmmm',historyCache);
             delete newState[historyCache[entryID]];
             return newState;
         default:

@@ -16,6 +16,7 @@ export const SearchPage = () => {
     const searchHandler = (e) => {
         e.preventDefault();
         dispatch(createHistoryEntry({ user_id, search, updated_at }));
+        window.location.reload();
     }
 
     return (
