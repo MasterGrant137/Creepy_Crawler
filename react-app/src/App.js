@@ -14,6 +14,18 @@ function App() {
   const [loaded, setLoaded] = useState(false);
   const dispatch = useDispatch();
 
+  const siteTheme = {
+    backgroundColor: `#EAE7DC`,
+    backgroundImage: ``,
+    color: `#E85A4F`,
+    fontFamily: `Georgia, serif`,
+    fontSize: ``
+  }
+
+  document.body.style.backgroundColor = siteTheme.backgroundColor;
+  document.body.style.color = siteTheme.color;
+  document.body.style.fontFamily = siteTheme.fontFamily;
+
   useEffect(() => {
     (async() => {
       await dispatch(authenticate());
@@ -30,19 +42,19 @@ function App() {
       <NavBar />
       <Switch>
         <Route path='/login' exact={true}>
-          <LoginForm />
+          <LoginForm style={siteTheme} />
         </Route>
         <Route path='/sign-up' exact={true}>
-          <SignUpForm />
+          <SignUpForm style={siteTheme} />
         </Route>
         <ProtectedRoute path='/settings' exact={true}>
-          <SettingsPage />
+          <SettingsPage style={siteTheme} />
         </ProtectedRoute>
         <ProtectedRoute path='/history' exact={true}>
-          <HistoryPage />
+          <HistoryPage style={siteTheme} />
         </ProtectedRoute>
         <Route path='/' exact={true} >
-          <SearchPage />
+          <SearchPage style={siteTheme} />
         </Route>
       </Switch>
     </BrowserRouter>

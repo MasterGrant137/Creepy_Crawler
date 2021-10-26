@@ -7,7 +7,7 @@ function User() {
   const [user, setUser] = useState({});
   const { userId }  = useParams();
 
-  useEffect(() => {
+  useEffect(({ style }) => {
     if (!userId) {
       return;
     }

@@ -6,7 +6,7 @@ import LogoutButton from '../auth/LogoutButton';
 import '../Main.css';
 import './NavBar.css';
 
-const NavBar = () => {
+const NavBar = ({ style }) => {
   const user = useSelector(state => state.session.user);
 
   return (

@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 
-button {
-    box-shadow: 0 0 5px ;
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px black;
 }
 
 /*=================================*/
@@ -31,6 +32,10 @@ button {
     max-height: 200px;
     overflow-y: auto;
     width: fit-content;
+}
+
+.some {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*=================================*/

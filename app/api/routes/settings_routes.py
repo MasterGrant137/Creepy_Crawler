@@ -2,10 +2,33 @@
 
 from flask import Blueprint, request
 from flask_migrate import Migrate
-from app.models import db, Theme
+from app.models import db, User, Theme
 from flask_login import current_user, login_required
+from app.s3_helpers import (upload_file_to_s3, allowed_file, get_unique_filename)
 
 settings_routes = Blueprint('settings', __name__)
+
+@settings_routes.route('/media', methods=['PATCH'])
+@login_required
+def upload_media():
+    if 'media' not in request.files:
+        return {'errors': 'media required'}, 400
+
+    media = request.files['media']
+
+    media.filename = get_unique_filename(media.filename)
+
+    upload = upload_file_to_s3(media)
+
+    #? if dict has no filename key
+    if 'url' not in upload:
+        return upload, 400
+
+    url = upload['url']
+    edited_user = User(
+        id=current_user.id,
+        media=url
+    )
 
 def validation_errors_to_error_messages(validation_errors):
     """Turn the WTForms validation errors into a simple list."""
