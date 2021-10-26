@@ -1,13 +1,26 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
+import { createUserSetting, updateUserSetting } from '../../store/settings_store';
+import { useModal } from '../context/Modal';
 
 export const SettingsPage = ({ style }) => {
     const [fSDropdown, setFSDropdown] = useState('invisible');
     const [fDropdown, setFDropdown] = useState('invisible');
     const [media, setMedia] = useState(null);
     const [mediaLoading, setMediaLoading] = useState(false);
+    const [errors, setErrors] = useState([]);
+    const { closeModal } = useModal();
+    const fontSizes = dropdownData['font-sizes'];
+    const fonts = dropdownData['fonts'];
+    const dispatch = useDispatch();
+
+    const updateMedia = (e) => {
+        const file = e.target.files[0];
+        if (file) setMedia(file);
+    }
 
     const userMediaHandler = async (e) => {
         e.preventDefault();
@@ -15,25 +28,18 @@ export const SettingsPage = ({ style }) => {
         formData.append('media', media);
 
         setMediaLoading(true);
-        const res = await fetch('api/images', {
-            method: 'POST',
-            body: formData
-        })
-        if (res.ok) {
-            await res.json();
-            setMediaLoading(false);
+
+        const data = await dispatch(createUserSetting(formData));
+        setMediaLoading(false);
+        if (data) {
+            setErrors(data);
         } else {
-            setMediaLoading(false);
+            await dispatch(createUserSetting());
+            await dispatch(updateUserSetting());
+            closeModal();
         }
-    }
 
-    const updateMedia = (e) => {
-        const file = e.target.files[0];
-        if (file) setMedia(file);
     }
-
-    const fontSizes = dropdownData['font-sizes'];
-    const fonts = dropdownData['fonts'];
 
     const dropdownHandler = (eType, eTarg, e) => {
         if (eType === 'onMouseOver') {
@@ -47,6 +53,7 @@ export const SettingsPage = ({ style }) => {
     const fontSizeChoices = fontSizes.map(fontSize => (
         <div key={fontSize} className={fSDropdown}>{fontSize}</div>
     ))
+
     const fontChoices = fonts.map(font => (
         <div key={font} className={fDropdown}>{font}</div>
     ))
@@ -56,7 +63,7 @@ export const SettingsPage = ({ style }) => {
             <h1>Settings</h1>
             <div>
                 <h2>Change Profile Media</h2>
-                <form>
+                <form onSubmit={userMediaHandler}>
                     <label
                         htmlFor='s-p-user-media-uploader'
                     >
@@ -70,9 +77,9 @@ export const SettingsPage = ({ style }) => {
                     {mediaLoading && (<span>Loading...</span>)}
                 </form>
                 <div>
-                    {/* {errors.map(error => {
-
-                    })} */}
+                    {errors.map(error => (
+                        <div key={error}>{error}</div>
+                    ))}
                 </div>
             </div>
             <div>

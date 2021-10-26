@@ -3,8 +3,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import LoginForm from './components/auth/LoginForm';
 import SignUpForm from './components/auth/SignUpForm';
-import NavBar from './components/Navigation/NavBar';
+import NavBar from './components/Navigation/Nav_Bar';
 import ProtectedRoute from './components/auth/ProtectedRoute';
+import { ScrollToTop } from './components/Scroll_to_Top/Scroll_to_Top';
 import { HistoryPage } from './components/History_Page/History_Page';
 import { SearchPage } from './components/Search_Page/Search_Page';
 import { SettingsPage } from './components/Settings_Page/Settings_Page';
@@ -39,6 +40,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <NavBar />
       <Switch>
         <Route path='/login' exact={true}>

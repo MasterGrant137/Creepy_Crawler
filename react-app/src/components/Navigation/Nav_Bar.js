@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import LogoutButton from '../auth/LogoutButton';
 import '../Main.css';
-import './NavBar.css';
+import './Nav_Bar.css';
 
 const NavBar = ({ style }) => {
   const user = useSelector(state => state.session.user);
