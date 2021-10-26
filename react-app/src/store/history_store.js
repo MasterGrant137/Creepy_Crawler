@@ -45,7 +45,6 @@ export const readHistoryEntries = () => async dispatch => {
     const response = await fetch('/creepycrawler/history/');
     if (response.ok) {
         const entries = await response.json();
-        console.log(entries);
         await dispatch(readHistory(entries));
         return entries;
     }
@@ -72,7 +71,6 @@ export const deleteHistoryEntry = (entryID) => async dispatch => {
     const response = await fetch(`/creepycrawler/history/${entryID}`, {
         method: 'DELETE'
     })
-    console.log(entryID);
     if (response.ok) {
         const message = await response.json();
         await dispatch(deleteHistory(entryID));

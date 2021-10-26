@@ -65,8 +65,15 @@ export const SettingsPage = ({ style }) => {
                     <input
                         id='s-p-user-media-uploader'
                         type='file'
+                        onChange={updateMedia}
                     />
+                    {mediaLoading && (<span>Loading...</span>)}
                 </form>
+                <div>
+                    {/* {errors.map(error => {
+
+                    })} */}
+                </div>
             </div>
             <div>
                 <h2>Customize Theme</h2>
