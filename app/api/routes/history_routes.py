@@ -65,7 +65,6 @@ def add_history_entry():
 def get_history_entries():
     """Get all of the history entries."""
     entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-    print(entries)
     return {
         'history': [ entry.to_dict() for entry in entries ]
     }
@@ -73,7 +72,7 @@ def get_history_entries():
 @history_routes.route('/<int:entryID>', methods=['PATCH'])
 @login_required
 def alter_history_entry(entryID):
-    """Change the history entry's updated_at column."""
+    """Change the history entry's date and time information."""
     entry = History.query.filter(History.id == entryID).first()
 
     if entry.user_id == current_user.id:
@@ -90,7 +89,6 @@ def alter_history_entry(entryID):
         js_tz_parsed = re.search(js_date_regex, js_date).group(3)
         js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
 
-        print(js_tz_abbrev)
         new_updated_at = datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
         entry.updated_at = new_updated_at
         entry.tz = js_tz_parsed
@@ -107,6 +105,7 @@ def alter_history_entry(entryID):
 @history_routes.route('/<int:entryID>', methods=['DELETE'])
 @login_required
 def delete_history_entry(entryID):
+    """Delete history entry."""
     entry = History.query.filter(History.id == entryID).first()
 
     if entry.user_id == current_user.id:

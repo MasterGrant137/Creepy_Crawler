@@ -1,0 +1,23 @@
+{
+    "font-sizes": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 ],
+    "fonts": [
+        "Arial | sans-serif", 
+        "Arial Black | sans-serif", 
+        "Verdana | sans-serif", 
+        "Tahoma | sans-serif", 
+        "Trebuchet MS | sans-serif", 
+        "Impact | sans-serif", 
+        "Times New Roman | serif", 
+        "Didot | serif", 
+        "Georgia | serif", 
+        "American Typewriter | serif", 
+        "Andalé Mono | monospace", 
+        "Courier | monospace", 
+        "Lucida Console | monospace", 
+        "Monaco | monospace", 
+        "Bradley Hand | cursive", 
+        "Brush Script MT | cursive", 
+        "Luminari | fantasy", 
+        "Comic Sans MS | cursive"
+    ]
+}
