@@ -2,13 +2,13 @@
 + I've found that JavaScript's regex flavor has a few key differences to Python's. It all revolves around the information packed into the regex string or object vs. the methods surrounding it. Python puts more responsibility on the methods to guide the action of the pattern matching while Javascript embeds all the relevant information in the expression itself. Take the example of making a title abbreviator as I did in this project:
     + Py
         ```python
-        long_timezone = 'Pacific Daylight Time'
-        short_timezone = ''.join(re.findall(r'([A-Z]){1}\w+',   long_timezone)) # PDT
+        long_time_zone = 'Pacific Daylight Time'
+        short_time_zone = ''.join(re.findall(r'([A-Z]){1}\w+', long_time_zone)) # PDT
         ```
     + JS
         ```javascript
-        const longTimezone = 'Pacific Daylight Time';
-        const shortTimezone = longTimezone.replace(/([A-Z]){1}\w+|(\s)/ g, '$1'); // PDT
+        const longTimeZone = 'Pacific Daylight Time';
+        const shortTimeZone = longTimeZone.replace(/([A-Z]){1}\w+|(\s)/g, '$1'); // PDT
         ```
 + JavaScript's emphasis on the expression over the method is elucidated in the previous example. The g flag is offering the expression more specificity in its search in the same way that the findall method is doing for the Python expression. Even the flag placement in the code highlights the different philosophies. JavaScript chooses to keep the flags as close to the expression as possible while Python makes them arguments of the methods:
     + JS
@@ -33,7 +33,7 @@
                                 '([A-Z]{1}[a-z]{2}),\\s', // day of the week
                                 '(\\d{2}\\s[A-Z]{1}[a-z]{2}\\s\\d{4})\\s', // day, month, and year
                                 '(\\d{2}:\\d{2}:\\d{2})\\s', //? time
-                                '(.*)' // timezone
+                                '(.*)' // time zone
                                 ].join(''), 'g');
         ```
     + Py
@@ -41,7 +41,7 @@
         js_date_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s # date and time
         ([A-Z]{1,5}[-|+]\d{4})\s # gmt offset
-        \((.*)\) # timezone
+        \((.*)\) # time zone
         ''', re.VERBOSE)
         ```
 

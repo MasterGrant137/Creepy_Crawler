@@ -1,7 +1,7 @@
 """History model creation."""
 
 from .db import db
-from datetime import datetime, timezone, tzinfo
+from datetime import datetime
 
 class History(db.Model):
     """History Model."""
@@ -12,7 +12,8 @@ class History(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('users.id', ondelete='CASCADE'), nullable=False)
     search = db.Column(db.String(1000), nullable=True)
     visit = db.Column(db.String(1000), nullable=True)
-    timezone=db.Column(db.String(50), nullable=False)
+    tz=db.Column(db.String(50), nullable=False)
+    tz_abbrev=db.Column(db.String(10), nullable=False)
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now())
     updated_at = db.Column(db.DateTime, nullable=False)
 
@@ -23,6 +24,7 @@ class History(db.Model):
             'user_id': self.user_id,
             'search': self.search,
             'visit': self.visit,
-            'timezone': self.timezone,
+            'tz': self.tz,
+            'tz_abbrev': self.tz_abbrev,
             'updated_at': self.updated_at
         }

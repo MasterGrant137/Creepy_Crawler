@@ -13,15 +13,14 @@ from app.api.routes.user_routes import user
 
 
 class SearchForm(FlaskForm):
-    """Responsible for processing search queries."""
+    """Responsible for processing post requests for search queries."""
 
     user_id = IntegerField('user_id', validators=[DataRequired()])
     search = StringField('search', validators=[DataRequired()])
     updated_at = StringField('updated_at', validators=[DataRequired()])
 
-
 class VisitForm(FlaskForm):
-    """Responsible for processing link clicks."""
+    """Responsible for processing posts requests for clicked links."""
 
     user_id = IntegerField('user_id', validators=[DataRequired()])
     visit = StringField('visit', validators=[DataRequired()])

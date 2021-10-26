@@ -3,14 +3,16 @@ from faker import Faker
 fake = Faker()
 import random
 
-timezones = ['Alpha Time Zone', 'Australian Western Standard Time', 'Eastern Standard Time', 'Pacific Standard Time', 'X-ray Time Zone']
+time_zones = ['Uniform Time Zone', 'Pacific Standard Time']
+time_zone_abbrevs = ['U', 'PST']
 
 def seed_history():
     for i in range(300):
         searchEntry = History(
-            user_id=random.randint(1, 15),
+            user_id=random.randint(1, 3),
             search=fake.sentence(nb_words=10),
-            timezone=timezones[random.randint(0, 4)],
+            tz=time_zones[0 if i % 2 == 0 else 1],
+            tz_abbrev=time_zone_abbrevs[0 if i % 2 == 0 else 1],
             updated_at=fake.date_time()
         )
         db.session.add(searchEntry)

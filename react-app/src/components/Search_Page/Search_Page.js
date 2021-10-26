@@ -16,10 +16,12 @@ export const SearchPage = () => {
     const searchHandler = (e) => {
         e.preventDefault();
         dispatch(createHistoryEntry({ user_id, search, updated_at }));
+        window.location.reload();
     }
 
     return (
         <div>
+            <h1>Creepy Crawler</h1>
             <form onSubmit={searchHandler}>
                 <input
                     type='text'

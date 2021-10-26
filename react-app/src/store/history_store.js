@@ -20,8 +20,9 @@ const updateHistory = (entry) => ({
     payload: entry
 })
 
-const deleteHistory = () => ({
-    type: DELETE_HISTORY
+const deleteHistory = (entryID) => ({
+    type: DELETE_HISTORY,
+    payload: entryID
 })
 
 //$ thunks
@@ -35,7 +36,7 @@ export const createHistoryEntry = (entry) => async dispatch => {
     })
     if (response.ok) {
         const newEntry = await response.json();
-        dispatch(createHistory(newEntry));
+        await dispatch(createHistory(newEntry));
         return newEntry;
     }
 }
@@ -44,33 +45,67 @@ export const readHistoryEntries = () => async dispatch => {
     const response = await fetch('/creepycrawler/history/');
     if (response.ok) {
         const entries = await response.json();
-        dispatch(readHistory(entries));
+        console.log(entries);
+        await dispatch(readHistory(entries));
         return entries;
     }
 }
 
-export const updateHistoryEntry = (entryID) => async dispatch => {
-    const response = await fetch(`/creepycrawler/history/${entryID}`, {
+export const updateHistoryEntry = (entry) => async dispatch => {
+    const response = await fetch(`/creepycrawler/history/${entry.entryID}`, {
         headers: {
-            'Content-Type': 'applications/json'
+            'Content-Type': 'application/json'
         },
         method: 'PATCH',
-        body: JSON.stringify(entryID)
+        body: JSON.stringify({
+            updated_at: entry.updated_at
+        })
     })
+    if (response.ok) {
+        const entry = await response.json();
+        dispatch(updateHistory(entry));
+        return entry;
+    }
+}
+
+export const deleteHistoryEntry = (entryID) => async dispatch => {
+    const response = await fetch(`/creepycrawler/history/${entryID}`, {
+        method: 'DELETE'
+    })
+    console.log(entryID);
+    if (response.ok) {
+        const message = await response.json();
+        await dispatch(deleteHistory(entryID));
+        return message;
+    }
 }
 
 //$ reducers
 const initialState = {}
+let newState;
+let historyCache = {};
+
 export const historyReducer = (state = initialState, action) => {
-    let newState = {...state};
+    newState = {...state};
     switch (action.type) {
         case CREATE_HISTORY:
-            const historyEntry = action.payload.history;
-            newState[historyEntry.id] = historyEntry;
+            const entry = action.payload.history;
+            newState[entry.id] = entry;
             return newState;
         case READ_HISTORY:
-            const historyEntries = action.payload.history;
-            return {...historyEntries,...newState};
+            const entries = action.payload.history;
+            entries.forEach((entry, idx) => historyCache[entry.id] = idx)
+            return {...entries,...newState};
+        case UPDATE_HISTORY:
+            const updateEntry = action.payload.history;
+            newState[historyCache[updateEntry.id]]['updated_at'] = updateEntry['updated_at'];
+            newState[historyCache[updateEntry.id]].tz = updateEntry.tz;
+            newState[historyCache[updateEntry.id]]['tz_abbrev'] = updateEntry['tz_abbrev']
+            return newState;
+        case DELETE_HISTORY:
+            const entryID = action.payload;
+            delete newState[historyCache[entryID]];
+            return newState;
         default:
             return state;
     }
