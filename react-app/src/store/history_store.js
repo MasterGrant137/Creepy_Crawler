@@ -117,7 +117,7 @@ export const historyReducer = (state = initialState, action) => {
             // newState[updateEntry.id].tz = updateEntry.tz;
             // newState[updateEntry.id]['tz_abbrev'] = updateEntry['tz_abbrev']
 
-            console.log('AYYYY',historyCache);
+            console.log('AYYYY',newState[historyCache[updateEntry.id]]['updated_at']);
             newState[historyCache[updateEntry.id]]['updated_at'] = updateEntry['updated_at'];
             newState[historyCache[updateEntry.id]].tz = updateEntry.tz;
             newState[historyCache[updateEntry.id]]['tz_abbrev'] = updateEntry['tz_abbrev']
@@ -125,7 +125,7 @@ export const historyReducer = (state = initialState, action) => {
         case DELETE_HISTORY:
             const entryID = action.payload;
             console.log('mmmmmmm',historyCache);
-            delete newState[entryID];
+            delete newState[historyCache[entryID]];
             return newState;
         default:
             return state;

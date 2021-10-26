@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/history_store';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -7,6 +8,7 @@ import '../Main.css';
 import './History_Page.css';
 
 export const HistoryPage = () => {
+    const history = useHistory();
     const dispatch = useDispatch();
 
     const dateRegex = new RegExp([
@@ -27,11 +29,12 @@ export const HistoryPage = () => {
     const updateHandler =  (e, entryID) => {
         e.preventDefault();
         dispatch(updateHistoryEntry({ entryID, updated_at }));
+        history.push('/');
+        window.location.reload();
     }
    
     const deleteHandler = (e, entryID) => {
         e.preventDefault();
-        console.log(entryID);
         dispatch(deleteHistoryEntry(entryID))
     }
 
