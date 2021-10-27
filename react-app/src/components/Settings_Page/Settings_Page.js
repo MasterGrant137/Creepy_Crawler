@@ -34,8 +34,8 @@ export const SettingsPage = ({ style }) => {
 
         const data = await dispatch(editUserMedia(user.id, formData));
         setMediaLoading(false);
-        if (data) {
-            setErrors(data);
+        if (data.errors) {
+            setErrors(data.errors);
         } else {
             closeModal();
         }
