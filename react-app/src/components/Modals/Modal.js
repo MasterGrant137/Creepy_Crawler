@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDom from 'react-dom';
 import { useModal } from '../context/Modal_Context';
 import '../Main.css';

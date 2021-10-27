@@ -22,10 +22,11 @@ def seed_users():
 
     for i in range(3):
         new_user = User (
-            username=fake.date_time_this_year(),
+            username=fake.user_name(),
             email=fake.safe_email(),
             password=''.join(random.choice(password_characters) for i in range(15)),
-            media=f"https://randomuser.me/api/portraits/{'men' if i % 2 == 0 else 'women'}/{i}.jpg"
+            media=f"https://randomuser.me/api/portraits/{'men' if i % 2 == 0 else 'women'}/{i}.jpg",
+            updated_at=fake.date_time_this_year()
         )
         db.session.add(new_user)
 
