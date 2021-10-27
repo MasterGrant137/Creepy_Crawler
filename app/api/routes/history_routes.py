@@ -94,7 +94,6 @@ def alter_history_entry(entryID):
         entry.tz = js_tz_parsed
         entry.tz_abbrev = js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0]
 
-
         db.session.add(entry)
         db.session.commit()
         return {

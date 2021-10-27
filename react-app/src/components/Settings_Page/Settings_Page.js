@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
-import { createUserSetting, updateUserSetting } from '../../store/settings_store';
+import { editUserMedia } from '../../store/session';
 import { useModal } from '../context/Modal_Context.js';
 
 export const SettingsPage = ({ style }) => {
@@ -17,6 +17,8 @@ export const SettingsPage = ({ style }) => {
     const fonts = dropdownData['fonts'];
     const dispatch = useDispatch();
 
+    const user = useSelector(state => state.session.user);
+
     const updateMedia = (e) => {
         const file = e.target.files[0];
         if (file) setMedia(file);
@@ -24,18 +26,17 @@ export const SettingsPage = ({ style }) => {
 
     const userMediaHandler = async (e) => {
         e.preventDefault();
+
         const formData = new FormData();
         formData.append('media', media);
-
+        // console.log(media);
         setMediaLoading(true);
 
-        const data = await dispatch(createUserSetting(formData));
+        const data = await dispatch(editUserMedia(user.id, formData));
         setMediaLoading(false);
         if (data) {
             setErrors(data);
         } else {
-            await dispatch(createUserSetting());
-            await dispatch(updateUserSetting());
             closeModal();
         }
 
@@ -76,8 +77,9 @@ export const SettingsPage = ({ style }) => {
                         onChange={updateMedia}
                     />
                     {mediaLoading && (<span>Loading...</span>)}
+                    <button>Submit</button>
                 </form>
-                <form onSubmit={userMediaHandler}>
+                {/* <form onSubmit={userMediaHandler}>
                     <h3>Site Background</h3>
                     <label
                         htmlFor='s-p-user-media-uploader'
@@ -90,13 +92,13 @@ export const SettingsPage = ({ style }) => {
                         onChange={updateMedia}
                     />
                     {mediaLoading && (<span>Loading...</span>)}
-                </form>
+                    <button>Submit</button>
+                </form> */}
                 <div>
                     {errors.map(error => (
                         <div key={error}>{error}</div>
                     ))}
                 </div>
-                <button type='button'>Submit</button>
             </div>
             <div>
                 <h2>Customize Theme</h2>

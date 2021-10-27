@@ -29,7 +29,7 @@ def allowed_file(filename):
 def get_unique_filename(filename):
     """Generate unique filename."""
     ext = filename.rsplit('.', 1)[1].lower()
-    unique_filename = uuid.uuid4.hex
+    unique_filename = uuid.uuid4().hex
     return f"{unique_filename}.{ext}"
 
 def upload_file_to_s3(file, acl='public-read'):
@@ -45,6 +45,7 @@ def upload_file_to_s3(file, acl='public-read'):
             }
         )
     except Exception as e:
+        print('THIS IS THE PRINT FOR EXCEPTION', str(e))
         # in case the s3 upload fails
         return {'errors': str(e)}
 

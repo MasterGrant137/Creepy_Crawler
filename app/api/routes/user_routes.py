@@ -1,8 +1,44 @@
 from flask import Blueprint, jsonify, request
-from flask_login import login_required
-from app.models import User
+from flask_login import current_user, login_required
+from app.models import db, User
+from app.s3_helpers import (upload_file_to_s3, allowed_file, get_unique_filename)
 
 user_routes = Blueprint('users', __name__)
+
+@user_routes.route('/<int:userID>', methods=['PATCH'])
+@login_required
+def upload_media(userID):
+    """Upload media to aws and update database."""
+
+    if 'media' not in request.files:
+        return {'errors': 'media required'}, 400
+
+    media = request.files['media']
+
+
+    if not allowed_file(media.filename):
+        return {'errors': ['That file type is not permitted.']}, 400
+        
+    media.filename = get_unique_filename(media.filename)
+    upload = upload_file_to_s3(media)
+   
+    #? if dict has no filename key
+    if 'url' not in upload:
+        return upload, 400
+    print(request.files['media'])
+
+
+    url = upload['url']
+    edited_user = User(
+        id=current_user.id,
+        media=url
+    )
+
+    db.session.add(edited_user)
+    db.session.commit()
+    return {
+        'user': edited_user.to_dict()
+    }
 
 @user_routes.route('/')
 @login_required

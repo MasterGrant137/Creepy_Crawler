@@ -16,42 +16,16 @@ def validation_errors_to_error_messages(validation_errors):
             errorMessages.append(f'{field} : {error}')
     return errorMessages
 
-@settings_routes.route('/media', methods=['PATCH'])
-@login_required
-def upload_media():
-    """Upload media to aws and update database."""
-    if 'media' not in request.files:
-        return {'errors': 'media required'}, 400
-
-    media = request.files['media']
-
-    media.filename = get_unique_filename(media.filename)
-
-    upload = upload_file_to_s3(media)
-
-    #? if dict has no filename key
-    if 'url' not in upload:
-        return upload, 400
-
-    url = upload['url']
-    edited_user = User(
-        id=current_user.id,
-        media=url
-    )
-    db.session.add(edited_user)
-    db.seesion.commit()
-    return {'url': url}
-
 @settings_routes.route('/', methods=['POST'])
 def add_theme():
     """Add a theme."""
     theme_data = request.json
     print(theme_data)
 
-    theme = Theme()
-    theme_data.populate_obj(theme)
-    db.session.add(theme)
-    db.session.commit()
+    # theme = Theme(theme_data)
+
+    # db.session.add(theme)
+    # db.session.commit()
 
 # * Add the line below after each conditional
 # * return {'errors': validation_errors_to_error_messages(form.errors)}, 400
