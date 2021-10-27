@@ -34,7 +34,6 @@ export const createUserSetting = (setting) => async dispatch => {
         method: 'POST',
         body: JSON.stringify(setting)
     })
-    console.log(response);
     if (response.ok) {
         const newSetting = await response.json();
         await dispatch(createSetting(newSetting));
