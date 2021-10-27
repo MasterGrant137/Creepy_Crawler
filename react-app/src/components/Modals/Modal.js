@@ -4,7 +4,7 @@ import { useModal } from '../context/Modal_Context';
 import '../Main.css';
 import '../Modal.css';
 
-export const AddUserMediaModal = ({ style }) => {
+export const Modal = ({ style }) => {
     const { isOpen, closeModal, modalContent } = useModal();
     if (!isOpen) return null;
 

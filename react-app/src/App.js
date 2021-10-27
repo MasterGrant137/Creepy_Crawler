@@ -10,9 +10,11 @@ import { HistoryPage } from './components/History_Page/History_Page';
 import { SearchPage } from './components/Search_Page/Search_Page';
 import { SettingsPage } from './components/Settings_Page/Settings_Page';
 import { authenticate } from './store/session';
+import { Modal } from './components/Modals/Modal';
 
 function App() {
   const [loaded, setLoaded] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const dispatch = useDispatch();
 
   const siteTheme = {
@@ -41,6 +43,7 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
+      <Modal open={isOpen} onClose={() => setIsOpen(false)} />
       <NavBar />
       <Switch>
         <Route path='/login' exact={true}>

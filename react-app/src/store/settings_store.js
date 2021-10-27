@@ -34,6 +34,7 @@ export const createUserSetting = (setting) => async dispatch => {
         method: 'POST',
         body: JSON.stringify(setting)
     })
+    console.log(response);
     if (response.ok) {
         const newSetting = await response.json();
         await dispatch(createSetting(newSetting));
@@ -82,7 +83,7 @@ export const deleteUserSetting = (settingID) => async dispatch => {
 const initialState = {}
 let newState;
 
-export const historyReducer = (state = initialState, action) => {
+export const settingsReducer = (state = initialState, action) => {
     newState = {...state};
     switch (action.type) {
         case CREATE_SETTING:

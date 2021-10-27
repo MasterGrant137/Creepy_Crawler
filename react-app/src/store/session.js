@@ -1,11 +1,18 @@
 // constants
 const SET_USER = 'session/SET_USER';
+const GET_USER = 'session/GET_USER';
 const REMOVE_USER = 'session/REMOVE_USER';
+
 
 const setUser = (user) => ({
   type: SET_USER,
   payload: user
 });
+
+const getUser = (user) => ({
+  type: GET_USER,
+  payload: user
+})
 
 const removeUser = () => ({
   type: REMOVE_USER,
@@ -95,9 +102,21 @@ export const signUp = (username, email, password) => async (dispatch) => {
   }
 }
 
+export const readUser = (userID) => async dispatch => {
+  const response = await fetch(`/creepycrawler/${userID}`);
+
+  if (response.ok) {
+    const user = await response.json();
+    await dispatch(getUser(user));
+    return user;
+  }
+}
+
 export default function reducer(state = initialState, action) {
   switch (action.type) {
     case SET_USER:
+      return { user: action.payload }
+    case GET_USER:
       return { user: action.payload }
     case REMOVE_USER:
       return { user: null }

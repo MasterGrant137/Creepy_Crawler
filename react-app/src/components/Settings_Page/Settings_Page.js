@@ -4,7 +4,7 @@ import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
 import { createUserSetting, updateUserSetting } from '../../store/settings_store';
-import { useModal } from '../context/Modal';
+import { useModal } from '../context/Modal_Context.js';
 
 export const SettingsPage = ({ style }) => {
     const [fSDropdown, setFSDropdown] = useState('invisible');
@@ -81,6 +81,7 @@ export const SettingsPage = ({ style }) => {
                         <div key={error}>{error}</div>
                     ))}
                 </div>
+                <button type='button'>Submit</button>
             </div>
             <div>
                 <h2>Customize Theme</h2>
@@ -115,7 +116,7 @@ export const SettingsPage = ({ style }) => {
                         <span>Font</span>
                         {fontChoices}
                     </div>
-                    <button>Submit</button>
+                    <button type='button'>Submit</button>
                 </form>
             </div>
         </div>
