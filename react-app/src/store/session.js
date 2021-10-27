@@ -108,9 +108,6 @@ export const readUser = (userID) => async dispatch => {
 
 export const editUserMedia = (userID, formData) => async dispatch => {
   const response = await fetch(`/creepycrawler/users/${userID}`, {
-      // headers: {
-      //     'Content-Type': 'application/json'
-      // },
       method: 'PATCH',
       body: formData
   })

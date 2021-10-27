@@ -9,7 +9,6 @@ user_routes = Blueprint('users', __name__)
 @login_required
 def upload_media(userID):
     """Upload media to aws and update database."""
-
     if 'media' not in request.files:
         return {'errors': 'media required'}, 400
 
@@ -18,26 +17,24 @@ def upload_media(userID):
 
     if not allowed_file(media.filename):
         return {'errors': ['That file type is not permitted.']}, 400
-        
+
     media.filename = get_unique_filename(media.filename)
     upload = upload_file_to_s3(media)
    
     #? if dict has no filename key
     if 'url' not in upload:
         return upload, 400
-    print(request.files['media'])
-
 
     url = upload['url']
-    edited_user = User(
-        id=current_user.id,
-        media=url
-    )
 
-    db.session.add(edited_user)
+    user = User.query.filter(User.id == userID).first()
+
+    user.media=url
+
+    db.session.add(user)
     db.session.commit()
     return {
-        'user': edited_user.to_dict()
+        'user': user.to_dict()
     }
 
 @user_routes.route('/')
