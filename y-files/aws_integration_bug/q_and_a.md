@@ -77,30 +77,15 @@ Useful Tips
 	<HostId>G9bv6r48cWIZhHj3JL9hozikFIm/V/0q/Z8nqrNNtgnF1jplgIk+KEtcMn9yBJkzQgN1ro99qYw=</HostId>
 	</Error>
 	```
-+ Initially, I wasn't able to have latest credentials recognized
-
-def upload_media(userID)
-	import boto3
-	client = boto3.client('sts')
-	print(client.get_caller_identity())
-	print(boto3.set_stream_logger('botocore', level='DEBUG'))
-
-First print: botocore.exceptions.NoCredentialsError: Unable to locate credentials
-Second print: long debug report with one line that particularly stood out:
-
-
-</Message><AWSAccessKeyId>12345EXAMPLE</AWSAccessKeyId>
-The access key ID that they were viewing was a bit several characters off of my current access ID. It seemed to be picking up on an older version (I've rotated my keys several times).
-
-AND
-
-'context': {'client_region': 'us-east-1'...}
-The region on my account is us-west-1.
-
-I shut down all of my servers and restarted my shell. This stopped the previous error but now the debug statement log was stating `<Message>Access Denied</Message>`. So, I went to my bucket policies and discovered they were blank, despite having thought I configured it before.
-
-
-After researching, I concluded it must be something with my permissions. Eventually, after extensive searching, it was revealed to me that one could manually upload to an s3 bucket. this would be the ultimate test of permissions since its not derived from my code. Upon uploading a photo, I received this error when I tried to follow the link:
-
-
-This mirrored the log I had seen while debugging in my code with `boto3.set_stream_logger('botocore', level='DEBUG')`. It became clear to me that there must be something wrong with my bucket/account configuration. Turns out the policy section I had flagged earlier was indeed the source. 
++ Initially, I wasn't able to have latest credentials recognized. I had changed my credentials several times for various reasons and when I wrote the following debugging code into my program, it evinced that aws wasn't getting my most recent access key ID.
+	```py
+	def upload_media(userID)
+		import boto3
+		print(boto3.set_stream_logger('botocore', level='DEBUG'))
+	```
+	+ The print was a comprehensive debug log with one part that particularly stood out: 
+		```shell
+		<!-- This did not match my most current access key ID -->
+		</Message><AWSAccessKeyId>12345EXAMPLE</AWSAccessKeyId>
+		```
+	+ I shut down all of my servers and restarted my shell. This addressed the previous error, but that's when I first encountered the `<Message>Access Denied</Message>` error. This would foreshadow what I would later view on my aws account when I uploaded manually. As aforementioned, this was rectified by changing my `Bucket policy` settings.
