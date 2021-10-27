@@ -20,12 +20,6 @@ const LoginForm = () => {
     }
   };
 
-  const demoLogin = async (e) => {
-    e.preventDefault();
-    const data = await dispatch(login('jseed@aa.io', 'password'));
-    if (data) setErrors(data);
-  }
-
   const updateEmail = (e) => {
     setEmail(e.target.value);
   };
@@ -68,7 +62,6 @@ const LoginForm = () => {
           <button type='submit'>Login</button>
         </div>
       </form>
-      <span onClick={demoLogin}>Log in as demo user.</span>
     </>
   );
 };
