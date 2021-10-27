@@ -23,5 +23,6 @@ background-color: #E85A4F;
 ```
 
 ```css
-font-family: 
+font-family: Georgia, serif;
+font-size: 16px;
 ```

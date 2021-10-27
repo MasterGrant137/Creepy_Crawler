@@ -22,12 +22,16 @@ function App() {
     backgroundImage: ``,
     color: `#E85A4F`,
     fontFamily: `Georgia, serif`,
-    fontSize: ``
+    fontSize: `16px`,
+    accent_1: ``,
+    accent_2: ``,
+    accent_3: ``
   }
 
   document.body.style.backgroundColor = siteTheme.backgroundColor;
   document.body.style.color = siteTheme.color;
   document.body.style.fontFamily = siteTheme.fontFamily;
+  document.body.style.fontSize = siteTheme.fontSize;
 
   useEffect(() => {
     (async() => {
