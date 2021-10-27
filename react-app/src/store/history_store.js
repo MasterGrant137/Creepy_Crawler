@@ -45,7 +45,6 @@ export const readHistoryEntries = () => async dispatch => {
     const response = await fetch('/creepycrawler/history/');
     if (response.ok) {
         const entries = await response.json();
-        console.log(entries);
         await dispatch(readHistory(entries));
         return entries;
     }
@@ -72,7 +71,6 @@ export const deleteHistoryEntry = (entryID) => async dispatch => {
     const response = await fetch(`/creepycrawler/history/${entryID}`, {
         method: 'DELETE'
     })
-    console.log(entryID);
     if (response.ok) {
         const message = await response.json();
         await dispatch(deleteHistory(entryID));
@@ -98,9 +96,9 @@ export const historyReducer = (state = initialState, action) => {
             return {...entries,...newState};
         case UPDATE_HISTORY:
             const updateEntry = action.payload.history;
-            newState[historyCache[updateEntry.id]]['updated_at'] = updateEntry['updated_at'];
+            newState[historyCache[updateEntry.id]].updated_at = updateEntry['updated_at'];
             newState[historyCache[updateEntry.id]].tz = updateEntry.tz;
-            newState[historyCache[updateEntry.id]]['tz_abbrev'] = updateEntry['tz_abbrev']
+            newState[historyCache[updateEntry.id]].tz_abbrev = updateEntry['tz_abbrev']
             return newState;
         case DELETE_HISTORY:
             const entryID = action.payload;

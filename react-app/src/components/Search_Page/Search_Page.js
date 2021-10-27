@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Redirect } from 'react-router-dom';
 import { createHistoryEntry } from '../../store/history_store';
 import '../Main.css';
 import './Search_Page.css';
 
-export const SearchPage = () => {
+export const SearchPage = ({ style }) => {
     const [user_id, setUserID] = useState();
     const [search, setSearch] = useState('');
     const [updated_at, setUpdatedAt] = useState('');

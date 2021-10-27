@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { logout } from '../../store/session';
+import '../Main.css';
 import '../Auth.css';
 
 const LogoutButton = () => {

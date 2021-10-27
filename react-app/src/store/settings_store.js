@@ -1,7 +1,108 @@
 //$ types
+const CREATE_SETTING = 'settings_store/CREATE_SETTING';
+const READ_SETTINGS = 'settings_store/READ_SETTINGS';
+const UPDATE_SETTING = 'settings_store/UPDATE_SETTING';
+const DELETE_SETTING = 'settings_store/DELETE_SETTING';
 
 //$ action creators
+const createSetting = (setting) => ({
+    type: CREATE_SETTING,
+    payload: setting
+})
+
+const readSettings = (settings) => ({
+    type: READ_SETTINGS,
+    payload: settings
+})
+
+const updateSetting = (setting) => ({
+    type: UPDATE_SETTING,
+    payload: setting
+})
+
+const deleteSetting = (settingID) => ({
+    type: DELETE_SETTING,
+    payload: settingID
+})
 
 //$ thunks
+export const createUserSetting = (setting) => async dispatch => {
+    const response = await fetch('/creepycrawler/settings/', {
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        method: 'POST',
+        body: JSON.stringify(setting)
+    })
+    console.log(response);
+    if (response.ok) {
+        const newSetting = await response.json();
+        await dispatch(createSetting(newSetting));
+        return newSetting;
+    }
+}
+
+export const readUserSettings = () => async dispatch => {
+    const response = await fetch('/creepycrawler/settings/');
+    if (response.ok) {
+        const settings = await response.json();
+        await dispatch(readSettings(settings));
+        return settings;
+    }
+}
+
+export const updateUserSetting = (setting) => async dispatch => {
+    const response = await fetch(`/creepycrawler/settings/${setting.settingID}`, {
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        method: 'PATCH',
+        body: JSON.stringify({
+            updated_at: setting.updated_at
+        })
+    })
+    if (response.ok) {
+        const setting = await response.json();
+        dispatch(updateSetting(setting));
+        return setting;
+    }
+}
+
+export const deleteUserSetting = (settingID) => async dispatch => {
+    const response = await fetch(`/creepycrawler/settings/${settingID}`, {
+        method: 'DELETE'
+    })
+    if (response.ok) {
+        const message = await response.json();
+        await dispatch(deleteSetting(settingID));
+        return message;
+    }
+}
 
 //$ reducers
+const initialState = {}
+let newState;
+
+export const settingsReducer = (state = initialState, action) => {
+    newState = {...state};
+    switch (action.type) {
+        case CREATE_SETTING:
+            const setting = action.payload.setting;
+            newState[setting.id] = setting;
+            return newState;
+        case READ_SETTINGS:
+            const settings = action.payload.history;
+            settings.forEach((setting) => newState[setting.id])
+            return newState;
+        case UPDATE_SETTING:
+            const updateSetting = action.payload.history;
+            newState[updateSetting.id] = updateSetting;
+            return newState;
+        case DELETE_SETTING:
+            const settingID = action.payload;
+            delete newState[settingID];
+            return newState;
+        default:
+            return state;
+    }
+}

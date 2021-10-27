@@ -32,7 +32,7 @@ def get_unique_filename(filename):
     unique_filename = uuid.uuid4.hex
     return f"{unique_filename}.{ext}"
 
-def upload_file_tos3(file, acl='public-read'):
+def upload_file_to_s3(file, acl='public-read'):
     """Upload file to s3 object storage."""
     try:
         s3.upload_fileobj(
