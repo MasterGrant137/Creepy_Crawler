@@ -4,13 +4,13 @@ from .db import db
 from datetime import datetime
 
 class Theme(db.Model):
-    """Theme Model."""
+    """Theme model."""
 
     __tablename__='themes'
 
     id = db.Column(db.Integer, primary_key=True, nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
-    active = db.Column(db.Boolean, nullable=False, default=False)
+    theme_name = db.Column(db.String(50), nullable=False, default='Theme')
     background_color = db.Column(db.String(7), nullable=False, default='#EAE7DC')
     background_image = db.Column(db.String(1000), nullable=True)
     font_color = db.Column(db.String(7), nullable=False, default='#E98074')

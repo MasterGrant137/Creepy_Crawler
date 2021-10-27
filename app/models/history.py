@@ -4,7 +4,7 @@ from .db import db
 from datetime import datetime
 
 class History(db.Model):
-    """History Model."""
+    """History model."""
 
     __tablename__='histories'
 
@@ -18,7 +18,7 @@ class History(db.Model):
     updated_at = db.Column(db.DateTime, nullable=False)
 
     def to_dict(self):
-        """Select columns made into dictionary upon invocation by routes."""
+        """Make selected columns into dictionary upon invocation by routes."""
         return {
             'id': self.id,
             'user_id': self.user_id,

@@ -62,8 +62,23 @@ export const SettingsPage = ({ style }) => {
         <div>
             <h1>Settings</h1>
             <div>
-                <h2>Change Profile Media</h2>
+                <h2>Change Media</h2>
                 <form onSubmit={userMediaHandler}>
+                    <h3>Profile</h3>
+                    <label
+                        htmlFor='s-p-user-media-uploader'
+                    >
+                        {media === '' ? 'Upload Media' : 'Added'}
+                    </label>
+                    <input
+                        id='s-p-user-media-uploader'
+                        type='file'
+                        onChange={updateMedia}
+                    />
+                    {mediaLoading && (<span>Loading...</span>)}
+                </form>
+                <form onSubmit={userMediaHandler}>
+                    <h3>Site Background</h3>
                     <label
                         htmlFor='s-p-user-media-uploader'
                     >
@@ -115,6 +130,27 @@ export const SettingsPage = ({ style }) => {
                     >
                         <span>Font</span>
                         {fontChoices}
+                    </div>
+                    <div>
+                        <label htmlFor='sett-pg-accent-1-color-picker'>Accent 1</label>
+                        <input
+                            id='sett-pg-accent-1-color-picker'
+                            type='color'
+                        />
+                    </div>
+                    <div>
+                        <label htmlFor='sett-pg-accent-2-color-picker'>Accent 2</label>
+                        <input
+                            id='sett-pg-accent-2-color-picker'
+                            type='color'
+                        />
+                    </div>
+                    <div>
+                        <label htmlFor='sett-pg-accent-3-color-picker'>Accent 3</label>
+                        <input
+                            id='sett-pg-accent-3-color-picker'
+                            type='color'
+                        />
                     </div>
                     <button type='button'>Submit</button>
                 </form>

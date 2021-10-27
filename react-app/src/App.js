@@ -29,6 +29,7 @@ function App() {
   }
 
   document.body.style.backgroundColor = siteTheme.backgroundColor;
+  document.body.style.backgroundImage = siteTheme.backgroundImage;
   document.body.style.color = siteTheme.color;
   document.body.style.fontFamily = siteTheme.fontFamily;
   document.body.style.fontSize = siteTheme.fontSize;
