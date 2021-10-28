@@ -10,6 +10,7 @@ import { useModal } from '../context/Modal_Context.js';
 export const SettingsPage = ({ style }) => {
     const fontSizesRaw = dropdownData['font-sizes'];
     const fontFamiliesRaw = dropdownData['fonts'];
+    const [readOnly, setReadOnly] = useState(true)
     const [theme_name, setThemeName] = useState('');
     const [font_family, setFontFamily] = useState(style.font_family);
     const [font_size, setFontSize] = useState(style.font_size);
@@ -103,6 +104,7 @@ export const SettingsPage = ({ style }) => {
             <option
                 key={fontSize}
                 value={fontSize}
+                readOnly={readOnly}
                 onChange={(e) => setFontSize(e.target.innerText)}
             />
     ))
@@ -111,6 +113,7 @@ export const SettingsPage = ({ style }) => {
         <option 
             key={fontFamily}
             value={fontFamily}
+            readOnly={readOnly}
             onChange={(e) => setFontFamily(e.target.innerText.replace(' | ', ', '))}
         />
     ))
@@ -120,24 +123,24 @@ export const SettingsPage = ({ style }) => {
     const settings = Object.values(settingsObj).map((setting, idx) => (
         <div key={setting.id}>
             <form>
-                <input type='text' value={setting.theme_name} />
+                <input type='text' readOnly={readOnly} value={setting.theme_name} />
 
                 <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
                 <select name={`font-sizes-${idx}`}>
-                    <option key={setting.id} value={setting.font_size} />
+                    <option readOnly={readOnly} value={setting.font_size} />
                 </select>
 
                 <label htmlFor={`font-families-${idx}`}>Font Family</label>
                 <select name={`font-families-${idx}`}>
-                    <option key={setting.id} value={setting.font_family} />
+                    <option value={setting.font_family} />
                 </select>
 
-                <input type='color' value={setting.font_color} />
-                <input type='checkbox' checked={setting.background_rotate} />
-                <input type='color' value={setting.background_color} />
-                <input type='color' value={setting.accent_1} />
-                <input type='color' value={setting.accent_2} />
-                <input type='color' value={setting.accent_3} />
+                <input type='color'  readOnly={readOnly} value={setting.font_color} />
+                <input type='checkbox' readOnly={readOnly} checked={setting.background_rotate} />
+                <input type='color'  readOnly={readOnly} value={setting.background_color} />
+                <input type='color'  readOnly={readOnly} value={setting.accent_1} />
+                <input type='color'  readOnly={readOnly} value={setting.accent_2} />
+                <input type='color'  readOnly={readOnly} value={setting.accent_3} />
                 <button>Edit</button>
                 <button>Use</button>
             </form>
@@ -176,6 +179,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-page-create-theme-name'
                             type='text'
+                            readOnly={readOnly}
                             placeholder='Theme Name'
                             value={theme_name}
                             onChange={(e) => setThemeName(e.target.value)}
@@ -186,6 +190,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-bg-color-picker'
                             type='color'
+                            readOnly={readOnly}
                             value={background_color}
                             onChange={(e) => setBackgroundColor(e.target.value)}
                         />
@@ -207,7 +212,8 @@ export const SettingsPage = ({ style }) => {
                         <label htmlFor='sett-pg-bg-rotate-picker'>Background Rotate</label>
                         <input
                             id='sett-pg-bg-rotate-picker'
-                            type='checkbox' 
+                            type='checkbox'
+                            readOnly={readOnly}
                             value={background_rotate}
                             onChange={(e) => setBackgroundRotate(e.target.checked)}
                         />
@@ -217,6 +223,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-font-color-picker'
                             type='color'
+                            readOnly={readOnly}
                             value={font_color}
                             onChange={(e) => setFontColor(e.target.value)}
                         />
@@ -226,7 +233,7 @@ export const SettingsPage = ({ style }) => {
                         className='dropdown-1-container'
                     >
                         <label>Font Size</label>
-                        <select name='font-sizes' id='sett-pg-font-sizes'>
+                        <select name='font-sizes' id='sett-pg-font-sizes' readOnly={readOnly}>
                             {fontSizes}
                         </select>
                     </div>
@@ -235,7 +242,7 @@ export const SettingsPage = ({ style }) => {
                         className='dropdown-1-container'
                     >
                         <label>Font Family</label>
-                        <select name='font-families' id='sett-pg-font-sizes'>
+                        <select name='font-families' id='sett-pg-font-sizes' readOnly={readOnly}>
                             {fontFamilies}
                         </select>
                     </div>
@@ -244,6 +251,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-accent-1-color-picker'
                             type='color'
+                            readOnly={readOnly}
                             value={accent_1}
                             onChange={(e) => setAccent1(e.target.value)}
                         />
@@ -253,6 +261,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-accent-2-color-picker'
                             type='color'
+                            readOnly={readOnly}
                             value={accent_2}
                             onChange={(e) => setAccent2(e.target.value)}
                         />
@@ -262,6 +271,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-accent-3-color-picker'
                             type='color'
+                            readOnly={readOnly}
                             value={accent_3}
                             onChange={(e) => setAccent3(e.target.value)}
                         />
