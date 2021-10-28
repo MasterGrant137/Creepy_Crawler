@@ -32,7 +32,7 @@ function App() {
     font_size: `16px`,
     accent_1: `#D8C3A5`,
     accent_2: `#8E8D8A`,
-    accent_3: `#E85A4F`
+    accent_3: `#E98074`
   }
 
   document.body.style.backgroundColor = siteTheme.background_color;

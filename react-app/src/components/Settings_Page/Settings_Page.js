@@ -7,16 +7,21 @@ import { editUserMedia } from '../../store/session';
 import { useModal } from '../context/Modal_Context.js';
 
 export const SettingsPage = ({ style }) => {
+    const fontSizes = dropdownData['font-sizes'];
+    const fonts = dropdownData['fonts'];
     const [fSDropdown, setFSDropdown] = useState('invisible');
     const [fDropdown, setFDropdown] = useState('invisible');
-    const [font, setFont] = useState('');
-    const [fontSize, setFontSize] = useState('');
+    const [font, setFont] = useState(style.font_family);
+    const [fontSize, setFontSize] = useState(style.font_size);
+    const [backgroundColor, setBackgroundColor] = useState(style.background_color);
+    const [fontColor, setFontColor] = useState(style.font_color);
+    const [accent1, setAccent1] = useState(style.accent_1);
+    const [accent2, setAccent2] = useState(style.accent_2);
+    const [accent3, setAccent3] = useState(style.accent_3);
     const [media, setMedia] = useState(null);
     const [mediaLoading, setMediaLoading] = useState(false);
     const [errors, setErrors] = useState([]);
     const { closeModal } = useModal();
-    const fontSizes = dropdownData['font-sizes'];
-    const fonts = dropdownData['fonts'];
     const dispatch = useDispatch();
 
     const user = useSelector(state => state.session.user);
@@ -126,6 +131,8 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-bg-color-picker'
                             type='color'
+                            value={backgroundColor}
+                            onChange={setBackgroundColor}
                         />
                     </div>
                     <div>
@@ -133,6 +140,8 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-font-color-picker'
                             type='color'
+                            value={fontColor}
+                            onChange={setFontColor}
                         />
                     </div>
                     <div 
@@ -142,6 +151,7 @@ export const SettingsPage = ({ style }) => {
                     >
                         <span>Font Size</span>
                         {fontSizeChoices}
+                        <span>{fontSize}</span>
                     </div>
                     <div 
                         className='dropdown-1-container'
@@ -150,12 +160,15 @@ export const SettingsPage = ({ style }) => {
                     >
                         <span>Font</span>
                         {fontChoices}
+                        <span>{font}</span>
                     </div>
                     <div>
                         <label htmlFor='sett-pg-accent-1-color-picker'>Accent 1</label>
                         <input
                             id='sett-pg-accent-1-color-picker'
                             type='color'
+                            value={accent1}
+                            onChange={setAccent1}
                         />
                     </div>
                     <div>
@@ -163,6 +176,8 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-accent-2-color-picker'
                             type='color'
+                            value={accent2}
+                            onChange={setAccent2}
                         />
                     </div>
                     <div>
@@ -170,6 +185,8 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-accent-3-color-picker'
                             type='color'
+                            value={accent3}
+                            onChange={setAccent3}
                         />
                     </div>
                     <button type='button'>Submit</button>
