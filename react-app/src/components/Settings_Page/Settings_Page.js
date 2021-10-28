@@ -131,12 +131,24 @@ export const SettingsPage = ({ style }) => {
                    {fontFamilies}
                 </select>
 
-                <input type='color'  disabled={readOnly} value={setting.font_color} />
-                <input type='checkbox' disabled={readOnly} checked={setting.background_rotate} />
-                <input type='color'  disabled={readOnly} value={setting.background_color} />
-                <input type='color'  disabled={readOnly} value={setting.accent_1} />
-                <input type='color'  disabled={readOnly} value={setting.accent_2} />
-                <input type='color'  disabled={readOnly} value={setting.accent_3} />
+                <label htmlFor={`sett-pg-font-color-editor-${idx}`}>Font Color</label>
+                <input id={`sett-pg-font-color-editor-${idx}`} type='color' disabled={readOnly} value={setting.font_color} />
+
+                <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
+                <input id={`sett-pg-bg-rotate-editor-${idx}`} type='checkbox' disabled={readOnly} checked={setting.background_rotate} />
+
+                <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
+                <input id={`sett-pg-bg-color-editor-${idx}`} type='color' disabled={readOnly} value={setting.background_color} />
+                
+                <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`}>Accent 1</label>
+                <input id={`sett-pg-accent-1-color-picker-${idx}`} type='color' disabled={readOnly} value={setting.accent_1} />
+                
+                <label htmlFor={`sett-pg-accent-2-color-editor-${idx}`}>Accent 2</label>
+                <input id={`sett-pg-accent-2-color-picker-${idx}`} type='color' disabled={readOnly} value={setting.accent_2} />
+                
+                <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`}>Accent 3</label>
+                <input id={`sett-pg-accent-2-color-picker-${idx}`} type='color' disabled={readOnly} value={setting.accent_3} />
+                
                 <button>Edit</button>
                 <button>Use</button>
             </form>
@@ -224,21 +236,15 @@ export const SettingsPage = ({ style }) => {
                             onChange={(e) => setFontColor(e.target.value)}
                         />
                     </div>
-                    <div
-                        id='sett-pg-font-size-picker'
-                        className='dropdown-1-container'
-                    >
+                    <div>
                         <label>Font Size</label>
-                        <select name='font-sizes' id='sett-pg-font-sizes' readOnly={readOnly}>
+                        <select name='font-sizes' id='sett-pg-font-size-picker' readOnly={readOnly}>
                             {fontSizes}
                         </select>
                     </div>
-                    <div 
-                        id='sett-pg-font-family-picker'
-                        className='dropdown-1-container'
-                    >
+                    <div>
                         <label>Font Family</label>
-                        <select name='font-families' id='sett-pg-font-sizes' readOnly={readOnly}>
+                        <select name='font-families' id='sett-pg-font-family-picker' readOnly={readOnly}>
                             {fontFamilies}
                         </select>
                     </div>
