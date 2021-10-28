@@ -94,6 +94,21 @@ export const SettingsPage = ({ style }) => {
     const editFormHandler = (e) => {
         e.preventDefault();
 
+        // const updateObj = {
+        //     user_id,
+        //     theme_name,
+        //     background_color,
+        //     // background_media,
+        //     background_rotate,
+        //     font_color,
+        //     font_family,
+        //     font_size,
+        //     accent_1,
+        //     accent_2,
+        //     accent_3,
+        //     // formData
+        // }
+
         const formID = e.target.dataset.formId
         const targForm = document.getElementById(`sett-pg-edit-form-${formID}`);
         const targFormKids = Array.from(targForm.children);
@@ -107,7 +122,7 @@ export const SettingsPage = ({ style }) => {
                 targKid.innerText = 'Edit';
                 targKid.type = 'button';
                 targFormKids.forEach(targKid => {
-                    if (!(targKid.tagName === 'BUTTON' || targKid.innerText === 'Submit')) {
+                    if (targKid.tagName !== 'BUTTON') {
                         targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
                     }
                 })
@@ -143,36 +158,36 @@ export const SettingsPage = ({ style }) => {
                 <input type='text' readOnly={true} defaultValue={setting.theme_name} />
 
                 <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
-                <select name={`font-sizes-${idx}`} disabled={true} defaultValue={setting.font_size.replace('px', '')}>
+                <select name={`font-sizes-${idx}`} data-input-name={'Font Size'} disabled={true} defaultValue={setting.font_size.replace('px', '')}>
                     {fontSizes}
                 </select>
 
                 <label htmlFor={`font-families-${idx}`}>Font Family</label>
-                <select name={`font-families-${idx}`} disabled={true} defaultValue={setting.font_family.replace(/,\s/, ' | ')}>
+                <select name={`font-families-${idx}`} data-input-name={'Font Family'} disabled={true} defaultValue={setting.font_family.replace(/,\s/, ' | ')}>
                    {fontFamilies}
                 </select>
 
                 <label htmlFor={`sett-pg-font-color-editor-${idx}`}>Font Color</label>
-                <input id={`sett-pg-font-color-editor-${idx}`} type='color' disabled={true} defaultValue={setting.font_color} />
+                <input id={`sett-pg-font-color-editor-${idx}`} data-input-name={'Font Color'} type='color' disabled={true} defaultValue={setting.font_color} />
 
                 <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
-                <input id={`sett-pg-bg-rotate-editor-${idx}`} type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
+                <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
 
                 <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
-                <input id={`sett-pg-bg-color-editor-${idx}`} type='color' disabled={true} defaultValue={setting.background_color} />
+                <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name={'Background Color'} type='color' disabled={true} defaultValue={setting.background_color} />
                 
                 <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`}>Accent 1</label>
-                <input id={`sett-pg-accent-1-color-picker-${idx}`} type='color' disabled={true} defaultValue={setting.accent_1} />
+                <input id={`sett-pg-accent-1-color-picker-${idx}`} data-input-name={'Accent 1'} type='color' disabled={true} defaultValue={setting.accent_1} />
                 
                 <label htmlFor={`sett-pg-accent-2-color-editor-${idx}`}>Accent 2</label>
-                <input id={`sett-pg-accent-2-color-picker-${idx}`} type='color' disabled={true} defaultValue={setting.accent_2} />
+                <input id={`sett-pg-accent-2-color-picker-${idx}`} data-input-name={'Accent 2'} type='color' disabled={true} defaultValue={setting.accent_2} />
                 
                 <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`}>Accent 3</label>
-                <input id={`sett-pg-accent-2-color-picker-${idx}`} type='color' disabled={true} defaultValue={setting.accent_3} />
+                <input id={`sett-pg-accent-2-color-picker-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
                 <button data-form-id={`${idx}`} type='button' onClick={editFormHandler}>Edit</button>
-                <button type='button' disabled={true}>Use</button>
             </form>
+            <button type='submit'>Use</button>
         </div>
     ))
 
@@ -207,8 +222,8 @@ export const SettingsPage = ({ style }) => {
                         <label htmlFor='sett-page-create-theme-name'>Theme Name</label>
                         <input
                             id='sett-page-create-theme-name'
+                            data-input-name={'Theme Name'}
                             type='text'
-                            
                             placeholder='Theme Name'
                             value={theme_name}
                             onChange={(e) => setThemeName(e.target.value)}
@@ -218,6 +233,7 @@ export const SettingsPage = ({ style }) => {
                         <label htmlFor='sett-pg-bg-color-picker'>Background Color</label>
                         <input
                             id='sett-pg-bg-color-picker'
+                            data-input-name={'Background Color'}
                             type='color'
                             disabled={true}
                             value={background_color}
@@ -241,6 +257,7 @@ export const SettingsPage = ({ style }) => {
                         <label htmlFor='sett-pg-bg-rotate-picker'>Background Rotate</label>
                         <input
                             id='sett-pg-bg-rotate-picker'
+                            data-input-name={'Background Rotate'}
                             type='checkbox'
                             disabled={true}
                             value={background_rotate}
@@ -251,6 +268,7 @@ export const SettingsPage = ({ style }) => {
                         <label htmlFor='sett-pg-font-color-picker'>Font Color</label>
                         <input
                             id='sett-pg-font-color-picker'
+                            data-input-name={'Font Color'}
                             type='color'
                             disabled={true}
                             value={font_color}
@@ -259,13 +277,13 @@ export const SettingsPage = ({ style }) => {
                     </div>
                     <div>
                         <label>Font Size</label>
-                        <select name='font-sizes' id='sett-pg-font-size-picker' disabled={true}>
+                        <select name='font-sizes' id='sett-pg-font-size-picker' data-input-name={'Font Size'} disabled={true}>
                             {fontSizes}
                         </select>
                     </div>
                     <div>
                         <label>Font Family</label>
-                        <select name='font-families' id='sett-pg-font-family-picker' disabled={true}>
+                        <select name='font-families' id='sett-pg-font-family-picker' data-input-name={'Font Family'} disabled={true}>
                             {fontFamilies}
                         </select>
                     </div>
@@ -273,6 +291,7 @@ export const SettingsPage = ({ style }) => {
                         <label htmlFor='sett-pg-accent-1-color-picker'>Accent 1</label>
                         <input
                             id='sett-pg-accent-1-color-picker'
+                            data-input-name={'Accent 1'}
                             type='color'
                             disabled={true}
                             value={accent_1}
@@ -283,6 +302,7 @@ export const SettingsPage = ({ style }) => {
                         <label htmlFor='sett-pg-accent-2-color-picker'>Accent 2</label>
                         <input
                             id='sett-pg-accent-2-color-picker'
+                            data-input-name={'Accent 2'}
                             type='color'
                             disabled={true}
                             value={accent_2}
@@ -293,6 +313,7 @@ export const SettingsPage = ({ style }) => {
                         <label htmlFor='sett-pg-accent-3-color-picker'>Accent 3</label>
                         <input
                             id='sett-pg-accent-3-color-picker'
+                            data-input-name={'Accent 3'}
                             type='color'
                             disabled={true}
                             value={accent_3}
