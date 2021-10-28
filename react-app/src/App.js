@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import LoginForm from './components/auth/LoginForm';
 import SignUpForm from './components/auth/SignUpForm';
 import NavBar from './components/Navigation/Nav_Bar';
@@ -17,22 +17,30 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   const dispatch = useDispatch();
 
+  const user = useSelector(state => state.session.user);
+  const theme = useSelector(state => state.session.theme);
+
   const siteTheme = {
-    backgroundColor: `#EAE7DC`,
-    backgroundImage: ``,
-    color: `#E85A4F`,
-    fontFamily: `Georgia, serif`,
-    fontSize: `16px`,
-    accent_1: ``,
-    accent_2: ``,
-    accent_3: ``
+    active_theme: ``,
+    theme_count: ``,
+    theme_name: ``,
+    background_color: `#EAE7DC`,
+    background_image: `url(https://images2.alphacoders.com/602/thumb-1920-602223.jpg)`,
+    background_rotate: ``, 
+    font_color: `#E85A4F`,
+    font_family: `Georgia, serif`,
+    font_size: `16px`,
+    accent_1: `#D8C3A5`,
+    accent_2: `#8E8D8A`,
+    accent_3: `#E85A4F`
   }
 
-  document.body.style.backgroundColor = siteTheme.backgroundColor;
-  document.body.style.backgroundImage = siteTheme.backgroundImage;
-  document.body.style.color = siteTheme.color;
-  document.body.style.fontFamily = siteTheme.fontFamily;
-  document.body.style.fontSize = siteTheme.fontSize;
+  document.body.style.backgroundColor = siteTheme.background_color;
+  document.body.style.backgroundImage = siteTheme.background_image;
+  console.log(document.body.style.background_image);
+  document.body.style.color = siteTheme.font_color;
+  document.body.style.fontFamily = siteTheme.font_family;
+  document.body.style.fontSize = siteTheme.font_size;
 
   useEffect(() => {
     (async() => {

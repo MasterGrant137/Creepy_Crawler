@@ -9,6 +9,8 @@ import { useModal } from '../context/Modal_Context.js';
 export const SettingsPage = ({ style }) => {
     const [fSDropdown, setFSDropdown] = useState('invisible');
     const [fDropdown, setFDropdown] = useState('invisible');
+    const [font, setFont] = useState('');
+    const [fontSize, setFontSize] = useState('');
     const [media, setMedia] = useState(null);
     const [mediaLoading, setMediaLoading] = useState(false);
     const [errors, setErrors] = useState([]);
@@ -29,7 +31,6 @@ export const SettingsPage = ({ style }) => {
 
         const formData = new FormData();
         formData.append('media', media);
-        // console.log(media);
         setMediaLoading(true);
 
         const data = await dispatch(editUserMedia(user.id, formData));
@@ -42,6 +43,11 @@ export const SettingsPage = ({ style }) => {
 
     }
 
+    const fontSizeHandler = (e) => setFontSize(e.target.innerText);
+
+    const fontHandler = (e) => setFont(e.target.innerText.replace(' | ', ', '));
+
+
     const dropdownHandler = (eType, eTarg, e) => {
         if (eType === 'onMouseOver') {
            eTarg === 'FS' ? setFSDropdown('dropdown-1') : setFDropdown('dropdown-1');
@@ -52,11 +58,23 @@ export const SettingsPage = ({ style }) => {
     }
 
     const fontSizeChoices = fontSizes.map(fontSize => (
-        <div key={fontSize} className={fSDropdown}>{fontSize}</div>
+        <div
+            key={fontSize}
+            className={fSDropdown}
+            onClick={fontSizeHandler}
+        >
+            {fontSize}
+        </div>
     ))
 
     const fontChoices = fonts.map(font => (
-        <div key={font} className={fDropdown}>{font}</div>
+        <div 
+            key={font}
+            className={fDropdown}
+            onClick={fontHandler}
+        >
+            {font}
+        </div>
     ))
 
     return (
