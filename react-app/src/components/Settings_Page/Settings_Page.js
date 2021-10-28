@@ -10,7 +10,7 @@ import { useModal } from '../context/Modal_Context.js';
 export const SettingsPage = ({ style }) => {
     const fontSizesRaw = dropdownData['font-sizes'];
     const fontFamiliesRaw = dropdownData['fonts'];
-    const [readOnly, setReadOnly] = useState(true)
+    const [disabled, setDisabled] = useState(true)
     const [theme_name, setThemeName] = useState('');
     const [font_family, setFontFamily] = useState(style.font_family);
     const [font_size, setFontSize] = useState(style.font_size);
@@ -97,15 +97,20 @@ export const SettingsPage = ({ style }) => {
         const formID = e.target.dataset.formId
         const targForm = document.getElementById(`sett-pg-edit-form-${formID}`);
         const targFormKids = Array.from(targForm.children);
-        targFormKids.forEach(targKid => { 
-            targKid.disabled = false;
-            targKid.readOnly = false;
+        targFormKids.forEach(targKid => {
+            if (targKid.type === 'text') targKid.readOnly = false;
+            else targKid.disabled = false;
             if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Edit') {
                 targKid.innerText = 'Submit';
                 targKid.type = 'submit';
             } else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
                 targKid.innerText = 'Edit';
                 targKid.type = 'button';
+                targFormKids.forEach(targKid => {
+                    if (!(targKid.tagName === 'BUTTON' || targKid.innerText === 'Submit')) {
+                        targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
+                    }
+                })
             }
         })
     }
@@ -114,7 +119,7 @@ export const SettingsPage = ({ style }) => {
             <option
                 key={fontSize}
                 value={fontSize}
-                onChange={(e) => setFontSize(e.target.innerText)}
+                onChange={(e) => setFontSize(e.target.innerText + 'px')}
             >
                 {fontSize}
             </option>
@@ -135,38 +140,38 @@ export const SettingsPage = ({ style }) => {
     const settings = Object.values(settingsObj).map((setting, idx) => (
         <div key={setting.id}>
             <form id={`sett-pg-edit-form-${idx}`} onSubmit={editFormHandler}>
-                <input type='text' readOnly={readOnly} defaultValue={setting.theme_name} />
+                <input type='text' readOnly={true} defaultValue={setting.theme_name} />
 
                 <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
-                <select name={`font-sizes-${idx}`} disabled={readOnly} defaultValue={setting.font_size.replace('px', '')}>
+                <select name={`font-sizes-${idx}`} disabled={true} defaultValue={setting.font_size.replace('px', '')}>
                     {fontSizes}
                 </select>
 
                 <label htmlFor={`font-families-${idx}`}>Font Family</label>
-                <select name={`font-families-${idx}`} disabled={readOnly} defaultValue={setting.font_family.replace(/,\s/, ' | ')}>
+                <select name={`font-families-${idx}`} disabled={true} defaultValue={setting.font_family.replace(/,\s/, ' | ')}>
                    {fontFamilies}
                 </select>
 
                 <label htmlFor={`sett-pg-font-color-editor-${idx}`}>Font Color</label>
-                <input id={`sett-pg-font-color-editor-${idx}`} type='color' disabled={readOnly} defaultValue={setting.font_color} />
+                <input id={`sett-pg-font-color-editor-${idx}`} type='color' disabled={true} defaultValue={setting.font_color} />
 
                 <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
-                <input id={`sett-pg-bg-rotate-editor-${idx}`} type='checkbox' disabled={readOnly} defaultChecked={setting.background_rotate} />
+                <input id={`sett-pg-bg-rotate-editor-${idx}`} type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
 
                 <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
-                <input id={`sett-pg-bg-color-editor-${idx}`} type='color' disabled={readOnly} defaultValue={setting.background_color} />
+                <input id={`sett-pg-bg-color-editor-${idx}`} type='color' disabled={true} defaultValue={setting.background_color} />
                 
                 <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`}>Accent 1</label>
-                <input id={`sett-pg-accent-1-color-picker-${idx}`} type='color' disabled={readOnly} defaultValue={setting.accent_1} />
+                <input id={`sett-pg-accent-1-color-picker-${idx}`} type='color' disabled={true} defaultValue={setting.accent_1} />
                 
                 <label htmlFor={`sett-pg-accent-2-color-editor-${idx}`}>Accent 2</label>
-                <input id={`sett-pg-accent-2-color-picker-${idx}`} type='color' disabled={readOnly} defaultValue={setting.accent_2} />
+                <input id={`sett-pg-accent-2-color-picker-${idx}`} type='color' disabled={true} defaultValue={setting.accent_2} />
                 
                 <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`}>Accent 3</label>
-                <input id={`sett-pg-accent-2-color-picker-${idx}`} type='color' disabled={readOnly} defaultValue={setting.accent_3} />
+                <input id={`sett-pg-accent-2-color-picker-${idx}`} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
                 <button data-form-id={`${idx}`} type='button' onClick={editFormHandler}>Edit</button>
-                <button type='button' disabled={readOnly}>Use</button>
+                <button type='button' disabled={true}>Use</button>
             </form>
         </div>
     ))
@@ -203,7 +208,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-page-create-theme-name'
                             type='text'
-                            readOnly={readOnly}
+                            
                             placeholder='Theme Name'
                             value={theme_name}
                             onChange={(e) => setThemeName(e.target.value)}
@@ -214,7 +219,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-bg-color-picker'
                             type='color'
-                            disabled={readOnly}
+                            disabled={true}
                             value={background_color}
                             onChange={(e) => setBackgroundColor(e.target.value)}
                         />
@@ -237,7 +242,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-bg-rotate-picker'
                             type='checkbox'
-                            disabled={readOnly}
+                            disabled={true}
                             value={background_rotate}
                             onChange={(e) => setBackgroundRotate(e.target.checked)}
                         />
@@ -247,20 +252,20 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-font-color-picker'
                             type='color'
-                            disabled={readOnly}
+                            disabled={true}
                             value={font_color}
                             onChange={(e) => setFontColor(e.target.value)}
                         />
                     </div>
                     <div>
                         <label>Font Size</label>
-                        <select name='font-sizes' id='sett-pg-font-size-picker' disabled={readOnly}>
+                        <select name='font-sizes' id='sett-pg-font-size-picker' disabled={true}>
                             {fontSizes}
                         </select>
                     </div>
                     <div>
                         <label>Font Family</label>
-                        <select name='font-families' id='sett-pg-font-family-picker' disabled={readOnly}>
+                        <select name='font-families' id='sett-pg-font-family-picker' disabled={true}>
                             {fontFamilies}
                         </select>
                     </div>
@@ -269,7 +274,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-accent-1-color-picker'
                             type='color'
-                            disabled={readOnly}
+                            disabled={true}
                             value={accent_1}
                             onChange={(e) => setAccent1(e.target.value)}
                         />
@@ -279,8 +284,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-accent-2-color-picker'
                             type='color'
-                            readOnly={readOnly}
-                            disabled={accent_2}
+                            disabled={true}
                             value={accent_2}
                             onChange={(e) => setAccent2(e.target.value)}
                         />
@@ -290,8 +294,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-accent-3-color-picker'
                             type='color'
-                            readOnly={readOnly}
-                            disabled={accent_3}
+                            disabled={true}
                             value={accent_3}
                             onChange={(e) => setAccent3(e.target.value)}
                         />
