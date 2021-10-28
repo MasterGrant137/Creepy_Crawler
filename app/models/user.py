@@ -16,7 +16,7 @@ class User(db.Model, UserMixin):
     active_theme = db.Column(db.SmallInteger, nullable=True)
     theme_count = db.Column(db.SmallInteger, nullable=False, default=0)
     email = db.Column(db.String(255), nullable=False, unique=True)
-    media = db.Column(db.String(1000), nullable=False, default='https://randomuser.me/api/portraits/lego/2.jpg')
+    profile_media = db.Column(db.String(1000), nullable=False, default='https://randomuser.me/api/portraits/lego/2.jpg')
     hashed_password = db.Column(db.String(255), nullable=False)
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now())
     updated_at = db.Column(db.DateTime, nullable=False, default=datetime.now())
@@ -47,5 +47,5 @@ class User(db.Model, UserMixin):
             'id': self.id,
             'username': self.username,
             'email': self.email,
-            'media': self.media
+            'profile_media': self.profile_media
         }

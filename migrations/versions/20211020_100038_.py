@@ -36,7 +36,7 @@ def upgrade():
     sa.Column('background_image', sa.String(length=1000), nullable=True),
     sa.Column('font_color', sa.String(length=7), nullable=True),
     sa.Column('font_family', sa.String(length=50), nullable=True),
-    sa.Column('font_size', sa.SmallInteger(), nullable=True),
+    sa.Column('font_size', sa.String(length=4), nullable=True),
     sa.Column('created_at', sa.DateTime(), nullable=False),
     sa.Column('updated_at', sa.DateTime(), nullable=False),
     sa.ForeignKeyConstraint(['user_id'], ['users.id'], ondelete='CASCADE'),

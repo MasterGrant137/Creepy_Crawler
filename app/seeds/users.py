@@ -15,8 +15,8 @@ password_characters = string.ascii_lowercase + string.ascii_uppercase + string.d
 
 def seed_users():
     """Seed the users."""
-    demo = User(username='Demo', email='demo@aa.io', password='password', media='https://randomuser.me/api/portraits/lego/2.jpg')
-    johnny_appleseed = User(username='Johnny Appleseed', email='jseed@aa.io', password='password', media='https://randomuser.me/api/portraits/lego/8.jpg')
+    demo = User(username='Demo', email='demo@aa.io', password='password', profile_media='https://randomuser.me/api/portraits/lego/2.jpg')
+    johnny_appleseed = User(username='Johnny Appleseed', email='jseed@aa.io', password='password', profile_media='https://randomuser.me/api/portraits/lego/8.jpg')
     db.session.add(demo)
     db.session.add(johnny_appleseed)
 
@@ -25,7 +25,7 @@ def seed_users():
             username=fake.user_name(),
             email=fake.safe_email(),
             password=''.join(random.choice(password_characters) for i in range(15)),
-            media=f"https://randomuser.me/api/portraits/{'men' if i % 2 == 0 else 'women'}/{i}.jpg",
+            profile_media=f"https://randomuser.me/api/portraits/{'men' if i % 2 == 0 else 'women'}/{i}.jpg",
             updated_at=fake.date_time_this_year()
         )
         db.session.add(new_user)
