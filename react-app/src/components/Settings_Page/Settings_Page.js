@@ -94,20 +94,20 @@ export const SettingsPage = ({ style }) => {
     const editFormHandler = (e) => {
         e.preventDefault();
 
-        // const updateObj = {
-        //     user_id,
-        //     theme_name,
-        //     background_color,
-        //     // background_media,
-        //     background_rotate,
-        //     font_color,
-        //     font_family,
-        //     font_size,
-        //     accent_1,
-        //     accent_2,
-        //     accent_3,
-        //     // formData
-        // }
+        const updateObj = {
+            user_id: user.id,
+            theme_name,
+            background_color,
+            // background_media,
+            background_rotate,
+            font_color,
+            font_family,
+            font_size,
+            accent_1,
+            accent_2,
+            accent_3,
+            // formData
+        }
 
         const formID = e.target.dataset.formId
         const targForm = document.getElementById(`sett-pg-edit-form-${formID}`);
@@ -124,6 +124,22 @@ export const SettingsPage = ({ style }) => {
                 targFormKids.forEach(targKid => {
                     if (targKid.tagName !== 'BUTTON') {
                         targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
+                        console.log(user.id);
+                        updateObj.user_id = user.id
+                        if (targKid.dataset.inputName === 'Theme Name') updateObj.theme_name = targKid.value
+                        if (targKid.dataset.inputName === 'Background Color') updateObj.background_color = targKid.value
+                        if (targKid.dataset.inputName === 'Background Rotate') updateObj.background_rotate = targKid.value
+                        if (targKid.dataset.inputName === 'Font Color') updateObj.font_color = targKid.value
+                        if (targKid.dataset.inputName === 'Font Family') updateObj.font_family = targKid.value
+                        if (targKid.dataset.inputName === 'Font Size') updateObj.font_size = targKid.value
+                        if (targKid.dataset.inputName === 'Accent 1') updateObj.accent_1 = targKid.value
+                        if (targKid.dataset.inputName === 'Accent 2') updateObj.accent_2 = targKid.value
+                        if (targKid.dataset.inputName === 'Accent 3') updateObj.accent_3 = targKid.value
+
+                        
+                    
+    
+                       
                     }
                 })
             }
@@ -155,7 +171,7 @@ export const SettingsPage = ({ style }) => {
     const settings = Object.values(settingsObj).map((setting, idx) => (
         <div key={setting.id}>
             <form id={`sett-pg-edit-form-${idx}`} onSubmit={editFormHandler}>
-                <input type='text' readOnly={true} defaultValue={setting.theme_name} />
+                <input type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
 
                 <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
                 <select name={`font-sizes-${idx}`} data-input-name={'Font Size'} disabled={true} defaultValue={setting.font_size.replace('px', '')}>
