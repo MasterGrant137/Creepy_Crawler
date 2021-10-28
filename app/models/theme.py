@@ -12,7 +12,7 @@ class Theme(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
     theme_name = db.Column(db.String(50), nullable=False, default='Theme')
     background_color = db.Column(db.String(7), nullable=False, default='#EAE7DC')
-    background_image = db.Column(db.String(1000), nullable=True)
+    background_media = db.Column(db.String(1000), nullable=True)
     background_rotate = db.Column(db.Boolean, nullable=False, default=False)
     font_color = db.Column(db.String(7), nullable=False, default='#E85A4F')
     font_family = db.Column(db.String(50), nullable=False, default='Georgia, serif')

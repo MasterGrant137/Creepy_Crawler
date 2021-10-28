@@ -37,7 +37,6 @@ function App() {
 
   document.body.style.backgroundColor = siteTheme.background_color;
   document.body.style.backgroundImage = siteTheme.background_image;
-  console.log(document.body.style.background_image);
   document.body.style.color = siteTheme.font_color;
   document.body.style.fontFamily = siteTheme.font_family;
   document.body.style.fontSize = siteTheme.font_size;

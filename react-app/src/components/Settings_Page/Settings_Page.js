@@ -4,6 +4,7 @@ import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
 import { editUserMedia } from '../../store/session';
+import { createUserSetting } from '../../store/settings_store';
 import { useModal } from '../context/Modal_Context.js';
 
 export const SettingsPage = ({ style }) => {
@@ -11,35 +12,68 @@ export const SettingsPage = ({ style }) => {
     const fonts = dropdownData['fonts'];
     const [fSDropdown, setFSDropdown] = useState('invisible');
     const [fDropdown, setFDropdown] = useState('invisible');
+    const [themeName, setThemeName] = useState('');
     const [font, setFont] = useState(style.font_family);
     const [fontSize, setFontSize] = useState(style.font_size);
     const [backgroundColor, setBackgroundColor] = useState(style.background_color);
+    const [backgroundRotate, setBackgroundRotate] = useState(style.backgroundRotate);
     const [fontColor, setFontColor] = useState(style.font_color);
     const [accent1, setAccent1] = useState(style.accent_1);
     const [accent2, setAccent2] = useState(style.accent_2);
     const [accent3, setAccent3] = useState(style.accent_3);
-    const [media, setMedia] = useState(null);
-    const [mediaLoading, setMediaLoading] = useState(false);
+    const [profileMedia, setProfileMedia] = useState(null);
+    const [backgroundMedia, setBackgroundMedia] = useState(null);
+    const [profileMediaLoading, setProfileMediaLoading] = useState(false);
+    const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
     const [errors, setErrors] = useState([]);
     const { closeModal } = useModal();
     const dispatch = useDispatch();
 
     const user = useSelector(state => state.session.user);
 
-    const updateMedia = (e) => {
+    const updateProfileMedia = (e) => {
         const file = e.target.files[0];
-        if (file) setMedia(file);
+        if (file) setProfileMedia(file);
     }
 
     const userMediaHandler = async (e) => {
         e.preventDefault();
 
         const formData = new FormData();
-        formData.append('media', media);
-        setMediaLoading(true);
+        formData.append('media', profileMedia);
+        setProfileMediaLoading(true);
 
         const data = await dispatch(editUserMedia(user.id, formData));
-        setMediaLoading(false);
+        setProfileMediaLoading(false);
+        if (data.errors) {
+            setErrors(data.errors);
+        } else {
+            closeModal();
+        }
+    }
+
+    const fontSizeHandler = (e) => setFontSize(e.target.innerText);
+
+    const fontHandler = (e) => setFont(e.target.innerText.replace(' | ', ', '));
+
+    const createSettingHandler = async (e) => {
+        e.preventDefault();
+
+        const formData = new FormData();
+        formData.append('profile-media', profileMedia);
+        setBackgroundMediaLoading(true);
+    
+        const userID = user.id;
+
+        const data = await dispatch(createUserSetting({
+            userID,
+            themeName,
+            backgroundColor,
+            backgroundMedia,
+            backgroundRotate,
+            formData
+        }));
+        setBackgroundMediaLoading(false);
         if (data.errors) {
             setErrors(data.errors);
         } else {
@@ -47,11 +81,6 @@ export const SettingsPage = ({ style }) => {
         }
 
     }
-
-    const fontSizeHandler = (e) => setFontSize(e.target.innerText);
-
-    const fontHandler = (e) => setFont(e.target.innerText.replace(' | ', ', '));
-
 
     const dropdownHandler = (eType, eTarg, e) => {
         if (eType === 'onMouseOver') {
@@ -86,37 +115,37 @@ export const SettingsPage = ({ style }) => {
         <div>
             <h1>Settings</h1>
             <div>
-                <h2>Change Media</h2>
+                <h2>Update Media</h2>
                 <form onSubmit={userMediaHandler}>
                     <h3>Profile</h3>
                     <label
-                        htmlFor='s-p-user-media-uploader'
+                        htmlFor='s-p-user-profile-media-uploader'
                     >
-                        {media === '' ? 'Upload Media' : 'Added'}
+                        {profileMedia === '' ? 'Upload Media' : 'Added'}
                     </label>
                     <input
-                        id='s-p-user-media-uploader'
+                        id='s-p-user-profile-media-uploader'
                         type='file'
-                        onChange={updateMedia}
+                        onChange={updateProfileMedia}
                     />
-                    {mediaLoading && (<span>Loading...</span>)}
+                    {profileMediaLoading && (<span>Loading...</span>)}
                     <button>Submit</button>
                 </form>
-                {/* <form onSubmit={userMediaHandler}>
+                <form onSubmit={createSettingHandler}>
                     <h3>Site Background</h3>
                     <label
-                        htmlFor='s-p-user-media-uploader'
+                        htmlFor='s-p-user-profile-media-uploader'
                     >
-                        {media === '' ? 'Upload Media' : 'Added'}
+                        {profileMedia === '' ? 'Upload Media' : 'Added'}
                     </label>
                     <input
-                        id='s-p-user-media-uploader'
+                        id='s-p-user-profile-media-uploader'
                         type='file'
-                        onChange={updateMedia}
+                        onChange={updateProfileMedia}
                     />
-                    {mediaLoading && (<span>Loading...</span>)}
+                    {profileMediaLoading && (<span>Loading...</span>)}
                     <button>Submit</button>
-                </form> */}
+                </form>
                 <div>
                     {errors.map(error => (
                         <div key={error}>{error}</div>
@@ -124,8 +153,18 @@ export const SettingsPage = ({ style }) => {
                 </div>
             </div>
             <div>
-                <h2>Customize Theme</h2>
+                <h2>Create Theme</h2>
                 <form>
+                    <div>
+                        <label htmlFor='sett-page-create-theme-name'>Theme Name</label>
+                        <input
+                            id='sett-page-create-theme-name'
+                            type='text'
+                            placeholder='Theme Name'
+                            value={themeName}
+                            onChange={setThemeName}
+                        />
+                    </div>
                     <div>
                         <label htmlFor='sett-pg-bg-color-picker'>Background Color</label>
                         <input
@@ -133,6 +172,15 @@ export const SettingsPage = ({ style }) => {
                             type='color'
                             value={backgroundColor}
                             onChange={setBackgroundColor}
+                        />
+                    </div>
+                    <div>
+                        <label htmlFor='sett-pg-bg-rotate-picker'>Background Rotate</label>
+                        <input
+                            id='sett-pg-bg-rotate-picker'
+                            type='checkbox' 
+                            value={backgroundRotate}
+                            onChange={(e) => setBackgroundRotate(e.target.checked)}
                         />
                     </div>
                     <div>
