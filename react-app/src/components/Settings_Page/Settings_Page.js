@@ -92,21 +92,15 @@ export const SettingsPage = ({ style }) => {
 
     }
 
-    // const dropdownHandler = (eType, stateTarg, eTarg) => {
-    //     if (eType === 'onMouseOver') {
-    //         stateTarg === 'FF' ? setFFDropdown('dropdown-1') : setFSDropdown('dropdown-1');
-    //     } else {
-    //         stateTarg === 'FS' ? setFSDropdown('invisible') : setFFDropdown('invisible');
-    //     };
-    // }
-
     const fontSizes = fontSizesRaw.map(fontSize => (
             <option
                 key={fontSize}
                 value={fontSize}
                 readOnly={readOnly}
                 onChange={(e) => setFontSize(e.target.innerText)}
-            />
+            >
+                {fontSize}
+            </option>
     ))
 
     const fontFamilies = fontFamiliesRaw.map(fontFamily => (
@@ -115,7 +109,9 @@ export const SettingsPage = ({ style }) => {
             value={fontFamily}
             readOnly={readOnly}
             onChange={(e) => setFontFamily(e.target.innerText.replace(' | ', ', '))}
-        />
+        >
+            {fontFamily}
+        </option>
     ))
 
     const settingsObj = useSelector(state => state.settings);
@@ -126,21 +122,21 @@ export const SettingsPage = ({ style }) => {
                 <input type='text' readOnly={readOnly} value={setting.theme_name} />
 
                 <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
-                <select name={`font-sizes-${idx}`}>
-                    <option readOnly={readOnly} value={setting.font_size} />
+                <select name={`font-sizes-${idx}`} value={setting.font_size.replace('px', '')}>
+                    {fontSizes}
                 </select>
 
                 <label htmlFor={`font-families-${idx}`}>Font Family</label>
-                <select name={`font-families-${idx}`}>
-                    <option value={setting.font_family} />
+                <select name={`font-families-${idx}`} value={setting.font_family.replace(/,\s/, ' | ')}>
+                   {fontFamilies}
                 </select>
 
-                <input type='color'  readOnly={readOnly} value={setting.font_color} />
-                <input type='checkbox' readOnly={readOnly} checked={setting.background_rotate} />
-                <input type='color'  readOnly={readOnly} value={setting.background_color} />
-                <input type='color'  readOnly={readOnly} value={setting.accent_1} />
-                <input type='color'  readOnly={readOnly} value={setting.accent_2} />
-                <input type='color'  readOnly={readOnly} value={setting.accent_3} />
+                <input type='color'  disabled={readOnly} value={setting.font_color} />
+                <input type='checkbox' disabled={readOnly} checked={setting.background_rotate} />
+                <input type='color'  disabled={readOnly} value={setting.background_color} />
+                <input type='color'  disabled={readOnly} value={setting.accent_1} />
+                <input type='color'  disabled={readOnly} value={setting.accent_2} />
+                <input type='color'  disabled={readOnly} value={setting.accent_3} />
                 <button>Edit</button>
                 <button>Use</button>
             </form>
@@ -251,7 +247,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='sett-pg-accent-1-color-picker'
                             type='color'
-                            readOnly={readOnly}
+                            disabled={readOnly}
                             value={accent_1}
                             onChange={(e) => setAccent1(e.target.value)}
                         />
@@ -262,6 +258,7 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-accent-2-color-picker'
                             type='color'
                             readOnly={readOnly}
+                            disabled={accent_2}
                             value={accent_2}
                             onChange={(e) => setAccent2(e.target.value)}
                         />
@@ -272,6 +269,7 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-accent-3-color-picker'
                             type='color'
                             readOnly={readOnly}
+                            disabled={accent_3}
                             value={accent_3}
                             onChange={(e) => setAccent3(e.target.value)}
                         />
