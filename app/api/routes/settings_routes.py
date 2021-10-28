@@ -19,7 +19,7 @@ def validation_errors_to_error_messages(validation_errors):
 @settings_routes.route('/', methods=['POST'])
 @login_required
 def add_theme():
-    """Add a theme."""
+    """Add a theme to settings."""
     # print('before the media')
     # if 'media' not in request.files:
     #     return {'errors': 'media required'}, 400
