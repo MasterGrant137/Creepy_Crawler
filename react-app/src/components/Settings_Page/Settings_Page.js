@@ -13,7 +13,7 @@ export const SettingsPage = ({ style }) => {
     const [fSDropdown, setFSDropdown] = useState('invisible');
     const [fDropdown, setFDropdown] = useState('invisible');
     const [themeName, setThemeName] = useState('');
-    const [font, setFont] = useState(style.font_family);
+    const [fontFamily, setFontFamily] = useState(style.font_family);
     const [fontSize, setFontSize] = useState(style.font_size);
     const [backgroundColor, setBackgroundColor] = useState(style.background_color);
     const [backgroundRotate, setBackgroundRotate] = useState(style.backgroundRotate);
@@ -31,9 +31,14 @@ export const SettingsPage = ({ style }) => {
 
     const user = useSelector(state => state.session.user);
 
-    const updateProfileMedia = (e) => {
+    const setProfileMediaHandler = (e) => {
         const file = e.target.files[0];
         if (file) setProfileMedia(file);
+    }
+
+    const setBackgroundMediaHandler = (e) => {
+        const file = e.target.files[0];
+        if(file) setBackgroundMedia(file);
     }
 
     const userMediaHandler = async (e) => {
@@ -54,7 +59,7 @@ export const SettingsPage = ({ style }) => {
 
     const fontSizeHandler = (e) => setFontSize(e.target.innerText);
 
-    const fontHandler = (e) => setFont(e.target.innerText.replace(' | ', ', '));
+    const fontFamilyHandler = (e) => setFontFamily(e.target.innerText.replace(' | ', ', '));
 
     const createSettingHandler = async (e) => {
         e.preventDefault();
@@ -71,6 +76,12 @@ export const SettingsPage = ({ style }) => {
             backgroundColor,
             backgroundMedia,
             backgroundRotate,
+            fontColor,
+            fontFamily,
+            fontSize,
+            accent1,
+            accent2,
+            accent3,
             formData
         }));
         setBackgroundMediaLoading(false);
@@ -105,7 +116,7 @@ export const SettingsPage = ({ style }) => {
         <div 
             key={font}
             className={fDropdown}
-            onClick={fontHandler}
+            onClick={fontFamilyHandler}
         >
             {font}
         </div>
@@ -126,22 +137,7 @@ export const SettingsPage = ({ style }) => {
                     <input
                         id='s-p-user-profile-media-uploader'
                         type='file'
-                        onChange={updateProfileMedia}
-                    />
-                    {profileMediaLoading && (<span>Loading...</span>)}
-                    <button>Submit</button>
-                </form>
-                <form onSubmit={createSettingHandler}>
-                    <h3>Site Background</h3>
-                    <label
-                        htmlFor='s-p-user-profile-media-uploader'
-                    >
-                        {profileMedia === '' ? 'Upload Media' : 'Added'}
-                    </label>
-                    <input
-                        id='s-p-user-profile-media-uploader'
-                        type='file'
-                        onChange={updateProfileMedia}
+                        onChange={setProfileMediaHandler}
                     />
                     {profileMediaLoading && (<span>Loading...</span>)}
                     <button>Submit</button>
@@ -154,7 +150,7 @@ export const SettingsPage = ({ style }) => {
             </div>
             <div>
                 <h2>Create Theme</h2>
-                <form>
+                <form onSubmit={createSettingHandler}>
                     <div>
                         <label htmlFor='sett-page-create-theme-name'>Theme Name</label>
                         <input
@@ -173,6 +169,20 @@ export const SettingsPage = ({ style }) => {
                             value={backgroundColor}
                             onChange={setBackgroundColor}
                         />
+                    </div>
+                    <div>
+                        <label
+                            htmlFor='s-p-user-profile-media-uploader'
+                        >
+                            {profileMedia === '' ? 'Upload Media' : 'Added'}
+                        </label>
+                        <input
+                            id='s-p-user-profile-media-uploader'
+                            type='file'
+                            onChange={setBackgroundMediaHandler}
+                        />
+                        {backgroundMediaLoading && (<span>Loading...</span>)}
+                        <button>Submit</button>
                     </div>
                     <div>
                         <label htmlFor='sett-pg-bg-rotate-picker'>Background Rotate</label>
@@ -206,9 +216,9 @@ export const SettingsPage = ({ style }) => {
                         onMouseOver={() => dropdownHandler('onMouseOver', 'S')}
                         onMouseOut={() => dropdownHandler('onMouseOut', 'S')}
                     >
-                        <span>Font</span>
+                        <span>Font Family</span>
                         {fontChoices}
-                        <span>{font}</span>
+                        <span>{fontFamily}</span>
                     </div>
                     <div>
                         <label htmlFor='sett-pg-accent-1-color-picker'>Accent 1</label>
