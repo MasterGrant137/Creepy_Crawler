@@ -47,7 +47,7 @@ def downgrade():
     op.drop_column('users', 'active_theme')
     op.add_column('themes', sa.Column('active', sa.BOOLEAN(), autoincrement=False, nullable=False))
     op.alter_column('themes', 'font_size',
-               existing_type=sa.SMALLINT(),
+               existing_type=sa.String(length=4),
                nullable=True)
     op.alter_column('themes', 'font_family',
                existing_type=sa.VARCHAR(length=50),

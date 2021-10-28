@@ -38,6 +38,9 @@ export const createUserSetting = (setting) => async dispatch => {
         const newSetting = await response.json();
         await dispatch(createSetting(newSetting));
         return newSetting;
+    } else {
+        console.log(response.json());
+        return response;
     }
 }
 
@@ -87,7 +90,7 @@ export const settingsReducer = (state = initialState, action) => {
     switch (action.type) {
         case CREATE_SETTING:
             const setting = action.payload.setting;
-            newState[setting.id] = setting;
+            newState[setting.user_id] = setting;
             return newState;
         case READ_SETTINGS:
             const settings = action.payload.history;

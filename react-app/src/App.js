@@ -22,11 +22,11 @@ function App() {
 
   const siteTheme = {
     active_theme: ``,
-    theme_count: ``,
-    theme_name: ``,
+    theme_count: 0,
+    theme_name: `Theme`,
     background_color: `#EAE7DC`,
     background_image: `url(https://images2.alphacoders.com/602/thumb-1920-602223.jpg)`,
-    background_rotate: ``, 
+    background_rotate: `False`, 
     font_color: `#E85A4F`,
     font_family: `Georgia, serif`,
     font_size: `16px`,

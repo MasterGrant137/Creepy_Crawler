@@ -17,15 +17,46 @@ def validation_errors_to_error_messages(validation_errors):
     return errorMessages
 
 @settings_routes.route('/', methods=['POST'])
+@login_required
 def add_theme():
     """Add a theme."""
-    theme_data = request.json
-    print(theme_data)
+    # print('before the media')
+    # if 'media' not in request.files:
+    #     return {'errors': 'media required'}, 400
+    # print('after the media')
+    # media = request.files['media']
 
-    # theme = Theme(theme_data)
+    # if not allowed_file(media.filename):
+    #     return {'errors': ['That file type is not permitted.']}, 400
 
-    # db.session.add(theme)
-    # db.session.commit()
+    # media.filename = get_unique_filename(media.filename)
+    # upload = upload_file_to_s3(media)
+   
+    # #? if dict has no filename key
+    # if 'url' not in upload:
+    #     return upload, 400
+
+    # url = upload['url']
+    print('this is request.json', request.json)
+    new_theme = Theme(
+        user_id=request.json['user_id'],
+        theme_name=request.json['theme_name'],
+        background_color=request.json['background_color'],
+        background_rotate=request.json['background_rotate'],
+        font_color=request.json['font_color'],
+        font_family=request.json['font_family'],
+        font_size=request.json['font_size'],
+        accent_1=request.json['accent_1'],
+        accent_2=request.json['accent_2'],
+        accent_3=request.json['accent_3'],
+        # background_media=url
+    )
+
+    db.session.add(new_theme)
+    db.session.commit()
+    return {
+        'setting': new_theme.to_dict()
+    }
 
 # * Add the line below after each conditional
 # * return {'errors': validation_errors_to_error_messages(form.errors)}, 400

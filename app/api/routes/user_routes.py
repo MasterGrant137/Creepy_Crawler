@@ -14,7 +14,6 @@ def upload_media(userID):
 
     media = request.files['media']
 
-
     if not allowed_file(media.filename):
         return {'errors': ['That file type is not permitted.']}, 400
 
@@ -29,7 +28,7 @@ def upload_media(userID):
 
     user = User.query.filter(User.id == userID).first()
 
-    user.media=url
+    user.profile_media=url
 
     db.session.add(user)
     db.session.commit()
