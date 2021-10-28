@@ -8,10 +8,8 @@ import { createUserSetting, readUserSettings } from '../../store/settings_store'
 import { useModal } from '../context/Modal_Context.js';
 
 export const SettingsPage = ({ style }) => {
-    const fontSizes = dropdownData['font-sizes'];
-    const fonts = dropdownData['fonts'];
-    const [fSDropdown, setFSDropdown] = useState('invisible');
-    const [fFDropdown, setFFDropdown] = useState('invisible');
+    const fontSizesRaw = dropdownData['font-sizes'];
+    const fontFamiliesRaw = dropdownData['fonts'];
     const [theme_name, setThemeName] = useState('');
     const [font_family, setFontFamily] = useState(style.font_family);
     const [font_size, setFontSize] = useState(style.font_size);
@@ -61,10 +59,6 @@ export const SettingsPage = ({ style }) => {
         }
     }
 
-    const fontSizeHandler = (e) => setFontSize(e.target.innerText);
-
-    const fontFamilyHandler = (e) => setFontFamily(e.target.innerText.replace(' | ', ', '));
-
     const createSettingHandler = async (e) => {
         e.preventDefault();
 
@@ -97,18 +91,6 @@ export const SettingsPage = ({ style }) => {
 
     }
 
-    const dropdownHandler = (eType, e) => {
-        e.preventDefault();
-
-        if (eType === 'onMouseOver') {
-            // e.target.classList.remove('invisible');
-            e.target.classList.add('dropdown-1');
-        } else {
-            // e.target.classList.remove('dropdown-1');
-            // e.target.classList.add('invisible');
-        }
-    }
-
     // const dropdownHandler = (eType, stateTarg, eTarg) => {
     //     if (eType === 'onMouseOver') {
     //         stateTarg === 'FF' ? setFFDropdown('dropdown-1') : setFSDropdown('dropdown-1');
@@ -117,53 +99,38 @@ export const SettingsPage = ({ style }) => {
     //     };
     // }
 
-    const fontSizeChoices = fontSizes.map(fontSize => (
-        <div
-            key={fontSize}
-            className={fSDropdown}
-            onClick={fontSizeHandler}
-        >
-            {fontSize}
-        </div>
+    const fontSizes = fontSizesRaw.map(fontSize => (
+            <option
+                key={fontSize}
+                value={fontSize}
+                onChange={(e) => setFontSize(e.target.innerText)}
+            />
     ))
 
-    const fontChoices = fonts.map(font => (
-        <div 
-            key={font}
-            className={fFDropdown}
-            onClick={fontFamilyHandler}
-        >
-            {font}
-        </div>
+    const fontFamilies = fontFamiliesRaw.map(fontFamily => (
+        <option 
+            key={fontFamily}
+            value={fontFamily}
+            onChange={(e) => setFontFamily(e.target.innerText.replace(' | ', ', '))}
+        />
     ))
 
     const settingsObj = useSelector(state => state.settings);
 
     const settings = Object.values(settingsObj).map((setting, idx) => (
-        <div>
+        <div key={setting.id}>
             <form>
                 <input type='text' value={setting.theme_name} />
-                
-                <div 
-                    id={`sett-pg-font-size-editor-${idx}`}
-                    className='dropdown-1-container'
-                    onMouseOver={(e) => dropdownHandler('onMouseOver', e)}
-                    onMouseOut={(e) => dropdownHandler('onMouseOut', e)}
-                >
-                    <span>Font Size</span>
-                    {fontSizeChoices}
-                    <span>{font_size}</span>
-                </div>
-                <div 
-                    id={`sett-pg-font-size-editor-${idx}`}
-                    className='dropdown-1-container'
-                    onMouseOver={(e) => dropdownHandler('onMouseOver', e)}
-                    onMouseOut={(e) => dropdownHandler('onMouseOut', e)}
-                >
-                    <span>Font Family</span>
-                    {fontChoices}
-                    <span>{font_family}</span>
-                </div>
+
+                <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
+                <select name={`font-sizes-${idx}`}>
+                    <option key={setting.id} value={setting.font_size} />
+                </select>
+
+                <label htmlFor={`font-families-${idx}`}>Font Family</label>
+                <select name={`font-families-${idx}`}>
+                    <option key={setting.id} value={setting.font_family} />
+                </select>
 
                 <input type='color' value={setting.font_color} />
                 <input type='checkbox' checked={setting.background_rotate} />
@@ -184,9 +151,7 @@ export const SettingsPage = ({ style }) => {
                 <h2>Update Media</h2>
                 <form onSubmit={userMediaHandler}>
                     <h3>Profile</h3>
-                    <label
-                        htmlFor='s-p-user-profile-media-uploader'
-                    >
+                    <label htmlFor='s-p-user-profile-media-uploader'>
                         {profile_media === '' ? 'Upload Media' : 'Added'}
                     </label>
                     <input
@@ -259,22 +224,20 @@ export const SettingsPage = ({ style }) => {
                     <div
                         id='sett-pg-font-size-picker'
                         className='dropdown-1-container'
-                        onMouseOver={(e) => dropdownHandler('onMouseOver', e)}
-                        onMouseOut={(e) => dropdownHandler('onMouseOut', e)}
                     >
-                        <span>Font Size</span>
-                        {fontSizeChoices}
-                        <span>{font_size}</span>
+                        <label>Font Size</label>
+                        <select name='font-sizes' id='sett-pg-font-sizes'>
+                            {fontSizes}
+                        </select>
                     </div>
                     <div 
                         id='sett-pg-font-family-picker'
                         className='dropdown-1-container'
-                        onMouseOver={(e) => dropdownHandler('onMouseOver', e)}
-                        onMouseOut={(e) => dropdownHandler('onMouseOut', e)}
                     >
-                        <span>Font Family</span>
-                        {fontChoices}
-                        <span>{font_family}</span>
+                        <label>Font Family</label>
+                        <select name='font-families' id='sett-pg-font-sizes'>
+                            {fontFamilies}
+                        </select>
                     </div>
                     <div>
                         <label htmlFor='sett-pg-accent-1-color-picker'>Accent 1</label>
