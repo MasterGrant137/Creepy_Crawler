@@ -93,11 +93,11 @@ export const settingsReducer = (state = initialState, action) => {
             newState[setting.user_id] = setting;
             return newState;
         case READ_SETTINGS:
-            const settings = action.payload.history;
+            const settings = action.payload.settings;
             settings.forEach((setting) => newState[setting.id])
-            return newState;
+            return {...settings,...newState};
         case UPDATE_SETTING:
-            const updateSetting = action.payload.history;
+            const updateSetting = action.payload.settings;
             newState[updateSetting.id] = updateSetting;
             return newState;
         case DELETE_SETTING:

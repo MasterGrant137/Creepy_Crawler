@@ -33,6 +33,7 @@ class Theme(db.Model):
                 'background_rotate': self.background_rotate,
                 'font_color': self.font_color,
                 'font_family': self.font_family,
+                'font_size': self.font_size,
                 'accent_1': self.accent_1,
                 'accent_2': self.accent_2,
                 'accent_3': self.accent_3,

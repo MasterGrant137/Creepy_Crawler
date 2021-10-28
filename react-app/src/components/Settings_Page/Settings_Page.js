@@ -1,17 +1,17 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
 import { editUserMedia } from '../../store/session';
-import { createUserSetting } from '../../store/settings_store';
+import { createUserSetting, readUserSettings } from '../../store/settings_store';
 import { useModal } from '../context/Modal_Context.js';
 
 export const SettingsPage = ({ style }) => {
     const fontSizes = dropdownData['font-sizes'];
     const fonts = dropdownData['fonts'];
     const [fSDropdown, setFSDropdown] = useState('invisible');
-    const [fDropdown, setFDropdown] = useState('invisible');
+    const [fFDropdown, setFFDropdown] = useState('invisible');
     const [theme_name, setThemeName] = useState('');
     const [font_family, setFontFamily] = useState(style.font_family);
     const [font_size, setFontSize] = useState(style.font_size);
@@ -30,6 +30,10 @@ export const SettingsPage = ({ style }) => {
     const dispatch = useDispatch();
 
     const user = useSelector(state => state.session.user);
+
+     useEffect(() => {
+        dispatch(readUserSettings())
+    }, [dispatch])
 
     const setProfileMediaHandler = (e) => {
         const file = e.target.files[0];
@@ -93,14 +97,25 @@ export const SettingsPage = ({ style }) => {
 
     }
 
-    const dropdownHandler = (eType, eTarg, e) => {
+    const dropdownHandler = (eType, e) => {
+        e.preventDefault();
+
         if (eType === 'onMouseOver') {
-           eTarg === 'FS' ? setFSDropdown('dropdown-1') : setFDropdown('dropdown-1');
+            // e.target.classList.remove('invisible');
+            e.target.classList.add('dropdown-1');
+        } else {
+            // e.target.classList.remove('dropdown-1');
+            // e.target.classList.add('invisible');
         }
-        else {
-            eTarg === 'FS' ? setFSDropdown('invisible') : setFDropdown('invisible');
-        };
     }
+
+    // const dropdownHandler = (eType, stateTarg, eTarg) => {
+    //     if (eType === 'onMouseOver') {
+    //         stateTarg === 'FF' ? setFFDropdown('dropdown-1') : setFSDropdown('dropdown-1');
+    //     } else {
+    //         stateTarg === 'FS' ? setFSDropdown('invisible') : setFFDropdown('invisible');
+    //     };
+    // }
 
     const fontSizeChoices = fontSizes.map(fontSize => (
         <div
@@ -115,10 +130,50 @@ export const SettingsPage = ({ style }) => {
     const fontChoices = fonts.map(font => (
         <div 
             key={font}
-            className={fDropdown}
+            className={fFDropdown}
             onClick={fontFamilyHandler}
         >
             {font}
+        </div>
+    ))
+
+    const settingsObj = useSelector(state => state.settings);
+
+    const settings = Object.values(settingsObj).map((setting, idx) => (
+        <div>
+            <form>
+                <input type='text' value={setting.theme_name} />
+                
+                <div 
+                    id={`sett-pg-font-size-editor-${idx}`}
+                    className='dropdown-1-container'
+                    onMouseOver={(e) => dropdownHandler('onMouseOver', e)}
+                    onMouseOut={(e) => dropdownHandler('onMouseOut', e)}
+                >
+                    <span>Font Size</span>
+                    {fontSizeChoices}
+                    <span>{font_size}</span>
+                </div>
+                <div 
+                    id={`sett-pg-font-size-editor-${idx}`}
+                    className='dropdown-1-container'
+                    onMouseOver={(e) => dropdownHandler('onMouseOver', e)}
+                    onMouseOut={(e) => dropdownHandler('onMouseOut', e)}
+                >
+                    <span>Font Family</span>
+                    {fontChoices}
+                    <span>{font_family}</span>
+                </div>
+
+                <input type='color' value={setting.font_color} />
+                <input type='checkbox' checked={setting.background_rotate} />
+                <input type='color' value={setting.background_color} />
+                <input type='color' value={setting.accent_1} />
+                <input type='color' value={setting.accent_2} />
+                <input type='color' value={setting.accent_3} />
+                <button>Edit</button>
+                <button>Use</button>
+            </form>
         </div>
     ))
 
@@ -201,19 +256,21 @@ export const SettingsPage = ({ style }) => {
                             onChange={(e) => setFontColor(e.target.value)}
                         />
                     </div>
-                    <div 
+                    <div
+                        id='sett-pg-font-size-picker'
                         className='dropdown-1-container'
-                        onMouseOver={() => dropdownHandler('onMouseOver', 'FS')}
-                        onMouseOut={() => dropdownHandler('onMouseOut', 'FS')}
+                        onMouseOver={(e) => dropdownHandler('onMouseOver', e)}
+                        onMouseOut={(e) => dropdownHandler('onMouseOut', e)}
                     >
                         <span>Font Size</span>
                         {fontSizeChoices}
                         <span>{font_size}</span>
                     </div>
                     <div 
+                        id='sett-pg-font-family-picker'
                         className='dropdown-1-container'
-                        onMouseOver={() => dropdownHandler('onMouseOver', 'S')}
-                        onMouseOut={() => dropdownHandler('onMouseOut', 'S')}
+                        onMouseOver={(e) => dropdownHandler('onMouseOver', e)}
+                        onMouseOut={(e) => dropdownHandler('onMouseOut', e)}
                     >
                         <span>Font Family</span>
                         {fontChoices}
@@ -248,6 +305,9 @@ export const SettingsPage = ({ style }) => {
                     </div>
                     <button>Submit</button>
                 </form>
+            </div>
+            <div>
+                {settings}
             </div>
         </div>
     )

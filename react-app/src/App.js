@@ -18,7 +18,7 @@ function App() {
   const dispatch = useDispatch();
 
   const user = useSelector(state => state.session.user);
-  const theme = useSelector(state => state.session.theme);
+  const settings = useSelector(state => state.settings);
 
   const siteTheme = {
     active_theme: ``,

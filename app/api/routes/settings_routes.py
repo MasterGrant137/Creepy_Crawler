@@ -58,5 +58,15 @@ def add_theme():
         'setting': new_theme.to_dict()
     }
 
+@settings_routes.route('/')
+@login_required
+def get_themes():
+    """Get all of the themes belonging to a given user."""
+    themes = Theme.query.filter(Theme.user_id == current_user.id).all()
+    return {
+        'settings': [ theme.to_dict() for theme in themes ]
+    }
+
+
 # * Add the line below after each conditional
 # * return {'errors': validation_errors_to_error_messages(form.errors)}, 400
