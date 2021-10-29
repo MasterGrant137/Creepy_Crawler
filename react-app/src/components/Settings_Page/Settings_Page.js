@@ -157,7 +157,14 @@ export const SettingsPage = ({ style }) => {
         })
     }
 
-    const deleteThemeHandler = (e) => dispatch(deleteUserSetting(+e.target.dataset.formId + 1));
+    const deleteThemeHandler = (e) => {
+        const stateID = e.target.dataset.formId;
+        const dbID = e.target.dataset.dbId;
+
+        console.log('stateID:',stateID,'dbID: ', dbID);
+        // console.log(e.target.dataset.formId);
+        dispatch(deleteUserSetting(stateID, dbID))
+    };
 
     const fontSizes = fontSizesRaw.map(fontSize => (
             <option
@@ -216,7 +223,7 @@ export const SettingsPage = ({ style }) => {
                 <input id={`sett-pg-accent-2-color-picker-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
                 <button data-form-id={`${idx}`}>Edit</button>
-                <button data-form-id={`${idx}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
+                <button data-form-id={`${idx}`} data-db-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
                 <button data-form-id={`${idx}`} type='button'>Use</button>
             </form>
         </div>

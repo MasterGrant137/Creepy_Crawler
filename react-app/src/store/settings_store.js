@@ -20,9 +20,9 @@ const updateSetting = (setting) => ({
     payload: setting
 })
 
-const deleteSetting = (settingID) => ({
+const deleteSetting = (stateID) => ({
     type: DELETE_SETTING,
-    payload: settingID
+    payload: stateID
 })
 
 //$ thunks
@@ -69,14 +69,13 @@ export const updateUserSetting = (setting) => async dispatch => {
     }
 }
 
-export const deleteUserSetting = (settingID) => async dispatch => {
-    console.log(settingID);
-    const response = await fetch(`/creepycrawler/settings/${settingID}`, {
+export const deleteUserSetting = (stateID, dbID) => async dispatch => {
+    const response = await fetch(`/creepycrawler/settings/${dbID}`, {
         method: 'DELETE'
     })
     if (response.ok) {
         const message = await response.json();
-        await dispatch(deleteSetting(settingID));
+        await dispatch(deleteSetting(stateID));
         return message;
     } else {
         return response;
@@ -103,8 +102,10 @@ export const settingsReducer = (state = initialState, action) => {
             newState[updateSetting.id] = updateSetting;
             return newState;
         case DELETE_SETTING:
-            const settingID = action.payload;
-            delete newState[settingID];
+            const stateID = action.payload;
+            console.log(newState);
+            delete newState[stateID];
+            console.log(newState);
             return newState;
         default:
             return state;
