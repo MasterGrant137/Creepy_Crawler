@@ -20,9 +20,9 @@ const updateSetting = (setting) => ({
     payload: setting
 })
 
-const deleteSetting = (stateID) => ({
+const deleteSetting = (settingID) => ({
     type: DELETE_SETTING,
-    payload: stateID
+    payload: settingID
 })
 
 //$ thunks
@@ -47,6 +47,7 @@ export const readUserSettings = () => async dispatch => {
     const response = await fetch('/creepycrawler/settings/');
     if (response.ok) {
         const settings = await response.json();
+        console.log(settings);
         await dispatch(readSettings(settings));
         return settings;
     }
@@ -70,14 +71,14 @@ export const updateUserSetting = (setting) => async dispatch => {
     }
 }
 
-export const deleteUserSetting = (dbID) => async dispatch => {
-    console.log(dbID);
-    const response = await fetch(`/creepycrawler/settings/${dbID}`, {
+export const deleteUserSetting = (settingID) => async dispatch => {
+    console.log(settingID);
+    const response = await fetch(`/creepycrawler/settings/${settingID}`, {
         method: 'DELETE'
     })
     if (response.ok) {
         const message = await response.json();
-        await dispatch(deleteSetting());
+        await dispatch(deleteSetting(settingID));
         return message;
     } else {
         return response;
@@ -97,20 +98,17 @@ export const settingsReducer = (state = initialState, action) => {
             return newState;
         case READ_SETTINGS:
             const settings = action.payload.settings;
-            settings.forEach((setting) => newState[setting.id])
-            return {...settings,...newState};
+            console.log(settings);
+            settings.forEach(setting => newState[setting.id] = setting)
+            console.log(newState);
+            return newState;
         case UPDATE_SETTING:
             const updateSetting = action.payload.setting;
-            console.log('UPDATE SETT', updateSetting);
-            console.log('UPDATE SETT', updateSetting.id);
             newState[updateSetting.id] = updateSetting;
-            console.log('really new update', newState);
             return newState;
         case DELETE_SETTING:
-            const stateID = action.payload;
-            console.log('NEW STATE',newState);
-            delete newState[stateID];
-            console.log('NEW NEW STATE',newState);
+            const settingID = action.payload;
+            delete newState[settingID];
             return newState;
         default:
             return state;

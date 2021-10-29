@@ -165,9 +165,8 @@ export const SettingsPage = ({ style }) => {
     }
 
     const deleteThemeHandler = (e) => {
-        const dbID = e.target.dataset.dbId;
-        console.log(dbID);
-        dispatch(deleteUserSetting(dbID))
+        const settingID = e.target.dataset.settingId;
+        dispatch(deleteUserSetting(settingID))
     };
 
     const fontSizes = fontSizesRaw.map(fontSize => (
@@ -234,7 +233,7 @@ export const SettingsPage = ({ style }) => {
                 
                 <button>Edit</button>
                 <button type='button' onClick={cancelHandler}>Cancel</button>
-                <button data-db-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
+                <button data-setting-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
                 <button type='button'>Use</button>
             </form>
     ))
