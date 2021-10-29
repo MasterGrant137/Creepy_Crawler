@@ -82,7 +82,7 @@ def update_theme(settingID):
         db.session.add(updated_theme)
         db.session.commit()
         return {
-            'setting': [ updated_theme.to_dict() ]
+            'setting': updated_theme.to_dict()
         }
     return { 'errors': ['You are not permitted to edit this theme.'] }, 401
 

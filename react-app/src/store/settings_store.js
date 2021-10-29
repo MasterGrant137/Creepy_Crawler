@@ -53,7 +53,7 @@ export const readUserSettings = () => async dispatch => {
 }
 
 export const updateUserSetting = (setting) => async dispatch => {
-    console.log(setting);
+    console.log(setting.setting_id);
     const response = await fetch(`/creepycrawler/settings/${setting.setting_id}`, {
         headers: {
             'Content-Type': 'application/json'
@@ -70,13 +70,14 @@ export const updateUserSetting = (setting) => async dispatch => {
     }
 }
 
-export const deleteUserSetting = (stateID, dbID) => async dispatch => {
+export const deleteUserSetting = (dbID) => async dispatch => {
+    console.log(dbID);
     const response = await fetch(`/creepycrawler/settings/${dbID}`, {
         method: 'DELETE'
     })
     if (response.ok) {
         const message = await response.json();
-        await dispatch(deleteSetting(stateID));
+        await dispatch(deleteSetting());
         return message;
     } else {
         return response;
@@ -92,7 +93,7 @@ export const settingsReducer = (state = initialState, action) => {
     switch (action.type) {
         case CREATE_SETTING:
             const setting = action.payload.setting;
-            newState[setting.user_id] = setting;
+            newState[setting.id] = setting;
             return newState;
         case READ_SETTINGS:
             const settings = action.payload.settings;
@@ -100,13 +101,16 @@ export const settingsReducer = (state = initialState, action) => {
             return {...settings,...newState};
         case UPDATE_SETTING:
             const updateSetting = action.payload.setting;
+            console.log('UPDATE SETT', updateSetting);
+            console.log('UPDATE SETT', updateSetting.id);
             newState[updateSetting.id] = updateSetting;
+            console.log('really new update', newState);
             return newState;
         case DELETE_SETTING:
             const stateID = action.payload;
-            console.log(newState);
+            console.log('NEW STATE',newState);
             delete newState[stateID];
-            console.log(newState);
+            console.log('NEW NEW STATE',newState);
             return newState;
         default:
             return state;

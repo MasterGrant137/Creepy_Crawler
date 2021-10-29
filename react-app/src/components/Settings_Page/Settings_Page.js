@@ -165,9 +165,9 @@ export const SettingsPage = ({ style }) => {
     }
 
     const deleteThemeHandler = (e) => {
-        const stateID = e.target.dataset.formId;
         const dbID = e.target.dataset.dbId;
-        dispatch(deleteUserSetting(stateID, dbID))
+        console.log(dbID);
+        dispatch(deleteUserSetting(dbID))
     };
 
     const fontSizes = fontSizesRaw.map(fontSize => (
@@ -234,8 +234,8 @@ export const SettingsPage = ({ style }) => {
                 
                 <button>Edit</button>
                 <button type='button' onClick={cancelHandler}>Cancel</button>
-                <button data-form-id={`${idx}`} data-db-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
-                <button data-form-id={`${idx}`} type='button'>Use</button>
+                <button data-db-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
+                <button type='button'>Use</button>
             </form>
     ))
 
@@ -255,7 +255,7 @@ export const SettingsPage = ({ style }) => {
                         onChange={setProfileMediaHandler}
                     />
                     {profileMediaLoading && (<span>Loading...</span>)}
-                    <button data-form-id='1' type='button'>Submit</button>
+                    <button type='button'>Submit</button>
                 </form>
                 <div>
                     {errors.map(error => (
@@ -347,7 +347,7 @@ export const SettingsPage = ({ style }) => {
                             disabled={p_f_2_disabled}
                             onChange={(e) => {
                                 const targOption = Array.from(e.target.children).find(option => option.selected);
-                                setFontFamily(targOption.innerText.replace(/\s|\s/, ', '));
+                                setFontFamily(targOption.innerText.replace(/\s\|\s/, ', '));
                             }}
                         >
                             {fontFamilies}
