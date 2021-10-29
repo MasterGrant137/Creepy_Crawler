@@ -47,19 +47,18 @@ export const readUserSettings = () => async dispatch => {
     const response = await fetch('/creepycrawler/settings/');
     if (response.ok) {
         const settings = await response.json();
-        console.log(settings);
         await dispatch(readSettings(settings));
         return settings;
     }
 }
 
 export const updateUserSetting = (setting) => async dispatch => {
-    console.log(setting.setting_id);
+    console.log('LOOK ME IN THE EYES',setting.setting_id);
     const response = await fetch(`/creepycrawler/settings/${setting.setting_id}`, {
         headers: {
             'Content-Type': 'application/json'
         },
-        method: 'PATCH',
+        method: 'PUT',
         body: JSON.stringify({
             setting
         })
@@ -72,7 +71,6 @@ export const updateUserSetting = (setting) => async dispatch => {
 }
 
 export const deleteUserSetting = (settingID) => async dispatch => {
-    console.log(settingID);
     const response = await fetch(`/creepycrawler/settings/${settingID}`, {
         method: 'DELETE'
     })
@@ -98,9 +96,7 @@ export const settingsReducer = (state = initialState, action) => {
             return newState;
         case READ_SETTINGS:
             const settings = action.payload.settings;
-            console.log(settings);
             settings.forEach(setting => newState[setting.id] = setting)
-            console.log(newState);
             return newState;
         case UPDATE_SETTING:
             const updateSetting = action.payload.setting;

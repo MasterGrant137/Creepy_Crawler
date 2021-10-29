@@ -37,7 +37,7 @@ def add_theme():
     #     return upload, 400
 
     # url = upload['url']
-    print('this is request.json', request.json)
+
     new_theme = Theme(
         user_id=request.json['user_id'],
         theme_name=request.json['theme_name'],
@@ -56,33 +56,31 @@ def add_theme():
     db.session.commit()
     return { 'setting': new_theme.to_dict() }
 
-@settings_routes.route('<int:settingID>', methods=['PATCH'])
+@settings_routes.route('<int:settingID>', methods=['PUT'])
 @login_required
 def update_theme(settingID):
     """Update a theme."""
     theme = Theme.query.filter(Theme.id == settingID).first()
     setting = request.json['setting']
 
-    print('LOOKIE HERE',request.json, settingID, request.json['setting']['user_id'])
-    if (theme.user_id == current_user.id):
-        updated_theme = Theme(
-            user_id=setting['user_id'],
-            theme_name=setting['theme_name'],
-            background_color=setting['background_color'],
-            background_rotate=setting['background_rotate'],
-            font_color=setting['font_color'],
-            font_family=setting['font_family'],
-            font_size=setting['font_size'],
-            accent_1=setting['accent_1'],
-            accent_2=setting['accent_2'],
-            accent_3=setting['accent_3'],
-            # background_media=url
-        )
-        print('HERE IS THE THEME AFTER', updated_theme)
-        db.session.add(updated_theme)
+    if ((theme.user_id == current_user.id) and (theme.id == int(setting['setting_id']))):
+        theme.user_id=setting['user_id'],
+        theme.theme_name=setting['theme_name'],
+        theme.background_color=setting['background_color'],
+        theme.background_rotate=setting['background_rotate'],
+        theme.font_color=setting['font_color'],
+        theme.font_family=setting['font_family'],
+        theme.font_size=setting['font_size'],
+        theme.accent_1=setting['accent_1'],
+        theme.accent_2=setting['accent_2'],
+        theme.accent_3=setting['accent_3'],
+        # theme.background_media=url
+
+        db.session.add(theme)
         db.session.commit()
+
         return {
-            'setting': updated_theme.to_dict()
+            'setting': theme.to_dict()
         }
     return { 'errors': ['You are not permitted to edit this theme.'] }, 401
 
