@@ -3,14 +3,16 @@ import { useDispatch, useSelector } from 'react-redux';
 import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
-import { editUserMedia } from '../../store/session';
+import { editProfileMedia } from '../../store/session';
 import { createUserSetting, readUserSettings } from '../../store/settings_store';
 import { useModal } from '../context/Modal_Context.js';
 
 export const SettingsPage = ({ style }) => {
     const fontSizesRaw = dropdownData['font-sizes'];
     const fontFamiliesRaw = dropdownData['fonts'];
-    const [disabled, setDisabled] = useState(true)
+    const [toggledState, toggleState] = useState(true)
+    const [p_f_2_disabled, setPF2Disabled] = useState(true);
+    const [p_f_2_btn, setPF2Btn] = useState('Edit');
     const [theme_name, setThemeName] = useState('');
     const [font_family, setFontFamily] = useState(style.font_family);
     const [font_size, setFontSize] = useState(style.font_size);
@@ -44,15 +46,16 @@ export const SettingsPage = ({ style }) => {
     //     if(file) setBackgroundMedia(file);
     // }
 
-    const userMediaHandler = async (e) => {
+    const profileMediaHandler = async (e) => {
         e.preventDefault();
 
         const formData = new FormData();
         formData.append('media', profile_media);
         setProfileMediaLoading(true);
 
-        const data = await dispatch(editUserMedia(user.id, formData));
+        const data = await dispatch(editProfileMedia(user.id, formData));
         setProfileMediaLoading(false);
+
         if (data.errors) {
             setErrors(data.errors);
         } else {
@@ -63,31 +66,47 @@ export const SettingsPage = ({ style }) => {
     const createSettingHandler = async (e) => {
         e.preventDefault();
 
-        // const formData = new FormData();
-        // formData.append('media', profile_media);
-        // setBackgroundMediaLoading(true);
-    
-        const user_id = user.id;
+        console.log(e, toggledState);
+        
+        toggleState(prevState => !prevState);
 
-        const data = await dispatch(createUserSetting({
-            user_id,
-            theme_name,
-            background_color,
-            // background_media,
-            background_rotate,
-            font_color,
-            font_family,
-            font_size,
-            accent_1,
-            accent_2,
-            accent_3,
-            // formData
-        }));
-        // setBackgroundMediaLoading(false);
-        if (data.errors) {
-            setErrors(data.errors);
+        if (!toggledState) {
+            setPF2Disabled(true)
+            setPF2Btn('Edit')
         } else {
-            closeModal();
+            setPF2Disabled(false)
+            setPF2Btn('Submit')
+        }
+
+        if (p_f_2_btn === 'Submit') {
+            // const formData = new FormData();
+            // formData.append('media', profile_media);
+            // setBackgroundMediaLoading(true);
+        
+            const user_id = user.id;
+    
+            const data = await dispatch(createUserSetting({
+                user_id,
+                theme_name,
+                background_color,
+                // background_media,
+                background_rotate,
+                font_color,
+                font_family,
+                font_size,
+                accent_1,
+                accent_2,
+                accent_3,
+                // formData
+            }));
+    
+            // setBackgroundMediaLoading(false);
+    
+            if (data.errors) {
+                setErrors(data.errors);
+            } else {
+                closeModal();
+            }
         }
     }
 
@@ -110,7 +129,7 @@ export const SettingsPage = ({ style }) => {
         }
 
         const formID = e.target.dataset.formId
-        const targForm = document.getElementById(`sett-pg-edit-form-${formID}`);
+        const targForm = document.getElementById(`sett-pg-editor-form-${formID}`);
         const targFormKids = Array.from(targForm.children);
         targFormKids.forEach(targKid => {
             if (targKid.type === 'text') targKid.readOnly = false;
@@ -144,7 +163,7 @@ export const SettingsPage = ({ style }) => {
             <option
                 key={fontSize}
                 value={fontSize}
-                onChange={(e) => setFontSize(e.target.innerText + 'px')}
+                onChange={(e) => setFontSize(`${e.target.innerText}px`)}
             >
                 {fontSize}
             </option>
@@ -164,8 +183,9 @@ export const SettingsPage = ({ style }) => {
 
     const settings = Object.values(settingsObj).map((setting, idx) => (
         <div key={setting.id}>
-            <form id={`sett-pg-edit-form-${idx}`} onSubmit={editFormHandler}>
-                <input type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
+            <form id={`sett-pg-editor-form-${idx}`} onSubmit={editFormHandler}>
+                <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
+                <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
 
                 <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
                 <select name={`font-sizes-${idx}`} data-input-name={'Font Size'} disabled={true} defaultValue={setting.font_size.replace('px', '')}>
@@ -206,7 +226,7 @@ export const SettingsPage = ({ style }) => {
             <h1>Settings</h1>
             <div>
                 <h2>Update Media</h2>
-                <form onSubmit={userMediaHandler}>
+                <form id='sett-pg-picker-form-1' onSubmit={profileMediaHandler}>
                     <h3>Profile</h3>
                     <label htmlFor='s-p-user-profile-media-uploader'>
                         {profile_media === '' ? 'Upload Media' : 'Added'}
@@ -217,7 +237,7 @@ export const SettingsPage = ({ style }) => {
                         onChange={setProfileMediaHandler}
                     />
                     {profileMediaLoading && (<span>Loading...</span>)}
-                    <button>Submit</button>
+                    <button data-form-id='1' type='button'>Submit</button>
                 </form>
                 <div>
                     {errors.map(error => (
@@ -227,11 +247,12 @@ export const SettingsPage = ({ style }) => {
             </div>
             <div>
                 <h2>Create Theme</h2>
-                <form onSubmit={createSettingHandler}>
+                <form id='sett-pg-picker-form-2' onSubmit={createSettingHandler}>
                     <div>
-                        <label htmlFor='sett-page-create-theme-name'>Theme Name</label>
+                        <label htmlFor='sett-page-theme-name-picker'>Theme Name</label>
                         <input
-                            id='sett-page-create-theme-name'
+                            id='sett-page-theme-name-picker'
+                            readOnly={p_f_2_disabled}
                             data-input-name={'Theme Name'}
                             type='text'
                             placeholder='Theme Name'
@@ -245,7 +266,7 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-bg-color-picker'
                             data-input-name={'Background Color'}
                             type='color'
-                            disabled={true}
+                            disabled={p_f_2_disabled}
                             value={background_color}
                             onChange={(e) => setBackgroundColor(e.target.value)}
                         />
@@ -269,7 +290,7 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-bg-rotate-picker'
                             data-input-name={'Background Rotate'}
                             type='checkbox'
-                            disabled={true}
+                            disabled={p_f_2_disabled}
                             value={background_rotate}
                             onChange={(e) => setBackgroundRotate(e.target.checked)}
                         />
@@ -280,20 +301,20 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-font-color-picker'
                             data-input-name={'Font Color'}
                             type='color'
-                            disabled={true}
+                            disabled={p_f_2_disabled}
                             value={font_color}
                             onChange={(e) => setFontColor(e.target.value)}
                         />
                     </div>
                     <div>
                         <label>Font Size</label>
-                        <select name='font-sizes' id='sett-pg-font-size-picker' data-input-name={'Font Size'} disabled={true}>
+                        <select name='font-sizes' id='sett-pg-font-size-picker' data-input-name={'Font Size'} disabled={p_f_2_disabled}>
                             {fontSizes}
                         </select>
                     </div>
                     <div>
                         <label>Font Family</label>
-                        <select name='font-families' id='sett-pg-font-family-picker' data-input-name={'Font Family'} disabled={true}>
+                        <select name='font-families' id='sett-pg-font-family-picker' data-input-name={'Font Family'} disabled={p_f_2_disabled}>
                             {fontFamilies}
                         </select>
                     </div>
@@ -303,7 +324,7 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-accent-1-color-picker'
                             data-input-name={'Accent 1'}
                             type='color'
-                            disabled={true}
+                            disabled={p_f_2_disabled}
                             value={accent_1}
                             onChange={(e) => setAccent1(e.target.value)}
                         />
@@ -314,7 +335,7 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-accent-2-color-picker'
                             data-input-name={'Accent 2'}
                             type='color'
-                            disabled={true}
+                            disabled={p_f_2_disabled}
                             value={accent_2}
                             onChange={(e) => setAccent2(e.target.value)}
                         />
@@ -325,12 +346,12 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-accent-3-color-picker'
                             data-input-name={'Accent 3'}
                             type='color'
-                            disabled={true}
+                            disabled={p_f_2_disabled}
                             value={accent_3}
                             onChange={(e) => setAccent3(e.target.value)}
                         />
                     </div>
-                    <button>Submit</button>
+                    <button data-form-id='2'>{p_f_2_btn}</button>
                 </form>
             </div>
             <div>
