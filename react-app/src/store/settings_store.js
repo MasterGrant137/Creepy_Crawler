@@ -58,7 +58,7 @@ export const updateUserSetting = (setting) => async dispatch => {
         headers: {
             'Content-Type': 'application/json'
         },
-        method: 'PUT',
+        method: 'PATCH',
         body: JSON.stringify({
             setting
         })
@@ -99,7 +99,7 @@ export const settingsReducer = (state = initialState, action) => {
             settings.forEach((setting) => newState[setting.id])
             return {...settings,...newState};
         case UPDATE_SETTING:
-            const updateSetting = action.payload.settings;
+            const updateSetting = action.payload.setting;
             newState[updateSetting.id] = updateSetting;
             return newState;
         case DELETE_SETTING:

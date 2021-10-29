@@ -36,6 +36,10 @@ export const SettingsPage = ({ style }) => {
         dispatch(readUserSettings())
     }, [dispatch])
 
+    const cancelHandler = (e) => {
+        window.location.reload();
+    }
+
     const setProfileMediaHandler = (e) => {
         const file = e.target.files[0];
         if (file) setProfileMedia(file);
@@ -151,12 +155,13 @@ export const SettingsPage = ({ style }) => {
                         else if (targKid.dataset.inputName === 'Accent 3') updateObj.accent_3 = targKid.value
                         
                         targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
+                        
                     }
                 })
+                dispatch(updateUserSetting(updateObj))
             }
         })
 
-        dispatch(updateUserSetting(updateObj))
     }
 
     const deleteThemeHandler = (e) => {
@@ -180,8 +185,8 @@ export const SettingsPage = ({ style }) => {
     const settingsObj = useSelector(state => state.settings);
 
     const settings = Object.values(settingsObj).map((setting, idx) => (
-        <div key={setting.id}>
             <form 
+                key={`key-${setting.id}`}
                 id={`sett-pg-editor-form-${idx}`}
                 onSubmit={editFormHandler}
                 data-setting-id={setting.id}
@@ -194,7 +199,7 @@ export const SettingsPage = ({ style }) => {
                     id={`sett-pg-font-size-editor-${idx}`}
                     data-input-name={'Font Size'}
                     disabled={true}
-                    defaultValue={setting.font_size.replace('px', '')}
+                    defaultValue={setting.font_size?.replace('px', '')}
                     >
                     {fontSizes}
                 </select>
@@ -204,7 +209,7 @@ export const SettingsPage = ({ style }) => {
                     id={`sett-pg-font-family-editor-${idx}`}
                     data-input-name={'Font Family'} 
                     disabled={true}
-                    defaultValue={setting.font_family.replace(/,\s/, ' | ')}
+                    defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
                 >
                    {fontFamilies}
                 </select>
@@ -228,10 +233,10 @@ export const SettingsPage = ({ style }) => {
                 <input id={`sett-pg-accent-2-color-picker-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
                 <button>Edit</button>
+                <button type='button' onClick={cancelHandler}>Cancel</button>
                 <button data-form-id={`${idx}`} data-db-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
                 <button data-form-id={`${idx}`} type='button'>Use</button>
             </form>
-        </div>
     ))
 
     return (
@@ -382,6 +387,7 @@ export const SettingsPage = ({ style }) => {
                         />
                     </div>
                     <button>{p_f_2_btn}</button>
+                    <button type='button' onClick={cancelHandler}>Cancel</button>
                 </form>
             </div>
             <div>

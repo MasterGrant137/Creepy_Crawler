@@ -24,15 +24,15 @@ function App() {
     active_theme: ``,
     theme_count: 0,
     theme_name: `Theme`,
-    background_color: `#EAE7DC`,
+    background_color: `#eae7dc`,
     background_image: `url(https://images2.alphacoders.com/602/thumb-1920-602223.jpg)`,
     background_rotate: `False`, 
-    font_color: `#E85A4F`,
+    font_color: `#e85a4f`,
     font_family: `Georgia, serif`,
     font_size: `16px`,
-    accent_1: `#D8C3A5`,
-    accent_2: `#8E8D8A`,
-    accent_3: `#E98074`
+    accent_1: `#d8c3a5`,
+    accent_2: `#8e8d8a`,
+    accent_3: `#e98074`
   }
 
   document.body.style.backgroundColor = siteTheme.background_color;
