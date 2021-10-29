@@ -167,10 +167,6 @@ export const SettingsPage = ({ style }) => {
         <option
                 key={fontSize}
                 value={font_size}
-                // onChange={(e) => {
-                //     setFontSize(`${e.target.innerText}px`);
-                //     console.log(e);
-                // }}
             >
                 {fontSize}
             </option>
@@ -180,10 +176,6 @@ export const SettingsPage = ({ style }) => {
         <option 
             key={fontFamily}
             value={font_family}
-            // onChange={(e) => {
-            //     setFontFamily(e.target.innerText.replace(' | ', ', '));
-            //     console.log(e);
-            // }}
         >
             {fontFamily}
         </option>
@@ -323,10 +315,9 @@ export const SettingsPage = ({ style }) => {
                                 id='sett-pg-font-size-picker'
                                 data-input-name={'Font Size'}
                                 disabled={p_f_2_disabled}
-                                // value={font_size}
                                 onChange={(e) => {
-                                    setFontSize(`${e.target.innerText}px`);
-                                    console.log(e);
+                                    const targOption = Array.from(e.target.children).find(option => option.selected);
+                                    setFontSize(`${targOption.innerText}px`);
                                 }}
                         >
                             {fontSizes}
@@ -339,7 +330,6 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-font-family-picker'
                             data-input-name={'Font Family'}
                             disabled={p_f_2_disabled}
-                            // value={font_family}
                             onChange={(e) => {
                                 const targOption = Array.from(e.target.children).find(option => option.selected);
                                 setFontFamily(targOption.innerText.replace(' | ', ', '));
