@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import '../Main.css';
 import './Settings_Page.css';
@@ -126,7 +126,8 @@ export const SettingsPage = ({ style }) => {
             // formData
         }
 
-        const formID = e.target.dataset.formId
+        const formID = e.target.dataset.formId;
+        console.log(formID);
         const targForm = document.getElementById(`sett-pg-editor-form-${formID}`);
         const targFormKids = Array.from(targForm.children);
         targFormKids.forEach(targKid => {
@@ -164,19 +165,13 @@ export const SettingsPage = ({ style }) => {
     };
 
     const fontSizes = fontSizesRaw.map(fontSize => (
-        <option
-                key={fontSize}
-                value={font_size}
-            >
-                {fontSize}
-            </option>
+        <option key={fontSize} >
+            {fontSize}
+        </option>
     ))
 
     const fontFamilies = fontFamiliesRaw.map(fontFamily => (
-        <option 
-            key={fontFamily}
-            value={font_family}
-        >
+        <option key={fontFamily} >
             {fontFamily}
         </option>
     ))
@@ -188,14 +183,24 @@ export const SettingsPage = ({ style }) => {
             <form id={`sett-pg-editor-form-${idx}`} onSubmit={editFormHandler}>
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
                 <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
-
                 <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
-                <select name={`font-sizes-${idx}`} data-input-name={'Font Size'} disabled={true} defaultValue={setting.font_size.replace('px', '')} data-checker={console.log(font_size.replace('px', ''))}>
+                <select 
+                    name={`font-sizes-${idx}`}
+                    id={`sett-pg-font-size-editor-${idx}`}
+                    data-input-name={'Font Size'}
+                    disabled={true}
+                    defaultValue={setting.font_size.replace('px', '')}
+                    >
                     {fontSizes}
                 </select>
-
                 <label htmlFor={`font-families-${idx}`}>Font Family</label>
-                <select name={`font-families-${idx}`} data-input-name={'Font Family'} disabled={true} defaultValue={setting.font_family.replace(/,\s/, ' | ')} data-checker={console.log(font_family.replace(/,\s/, ' | '))}>
+                <select
+                    name={`font-families-${idx}`}
+                    id={`sett-pg-font-family-editor-${idx}`}
+                    data-input-name={'Font Family'} 
+                    disabled={true}
+                    defaultValue={setting.font_family.replace(/,\s/, ' | ')}
+                >
                    {fontFamilies}
                 </select>
 
@@ -332,7 +337,7 @@ export const SettingsPage = ({ style }) => {
                             disabled={p_f_2_disabled}
                             onChange={(e) => {
                                 const targOption = Array.from(e.target.children).find(option => option.selected);
-                                setFontFamily(targOption.innerText.replace(' | ', ', '));
+                                setFontFamily(targOption.innerText.replace(/\s|\s/, ', '));
                             }}
                         >
                             {fontFamilies}
