@@ -54,9 +54,36 @@ def add_theme():
 
     db.session.add(new_theme)
     db.session.commit()
-    return {
-        'setting': new_theme.to_dict()
-    }
+    return { 'setting': new_theme.to_dict() }
+
+@settings_routes.route('<int:settingID>', methods=['PUT'])
+@login_required
+def update_theme(settingID):
+    """Update a theme."""
+    theme = Theme.query.filter(Theme.id == settingID).first()
+
+    print('LOOKIE HERE',request.json, settingID)
+    if (theme.user_id == current_user.id):
+        updated_theme = Theme(
+            user_id=request.json['user_id'],
+            theme_name=request.json['theme_name'],
+            background_color=request.json['background_color'],
+            background_rotate=request.json['background_rotate'],
+            font_color=request.json['font_color'],
+            font_family=request.json['font_family'],
+            font_size=request.json['font_size'],
+            accent_1=request.json['accent_1'],
+            accent_2=request.json['accent_2'],
+            accent_3=request.json['accent_3'],
+            # background_media=url
+        )
+
+        db.session.add(update_theme)
+        db.session.commit()
+        return {
+            'setting': [ updated_theme.to_dict() ]
+        }
+    return { 'errors': ['You are not permitted to edit this theme.'] }, 401
 
 @settings_routes.route('/')
 @login_required
@@ -78,4 +105,4 @@ def delete_theme(settingID):
         db.session.commit()
         return { 'message': 'successful' }
 
-    return { 'errors': ['You are not permitted to edit this entry.'] }, 401
+    return { 'errors': ['You are not permitted to edit this theme.'] }, 401

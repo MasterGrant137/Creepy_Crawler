@@ -110,8 +110,11 @@ export const SettingsPage = ({ style }) => {
 
     const editFormHandler = (e) => {
         e.preventDefault();
+        const targForm = e.target;
+        const targFormKids = Array.from(targForm.children);
 
         const updateObj = {
+            setting_id : targForm.dataset.settingId,
             user_id: user.id,
             theme_name,
             background_color,
@@ -126,10 +129,6 @@ export const SettingsPage = ({ style }) => {
             // formData
         }
 
-        const formID = e.target.dataset.formId;
-        console.log(formID);
-        const targForm = document.getElementById(`sett-pg-editor-form-${formID}`);
-        const targFormKids = Array.from(targForm.children);
         targFormKids.forEach(targKid => {
             if (targKid.type === 'text') targKid.readOnly = false;
             else targKid.disabled = false;
@@ -156,6 +155,8 @@ export const SettingsPage = ({ style }) => {
                 })
             }
         })
+
+        dispatch(updateUserSetting(updateObj))
     }
 
     const deleteThemeHandler = (e) => {
@@ -180,7 +181,11 @@ export const SettingsPage = ({ style }) => {
 
     const settings = Object.values(settingsObj).map((setting, idx) => (
         <div key={setting.id}>
-            <form id={`sett-pg-editor-form-${idx}`} onSubmit={editFormHandler}>
+            <form 
+                id={`sett-pg-editor-form-${idx}`}
+                onSubmit={editFormHandler}
+                data-setting-id={setting.id}
+            >
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
                 <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
                 <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
@@ -222,7 +227,7 @@ export const SettingsPage = ({ style }) => {
                 <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`}>Accent 3</label>
                 <input id={`sett-pg-accent-2-color-picker-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
-                <button data-form-id={`${idx}`}>Edit</button>
+                <button>Edit</button>
                 <button data-form-id={`${idx}`} data-db-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
                 <button data-form-id={`${idx}`} type='button'>Use</button>
             </form>
@@ -376,7 +381,7 @@ export const SettingsPage = ({ style }) => {
                             onChange={(e) => setAccent3(e.target.value)}
                         />
                     </div>
-                    <button data-form-id='2'>{p_f_2_btn}</button>
+                    <button>{p_f_2_btn}</button>
                 </form>
             </div>
             <div>
