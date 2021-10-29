@@ -164,13 +164,13 @@ export const SettingsPage = ({ style }) => {
     };
 
     const fontSizes = fontSizesRaw.map(fontSize => (
-            <option
+        <option
                 key={fontSize}
                 value={font_size}
-                onChange={(e) => {
-                    setFontSize(`${e.target.innerText}px`)
-                    console.log(e);
-                }}
+                // onChange={(e) => {
+                //     setFontSize(`${e.target.innerText}px`);
+                //     console.log(e);
+                // }}
             >
                 {fontSize}
             </option>
@@ -180,10 +180,10 @@ export const SettingsPage = ({ style }) => {
         <option 
             key={fontFamily}
             value={font_family}
-            onChange={(e) => {
-                setFontFamily(e.target.innerText.replace(' | ', ', '))
-                console.log(e);
-            }}
+            // onChange={(e) => {
+            //     setFontFamily(e.target.innerText.replace(' | ', ', '));
+            //     console.log(e);
+            // }}
         >
             {fontFamily}
         </option>
@@ -324,9 +324,10 @@ export const SettingsPage = ({ style }) => {
                                 data-input-name={'Font Size'}
                                 disabled={p_f_2_disabled}
                                 // value={font_size}
-                                // onChange={(e) => {
-                                //     setFontSize(`${e.target.innerText}px`)
-                                // }}
+                                onChange={(e) => {
+                                    setFontSize(`${e.target.innerText}px`);
+                                    console.log(e);
+                                }}
                         >
                             {fontSizes}
                         </select>
@@ -339,9 +340,10 @@ export const SettingsPage = ({ style }) => {
                             data-input-name={'Font Family'}
                             disabled={p_f_2_disabled}
                             // value={font_family}
-                            // onChange={(e) => {
-                            //     setFontFamily(e.target.innerText.replace(' | ', ', '))
-                            // }}
+                            onChange={(e) => {
+                                const targOption = Array.from(e.target.children).find(option => option.selected);
+                                setFontFamily(targOption.innerText.replace(' | ', ', '));
+                            }}
                         >
                             {fontFamilies}
                         </select>
