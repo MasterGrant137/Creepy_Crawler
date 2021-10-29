@@ -4,7 +4,7 @@ import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
 import { editProfileMedia } from '../../store/session';
-import { createUserSetting, readUserSettings } from '../../store/settings_store';
+import { createUserSetting, readUserSettings, updateUserSetting, deleteUserSetting } from '../../store/settings_store';
 import { useModal } from '../context/Modal_Context.js';
 
 export const SettingsPage = ({ style }) => {
@@ -65,8 +65,6 @@ export const SettingsPage = ({ style }) => {
 
     const createSettingHandler = async (e) => {
         e.preventDefault();
-
-        console.log(e, toggledState);
         
         toggleState(prevState => !prevState);
 
@@ -99,7 +97,7 @@ export const SettingsPage = ({ style }) => {
                 accent_3,
                 // formData
             }));
-    
+            console.log(data);
             // setBackgroundMediaLoading(false);
     
             if (data.errors) {
@@ -159,6 +157,8 @@ export const SettingsPage = ({ style }) => {
         })
     }
 
+    const deleteThemeHandler = (e) => dispatch(deleteUserSetting(+e.target.dataset.formId + 1));
+
     const fontSizes = fontSizesRaw.map(fontSize => (
             <option
                 key={fontSize}
@@ -188,12 +188,12 @@ export const SettingsPage = ({ style }) => {
                 <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
 
                 <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
-                <select name={`font-sizes-${idx}`} data-input-name={'Font Size'} disabled={true} defaultValue={setting.font_size.replace('px', '')}>
+                <select name={`font-sizes-${idx}`} data-input-name={'Font Size'} disabled={true} defaultValue={setting.font_size.replace('px', '')} data-checker={console.log(font_size.replace('px', ''))}>
                     {fontSizes}
                 </select>
 
                 <label htmlFor={`font-families-${idx}`}>Font Family</label>
-                <select name={`font-families-${idx}`} data-input-name={'Font Family'} disabled={true} defaultValue={setting.font_family.replace(/,\s/, ' | ')}>
+                <select name={`font-families-${idx}`} data-input-name={'Font Family'} disabled={true} defaultValue={setting.font_family.replace(/,\s/, ' | ')} data-checker={console.log(font_family.replace(/,\s/, ' | '))}>
                    {fontFamilies}
                 </select>
 
@@ -215,9 +215,10 @@ export const SettingsPage = ({ style }) => {
                 <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`}>Accent 3</label>
                 <input id={`sett-pg-accent-2-color-picker-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
-                <button data-form-id={`${idx}`} type='button' onClick={editFormHandler}>Edit</button>
+                <button data-form-id={`${idx}`}>Edit</button>
+                <button data-form-id={`${idx}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
+                <button data-form-id={`${idx}`} type='button'>Use</button>
             </form>
-            <button type='submit'>Use</button>
         </div>
     ))
 

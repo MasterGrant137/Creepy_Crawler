@@ -67,6 +67,15 @@ def get_themes():
         'settings': [ theme.to_dict() for theme in themes ]
     }
 
+@settings_routes.route('/<int:settingID>', methods=['DELETE'])
+@login_required
+def delete_theme(settingID):
+    """Delete a theme."""
+    theme = Theme.query.filter(Theme.id == settingID).first()
 
-# * Add the line below after each conditional
-# * return {'errors': validation_errors_to_error_messages(form.errors)}, 400
+    if theme.user_id == current_user.id:
+        db.session.delete(theme)
+        db.session.commit()
+        return { 'message': 'successful' }
+
+    return { 'errors': ['You are not permitted to edit this entry.'] }, 401

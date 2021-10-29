@@ -39,7 +39,6 @@ export const createUserSetting = (setting) => async dispatch => {
         await dispatch(createSetting(newSetting));
         return newSetting;
     } else {
-        console.log(response.json());
         return response;
     }
 }
@@ -71,6 +70,7 @@ export const updateUserSetting = (setting) => async dispatch => {
 }
 
 export const deleteUserSetting = (settingID) => async dispatch => {
+    console.log(settingID);
     const response = await fetch(`/creepycrawler/settings/${settingID}`, {
         method: 'DELETE'
     })
@@ -78,6 +78,8 @@ export const deleteUserSetting = (settingID) => async dispatch => {
         const message = await response.json();
         await dispatch(deleteSetting(settingID));
         return message;
+    } else {
+        return response;
     }
 }
 
