@@ -160,17 +160,14 @@ export const SettingsPage = ({ style }) => {
     const deleteThemeHandler = (e) => {
         const stateID = e.target.dataset.formId;
         const dbID = e.target.dataset.dbId;
-
-        console.log('stateID:',stateID,'dbID: ', dbID);
-        // console.log(e.target.dataset.formId);
         dispatch(deleteUserSetting(stateID, dbID))
     };
 
     const fontSizes = fontSizesRaw.map(fontSize => (
             <option
                 key={fontSize}
-                value={fontSize}
-                onChange={(e) => setFontSize(`${e.target.innerText}px`)}
+                // value={fontSize}
+                // onChange={(e) => setFontSize(`${e.target.innerText}px`)}
             >
                 {fontSize}
             </option>
@@ -179,8 +176,8 @@ export const SettingsPage = ({ style }) => {
     const fontFamilies = fontFamiliesRaw.map(fontFamily => (
         <option 
             key={fontFamily}
-            value={fontFamily}
-            onChange={(e) => setFontFamily(e.target.innerText.replace(' | ', ', '))}
+            // value={fontFamily}
+            // onChange={(e) => setFontFamily(e.target.innerText.replace(' | ', ', '))}
         >
             {fontFamily}
         </option>
@@ -315,13 +312,13 @@ export const SettingsPage = ({ style }) => {
                         />
                     </div>
                     <div>
-                        <label>Font Size</label>
+                        <label htmlFor='font-sizes'>Font Size</label>
                         <select name='font-sizes' id='sett-pg-font-size-picker' data-input-name={'Font Size'} disabled={p_f_2_disabled}>
                             {fontSizes}
                         </select>
                     </div>
                     <div>
-                        <label>Font Family</label>
+                        <label htmlFor='font-families'>Font Family</label>
                         <select name='font-families' id='sett-pg-font-family-picker' data-input-name={'Font Family'} disabled={p_f_2_disabled}>
                             {fontFamilies}
                         </select>
