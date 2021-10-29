@@ -166,8 +166,11 @@ export const SettingsPage = ({ style }) => {
     const fontSizes = fontSizesRaw.map(fontSize => (
             <option
                 key={fontSize}
-                // value={fontSize}
-                // onChange={(e) => setFontSize(`${e.target.innerText}px`)}
+                value={font_size}
+                onChange={(e) => {
+                    setFontSize(`${e.target.innerText}px`)
+                    console.log(e);
+                }}
             >
                 {fontSize}
             </option>
@@ -176,8 +179,11 @@ export const SettingsPage = ({ style }) => {
     const fontFamilies = fontFamiliesRaw.map(fontFamily => (
         <option 
             key={fontFamily}
-            // value={fontFamily}
-            // onChange={(e) => setFontFamily(e.target.innerText.replace(' | ', ', '))}
+            value={font_family}
+            onChange={(e) => {
+                setFontFamily(e.target.innerText.replace(' | ', ', '))
+                console.log(e);
+            }}
         >
             {fontFamily}
         </option>
@@ -313,13 +319,30 @@ export const SettingsPage = ({ style }) => {
                     </div>
                     <div>
                         <label htmlFor='font-sizes'>Font Size</label>
-                        <select name='font-sizes' id='sett-pg-font-size-picker' data-input-name={'Font Size'} disabled={p_f_2_disabled}>
+                        <select name='font-sizes'
+                                id='sett-pg-font-size-picker'
+                                data-input-name={'Font Size'}
+                                disabled={p_f_2_disabled}
+                                // value={font_size}
+                                // onChange={(e) => {
+                                //     setFontSize(`${e.target.innerText}px`)
+                                // }}
+                        >
                             {fontSizes}
                         </select>
                     </div>
                     <div>
                         <label htmlFor='font-families'>Font Family</label>
-                        <select name='font-families' id='sett-pg-font-family-picker' data-input-name={'Font Family'} disabled={p_f_2_disabled}>
+                        <select 
+                            name='font-families'
+                            id='sett-pg-font-family-picker'
+                            data-input-name={'Font Family'}
+                            disabled={p_f_2_disabled}
+                            // value={font_family}
+                            // onChange={(e) => {
+                            //     setFontFamily(e.target.innerText.replace(' | ', ', '))
+                            // }}
+                        >
                             {fontFamilies}
                         </select>
                     </div>
