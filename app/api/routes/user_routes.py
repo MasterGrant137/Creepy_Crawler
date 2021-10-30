@@ -5,6 +5,21 @@ from app.s3_helpers import (upload_file_to_s3, allowed_file, get_unique_filename
 
 user_routes = Blueprint('users', __name__)
 
+@user_routes.route('/')
+@login_required
+def users():
+    """Get all users."""
+    users = User.query.all()
+    return {'users': [user.to_dict() for user in users]}
+
+
+@user_routes.route('/<int:userID>')
+@login_required
+def user(userID):
+    """Get a particular user ID."""
+    user = User.query.get(userID)
+    return user.to_dict()
+
 @user_routes.route('/<int:userID>', methods=['PUT'])
 @login_required
 def upload_media(userID):
@@ -57,19 +72,3 @@ def edit_user_profile(settingID):
         db.session.add(user)
         db.session.commit()
         return { 'user': user.to_dict() }
-    
-
-@user_routes.route('/')
-@login_required
-def users():
-    """Get all users."""
-    users = User.query.all()
-    return {'users': [user.to_dict() for user in users]}
-
-
-@user_routes.route('/<int:userID>')
-@login_required
-def user(userID):
-    """Get a particular user ID."""
-    user = User.query.get(userID)
-    return user.to_dict()

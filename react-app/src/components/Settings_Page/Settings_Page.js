@@ -21,8 +21,8 @@ export const SettingsPage = ({ style }) => {
     const [accent_1, setAccent1] = useState(style.accent_1);
     const [accent_2, setAccent2] = useState(style.accent_2);
     const [accent_3, setAccent3] = useState(style.accent_3);
-    const [profile_media, setProfileMedia] = useState(null);
-    const [background_media, setBackgroundMedia] = useState(null);
+    const [profile_media, setProfileMedia] = useState('');
+    const [background_media, setBackgroundMedia] = useState(style.background_media);
     const [profile_media_loading, setProfileMediaLoading] = useState(false);
     const [background_media_loading, setBackgroundMediaLoading] = useState(false);
     const [errors, setErrors] = useState([]);
@@ -32,7 +32,7 @@ export const SettingsPage = ({ style }) => {
     
     const smpl = {
         b_c: `${background_color}`,
-        b_i: `url()`,
+        b_m: `url()`,
         b_r: `${background_rotate}`, 
         f_c: `${font_color}`,
         f_f: `${font_family}`,
@@ -255,6 +255,7 @@ export const SettingsPage = ({ style }) => {
                         id='s-p-background-media-editor'
                         type='file'
                         value={setting.background_media}
+                        data-log={console.log(setting,setting?.background_media)}
                         onChange={setBackgroundMediaHandler}
                     />
                     {background_media_loading && (<span>Loading...</span>)}
@@ -263,7 +264,6 @@ export const SettingsPage = ({ style }) => {
                 <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
                 <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate === 'false' ? false : true} />
 
-                
                 <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`}>Accent 1</label>
                 <input id={`sett-pg-accent-1-color-picker-${idx}`} data-input-name={'Accent 1'} type='color' disabled={true} defaultValue={setting.accent_1} />
                 
@@ -433,7 +433,7 @@ export const SettingsPage = ({ style }) => {
                 <div style={{
                     border: `5px solid ${smpl.a_3}`,
                     backgroundColor: smpl.b_c,
-                    backgroundImage: smpl.b_i,
+                    backgroundImage: smpl.b_m,
                     fontFamily: smpl.f_f,
                     fontSize: smpl.f_s
                 }}>

@@ -37,6 +37,15 @@ def add_theme():
     db.session.commit()
     return { 'setting': new_theme.to_dict() }
 
+@settings_routes.route('/')
+@login_required
+def get_themes():
+    """Get all of the themes belonging to a given user."""
+    themes = Theme.query.filter(Theme.user_id == current_user.id).all()
+    return {
+        'settings': [ theme.to_dict() for theme in themes ]
+    }
+
 @settings_routes.route('/<int:settingID>', methods=['PATCH'])
 @login_required
 def append_background_media(settingID):
@@ -94,15 +103,6 @@ def update_theme(settingID):
             'setting': theme.to_dict()
         }
     return { 'errors': ['You are not permitted to edit this theme.'] }, 401
-
-@settings_routes.route('/')
-@login_required
-def get_themes():
-    """Get all of the themes belonging to a given user."""
-    themes = Theme.query.filter(Theme.user_id == current_user.id).all()
-    return {
-        'settings': [ theme.to_dict() for theme in themes ]
-    }
 
 @settings_routes.route('/<int:settingID>', methods=['DELETE'])
 @login_required
