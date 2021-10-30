@@ -30,6 +30,7 @@ class Theme(db.Model):
                 'user_id': self.user_id,
                 'theme_name': self.theme_name,
                 'background_color': self.background_color,
+                'background_media': self.background_media,
                 'background_rotate': self.background_rotate,
                 'font_color': self.font_color,
                 'font_family': self.font_family,

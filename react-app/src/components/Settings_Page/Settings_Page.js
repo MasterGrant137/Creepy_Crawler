@@ -22,9 +22,9 @@ export const SettingsPage = ({ style }) => {
     const [accent_2, setAccent2] = useState(style.accent_2);
     const [accent_3, setAccent3] = useState(style.accent_3);
     const [profile_media, setProfileMedia] = useState(null);
-    const [backgroundMedia, setBackgroundMedia] = useState(null);
-    const [profileMediaLoading, setProfileMediaLoading] = useState(false);
-    const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
+    const [background_media, setBackgroundMedia] = useState(null);
+    const [profile_media_loading, setProfileMediaLoading] = useState(false);
+    const [background_media_loading, setBackgroundMediaLoading] = useState(false);
     const [errors, setErrors] = useState([]);
     const dispatch = useDispatch();
 
@@ -120,7 +120,6 @@ export const SettingsPage = ({ style }) => {
             user_id: user.id,
             theme_name,
             background_color,
-            // background_media,
             background_rotate,
             font_color,
             font_family,
@@ -128,7 +127,6 @@ export const SettingsPage = ({ style }) => {
             accent_1,
             accent_2,
             accent_3,
-            // formData
         }
 
         targFormKids.forEach(targKid => {
@@ -161,7 +159,7 @@ export const SettingsPage = ({ style }) => {
         })
 
         const formData = new FormData();
-        formData.append('media', backgroundMedia);
+        formData.append('media', background_media);
         setBackgroundMediaLoading(true);
 
         const data = dispatch(updateThemeMedia(user.id, formData));
@@ -246,11 +244,25 @@ export const SettingsPage = ({ style }) => {
                 <label htmlFor={`sett-pg-font-color-editor-${idx}`}>Font Color</label>
                 <input id={`sett-pg-font-color-editor-${idx}`} data-input-name={'Font Color'} type='color' disabled={true} defaultValue={setting.font_color} />
 
+                <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
+                <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name={'Background Color'} type='color' disabled={true} defaultValue={setting.background_color} />
+
+                <div>
+                    <label htmlFor='s-p-background-media-editor'>
+                        {!background_media ? 'Background Media' : 'Added'}
+                    </label>
+                    <input
+                        id='s-p-background-media-editor'
+                        type='file'
+                        value={setting.background_media}
+                        onChange={setBackgroundMediaHandler}
+                    />
+                    {background_media_loading && (<span>Loading...</span>)}
+                </div>
+
                 <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
                 <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate === 'false' ? false : true} />
 
-                <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
-                <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name={'Background Color'} type='color' disabled={true} defaultValue={setting.background_color} />
                 
                 <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`}>Accent 1</label>
                 <input id={`sett-pg-accent-1-color-picker-${idx}`} data-input-name={'Accent 1'} type='color' disabled={true} defaultValue={setting.accent_1} />
@@ -276,14 +288,14 @@ export const SettingsPage = ({ style }) => {
                 <form id='sett-pg-picker-form-1' onSubmit={profileMediaHandler}>
                     <h3>Profile</h3>
                     <label htmlFor='s-p-user-profile-media-uploader'>
-                        {profile_media === '' ? 'Upload Media' : 'Added'}
+                        {!profile_media ? 'Upload Media' : 'Added'}
                     </label>
                     <input
                         id='s-p-user-profile-media-uploader'
                         type='file'
                         onChange={setProfileMediaHandler}
                     />
-                    {profileMediaLoading && (<span>Loading...</span>)}
+                    {profile_media_loading && (<span>Loading...</span>)}
                     <button type='button'>Submit</button>
                 </form>
                 <div>
@@ -319,17 +331,15 @@ export const SettingsPage = ({ style }) => {
                         />
                     </div>
                     <div>
-                        <label
-                            htmlFor='s-p-user-profile-media-uploader'
-                        >
-                            {profile_media === '' ? 'Upload Media' : 'Added'}
+                        <label htmlFor='s-p-background-media-uploader'>
+                            {!background_media ? 'Background Media' : 'Added'}
                         </label>
                         <input
-                            id='s-p-user-profile-media-uploader'
+                            id='s-p-background-media-uploader'
                             type='file'
                             onChange={setBackgroundMediaHandler}
                         />
-                        {backgroundMediaLoading && (<span>Loading...</span>)}
+                        {background_media_loading && (<span>Loading...</span>)}
                     </div>
                     <div>
                         <label htmlFor='sett-pg-bg-rotate-picker'>Background Rotate</label>
