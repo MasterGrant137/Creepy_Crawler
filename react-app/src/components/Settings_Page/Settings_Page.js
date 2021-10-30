@@ -102,20 +102,20 @@ export const SettingsPage = ({ style }) => {
                 accent_3,
             }));
 
+            if (data.errors) {
+                setErrors(data.errors);
+            }
+
             const formData = new FormData();
-        formData.append('media', background_media);
-        setBackgroundMediaLoading(true);
-        
-        if (data.errors) {
-            setErrors(data.errors);
-        }
+            formData.append('media', background_media);
+            setBackgroundMediaLoading(true);
+            
+            const updateData = dispatch(updateThemeMedia(user.id, formData));
+            setBackgroundMediaLoading(false);
 
-        const updateData = dispatch(updateThemeMedia(user.id, formData));
-        setProfileMediaLoading(false);
-
-        if (updateData.errors) {
-            setErrors(updateData.errors);
-        }
+            if (updateData.errors) {
+                setErrors(updateData.errors);
+            }
         }
     }
 
@@ -173,7 +173,7 @@ export const SettingsPage = ({ style }) => {
         setBackgroundMediaLoading(true);
 
         const data = dispatch(updateThemeMedia(settingID, formData));
-        setProfileMediaLoading(false);
+        setBackgroundMediaLoading(false);
 
         if (data.errors) {
             setErrors(data.errors);
@@ -227,7 +227,6 @@ export const SettingsPage = ({ style }) => {
                 id={`sett-pg-editor-form-${idx}`}
                 onSubmit={editFormHandler}
                 data-setting-id={setting.id}
-                data-log={console.log(setting.background_media)}
                 style={{backgroundImage: `url(${setting.background_media})`}}
             >
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
@@ -266,13 +265,14 @@ export const SettingsPage = ({ style }) => {
                     <input
                         id='s-p-background-media-editor'
                         type='file'
+                        disabled={true}
                         onChange={setBackgroundMediaHandler}
                     />
                     {background_media_loading && (<span>Loading...</span>)}
                 </div>
 
                 <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
-                <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate === 'false' ? false : true} />
+                <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
 
                 <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`}>Accent 1</label>
                 <input id={`sett-pg-accent-1-color-picker-${idx}`} data-input-name={'Accent 1'} type='color' disabled={true} defaultValue={setting.accent_1} />
@@ -347,6 +347,7 @@ export const SettingsPage = ({ style }) => {
                         <input
                             id='s-p-background-media-uploader'
                             type='file'
+                            disabled={p_f_2_disabled}
                             onChange={setBackgroundMediaHandler}
                         />
                         {background_media_loading && (<span>Loading...</span>)}
@@ -358,8 +359,12 @@ export const SettingsPage = ({ style }) => {
                             data-input-name={'Background Rotate'}
                             type='checkbox'
                             disabled={p_f_2_disabled}
-                            checked={background_rotate === 'false' ? false : true}
-                            onChange={(e) => setBackgroundRotate(e.target.checked)}
+                            checked={background_rotate}
+                            onChange={(e) => {
+                                setBackgroundRotate(e.target.checked)
+                                console.log(typeof(e.target.checked), e.target.checked);
+                                console.log(typeof(background_rotate), e.target.checked);
+                            }}
                         />
                     </div>
                     <div>

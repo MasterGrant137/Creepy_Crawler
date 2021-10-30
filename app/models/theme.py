@@ -13,7 +13,7 @@ class Theme(db.Model):
     theme_name = db.Column(db.String(50), nullable=False, default='')
     background_color = db.Column(db.String(7), nullable=False, default='#eae7dc')
     background_media = db.Column(db.String(1000), nullable=False, default='')
-    background_rotate = db.Column(db.String, nullable=False, default='false')
+    background_rotate = db.Column(db.Boolean, nullable=False, default=False)
     font_color = db.Column(db.String(7), nullable=False, default='#e85a4f')
     font_family = db.Column(db.String(50), nullable=False, default='Georgia, serif')
     font_size = db.Column(db.String(4), nullable=False, default='16px')
