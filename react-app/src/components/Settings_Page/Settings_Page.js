@@ -195,8 +195,8 @@ export const SettingsPage = ({ style }) => {
                             case 'Background Color': updateObj.background_color = targKid.value; break;
                             case 'Background Rotate': updateObj.background_rotate = targKid.checked; break;
                             case 'Font Color': updateObj.font_color = targKid.value; break;
-                            case 'Font Family': updateObj.font_family = targKid.value; break;
-                            case 'Font Size': updateObj.font_size = targKid.value; break;
+                            case 'Font Family': updateObj.font_family = targKid.value.replace(/\s\|\s/, ', '); break;
+                            case 'Font Size': updateObj.font_size = `${targKid.value}px`; break;
                             case 'Accent 1': updateObj.accent_1 = targKid.value; break;
                             case 'Accent 2': updateObj.accent_2 = targKid.value; break;
                             case 'Accent 3': updateObj.accent_3 = targKid.value; break;
