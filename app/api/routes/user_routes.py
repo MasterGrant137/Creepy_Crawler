@@ -36,6 +36,12 @@ def upload_media(userID):
         'user': user.to_dict()
     }
 
+@user_routes.route('/profile/<int:settingID>')
+@login_required
+def edit_user_profile(settingID):
+    """Update user profile setting."""
+    profile_setting = request.json
+
 @user_routes.route('/')
 @login_required
 def users():

@@ -47,5 +47,7 @@ class User(db.Model, UserMixin):
             'id': self.id,
             'username': self.username,
             'email': self.email,
-            'profile_media': self.profile_media
+            'profile_media': self.profile_media,
+            'active_theme': self.active_theme,
+            'theme_count': self.theme_count
         }

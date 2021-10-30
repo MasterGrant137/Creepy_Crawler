@@ -25,7 +25,7 @@ function App() {
     theme_count: 0,
     theme_name: `Theme`,
     background_color: `#eae7dc`,
-    background_image: `url(https://images2.alphacoders.com/602/thumb-1920-602223.jpg)`,
+    background_image: `url()`,
     background_rotate: `False`, 
     font_color: `#e85a4f`,
     font_family: `Georgia, serif`,

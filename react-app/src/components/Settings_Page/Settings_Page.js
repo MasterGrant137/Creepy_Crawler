@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
-import { editProfileMedia } from '../../store/session';
+import { editProfileMedia, editProfile } from '../../store/session';
 import { createUserSetting, readUserSettings, updateUserSetting, deleteUserSetting } from '../../store/settings_store';
 import { useModal } from '../context/Modal_Context.js';
 
@@ -31,10 +31,24 @@ export const SettingsPage = ({ style }) => {
     const dispatch = useDispatch();
 
     const user = useSelector(state => state.session.user);
+    //$ style={{backgroundColor: style2.bg}}
+    const testingEle = '20px'
+    
+    const smpl = {
+        b_c: `${background_color}`,
+        b_i: `url()`,
+        b_r: `${background_rotate}`, 
+        f_c: `${font_color}`,
+        f_f: `${font_family}`,
+        f_s: `${font_size}`,
+        a_1: `${accent_1}`,
+        a_2: `${accent_2}`,
+        a_3: `${accent_3}`
+      }
 
      useEffect(() => {
         dispatch(readUserSettings())
-    }, [dispatch])
+    }, [dispatch, user])
 
     const cancelHandler = (e) => {
         window.location.reload();
@@ -164,6 +178,28 @@ export const SettingsPage = ({ style }) => {
 
     }
 
+    const editProfileHandler = (e, eType) => {
+        if (eType === 'theme_count') {
+            dispatch(editProfile({
+                id: e.target.dataset.settingId,
+                e_type: eType,
+                theme_count: user.theme_count + 1,
+            }))
+        } else if (eType === 'active_theme') {
+            dispatch(editProfile({
+                id: e.target.dataset.settingId,
+                e_type: eType,
+                active_theme: e.target.dataset.settingId,
+            }))
+        } else {
+            dispatch(editProfile({
+                id: e.target.dataset.settingId,
+                eType: e.target
+            }))
+            
+        }
+    }
+
     const deleteThemeHandler = (e) => {
         const settingID = e.target.dataset.settingId;
         dispatch(deleteUserSetting(settingID))
@@ -234,7 +270,7 @@ export const SettingsPage = ({ style }) => {
                 <button>Edit</button>
                 <button type='button' onClick={cancelHandler}>Cancel</button>
                 <button data-setting-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
-                <button type='button'>Use</button>
+                <button data-setting-id={`${setting.id}`} type='button' onClick={(e) => editProfileHandler(e, 'active_theme')}>Use</button>
             </form>
     ))
 
@@ -329,6 +365,7 @@ export const SettingsPage = ({ style }) => {
                                 id='sett-pg-font-size-picker'
                                 data-input-name={'Font Size'}
                                 disabled={p_f_2_disabled}
+                                defaultValue={font_size?.replace('px', '')}
                                 onChange={(e) => {
                                     const targOption = Array.from(e.target.children).find(option => option.selected);
                                     setFontSize(`${targOption.innerText}px`);
@@ -344,6 +381,7 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-font-family-picker'
                             data-input-name={'Font Family'}
                             disabled={p_f_2_disabled}
+                            defaultValue={font_family?.replace(/,\s/, ' | ')}
                             onChange={(e) => {
                                 const targOption = Array.from(e.target.children).find(option => option.selected);
                                 setFontFamily(targOption.innerText.replace(/\s\|\s/, ', '));
@@ -388,6 +426,23 @@ export const SettingsPage = ({ style }) => {
                     <button>{p_f_2_btn}</button>
                     <button type='button' onClick={cancelHandler}>Cancel</button>
                 </form>
+                <div style={{
+                    border: `5px solid ${smpl.a_3}`,
+                    backgroundColor: smpl.a_1,
+                    backgroundImage: smpl.b_i,
+                    fontFamily: smpl.f_f,
+                    fontSize: smpl.f_s
+                }}>
+                    <h2 style={{color: smpl.f_c}}>Theme Sample</h2>
+                    <div style={{
+                        borderTop: `5px solid ${smpl.a_3}`,
+                        backgroundColor: smpl.b_c
+                    }}>
+                        <h3 style={{color: smpl.a_2}}>Test your theme.</h3>
+                        <p style={{}}>See your theme specs here.</p>
+                        <span style={{}}>See your theme specs here.</span>
+                    </div>
+                </div>
             </div>
             <div>
                 {settings}
