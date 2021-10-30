@@ -32,8 +32,6 @@ export const SettingsPage = ({ style }) => {
     
     const smpl = {
         b_c: `${background_color}`,
-        b_m: `url()`,
-        b_r: `${background_rotate}`, 
         f_c: `${font_color}`,
         f_f: `${font_family}`,
         f_s: `${font_size}`,
@@ -103,10 +101,21 @@ export const SettingsPage = ({ style }) => {
                 accent_2,
                 accent_3,
             }));
-    
-            if (data.errors) {
-                setErrors(data.errors);
-            }
+
+            const formData = new FormData();
+        formData.append('media', background_media);
+        setBackgroundMediaLoading(true);
+        
+        if (data.errors) {
+            setErrors(data.errors);
+        }
+
+        const updateData = dispatch(updateThemeMedia(user.id, formData));
+        setProfileMediaLoading(false);
+
+        if (updateData.errors) {
+            setErrors(updateData.errors);
+        }
         }
     }
 
@@ -114,9 +123,10 @@ export const SettingsPage = ({ style }) => {
         e.preventDefault();
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
+        const settingID = targForm.dataset.settingId;
 
         const updateObj = {
-            setting_id : targForm.dataset.settingId,
+            setting_id : settingID,
             user_id: user.id,
             theme_name,
             background_color,
@@ -162,7 +172,7 @@ export const SettingsPage = ({ style }) => {
         formData.append('media', background_media);
         setBackgroundMediaLoading(true);
 
-        const data = dispatch(updateThemeMedia(user.id, formData));
+        const data = dispatch(updateThemeMedia(settingID, formData));
         setProfileMediaLoading(false);
 
         if (data.errors) {
@@ -217,6 +227,8 @@ export const SettingsPage = ({ style }) => {
                 id={`sett-pg-editor-form-${idx}`}
                 onSubmit={editFormHandler}
                 data-setting-id={setting.id}
+                data-log={console.log(setting.background_media)}
+                style={{backgroundImage: `url(${setting.background_media})`}}
             >
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
                 <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
@@ -249,13 +261,11 @@ export const SettingsPage = ({ style }) => {
 
                 <div>
                     <label htmlFor='s-p-background-media-editor'>
-                        {!background_media ? 'Background Media' : 'Added'}
+                        {background_media !== '' ? 'Background Media' : 'Added'}
                     </label>
                     <input
                         id='s-p-background-media-editor'
                         type='file'
-                        value={setting.background_media}
-                        data-log={console.log(setting,setting?.background_media)}
                         onChange={setBackgroundMediaHandler}
                     />
                     {background_media_loading && (<span>Loading...</span>)}
@@ -332,7 +342,7 @@ export const SettingsPage = ({ style }) => {
                     </div>
                     <div>
                         <label htmlFor='s-p-background-media-uploader'>
-                            {!background_media ? 'Background Media' : 'Added'}
+                            {background_media !== '' ? 'Background Media' : 'Added'}
                         </label>
                         <input
                             id='s-p-background-media-uploader'
@@ -433,7 +443,6 @@ export const SettingsPage = ({ style }) => {
                 <div style={{
                     border: `5px solid ${smpl.a_3}`,
                     backgroundColor: smpl.b_c,
-                    backgroundImage: smpl.b_m,
                     fontFamily: smpl.f_f,
                     fontSize: smpl.f_s
                 }}>

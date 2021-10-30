@@ -18,7 +18,7 @@ def users():
 def user(userID):
     """Get a particular user ID."""
     user = User.query.get(userID)
-    return user.to_dict()
+    return { 'user': user.to_dict() }
 
 @user_routes.route('/<int:userID>', methods=['PUT'])
 @login_required
@@ -47,9 +47,8 @@ def upload_media(userID):
 
     db.session.add(user)
     db.session.commit()
-    return {
-        'user': user.to_dict()
-    }
+
+    return { 'user': user.to_dict() }
 
 @user_routes.route('/profile/<int:settingID>', methods=['PATCH'])
 @login_required
@@ -65,9 +64,6 @@ def edit_user_profile(settingID):
         db.session.commit()
         return { 'user': user.to_dict() }
     elif req_column == 'active_theme':
-        print(profile_setting)
-        print(int(profile_setting['id']))
-        # print('HERE IS CLASS',user)
         user.active_theme = int(profile_setting['id'])
         db.session.add(user)
         db.session.commit()

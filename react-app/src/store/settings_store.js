@@ -2,6 +2,7 @@
 const CREATE_SETTING = 'settings_store/CREATE_SETTING';
 const READ_SETTINGS = 'settings_store/READ_SETTINGS';
 const UPDATE_SETTING = 'settings_store/UPDATE_SETTING';
+const UPDATE_THEME = 'settings_store/UPDATE_THEME';
 const DELETE_SETTING = 'settings_store/DELETE_SETTING';
 
 //$ action creators
@@ -18,6 +19,11 @@ const readSettings = (settings) => ({
 const updateSetting = (setting) => ({
     type: UPDATE_SETTING,
     payload: setting
+})
+
+const updateTheme = (themeID, media) => ({
+    type: UPDATE_THEME,
+    payload: { themeID, media }
 })
 
 const deleteSetting = (settingID) => ({
@@ -47,6 +53,7 @@ export const readUserSettings = () => async dispatch => {
     const response = await fetch('/creepycrawler/settings/');
     if (response.ok) {
         const settings = await response.json();
+        console.log(settings);
         await dispatch(readSettings(settings));
         return settings;
     }
@@ -69,14 +76,14 @@ export const updateUserSetting = (setting) => async dispatch => {
     }
 }
 
-export const updateThemeMedia = (settingID, formData) => async dispatch => {
-    const response = await fetch(`/creepycrawler/settings/${settingID}`, {
+export const updateThemeMedia = (themeID, formData) => async dispatch => {
+    const response = await fetch(`/creepycrawler/settings/${themeID}`, {
         method: 'PATCH',
         body: formData
     })
     if (response.ok) {
         const media = await response.json();
-        dispatch(updateSetting(media));
+        dispatch(updateTheme(themeID, media));
         return media;
     } else if (response <= 500) {
         const data = await response.json();
@@ -117,6 +124,10 @@ export const settingsReducer = (state = initialState, action) => {
         case UPDATE_SETTING:
             const updateSetting = action.payload.setting;
             newState[updateSetting.id] = updateSetting;
+            return newState;
+        case UPDATE_THEME:
+            const theme = action.payload.setting;
+            newState[theme.themeID] = theme.media;
             return newState;
         case DELETE_SETTING:
             const settingID = action.payload;
