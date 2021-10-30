@@ -2,24 +2,24 @@
 
 ```css
 /* off-shade white */
-color: #EAE7DC;
-background-color: #EAE7DC;
+color: #eae7dc;
+background-color: #eae7dc;
 
 /* khaki */
-color: #D8C3A5;
-background-color: #D8C3A5;
+color: #d8c3a5;
+background-color: #d8c3a5;
 
 /* gray */
-color: #8E8D8A;
-background-color: #8E8D8A;
+color: #8e8d8a;
+background-color: #8e8d8a;
 
 /* reddish-pink */
-color: #E98074;
-background-color: #E98074;
+color: #e98074;
+background-color: #e98074;
 
 /* red */
-color: #E85A4F;
-background-color: #E85A4F;
+color: #e85a4f;
+background-color: #e85a4f;
 ```
 
 ```css

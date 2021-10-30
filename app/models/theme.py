@@ -10,16 +10,16 @@ class Theme(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
-    theme_name = db.Column(db.String(50), nullable=False, default='Theme')
-    background_color = db.Column(db.String(7), nullable=False, default='#EAE7DC')
-    background_media = db.Column(db.String(1000), nullable=True)
-    background_rotate = db.Column(db.String, nullable=False, default='False')
-    font_color = db.Column(db.String(7), nullable=False, default='#E85A4F')
+    theme_name = db.Column(db.String(50), nullable=False, default='')
+    background_color = db.Column(db.String(7), nullable=False, default='#eae7dc')
+    background_media = db.Column(db.String(1000), nullable=False, default='')
+    background_rotate = db.Column(db.String, nullable=False, default='false')
+    font_color = db.Column(db.String(7), nullable=False, default='#e85a4f')
     font_family = db.Column(db.String(50), nullable=False, default='Georgia, serif')
     font_size = db.Column(db.String(4), nullable=False, default='16px')
-    accent_1 = db.Column(db.String(7), nullable=False, default='#D8C3A5')
-    accent_2 = db.Column(db.String(7), nullable=False, default='#8E8D8A')
-    accent_3 = db.Column(db.String(7), nullable=False, default='#E98074')
+    accent_1 = db.Column(db.String(7), nullable=False, default='#d8c3a5')
+    accent_2 = db.Column(db.String(7), nullable=False, default='#8e8d8a')
+    accent_3 = db.Column(db.String(7), nullable=False, default='#e98074')
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now())
     updated_at = db.Column(db.DateTime, nullable=False, default=datetime.now())
 
@@ -30,6 +30,7 @@ class Theme(db.Model):
                 'user_id': self.user_id,
                 'theme_name': self.theme_name,
                 'background_color': self.background_color,
+                'background_media': self.background_media,
                 'background_rotate': self.background_rotate,
                 'font_color': self.font_color,
                 'font_family': self.font_family,

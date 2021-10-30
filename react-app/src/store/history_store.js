@@ -75,6 +75,8 @@ export const deleteHistoryEntry = (entryID) => async dispatch => {
         const message = await response.json();
         await dispatch(deleteHistory(entryID));
         return message;
+    } else {
+        return response;
     }
 }
 

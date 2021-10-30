@@ -13,7 +13,7 @@ class User(db.Model, UserMixin):
 
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(40), nullable=False, unique=True)
-    active_theme = db.Column(db.SmallInteger, nullable=True)
+    active_theme = db.Column(db.SmallInteger, nullable=False, default=0)
     theme_count = db.Column(db.SmallInteger, nullable=False, default=0)
     email = db.Column(db.String(255), nullable=False, unique=True)
     profile_media = db.Column(db.String(1000), nullable=False, default='https://randomuser.me/api/portraits/lego/2.jpg')
@@ -47,5 +47,7 @@ class User(db.Model, UserMixin):
             'id': self.id,
             'username': self.username,
             'email': self.email,
-            'profile_media': self.profile_media
+            'profile_media': self.profile_media,
+            'active_theme': self.active_theme,
+            'theme_count': self.theme_count
         }

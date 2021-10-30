@@ -97,7 +97,7 @@ export const signUp = (username, email, password) => async (dispatch) => {
 }
 
 export const readUser = (userID) => async dispatch => {
-  const response = await fetch(`/creepycrawler/${userID}`);
+  const response = await fetch(`/creepycrawler/users/${userID}`);
   
   if (response.ok) {
     const user = await response.json();
@@ -108,13 +108,36 @@ export const readUser = (userID) => async dispatch => {
 
 export const editProfileMedia = (userID, formData) => async dispatch => {
   const response = await fetch(`/creepycrawler/users/${userID}`, {
-      method: 'PATCH',
+      method: 'PUT',
       body: formData
   })
   if (response.ok) {
       const media = await response.json();
       dispatch(editUser(media));
       return media;
+  } else if (response <= 500) {
+      const data = await response.json();
+      if (data.errors) {
+        return data.errors;
+      } else return ['A wild error appeared in the bushes, please try again.']
+  }
+}
+
+export const editProfile = (setting) => async dispatch => {
+  console.log(setting);
+  const response = await fetch(`/creepycrawler/users/profile/${setting.id}`, {
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      method: 'PATCH',
+      body: JSON.stringify(
+        setting
+      )
+  })
+  if (response.ok) {
+      const data = await response.json();
+      dispatch(editUser(data));
+      return data;
   } else if (response <= 500) {
       const data = await response.json();
       if (data.errors) {

@@ -1,11 +1,10 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
-import { editProfileMedia } from '../../store/session';
-import { createUserSetting, readUserSettings, updateUserSetting, deleteUserSetting } from '../../store/settings_store';
-import { useModal } from '../context/Modal_Context.js';
+import { editProfileMedia, editProfile } from '../../store/session';
+import { createUserSetting, readUserSettings, updateUserSetting, updateThemeMedia, deleteUserSetting } from '../../store/settings_store';
 
 export const SettingsPage = ({ style }) => {
     const fontSizesRaw = dropdownData['font-sizes'];
@@ -22,29 +21,42 @@ export const SettingsPage = ({ style }) => {
     const [accent_1, setAccent1] = useState(style.accent_1);
     const [accent_2, setAccent2] = useState(style.accent_2);
     const [accent_3, setAccent3] = useState(style.accent_3);
-    const [profile_media, setProfileMedia] = useState(null);
-    // const [backgroundMedia, setBackgroundMedia] = useState(null);
-    const [profileMediaLoading, setProfileMediaLoading] = useState(false);
-    // const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
+    const [profile_media, setProfileMedia] = useState('');
+    const [background_media, setBackgroundMedia] = useState(style.background_media);
+    const [profile_media_loading, setProfileMediaLoading] = useState(false);
+    const [background_media_loading, setBackgroundMediaLoading] = useState(false);
     const [errors, setErrors] = useState([]);
-    const { closeModal } = useModal();
     const dispatch = useDispatch();
 
     const user = useSelector(state => state.session.user);
+    
+    const smpl = {
+        b_c: `${background_color}`,
+        f_c: `${font_color}`,
+        f_f: `${font_family}`,
+        f_s: `${font_size}`,
+        a_1: `${accent_1}`,
+        a_2: `${accent_2}`,
+        a_3: `${accent_3}`
+      }
 
      useEffect(() => {
         dispatch(readUserSettings())
-    }, [dispatch])
+    }, [dispatch, user])
+
+    const cancelHandler = (e) => {
+        window.location.reload();
+    }
 
     const setProfileMediaHandler = (e) => {
         const file = e.target.files[0];
         if (file) setProfileMedia(file);
     }
 
-    // const setBackgroundMediaHandler = (e) => {
-    //     const file = e.target.files[0];
-    //     if(file) setBackgroundMedia(file);
-    // }
+    const setBackgroundMediaHandler = (e) => {
+        const file = e.target.files[0];
+        if(file) setBackgroundMedia(file);
+    }
 
     const profileMediaHandler = async (e) => {
         e.preventDefault();
@@ -58,8 +70,6 @@ export const SettingsPage = ({ style }) => {
 
         if (data.errors) {
             setErrors(data.errors);
-        } else {
-            closeModal();
         }
     }
 
@@ -77,17 +87,12 @@ export const SettingsPage = ({ style }) => {
         }
 
         if (p_f_2_btn === 'Submit') {
-            // const formData = new FormData();
-            // formData.append('media', profile_media);
-            // setBackgroundMediaLoading(true);
-        
             const user_id = user.id;
     
             const data = await dispatch(createUserSetting({
                 user_id,
                 theme_name,
                 background_color,
-                // background_media,
                 background_rotate,
                 font_color,
                 font_family,
@@ -95,27 +100,36 @@ export const SettingsPage = ({ style }) => {
                 accent_1,
                 accent_2,
                 accent_3,
-                // formData
             }));
-            console.log(data);
-            // setBackgroundMediaLoading(false);
-    
-            if (data.errors) {
-                setErrors(data.errors);
-            } else {
-                closeModal();
-            }
+
+            const formData = new FormData();
+        formData.append('media', background_media);
+        setBackgroundMediaLoading(true);
+        
+        if (data.errors) {
+            setErrors(data.errors);
+        }
+
+        const updateData = dispatch(updateThemeMedia(user.id, formData));
+        setProfileMediaLoading(false);
+
+        if (updateData.errors) {
+            setErrors(updateData.errors);
+        }
         }
     }
 
     const editFormHandler = (e) => {
         e.preventDefault();
+        const targForm = e.target;
+        const targFormKids = Array.from(targForm.children);
+        const settingID = targForm.dataset.settingId;
 
         const updateObj = {
+            setting_id : settingID,
             user_id: user.id,
             theme_name,
             background_color,
-            // background_media,
             background_rotate,
             font_color,
             font_family,
@@ -123,12 +137,8 @@ export const SettingsPage = ({ style }) => {
             accent_1,
             accent_2,
             accent_3,
-            // formData
         }
 
-        const formID = e.target.dataset.formId
-        const targForm = document.getElementById(`sett-pg-editor-form-${formID}`);
-        const targFormKids = Array.from(targForm.children);
         targFormKids.forEach(targKid => {
             if (targKid.type === 'text') targKid.readOnly = false;
             else targKid.disabled = false;
@@ -151,30 +161,60 @@ export const SettingsPage = ({ style }) => {
                         else if (targKid.dataset.inputName === 'Accent 3') updateObj.accent_3 = targKid.value
                         
                         targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
+                        
                     }
                 })
+                dispatch(updateUserSetting(updateObj))
             }
         })
+
+        const formData = new FormData();
+        formData.append('media', background_media);
+        setBackgroundMediaLoading(true);
+
+        const data = dispatch(updateThemeMedia(settingID, formData));
+        setProfileMediaLoading(false);
+
+        if (data.errors) {
+            setErrors(data.errors);
+        }
     }
 
-    const deleteThemeHandler = (e) => dispatch(deleteUserSetting(+e.target.dataset.formId + 1));
+    const editProfileHandler = (e, eType) => {
+        console.log(eType);
+        if (eType === 'theme_count') {
+            dispatch(editProfile({
+                id: e.target.dataset.settingId,
+                column: eType,
+                theme_count: user.theme_count + 1,
+            }))
+        } else if (eType === 'active_theme') {
+            dispatch(editProfile({
+                id: e.target.dataset.settingId,
+                column: eType,
+            }))
+            window.location.reload();
+        } else {
+            dispatch(editProfile({
+                id: e.target.dataset.settingId,
+                eType: e.target
+            }))
+        }
+    }
+
+    const deleteThemeHandler = (e) => {
+        const settingID = e.target.dataset.settingId;
+        dispatch(deleteUserSetting(settingID))
+    };
 
     const fontSizes = fontSizesRaw.map(fontSize => (
-            <option
-                key={fontSize}
-                value={fontSize}
-                onChange={(e) => setFontSize(`${e.target.innerText}px`)}
-            >
-                {fontSize}
-            </option>
+        <option key={fontSize} >
+            {fontSize}
+        </option>
     ))
 
     const fontFamilies = fontFamiliesRaw.map(fontFamily => (
-        <option 
-            key={fontFamily}
-            value={fontFamily}
-            onChange={(e) => setFontFamily(e.target.innerText.replace(' | ', ', '))}
-        >
+        <option key={fontFamily} >
             {fontFamily}
         </option>
     ))
@@ -182,30 +222,58 @@ export const SettingsPage = ({ style }) => {
     const settingsObj = useSelector(state => state.settings);
 
     const settings = Object.values(settingsObj).map((setting, idx) => (
-        <div key={setting.id}>
-            <form id={`sett-pg-editor-form-${idx}`} onSubmit={editFormHandler}>
+            <form 
+                key={`key-${setting.id}`}
+                id={`sett-pg-editor-form-${idx}`}
+                onSubmit={editFormHandler}
+                data-setting-id={setting.id}
+                data-log={console.log(setting.background_media)}
+                style={{backgroundImage: `url(${setting.background_media})`}}
+            >
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
                 <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
-
                 <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
-                <select name={`font-sizes-${idx}`} data-input-name={'Font Size'} disabled={true} defaultValue={setting.font_size.replace('px', '')} data-checker={console.log(font_size.replace('px', ''))}>
+                <select 
+                    name={`font-sizes-${idx}`}
+                    id={`sett-pg-font-size-editor-${idx}`}
+                    data-input-name={'Font Size'}
+                    disabled={true}
+                    defaultValue={setting.font_size?.replace('px', '')}
+                    >
                     {fontSizes}
                 </select>
-
                 <label htmlFor={`font-families-${idx}`}>Font Family</label>
-                <select name={`font-families-${idx}`} data-input-name={'Font Family'} disabled={true} defaultValue={setting.font_family.replace(/,\s/, ' | ')} data-checker={console.log(font_family.replace(/,\s/, ' | '))}>
+                <select
+                    name={`font-families-${idx}`}
+                    id={`sett-pg-font-family-editor-${idx}`}
+                    data-input-name={'Font Family'} 
+                    disabled={true}
+                    defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
+                >
                    {fontFamilies}
                 </select>
 
                 <label htmlFor={`sett-pg-font-color-editor-${idx}`}>Font Color</label>
                 <input id={`sett-pg-font-color-editor-${idx}`} data-input-name={'Font Color'} type='color' disabled={true} defaultValue={setting.font_color} />
 
-                <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
-                <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
-
                 <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
                 <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name={'Background Color'} type='color' disabled={true} defaultValue={setting.background_color} />
-                
+
+                <div>
+                    <label htmlFor='s-p-background-media-editor'>
+                        {background_media !== '' ? 'Background Media' : 'Added'}
+                    </label>
+                    <input
+                        id='s-p-background-media-editor'
+                        type='file'
+                        onChange={setBackgroundMediaHandler}
+                    />
+                    {background_media_loading && (<span>Loading...</span>)}
+                </div>
+
+                <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
+                <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate === 'false' ? false : true} />
+
                 <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`}>Accent 1</label>
                 <input id={`sett-pg-accent-1-color-picker-${idx}`} data-input-name={'Accent 1'} type='color' disabled={true} defaultValue={setting.accent_1} />
                 
@@ -215,11 +283,11 @@ export const SettingsPage = ({ style }) => {
                 <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`}>Accent 3</label>
                 <input id={`sett-pg-accent-2-color-picker-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
-                <button data-form-id={`${idx}`}>Edit</button>
-                <button data-form-id={`${idx}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
-                <button data-form-id={`${idx}`} type='button'>Use</button>
+                <button>Edit</button>
+                <button type='button' onClick={cancelHandler}>Cancel</button>
+                <button data-setting-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
+                <button data-setting-id={`${setting.id}`} type='button' onClick={(e) => editProfileHandler(e, 'active_theme')}>Use</button>
             </form>
-        </div>
     ))
 
     return (
@@ -230,15 +298,15 @@ export const SettingsPage = ({ style }) => {
                 <form id='sett-pg-picker-form-1' onSubmit={profileMediaHandler}>
                     <h3>Profile</h3>
                     <label htmlFor='s-p-user-profile-media-uploader'>
-                        {profile_media === '' ? 'Upload Media' : 'Added'}
+                        {!profile_media ? 'Upload Media' : 'Added'}
                     </label>
                     <input
                         id='s-p-user-profile-media-uploader'
                         type='file'
                         onChange={setProfileMediaHandler}
                     />
-                    {profileMediaLoading && (<span>Loading...</span>)}
-                    <button data-form-id='1' type='button'>Submit</button>
+                    {profile_media_loading && (<span>Loading...</span>)}
+                    <button type='button'>Submit</button>
                 </form>
                 <div>
                     {errors.map(error => (
@@ -272,19 +340,17 @@ export const SettingsPage = ({ style }) => {
                             onChange={(e) => setBackgroundColor(e.target.value)}
                         />
                     </div>
-                    {/* <div>
-                        <label
-                            htmlFor='s-p-user-profile-media-uploader'
-                        >
-                            {profile_media === '' ? 'Upload Media' : 'Added'}
+                    <div>
+                        <label htmlFor='s-p-background-media-uploader'>
+                            {background_media !== '' ? 'Background Media' : 'Added'}
                         </label>
                         <input
-                            id='s-p-user-profile-media-uploader'
+                            id='s-p-background-media-uploader'
                             type='file'
                             onChange={setBackgroundMediaHandler}
                         />
-                        {backgroundMediaLoading && (<span>Loading...</span>)}
-                    </div> */}
+                        {background_media_loading && (<span>Loading...</span>)}
+                    </div>
                     <div>
                         <label htmlFor='sett-pg-bg-rotate-picker'>Background Rotate</label>
                         <input
@@ -292,7 +358,7 @@ export const SettingsPage = ({ style }) => {
                             data-input-name={'Background Rotate'}
                             type='checkbox'
                             disabled={p_f_2_disabled}
-                            value={background_rotate}
+                            checked={background_rotate === 'false' ? false : true}
                             onChange={(e) => setBackgroundRotate(e.target.checked)}
                         />
                     </div>
@@ -308,14 +374,33 @@ export const SettingsPage = ({ style }) => {
                         />
                     </div>
                     <div>
-                        <label>Font Size</label>
-                        <select name='font-sizes' id='sett-pg-font-size-picker' data-input-name={'Font Size'} disabled={p_f_2_disabled}>
+                        <label htmlFor='font-sizes'>Font Size</label>
+                        <select name='font-sizes'
+                                id='sett-pg-font-size-picker'
+                                data-input-name={'Font Size'}
+                                disabled={p_f_2_disabled}
+                                value={font_size?.replace('px', '')}
+                                onChange={(e) => {
+                                    const targOption = Array.from(e.target.children).find(option => option.selected);
+                                    setFontSize(`${targOption.innerText}px`);
+                                }}
+                        >
                             {fontSizes}
                         </select>
                     </div>
                     <div>
-                        <label>Font Family</label>
-                        <select name='font-families' id='sett-pg-font-family-picker' data-input-name={'Font Family'} disabled={p_f_2_disabled}>
+                        <label htmlFor='font-families'>Font Family</label>
+                        <select 
+                            name='font-families'
+                            id='sett-pg-font-family-picker'
+                            data-input-name={'Font Family'}
+                            disabled={p_f_2_disabled}
+                            value={font_family?.replace(/,\s/, ' | ')}
+                            onChange={(e) => {
+                                const targOption = Array.from(e.target.children).find(option => option.selected);
+                                setFontFamily(targOption.innerText.replace(/\s\|\s/, ', '));
+                            }}
+                        >
                             {fontFamilies}
                         </select>
                     </div>
@@ -352,8 +437,24 @@ export const SettingsPage = ({ style }) => {
                             onChange={(e) => setAccent3(e.target.value)}
                         />
                     </div>
-                    <button data-form-id='2'>{p_f_2_btn}</button>
+                    <button>{p_f_2_btn}</button>
+                    <button type='button' onClick={cancelHandler}>Cancel</button>
                 </form>
+                <div style={{
+                    border: `5px solid ${smpl.a_3}`,
+                    backgroundColor: smpl.b_c,
+                    fontFamily: smpl.f_f,
+                    fontSize: smpl.f_s
+                }}>
+                    <h2 style={{color: smpl.f_c}}>{`${theme_name}` || 'Theme Name'}</h2>
+                    <div style={{
+                        borderTop: `5px solid ${smpl.a_1}`,
+                        backgroundColor: smpl.b_c
+                    }}>
+                        <h3 style={{color: smpl.a_2}}>Test your theme.</h3>
+                        <span>See your theme specs here.</span>
+                    </div>
+                </div>
             </div>
             <div>
                 {settings}
