@@ -29,6 +29,7 @@ export const SettingsPage = ({ style }) => {
     const dispatch = useDispatch();
 
     const user = useSelector(state => state.session.user);
+    const settingsObj = useSelector(state => state.settings);
     
     const smpl = {
         b_c: `${background_color}`,
@@ -44,15 +45,34 @@ export const SettingsPage = ({ style }) => {
         dispatch(readUserSettings())
     }, [dispatch, user])
 
-    const resetHandler = (e) => {
+    const resetHandler = (e, formType) => {
+        const targID = e.target.dataset.settingId;
+  
+        let targForm;
 
-        // const targForm = e.target;
-        // const targFormKids = Array.from(targForm.children);
-        // const settingID = targForm.dataset.settingId;
+        if (formType === 'editor') {
+            targForm = document.getElementById(`sett-pg-editor-form-${targID}`);
+        } else if (formType === 'picker') {
+            targForm = document.getElementById(`sett-pg-picker-form-${targID}`);
+        }
 
+        const targFormKids = Array.from(targForm.children);
+        const prev = settingsObj[targID];
 
-
-        window.location.reload();
+        targFormKids.forEach(targKid => {
+            switch (targKid.dataset.inputName) {
+                case 'Theme Name': targKid.value = prev.theme_name; break;
+                case 'Background Color': targKid.value = prev.background_color; break;
+                case 'Background Rotate': targKid.checked = prev.background_rotate; break;
+                case 'Font Color': targKid.value = prev.font_color; break;
+                case 'Font Family': targKid.value = prev.font_family.replace(/,\s/, ' | '); break;
+                case 'Font Size': targKid.value = prev.font_size.replace('px', ''); break;
+                case 'Accent 1': targKid.value = prev.accent_1; break;
+                case 'Accent 2': targKid.value = prev.accent_2; break;
+                case 'Accent 3': targKid.value = prev.accent_3; break;
+                default: break;
+            }
+        })
     }
 
     const setProfileMediaHandler = (e) => {
@@ -147,7 +167,6 @@ export const SettingsPage = ({ style }) => {
         }
 
         if (targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit')) { 
-            console.log('HIT');
             const formData = new FormData();
             formData.append('media', background_media);
             setBackgroundMediaLoading(true);
@@ -192,7 +211,6 @@ export const SettingsPage = ({ style }) => {
     }
 
     const editProfileHandler = (e, eType) => {
-        console.log(eType);
         if (eType === 'theme_count') {
             dispatch(editProfile({
                 id: e.target.dataset.settingId,
@@ -230,12 +248,10 @@ export const SettingsPage = ({ style }) => {
         </option>
     ))
 
-    const settingsObj = useSelector(state => state.settings);
-
     const settings = Object.values(settingsObj).map((setting, idx) => (
             <form 
                 key={`key-${setting.id}`}
-                id={`sett-pg-editor-form-${idx}`}
+                id={`sett-pg-editor-form-${setting.id}`}
                 onSubmit={editFormHandler}
                 data-setting-id={setting.id}
                 style={{backgroundImage: `url(${setting.background_media})`}}
@@ -295,8 +311,8 @@ export const SettingsPage = ({ style }) => {
                 <input id={`sett-pg-accent-2-color-editor-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
                 <button>Edit</button>
-                <button type='button' onClick={resetHandler}>Cancel</button>
-                <button data-setting-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
+                <button data-setting-id={`${setting.id}`} type='button' onClick={(e) => resetHandler(e, 'editor')}>Cancel</button>
+                <button data-setting-id={`${setting.id}`} type='button' onClick={(e) => deleteThemeHandler(e)} >Delete</button>
                 <button data-setting-id={`${setting.id}`} type='button' onClick={(e) => editProfileHandler(e, 'active_theme')}>Use</button>
             </form>
     ))
@@ -371,11 +387,7 @@ export const SettingsPage = ({ style }) => {
                             type='checkbox'
                             disabled={p_f_2_disabled}
                             checked={background_rotate}
-                            onChange={(e) => {
-                                setBackgroundRotate(e.target.checked)
-                                console.log(typeof(e.target.checked), e.target.checked);
-                                console.log(typeof(background_rotate), e.target.checked);
-                            }}
+                            onChange={(e) => setBackgroundRotate(e.target.checked)}
                         />
                     </div>
                     <div>
@@ -454,7 +466,7 @@ export const SettingsPage = ({ style }) => {
                         />
                     </div>
                     <button>{p_f_2_btn}</button>
-                    <button type='button' onClick={resetHandler}>Cancel</button>
+                    <button type='button' data-setting-id={2} onClick={(e) => resetHandler(e, 'picker')}>Cancel</button>
                 </form>
                 <div style={{
                     border: `5px solid ${smpl.a_3}`,
