@@ -185,18 +185,6 @@ export const SettingsPage = ({ style }) => {
                         }
                         targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
                     }
-                    // if (targKid.tagName !== 'BUTTON') {
-                    //     if (targKid.dataset.inputName === 'Theme Name') updateObj.theme_name = targKid.value
-                    //     else if (targKid.dataset.inputName === 'Background Color') updateObj.background_color = targKid.value
-                    //     else if (targKid.dataset.inputName === 'Background Rotate') updateObj.background_rotate = targKid.checked
-                    //     else if (targKid.dataset.inputName === 'Font Color') updateObj.font_color = targKid.value
-                    //     else if (targKid.dataset.inputName === 'Font Family') updateObj.font_family = targKid.value
-                    //     else if (targKid.dataset.inputName === 'Font Size') updateObj.font_size = targKid.value
-                    //     else if (targKid.dataset.inputName === 'Accent 1') updateObj.accent_1 = targKid.value
-                    //     else if (targKid.dataset.inputName === 'Accent 2') updateObj.accent_2 = targKid.value
-                    //     else if (targKid.dataset.inputName === 'Accent 3') updateObj.accent_3 = targKid.value
-                    //     targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
-                    // }
                 })
                 dispatch(updateUserSetting(updateObj))
             }
