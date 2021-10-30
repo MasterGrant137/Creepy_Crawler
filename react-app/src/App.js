@@ -24,8 +24,8 @@ function App() {
   const siteTheme = {
     theme_count: user?.theme_count || 0,
     background_color: a_t?.background_color || `#eae7dc`,
-    background_media: a_t?.background_media ? `url('${a_t?.background_media}')` : 'url()',
     background_rotate: a_t?.background_rotate || false,
+    background_media: a_t?.background_media ? `url('${a_t?.background_media}')` : 'url()',
     font_color: a_t?.font_color || `#e85a4f`,
     font_family: a_t?.font_family || `Georgia, serif`,
     font_size: a_t?.font_size || `16px`,

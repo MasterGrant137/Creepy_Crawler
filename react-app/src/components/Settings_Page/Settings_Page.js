@@ -44,7 +44,14 @@ export const SettingsPage = ({ style }) => {
         dispatch(readUserSettings())
     }, [dispatch, user])
 
-    const cancelHandler = (e) => {
+    const resetHandler = (e) => {
+
+        // const targForm = e.target;
+        // const targFormKids = Array.from(targForm.children);
+        // const settingID = targForm.dataset.settingId;
+
+
+
         window.location.reload();
     }
 
@@ -126,7 +133,7 @@ export const SettingsPage = ({ style }) => {
         const settingID = targForm.dataset.settingId;
 
         const updateObj = {
-            setting_id : settingID,
+            setting_id: settingID,
             user_id: user.id,
             theme_name,
             background_color,
@@ -137,6 +144,20 @@ export const SettingsPage = ({ style }) => {
             accent_1,
             accent_2,
             accent_3,
+        }
+
+        if (targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit')) { 
+            console.log('HIT');
+            const formData = new FormData();
+            formData.append('media', background_media);
+            setBackgroundMediaLoading(true);
+    
+            const data = dispatch(updateThemeMedia(settingID, formData));
+            setBackgroundMediaLoading(false);
+    
+            if (data.errors) {
+                setErrors(data.errors);
+            }
         }
 
         targFormKids.forEach(targKid => {
@@ -150,34 +171,36 @@ export const SettingsPage = ({ style }) => {
                 targKid.type = 'button';
                 targFormKids.forEach(targKid => {
                     if (targKid.tagName !== 'BUTTON') {
-                        if (targKid.dataset.inputName === 'Theme Name') updateObj.theme_name = targKid.value
-                        else if (targKid.dataset.inputName === 'Background Color') updateObj.background_color = targKid.value
-                        else if (targKid.dataset.inputName === 'Background Rotate') updateObj.background_rotate = targKid.value
-                        else if (targKid.dataset.inputName === 'Font Color') updateObj.font_color = targKid.value
-                        else if (targKid.dataset.inputName === 'Font Family') updateObj.font_family = targKid.value
-                        else if (targKid.dataset.inputName === 'Font Size') updateObj.font_size = targKid.value
-                        else if (targKid.dataset.inputName === 'Accent 1') updateObj.accent_1 = targKid.value
-                        else if (targKid.dataset.inputName === 'Accent 2') updateObj.accent_2 = targKid.value
-                        else if (targKid.dataset.inputName === 'Accent 3') updateObj.accent_3 = targKid.value
-                        
+                        switch (targKid.dataset.inputName) {
+                            case 'Theme Name': updateObj.theme_name = targKid.value; break;
+                            case 'Background Color': updateObj.background_color = targKid.value; break;
+                            case 'Background Rotate': updateObj.background_rotate = targKid.checked; break;
+                            case 'Font Color': updateObj.font_color = targKid.value; break;
+                            case 'Font Family': updateObj.font_family = targKid.value; break;
+                            case 'Font Size': updateObj.font_size = targKid.value; break;
+                            case 'Accent 1': updateObj.accent_1 = targKid.value; break;
+                            case 'Accent 2': updateObj.accent_2 = targKid.value; break;
+                            case 'Accent 3': updateObj.accent_3 = targKid.value; break;
+                            default: break;
+                        }
                         targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
-                        
                     }
+                    // if (targKid.tagName !== 'BUTTON') {
+                    //     if (targKid.dataset.inputName === 'Theme Name') updateObj.theme_name = targKid.value
+                    //     else if (targKid.dataset.inputName === 'Background Color') updateObj.background_color = targKid.value
+                    //     else if (targKid.dataset.inputName === 'Background Rotate') updateObj.background_rotate = targKid.checked
+                    //     else if (targKid.dataset.inputName === 'Font Color') updateObj.font_color = targKid.value
+                    //     else if (targKid.dataset.inputName === 'Font Family') updateObj.font_family = targKid.value
+                    //     else if (targKid.dataset.inputName === 'Font Size') updateObj.font_size = targKid.value
+                    //     else if (targKid.dataset.inputName === 'Accent 1') updateObj.accent_1 = targKid.value
+                    //     else if (targKid.dataset.inputName === 'Accent 2') updateObj.accent_2 = targKid.value
+                    //     else if (targKid.dataset.inputName === 'Accent 3') updateObj.accent_3 = targKid.value
+                    //     targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
+                    // }
                 })
                 dispatch(updateUserSetting(updateObj))
             }
         })
-
-        const formData = new FormData();
-        formData.append('media', background_media);
-        setBackgroundMediaLoading(true);
-
-        const data = dispatch(updateThemeMedia(settingID, formData));
-        setBackgroundMediaLoading(false);
-
-        if (data.errors) {
-            setErrors(data.errors);
-        }
     }
 
     const editProfileHandler = (e, eType) => {
@@ -275,16 +298,16 @@ export const SettingsPage = ({ style }) => {
                 <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
 
                 <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`}>Accent 1</label>
-                <input id={`sett-pg-accent-1-color-picker-${idx}`} data-input-name={'Accent 1'} type='color' disabled={true} defaultValue={setting.accent_1} />
+                <input id={`sett-pg-accent-1-color-editor-${idx}`} data-input-name={'Accent 1'} type='color' disabled={true} defaultValue={setting.accent_1} />
                 
                 <label htmlFor={`sett-pg-accent-2-color-editor-${idx}`}>Accent 2</label>
-                <input id={`sett-pg-accent-2-color-picker-${idx}`} data-input-name={'Accent 2'} type='color' disabled={true} defaultValue={setting.accent_2} />
+                <input id={`sett-pg-accent-2-color-editor-${idx}`} data-input-name={'Accent 2'} type='color' disabled={true} defaultValue={setting.accent_2} />
                 
                 <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`}>Accent 3</label>
-                <input id={`sett-pg-accent-2-color-picker-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
+                <input id={`sett-pg-accent-2-color-editor-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
                 <button>Edit</button>
-                <button type='button' onClick={cancelHandler}>Cancel</button>
+                <button type='button' onClick={resetHandler}>Cancel</button>
                 <button data-setting-id={`${setting.id}`} onClick={(e) => deleteThemeHandler(e)} type='button'>Delete</button>
                 <button data-setting-id={`${setting.id}`} type='button' onClick={(e) => editProfileHandler(e, 'active_theme')}>Use</button>
             </form>
@@ -443,7 +466,7 @@ export const SettingsPage = ({ style }) => {
                         />
                     </div>
                     <button>{p_f_2_btn}</button>
-                    <button type='button' onClick={cancelHandler}>Cancel</button>
+                    <button type='button' onClick={resetHandler}>Cancel</button>
                 </form>
                 <div style={{
                     border: `5px solid ${smpl.a_3}`,

@@ -35,6 +35,7 @@ def add_theme():
 
     db.session.add(new_theme)
     db.session.commit()
+
     return { 'setting': new_theme.to_dict() }
 
 @settings_routes.route('/')
@@ -68,15 +69,12 @@ def append_background_media(themeID):
     url = upload['url']
 
     theme = Theme.query.filter(Theme.id == themeID).first()
-
     theme.background_media=url
 
     db.session.add(theme)
     db.session.commit()
 
-    return {
-        'user': theme.to_dict()
-    }
+    return { 'user': theme.to_dict() }
 
 
 @settings_routes.route('<int:settingID>', methods=['PUT'])
@@ -87,17 +85,16 @@ def update_theme(settingID):
     setting = request.json['setting']
 
     if ((theme.user_id == current_user.id) and (theme.id == int(setting['setting_id']))):
-        theme.user_id=setting['user_id'],
-        theme.theme_name=setting['theme_name'],
-        theme.background_color=setting['background_color'],
-        theme.background_rotate=setting['background_rotate'],
-        theme.font_color=setting['font_color'],
-        theme.font_family=setting['font_family'],
-        theme.font_size=setting['font_size'],
-        theme.accent_1=setting['accent_1'],
-        theme.accent_2=setting['accent_2'],
-        theme.accent_3=setting['accent_3'],
-        # theme.background_media=url
+        theme.user_id=setting['user_id']
+        theme.theme_name=setting['theme_name']
+        theme.background_color=setting['background_color']
+        theme.background_rotate=setting['background_rotate']
+        theme.font_color=setting['font_color']
+        theme.font_family=setting['font_family']
+        theme.font_size=setting['font_size']
+        theme.accent_1=setting['accent_1']
+        theme.accent_2=setting['accent_2']
+        theme.accent_3=setting['accent_3']
 
         db.session.add(theme)
         db.session.commit()

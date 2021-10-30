@@ -59,6 +59,7 @@ export const readUserSettings = () => async dispatch => {
 }
 
 export const updateUserSetting = (setting) => async dispatch => {
+    console.log(setting);
     const response = await fetch(`/creepycrawler/settings/${setting.setting_id}`, {
         headers: {
             'Content-Type': 'application/json'
