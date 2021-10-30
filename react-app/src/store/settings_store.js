@@ -69,6 +69,23 @@ export const updateUserSetting = (setting) => async dispatch => {
     }
 }
 
+export const updateThemeMedia = (settingID, formData) => async dispatch => {
+    const response = await fetch(`/creepycrawler/settings/${settingID}`, {
+        method: 'PATCH',
+        body: formData
+    })
+    if (response.ok) {
+        const media = await response.json();
+        dispatch(updateSetting(media));
+        return media;
+    } else if (response <= 500) {
+        const data = await response.json();
+        if (data.errors) {
+          return data.errors;
+        } else return ['A wild error appeared in the bushes, please try again.']
+    }
+  }
+
 export const deleteUserSetting = (settingID) => async dispatch => {
     const response = await fetch(`/creepycrawler/settings/${settingID}`, {
         method: 'DELETE'

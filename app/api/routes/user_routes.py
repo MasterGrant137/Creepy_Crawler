@@ -5,7 +5,7 @@ from app.s3_helpers import (upload_file_to_s3, allowed_file, get_unique_filename
 
 user_routes = Blueprint('users', __name__)
 
-@user_routes.route('/<int:userID>', methods=['PATCH'])
+@user_routes.route('/<int:userID>', methods=['PUT'])
 @login_required
 def upload_media(userID):
     """Upload media to aws and update database."""

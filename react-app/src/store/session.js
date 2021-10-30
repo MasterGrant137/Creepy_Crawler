@@ -108,7 +108,7 @@ export const readUser = (userID) => async dispatch => {
 
 export const editProfileMedia = (userID, formData) => async dispatch => {
   const response = await fetch(`/creepycrawler/users/${userID}`, {
-      method: 'PATCH',
+      method: 'PUT',
       body: formData
   })
   if (response.ok) {

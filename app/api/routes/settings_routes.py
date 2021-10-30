@@ -20,24 +20,6 @@ def validation_errors_to_error_messages(validation_errors):
 @login_required
 def add_theme():
     """Add a theme to settings."""
-    # print('before the media')
-    # if 'media' not in request.files:
-    #     return {'errors': 'media required'}, 400
-    # print('after the media')
-    # media = request.files['media']
-
-    # if not allowed_file(media.filename):
-    #     return {'errors': ['That file type is not permitted.']}, 400
-
-    # media.filename = get_unique_filename(media.filename)
-    # upload = upload_file_to_s3(media)
-   
-    # #? if dict has no filename key
-    # if 'url' not in upload:
-    #     return upload, 400
-
-    # url = upload['url']
-
     new_theme = Theme(
         user_id=request.json['user_id'],
         theme_name=request.json['theme_name'],
@@ -49,12 +31,41 @@ def add_theme():
         accent_1=request.json['accent_1'],
         accent_2=request.json['accent_2'],
         accent_3=request.json['accent_3'],
-        # background_media=url
     )
 
     db.session.add(new_theme)
     db.session.commit()
     return { 'setting': new_theme.to_dict() }
+
+@settings_routes.route('/<int:settingID>', methods=['PATCH'])
+@login_required
+def append_background_media(settingID):
+    """Update theme data to include background media."""
+    print('before the media')
+    if 'media' not in request.files:
+        return {'errors': 'media required'}, 400
+    print('after the media')
+    media = request.files['media']
+
+    if not allowed_file(media.filename):
+        return {'errors': ['That file type is not permitted.']}, 400
+
+    media.filename = get_unique_filename(media.filename)
+    upload = upload_file_to_s3(media)
+   
+    #? if dict has no filename key
+    if 'url' not in upload:
+        return upload, 400
+
+    url = upload['url']
+
+    theme = Theme.query.filter(Theme.id == settingID).first()
+
+    theme.background_media=url
+
+    db.session.add(theme)
+    db.session.commit()
+
 
 @settings_routes.route('<int:settingID>', methods=['PUT'])
 @login_required

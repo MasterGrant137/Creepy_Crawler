@@ -4,8 +4,7 @@ import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
 import { editProfileMedia, editProfile } from '../../store/session';
-import { createUserSetting, readUserSettings, updateUserSetting, deleteUserSetting } from '../../store/settings_store';
-import { useModal } from '../context/Modal_Context.js';
+import { createUserSetting, readUserSettings, updateUserSetting, updateThemeMedia, deleteUserSetting } from '../../store/settings_store';
 
 export const SettingsPage = ({ style }) => {
     const fontSizesRaw = dropdownData['font-sizes'];
@@ -23,11 +22,10 @@ export const SettingsPage = ({ style }) => {
     const [accent_2, setAccent2] = useState(style.accent_2);
     const [accent_3, setAccent3] = useState(style.accent_3);
     const [profile_media, setProfileMedia] = useState(null);
-    // const [backgroundMedia, setBackgroundMedia] = useState(null);
+    const [backgroundMedia, setBackgroundMedia] = useState(null);
     const [profileMediaLoading, setProfileMediaLoading] = useState(false);
-    // const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
+    const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
     const [errors, setErrors] = useState([]);
-    const { closeModal } = useModal();
     const dispatch = useDispatch();
 
     const user = useSelector(state => state.session.user);
@@ -57,10 +55,10 @@ export const SettingsPage = ({ style }) => {
         if (file) setProfileMedia(file);
     }
 
-    // const setBackgroundMediaHandler = (e) => {
-    //     const file = e.target.files[0];
-    //     if(file) setBackgroundMedia(file);
-    // }
+    const setBackgroundMediaHandler = (e) => {
+        const file = e.target.files[0];
+        if(file) setBackgroundMedia(file);
+    }
 
     const profileMediaHandler = async (e) => {
         e.preventDefault();
@@ -74,8 +72,6 @@ export const SettingsPage = ({ style }) => {
 
         if (data.errors) {
             setErrors(data.errors);
-        } else {
-            closeModal();
         }
     }
 
@@ -93,17 +89,12 @@ export const SettingsPage = ({ style }) => {
         }
 
         if (p_f_2_btn === 'Submit') {
-            // const formData = new FormData();
-            // formData.append('media', profile_media);
-            // setBackgroundMediaLoading(true);
-        
             const user_id = user.id;
     
             const data = await dispatch(createUserSetting({
                 user_id,
                 theme_name,
                 background_color,
-                // background_media,
                 background_rotate,
                 font_color,
                 font_family,
@@ -111,15 +102,10 @@ export const SettingsPage = ({ style }) => {
                 accent_1,
                 accent_2,
                 accent_3,
-                // formData
             }));
-            console.log(data);
-            // setBackgroundMediaLoading(false);
     
             if (data.errors) {
                 setErrors(data.errors);
-            } else {
-                closeModal();
             }
         }
     }
@@ -174,6 +160,16 @@ export const SettingsPage = ({ style }) => {
             }
         })
 
+        const formData = new FormData();
+        formData.append('media', backgroundMedia);
+        setBackgroundMediaLoading(true);
+
+        const data = dispatch(updateThemeMedia(user.id, formData));
+        setProfileMediaLoading(false);
+
+        if (data.errors) {
+            setErrors(data.errors);
+        }
     }
 
     const editProfileHandler = (e, eType) => {
@@ -195,7 +191,6 @@ export const SettingsPage = ({ style }) => {
                 id: e.target.dataset.settingId,
                 eType: e.target
             }))
-            
         }
     }
 
@@ -323,7 +318,7 @@ export const SettingsPage = ({ style }) => {
                             onChange={(e) => setBackgroundColor(e.target.value)}
                         />
                     </div>
-                    {/* <div>
+                    <div>
                         <label
                             htmlFor='s-p-user-profile-media-uploader'
                         >
@@ -335,7 +330,7 @@ export const SettingsPage = ({ style }) => {
                             onChange={setBackgroundMediaHandler}
                         />
                         {backgroundMediaLoading && (<span>Loading...</span>)}
-                    </div> */}
+                    </div>
                     <div>
                         <label htmlFor='sett-pg-bg-rotate-picker'>Background Rotate</label>
                         <input
