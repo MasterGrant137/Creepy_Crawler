@@ -179,17 +179,17 @@ export const SettingsPage = ({ style }) => {
     }
 
     const editProfileHandler = (e, eType) => {
+        console.log(eType);
         if (eType === 'theme_count') {
             dispatch(editProfile({
                 id: e.target.dataset.settingId,
-                e_type: eType,
+                column: eType,
                 theme_count: user.theme_count + 1,
             }))
         } else if (eType === 'active_theme') {
             dispatch(editProfile({
                 id: e.target.dataset.settingId,
-                e_type: eType,
-                active_theme: e.target.dataset.settingId,
+                column: eType,
             }))
         } else {
             dispatch(editProfile({
@@ -428,19 +428,18 @@ export const SettingsPage = ({ style }) => {
                 </form>
                 <div style={{
                     border: `5px solid ${smpl.a_3}`,
-                    backgroundColor: smpl.a_1,
+                    backgroundColor: smpl.b_c,
                     backgroundImage: smpl.b_i,
                     fontFamily: smpl.f_f,
                     fontSize: smpl.f_s
                 }}>
-                    <h2 style={{color: smpl.f_c}}>Theme Sample</h2>
+                    <h2 style={{color: smpl.f_c}}>{`${theme_name}` || 'Theme Name'}</h2>
                     <div style={{
-                        borderTop: `5px solid ${smpl.a_3}`,
+                        borderTop: `5px solid ${smpl.a_1}`,
                         backgroundColor: smpl.b_c
                     }}>
                         <h3 style={{color: smpl.a_2}}>Test your theme.</h3>
-                        <p style={{}}>See your theme specs here.</p>
-                        <span style={{}}>See your theme specs here.</span>
+                        <span>See your theme specs here.</span>
                     </div>
                 </div>
             </div>

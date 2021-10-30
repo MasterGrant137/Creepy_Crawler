@@ -53,7 +53,6 @@ export const readUserSettings = () => async dispatch => {
 }
 
 export const updateUserSetting = (setting) => async dispatch => {
-    console.log('LOOK ME IN THE EYES',setting.setting_id);
     const response = await fetch(`/creepycrawler/settings/${setting.setting_id}`, {
         headers: {
             'Content-Type': 'application/json'

@@ -36,11 +36,28 @@ def upload_media(userID):
         'user': user.to_dict()
     }
 
-@user_routes.route('/profile/<int:settingID>')
+@user_routes.route('/profile/<int:settingID>', methods=['PATCH'])
 @login_required
 def edit_user_profile(settingID):
     """Update user profile setting."""
     profile_setting = request.json
+    req_column = request.json['column']
+    user = User.query.filter(User.id == current_user.id).first()
+
+    if req_column == 'theme_count':
+        user.theme_count = profile_setting['theme_count']
+        db.session.add(user)
+        db.session.commit()
+        return { 'user': user.to_dict() }
+    elif req_column == 'active_theme':
+        print(profile_setting)
+        print(int(profile_setting['id']))
+        # print('HERE IS CLASS',user)
+        user.active_theme = int(profile_setting['id'])
+        db.session.add(user)
+        db.session.commit()
+        return { 'user': user.to_dict() }
+    
 
 @user_routes.route('/')
 @login_required

@@ -123,17 +123,21 @@ export const editProfileMedia = (userID, formData) => async dispatch => {
   }
 }
 
-export const editProfile = (settingObj) => async dispatch => {
-  const response = await fetch(`/creepycrawler/users/profile/${settingObj.id}`, {
+export const editProfile = (setting) => async dispatch => {
+  console.log(setting);
+  const response = await fetch(`/creepycrawler/users/profile/${setting.id}`, {
+      headers: {
+        'Content-Type': 'application/json'
+      },
       method: 'PATCH',
       body: JSON.stringify(
-        settingObj
+        setting
       )
   })
   if (response.ok) {
-      const setting = await response.json();
-      dispatch(editUser(setting));
-      return setting;
+      const data = await response.json();
+      dispatch(editUser(data));
+      return data;
   } else if (response <= 500) {
       const data = await response.json();
       if (data.errors) {
