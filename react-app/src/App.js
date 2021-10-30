@@ -19,20 +19,20 @@ function App() {
 
   const user = useSelector(state => state.session.user);
   const settings = useSelector(state => state.settings);
+  const a_t = settings[user?.active_theme];
+  console.log(a_t);
 
   const siteTheme = {
-    active_theme: ``,
-    theme_count: 0,
-    theme_name: `Theme`,
-    background_color: `#eae7dc`,
-    background_image: `url()`,
-    background_rotate: `False`, 
-    font_color: `#e85a4f`,
-    font_family: `Georgia, serif`,
-    font_size: `16px`,
-    accent_1: `#d8c3a5`,
-    accent_2: `#8e8d8a`,
-    accent_3: `#e98074`
+    theme_count: user ? user.theme_count : 0,
+    background_color: a_t ? a_t.background_color : `#eae7dc`,
+    // background_image: '' : `url()`,
+    background_rotate: a_t ? a_t.background_rotate : `False`, 
+    font_color: a_t ? a_t.font_color : `#e85a4f`,
+    font_family: a_t ? a_t.font_family : `Georgia, serif`,
+    font_size: a_t ? a_t.font_size : `16px`,
+    accent_1: a_t ? a_t.accent_1 : `#d8c3a5`,
+    accent_2: a_t ? a_t.accent_2 : `#8e8d8a`,
+    accent_3: a_t ? a_t.accent_3 : `#e98074`
   }
 
   document.body.style.backgroundColor = siteTheme.background_color;
