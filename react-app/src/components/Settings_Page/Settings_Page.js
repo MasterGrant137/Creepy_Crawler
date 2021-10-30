@@ -31,8 +31,6 @@ export const SettingsPage = ({ style }) => {
     const dispatch = useDispatch();
 
     const user = useSelector(state => state.session.user);
-    //$ style={{backgroundColor: style2.bg}}
-    const testingEle = '20px'
     
     const smpl = {
         b_c: `${background_color}`,
@@ -191,6 +189,7 @@ export const SettingsPage = ({ style }) => {
                 id: e.target.dataset.settingId,
                 column: eType,
             }))
+            window.location.reload();
         } else {
             dispatch(editProfile({
                 id: e.target.dataset.settingId,
@@ -253,7 +252,7 @@ export const SettingsPage = ({ style }) => {
                 <input id={`sett-pg-font-color-editor-${idx}`} data-input-name={'Font Color'} type='color' disabled={true} defaultValue={setting.font_color} />
 
                 <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
-                <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
+                <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate === 'false' ? false : true} />
 
                 <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
                 <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name={'Background Color'} type='color' disabled={true} defaultValue={setting.background_color} />
@@ -344,7 +343,7 @@ export const SettingsPage = ({ style }) => {
                             data-input-name={'Background Rotate'}
                             type='checkbox'
                             disabled={p_f_2_disabled}
-                            value={background_rotate}
+                            checked={background_rotate === 'false' ? false : true}
                             onChange={(e) => setBackgroundRotate(e.target.checked)}
                         />
                     </div>
@@ -365,7 +364,7 @@ export const SettingsPage = ({ style }) => {
                                 id='sett-pg-font-size-picker'
                                 data-input-name={'Font Size'}
                                 disabled={p_f_2_disabled}
-                                defaultValue={font_size?.replace('px', '')}
+                                value={font_size?.replace('px', '')}
                                 onChange={(e) => {
                                     const targOption = Array.from(e.target.children).find(option => option.selected);
                                     setFontSize(`${targOption.innerText}px`);
@@ -381,7 +380,7 @@ export const SettingsPage = ({ style }) => {
                             id='sett-pg-font-family-picker'
                             data-input-name={'Font Family'}
                             disabled={p_f_2_disabled}
-                            defaultValue={font_family?.replace(/,\s/, ' | ')}
+                            value={font_family?.replace(/,\s/, ' | ')}
                             onChange={(e) => {
                                 const targOption = Array.from(e.target.children).find(option => option.selected);
                                 setFontFamily(targOption.innerText.replace(/\s\|\s/, ', '));

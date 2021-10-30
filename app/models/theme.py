@@ -10,10 +10,10 @@ class Theme(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
-    theme_name = db.Column(db.String(50), nullable=False, default='Theme')
+    theme_name = db.Column(db.String(50), nullable=True)
     background_color = db.Column(db.String(7), nullable=False, default='#eae7dc')
     background_media = db.Column(db.String(1000), nullable=True)
-    background_rotate = db.Column(db.String, nullable=False, default='False')
+    background_rotate = db.Column(db.String, nullable=False, default='false')
     font_color = db.Column(db.String(7), nullable=False, default='#e85a4f')
     font_family = db.Column(db.String(50), nullable=False, default='Georgia, serif')
     font_size = db.Column(db.String(4), nullable=False, default='16px')
