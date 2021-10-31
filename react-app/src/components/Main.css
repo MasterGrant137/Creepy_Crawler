@@ -35,7 +35,11 @@ button:hover {
 /*=================================*/
 /*$==========Containers===========$*/
 /*=================================*/
-
+.settings-container {
+    border: 5px solid orange;
+    display: flex;
+    overflow-x: auto;
+}
 /*=================================*/
 /*$=============Menus=============$*/
 /*=================================*/
@@ -44,8 +48,40 @@ button:hover {
 /*=================================*/
 /*$=============Forms=============$*/
 /*=================================*/
+.settings-form {
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+}
 
+.picker-form {
 
+}
+
+.editor-form {
+    position: relative;
+    width: fit-content;
+    text-align: center;
+}
+
+.editor-form > select {
+    text-align: center;
+}
+
+.editor-form > input[type='color'] {
+    position: relative;
+    left: 40%;
+}
+
+.editor-form > input[type='checkbox'] {
+    position: relative;
+    left: 45%;
+}
+
+.editor-form > div > input[type='file'] {
+    position: relative;
+    left: 15%;
+}
 /*=================================*/
 /*$===========Sections============$*/
 /*=================================*/

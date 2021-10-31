@@ -272,9 +272,10 @@ export const SettingsPage = ({ style }) => {
             <form 
                 key={`key-${setting.id}`}
                 id={`sett-pg-editor-form-${setting.id}`}
-                onSubmit={editFormHandler}
                 data-setting-id={setting.id}
-                style={{backgroundImage: `url(${setting.background_media})`}}
+                className='settings-form editor-form'
+                onSubmit={editFormHandler}
+                style={{backgroundImage: `url(${setting.background_media})`, backgroundColor: setting.background_color}}
             >
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
                 <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
@@ -342,7 +343,7 @@ export const SettingsPage = ({ style }) => {
             <h1>Settings</h1>
             <div>
                 <h2>Update Media</h2>
-                <form id='sett-pg-picker-form-1' onSubmit={profileMediaHandler}>
+                <form id='sett-pg-picker-form-1' className='settings-form picker-form' onSubmit={profileMediaHandler}>
                     <h3>Profile</h3>
                     <label htmlFor='s-p-user-profile-media-uploader'>
                         {!profile_media ? 'Upload Media' : 'Added'}
@@ -361,9 +362,9 @@ export const SettingsPage = ({ style }) => {
                     ))}
                 </div>
             </div>
-            <div>
+            <div className='create-theme-container'>
                 <h2>Create Theme</h2>
-                <form id='sett-pg-picker-form-2' onSubmit={createSettingHandler}>
+                <form id='sett-pg-picker-form-2' className='settings-form picker-form' onSubmit={createSettingHandler}>
                     <label htmlFor='sett-page-theme-name-picker'>Theme Name</label>
                     <input
                         id='sett-page-theme-name-picker'
@@ -487,7 +488,7 @@ export const SettingsPage = ({ style }) => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='settings-container'>
                 {settings}
             </div>
         </div>
