@@ -82,8 +82,11 @@ export const SettingsPage = ({ style }) => {
             let targID = e.target.dataset.settingId;
             const targForm = document.getElementById(`sett-pg-picker-form-${targID}`);
             const targFormKids = Array.from(targForm.children);
-            
+
             targFormKids.forEach(targKid => {
+                if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
+                    targKid.innerText = 'Edit';
+                }
                 switch (targKid.dataset.inputName) {
                     case 'Theme Name': setThemeName(style.theme_name || ''); break;
                     case 'Background Color': setBackgroundColor(style.background_color); break;
@@ -318,8 +321,8 @@ export const SettingsPage = ({ style }) => {
                 <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
                 <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name={'Background Color'} type='color' disabled={true} defaultValue={setting.background_color} />
 
-                <label htmlFor='s-p-background-media-editor'>{background_media !== '' ? 'Background Media' : 'Added'}</label>
-                <input id='s-p-background-media-editor' data-input-name={'Background Media'} type='file' disabled={true} onChange={setBackgroundMediaHandler} />
+                <label htmlFor='sett-pg-background-media-editor'>{background_media !== '' ? 'Background Media' : 'Added'}</label>
+                <input id='sett-pg-background-media-editor' data-input-name={'Background Media'} type='file' disabled={true} onChange={setBackgroundMediaHandler} />
                 {background_media_loading && (<span>Loading...</span>)}
 
                 <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
@@ -380,36 +383,35 @@ export const SettingsPage = ({ style }) => {
     ))
 
     return (
-        <div>
+        <div className='settings-page-container'>
             <h1>Settings</h1>
-            <div>
-                <h2>Update Media</h2>
-                <form id='sett-pg-picker-form-1' className='settings-form picker-form' onSubmit={profileMediaHandler}>
-                    <h3>Profile</h3>
-                    <label htmlFor='s-p-user-profile-media-uploader'>
-                        {!profile_media ? 'Upload Media' : 'Added'}
+            <div className='create-and-test-container'>
+                <form 
+                    id='sett-pg-picker-form-1'
+                    data-setting-id={1}
+                    className='settings-form picker-form-1'
+                    onSubmit={profileMediaHandler}
+                    style={{ border: `3px solid ${style.accent_3}` }}
+                >
+                    <label htmlFor='sett-pg-user-profile-media-uploader'>
+                        {!profile_media ? 'Upload Profile Media' : 'Added'}
                     </label>
                     <input
-                        id='s-p-user-profile-media-uploader'
+                        id='sett-pg-user-profile-media-uploader'
                         type='file'
                         onChange={setProfileMediaHandler}
                     />
                     {profile_media_loading && (<span>Loading...</span>)}
-                    <button>Submit</button>
+                    <button style={{ color: style.font_color }}>Submit</button>
                 </form>
-            </div>
-            <div className='create-and-test-container'>
                 <div 
                     className='create-theme-container' 
-                    style={{
-                            border: `3px solid ${smpl.a_3}`,
-                            backgroundColor: smpl.b_c
-                    }}
+                    style={{ border: `3px solid ${style.accent_3}` }}
                 >
                     <form 
                         id='sett-pg-picker-form-2'
                         data-setting-id={2}
-                        className='settings-form picker-form' 
+                        className='settings-form picker-form-2' 
                         onSubmit={createSettingHandler}
                     >
                         <h2>Create Theme</h2>
@@ -432,11 +434,11 @@ export const SettingsPage = ({ style }) => {
                             value={background_color}
                             onChange={(e) => setBackgroundColor(e.target.value)}
                         />
-                        <label htmlFor='s-p-background-media-uploader'>
+                        <label htmlFor='sett-pg-background-media-uploader'>
                             {background_media !== '' ? 'Background Media' : 'Added'}
                         </label>
                         <input
-                            id='s-p-background-media-uploader'
+                            id='sett-pg-background-media-uploader'
                             data-input-name={'Background Media'}
                             type='file'
                             disabled={p_f_2_disabled}
