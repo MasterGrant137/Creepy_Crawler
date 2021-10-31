@@ -275,9 +275,11 @@ export const SettingsPage = ({ style }) => {
                 data-setting-id={setting.id}
                 className='settings-form editor-form'
                 onSubmit={editFormHandler}
-                style={{backgroundImage: `url(${setting.background_media})`,
+                style={{
+                        backgroundImage: `url(${setting.background_media})`,
                         backgroundColor: setting.background_color,
-                        border: `3px solid ${setting.accent_3}`
+                        border: `3px solid ${setting.accent_3}`,
+                        color: setting.font_color
                       }}
             >
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
@@ -309,29 +311,20 @@ export const SettingsPage = ({ style }) => {
                 <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
                 <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name={'Background Color'} type='color' disabled={true} defaultValue={setting.background_color} />
 
-                <div>
-                    <label htmlFor='s-p-background-media-editor'>
-                        {background_media !== '' ? 'Background Media' : 'Added'}
-                    </label>
-                    <input
-                        id='s-p-background-media-editor'
-                        type='file'
-                        disabled={true}
-                        onChange={setBackgroundMediaHandler}
-                    />
-                    {background_media_loading && (<span>Loading...</span>)}
-                </div>
+                <label htmlFor='s-p-background-media-editor'>{background_media !== '' ? 'Background Media' : 'Added'}</label>
+                <input id='s-p-background-media-editor' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
+                {background_media_loading && (<span>Loading...</span>)}
 
                 <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
                 <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name={'Background Rotate'} type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
 
-                <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`}>Accent 1</label>
+                <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`} style={{color: setting.accent_1}}>Accent 1</label>
                 <input id={`sett-pg-accent-1-color-editor-${idx}`} data-input-name={'Accent 1'} type='color' disabled={true} defaultValue={setting.accent_1} />
                 
-                <label htmlFor={`sett-pg-accent-2-color-editor-${idx}`}>Accent 2</label>
+                <label htmlFor={`sett-pg-accent-2-color-editor-${idx}`} style={{color: setting.accent_2}}>Accent 2</label>
                 <input id={`sett-pg-accent-2-color-editor-${idx}`} data-input-name={'Accent 2'} type='color' disabled={true} defaultValue={setting.accent_2} />
                 
-                <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`}>Accent 3</label>
+                <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`} style={{color: setting.accent_3}}>Accent 3</label>
                 <input id={`sett-pg-accent-2-color-editor-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
                 <button>Edit</button>

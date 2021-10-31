@@ -5,9 +5,19 @@
     box-sizing: border-box;
 }
 
+*:disabled {
+    cursor: not-allowed;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+}
+
 button:hover {
-    cursor: pointer;
     box-shadow: 0 0 2px black;
+    cursor: pointer;
 }
 
 ul {
@@ -17,6 +27,7 @@ ul {
 ul li {
     display: inline;
 }
+
 /*=================================*/
 /*$============Groups=============$*/
 /*=================================*/
@@ -48,7 +59,6 @@ button:hover {
 /*$=============Forms=============$*/
 /*=================================*/
 .settings-form {
-    /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
 }
@@ -58,31 +68,74 @@ button:hover {
 }
 
 .editor-form {
-    position: relative;
-    text-align: center;
-    width: fit-content;
-    margin: 5px;
     border-radius: 10px;
+    margin: 5px;
+    padding: 7px;
+    width: fit-content;
+}
+
+.editor-form > * {
+    cursor: pointer;
+    margin: 1px;
+}
+
+.editor-form > label {
+    text-align: center;
+}
+
+.editor-form > button {
+    left: 35%;
+    position: relative;
+    width: 30%;
 }
 
 .editor-form > select {
     text-align: center;
 }
 
-.editor-form > input[type='color'] {
+.editor-form > select[data-input-name='Font Size'] {
+    left: 42%;
     position: relative;
+    width: fit-content;
+}
+
+.editor-form > select[data-input-name='Font Family'] {
+    left: 10%;
+    position: relative;
+    width: fit-content;
+}
+
+
+.editor-form > input[type='text'] {
+    left: 15%;
+    position: relative;
+    width: 70%;
+}
+
+.editor-form > input[type='color'] {
     left: 40%;
+    position: relative;
 }
 
 .editor-form > input[type='checkbox'] {
-    position: relative;
     left: 45%;
+    position: relative;
 }
 
-.editor-form > div > input[type='file'] {
-    position: relative;
+.editor-form > input[type='file'] {
     left: 15%;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
+
+.editor-form > input[type='file']::file-selector-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+
 /*=================================*/
 /*$===========Sections============$*/
 /*=================================*/
