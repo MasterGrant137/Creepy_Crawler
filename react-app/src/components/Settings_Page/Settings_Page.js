@@ -56,6 +56,9 @@ export const SettingsPage = ({ style }) => {
             const prev = settingsObj[targID];
             const targFormKids = Array.from(targForm.children);
             targFormKids.forEach(targKid => {
+                if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
+                    targKid.innerText = 'Edit';
+                }
                 switch (targKid.dataset.inputName) {
                     case 'Theme Name': targKid.value = prev.theme_name; break;
                     case 'Background Color': targKid.value = prev.background_color; break;
@@ -501,13 +504,15 @@ export const SettingsPage = ({ style }) => {
                     <button>{p_f_2_btn}</button>
                     <button type='button' data-setting-id={2} onClick={(e) => resetHandler(e, 'picker')}>Cancel</button>
                 </form>
-                <div style={{
-                    border: `5px solid ${smpl.a_3}`,
-                    backgroundColor: smpl.b_c,
-                    fontFamily: smpl.f_f,
-                    fontSize: smpl.f_s,
-                    color: smpl.f_c
-                }}>
+                <div  
+                    style={{
+                        border: `5px solid ${smpl.a_3}`,
+                        backgroundColor: smpl.b_c,
+                        fontFamily: smpl.f_f,
+                        fontSize: smpl.f_s,
+                        color: smpl.f_c
+                    }}
+                >
                     <h2>{`${theme_name}` || 'Theme Name'}</h2>
                     <div style={{
                         borderTop: `5px solid ${smpl.a_1}`,

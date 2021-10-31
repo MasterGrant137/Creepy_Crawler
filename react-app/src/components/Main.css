@@ -53,7 +53,7 @@ ul li {
 }
 
 .picker-form {
-
+    width: 50%;
 }
 
 .editor-form {
@@ -61,10 +61,6 @@ ul li {
     margin: 5px;
     padding: 7px;
     width: fit-content;
-}
-
-.editor-form > * {
-    cursor: pointer;
 }
 
 .editor-form *:disabled {
