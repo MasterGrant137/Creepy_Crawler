@@ -59,8 +59,16 @@ export const SettingsPage = ({ style }) => {
                     case 'Background Color': targKid.value = prev.background_color; break;
                     case 'Background Rotate': targKid.checked = prev.background_rotate; break;
                     case 'Font Color': targKid.value = prev.font_color; break;
-                    case 'Font Family': targKid.value = prev.font_family.replace(/,\s/, ' | '); break;
-                    case 'Font Size': targKid.value = prev.font_size.replace('px', ''); break;
+                    case 'Font Family':
+                        const targText = prev.font_family.replace(/,\s/, ' | ');
+                        const targFamily = Array.from(targKid.children).find(option => option.innerText === targText); 
+                        targFamily.selected = true;
+                        break;
+                    case 'Font Size': targKid.value = prev.font_size;
+                        const targNum = prev.font_size.replace('px', '');
+                        const targSize = Array.from(targKid.children).find(option => option.innerText === targNum); 
+                        targSize.selected = true;
+                        break;
                     case 'Accent 1': targKid.value = prev.accent_1; break;
                     case 'Accent 2': targKid.value = prev.accent_2; break;
                     case 'Accent 3': targKid.value = prev.accent_3; break;
@@ -72,12 +80,12 @@ export const SettingsPage = ({ style }) => {
             const targFormKids = Array.from(targForm.children);
             targFormKids.forEach(targKid => {
                 switch (targKid.dataset.inputName) {
-                    case 'Theme Name': setThemeName(style.theme_name || 'theme'); break;
+                    case 'Theme Name': setThemeName(style.theme_name || ''); break;
                     case 'Background Color': setBackgroundColor(style.background_color); break;
                     case 'Background Rotate': setBackgroundRotate(style.background_rotate); break;
                     case 'Font Color': setFontColor(style.font_color); break;
-                    case 'Font Family': setFontFamily(style.font_family.replace(/,\s/, ' | ')); break;
-                    case 'Font Size': setFontSize(style.font_size.replace('px', '')); break;
+                    case 'Font Family': setFontFamily(style.font_family); break;
+                    case 'Font Size': setFontSize(style.font_size); break;
                     case 'Accent 1': setAccent1(style.accent_1); break;
                     case 'Accent 2': setAccent2(style.accent_2); break;
                     case 'Accent 3': setAccent3(style.accent_3); break;
