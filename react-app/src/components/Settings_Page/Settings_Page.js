@@ -48,10 +48,10 @@ export const SettingsPage = ({ style }) => {
     }, [dispatch, user])
 
     const resetHandler = (e, formType) => {
-        const targID = e.target.dataset.settingId;
         let targForm;
         
         if (formType === 'editor') {
+            const targID = e.target.dataset.settingId;
             targForm = document.getElementById(`sett-pg-editor-form-${targID}`);
             const prev = settingsObj[targID];
             const targFormKids = Array.from(targForm.children);
@@ -81,7 +81,7 @@ export const SettingsPage = ({ style }) => {
                 }
             })
         } else if (formType === 'picker') {
-            targForm = document.getElementById(`sett-pg-picker-form-${targID}`);
+            targForm = document.getElementById(e.target.id);
             const targFormKids = Array.from(targForm.children);
             targFormKids.forEach(targKid => {
                 switch (targKid.dataset.inputName) {
@@ -168,6 +168,9 @@ export const SettingsPage = ({ style }) => {
             if (updateData.errors) {
                 setErrors(updateData.errors);
             }
+
+            resetHandler(e, 'picker');
+            // console.log(e);
         }
     }
 
@@ -506,8 +509,15 @@ export const SettingsPage = ({ style }) => {
                             value={accent_3}
                             onChange={(e) => setAccent3(e.target.value)}
                         />
-                        <button>{p_f_2_btn}</button>
-                        <button type='button' data-setting-id={2} onClick={(e) => resetHandler(e, 'picker')}>Cancel</button>
+                        <button style={{ color: font_color, fontFamily: font_family }}>{p_f_2_btn}</button>
+                        <button
+                            type='button'
+                            data-setting-id={2} 
+                            onClick={(e) => resetHandler(e, 'picker')}
+                            style={{ color: font_color, fontFamily: font_family }}
+                        >
+                            Cancel
+                        </button>
                     </form>
                     </div>
                     <div  

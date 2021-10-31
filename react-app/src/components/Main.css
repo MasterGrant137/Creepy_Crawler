@@ -68,6 +68,12 @@ ul li {
 .settings-form {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.settings-form:hover {
+    box-shadow: 0 0 5px black;
 }
 
 .editor-form {
@@ -111,7 +117,7 @@ ul li {
     width: fit-content;
 }
 
-.editor-form > input[type='text'] {
+.picker-form > input[type='text'], .editor-form > input[type='text'] {
     left: 15%;
     position: relative;
     width: 70%;
