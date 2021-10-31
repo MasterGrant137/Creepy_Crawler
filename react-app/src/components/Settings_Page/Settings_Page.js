@@ -27,7 +27,6 @@ export const SettingsPage = ({ style }) => {
     const [background_media, setBackgroundMedia] = useState(style.background_media);
     const [profile_media_loading, setProfileMediaLoading] = useState(false);
     const [background_media_loading, setBackgroundMediaLoading] = useState(false);
-    const [errors, setErrors] = useState([]);
     const dispatch = useDispatch();
 
     const user = useSelector(state => state.session.user);
@@ -45,7 +44,7 @@ export const SettingsPage = ({ style }) => {
 
      useEffect(() => {
         dispatch(readUserSettings());
-     }, [dispatch, user])
+     }, [dispatch])
 
     const resetHandler = (e, formType) => {
         let targForm;
@@ -62,6 +61,7 @@ export const SettingsPage = ({ style }) => {
                 switch (targKid.dataset.inputName) {
                     case 'Theme Name': targKid.value = prev.theme_name; break;
                     case 'Background Color': targKid.value = prev.background_color; break;
+                    case 'Background Media': targKid.value = ''; break;
                     case 'Background Rotate': targKid.checked = prev.background_rotate; break;
                     case 'Font Color': targKid.value = prev.font_color; break;
                     case 'Font Family':
@@ -87,6 +87,7 @@ export const SettingsPage = ({ style }) => {
                 switch (targKid.dataset.inputName) {
                     case 'Theme Name': setThemeName(style.theme_name || ''); break;
                     case 'Background Color': setBackgroundColor(style.background_color); break;
+                    case 'Background Media': targKid.value = ''; break;
                     case 'Background Rotate': setBackgroundRotate(style.background_rotate); break;
                     case 'Font Color': setFontColor(style.font_color); break;
                     case 'Font Family': setFontFamily(style.font_family); break;
@@ -113,12 +114,19 @@ export const SettingsPage = ({ style }) => {
     const profileMediaHandler = async (e) => {
         e.preventDefault();
 
-        const formData = new FormData();
-        formData.append('media', profile_media);
-        setProfileMediaLoading(true);
+        const targForm = e.target;
+        const targFormKids = Array.from(targForm.children);
+        const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
+        const hasMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
 
-        await dispatch(editProfileMedia(user.id, formData));
-        setProfileMediaLoading(false);
+        if (isSubmit && hasMedia?.value) { 
+            const formData = new FormData();
+            formData.append('media', profile_media);
+            setProfileMediaLoading(true);
+
+            await dispatch(editProfileMedia(user.id, formData));
+            setProfileMediaLoading(false);
+        }
     }
 
     const createSettingHandler = async (e) => {
@@ -150,17 +158,19 @@ export const SettingsPage = ({ style }) => {
                 accent_3,
             }));
 
-            const formData = new FormData();
-            formData.append('media', background_media);
-            setBackgroundMediaLoading(true);
-            
-            const updateData = dispatch(updateThemeMedia(user.id, formData));
-            setBackgroundMediaLoading(false);
+            const targForm = e.target;
+            const targFormKids = Array.from(targForm.children);
+            const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
+            const hasMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
+            if (isSubmit && hasMedia.value) { 
+                const formData = new FormData();
+                formData.append('media', background_media);
+                setBackgroundMediaLoading(true);
+                
+                dispatch(updateThemeMedia(user.id, formData));
+                setBackgroundMediaLoading(false);
 
-            if (updateData.errors) {
-                setErrors(updateData.errors);
             }
-
             resetHandler(e, 'picker');
         }
     }
@@ -185,17 +195,16 @@ export const SettingsPage = ({ style }) => {
             accent_3,
         }
 
-        if (targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit')) { 
+        const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
+        const hasMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
+
+        if (isSubmit && hasMedia.value) { 
             const formData = new FormData();
             formData.append('media', background_media);
             setBackgroundMediaLoading(true);
     
-            const data = dispatch(updateThemeMedia(settingID, formData));
+            dispatch(updateThemeMedia(settingID, formData));
             setBackgroundMediaLoading(false);
-    
-            if (data.errors) {
-                setErrors(data.errors);
-            }
         }
 
         targFormKids.forEach(targKid => {
@@ -310,7 +319,7 @@ export const SettingsPage = ({ style }) => {
                 <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name={'Background Color'} type='color' disabled={true} defaultValue={setting.background_color} />
 
                 <label htmlFor='s-p-background-media-editor'>{background_media !== '' ? 'Background Media' : 'Added'}</label>
-                <input id='s-p-background-media-editor' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
+                <input id='s-p-background-media-editor' data-input-name={'Background Media'} type='file' disabled={true} onChange={setBackgroundMediaHandler} />
                 {background_media_loading && (<span>Loading...</span>)}
 
                 <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
@@ -383,11 +392,6 @@ export const SettingsPage = ({ style }) => {
                     {profile_media_loading && (<span>Loading...</span>)}
                     <button>Submit</button>
                 </form>
-                <div>
-                    {errors.map(error => (
-                        <div key={error}>{error}</div>
-                    ))}
-                </div>
             </div>
             <div className='create-and-test-container'>
                 <div 
@@ -423,6 +427,7 @@ export const SettingsPage = ({ style }) => {
                         </label>
                         <input
                             id='s-p-background-media-uploader'
+                            data-input-name={'Background Media'}
                             type='file'
                             disabled={p_f_2_disabled}
                             onChange={setBackgroundMediaHandler}
