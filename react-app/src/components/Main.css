@@ -35,18 +35,27 @@ ul li {
 /*=================================*/
 /*$==========Containers===========$*/
 /*=================================*/
+.create-and-test-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5%;
+}
+
 .create-theme-container {
     display: flex;
     width: fit-content;
-}
-
-.settings-container {
-    display: flex;
-    overflow-x: auto;
+    margin-right: 5%;
+    border-radius: 5px;
 }
 
 .theme-tester-container {
     display: inline-block;
+    height: fit-content;
+}
+
+.themes-container {
+    display: flex;
+    overflow-x: auto;
 }
 /*=================================*/
 /*$=============Menus=============$*/
@@ -61,10 +70,6 @@ ul li {
     flex-direction: column;
 }
 
-.picker-form {
-    width: 50%;
-}
-
 .editor-form {
     border-radius: 10px;
     margin: 5px;
@@ -72,11 +77,11 @@ ul li {
     width: fit-content;
 }
 
-.editor-form *:disabled {
+.picker-form *:disabled, .editor-form *:disabled {
     cursor: not-allowed;
 }
 
-.editor-form > label {
+.picker-form > label, .editor-form > label {
     left: 15%;
     position: relative;
     text-align: center;
@@ -84,23 +89,23 @@ ul li {
     width: 70%;
 }
 
-.editor-form > button {
+.picker-form > button, .editor-form > button {
     left: 35%;
     position: relative;
     width: 30%;
 }
 
-.editor-form > select {
+.picker-form > select, .editor-form > select {
     text-align: center;
 }
 
-.editor-form > select[data-input-name='Font Size'] {
+.picker-form > select[data-input-name='Font Size'], .editor-form > select[data-input-name='Font Size'] {
     left: 41%;
     position: relative;
     width: fit-content;
 }
 
-.editor-form > select[data-input-name='Font Family'] {
+.picker-form > select[data-input-name='Font Family'], .editor-form > select[data-input-name='Font Family'] {
     left: 10%;
     position: relative;
     width: fit-content;
@@ -112,24 +117,24 @@ ul li {
     width: 70%;
 }
 
-.editor-form > input[type='color'] {
+.picker-form > input[type='color'], .editor-form > input[type='color'] {
     left: 40%;
     position: relative;
 }
 
-.editor-form > input[type='checkbox'] {
+.picker-form > input[type='checkbox'], .editor-form > input[type='checkbox'] {
     left: 45%;
     position: relative;
 }
 
-.editor-form > input[type='file'] {
+.picker-form > input[type='file'], .editor-form > input[type='file'] {
     left: 15%;
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.editor-form > input[type='file']::file-selector-button {
+.picker-form > input[type='file']::file-selector-button, .editor-form > input[type='file']::file-selector-button {
     cursor: pointer;
     border: none;
     border-radius: 3px;
