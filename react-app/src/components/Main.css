@@ -3,6 +3,11 @@
 /*=================================*/
 * {
     box-sizing: border-box;
+    scrollbar-width: none; /*$ Firefox $*/
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
 
 button {
@@ -27,15 +32,7 @@ ul li {
 /*=================================*/
 /*$=============Groups============$*/
 /*=================================*/
-.create-theme-container,
-.themes-container {
-    scrollbar-width: none; /*$ Firefox $*/
-}
 
-.create-theme-container::-webkit-scrollbar,
-.themes-container::-webkit-scrollbar {
-    display: none;
-}
 
 /*=================================*/
 /*$============Elements===========$*/
@@ -67,6 +64,7 @@ ul li {
 }
 
 .theme-tester-container {
+    border-radius: 5px;
     display: inline-block;
     height: fit-content;
     padding: 10px;
@@ -97,10 +95,12 @@ ul li {
 }
 
 .picker-form-1 {
-    height: 85px;
+    border-radius: 5px;
+    height: 95px;
 }
 
 .picker-form-1 > input[type='file'] {
+    margin-top: 10px;
     width: 185px;
 }
 
@@ -181,7 +181,13 @@ ul li {
 /*=================================*/
 /*$==========Animations===========$*/
 /*=================================*/
+.background-rotate {
+    animation: auth-scroll 30s ease-in-out infinite alternate;
+}
 
+@keyframes auth-scroll {
+    100% { background-position-y: 100%; }
+}
 
 /*=================================*/
 /*$=============Modals=============$*/

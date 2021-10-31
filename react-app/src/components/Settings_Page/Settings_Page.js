@@ -262,6 +262,7 @@ export const SettingsPage = ({ style }) => {
 
     const deleteThemeHandler = (e) => {
         const settingID = e.target.dataset.settingId;
+        console.log(settingID);
         dispatch(deleteUserSetting(settingID))
     };
 
@@ -282,7 +283,7 @@ export const SettingsPage = ({ style }) => {
                 key={`key-${setting.id}`}
                 id={`sett-pg-editor-form-${setting.id}`}
                 data-setting-id={setting.id}
-                className='settings-form editor-form'
+                className={`settings-form editor-form ${setting.background_rotate ? 'background-rotate' : ''}`}
                 onSubmit={editFormHandler}
                 style={{
                         backgroundImage: `url(${setting.background_media})`,
@@ -367,34 +368,36 @@ export const SettingsPage = ({ style }) => {
                 >
                         Cancel
                     </button>
-                <button>
-                    <FontAwesomeIcon 
-                        icon={faTrashAlt} 
-                        data-setting-id={`${setting.id}`}
-                        type='button'
-                        onClick={(e) => deleteThemeHandler(e)} 
-                        style={{
-                                color: setting.font_color,
-                                fontFamily: setting.font_family,
-                        }} 
-                    />
+                <button
+                    icon={faTrashAlt} 
+                    data-setting-id={`${setting.id}`}
+                    type='button'
+                    onClick={(e) => deleteThemeHandler(e)} 
+                    style={{
+                            color: setting.font_color,
+                            fontFamily: setting.font_family,
+                    }} 
+                >
+                    !
+                    <FontAwesomeIcon icon={faTrashAlt} style={{ color: setting.font_color, fontFamily: setting.font_family}} />
+                    !
                 </button>
             </form>
     ))
 
     return (
         <div className='settings-page-container'>
-            <h1>Settings</h1>
+            <h1 style={{ borderBottom: `2px solid ${style.accent_1}` }}>Settings</h1>
             <div className='create-and-test-container'>
                 <form 
                     id='sett-pg-picker-form-1'
                     data-setting-id={1}
                     className='settings-form picker-form-1'
                     onSubmit={profileMediaHandler}
-                    style={{ border: `3px solid ${style.accent_3}` }}
+                    style={{ border: `3px solid ${style.accent_3}`, backgroundColor: style.background_color }}
                 >
                     <label htmlFor='sett-pg-user-profile-media-uploader'>
-                        {!profile_media ? 'Upload Profile Media' : 'Added'}
+                        <span style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>{!profile_media ? 'Upload Profile Media' : 'Added'}</span>
                     </label>
                     <input
                         id='sett-pg-user-profile-media-uploader'
@@ -413,8 +416,9 @@ export const SettingsPage = ({ style }) => {
                         data-setting-id={2}
                         className='settings-form picker-form-2' 
                         onSubmit={createSettingHandler}
+                        style={{ backgroundColor: style.background_color }}
                     >
-                        <h2>Create Theme</h2>
+                        <h2 style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>Create Theme</h2>
                         <label htmlFor='sett-page-theme-name-picker'>Theme Name</label>
                         <input
                             id='sett-page-theme-name-picker'
@@ -540,14 +544,11 @@ export const SettingsPage = ({ style }) => {
                             color: smpl.f_c
                         }}
                     >
-                        <h2>{`${theme_name}` || 'Theme Name'}</h2>
+                        <h2 style={{ color: style.accent_2, borderBottom: `2px dashed ${smpl.a_1}` }}>{`${theme_name}` || 'Theme Name'}</h2>
                         <div 
-                            style={{
-                                borderTop: `3px solid ${smpl.a_1}`,
-                                backgroundColor: smpl.b_c
-                             }}
+                            style={{ backgroundColor: smpl.b_c }}
                         >
-                            <h3 style={{color: smpl.a_2}}>Test your theme.</h3>
+                            <h3>Test your theme.</h3>
                             <span>See your theme specs here.</span>
                         </div>
                 </div>

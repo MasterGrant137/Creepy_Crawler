@@ -34,12 +34,13 @@ function App() {
     accent_3: a_t?.accent_3 || `#e98074`
   }
 
+  const body = document.body;
   document.body.style.backgroundColor = siteTheme.background_color;
   document.body.style.backgroundImage = siteTheme.background_media;
   document.body.style.color = siteTheme.font_color;
   document.body.style.fontFamily = siteTheme.font_family;
   document.body.style.fontSize = siteTheme.font_size;
-  
+  if (siteTheme.background_rotate) body.classList.add('background-rotate');
 
   useEffect(() => {
     (async() => {
