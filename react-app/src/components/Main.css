@@ -35,9 +35,18 @@ ul li {
 /*=================================*/
 /*$==========Containers===========$*/
 /*=================================*/
+.create-theme-container {
+    display: flex;
+    width: fit-content;
+}
+
 .settings-container {
     display: flex;
     overflow-x: auto;
+}
+
+.theme-tester-container {
+    display: inline-block;
 }
 /*=================================*/
 /*$=============Menus=============$*/

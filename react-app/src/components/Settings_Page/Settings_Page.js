@@ -396,8 +396,8 @@ export const SettingsPage = ({ style }) => {
                 </div>
             </div>
             <div className='create-theme-container'>
-                <h2>Create Theme</h2>
                 <form id='sett-pg-picker-form-2' className='settings-form picker-form' onSubmit={createSettingHandler}>
+                    <h2>Create Theme</h2>
                     <label htmlFor='sett-page-theme-name-picker'>Theme Name</label>
                     <input
                         id='sett-page-theme-name-picker'
@@ -505,6 +505,7 @@ export const SettingsPage = ({ style }) => {
                     <button type='button' data-setting-id={2} onClick={(e) => resetHandler(e, 'picker')}>Cancel</button>
                 </form>
                 <div  
+                    className='theme-tester-container'
                     style={{
                         border: `5px solid ${smpl.a_3}`,
                         backgroundColor: smpl.b_c,
