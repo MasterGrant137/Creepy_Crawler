@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import '../Main.css';
 import './Settings_Page.css';
@@ -44,8 +44,8 @@ export const SettingsPage = ({ style }) => {
       }
 
      useEffect(() => {
-        dispatch(readUserSettings())
-    }, [dispatch, user])
+        dispatch(readUserSettings());
+     }, [dispatch, user])
 
     const resetHandler = (e, formType) => {
         let targForm;
@@ -117,12 +117,8 @@ export const SettingsPage = ({ style }) => {
         formData.append('media', profile_media);
         setProfileMediaLoading(true);
 
-        const data = await dispatch(editProfileMedia(user.id, formData));
+        await dispatch(editProfileMedia(user.id, formData));
         setProfileMediaLoading(false);
-
-        if (data.errors) {
-            setErrors(data.errors);
-        }
     }
 
     const createSettingHandler = async (e) => {
@@ -141,7 +137,7 @@ export const SettingsPage = ({ style }) => {
         if (p_f_2_btn === 'Submit') {
             const user_id = user.id;
     
-            const data = await dispatch(createUserSetting({
+             await dispatch(createUserSetting({
                 user_id,
                 theme_name,
                 background_color,
@@ -153,10 +149,6 @@ export const SettingsPage = ({ style }) => {
                 accent_2,
                 accent_3,
             }));
-
-            if (data.errors) {
-                setErrors(data.errors);
-            }
 
             const formData = new FormData();
             formData.append('media', background_media);
@@ -170,7 +162,6 @@ export const SettingsPage = ({ style }) => {
             }
 
             resetHandler(e, 'picker');
-            // console.log(e);
         }
     }
 
@@ -390,7 +381,7 @@ export const SettingsPage = ({ style }) => {
                         onChange={setProfileMediaHandler}
                     />
                     {profile_media_loading && (<span>Loading...</span>)}
-                    <button type='button'>Submit</button>
+                    <button>Submit</button>
                 </form>
                 <div>
                     {errors.map(error => (

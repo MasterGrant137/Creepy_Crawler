@@ -117,14 +117,13 @@ export const editProfileMedia = (userID, formData) => async dispatch => {
       return media;
   } else if (response <= 500) {
       const data = await response.json();
-      if (data.errors) {
-        return data.errors;
+      if (data) {
+        return data;
       } else return ['A wild error appeared in the bushes, please try again.']
   }
 }
 
 export const editProfile = (setting) => async dispatch => {
-  console.log(setting);
   const response = await fetch(`/creepycrawler/users/profile/${setting.id}`, {
       headers: {
         'Content-Type': 'application/json'

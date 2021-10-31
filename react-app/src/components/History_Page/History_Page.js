@@ -23,7 +23,7 @@ export const HistoryPage = ({ style }) => {
     let dayOfWkLink = null;
 
     useEffect(() => {
-        dispatch(readHistoryEntries())
+        dispatch(readHistoryEntries());
     }, [dispatch])
 
     const updateHandler =  (e, entryID) => {
