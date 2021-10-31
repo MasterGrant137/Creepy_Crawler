@@ -275,7 +275,10 @@ export const SettingsPage = ({ style }) => {
                 data-setting-id={setting.id}
                 className='settings-form editor-form'
                 onSubmit={editFormHandler}
-                style={{backgroundImage: `url(${setting.background_media})`, backgroundColor: setting.background_color}}
+                style={{backgroundImage: `url(${setting.background_media})`,
+                        backgroundColor: setting.background_color,
+                        border: `3px solid ${setting.accent_3}`
+                      }}
             >
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
                 <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
