@@ -46,12 +46,10 @@ export const SettingsPage = ({ style }) => {
         dispatch(readUserSettings());
      }, [dispatch])
 
-    const resetHandler = (e, formType) => {
-        let targForm;
-        
+    const resetHandler = (e, formType) => { 
         if (formType === 'editor') {
             const targID = e.target.dataset.settingId;
-            targForm = document.getElementById(`sett-pg-editor-form-${targID}`);
+            const targForm = document.getElementById(`sett-pg-editor-form-${targID}`);
             const prev = settingsObj[targID];
             const targFormKids = Array.from(targForm.children);
             targFormKids.forEach(targKid => {
@@ -81,8 +79,10 @@ export const SettingsPage = ({ style }) => {
                 }
             })
         } else if (formType === 'picker') {
-            targForm = document.getElementById(e.target.id);
+            let targID = e.target.dataset.settingId;
+            const targForm = document.getElementById(`sett-pg-picker-form-${targID}`);
             const targFormKids = Array.from(targForm.children);
+            
             targFormKids.forEach(targKid => {
                 switch (targKid.dataset.inputName) {
                     case 'Theme Name': setThemeName(style.theme_name || ''); break;
@@ -287,7 +287,7 @@ export const SettingsPage = ({ style }) => {
                         border: `3px solid ${setting.accent_3}`,
                         color: setting.font_color,
                         fontFamily: setting.font_family
-                      }}
+                }}
             >
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
                 <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
@@ -336,11 +336,12 @@ export const SettingsPage = ({ style }) => {
                 
                 <button 
                     data-setting-id={`${setting.id}`} 
-                    type='button'onClick={(e) => editProfileHandler(e, 'active_theme')} 
+                    type='button'
+                    onClick={(e) => editProfileHandler(e, 'active_theme')} 
                     style={{
                             color: setting.font_color,
                             fontFamily: setting.font_family
-                          }}
+                    }}
                 >
                     Use
                 </button>
@@ -348,29 +349,33 @@ export const SettingsPage = ({ style }) => {
                     style={{
                             color: setting.font_color,
                             fontFamily: setting.font_family
-                          }}
+                    }}
                 >
                     Edit
                 </button>
                 <button 
                     data-setting-id={`${setting.id}`}  
-                    type='button' onClick={(e) => resetHandler(e, 'editor')} 
+                    type='button'
+                    onClick={(e) => resetHandler(e, 'editor')} 
                     style={{
                             color: setting.font_color, 
                             fontFamily: setting.font_family
-                           }}
-                    >
+                    }}
+                >
                         Cancel
                     </button>
-                <FontAwesomeIcon 
-                    icon={faTrashAlt} 
-                    data-setting-id={`${setting.id}`}
-                    onClick={(e) => deleteThemeHandler(e)} 
-                    style={{
-                            color: setting.font_color,
-                            fontFamily: setting.font_family,
-                          }} 
-                />
+                <button>
+                    <FontAwesomeIcon 
+                        icon={faTrashAlt} 
+                        data-setting-id={`${setting.id}`}
+                        type='button'
+                        onClick={(e) => deleteThemeHandler(e)} 
+                        style={{
+                                color: setting.font_color,
+                                fontFamily: setting.font_family,
+                        }} 
+                    />
+                </button>
             </form>
     ))
 
@@ -399,9 +404,14 @@ export const SettingsPage = ({ style }) => {
                     style={{
                             border: `3px solid ${smpl.a_3}`,
                             backgroundColor: smpl.b_c
-                          }}
+                    }}
                 >
-                    <form id='sett-pg-picker-form-2' className='settings-form picker-form' onSubmit={createSettingHandler}>
+                    <form 
+                        id='sett-pg-picker-form-2'
+                        data-setting-id={2}
+                        className='settings-form picker-form' 
+                        onSubmit={createSettingHandler}
+                    >
                         <h2>Create Theme</h2>
                         <label htmlFor='sett-page-theme-name-picker'>Theme Name</label>
                         <input
@@ -505,7 +515,9 @@ export const SettingsPage = ({ style }) => {
                             value={accent_3}
                             onChange={(e) => setAccent3(e.target.value)}
                         />
-                        <button style={{ color: font_color, fontFamily: font_family }}>{p_f_2_btn}</button>
+                        <button style={{ color: font_color, fontFamily: font_family }}>
+                            {p_f_2_btn}
+                        </button>
                         <button
                             type='button'
                             data-setting-id={2} 
