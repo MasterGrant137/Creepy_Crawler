@@ -1,4 +1,4 @@
-```python
+```py
 
 # caerostris-darwini
 # pip install Requests
@@ -20,9 +20,19 @@ class DesertSun:
 fonts: https://www.tutorialbrain.com/css_tutorial/css_font_family_list/
 ```
 
-```javascript
+```js
  {function () {
                     const abbrevTZ = entry.tz.replace(dateRegex, '$1').replace(abbrevTZRegex, '$1');
                     return !natoTZ.test(abbrevTZ) ? abbrevTZ : abbrevTZ[0];
                 }()}
+```
+
+```js
+const buttons = document.getElementsByTagName("button");
+const buttonsArray = Array.from(buttons);
+buttonsArray.forEach(button => {
+    if (!button.dataset.editorFormBtn) {
+      button.style.color = siteTheme.font_color;
+    }
+})
 ```

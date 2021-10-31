@@ -39,12 +39,6 @@ function App() {
   document.body.style.color = siteTheme.font_color;
   document.body.style.fontFamily = siteTheme.font_family;
   document.body.style.fontSize = siteTheme.font_size;
-
-  const buttons = document.getElementsByTagName("button");
-  const buttonsArray = Array.from(buttons);
-  buttonsArray.forEach(button => {
-    button.style.color = siteTheme.font_color;
-  })
   
 
   useEffect(() => {

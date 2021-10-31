@@ -5,11 +5,8 @@
     box-sizing: border-box;
 }
 
-*:disabled {
-    cursor: not-allowed;
-}
-
 button {
+    cursor: pointer;
     background-color: transparent;
     border: none;
     border-radius: 3px;
@@ -17,7 +14,6 @@ button {
 
 button:hover {
     box-shadow: 0 0 2px black;
-    cursor: pointer;
 }
 
 ul {
@@ -26,13 +22,6 @@ ul {
 
 ul li {
     display: inline;
-}
-
-/*=================================*/
-/*$============Groups=============$*/
-/*=================================*/
-button:hover {
-    cursor: pointer;
 }
 
 /*=================================*/
@@ -76,11 +65,18 @@ button:hover {
 
 .editor-form > * {
     cursor: pointer;
-    margin: 1px;
+}
+
+.editor-form *:disabled {
+    cursor: not-allowed;
 }
 
 .editor-form > label {
+    left: 15%;
+    position: relative;
     text-align: center;
+    margin: 2% 0;
+    width: 70%;
 }
 
 .editor-form > button {
@@ -94,7 +90,7 @@ button:hover {
 }
 
 .editor-form > select[data-input-name='Font Size'] {
-    left: 42%;
+    left: 41%;
     position: relative;
     width: fit-content;
 }
@@ -104,7 +100,6 @@ button:hover {
     position: relative;
     width: fit-content;
 }
-
 
 .editor-form > input[type='text'] {
     left: 15%;
@@ -135,14 +130,8 @@ button:hover {
     border-radius: 3px;
 }
 
-
 /*=================================*/
-/*$===========Sections============$*/
-/*=================================*/
-
-
-/*=================================*/
-/*$==========Conditional==========$*/
+/*$==========Animations===========$*/
 /*=================================*/
 
 

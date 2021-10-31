@@ -5,6 +5,8 @@ import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
 import { editProfileMedia, editProfile } from '../../store/session';
 import { createUserSetting, readUserSettings, updateUserSetting, updateThemeMedia, deleteUserSetting } from '../../store/settings_store';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 export const SettingsPage = ({ style }) => {
     const fontSizesRaw = dropdownData['font-sizes'];
@@ -204,10 +206,8 @@ export const SettingsPage = ({ style }) => {
             else targKid.disabled = false;
             if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Edit') {
                 targKid.innerText = 'Submit';
-                targKid.type = 'submit';
             } else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
                 targKid.innerText = 'Edit';
-                targKid.type = 'button';
                 targFormKids.forEach(targKid => {
                     if (targKid.tagName !== 'BUTTON') {
                         switch (targKid.dataset.inputName) {
@@ -279,12 +279,13 @@ export const SettingsPage = ({ style }) => {
                         backgroundImage: `url(${setting.background_media})`,
                         backgroundColor: setting.background_color,
                         border: `3px solid ${setting.accent_3}`,
-                        color: setting.font_color
+                        color: setting.font_color,
+                        fontFamily: setting.font_family
                       }}
             >
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
                 <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name={'Theme Name'} defaultValue={setting.theme_name} />
-                <label htmlFor={`font-sizes-${idx}`}>Font Size</label>
+                <label htmlFor={`font-sizes-${idx}`} style={{fontSize: setting.font_size}}>Font Size</label>
                 <select 
                     name={`font-sizes-${idx}`}
                     id={`sett-pg-font-size-editor-${idx}`}
@@ -327,10 +328,43 @@ export const SettingsPage = ({ style }) => {
                 <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`} style={{color: setting.accent_3}}>Accent 3</label>
                 <input id={`sett-pg-accent-2-color-editor-${idx}`} data-input-name={'Accent 3'} type='color' disabled={true} defaultValue={setting.accent_3} />
                 
-                <button>Edit</button>
-                <button data-setting-id={`${setting.id}`} type='button' onClick={(e) => resetHandler(e, 'editor')}>Cancel</button>
-                <button data-setting-id={`${setting.id}`} type='button' onClick={(e) => deleteThemeHandler(e)} >Delete</button>
-                <button data-setting-id={`${setting.id}`} type='button' onClick={(e) => editProfileHandler(e, 'active_theme')}>Use</button>
+                <button 
+                    data-setting-id={`${setting.id}`} 
+                    type='button'onClick={(e) => editProfileHandler(e, 'active_theme')} 
+                    style={{
+                            color: setting.font_color,
+                            fontFamily: setting.font_family
+                          }}
+                >
+                    Use
+                </button>
+                <button 
+                    style={{
+                            color: setting.font_color,
+                            fontFamily: setting.font_family
+                          }}
+                >
+                    Edit
+                </button>
+                <button 
+                    data-setting-id={`${setting.id}`}  
+                    type='button' onClick={(e) => resetHandler(e, 'editor')} 
+                    style={{
+                            color: setting.font_color, 
+                            fontFamily: setting.font_family
+                           }}
+                    >
+                        Cancel
+                    </button>
+                <FontAwesomeIcon 
+                    icon={faTrashAlt} 
+                    data-setting-id={`${setting.id}`}
+                    onClick={(e) => deleteThemeHandler(e)} 
+                    style={{
+                            color: setting.font_color,
+                            fontFamily: setting.font_family,
+                          }} 
+                />
             </form>
     ))
 
