@@ -52,7 +52,7 @@ def upload_media(userID):
 
 @user_routes.route('/profile/<int:settingID>', methods=['PATCH'])
 @login_required
-def edit_user_profile():
+def edit_user_profile(settingID):
     """Update user profile setting."""
     profile_setting = request.json
     req_column = request.json['column']

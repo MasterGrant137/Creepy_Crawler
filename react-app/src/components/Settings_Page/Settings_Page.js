@@ -267,7 +267,7 @@ export const SettingsPage = ({ style }) => {
                 id: e.target.dataset.settingId,
                 column: eType,
             }))
-            // window.location.reload();
+            window.location.reload();
         } 
         // else if (eType === 'reset_theme') {
             // dispatch(resetProfileTheme());
