@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { login } from '../../store/session';
 import LogoutButton from '../auth/LogoutButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -32,6 +32,7 @@ const NavBar = ({ style }) => {
   return (
     <nav>
       <ul style={{ color: style.accent_2 }}>
+        <a href='https://github.com/MasterGrant137'>About</a>
         {user && user.username} 
         <FontAwesomeIcon
           icon={faHome} 
