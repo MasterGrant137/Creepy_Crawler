@@ -109,24 +109,36 @@ ul li {
 }
 
 .hist-updated-at {
+    cursor: pointer;
     grid-area: a;
 }
 
 .hist-tz {
+    cursor: pointer;
     grid-area: b;
 }
 
 .hist-day-of-week {
+    user-select: none;
     grid-area: c;
 }
 
 .hist-delete {
+    cursor: pointer;
     grid-area: d;
 }
 
 .hist-text {
+    user-select: none;
     grid-area: e;
 }
+
+/*=================================*/
+/*$=========Nav Containers========$*/
+/*=================================*/
+
+
+
 /*=================================*/
 /*$==========Animations===========$*/
 /*=================================*/

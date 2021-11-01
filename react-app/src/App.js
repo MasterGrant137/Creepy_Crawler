@@ -57,7 +57,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Modal open={isOpen} onClose={() => setIsOpen(false)} />
-      <NavBar />
+      <NavBar style={siteTheme} />
       <Switch>
         <Route path='/login' exact={true}>
           <LoginForm style={siteTheme} />
