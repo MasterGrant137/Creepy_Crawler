@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { NavLink, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { login } from '../../store/session';
 import LogoutButton from '../auth/LogoutButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,28 +13,35 @@ const NavBar = ({ style }) => {
   const dispatch = useDispatch();
 
   const navHandler = async (e, dest) => {
-    console.log(e.target, dest);
     const destination = dest || e.target.dataset.linkDest;
-    history.push(`${destination}`);
-    if (destination === '/history') window.location.reload();
-    else if (destination === '/') {
-      await dispatch(login('jseed@aa.io', 'password'));
-      window.location.reload();
+
+    switch (destination) {
+      case '/home': history.push('/'); break;
+      case '/history':  
+        history.push(`${destination}`);
+        window.location.reload();
+        break;
+      case '/':
+        history.push(`${destination}`);
+        await dispatch(login('jseed@aa.io', 'password'));
+        window.location.reload();
+        break;
+      default: history.push(`${destination}`); break;
     }
   }
 
   return (
     <nav>
       <ul style={{ color: style.accent_2 }}>
-        <li onClick={navHandler}>Home</li>
+        <li data-link-dest='/home' onClick={navHandler}>Home</li>
         {user && <li data-link-dest='/history' onClick={navHandler}>History</li>}
-        {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' />}
         {user &&
             <FontAwesomeIcon
-              icon={faUserCog}
-              onClick={(e) => navHandler(e, '/settings')}
+            icon={faUserCog}
+            onClick={(e) => navHandler(e, '/settings')}
             />
-        }
+          }
+        {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' />}
         {!user && <li data-link-dest='/login' onClick={navHandler}>Login</li>}
         {!user && <li data-link-dest='/sign-up' onClick={navHandler}>Sign Up</li>}
         {!user && <li data-link-dest='/' onClick={navHandler}>Demo Login</li>}
