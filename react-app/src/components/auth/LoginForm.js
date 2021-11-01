@@ -5,7 +5,7 @@ import { login } from '../../store/session';
 import '../Main.css';
 import '../Auth.css';
 
-const LoginForm = () => {
+const LoginForm = ({ style }) => {
   const [errors, setErrors] = useState([]);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -33,8 +33,12 @@ const LoginForm = () => {
   }
 
   return (
-    <>
-      <form onSubmit={onLogin}>
+    <div className='login-form-container'>
+      <form 
+        className='login-form' 
+        onSubmit={onLogin}
+        style={{ border: `3px solid ${style.accent_3}` }}
+      >
         <div>
           {errors.map((error, ind) => (
             <div key={ind}>{error}</div>
@@ -59,10 +63,10 @@ const LoginForm = () => {
             value={password}
             onChange={updatePassword}
           />
-          <button type='submit'>Login</button>
+          <button type='submit' style={{ color: style.font_color }}>Login</button>
         </div>
       </form>
-    </>
+    </div>
   );
 };
 

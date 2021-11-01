@@ -32,7 +32,7 @@ const NavBar = ({ style }) => {
   return (
     <nav>
       <ul style={{ color: style.accent_2 }}>
-        {user.username} 
+        {user && user.username} 
         <FontAwesomeIcon
           icon={faHome} 
           onClick={(e) => navHandler(e, '/home')}
