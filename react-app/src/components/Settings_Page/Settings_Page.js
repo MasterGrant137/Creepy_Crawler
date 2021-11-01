@@ -96,19 +96,24 @@ export const SettingsPage = ({ style }) => {
             let targID = e.target.dataset.settingId;
             const targForm = document.getElementById(`sett-pg-picker-form-${targID}`);
             const targFormKids = Array.from(targForm.children);
+
+            console.log(p_f_2_btn, toggledState);
+
+            if (!toggledState) {
+                setPF2Disabled(true);
+                setPF2Btn('Edit');
+                toggleState(true);
+            } 
+
+            // if ()
+
             targFormKids.forEach(targKid => {
                 // if (targKid.type === 'text') targKid.readOnly = true;
                 // else if (targKid.tagName === 'SELECT') targKid.disabled = true;
                 // else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
                 //     targKid.innerText = 'Edit';
                 // }
-                // if (!toggledState) {
-                //     setPF2Disabled(true)
-                //     setPF2Btn('Edit')
-                // } else {
-                //     setPF2Disabled(false)
-                //     setPF2Btn('Submit')
-                // }
+
                 // switch (targKid.type) {
                 //     case 'color': targKid.disabled = true; break;
                 //     case 'file': targKid.disabled = true; break;
@@ -129,6 +134,7 @@ export const SettingsPage = ({ style }) => {
                     default: break;
                 }
             })
+            console.log(p_f_2_btn, toggledState);
         }
     }
 
