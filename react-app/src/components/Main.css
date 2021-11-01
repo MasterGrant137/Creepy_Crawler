@@ -97,9 +97,10 @@ ul li {
 .history-entry-container {
     display: grid;
     grid-template-areas: 
-    'c c c c'
-    'a b b d'
-    'e e e e';
+    'c c c'
+    'a b d'
+    'e e e';
+    grid-template-columns: 0.5fr 2.0fr 0.5fr;
     grid-template-rows: 1fr 0.5fr 0.5fr;
     height: fit-content;
     padding: 5px;

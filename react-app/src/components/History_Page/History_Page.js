@@ -50,15 +50,6 @@ export const HistoryPage = ({ style }) => {
             className='history-entry-container'
             style={{ backgroundColor: style.background_color }}
         >
-            <span id='updated-at-ele' className='hist-updated-at'>
-                 {function () {
-                     const time = entry['updated_at'].replace(dateRegex, '$3');
-                     return time;
-                    }()}
-            </span>
-            <span id={`tz-ele-${entry.id}`} className='hist-tz'>
-               {entry.tz_abbrev}
-            </span>
             <h2 id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>
                 {function () {
                     const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
@@ -68,7 +59,29 @@ export const HistoryPage = ({ style }) => {
                     }
                 }()}
             </h2>
-            <FontAwesomeIcon icon={faTrashAlt} className='hist-delete' onClick={(e) => deleteHandler(e, entry.id)} />
+            <span 
+                id='updated-at-ele' 
+                className='hist-updated-at'
+                style={{ color: style.accent_2 }}
+            >
+                 {function () {
+                     const time = entry['updated_at'].replace(dateRegex, '$2');
+                     return time;
+                    }()}
+            </span>
+            <span 
+                id={`tz-ele-${entry.id}`} 
+                className='hist-tz'
+                style={{ color: style.accent_2 }}
+            >
+               {entry.tz_abbrev}
+            </span>
+            <FontAwesomeIcon 
+                icon={faTrashAlt} 
+                className='hist-delete' 
+                onClick={(e) => deleteHandler(e, entry.id)} 
+                style={{ color: style.accent_2 }}
+            />
             <span 
                 id={`entry-ele${entry.id}`}
                 className='hist-text'
@@ -76,7 +89,8 @@ export const HistoryPage = ({ style }) => {
                     const date = new Date();
                     setUpdatedAt(date.toString());
                     updateHandler(e, entry.id);
-                }} 
+                }}
+                style={{ color: style.accent_3 }}
             >
                 {entry.search || entry.visit}
             </span>
