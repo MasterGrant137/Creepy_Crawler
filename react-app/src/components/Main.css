@@ -104,6 +104,12 @@ ul li {
     width: 185px;
 }
 
+.picker-form-1 > button {
+    left: 35%;
+    position: relative;
+    width: 30%;
+}
+
 .picker-form-2 {
     height: fit-content;
 }

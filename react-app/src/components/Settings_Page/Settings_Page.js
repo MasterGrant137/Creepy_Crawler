@@ -47,14 +47,28 @@ export const SettingsPage = ({ style }) => {
      }, [dispatch])
 
     const resetHandler = (e, formType) => { 
+        const isSubmit = e.target.dataset.submitBtnState;
+        if (isSubmit === 'false') return;
+
         if (formType === 'editor') {
             const targID = e.target.dataset.settingId;
             const targForm = document.getElementById(`sett-pg-editor-form-${targID}`);
             const prev = settingsObj[targID];
             const targFormKids = Array.from(targForm.children);
             targFormKids.forEach(targKid => {
-                if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
+                // if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
+                //     targKid.innerText = 'Edit';
+                // }
+                if (targKid.type === 'text') targKid.readOnly = true;
+                else if (targKid.tagName === 'SELECT') targKid.disabled = true;
+                else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
                     targKid.innerText = 'Edit';
+                }
+                switch (targKid.type) {
+                    case 'color': targKid.disabled = true; break;
+                    case 'file': targKid.disabled = true; break;
+                    case 'checkbox': targKid.disabled = true; break;
+                    default: break;
                 }
                 switch (targKid.dataset.inputName) {
                     case 'Theme Name': targKid.value = prev.theme_name; break;
@@ -82,11 +96,25 @@ export const SettingsPage = ({ style }) => {
             let targID = e.target.dataset.settingId;
             const targForm = document.getElementById(`sett-pg-picker-form-${targID}`);
             const targFormKids = Array.from(targForm.children);
-
             targFormKids.forEach(targKid => {
-                if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
-                    targKid.innerText = 'Edit';
-                }
+                // if (targKid.type === 'text') targKid.readOnly = true;
+                // else if (targKid.tagName === 'SELECT') targKid.disabled = true;
+                // else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
+                //     targKid.innerText = 'Edit';
+                // }
+                // if (!toggledState) {
+                //     setPF2Disabled(true)
+                //     setPF2Btn('Edit')
+                // } else {
+                //     setPF2Disabled(false)
+                //     setPF2Btn('Submit')
+                // }
+                // switch (targKid.type) {
+                //     case 'color': targKid.disabled = true; break;
+                //     case 'file': targKid.disabled = true; break;
+                //     case 'checkbox': targKid.disabled = true; break;
+                //     default: break;
+                // }
                 switch (targKid.dataset.inputName) {
                     case 'Theme Name': setThemeName(style.theme_name || ''); break;
                     case 'Background Color': setBackgroundColor(style.background_color); break;
@@ -180,6 +208,7 @@ export const SettingsPage = ({ style }) => {
 
     const editFormHandler = (e) => {
         e.preventDefault();
+
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
         const settingID = targForm.dataset.settingId;
@@ -262,7 +291,6 @@ export const SettingsPage = ({ style }) => {
 
     const deleteThemeHandler = (e) => {
         const settingID = e.target.dataset.settingId;
-        console.log(settingID);
         dispatch(deleteUserSetting(settingID))
     };
 
@@ -369,7 +397,6 @@ export const SettingsPage = ({ style }) => {
                         Cancel
                     </button>
                 <button
-                    icon={faTrashAlt} 
                     data-setting-id={`${setting.id}`}
                     type='button'
                     onClick={(e) => deleteThemeHandler(e)} 
@@ -378,9 +405,7 @@ export const SettingsPage = ({ style }) => {
                             fontFamily: setting.font_family,
                     }} 
                 >
-                    !
-                    <FontAwesomeIcon icon={faTrashAlt} style={{ color: setting.font_color, fontFamily: setting.font_family}} />
-                    !
+                    Delete
                 </button>
             </form>
     ))
@@ -526,7 +551,8 @@ export const SettingsPage = ({ style }) => {
                         </button>
                         <button
                             type='button'
-                            data-setting-id={2} 
+                            data-setting-id={2}
+                            data-submit-btn-state={p_f_2_btn === 'Submit' ? true : false} 
                             onClick={(e) => resetHandler(e, 'picker')}
                             style={{ color: font_color, fontFamily: font_family }}
                         >
