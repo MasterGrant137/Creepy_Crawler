@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { login } from '../../store/session';
 import LogoutButton from '../auth/LogoutButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserCog } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faHistory, faUserCog } from '@fortawesome/free-solid-svg-icons';
 import '../Main.css';
 import './Nav_Bar.css';
 
@@ -14,7 +14,6 @@ const NavBar = ({ style }) => {
 
   const navHandler = async (e, dest) => {
     const destination = dest || e.target.dataset.linkDest;
-
     switch (destination) {
       case '/home': history.push('/'); break;
       case '/history':  
@@ -33,19 +32,29 @@ const NavBar = ({ style }) => {
   return (
     <nav>
       <ul style={{ color: style.accent_2 }}>
-        <li data-link-dest='/home' onClick={navHandler}>Home</li>
-        {user && <li data-link-dest='/history' onClick={navHandler}>History</li>}
+        <FontAwesomeIcon
+          icon={faHome} 
+          onClick={(e) => navHandler(e, '/home')}
+        >
+          Home
+        </FontAwesomeIcon>
+        {user && 
+          <FontAwesomeIcon 
+            icon={faHistory}
+            onClick={(e) => navHandler(e, '/history')}
+          />
+        }
         {user &&
-            <FontAwesomeIcon
-            icon={faUserCog}
-            onClick={(e) => navHandler(e, '/settings')}
-            />
-          }
+          <FontAwesomeIcon
+          icon={faUserCog}
+          onClick={(e) => navHandler(e, '/settings')}
+          />
+        }
         {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' />}
-        {!user && <li data-link-dest='/login' onClick={navHandler}>Login</li>}
+        {!user && <li data-link-dest='/login' onClick={navHandler}>Log In</li>}
         {!user && <li data-link-dest='/sign-up' onClick={navHandler}>Sign Up</li>}
         {!user && <li data-link-dest='/' onClick={navHandler}>Demo Login</li>}
-        {!user && <li><LogoutButton /></li>}
+        {user && <LogoutButton style={style} />}
       </ul>
     </nav>
   );

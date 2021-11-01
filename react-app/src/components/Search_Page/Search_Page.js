@@ -25,7 +25,7 @@ export const SearchPage = ({ style }) => {
 
     return (
         <div>
-            <h1>Creepy Crawler</h1>
+            <h1 className='search-page-title'>Creepy Crawler</h1>
             <form onSubmit={searchHandler}>
                 <input
                     type='text'
