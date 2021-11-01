@@ -15,22 +15,22 @@ const NavBar = ({ style }) => {
     await dispatch(login('jseed@aa.io', 'password'));
   }
 
-  const historyNavHandler = () => {
-    
-    history.push('/history');
-    window.location.reload();
+  const navHandler = (e) => {
+    const destination = e.target.dataset.linkDest;
+    history.push(`${destination}`);
+    if (destination === '/history') window.location.reload();
   }
 
   return (
     <nav>
       <ul>
         <li><NavLink to='/' exact={true} activeClassName='active'>Home</NavLink></li>
-        {user && <li data-link-name='history' onClick={historyNavHandler}>History</li>}
-        {user && <li data-link-name='settings'><NavLink to='/settings'>Settings</NavLink></li>}
+        {user && <li data-link-dest='/history' onClick={navHandler}>History</li>}
+        {user && <li data-link-dest='/settings' onClick={navHandler}>Settings</li>}
         {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' />}
-        {!user && <li  data-link-name='login'><NavLink to='/login' exact={true} activeClassName='active'>Login</NavLink></li>}
-        {!user && <li  data-link-name='settings'><NavLink to='/sign-up' exact={true} activeClassName='active'>Sign Up</NavLink></li>}
-        {!user && <li onClick={demoLogin}><NavLink to='/' exact={true} activeClassName='active'>Demo Login</NavLink></li>}
+        {!user && <li data-link-dest='/login' onClick={navHandler}>Login</li>}
+        {!user && <li data-link-dest='/sign-up' onClick={navHandler}>Sign Up</li>}
+        {!user && <li data-link-dest='/' onClick={demoLogin}>Demo Login</li>}
         <li><LogoutButton /></li>
       </ul>
     </nav>
