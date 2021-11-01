@@ -128,7 +128,6 @@ export const editProfileMedia = (userID, formData) => async dispatch => {
 }
 
 export const editProfile = (setting) => async dispatch => {
-  console.log(typeof(setting.id));
   const response = await fetch(`/creepycrawler/users/profile/${setting.id}`, {
       headers: {
         'Content-Type': 'application/json'
