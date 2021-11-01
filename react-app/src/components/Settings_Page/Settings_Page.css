@@ -49,7 +49,7 @@
     width: fit-content;
 }
 
-.picker-form-2 > select[data-input-name='Font Family'], .editor-form > select[data-input-name='Font Family'] {
+ .editor-form > select[data-input-name='Font Family'] {
     left: 14%;
     position: relative;
     width: fit-content;
@@ -61,7 +61,12 @@
     width: 70%;
 }
 
-.picker-form-2 > input[type='color'], .editor-form > input[type='color'] {
+.picker-form-2 > input[type='color'] {
+    left: 37%;
+    position: relative;
+} 
+
+.editor-form > input[type='color'] {
     left: 40%;
     position: relative;
 }
@@ -74,10 +79,14 @@
 .picker-form-2 > input[type='file'], .editor-form > input[type='file'] {
     display: flex;
     justify-content: center;
-    left: 20%;
     position: relative;
     width: 155px;
 }
+
+.picker-form-2 > input[type='file'] { left: 10% }
+
+.editor-form > input[type='file'] { left: 20% }
+
 
 .picker-form-1 > input[type='file']::file-selector-button,
 .picker-form-2 > input[type='file']::file-selector-button,
