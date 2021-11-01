@@ -425,6 +425,18 @@ export const SettingsPage = ({ style }) => {
                         style={{ backgroundColor: style.background_color }}
                     >
                         <h2 style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>Create Theme</h2>
+                            <button style={{ color: font_color, fontFamily: font_family }}>
+                                {p_f_2_btn}
+                            </button>
+                            <button
+                                type='button'
+                                data-setting-id={2}
+                                data-submit-btn-state={p_f_2_btn === 'Submit' ? true : false} 
+                                onClick={(e) => resetHandler(e, 'picker')}
+                                style={{ color: font_color, fontFamily: font_family }}
+                            >
+                                Cancel
+                            </button>
                         <label htmlFor='sett-page-theme-name-picker'>Theme Name</label>
                         <input
                             id='sett-page-theme-name-picker'
@@ -527,18 +539,6 @@ export const SettingsPage = ({ style }) => {
                             value={accent_3}
                             onChange={(e) => setAccent3(e.target.value)}
                         />
-                        <button style={{ color: font_color, fontFamily: font_family }}>
-                            {p_f_2_btn}
-                        </button>
-                        <button
-                            type='button'
-                            data-setting-id={2}
-                            data-submit-btn-state={p_f_2_btn === 'Submit' ? true : false} 
-                            onClick={(e) => resetHandler(e, 'picker')}
-                            style={{ color: font_color, fontFamily: font_family }}
-                        >
-                            Cancel
-                        </button>
                     </form>
                     </div>
                     <div  
