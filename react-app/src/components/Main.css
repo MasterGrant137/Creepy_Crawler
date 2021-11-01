@@ -42,7 +42,7 @@ ul li {
     width: 50px;
 }
 /*=================================*/
-/*$==========Containers===========$*/
+/*$=======Settings Containers=====$*/
 /*=================================*/
 .settings-page-container {
     text-align: center;
@@ -78,111 +78,29 @@ ul li {
     display: flex;
     overflow-x: auto;
 }
+
 /*=================================*/
-/*$=============Menus=============$*/
+/*$=======History Containers======$*/
 /*=================================*/
+.history-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: auto;
+}
+
+.history-entry-container {
+    display: grid;
+    height: fit-content;
+}
+
 
 
 /*=================================*/
 /*$=============Forms=============$*/
 /*=================================*/
-.settings-form {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    text-align: center;
-}
 
-.picker-form-1 > input[type='file'] {
-    margin: 8px 0;
-    width: 185px;
-}
-
-.picker-form-1 > button {
-    left: 35%;
-    position: relative;
-    width: 30%;
-}
-
-.picker-form-2 {
-    height: fit-content;
-}
-
-.picker-form-2 *:disabled, .editor-form *:disabled {
-    cursor: not-allowed;
-}
-
-.picker-form-2 > label, .editor-form > label {
-    left: 15%;
-    position: relative;
-    text-align: center;
-    margin: 2% 0;
-    width: 70%;
-}
-
-.picker-form-2 > button, .editor-form > button {
-    left: 35%;
-    position: relative;
-    width: 30%;
-}
-
-.picker-form-2 > select, .editor-form > select {
-    text-align: center;
-}
-
-.picker-form-2 > select[data-input-name='Font Size'], .editor-form > select[data-input-name='Font Size'] {
-    left: 41%;
-    position: relative;
-    width: fit-content;
-}
-
-.picker-form-2 > select[data-input-name='Font Family'], .editor-form > select[data-input-name='Font Family'] {
-    width: fit-content;
-}
-
-.picker-form-2 > input[type='text'], .editor-form > input[type='text'] {
-    left: 15%;
-    position: relative;
-    width: 70%;
-}
-
-.picker-form-2 > input[type='color'], .editor-form > input[type='color'] {
-    left: 36%;
-    position: relative;
-}
-
-.picker-form-2 > input[type='checkbox'], .editor-form > input[type='checkbox'] {
-    left: 45%;
-    position: relative;
-}
-
-.picker-form-2 > input[type='file'], .editor-form > input[type='file'] {
-    display: flex;
-    justify-content: center;
-    left: 10%;
-    position: relative;
-    width: 155px;
-}
-
-.picker-form-1 > input[type='file']::file-selector-button,
-.picker-form-2 > input[type='file']::file-selector-button,
-.editor-form > input[type='file']::file-selector-button {
-    cursor: pointer;
-    border: none;
-    border-radius: 3px;
-}
-
-.editor-form {
-    border-radius: 10px;
-    margin: 5px;
-    padding: 7px;
-    width: fit-content;
-    height: 625px;
-}
-
-.editor-form:hover {
-    box-shadow: 0 0 5px black;
-}
 /*=================================*/
 /*$==========Animations===========$*/
 /*=================================*/
@@ -193,7 +111,6 @@ ul li {
 @keyframes auth-scroll {
     100% { background-position-y: 100%; }
 }
-
 /*=================================*/
 /*$=============Modals=============$*/
 /*=================================*/

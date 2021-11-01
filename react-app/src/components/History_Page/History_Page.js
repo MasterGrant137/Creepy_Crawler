@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/history_store';
+import { readUserSettings } from '../../store/settings_store';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import '../Main.css';
@@ -24,6 +25,7 @@ export const HistoryPage = ({ style }) => {
 
     useEffect(() => {
         dispatch(readHistoryEntries());
+        dispatch(readUserSettings());
     }, [dispatch])
 
     const updateHandler =  (e, entryID) => {
@@ -42,18 +44,19 @@ export const HistoryPage = ({ style }) => {
    
     const entries = Object.values(entriesObj)
         .map(entry => (
-        <div key={entry.id} id={`entry-${entry.id}`}>
-            <span id='updated-at-ele'>
+        <div key={entry.id} id={`entry-${entry.id}`} className='history-entry-container'>
+            <span id='updated-at-ele' className='hist-updated-at'>
                  {function () {
                      const time = entry['updated_at'].replace(dateRegex, '$3');
                      return time;
                     }()}
             </span>
-            <span id={`tz-ele-${entry.id}`}>
+            <span id={`tz-ele-${entry.id}`} className='hist-tz'>
                {entry.tz_abbrev}
             </span>
             <span 
                 id={`entry-ele${entry.id}`}
+                className='hist-text'
                 onClick={(e) => {
                     const date = new Date();
                     setUpdatedAt(date.toString());
@@ -62,7 +65,7 @@ export const HistoryPage = ({ style }) => {
             >
                 {entry.search || entry.visit}
             </span>
-            <span id={`day-of-week-ele${entry.id}`}>
+            <span id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>
                 {function () {
                     const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
                     if (!dayOfWkLink || dayOfWk !== dayOfWkLink) {
@@ -76,7 +79,7 @@ export const HistoryPage = ({ style }) => {
     ))
 
     return (
-        <div id='history-page-container'>
+        <div className='history-page-container'>
              {entries}
         </div>
     )
