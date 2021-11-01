@@ -8,7 +8,7 @@ Creepy Crawler is a full-stack search engine application. It's inspired by popul
 ![history_page](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/readme_1_images/history_page.png)
 
 ### Navigation Bar
-![nav_bar](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/readme_1_images/history_page.png)
+![nav_bar](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/readme_1_images/nav_bar.png)
 
 ### Search Bar
 ![search_bar](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/readme_1_images/search_bar.png)
