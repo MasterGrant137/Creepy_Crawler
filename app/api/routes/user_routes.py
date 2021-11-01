@@ -52,7 +52,7 @@ def upload_media(userID):
 
 @user_routes.route('/profile/<int:settingID>', methods=['PATCH'])
 @login_required
-def edit_user_profile(settingID):
+def edit_user_profile():
     """Update user profile setting."""
     profile_setting = request.json
     req_column = request.json['column']
@@ -68,3 +68,13 @@ def edit_user_profile(settingID):
         db.session.add(user)
         db.session.commit()
         return { 'user': user.to_dict() }
+
+@user_routes.route('/profile/reset-theme', methods=['PATCH'])
+@login_required
+def reset_user_theme():
+    """Set active theme to default."""
+    user = User.query.filter(User.id == current_user.id).first()
+    user.active_theme = None
+    db.session.add(user)
+    db.session.commit()
+    return { 'user': user.to_dict() }

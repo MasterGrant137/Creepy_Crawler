@@ -48,6 +48,11 @@ ul li {
     text-align: center;
 }
 
+.settings-actions-container {
+    border-radius: 5px;
+    height: fit-content;
+}
+
 .create-and-test-container {
     display: flex;
     justify-content: space-around;
@@ -88,17 +93,8 @@ ul li {
     text-align: center;
 }
 
-.settings-form:hover {
-    box-shadow: 0 0 5px black;
-}
-
-.picker-form-1 {
-    border-radius: 5px;
-    height: 95px;
-}
-
 .picker-form-1 > input[type='file'] {
-    margin-top: 10px;
+    margin: 8px 0;
     width: 185px;
 }
 
@@ -115,7 +111,6 @@ ul li {
 .picker-form-2 *:disabled, .editor-form *:disabled {
     cursor: not-allowed;
 }
-
 
 .picker-form-2 > label, .editor-form > label {
     left: 15%;
@@ -182,7 +177,11 @@ ul li {
     margin: 5px;
     padding: 7px;
     width: fit-content;
-    height: fit-content;
+    height: 625px;
+}
+
+.editor-form:hover {
+    box-shadow: 0 0 5px black;
 }
 /*=================================*/
 /*$==========Animations===========$*/

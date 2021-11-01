@@ -2,7 +2,7 @@
 
 from flask import Blueprint, request
 from flask_migrate import Migrate
-from app.models import db, User, Theme
+from app.models import db, User, Theme, user
 from flask_login import current_user, login_required
 from app.s3_helpers import (upload_file_to_s3, allowed_file, get_unique_filename)
 
@@ -43,9 +43,7 @@ def add_theme():
 def get_themes():
     """Get all of the themes belonging to a given user."""
     themes = Theme.query.filter(Theme.user_id == current_user.id).all()
-    return {
-        'settings': [ theme.to_dict() for theme in themes ]
-    }
+    return { 'settings': [ theme.to_dict() for theme in themes ] }
 
 @settings_routes.route('/<int:themeID>', methods=['PATCH'])
 @login_required

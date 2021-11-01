@@ -50,7 +50,7 @@ export const createUserSetting = (setting) => async dispatch => {
 }
 
 export const readUserSettings = () => async dispatch => {
-    const response = await fetch('/creepycrawler/settings/');
+    const response = await fetch(`/creepycrawler/settings/`);
     if (response.ok) {
         const settings = await response.json();
         await dispatch(readSettings(settings));

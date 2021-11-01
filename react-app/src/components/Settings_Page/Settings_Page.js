@@ -3,10 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
-import { editProfileMedia, editProfile } from '../../store/session';
+import { editProfileMedia, editProfile, resetProfileTheme } from '../../store/session';
 import { createUserSetting, readUserSettings, updateUserSetting, updateThemeMedia, deleteUserSetting } from '../../store/settings_store';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 export const SettingsPage = ({ style }) => {
     const fontSizesRaw = dropdownData['font-sizes'];
@@ -27,8 +25,8 @@ export const SettingsPage = ({ style }) => {
     const [background_media, setBackgroundMedia] = useState(style.background_media);
     const [profile_media_loading, setProfileMediaLoading] = useState(false);
     const [background_media_loading, setBackgroundMediaLoading] = useState(false);
-    const dispatch = useDispatch();
 
+    const dispatch = useDispatch();
     const user = useSelector(state => state.session.user);
     const settingsObj = useSelector(state => state.settings);
     
@@ -193,7 +191,7 @@ export const SettingsPage = ({ style }) => {
         }
     }
 
-    const editFormHandler = (e) => {
+    const editFormHandler = async (e) => {
         e.preventDefault();
 
         const targForm = e.target;
@@ -222,8 +220,9 @@ export const SettingsPage = ({ style }) => {
             formData.append('media', background_media);
             setBackgroundMediaLoading(true);
     
-            dispatch(updateThemeMedia(settingID, formData));
+            await dispatch(updateThemeMedia(settingID, formData));
             setBackgroundMediaLoading(false);
+            window.location.reload();
         }
 
         targFormKids.forEach(targKid => {
@@ -268,6 +267,8 @@ export const SettingsPage = ({ style }) => {
                 column: eType,
             }))
             window.location.reload();
+        } else if (eType === 'reset_theme') {
+            dispatch(resetProfileTheme());
         } else {
             dispatch(editProfile({
                 id: e.target.dataset.settingId,
@@ -305,7 +306,6 @@ export const SettingsPage = ({ style }) => {
                         backgroundColor: setting.background_color,
                         border: `3px solid ${setting.accent_3}`,
                         color: setting.font_color,
-                        fontFamily: setting.font_family
                 }}
             >
                 <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
@@ -320,7 +320,7 @@ export const SettingsPage = ({ style }) => {
                     >
                     {fontSizes}
                 </select>
-                <label htmlFor={`font-families-${idx}`}>Font Family</label>
+                <label htmlFor={`font-families-${idx}`} style={{fontFamily: setting.font_family}}>Font Family</label>
                 <select
                     name={`font-families-${idx}`}
                     id={`sett-pg-font-family-editor-${idx}`}
@@ -357,29 +357,16 @@ export const SettingsPage = ({ style }) => {
                     data-setting-id={`${setting.id}`} 
                     type='button'
                     onClick={(e) => editProfileHandler(e, 'active_theme')} 
-                    style={{
-                            color: setting.font_color,
-                            fontFamily: setting.font_family
-                    }}
+                    style={{ color: setting.font_color }}
                 >
                     Use
                 </button>
-                <button 
-                    style={{
-                            color: setting.font_color,
-                            fontFamily: setting.font_family
-                    }}
-                >
-                    Edit
-                </button>
+                <button style={{ color: setting.font_color }}>Edit</button>
                 <button 
                     data-setting-id={`${setting.id}`}  
                     type='button'
                     onClick={(e) => resetHandler(e, 'editor')} 
-                    style={{
-                            color: setting.font_color, 
-                            fontFamily: setting.font_family
-                    }}
+                    style={{ color: setting.font_color }}
                 >
                         Cancel
                     </button>
@@ -387,10 +374,7 @@ export const SettingsPage = ({ style }) => {
                     data-setting-id={`${setting.id}`}
                     type='button'
                     onClick={(e) => deleteThemeHandler(e)} 
-                    style={{
-                            color: setting.font_color,
-                            fontFamily: setting.font_family,
-                    }} 
+                    style={{ color: setting.font_color }} 
                 >
                     Delete
                 </button>
@@ -401,25 +385,27 @@ export const SettingsPage = ({ style }) => {
         <div className='settings-page-container'>
             <h1 style={{ borderBottom: `2px solid ${style.accent_1}` }}>Settings</h1>
             <div className='create-and-test-container'>
-                <form 
-                    id='sett-pg-picker-form-1'
-                    data-setting-id={1}
-                    className='settings-form picker-form-1'
-                    onSubmit={profileMediaHandler}
-                    style={{ border: `3px solid ${style.accent_3}`, backgroundColor: style.background_color }}
-                >
-                    <label htmlFor='sett-pg-user-profile-media-uploader'>
-                        <span style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>{!profile_media ? 'Upload Profile Media' : 'Added'}</span>
-                    </label>
-                    <input
-                        id='sett-pg-user-profile-media-uploader'
-                        data-input-name='Profile Media'
-                        type='file'
-                        onChange={setProfileMediaHandler}
-                    />
-                    {profile_media_loading && (<span>Loading...</span>)}
-                    <button style={{ color: style.font_color }}>Submit</button>
-                </form>
+                <div className='settings-actions-container' style={{ border: `3px solid ${style.accent_3}`, backgroundColor: style.background_color }}>
+                    <form 
+                        id='sett-pg-picker-form-1'
+                        data-setting-id={1}
+                        className='settings-form picker-form-1'
+                        onSubmit={profileMediaHandler}
+                    >
+                        <label htmlFor='sett-pg-user-profile-media-uploader'>
+                            <span style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>{!profile_media ? 'Upload Profile Media' : 'Added'}</span>
+                        </label>
+                        <input
+                            id='sett-pg-user-profile-media-uploader'
+                            data-input-name='Profile Media'
+                            type='file'
+                            onChange={setProfileMediaHandler}
+                        />
+                        {profile_media_loading && (<span>Loading...</span>)}
+                        <button style={{ color: style.font_color }}>Submit</button>
+                    </form>
+                    <button data-setting-id='null' type='button' onClick={(e) => editProfileHandler(e, 'reset_theme')}>Set Theme to Default</button>
+                </div>
                 <div 
                     className='create-theme-container' 
                     style={{ border: `3px solid ${style.accent_3}` }}
