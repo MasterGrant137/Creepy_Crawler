@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import '../Main.css';
 import './Settings_Page.css';
 import dropdownData from './dropdown_data.json';
-import { editProfileMedia, editProfile, resetProfileTheme } from '../../store/session';
+import { editProfileMedia, editProfile } from '../../store/session';
 import { createUserSetting, readUserSettings, updateUserSetting, updateThemeMedia, deleteUserSetting } from '../../store/settings_store';
 
 export const SettingsPage = ({ style }) => {
@@ -262,14 +262,18 @@ export const SettingsPage = ({ style }) => {
                 theme_count: user.theme_count + 1,
             }))
         } else if (eType === 'active_theme') {
+            console.log('hit', e.target.dataset.settingId);
             dispatch(editProfile({
                 id: e.target.dataset.settingId,
                 column: eType,
             }))
-            window.location.reload();
-        } else if (eType === 'reset_theme') {
-            dispatch(resetProfileTheme());
-        } else {
+            // window.location.reload();
+        } 
+        // else if (eType === 'reset_theme') {
+            // dispatch(resetProfileTheme());
+            // console.log(e);
+        // } 
+        else {
             dispatch(editProfile({
                 id: e.target.dataset.settingId,
                 eType: e.target
@@ -404,7 +408,7 @@ export const SettingsPage = ({ style }) => {
                         {profile_media_loading && (<span>Loading...</span>)}
                         <button style={{ color: style.font_color }}>Submit</button>
                     </form>
-                    <button data-setting-id='null' type='button' onClick={(e) => editProfileHandler(e, 'reset_theme')}>Set Theme to Default</button>
+                    {/* <button data-setting-id='null' type='button' onClick={(e) => editProfileHandler(e, 'reset_theme')}>Set Theme to Default</button> */}
                 </div>
                 <div 
                     className='create-theme-container' 

@@ -75,7 +75,7 @@ def append_background_media(themeID):
     return { 'user': theme.to_dict() }
 
 
-@settings_routes.route('<int:settingID>', methods=['PUT'])
+@settings_routes.route('/<int:settingID>', methods=['PUT'])
 @login_required
 def update_theme(settingID):
     """Update a theme."""
