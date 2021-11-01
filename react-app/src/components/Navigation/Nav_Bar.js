@@ -20,7 +20,7 @@ const NavBar = ({ style }) => {
         <li><NavLink to='/' exact={true} activeClassName='active'>Home</NavLink></li>
         {user && <li><NavLink to='/history'>History</NavLink></li>}
         {user && <li><NavLink to='/settings'>Settings</NavLink></li>}
-        {user && <img className='media-small' src={user.profile_media} alt='user profile media' />}
+        {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' />}
         {!user && <li><NavLink to='/login' exact={true} activeClassName='active'>Login</NavLink></li>}
         {!user && <li><NavLink to='/sign-up' exact={true} activeClassName='active'>Sign Up</NavLink></li>}
         {!user && <li onClick={demoLogin}><NavLink to='/' exact={true} activeClassName='active'>Demo Login</NavLink></li>}

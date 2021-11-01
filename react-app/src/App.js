@@ -24,8 +24,8 @@ function App() {
   const siteTheme = {
     theme_count: user?.theme_count || 0,
     background_color: a_t?.background_color || `#eae7dc`,
-    background_media: a_t?.background_media ? `url('${a_t?.background_media}')` : 'url()',
     background_rotate: a_t?.background_rotate || false,
+    background_media: a_t?.background_media ? `url('${a_t?.background_media}')` : 'url()',
     font_color: a_t?.font_color || `#e85a4f`,
     font_family: a_t?.font_family || `Georgia, serif`,
     font_size: a_t?.font_size || `16px`,
@@ -34,11 +34,13 @@ function App() {
     accent_3: a_t?.accent_3 || `#e98074`
   }
 
+  const body = document.body;
   document.body.style.backgroundColor = siteTheme.background_color;
   document.body.style.backgroundImage = siteTheme.background_media;
   document.body.style.color = siteTheme.font_color;
   document.body.style.fontFamily = siteTheme.font_family;
   document.body.style.fontSize = siteTheme.font_size;
+  if (siteTheme.background_rotate) body.classList.add('background-rotate');
 
   useEffect(() => {
     (async() => {

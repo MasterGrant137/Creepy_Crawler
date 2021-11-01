@@ -50,7 +50,7 @@ export const createUserSetting = (setting) => async dispatch => {
 }
 
 export const readUserSettings = () => async dispatch => {
-    const response = await fetch('/creepycrawler/settings/');
+    const response = await fetch(`/creepycrawler/settings/`);
     if (response.ok) {
         const settings = await response.json();
         await dispatch(readSettings(settings));
@@ -125,8 +125,7 @@ export const settingsReducer = (state = initialState, action) => {
             newState[updateSetting.id] = updateSetting;
             return newState;
         case UPDATE_THEME:
-            const theme = action.payload.setting;
-            console.log(theme);
+            const theme = action.payload;
             newState[theme.themeID] = theme.media;
             return newState;
         case DELETE_SETTING:
