@@ -28,7 +28,6 @@ ul {
 ul li {
     display: inline;
 }
-
 /*=================================*/
 /*$=============Groups============$*/
 /*=================================*/
@@ -74,7 +73,6 @@ ul li {
     display: flex;
     overflow-x: auto;
 }
-
 /*=================================*/
 /*$=============Menus=============$*/
 /*=================================*/
@@ -171,7 +169,9 @@ ul li {
     width: 155px;
 }
 
-.picker-form-2 > input[type='file']::file-selector-button, .editor-form > input[type='file']::file-selector-button {
+.picker-form-1 > input[type='file']::file-selector-button,
+.picker-form-2 > input[type='file']::file-selector-button,
+.editor-form > input[type='file']::file-selector-button {
     cursor: pointer;
     border: none;
     border-radius: 3px;
