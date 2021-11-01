@@ -178,14 +178,17 @@ export const SettingsPage = ({ style }) => {
             const targFormKids = Array.from(targForm.children);
             const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
             const hasMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
+
             if (isSubmit && hasMedia.value) { 
+                console.log('hit', e.target.dataset.settingId);
+
                 const formData = new FormData();
                 formData.append('media', background_media);
                 setBackgroundMediaLoading(true);
                 
                 dispatch(updateThemeMedia(user.id, formData));
                 setBackgroundMediaLoading(false);
-
+                window.location.reload();
             }
             resetHandler(e, 'picker');
         }
@@ -345,8 +348,8 @@ export const SettingsPage = ({ style }) => {
                 <input id='sett-pg-background-media-editor' data-input-name='Background Media' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
                 {background_media_loading && (<span>Loading...</span>)}
 
-                <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
-                <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name='Background Rotate' type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
+                {/* <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
+                <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name='Background Rotate' type='checkbox' disabled={true} defaultChecked={setting.background_rotate} /> */}
 
                 <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`} style={{color: setting.accent_1}}>Accent 1</label>
                 <input id={`sett-pg-accent-1-color-editor-${idx}`} data-input-name='Accent 1' type='color' disabled={true} defaultValue={setting.accent_1} />
@@ -441,7 +444,7 @@ export const SettingsPage = ({ style }) => {
                             value={background_color}
                             onChange={(e) => setBackgroundColor(e.target.value)}
                         />
-                        <label htmlFor='sett-pg-background-media-uploader'>
+                        {/* <label htmlFor='sett-pg-background-media-uploader'>
                             {background_media !== '' ? 'Background Media' : 'Added'}
                         </label>
                         <input
@@ -451,8 +454,8 @@ export const SettingsPage = ({ style }) => {
                             disabled={p_f_2_disabled}
                             onChange={setBackgroundMediaHandler}
                         />
-                        {background_media_loading && (<span>Loading...</span>)}
-                        <label htmlFor='sett-pg-bg-rotate-picker'>Background Rotate</label>
+                        {background_media_loading && (<span>Loading...</span>)} */}
+                        {/* <label htmlFor='sett-pg-bg-rotate-picker'>Background Rotate</label>
                         <input
                             id='sett-pg-bg-rotate-picker'
                             data-input-name='Background Rotate'
@@ -460,7 +463,7 @@ export const SettingsPage = ({ style }) => {
                             disabled={p_f_2_disabled}
                             checked={background_rotate}
                             onChange={(e) => setBackgroundRotate(e.target.checked)}
-                        />
+                        /> */}
                         <label htmlFor='sett-pg-font-color-picker'>Font Color</label>
                         <input
                             id='sett-pg-font-color-picker'
