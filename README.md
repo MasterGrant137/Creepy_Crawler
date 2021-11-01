@@ -4,14 +4,14 @@ Creepy Crawler is a full-stack search engine application. It's inspired by popul
 ### Demo Login
 ![demo_login](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/readme_1_images/demo_login.png)
 
-### History Page
-![history_page](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/readme_1_images/history_page.png)
-
 ### Navigation Bar
 ![nav_bar](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/readme_1_images/nav_bar.png)
 
 ### Search Bar
 ![search_bar](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/readme_1_images/search_bar.png)
+
+### History Page
+![history_page](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/readme_1_images/history_page.png)
 
 ### Settings Page
 ![settings_page](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/readme_1_images/settings_page.png)
