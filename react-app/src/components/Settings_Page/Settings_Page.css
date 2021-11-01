@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 10px;
     text-align: center;
+    overflow-y: auto;
 }
 
 .picker-form-1 > input[type='file'] {

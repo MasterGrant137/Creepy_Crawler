@@ -41,10 +41,6 @@ ul li {
     height: 50px;
     width: 50px;
 }
-
-.search-page-title {
-    user-select: none;
-}
 /*=================================*/
 /*$=======Settings Containers=====$*/
 /*=================================*/
@@ -140,8 +136,32 @@ ul li {
 
 
 /*=================================*/
-/*$=====Search Page Containers====$*/
+/*$===========Search Page=========$*/
 /*=================================*/
+.search-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-page-title {
+    user-select: none;
+}
+
+.search-page-search-form {
+    border-radius: 5px;
+    /* border: 5px solid black; */
+}
+
+.search-page-search-input {
+    /* border-radius: 20%; */
+    border-radius: 25px;
+    padding: 10px;
+    width: 55vw;
+    height: 5vh;
+}
 
 /*=================================*/
 /*$==========Animations===========$*/

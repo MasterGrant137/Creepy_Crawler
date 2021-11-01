@@ -24,11 +24,12 @@ export const SearchPage = ({ style }) => {
     }, [dispatch])
 
     return (
-        <div>
+        <div className='search-page-container'>
             <h1 className='search-page-title'>Creepy Crawler</h1>
-            <form onSubmit={searchHandler}>
+            <form onSubmit={searchHandler} className='search-page-search-form'>
                 <input
-                    type='text'
+                    type='search'
+                    className='search-page-search-input'
                     placeholder='Crawl the web.'
                     aria-label='Crawl the web.'
                     onChange={(e) => {
@@ -36,6 +37,7 @@ export const SearchPage = ({ style }) => {
                         setSearch(e.target.value)
                         setUpdatedAt((new Date()).toString())
                     }}
+                    style={{border: `3px solid ${style.accent_1}`}}
                 />
             </form>
         </div>
