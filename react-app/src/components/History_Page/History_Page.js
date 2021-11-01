@@ -44,7 +44,12 @@ export const HistoryPage = ({ style }) => {
    
     const entries = Object.values(entriesObj)
         .map(entry => (
-        <div key={entry.id} id={`entry-${entry.id}`} className='history-entry-container'>
+        <div 
+            key={entry.id} 
+            id={`entry-${entry.id}`} 
+            className='history-entry-container'
+            style={{ backgroundColor: style.background_color }}
+        >
             <span id='updated-at-ele' className='hist-updated-at'>
                  {function () {
                      const time = entry['updated_at'].replace(dateRegex, '$3');
@@ -54,6 +59,16 @@ export const HistoryPage = ({ style }) => {
             <span id={`tz-ele-${entry.id}`} className='hist-tz'>
                {entry.tz_abbrev}
             </span>
+            <h2 id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>
+                {function () {
+                    const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
+                    if (!dayOfWkLink || dayOfWk !== dayOfWkLink) {
+                        dayOfWkLink = dayOfWk;
+                        return dayOfWkLink;
+                    }
+                }()}
+            </h2>
+            <FontAwesomeIcon icon={faTrashAlt} className='hist-delete' onClick={(e) => deleteHandler(e, entry.id)} />
             <span 
                 id={`entry-ele${entry.id}`}
                 className='hist-text'
@@ -65,16 +80,6 @@ export const HistoryPage = ({ style }) => {
             >
                 {entry.search || entry.visit}
             </span>
-            <span id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>
-                {function () {
-                    const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
-                    if (!dayOfWkLink || dayOfWk !== dayOfWkLink) {
-                        dayOfWkLink = dayOfWk;
-                        return dayOfWkLink;
-                    }
-                }()}
-            </span>
-            <FontAwesomeIcon icon={faTrashAlt} onClick={(e) => deleteHandler(e, entry.id)} />
         </div>
     ))
 

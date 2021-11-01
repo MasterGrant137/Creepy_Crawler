@@ -83,24 +83,49 @@ ul li {
 /*$=======History Containers======$*/
 /*=================================*/
 .history-page-container {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: 100vh;
     overflow: auto;
 }
 
+
+/*=================================*/
+/*$=========History Grids==========$*/
+/*=================================*/
 .history-entry-container {
     display: grid;
+    grid-template-areas: 
+    'c c c c'
+    'a b b d'
+    'e e e e';
+    grid-template-rows: 1fr 0.5fr 0.5fr;
     height: fit-content;
+    padding: 5px;
+    text-align: center;
+    width: 30%;
 }
 
+.hist-updated-at {
+    grid-area: a;
+}
 
+.hist-tz {
+    grid-area: b;
+}
 
-/*=================================*/
-/*$=============Forms=============$*/
-/*=================================*/
+.hist-day-of-week {
+    grid-area: c;
+}
 
+.hist-delete {
+    grid-area: d;
+}
+
+.hist-text {
+    grid-area: e;
+}
 /*=================================*/
 /*$==========Animations===========$*/
 /*=================================*/

@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { createHistoryEntry } from '../../store/history_store';
+import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
 import './Search_Page.css';
 
@@ -17,6 +18,10 @@ export const SearchPage = ({ style }) => {
         dispatch(createHistoryEntry({ user_id, search, updated_at }));
         window.location.reload();
     }
+
+    useEffect(() => {
+        dispatch(readUserSettings());
+    }, [dispatch])
 
     return (
         <div>
