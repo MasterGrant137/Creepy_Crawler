@@ -50,6 +50,8 @@
 }
 
 .picker-form-2 > select[data-input-name='Font Family'], .editor-form > select[data-input-name='Font Family'] {
+    left: 14%;
+    position: relative;
     width: fit-content;
 }
 
@@ -60,7 +62,7 @@
 }
 
 .picker-form-2 > input[type='color'], .editor-form > input[type='color'] {
-    left: 36%;
+    left: 40%;
     position: relative;
 }
 
@@ -72,7 +74,7 @@
 .picker-form-2 > input[type='file'], .editor-form > input[type='file'] {
     display: flex;
     justify-content: center;
-    left: 10%;
+    left: 20%;
     position: relative;
     width: 155px;
 }
@@ -87,10 +89,9 @@
 
 .editor-form {
     border-radius: 10px;
-    margin: 5px;
-    padding: 7px;
-    width: fit-content;
     height: 625px;
+    margin: 5px;
+    min-width: 300px;
 }
 
 .editor-form:hover {
