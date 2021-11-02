@@ -22,7 +22,6 @@ function App() {
   const a_t = settings[user?.active_theme];
 
   const siteTheme = {
-    theme_count: user?.theme_count || 0,
     background_color: a_t?.background_color || `#eae7dc`,
     background_rotate: a_t?.background_rotate || false,
     background_media: a_t?.background_media ? `url('${a_t?.background_media}')` : 'url()',
