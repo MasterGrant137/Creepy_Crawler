@@ -12,105 +12,85 @@ export const EditorForm = ({ style }) => {
     const [background_media, setBackgroundMedia] = useState(style.background_media);
     const [background_media_loading, setBackgroundMediaLoading] = useState(false);
 
-    const resetHandler = (e, formType) => { 
+    const resetHandler = (e) => { 
         const isSubmit = e.target.dataset.submitBtnState;
         if (isSubmit === 'false') return;
 
-        if (formType === 'editor') {
-            const targID = e.target.dataset.settingId;
-            const targForm = document.getElementById(`sett-pg-editor-form-${targID}`);
-            const prev = settingsObj[targID];
-            const targFormKids = Array.from(targForm.children);
-            targFormKids.forEach(targKid => {
-                if (targKid.type === 'text') targKid.readOnly = true;
-                else if (targKid.tagName === 'SELECT') targKid.disabled = true;
-                else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
-                    targKid.innerText = 'Edit';
-                }
-                switch (targKid.type) {
-                    case 'color': targKid.disabled = true; break;
-                    case 'file': targKid.disabled = true; break;
-                    case 'checkbox': targKid.disabled = true; break;
-                    default: break;
-                }
-                switch (targKid.dataset.inputName) {
-                    case 'Theme Name': targKid.value = prev.theme_name; break;
-                    case 'Background Color': targKid.value = prev.background_color; break;
-                    case 'Background Media': targKid.value = ''; break;
-                    case 'Background Rotate': targKid.checked = prev.background_rotate; break;
-                    case 'Font Color': targKid.value = prev.font_color; break;
-                    case 'Font Family':
-                        const targText = prev.font_family.replace(/,\s/, ' | ');
-                        const targFamily = Array.from(targKid.children).find(option => option.innerText === targText); 
-                        targFamily.selected = true;
-                        break;
-                    case 'Font Size': targKid.value = prev.font_size;
-                        const targNum = prev.font_size.replace('px', '');
-                        const targSize = Array.from(targKid.children).find(option => option.innerText === targNum); 
-                        targSize.selected = true;
-                        break;
-                    case 'Accent 1': targKid.value = prev.accent_1; break;
-                    case 'Accent 2': targKid.value = prev.accent_2; break;
-                    case 'Accent 3': targKid.value = prev.accent_3; break;
-                    default: break;
-                }
-            })
-        }
+        const targID = e.target.dataset.settingId;
+        const targForm = document.getElementById(`sett-pg-editor-form-${targID}`);
+        const prev = settingsObj[targID];
+        const targFormKids = Array.from(targForm.children);
+        targFormKids.forEach(targKid => {
+            if (targKid.type === 'text') targKid.readOnly = true;
+            else if (targKid.tagName === 'SELECT') targKid.disabled = true;
+            else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
+                targKid.innerText = 'Edit';
+            }
+            switch (targKid.type) {
+                case 'color': targKid.disabled = true; break;
+                case 'file': targKid.disabled = true; break;
+                case 'checkbox': targKid.disabled = true; break;
+                default: break;
+            }
+            switch (targKid.dataset.inputName) {
+                case 'Theme Name': targKid.value = prev.theme_name; break;
+                case 'Background Color': targKid.value = prev.background_color; break;
+                case 'Background Media': targKid.value = ''; break;
+                case 'Background Rotate': targKid.checked = prev.background_rotate; break;
+                case 'Font Color': targKid.value = prev.font_color; break;
+                case 'Font Family':
+                    const targText = prev.font_family.replace(/,\s/, ' | ');
+                    const targFamily = Array.from(targKid.children).find(option => option.innerText === targText); 
+                    targFamily.selected = true;
+                    break;
+                case 'Font Size': targKid.value = prev.font_size;
+                    const targNum = prev.font_size.replace('px', '');
+                    const targSize = Array.from(targKid.children).find(option => option.innerText === targNum); 
+                    targSize.selected = true;
+                    break;
+                case 'Accent 1': targKid.value = prev.accent_1; break;
+                case 'Accent 2': targKid.value = prev.accent_2; break;
+                case 'Accent 3': targKid.value = prev.accent_3; break;
+                default: break;
+            }
+        })
     }
 
-    const deleteThemeHandler = (e) => {
-        const settingID = e.target.dataset.settingId;
-        dispatch(deleteUserSetting(settingID))
-    };
-
     const fontSizes = fontSizesRaw.map(fontSize => (
-        <option key={fontSize} >
-            {fontSize}
-        </option>
+        <option key={fontSize}>{fontSize}</option>
     ))
-
+    
     const fontFamilies = fontFamiliesRaw.map(fontFamily => (
-        <option key={fontFamily} >
-            {fontFamily}
-        </option>
+        <option key={fontFamily}>{fontFamily}</option>
     ))
-
+    
     const theme_name = '';
-    const {
-        background_color,
-        background_rotate,
-        font_color,
-        font_family,
-        font_size,
-        accent_1,
-        accent_2,
-        accent_3,
-    } = style;
-
+    const { background_color, background_rotate, font_color, font_family, font_size, accent_1, accent_2, accent_3 } = style;
+    
     const dispatch = useDispatch();
     const user = useSelector(state => state.session.user);
     const settingsObj = useSelector(state => state.settings);
-
+    
     const editFormHandler = async (e) => {
         e.preventDefault();
-
+        
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
         const settingID = targForm.dataset.settingId;
-
+        
         const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
         const hasMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
-
+        
         if (isSubmit && hasMedia.value) { 
             const formData = new FormData();
             formData.append('media', background_media);
             setBackgroundMediaLoading(true);
-    
+            
             await dispatch(updateThemeMedia(settingID, formData));
             setBackgroundMediaLoading(false);
             window.location.reload();
         }
-
+        
         targFormKids.forEach(targKid => {
             if (targKid.type === 'text') targKid.readOnly = false;
             else targKid.disabled = false;
@@ -118,7 +98,7 @@ export const EditorForm = ({ style }) => {
                 targKid.innerText = 'Submit';
             } else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
                 targKid.innerText = 'Edit';
-
+                
                 const updateObj = {
                     setting_id: settingID,
                     user_id: user.id,
@@ -132,7 +112,7 @@ export const EditorForm = ({ style }) => {
                     accent_2,
                     accent_3,
                 }
-
+                
                 targFormKids.forEach(targKid => {
                     if (targKid.tagName !== 'BUTTON') {
                         switch (targKid.dataset.inputName) {
@@ -154,31 +134,25 @@ export const EditorForm = ({ style }) => {
             }
         })
     }
+    
+    const deleteThemeHandler = (e) => {
+        const settingID = e.target.dataset.settingId;
+        dispatch(deleteUserSetting(settingID))
+    };
 
     const setBackgroundMediaHandler = (e) => {
         const file = e.target.files[0];
         if(file) setBackgroundMedia(file);
     }
-
+    
     const editProfileHandler = (e, eType) => {
-        if (eType === 'theme_count') {
-            dispatch(editProfile({
-                id: e.target.dataset.settingId,
-                column: eType,
-                theme_count: user.theme_count + 1,
-            }))
-        } else if (eType === 'active_theme') {
+        if (eType === 'active_theme') {
             console.log('hit', e.target.dataset.settingId);
             dispatch(editProfile({
                 id: e.target.dataset.settingId,
                 column: eType,
             }))
             window.location.reload();
-        } else {
-            dispatch(editProfile({
-                id: e.target.dataset.settingId,
-                eType: e.target
-            }))
         }
     }
 
@@ -268,6 +242,10 @@ export const EditorForm = ({ style }) => {
             </button>
         </form>
     ))
-    
-    return (<>{editorThemes}</>)
+
+    return (
+        <>
+            {editorThemes}
+        </>
+    )
 }
