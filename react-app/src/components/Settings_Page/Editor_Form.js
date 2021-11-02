@@ -7,10 +7,25 @@ import '../Main.css';
 import './Settings_Page.css';
 
 export const EditorForm = ({ style }) => {
-    const fontSizesRaw = dropdownData['font-sizes'];
-    const fontFamiliesRaw = dropdownData['fonts'];
+    const dispatch = useDispatch();
+    const user = useSelector(state => state.session.user);
+    const settingsObj = useSelector(state => state.settings);
+
     const [background_media, setBackgroundMedia] = useState(style.background_media);
     const [background_media_loading, setBackgroundMediaLoading] = useState(false);
+
+    const fontSizesRaw = dropdownData['font-sizes'];
+    const fontSizes = fontSizesRaw.map(fontSize => (
+        <option key={fontSize}>{fontSize}</option>
+        ))
+    
+    const fontFamiliesRaw = dropdownData['fonts'];
+    const fontFamilies = fontFamiliesRaw.map(fontFamily => (
+        <option key={fontFamily}>{fontFamily}</option>
+        ))
+    
+    const theme_name = '';
+    const { background_color, background_rotate, font_color, font_family, font_size, accent_1, accent_2, accent_3 } = style;
 
     const resetHandler = (e) => { 
         const isSubmit = e.target.dataset.submitBtnState;
@@ -55,22 +70,12 @@ export const EditorForm = ({ style }) => {
             }
         })
     }
+    
+    const setBackgroundMediaHandler = (e) => {
+        const file = e.target.files[0];
+        if(file) setBackgroundMedia(file);
+    }
 
-    const fontSizes = fontSizesRaw.map(fontSize => (
-        <option key={fontSize}>{fontSize}</option>
-    ))
-    
-    const fontFamilies = fontFamiliesRaw.map(fontFamily => (
-        <option key={fontFamily}>{fontFamily}</option>
-    ))
-    
-    const theme_name = '';
-    const { background_color, background_rotate, font_color, font_family, font_size, accent_1, accent_2, accent_3 } = style;
-    
-    const dispatch = useDispatch();
-    const user = useSelector(state => state.session.user);
-    const settingsObj = useSelector(state => state.settings);
-    
     const editFormHandler = async (e) => {
         e.preventDefault();
         
@@ -139,11 +144,6 @@ export const EditorForm = ({ style }) => {
         const settingID = e.target.dataset.settingId;
         dispatch(deleteUserSetting(settingID))
     };
-
-    const setBackgroundMediaHandler = (e) => {
-        const file = e.target.files[0];
-        if(file) setBackgroundMedia(file);
-    }
     
     const editProfileHandler = (e, eType) => {
         if (eType === 'active_theme') {
