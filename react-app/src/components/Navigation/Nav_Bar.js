@@ -1,9 +1,8 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { login } from '../../store/session';
 import LogoutButton from '../auth/LogoutButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faHome, faHistory, faUserCog } from '@fortawesome/free-solid-svg-icons';
 import '../Main.css';
 import './Nav_Bar.css';
 
