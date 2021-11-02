@@ -6,6 +6,7 @@ import './Settings_Page.css';
 import { editProfileMedia, resetProfileTheme } from '../../store/session';
 import { readUserSettings } from '../../store/settings_store';
 import { EditorForm } from './Editor_Form';
+import { SetterForm2 } from './Setter_Form_2';
 
 export const SettingsPage = ({ style }) => {
     // const fontSizesRaw = dropdownData['font-sizes'];
@@ -30,10 +31,10 @@ export const SettingsPage = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector(state => state.session.user);
 
-
      useEffect(() => {
         dispatch(readUserSettings());
      }, [dispatch])
+
 
     // const resetHandler = (e) => { 
     //     const targID = e.target.dataset.settingId;
@@ -165,17 +166,17 @@ export const SettingsPage = ({ style }) => {
     //         console.log(e);
     // }
 
-    const fontSizes = fontSizesRaw.map(fontSize => (
-        <option key={fontSize} >
-            {fontSize}
-        </option>
-    ))
+    // const fontSizes = fontSizesRaw.map(fontSize => (
+    //     <option key={fontSize} >
+    //         {fontSize}
+    //     </option>
+    // ))
 
-    const fontFamilies = fontFamiliesRaw.map(fontFamily => (
-        <option key={fontFamily} >
-            {fontFamily}
-        </option>
-    ))
+    // const fontFamilies = fontFamiliesRaw.map(fontFamily => (
+    //     <option key={fontFamily} >
+    //         {fontFamily}
+    //     </option>
+    // ))
 
     return (
         <div className='settings-page-container'>
@@ -202,7 +203,8 @@ export const SettingsPage = ({ style }) => {
                     </form>
                     {/* <button data-setting-id='null' type='button' onClick={(e) => resetProfileHandler(e, 'reset_theme')}>Set Theme to Default</button> */}
                 </div>
-                
+                <SetterForm2 style={style} />
+               
             </div>
             <div className='themes-container'>
             <EditorForm style={style} />

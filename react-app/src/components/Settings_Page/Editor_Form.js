@@ -14,15 +14,16 @@ export const EditorForm = ({ style }) => {
     const [background_media, setBackgroundMedia] = useState(style.background_media);
     const [background_media_loading, setBackgroundMediaLoading] = useState(false);
 
+    const fontFamiliesRaw = dropdownData['fonts'];
+    const fontFamilies = fontFamiliesRaw.map(fontFamily => (
+        <option key={fontFamily}>{fontFamily}</option>
+        ))
+        
     const fontSizesRaw = dropdownData['font-sizes'];
     const fontSizes = fontSizesRaw.map(fontSize => (
         <option key={fontSize}>{fontSize}</option>
         ))
     
-    const fontFamiliesRaw = dropdownData['fonts'];
-    const fontFamilies = fontFamiliesRaw.map(fontFamily => (
-        <option key={fontFamily}>{fontFamily}</option>
-        ))
     
     const theme_name = '';
     const { background_color, background_rotate, font_color, font_family, font_size, accent_1, accent_2, accent_3 } = style;
