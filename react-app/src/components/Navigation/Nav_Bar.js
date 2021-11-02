@@ -3,7 +3,7 @@ import { Link, useHistory } from 'react-router-dom';
 import { login } from '../../store/session';
 import LogoutButton from '../auth/LogoutButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faHistory, faUserCog } from '@fortawesome/free-solid-svg-icons';
+// import { faHome, faHistory, faUserCog } from '@fortawesome/free-solid-svg-icons';
 import '../Main.css';
 import './Nav_Bar.css';
 
@@ -35,20 +35,20 @@ const NavBar = ({ style }) => {
         <a href='https://github.com/MasterGrant137'>About</a>
         {user && user.username} 
         <FontAwesomeIcon
-          icon={faHome} 
+          icon='home' 
           onClick={(e) => navHandler(e, '/home')}
         >
           Home
         </FontAwesomeIcon>
         {user && 
           <FontAwesomeIcon 
-            icon={faHistory}
+            icon='history'
             onClick={(e) => navHandler(e, '/history')}
           />
         }
         {user &&
           <FontAwesomeIcon
-          icon={faUserCog}
+          icon='user-cog'
           onClick={(e) => navHandler(e, '/settings')}
           />
         }

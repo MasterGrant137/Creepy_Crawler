@@ -1,16 +1,21 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import LoginForm from './components/auth/LoginForm';
-import SignUpForm from './components/auth/SignUpForm';
-import NavBar from './components/Navigation/Nav_Bar';
-import ProtectedRoute from './components/auth/ProtectedRoute';
 import { ScrollToTop } from './components/Scroll_to_Top/Scroll_to_Top';
 import { HistoryPage } from './components/History_Page/History_Page';
 import { SearchPage } from './components/Search_Page/Search_Page';
 import { SettingsPage } from './components/Settings_Page/Settings_Page';
 import { authenticate } from './store/session';
 import { Modal } from './components/Modals/Modal';
+
+import ProtectedRoute from './components/auth/ProtectedRoute';
+import LoginForm from './components/auth/LoginForm';
+import SignUpForm from './components/auth/SignUpForm';
+import NavBar from './components/Navigation/Nav_Bar';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faHome, faHistory, faUserCog, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
+library.add(faHome, faHistory, faUserCog, faSignOutAlt);
 
 function App() {
   const [loaded, setLoaded] = useState(false);
