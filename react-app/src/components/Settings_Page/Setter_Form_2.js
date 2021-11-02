@@ -100,7 +100,7 @@ export const SetterForm2 = ({ style }) => {
         if (p_f_2_btn === 'Submit') {
             const user_id = user.id;
     
-             await dispatch(createUserSetting({
+            await dispatch(createUserSetting({
                 user_id,
                 theme_name,
                 background_color,
@@ -112,7 +112,6 @@ export const SetterForm2 = ({ style }) => {
                 accent_2,
                 accent_3,
             }));
-            
 
             if (isSubmit && hasMedia.value) { 
                 console.log('hit', e.target.dataset.settingId);
