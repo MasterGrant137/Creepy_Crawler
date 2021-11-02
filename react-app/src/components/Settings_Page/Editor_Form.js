@@ -85,9 +85,9 @@ export const EditorForm = ({ style }) => {
         const settingID = targForm.dataset.settingId;
         
         const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
-        const hasMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
+        const isMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
         
-        if (isSubmit && hasMedia.value) { 
+        if (isSubmit && isMedia.value) { 
             const formData = new FormData();
             formData.append('media', background_media);
             setBackgroundMediaLoading(true);

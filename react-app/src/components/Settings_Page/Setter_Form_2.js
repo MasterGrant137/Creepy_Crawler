@@ -84,17 +84,18 @@ export const SetterForm2 = ({ style }) => {
         
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
+
         const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
-        const hasMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
+        const isMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
        
         toggleState(prevState => !prevState);
 
         if (!toggledState) {
-            setPF2Disabled(true)
-            setPF2Btn('Edit')
+            setPF2Disabled(true);
+            setPF2Btn('Edit');
         } else {
-            setPF2Disabled(false)
-            setPF2Btn('Submit')
+            setPF2Disabled(false);
+            setPF2Btn('Submit');
         }
 
         if (p_f_2_btn === 'Submit') {
@@ -113,7 +114,7 @@ export const SetterForm2 = ({ style }) => {
                 accent_3,
             }));
 
-            if (isSubmit && hasMedia.value) { 
+            if (isSubmit && isMedia.value) { 
                 console.log('hit', e.target.dataset.settingId);
 
                 const formData = new FormData();
@@ -122,7 +123,7 @@ export const SetterForm2 = ({ style }) => {
                 
                 dispatch(updateThemeMedia(user.id, formData));
                 setBackgroundMediaLoading(false);
-                window.location.reload();
+                // window.location.reload();
             }
             resetHandler(e);
         }
