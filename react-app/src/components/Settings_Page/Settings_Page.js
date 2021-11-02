@@ -46,7 +46,7 @@ export const SettingsPage = ({ style }) => {
 
     const resetHandler = (e) => { 
         const targID = e.target.dataset.settingId;
-        const targForm = document.getElementById(`sett-pg-picker-form-${targID}`);
+        const targForm = document.getElementById(`sett-pg-setter-form-${targID}`);
         const targFormKids = Array.from(targForm.children);
 
         if (!toggledState) {
@@ -192,9 +192,9 @@ export const SettingsPage = ({ style }) => {
             <div className='create-and-test-container'>
                 <div className='settings-actions-container' style={{ border: `3px solid ${style.accent_3}`, backgroundColor: style.background_color }}>
                     <form 
-                        id='sett-pg-picker-form-1'
+                        id='sett-pg-setter-form-1'
                         data-setting-id={1}
-                        className='settings-form picker-form-1'
+                        className='settings-form setter-form-1'
                         onSubmit={profileMediaHandler}
                     >
                         <label htmlFor='sett-pg-user-profile-media-uploader'>
@@ -216,9 +216,9 @@ export const SettingsPage = ({ style }) => {
                     style={{ border: `3px solid ${style.accent_3}` }}
                 >
                     <form 
-                        id='sett-pg-picker-form-2'
+                        id='sett-pg-setter-form-2'
                         data-setting-id={2}
-                        className='settings-form picker-form-2' 
+                        className='settings-form setter-form-2' 
                         onSubmit={createSettingHandler}
                         style={{ backgroundColor: style.background_color }}
                     >
@@ -235,9 +235,9 @@ export const SettingsPage = ({ style }) => {
                             >
                                 Cancel
                             </button>
-                        <label htmlFor='sett-page-theme-name-picker'>Theme Name</label>
+                        <label htmlFor='sett-page-theme-name-setter'>Theme Name</label>
                         <input
-                            id='sett-page-theme-name-picker'
+                            id='sett-page-theme-name-setter'
                             readOnly={p_f_2_disabled}
                             data-input-name='Theme Name'
                             type='text'
@@ -245,9 +245,9 @@ export const SettingsPage = ({ style }) => {
                             value={theme_name}
                             onChange={(e) => setThemeName(e.target.value)}
                         />
-                        <label htmlFor='sett-pg-bg-color-picker'>Background Color</label>
+                        <label htmlFor='sett-pg-bg-color-setter'>Background Color</label>
                         <input
-                            id='sett-pg-bg-color-picker'
+                            id='sett-pg-bg-color-setter'
                             data-input-name='Background Color'
                             type='color'
                             disabled={p_f_2_disabled}
@@ -265,18 +265,18 @@ export const SettingsPage = ({ style }) => {
                             onChange={setBackgroundMediaHandler}
                         />
                         {background_media_loading && (<span>Loading...</span>)}
-                        <label htmlFor='sett-pg-bg-rotate-picker'>Background Rotate</label>
+                        <label htmlFor='sett-pg-bg-rotate-setter'>Background Rotate</label>
                         <input
-                            id='sett-pg-bg-rotate-picker'
+                            id='sett-pg-bg-rotate-setter'
                             data-input-name='Background Rotate'
                             type='checkbox'
                             disabled={p_f_2_disabled}
                             checked={background_rotate}
                             onChange={(e) => setBackgroundRotate(e.target.checked)}
                         />
-                        <label htmlFor='sett-pg-font-color-picker'>Font Color</label>
+                        <label htmlFor='sett-pg-font-color-setter'>Font Color</label>
                         <input
-                            id='sett-pg-font-color-picker'
+                            id='sett-pg-font-color-setter'
                             data-input-name='Font Color'
                             type='color'
                             disabled={p_f_2_disabled}
@@ -285,7 +285,7 @@ export const SettingsPage = ({ style }) => {
                         />
                         <label htmlFor='font-sizes'>Font Size</label>
                         <select name='font-sizes'
-                                id='sett-pg-font-size-picker'
+                                id='sett-pg-font-size-setter'
                                 data-input-name='Font Size'
                                 disabled={p_f_2_disabled}
                                 value={font_size?.replace('px', '')}
@@ -299,7 +299,7 @@ export const SettingsPage = ({ style }) => {
                         <label htmlFor='font-families'>Font Family</label>
                         <select 
                             name='font-families'
-                            id='sett-pg-font-family-picker'
+                            id='sett-pg-font-family-setter'
                             data-input-name='Font Family'
                             disabled={p_f_2_disabled}
                             value={font_family?.replace(/,\s/, ' | ')}
@@ -310,27 +310,27 @@ export const SettingsPage = ({ style }) => {
                         >
                             {fontFamilies}
                         </select>
-                        <label htmlFor='sett-pg-accent-1-color-picker'>Accent 1</label>
+                        <label htmlFor='sett-pg-accent-1-color-setter'>Accent 1</label>
                         <input
-                            id='sett-pg-accent-1-color-picker'
+                            id='sett-pg-accent-1-color-setter'
                             data-input-name='Accent 1'
                             type='color'
                             disabled={p_f_2_disabled}
                             value={accent_1}
                             onChange={(e) => setAccent1(e.target.value)}
                         />
-                        <label htmlFor='sett-pg-accent-2-color-picker'>Accent 2</label>
+                        <label htmlFor='sett-pg-accent-2-color-setter'>Accent 2</label>
                         <input
-                            id='sett-pg-accent-2-color-picker'
+                            id='sett-pg-accent-2-color-setter'
                             data-input-name='Accent 2'
                             type='color'
                             disabled={p_f_2_disabled}
                             value={accent_2}
                             onChange={(e) => setAccent2(e.target.value)}
                         />
-                        <label htmlFor='sett-pg-accent-3-color-picker'>Accent 3</label>
+                        <label htmlFor='sett-pg-accent-3-color-setter'>Accent 3</label>
                         <input
-                            id='sett-pg-accent-3-color-picker'
+                            id='sett-pg-accent-3-color-setter'
                             data-input-name='Accent 3'
                             type='color'
                             disabled={p_f_2_disabled}
