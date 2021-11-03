@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { editProfile } from '../../store/session';
-import { updateUserSetting, updateThemeMedia, deleteUserSetting } from '../../store/settings_store';
+//* removed updateThemeMedia
+import { updateUserSetting, deleteUserSetting } from '../../store/settings_store';
 import dropdownData from './dropdown_data.json';
 import '../Main.css';
 import './Settings_Page.css';
@@ -24,7 +25,7 @@ export const EditorForm = ({ style }) => {
         <option key={fontSize}>{fontSize}</option>
         ))
     
-    const { background_color, background_rotate, font_color, font_family, font_size, accent_1, accent_2, accent_3 } = style;
+    // const { background_color, background_rotate, font_color, font_family, font_size, accent_1, accent_2, accent_3 } = style;
 
     const resetHandler = (e) => { 
         const isSubmit = e.target.dataset.submitBtnState;
@@ -34,6 +35,7 @@ export const EditorForm = ({ style }) => {
         const targForm = document.getElementById(`sett-pg-editor-form-${targID}`);
         const prev = settingsObj[targID];
         const targFormKids = Array.from(targForm.children);
+
         targFormKids.forEach(targKid => {
             if (targKid.type === 'text') targKid.readOnly = true;
             else if (targKid.tagName === 'SELECT') targKid.disabled = true;
@@ -85,15 +87,6 @@ export const EditorForm = ({ style }) => {
         const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
         const isMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
         
-        if (isSubmit && isMedia.value) { 
-            const formData = new FormData();
-            formData.append('media', background_media);
-            setBackgroundMediaLoading(true);
-            
-            await dispatch(updateThemeMedia(settingID, formData));
-            setBackgroundMediaLoading(false);
-        }
-        
         targFormKids.forEach(targKid => {
             if (targKid.type === 'text') targKid.readOnly = false;
             else targKid.disabled = false;
@@ -101,40 +94,35 @@ export const EditorForm = ({ style }) => {
                 targKid.innerText = 'Submit';
             } else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
                 targKid.innerText = 'Edit';
+
+                const formData = new FormData();
+                formData.append('setting_id', settingID);
+                formData.append('user_id', user.id);
                 
-                const updateObj = {
-                    setting_id: settingID,
-                    user_id: user.id,
-                    theme_name: '',
-                    background_color,
-                    background_media: 'url()',
-                    background_rotate,
-                    font_color,
-                    font_family,
-                    font_size,
-                    accent_1,
-                    accent_2,
-                    accent_3,
+                if (isSubmit && isMedia.value) { 
+                    formData.append('media', background_media);
+                    setBackgroundMediaLoading(true);
                 }
                 
                 targFormKids.forEach(targKid => {
                     if (targKid.tagName !== 'BUTTON') {
                         switch (targKid.dataset.inputName) {
-                            case 'Theme Name': updateObj.theme_name = targKid.value; break;
-                            case 'Background Color': updateObj.background_color = targKid.value; break;
-                            case 'Background Rotate': updateObj.background_rotate = targKid.checked; break;
-                            case 'Font Color': updateObj.font_color = targKid.value; break;
-                            case 'Font Family': updateObj.font_family = targKid.value.replace(/\s\|\s/, ', '); break;
-                            case 'Font Size': updateObj.font_size = `${targKid.value}px`; break;
-                            case 'Accent 1': updateObj.accent_1 = targKid.value; break;
-                            case 'Accent 2': updateObj.accent_2 = targKid.value; break;
-                            case 'Accent 3': updateObj.accent_3 = targKid.value; break;
+                            case 'Theme Name': formData.append('theme_name', targKid.value); break;
+                            case 'Background Color': formData.append('background_color', targKid.value); break;
+                            case 'Background Rotate': formData.append('background_rotate', targKid.checked); break;
+                            case 'Font Color': formData.append('font_color', targKid.value); break;
+                            case 'Font Family': formData.append('font_family', targKid.value.replace(/\s\|\s/, ', ')); break;
+                            case 'Font Size': formData.append('font_size', `${targKid.value}px`); break;
+                            case 'Accent 1': formData.append('accent_1', targKid.value); break;
+                            case 'Accent 2': formData.append('accent_2', targKid.value); break;
+                            case 'Accent 3': formData.append('accent_3', targKid.value); break;
                             default: break;
                         }
                         targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
                     }
                 })
-                dispatch(updateUserSetting(updateObj))
+                dispatch(updateUserSetting(formData));
+                setBackgroundMediaLoading(false);
             }
         })
     }
