@@ -90,28 +90,34 @@ def get_themes():
 @login_required
 def update_theme(settingID):
     """Update a theme."""
-    theme = Theme.query.filter(Theme.id == request.files['setting_id']).first()
+    print('HEREEEE', request.form['setting_id'])
+    theme = Theme.query.filter(Theme.id == request.form['setting_id']).first()
 
-    if 'media' in request.files:
-        media = request.files['media']
-        if allowed_file(media.filename):
-            media.filename = get_unique_filename(media.filename)
-            upload = upload_file_to_s3(media)
+    if 'background_media' in request.files:
+        print('FIRST CONDITION HIT')
+        background_media = request.files['background_media']
+        if allowed_file(background_media.filename):
+            print('SECOND CONDITION HIT')
+            background_media.filename = get_unique_filename(background_media.filename)
+            upload = upload_file_to_s3(background_media)
             if 'url' in upload:
+                print('THIRD CONDITION HIT')
                 url = upload['url']
                 theme.background_media=url
 
-    if ((theme.user_id == current_user.id) and (theme.id == int(request.files['setting_id']))):
-        theme.user_id=request.files['user_id']
-        theme.theme_name=request.files['theme_name']
-        theme.background_color=request.files['background_color']
-        theme.background_rotate=request.files['background_rotate']
-        theme.font_color=request.files['font_color']
-        theme.font_family=request.files['font_family']
-        theme.font_size=request.files['font_size']
-        theme.accent_1=request.files['accent_1']
-        theme.accent_2=request.files['accent_2']
-        theme.accent_3=request.files['accent_3']
+    if request.form['background_rotate'] == 'false': theme.background_rotate=False
+    else: theme.background_rotate=True
+
+    if ((theme.user_id == current_user.id) and (theme.id == int(request.form['setting_id']))):
+        theme.user_id=request.form['user_id']
+        theme.theme_name=request.form['theme_name']
+        theme.background_color=request.form['background_color']
+        theme.font_color=request.form['font_color']
+        theme.font_family=request.form['font_family']
+        theme.font_size=request.form['font_size']
+        theme.accent_1=request.form['accent_1']
+        theme.accent_2=request.form['accent_2']
+        theme.accent_3=request.form['accent_3']
 
         db.session.add(theme)
         db.session.commit()

@@ -58,12 +58,12 @@ export const readUserSettings = () => async dispatch => {
     }
 }
 
-export const updateUserSetting = (formData) => async dispatch => {
-    console.log(formData);
-    const response = await fetch(`/creepycrawler/settings/${formData.setting_id}`, {
-        headers: {
-            'Content-Type': 'application/json'
-        },
+export const updateUserSetting = (settingID, formData) => async dispatch => {
+    console.log(settingID);
+    for (let entry of formData) {
+        console.log(entry, typeof(entry[1]));
+    }
+    const response = await fetch(`/creepycrawler/settings/${settingID}`, {
         method: 'PUT',
         body: formData
     })
