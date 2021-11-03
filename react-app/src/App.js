@@ -69,10 +69,10 @@ function App() {
         <Route path='/sign-up' exact={true}>
           <SignUpForm style={siteTheme} />
         </Route>
-        <ProtectedRoute path='/settings' exact={true}>
+        <ProtectedRoute path='/settings/' exact={true}>
           <SettingsPage style={siteTheme} />
         </ProtectedRoute>
-        <ProtectedRoute path='/history' exact={true}>
+        <ProtectedRoute path='/history/' exact={true}>
           <HistoryPage style={siteTheme} />
         </ProtectedRoute>
         <Route path='/' exact={true} >

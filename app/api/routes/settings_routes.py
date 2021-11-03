@@ -45,9 +45,9 @@ def get_themes():
     themes = Theme.query.filter(Theme.user_id == current_user.id).all()
     return { 'settings': [ theme.to_dict() for theme in themes ] }
 
-@settings_routes.route('/<int:themeID>', methods=['PATCH'])
+@settings_routes.route('/<int:settingID>', methods=['PATCH'])
 @login_required
-def append_background_media(themeID):
+def append_background_media(settingID):
     """Update theme data to include background media."""
     if 'media' not in request.files:
         return {'errors': 'media required'}, 400
@@ -66,13 +66,14 @@ def append_background_media(themeID):
 
     url = upload['url']
 
-    theme = Theme.query.filter(Theme.id == themeID).first()
+    theme = Theme.query.filter(Theme.id == settingID).first()
     theme.background_media=url
 
     db.session.add(theme)
     db.session.commit()
 
-    return { 'user': theme.to_dict() }
+    # return { 'user': theme.to_dict() }
+    return { 'setting': theme.to_dict() }
 
 
 @settings_routes.route('/<int:settingID>', methods=['PUT'])

@@ -94,7 +94,7 @@ export const EditorForm = ({ style }) => {
             
             await dispatch(updateThemeMedia(settingID, formData));
             setBackgroundMediaLoading(false);
-            window.location.reload();
+            // window.location.reload();
         }
         
         targFormKids.forEach(targKid => {
@@ -148,12 +148,11 @@ export const EditorForm = ({ style }) => {
     
     const editProfileHandler = (e, eType) => {
         if (eType === 'active_theme') {
-            console.log('hit', e.target.dataset.settingId);
             dispatch(editProfile({
                 id: e.target.dataset.settingId,
                 column: eType,
             }))
-            window.location.reload();
+            // window.location.reload();
         }
     }
 
