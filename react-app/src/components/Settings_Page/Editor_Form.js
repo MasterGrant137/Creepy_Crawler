@@ -24,8 +24,6 @@ export const EditorForm = ({ style }) => {
         <option key={fontSize}>{fontSize}</option>
         ))
     
-    
-    const theme_name = '';
     const { background_color, background_rotate, font_color, font_family, font_size, accent_1, accent_2, accent_3 } = style;
 
     const resetHandler = (e) => { 
@@ -107,8 +105,9 @@ export const EditorForm = ({ style }) => {
                 const updateObj = {
                     setting_id: settingID,
                     user_id: user.id,
-                    theme_name,
+                    theme_name: '',
                     background_color,
+                    background_media: 'url()',
                     background_rotate,
                     font_color,
                     font_family,
