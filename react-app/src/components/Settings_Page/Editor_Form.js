@@ -94,7 +94,6 @@ export const EditorForm = ({ style }) => {
             
             await dispatch(updateThemeMedia(settingID, formData));
             setBackgroundMediaLoading(false);
-            // window.location.reload();
         }
         
         targFormKids.forEach(targKid => {
@@ -152,7 +151,6 @@ export const EditorForm = ({ style }) => {
                 id: e.target.dataset.settingId,
                 column: eType,
             }))
-            // window.location.reload();
         }
     }
 

@@ -29,7 +29,6 @@ export const SetterForm1 = ({ style }) => {
 
             await dispatch(editProfileMedia(user.id, formData));
             setProfileMediaLoading(false);
-            window.location.reload();
         }
     }
 

@@ -48,7 +48,8 @@ def upload_media(userID):
     db.session.add(user)
     db.session.commit()
 
-    return { 'user': user.to_dict() }
+    # return { 'user': user.to_dict() }
+    return user.to_dict()
 
 @user_routes.route('/profile/<int:settingID>', methods=['PATCH'])
 @login_required

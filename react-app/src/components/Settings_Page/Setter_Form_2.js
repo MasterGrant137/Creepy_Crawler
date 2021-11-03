@@ -123,7 +123,6 @@ export const SetterForm2 = ({ style }) => {
                 
                 dispatch(updateThemeMedia(user.id, formData));
                 setBackgroundMediaLoading(false);
-                // window.location.reload();
             }
             resetHandler(e);
         }
