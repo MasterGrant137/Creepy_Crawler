@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { editProfileMedia, resetProfileTheme } from '../../store/session';
+import { editProfileMedia } from '../../store/session';
 
 export const SetterForm1 = ({ style }) => {
     const dispatch = useDispatch();
@@ -32,43 +32,33 @@ export const SetterForm1 = ({ style }) => {
         }
     }
 
-    const resetProfileHandler = (e) => {
-            dispatch(resetProfileTheme());
-            console.log(e);
-    }
-
     return (
         <>
-            <div 
-                className='settings-actions-container' 
-                style={{ border: `3px solid ${style.accent_3}`, backgroundColor: style.background_color }}>
-                <form 
-                    id='sett-pg-setter-form-1'
-                    data-setting-id={1}
-                    className='settings-form setter-form-1'
-                    onSubmit={profileMediaHandler}
-                >
-                    <label htmlFor='sett-pg-user-profile-media-uploader'>
-                        <span 
-                            style={{ 
-                                color: style.accent_2,
-                                borderBottom: `2px solid ${style.accent_1}`
-                            }}
-                        >
-                            {!profile_media ? 'Upload Profile Media' : 'Added'}
-                        </span>
-                    </label>
-                    <input
-                        id='sett-pg-user-profile-media-uploader'
-                        data-input-name='Profile Media'
-                        type='file'
-                        onChange={setProfileMediaHandler}
-                    />
-                    {profile_media_loading && (<span>Loading...</span>)}
-                    <button style={{ color: style.font_color }}>Submit</button>
-                </form>
-                <button data-setting-id='null' type='button' onClick={(e) => resetProfileHandler(e, 'reset_theme')}>Set Theme to Default</button>
-            </div>
+            <form 
+                id='sett-pg-setter-form-1'
+                data-setting-id={1}
+                className='settings-form setter-form-1'
+                onSubmit={profileMediaHandler}
+            >
+                <label htmlFor='sett-pg-user-profile-media-uploader'>
+                    <span 
+                        style={{ 
+                            color: style.accent_2,
+                            borderBottom: `2px solid ${style.accent_1}`
+                        }}
+                    >
+                        {!profile_media ? 'Upload Profile Media' : 'Added'}
+                    </span>
+                </label>
+                <input
+                    id='sett-pg-user-profile-media-uploader'
+                    data-input-name='Profile Media'
+                    type='file'
+                    onChange={setProfileMediaHandler}
+                />
+                {profile_media_loading && (<span>Loading...</span>)}
+                <button style={{ color: style.font_color }}>Submit</button>
+            </form>
         </>
     )
 }

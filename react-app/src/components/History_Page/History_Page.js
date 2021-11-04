@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
+import { editProfile } from '../../store/session';
 import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/history_store';
 import { readUserSettings } from '../../store/settings_store';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -20,6 +21,8 @@ export const HistoryPage = ({ style }) => {
                                 ].join(''), 'g');
 
     const [updated_at, setUpdatedAt] = useState(new Date().toString());
+    const [toggledClock, toggleClock] = useState(true);
+    const [clockTypeBtn, setClockTypeBtn] = useState('12-Hour Clock');
 
     let prevDayOfWk = null;
     let prevDate = null;
@@ -34,6 +37,18 @@ export const HistoryPage = ({ style }) => {
         dispatch(updateHistoryEntry({ entryID, updated_at }));
         history.push('/');
         window.location.reload();
+    }
+
+    const editProfileHandler = async (e, eType) => {
+        if (eType === 'clock_24') {
+            await dispatch(editProfile({
+                id: e.target.dataset.settingId,
+                column: eType,
+                clock_24: toggledClock
+            }))
+            toggleClock(prevClock => !prevClock);
+            setClockTypeBtn(toggledClock ? '12-Hour Clock' : '24-Hour Clock');
+        }
     }
    
     const deleteHandler = (e, entryID) => {
@@ -104,7 +119,16 @@ export const HistoryPage = ({ style }) => {
 
     return (
         <div className='history-page-container'>
-             {entries}
+            <button 
+                onClick={editProfileHandler}
+                style={{ 
+                    backgroundColor: style.background_color,
+                    color: style.font_color
+                }}
+                >
+                    {clockTypeBtn}
+                </button>
+            {entries}
         </div>
     )
 }

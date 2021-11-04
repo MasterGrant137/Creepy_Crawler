@@ -12,12 +12,13 @@ class User(db.Model, UserMixin):
     __tablename__ = 'users'
 
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(40), nullable=False, unique=True)
+    clock_24 = db.Column(db.Boolean, nullable=False, default=True)
     active_theme = db.Column(db.SmallInteger, nullable=False, default=0)
-    theme_count = db.Column(db.SmallInteger, nullable=False, default=0)
     email = db.Column(db.String(255), nullable=False, unique=True)
-    profile_media = db.Column(db.String(1000), nullable=False, default='https://randomuser.me/api/portraits/lego/2.jpg')
     hashed_password = db.Column(db.String(255), nullable=False)
+    profile_media = db.Column(db.String(1000), nullable=False, default='https://randomuser.me/api/portraits/lego/2.jpg')
+    theme_count = db.Column(db.SmallInteger, nullable=False, default=0)
+    username = db.Column(db.String(40), nullable=False, unique=True)
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.now())
     updated_at = db.Column(db.DateTime, nullable=False, default=datetime.now())
 
