@@ -84,9 +84,6 @@ export const EditorForm = ({ style }) => {
         const targFormKids = Array.from(targForm.children);
         const settingID = targForm.dataset.settingId;
         
-        // const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
-        // const isMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
-        
         targFormKids.forEach(targKid => {
             if (targKid.type === 'text') targKid.readOnly = false;
             else targKid.disabled = false;
@@ -99,24 +96,22 @@ export const EditorForm = ({ style }) => {
                 formData.append('setting_id', settingID);
                 formData.append('user_id', user.id);
                 
-                // if (isSubmit && isMedia.value) { 
-                //     formData.append('media', background_media);
-                //     setBackgroundMediaLoading(true);
-                // }
-                
                 targFormKids.forEach(targKid => {
                     if (targKid.tagName !== 'BUTTON') {
                         switch (targKid.dataset.inputName) {
-                            case 'Theme Name': formData.append('theme_name', targKid.value); console.log(targKid.value); break;
-                            case 'Background Color': formData.append('background_color', targKid.value); console.log(targKid.value); break;
-                            case 'Background Media': formData.append('background_media', background_media); setBackgroundMediaLoading(true); console.log(background_media); break;
-                            case 'Background Rotate': formData.append('background_rotate', targKid.checked); console.log(targKid.checked, typeof(targKid.checked)); break;
-                            case 'Font Color': formData.append('font_color', targKid.value); console.log(targKid.value); break;
-                            case 'Font Family': formData.append('font_family', targKid.value.replace(/\s\|\s/, ', ')); console.log(targKid.value); break;
-                            case 'Font Size': formData.append('font_size', `${targKid.value}px`); console.log(targKid.value); break;
-                            case 'Accent 1': formData.append('accent_1', targKid.value); console.log(targKid.value); break;
-                            case 'Accent 2': formData.append('accent_2', targKid.value); console.log(targKid.value); break;
-                            case 'Accent 3': formData.append('accent_3', targKid.value); console.log(targKid.value); break;
+                            case 'Theme Name': formData.append('theme_name', targKid.value); break;
+                            case 'Background Color': formData.append('background_color', targKid.value); break;
+                            case 'Background Media': 
+                                formData.append('background_media', background_media);
+                                setBackgroundMediaLoading(true); 
+                                break;
+                            case 'Background Rotate': formData.append('background_rotate', targKid.checked); break;
+                            case 'Font Color': formData.append('font_color', targKid.value); break;
+                            case 'Font Family': formData.append('font_family', targKid.value.replace(/\s\|\s/, ', ')); break;
+                            case 'Font Size': formData.append('font_size', `${targKid.value}px`); break;
+                            case 'Accent 1': formData.append('accent_1', targKid.value); break;
+                            case 'Accent 2': formData.append('accent_2', targKid.value); break;
+                            case 'Accent 3': formData.append('accent_3', targKid.value); break;
                             default: break;
                         }
                         targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
@@ -158,7 +153,7 @@ export const EditorForm = ({ style }) => {
         >
             <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
             <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name='Theme Name' defaultValue={setting.theme_name} />
-            <label htmlFor={`font-sizes-${idx}`} style={{fontSize: setting.font_size}}>Font Size</label>
+            <label htmlFor={`font-sizes-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
             <select 
                 name={`font-sizes-${idx}`}
                 id={`sett-pg-font-size-editor-${idx}`}
@@ -168,7 +163,7 @@ export const EditorForm = ({ style }) => {
                 >
                 {fontSizes}
             </select>
-            <label htmlFor={`font-families-${idx}`} style={{fontFamily: setting.font_family}}>Font Family</label>
+            <label htmlFor={`font-families-${idx}`} style={{ fontFamily: setting.font_family }}>Font Family</label>
             <select
                 name={`font-families-${idx}`}
                 id={`sett-pg-font-family-editor-${idx}`}

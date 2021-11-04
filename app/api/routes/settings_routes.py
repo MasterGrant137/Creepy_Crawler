@@ -20,29 +20,31 @@ def validation_errors_to_error_messages(validation_errors):
 @login_required
 def add_theme():
     """Add a theme to settings."""
-    theme = Theme.query.filter(Theme.id == request.files['setting_id']).first()
-
-    if 'media' in request.files:
-        media = request.files['media']
-        if allowed_file(media.filename):
-            media.filename = get_unique_filename(media.filename)
-            upload = upload_file_to_s3(media)
-            if 'url' in upload:
-                url = upload['url']
-                theme.background_media=url
 
     new_theme = Theme(
-        user_id=request.files['user_id'],
-        theme_name=request.files['theme_name'],
-        background_color=request.files['background_color'],
-        background_rotate=request.files['background_rotate'],
-        font_color=request.files['font_color'],
-        font_family=request.files['font_family'],
-        font_size=request.files['font_size'],
-        accent_1=request.files['accent_1'],
-        accent_2=request.files['accent_2'],
-        accent_3=request.files['accent_3']
+        user_id=request.form['user_id'],
+        theme_name=request.form['theme_name'],
+        background_color=request.form['background_color'],
+        font_color=request.form['font_color'],
+        font_family=request.form['font_family'],
+        font_size=request.form['font_size'],
+        accent_1=request.form['accent_1'],
+        accent_2=request.form['accent_2'],
+        accent_3=request.form['accent_3']
     )
+
+    if request.form['background_rotate'] == 'false': new_theme.background_rotate=False
+    else: new_theme.background_rotate=True
+
+    if 'background_media' in request.files:
+        background_media = request.files['background_media']
+        if allowed_file(background_media.filename):
+            background_media.filename = get_unique_filename(background_media.filename)
+            upload = upload_file_to_s3(background_media)
+            if 'url' in upload:
+                url = upload['url']
+                new_theme.background_media=url
+
 
     db.session.add(new_theme)
     db.session.commit()
@@ -56,52 +58,18 @@ def get_themes():
     themes = Theme.query.filter(Theme.user_id == current_user.id).all()
     return { 'settings': [ theme.to_dict() for theme in themes ] }
 
-# @settings_routes.route('/<int:settingID>', methods=['PATCH'])
-# @login_required
-# def append_background_media(settingID):
-#     """Update theme data to include background media."""
-    # if 'media' not in request.files:
-    #     return {'errors': 'media required'}, 400
-  
-    # media = request.files['media']
-
-    # if not allowed_file(media.filename):
-    #     return {'errors': ['That file type is not permitted.']}, 400
-
-    # media.filename = get_unique_filename(media.filename)
-    # upload = upload_file_to_s3(media)
-   
-    # #? if dict has no filename key
-    # if 'url' not in upload:
-    #     return upload, 400
-
-    # url = upload['url']
-
-    # theme = Theme.query.filter(Theme.id == settingID).first()
-    # theme.background_media=url
-
-    # db.session.add(theme)
-    # db.session.commit()
-
-    # return { 'setting': theme.to_dict() }
-
-
 @settings_routes.route('/<int:settingID>', methods=['PUT'])
 @login_required
 def update_theme(settingID):
     """Update a theme."""
-    print('HEREEEE', request.form['setting_id'])
     theme = Theme.query.filter(Theme.id == request.form['setting_id']).first()
 
     if 'background_media' in request.files:
-        print('FIRST CONDITION HIT')
         background_media = request.files['background_media']
         if allowed_file(background_media.filename):
-            print('SECOND CONDITION HIT')
             background_media.filename = get_unique_filename(background_media.filename)
             upload = upload_file_to_s3(background_media)
             if 'url' in upload:
-                print('THIRD CONDITION HIT')
                 url = upload['url']
                 theme.background_media=url
 

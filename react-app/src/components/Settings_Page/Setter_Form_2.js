@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import dropdownData from './dropdown_data.json';
-import { createUserSetting, updateThemeMedia } from '../../store/settings_store';
+import { createUserSetting } from '../../store/settings_store';
 
 export const SetterForm2 = ({ style }) => {
     const dispatch = useDispatch();
@@ -85,8 +85,8 @@ export const SetterForm2 = ({ style }) => {
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
 
-        const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
-        const isMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
+        // const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
+        // const isMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
        
         toggleState(prevState => !prevState);
 
@@ -100,32 +100,25 @@ export const SetterForm2 = ({ style }) => {
 
         if (p_f_2_btn === 'Submit') {
             const user_id = user.id;
-    
-            await dispatch(createUserSetting({
-                user_id,
-                theme_name,
-                background_color,
-                background_rotate,
-                font_color,
-                font_family,
-                font_size,
-                accent_1,
-                accent_2,
-                accent_3,
-            }));
+            const formData = new FormData();
 
-            if (isSubmit && isMedia.value) { 
-                console.log('hit', e.target.dataset.settingId);
-
-                const formData = new FormData();
-                formData.append('media', background_media);
-                setBackgroundMediaLoading(true);
-                
-                dispatch(updateThemeMedia(user.id, formData));
-                setBackgroundMediaLoading(false);
-            }
-            resetHandler(e);
+            formData.append('user_id', user_id)
+            formData.append('theme_name', theme_name)
+            formData.append('background_media', background_media);
+            setBackgroundMediaLoading(true);
+            formData.append('background_color', background_color)
+            formData.append('background_rotate', background_rotate)
+            formData.append('font_color', font_color)
+            formData.append('font_family', font_family)
+            formData.append('font_size', font_size)
+            formData.append('accent_1', accent_1)
+            formData.append('accent_2', accent_2)
+            formData.append('accent_3', accent_3)
+            
+            await dispatch(createUserSetting(formData));
+            setBackgroundMediaLoading(false);
         }
+            resetHandler(e);
     }
 
     return (
