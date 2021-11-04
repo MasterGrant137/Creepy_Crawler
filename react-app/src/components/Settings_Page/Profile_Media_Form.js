@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { editProfileMedia } from '../../store/session';
 
-export const SetterForm1 = ({ style }) => {
+export const ProfileMediaForm = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector(state => state.session.user);
 

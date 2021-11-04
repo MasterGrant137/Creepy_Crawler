@@ -45,3 +45,13 @@ def users():
     users = User.query.all()
     return {'users': [user.to_dict() for user in users]}
 ```
+
+```py
+from faker import Faker
+import random
+import string
+
+password_characters = string.ascii_lowercase + string.ascii_uppercase + string.digits + string.punctuation
+
+password=''.join(random.choice(password_characters) for i in range(15))
+```

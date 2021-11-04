@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { editProfile } from '../../store/session';
-//* removed updateThemeMedia
 import { updateUserSetting, deleteUserSetting } from '../../store/settings_store';
 import dropdownData from './dropdown_data.json';
 import '../Main.css';
 import './Settings_Page.css';
 
-export const EditorForm = ({ style }) => {
+export const EditThemeForm = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector(state => state.session.user);
     const settingsObj = useSelector(state => state.settings);
