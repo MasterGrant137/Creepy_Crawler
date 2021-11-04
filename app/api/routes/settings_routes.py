@@ -20,7 +20,6 @@ def validation_errors_to_error_messages(validation_errors):
 @login_required
 def add_theme():
     """Add a theme to settings."""
-
     new_theme = Theme(
         user_id=request.form['user_id'],
         theme_name=request.form['theme_name'],

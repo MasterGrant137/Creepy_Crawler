@@ -81,12 +81,6 @@ export const SetterForm2 = ({ style }) => {
 
     const createSettingHandler = async (e) => {
         e.preventDefault();
-        
-        const targForm = e.target;
-        const targFormKids = Array.from(targForm.children);
-
-        // const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
-        // const isMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Background Media');
        
         toggleState(prevState => !prevState);
 

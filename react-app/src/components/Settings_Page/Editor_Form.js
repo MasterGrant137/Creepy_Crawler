@@ -25,8 +25,6 @@ export const EditorForm = ({ style }) => {
         <option key={fontSize}>{fontSize}</option>
         ))
     
-    // const { background_color, background_rotate, font_color, font_family, font_size, accent_1, accent_2, accent_3 } = style;
-
     const resetHandler = (e) => { 
         const isSubmit = e.target.dataset.submitBtnState;
         if (isSubmit === 'false') return;

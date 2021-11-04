@@ -36,3 +36,12 @@ buttonsArray.forEach(button => {
     }
 })
 ```
+
+```py
+@user_routes.route('/')
+@login_required
+def users():
+    """Get all users."""
+    users = User.query.all()
+    return {'users': [user.to_dict() for user in users]}
+```
