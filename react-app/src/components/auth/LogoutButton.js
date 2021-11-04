@@ -1,7 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { logout } from '../../store/session';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 import '../Main.css';
 import '../Auth.css';
 
@@ -12,7 +11,7 @@ const LogoutButton = ({ style }) => {
   };
 
   return <FontAwesomeIcon
-            icon={faSignOutAlt}
+            icon='sign-out-alt'
             onClick={onLogout} 
             style={{ color: style.accent_2 }}>
               Log Out

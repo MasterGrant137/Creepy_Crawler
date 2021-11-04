@@ -20,18 +20,31 @@ def validation_errors_to_error_messages(validation_errors):
 @login_required
 def add_theme():
     """Add a theme to settings."""
+
     new_theme = Theme(
-        user_id=request.json['user_id'],
-        theme_name=request.json['theme_name'],
-        background_color=request.json['background_color'],
-        background_rotate=request.json['background_rotate'],
-        font_color=request.json['font_color'],
-        font_family=request.json['font_family'],
-        font_size=request.json['font_size'],
-        accent_1=request.json['accent_1'],
-        accent_2=request.json['accent_2'],
-        accent_3=request.json['accent_3'],
+        user_id=request.form['user_id'],
+        theme_name=request.form['theme_name'],
+        background_color=request.form['background_color'],
+        font_color=request.form['font_color'],
+        font_family=request.form['font_family'],
+        font_size=request.form['font_size'],
+        accent_1=request.form['accent_1'],
+        accent_2=request.form['accent_2'],
+        accent_3=request.form['accent_3']
     )
+
+    if request.form['background_rotate'] == 'false': new_theme.background_rotate=False
+    else: new_theme.background_rotate=True
+
+    if 'background_media' in request.files:
+        background_media = request.files['background_media']
+        if allowed_file(background_media.filename):
+            background_media.filename = get_unique_filename(background_media.filename)
+            upload = upload_file_to_s3(background_media)
+            if 'url' in upload:
+                url = upload['url']
+                new_theme.background_media=url
+
 
     db.session.add(new_theme)
     db.session.commit()
@@ -45,54 +58,34 @@ def get_themes():
     themes = Theme.query.filter(Theme.user_id == current_user.id).all()
     return { 'settings': [ theme.to_dict() for theme in themes ] }
 
-@settings_routes.route('/<int:themeID>', methods=['PATCH'])
-@login_required
-def append_background_media(themeID):
-    """Update theme data to include background media."""
-    if 'media' not in request.files:
-        return {'errors': 'media required'}, 400
-  
-    media = request.files['media']
-
-    if not allowed_file(media.filename):
-        return {'errors': ['That file type is not permitted.']}, 400
-
-    media.filename = get_unique_filename(media.filename)
-    upload = upload_file_to_s3(media)
-   
-    #? if dict has no filename key
-    if 'url' not in upload:
-        return upload, 400
-
-    url = upload['url']
-
-    theme = Theme.query.filter(Theme.id == themeID).first()
-    theme.background_media=url
-
-    db.session.add(theme)
-    db.session.commit()
-
-    return { 'user': theme.to_dict() }
-
-
 @settings_routes.route('/<int:settingID>', methods=['PUT'])
 @login_required
 def update_theme(settingID):
     """Update a theme."""
-    theme = Theme.query.filter(Theme.id == settingID).first()
-    setting = request.json['setting']
+    theme = Theme.query.filter(Theme.id == request.form['setting_id']).first()
 
-    if ((theme.user_id == current_user.id) and (theme.id == int(setting['setting_id']))):
-        theme.user_id=setting['user_id']
-        theme.theme_name=setting['theme_name']
-        theme.background_color=setting['background_color']
-        theme.background_rotate=setting['background_rotate']
-        theme.font_color=setting['font_color']
-        theme.font_family=setting['font_family']
-        theme.font_size=setting['font_size']
-        theme.accent_1=setting['accent_1']
-        theme.accent_2=setting['accent_2']
-        theme.accent_3=setting['accent_3']
+    if 'background_media' in request.files:
+        background_media = request.files['background_media']
+        if allowed_file(background_media.filename):
+            background_media.filename = get_unique_filename(background_media.filename)
+            upload = upload_file_to_s3(background_media)
+            if 'url' in upload:
+                url = upload['url']
+                theme.background_media=url
+
+    if request.form['background_rotate'] == 'false': theme.background_rotate=False
+    else: theme.background_rotate=True
+
+    if ((theme.user_id == current_user.id) and (theme.id == int(request.form['setting_id']))):
+        theme.user_id=request.form['user_id']
+        theme.theme_name=request.form['theme_name']
+        theme.background_color=request.form['background_color']
+        theme.font_color=request.form['font_color']
+        theme.font_family=request.form['font_family']
+        theme.font_size=request.form['font_size']
+        theme.accent_1=request.form['accent_1']
+        theme.accent_2=request.form['accent_2']
+        theme.accent_3=request.form['accent_3']
 
         db.session.add(theme)
         db.session.commit()

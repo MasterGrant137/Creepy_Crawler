@@ -2,7 +2,6 @@
 const CREATE_SETTING = 'settings_store/CREATE_SETTING';
 const READ_SETTINGS = 'settings_store/READ_SETTINGS';
 const UPDATE_SETTING = 'settings_store/UPDATE_SETTING';
-const UPDATE_THEME = 'settings_store/UPDATE_THEME';
 const DELETE_SETTING = 'settings_store/DELETE_SETTING';
 
 //$ action creators
@@ -21,29 +20,24 @@ const updateSetting = (setting) => ({
     payload: setting
 })
 
-const updateTheme = (themeID, media) => ({
-    type: UPDATE_THEME,
-    payload: { themeID, media }
-})
-
 const deleteSetting = (settingID) => ({
     type: DELETE_SETTING,
     payload: settingID
 })
 
 //$ thunks
-export const createUserSetting = (setting) => async dispatch => {
+export const createUserSetting = (formData) => async dispatch => {
+    for (let entry of formData) {
+        console.log(entry, typeof(entry[1]));
+    }
     const response = await fetch('/creepycrawler/settings/', {
-        headers: {
-            'Content-Type': 'application/json'
-        },
         method: 'POST',
-        body: JSON.stringify(setting)
+        body: formData
     })
     if (response.ok) {
-        const newSetting = await response.json();
-        await dispatch(createSetting(newSetting));
-        return newSetting;
+        const setting = await response.json();
+        await dispatch(createSetting(setting));
+        return setting;
     } else {
         return response;
     }
@@ -58,15 +52,10 @@ export const readUserSettings = () => async dispatch => {
     }
 }
 
-export const updateUserSetting = (setting) => async dispatch => {
-    const response = await fetch(`/creepycrawler/settings/${setting.setting_id}`, {
-        headers: {
-            'Content-Type': 'application/json'
-        },
+export const updateUserSetting = (settingID, formData) => async dispatch => {
+    const response = await fetch(`/creepycrawler/settings/${settingID}`, {
         method: 'PUT',
-        body: JSON.stringify({
-            setting
-        })
+        body: formData
     })
     if (response.ok) {
         const setting = await response.json();
@@ -74,23 +63,6 @@ export const updateUserSetting = (setting) => async dispatch => {
         return setting;
     }
 }
-
-export const updateThemeMedia = (themeID, formData) => async dispatch => {
-    const response = await fetch(`/creepycrawler/settings/${themeID}`, {
-        method: 'PATCH',
-        body: formData
-    })
-    if (response.ok) {
-        const media = await response.json();
-        dispatch(updateTheme(themeID, media));
-        return media;
-    } else if (response <= 500) {
-        const data = await response.json();
-        if (data.errors) {
-          return data.errors;
-        } else return ['A wild error appeared in the bushes, please try again.']
-    }
-  }
 
 export const deleteUserSetting = (settingID) => async dispatch => {
     const response = await fetch(`/creepycrawler/settings/${settingID}`, {
@@ -123,10 +95,6 @@ export const settingsReducer = (state = initialState, action) => {
         case UPDATE_SETTING:
             const updateSetting = action.payload.setting;
             newState[updateSetting.id] = updateSetting;
-            return newState;
-        case UPDATE_THEME:
-            const theme = action.payload;
-            newState[theme.themeID] = theme.media;
             return newState;
         case DELETE_SETTING:
             const settingID = action.payload;

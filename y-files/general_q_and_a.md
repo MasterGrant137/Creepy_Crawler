@@ -17,3 +17,15 @@
     def edit_user_profile(settingID): 
         ... 
     ```
+
++ I was encountering this error:
+  ```
+  werkzeug.exceptions.BadRequestKeyError: 400 Bad Request:
+  The browser (or proxy) sent a request that this server
+  could not understand. KeyError: 'setting_id'
+  ```
+    + I discovered that I was using `request.files` for non-file keys of
+      the form data. I changed my program to accept the non-file data
+      with `request.form` and the file data with `request.files` and everything started coming together.
+
++ After encountering this error `raise TypeError("Not a boolean value: %r" % value)`, I found that formData.append turns the appended data into a string which I had to account for on the receiving end (my Python routes) since my db was expecting a boolean. Albeit the input data (`checked` attribute of a checkbox) came back as a boolean, it lost that type in the process of appending to form data and had to be type-casted back in my Python routes.
