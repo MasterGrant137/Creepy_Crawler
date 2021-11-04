@@ -14,14 +14,15 @@ export const HistoryPage = ({ style }) => {
 
     const dateRegex = new RegExp([
                                 '([A-Z]{1}[a-z]{2}),\\s', //? day of the week
-                                '(\\d{2}\\s[A-Z]{1}[a-z]{2}\\s\\d{4})\\s', //? day, month, and year
+                                '(\\d{2}\\s[A-Z]{1}[a-z]{2}\\s\\d{4})\\s', //? date
                                 '(\\d{2}:\\d{2}:\\d{2})\\s', //? time
                                 '(.*)' //? time zone
                                 ].join(''), 'g');
 
     const [updated_at, setUpdatedAt] = useState(new Date().toString());
 
-    let dayOfWkLink = null;
+    let prevDayOfWk = null;
+    let prevDate = null;
 
     useEffect(() => {
         dispatch(readHistoryEntries());
@@ -53,9 +54,10 @@ export const HistoryPage = ({ style }) => {
             <h2 id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>
                 {function () {
                     const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
-                    if (!dayOfWkLink || dayOfWk !== dayOfWkLink) {
-                        dayOfWkLink = dayOfWk;
-                        return dayOfWkLink;
+                    // const date = en
+                    if (!prevDayOfWk || dayOfWk !== prevDayOfWk) {
+                        prevDayOfWk = dayOfWk;
+                        return prevDayOfWk;
                     }
                 }()}
             </h2>
@@ -64,17 +66,20 @@ export const HistoryPage = ({ style }) => {
                 className='hist-updated-at'
                 style={{ color: style.accent_2 }}
             >
-                 {function () {
-                     const time = entry['updated_at'].replace(dateRegex, '$2');
-                     return time;
-                    }()}
+                {function () {
+                    const date = entry['updated_at'].replace(dateRegex, '$2');
+                    return date;
+                }()}
             </span>
             <span 
                 id={`tz-ele-${entry.id}`} 
                 className='hist-tz'
                 style={{ color: style.accent_2 }}
             >
-               {entry.tz_abbrev}
+               {function () {
+                    const time = entry['updated_at'].replace(dateRegex, '$3');
+                    return time;
+                }()} {entry.tz_abbrev}
             </span>
             <FontAwesomeIcon 
                 icon={faTrashAlt} 

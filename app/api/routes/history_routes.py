@@ -31,8 +31,8 @@ def add_history_entry():
     form['csrf_token'].data = request.cookies['csrf_token']
 
     if form.validate_on_submit():
-        js_date = form.data['updated_at']
-        js_date_regex = re.compile(r'''
+        js_tstamp = form.data['updated_at']
+        js_tstamp_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
         \((.*)\) #? time zone
@@ -40,10 +40,9 @@ def add_history_entry():
         abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+'
         natoTZRegex = r'[A-Z]TZ'
 
-        js_date_parsed = re.search(js_date_regex, js_date).group(1)
-        js_tz_parsed = re.search(js_date_regex, js_date).group(3)
+        js_date_parsed = re.search(js_tstamp_regex, js_tstamp).group(1)
+        js_tz_parsed = re.search(js_tstamp_regex, js_tstamp).group(3)
         js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
-
 
         history_entry = History(
             user_id=form.data['user_id'],
@@ -76,8 +75,8 @@ def alter_history_entry(entryID):
     entry = History.query.filter(History.id == entryID).first()
 
     if entry.user_id == current_user.id:
-        js_date = request.json['updated_at']
-        js_date_regex = re.compile(r'''
+        js_tstamp = request.json['updated_at']
+        js_tstamp_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
         \((.*)\) #? tz
@@ -85,8 +84,8 @@ def alter_history_entry(entryID):
         abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+'
         natoTZRegex = r'[A-Z]TZ'
 
-        js_date_parsed = re.search(js_date_regex, js_date).group(1)
-        js_tz_parsed = re.search(js_date_regex, js_date).group(3)
+        js_date_parsed = re.search(js_tstamp_regex, js_tstamp).group(1)
+        js_tz_parsed = re.search(js_tstamp_regex, js_tstamp).group(3)
         js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
 
         new_updated_at = datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
