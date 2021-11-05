@@ -52,3 +52,4 @@
         const testA = r.test('word'); // true
         const testB = r.test('1');  // false
     ```
++ Originally I was thinking about resetting state in my Create Theme component 
