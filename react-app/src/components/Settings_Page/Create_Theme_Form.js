@@ -31,8 +31,8 @@ export const CreateThemeForm = ({ style }) => {
     const [font_family, setFontFamily] = useState(style.font_family);
     const [font_size, setFontSize] = useState(style.font_size);
     const [font_color, setFontColor] = useState(style.font_color);
-    const [p_f_2_btn, setPF2Btn] = useState('Edit');
-    const [p_f_2_disabled, setPF2Disabled] = useState(true);
+    const [s_f_2_btn, setPF2Btn] = useState('Edit');
+    const [s_f_2_disabled, setPF2Disabled] = useState(true);
     const [theme_name, setThemeName] = useState('');
     const [toggledState, toggleState] = useState(true);
 
@@ -92,7 +92,7 @@ export const CreateThemeForm = ({ style }) => {
             setPF2Btn('Submit');
         }
 
-        if (p_f_2_btn === 'Submit') {
+        if (s_f_2_btn === 'Submit') {
             const user_id = user.id;
             const formData = new FormData();
 
@@ -124,13 +124,14 @@ export const CreateThemeForm = ({ style }) => {
                 onSubmit={createSettingHandler}
                 style={{ backgroundColor: style.background_color }}
             >
-                <button style={{ color: font_color, fontFamily: font_family }}>
-                    {p_f_2_btn}
+                <button className='sett-pg-edit-btn' style={{ color: font_color, fontFamily: font_family }}>
+                    {s_f_2_btn}
                 </button>
                 <button
                     type='button'
                     data-setting-id={2}
-                    data-submit-btn-state={p_f_2_btn === 'Submit' ? true : false} 
+                    data-submit-btn-state={s_f_2_btn === 'Submit' ? true : false}
+                    className='sett-pg-cancel-btn'
                     onClick={resetHandler}
                     style={{ color: font_color, fontFamily: font_family }}
                 >
@@ -138,8 +139,8 @@ export const CreateThemeForm = ({ style }) => {
                 </button>
                 <label htmlFor='sett-page-theme-name-setter'>Theme Name</label>
                 <input
-                    id='sett-page-theme-name-setter'
-                    readOnly={p_f_2_disabled}
+                    id='sett-pg-theme-name-setter'
+                    readOnly={s_f_2_disabled}
                     data-input-name='Theme Name'
                     type='text'
                     placeholder='Theme Name'
@@ -151,7 +152,7 @@ export const CreateThemeForm = ({ style }) => {
                     id='sett-pg-bg-color-setter'
                     data-input-name='Background Color'
                     type='color'
-                    disabled={p_f_2_disabled}
+                    disabled={s_f_2_disabled}
                     value={background_color}
                     onChange={(e) => setBackgroundColor(e.target.value)}
                 />
@@ -162,7 +163,7 @@ export const CreateThemeForm = ({ style }) => {
                     id='sett-pg-background-media-uploader'
                     data-input-name='Background Media'
                     type='file'
-                    disabled={p_f_2_disabled}
+                    disabled={s_f_2_disabled}
                     onChange={setBackgroundMediaHandler}
                 />
                     {background_media_loading && (<span>Loading...</span>)}
@@ -171,7 +172,7 @@ export const CreateThemeForm = ({ style }) => {
                     id='sett-pg-bg-rotate-setter'
                     data-input-name='Background Rotate'
                     type='checkbox'
-                    disabled={p_f_2_disabled}
+                    disabled={s_f_2_disabled}
                     checked={background_rotate}
                     onChange={(e) => setBackgroundRotate(e.target.checked)}
                 />
@@ -180,7 +181,7 @@ export const CreateThemeForm = ({ style }) => {
                     id='sett-pg-font-color-setter'
                     data-input-name='Font Color'
                     type='color'
-                    disabled={p_f_2_disabled}
+                    disabled={s_f_2_disabled}
                     value={font_color}
                     onChange={(e) => setFontColor(e.target.value)}
                 />
@@ -188,7 +189,7 @@ export const CreateThemeForm = ({ style }) => {
                 <select name='font-sizes'
                         id='sett-pg-font-size-setter'
                         data-input-name='Font Size'
-                        disabled={p_f_2_disabled}
+                        disabled={s_f_2_disabled}
                         value={font_size?.replace('px', '')}
                         onChange={(e) => {
                             const targOption = Array.from(e.target.children).find(option => option.selected);
@@ -202,7 +203,7 @@ export const CreateThemeForm = ({ style }) => {
                     name='font-families'
                     id='sett-pg-font-family-setter'
                     data-input-name='Font Family'
-                    disabled={p_f_2_disabled}
+                    disabled={s_f_2_disabled}
                     value={font_family?.replace(/,\s/, ' | ')}
                     onChange={(e) => {
                         const targOption = Array.from(e.target.children).find(option => option.selected);
@@ -216,7 +217,7 @@ export const CreateThemeForm = ({ style }) => {
                     id='sett-pg-accent-1-color-setter'
                     data-input-name='Accent 1'
                     type='color'
-                    disabled={p_f_2_disabled}
+                    disabled={s_f_2_disabled}
                     value={accent_1}
                     onChange={(e) => setAccent1(e.target.value)}
                 />
@@ -225,7 +226,7 @@ export const CreateThemeForm = ({ style }) => {
                     id='sett-pg-accent-2-color-setter'
                     data-input-name='Accent 2'
                     type='color'
-                    disabled={p_f_2_disabled}
+                    disabled={s_f_2_disabled}
                     value={accent_2}
                     onChange={(e) => setAccent2(e.target.value)}
                 />
@@ -234,7 +235,7 @@ export const CreateThemeForm = ({ style }) => {
                     id='sett-pg-accent-3-color-setter'
                     data-input-name='Accent 3'
                     type='color'
-                    disabled={p_f_2_disabled}
+                    disabled={s_f_2_disabled}
                     value={accent_3}
                     onChange={(e) => setAccent3(e.target.value)}
                 />

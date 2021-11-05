@@ -33,27 +33,26 @@
 /*$=========Setter Form 2=========$*/
 /*=================================*/
 .setter-form-2 {
-    display: grid;
-    grid-template-areas: 
+    display: flex;
+    /* grid-template-areas: 
     'a a a'
-    'b b b'
-    'c c c';
-    grid-template-rows: repeat(3, 1fr);
+    'b b c';
+    grid-template-rows: 1fr 1fr; */
     height: fit-content;
-    width: 900px;
+    /* width: 70%; */
 }
 
-.setter-form-2 > h2 {
+/* .setter-form-2 > h2 {
     grid-area: a;
-}
+} */
 
-.setter-form-2 > label {
+/* .setter-form-2 > input {
     grid-area: b;
-}
+} */
 
-.theme-tester-container {
+/* .theme-tester-container {
     grid-area: c;
-}
+} */
 
 .setter-form-2 *:disabled {
     cursor: not-allowed;
@@ -62,7 +61,7 @@
 .setter-form-2 > label {
     position: relative;
     text-align: center;
-    margin: 2% 0;
+    /* margin: 2% 0; */
     width: 70%;
 }
 
@@ -100,7 +99,9 @@
     width: 155px;
 }
 
-.setter-form-2 > input[type='file'] { left: 10% }
+.setter-form-2 > input[type='file'] { 
+    /* left: 10%  */
+}
 /*=================================*/
 /*$=========Editor Form 1=========$*/
 /*=================================*/
