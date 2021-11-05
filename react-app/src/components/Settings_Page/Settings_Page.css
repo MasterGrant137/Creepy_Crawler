@@ -8,6 +8,7 @@
 .setter-form-2 > input[type='file']::file-selector-button,
 .editor-form > input[type='file']::file-selector-button {
     cursor: pointer;
+    background: none;
     border: none;
     border-radius: 3px;
 }
@@ -34,44 +35,43 @@
 /*=================================*/
 .setter-form-2 {
     display: flex;
-    /* grid-template-areas: 
-    'a a a'
-    'b b c';
-    grid-template-rows: 1fr 1fr; */
-    height: fit-content;
-    /* width: 70%; */
+    height: 50%;
+    border: 5px solid orangered;
 }
 
-/* .setter-form-2 > h2 {
-    grid-area: a;
-} */
-
-/* .setter-form-2 > input {
-    grid-area: b;
-} */
-
-/* .theme-tester-container {
-    grid-area: c;
-} */
+.sett-pg-edit-btn {
+    position: absolute;
+    /* top: 15px; */
+    background-color: orangered;
+}
 
 .setter-form-2 *:disabled {
     cursor: not-allowed;
 }
 
 .setter-form-2 > label {
+    height: fit-content;
     position: relative;
     text-align: center;
     /* margin: 2% 0; */
-    width: 70%;
+    /* width: 70%; */
 }
 
-.setter-form-2 > button {
-    position: relative;
-    width: 30%;
+.setter-form-2 > input {
+    height: fit-content;
+    position: absolute;
+    top: 35%;
 }
 
 .setter-form-2 > select {
+    height: fit-content;
     text-align: center;
+}
+
+.setter-form-2 > button {
+    height: fit-content;
+    position: relative;
+    width: 30%;
 }
 
 .setter-form-2 > select[data-input-name='Font Size'] {
@@ -141,7 +141,7 @@
 }
 
 .editor-form > select[data-input-name='Font Size'] {
-    left: 41%;
+    left: 43%;
     position: relative;
     width: fit-content;
 }
@@ -171,8 +171,7 @@
 .editor-form > input[type='file'] {
     display: flex;
     justify-content: center;
+    left: 21%;
     position: relative;
     width: 155px;
 }
-
-.editor-form > input[type='file'] { left: 20% }

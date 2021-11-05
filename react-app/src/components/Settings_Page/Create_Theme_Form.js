@@ -36,19 +36,17 @@ export const CreateThemeForm = ({ style }) => {
     const [theme_name, setThemeName] = useState('');
     const [toggledState, toggleState] = useState(true);
 
-    const smpl = {
-        a_1: `${accent_1}`,
-        a_2: `${accent_2}`,
-        a_3: `${accent_3}`,
-        b_c: `${background_color}`,
-        f_c: `${font_color}`,
-        f_f: `${font_family}`,
-        f_s: `${font_size}`
-      }
+    // const [a_1, setA1] = useState(style.accent_1);
+    // const [a_2, setA2] = useState(style.accent_2);
+    // const [a_3, setA3] = useState(style.accent_3);
+    // const [b_c, setBC] = useState(style.background_color);
+    // const [f_f, setFF] = useState(style.font_family);
+    // const [f_s, setFS] = useState(style.font_size);
+    // const [f_c, setFC] = useState(style.font_color);
+    // const [t_n, setTN] = useState('');
 
-      const resetHandler = (e) => { 
-        const targID = e.target.dataset.settingId;
-        const targForm = document.getElementById(`sett-pg-setter-form-${targID}`);
+    const resetHandler = () => { 
+        const targForm = document.getElementById('sett-pg-setter-form-2');
         const targFormKids = Array.from(targForm.children);
 
         if (!toggledState) {
@@ -73,17 +71,17 @@ export const CreateThemeForm = ({ style }) => {
             }
         })
     }
-
+    
     const setBackgroundMediaHandler = (e) => {
         const file = e.target.files[0];
         if(file) setBackgroundMedia(file);
     }
-
+    
     const createSettingHandler = async (e) => {
         e.preventDefault();
-       
+        
         toggleState(prevState => !prevState);
-
+        
         if (!toggledState) {
             setPF2Disabled(true);
             setPF2Btn('Edit');
@@ -91,11 +89,11 @@ export const CreateThemeForm = ({ style }) => {
             setPF2Disabled(false);
             setPF2Btn('Submit');
         }
-
+        
         if (s_f_2_btn === 'Submit') {
             const user_id = user.id;
             const formData = new FormData();
-
+            
             formData.append('user_id', user_id)
             formData.append('theme_name', theme_name)
             formData.append('background_media', background_media);
@@ -112,7 +110,7 @@ export const CreateThemeForm = ({ style }) => {
             await dispatch(createUserSetting(formData));
             setBackgroundMediaLoading(false);
         }
-            resetHandler(e);
+        resetHandler(e);
     }
 
     return (
@@ -154,7 +152,7 @@ export const CreateThemeForm = ({ style }) => {
                     type='color'
                     disabled={s_f_2_disabled}
                     value={background_color}
-                    onChange={(e) => setBackgroundColor(e.target.value)}
+                    onChange={(e) => { setBackgroundColor(e.target.value) }}
                 />
                 <label htmlFor='sett-pg-background-media-uploader'>
                     {background_media !== '' ? 'Background Media' : 'Added'}
@@ -243,16 +241,16 @@ export const CreateThemeForm = ({ style }) => {
             <div  
                 className='theme-tester-container'
                 style={{
-                    border: `3px dashed ${smpl.a_3}`,
-                    backgroundColor: smpl.b_c,
-                    fontFamily: smpl.f_f,
-                    fontSize: smpl.f_s,
-                    color: smpl.f_c
+                    border: `3px dashed ${style.accent_3}`,
+                    backgroundColor: style.background_color,
+                    fontFamily: style.font_family,
+                    fontSize: style.font_size,
+                    color: style.font_color
                 }}
             >
-                <h2 style={{ color: style.accent_2, borderBottom: `2px dashed ${smpl.a_1}` }}>{`${theme_name}` || 'Theme Name'}</h2>
+                <h2 style={{ color: style.accent_2, borderBottom: `2px dashed ${style.accent_1}` }}>{`${theme_name}` || 'Theme Name'}</h2>
                 <div 
-                    style={{ backgroundColor: smpl.b_c }}
+                    // style={{ backgroundColor: style.background_color }}
                 >
                     <h3>Test your theme.</h3>
                     <span>See your theme specs here.</span>
