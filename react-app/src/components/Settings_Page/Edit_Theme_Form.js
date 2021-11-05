@@ -3,8 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { editProfile } from '../../store/session';
 import { updateUserSetting, deleteUserSetting } from '../../store/settings_store';
 import dropdownData from './dropdown_data.json';
-import '../Main.css';
-import './Settings_Page.css';
 
 export const EditThemeForm = ({ style }) => {
     const dispatch = useDispatch();

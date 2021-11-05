@@ -46,7 +46,9 @@ export const HistoryPage = ({ style }) => {
                 clock_24: toggledClock
             }))
             toggleClock(prevClock => !prevClock);
+            console.log(clockTypeBtn);
             setClockTypeBtn(toggledClock ? '12-Hour Clock' : '24-Hour Clock');
+            console.log(clockTypeBtn);
         }
     }
    

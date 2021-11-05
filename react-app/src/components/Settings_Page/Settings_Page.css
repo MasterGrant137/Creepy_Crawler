@@ -1,9 +1,22 @@
 .settings-form {
-    display: flex;
-    flex-direction: column;
     padding: 10px;
     text-align: center;
     overflow-y: auto;
+}
+
+.setter-form-1 > input[type='file']::file-selector-button,
+.setter-form-2 > input[type='file']::file-selector-button,
+.editor-form > input[type='file']::file-selector-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+/*=================================*/
+/*$=========Setter Form 1=========$*/
+/*=================================*/
+.setter-form-1 {
+    display: flex;
+    flex-direction: column;
 }
 
 .setter-form-1 > input[type='file'] {
@@ -16,16 +29,99 @@
     position: relative;
     width: 30%;
 }
-
+/*=================================*/
+/*$=========Setter Form 2=========$*/
+/*=================================*/
 .setter-form-2 {
+    display: grid;
+    grid-template-areas: 
+    'a a a'
+    'b b b'
+    'c c c';
+    grid-template-rows: repeat(3, 1fr);
     height: fit-content;
+    width: 900px;
 }
 
-.setter-form-2 *:disabled, .editor-form *:disabled {
+.setter-form-2 > h2 {
+    grid-area: a;
+}
+
+.setter-form-2 > label {
+    grid-area: b;
+}
+
+.theme-tester-container {
+    grid-area: c;
+}
+
+.setter-form-2 *:disabled {
     cursor: not-allowed;
 }
 
-.setter-form-2 > label, .editor-form > label {
+.setter-form-2 > label {
+    position: relative;
+    text-align: center;
+    margin: 2% 0;
+    width: 70%;
+}
+
+.setter-form-2 > button {
+    position: relative;
+    width: 30%;
+}
+
+.setter-form-2 > select {
+    text-align: center;
+}
+
+.setter-form-2 > select[data-input-name='Font Size'] {
+    position: relative;
+    width: fit-content;
+}
+
+.setter-form-2 > input[type='text'] {
+    position: relative;
+    width: 70%;
+}
+
+.setter-form-2 > input[type='color'] {
+    position: relative;
+} 
+
+.setter-form-2 > input[type='checkbox'] {
+    position: relative;
+}
+
+.setter-form-2 > input[type='file'] {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 155px;
+}
+
+.setter-form-2 > input[type='file'] { left: 10% }
+/*=================================*/
+/*$=========Editor Form 1=========$*/
+/*=================================*/
+.editor-form {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 625px;
+    margin: 5px;
+    min-width: 300px;
+}
+
+.editor-form *:disabled {
+    cursor: not-allowed;
+}
+
+.editor-form:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.editor-form > label {
     left: 15%;
     position: relative;
     text-align: center;
@@ -33,17 +129,17 @@
     width: 70%;
 }
 
-.setter-form-2 > button, .editor-form > button {
+.editor-form > button {
     left: 35%;
     position: relative;
     width: 30%;
 }
 
-.setter-form-2 > select, .editor-form > select {
+.editor-form > select {
     text-align: center;
 }
 
-.setter-form-2 > select[data-input-name='Font Size'], .editor-form > select[data-input-name='Font Size'] {
+.editor-form > select[data-input-name='Font Size'] {
     left: 41%;
     position: relative;
     width: fit-content;
@@ -55,54 +151,27 @@
     width: fit-content;
 }
 
-.setter-form-2 > input[type='text'], .editor-form > input[type='text'] {
+.editor-form > input[type='text'] {
     left: 15%;
     position: relative;
     width: 70%;
 }
-
-.setter-form-2 > input[type='color'] {
-    left: 37%;
-    position: relative;
-} 
 
 .editor-form > input[type='color'] {
     left: 40%;
     position: relative;
 }
 
-.setter-form-2 > input[type='checkbox'], .editor-form > input[type='checkbox'] {
+.editor-form > input[type='checkbox'] {
     left: 45%;
     position: relative;
 }
 
-.setter-form-2 > input[type='file'], .editor-form > input[type='file'] {
+.editor-form > input[type='file'] {
     display: flex;
     justify-content: center;
     position: relative;
     width: 155px;
 }
 
-.setter-form-2 > input[type='file'] { left: 10% }
-
 .editor-form > input[type='file'] { left: 20% }
-
-
-.setter-form-1 > input[type='file']::file-selector-button,
-.setter-form-2 > input[type='file']::file-selector-button,
-.editor-form > input[type='file']::file-selector-button {
-    cursor: pointer;
-    border: none;
-    border-radius: 3px;
-}
-
-.editor-form {
-    border-radius: 10px;
-    height: 625px;
-    margin: 5px;
-    min-width: 300px;
-}
-
-.editor-form:hover {
-    box-shadow: 0 0 5px black;
-}

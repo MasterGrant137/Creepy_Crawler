@@ -61,7 +61,6 @@ ul li {
 
 .create-theme-container {
     border-radius: 5px;
-    display: flex;
     height: 308px;
     overflow-y: auto;
     width: fit-content;
