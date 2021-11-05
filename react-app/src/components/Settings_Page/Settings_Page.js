@@ -24,23 +24,24 @@ export const SettingsPage = ({ style }) => {
         <div className='settings-page-container'>
             <h1 style={{ borderBottom: `2px solid ${style.accent_1}` }}>Settings</h1>
             <div className='create-and-test-container'>
-            <div 
-                className='settings-actions-container' 
-                style={{ border: `3px solid ${style.accent_3}`, backgroundColor: style.background_color }}
-            >
-                <h1 style={{ borderBottom: `2px solid ${style.accent_1}` }}>Profile</h1>
-                <ProfileMediaForm style={style} />
-                <button data-setting-id='null' type='button' onClick={(e) => resetProfileHandler(e, 'reset_theme')}>Set Theme to Default</button>
-            </div>
-            <div 
-                className='create-theme-container' 
-                style={{ border: `3px solid ${style.accent_3}` }}
-            >
-                <CreateThemeForm style={style} />
-            </div>
+                <div 
+                    className='settings-actions-container' 
+                    style={{ border: `3px solid ${style.accent_3}`, backgroundColor: style.background_color }}
+                >
+                    <h2 style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>Profile</h2>
+                    <ProfileMediaForm style={style} />
+                    <button data-setting-id='null' type='button' onClick={(e) => resetProfileHandler(e, 'reset_theme')}>Set Theme to Default</button>
+                </div>
+                <div 
+                    className='create-theme-container' 
+                    style={{ border: `3px solid ${style.accent_3}` }}
+                >
+                    <h2 style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>Create Theme</h2>
+                    <CreateThemeForm style={style} />
+                </div>
             </div>
             <div className='themes-container'>
-            <EditThemeForm style={style} />
+                <EditThemeForm style={style} />
             </div>
         </div>
     )

@@ -42,7 +42,6 @@ export const HistoryPage = ({ style }) => {
     const editProfileHandler = async (e, eType) => {
         if (eType === 'clock_24') {
             await dispatch(editProfile({
-                id: e.target.dataset.settingId,
                 column: eType,
                 clock_24: toggledClock
             }))
@@ -120,14 +119,14 @@ export const HistoryPage = ({ style }) => {
     return (
         <div className='history-page-container'>
             <button 
-                onClick={editProfileHandler}
+                onClick={(e) => editProfileHandler(e, 'clock_24')}
                 style={{ 
                     backgroundColor: style.background_color,
                     color: style.font_color
                 }}
-                >
-                    {clockTypeBtn}
-                </button>
+            >
+                {clockTypeBtn}
+            </button>
             {entries}
         </div>
     )

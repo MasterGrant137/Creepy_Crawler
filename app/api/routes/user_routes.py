@@ -44,9 +44,9 @@ def upload_media(userID):
 
     return user.to_dict()
 
-@user_routes.route('/profile/<int:settingID>', methods=['PATCH'])
+@user_routes.route('/profile', methods=['PATCH'])
 @login_required
-def edit_user_profile(settingID):
+def edit_user_profile():
     """Update user profile setting."""
     profile_setting = request.json
     req_column = request.json['column']
@@ -66,6 +66,7 @@ def edit_user_profile(settingID):
         user.clock_24 = profile_setting['clock_24']
         db.session.add(user)
         db.session.commit()
+        return user.to_dict()
 
 # @user_routes.route('/profile/reset-theme', methods=['PATCH'])
 # @login_required

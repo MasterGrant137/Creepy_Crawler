@@ -124,7 +124,6 @@ export const CreateThemeForm = ({ style }) => {
                 onSubmit={createSettingHandler}
                 style={{ backgroundColor: style.background_color }}
             >
-                <h2 style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>Create Theme</h2>
                 <button style={{ color: font_color, fontFamily: font_family }}>
                     {p_f_2_btn}
                 </button>
@@ -253,7 +252,7 @@ export const CreateThemeForm = ({ style }) => {
                 <h2 style={{ color: style.accent_2, borderBottom: `2px dashed ${smpl.a_1}` }}>{`${theme_name}` || 'Theme Name'}</h2>
                 <div 
                     style={{ backgroundColor: smpl.b_c }}
-                    >
+                >
                     <h3>Test your theme.</h3>
                     <span>See your theme specs here.</span>
                 </div>
