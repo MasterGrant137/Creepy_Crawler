@@ -95,6 +95,10 @@
     margin: 10%;
 }
 
+.sett-pg-row-c input {
+    top: 77%;
+}
+
 .setter-form-2 input[data-input-name='Theme Name'] {
     left: 1.5%;
 }
@@ -108,32 +112,32 @@
     text-align: center;
 }
 
-.setter-form-2 input[type='color'] {
-   
-}
-
 .setter-form-2 input[data-input-name='Font Color'] {
+    left: 5%;
 }
 
 .setter-form-2 input[data-input-name='Background Color'] {
+    left: 21.5%;
 }
 
 .setter-form-2 input[data-input-name='Accent 1'] {
+    left: 37%;
 }
 
 .setter-form-2 input[data-input-name='Accent 2'] {
+    right: 45.5%;
 }
 
 .setter-form-2 input[data-input-name='Accent 3'] {
-    top: 57%;
+    right: 33.5%;
 }
 
 .setter-form-2 input[data-input-name='Background Media'] {
-    top: 10%;
+    left: 6%;
 }
 
 .setter-form-2 input[data-input-name='Background Rotate'] {
-    top: 10%;
+    left: 47%;
 }
 /*=================================*/
 /*$=========Editor Form 1=========$*/
