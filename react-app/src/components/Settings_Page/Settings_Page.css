@@ -1,6 +1,5 @@
 .settings-form {
     padding: 10px;
-    text-align: center;
     overflow-y: auto;
 }
 
@@ -33,71 +32,6 @@
 /*=================================*/
 /*$=========Setter Form 2=========$*/
 /*=================================*/
-/* .setter-form-2 {
-    display: flex;
-    height: 50%;
-} */
-
-/* .sett-pg-submit-btn {
-    position: absolute;
-} */
-
-/* .sett-pg-cancel-btn {
-    position: absolute;
-} */
-
-/* .setter-form-2 *:disabled {
-    cursor: not-allowed;
-} */
-
-/* .setter-form-2 > label {
-    height: fit-content;
-    position: relative;
-    text-align: center;
-} */
-
-/* .setter-form-2 > input {
-    height: fit-content;
-    position: absolute;
-    top: 35%;
-    right: 5%;
-} */
-
-/* .setter-form-2 > select {
-    height: fit-content;
-    text-align: center;
-} */
-
-/* .setter-form-2 > button {
-    height: fit-content;
-    position: absolute;
-    width: 30%;
-} */
-
-/* .setter-form-2 > select[data-input-name='Font Size'] {
-    position: absolute;
-    width: fit-content;
-} */
-
-/* .setter-form-2 > input[type='text'] {
-    position: absolute;
-} */
-
-/* .setter-form-2 > input[type='color'] {
-    position: absolute;
-    width: 15px;
-}  */
-
-/* .setter-form-2 > input[type='checkbox'] {
-    position: absolute;
-} */
-
-/* .setter-form-2 > input[type='file'] {
-    justify-content: center;
-    position: absolute;
-    width: 155px;
-} */
-
 .setter-form-2 {
     display: grid;
     grid-template-areas: 
@@ -105,6 +39,7 @@
     'b'
     'c';
     height: 50%;
+    /* text-align: left; */
     width: 80%;
 }
 
@@ -120,8 +55,9 @@
 
 .sett-pg-submit-btn {
     position: absolute;
-    bottom: 15px;
-    background-color: blue;
+    top: 15px;
+    width: fit-content;
+    background-color: red;
 }
 
 .sett-pg-cancel-btn {
@@ -135,7 +71,6 @@
 .setter-form-2 > label {
     height: fit-content;
     position: relative;
-    text-align: center;
 }
 
 .setter-form-2 > input[data-input-name='Theme Name'] {
@@ -147,7 +82,6 @@
 
 .setter-form-2 > select {
     height: fit-content;
-    text-align: center;
 }
 
 .setter-form-2 > button {
@@ -176,7 +110,6 @@
 }
 
 .setter-form-2 > input[type='file'] {
-    justify-content: center;
     position: absolute;
     width: 155px;
 }
@@ -203,7 +136,6 @@
 .editor-form > label {
     left: 15%;
     position: relative;
-    text-align: center;
     margin: 2% 0;
     width: 70%;
 }
@@ -215,7 +147,7 @@
 }
 
 .editor-form > select {
-    text-align: center;
+
 }
 
 .editor-form > select[data-input-name='Font Size'] {
@@ -247,8 +179,6 @@
 }
 
 .editor-form > input[type='file'] {
-    display: flex;
-    justify-content: center;
     left: 21%;
     position: relative;
     width: 155px;
