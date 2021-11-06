@@ -45,6 +45,7 @@ function App() {
   document.body.style.fontFamily = siteTheme.font_family;
   document.body.style.fontSize = siteTheme.font_size;
   if (siteTheme.background_rotate) body.classList.add('background-rotate');
+  else if (!siteTheme.background_rotate) body.classList.remove('background-rotate');
 
   useEffect(() => {
     (async() => {

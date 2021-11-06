@@ -27,19 +27,19 @@
 .setter-form-1 > button {
     left: 35%;
     position: relative;
-    width: 30%;
+    width: fit-content;
 }
 /*=================================*/
 /*$=========Setter Form 2=========$*/
 /*=================================*/
 .setter-form-2 {
     display: grid;
+    gap: 10%;
     grid-template-areas: 
     'a'
     'b'
     'c';
     height: 50%;
-    /* text-align: left; */
     width: 80%;
 }
 
@@ -73,11 +73,12 @@
     position: relative;
 }
 
-.setter-form-2 > input[data-input-name='Theme Name'] {
-    height: fit-content;
-    position: absolute;
-    top: 35%;
-    left: 0%;
+.setter-form-2 > input {
+
+}
+
+.setter-form-2 > select[data-input-name='Font Family'] {
+    text-align: center;
 }
 
 .setter-form-2 > select {
@@ -86,24 +87,12 @@
 
 .setter-form-2 > button {
     height: fit-content;
-    /* position: absolute; */
     width: 30%;
 }
 
 .setter-form-2 > select[data-input-name='Font Size'] {
     position: absolute;
-    width: fit-content;
 }
-
-/* .setter-form-2 > input[type='text'] {
-    position: absolute; */
-    /* width: 70%; */
-/* } */
-
-.setter-form-2 > input[type='color'] {
-    position: absolute;
-    width: 15px;
-} 
 
 .setter-form-2 > input[type='checkbox'] {
     position: absolute;
@@ -146,10 +135,6 @@
     width: 30%;
 }
 
-.editor-form > select {
-
-}
-
 .editor-form > select[data-input-name='Font Size'] {
     left: 43%;
     position: relative;
@@ -159,6 +144,7 @@
  .editor-form > select[data-input-name='Font Family'] {
     left: 14%;
     position: relative;
+    text-align: center;
     width: fit-content;
 }
 
@@ -179,7 +165,7 @@
 }
 
 .editor-form > input[type='file'] {
-    left: 21%;
+    left: 20%;
     position: relative;
     width: 155px;
 }

@@ -44,7 +44,6 @@ def add_theme():
                 url = upload['url']
                 new_theme.background_media=url
 
-
     db.session.add(new_theme)
     db.session.commit()
 
