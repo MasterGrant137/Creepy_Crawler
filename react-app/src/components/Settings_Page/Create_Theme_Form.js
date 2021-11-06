@@ -116,51 +116,18 @@ export const CreateThemeForm = ({ style }) => {
                 >
                     Refresh
                 </button>
-                <label htmlFor='sett-page-theme-name-setter'>Theme Name</label>
-                <input
-                    id='sett-pg-theme-name-setter'
-                    data-input-name='Theme Name'
-                    type='text'
-                    placeholder='Theme Name'
-                    value={theme_name}
-                    onChange={(e) => setThemeName(e.target.value)}
-                />
-                <label htmlFor='sett-pg-bg-color-setter'>Background Color</label>
-                <input
-                    id='sett-pg-bg-color-setter'
-                    data-input-name='Background Color'
-                    type='color'
-                    value={background_color}
-                    onChange={(e) => { setBackgroundColor(e.target.value) }}
-                />
-                <label htmlFor='sett-pg-background-media-uploader'>
-                    {background_media !== '' ? 'Background Media' : 'Added'}
-                </label>
-                <input
-                    id='sett-pg-background-media-uploader'
-                    data-input-name='Background Media'
-                    type='file'
-                    onChange={setBackgroundMediaHandler}
-                />
-                    {background_media_loading && (<span>Loading...</span>)}
-                <label htmlFor='sett-pg-bg-rotate-setter'>Background Rotate</label>
-                <input
-                    id='sett-pg-bg-rotate-setter'
-                    data-input-name='Background Rotate'
-                    type='checkbox'
-                    checked={background_rotate}
-                    onChange={(e) => setBackgroundRotate(e.target.checked)}
-                />
-                <label htmlFor='sett-pg-font-color-setter'>Font Color</label>
-                <input
-                    id='sett-pg-font-color-setter'
-                    data-input-name='Font Color'
-                    type='color'
-                    value={font_color}
-                    onChange={(e) => setFontColor(e.target.value)}
-                />
-                <label htmlFor='font-sizes'>Font Size</label>
-                <select 
+                <div className='sett-pg-row-a'>
+                    <label htmlFor='sett-page-theme-name-setter'>Theme Name</label>
+                    <input
+                        id='sett-pg-theme-name-setter'
+                        data-input-name='Theme Name'
+                        type='text'
+                        placeholder='Theme Name'
+                        value={theme_name}
+                        onChange={(e) => setThemeName(e.target.value)}
+                    />
+                    <label htmlFor='font-sizes'>Font Size</label>
+                    <select 
                         name='font-sizes'
                         id='sett-pg-font-size-setter'
                         data-input-name='Font Size'
@@ -170,46 +137,85 @@ export const CreateThemeForm = ({ style }) => {
                             const targOption = Array.from(e.target.children).find(option => option.selected);
                             setFontSize(`${targOption.innerText}px`);
                         }}
-                >
-                    {fontSizes}
-                </select>
-                <label htmlFor='font-families'>Font Family</label>
-                <select 
-                    name='font-families'
-                    id='sett-pg-font-family-setter'
-                    data-input-name='Font Family'
-                    value={font_family?.replace(/,\s/, ' | ')}
-                    onChange={(e) => {
-                        const targOption = Array.from(e.target.children).find(option => option.selected);
-                        setFontFamily(targOption.innerText.replace(/\s\|\s/, ', '));
-                    }}
-                >
-                {fontFamilies}
-                </select>
-                <label htmlFor='sett-pg-accent-1-color-setter'>Accent 1</label>
-                <input
-                    id='sett-pg-accent-1-color-setter'
-                    data-input-name='Accent 1'
-                    type='color'
-                    value={accent_1}
-                    onChange={(e) => setAccent1(e.target.value)}
-                />
-                <label htmlFor='sett-pg-accent-2-color-setter'>Accent 2</label>
-                <input
-                    id='sett-pg-accent-2-color-setter'
-                    data-input-name='Accent 2'
-                    type='color'
-                    value={accent_2}
-                    onChange={(e) => setAccent2(e.target.value)}
-                />
-                <label htmlFor='sett-pg-accent-3-color-setter'>Accent 3</label>
-                <input
-                    id='sett-pg-accent-3-color-setter'
-                    data-input-name='Accent 3'
-                    type='color'
-                    value={accent_3}
-                    onChange={(e) => setAccent3(e.target.value)}
-                />
+                    >
+                        {fontSizes}
+                    </select>
+                    <label htmlFor='font-families'>Font Family</label>
+                    <select 
+                        name='font-families'
+                        id='sett-pg-font-family-setter'
+                        data-input-name='Font Family'
+                        value={font_family?.replace(/,\s/, ' | ')}
+                        onChange={(e) => {
+                            const targOption = Array.from(e.target.children).find(option => option.selected);
+                            setFontFamily(targOption.innerText.replace(/\s\|\s/, ', '));
+                        }}
+                    >
+                        {fontFamilies}
+                    </select>
+                </div>
+                <div className='sett-pg-row-b'>
+                    <label htmlFor='sett-pg-font-color-setter'>Font Color</label>
+                    <input
+                        id='sett-pg-font-color-setter'
+                        data-input-name='Font Color'
+                        type='color'
+                        value={font_color}
+                        onChange={(e) => setFontColor(e.target.value)}
+                    />
+                    <label htmlFor='sett-pg-bg-color-setter'>Background Color</label>
+                    <input
+                        id='sett-pg-bg-color-setter'
+                        data-input-name='Background Color'
+                        type='color'
+                        value={background_color}
+                        onChange={(e) => { setBackgroundColor(e.target.value) }}
+                    />
+                    <label htmlFor='sett-pg-background-media-uploader'>
+                        {background_media !== '' ? 'Background Media' : 'Added'}
+                    </label>
+                    <input
+                        id='sett-pg-background-media-uploader'
+                        data-input-name='Background Media'
+                        type='file'
+                        onChange={setBackgroundMediaHandler}
+                    />
+                    {background_media_loading && (<span>Loading...</span>)}
+                    <label htmlFor='sett-pg-bg-rotate-setter'>Background Rotate</label>
+                    <input
+                        id='sett-pg-bg-rotate-setter'
+                        data-input-name='Background Rotate'
+                        type='checkbox'
+                        checked={background_rotate}
+                        onChange={(e) => setBackgroundRotate(e.target.checked)}
+                    />
+                </div>
+                <div className='sett-pg-row-c'>
+                    <label htmlFor='sett-pg-accent-1-color-setter'>Accent 1</label>
+                    <input
+                        id='sett-pg-accent-1-color-setter'
+                        data-input-name='Accent 1'
+                        type='color'
+                        value={accent_1}
+                        onChange={(e) => setAccent1(e.target.value)}
+                    />
+                    <label htmlFor='sett-pg-accent-2-color-setter'>Accent 2</label>
+                    <input
+                        id='sett-pg-accent-2-color-setter'
+                        data-input-name='Accent 2'
+                        type='color'
+                        value={accent_2}
+                        onChange={(e) => setAccent2(e.target.value)}
+                    />
+                    <label htmlFor='sett-pg-accent-3-color-setter'>Accent 3</label>
+                    <input
+                        id='sett-pg-accent-3-color-setter'
+                        data-input-name='Accent 3'
+                        type='color'
+                        value={accent_3}
+                        onChange={(e) => setAccent3(e.target.value)}
+                    />
+                </div>
             </form>
             <div  
                 className='theme-tester-container'

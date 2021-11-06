@@ -99,9 +99,23 @@
 } */
 
 .setter-form-2 {
-    display: flex;
+    display: grid;
+    grid-template-areas: 
+    'a'
+    'b'
+    'c';
     height: 50%;
-    /* border: 5px solid orangered; */
+    width: 80%;
+}
+
+.sett-pg-row-a {
+    grid-area: a;
+}
+.sett-pg-row-b {
+    grid-area: b;
+}
+.sett-pg-row-c {
+    grid-area: c;
 }
 
 .sett-pg-submit-btn {
