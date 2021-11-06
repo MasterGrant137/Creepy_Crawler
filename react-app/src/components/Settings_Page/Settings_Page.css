@@ -41,7 +41,16 @@
     'b'
     'c';
     height: 60%;
+    text-align: left;
     width: 80%;
+}
+
+.setter-form-2 *:disabled {
+    cursor: not-allowed;
+}
+
+.setter-form-2 input, .setter-form-2 select {
+    position: absolute;
 }
 
 .sett-pg-row-a {
@@ -66,69 +75,64 @@
     top: 10%;
 }
 
-.setter-form-2 *:disabled {
-    cursor: not-allowed;
+.sett-pg-row-a label {
+    margin: 5%;
 }
 
-.sett-pg-row-a label, .sett-pg-row-c label {
-    margin: 10%;
+.sett-pg-row-a input, .sett-pg-row-a select {
+    top: 37%;
 }
 
 .sett-pg-row-b label {
     margin: 3%;
 }
 
+.sett-pg-row-b input {
+    top: 57%;
+}
+
+.sett-pg-row-c label {
+    margin: 10%;
+}
+
 .setter-form-2 input[data-input-name='Theme Name'] {
-    position: absolute;
-    left: 7%;
-    top: 37%;
+    left: 1.5%;
 }
 
 .setter-form-2 select[data-input-name='Font Size'] {
-    position: absolute;
-    left: 38.4%;
-    top: 37%;
-
+    left: 25.5%;
 }
 
 .setter-form-2 select[data-input-name='Font Family'] {
-    position: absolute;
-    top: 10%;
+    right: 45%;
     text-align: center;
 }
 
+.setter-form-2 input[type='color'] {
+   
+}
+
 .setter-form-2 input[data-input-name='Font Color'] {
-    position: absolute;
-    top: 10%;
 }
 
 .setter-form-2 input[data-input-name='Background Color'] {
-    position: absolute;
-    top: 10%;
 }
 
 .setter-form-2 input[data-input-name='Accent 1'] {
-    position: absolute;
-    top: 10%;
 }
 
 .setter-form-2 input[data-input-name='Accent 2'] {
-    position: absolute;
-    top: 10%;
 }
 
 .setter-form-2 input[data-input-name='Accent 3'] {
-    position: absolute;
-    top: 10%;
+    top: 57%;
 }
 
 .setter-form-2 input[data-input-name='Background Media'] {
-    position: absolute;
     top: 10%;
 }
 
 .setter-form-2 input[data-input-name='Background Rotate'] {
-    position: absolute;
     top: 10%;
 }
 /*=================================*/
