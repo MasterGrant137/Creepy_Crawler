@@ -52,4 +52,8 @@
         const testA = r.test('word'); // true
         const testB = r.test('1');  // false
     ```
-+ Originally I was thinking about resetting state in my Create Theme component 
++ Originally, I was thinking about resetting state in my create theme component every time the user switched a theme. I came to realize that this isn't a desirable behavior since a user may want to switch themes while continuing to create a theme. The create theme and edit theme components are naturally decoupled since I have them in separate components so it was no issue allowing my create theme component state to be different than that which is stored in the Redux store and present throughout the rest of the document. 
+   + However, due to the amount of obstacles I encountered while pursuing that undesirable behavior, I was deeply curious how I would have made the two communicate if I actually wanted them to (i.e. selecting a theme on edit form resets input values on create form). 
+        + After ruminating on the subject for some time, I discovered that the create theme component elements are available to the edit theme component on the DOM. This is made evident by using `document.getElementById('my-css-class-name-for-create-theme-ele');`. This was very interesting, and made me think that if I, indeed, sought to change values on my create theme component, I had the access to do so. The issue is that it only works for a fraction of a second for input elements. So, while I could change the style of the theme preview from my edit form, I couldn't change the inputs that governed its style in the create form.
+        + A more effective alternative could be to have the components merged in some capacity so to share state and the methods that act upon that state.
+        + Another possible alternative would be to store create theme's state on the higher order settings page component and pass it to create theme's sibling edit theme.

@@ -98,7 +98,7 @@ export const CreateThemeForm = ({ style }) => {
                     style={{ 
                         color: style.font_color,
                         fontFamily: style.font_family,
-                        fontSize: font_size
+                        fontSize: style.font_size
                     }}
                 >
                     Submit
@@ -109,8 +109,8 @@ export const CreateThemeForm = ({ style }) => {
                     className='sett-pg-cancel-btn'
                     onClick={resetHandler}
                     style={{ 
-                        color: font_color, 
-                        fontFamily: font_family,
+                        color: style.font_color, 
+                        fontFamily: style.font_family,
                         fontSize: style.font_size
                     }}
                 >
@@ -160,7 +160,8 @@ export const CreateThemeForm = ({ style }) => {
                     onChange={(e) => setFontColor(e.target.value)}
                 />
                 <label htmlFor='font-sizes'>Font Size</label>
-                <select name='font-sizes'
+                <select 
+                        name='font-sizes'
                         id='sett-pg-font-size-setter'
                         data-input-name='Font Size'
 

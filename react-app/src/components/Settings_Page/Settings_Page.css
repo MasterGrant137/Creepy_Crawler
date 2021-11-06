@@ -33,6 +33,71 @@
 /*=================================*/
 /*$=========Setter Form 2=========$*/
 /*=================================*/
+/* .setter-form-2 {
+    display: flex;
+    height: 50%;
+} */
+
+/* .sett-pg-submit-btn {
+    position: absolute;
+} */
+
+/* .sett-pg-cancel-btn {
+    position: absolute;
+} */
+
+/* .setter-form-2 *:disabled {
+    cursor: not-allowed;
+} */
+
+/* .setter-form-2 > label {
+    height: fit-content;
+    position: relative;
+    text-align: center;
+} */
+
+/* .setter-form-2 > input {
+    height: fit-content;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+} */
+
+/* .setter-form-2 > select {
+    height: fit-content;
+    text-align: center;
+} */
+
+/* .setter-form-2 > button {
+    height: fit-content;
+    position: absolute;
+    width: 30%;
+} */
+
+/* .setter-form-2 > select[data-input-name='Font Size'] {
+    position: absolute;
+    width: fit-content;
+} */
+
+/* .setter-form-2 > input[type='text'] {
+    position: absolute;
+} */
+
+/* .setter-form-2 > input[type='color'] {
+    position: absolute;
+    width: 15px;
+}  */
+
+/* .setter-form-2 > input[type='checkbox'] {
+    position: absolute;
+} */
+
+/* .setter-form-2 > input[type='file'] {
+    justify-content: center;
+    position: absolute;
+    width: 155px;
+} */
+
 .setter-form-2 {
     display: flex;
     height: 50%;
@@ -41,8 +106,12 @@
 
 .sett-pg-submit-btn {
     position: absolute;
-    /* top: 15px; */
-    /* background-color: orangered; */
+    bottom: 15px;
+    background-color: blue;
+}
+
+.sett-pg-cancel-btn {
+    /* position: absolute; */
 }
 
 .setter-form-2 *:disabled {
@@ -53,14 +122,13 @@
     height: fit-content;
     position: relative;
     text-align: center;
-    /* margin: 2% 0; */
-    /* width: 70%; */
 }
 
-.setter-form-2 > input {
+.setter-form-2 > input[data-input-name='Theme Name'] {
     height: fit-content;
     position: absolute;
     top: 35%;
+    left: 0%;
 }
 
 .setter-form-2 > select {
@@ -70,37 +138,33 @@
 
 .setter-form-2 > button {
     height: fit-content;
-    position: relative;
+    /* position: absolute; */
     width: 30%;
 }
 
 .setter-form-2 > select[data-input-name='Font Size'] {
-    position: relative;
+    position: absolute;
     width: fit-content;
 }
 
-.setter-form-2 > input[type='text'] {
-    position: relative;
-    width: 70%;
-}
+/* .setter-form-2 > input[type='text'] {
+    position: absolute; */
+    /* width: 70%; */
+/* } */
 
 .setter-form-2 > input[type='color'] {
-    position: relative;
+    position: absolute;
+    width: 15px;
 } 
 
 .setter-form-2 > input[type='checkbox'] {
-    position: relative;
+    position: absolute;
 }
 
 .setter-form-2 > input[type='file'] {
-    display: flex;
     justify-content: center;
-    position: relative;
+    position: absolute;
     width: 155px;
-}
-
-.setter-form-2 > input[type='file'] { 
-    /* left: 10%  */
 }
 /*=================================*/
 /*$=========Editor Form 1=========$*/

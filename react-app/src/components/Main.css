@@ -63,6 +63,7 @@ ul li {
     border-radius: 5px;
     height: 308px;
     overflow-y: auto;
+    position: relative;
     width: fit-content;
 }
 

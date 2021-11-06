@@ -196,7 +196,6 @@ export const EditThemeForm = ({ style }) => {
                 type='button'
                 onClick={(e) => editProfileHandler(e, 'active_theme')} 
                 style={{ color: setting.font_color }}
-                data-log={console.log(document.getElementById('sett-pg-setter-form-2'))}
             >
                 Use
             </button>
