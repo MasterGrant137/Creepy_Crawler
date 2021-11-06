@@ -34,7 +34,7 @@ export const SettingsPage = ({ style }) => {
                 </div>
                 <div 
                     className='create-theme-container' 
-                    style={{ border: `3px solid ${style.accent_3}` }}
+                    style={{ border: `3px solid ${style.accent_3}`, backgroundColor: style.background_color }}
                 >
                     <h2 style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>Create Theme</h2>
                     <CreateThemeForm style={style} />

@@ -33,13 +33,14 @@
 /*$=========Setter Form 2=========$*/
 /*=================================*/
 .setter-form-2 {
+    border: 5px red solid;
     display: grid;
     gap: 10%;
     grid-template-areas: 
     'a'
     'b'
     'c';
-    height: 50%;
+    height: 60%;
     width: 80%;
 }
 
@@ -55,52 +56,73 @@
 
 .sett-pg-submit-btn {
     position: absolute;
-    top: 15px;
-    width: fit-content;
-    background-color: red;
+    top: 10%;
+    left: 5%;
 }
 
 .sett-pg-cancel-btn {
-    /* position: absolute; */
+    position: absolute;
+    top: 10%;
+    left: 15%;
 }
 
 .setter-form-2 *:disabled {
     cursor: not-allowed;
 }
 
-.setter-form-2 > label {
-    height: fit-content;
-    position: relative;
+.setter-form-2 label {
+    margin: 10%;
 }
 
-.setter-form-2 > input {
+/* .setter-form-2 input {
+    margin: 5%;
+} */
 
+.setter-form-2 input[data-input-name='Theme Name'] {
+    position: absolute;
+    top: 10%;
 }
 
-.setter-form-2 > select[data-input-name='Font Family'] {
+.setter-form-2 select[data-input-name='Font Size'] {
+    position: absolute;
+    top: 10%;
+}
+
+.setter-form-2 select[data-input-name='Font Family'] {
+    position: absolute;
+    top: 10%;
     text-align: center;
 }
 
-.setter-form-2 > select {
-    height: fit-content;
-}
-
-.setter-form-2 > button {
-    height: fit-content;
-    width: 30%;
-}
-
-.setter-form-2 > select[data-input-name='Font Size'] {
+.setter-form-2 > select[data-input-name='Font Color'] {
     position: absolute;
 }
 
-.setter-form-2 > input[type='checkbox'] {
+.setter-form-2 > select[data-input-name='Background Color'] {
     position: absolute;
 }
 
-.setter-form-2 > input[type='file'] {
+.setter-form-2 > select[data-input-name='Accent 1'] {
     position: absolute;
-    width: 155px;
+}
+
+.setter-form-2 > select[data-input-name='Accent 2'] {
+    position: absolute;
+}
+
+.setter-form-2 > select[data-input-name='Accent 3'] {
+    position: absolute;
+}
+
+.setter-form-2 > select[data-input-name='Background Media'] {
+    position: absolute;
+}
+
+.setter-form-2 > select[data-input-name='Background Rotate'] {
+    position: absolute;
+}
+.setter-form-2 > select[data-input-name='Background Media'] {
+    position: absolute;
 }
 /*=================================*/
 /*$=========Editor Form 1=========$*/
