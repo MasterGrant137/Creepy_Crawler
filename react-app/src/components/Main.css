@@ -61,10 +61,10 @@ ul li {
 
 .create-theme-container {
     border-radius: 5px;
-    height: 308px;
+    height: 40vh;
     overflow-y: auto;
     position: relative;
-    width: fit-content;
+    width: 70vw;
 }
 
 .theme-tester-container {

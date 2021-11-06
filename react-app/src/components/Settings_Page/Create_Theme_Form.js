@@ -91,7 +91,6 @@ export const CreateThemeForm = ({ style }) => {
                 data-setting-id={2}
                 className='settings-form setter-form-2' 
                 onSubmit={createSettingHandler}
-                style={{ backgroundColor: style.background_color }}
             >
                 <button 
                     className='sett-pg-submit-btn' 
@@ -171,26 +170,6 @@ export const CreateThemeForm = ({ style }) => {
                         value={background_color}
                         onChange={(e) => { setBackgroundColor(e.target.value) }}
                     />
-                    <label htmlFor='sett-pg-background-media-uploader'>
-                        {background_media !== '' ? 'Background Media' : 'Added'}
-                    </label>
-                    <input
-                        id='sett-pg-background-media-uploader'
-                        data-input-name='Background Media'
-                        type='file'
-                        onChange={setBackgroundMediaHandler}
-                    />
-                    {background_media_loading && (<span>Loading...</span>)}
-                    <label htmlFor='sett-pg-bg-rotate-setter'>Background Rotate</label>
-                    <input
-                        id='sett-pg-bg-rotate-setter'
-                        data-input-name='Background Rotate'
-                        type='checkbox'
-                        checked={background_rotate}
-                        onChange={(e) => setBackgroundRotate(e.target.checked)}
-                    />
-                </div>
-                <div className='sett-pg-row-c'>
                     <label htmlFor='sett-pg-accent-1-color-setter'>Accent 1</label>
                     <input
                         id='sett-pg-accent-1-color-setter'
@@ -214,6 +193,26 @@ export const CreateThemeForm = ({ style }) => {
                         type='color'
                         value={accent_3}
                         onChange={(e) => setAccent3(e.target.value)}
+                    />
+                </div>
+                <div className='sett-pg-row-c'>
+                    <label htmlFor='sett-pg-background-media-uploader'>
+                        {background_media !== '' ? 'Background Media' : 'Added'}
+                    </label>
+                    <input
+                        id='sett-pg-background-media-uploader'
+                        data-input-name='Background Media'
+                        type='file'
+                        onChange={setBackgroundMediaHandler}
+                    />
+                    {background_media_loading && (<span>Loading...</span>)}
+                    <label htmlFor='sett-pg-bg-rotate-setter'>Background Rotate</label>
+                    <input
+                        id='sett-pg-bg-rotate-setter'
+                        data-input-name='Background Rotate'
+                        type='checkbox'
+                        checked={background_rotate}
+                        onChange={(e) => setBackgroundRotate(e.target.checked)}
                     />
                 </div>
             </form>

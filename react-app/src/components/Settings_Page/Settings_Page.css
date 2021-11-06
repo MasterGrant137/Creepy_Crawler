@@ -33,7 +33,7 @@
 /*$=========Setter Form 2=========$*/
 /*=================================*/
 .setter-form-2 {
-    border: 5px red solid;
+    background-color: purple;
     display: grid;
     gap: 10%;
     grid-template-areas: 
@@ -56,36 +56,39 @@
 
 .sett-pg-submit-btn {
     position: absolute;
-    top: 10%;
     left: 5%;
+    top: 10%;
 }
 
 .sett-pg-cancel-btn {
     position: absolute;
-    top: 10%;
     left: 15%;
+    top: 10%;
 }
 
 .setter-form-2 *:disabled {
     cursor: not-allowed;
 }
 
-.setter-form-2 label {
+.sett-pg-row-a label, .sett-pg-row-c label {
     margin: 10%;
 }
 
-/* .setter-form-2 input {
-    margin: 5%;
-} */
+.sett-pg-row-b label {
+    margin: 3%;
+}
 
 .setter-form-2 input[data-input-name='Theme Name'] {
     position: absolute;
-    top: 10%;
+    left: 7%;
+    top: 37%;
 }
 
 .setter-form-2 select[data-input-name='Font Size'] {
     position: absolute;
-    top: 10%;
+    left: 38.4%;
+    top: 37%;
+
 }
 
 .setter-form-2 select[data-input-name='Font Family'] {
@@ -94,35 +97,39 @@
     text-align: center;
 }
 
-.setter-form-2 > select[data-input-name='Font Color'] {
+.setter-form-2 input[data-input-name='Font Color'] {
     position: absolute;
+    top: 10%;
 }
 
-.setter-form-2 > select[data-input-name='Background Color'] {
+.setter-form-2 input[data-input-name='Background Color'] {
     position: absolute;
+    top: 10%;
 }
 
-.setter-form-2 > select[data-input-name='Accent 1'] {
+.setter-form-2 input[data-input-name='Accent 1'] {
     position: absolute;
+    top: 10%;
 }
 
-.setter-form-2 > select[data-input-name='Accent 2'] {
+.setter-form-2 input[data-input-name='Accent 2'] {
     position: absolute;
+    top: 10%;
 }
 
-.setter-form-2 > select[data-input-name='Accent 3'] {
+.setter-form-2 input[data-input-name='Accent 3'] {
     position: absolute;
+    top: 10%;
 }
 
-.setter-form-2 > select[data-input-name='Background Media'] {
+.setter-form-2 input[data-input-name='Background Media'] {
     position: absolute;
+    top: 10%;
 }
 
-.setter-form-2 > select[data-input-name='Background Rotate'] {
+.setter-form-2 input[data-input-name='Background Rotate'] {
     position: absolute;
-}
-.setter-form-2 > select[data-input-name='Background Media'] {
-    position: absolute;
+    top: 10%;
 }
 /*=================================*/
 /*$=========Editor Form 1=========$*/
