@@ -83,25 +83,25 @@
     position: absolute;
 }
 
-.sett-pg-row-a label { top: 29% }
-.sett-pg-row-a input, .sett-pg-row-a select { top: 37% }
+.sett-pg-row-a label { top: 25% }
+.sett-pg-row-a input, .sett-pg-row-a select { top: 33% }
 
-.sett-pg-row-b label { top: 49% }
-.sett-pg-row-b input { top: 57% }
+.sett-pg-row-b label { top: 45% }
+.sett-pg-row-b input { top: 53% }
 
-.sett-pg-row-c label { top: 69% }
-.sett-pg-row-c input { top: 77% }
+.sett-pg-row-c label { bottom: 25% }
+.sett-pg-row-c input { bottom: 17% }
 
 
 .setter-form-2 label[data-label-name='Theme Name'] { left: 8% }
 .setter-form-2 input[data-input-name='Theme Name'] { left: 4.5% }
 
-.setter-form-2 label[data-label-name='Font Size'] { left: 30% }
-.setter-form-2 select[data-input-name='Font Size'] { left: 32% }
+.setter-form-2 label[data-label-name='Font Size'] { left: 28.5% }
+.setter-form-2 select[data-input-name='Font Size'] { left: 30% }
 
 .setter-form-2 label[data-label-name='Font Family'] { right: 39% }
 .setter-form-2 select[data-input-name='Font Family'] {
-    left: 44%;
+    right: 33%;
     text-align: center;
 }
 
