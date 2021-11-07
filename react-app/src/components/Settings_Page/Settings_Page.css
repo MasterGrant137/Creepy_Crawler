@@ -5,6 +5,9 @@
     overflow-y: auto;
 }
 
+.create-and-test-container h2 {
+    margin-bottom: 0;
+}
 
 .setter-form-1 > input[type='file']::file-selector-button,
 .setter-form-2 > input[type='file']::file-selector-button,
@@ -43,9 +46,9 @@
     'a'
     'b'
     'c';
-    height: 60%;
+    height: 70%;
     text-align: left;
-    width: 80%;
+    width: 70%;
 }
 
 .setter-form-2 *:disabled { cursor: not-allowed }
