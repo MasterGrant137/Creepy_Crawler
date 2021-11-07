@@ -43,7 +43,7 @@
 /*$=========Setter Form 2=========$*/
 /*=================================*/
 .setter-form-2 {
-    background-color: purple;
+    /* background-color: purple; */
     height: 78.3%;
     width: 70%;
 }
@@ -88,8 +88,8 @@
 .sett-pg-row-b label { top: 45% }
 .sett-pg-row-b input { top: 54% }
 
-.sett-pg-row-c label { bottom: 24% }
-.sett-pg-row-c input { bottom: 15% }
+.sett-pg-row-c label { top: 65% }
+.sett-pg-row-c input { top: 74% }
 
 
 .setter-form-2 label[data-label-name='Theme Name'] { left: 7% }
@@ -98,9 +98,9 @@
 .setter-form-2 label[data-label-name='Font Size'] { left: 28.5% }
 .setter-form-2 select[data-input-name='Font Size'] { left: 30% }
 
-.setter-form-2 label[data-label-name='Font Family'] { right: 41.8% }
+.setter-form-2 label[data-label-name='Font Family'] { left: 51.8% }
 .setter-form-2 select[data-input-name='Font Family'] {
-    right: 36%;
+    left: 46%;
     text-align: center;
 }
 
@@ -113,11 +113,11 @@
 .setter-form-2 label[data-label-name='Accent 1'] { left: 35% }
 .setter-form-2 input[data-input-name='Accent 1'] { left: 35.5% }
 
-.setter-form-2 label[data-label-name='Accent 2'] { right: 46% }
-.setter-form-2 input[data-input-name='Accent 2'] { right: 46.5% }
+.setter-form-2 label[data-label-name='Accent 2'] { left: 46% }
+.setter-form-2 input[data-input-name='Accent 2'] { left: 46.5% }
 
-.setter-form-2 label[data-label-name='Accent 3'] { right: 33% }
-.setter-form-2 input[data-input-name='Accent 3'] { right: 33.5% }
+.setter-form-2 label[data-label-name='Accent 3'] { left: 56% }
+.setter-form-2 input[data-input-name='Accent 3'] { left: 56.5% }
 
 .setter-form-2 label[data-label-name='Background Media'] { left: 8.5% }
 .setter-form-2 input[data-input-name='Background Media'] { 
@@ -125,8 +125,8 @@
     width: 185px; 
 }
 
-.setter-form-2 label[data-label-name='Background Rotate'] { right: 35.5% }
-.setter-form-2 input[data-input-name='Background Rotate'] { right: 41.5% }
+.setter-form-2 label[data-label-name='Background Rotate'] { left: 35.5% }
+.setter-form-2 input[data-input-name='Background Rotate'] { left: 41.5% }
 /*=================================*/
 /*$=========Editor Form 1=========$*/
 /*=================================*/
@@ -140,24 +140,14 @@
     min-width: 300px;
 }
 
-.editor-form *:disabled {
-    cursor: not-allowed;
-}
+.editor-form *:disabled { cursor: not-allowed }
 
-.editor-form:hover {
-    box-shadow: 0 0 5px black;
-}
+.editor-form:hover { box-shadow: 0 0 5px black }
 
-.editor-form > label {
-    margin: 2% 0;
-}
+.editor-form > label { margin: 2% 0 }
 
-.editor-form > input {
-    cursor: pointer;
-}
+.editor-form > input { cursor: pointer }
 
-.editor-form > select[data-input-name='Font Family'] {
-    text-align: center;
-}
+.editor-form > select[data-input-name='Font Family'] { text-align: center }
 
 .editor-form > input[type='file'] { width: 155px }
