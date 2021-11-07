@@ -150,8 +150,8 @@ export const EditThemeForm = ({ style }) => {
             <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name='Theme Name' defaultValue={setting.theme_name} />
             <label htmlFor={`font-sizes-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
             <select 
-                name={`font-sizes-${idx}`}
                 id={`sett-pg-font-size-editor-${idx}`}
+                name={`font-sizes-${idx}`}
                 data-input-name='Font Size'
                 disabled={true}
                 defaultValue={setting.font_size?.replace('px', '')}
@@ -160,8 +160,8 @@ export const EditThemeForm = ({ style }) => {
             </select>
             <label htmlFor={`font-families-${idx}`} style={{ fontFamily: setting.font_family }}>Font Family</label>
             <select
-                name={`font-families-${idx}`}
                 id={`sett-pg-font-family-editor-${idx}`}
+                name={`font-families-${idx}`}
                 data-input-name='Font Family'
                 disabled={true}
                 defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
