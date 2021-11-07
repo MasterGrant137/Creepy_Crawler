@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import dropdownData from './dropdown_data.json';
 import { createUserSetting } from '../../store/settings_store';
@@ -21,6 +21,8 @@ export const CreateThemeForm = ({ style }) => {
         </option>
     ))
     
+    const themeName = useRef(null);
+
     const [accent_1, setAccent1] = useState(style.accent_1);
     const [accent_2, setAccent2] = useState(style.accent_2);
     const [accent_3, setAccent3] = useState(style.accent_3);
@@ -34,24 +36,16 @@ export const CreateThemeForm = ({ style }) => {
     const [theme_name, setThemeName] = useState('');
 
     const resetHandler = () => { 
-        const targForm = document.getElementById('sett-pg-setter-form-2');
-        const targFormKids = Array.from(targForm.children);
-
-        targFormKids.forEach(targKid => {
-            switch (targKid.dataset.inputName) {
-                case 'Theme Name': setThemeName(style.theme_name || ''); break;
-                case 'Background Color': setBackgroundColor(style.background_color); break;
-                case 'Background Media': targKid.value = ''; break;
-                case 'Background Rotate': setBackgroundRotate(style.background_rotate); break;
-                case 'Font Color': setFontColor(style.font_color); break;
-                case 'Font Family': setFontFamily(style.font_family); break;
-                case 'Font Size': setFontSize(style.font_size); break;
-                case 'Accent 1': setAccent1(style.accent_1); break;
-                case 'Accent 2': setAccent2(style.accent_2); break;
-                case 'Accent 3': setAccent3(style.accent_3); break;
-                default: break;
-            }
-        })
+        setThemeName(style.theme_name || '');
+        setBackgroundColor(style.background_color);
+        setBackgroundMedia(style.background_media || '');
+        setBackgroundRotate(style.background_rotate);
+        setFontColor(style.font_color);
+        setFontFamily(style.font_family);
+        setFontSize(style.font_size);
+        setAccent1(style.accent_1);
+        setAccent2(style.accent_2);
+        setAccent3(style.accent_3);
     }
     
     const setBackgroundMediaHandler = (e) => {
@@ -119,6 +113,7 @@ export const CreateThemeForm = ({ style }) => {
                     <label data-label-name='Theme Name' htmlFor='sett-page-theme-name-setter'>Theme Name</label>
                     <input
                         id='sett-pg-theme-name-setter'
+                        ref={themeName}
                         data-input-name='Theme Name'
                         type='text'
                         placeholder='Theme Name'
@@ -130,7 +125,6 @@ export const CreateThemeForm = ({ style }) => {
                         name='font-sizes'
                         id='sett-pg-font-size-setter'
                         data-input-name='Font Size'
-
                         value={font_size?.replace('px', '')}
                         onChange={(e) => {
                             const targOption = Array.from(e.target.children).find(option => option.selected);

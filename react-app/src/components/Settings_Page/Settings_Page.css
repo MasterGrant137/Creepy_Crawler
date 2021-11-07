@@ -127,6 +127,179 @@
 
 .setter-form-2 label[data-label-name='Background Rotate'] { left: 35.5% }
 .setter-form-2 input[data-input-name='Background Rotate'] { left: 41.5% }
+
+.setter-form-2 {
+    /* background-color: purple; */
+    height: 78.3%;
+    width: 70%;
+}
+
+.setter-form-2 *:disabled { cursor: not-allowed }
+
+.setter-form-2 input, .setter-form-2 select { position: absolute; }
+
+.sett-pg-row-a {
+    grid-area: a;
+}
+
+.sett-pg-row-b {
+    grid-area: b;
+}
+
+.sett-pg-row-c {
+    grid-area: c;
+}
+
+.sett-pg-submit-btn {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.sett-pg-cancel-btn {
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+.sett-pg-row-a label,
+.sett-pg-row-b label,
+.sett-pg-row-c label {
+    position: absolute;
+}
+
+.sett-pg-row-a label { top: 25% }
+.sett-pg-row-a input, .sett-pg-row-a select { top: 34% }
+
+.sett-pg-row-b label { top: 45% }
+.sett-pg-row-b input { top: 54% }
+
+.sett-pg-row-c label { top: 65% }
+.sett-pg-row-c input { top: 74% }
+
+
+.setter-form-2 label[data-label-name='Theme Name'] { left: 7% }
+.setter-form-2 input[data-input-name='Theme Name'] { left: 4% }
+
+.setter-form-2 label[data-label-name='Font Size'] { left: 28.5% }
+.setter-form-2 select[data-input-name='Font Size'] { left: 30% }
+
+.setter-form-2 label[data-label-name='Font Family'] { left: 51.8% }
+.setter-form-2 select[data-input-name='Font Family'] {
+    left: 46%;
+    text-align: center;
+}
+
+.setter-form-2 label[data-label-name='Font Color'] { left: 3.5% }
+.setter-form-2 input[data-input-name='Font Color'] { left: 5% }
+
+.setter-form-2 label[data-label-name='Background Color'] { left: 16% }
+.setter-form-2 input[data-input-name='Background Color'] { left: 20% }
+
+.setter-form-2 label[data-label-name='Accent 1'] { left: 35% }
+.setter-form-2 input[data-input-name='Accent 1'] { left: 35.5% }
+
+.setter-form-2 label[data-label-name='Accent 2'] { left: 46% }
+.setter-form-2 input[data-input-name='Accent 2'] { left: 46.5% }
+
+.setter-form-2 label[data-label-name='Accent 3'] { left: 56% }
+.setter-form-2 input[data-input-name='Accent 3'] { left: 56.5% }
+
+.setter-form-2 label[data-label-name='Background Media'] { left: 8.5% }
+.setter-form-2 input[data-input-name='Background Media'] { 
+    left: 6.5%;  
+    width: 185px; 
+}
+
+.setter-form-2 label[data-label-name='Background Rotate'] { left: 35.5% }
+.setter-form-2 input[data-input-name='Background Rotate'] { left: 41.5% }
+
+/*
+.setter-form-2 {
+    height: 78.3%;
+    width: 70%;
+}
+
+.setter-form-2 *:disabled { cursor: not-allowed }
+
+.setter-form-2 input, .setter-form-2 select { position: absolute; }
+
+.sett-pg-row-a {
+    grid-area: a;
+}
+
+.sett-pg-row-b {
+    grid-area: b;
+}
+
+.sett-pg-row-c {
+    grid-area: c;
+}
+
+.sett-pg-submit-btn {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.sett-pg-cancel-btn {
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+.sett-pg-row-a label,
+.sett-pg-row-b label,
+.sett-pg-row-c label {
+    position: absolute;
+}
+
+.sett-pg-row-a label { top: 25% }
+.sett-pg-row-a input, .sett-pg-row-a select { top: 34% }
+
+.sett-pg-row-b label { top: 45% }
+.sett-pg-row-b input { top: 54% }
+
+.sett-pg-row-c label { top: 65% }
+.sett-pg-row-c input { top: 74% }
+
+
+.setter-form-2 label[data-label-name='Theme Name'] { left: 7% }
+.setter-form-2 input[data-input-name='Theme Name'] { left: 4% }
+
+.setter-form-2 label[data-label-name='Font Size'] { left: 28.5% }
+.setter-form-2 select[data-input-name='Font Size'] { left: 30% }
+
+.setter-form-2 label[data-label-name='Font Family'] { left: 51.8% }
+.setter-form-2 select[data-input-name='Font Family'] {
+    left: 46%;
+    text-align: center;
+}
+
+.setter-form-2 label[data-label-name='Font Color'] { left: 3.5% }
+.setter-form-2 input[data-input-name='Font Color'] { left: 5% }
+
+.setter-form-2 label[data-label-name='Background Color'] { left: 16% }
+.setter-form-2 input[data-input-name='Background Color'] { left: 20% }
+
+.setter-form-2 label[data-label-name='Accent 1'] { left: 35% }
+.setter-form-2 input[data-input-name='Accent 1'] { left: 35.5% }
+
+.setter-form-2 label[data-label-name='Accent 2'] { left: 46% }
+.setter-form-2 input[data-input-name='Accent 2'] { left: 46.5% }
+
+.setter-form-2 label[data-label-name='Accent 3'] { left: 56% }
+.setter-form-2 input[data-input-name='Accent 3'] { left: 56.5% }
+
+.setter-form-2 label[data-label-name='Background Media'] { left: 8.5% }
+.setter-form-2 input[data-input-name='Background Media'] { 
+    left: 6.5%;  
+    width: 185px; 
+}
+
+.setter-form-2 label[data-label-name='Background Rotate'] { left: 35.5% }
+.setter-form-2 input[data-input-name='Background Rotate'] { left: 41.5% }
+*/
 /*=================================*/
 /*$=========Editor Form 1=========$*/
 /*=================================*/
