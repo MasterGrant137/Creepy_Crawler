@@ -137,7 +137,7 @@ export const EditThemeForm = ({ style }) => {
             key={`key-${setting.id}`}
             id={`sett-pg-editor-form-${setting.id}`}
             data-setting-id={setting.id}
-            className='settings-form editor-form'
+            className='editor-form'
             onSubmit={editFormHandler}
             style={{
                     backgroundImage: `url(${setting.background_media})`,

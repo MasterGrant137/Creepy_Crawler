@@ -89,7 +89,7 @@ export const CreateThemeForm = ({ style }) => {
             <form 
                 id='sett-pg-setter-form-2'
                 data-setting-id={2}
-                className='settings-form setter-form-2' 
+                className='setter-form-2' 
                 onSubmit={createSettingHandler}
             >
                 <button 
@@ -116,7 +116,7 @@ export const CreateThemeForm = ({ style }) => {
                     Refresh
                 </button>
                 <div className='sett-pg-row-a'>
-                    <label htmlFor='sett-page-theme-name-setter'>Theme Name</label>
+                    <label data-label-name='Theme Name' htmlFor='sett-page-theme-name-setter'>Theme Name</label>
                     <input
                         id='sett-pg-theme-name-setter'
                         data-input-name='Theme Name'
@@ -125,7 +125,7 @@ export const CreateThemeForm = ({ style }) => {
                         value={theme_name}
                         onChange={(e) => setThemeName(e.target.value)}
                     />
-                    <label htmlFor='font-sizes'>Font Size</label>
+                    <label data-label-name='Font Size' htmlFor='font-sizes'>Font Size</label>
                     <select 
                         name='font-sizes'
                         id='sett-pg-font-size-setter'
@@ -139,7 +139,7 @@ export const CreateThemeForm = ({ style }) => {
                     >
                         {fontSizes}
                     </select>
-                    <label htmlFor='font-families'>Font Family</label>
+                    <label data-label-name='Font Family' htmlFor='font-families'>Font Family</label>
                     <select 
                         name='font-families'
                         id='sett-pg-font-family-setter'
@@ -154,7 +154,7 @@ export const CreateThemeForm = ({ style }) => {
                     </select>
                 </div>
                 <div className='sett-pg-row-b'>
-                    <label htmlFor='sett-pg-font-color-setter'>Font Color</label>
+                    <label data-label-name='Font Color' htmlFor='sett-pg-font-color-setter'>Font Color</label>
                     <input
                         id='sett-pg-font-color-setter'
                         data-input-name='Font Color'
@@ -162,7 +162,7 @@ export const CreateThemeForm = ({ style }) => {
                         value={font_color}
                         onChange={(e) => setFontColor(e.target.value)}
                     />
-                    <label htmlFor='sett-pg-bg-color-setter'>Background Color</label>
+                    <label data-label-name='Background Color' htmlFor='sett-pg-bg-color-setter'>Background Color</label>
                     <input
                         id='sett-pg-bg-color-setter'
                         data-input-name='Background Color'
@@ -170,7 +170,7 @@ export const CreateThemeForm = ({ style }) => {
                         value={background_color}
                         onChange={(e) => { setBackgroundColor(e.target.value) }}
                     />
-                    <label htmlFor='sett-pg-accent-1-color-setter'>Accent 1</label>
+                    <label data-label-name='Accent 1' htmlFor='sett-pg-accent-1-color-setter'>Accent 1</label>
                     <input
                         id='sett-pg-accent-1-color-setter'
                         data-input-name='Accent 1'
@@ -178,7 +178,7 @@ export const CreateThemeForm = ({ style }) => {
                         value={accent_1}
                         onChange={(e) => setAccent1(e.target.value)}
                     />
-                    <label htmlFor='sett-pg-accent-2-color-setter'>Accent 2</label>
+                    <label data-label-name='Accent 2' htmlFor='sett-pg-accent-2-color-setter'>Accent 2</label>
                     <input
                         id='sett-pg-accent-2-color-setter'
                         data-input-name='Accent 2'
@@ -186,7 +186,7 @@ export const CreateThemeForm = ({ style }) => {
                         value={accent_2}
                         onChange={(e) => setAccent2(e.target.value)}
                     />
-                    <label htmlFor='sett-pg-accent-3-color-setter'>Accent 3</label>
+                    <label data-label-name='Accent 3' htmlFor='sett-pg-accent-3-color-setter'>Accent 3</label>
                     <input
                         id='sett-pg-accent-3-color-setter'
                         data-input-name='Accent 3'
@@ -196,7 +196,7 @@ export const CreateThemeForm = ({ style }) => {
                     />
                 </div>
                 <div className='sett-pg-row-c'>
-                    <label htmlFor='sett-pg-background-media-uploader'>
+                    <label data-label-name='Background Media' htmlFor='sett-pg-background-media-uploader'>
                         {background_media !== '' ? 'Background Media' : 'Added'}
                     </label>
                     <input
@@ -206,7 +206,7 @@ export const CreateThemeForm = ({ style }) => {
                         onChange={setBackgroundMediaHandler}
                     />
                     {background_media_loading && (<span>Loading...</span>)}
-                    <label htmlFor='sett-pg-bg-rotate-setter'>Background Rotate</label>
+                    <label data-label-name='Background Rotate' htmlFor='sett-pg-bg-rotate-setter'>Background Rotate</label>
                     <input
                         id='sett-pg-bg-rotate-setter'
                         data-input-name='Background Rotate'
