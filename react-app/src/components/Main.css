@@ -71,9 +71,9 @@ ul li {
     border-radius: 5px;
     position: absolute;
     height: fit-content;
-    /* padding: 10px; */
+    padding: 0.5%;
     right: 0;
-    bottom: 0;
+    bottom: 10%;
     width: fit-content;
 }
 

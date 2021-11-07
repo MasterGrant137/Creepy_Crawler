@@ -1,12 +1,17 @@
 .setter-form-1,
 .setter-form-2,
 .editor-form {
-    padding: 10px;
+    padding: 1%;
     overflow-y: auto;
 }
 
 .create-and-test-container h2 {
     margin-bottom: 0;
+}
+
+.theme-tester-container h2,
+.theme-tester-container h3 {
+    margin: 4% 0;
 }
 
 .setter-form-1 input[type='file']::file-selector-button,
@@ -41,22 +46,24 @@
 .setter-form-2 {
     background-color: purple;
     display: grid;
-    gap: 10%;
+    gap: 10px;
     grid-template-areas: 
     'a'
     'b'
     'c';
-    height: 70%;
-    text-align: left;
+    height: 78.3%;
+    /* text-align: left; */
     width: 70%;
 }
 
 .setter-form-2 *:disabled { cursor: not-allowed }
 
-.setter-form-2 input, .setter-form-2 select { position: absolute }
+.setter-form-2 input, .setter-form-2 select { position: relative; height: fit-content; }
 
 .sett-pg-row-a {
+    display: flex;
     grid-area: a;
+    justify-content: space-around;
 }
 
 .sett-pg-row-b {
@@ -82,7 +89,7 @@
 .sett-pg-row-a label,
 .sett-pg-row-b label,
 .sett-pg-row-c label {
-    position: absolute;
+    /* position: absolute; */
 }
 
 .sett-pg-row-a input, .sett-pg-row-a select { top: 37% }
@@ -90,15 +97,15 @@
 .sett-pg-row-c input { top: 77% }
 
 
-.setter-form-2 label[data-label-name='Theme Name'] { left: 1.5% }
-.setter-form-2 input[data-input-name='Theme Name'] { left: 1.5% }
+/* .setter-form-2 label[data-label-name='Theme Name'] { left: 3.5% } */
+/* .setter-form-2 input[data-input-name='Theme Name'] { left: 1.5% } */
 
-.setter-form-2 label[data-label-name='Font Size'] { left: 25.5% }
-.setter-form-2 select[data-input-name='Font Size'] { left: 25.5% }
+/* .setter-form-2 label[data-label-name='Font Size'] { left: 25.5% }
+.setter-form-2 select[data-input-name='Font Size'] { left: 25.5% } */
 
-.setter-form-2 label[data-label-name='Font Family'] { right: 45% }
+/* .setter-form-2 label[data-label-name='Font Family'] { right: 45% } */
 .setter-form-2 select[data-input-name='Font Family'] {
-    right: 45%;
+    /* right: 45%; */
     text-align: center;
 }
 
