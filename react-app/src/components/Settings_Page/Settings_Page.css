@@ -55,9 +55,11 @@
 .sett-pg-row-a {
     grid-area: a;
 }
+
 .sett-pg-row-b {
     grid-area: b;
 }
+
 .sett-pg-row-c {
     grid-area: c;
 }
@@ -80,26 +82,9 @@
     position: absolute;
 }
 
-.sett-pg-row-a input, .sett-pg-row-a select {
-    top: 37%;
-}
-
-.sett-pg-row-b label {
-    /* margin: 3%; */
-    position: absolute;
-}
-
-.sett-pg-row-b input {
-    top: 57%;
-}
-
-.sett-pg-row-c label {
-    margin: 10%;
-}
-
-.sett-pg-row-c input {
-    top: 77%;
-}
+.sett-pg-row-a input, .sett-pg-row-a select { top: 37% }
+.sett-pg-row-b input { top: 57% }
+.sett-pg-row-c input { top: 77% }
 
 
 .setter-form-2 label[data-label-name='Theme Name'] { left: 1.5% }
@@ -114,17 +99,16 @@
     text-align: center;
 }
 
-
 .setter-form-2 label[data-label-name='Font Color'] { left: 5% }
 .setter-form-2 input[data-input-name='Font Color'] { left: 5% }
 
 .setter-form-2 label[data-label-name='Background Color'] { left: 21.5% }
 .setter-form-2 input[data-input-name='Background Color'] { left: 21.5% }
 
-.setter-form-2 input[data-label-name='Accent 1'] { left: 37% }
+.setter-form-2 label[data-label-name='Accent 1'] { left: 37% }
 .setter-form-2 input[data-input-name='Accent 1'] { left: 37% }
 
-.setter-form-2 input[data-label-name='Accent 2'] { right: 45.5% }
+.setter-form-2 label[data-label-name='Accent 2'] { right: 45.5% }
 .setter-form-2 input[data-input-name='Accent 2'] { right: 45.5% }
 
 .setter-form-2 label[data-label-name='Accent 3'] { right: 33.5% }
