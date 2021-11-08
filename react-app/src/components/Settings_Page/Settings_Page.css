@@ -20,6 +20,7 @@
     cursor: pointer;
     border: none;
     border-radius: 10px;
+    height: 16px;
 }
 /*=================================*/
 /*$=========Setter Form 1=========$*/
@@ -55,10 +56,14 @@
 
 .sett-pg-submit-btn {
     position: absolute;
+    left: 10%;
+    top: 5%;
 }
 
 .sett-pg-cancel-btn {
     position: absolute;
+    left: 20%;
+    top: 5%;
 }
 
 .sett-pg-row-a {
@@ -83,13 +88,15 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 5%;
-    margin: 0.5%;
+    gap: 7%;
+    margin: 0.75%;
 }
 
 .font-family-setter-div select[data-input-name='Font Family'] {
     text-align: center;
 }
+
+/* .font-family-setter-div select[data-input-name='Font Family']: */
 
 .sett-pg-row-c input[data-input-name='Background Media'] {
     width: 155px;
@@ -102,6 +109,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    gap: 1%;
     height: 625px;
     margin: 5px;
     min-width: 300px;
@@ -111,10 +119,11 @@
 
 .editor-form:hover { box-shadow: 0 0 5px black }
 
-.editor-form > label { margin: 2% 0 }
-
 .editor-form > input { cursor: pointer }
 
 .editor-form > select[data-input-name='Font Family'] { text-align: center }
 
-.editor-form > input[type='file'] { width: 155px }
+.editor-form > input[type='file'] { 
+    height: 26px;
+    width: 155px;
+}

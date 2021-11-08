@@ -181,8 +181,8 @@ export const EditThemeForm = ({ style }) => {
             <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
             <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name='Background Color' type='color' disabled={true} defaultValue={setting.background_color} />
 
-            <label htmlFor='sett-pg-background-media-editor'>{background_media !== '' ? 'Background Media' : 'Added'}</label>
-            <input id='sett-pg-background-media-editor' data-input-name='Background Media' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
+            <label htmlFor={`sett-pg-background-media-editor-${idx}`}>{background_media !== '' ? 'Background Media' : 'Added'}</label>
+            <input id={`sett-pg-background-media-editor-${idx}`} data-input-name='Background Media' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
             {background_media_loading && (<span>Loading...</span>)}
 
             <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
