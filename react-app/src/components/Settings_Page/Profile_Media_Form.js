@@ -40,15 +40,12 @@ export const ProfileMediaForm = ({ style }) => {
                 className='settings-form setter-form-1'
                 onSubmit={profileMediaHandler}
             >
-                <label htmlFor='sett-pg-user-profile-media-uploader'>
-                    <span 
-                        style={{ 
-                            color: style.accent_2,
-                            borderBottom: `2px solid ${style.accent_1}`
-                        }}
-                    >
-                        {!profile_media ? 'Upload Profile Media' : 'Added'}
-                    </span>
+                <label 
+                    
+                    htmlFor='sett-pg-user-profile-media-uploader' 
+                    style={{ borderBottom: `2px solid ${style.accent_1}` }}
+                >
+                    {!profile_media ? 'Upload Profile Media' : 'Added'}
                 </label>
                 <input
                     id='sett-pg-user-profile-media-uploader'

@@ -123,10 +123,10 @@ export const CreateThemeForm = ({ style }) => {
                         />
                     </div>
                     <div className='font-size-setter-div'>
-                        <label data-label-name='Font Size' htmlFor='font-sizes'>Font Size</label>
+                        <label data-label-name='Font Size' htmlFor='sett-pg-font-size-setter'>Font Size</label>
                         <select 
                             id='sett-pg-font-size-setter'
-                            name='font-sizes'
+                            name='sett-pg-font-size-setter'
                             data-input-name='Font Size'
                             value={font_size?.replace('px', '')}
                             onChange={(e) => {
@@ -138,10 +138,10 @@ export const CreateThemeForm = ({ style }) => {
                         </select>
                     </div>
                     <div className='font-family-setter-div'>
-                        <label data-label-name='Font Family' htmlFor='font-families'>Font Family</label>
+                        <label data-label-name='Font Family' htmlFor='sett-pg-font-family-setter'>Font Family</label>
                         <select 
                             id='sett-pg-font-family-setter'
-                            name='font-families'
+                            name='sett-pg-font-family-setter'
                             data-input-name='Font Family'
                             value={font_family?.replace(/,\s/, ' | ')}
                             onChange={(e) => {
@@ -162,16 +162,6 @@ export const CreateThemeForm = ({ style }) => {
                             type='color'
                             value={font_color}
                             onChange={(e) => setFontColor(e.target.value)}
-                        />
-                    </div>
-                    <div className='background-color-setter-div'>
-                        <label data-label-name='Background Color' htmlFor='sett-pg-bg-color-setter'>Background Color</label>
-                        <input
-                            id='sett-pg-bg-color-setter'
-                            data-input-name='Background Color'
-                            type='color'
-                            value={background_color}
-                            onChange={(e) => { setBackgroundColor(e.target.value) }}
                         />
                     </div>
                     <div className='accent-1-setter-div'>
@@ -202,6 +192,16 @@ export const CreateThemeForm = ({ style }) => {
                             type='color'
                             value={accent_3}
                             onChange={(e) => setAccent3(e.target.value)}
+                        />
+                    </div>
+                    <div className='background-color-setter-div'>
+                        <label data-label-name='Background Color' htmlFor='sett-pg-bg-color-setter'>Background Color</label>
+                        <input
+                            id='sett-pg-bg-color-setter'
+                            data-input-name='Background Color'
+                            type='color'
+                            value={background_color}
+                            onChange={(e) => { setBackgroundColor(e.target.value) }}
                         />
                     </div>
                 </div>
