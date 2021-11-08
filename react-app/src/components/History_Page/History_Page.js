@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
+import { editProfile } from '../../store/session';
 import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/history_store';
 import { readUserSettings } from '../../store/settings_store';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -14,14 +15,17 @@ export const HistoryPage = ({ style }) => {
 
     const dateRegex = new RegExp([
                                 '([A-Z]{1}[a-z]{2}),\\s', //? day of the week
-                                '(\\d{2}\\s[A-Z]{1}[a-z]{2}\\s\\d{4})\\s', //? day, month, and year
+                                '(\\d{2}\\s[A-Z]{1}[a-z]{2}\\s\\d{4})\\s', //? date
                                 '(\\d{2}:\\d{2}:\\d{2})\\s', //? time
                                 '(.*)' //? time zone
                                 ].join(''), 'g');
 
     const [updated_at, setUpdatedAt] = useState(new Date().toString());
+    const [toggledClock, toggleClock] = useState(true);
+    const [clockTypeBtn, setClockTypeBtn] = useState('12-Hour Clock');
 
-    let dayOfWkLink = null;
+    let prevDayOfWk = null;
+    let prevDate = null;
 
     useEffect(() => {
         dispatch(readHistoryEntries());
@@ -33,6 +37,19 @@ export const HistoryPage = ({ style }) => {
         dispatch(updateHistoryEntry({ entryID, updated_at }));
         history.push('/');
         window.location.reload();
+    }
+
+    const editProfileHandler = async (e, eType) => {
+        if (eType === 'clock_24') {
+            await dispatch(editProfile({
+                column: eType,
+                clock_24: toggledClock
+            }))
+            toggleClock(prevClock => !prevClock);
+            console.log(clockTypeBtn);
+            setClockTypeBtn(toggledClock ? '12-Hour Clock' : '24-Hour Clock');
+            console.log(clockTypeBtn);
+        }
     }
    
     const deleteHandler = (e, entryID) => {
@@ -53,9 +70,10 @@ export const HistoryPage = ({ style }) => {
             <h2 id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>
                 {function () {
                     const dayOfWk = entry['updated_at'].replace(dateRegex, '$1');
-                    if (!dayOfWkLink || dayOfWk !== dayOfWkLink) {
-                        dayOfWkLink = dayOfWk;
-                        return dayOfWkLink;
+                    // const date = en
+                    if (!prevDayOfWk || dayOfWk !== prevDayOfWk) {
+                        prevDayOfWk = dayOfWk;
+                        return prevDayOfWk;
                     }
                 }()}
             </h2>
@@ -64,17 +82,20 @@ export const HistoryPage = ({ style }) => {
                 className='hist-updated-at'
                 style={{ color: style.accent_2 }}
             >
-                 {function () {
-                     const time = entry['updated_at'].replace(dateRegex, '$2');
-                     return time;
-                    }()}
+                {function () {
+                    const date = entry['updated_at'].replace(dateRegex, '$2');
+                    return date;
+                }()}
             </span>
             <span 
                 id={`tz-ele-${entry.id}`} 
                 className='hist-tz'
                 style={{ color: style.accent_2 }}
             >
-               {entry.tz_abbrev}
+               {function () {
+                    const time = entry['updated_at'].replace(dateRegex, '$3');
+                    return time;
+                }()} {entry.tz_abbrev}
             </span>
             <FontAwesomeIcon 
                 icon={faTrashAlt} 
@@ -99,7 +120,16 @@ export const HistoryPage = ({ style }) => {
 
     return (
         <div className='history-page-container'>
-             {entries}
+            <button 
+                onClick={(e) => editProfileHandler(e, 'clock_24')}
+                style={{ 
+                    backgroundColor: style.background_color,
+                    color: style.font_color
+                }}
+            >
+                {clockTypeBtn}
+            </button>
+            {entries}
         </div>
     )
 }

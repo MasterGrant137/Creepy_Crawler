@@ -1,17 +1,11 @@
+"""User routes."""
+
 from flask import Blueprint, jsonify, request
 from flask_login import current_user, login_required
 from app.models import db, User
 from app.s3_helpers import (upload_file_to_s3, allowed_file, get_unique_filename)
 
 user_routes = Blueprint('users', __name__)
-
-# @user_routes.route('/')
-# @login_required
-# def users():
-#     """Get all users."""
-#     users = User.query.all()
-#     return {'users': [user.to_dict() for user in users]}
-
 
 @user_routes.route('/<int:userID>')
 @login_required
@@ -50,9 +44,9 @@ def upload_media(userID):
 
     return user.to_dict()
 
-@user_routes.route('/profile/<int:settingID>', methods=['PATCH'])
+@user_routes.route('/profile', methods=['PATCH'])
 @login_required
-def edit_user_profile(settingID):
+def edit_user_profile():
     """Update user profile setting."""
     profile_setting = request.json
     req_column = request.json['column']
@@ -65,6 +59,11 @@ def edit_user_profile(settingID):
         return user.to_dict()
     elif req_column == 'active_theme':
         user.active_theme = int(profile_setting['id'])
+        db.session.add(user)
+        db.session.commit()
+        return user.to_dict()
+    elif req_column == 'clock_24':
+        user.clock_24 = profile_setting['clock_24']
         db.session.add(user)
         db.session.commit()
         return user.to_dict()

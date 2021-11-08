@@ -11,7 +11,6 @@ import random
 import string
 
 fake = Faker()
-password_characters = string.ascii_lowercase + string.ascii_uppercase + string.digits + string.punctuation
 
 def seed_users():
     """Seed the users."""
@@ -21,11 +20,11 @@ def seed_users():
     demo = User(username='Demo', email='demo@aa.io', password='password', profile_media='https://randomuser.me/api/portraits/lego/2.jpg')
     db.session.add(demo)
 
-    for i in range(3):
+    for i in range(5):
         new_user = User (
             username=fake.user_name(),
             email=fake.safe_email(),
-            password=''.join(random.choice(password_characters) for i in range(15)),
+            password='password',
             profile_media=f"https://randomuser.me/api/portraits/{'men' if i % 2 == 0 else 'women'}/{i}.jpg",
             updated_at=fake.date_time_this_year()
         )

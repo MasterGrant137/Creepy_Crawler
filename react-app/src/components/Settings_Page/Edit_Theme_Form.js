@@ -1,13 +1,10 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { editProfile } from '../../store/session';
-//* removed updateThemeMedia
 import { updateUserSetting, deleteUserSetting } from '../../store/settings_store';
 import dropdownData from './dropdown_data.json';
-import '../Main.css';
-import './Settings_Page.css';
 
-export const EditorForm = ({ style }) => {
+export const EditThemeForm = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector(state => state.session.user);
     const settingsObj = useSelector(state => state.settings);
@@ -25,8 +22,6 @@ export const EditorForm = ({ style }) => {
         <option key={fontSize}>{fontSize}</option>
         ))
     
-    // const { background_color, background_rotate, font_color, font_family, font_size, accent_1, accent_2, accent_3 } = style;
-
     const resetHandler = (e) => { 
         const isSubmit = e.target.dataset.submitBtnState;
         if (isSubmit === 'false') return;
@@ -142,31 +137,37 @@ export const EditorForm = ({ style }) => {
             key={`key-${setting.id}`}
             id={`sett-pg-editor-form-${setting.id}`}
             data-setting-id={setting.id}
-            className={`settings-form editor-form ${setting.background_rotate ? 'background-rotate' : ''}`}
+            className='editor-form'
             onSubmit={editFormHandler}
             style={{
                     backgroundImage: `url(${setting.background_media})`,
                     backgroundColor: setting.background_color,
                     border: `3px solid ${setting.accent_3}`,
                     color: setting.font_color,
+                    fontFamily: setting.font_family
             }}
         >
             <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
-            <input id={`sett-pg-theme-name-editor-${idx}`} type='text' readOnly={true} data-input-name='Theme Name' defaultValue={setting.theme_name} />
+            <input 
+                id={`sett-pg-theme-name-editor-${idx}`} 
+                type='text' readOnly={true} data-input-name='Theme Name' 
+                defaultValue={setting.theme_name} 
+                style={{ fontFamily: setting.font_family }}
+            />
             <label htmlFor={`font-sizes-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
             <select 
-                name={`font-sizes-${idx}`}
                 id={`sett-pg-font-size-editor-${idx}`}
+                name={`font-sizes-${idx}`}
                 data-input-name='Font Size'
                 disabled={true}
                 defaultValue={setting.font_size?.replace('px', '')}
                 >
                 {fontSizes}
             </select>
-            <label htmlFor={`font-families-${idx}`} style={{ fontFamily: setting.font_family }}>Font Family</label>
+            <label htmlFor={`font-families-${idx}`}>Font Family</label>
             <select
-                name={`font-families-${idx}`}
                 id={`sett-pg-font-family-editor-${idx}`}
+                name={`font-families-${idx}`}
                 data-input-name='Font Family'
                 disabled={true}
                 defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
@@ -180,8 +181,8 @@ export const EditorForm = ({ style }) => {
             <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
             <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name='Background Color' type='color' disabled={true} defaultValue={setting.background_color} />
 
-            <label htmlFor='sett-pg-background-media-editor'>{background_media !== '' ? 'Background Media' : 'Added'}</label>
-            <input id='sett-pg-background-media-editor' data-input-name='Background Media' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
+            <label htmlFor={`sett-pg-background-media-editor-${idx}`}>{background_media !== '' ? 'Background Media' : 'Added'}</label>
+            <input id={`sett-pg-background-media-editor-${idx}`} data-input-name='Background Media' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
             {background_media_loading && (<span>Loading...</span>)}
 
             <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>

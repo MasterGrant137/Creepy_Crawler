@@ -57,21 +57,24 @@ ul li {
     display: flex;
     justify-content: space-around;
     margin-bottom: 1.5%;
+    overflow-x: scroll;
 }
 
 .create-theme-container {
     border-radius: 5px;
-    display: flex;
-    height: 308px;
     overflow-y: auto;
-    width: fit-content;
+    position: relative;
+    width: 800px;
 }
 
 .theme-tester-container {
-    border-radius: 5px;
-    display: inline-block;
-    height: fit-content;
-    padding: 10px;
+    /* border-radius: 5px; */
+    height: 100%;
+    padding: 0 0.5%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
 }
 
 .themes-container {
@@ -169,7 +172,6 @@ nav * {
     width: 55vw;
     height: 5vh;
 }
-
 /*=================================*/
 /*$==========Animations===========$*/
 /*=================================*/
