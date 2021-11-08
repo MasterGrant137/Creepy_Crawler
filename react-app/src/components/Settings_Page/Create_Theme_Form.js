@@ -117,6 +117,7 @@ export const CreateThemeForm = ({ style }) => {
                             placeholder='Theme Name'
                             value={theme_name}
                             onChange={(e) => setThemeName(e.target.value)}
+                            style={{ fontFamily: font_family }}
                         />
                     </div>
                     <div className='font-size-setter-div'>
