@@ -81,9 +81,9 @@
     margin: 2%;
 }
 
-.font-family-setter-div select[data-input-name='Font Family'] { text-align: center }
+.font-family-setter-div select[name='Font Family'] { text-align: center }
 
-.sett-pg-row-c input[data-input-name='Background Media'] { width: 155px }
+.sett-pg-row-c input[name='Background Media'] { width: 155px }
 /*=================================*/
 /*$=========Editor Form 1=========$*/
 /*=================================*/
