@@ -5,13 +5,7 @@
     overflow-y: auto;
 }
 
-.create-and-test-container h2 {
-    margin-bottom: 0;
-}
-
-.theme-tester-container h3 {
-    margin: 4% 0;
-}
+.create-and-test-container h2 { margin-bottom: 0 }
 
 .setter-form-1 input[type='file']::file-selector-button,
 .setter-form-2 input[type='file']::file-selector-button,
@@ -65,6 +59,7 @@
 
 .sett-pg-row-a {
     display: flex;
+    gap: 10px;
     grid-area: a;
     justify-content: space-between;
 }

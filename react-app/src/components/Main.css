@@ -61,20 +61,19 @@ ul li {
 
 .create-theme-container {
     border-radius: 5px;
-    height: 35vh;
     overflow-y: auto;
     position: relative;
-    width: 70vw;
+    width: 800px;
 }
 
 .theme-tester-container {
-    border-radius: 5px;
-    position: absolute;
+    /* border-radius: 5px; */
     height: 100%;
     padding: 0 0.5%;
-    top: 0;
+    position: absolute;
     right: 0;
-    width: fit-content;
+    top: 0;
+    width: 30%;
 }
 
 .themes-container {
@@ -172,7 +171,6 @@ nav * {
     width: 55vw;
     height: 5vh;
 }
-
 /*=================================*/
 /*$==========Animations===========$*/
 /*=================================*/

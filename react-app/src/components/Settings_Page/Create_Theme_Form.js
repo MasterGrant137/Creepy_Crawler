@@ -83,6 +83,7 @@ export const CreateThemeForm = ({ style }) => {
                 data-setting-id={2}
                 className='setter-form-2' 
                 onSubmit={createSettingHandler}
+                style={{ border: `3px solid ${style.accent_3}`, }}
             >
                 <button 
                     className='sett-pg-submit-btn' 
@@ -231,17 +232,18 @@ export const CreateThemeForm = ({ style }) => {
             <div  
                 className='theme-tester-container'
                 style={{
-                    border: `3px dashed ${accent_3}`,
+                    borderLeft: `3px dashed ${accent_3}`,
                     backgroundColor: background_color,
                     fontFamily: font_family,
-                    fontSize: font_size,
                     color: font_color
                 }}
             >
-                <h2 style={{ color: accent_2, borderBottom: `2px dashed ${accent_1}` }}>{`${theme_name}` || 'Theme Name'}</h2>
+                
+                <h2 style={{ color: accent_2, borderBottom: `2px dashed ${accent_1}` }}>{`${theme_name}` || 'Demo Theme'}</h2>
                 <div>
                     <h3>Test your theme.</h3>
-                    <span>See your theme specs here.</span>
+                    <p>See your theme specs here.</p>
+                    <p style={{ fontSize: font_size }}>Font Size</p>
                 </div>
             </div>
         </>
