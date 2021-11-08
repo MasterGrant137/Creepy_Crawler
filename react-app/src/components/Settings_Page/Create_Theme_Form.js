@@ -111,7 +111,7 @@ export const CreateThemeForm = ({ style }) => {
                 </button>
                 <div className='sett-pg-row-a'>
                     <div className='theme-name-setter-div'>
-                        <label data-label-name='Theme Name' htmlFor='sett-page-theme-name-setter'>Theme Name</label>
+                        <label data-label-name='Theme Name' htmlFor='sett-pg-theme-name-setter'>Theme Name</label>
                         <input
                             id='sett-pg-theme-name-setter'
                             data-input-name='Theme Name'
