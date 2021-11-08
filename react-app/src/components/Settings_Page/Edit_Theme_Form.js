@@ -27,7 +27,7 @@ export const EditThemeForm = ({ style }) => {
         if (isSubmit === 'false') return;
 
         const targID = e.target.dataset.settingId;
-        const targForm = document.getElementById(`sett-pg-editor-form-${targID}`);
+        const targForm = document.getElementById(targID);
         const prev = settingsObj[targID];
         const targFormKids = Array.from(targForm.children);
 
@@ -43,7 +43,7 @@ export const EditThemeForm = ({ style }) => {
                 case 'checkbox': targKid.disabled = true; break;
                 default: break;
             }
-            switch (targKid.dataset.inputName) {
+            switch (targKid.name) {
                 case 'Theme Name': targKid.value = prev.theme_name; break;
                 case 'Background Color': targKid.value = prev.background_color; break;
                 case 'Background Media': targKid.value = ''; break;
@@ -77,7 +77,7 @@ export const EditThemeForm = ({ style }) => {
         
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
-        const settingID = targForm.dataset.settingId;
+        const settingID = targForm.id;
         
         targFormKids.forEach(targKid => {
             if (targKid.type === 'text') targKid.readOnly = false;
@@ -93,7 +93,7 @@ export const EditThemeForm = ({ style }) => {
                 
                 targFormKids.forEach(targKid => {
                     if (targKid.tagName !== 'BUTTON') {
-                        switch (targKid.dataset.inputName) {
+                        switch (targKid.name) {
                             case 'Theme Name': formData.append('theme_name', targKid.value); break;
                             case 'Background Color': formData.append('background_color', targKid.value); break;
                             case 'Background Media': 
@@ -135,8 +135,7 @@ export const EditThemeForm = ({ style }) => {
     const editorThemes = Object.values(settingsObj).map((setting, idx) => (
         <form 
             key={`key-${setting.id}`}
-            id={`sett-pg-editor-form-${setting.id}`}
-            data-setting-id={setting.id}
+            id={setting.id}
             className='editor-form'
             onSubmit={editFormHandler}
             style={{
@@ -147,55 +146,55 @@ export const EditThemeForm = ({ style }) => {
                     fontFamily: setting.font_family
             }}
         >
-            <label htmlFor={`sett-pg-theme-name-editor-${idx}`}>Theme Name</label>
+            <label htmlFor={`theme-name-editor-${idx}`}>Theme Name</label>
             <input 
-                id={`sett-pg-theme-name-editor-${idx}`} 
-                type='text' readOnly={true} data-input-name='Theme Name' 
+                id={`theme-name-editor-${idx}`} 
+                type='text' 
+                readOnly={true} 
+                name='Theme Name' 
                 defaultValue={setting.theme_name} 
                 style={{ fontFamily: setting.font_family }}
             />
-            <label htmlFor={`sett-pg-font-size-editor-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
+            <label htmlFor={`font-size-editor-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
             <select 
-                id={`sett-pg-font-size-editor-${idx}`}
-                name={`sett-pg-font-size-editor-${idx}`}
-                data-input-name='Font Size'
+                id={`font-size-editor-${idx}`}
+                name='Font Size'
                 disabled={true}
                 defaultValue={setting.font_size?.replace('px', '')}
                 >
                 {fontSizes}
             </select>
-            <label htmlFor={`sett-pg-font-family-editor-${idx}`}>Font Family</label>
+            <label htmlFor={`font-family-editor-${idx}`}>Font Family</label>
             <select
-                id={`sett-pg-font-family-editor-${idx}`}
-                name={`sett-pg-font-family-editor-${idx}`}
-                data-input-name='Font Family'
+                id={`font-family-editor-${idx}`}
+                name='Font Family'
                 disabled={true}
                 defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
             >
                {fontFamilies}
             </select>
 
-            <label htmlFor={`sett-pg-font-color-editor-${idx}`}>Font Color</label>
-            <input id={`sett-pg-font-color-editor-${idx}`} data-input-name='Font Color' type='color' disabled={true} defaultValue={setting.font_color} />
+            <label htmlFor={`font-color-editor-${idx}`}>Font Color</label>
+            <input id={`font-color-editor-${idx}`} name='Font Color' type='color' disabled={true} defaultValue={setting.font_color} />
 
-            <label htmlFor={`sett-pg-bg-color-editor-${idx}`}>Background Color</label>
-            <input id={`sett-pg-bg-color-editor-${idx}`} data-input-name='Background Color' type='color' disabled={true} defaultValue={setting.background_color} />
+            <label htmlFor={`bg-color-editor-${idx}`}>Background Color</label>
+            <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled={true} defaultValue={setting.background_color} />
 
-            <label htmlFor={`sett-pg-background-media-editor-${idx}`}>{background_media !== '' ? 'Background Media' : 'Added'}</label>
-            <input id={`sett-pg-background-media-editor-${idx}`} data-input-name='Background Media' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
+            <label htmlFor={`background-media-editor-${idx}`}>{background_media !== '' ? 'Background Media' : 'Added'}</label>
+            <input id={`background-media-editor-${idx}`} name='Background Media' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
             {background_media_loading && (<span>Loading...</span>)}
 
-            <label htmlFor={`sett-pg-bg-rotate-editor-${idx}`}>Background Rotate</label>
-            <input id={`sett-pg-bg-rotate-editor-${idx}`} data-input-name='Background Rotate' type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
+            <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
+            <input id={`bg-rotate-editor-${idx}`} name='Background Rotate' type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
 
-            <label htmlFor={`sett-pg-accent-1-color-editor-${idx}`} style={{color: setting.accent_1}}>Accent 1</label>
-            <input id={`sett-pg-accent-1-color-editor-${idx}`} data-input-name='Accent 1' type='color' disabled={true} defaultValue={setting.accent_1} />
+            <label htmlFor={`accent-1-color-editor-${idx}`} style={{color: setting.accent_1}}>Accent 1</label>
+            <input id={`accent-1-color-editor-${idx}`} name='Accent 1' type='color' disabled={true} defaultValue={setting.accent_1} />
             
-            <label htmlFor={`sett-pg-accent-2-color-editor-${idx}`} style={{color: setting.accent_2}}>Accent 2</label>
-            <input id={`sett-pg-accent-2-color-editor-${idx}`} data-input-name='Accent 2' type='color' disabled={true} defaultValue={setting.accent_2} />
+            <label htmlFor={`accent-2-color-editor-${idx}`} style={{color: setting.accent_2}}>Accent 2</label>
+            <input id={`accent-2-color-editor-${idx}`} name='Accent 2' type='color' disabled={true} defaultValue={setting.accent_2} />
             
-            <label htmlFor={`sett-pg-accent-3-color-editor-${idx}`} style={{color: setting.accent_3}}>Accent 3</label>
-            <input id={`sett-pg-accent-2-color-editor-${idx}`} data-input-name='Accent 3' type='color' disabled={true} defaultValue={setting.accent_3} />
+            <label htmlFor={`accent-3-color-editor-${idx}`} style={{color: setting.accent_3}}>Accent 3</label>
+            <input id={`accent-2-color-editor-${idx}`} name='Accent 3' type='color' disabled={true} defaultValue={setting.accent_3} />
             
             <button 
                 data-setting-id={`${setting.id}`} 
@@ -212,8 +211,8 @@ export const EditThemeForm = ({ style }) => {
                 onClick={resetHandler} 
                 style={{ color: setting.font_color }}
             >
-                    Cancel
-                </button>
+                Cancel
+            </button>
             <button
                 data-setting-id={`${setting.id}`}
                 type='button'

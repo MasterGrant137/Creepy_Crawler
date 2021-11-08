@@ -48,7 +48,7 @@
     top: 5%;
 }
 
-.sett-pg-cancel-btn {
+.sett-pg-reset-btn {
     position: absolute;
     left: 10%;
     top: 5%;
@@ -104,7 +104,7 @@
 
 .editor-form > input { cursor: pointer }
 
-.editor-form > select[data-input-name='Font Family'] { text-align: center }
+.editor-form > select[name='Font Family'] { text-align: center }
 
 .editor-form > input[type='file'] { 
     height: 26px;

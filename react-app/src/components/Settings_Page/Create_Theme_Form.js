@@ -96,8 +96,7 @@ export const CreateThemeForm = ({ style }) => {
                 </button>
                 <button
                     type='button'
-                    data-setting-id={2}
-                    className='sett-pg-cancel-btn'
+                    className='sett-pg-reset-btn'
                     onClick={resetHandler}
                     style={{ 
                         color: style.font_color, 
