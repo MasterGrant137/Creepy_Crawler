@@ -83,7 +83,7 @@ export const CreateThemeForm = ({ style }) => {
                 data-setting-id={2}
                 className='setter-form-2' 
                 onSubmit={createSettingHandler}
-                style={{ border: `3px solid ${style.accent_3}`, borderRight: 0 }}
+                style={{ border: `3px solid ${style.accent_3}`, borderRight: '0' }}
             >
                 <h2 className='create-theme-header' style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>Create Theme</h2>
                 <button 
