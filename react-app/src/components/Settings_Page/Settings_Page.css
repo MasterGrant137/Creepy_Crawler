@@ -36,14 +36,11 @@
     'a'
     'b'
     'c';
+    padding: 0;
     width: 70%;
 }
 
 .setter-form-2 *:disabled { cursor: not-allowed }
-
-.create-theme-header {
-    width: 70%;
-}
 
 .sett-pg-submit-btn {
     position: absolute;

@@ -36,7 +36,6 @@ export const SettingsPage = ({ style }) => {
                     className='create-theme-container' 
                     style={{ backgroundColor: style.background_color }}
                 >
-                    <h2 className='create-theme-header' style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>Create Theme</h2>
                     <CreateThemeForm style={style} />
                 </div>
             </div>
