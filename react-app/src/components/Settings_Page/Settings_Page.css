@@ -26,19 +26,15 @@
 /*$=========Setter Form 1=========$*/
 /*=================================*/
 .setter-form-1 {
+    align-items: center;
     display: flex;
     flex-direction: column;
 }
 
 .setter-form-1 > input[type='file'] {
-    margin: 8px 0;
+    margin: 8px 5px;
     width: 185px;
-}
-
-.setter-form-1 > button {
-    left: 35%;
-    position: relative;
-    width: fit-content;
+    /* width: 70%; */
 }
 /*=================================*/
 /*$=========Setter Form 2=========$*/
@@ -92,15 +88,9 @@
     margin: 0.75%;
 }
 
-.font-family-setter-div select[data-input-name='Font Family'] {
-    text-align: center;
-}
+.font-family-setter-div select[data-input-name='Font Family'] { text-align: center }
 
-/* .font-family-setter-div select[data-input-name='Font Family']: */
-
-.sett-pg-row-c input[data-input-name='Background Media'] {
-    width: 155px;
-}
+.sett-pg-row-c input[data-input-name='Background Media'] { width: 155px }
 /*=================================*/
 /*$=========Editor Form 1=========$*/
 /*=================================*/
