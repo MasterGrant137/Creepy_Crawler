@@ -1,18 +1,42 @@
 .setter-form-1,
 .setter-form-2,
-.editor-form {
+.editor-form-1 {
     padding: 1%;
     overflow-y: auto;
 }
 
-.settings-page-header { border-bottom: 2px solid }
+.setter-form-1 input,
+.setter-form-2 input,
+.setter-form-2 select,
+.editor-form-1 input,
+.editor-form-1 select {
+    border-radius: 9px;
+}
 
-.setter-form-1 input[type='file']::file-selector-button,
+.setter-form-2 input[type='text'],
+.editor-form-1 input[type='text'] {
+    padding: 2px 5px;
+}
+
+.setter-form-1 > input[type='file'],
+.setter-form-2 input[type='file'],
+.editor-form-1 > input[type='file'] {
+    /* height: fit-content;
+    margin: 1px 0;
+    width: 175px; */
+}
+
+.settings-page-header,
+.settings-actions-header,
+.theme-tester-header { 
+    border-bottom: 2px solid;
+ }
+
+.setter-form-1 > input[type='file']::file-selector-button,
 .setter-form-2 input[type='file']::file-selector-button,
-.editor-form input[type='file']::file-selector-button {
+.editor-form-1 > input[type='file']::file-selector-button {
     border: none;
     border-radius: 10px;
-    height: 16px;
 }
 /*=================================*/
 /*$=========Setter Form 1=========$*/
@@ -22,13 +46,6 @@
     display: flex;
     flex-direction: column;
 }
-
-.setter-form-1 > input[type='file'] {
-    margin: 8px 5px;
-    width: 175px;
-}
-
-.settings-actions-header { border-bottom: 2px solid }
 /*=================================*/
 /*$=========Setter Form 2=========$*/
 /*=================================*/
@@ -46,8 +63,6 @@
 .setter-form-2 *:disabled { cursor: not-allowed }
 
 .create-theme-header { border-bottom: 2px solid }
-
-.theme-tester-header { border-bottom: 2px dashed }
 
 .sf2-submit-btn {
     position: absolute;
@@ -89,12 +104,10 @@
 }
 
 .font-family-setter-div select[name='Font Family'] { text-align: center }
-
-.sf2-row-c input[name='Background Media'] { width: 155px }
 /*=================================*/
 /*$=========Editor Form 1=========$*/
 /*=================================*/
-.editor-form {
+.editor-form-1 {
     align-items: center;
     border: 3px solid;
     border-radius: 10px;
@@ -106,15 +119,4 @@
     min-width: 300px;
 }
 
-.editor-form *:disabled { cursor: not-allowed }
-
-.editor-form:hover { box-shadow: 0 0 5px black }
-
-.editor-form > input { cursor: pointer }
-
-.editor-form > select[name='Font Family'] { text-align: center }
-
-.editor-form > input[type='file'] { 
-    height: 26px;
-    width: 155px;
-}
+.editor-form-1:hover { box-shadow: 0 0 5px black }

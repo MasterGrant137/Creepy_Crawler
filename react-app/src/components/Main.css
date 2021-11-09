@@ -6,6 +6,8 @@
     scrollbar-width: none; /*$ Firefox $*/
 }
 
+*:disabled { cursor: not-allowed }
+
 *::-webkit-scrollbar {
     display: none;
 }
@@ -21,18 +23,24 @@ button:hover {
     box-shadow: 0 0 2px black;
 }
 
-ul {
-    list-style-type: none;
+h1, h2, label { user-select: none }
+
+input {
+    cursor: pointer
 }
 
-ul li {
-    display: inline;
+input {
+    cursor: pointer;
 }
-/*=================================*/
-/*$=============Groups============$*/
-/*=================================*/
 
+select { 
+    cursor: pointer;
+    text-align: center
+}
 
+li { display: inline }
+
+ul { list-style-type: none }
 /*=================================*/
 /*$============Elements===========$*/
 /*=================================*/
@@ -41,6 +49,7 @@ ul li {
     height: 50px;
     width: 50px;
 }
+
 /*=================================*/
 /*$=======Settings Containers=====$*/
 /*=================================*/
@@ -157,10 +166,6 @@ nav * {
     height: 50vh;
     justify-content: center;
     align-items: center;
-}
-
-.search-page-title {
-    user-select: none;
 }
 
 .search-page-search-form {

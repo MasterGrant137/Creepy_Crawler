@@ -136,7 +136,7 @@ export const EditThemeForm = ({ style }) => {
         <form 
             key={`key-${setting.id}`}
             id={setting.id}
-            className='editor-form'
+            className='editor-form-1'
             onSubmit={editFormHandler}
             style={{
                     backgroundImage: `url(${setting.background_media})`,
@@ -181,7 +181,7 @@ export const EditThemeForm = ({ style }) => {
             <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled={true} defaultValue={setting.background_color} />
 
             <label htmlFor={`background-media-editor-${idx}`}>{background_media !== '' ? 'Background Media' : 'Added'}</label>
-            <input id={`background-media-editor-${idx}`} name='Background Media' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
+            <input id={`background-media-editor-${idx}`} name='Background Media' type='file' disabled={true} size='30' onChange={setBackgroundMediaHandler} />
             {background_media_loading && (<span>Loading...</span>)}
 
             <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
@@ -194,7 +194,7 @@ export const EditThemeForm = ({ style }) => {
             <input id={`accent-2-color-editor-${idx}`} name='Accent 2' type='color' disabled={true} defaultValue={setting.accent_2} />
             
             <label htmlFor={`accent-3-color-editor-${idx}`} style={{color: setting.accent_3}}>Accent 3</label>
-            <input id={`accent-2-color-editor-${idx}`} name='Accent 3' type='color' disabled={true} defaultValue={setting.accent_3} />
+            <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' disabled={true} defaultValue={setting.accent_3} />
             
             <button 
                 data-setting-id={`${setting.id}`} 
