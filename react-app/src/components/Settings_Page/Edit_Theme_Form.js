@@ -23,6 +23,8 @@ export const EditThemeForm = ({ style }) => {
         ))
     
     const resetHandler = (e) => { 
+        e.preventDefault();
+
         const isSubmit = e.target.dataset.submitBtnState;
         if (isSubmit === 'false') return;
 
@@ -181,7 +183,7 @@ export const EditThemeForm = ({ style }) => {
             <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled={true} defaultValue={setting.background_color} />
 
             <label htmlFor={`background-media-editor-${idx}`}>{background_media !== '' ? 'Background Media' : 'Added'}</label>
-            <input id={`background-media-editor-${idx}`} name='Background Media' type='file' disabled={true} size='30' onChange={setBackgroundMediaHandler} />
+            <input id={`background-media-editor-${idx}`} name='Background Media' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
             {background_media_loading && (<span>Loading...</span>)}
 
             <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>

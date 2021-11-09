@@ -37,7 +37,7 @@ export const SearchPage = ({ style }) => {
                         setSearch(e.target.value)
                         setUpdatedAt((new Date()).toString())
                     }}
-                    style={{border: `3px solid ${style.accent_1}`}}
+                    style={{ borderColor: style.accent_1, fontFamily: style.font_family }}
                 />
             </form>
         </div>

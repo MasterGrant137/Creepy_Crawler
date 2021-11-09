@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import dropdownData from './dropdown_data.json';
 import { createUserSetting } from '../../store/settings_store';
@@ -6,6 +6,7 @@ import { createUserSetting } from '../../store/settings_store';
 export const CreateThemeForm = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector(state => state.session.user);
+    const fileInput = useRef(null);
 
     const fontFamiliesRaw = dropdownData['fonts'];
     const fontFamilies = fontFamiliesRaw.map(fontFamily => (
@@ -33,10 +34,13 @@ export const CreateThemeForm = ({ style }) => {
     const [font_color, setFontColor] = useState(style.font_color);
     const [theme_name, setThemeName] = useState('');
 
-    const resetHandler = () => { 
-        setThemeName(style.theme_name || '');
+    const resetHandler = (e) => {
+        e.preventDefault();
+
+        setThemeName('');
         setBackgroundColor(style.background_color);
-        setBackgroundMedia(style.background_media || '');
+        setBackgroundMedia('');
+        document.getElementById('sf2-background-media').value=''
         setBackgroundRotate(style.background_rotate);
         setFontColor(style.font_color);
         setFontFamily(style.font_family);
@@ -112,6 +116,7 @@ export const CreateThemeForm = ({ style }) => {
                             placeholder='Theme Name'
                             value={theme_name}
                             onChange={(e) => setThemeName(e.target.value)}
+                            style={{ fontFamily: style.font_family }}
                         />
                     </div>
                     <div className='font-size-setter-div'>
@@ -145,9 +150,9 @@ export const CreateThemeForm = ({ style }) => {
                 </div>
                 <div className='sf2-row-b'>
                     <div className='font-color-setter-div'>
-                        <label htmlFor='sf2-font-color-setter'>Font Color</label>
+                        <label htmlFor='sf2-font-color'>Font Color</label>
                         <input
-                            id='sf2-font-color-setter'
+                            id='sf2-font-color'
                             name='Font Color'
                             type='color'
                             value={font_color}
@@ -155,9 +160,9 @@ export const CreateThemeForm = ({ style }) => {
                         />
                     </div>
                     <div className='accent-1-setter-div'>
-                        <label htmlFor='sf2-accent-1-color-setter'>Accent 1</label>
+                        <label htmlFor='sf2-accent-1-color'>Accent 1</label>
                         <input
-                            id='sf2-accent-1-color-setter'
+                            id='sf2-accent-1-color'
                             name='Accent 1'
                             type='color'
                             value={accent_1}
@@ -165,9 +170,9 @@ export const CreateThemeForm = ({ style }) => {
                         />
                     </div>
                     <div className='accent-2-setter-div'>
-                        <label htmlFor='sf2-accent-2-color-setter'>Accent 2</label>
+                        <label htmlFor='sf2-accent-2-color'>Accent 2</label>
                         <input
-                            id='sf2-accent-2-color-setter'
+                            id='sf2-accent-2-color'
                             name='Accent 2'
                             type='color'
                             value={accent_2}
@@ -175,9 +180,9 @@ export const CreateThemeForm = ({ style }) => {
                         />
                     </div>
                     <div className='accent-3-setter-div'>
-                        <label htmlFor='sf2-accent-3-color-setter'>Accent 3</label>
+                        <label htmlFor='sf2-accent-3-color'>Accent 3</label>
                         <input
-                            id='sf2-accent-3-color-setter'
+                            id='sf2-accent-3-color'
                             name='Accent 3'
                             type='color'
                             value={accent_3}
@@ -185,9 +190,9 @@ export const CreateThemeForm = ({ style }) => {
                         />
                     </div>
                     <div className='background-color-setter-div'>
-                        <label htmlFor='sf2-bg-color-setter'>Background Color</label>
+                        <label htmlFor='sf2-bg-color'>Background Color</label>
                         <input
-                            id='sf2-bg-color-setter'
+                            id='sf2-bg-color'
                             name='Background Color'
                             type='color'
                             value={background_color}
@@ -197,21 +202,23 @@ export const CreateThemeForm = ({ style }) => {
                 </div>
                 <div className='sf2-row-c'>
                     <div className='background-media-setter-div'>
-                        <label htmlFor='sf2-background-media-uploader'>
-                            {background_media !== '' ? 'Background Media' : 'Added'}
+                        <label htmlFor='sf2-background-media'>
+                            {background_media === '' || !fileInput.current?.value ? 'Background Media' : 'Added'}
                         </label>
                         <input
-                            id='sf2-background-media-uploader'
+                            id='sf2-background-media'
+                            ref={fileInput}
                             name='Background Media'
                             type='file'
+                            accept='image/png, image/jpg, image/jpeg, image/gif'
                             onChange={setBackgroundMediaHandler}
                         />
                         {background_media_loading && (<span>Loading...</span>)}
                     </div>
                     <div className='background-rotate-setter-div'>
-                        <label htmlFor='sf2-bg-rotate-setter'>Background Rotate</label>
+                        <label htmlFor='sf2-bg-rotate'>Background Rotate</label>
                         <input
-                            id='sf2-bg-rotate-setter'
+                            id='sf2-bg-rotate'
                             name='Background Rotate'
                             type='checkbox'
                             checked={background_rotate}
@@ -229,7 +236,6 @@ export const CreateThemeForm = ({ style }) => {
                     color: font_color
                 }}
             >
-                
                 <h2 className='theme-tester-header' style={{ color: accent_2, borderColor: accent_1 }}>{theme_name || 'Demo Theme'}</h2>
                 <div>
                     <h3>Test your theme.</h3>
