@@ -64,7 +64,7 @@ export const HistoryPage = ({ style }) => {
         <div 
             key={entry.id} 
             id={`entry-${entry.id}`} 
-            className='history-entry-container'
+            className='history-entry-div'
             style={{ backgroundColor: style.background_color }}
         >
             <h2 id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>

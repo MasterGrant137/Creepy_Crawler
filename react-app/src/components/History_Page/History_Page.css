@@ -1,0 +1,39 @@
+.history-entry-div {
+    display: grid;
+    grid-template-areas: 
+    'c c c'
+    'a b d'
+    'e e e';
+    grid-template-columns: 0.5fr 2.0fr 0.5fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    height: fit-content;
+    padding: 5px;
+    text-align: center;
+    width: 30%;
+}
+
+.hist-updated-at {
+    cursor: pointer;
+    grid-area: a;
+}
+
+.hist-tz {
+    cursor: pointer;
+    grid-area: b;
+}
+
+.hist-day-of-week {
+    user-select: none;
+    grid-area: c;
+}
+
+.hist-delete {
+    cursor: pointer;
+    grid-area: d;
+}
+
+.hist-text {
+    cursor: pointer;
+    grid-area: e;
+    user-select: none;
+}

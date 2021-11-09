@@ -19,19 +19,22 @@ button {
     border-radius: 3px;
 }
 
-button:hover {
-    box-shadow: 0 0 2px black;
-}
-
-h1, h2, label { user-select: none }
-
-input {
-    cursor: pointer
-}
-
 input {
     cursor: pointer;
 }
+
+input[type='file'] {
+    height: fit-content;
+    margin: 1px 0;
+    width: 175px;
+}
+
+input[type='file']::file-selector-button {
+    border: none;
+    border-radius: 10px;
+}
+
+input[type='text'] { padding: 2px 5px }
 
 select { 
     cursor: pointer;
@@ -41,6 +44,19 @@ select {
 li { display: inline }
 
 ul { list-style-type: none }
+/*=================================*/
+/*$============Groups===========$*/
+/*=================================*/
+input:not([type='search']), select {
+    border: none;
+    border-radius: 9px;
+}
+
+button:hover, input:hover, select:hover {
+    box-shadow: 0 0 2px black;
+}
+
+h1, h2, label { user-select: none }
 /*=================================*/
 /*$============Elements===========$*/
 /*=================================*/
@@ -102,48 +118,6 @@ ul { list-style-type: none }
     overflow: auto;
 }
 /*=================================*/
-/*$=========History Grids==========$*/
-/*=================================*/
-.history-entry-container {
-    display: grid;
-    grid-template-areas: 
-    'c c c'
-    'a b d'
-    'e e e';
-    grid-template-columns: 0.5fr 2.0fr 0.5fr;
-    grid-template-rows: 1fr 0.5fr 0.5fr;
-    height: fit-content;
-    padding: 5px;
-    text-align: center;
-    width: 30%;
-}
-
-.hist-updated-at {
-    cursor: pointer;
-    grid-area: a;
-}
-
-.hist-tz {
-    cursor: pointer;
-    grid-area: b;
-}
-
-.hist-day-of-week {
-    user-select: none;
-    grid-area: c;
-}
-
-.hist-delete {
-    cursor: pointer;
-    grid-area: d;
-}
-
-.hist-text {
-    cursor: pointer;
-    grid-area: e;
-    user-select: none;
-}
-/*=================================*/
 /*$=========Nav Containers========$*/
 /*=================================*/
 nav {
@@ -156,7 +130,6 @@ nav * {
     cursor: pointer;
     margin: 5px;
 }
-
 /*=================================*/
 /*$===========Search Page=========$*/
 /*=================================*/

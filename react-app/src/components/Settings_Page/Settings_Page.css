@@ -5,39 +5,11 @@
     overflow-y: auto;
 }
 
-.setter-form-1 input,
-.setter-form-2 input,
-.setter-form-2 select,
-.editor-form-1 input,
-.editor-form-1 select {
-    border-radius: 9px;
-}
-
-.setter-form-2 input[type='text'],
-.editor-form-1 input[type='text'] {
-    padding: 2px 5px;
-}
-
-.setter-form-1 > input[type='file'],
-.setter-form-2 input[type='file'],
-.editor-form-1 > input[type='file'] {
-    /* height: fit-content;
-    margin: 1px 0;
-    width: 175px; */
-}
-
 .settings-page-header,
 .settings-actions-header,
 .theme-tester-header { 
     border-bottom: 2px solid;
  }
-
-.setter-form-1 > input[type='file']::file-selector-button,
-.setter-form-2 input[type='file']::file-selector-button,
-.editor-form-1 > input[type='file']::file-selector-button {
-    border: none;
-    border-radius: 10px;
-}
 /*=================================*/
 /*$=========Setter Form 1=========$*/
 /*=================================*/
@@ -59,8 +31,6 @@
     padding: 0;
     width: 70%;
 }
-
-.setter-form-2 *:disabled { cursor: not-allowed }
 
 .create-theme-header { border-bottom: 2px solid }
 
@@ -102,8 +72,6 @@
     gap: 7%;
     margin: 2%;
 }
-
-.font-family-setter-div select[name='Font Family'] { text-align: center }
 /*=================================*/
 /*$=========Editor Form 1=========$*/
 /*=================================*/
