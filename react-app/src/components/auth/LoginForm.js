@@ -9,6 +9,7 @@ const LoginForm = ({ style }) => {
   const [errors, setErrors] = useState([]);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [loginBtn, setLoginBtn] = useState(true);
   const user = useSelector(state => state.session.user);
   const dispatch = useDispatch();
 
@@ -21,7 +22,9 @@ const LoginForm = ({ style }) => {
   };
 
   const updateEmail = (e) => {
+    const inputValid = e.target.checkValidity();
     setEmail(e.target.value);
+    setLoginBtn(inputValid);
   };
 
   const updatePassword = (e) => {
@@ -45,25 +48,34 @@ const LoginForm = ({ style }) => {
           ))}
         </div>
         <div>
-          <label htmlFor='email'>Email</label>
+          <label htmlFor='login-email'>Email</label>
           <input
-            name='email'
-            type='text'
+            id='login-email'
+            name='Email'
+            type='email'
             placeholder='Email'
             value={email}
             onChange={updateEmail}
           />
         </div>
         <div>
-          <label htmlFor='password'>Password</label>
+          <label htmlFor='login-password'>Password</label>
           <input
-            name='password'
+            id='login-password'
+            name='Password'
             type='password'
             placeholder='Password'
             value={password}
             onChange={updatePassword}
           />
-          <button type='submit' style={{ color: style.font_color }}>Login</button>
+          <button  
+            type='submit' 
+            data-logger={loginBtn}
+            disabled={loginBtn ? false : true}
+            style={{ color: style.font_color }}
+          >
+            Login
+          </button>
         </div>
       </form>
     </div>

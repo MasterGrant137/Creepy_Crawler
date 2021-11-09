@@ -7,8 +7,6 @@ CASCADE deletes any dependent entities.
 
 from app.models import db, User
 from faker import Faker
-import random
-import string
 
 fake = Faker()
 

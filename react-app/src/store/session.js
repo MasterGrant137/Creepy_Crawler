@@ -74,7 +74,7 @@ export const login = (email, password) => async (dispatch) => {
 }
 
 export const signUp = (username, email, password) => async (dispatch) => {
-  const response = await fetch('/creepycrawler/auth/signup', {
+  const response = await fetch('/creepycrawler/auth/sign-up', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

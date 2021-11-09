@@ -47,9 +47,9 @@ const SignUpForm = ({ style }) => {
   }
 
   return (
-    <div className='signup-form-container'>
+    <div className='sign-up-form-container'>
       <form 
-        className='signup-form' 
+        className='sign-up-form' 
         onSubmit={onSignUp}
         style={{ border: `3px solid ${style.accent_3}` }}
       >
@@ -59,40 +59,48 @@ const SignUpForm = ({ style }) => {
           ))}
         </div>
         <div>
-          <label>User Name</label>
+          <label htmlFor='sign-up-username'>Username</label>
           <input
+            id='sign-up-username'
+            name='Username'
             type='text'
-            name='username'
+            placeholder='Username'
             onChange={updateUsername}
             value={username}
           ></input>
         </div>
         <div>
-          <label>Email</label>
+          <label htmlFor='sign-up-email'>Email</label>
           <input
-            type='text'
-            name='email'
+            id='sign-up-email'
+            name='Email'
+            type='email'
+            placeholder='Email'
             onChange={updateEmail}
             value={email}
           ></input>
         </div>
         <div>
-          <label>Password</label>
+          <label htmlFor='sign-up-password'>Password</label>
           <input
+            id='sign-up-password'
+            name='Password'
             type='password'
-            name='password'
+            placeholder='Password'
             onChange={updatePassword}
             value={password}
           ></input>
         </div>
         <div>
-          <label>Repeat Password</label>
+          <label htmlFor='sign-up-repeat-password'>Repeat Password</label>
           <input
+            id='sign-up-repeat-password'
+            name='Repeat Password'
             type='password'
-            name='repeat_password'
+            placeholder='Repeat Password'
             onChange={updateRepeatPassword}
             value={repeatPassword}
-            required={true}
+            required
           ></input>
         </div>
         <button style={{ color: style.font_color }} type='submit'>Sign Up</button>

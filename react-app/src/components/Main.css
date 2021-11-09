@@ -19,12 +19,9 @@ button {
     border-radius: 3px;
 }
 
-input {
-    cursor: pointer;
-}
+input { cursor: pointer }
 
 input[type='search']:invalid:focus { cursor: none }
-
 
 input[type='file'] {
     height: fit-content;
@@ -37,7 +34,6 @@ input[type='file']::file-selector-button {
     border-radius: 10px;
 }
 
-input[type='text'] { padding: 3px 6px }
 
 select { 
     cursor: pointer;
@@ -50,6 +46,12 @@ ul { list-style-type: none }
 /*=================================*/
 /*$============Groups===========$*/
 /*=================================*/
+input[type='text'],
+input[type=email],
+input[type='password'] { 
+    padding: 3px 6px;
+}
+
 input:not([type='search']), select {
     border: none;
     border-radius: 9px;

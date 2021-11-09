@@ -48,7 +48,7 @@ const NavBar = ({ style }) => {
         {user &&
           <FontAwesomeIcon
           icon='user-cog'
-          onClick={(e) => navHandler(e, '/settings')}
+          onClick={(e) => navHandler(e, '/creepycrawler/settings/')}
           />
         }
         {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' />}
