@@ -10,7 +10,7 @@ import { Modal } from './components/Modals/Modal';
 
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import LoginForm from './components/auth/LoginForm';
-import SignUpForm from './components/auth/SignUpForm';
+import SignUpForm from './components/auth/SignupForm';
 import NavBar from './components/Navigation/Nav_Bar';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -67,7 +67,7 @@ function App() {
         <Route path='/login' exact={true}>
           <LoginForm style={siteTheme} />
         </Route>
-        <Route path='/sign-up' exact={true}>
+        <Route path='/signup' exact={true}>
           <SignUpForm style={siteTheme} />
         </Route>
         <ProtectedRoute path='/creepycrawler/settings/' exact={true}>
