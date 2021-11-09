@@ -5,6 +5,8 @@
     overflow-y: auto;
 }
 
+.settings-page-header { border-bottom: 2px solid }
+
 .setter-form-1 input[type='file']::file-selector-button,
 .setter-form-2 input[type='file']::file-selector-button,
 .editor-form input[type='file']::file-selector-button {
@@ -25,6 +27,8 @@
     margin: 8px 5px;
     width: 175px;
 }
+
+.settings-actions-header { border-bottom: 2px solid }
 /*=================================*/
 /*$=========Setter Form 2=========$*/
 /*=================================*/
