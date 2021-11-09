@@ -141,7 +141,7 @@ export const EditThemeForm = ({ style }) => {
             style={{
                     backgroundImage: `url(${setting.background_media})`,
                     backgroundColor: setting.background_color,
-                    border: `3px solid ${setting.accent_3}`,
+                    borderColor: setting.accent_3,
                     color: setting.font_color,
                     fontFamily: setting.font_family
             }}

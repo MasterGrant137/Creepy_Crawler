@@ -231,7 +231,7 @@ export const CreateThemeForm = ({ style }) => {
                 }}
             >
                 
-                <h2 style={{ color: accent_2, borderBottom: `2px dashed ${accent_1}` }}>{`${theme_name}` || 'Demo Theme'}</h2>
+                <h2 className='theme-tester-header' style={{ color: accent_2, borderColor: accent_1 }}>{theme_name || 'Demo Theme'}</h2>
                 <div>
                     <h3>Test your theme.</h3>
                     <p>See your theme specs here.</p>

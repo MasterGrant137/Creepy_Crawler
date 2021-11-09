@@ -47,6 +47,8 @@
 
 .create-theme-header { border-bottom: 2px solid }
 
+.theme-tester-header { border-bottom: 2px dashed }
+
 .sf2-submit-btn {
     position: absolute;
     left: 5%;
@@ -94,6 +96,7 @@
 /*=================================*/
 .editor-form {
     align-items: center;
+    border: 3px solid;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
