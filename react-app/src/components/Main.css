@@ -23,6 +23,9 @@ input {
     cursor: pointer;
 }
 
+input[type='search']:invalid:focus { cursor: none }
+
+
 input[type='file'] {
     height: fit-content;
     margin: 1px 0;

@@ -9,7 +9,6 @@ committing the data to the database.
 import re
 from datetime import datetime
 from flask import Blueprint, request
-from flask_migrate import Migrate, history
 from app.models import db, History
 from app.forms import SearchForm
 from flask_login import current_user, login_required
@@ -31,7 +30,7 @@ def add_history_entry():
     form['csrf_token'].data = request.cookies['csrf_token']
 
     if form.validate_on_submit():
-        js_tstamp = form.data['updated_at']
+        js_tstamp = request.json['updated_at']
         js_tstamp_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
@@ -45,7 +44,7 @@ def add_history_entry():
         js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
 
         history_entry = History(
-            user_id=form.data['user_id'],
+            user_id=request.json['user_id'],
             search=form.data['search'],
             tz=js_tz_parsed,
             tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
@@ -57,7 +56,7 @@ def add_history_entry():
         return {
             'history': history_entry.to_dict()
         }
-    return {'errors': validation_errors_to_error_messages(form.errors)}, 400
+    return {'errors': ['Please make a valid search.']}, 400
 
 @history_routes.route('/')
 @login_required
@@ -107,6 +106,7 @@ def delete_history_entry(entryID):
     entry = History.query.filter(History.id == entryID).first()
 
     if entry.user_id == current_user.id:
+        print('hit', 1 == 2)
         db.session.delete(entry)
         db.session.commit()
         return { 'message': 'successful' }

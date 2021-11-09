@@ -38,6 +38,9 @@ export const createHistoryEntry = (entry) => async dispatch => {
         const newEntry = await response.json();
         await dispatch(createHistory(newEntry));
         return newEntry;
+    } else {
+        const res = await response.json();
+        console.error(res.errors[0]);
     }
 }
 

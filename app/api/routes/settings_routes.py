@@ -1,8 +1,7 @@
 """Settings routes."""
 
 from flask import Blueprint, request
-from flask_migrate import Migrate
-from app.models import db, User, Theme, user
+from app.models import db, Theme
 from flask_login import current_user, login_required
 from app.s3_helpers import (upload_file_to_s3, allowed_file, get_unique_filename)
 
@@ -60,7 +59,7 @@ def get_themes():
 @login_required
 def update_theme(settingID):
     """Update a theme."""
-    theme = Theme.query.filter(Theme.id == request.form['setting_id']).first()
+    theme = Theme.query.filter(Theme.id == settingID).first()
 
     if 'background_media' in request.files:
         background_media = request.files['background_media']
@@ -104,4 +103,4 @@ def delete_theme(settingID):
         db.session.commit()
         return { 'message': 'successful' }
 
-    return { 'errors': ['You are not permitted to edit this theme.'] }, 401
+    return { 'errors': ['You are not permitted to delete this theme.'] }, 401

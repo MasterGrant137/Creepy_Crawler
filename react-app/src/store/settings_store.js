@@ -73,7 +73,8 @@ export const deleteUserSetting = (settingID) => async dispatch => {
         await dispatch(deleteSetting(settingID));
         return message;
     } else {
-        return response;
+        const res = await response.json();
+        alert(res.errors);
     }
 }
 

@@ -16,7 +16,7 @@ export const SearchPage = ({ style }) => {
     const searchHandler = (e) => {
         e.preventDefault();
         dispatch(createHistoryEntry({ user_id, search, updated_at }));
-        window.location.reload();
+        // window.location.reload();
     }
 
     useEffect(() => {
@@ -30,6 +30,7 @@ export const SearchPage = ({ style }) => {
                 <input
                     type='search'
                     className='search-page-search-input'
+                    maxLength='10'
                     placeholder='Crawl the web.'
                     aria-label='Crawl the web.'
                     onChange={(e) => {

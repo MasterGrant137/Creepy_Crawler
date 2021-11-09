@@ -19,10 +19,10 @@ const SignUpForm = ({ style }) => {
     if (password === repeatPassword) {
       const data = await dispatch(signUp(username, email, password));
       if (data) {
-        setErrors(data)
+        setErrors(data);
       }
     } else {
-      setErrors(['Password fields do not match.'])
+      setErrors(['Password fields do not match.']);
     }
   };
 
