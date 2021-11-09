@@ -78,12 +78,8 @@ export const CreateThemeForm = ({ style }) => {
 
     return (
         <>
-            <form 
-                className='setter-form-2' 
-                onSubmit={createSettingHandler}
-                style={{ border: `3px solid ${style.accent_3}`, borderRight: '0' }}
-            >
-                <h2 className='create-theme-header' style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>Create Theme</h2>
+            <form className='setter-form-2' onSubmit={createSettingHandler} style={{ borderColor: style.accent_3 }}>
+                <h2 className='create-theme-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Create Theme</h2>
                 <button 
                     className='sf2-submit-btn' 
                     style={{ 
@@ -228,7 +224,7 @@ export const CreateThemeForm = ({ style }) => {
             <div  
                 className='theme-tester-container'
                 style={{
-                    border: `3px dashed ${accent_3}`,
+                    borderColor: accent_3,
                     backgroundColor: background_color,
                     fontFamily: font_family,
                     color: font_color

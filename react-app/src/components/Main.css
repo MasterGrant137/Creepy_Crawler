@@ -60,15 +60,16 @@ ul li {
     overflow-x: scroll;
 }
 
+.create-and-test-container h2 { margin-bottom: 0 }
+
 .create-theme-container {
-    border-radius: 5px;
     overflow-y: auto;
     position: relative;
     width: 800px;
 }
 
 .theme-tester-container {
-    /* border-radius: 5px; */
+    border: 3px dashed;
     height: 100%;
     padding: 0 0.5%;
     position: absolute;

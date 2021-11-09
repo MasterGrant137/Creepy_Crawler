@@ -5,12 +5,9 @@
     overflow-y: auto;
 }
 
-.create-and-test-container h2 { margin-bottom: 0 }
-
 .setter-form-1 input[type='file']::file-selector-button,
 .setter-form-2 input[type='file']::file-selector-button,
 .editor-form input[type='file']::file-selector-button {
-    cursor: pointer;
     border: none;
     border-radius: 10px;
     height: 16px;
@@ -32,6 +29,8 @@
 /*$=========Setter Form 2=========$*/
 /*=================================*/
 .setter-form-2 {
+    border-style: solid;
+    border-width: 3px 0 3px 3px;
     grid-template-areas: 
     'a'
     'b'
@@ -41,6 +40,8 @@
 }
 
 .setter-form-2 *:disabled { cursor: not-allowed }
+
+.create-theme-header { border-bottom: 2px solid }
 
 .sf2-submit-btn {
     position: absolute;
