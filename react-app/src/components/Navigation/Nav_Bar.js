@@ -52,8 +52,8 @@ const NavBar = ({ style }) => {
           />
         }
         {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' />}
-        {!user && <li data-link-dest='/login' onClick={navHandler}>Log In</li>}
-        {!user && <li data-link-dest='/sign-up' onClick={navHandler}>Sign Up</li>}
+        {!user && <li data-link-dest='/creepycrawler/auth/' onClick={navHandler}>Login</li>}
+        {!user && <li data-link-dest='/signup' onClick={navHandler}>Signup</li>}
         {!user && <li data-link-dest='/' onClick={navHandler}>Demo Login</li>}
         {user && <LogoutButton style={style} />}
       </ul>

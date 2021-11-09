@@ -11,14 +11,14 @@
     flex-direction: column;
 }
 
-.sign-up-form-container {
+.signup-form-container {
     align-items: center;
     display: flex;
     height: 80vh;
     justify-content: center;
 }
 
-.sign-up-form {
+.signup-form {
     border-radius: 5px;
     display: flex;
     flex-direction: column;

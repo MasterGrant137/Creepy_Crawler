@@ -5,7 +5,7 @@ import { signUp } from '../../store/session';
 import '../Main.css';
 import '../Auth.css';
 
-const SignUpForm = ({ style }) => {
+const SignupForm = ({ style }) => {
   const [errors, setErrors] = useState([]);
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
@@ -47,9 +47,9 @@ const SignUpForm = ({ style }) => {
   }
 
   return (
-    <div className='sign-up-form-container'>
+    <div className='signup-form-container'>
       <form 
-        className='sign-up-form' 
+        className='signup-form' 
         onSubmit={onSignUp}
         style={{ border: `3px solid ${style.accent_3}` }}
       >
@@ -59,9 +59,9 @@ const SignUpForm = ({ style }) => {
           ))}
         </div>
         <div>
-          <label htmlFor='sign-up-username'>Username</label>
+          <label htmlFor='signup-username'>Username</label>
           <input
-            id='sign-up-username'
+            id='signup-username'
             name='Username'
             type='text'
             placeholder='Username'
@@ -70,9 +70,9 @@ const SignUpForm = ({ style }) => {
           ></input>
         </div>
         <div>
-          <label htmlFor='sign-up-email'>Email</label>
+          <label htmlFor='signup-email'>Email</label>
           <input
-            id='sign-up-email'
+            id='signup-email'
             name='Email'
             type='email'
             placeholder='Email'
@@ -81,9 +81,9 @@ const SignUpForm = ({ style }) => {
           ></input>
         </div>
         <div>
-          <label htmlFor='sign-up-password'>Password</label>
+          <label htmlFor='signup-password'>Password</label>
           <input
-            id='sign-up-password'
+            id='signup-password'
             name='Password'
             type='password'
             placeholder='Password'
@@ -92,9 +92,9 @@ const SignUpForm = ({ style }) => {
           ></input>
         </div>
         <div>
-          <label htmlFor='sign-up-repeat-password'>Repeat Password</label>
+          <label htmlFor='signup-repeat-password'>Repeat Password</label>
           <input
-            id='sign-up-repeat-password'
+            id='signup-repeat-password'
             name='Repeat Password'
             type='password'
             placeholder='Repeat Password'
@@ -109,4 +109,4 @@ const SignUpForm = ({ style }) => {
   );
 };
 
-export default SignUpForm;
+export default SignupForm;
