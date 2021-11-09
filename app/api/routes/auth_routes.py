@@ -25,7 +25,7 @@ def authenticate():
     return {'errors': ['Unauthorized']}
 
 
-@auth_routes.route('/login', methods=['POST'])
+@auth_routes.route('/login', methods=['GET','POST'])
 def login():
     """Log a user in."""
     form = LoginForm()
@@ -47,7 +47,7 @@ def logout():
     return {'message': 'User logged out'}
 
 
-@auth_routes.route('/signup', methods=['POST'])
+@auth_routes.route('/signup', methods=['GET','POST'])
 def sign_up():
     """Create a new user and logs them in."""
     form = SignUpForm()
