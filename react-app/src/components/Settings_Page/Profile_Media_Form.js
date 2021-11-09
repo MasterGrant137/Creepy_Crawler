@@ -36,12 +36,10 @@ export const ProfileMediaForm = ({ style }) => {
         <>
             <form 
                 id='sett-pg-setter-form-1'
-                data-setting-id={1}
-                className='settings-form setter-form-1'
+                className='setter-form-1'
                 onSubmit={profileMediaHandler}
             >
                 <label 
-                    
                     htmlFor='sett-pg-user-profile-media-uploader' 
                     style={{ borderBottom: `2px solid ${style.accent_1}` }}
                 >
@@ -49,7 +47,6 @@ export const ProfileMediaForm = ({ style }) => {
                 </label>
                 <input
                     id='sett-pg-user-profile-media-uploader'
-                    data-input-name='Profile Media'
                     type='file'
                     onChange={setProfileMediaHandler}
                 />

@@ -42,38 +42,38 @@
 
 .setter-form-2 *:disabled { cursor: not-allowed }
 
-.sett-pg-submit-btn {
+.sf2-submit-btn {
     position: absolute;
     left: 5%;
     top: 5%;
 }
 
-.sett-pg-reset-btn {
+.sf2-reset-btn {
     position: absolute;
     left: 10%;
     top: 5%;
 }
 
-.sett-pg-row-a {
+.sf2-row-a {
     display: flex;
     gap: 10px;
     grid-area: a;
     justify-content: space-between;
 }
-.sett-pg-row-b {
+.sf2-row-b {
     display: flex;
     grid-area: b;
     justify-content: space-between;
 }
-.sett-pg-row-c {
+.sf2-row-c {
     display: flex;
     grid-area: c;
     justify-content: space-between;
 }
 
-.sett-pg-row-a > div,
-.sett-pg-row-b > div,
-.sett-pg-row-c > div {
+.sf2-row-a > div,
+.sf2-row-b > div,
+.sf2-row-c > div {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@
 
 .font-family-setter-div select[name='Font Family'] { text-align: center }
 
-.sett-pg-row-c input[name='Background Media'] { width: 155px }
+.sf2-row-c input[name='Background Media'] { width: 155px }
 /*=================================*/
 /*$=========Editor Form 1=========$*/
 /*=================================*/

@@ -85,7 +85,7 @@ export const CreateThemeForm = ({ style }) => {
             >
                 <h2 className='create-theme-header' style={{ color: style.accent_2, borderBottom: `2px solid ${style.accent_1}` }}>Create Theme</h2>
                 <button 
-                    className='sett-pg-submit-btn' 
+                    className='sf2-submit-btn' 
                     style={{ 
                         color: style.font_color,
                         fontFamily: style.font_family,
@@ -96,7 +96,7 @@ export const CreateThemeForm = ({ style }) => {
                 </button>
                 <button
                     type='button'
-                    className='sett-pg-reset-btn'
+                    className='sf2-reset-btn'
                     onClick={resetHandler}
                     style={{ 
                         color: style.font_color, 
@@ -106,7 +106,7 @@ export const CreateThemeForm = ({ style }) => {
                 >
                     Refresh
                 </button>
-                <div className='sett-pg-row-a'>
+                <div className='sf2-row-a'>
                     <div className='theme-name-setter-div'>
                         <label htmlFor='theme-name-setter'>Theme Name</label>
                         <input
@@ -148,11 +148,11 @@ export const CreateThemeForm = ({ style }) => {
                         </select>
                     </div>
                 </div>
-                <div className='sett-pg-row-b'>
+                <div className='sf2-row-b'>
                     <div className='font-color-setter-div'>
-                        <label htmlFor='sett-pg-font-color-setter'>Font Color</label>
+                        <label htmlFor='sf2-font-color-setter'>Font Color</label>
                         <input
-                            id='sett-pg-font-color-setter'
+                            id='sf2-font-color-setter'
                             name='Font Color'
                             type='color'
                             value={font_color}
@@ -160,9 +160,9 @@ export const CreateThemeForm = ({ style }) => {
                         />
                     </div>
                     <div className='accent-1-setter-div'>
-                        <label htmlFor='sett-pg-accent-1-color-setter'>Accent 1</label>
+                        <label htmlFor='sf2-accent-1-color-setter'>Accent 1</label>
                         <input
-                            id='sett-pg-accent-1-color-setter'
+                            id='sf2-accent-1-color-setter'
                             name='Accent 1'
                             type='color'
                             value={accent_1}
@@ -170,9 +170,9 @@ export const CreateThemeForm = ({ style }) => {
                         />
                     </div>
                     <div className='accent-2-setter-div'>
-                        <label htmlFor='sett-pg-accent-2-color-setter'>Accent 2</label>
+                        <label htmlFor='sf2-accent-2-color-setter'>Accent 2</label>
                         <input
-                            id='sett-pg-accent-2-color-setter'
+                            id='sf2-accent-2-color-setter'
                             name='Accent 2'
                             type='color'
                             value={accent_2}
@@ -180,9 +180,9 @@ export const CreateThemeForm = ({ style }) => {
                         />
                     </div>
                     <div className='accent-3-setter-div'>
-                        <label htmlFor='sett-pg-accent-3-color-setter'>Accent 3</label>
+                        <label htmlFor='sf2-accent-3-color-setter'>Accent 3</label>
                         <input
-                            id='sett-pg-accent-3-color-setter'
+                            id='sf2-accent-3-color-setter'
                             name='Accent 3'
                             type='color'
                             value={accent_3}
@@ -190,9 +190,9 @@ export const CreateThemeForm = ({ style }) => {
                         />
                     </div>
                     <div className='background-color-setter-div'>
-                        <label htmlFor='sett-pg-bg-color-setter'>Background Color</label>
+                        <label htmlFor='sf2-bg-color-setter'>Background Color</label>
                         <input
-                            id='sett-pg-bg-color-setter'
+                            id='sf2-bg-color-setter'
                             name='Background Color'
                             type='color'
                             value={background_color}
@@ -200,13 +200,13 @@ export const CreateThemeForm = ({ style }) => {
                         />
                     </div>
                 </div>
-                <div className='sett-pg-row-c'>
+                <div className='sf2-row-c'>
                     <div className='background-media-setter-div'>
-                        <label htmlFor='sett-pg-background-media-uploader'>
+                        <label htmlFor='sf2-background-media-uploader'>
                             {background_media !== '' ? 'Background Media' : 'Added'}
                         </label>
                         <input
-                            id='sett-pg-background-media-uploader'
+                            id='sf2-background-media-uploader'
                             name='Background Media'
                             type='file'
                             onChange={setBackgroundMediaHandler}
@@ -214,9 +214,9 @@ export const CreateThemeForm = ({ style }) => {
                         {background_media_loading && (<span>Loading...</span>)}
                     </div>
                     <div className='background-rotate-setter-div'>
-                        <label htmlFor='sett-pg-bg-rotate-setter'>Background Rotate</label>
+                        <label htmlFor='sf2-bg-rotate-setter'>Background Rotate</label>
                         <input
-                            id='sett-pg-bg-rotate-setter'
+                            id='sf2-bg-rotate-setter'
                             name='Background Rotate'
                             type='checkbox'
                             checked={background_rotate}
