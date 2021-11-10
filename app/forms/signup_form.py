@@ -33,10 +33,33 @@ def proper_password(form, field):
     ([\W_]) #? symbol
     ''', re.VERBOSE)
 
+    validation_errors = []
+
+    password = field.data
+
+    lowercase_letter_present = re.search(required_chars_regex, password).group(1)
+    uppercase_letter_present = re.search(required_chars_regex, password).group(2)
+    number_present = re.search(required_chars_regex, password).group(3)
+    symbol_present = re.search(required_chars_regex, password).group(4)
+
+    if len(password) < 8 or len(password) > 255:
+        raise ValidationError('Passwords must be between 8 and 255 characters, inclusively!')
+    if not lowercase_letter_present: 
+        validation_errors.append('Lowercase letter needed in password.')
+    if not uppercase_letter_present: 
+        validation_errors.append('Uppercase letter needed in password.')
+    if not number_present: 
+        validation_errors.append('Number needed in password.')
+    if not symbol_present: 
+        validation_errors.append('Symbol needed in password.')
+
+    if len(validation_errors):
+        raise ValidationError(validation_errors)
+
 
 class SignUpForm(FlaskForm):
     """Signup form class."""
 
     username = StringField('username', validators=[DataRequired(), username_exists])
     email = StringField('email', validators=[DataRequired(), user_exists])
-    password = StringField('password', validators=[DataRequired()])
+    password = StringField('password', validators=[DataRequired(), proper_password])

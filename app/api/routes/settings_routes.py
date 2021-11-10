@@ -12,7 +12,7 @@ def validation_errors_to_error_messages(validation_errors):
     errorMessages = []
     for field in validation_errors:
         for error in validation_errors[field]:
-            errorMessages.append(f'{field} : {error}')
+            errorMessages.append(f"{field}: {error}")
     return errorMessages
 
 @settings_routes.route('/', methods=['POST'])
@@ -90,7 +90,7 @@ def update_theme(settingID):
         return {
             'setting': theme.to_dict()
         }
-    return { 'errors': ['You are not permitted to edit this theme.'] }, 401
+    return { 'errors': ['You are not permitted to edit this theme!'] }, 401
 
 @settings_routes.route('/<int:settingID>', methods=['DELETE'])
 @login_required
@@ -103,4 +103,4 @@ def delete_theme(settingID):
         db.session.commit()
         return { 'message': 'successful' }
 
-    return { 'errors': ['You are not permitted to delete this theme.'] }, 401
+    return { 'errors': ['You are not permitted to delete this theme!'] }, 401
