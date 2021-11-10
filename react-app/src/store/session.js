@@ -31,8 +31,23 @@ const removeUser = () => ({
 
 const initialState = { user: null };
 
-export const authenticate = () => async (dispatch) => {
-  const response = await fetch('/creepycrawler/auth/', {
+export const authenticateLogin = () => async (dispatch) => {
+  const response = await fetch('/creepycrawler/auth/login', {
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  });
+  if (response.ok) {
+    const data = await response.json();
+    if (data.errors) {
+      return;
+    }
+    dispatch(setUser(data));
+  }
+}
+
+export const authenticateSignup = () => async (dispatch) => {
+  const response = await fetch('/creepycrawler/auth/signup', {
     headers: {
       'Content-Type': 'application/json'
     }

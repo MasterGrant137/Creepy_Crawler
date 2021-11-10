@@ -17,15 +17,21 @@ def validation_errors_to_error_messages(validation_errors):
     return errorMessages
 
 
-@auth_routes.route('/')
-def authenticate():
+@auth_routes.route('/login')
+def authenticateLogin():
     """Authenticate a user."""
     if current_user.is_authenticated:
         return current_user.to_dict()
     return {'errors': ['Unauthorized']}
 
+@auth_routes.route('/signup')
+def authenticateSignup():
+    """Authenticate a user."""
+    if current_user.is_authenticated:
+        return current_user.to_dict()
+    return {'errors': ['Unauthorized']}
 
-@auth_routes.route('/login', methods=['GET','POST'])
+@auth_routes.route('/login', methods=['POST'])
 def login():
     """Log a user in."""
     form = LoginForm()
@@ -47,7 +53,7 @@ def logout():
     return {'message': 'User logged out'}
 
 
-@auth_routes.route('/signup', methods=['GET','POST'])
+@auth_routes.route('/signup', methods=['POST'])
 def sign_up():
     """Create a new user and logs them in."""
     form = SignUpForm()
