@@ -48,62 +48,66 @@ const SignupForm = ({ style }) => {
 
   return (
     <div className='signup-form-container'>
-      <form 
-        className='signup-form' 
-        onSubmit={onSignUp}
-        style={{ border: `3px solid ${style.accent_3}` }}
+        <form
+          className='signup-form' 
+          onSubmit={onSignUp}
+          style={{ border: `3px solid ${style.accent_3}` }}
       >
-        <div>
-          {errors.map((error, ind) => (
-            <div key={ind}>{error}</div>
-          ))}
-        </div>
-        <div>
-          <label htmlFor='signup-username'>Username</label>
-          <input
-            id='signup-username'
-            name='Username'
-            type='text'
-            placeholder='Username'
-            onChange={updateUsername}
-            value={username}
-          ></input>
-        </div>
-        <div>
-          <label htmlFor='signup-email'>Email</label>
-          <input
-            id='signup-email'
-            name='Email'
-            type='email'
-            placeholder='Email'
-            onChange={updateEmail}
-            value={email}
-          ></input>
-        </div>
-        <div>
-          <label htmlFor='signup-password'>Password</label>
-          <input
-            id='signup-password'
-            name='Password'
-            type='password'
-            placeholder='Password'
-            onChange={updatePassword}
-            value={password}
-          ></input>
-        </div>
-        <div>
-          <label htmlFor='signup-repeat-password'>Repeat Password</label>
-          <input
-            id='signup-repeat-password'
-            name='Repeat Password'
-            type='password'
-            placeholder='Repeat Password'
-            onChange={updateRepeatPassword}
-            value={repeatPassword}
-            required
-          ></input>
-        </div>
-        <button style={{ color: style.font_color }} type='submit'>Sign Up</button>
+          <div>
+            {errors.map((error, ind) => (
+              <div key={ind}>{error}</div>
+            ))}
+          </div>
+          <div>
+            <label htmlFor='signup-username'>Username</label>
+            <input
+              id='signup-username'
+              name='Username'
+              type='text'
+              placeholder='Mr. Appleseed'
+              aria-placeholder='Mr. Appleseed'
+              onChange={updateUsername}
+              value={username}
+            />
+          </div>
+          <div>
+            <label htmlFor='signup-email'>Email</label>
+            <input
+              id='signup-email'
+              name='Email'
+              type='email'
+              placeholder='jappleseed@email.com'
+              aria-placeholder='jappleseed@email.com'
+              onChange={updateEmail}
+              value={email}
+            />
+          </div>
+          <div>
+            <label htmlFor='signup-password'>Password</label>
+            <input
+              id='signup-password'
+              name='Password'
+              type='password'
+              placeholder='a1%Bp9!U'
+              aria-placeholder='a1%Bp9!U'
+              onChange={updatePassword}
+              value={password}
+            />
+          </div>
+          <div>
+            <label htmlFor='signup-repeat-password'>Repeat Password</label>
+            <input
+              id='signup-repeat-password'
+              name='Repeat Password'
+              type='password'
+              placeholder='a1%Bp9!U'
+              aria-placeholder='a1%Bp9!U'
+              onChange={updateRepeatPassword}
+              value={repeatPassword}
+              required
+            />
+          </div>
+          <button style={{ color: style.font_color }} type='submit'>Sign Up</button>
       </form>
     </div>
   );
