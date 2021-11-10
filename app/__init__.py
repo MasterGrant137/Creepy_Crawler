@@ -32,11 +32,11 @@ def load_user(id):
 app.cli.add_command(seed_commands)
 
 app.config.from_object(Config)
-app.register_blueprint(user_routes, url_prefix='/creepycrawler/users')
-app.register_blueprint(auth_routes, url_prefix='/creepycrawler/auth')
-app.register_blueprint(history_routes, url_prefix='/creepycrawler/history')
-app.register_blueprint(search_routes, url_prefix='/creepycrawler/search')
-app.register_blueprint(settings_routes, url_prefix='/creepycrawler/settings')
+app.register_blueprint(user_routes, url_prefix='/api/users')
+app.register_blueprint(auth_routes, url_prefix='/api/auth')
+app.register_blueprint(history_routes, url_prefix='/api/history')
+app.register_blueprint(search_routes, url_prefix='/api/search')
+app.register_blueprint(settings_routes, url_prefix='/api/settings')
 
 db.init_app(app)
 Migrate(app, db)

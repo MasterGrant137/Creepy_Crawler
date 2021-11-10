@@ -7,7 +7,7 @@ import '../Main.css';
 import './Nav_Bar.css';
 
 const NavBar = ({ style }) => {
-  const history = useHistory()
+  const history = useHistory();
   const user = useSelector(state => state.session.user);
   const dispatch = useDispatch();
 
@@ -16,15 +16,15 @@ const NavBar = ({ style }) => {
     switch (destination) {
       case '/home': history.push('/'); break;
       case '/history':  
-        history.push(`${destination}`);
+        history.push(destination);
         window.location.reload();
         break;
       case '/':
-        history.push(`${destination}`);
+        history.push(destination);
         await dispatch(login('jseed@aa.io', 'password'));
         window.location.reload();
         break;
-      default: history.push(`${destination}`); break;
+      default: history.push(destination); break;
     }
   }
 
@@ -42,18 +42,18 @@ const NavBar = ({ style }) => {
         {user && 
           <FontAwesomeIcon 
             icon='history'
-            onClick={(e) => navHandler(e, '/creepycrawler/history/')}
+            onClick={(e) => navHandler(e, '/api/history/')}
           />
         }
         {user &&
           <FontAwesomeIcon
           icon='user-cog'
-          onClick={(e) => navHandler(e, '/creepycrawler/settings/')}
+          onClick={(e) => navHandler(e, '/api/settings/')}
           />
         }
         {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' />}
-        {!user && <li data-link-dest='/creepycrawler/auth/login' onClick={navHandler}>Login</li>}
-        {!user && <li data-link-dest='/creepycrawler/auth/signup' onClick={navHandler}>Signup</li>}
+        {!user && <li data-link-dest='/api/auth/login' onClick={navHandler}>Login</li>}
+        {!user && <li data-link-dest='/api/auth/signup' onClick={navHandler}>Signup</li>}
         {!user && <li data-link-dest='/' onClick={navHandler}>Demo Login</li>}
         {user && <LogoutButton style={style} />}
       </ul>

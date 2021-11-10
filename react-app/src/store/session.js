@@ -32,7 +32,7 @@ const removeUser = () => ({
 const initialState = { user: null };
 
 export const authenticateLogin = () => async (dispatch) => {
-  const response = await fetch('/creepycrawler/auth/login', {
+  const response = await fetch('/api/auth/login', {
     headers: {
       'Content-Type': 'application/json'
     }
@@ -47,7 +47,7 @@ export const authenticateLogin = () => async (dispatch) => {
 }
 
 export const authenticateSignup = () => async (dispatch) => {
-  const response = await fetch('/creepycrawler/auth/signup', {
+  const response = await fetch('/api/auth/signup', {
     headers: {
       'Content-Type': 'application/json'
     }
@@ -62,7 +62,7 @@ export const authenticateSignup = () => async (dispatch) => {
 }
 
 export const login = (email, password) => async (dispatch) => {
-  const response = await fetch('/creepycrawler/auth/login', {
+  const response = await fetch('/api/auth/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -89,7 +89,7 @@ export const login = (email, password) => async (dispatch) => {
 }
 
 export const signUp = (username, email, password) => async (dispatch) => {
-  const response = await fetch('/creepycrawler/auth/signup', {
+  const response = await fetch('/api/auth/signup', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -116,7 +116,7 @@ export const signUp = (username, email, password) => async (dispatch) => {
 }
 
 export const readUser = (userID) => async dispatch => {
-  const response = await fetch(`/creepycrawler/users/${userID}`);
+  const response = await fetch(`/api/users/${userID}`);
   
   if (response.ok) {
     const user = await response.json();
@@ -126,7 +126,7 @@ export const readUser = (userID) => async dispatch => {
 }
 
 export const editProfileMedia = (userID, formData) => async dispatch => {
-  const response = await fetch(`/creepycrawler/users/${userID}`, {
+  const response = await fetch(`/api/users/${userID}`, {
       method: 'PUT',
       body: formData
   })
@@ -143,7 +143,7 @@ export const editProfileMedia = (userID, formData) => async dispatch => {
 }
 
 export const editProfile = (setting) => async dispatch => {
-  const response = await fetch(`/creepycrawler/users/profile`, {
+  const response = await fetch(`/api/users/profile`, {
       headers: {
         'Content-Type': 'application/json'
       },
@@ -165,7 +165,7 @@ export const editProfile = (setting) => async dispatch => {
 }
 
 export const resetProfileTheme = () => async dispatch => {
-  const response = await fetch('/creepycrawler/users/profile/reset-theme', {
+  const response = await fetch('/api/users/profile/reset-theme', {
     headers: {
       'Content-Type': 'application/json'
     },
@@ -181,7 +181,7 @@ export const resetProfileTheme = () => async dispatch => {
 }
 
 export const logout = () => async (dispatch) => {
-  const response = await fetch('/creepycrawler/auth/logout', {
+  const response = await fetch('/api/auth/logout', {
     headers: {
       'Content-Type': 'application/json',
     }

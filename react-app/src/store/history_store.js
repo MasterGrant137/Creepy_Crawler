@@ -27,7 +27,7 @@ const deleteHistory = (entryID) => ({
 
 //$ thunks
 export const createHistoryEntry = (entry) => async dispatch => {
-    const response = await fetch('/creepycrawler/history/', {
+    const response = await fetch('/api/history/', {
         headers: {
             'Content-Type': 'application/json'
         },
@@ -45,7 +45,7 @@ export const createHistoryEntry = (entry) => async dispatch => {
 }
 
 export const readHistoryEntries = () => async dispatch => {
-    const response = await fetch('/creepycrawler/history/');
+    const response = await fetch('/api/history/');
     if (response.ok) {
         const entries = await response.json();
         await dispatch(readHistory(entries));
@@ -54,7 +54,7 @@ export const readHistoryEntries = () => async dispatch => {
 }
 
 export const updateHistoryEntry = (entry) => async dispatch => {
-    const response = await fetch(`/creepycrawler/history/${entry.entryID}`, {
+    const response = await fetch(`/api/history/${entry.entryID}`, {
         headers: {
             'Content-Type': 'application/json'
         },
@@ -71,7 +71,7 @@ export const updateHistoryEntry = (entry) => async dispatch => {
 }
 
 export const deleteHistoryEntry = (entryID) => async dispatch => {
-    const response = await fetch(`/creepycrawler/history/${entryID}`, {
+    const response = await fetch(`/api/history/${entryID}`, {
         method: 'DELETE'
     })
     if (response.ok) {

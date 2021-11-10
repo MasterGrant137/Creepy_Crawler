@@ -30,7 +30,7 @@ export const createUserSetting = (formData) => async dispatch => {
     for (let entry of formData) {
         console.log(entry, typeof(entry[1]));
     }
-    const response = await fetch('/creepycrawler/settings/', {
+    const response = await fetch('/api/settings/', {
         method: 'POST',
         body: formData
     })
@@ -44,7 +44,7 @@ export const createUserSetting = (formData) => async dispatch => {
 }
 
 export const readUserSettings = () => async dispatch => {
-    const response = await fetch(`/creepycrawler/settings/`);
+    const response = await fetch(`/api/settings/`);
     if (response.ok) {
         const settings = await response.json();
         await dispatch(readSettings(settings));
@@ -53,7 +53,7 @@ export const readUserSettings = () => async dispatch => {
 }
 
 export const updateUserSetting = (settingID, formData) => async dispatch => {
-    const response = await fetch(`/creepycrawler/settings/${settingID}`, {
+    const response = await fetch(`/api/settings/${settingID}`, {
         method: 'PUT',
         body: formData
     })
@@ -65,7 +65,7 @@ export const updateUserSetting = (settingID, formData) => async dispatch => {
 }
 
 export const deleteUserSetting = (settingID) => async dispatch => {
-    const response = await fetch(`/creepycrawler/settings/${settingID}`, {
+    const response = await fetch(`/api/settings/${settingID}`, {
         method: 'DELETE'
     })
     if (response.ok) {

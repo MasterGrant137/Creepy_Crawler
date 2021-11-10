@@ -65,16 +65,16 @@ function App() {
       <Modal open={isOpen} onClose={() => setIsOpen(false)} />
       <NavBar style={siteTheme} />
       <Switch>
-        <Route path='/creepycrawler/auth/login' exact={true}>
+        <Route path='/api/auth/login' exact={true}>
           <LoginForm style={siteTheme} />
         </Route>
-        <Route path='/creepycrawler/auth/signup' exact={true}>
+        <Route path='/api/auth/signup' exact={true}>
           <SignupForm style={siteTheme} />
         </Route>
-        <ProtectedRoute path='/creepycrawler/settings/' exact={true}>
+        <ProtectedRoute path='/api/settings/' exact={true}>
           <SettingsPage style={siteTheme} />
         </ProtectedRoute>
-        <ProtectedRoute path='/creepycrawler/history/' exact={true}>
+        <ProtectedRoute path='/api/history/' exact={true}>
           <HistoryPage style={siteTheme} />
         </ProtectedRoute>
         <Route path='/' exact={true} >
