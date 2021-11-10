@@ -74,7 +74,7 @@ function App() {
         <ProtectedRoute path='/creepycrawler/settings/' exact={true}>
           <SettingsPage style={siteTheme} />
         </ProtectedRoute>
-        <ProtectedRoute path='/history/' exact={true}>
+        <ProtectedRoute path='/creepycrawler/history/' exact={true}>
           <HistoryPage style={siteTheme} />
         </ProtectedRoute>
         <Route path='/' exact={true} >

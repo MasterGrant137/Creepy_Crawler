@@ -42,7 +42,7 @@ const NavBar = ({ style }) => {
         {user && 
           <FontAwesomeIcon 
             icon='history'
-            onClick={(e) => navHandler(e, '/history')}
+            onClick={(e) => navHandler(e, '/creepycrawler/history/')}
           />
         }
         {user &&
