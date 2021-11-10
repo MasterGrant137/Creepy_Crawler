@@ -26,21 +26,14 @@ def proper_password(form, field):
     It also determines if the length (8 characters) is 
     sufficient.
     """
-    required_chars_regex = re.compile(r'''
-    ([a-z])| #? lowercase letter
-    ([A-Z])| #? uppercase letter
-    ([0-9])| #? number
-    ([\W_]) #? symbol
-    ''', re.VERBOSE)
-
     validation_errors = []
 
     password = field.data
 
-    lowercase_letter_present = re.search(required_chars_regex, password).group(1)
-    uppercase_letter_present = re.search(required_chars_regex, password).group(2)
-    number_present = re.search(required_chars_regex, password).group(3)
-    symbol_present = re.search(required_chars_regex, password).group(4)
+    lowercase_letter_present = bool(re.search(r'[a-z]', password))
+    uppercase_letter_present = bool(re.search(r'[A-Z]', password))
+    number_present = bool(re.search(r'[0-9]', password))
+    symbol_present = bool(re.search(r'[\W_]', password))
 
     if len(password) < 8 or len(password) > 255:
         raise ValidationError('Passwords must be between 8 and 255 characters, inclusively!')
