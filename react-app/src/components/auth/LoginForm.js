@@ -40,7 +40,7 @@ const LoginForm = ({ style }) => {
       <form 
         className='login-form' 
         onSubmit={onLogin}
-        style={{ border: `3px solid ${style.accent_3}` }}
+        style={{ borderColor: style.accent_3 }}
       >
         <div>
           {errors.map((error, ind) => (

@@ -51,7 +51,7 @@ const SignupForm = ({ style }) => {
         <form
           className='signup-form' 
           onSubmit={onSignUp}
-          style={{ border: `3px solid ${style.accent_3}` }}
+          style={{ borderColor: style.accent_3 }}
       >
           <div>
             {errors.map((error, ind) => (
@@ -88,6 +88,8 @@ const SignupForm = ({ style }) => {
               id='signup-password'
               name='Password'
               type='password'
+              minLength='8'
+              maxLength='255'
               placeholder='a1%Bp9!U'
               aria-placeholder='a1%Bp9!U'
               onChange={updatePassword}

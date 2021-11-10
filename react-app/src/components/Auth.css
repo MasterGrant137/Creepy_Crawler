@@ -6,6 +6,7 @@
 }
 
 .login-form {
+    border: 3px solid;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -19,6 +20,7 @@
 }
 
 .signup-form {
+    border: 3px solid;
     border-radius: 5px;
     display: flex;
     flex-direction: column;

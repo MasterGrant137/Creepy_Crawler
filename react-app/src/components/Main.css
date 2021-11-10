@@ -21,7 +21,9 @@ button {
 
 input { cursor: pointer }
 
-input[type='search']:invalid:focus { cursor: none }
+input:invalid:focus {  }
+
+input[type='search']:focus { cursor: text }
 
 input[type='file'] {
     height: fit-content;
@@ -33,7 +35,6 @@ input[type='file']::file-selector-button {
     border: none;
     border-radius: 10px;
 }
-
 
 select { 
     cursor: pointer;
