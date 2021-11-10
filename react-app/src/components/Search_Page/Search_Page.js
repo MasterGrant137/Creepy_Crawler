@@ -15,8 +15,9 @@ export const SearchPage = ({ style }) => {
 
     const searchHandler = (e) => {
         e.preventDefault();
+
+        if (/^\s*$/.test(search)) return;
         dispatch(createHistoryEntry({ user_id, search, updated_at }));
-        // window.location.reload();
     }
 
     useEffect(() => {
@@ -28,9 +29,11 @@ export const SearchPage = ({ style }) => {
             <h1 className='search-page-title'>Creepy Crawler</h1>
             <form onSubmit={searchHandler} className='search-page-search-form'>
                 <input
+                    name='Search'
                     type='search'
                     className='search-page-search-input'
-                    maxLength='10'
+                    value={search}
+                    maxLength='1000'
                     placeholder='Crawl the web.'
                     aria-label='Crawl the web.'
                     onChange={(e) => {
