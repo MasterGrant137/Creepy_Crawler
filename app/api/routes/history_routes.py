@@ -24,6 +24,7 @@ def validation_errors_to_error_messages(validation_errors):
     return errorMessages
 
 @history_routes.route('/', methods=['POST'])
+@login_required
 def add_history_entry():
     """Add a search entry to history."""
     form = SearchForm()
