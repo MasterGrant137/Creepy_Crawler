@@ -54,9 +54,7 @@ def add_history_entry():
 
         db.session.add(history_entry)
         db.session.commit()
-        return {
-            'history': history_entry.to_dict()
-        }
+        return { 'history': history_entry.to_dict() }
     return {'errors': ['Please make a valid search.']}, 400
 
 @history_routes.route('/')
@@ -95,9 +93,7 @@ def alter_history_entry(entryID):
 
         db.session.add(entry)
         db.session.commit()
-        return {
-            'history': entry.to_dict()
-        }
+        return { 'history': entry.to_dict() }
     return {'errors': ['You are not permitted to edit this entry!']}, 401
 
 @history_routes.route('/<int:entryID>', methods=['DELETE'])
@@ -111,5 +107,4 @@ def delete_history_entry(entryID):
         db.session.delete(entry)
         db.session.commit()
         return { 'message': 'successful' }
-
     return { 'errors': ['You are not permitted to delete this entry!'] }, 401

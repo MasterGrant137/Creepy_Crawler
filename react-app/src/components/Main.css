@@ -118,6 +118,8 @@ h1, h2, label { user-select: none }
     right: 0;
     top: 0;
     width: 30%;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
 }
 
 .themes-container {

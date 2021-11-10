@@ -240,7 +240,7 @@ export const CreateThemeForm = ({ style }) => {
                 <div>
                     <h3>Test your theme.</h3>
                     <p>See your theme specs here.</p>
-                    <p style={{ fontSize: font_size }}>Font Size</p>
+                    <span style={{ fontSize: font_size }}>Font Size</span>
                 </div>
             </div>
         </>

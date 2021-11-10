@@ -29,10 +29,8 @@ export const SearchPage = ({ style }) => {
             <h1 className='search-page-title'>Creepy Crawler</h1>
             <form onSubmit={searchHandler} className='search-page-search-form'>
                 <input
-                    name='Search'
                     type='search'
                     className='search-page-search-input'
-                    value={search}
                     maxLength='1000'
                     placeholder='Crawl the web.'
                     aria-label='Crawl the web.'
@@ -41,6 +39,7 @@ export const SearchPage = ({ style }) => {
                         setSearch(e.target.value)
                         setUpdatedAt((new Date()).toString())
                     }}
+                    value={search}
                     style={{ borderColor: style.accent_1, fontFamily: style.font_family }}
                 />
             </form>
