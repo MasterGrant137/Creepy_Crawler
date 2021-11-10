@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux'
 import { Redirect } from 'react-router-dom';
 import { signUp } from '../../store/session';
@@ -6,13 +6,40 @@ import '../Main.css';
 import '../Auth.css';
 
 const SignupForm = ({ style }) => {
+  const usernameInput = useRef(null);
+  const emailInput = useRef(null);
+  const passwordInput = useRef(null);
+  const repeatPasswordInput = useRef(null);
+
   const [errors, setErrors] = useState([]);
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [repeatPassword, setRepeatPassword] = useState('');
+  const [signupBtn, setSignupBtn] = useState(false);
   const user = useSelector(state => state.session.user);
   const dispatch = useDispatch();
+
+  const allowable = () => {
+    const usernamePresent = usernameInput.current?.value.length ? true : false;
+    const emailPresent = emailInput.current?.value.length ? true : false;
+    const passwordPresent = passwordInput.current?.value.length ? true : false;
+    const repeatPasswordPresent = repeatPasswordInput.current?.value.length ? true : false;
+    
+    const validUsername = usernamePresent && usernameInput.current.checkValidity();
+    const validEmail = emailPresent && emailInput.current.checkValidity();
+    const validPassword = passwordPresent && passwordInput.current.checkValidity();
+    const validRepeatPassword = repeatPasswordPresent && repeatPasswordInput.current.checkValidity();
+    
+    if (validUsername &&
+        validEmail && 
+        validPassword &&
+        validRepeatPassword) {
+          setSignupBtn(true);
+    } else {
+       setSignupBtn(false);
+      }
+  }
 
   const onSignUp = async (e) => {
     e.preventDefault();
@@ -62,6 +89,7 @@ const SignupForm = ({ style }) => {
             <label htmlFor='signup-username'>Username</label>
             <input
               id='signup-username'
+              ref={usernameInput}
               name='Username'
               type='text'
               placeholder='Mr. Appleseed'
@@ -74,6 +102,7 @@ const SignupForm = ({ style }) => {
             <label htmlFor='signup-email'>Email</label>
             <input
               id='signup-email'
+              ref={emailInput}
               name='Email'
               type='email'
               placeholder='jappleseed@email.com'
@@ -86,6 +115,7 @@ const SignupForm = ({ style }) => {
             <label htmlFor='signup-password'>Password</label>
             <input
               id='signup-password'
+              ref={passwordInput}
               name='Password'
               type='password'
               minLength='8'
@@ -100,16 +130,26 @@ const SignupForm = ({ style }) => {
             <label htmlFor='signup-repeat-password'>Repeat Password</label>
             <input
               id='signup-repeat-password'
+              ref={repeatPasswordInput}
               name='Repeat Password'
               type='password'
+              minLength='8'
+              maxLength='255'
               placeholder='a1%Bp9!U'
               aria-placeholder='a1%Bp9!U'
               onChange={updateRepeatPassword}
               value={repeatPassword}
-              required
+              required={passwordInput.current?.value.length ? true : false}
             />
           </div>
-          <button style={{ color: style.font_color }} type='submit'>Sign Up</button>
+          <button 
+            type='submit'
+            className={signupBtn ? '' : 'not-allowed'} 
+            onMouseOver={allowable}
+            style={{ color: style.font_color }} 
+          >
+            Sign Up
+          </button>
       </form>
     </div>
   );

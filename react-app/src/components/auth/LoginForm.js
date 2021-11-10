@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import { login } from '../../store/session';
@@ -6,12 +6,26 @@ import '../Main.css';
 import '../Auth.css';
 
 const LoginForm = ({ style }) => {
+  const emailInput = useRef(null);
+  const passwordInput = useRef(null);
+
   const [errors, setErrors] = useState([]);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [loginBtn, setLoginBtn] = useState(false);
+  const [loginBtn, setLoginBtn] = useState(true);
   const user = useSelector(state => state.session.user);
   const dispatch = useDispatch();
+
+  const allowable = () => {
+    const emailPresent = emailInput.current?.value.length ? true : false;
+    const passwordPresent = passwordInput.current?.value.length ? true : false;
+    
+    const validEmail = emailPresent && emailInput.current.checkValidity();
+    const validPassword = passwordPresent && passwordInput.current.checkValidity();
+    
+    if (validEmail && validPassword) setLoginBtn(true);
+    else setLoginBtn(false);
+  }
 
   const onLogin = async (e) => {
     e.preventDefault();
@@ -22,9 +36,7 @@ const LoginForm = ({ style }) => {
   };
 
   const updateEmail = (e) => {
-    const inputValid = e.target.checkValidity();
     setEmail(e.target.value);
-    setLoginBtn(inputValid);
   };
 
   const updatePassword = (e) => {
@@ -51,6 +63,7 @@ const LoginForm = ({ style }) => {
           <label htmlFor='login-email'>Email</label>
           <input
             id='login-email'
+            ref={emailInput}
             name='Email'
             type='email'
             placeholder='Email'
@@ -62,18 +75,22 @@ const LoginForm = ({ style }) => {
           <label htmlFor='login-password'>Password</label>
           <input
             id='login-password'
+            ref={passwordInput}
             name='Password'
             type='password'
+            minLength='8'
+            maxLength='255'
             placeholder='Password'
             value={password}
             onChange={updatePassword}
           />
           <button  
             type='submit' 
-            disabled={loginBtn ? false : true}
+            className={loginBtn ? '' : 'not-allowed'}
+            onMouseOver={allowable}
             style={{ color: style.font_color }}
           >
-            Login
+            Log In
           </button>
         </div>
       </form>

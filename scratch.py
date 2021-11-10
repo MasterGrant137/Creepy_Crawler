@@ -9,7 +9,7 @@ required_chars_regex = re.compile(r'''
 
 validation_errors = []
 
-password = 'abc'
+password = 'a1%Bp9!U'
 
 lowercase_letter_present = re.search(required_chars_regex, password).group(1)
 uppercase_letter_present = re.search(required_chars_regex, password).group(2)
@@ -18,10 +18,10 @@ symbol_present = re.search(required_chars_regex, password).group(4)
 
 password_proper = re.search(required_chars_regex, password)
 
-# print(lowercase_letter_present)
-# print(uppercase_letter_present)
-# print(number_present)
-# print(symbol_present)
+print(lowercase_letter_present)
+print(uppercase_letter_present)
+print(number_present)
+print(symbol_present)
 
 if not lowercase_letter_present: 
     validation_errors.append('Lowercase letter needed in password.')

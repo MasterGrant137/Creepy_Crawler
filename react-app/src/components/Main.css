@@ -21,8 +21,6 @@ button {
 
 input { cursor: pointer }
 
-input:invalid:focus {  }
-
 input[type='search']:focus { cursor: text }
 
 input[type='file'] {
@@ -45,12 +43,27 @@ li { display: inline }
 
 ul { list-style-type: none }
 /*=================================*/
-/*$============Groups===========$*/
+/*$=============Groups============$*/
 /*=================================*/
 input[type='text'],
 input[type=email],
 input[type='password'] { 
     padding: 3px 6px;
+}
+
+input[type='text']:invalid,
+input[type=email]:invalid,
+input[type='password']:invalid {
+    border: 1px dashed black;
+    background: linear-gradient(#e98074, #e85a4f);
+}
+
+input[type='text']:invalid:focus,
+input[type=email]:invalid:focus,
+input[type='password']:invalid:focus {
+    border: 1px dashed black;
+    background: linear-gradient(#e98074, #e85a4f);
+    outline: none;
 }
 
 input:not([type='search']), select {
@@ -166,5 +179,6 @@ nav * {
     100% { background-position-y: 100%; }
 }
 /*=================================*/
-/*$=============Modals=============$*/
+/*$==========Conditional==========$*/
 /*=================================*/
+.not-allowed { cursor: not-allowed }
