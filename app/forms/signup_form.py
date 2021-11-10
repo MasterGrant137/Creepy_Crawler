@@ -54,7 +54,7 @@ def proper_password(form, field):
         validation_errors.append('Symbol needed in password.')
 
     if len(validation_errors):
-        raise ValidationError(validation_errors)
+        raise ValidationError(' '.join(validation_errors))
 
 
 class SignUpForm(FlaskForm):

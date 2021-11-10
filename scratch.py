@@ -18,10 +18,10 @@ symbol_present = re.search(required_chars_regex, password).group(4)
 
 password_proper = re.search(required_chars_regex, password)
 
-print(lowercase_letter_present)
-print(uppercase_letter_present)
-print(number_present)
-print(symbol_present)
+# print(lowercase_letter_present)
+# print(uppercase_letter_present)
+# print(number_present)
+# print(symbol_present)
 
 if not lowercase_letter_present: 
     validation_errors.append('Lowercase letter needed in password.')
@@ -36,4 +36,4 @@ if not symbol_present:
     validation_errors.append('Symbol needed in password.')
 
 if len(validation_errors):
-    print(validation_errors)
+    print(' '.join(validation_errors))
