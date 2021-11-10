@@ -9,7 +9,7 @@ const LoginForm = ({ style }) => {
   const [errors, setErrors] = useState([]);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [loginBtn, setLoginBtn] = useState(true);
+  const [loginBtn, setLoginBtn] = useState(false);
   const user = useSelector(state => state.session.user);
   const dispatch = useDispatch();
 
@@ -70,7 +70,6 @@ const LoginForm = ({ style }) => {
           />
           <button  
             type='submit' 
-            data-logger={loginBtn}
             disabled={loginBtn ? false : true}
             style={{ color: style.font_color }}
           >
