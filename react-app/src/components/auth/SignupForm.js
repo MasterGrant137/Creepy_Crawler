@@ -15,12 +15,15 @@ const SignupForm = ({ style }) => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [passwordRequired, setPasswordRequired] = useState(false);
   const [repeatPassword, setRepeatPassword] = useState('');
   const [signupBtn, setSignupBtn] = useState(false);
   const user = useSelector(state => state.session.user);
   const dispatch = useDispatch();
 
   const allowable = () => {
+    setPasswordRequired(true);
+
     const usernamePresent = usernameInput.current?.value.length ? true : false;
     const emailPresent = emailInput.current?.value.length ? true : false;
     const passwordPresent = passwordInput.current?.value.length ? true : false;
@@ -96,6 +99,7 @@ const SignupForm = ({ style }) => {
               aria-placeholder='Mr. Appleseed'
               onChange={updateUsername}
               value={username}
+              required
             />
           </div>
           <div>
@@ -109,6 +113,7 @@ const SignupForm = ({ style }) => {
               aria-placeholder='jappleseed@email.com'
               onChange={updateEmail}
               value={email}
+              required
             />
           </div>
           <div>
@@ -124,6 +129,7 @@ const SignupForm = ({ style }) => {
               aria-placeholder='a1%Bp9!U'
               onChange={updatePassword}
               value={password}
+              required={passwordRequired}
             />
           </div>
           <div>
@@ -139,7 +145,7 @@ const SignupForm = ({ style }) => {
               aria-placeholder='a1%Bp9!U'
               onChange={updateRepeatPassword}
               value={repeatPassword}
-              // required={passwordInput.current?.value.length ? true : false}
+              required={passwordInput.current?.value.length ? true : false}
             />
           </div>
           <button 

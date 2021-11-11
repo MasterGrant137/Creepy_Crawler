@@ -1,7 +1,7 @@
 """Login form creation."""
 
 from flask_wtf import FlaskForm
-from wtforms import StringField
+from wtforms import StringField, PasswordField
 from wtforms.validators import DataRequired, ValidationError
 from app.models import User
 
@@ -23,4 +23,4 @@ class LoginForm(FlaskForm):
     """Login form class."""
 
     email = StringField('email', validators=[DataRequired(message='Email is required!'), user_exists])
-    password = StringField('password', validators=[DataRequired(message='Password is required!'), password_matches])
+    password = PasswordField('password', validators=[DataRequired(message='Password is required!'), password_matches])

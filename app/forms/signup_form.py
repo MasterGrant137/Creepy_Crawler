@@ -1,7 +1,7 @@
 """Signup form creation."""
 
 from flask_wtf import FlaskForm
-from wtforms import StringField
+from wtforms import StringField, PasswordField
 from wtforms.validators import DataRequired, ValidationError
 from app.models import User
 import re
@@ -55,4 +55,4 @@ class SignUpForm(FlaskForm):
 
     username = StringField('username', validators=[DataRequired(message='Username is required!'), username_exists])
     email = StringField('email', validators=[DataRequired(message='Email is required!'), user_exists])
-    password = StringField('password', validators=[DataRequired(message='Password is required!'), proper_password])
+    password = PasswordField('password', validators=[DataRequired(message='Password is required!'), proper_password])
