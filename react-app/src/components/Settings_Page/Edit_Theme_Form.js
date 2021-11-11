@@ -152,8 +152,11 @@ export const EditThemeForm = ({ style }) => {
             <input 
                 id={`theme-name-editor-${idx}`} 
                 type='text' 
-                readOnly={true} 
                 name='Theme Name' 
+                maxLength='50'
+                placeholder='Theme Name (Max 50)'
+                aria-placeholder='Theme Name (Max 50)'
+                readOnly={true} 
                 defaultValue={setting.theme_name} 
                 style={{ fontFamily: setting.font_family }}
             />

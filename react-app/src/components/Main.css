@@ -29,7 +29,7 @@ input[type='password']:invalid:focus {
 
 input[type='password']:invalid:focus { outline: none }
 
-input[type='search']:focus { cursor: text }
+input[type='text']:focus, input[type='search']:focus { cursor: text }
 
 input[type='file'] {
     height: fit-content;

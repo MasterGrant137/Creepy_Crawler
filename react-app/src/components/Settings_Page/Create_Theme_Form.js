@@ -113,7 +113,9 @@ export const CreateThemeForm = ({ style }) => {
                             id='theme-name-setter'
                             name='Theme Name'
                             type='text'
-                            placeholder='Theme Name'
+                            maxLength='50'
+                            placeholder='Theme Name (Max 50)'
+                            aria-placeholder='Theme Name (Max 50)'
                             value={theme_name}
                             onChange={(e) => setThemeName(e.target.value)}
                             style={{ fontFamily: style.font_family }}

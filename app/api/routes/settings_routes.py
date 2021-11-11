@@ -23,7 +23,7 @@ def add_theme():
     form = ThemeForm()
     form['csrf_token'].data = request.cookies['csrf_token']
 
-    if form.validate_on_submit():   
+    if form.validate_on_submit():
         new_theme = Theme(
             user_id=request.form['user_id'],
             theme_name=request.form['theme_name'],
@@ -50,7 +50,6 @@ def add_theme():
 
         db.session.add(new_theme)
         db.session.commit()
-
         return { 'setting': new_theme.to_dict() }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
@@ -65,44 +64,39 @@ def get_themes():
 @login_required
 def update_theme(settingID):
     """Update a theme."""
-    print('very top')
-    # print(ThemeForm())
-    # form = ThemeForm()
-    # form['csrf_token'].data = request.cookies['csrf_token']
+    form = ThemeForm()
+    form['csrf_token'].data = request.cookies['csrf_token']
 
-    # if form.validate_on_submit:
-    theme = Theme.query.filter(Theme.id == settingID).first()
-    print('past validator first')
-    if ((theme.user_id == current_user.id) and (theme.id == int(request.form['setting_id']))):
-        print('hit here')
-        theme.user_id=request.form['user_id']
-        theme.theme_name=request.form['theme_name']
-        theme.background_color=request.form['background_color']
-        theme.font_color=request.form['font_color']
-        theme.font_family=request.form['font_family']
-        theme.font_size=request.form['font_size']
-        theme.accent_1=request.form['accent_1']
-        theme.accent_2=request.form['accent_2']
-        theme.accent_3=request.form['accent_3']
-    else: return { 'errors': ['You are not permitted to edit this theme!'] }, 401
+    if form.validate_on_submit():
+        theme = Theme.query.filter(Theme.id == settingID).first()
+        if ((theme.user_id == current_user.id) and (theme.id == int(request.form['setting_id']))):
+            theme.user_id=request.form['user_id']
+            theme.theme_name=request.form['theme_name']
+            theme.background_color=request.form['background_color']
+            theme.font_color=request.form['font_color']
+            theme.font_family=request.form['font_family']
+            theme.font_size=request.form['font_size']
+            theme.accent_1=request.form['accent_1']
+            theme.accent_2=request.form['accent_2']
+            theme.accent_3=request.form['accent_3']
+        else: return { 'errors': ['You are not permitted to edit this theme!'] }, 401
 
-    if request.form['background_rotate'] == 'false': theme.background_rotate=False
-    else: theme.background_rotate=True
+        if request.form['background_rotate'] == 'false': theme.background_rotate=False
+        else: theme.background_rotate=True
 
-    if 'background_media' in request.files:
-        background_media = request.files['background_media']
-        if allowed_file(background_media.filename):
-            background_media.filename = get_unique_filename(background_media.filename)
-            upload = upload_file_to_s3(background_media)
-            if 'url' in upload:
-                url = upload['url']
-                theme.background_media=url
-
+        if 'background_media' in request.files:
+            background_media = request.files['background_media']
+            if allowed_file(background_media.filename):
+                background_media.filename = get_unique_filename(background_media.filename)
+                upload = upload_file_to_s3(background_media)
+                if 'url' in upload:
+                    url = upload['url']
+                    theme.background_media=url
+                    
         db.session.add(theme)
         db.session.commit()
         return { 'setting': theme.to_dict() }
-    # return {'errors': validation_errors_to_error_messages(form.errors)}, 400
-    # return {'errors': ['better luck next time']}, 400
+    return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
 @settings_routes.route('/<int:settingID>', methods=['DELETE'])
 @login_required
