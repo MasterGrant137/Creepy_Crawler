@@ -3,14 +3,13 @@ import { Route, Redirect } from 'react-router-dom';
 import '../Main.css';
 import '../Auth.css';
 
-const ProtectedRoute = props => {
-  const user = useSelector(state => state.session.user)
-  return (
-    <Route {...props}>
-      {(user)? props.children : <Redirect to='/login' />}
-    </Route>
-  )
+const ProtectedRoute = (props) => {
+    const user = useSelector((state) => state.session.user);
+    return (
+        <Route {...props}>
+            {(user) ? props.children : <Redirect to='/login' />}
+        </Route>
+    );
 };
-
 
 export default ProtectedRoute;

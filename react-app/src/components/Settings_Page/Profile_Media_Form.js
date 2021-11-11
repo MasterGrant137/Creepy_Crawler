@@ -4,10 +4,10 @@ import { editProfileMedia } from '../../store/session';
 
 const ProfileMediaForm = ({ style }) => {
     const dispatch = useDispatch();
-    const user = useSelector(state => state.session.user);
+    const user = useSelector((state) => state.session.user);
 
-    const [profile_media, setProfileMedia] = useState('');
-    const [profile_media_loading, setProfileMediaLoading] = useState(false);
+    const [profileMedia, setProfileMedia] = useState('');
+    const [profileMediaLoading, setProfileMediaLoading] = useState(false);
 
     const setProfileMediaHandler = (e) => {
         const file = e.target.files[0];
@@ -19,12 +19,12 @@ const ProfileMediaForm = ({ style }) => {
 
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
-        const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
-        const hasMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Profile Media');
+        const isSubmit = targFormKids.find((targKid) => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
+        const hasMedia = targFormKids.find((targKid) => targKid.dataset.inputName === 'Profile Media');
 
         if (isSubmit && hasMedia?.value) {
             const formData = new FormData();
-            formData.append('media', profile_media);
+            formData.append('media', profileMedia);
             setProfileMediaLoading(true);
 
             await dispatch(editProfileMedia(user.id, formData));
@@ -42,7 +42,7 @@ const ProfileMediaForm = ({ style }) => {
                     htmlFor='user-profile-media-uploader'
                     style={{ borderBottom: `2px solid ${style.accent_1}` }}
                 >
-                    {!profile_media ? 'Upload Profile Media' : 'Added'}
+                    {!profileMedia ? 'Upload Profile Media' : 'Added'}
                 </label>
                 <input
                     id='user-profile-media-uploader'
@@ -50,7 +50,7 @@ const ProfileMediaForm = ({ style }) => {
                     type='file'
                     onChange={setProfileMediaHandler}
                 />
-                {profile_media_loading && (<span>Loading...</span>)}
+                {profileMediaLoading && (<span>Loading...</span>)}
                 <button style={{ color: style.font_color }}>Submit</button>
             </form>
         </>

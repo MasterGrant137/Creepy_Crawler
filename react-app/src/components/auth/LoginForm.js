@@ -14,21 +14,21 @@ const LoginForm = ({ style }) => {
     const [password, setPassword] = useState('');
     const [passwordRequired, setPasswordRequired] = useState(false);
     const [loginBtn, setLoginBtn] = useState(true);
-    const user = useSelector(state => state.session.user);
+    const user = useSelector((state) => state.session.user);
     const dispatch = useDispatch();
 
     const allowable = () => {
         setPasswordRequired(true);
 
-        const emailPresent = emailInput.current?.value.length ? true : false;
-        const passwordPresent = passwordInput.current?.value.length ? true : false;
+        const emailPresent = !!emailInput.current?.value.length;
+        const passwordPresent = !!passwordInput.current?.value.length;
 
         const validEmail = emailPresent && emailInput.current.checkValidity();
         const validPassword = passwordPresent && passwordInput.current.checkValidity();
 
         if (validEmail && validPassword) setLoginBtn(true);
         else setLoginBtn(false);
-    }
+    };
 
     const onLogin = async (e) => {
         e.preventDefault();
@@ -52,8 +52,8 @@ const LoginForm = ({ style }) => {
 
     return (
         <div className='login-form-container'>
-            <form 
-                className='login-form' 
+            <form
+                className='login-form'
                 onSubmit={onLogin}
                 style={{ borderColor: style.accent_3 }}
             >
@@ -89,8 +89,8 @@ const LoginForm = ({ style }) => {
                         onChange={updatePassword}
                         required={passwordRequired}
                     />
-                    <button  
-                        type='submit' 
+                    <button
+                        type='submit'
                         className={loginBtn ? '' : 'not-allowed'}
                         onMouseOver={allowable}
                         style={{ color: style.font_color }}

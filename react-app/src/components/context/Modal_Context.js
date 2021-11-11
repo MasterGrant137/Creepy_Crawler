@@ -10,13 +10,13 @@ export const ModalProvider = ({ children }) => {
         setIsOpen(true);
         const body = document.querySelector('body');
         body.style.overflow = 'hidden';
-    }
+    };
 
     const closeModal = () => {
         setIsOpen(false);
         const body = document.querySelector('body');
         body.style.overflow = 'auto';
-    }
+    };
 
     return (
         <ModalContext.Provider
@@ -26,12 +26,12 @@ export const ModalProvider = ({ children }) => {
                 toggleModal,
                 closeModal,
                 modalContent,
-                setModalContent
+                setModalContent,
             }}
         >
             {children}
         </ModalContext.Provider>
-    )
-}
+    );
+};
 
 export const useModal = () => useContext(ModalContext);
