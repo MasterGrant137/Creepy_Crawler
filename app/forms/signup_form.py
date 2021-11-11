@@ -2,7 +2,7 @@
 
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField
-from wtforms.validators import DataRequired, ValidationError
+from wtforms.validators import DataRequired, Length, ValidationError
 from app.models import User
 import re
 
@@ -35,8 +35,6 @@ def proper_password(form, field):
     number_present = bool(re.search(r'[0-9]', password))
     symbol_present = bool(re.search(r'[\W_]', password))
 
-    if len(password) < 8 or len(password) > 255:
-        raise ValidationError('Passwords must be between 8 and 255 characters, inclusively!')
     if not lowercase_letter_present: 
         validation_errors.append('Lowercase letter needed in password.')
     if not uppercase_letter_present: 
@@ -55,4 +53,6 @@ class SignUpForm(FlaskForm):
 
     username = StringField('username', validators=[DataRequired(message='Username is required!'), username_exists])
     email = StringField('email', validators=[DataRequired(message='Email is required!'), user_exists])
-    password = PasswordField('password', validators=[DataRequired(message='Password is required!'), proper_password])
+    password = PasswordField('password', validators=[Length(min=8, max=255, 
+        message='Passwords must be between 8 and 255 characters, inclusively!'), 
+        DataRequired(message='Password is required!'), proper_password])
