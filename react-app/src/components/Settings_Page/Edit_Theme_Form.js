@@ -6,19 +6,19 @@ import dropdownData from './dropdown_data.json';
 
 const EditThemeForm = ({ style }) => {
     const dispatch = useDispatch();
-    const user = useSelector(state => state.session.user);
-    const settingsObj = useSelector(state => state.settings);
+    const user = useSelector((state) => state.session.user);
+    const settingsObj = useSelector((state) => state.settings);
 
-    const [background_media, setBackgroundMedia] = useState(style.background_media);
-    const [background_media_loading, setBackgroundMediaLoading] = useState(false);
+    const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
+    const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
 
-    const fontFamiliesRaw = dropdownData['fonts'];
-    const fontFamilies = fontFamiliesRaw.map(fontFamily => (
+    const fontFamiliesRaw = dropdownData.fonts;
+    const fontFamilies = fontFamiliesRaw.map((fontFamily) => (
         <option key={fontFamily}>{fontFamily}</option>
     ));
 
     const fontSizesRaw = dropdownData['font-sizes'];
-    const fontSizes = fontSizesRaw.map(fontSize => (
+    const fontSizes = fontSizesRaw.map((fontSize) => (
         <option key={fontSize}>{fontSize}</option>
     ));
 
@@ -33,7 +33,7 @@ const EditThemeForm = ({ style }) => {
         const prev = settingsObj[targID];
         const targFormKids = Array.from(targForm.children);
 
-        targFormKids.forEach(targKid => {
+        targFormKids.forEach((targKid) => {
             if (targKid.type === 'text') targKid.readOnly = true;
             else if (targKid.tagName === 'SELECT') targKid.disabled = true;
             else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
@@ -51,16 +51,21 @@ const EditThemeForm = ({ style }) => {
             case 'Background Media': targKid.value = ''; break;
             case 'Background Rotate': targKid.checked = prev.background_rotate; break;
             case 'Font Color': targKid.value = prev.font_color; break;
-            case 'Font Family':
+            case 'Font Family': {
                 const targText = prev.font_family.replace(/,\s/, ' | ');
-                const targFamily = Array.from(targKid.children).find(option => option.innerText === targText);
+                const targKids = targKid.children;
+                const targFamily = Array.from(targKids).find((opt) => opt.innerText === targText);
                 targFamily.selected = true;
                 break;
-            case 'Font Size': targKid.value = prev.font_size;
+            }
+            case 'Font Size': {
+                targKid.value = prev.font_size;
                 const targNum = prev.font_size.replace('px', '');
-                const targSize = Array.from(targKid.children).find(option => option.innerText === targNum);
+                const targKids = targKid.children;
+                const targSize = Array.from(targKids).find((opt) => opt.innerText === targNum);
                 targSize.selected = true;
                 break;
+            }
             case 'Accent 1': targKid.value = prev.accent_1; break;
             case 'Accent 2': targKid.value = prev.accent_2; break;
             case 'Accent 3': targKid.value = prev.accent_3; break;
@@ -71,7 +76,7 @@ const EditThemeForm = ({ style }) => {
 
     const setBackgroundMediaHandler = (e) => {
         const file = e.target.files[0];
-        if(file) setBackgroundMedia(file);
+        if (file) setBackgroundMedia(file);
     };
 
     const editFormHandler = async (e) => {
@@ -81,7 +86,7 @@ const EditThemeForm = ({ style }) => {
         const targFormKids = Array.from(targForm.children);
         const settingID = targForm.id;
 
-        targFormKids.forEach(targKid => {
+        targFormKids.forEach((targKid) => {
             if (targKid.type === 'text') targKid.readOnly = false;
             else targKid.disabled = false;
             if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Edit') {
@@ -93,25 +98,25 @@ const EditThemeForm = ({ style }) => {
                 formData.append('setting_id', settingID);
                 formData.append('user_id', user.id);
 
-                targFormKids.forEach(targKid => {
-                    if (targKid.tagName !== 'BUTTON') {
-                        switch (targKid.name) {
-                        case 'Theme Name': formData.append('theme_name', targKid.value); break;
-                        case 'Background Color': formData.append('background_color', targKid.value); break;
+                targFormKids.forEach((targChild) => {
+                    if (targChild.tagName !== 'BUTTON') {
+                        switch (targChild.name) {
+                        case 'Theme Name': formData.append('theme_name', targChild.value); break;
+                        case 'Background Color': formData.append('background_color', targChild.value); break;
                         case 'Background Media':
-                            formData.append('background_media', background_media);
+                            formData.append('background_media', backgroundMedia);
                             setBackgroundMediaLoading(true);
                             break;
-                        case 'Background Rotate': formData.append('background_rotate', targKid.checked); break;
-                        case 'Font Color': formData.append('font_color', targKid.value); break;
-                        case 'Font Family': formData.append('font_family', targKid.value.replace(/\s\|\s/, ', ')); break;
-                        case 'Font Size': formData.append('font_size', `${targKid.value}px`); break;
-                        case 'Accent 1': formData.append('accent_1', targKid.value); break;
-                        case 'Accent 2': formData.append('accent_2', targKid.value); break;
-                        case 'Accent 3': formData.append('accent_3', targKid.value); break;
+                        case 'Background Rotate': formData.append('background_rotate', targChild.checked); break;
+                        case 'Font Color': formData.append('font_color', targChild.value); break;
+                        case 'Font Family': formData.append('font_family', targChild.value.replace(/\s\|\s/, ', ')); break;
+                        case 'Font Size': formData.append('font_size', `${targChild.value}px`); break;
+                        case 'Accent 1': formData.append('accent_1', targChild.value); break;
+                        case 'Accent 2': formData.append('accent_2', targChild.value); break;
+                        case 'Accent 3': formData.append('accent_3', targChild.value); break;
                         default: break;
                         }
-                        targKid.type === 'text' ? targKid.readOnly = true : targKid.disabled = true;
+                        targChild.type === 'text' ? targChild.readOnly = true : targChild.disabled = true;
                     }
                 });
                 dispatch(updateUserSetting(settingID, formData));
@@ -145,7 +150,7 @@ const EditThemeForm = ({ style }) => {
                 backgroundColor: setting.background_color,
                 borderColor: setting.accent_3,
                 color: setting.font_color,
-                fontFamily: setting.font_family
+                fontFamily: setting.font_family,
             }}
         >
             <label htmlFor={`theme-name-editor-${idx}`}>Theme Name</label>
@@ -185,7 +190,7 @@ const EditThemeForm = ({ style }) => {
             <label htmlFor={`bg-color-editor-${idx}`}>Background Color</label>
             <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled={true} defaultValue={setting.background_color} />
 
-            <label htmlFor={`background-media-editor-${idx}`}>{background_media !== '' ? 'Background Media' : 'Added'}</label>
+            <label htmlFor={`background-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
             <input
                 id={`background-media-editor-${idx}`}
                 name='Background Media' type='file'
@@ -193,7 +198,7 @@ const EditThemeForm = ({ style }) => {
                 disabled={true}
                 onChange={setBackgroundMediaHandler}
             />
-            {background_media_loading && (<span>Loading...</span>)}
+            {backgroundMediaLoading && (<span>Loading...</span>)}
 
             <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
             <input id={`bg-rotate-editor-${idx}`} name='Background Rotate' type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />

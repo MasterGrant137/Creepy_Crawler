@@ -6,23 +6,23 @@ import '../Main.css';
 import './Search_Page.css';
 
 const SearchPage = ({ style }) => {
-    const [user_id, setUserID] = useState();
+    const [userID, setUserID] = useState();
     const [search, setSearch] = useState('');
-    const [updated_at, setUpdatedAt] = useState('');
+    const [updatedAt, setUpdatedAt] = useState('');
 
     const dispatch = useDispatch();
-    const user = useSelector(state => state.session.user);
+    const user = useSelector((state) => state.session.user);
 
     const searchHandler = (e) => {
         e.preventDefault();
 
         if (/^\s*$/.test(search)) return;
-        dispatch(createHistoryEntry({ user_id, search, updated_at }));
-    }
+        dispatch(createHistoryEntry({ userID, search, updatedAt }));
+    };
 
     useEffect(() => {
         dispatch(readUserSettings());
-    }, [dispatch])
+    }, [dispatch]);
 
     return (
         <div className='search-page-container'>
@@ -35,16 +35,16 @@ const SearchPage = ({ style }) => {
                     placeholder='Crawl the web.'
                     aria-label='Crawl the web.'
                     onChange={(e) => {
-                        if (user) setUserID(user.id)
-                        setSearch(e.target.value)
-                        setUpdatedAt((new Date()).toString())
+                        if (user) setUserID(user.id);
+                        setSearch(e.target.value);
+                        setUpdatedAt((new Date()).toString());
                     }}
                     value={search}
                     style={{ borderColor: style.accent_1, fontFamily: style.font_family }}
                 />
             </form>
         </div>
-    )
-}
+    );
+};
 
 export default SearchPage;

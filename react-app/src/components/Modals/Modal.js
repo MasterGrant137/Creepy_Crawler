@@ -3,15 +3,17 @@ import { useModal } from '../context/Modal_Context';
 import '../Main.css';
 import '../Modal.css';
 
-export const Modal = ({ style }) => {
+const Modal = () => {
     const { isOpen, closeModal, modalContent } = useModal();
     if (!isOpen) return null;
 
-    return ReactDom.createPortal (
+    return ReactDom.createPortal(
         <>
             <div onClick={closeModal} className=''></div>
             <div className=''>{modalContent}</div>
         </>,
-        document.getElementById('portal')
-    )
-}
+        document.getElementById('portal'),
+    );
+};
+
+export default Modal;

@@ -9,8 +9,8 @@ import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
 import HistoryPage from './components/History_Page/History_Page';
 import SearchPage from './components/Search_Page/Search_Page';
 import SettingsPage from './components/Settings_Page/Settings_Page';
+import Modal from './components/Modals/Modal';
 import { authenticateLogin, authenticateSignup } from './store/session';
-import { Modal } from './components/Modals/Modal';
 
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import LoginForm from './components/auth/LoginForm';
