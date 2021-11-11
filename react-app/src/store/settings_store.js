@@ -26,22 +26,21 @@ const deleteSetting = (settingID) => ({
 })
 
 //$ thunks
-export const createUserSetting = (formData) => async dispatch => {
+export const createUserSetting = (formData) => async (dispatch) => {
     const response = await fetch('/api/settings/', {
         method: 'POST',
-        body: formData
-    })
+        body: formData,
+    });
     if (response.ok) {
         const setting = await response.json();
         await dispatch(createSetting(setting));
         return setting;
-    } else {
-        const res = await response.json();
-        alert(res.errors);
     }
+    const res = await response.json();
+    alert(res.errors);
 }
 
-export const readUserSettings = () => async dispatch => {
+export const readUserSettings = () => async (dispatch) => {
     const response = await fetch(`/api/settings/`);
     if (response.ok) {
         const settings = await response.json();
@@ -50,7 +49,7 @@ export const readUserSettings = () => async dispatch => {
     }
 }
 
-export const updateUserSetting = (settingID, formData) => async dispatch => {
+export const updateUserSetting = (settingID, formData) => async (dispatch) => {
     const response = await fetch(`/api/settings/${settingID}`, {
         method: 'PUT',
         body: formData
@@ -59,13 +58,12 @@ export const updateUserSetting = (settingID, formData) => async dispatch => {
         const setting = await response.json();
         dispatch(updateSetting(setting));
         return setting;
-    } else {
-        const res = await response.json();
-        alert(res.errors);
     }
+    const res = await response.json();
+    alert(res.errors);
 }
 
-export const deleteUserSetting = (settingID) => async dispatch => {
+export const deleteUserSetting = (settingID) => async (dispatch) => {
     const response = await fetch(`/api/settings/${settingID}`, {
         method: 'DELETE'
     })
