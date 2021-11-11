@@ -9,7 +9,7 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import '../Main.css';
 import './History_Page.css';
 
-export const HistoryPage = ({ style }) => {
+const HistoryPage = ({ style }) => {
     const history = useHistory();
     const dispatch = useDispatch();
 
@@ -133,3 +133,5 @@ export const HistoryPage = ({ style }) => {
         </div>
     )
 }
+
+export default HistoryPage;

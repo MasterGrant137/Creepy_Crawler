@@ -6,101 +6,101 @@ import '../Main.css';
 import '../Auth.css';
 
 const LoginForm = ({ style }) => {
-  const emailInput = useRef(null);
-  const passwordInput = useRef(null);
+    const emailInput = useRef(null);
+    const passwordInput = useRef(null);
 
-  const [errors, setErrors] = useState([]);
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [passwordRequired, setPasswordRequired] = useState(false);
-  const [loginBtn, setLoginBtn] = useState(true);
-  const user = useSelector(state => state.session.user);
-  const dispatch = useDispatch();
+    const [errors, setErrors] = useState([]);
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [passwordRequired, setPasswordRequired] = useState(false);
+    const [loginBtn, setLoginBtn] = useState(true);
+    const user = useSelector(state => state.session.user);
+    const dispatch = useDispatch();
 
-  const allowable = () => {
-    setPasswordRequired(true);
+    const allowable = () => {
+        setPasswordRequired(true);
 
-    const emailPresent = emailInput.current?.value.length ? true : false;
-    const passwordPresent = passwordInput.current?.value.length ? true : false;
-    
-    const validEmail = emailPresent && emailInput.current.checkValidity();
-    const validPassword = passwordPresent && passwordInput.current.checkValidity();
-    
-    if (validEmail && validPassword) setLoginBtn(true);
-    else setLoginBtn(false);
-  }
+        const emailPresent = emailInput.current?.value.length ? true : false;
+        const passwordPresent = passwordInput.current?.value.length ? true : false;
 
-  const onLogin = async (e) => {
-    e.preventDefault();
-    const data = await dispatch(login(email, password));
-    if (data) {
-      setErrors(data);
+        const validEmail = emailPresent && emailInput.current.checkValidity();
+        const validPassword = passwordPresent && passwordInput.current.checkValidity();
+
+        if (validEmail && validPassword) setLoginBtn(true);
+        else setLoginBtn(false);
     }
-  };
 
-  const updateEmail = (e) => {
-    setEmail(e.target.value);
-  };
+    const onLogin = async (e) => {
+        e.preventDefault();
+        const data = await dispatch(login(email, password));
+        if (data) {
+            setErrors(data);
+        }
+    };
 
-  const updatePassword = (e) => {
-    setPassword(e.target.value);
-  };
+    const updateEmail = (e) => {
+        setEmail(e.target.value);
+    };
 
-  if (user) {
-    return <Redirect to='/' />;
-  }
+    const updatePassword = (e) => {
+        setPassword(e.target.value);
+    };
 
-  return (
-    <div className='login-form-container'>
-      <form 
-        className='login-form' 
-        onSubmit={onLogin}
-        style={{ borderColor: style.accent_3 }}
-      >
-        <div>
-          {errors.map((error, ind) => (
-            <div key={ind}>{error}</div>
-          ))}
+    if (user) {
+        return <Redirect to='/' />;
+    }
+
+    return (
+        <div className='login-form-container'>
+            <form 
+                className='login-form' 
+                onSubmit={onLogin}
+                style={{ borderColor: style.accent_3 }}
+            >
+                <div>
+                    {errors.map((error, ind) => (
+                        <div key={ind}>{error}</div>
+                    ))}
+                </div>
+                <div>
+                    <label htmlFor='login-email'>Email</label>
+                    <input
+                        id='login-email'
+                        ref={emailInput}
+                        name='Email'
+                        type='email'
+                        placeholder='Email'
+                        value={email}
+                        onChange={updateEmail}
+                        required
+                    />
+                </div>
+                <div>
+                    <label htmlFor='login-password'>Password</label>
+                    <input
+                        id='login-password'
+                        ref={passwordInput}
+                        name='Password'
+                        type='password'
+                        minLength='8'
+                        maxLength='255'
+                        placeholder='Password'
+                        value={password}
+                        onChange={updatePassword}
+                        required={passwordRequired}
+                    />
+                    <button  
+                        type='submit' 
+                        className={loginBtn ? '' : 'not-allowed'}
+                        onMouseOver={allowable}
+                        style={{ color: style.font_color }}
+                    >
+                        Log In
+                    </button>
+                </div>
+            </form>
         </div>
-        <div>
-          <label htmlFor='login-email'>Email</label>
-          <input
-            id='login-email'
-            ref={emailInput}
-            name='Email'
-            type='email'
-            placeholder='Email'
-            value={email}
-            onChange={updateEmail}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor='login-password'>Password</label>
-          <input
-            id='login-password'
-            ref={passwordInput}
-            name='Password'
-            type='password'
-            minLength='8'
-            maxLength='255'
-            placeholder='Password'
-            value={password}
-            onChange={updatePassword}
-            required={passwordRequired}
-          />
-          <button  
-            type='submit' 
-            className={loginBtn ? '' : 'not-allowed'}
-            onMouseOver={allowable}
-            style={{ color: style.font_color }}
-          >
-            Log In
-          </button>
-        </div>
-      </form>
-    </div>
-  );
+    );
 };
 
 export default LoginForm;

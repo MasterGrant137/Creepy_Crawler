@@ -1,3 +1,5 @@
+"""Search routes."""
+
 from flask import Blueprint, request
 from flask_migrate import Migrate
 from app.models import db

@@ -4,7 +4,7 @@ import { editProfile } from '../../store/session';
 import { updateUserSetting, deleteUserSetting } from '../../store/settings_store';
 import dropdownData from './dropdown_data.json';
 
-export const EditThemeForm = ({ style }) => {
+const EditThemeForm = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector(state => state.session.user);
     const settingsObj = useSelector(state => state.settings);
@@ -241,3 +241,5 @@ export const EditThemeForm = ({ style }) => {
         </>
     );
 };
+
+export default EditThemeForm;

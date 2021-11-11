@@ -1,19 +1,22 @@
 {
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:react/recommended"
     ],
-    "globals": {
-        "alert": false,
-        "fetch": false,
-        "window": false
+    "env": {
+        "browser": true,
+        "node": true
     },
     "parser": "babel-eslint",
+    "plugins": ["react"],
     "rules": {
+        "global-require": 0,
         "indent": ["error", 4],
-        "react": ["error", 4],
-        "jsxIndent": ["error", 4],
         "no-alert": "off",
-        "spaced-comment": ["error", "always", { "markers": ["$", "*", "?", "!"] }],
-        "global-require": 0
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": "off",
+        "spaced-comment": ["error", "always", { "markers": ["$", "*", "?", "!"] }]
     }
 }

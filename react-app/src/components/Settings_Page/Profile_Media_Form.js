@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { editProfileMedia } from '../../store/session';
 
-export const ProfileMediaForm = ({ style }) => {
+const ProfileMediaForm = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector(state => state.session.user);
 
@@ -12,7 +12,7 @@ export const ProfileMediaForm = ({ style }) => {
     const setProfileMediaHandler = (e) => {
         const file = e.target.files[0];
         if (file) setProfileMedia(file);
-    }
+    };
 
     const profileMediaHandler = async (e) => {
         e.preventDefault();
@@ -22,7 +22,7 @@ export const ProfileMediaForm = ({ style }) => {
         const isSubmit = targFormKids.find(targKid => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
         const hasMedia = targFormKids.find(targKid => targKid.dataset.inputName === 'Profile Media');
 
-        if (isSubmit && hasMedia?.value) { 
+        if (isSubmit && hasMedia?.value) {
             const formData = new FormData();
             formData.append('media', profile_media);
             setProfileMediaLoading(true);
@@ -30,16 +30,16 @@ export const ProfileMediaForm = ({ style }) => {
             await dispatch(editProfileMedia(user.id, formData));
             setProfileMediaLoading(false);
         }
-    }
+    };
 
     return (
         <>
-            <form 
+            <form
                 className='setter-form-1'
                 onSubmit={profileMediaHandler}
             >
-                <label 
-                    htmlFor='user-profile-media-uploader' 
+                <label
+                    htmlFor='user-profile-media-uploader'
                     style={{ borderBottom: `2px solid ${style.accent_1}` }}
                 >
                     {!profile_media ? 'Upload Profile Media' : 'Added'}
@@ -54,5 +54,7 @@ export const ProfileMediaForm = ({ style }) => {
                 <button style={{ color: style.font_color }}>Submit</button>
             </form>
         </>
-    )
-}
+    );
+};
+
+export default ProfileMediaForm;

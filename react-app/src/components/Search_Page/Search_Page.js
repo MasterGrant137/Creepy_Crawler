@@ -5,7 +5,7 @@ import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
 import './Search_Page.css';
 
-export const SearchPage = ({ style }) => {
+const SearchPage = ({ style }) => {
     const [user_id, setUserID] = useState();
     const [search, setSearch] = useState('');
     const [updated_at, setUpdatedAt] = useState('');
@@ -46,3 +46,5 @@ export const SearchPage = ({ style }) => {
         </div>
     )
 }
+
+export default SearchPage;

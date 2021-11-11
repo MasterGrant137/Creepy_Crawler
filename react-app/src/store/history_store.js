@@ -7,109 +7,111 @@ const DELETE_HISTORY = 'history_store/DELETE_HISTORY';
 //$ action creators
 const createHistory = (entry) => ({
     type: CREATE_HISTORY,
-    payload: entry
-})
+    payload: entry,
+});
 
 const readHistory = (entries) => ({
     type: READ_HISTORY,
-    payload: entries
-})
+    payload: entries,
+});
 
 const updateHistory = (entry) => ({
     type: UPDATE_HISTORY,
-    payload: entry
-})
+    payload: entry,
+});
 
 const deleteHistory = (entryID) => ({
     type: DELETE_HISTORY,
-    payload: entryID
-})
+    payload: entryID,
+});
 
 //$ thunks
-export const createHistoryEntry = (entry) => async dispatch => {
+export const createHistoryEntry = (entry) => async (dispatch) => {
     const response = await fetch('/api/history/', {
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
         },
         method: 'POST',
-        body: JSON.stringify(entry)
-    })
+        body: JSON.stringify(entry),
+    });
     if (response.ok) {
         const newEntry = await response.json();
         await dispatch(createHistory(newEntry));
         return newEntry;
-    } else {
-        const res = await response.json();
-        alert(res.errors[0]);
     }
-}
+    const res = await response.json();
+    alert(res.errors[0]);
+};
 
-export const readHistoryEntries = () => async dispatch => {
+export const readHistoryEntries = () => async (dispatch) => {
     const response = await fetch('/api/history/');
     if (response.ok) {
         const entries = await response.json();
         await dispatch(readHistory(entries));
         return entries;
     }
-}
+};
 
-export const updateHistoryEntry = (entry) => async dispatch => {
+export const updateHistoryEntry = (entry) => async (dispatch) => {
     const response = await fetch(`/api/history/${entry.entryID}`, {
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
         },
         method: 'PATCH',
         body: JSON.stringify({
-            updated_at: entry.updated_at
-        })
-    })
+            updated_at: entry.updated_at,
+        }),
+    });
     if (response.ok) {
         const entry = await response.json();
         dispatch(updateHistory(entry));
         return entry;
     }
-}
+};
 
-export const deleteHistoryEntry = (entryID) => async dispatch => {
+export const deleteHistoryEntry = (entryID) => async (dispatch) => {
     const response = await fetch(`/api/history/${entryID}`, {
-        method: 'DELETE'
-    })
+        method: 'DELETE',
+    });
     if (response.ok) {
         const message = await response.json();
         await dispatch(deleteHistory(entryID));
         return message;
-    } else {
-        return response;
     }
-}
+    return response;
+};
 
 //$ reducers
-const initialState = {}
+const initialState = {};
 let newState;
-let historyCache = {};
+const historyCache = {};
 
 export const historyReducer = (state = initialState, action) => {
-    newState = {...state};
+    newState = { ...state };
     switch (action.type) {
-        case CREATE_HISTORY:
-            const entry = action.payload.history;
-            newState[entry.id] = entry;
-            return newState;
-        case READ_HISTORY:
-            const entries = action.payload.history;
-            entries.forEach((entry, idx) => historyCache[entry.id] = idx)
-            return {...entries,...newState};
-        case UPDATE_HISTORY:
-            const updateEntry = action.payload.history;
-            newState[historyCache[updateEntry.id]].updated_at = updateEntry['updated_at'];
-            newState[historyCache[updateEntry.id]].tz = updateEntry.tz;
-            newState[historyCache[updateEntry.id]].tz_abbrev = updateEntry['tz_abbrev']
-            return newState;
-        case DELETE_HISTORY:
-            const entryID = action.payload;
-            delete newState[historyCache[entryID]];
-            return newState;
-        default:
-            return state;
+    case CREATE_HISTORY: {
+        const entry = action.payload.history;
+        newState[entry.id] = entry;
     }
-}
+        return newState;
+    case READ_HISTORY: {
+        const entries = action.payload.history;
+        entries.forEach((entry, idx) => historyCache[entry.id] = idx);
+        return { ...entries, ...newState };
+    }
+    case UPDATE_HISTORY: {
+        const updateEntry = action.payload.history;
+        newState[historyCache[updateEntry.id]].updated_at = updateEntry.updated_at;
+        newState[historyCache[updateEntry.id]].tz = updateEntry.tz;
+        newState[historyCache[updateEntry.id]].tz_abbrev = updateEntry.tz_abbrev;
+        return newState;
+    }
+    case DELETE_HISTORY: {
+        const entryID = action.payload;
+        delete newState[historyCache[entryID]];
+        return newState;
+    }
+    default:
+        return state;
+    }
+};

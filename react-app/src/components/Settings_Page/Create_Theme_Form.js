@@ -3,24 +3,24 @@ import { useDispatch, useSelector } from 'react-redux';
 import dropdownData from './dropdown_data.json';
 import { createUserSetting } from '../../store/settings_store';
 
-export const CreateThemeForm = ({ style }) => {
+const CreateThemeForm = ({ style }) => {
     const dispatch = useDispatch();
-    const user = useSelector(state => state.session.user);
+    const user = useSelector((state) => state.session.user);
     const fileInput = useRef(null);
 
-    const fontFamiliesRaw = dropdownData['fonts'];
-    const fontFamilies = fontFamiliesRaw.map(fontFamily => (
+    const fontFamiliesRaw = dropdownData.fonts;
+    const fontFamilies = fontFamiliesRaw.map((fontFamily) => (
         <option key={fontFamily} >
             {fontFamily}
         </option>
-    ))
+    ));
 
     const fontSizesRaw = dropdownData['font-sizes'];
-    const fontSizes = fontSizesRaw.map(fontSize => (
+    const fontSizes = fontSizesRaw.map((fontSize) => (
         <option key={fontSize} >
             {fontSize}
         </option>
-    ))
+    ));
 
     const [accent_1, setAccent1] = useState(style.accent_1);
     const [accent_2, setAccent2] = useState(style.accent_2);
@@ -40,7 +40,7 @@ export const CreateThemeForm = ({ style }) => {
         setThemeName('');
         setBackgroundColor(style.background_color);
         setBackgroundMedia('');
-        document.getElementById('sf2-background-media').value=''
+        document.getElementById('sf2-background-media').value='';
         setBackgroundRotate(style.background_rotate);
         setFontColor(style.font_color);
         setFontFamily(style.font_family);
@@ -48,45 +48,45 @@ export const CreateThemeForm = ({ style }) => {
         setAccent1(style.accent_1);
         setAccent2(style.accent_2);
         setAccent3(style.accent_3);
-    }
-    
+    };
+
     const setBackgroundMediaHandler = (e) => {
         const file = e.target.files[0];
         if(file) setBackgroundMedia(file);
-    }
-    
+    };
+
     const createSettingHandler = async (e) => {
         e.preventDefault();
-            
+
         const user_id = user.id;
         const formData = new FormData();
-        
-        formData.append('user_id', user_id)
-        formData.append('theme_name', theme_name)
+
+        formData.append('user_id', user_id);
+        formData.append('theme_name', theme_name);
         formData.append('background_media', background_media);
         setBackgroundMediaLoading(true);
-        formData.append('background_color', background_color)
-        formData.append('background_rotate', background_rotate)
-        formData.append('font_color', font_color)
-        formData.append('font_family', font_family)
-        formData.append('font_size', font_size)
-        formData.append('accent_1', accent_1)
-        formData.append('accent_2', accent_2)
-        formData.append('accent_3', accent_3)
-        
+        formData.append('background_color', background_color);
+        formData.append('background_rotate', background_rotate);
+        formData.append('font_color', font_color);
+        formData.append('font_family', font_family);
+        formData.append('font_size', font_size);
+        formData.append('accent_1', accent_1);
+        formData.append('accent_2', accent_2);
+        formData.append('accent_3', accent_3);
+
         await dispatch(createUserSetting(formData));
         setBackgroundMediaLoading(false);
 
         resetHandler(e);
-    }
+    };
 
     return (
         <>
             <form className='setter-form-2' onSubmit={createSettingHandler} style={{ borderColor: style.accent_3 }}>
                 <h2 className='create-theme-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Create Theme</h2>
-                <button 
-                    className='sf2-submit-btn' 
-                    style={{ 
+                <button
+                    className='sf2-submit-btn'
+                    style={{
                         color: style.font_color,
                         fontFamily: style.font_family,
                         fontSize: style.font_size
@@ -98,8 +98,8 @@ export const CreateThemeForm = ({ style }) => {
                     type='button'
                     className='sf2-reset-btn'
                     onClick={resetHandler}
-                    style={{ 
-                        color: style.font_color, 
+                    style={{
+                        color: style.font_color,
                         fontFamily: style.font_family,
                         fontSize: style.font_size
                     }}
@@ -123,12 +123,12 @@ export const CreateThemeForm = ({ style }) => {
                     </div>
                     <div className='font-size-setter-div'>
                         <label htmlFor='font-size-setter'>Font Size</label>
-                        <select 
+                        <select
                             id='font-size-setter'
                             name='Font Size'
                             value={font_size?.replace('px', '')}
                             onChange={(e) => {
-                                const targOption = Array.from(e.target.children).find(option => option.selected);
+                                const targOption = Array.from(e.target.children).find((option) => option.selected);
                                 setFontSize(`${targOption.innerText}px`);
                             }}
                         >
@@ -137,12 +137,12 @@ export const CreateThemeForm = ({ style }) => {
                     </div>
                     <div className='font-family-setter-div'>
                         <label htmlFor='font-family-setter'>Font Family</label>
-                        <select 
+                        <select
                             id='font-family-setter'
                             name='Font Family'
                             value={font_family?.replace(/,\s/, ' | ')}
                             onChange={(e) => {
-                                const targOption = Array.from(e.target.children).find(option => option.selected);
+                                const targOption = Array.from(e.target.children).find((option) => option.selected);
                                 setFontFamily(targOption.innerText.replace(/\s\|\s/, ', '));
                             }}
                         >
@@ -198,7 +198,7 @@ export const CreateThemeForm = ({ style }) => {
                             name='Background Color'
                             type='color'
                             value={background_color}
-                            onChange={(e) => { setBackgroundColor(e.target.value) }}
+                            onChange={(e) => { setBackgroundColor(e.target.value); }}
                         />
                     </div>
                 </div>
@@ -229,7 +229,7 @@ export const CreateThemeForm = ({ style }) => {
                     </div>
                 </div>
             </form>
-            <div  
+            <div
                 className='theme-tester-container'
                 style={{
                     borderColor: accent_3,
@@ -246,5 +246,7 @@ export const CreateThemeForm = ({ style }) => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
+
+export default CreateThemeForm;
