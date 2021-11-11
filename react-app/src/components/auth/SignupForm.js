@@ -139,7 +139,7 @@ const SignupForm = ({ style }) => {
               aria-placeholder='a1%Bp9!U'
               onChange={updateRepeatPassword}
               value={repeatPassword}
-              required={passwordInput.current?.value.length ? true : false}
+              // required={passwordInput.current?.value.length ? true : false}
             />
           </div>
           <button 

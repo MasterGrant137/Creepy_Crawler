@@ -27,9 +27,6 @@ const deleteSetting = (settingID) => ({
 
 //$ thunks
 export const createUserSetting = (formData) => async dispatch => {
-    for (let entry of formData) {
-        console.log(entry, typeof(entry[1]));
-    }
     const response = await fetch('/api/settings/', {
         method: 'POST',
         body: formData
@@ -39,7 +36,8 @@ export const createUserSetting = (formData) => async dispatch => {
         await dispatch(createSetting(setting));
         return setting;
     } else {
-        return response;
+        const res = await response.json();
+        alert(res.errors);
     }
 }
 
@@ -61,6 +59,9 @@ export const updateUserSetting = (settingID, formData) => async dispatch => {
         const setting = await response.json();
         dispatch(updateSetting(setting));
         return setting;
+    } else {
+        const res = await response.json();
+        alert(res.errors);
     }
 }
 

@@ -53,6 +53,6 @@ def proper_password(form, field):
 class SignUpForm(FlaskForm):
     """Signup form class."""
 
-    username = StringField('username', validators=[DataRequired(), username_exists])
-    email = StringField('email', validators=[DataRequired(), user_exists])
-    password = StringField('password', validators=[DataRequired(), proper_password])
+    username = StringField('username', validators=[DataRequired(message='Username is required!'), username_exists])
+    email = StringField('email', validators=[DataRequired(message='Email is required!'), user_exists])
+    password = StringField('password', validators=[DataRequired(message='Password is required!'), proper_password])

@@ -55,3 +55,8 @@ password_characters = string.ascii_lowercase + string.ascii_uppercase + string.d
 
 password=''.join(random.choice(password_characters) for i in range(15))
 ```
+
+
+```py
+(theme.user_id == current_user.id) and (theme.id == int(request.form['setting_id']))
+```
