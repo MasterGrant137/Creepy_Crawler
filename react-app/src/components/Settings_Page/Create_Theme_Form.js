@@ -40,7 +40,7 @@ const CreateThemeForm = ({ style }) => {
         setThemeName('');
         setBackgroundColor(style.background_color);
         setBackgroundMedia('');
-        document.getElementById('sf2-background-media').value='';
+        document.getElementById('sf2-background-media').value = '';
         setBackgroundRotate(style.background_rotate);
         setFontColor(style.font_color);
         setFontFamily(style.font_family);
@@ -52,7 +52,7 @@ const CreateThemeForm = ({ style }) => {
 
     const setBackgroundMediaHandler = (e) => {
         const file = e.target.files[0];
-        if(file) setBackgroundMedia(file);
+        if (file) setBackgroundMedia(file);
     };
 
     const createSettingHandler = async (e) => {

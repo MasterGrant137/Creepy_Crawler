@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import { signUp } from '../../store/session';
 import '../Main.css';
@@ -18,31 +18,31 @@ const SignupForm = ({ style }) => {
     const [passwordRequired, setPasswordRequired] = useState(false);
     const [repeatPassword, setRepeatPassword] = useState('');
     const [signupBtn, setSignupBtn] = useState(false);
-    const user = useSelector(state => state.session.user);
+    const user = useSelector((state) => state.session.user);
     const dispatch = useDispatch();
 
     const allowable = () => {
         setPasswordRequired(true);
 
-        const usernamePresent = usernameInput.current?.value.length ? true : false;
-        const emailPresent = emailInput.current?.value.length ? true : false;
-        const passwordPresent = passwordInput.current?.value.length ? true : false;
-        const repeatPasswordPresent = repeatPasswordInput.current?.value.length ? true : false;
-    
+        const usernamePresent = !!usernameInput.current?.value.length;
+        const emailPresent = !!emailInput.current?.value.length;
+        const passwordPresent = !!passwordInput.current?.value.length;
+        const repeatPasswordPresent = !!repeatPasswordInput.current?.value.length;
+
         const validUsername = usernamePresent && usernameInput.current.checkValidity();
         const validEmail = emailPresent && emailInput.current.checkValidity();
         const validPassword = passwordPresent && passwordInput.current.checkValidity();
-        const validRepeatPassword = repeatPasswordPresent && repeatPasswordInput.current.checkValidity();
-    
-        if (validUsername &&
-        validEmail && 
-        validPassword &&
-        validRepeatPassword) {
+        const validRepPass = repeatPasswordPresent && repeatPasswordInput.current.checkValidity();
+
+        if (validUsername
+            && validEmail
+            && validPassword
+            && validRepPass) {
             setSignupBtn(true);
         } else {
             setSignupBtn(false);
         }
-    }
+    };
 
     const onSignUp = async (e) => {
         e.preventDefault();
@@ -79,7 +79,7 @@ const SignupForm = ({ style }) => {
     return (
         <div className='signup-form-container'>
             <form
-                className='signup-form' 
+                className='signup-form'
                 onSubmit={onSignUp}
                 style={{ borderColor: style.accent_3 }}
             >
@@ -145,16 +145,16 @@ const SignupForm = ({ style }) => {
                         aria-placeholder='a1%Bp9!U'
                         onChange={updateRepeatPassword}
                         value={repeatPassword}
-                        required={passwordInput.current?.value.length ? true : false}
+                        required={!!passwordInput.current?.value.length}
                     />
                 </div>
-                <button 
+                <button
                     type='submit'
-                    className={signupBtn ? '' : 'not-allowed'} 
+                    className={signupBtn ? '' : 'not-allowed'}
                     onMouseOver={allowable}
-                    style={{ color: style.font_color }} 
+                    style={{ color: style.font_color }}
                 >
-            Sign Up
+                    Sign Up
                 </button>
             </form>
         </div>

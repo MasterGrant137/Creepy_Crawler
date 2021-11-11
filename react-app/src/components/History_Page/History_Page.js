@@ -20,12 +20,12 @@ const HistoryPage = ({ style }) => {
         '(.*)', //? time zone
     ].join(''), 'g');
 
-    const [updated_at, setUpdatedAt] = useState(new Date().toString());
+    const [updatedAt, setUpdatedAt] = useState(new Date().toString());
     const [toggledClock, toggleClock] = useState(true);
     const [clockTypeBtn, setClockTypeBtn] = useState('12-Hour Clock');
 
     let prevDayOfWk = null;
-    let prevDate = null;
+    // let prevDate = null;
 
     useEffect(() => {
         dispatch(readHistoryEntries());
@@ -34,7 +34,7 @@ const HistoryPage = ({ style }) => {
 
     const updateHandler = (e, entryID) => {
         e.preventDefault();
-        dispatch(updateHistoryEntry({ entryID, updated_at }));
+        dispatch(updateHistoryEntry({ entryID, updatedAt }));
         history.push('/');
         window.location.reload();
     };
@@ -43,7 +43,7 @@ const HistoryPage = ({ style }) => {
         if (eType === 'clock_24') {
             await dispatch(editProfile({
                 column: eType,
-                clock_24: toggledClock
+                clock_24: toggledClock,
             }));
             toggleClock((prevClock) => !prevClock);
             setClockTypeBtn(toggledClock ? '12-Hour Clock' : '24-Hour Clock');
@@ -66,34 +66,35 @@ const HistoryPage = ({ style }) => {
                 style={{ backgroundColor: style.background_color }}
             >
                 <h2 id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>
-                    {(function () {
+                    {(() => {
                         const dayOfWk = entry.updated_at.replace(dateRegex, '$1');
                         // const date = en
                         if (!prevDayOfWk || dayOfWk !== prevDayOfWk) {
                             prevDayOfWk = dayOfWk;
                             return prevDayOfWk;
                         }
-                    }())}
+                        return null;
+                    })()}
                 </h2>
                 <span
                     id='updated-at-ele'
                     className='hist-updated-at'
                     style={{ color: style.accent_2 }}
                 >
-                    {function () {
-                        const date = entry['updated_at'].replace(dateRegex, '$2');
+                    {(() => {
+                        const date = entry.updated_at.replace(dateRegex, '$2');
                         return date;
-                    }()}
+                    })()}
                 </span>
                 <span
                     id={`tz-ele-${entry.id}`}
                     className='hist-tz'
                     style={{ color: style.accent_2 }}
                 >
-                    {function () {
-                        const time = entry['updated_at'].replace(dateRegex, '$3');
+                    {(() => {
+                        const time = entry.updated_at.replace(dateRegex, '$3');
                         return time;
-                    }()} {entry.tz_abbrev}
+                    })()} {entry.tz_abbrev}
                 </span>
                 <FontAwesomeIcon
                     icon={faTrashAlt}
@@ -122,7 +123,7 @@ const HistoryPage = ({ style }) => {
                 onClick={(e) => editProfileHandler(e, 'clock_24')}
                 style={{
                     backgroundColor: style.background_color,
-                    color: style.font_color
+                    color: style.font_color,
                 }}
             >
                 {clockTypeBtn}
