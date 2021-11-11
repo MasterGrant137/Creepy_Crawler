@@ -186,7 +186,13 @@ export const EditThemeForm = ({ style }) => {
             <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled={true} defaultValue={setting.background_color} />
 
             <label htmlFor={`background-media-editor-${idx}`}>{background_media !== '' ? 'Background Media' : 'Added'}</label>
-            <input id={`background-media-editor-${idx}`} name='Background Media' type='file' disabled={true} onChange={setBackgroundMediaHandler} />
+            <input 
+                id={`background-media-editor-${idx}`} 
+                name='Background Media' type='file' 
+                accept='image/png, image/jpg, image/jpeg, image/gif' 
+                disabled={true} 
+                onChange={setBackgroundMediaHandler} 
+            />
             {background_media_loading && (<span>Loading...</span>)}
 
             <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
