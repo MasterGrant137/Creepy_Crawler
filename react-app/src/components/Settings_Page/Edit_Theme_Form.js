@@ -95,25 +95,25 @@ const EditThemeForm = ({ style }) => {
                 targKid.innerText = 'Edit';
 
                 const formData = new FormData();
-                formData.append('setting_id', settingID);
-                formData.append('user_id', user.id);
+                formData.append('settingID', settingID);
+                formData.append('userID', user.id);
 
                 targFormKids.forEach((targChild) => {
                     if (targChild.tagName !== 'BUTTON') {
                         switch (targChild.name) {
-                        case 'Theme Name': formData.append('theme_name', targChild.value); break;
-                        case 'Background Color': formData.append('background_color', targChild.value); break;
+                        case 'Theme Name': formData.append('themeName', targChild.value); break;
+                        case 'Background Color': formData.append('backgroundColor', targChild.value); break;
                         case 'Background Media':
                             formData.append('background_media', backgroundMedia);
                             setBackgroundMediaLoading(true);
                             break;
-                        case 'Background Rotate': formData.append('background_rotate', targChild.checked); break;
-                        case 'Font Color': formData.append('font_color', targChild.value); break;
-                        case 'Font Family': formData.append('font_family', targChild.value.replace(/\s\|\s/, ', ')); break;
-                        case 'Font Size': formData.append('font_size', `${targChild.value}px`); break;
-                        case 'Accent 1': formData.append('accent_1', targChild.value); break;
-                        case 'Accent 2': formData.append('accent_2', targChild.value); break;
-                        case 'Accent 3': formData.append('accent_3', targChild.value); break;
+                        case 'Background Rotate': formData.append('backgroundRotate', targChild.checked); break;
+                        case 'Font Color': formData.append('fontColor', targChild.value); break;
+                        case 'Font Family': formData.append('fontFamily', targChild.value.replace(/\s\|\s/, ', ')); break;
+                        case 'Font Size': formData.append('fontSize', `${targChild.value}px`); break;
+                        case 'Accent 1': formData.append('accent1', targChild.value); break;
+                        case 'Accent 2': formData.append('accent2', targChild.value); break;
+                        case 'Accent 3': formData.append('accent3', targChild.value); break;
                         default: break;
                         }
                         targChild.type === 'text' ? targChild.readOnly = true : targChild.disabled = true;

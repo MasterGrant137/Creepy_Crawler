@@ -40,7 +40,7 @@ const ProfileMediaForm = ({ style }) => {
             >
                 <label
                     htmlFor='user-profile-media-uploader'
-                    style={{ borderBottom: `2px solid ${style.accent_1}` }}
+                    style={{ borderColor: style.accent_1 }}
                 >
                     {!profileMedia ? 'Upload Profile Media' : 'Added'}
                 </label>

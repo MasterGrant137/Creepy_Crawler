@@ -36,10 +36,10 @@ def add_theme():
             accent_3=request.form['accent3']
         )
 
-        if request.form['background_rotate'] == 'false': new_theme.background_rotate=False
+        if request.form['backgroundRotate'] == 'false': new_theme.background_rotate=False
         else: new_theme.background_rotate=True
 
-        if 'background_media' in request.files:
+        if 'backgroundMedia' in request.files:
             background_media = request.files['background_media']
             if allowed_file(background_media.filename):
                 background_media.filename = get_unique_filename(background_media.filename)
@@ -69,7 +69,7 @@ def update_theme(settingID):
 
     if form.validate_on_submit():
         theme = Theme.query.filter(Theme.id == settingID).first()
-        if ((theme.user_id == current_user.id) and (theme.id == int(request.form['setting_id']))):
+        if ((theme.user_id == current_user.id) and (theme.id == int(request.form['settingID']))):
             theme.user_id=request.form['userID']
             theme.theme_name=request.form['themeName']
             theme.background_color=request.form['backgroundColor']
@@ -81,7 +81,7 @@ def update_theme(settingID):
             theme.accent_3=request.form['accent3']
         else: return { 'errors': ['You are not permitted to edit this theme!'] }, 401
 
-        if request.form['background_rotate'] == 'false': theme.background_rotate=False
+        if request.form['backgroundRotate'] == 'false': theme.background_rotate=False
         else: theme.background_rotate=True
 
         if 'background_media' in request.files:

@@ -86,9 +86,13 @@ h1, h2, label { user-select: none }
 }
 
 .settings-actions-container {
-    border: 3px, solid;
+    border: 3px solid;
     border-radius: 5px;
     height: fit-content;
+}
+
+.settings-actions-container label {
+    border-bottom: 2px solid;
 }
 
 .create-and-test-container {
