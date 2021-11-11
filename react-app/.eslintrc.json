@@ -2,15 +2,18 @@
     "extends": [
         "airbnb-base"
     ],
+    "globals": {
+        "alert": false,
+        "fetch": false,
+        "window": false
+    },
+    "parser": "babel-eslint",
     "rules": {
         "indent": ["error", 4],
         "react": ["error", 4],
         "jsxIndent": ["error", 4],
         "no-alert": "off",
-        "spaced-comment": ["error", "always", { "markers": ["$", "*", "?", "!"] }]
-    },
-    "globals": {
-        "alert": false,
-        "fetch": false
+        "spaced-comment": ["error", "always", { "markers": ["$", "*", "?", "!"] }],
+        "global-require": 0
     }
 }

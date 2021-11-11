@@ -38,15 +38,17 @@ export const createUserSetting = (formData) => async (dispatch) => {
     }
     const res = await response.json();
     alert(res.errors);
+    return null;
 };
 
 export const readUserSettings = () => async (dispatch) => {
-    const response = await fetch(`/api/settings/`);
+    const response = await fetch('/api/settings/');
     if (response.ok) {
         const settings = await response.json();
         await dispatch(readSettings(settings));
         return settings;
     }
+    return null;
 };
 
 export const updateUserSetting = (settingID, formData) => async (dispatch) => {
@@ -61,6 +63,7 @@ export const updateUserSetting = (settingID, formData) => async (dispatch) => {
     }
     const res = await response.json();
     alert(res.errors);
+    return null;
 };
 
 export const deleteUserSetting = (settingID) => async (dispatch) => {
@@ -74,6 +77,7 @@ export const deleteUserSetting = (settingID) => async (dispatch) => {
     }
     const res = await response.json();
     alert(res.errors);
+    return null;
 };
 
 //$ reducers

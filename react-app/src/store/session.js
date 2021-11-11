@@ -97,19 +97,18 @@ export const signUp = (username, email, password) => async (dispatch) => {
             password,
         }),
     });
-  
+
     if (response.ok) {
         const data = await response.json();
         dispatch(setUser(data));
         return null;
-    } else if (response.status < 500) {
+    } if (response.status < 500) {
         const data = await response.json();
         if (data.errors) {
             return data.errors;
         }
-    } else {
-        return ['An error occurred. Please try again.'];
     }
+    return ['A wild error appeared in the bushes, please try again.'];
 };
 
 export const readUser = (userID) => async (dispatch) => {
@@ -120,6 +119,7 @@ export const readUser = (userID) => async (dispatch) => {
         await dispatch(getUser(user));
         return user;
     }
+    return null;
 };
 
 export const editProfileMedia = (userID, formData) => async (dispatch) => {
@@ -136,8 +136,8 @@ export const editProfileMedia = (userID, formData) => async (dispatch) => {
         if (data) {
             return data;
         }
-        return ['A wild error appeared in the bushes, please try again.'];
     }
+    return ['A wild error appeared in the bushes, please try again.'];
 };
 
 export const editProfile = (setting) => async (dispatch) => {
