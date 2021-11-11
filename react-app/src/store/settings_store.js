@@ -7,23 +7,23 @@ const DELETE_SETTING = 'settings_store/DELETE_SETTING';
 //$ action creators
 const createSetting = (setting) => ({
     type: CREATE_SETTING,
-    payload: setting
-})
+    payload: setting,
+});
 
 const readSettings = (settings) => ({
     type: READ_SETTINGS,
-    payload: settings
-})
+    payload: settings,
+});
 
 const updateSetting = (setting) => ({
     type: UPDATE_SETTING,
-    payload: setting
-})
+    payload: setting,
+});
 
 const deleteSetting = (settingID) => ({
     type: DELETE_SETTING,
-    payload: settingID
-})
+    payload: settingID,
+});
 
 //$ thunks
 export const createUserSetting = (formData) => async (dispatch) => {
@@ -38,7 +38,7 @@ export const createUserSetting = (formData) => async (dispatch) => {
     }
     const res = await response.json();
     alert(res.errors);
-}
+};
 
 export const readUserSettings = () => async (dispatch) => {
     const response = await fetch(`/api/settings/`);
@@ -47,13 +47,13 @@ export const readUserSettings = () => async (dispatch) => {
         await dispatch(readSettings(settings));
         return settings;
     }
-}
+};
 
 export const updateUserSetting = (settingID, formData) => async (dispatch) => {
     const response = await fetch(`/api/settings/${settingID}`, {
         method: 'PUT',
-        body: formData
-    })
+        body: formData,
+    });
     if (response.ok) {
         const setting = await response.json();
         dispatch(updateSetting(setting));
@@ -61,46 +61,49 @@ export const updateUserSetting = (settingID, formData) => async (dispatch) => {
     }
     const res = await response.json();
     alert(res.errors);
-}
+};
 
 export const deleteUserSetting = (settingID) => async (dispatch) => {
     const response = await fetch(`/api/settings/${settingID}`, {
-        method: 'DELETE'
-    })
+        method: 'DELETE',
+    });
     if (response.ok) {
         const message = await response.json();
         await dispatch(deleteSetting(settingID));
         return message;
-    } else {
-        const res = await response.json();
-        alert(res.errors);
     }
-}
+    const res = await response.json();
+    alert(res.errors);
+};
 
 //$ reducers
-const initialState = {}
+const initialState = {};
 let newState;
 
 export const settingsReducer = (state = initialState, action) => {
-    newState = {...state};
+    newState = { ...state };
     switch (action.type) {
-        case CREATE_SETTING:
-            const setting = action.payload.setting;
-            newState[setting.id] = setting;
-            return newState;
-        case READ_SETTINGS:
-            const settings = action.payload.settings;
-            settings.forEach(setting => newState[setting.id] = setting)
-            return newState;
-        case UPDATE_SETTING:
-            const updateSetting = action.payload.setting;
-            newState[updateSetting.id] = updateSetting;
-            return newState;
-        case DELETE_SETTING:
-            const settingID = action.payload;
-            delete newState[settingID];
-            return newState;
-        default:
-            return state;
+    case CREATE_SETTING: {
+        const { setting } = action.payload;
+        newState[setting.id] = setting;
+        return newState;
     }
-}
+    case READ_SETTINGS: {
+        const { settings } = action.payload;
+        settings.forEach((setting) => { newState[setting.id] = setting; });
+        return newState;
+    }
+    case UPDATE_SETTING: {
+        const { setting } = action.payload;
+        newState[setting.id] = setting;
+        return newState;
+    }
+    case DELETE_SETTING: {
+        const settingID = action.payload;
+        delete newState[settingID];
+        return newState;
+    }
+    default:
+        return state;
+    }
+};

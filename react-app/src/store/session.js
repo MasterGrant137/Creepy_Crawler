@@ -5,206 +5,204 @@ const EDIT_USER = 'session/EDIT_USER';
 const RESET_THEME = 'session/RESET_THEME';
 const REMOVE_USER = 'session/REMOVE_USER';
 
-
 const setUser = (user) => ({
-  type: SET_USER,
-  payload: user
+    type: SET_USER,
+    payload: user,
 });
 
 const getUser = (user) => ({
-  type: GET_USER,
-  payload: user
-})
+    type: GET_USER,
+    payload: user,
+});
 
 const editUser = (user) => ({
-  type: EDIT_USER,
-  payload: user
-})
+    type: EDIT_USER,
+    payload: user,
+});
 
 const resetTheme = () => ({
-  type: RESET_THEME
-})
+    type: RESET_THEME,
+});
 
 const removeUser = () => ({
-  type: REMOVE_USER,
-})
+    type: REMOVE_USER,
+});
 
 const initialState = { user: null };
 
 export const authenticateLogin = () => async (dispatch) => {
-  const response = await fetch('/api/auth/login', {
-    headers: {
-      'Content-Type': 'application/json'
+    const response = await fetch('/api/auth/login', {
+        headers: {
+            'Content-Type': 'application/json',
+        },
+    });
+    if (response.ok) {
+        const data = await response.json();
+        if (data.errors) {
+            return;
+        }
+        dispatch(setUser(data));
     }
-  });
-  if (response.ok) {
-    const data = await response.json();
-    if (data.errors) {
-      return;
-    }
-    dispatch(setUser(data));
-  }
-}
+};
 
 export const authenticateSignup = () => async (dispatch) => {
-  const response = await fetch('/api/auth/signup', {
-    headers: {
-      'Content-Type': 'application/json'
+    const response = await fetch('/api/auth/signup', {
+        headers: {
+            'Content-Type': 'application/json',
+        },
+    });
+    if (response.ok) {
+        const data = await response.json();
+        if (data.errors) {
+            return;
+        }
+        dispatch(setUser(data));
     }
-  });
-  if (response.ok) {
-    const data = await response.json();
-    if (data.errors) {
-      return;
-    }
-    dispatch(setUser(data));
-  }
-}
+};
 
 export const login = (email, password) => async (dispatch) => {
-  const response = await fetch('/api/auth/login', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      email,
-      password
-    })
-  });
+    const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            email,
+            password,
+        }),
+    });
 
-  if (response.ok) {
-    const data = await response.json();
-    dispatch(setUser(data))
-    return null;
-  } else if (response.status < 500) {
-    const data = await response.json();
-    if (data.errors) {
-      return data.errors;
+    if (response.ok) {
+        const data = await response.json();
+        dispatch(setUser(data));
+        return null;
+    } if (response.status < 500) {
+        const data = await response.json();
+        if (data.errors) {
+            return data.errors;
+        }
     }
-  } else {
     return ['An error occurred. Please try again.'];
-  }
-
-}
+};
 
 export const signUp = (username, email, password) => async (dispatch) => {
-  const response = await fetch('/api/auth/signup', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      username,
-      email,
-      password,
-    }),
-  });
+    const response = await fetch('/api/auth/signup', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            username,
+            email,
+            password,
+        }),
+    });
   
-  if (response.ok) {
-    const data = await response.json();
-    dispatch(setUser(data))
-    return null;
-  } else if (response.status < 500) {
-    const data = await response.json();
-    if (data.errors) {
-      return data.errors;
+    if (response.ok) {
+        const data = await response.json();
+        dispatch(setUser(data));
+        return null;
+    } else if (response.status < 500) {
+        const data = await response.json();
+        if (data.errors) {
+            return data.errors;
+        }
+    } else {
+        return ['An error occurred. Please try again.'];
     }
-  } else {
-    return ['An error occurred. Please try again.']
-  }
-}
+};
 
-export const readUser = (userID) => async dispatch => {
-  const response = await fetch(`/api/users/${userID}`);
-  
-  if (response.ok) {
-    const user = await response.json();
-    await dispatch(getUser(user));
-    return user;
-  }
-}
+export const readUser = (userID) => async (dispatch) => {
+    const response = await fetch(`/api/users/${userID}`);
 
-export const editProfileMedia = (userID, formData) => async dispatch => {
-  const response = await fetch(`/api/users/${userID}`, {
-      method: 'PUT',
-      body: formData
-  })
-  if (response.ok) {
-      const media = await response.json();
-      dispatch(editUser(media));
-      return media;
-  } else if (response <= 500) {
-      const data = await response.json();
-      if (data) {
+    if (response.ok) {
+        const user = await response.json();
+        await dispatch(getUser(user));
+        return user;
+    }
+};
+
+export const editProfileMedia = (userID, formData) => async (dispatch) => {
+    const response = await fetch(`/api/users/${userID}`, {
+        method: 'PUT',
+        body: formData,
+    });
+    if (response.ok) {
+        const media = await response.json();
+        dispatch(editUser(media));
+        return media;
+    } if (response <= 500) {
+        const data = await response.json();
+        if (data) {
+            return data;
+        }
+        return ['A wild error appeared in the bushes, please try again.'];
+    }
+};
+
+export const editProfile = (setting) => async (dispatch) => {
+    const response = await fetch('/api/users/profile', {
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        method: 'PATCH',
+        body: JSON.stringify(
+            setting,
+        ),
+    });
+    if (response.ok) {
+        const data = await response.json();
+        dispatch(editUser(data));
         return data;
-      } else return ['A wild error appeared in the bushes, please try again.'];
-  }
-}
-
-export const editProfile = (setting) => async dispatch => {
-  const response = await fetch(`/api/users/profile`, {
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      method: 'PATCH',
-      body: JSON.stringify(
-        setting
-      )
-  })
-  if (response.ok) {
-      const data = await response.json();
-      dispatch(editUser(data));
-      return data;
-  } else if (response <= 500) {
-      const data = await response.json();
-      if (data.errors) {
-        return data.errors;
-      } else return ['A wild error appeared in the bushes, please try again.'];
-  }
-}
-
-export const resetProfileTheme = () => async dispatch => {
-  const response = await fetch('/api/users/profile/reset-theme', {
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    method: 'PATCH'
-  })
-
-  if (response.ok) {
-    dispatch(resetTheme());
-    return null;
-  } else {
+    } if (response <= 500) {
+        const data = await response.json();
+        if (data.errors) {
+            return data.errors;
+        }
+    }
     return ['A wild error appeared in the bushes, please try again.'];
-  }
-}
+};
+
+export const resetProfileTheme = () => async (dispatch) => {
+    const response = await fetch('/api/users/profile/reset-theme', {
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        method: 'PATCH',
+    });
+
+    if (response.ok) {
+        dispatch(resetTheme());
+        return null;
+    }
+    return ['A wild error appeared in the bushes, please try again.'];
+};
 
 export const logout = () => async (dispatch) => {
-  const response = await fetch('/api/auth/logout', {
-    headers: {
-      'Content-Type': 'application/json',
-    }
-  });
+    const response = await fetch('/api/auth/logout', {
+        headers: {
+            'Content-Type': 'application/json',
+        },
+    });
 
-  if (response.ok) {
-    dispatch(removeUser());
-  }
+    if (response.ok) {
+        dispatch(removeUser());
+    }
 };
 
 export default function reducer(state = initialState, action) {
-  switch (action.type) {
+    switch (action.type) {
     case SET_USER:
-      return { user: action.payload }
+        return { user: action.payload };
     case GET_USER:
-      return { user: action.payload }
+        return { user: action.payload };
     case EDIT_USER:
-      return { user: action.payload }
+        return { user: action.payload };
     case RESET_THEME:
-      return { active_theme: null }
+        return { active_theme: null };
     case REMOVE_USER:
-      return { user: null }
+        return { user: null };
     default:
-      return state;
-  }
+        return state;
+    }
 }
