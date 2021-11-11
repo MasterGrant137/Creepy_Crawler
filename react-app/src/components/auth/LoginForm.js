@@ -12,11 +12,14 @@ const LoginForm = ({ style }) => {
   const [errors, setErrors] = useState([]);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [passwordRequired, setPasswordRequired] = useState(false);
   const [loginBtn, setLoginBtn] = useState(true);
   const user = useSelector(state => state.session.user);
   const dispatch = useDispatch();
 
   const allowable = () => {
+    setPasswordRequired(true);
+
     const emailPresent = emailInput.current?.value.length ? true : false;
     const passwordPresent = passwordInput.current?.value.length ? true : false;
     
@@ -83,6 +86,7 @@ const LoginForm = ({ style }) => {
             placeholder='Password'
             value={password}
             onChange={updatePassword}
+            required={passwordRequired}
           />
           <button  
             type='submit' 
