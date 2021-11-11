@@ -41,6 +41,7 @@ export const createHistoryEntry = (entry) => async (dispatch) => {
     }
     const res = await response.json();
     alert(res.errors[0]);
+    return null;
 };
 
 export const readHistoryEntries = () => async (dispatch) => {
@@ -50,6 +51,7 @@ export const readHistoryEntries = () => async (dispatch) => {
         await dispatch(readHistory(entries));
         return entries;
     }
+    return null;
 };
 
 export const updateHistoryEntry = (entry) => async (dispatch) => {
@@ -63,10 +65,13 @@ export const updateHistoryEntry = (entry) => async (dispatch) => {
         }),
     });
     if (response.ok) {
-        const entry = await response.json();
-        dispatch(updateHistory(entry));
-        return entry;
+        const res = await response.json();
+        dispatch(updateHistory(res));
+        return res;
     }
+    const res = await response.json();
+    alert(res.errors[0]);
+    return null;
 };
 
 export const deleteHistoryEntry = (entryID) => async (dispatch) => {
@@ -96,7 +101,7 @@ export const historyReducer = (state = initialState, action) => {
         return newState;
     case READ_HISTORY: {
         const entries = action.payload.history;
-        entries.forEach((entry, idx) => historyCache[entry.id] = idx);
+        entries.forEach((entry, idx) => { historyCache[entry.id] = idx; });
         return { ...entries, ...newState };
     }
     case UPDATE_HISTORY: {

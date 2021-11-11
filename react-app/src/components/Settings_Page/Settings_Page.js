@@ -15,9 +15,8 @@ const SettingsPage = ({ style }) => {
         dispatch(readUserSettings());
     }, [dispatch]);
 
-    const resetProfileHandler = (e) => {
+    const resetProfileHandler = () => {
         dispatch(resetProfileTheme());
-        console.log(e);
     };
 
     return (
@@ -26,7 +25,7 @@ const SettingsPage = ({ style }) => {
             <div className='create-and-test-container'>
                 <div
                     className='settings-actions-container'
-                    style={{ border: `3px solid ${style.accent_3}`, backgroundColor: style.background_color }}
+                    style={{ borderColor: style.accent_3, backgroundColor: style.background_color }}
                 >
                     <h2 className='settings-actions-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Profile</h2>
                     <ProfileMediaForm style={style} />

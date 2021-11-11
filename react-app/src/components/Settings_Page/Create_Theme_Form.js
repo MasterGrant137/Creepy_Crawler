@@ -22,17 +22,17 @@ const CreateThemeForm = ({ style }) => {
         </option>
     ));
 
-    const [accent_1, setAccent1] = useState(style.accent_1);
-    const [accent_2, setAccent2] = useState(style.accent_2);
-    const [accent_3, setAccent3] = useState(style.accent_3);
-    const [background_color, setBackgroundColor] = useState(style.background_color);
-    const [background_media_loading, setBackgroundMediaLoading] = useState(false);
-    const [background_media, setBackgroundMedia] = useState(style.background_media);
-    const [background_rotate, setBackgroundRotate] = useState(style.background_rotate);
-    const [font_family, setFontFamily] = useState(style.font_family);
-    const [font_size, setFontSize] = useState(style.font_size);
-    const [font_color, setFontColor] = useState(style.font_color);
-    const [theme_name, setThemeName] = useState('');
+    const [accent1, setAccent1] = useState(style.accent_1);
+    const [accent2, setAccent2] = useState(style.accent_2);
+    const [accent3, setAccent3] = useState(style.accent_3);
+    const [backgroundColor, setBackgroundColor] = useState(style.background_color);
+    const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
+    const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
+    const [backgroundRotate, setBackgroundRotate] = useState(style.background_rotate);
+    const [fontFamily, setFontFamily] = useState(style.font_family);
+    const [fontSize, setFontSize] = useState(style.font_size);
+    const [fontColor, setFontColor] = useState(style.font_color);
+    const [themeName, setThemeName] = useState('');
 
     const resetHandler = (e) => {
         e.preventDefault();
@@ -58,21 +58,21 @@ const CreateThemeForm = ({ style }) => {
     const createSettingHandler = async (e) => {
         e.preventDefault();
 
-        const user_id = user.id;
+        const userID = user.id;
         const formData = new FormData();
 
-        formData.append('user_id', user_id);
-        formData.append('theme_name', theme_name);
-        formData.append('background_media', background_media);
+        formData.append('userID', userID);
+        formData.append('themeName', themeName);
+        formData.append('backgroundMedia', backgroundMedia);
         setBackgroundMediaLoading(true);
-        formData.append('background_color', background_color);
-        formData.append('background_rotate', background_rotate);
-        formData.append('font_color', font_color);
-        formData.append('font_family', font_family);
-        formData.append('font_size', font_size);
-        formData.append('accent_1', accent_1);
-        formData.append('accent_2', accent_2);
-        formData.append('accent_3', accent_3);
+        formData.append('backgroundColor', backgroundColor);
+        formData.append('backgroundRotate', backgroundRotate);
+        formData.append('fontColor', fontColor);
+        formData.append('fontFamily', fontFamily);
+        formData.append('fontSize', fontSize);
+        formData.append('accent1', accent1);
+        formData.append('accent2', accent2);
+        formData.append('accent3', accent3);
 
         await dispatch(createUserSetting(formData));
         setBackgroundMediaLoading(false);
@@ -89,7 +89,7 @@ const CreateThemeForm = ({ style }) => {
                     style={{
                         color: style.font_color,
                         fontFamily: style.font_family,
-                        fontSize: style.font_size
+                        fontSize: style.font_size,
                     }}
                 >
                     Submit
@@ -101,7 +101,7 @@ const CreateThemeForm = ({ style }) => {
                     style={{
                         color: style.font_color,
                         fontFamily: style.font_family,
-                        fontSize: style.font_size
+                        fontSize: style.font_size,
                     }}
                 >
                     Refresh
@@ -116,7 +116,7 @@ const CreateThemeForm = ({ style }) => {
                             maxLength='50'
                             placeholder='Theme Name (Max 50)'
                             aria-placeholder='Theme Name (Max 50)'
-                            value={theme_name}
+                            value={themeName}
                             onChange={(e) => setThemeName(e.target.value)}
                             style={{ fontFamily: style.font_family }}
                         />
@@ -126,9 +126,10 @@ const CreateThemeForm = ({ style }) => {
                         <select
                             id='font-size-setter'
                             name='Font Size'
-                            value={font_size?.replace('px', '')}
+                            value={fontSize?.replace('px', '')}
                             onChange={(e) => {
-                                const targOption = Array.from(e.target.children).find((option) => option.selected);
+                                const targKids = e.target.children;
+                                const targOption = Array.from(targKids).find((opt) => opt.selected);
                                 setFontSize(`${targOption.innerText}px`);
                             }}
                         >
@@ -140,9 +141,10 @@ const CreateThemeForm = ({ style }) => {
                         <select
                             id='font-family-setter'
                             name='Font Family'
-                            value={font_family?.replace(/,\s/, ' | ')}
+                            value={fontFamily?.replace(/,\s/, ' | ')}
                             onChange={(e) => {
-                                const targOption = Array.from(e.target.children).find((option) => option.selected);
+                                const targKids = e.target.children;
+                                const targOption = Array.from(targKids).find((opt) => opt.selected);
                                 setFontFamily(targOption.innerText.replace(/\s\|\s/, ', '));
                             }}
                         >
@@ -157,7 +159,7 @@ const CreateThemeForm = ({ style }) => {
                             id='sf2-font-color'
                             name='Font Color'
                             type='color'
-                            value={font_color}
+                            value={fontColor}
                             onChange={(e) => setFontColor(e.target.value)}
                         />
                     </div>
@@ -167,7 +169,7 @@ const CreateThemeForm = ({ style }) => {
                             id='sf2-accent-1-color'
                             name='Accent 1'
                             type='color'
-                            value={accent_1}
+                            value={accent1}
                             onChange={(e) => setAccent1(e.target.value)}
                         />
                     </div>
@@ -177,7 +179,7 @@ const CreateThemeForm = ({ style }) => {
                             id='sf2-accent-2-color'
                             name='Accent 2'
                             type='color'
-                            value={accent_2}
+                            value={accent2}
                             onChange={(e) => setAccent2(e.target.value)}
                         />
                     </div>
@@ -187,7 +189,7 @@ const CreateThemeForm = ({ style }) => {
                             id='sf2-accent-3-color'
                             name='Accent 3'
                             type='color'
-                            value={accent_3}
+                            value={accent3}
                             onChange={(e) => setAccent3(e.target.value)}
                         />
                     </div>
@@ -197,7 +199,7 @@ const CreateThemeForm = ({ style }) => {
                             id='sf2-bg-color'
                             name='Background Color'
                             type='color'
-                            value={background_color}
+                            value={backgroundColor}
                             onChange={(e) => { setBackgroundColor(e.target.value); }}
                         />
                     </div>
@@ -205,7 +207,7 @@ const CreateThemeForm = ({ style }) => {
                 <div className='sf2-row-c'>
                     <div className='background-media-setter-div'>
                         <label htmlFor='sf2-background-media'>
-                            {background_media === '' || !fileInput.current?.value ? 'Background Media' : 'Added'}
+                            {backgroundMedia === '' || !fileInput.current?.value ? 'Background Media' : 'Added'}
                         </label>
                         <input
                             id='sf2-background-media'
@@ -215,7 +217,7 @@ const CreateThemeForm = ({ style }) => {
                             accept='image/png, image/jpg, image/jpeg, image/gif'
                             onChange={setBackgroundMediaHandler}
                         />
-                        {background_media_loading && (<span>Loading...</span>)}
+                        {backgroundMediaLoading && (<span>Loading...</span>)}
                     </div>
                     <div className='background-rotate-setter-div'>
                         <label htmlFor='sf2-bg-rotate'>Background Rotate</label>
@@ -223,7 +225,7 @@ const CreateThemeForm = ({ style }) => {
                             id='sf2-bg-rotate'
                             name='Background Rotate'
                             type='checkbox'
-                            checked={background_rotate}
+                            checked={backgroundRotate}
                             onChange={(e) => setBackgroundRotate(e.target.checked)}
                         />
                     </div>
@@ -232,17 +234,17 @@ const CreateThemeForm = ({ style }) => {
             <div
                 className='theme-tester-container'
                 style={{
-                    borderColor: accent_3,
-                    backgroundColor: background_color,
-                    fontFamily: font_family,
-                    color: font_color
+                    borderColor: accent3,
+                    backgroundColor,
+                    fontFamily,
+                    color: fontColor,
                 }}
             >
-                <h2 className='theme-tester-header' style={{ color: accent_2, borderColor: accent_1 }}>{theme_name || 'Demo Theme'}</h2>
+                <h2 className='theme-tester-header' style={{ color: accent2, borderColor: accent1 }}>{themeName || 'Demo Theme'}</h2>
                 <div>
                     <h3>Test your theme.</h3>
                     <p>See your theme specs here.</p>
-                    <span style={{ fontSize: font_size }}>Font Size</span>
+                    <span style={{ fontSize }}>Font Size</span>
                 </div>
             </div>
         </>

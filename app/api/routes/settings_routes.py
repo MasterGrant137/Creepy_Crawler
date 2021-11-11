@@ -25,15 +25,15 @@ def add_theme():
 
     if form.validate_on_submit():
         new_theme = Theme(
-            user_id=request.form['user_id'],
-            theme_name=request.form['theme_name'],
-            background_color=request.form['background_color'],
-            font_color=request.form['font_color'],
-            font_family=request.form['font_family'],
-            font_size=request.form['font_size'],
-            accent_1=request.form['accent_1'],
-            accent_2=request.form['accent_2'],
-            accent_3=request.form['accent_3']
+            user_id=request.form['userID'],
+            theme_name=request.form['themeName'],
+            background_color=request.form['backgroundColor'],
+            font_color=request.form['fontColor'],
+            font_family=request.form['fontFamily'],
+            font_size=request.form['fontSize'],
+            accent_1=request.form['accent1'],
+            accent_2=request.form['accent2'],
+            accent_3=request.form['accent3']
         )
 
         if request.form['background_rotate'] == 'false': new_theme.background_rotate=False
@@ -70,15 +70,15 @@ def update_theme(settingID):
     if form.validate_on_submit():
         theme = Theme.query.filter(Theme.id == settingID).first()
         if ((theme.user_id == current_user.id) and (theme.id == int(request.form['setting_id']))):
-            theme.user_id=request.form['user_id']
-            theme.theme_name=request.form['theme_name']
-            theme.background_color=request.form['background_color']
-            theme.font_color=request.form['font_color']
-            theme.font_family=request.form['font_family']
-            theme.font_size=request.form['font_size']
-            theme.accent_1=request.form['accent_1']
-            theme.accent_2=request.form['accent_2']
-            theme.accent_3=request.form['accent_3']
+            theme.user_id=request.form['userID']
+            theme.theme_name=request.form['themeName']
+            theme.background_color=request.form['backgroundColor']
+            theme.font_color=request.form['fontColor']
+            theme.font_family=request.form['fontFamily']
+            theme.font_size=request.form['fontSize']
+            theme.accent_1=request.form['accent1']
+            theme.accent_2=request.form['accent2']
+            theme.accent_3=request.form['accent3']
         else: return { 'errors': ['You are not permitted to edit this theme!'] }, 401
 
         if request.form['background_rotate'] == 'false': theme.background_rotate=False

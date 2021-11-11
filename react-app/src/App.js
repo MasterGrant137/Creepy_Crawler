@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
-    faHome, faHistory, faUserCog, faSignOutAlt, 
+    faHome, faHistory, faUserCog, faSignOutAlt,
 } from '@fortawesome/free-solid-svg-icons';
 import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
 import HistoryPage from './components/History_Page/History_Page';
@@ -50,7 +50,7 @@ function App() {
     else if (!siteTheme.background_rotate) body.classList.remove('background-rotate');
 
     useEffect(() => {
-        (async() => {
+        (async () => {
             await dispatch(authenticateLogin());
             await dispatch(authenticateSignup());
             setLoaded(true);
