@@ -32,11 +32,10 @@ const HistoryPage = ({ style }) => {
         dispatch(readUserSettings());
     }, [dispatch]);
 
-    const updateHandler = (e, entryID) => {
+    const updateHandler = async (e, entryID) => {
         e.preventDefault();
-        dispatch(updateHistoryEntry({ entryID, updatedAt }));
+        await dispatch(updateHistoryEntry({ entryID, updatedAt }));
         history.push('/');
-        window.location.reload();
     };
 
     const editProfileHandler = async (e, eType) => {

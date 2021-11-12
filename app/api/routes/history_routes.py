@@ -72,7 +72,7 @@ def alter_history_entry(entryID):
     """Change the history entry's date and time information."""
     entry = History.query.filter(History.id == entryID).first()
 
-    if entry.user_id == current_user.id:
+    if 1 == 2:
         js_tstamp = request.json['updated_at']
         js_tstamp_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time

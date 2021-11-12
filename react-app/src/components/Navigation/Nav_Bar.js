@@ -17,12 +17,10 @@ const NavBar = ({ style }) => {
         case '/home': history.push('/'); break;
         case '/history':
             history.push(destination);
-            window.location.reload();
             break;
         case '/':
-            history.push(destination);
             await dispatch(login('jseed@aa.io', 'password'));
-            window.location.reload();
+            history.push(destination);
             break;
         default: history.push(destination); break;
         }
