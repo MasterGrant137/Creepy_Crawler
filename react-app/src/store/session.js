@@ -38,11 +38,9 @@ export const authenticateLogin = () => async (dispatch) => {
     });
     if (response.ok) {
         const data = await response.json();
-        if (data.errors) {
-            return;
-        }
         dispatch(setUser(data));
     }
+    return null;
 };
 
 export const authenticateSignup = () => async (dispatch) => {
@@ -53,11 +51,9 @@ export const authenticateSignup = () => async (dispatch) => {
     });
     if (response.ok) {
         const data = await response.json();
-        if (data.errors) {
-            return;
-        }
         dispatch(setUser(data));
     }
+    return null;
 };
 
 export const login = (email, password) => async (dispatch) => {
@@ -71,10 +67,12 @@ export const login = (email, password) => async (dispatch) => {
             password,
         }),
     });
-
     if (response.ok) {
         const data = await response.json();
         dispatch(setUser(data));
+        return null;
+    } if (response.status === 500) {
+        window.location.reload();
         return null;
     }
     const data = await response.json();
@@ -93,10 +91,12 @@ export const signUp = (username, email, password) => async (dispatch) => {
             password,
         }),
     });
-
     if (response.ok) {
         const data = await response.json();
         dispatch(setUser(data));
+        return null;
+    } if (response.status === 500) {
+        window.location.reload();
         return null;
     }
     const data = await response.json();
@@ -123,6 +123,9 @@ export const editProfileMedia = (userID, formData) => async (dispatch) => {
         const media = await response.json();
         dispatch(editUser(media));
         return media;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
     const data = await response.json();
     alert(data.errors);
@@ -143,6 +146,9 @@ export const editProfile = (setting) => async (dispatch) => {
         const data = await response.json();
         dispatch(editUser(data));
         return data;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
     const data = await response.json();
     return data.errors;
@@ -158,6 +164,9 @@ export const resetProfileTheme = () => async (dispatch) => {
     if (response.ok) {
         dispatch(resetTheme());
         return null;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
     const data = response.json();
     return data.errors;
@@ -171,7 +180,11 @@ export const logout = () => async (dispatch) => {
     });
     if (response.ok) {
         dispatch(removeUser());
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
+    return null;
 };
 
 export default function reducer(state = initialState, action) {

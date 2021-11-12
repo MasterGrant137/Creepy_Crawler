@@ -38,6 +38,9 @@ export const createHistoryEntry = (entry) => async (dispatch) => {
         const newEntry = await response.json();
         await dispatch(createHistory(newEntry));
         return newEntry;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
     const data = await response.json();
     alert(data.errors);
@@ -68,6 +71,9 @@ export const updateHistoryEntry = (entry) => async (dispatch) => {
         const data = await response.json();
         await dispatch(updateHistory(data));
         return data;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
     const data = await response.json();
     alert(data.errors);
@@ -82,6 +88,9 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
         const message = await response.json();
         await dispatch(deleteHistory(entryID));
         return message;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
     const data = await response.json();
     alert(data.errors);

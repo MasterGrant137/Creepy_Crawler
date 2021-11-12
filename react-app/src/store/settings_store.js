@@ -35,6 +35,9 @@ export const createUserSetting = (formData) => async (dispatch) => {
         const setting = await response.json();
         await dispatch(createSetting(setting));
         return setting;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
     const data = await response.json();
     alert(data.errors);
@@ -47,6 +50,9 @@ export const readUserSettings = () => async (dispatch) => {
         const settings = await response.json();
         await dispatch(readSettings(settings));
         return settings;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
     return null;
 };
@@ -60,6 +66,9 @@ export const updateUserSetting = (settingID, formData) => async (dispatch) => {
         const setting = await response.json();
         dispatch(updateSetting(setting));
         return setting;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
     const data = await response.json();
     alert(data.errors);
@@ -74,6 +83,9 @@ export const deleteUserSetting = (settingID) => async (dispatch) => {
         const message = await response.json();
         await dispatch(deleteSetting(settingID));
         return message;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
     const data = await response.json();
     alert(data.errors);
