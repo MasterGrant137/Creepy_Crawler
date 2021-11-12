@@ -124,8 +124,9 @@ export const editProfileMedia = (userID, formData) => async (dispatch) => {
         dispatch(editUser(media));
         return media;
     }
-    const data = response.json();
-    return data.errors;
+    const data = await response.json();
+    alert(data.errors);
+    return null;
 };
 
 export const editProfile = (setting) => async (dispatch) => {

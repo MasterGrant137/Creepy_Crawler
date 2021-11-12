@@ -39,8 +39,8 @@ export const createHistoryEntry = (entry) => async (dispatch) => {
         await dispatch(createHistory(newEntry));
         return newEntry;
     }
-    const res = await response.json();
-    alert(res.errors[0]);
+    const data = await response.json();
+    alert(data.errors);
     return null;
 };
 
@@ -61,16 +61,16 @@ export const updateHistoryEntry = (entry) => async (dispatch) => {
         },
         method: 'PATCH',
         body: JSON.stringify({
-            updated_at: entry.updated_at,
+            updatedAt: entry.updatedAt,
         }),
     });
     if (response.ok) {
-        const res = await response.json();
-        dispatch(updateHistory(res));
-        return res;
+        const data = await response.json();
+        await dispatch(updateHistory(data));
+        return data;
     }
-    const res = await response.json();
-    alert(res.errors[0]);
+    const data = await response.json();
+    alert(data.errors);
     return null;
 };
 
@@ -83,7 +83,9 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
         await dispatch(deleteHistory(entryID));
         return message;
     }
-    return response;
+    const data = await response.json();
+    alert(data.errors);
+    return null;
 };
 
 //$ reducers

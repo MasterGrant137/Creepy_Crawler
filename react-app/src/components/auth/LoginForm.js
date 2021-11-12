@@ -33,9 +33,7 @@ const LoginForm = ({ style }) => {
     const onLogin = async (e) => {
         e.preventDefault();
         const data = await dispatch(login(email, password));
-        if (data) {
-            setErrors(data);
-        }
+        if (data) setErrors(data);
     };
 
     const updateEmail = (e) => {

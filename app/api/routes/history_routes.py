@@ -31,7 +31,7 @@ def add_history_entry():
     form['csrf_token'].data = request.cookies['csrf_token']
 
     if form.validate_on_submit():
-        js_tstamp = request.json['updated_at']
+        js_tstamp = request.json['updatedAt']
         js_tstamp_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
@@ -45,7 +45,7 @@ def add_history_entry():
         js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
 
         history_entry = History(
-            user_id=request.json['user_id'],
+            user_id=request.json['userID'],
             search=form.data['search'],
             tz=js_tz_parsed,
             tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
@@ -72,8 +72,8 @@ def alter_history_entry(entryID):
     """Change the history entry's date and time information."""
     entry = History.query.filter(History.id == entryID).first()
 
-    if 1 == 2:
-        js_tstamp = request.json['updated_at']
+    if entry.user_id == current_user.id:
+        js_tstamp = request.json['updatedAt']
         js_tstamp_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
         ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
@@ -103,7 +103,6 @@ def delete_history_entry(entryID):
     entry = History.query.filter(History.id == entryID).first()
 
     if entry.user_id == current_user.id:
-        print('hit', 1 == 2)
         db.session.delete(entry)
         db.session.commit()
         return { 'message': 'successful' }

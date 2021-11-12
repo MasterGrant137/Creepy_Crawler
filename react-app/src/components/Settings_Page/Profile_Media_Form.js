@@ -17,19 +17,15 @@ const ProfileMediaForm = ({ style }) => {
     const profileMediaHandler = async (e) => {
         e.preventDefault();
 
-        const targForm = e.target;
-        const targFormKids = Array.from(targForm.children);
-        const isSubmit = targFormKids.find((targKid) => targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit');
-        const hasMedia = targFormKids.find((targKid) => targKid.dataset.inputName === 'Profile Media');
+        const formData = new FormData();
+        formData.append('profileMedia', profileMedia);
 
-        if (isSubmit && hasMedia?.value) {
-            const formData = new FormData();
-            formData.append('media', profileMedia);
-            setProfileMediaLoading(true);
-
-            await dispatch(editProfileMedia(user.id, formData));
-            setProfileMediaLoading(false);
-        }
+        setProfileMediaLoading(true);
+        console.log(e.target);
+        console.log(e.target.value);
+        await dispatch(editProfileMedia(user.id, formData));
+        e.target.value = '';
+        setProfileMediaLoading(false);
     };
 
     return (
@@ -46,8 +42,9 @@ const ProfileMediaForm = ({ style }) => {
                 </label>
                 <input
                     id='user-profile-media-uploader'
-                    name='Background Media'
+                    name='Profile Media'
                     type='file'
+                    // accept='image/png, image/jpg, image/jpeg, image/gif'
                     onChange={setProfileMediaHandler}
                 />
                 {profileMediaLoading && (<span>Loading...</span>)}

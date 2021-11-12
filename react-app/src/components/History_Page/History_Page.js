@@ -34,8 +34,8 @@ const HistoryPage = ({ style }) => {
 
     const updateHandler = async (e, entryID) => {
         e.preventDefault();
-        await dispatch(updateHistoryEntry({ entryID, updatedAt }));
-        history.push('/');
+        const data = await dispatch(updateHistoryEntry({ entryID, updatedAt }));
+        if (data) history.push('/');
     };
 
     const editProfileHandler = async (e, eType) => {

@@ -40,7 +40,7 @@ def add_theme():
         else: new_theme.background_rotate=True
 
         if 'backgroundMedia' in request.files:
-            background_media = request.files['background_media']
+            background_media = request.files['backgroundMedia']
             if allowed_file(background_media.filename):
                 background_media.filename = get_unique_filename(background_media.filename)
                 upload = upload_file_to_s3(background_media)
@@ -84,8 +84,8 @@ def update_theme(settingID):
         if request.form['backgroundRotate'] == 'false': theme.background_rotate=False
         else: theme.background_rotate=True
 
-        if 'background_media' in request.files:
-            background_media = request.files['background_media']
+        if 'backgroundMedia' in request.files:
+            background_media = request.files['backgroundMedia']
             if allowed_file(background_media.filename):
                 background_media.filename = get_unique_filename(background_media.filename)
                 upload = upload_file_to_s3(background_media)

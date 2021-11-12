@@ -36,8 +36,8 @@ export const createUserSetting = (formData) => async (dispatch) => {
         await dispatch(createSetting(setting));
         return setting;
     }
-    const res = await response.json();
-    alert(res.errors);
+    const data = await response.json();
+    alert(data.errors);
     return null;
 };
 
@@ -61,8 +61,8 @@ export const updateUserSetting = (settingID, formData) => async (dispatch) => {
         dispatch(updateSetting(setting));
         return setting;
     }
-    const res = await response.json();
-    alert(res.errors);
+    const data = await response.json();
+    alert(data.errors);
     return null;
 };
 
@@ -75,8 +75,8 @@ export const deleteUserSetting = (settingID) => async (dispatch) => {
         await dispatch(deleteSetting(settingID));
         return message;
     }
-    const res = await response.json();
-    alert(res.errors);
+    const data = await response.json();
+    alert(data.errors);
     return null;
 };
 

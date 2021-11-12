@@ -5,6 +5,11 @@
     overflow-y: auto;
 }
 
+.setter-form-1 > input[type='file']::file-selector-button:hover,
+.setter-form-2 input[type='file']::file-selector-button:hover {
+    cursor: pointer;
+}
+
 .settings-page-header,
 .settings-actions-header,
 .theme-tester-header { 
