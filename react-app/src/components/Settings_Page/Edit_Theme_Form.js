@@ -161,7 +161,6 @@ const EditThemeForm = ({ style }) => {
                 maxLength='50'
                 placeholder='Theme Name (Max 50)'
                 aria-placeholder='Theme Name (Max 50)'
-                readOnly={true}
                 defaultValue={setting.theme_name}
                 style={{ fontFamily: setting.font_family }}
             />
@@ -169,7 +168,7 @@ const EditThemeForm = ({ style }) => {
             <select
                 id={`font-size-editor-${idx}`}
                 name='Font Size'
-                disabled={true}
+                disabled
                 defaultValue={setting.font_size?.replace('px', '')}
             >
                 {fontSizes}
@@ -178,39 +177,39 @@ const EditThemeForm = ({ style }) => {
             <select
                 id={`font-family-editor-${idx}`}
                 name='Font Family'
-                disabled={true}
+                disabled
                 defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
             >
                 {fontFamilies}
             </select>
 
             <label htmlFor={`font-color-editor-${idx}`}>Font Color</label>
-            <input id={`font-color-editor-${idx}`} name='Font Color' type='color' disabled={true} defaultValue={setting.font_color} />
+            <input id={`font-color-editor-${idx}`} name='Font Color' type='color' disabled defaultValue={setting.font_color} />
 
             <label htmlFor={`bg-color-editor-${idx}`}>Background Color</label>
-            <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled={true} defaultValue={setting.background_color} />
+            <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled defaultValue={setting.background_color} />
 
             <label htmlFor={`background-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
             <input
                 id={`background-media-editor-${idx}`}
                 name='Background Media' type='file'
                 accept='image/png, image/jpg, image/jpeg, image/gif'
-                disabled={true}
+                disabled
                 onChange={setBackgroundMediaHandler}
             />
             {backgroundMediaLoading && (<span>Loading...</span>)}
 
             <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
-            <input id={`bg-rotate-editor-${idx}`} name='Background Rotate' type='checkbox' disabled={true} defaultChecked={setting.background_rotate} />
+            <input id={`bg-rotate-editor-${idx}`} name='Background Rotate' type='checkbox' disabled defaultChecked={setting.background_rotate} />
 
             <label htmlFor={`accent-1-color-editor-${idx}`} style={{ color: setting.accent_1 }}>Accent 1</label>
-            <input id={`accent-1-color-editor-${idx}`} name='Accent 1' type='color' disabled={true} defaultValue={setting.accent_1} />
+            <input id={`accent-1-color-editor-${idx}`} name='Accent 1' type='color' disabled defaultValue={setting.accent_1} />
 
             <label htmlFor={`accent-2-color-editor-${idx}`} style={{ color: setting.accent_2 }}>Accent 2</label>
-            <input id={`accent-2-color-editor-${idx}`} name='Accent 2' type='color' disabled={true} defaultValue={setting.accent_2} />
+            <input id={`accent-2-color-editor-${idx}`} name='Accent 2' type='color' disabled defaultValue={setting.accent_2} />
 
             <label htmlFor={`accent-3-color-editor-${idx}`} style={{ color: setting.accent_3 }}>Accent 3</label>
-            <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' disabled={true} defaultValue={setting.accent_3} />
+            <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' disabled defaultValue={setting.accent_3} />
 
             <button
                 data-setting-id={`${setting.id}`}
