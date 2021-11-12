@@ -21,10 +21,8 @@ const ProfileMediaForm = ({ style }) => {
         formData.append('profileMedia', profileMedia);
 
         setProfileMediaLoading(true);
-        console.log(e.target);
-        console.log(e.target.value);
         await dispatch(editProfileMedia(user.id, formData));
-        e.target.value = '';
+        document.getElementById('user-profile-media').value = '';
         setProfileMediaLoading(false);
     };
 
@@ -35,16 +33,17 @@ const ProfileMediaForm = ({ style }) => {
                 onSubmit={profileMediaHandler}
             >
                 <label
-                    htmlFor='user-profile-media-uploader'
+                    htmlFor='user-profile-media'
                     style={{ borderColor: style.accent_1 }}
                 >
                     {!profileMedia ? 'Upload Profile Media' : 'Added'}
                 </label>
                 <input
-                    id='user-profile-media-uploader'
+                    id='user-profile-media'
                     name='Profile Media'
                     type='file'
-                    // accept='image/png, image/jpg, image/jpeg, image/gif'
+                    accept='image/png, image/jpg, image/jpeg, image/gif'
+                    required
                     onChange={setProfileMediaHandler}
                 />
                 {profileMediaLoading && (<span>Loading...</span>)}

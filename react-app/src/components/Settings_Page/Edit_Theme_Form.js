@@ -104,8 +104,9 @@ const EditThemeForm = ({ style }) => {
                         case 'Theme Name': formData.append('themeName', targChild.value); break;
                         case 'Background Color': formData.append('backgroundColor', targChild.value); break;
                         case 'Background Media':
-                            formData.append('background_media', backgroundMedia);
+                            formData.append('backgroundMedia', backgroundMedia);
                             setBackgroundMediaLoading(true);
+                            targChild.value = '';
                             break;
                         case 'Background Rotate': formData.append('backgroundRotate', targChild.checked); break;
                         case 'Font Color': formData.append('fontColor', targChild.value); break;
@@ -192,7 +193,8 @@ const EditThemeForm = ({ style }) => {
             <label htmlFor={`background-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
             <input
                 id={`background-media-editor-${idx}`}
-                name='Background Media' type='file'
+                name='Background Media'
+                type='file'
                 accept='image/png, image/jpg, image/jpeg, image/gif'
                 disabled
                 onChange={setBackgroundMediaHandler}
