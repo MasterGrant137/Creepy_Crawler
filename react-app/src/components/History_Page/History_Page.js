@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { editProfile } from '../../store/session';
+// import { editProfile } from '../../store/session';
 import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/history_store';
 import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
@@ -22,7 +22,7 @@ const HistoryPage = ({ style }) => {
 
     const [updatedAt, setUpdatedAt] = useState(new Date().toString());
     const [toggledClock, toggleClock] = useState(true);
-    const [clockTypeBtn, setClockTypeBtn] = useState('12-Hour Clock');
+    // const [clockTypeBtn, setClockTypeBtn] = useState('12-Hour Clock');
 
     let prevDayOfWk = null;
     // let prevDate = null;
@@ -38,16 +38,16 @@ const HistoryPage = ({ style }) => {
         if (data) history.push('/');
     };
 
-    const editProfileHandler = async (e, eType) => {
-        if (eType === 'clock_24') {
-            await dispatch(editProfile({
-                column: eType,
-                clock_24: toggledClock,
-            }));
-            toggleClock((prevClock) => !prevClock);
-            setClockTypeBtn(toggledClock ? '12-Hour Clock' : '24-Hour Clock');
-        }
-    };
+    // const editProfileHandler = async (e, eType) => {
+    //     if (eType === 'clock_24') {
+    //         await dispatch(editProfile({
+    //             column: eType,
+    //             clock_24: toggledClock,
+    //         }));
+    //         toggleClock((prevClock) => !prevClock);
+    //         setClockTypeBtn(toggledClock ? '12-Hour Clock' : '24-Hour Clock');
+    //     }
+    // };
 
     const deleteHandler = (e, entryID) => {
         e.preventDefault();
@@ -119,13 +119,13 @@ const HistoryPage = ({ style }) => {
     return (
         <div className='history-page-container'>
             <button
-                onClick={(e) => editProfileHandler(e, 'clock_24')}
+                // onClick={(e) => editProfileHandler(e, 'clock_24')}
                 style={{
                     backgroundColor: style.background_color,
                     color: style.font_color,
                 }}
             >
-                {clockTypeBtn}
+                {/* {clockTypeBtn} */}
             </button>
             {entries}
         </div>
