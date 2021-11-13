@@ -49,10 +49,10 @@ const HistoryPage = ({ style }) => {
         }
     };
 
-    const deleteHandler = async (e, entryID) => {
+    const deleteHandler = (e, entryID) => {
         e.preventDefault();
-        const data = await dispatch(deleteHistoryEntry(entryID));
-        console.log(data);
+        dispatch(deleteHistoryEntry(entryID));
+        // console.log(data);
     };
 
     const entriesObj = useSelector((state) => state.history);
