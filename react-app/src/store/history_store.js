@@ -20,9 +20,9 @@ const updateHistory = (entry) => ({
     payload: entry,
 });
 
-const deleteHistory = (entryID, entries) => ({
+const deleteHistory = (entries) => ({
     type: DELETE_HISTORY,
-    payload: { entryID, entries },
+    payload: entries,
 });
 
 //$ thunks
@@ -85,11 +85,8 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
         method: 'DELETE',
     });
     if (response.ok) {
-        // const message = await response.json();
-        // await dispatch(deleteHistory(entryID));
-        // return message;
         const entries = await response.json();
-        await dispatch(deleteHistory(entryID, entries));
+        await dispatch(deleteHistory(entries));
         return entries;
     } if (response.status === 500) {
         window.location.reload();
@@ -126,12 +123,9 @@ export const historyReducer = (state = initialState, action) => {
         return newState;
     }
     case DELETE_HISTORY: {
-        const { entryID } = action.payload.entries;
-        const entries = action.payload.entries.history;
-
-        delete newState[historyCache[entryID]];
+        const entries = action.payload.history;
         entries.forEach((entry, idx) => { historyCache[entry.id] = idx; });
-        return { ...entries, ...newState };
+        return { ...entries };
     }
     default:
         return state;

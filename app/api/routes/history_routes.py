@@ -105,5 +105,4 @@ def delete_history_entry(entryID):
         db.session.commit()
         entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
         return { 'history': [ entry.to_dict() for entry in entries ] }
-        # return { 'message': 'successful' }
     return { 'errors': ['You are not permitted to delete this entry!'] }, 401
