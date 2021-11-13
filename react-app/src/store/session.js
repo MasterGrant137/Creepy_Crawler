@@ -105,7 +105,6 @@ export const signUp = (username, email, password) => async (dispatch) => {
 
 export const readUser = (userID) => async (dispatch) => {
     const response = await fetch(`/api/users/${userID}`);
-
     if (response.ok) {
         const user = await response.json();
         await dispatch(getUser(user));
@@ -162,8 +161,9 @@ export const resetProfileTheme = () => async (dispatch) => {
         method: 'PATCH',
     });
     if (response.ok) {
+        const data = await response.json();
         dispatch(resetTheme());
-        return null;
+        return data;
     } if (response.status === 500) {
         window.location.reload();
         return null;
@@ -179,7 +179,9 @@ export const logout = () => async (dispatch) => {
         },
     });
     if (response.ok) {
+        const data = await response.json();
         dispatch(removeUser());
+        return data;
     } if (response.status === 500) {
         window.location.reload();
         return null;

@@ -62,9 +62,7 @@ def add_history_entry():
 def get_history_entries():
     """Get all of the history entries."""
     entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-    return {
-        'history': [ entry.to_dict() for entry in entries ]
-    }
+    return { 'history': [ entry.to_dict() for entry in entries ] }
 
 @history_routes.route('/<int:entryID>', methods=['PATCH'])
 @login_required
@@ -105,5 +103,7 @@ def delete_history_entry(entryID):
     if entry.user_id == current_user.id:
         db.session.delete(entry)
         db.session.commit()
-        return { 'message': 'successful' }
+        entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
+        return { 'history': [ entry.to_dict() for entry in entries ] }
+        # return { 'message': 'successful' }
     return { 'errors': ['You are not permitted to delete this entry!'] }, 401

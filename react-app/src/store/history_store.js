@@ -85,9 +85,12 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
         method: 'DELETE',
     });
     if (response.ok) {
-        const message = await response.json();
+        // const message = await response.json();
+        // await dispatch(deleteHistory(entryID));
+        // return message;
+        const data = await response.json();
         await dispatch(deleteHistory(entryID));
-        return message;
+        return data;
     } if (response.status === 500) {
         window.location.reload();
         return null;
@@ -108,8 +111,8 @@ export const historyReducer = (state = initialState, action) => {
     case CREATE_HISTORY: {
         const entry = action.payload.history;
         newState[entry.id] = entry;
-    }
         return newState;
+    }
     case READ_HISTORY: {
         const entries = action.payload.history;
         entries.forEach((entry, idx) => { historyCache[entry.id] = idx; });
