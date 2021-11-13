@@ -25,7 +25,7 @@ const HistoryPage = ({ style }) => {
     const [clockTypeBtn, setClockTypeBtn] = useState('12-Hour Clock');
 
     let prevDayOfWk = null;
-    // let prevDate = null;
+    let prevDate = null;
 
     useEffect(() => {
         dispatch(readHistoryEntries());
@@ -67,9 +67,14 @@ const HistoryPage = ({ style }) => {
                 <h2 id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>
                     {(() => {
                         const dayOfWk = entry.updated_at.replace(dateRegex, '$1');
-                        // const date = en
-                        if (!prevDayOfWk || dayOfWk !== prevDayOfWk) {
+                        const date = entry.updated_at.replace(dateRegex, '$2');
+                        if ((!prevDayOfWk || prevDayOfWk !== dayOfWk) && (prevDate !== date)) {
                             prevDayOfWk = dayOfWk;
+                            prevDate = date;
+                            return prevDayOfWk;
+                        } if ((!prevDayOfWk || prevDayOfWk === dayOfWk) && (prevDate !== date)) {
+                            prevDayOfWk = dayOfWk;
+                            prevDate = date;
                             return prevDayOfWk;
                         }
                         return null;
