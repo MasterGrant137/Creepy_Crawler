@@ -46,6 +46,7 @@ class User(db.Model, UserMixin):
         """Make selected columns into dictionary upon invocation by routes."""
         return {
             'id': self.id,
+            'clock_24': self.clock_24,
             'username': self.username,
             'email': self.email,
             'profile_media': self.profile_media,
