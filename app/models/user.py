@@ -12,7 +12,7 @@ class User(db.Model, UserMixin):
     __tablename__ = 'users'
 
     id = db.Column(db.Integer, primary_key=True)
-    # clock_24 = db.Column(db.Boolean, nullable=False, default=True)
+    clock_24 = db.Column(db.Boolean, nullable=False, default=True)
     active_theme = db.Column(db.SmallInteger, nullable=True)
     email = db.Column(db.String(255), nullable=False, unique=True)
     hashed_password = db.Column(db.String(255), nullable=False)
