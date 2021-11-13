@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { editProfile } from '../../store/session';
+import { editProfile } from '../../store/session';
 import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/history_store';
 import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
@@ -21,11 +21,11 @@ const HistoryPage = ({ style }) => {
     ].join(''), 'g');
 
     const [updatedAt, setUpdatedAt] = useState(new Date().toString());
-    const [toggledClock, toggleClock] = useState(true);
-    // const [clockTypeBtn, setClockTypeBtn] = useState('12-Hour Clock');
+    const [toggledClock, toggleClock] = useState(false);
+    const [clockTypeBtn, setClockTypeBtn] = useState('12-Hour Clock');
 
     let prevDayOfWk = null;
-    // let prevDate = null;
+    let prevDate = null;
 
     useEffect(() => {
         dispatch(readHistoryEntries());
@@ -38,16 +38,16 @@ const HistoryPage = ({ style }) => {
         if (data) history.push('/');
     };
 
-    // const editProfileHandler = async (e, eType) => {
-    //     if (eType === 'clock_24') {
-    //         await dispatch(editProfile({
-    //             column: eType,
-    //             clock_24: toggledClock,
-    //         }));
-    //         toggleClock((prevClock) => !prevClock);
-    //         setClockTypeBtn(toggledClock ? '12-Hour Clock' : '24-Hour Clock');
-    //     }
-    // };
+    const editProfileHandler = async (e, eType) => {
+        if (eType === 'clock_24') {
+            await dispatch(editProfile({
+                column: eType,
+                clock_24: toggledClock,
+            }));
+            toggleClock((prevClock) => !prevClock);
+            setClockTypeBtn(!toggledClock ? '24-Hour Clock' : '12-Hour Clock');
+        }
+    };
 
     const deleteHandler = (e, entryID) => {
         e.preventDefault();
@@ -67,9 +67,14 @@ const HistoryPage = ({ style }) => {
                 <h2 id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>
                     {(() => {
                         const dayOfWk = entry.updated_at.replace(dateRegex, '$1');
-                        // const date = en
-                        if (!prevDayOfWk || dayOfWk !== prevDayOfWk) {
+                        const date = entry.updated_at.replace(dateRegex, '$2');
+                        if ((!prevDayOfWk || prevDayOfWk !== dayOfWk) && (prevDate !== date)) {
                             prevDayOfWk = dayOfWk;
+                            prevDate = date;
+                            return prevDayOfWk;
+                        } if ((!prevDayOfWk || prevDayOfWk === dayOfWk) && (prevDate !== date)) {
+                            prevDayOfWk = dayOfWk;
+                            prevDate = date;
                             return prevDayOfWk;
                         }
                         return null;
@@ -92,7 +97,14 @@ const HistoryPage = ({ style }) => {
                 >
                     {(() => {
                         const time = entry.updated_at.replace(dateRegex, '$3');
-                        return time;
+                        if (!toggledClock) return time;
+
+                        const hour = +`${time[0]}${time[1]}`;
+                        const minutes = `${time[3]}${time[4]}`;
+                        const seconds = `${time[6]}${time[7]}`;
+                        if (hour > 12) return `${hour - 12}:${minutes}:${seconds} PM`;
+                        if (hour === 0o00) return `${hour + 12}:${minutes}:${seconds} AM`;
+                        return `${hour}:${minutes}:${seconds} AM`;
                     })()} {entry.tz_abbrev}
                 </span>
                 <FontAwesomeIcon
@@ -119,13 +131,13 @@ const HistoryPage = ({ style }) => {
     return (
         <div className='history-page-container'>
             <button
-                // onClick={(e) => editProfileHandler(e, 'clock_24')}
+                onClick={(e) => editProfileHandler(e, 'clock_24')}
                 style={{
                     backgroundColor: style.background_color,
                     color: style.font_color,
                 }}
             >
-                {/* {clockTypeBtn} */}
+                {clockTypeBtn}
             </button>
             {entries}
         </div>

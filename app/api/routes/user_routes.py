@@ -56,11 +56,11 @@ def edit_user_profile():
         db.session.add(user)
         db.session.commit()
         return user.to_dict()
-    # elif req_column == 'clock_24':
-    #     user.clock_24 = profile_setting['clock_24']
-    #     db.session.add(user)
-    #     db.session.commit()
-    #     return user.to_dict()
+    elif req_column == 'clock_24':
+        user.clock_24 = profile_setting['clock_24']
+        db.session.add(user)
+        db.session.commit()
+        return user.to_dict()
 
 # @user_routes.route('/profile/reset-theme', methods=['PATCH'])
 # @login_required
