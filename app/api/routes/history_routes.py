@@ -91,7 +91,8 @@ def alter_history_entry(entryID):
 
         db.session.add(entry)
         db.session.commit()
-        return { 'history': entry.to_dict() }
+        entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
+        return { 'history': [ entry.to_dict() for entry in entries ] }
     return {'errors': ['You are not permitted to edit this entry!']}, 401
 
 @history_routes.route('/<int:entryID>', methods=['DELETE'])

@@ -52,7 +52,6 @@ const HistoryPage = ({ style }) => {
     const deleteHandler = (e, entryID) => {
         e.preventDefault();
         dispatch(deleteHistoryEntry(entryID));
-        // console.log(data);
     };
 
     const entriesObj = useSelector((state) => state.history);

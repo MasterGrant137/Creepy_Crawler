@@ -100,7 +100,6 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
 //$ reducers
 const initialState = {};
 let newState;
-const historyCache = {};
 
 export const historyReducer = (state = initialState, action) => {
     newState = { ...state };
@@ -112,19 +111,14 @@ export const historyReducer = (state = initialState, action) => {
     }
     case READ_HISTORY: {
         const entries = action.payload.history;
-        entries.forEach((entry, idx) => { historyCache[entry.id] = idx; });
         return { ...entries, ...newState };
     }
     case UPDATE_HISTORY: {
-        const updateEntry = action.payload.history;
-        newState[historyCache[updateEntry.id]].updated_at = updateEntry.updated_at;
-        newState[historyCache[updateEntry.id]].tz = updateEntry.tz;
-        newState[historyCache[updateEntry.id]].tz_abbrev = updateEntry.tz_abbrev;
-        return newState;
+        const entries = action.payload.history;
+        return { ...entries };
     }
     case DELETE_HISTORY: {
         const entries = action.payload.history;
-        entries.forEach((entry, idx) => { historyCache[entry.id] = idx; });
         return { ...entries };
     }
     default:
