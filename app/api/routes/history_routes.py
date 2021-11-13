@@ -55,7 +55,7 @@ def add_history_entry():
         db.session.add(history_entry)
         db.session.commit()
         entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-        return { 'history': entries.to_dict() }
+        return { 'history': [ entry.to_dict() for entry in entries ] }
     return {'errors': ['Please make a valid search.']}, 400
 
 @history_routes.route('/')

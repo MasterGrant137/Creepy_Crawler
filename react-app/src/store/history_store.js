@@ -1,29 +1,29 @@
 //$ types
-const CREATE_HISTORY = 'history_store/CREATE_HISTORY';
-const READ_HISTORY = 'history_store/READ_HISTORY';
-const UPDATE_HISTORY = 'history_store/UPDATE_HISTORY';
-const DELETE_HISTORY = 'history_store/DELETE_HISTORY';
+const CRUD_HISTORY = 'history_store/CREATE_HISTORY';
+// const READ_HISTORY = 'history_store/READ_HISTORY';
+// const UPDATE_HISTORY = 'history_store/UPDATE_HISTORY';
+// const DELETE_HISTORY = 'history_store/DELETE_HISTORY';
 
 //$ action creators
-const createHistory = (entry) => ({
-    type: CREATE_HISTORY,
-    payload: entry,
-});
-
-const readHistory = (entries) => ({
-    type: READ_HISTORY,
+const crudHistory = (entries) => ({
+    type: CRUD_HISTORY,
     payload: entries,
 });
 
-const updateHistory = (entry) => ({
-    type: UPDATE_HISTORY,
-    payload: entry,
-});
+// const readHistory = (entries) => ({
+//     type: READ_HISTORY,
+//     payload: entries,
+// });
 
-const deleteHistory = (entries) => ({
-    type: DELETE_HISTORY,
-    payload: entries,
-});
+// const updateHistory = (entries) => ({
+//     type: UPDATE_HISTORY,
+//     payload: entries,
+// });
+
+// const deleteHistory = (entries) => ({
+//     type: DELETE_HISTORY,
+//     payload: entries,
+// });
 
 //$ thunks
 export const createHistoryEntry = (entry) => async (dispatch) => {
@@ -35,9 +35,9 @@ export const createHistoryEntry = (entry) => async (dispatch) => {
         body: JSON.stringify(entry),
     });
     if (response.ok) {
-        const newEntry = await response.json();
-        await dispatch(createHistory(newEntry));
-        return newEntry;
+        const entries = await response.json();
+        await dispatch(crudHistory(entries));
+        return entries;
     } if (response.status === 500) {
         window.location.reload();
         return null;
@@ -51,7 +51,7 @@ export const readHistoryEntries = () => async (dispatch) => {
     const response = await fetch('/api/history/');
     if (response.ok) {
         const entries = await response.json();
-        await dispatch(readHistory(entries));
+        await dispatch(crudHistory(entries));
         return entries;
     }
     return null;
@@ -68,9 +68,9 @@ export const updateHistoryEntry = (entry) => async (dispatch) => {
         }),
     });
     if (response.ok) {
-        const data = await response.json();
-        await dispatch(updateHistory(data));
-        return data;
+        const entries = await response.json();
+        await dispatch(crudHistory(entries));
+        return entries;
     } if (response.status === 500) {
         window.location.reload();
         return null;
@@ -86,7 +86,7 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
     });
     if (response.ok) {
         const entries = await response.json();
-        await dispatch(deleteHistory(entries));
+        await dispatch(crudHistory(entries));
         return entries;
     } if (response.status === 500) {
         window.location.reload();
@@ -99,25 +99,10 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
 
 //$ reducers
 const initialState = {};
-let newState;
 
 export const historyReducer = (state = initialState, action) => {
-    newState = { ...state };
     switch (action.type) {
-    case CREATE_HISTORY: {
-        const entry = action.payload.history;
-        newState[entry.id] = entry;
-        return newState;
-    }
-    case READ_HISTORY: {
-        const entries = action.payload.history;
-        return { ...entries, ...newState };
-    }
-    case UPDATE_HISTORY: {
-        const entries = action.payload.history;
-        return { ...entries };
-    }
-    case DELETE_HISTORY: {
+    case CRUD_HISTORY: {
         const entries = action.payload.history;
         return { ...entries };
     }
