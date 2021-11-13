@@ -27,7 +27,7 @@ Solution:
     + reference object for CRUD operations
     + entry data updates but history does not reorganize
 
-+ The previous way was giving the illusion of a dynamic page by manipulating the DOM directly and refreshing it right before it was reaccessed (e.g., by a search entry being added or by clicking to another page on the site and clicking back). In conclusion, the solution to my initial conundrum was to manipulate my backend (e.g., send delete request, have db delete) and return a more thorough response to my frontend (i.e., all entries instead of merely one entry or a success message) for dispatch as opposed to trying to manipulate my DOM on the frontend and refresh at any sign of an error. I essentially made all my operations have a backbone mirroring that of the READ history operation. One can see how substantial this development was for my application as it eliminated the last of page refreshes governing my site's core functionality (only present for 500 internal server errors now)—a true boon to my application's performance and the user experience.
++ The previous way was giving the illusion of a dynamic page by manipulating the DOM directly and refreshing it right before it was re-accessed (e.g., by a search entry being added or by clicking to another page on the site and clicking back). In conclusion, the solution to my initial conundrum was to manipulate my backend (e.g., send delete request, have db delete) and return a more thorough response to my frontend (i.e., all entries instead of merely one entry or a success message) for dispatch as opposed to trying to manipulate my DOM on the frontend with O(1) lookup time and refresh at any sign of an error. All of my operations now return the full result of the thunk's request as opposed to a partial result that was being used to directly alter the DOM. One can see how substantial this development was for my application as it eliminated the last of page refreshes governing my site's core functionality (only present for 500 internal server errors now)—a true boon to my application's performance and the user experience.
 
 For reference, my history reducer went from:
 ```js
@@ -64,25 +64,10 @@ export const historyReducer = (state = initialState, action) => {
 to the following:
 ```js
 const initialState = {};
-let newState;
 
 export const historyReducer = (state = initialState, action) => {
-    newState = { ...state };
     switch (action.type) {
-    case CREATE_HISTORY: {
-        const entry = action.payload.history;
-        newState[entry.id] = entry;
-        return newState;
-    }
-    case READ_HISTORY: {
-        const entries = action.payload.history;
-        return { ...entries, ...newState };
-    }
-    case UPDATE_HISTORY: {
-        const entries = action.payload.history;
-        return { ...entries };
-    }
-    case DELETE_HISTORY: {
+    case CRUD_HISTORY: {
         const entries = action.payload.history;
         return { ...entries };
     }
