@@ -2,6 +2,7 @@
 + Modified history data structure to recognize the difference between two history entries falling on the same *day of the week* but with different *dates*. They will now be given separate headers, accordingly. Previously, this was not the case when the entries appeared consecutively in history.
 + Create and update entry operations made dynamic.
 + Implemented 24 to 12-hour clock conversion on History page.
++ Theme can now be set to default.
 ---
 #### Nov 12, 2021
 + Inline style interpolation eliminated (used extensively for borders). That power was reallocated to CSS with only the necessary inline styling for dynamic styling present.
