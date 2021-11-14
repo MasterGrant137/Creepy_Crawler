@@ -54,6 +54,7 @@ export const readUserSettings = () => async (dispatch) => {
         window.location.reload();
         return null;
     }
+    console.log(response.json());
     return null;
 };
 
