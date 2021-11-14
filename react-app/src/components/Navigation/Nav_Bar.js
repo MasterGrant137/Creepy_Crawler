@@ -29,7 +29,13 @@ const NavBar = ({ style }) => {
     return (
         <nav>
             <ul style={{ color: style.accent_2 }}>
-                <a href='https://github.com/MasterGrant137'>About</a>
+                <a
+                    href='https://github.com/MasterGrant137/Creepy_Crawler/wiki'
+                    target="_blank"
+                    rel='noopener noreferrer'
+                >
+                    About
+                </a>
                 {user && user.username}
                 <FontAwesomeIcon
                     icon='home'

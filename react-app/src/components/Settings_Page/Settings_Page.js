@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { resetProfileTheme } from '../../store/session';
+import { editProfile } from '../../store/session';
 import { readUserSettings } from '../../store/settings_store';
 import EditThemeForm from './Edit_Theme_Form';
 import ProfileMediaForm from './Profile_Media_Form';
@@ -15,8 +15,14 @@ const SettingsPage = ({ style }) => {
         dispatch(readUserSettings());
     }, [dispatch]);
 
-    const resetProfileHandler = () => {
-        dispatch(resetProfileTheme());
+    const editProfileHandler = (e, eType) => {
+        e.preventDefault();
+
+        if (eType === 'reset_theme') {
+            dispatch(editProfile({
+                column: eType,
+            }));
+        }
     };
 
     return (
@@ -29,7 +35,7 @@ const SettingsPage = ({ style }) => {
                 >
                     <h2 className='settings-actions-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Profile</h2>
                     <ProfileMediaForm style={style} />
-                    <button data-setting-id='null' type='button' onClick={(e) => resetProfileHandler(e, 'reset_theme')}>Set Theme to Default</button>
+                    <button type='button' onClick={(e) => editProfileHandler(e, 'reset_theme')}>Set Theme to Default</button>
                 </div>
                 <div
                     className='create-theme-container'
