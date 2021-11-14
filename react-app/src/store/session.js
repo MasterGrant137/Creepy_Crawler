@@ -20,10 +20,6 @@ const editUser = (user) => ({
     payload: user,
 });
 
-// const resetTheme = () => ({
-//     type: RESET_THEME,
-// });
-
 const removeUser = () => ({
     type: REMOVE_USER,
 });
@@ -152,25 +148,6 @@ export const editProfile = (setting) => async (dispatch) => {
     const data = await response.json();
     return data.errors;
 };
-
-// export const resetProfileTheme = () => async (dispatch) => {
-//     const response = await fetch('/api/users/profile/reset-theme', {
-//         headers: {
-//             'Content-Type': 'application/json',
-//         },
-//         method: 'PATCH',
-//     });
-//     if (response.ok) {
-//         const data = await response.json();
-//         dispatch(resetTheme());
-//         return data;
-//     } if (response.status === 500) {
-//         window.location.reload();
-//         return null;
-//     }
-//     const data = response.json();
-//     return data.errors;
-// };
 
 export const logout = () => async (dispatch) => {
     const response = await fetch('/api/auth/logout', {

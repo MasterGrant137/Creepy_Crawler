@@ -66,13 +66,3 @@ def edit_user_profile():
         db.session.add(user)
         db.session.commit()
         return user.to_dict()
-
-# @user_routes.route('/profile/reset-theme', methods=['PATCH'])
-# @login_required
-# def reset_user_theme():
-#     """Set active theme to default."""
-#     user = User.query.filter(User.id == current_user.id).first()
-#     user.active_theme = None
-#     db.session.add(user)
-#     db.session.commit()
-#     return { 'user': user.to_dict() }
