@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { editProfile } from '../../store/session';
 import dropdownData from './dropdown_data.json';
 import { createUserSetting } from '../../store/settings_store';
 
@@ -55,6 +56,13 @@ const CreateThemeForm = ({ style }) => {
         if (file) setBackgroundMedia(file);
     };
 
+    const incrementThemeCount = (eType, operation) => {
+        dispatch(editProfile({
+            column: eType,
+            operation,
+        }));
+    };
+
     const createSettingHandler = async (e) => {
         e.preventDefault();
 
@@ -78,6 +86,7 @@ const CreateThemeForm = ({ style }) => {
         setBackgroundMediaLoading(false);
 
         resetHandler(e);
+        incrementThemeCount('theme_count', 'increment');
     };
 
     return (

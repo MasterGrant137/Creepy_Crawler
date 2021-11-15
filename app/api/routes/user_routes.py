@@ -42,17 +42,22 @@ def upload_media(userID):
 @login_required
 def edit_user_profile():
     """Update user profile setting."""
-    profile_setting = request.json
+    setting = request.json
     req_column = request.json['column']
     user = User.query.filter(User.id == current_user.id).first()
 
     if req_column == 'theme_count':
-        user.theme_count = profile_setting['theme_count']
+        if setting['operation']  == 'increment': 
+            print('HEREEEE',setting['operation'])
+            user.theme_count += 1
+        elif setting['operation']  == 'decrement': 
+            print('HEREEEE',setting['operation'])
+            user.theme_count -= 1
         db.session.add(user)
         db.session.commit()
         return user.to_dict()
     elif req_column == 'active_theme':
-        user.active_theme = int(profile_setting['id'])
+        user.active_theme = int(setting['id'])
         db.session.add(user)
         db.session.commit()
         return user.to_dict()
@@ -62,7 +67,7 @@ def edit_user_profile():
         db.session.commit()
         return user.to_dict()
     elif req_column == 'clock_24':
-        user.clock_24 = profile_setting['clock_24']
+        user.clock_24 = setting['clock_24']
         db.session.add(user)
         db.session.commit()
         return user.to_dict()

@@ -41,8 +41,8 @@ const HistoryPage = ({ style }) => {
     const editProfileHandler = async (e, eType) => {
         if (eType === 'clock_24') {
             await dispatch(editProfile({
-                column: eType,
                 clock_24: toggledClock,
+                column: eType,
             }));
             toggleClock((prevClock) => !prevClock);
             setClockTypeBtn(!toggledClock ? '24-Hour Clock' : '12-Hour Clock');

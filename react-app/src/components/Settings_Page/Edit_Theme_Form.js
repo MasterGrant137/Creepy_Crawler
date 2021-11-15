@@ -126,18 +126,24 @@ const EditThemeForm = ({ style }) => {
         });
     };
 
-    const deleteThemeHandler = (e) => {
-        const settingID = e.target.dataset.settingId;
-        dispatch(deleteUserSetting(settingID));
+    const decrementThemeCount = (eType, operation) => {
+        dispatch(editProfile({
+            column: eType,
+            operation,
+        }));
     };
 
-    const editProfileHandler = (e, eType) => {
-        if (eType === 'active_theme') {
-            dispatch(editProfile({
-                id: e.target.dataset.settingId,
-                column: eType,
-            }));
-        }
+    const deleteThemeHandler = async (e) => {
+        const settingID = e.target.dataset.settingId;
+        await dispatch(deleteUserSetting(settingID));
+        decrementThemeCount('theme_count', 'decrement');
+    };
+
+    const updateActiveTheme = (e, eType) => {
+        dispatch(editProfile({
+            column: eType,
+            id: e.target.dataset.settingId,
+        }));
     };
 
     const editorThemes = Object.values(settingsObj).map((setting, idx) => (
@@ -216,7 +222,7 @@ const EditThemeForm = ({ style }) => {
             <button
                 data-setting-id={`${setting.id}`}
                 type='button'
-                onClick={(e) => editProfileHandler(e, 'active_theme')}
+                onClick={(e) => updateActiveTheme(e, 'active_theme')}
                 style={{ color: setting.font_color }}
             >
                 Use
