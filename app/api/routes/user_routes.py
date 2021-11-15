@@ -47,12 +47,12 @@ def edit_user_profile():
     user = User.query.filter(User.id == current_user.id).first()
 
     if req_column == 'theme_count':
-        if setting['operation']  == 'increment': 
-            print('HEREEEE',setting['operation'])
-            user.theme_count += 1
-        elif setting['operation']  == 'decrement': 
-            print('HEREEEE',setting['operation'])
-            user.theme_count -= 1
+        if setting['operation']  == 'increment':
+            if user.theme_count < 10: 
+                user.theme_count += 1
+        elif setting['operation']  == 'decrement':
+            if user.theme_count > 0:
+                user.theme_count -= 1
         db.session.add(user)
         db.session.commit()
         return user.to_dict()

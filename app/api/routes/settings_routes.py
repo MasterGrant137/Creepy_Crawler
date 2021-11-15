@@ -23,6 +23,9 @@ def add_theme():
     form = ThemeForm()
     form['csrf_token'].data = request.cookies['csrf_token']
 
+    if current_user.theme_count >= 10:
+        return {'errors': ['You are not permitted to add any more themes!']}, 400
+
     if form.validate_on_submit():
         new_theme = Theme(
             user_id=request.form['userID'],
@@ -103,6 +106,9 @@ def update_theme(settingID):
 def delete_theme(settingID):
     """Delete a theme."""
     theme = Theme.query.filter(Theme.id == settingID).first()
+
+    if current_user.theme_count <= 0:
+        return {'errors': ['You are not permitted to delete any more themes!']}, 400
 
     if theme.user_id == current_user.id:
         db.session.delete(theme)

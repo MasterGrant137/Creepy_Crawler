@@ -154,8 +154,12 @@ const EditThemeForm = ({ style }) => {
 
     const deleteThemeHandler = async (e) => {
         const settingID = e.target.dataset.settingId;
-        await dispatch(deleteUserSetting(settingID));
-        decrementThemeCount('theme_count', 'decrement');
+        if (user.theme_count > 0) {
+            await dispatch(deleteUserSetting(settingID));
+            decrementThemeCount('theme_count', 'decrement');
+        } else {
+            alert('You are not permitted to delete any more themes!');
+        }
     };
 
     const updateActiveTheme = (e, eType) => {

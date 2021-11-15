@@ -66,27 +66,31 @@ const CreateThemeForm = ({ style }) => {
     const createSettingHandler = async (e) => {
         e.preventDefault();
 
-        const userID = user.id;
-        const formData = new FormData();
+        if (user.theme_count < 10) {
+            const userID = user.id;
+            const formData = new FormData();
 
-        formData.append('userID', userID);
-        formData.append('themeName', themeName);
-        formData.append('backgroundMedia', backgroundMedia);
-        setBackgroundMediaLoading(true);
-        formData.append('backgroundColor', backgroundColor);
-        formData.append('backgroundRotate', backgroundRotate);
-        formData.append('fontColor', fontColor);
-        formData.append('fontFamily', fontFamily);
-        formData.append('fontSize', fontSize);
-        formData.append('accent1', accent1);
-        formData.append('accent2', accent2);
-        formData.append('accent3', accent3);
+            formData.append('userID', userID);
+            formData.append('themeName', themeName);
+            formData.append('backgroundMedia', backgroundMedia);
+            setBackgroundMediaLoading(true);
+            formData.append('backgroundColor', backgroundColor);
+            formData.append('backgroundRotate', backgroundRotate);
+            formData.append('fontColor', fontColor);
+            formData.append('fontFamily', fontFamily);
+            formData.append('fontSize', fontSize);
+            formData.append('accent1', accent1);
+            formData.append('accent2', accent2);
+            formData.append('accent3', accent3);
 
-        await dispatch(createUserSetting(formData));
-        setBackgroundMediaLoading(false);
+            await dispatch(createUserSetting(formData));
+            setBackgroundMediaLoading(false);
 
-        resetHandler(e);
-        incrementThemeCount('theme_count', 'increment');
+            resetHandler(e);
+            incrementThemeCount('theme_count', 'increment');
+        } else {
+            console.log('GENTLE ERROR');
+        }
     };
 
     return (
@@ -95,6 +99,7 @@ const CreateThemeForm = ({ style }) => {
                 <h2 className='create-theme-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Create Theme</h2>
                 <button
                     className='sf2-submit-btn'
+                    disabled={user.theme_count === 10}
                     style={{
                         color: style.font_color,
                         fontFamily: style.font_family,

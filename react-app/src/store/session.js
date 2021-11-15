@@ -1,22 +1,9 @@
 // constants
-const SET_USER = 'session/SET_USER';
-const GET_USER = 'session/GET_USER';
-const EDIT_USER = 'session/EDIT_USER';
-const RESET_THEME = 'session/RESET_THEME';
+const CRU_USER = 'session/SET_USER';
 const REMOVE_USER = 'session/REMOVE_USER';
 
-const setUser = (user) => ({
-    type: SET_USER,
-    payload: user,
-});
-
-const getUser = (user) => ({
-    type: GET_USER,
-    payload: user,
-});
-
-const editUser = (user) => ({
-    type: EDIT_USER,
+const cruUser = (user) => ({
+    type: CRU_USER,
     payload: user,
 });
 
@@ -34,7 +21,7 @@ export const authenticateLogin = () => async (dispatch) => {
     });
     if (response.ok) {
         const data = await response.json();
-        dispatch(setUser(data));
+        dispatch(cruUser(data));
     }
     return null;
 };
@@ -47,7 +34,7 @@ export const authenticateSignup = () => async (dispatch) => {
     });
     if (response.ok) {
         const data = await response.json();
-        dispatch(setUser(data));
+        dispatch(cruUser(data));
     }
     return null;
 };
@@ -65,7 +52,7 @@ export const login = (email, password) => async (dispatch) => {
     });
     if (response.ok) {
         const data = await response.json();
-        dispatch(setUser(data));
+        dispatch(cruUser(data));
         return null;
     } if (response.status === 500) {
         window.location.reload();
@@ -89,7 +76,7 @@ export const signUp = (username, email, password) => async (dispatch) => {
     });
     if (response.ok) {
         const data = await response.json();
-        dispatch(setUser(data));
+        dispatch(cruUser(data));
         return null;
     } if (response.status === 500) {
         window.location.reload();
@@ -103,7 +90,7 @@ export const readUser = (userID) => async (dispatch) => {
     const response = await fetch(`/api/users/${userID}`);
     if (response.ok) {
         const user = await response.json();
-        await dispatch(getUser(user));
+        await dispatch(cruUser(user));
         return user;
     }
     return null;
@@ -116,7 +103,7 @@ export const editProfileMedia = (userID, formData) => async (dispatch) => {
     });
     if (response.ok) {
         const media = await response.json();
-        dispatch(editUser(media));
+        dispatch(cruUser(media));
         return media;
     } if (response.status === 500) {
         window.location.reload();
@@ -139,14 +126,15 @@ export const editProfile = (setting) => async (dispatch) => {
     });
     if (response.ok) {
         const data = await response.json();
-        dispatch(editUser(data));
+        dispatch(cruUser(data));
         return data;
     } if (response.status === 500) {
         window.location.reload();
         return null;
     }
     const data = await response.json();
-    return data.errors;
+    alert(data.errors);
+    return null;
 };
 
 export const logout = () => async (dispatch) => {
@@ -168,14 +156,8 @@ export const logout = () => async (dispatch) => {
 
 export default function reducer(state = initialState, action) {
     switch (action.type) {
-    case SET_USER:
+    case CRU_USER:
         return { user: action.payload };
-    case GET_USER:
-        return { user: action.payload };
-    case EDIT_USER:
-        return { user: action.payload };
-    case RESET_THEME:
-        return { active_theme: null };
     case REMOVE_USER:
         return { user: null };
     default:
