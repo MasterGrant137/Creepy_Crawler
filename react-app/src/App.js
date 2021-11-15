@@ -6,6 +6,7 @@ import {
     faHistory,
     faHome,
     faLock,
+    faLockOpen,
     faSignOutAlt,
     faUserCog,
 } from '@fortawesome/free-solid-svg-icons';
@@ -26,6 +27,7 @@ library.add(
     faHistory,
     faHome,
     faLock,
+    faLockOpen,
     faSignOutAlt,
     faUserCog,
 );

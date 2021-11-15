@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
 import { updateUserSetting, deleteUserSetting } from '../../store/settings_store';
 import dropdownData from './dropdown_data.json';
@@ -82,7 +82,6 @@ const EditThemeForm = ({ style }) => {
 
     const editFormHandler = async (e) => {
         e.preventDefault();
-
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
         const settingID = targForm.id;
@@ -90,10 +89,16 @@ const EditThemeForm = ({ style }) => {
         targFormKids.forEach((targKid) => {
             if (targKid.type === 'text') targKid.readOnly = false;
             else targKid.disabled = false;
-            if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Edit') {
-                targKid.innerText = 'Submit';
-            } else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
-                targKid.innerText = 'Edit';
+            if (targKid.dataset.type === 'ICON' && targKid.dataset.locked === 'true') {
+                targKid.children[0].dataset.icon = 'lock-open';
+                console.log(targKid.children[0].dataset.icon);
+                targKid.dataset.locked = 'false';
+                console.log(targKid.children[0].dataset.icon);
+            } else if (targKid.dataset.type === 'ICON' && targKid.dataset.locked === 'false') {
+                targKid.children[0].dataset.icon = 'lock';
+                console.log(targKid.children[0].dataset.icon);
+                targKid.dataset.locked = 'true';
+                console.log(targKid.children[0].dataset.icon);
 
                 const formData = new FormData();
                 formData.append('settingID', settingID);
@@ -184,6 +189,44 @@ const EditThemeForm = ({ style }) => {
                 fontFamily: setting.font_family,
             }}
         >
+            <button
+                data-setting-id={`${setting.id}`}
+                data-type='ICON'
+                data-locked='true'
+            ><FontAwesomeIcon icon='lock' style={{ color: setting.font_color }} /></button>
+            <button
+                data-setting-id={`${setting.id}`}
+                type='button'
+                onClick={copyThemeData}
+                style={{ color: setting.font_color }}
+            >
+                Copy Theme Data
+            </button>
+            <button
+                data-setting-id={`${setting.id}`}
+                type='button'
+                onClick={(e) => updateActiveTheme(e, 'active_theme')}
+                style={{ color: setting.font_color }}
+            >
+                Use
+            </button>
+            {/* <button style={{ color: setting.font_color }}>Edit</button> */}
+            <button
+                data-setting-id={`${setting.id}`}
+                type='button'
+                onClick={resetHandler}
+                style={{ color: setting.font_color }}
+            >
+                Cancel
+            </button>
+            <button
+                data-setting-id={`${setting.id}`}
+                type='button'
+                onClick={(e) => deleteThemeHandler(e)}
+                style={{ color: setting.font_color }}
+            >
+                Delete
+            </button>
             <label htmlFor={`theme-name-editor-${idx}`}>Theme Name</label>
             <input
                 id={`theme-name-editor-${idx}`}
@@ -243,39 +286,6 @@ const EditThemeForm = ({ style }) => {
             <label htmlFor={`accent-3-color-editor-${idx}`} style={{ color: setting.accent_3 }}>Accent 3</label>
             <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' disabled defaultValue={setting.accent_3} />
 
-            <button
-                data-setting-id={`${setting.id}`}
-                type='button'
-                onClick={copyThemeData}
-                style={{ color: setting.font_color }}
-            >
-                Copy Theme Data
-            </button>
-            <button
-                data-setting-id={`${setting.id}`}
-                type='button'
-                onClick={(e) => updateActiveTheme(e, 'active_theme')}
-                style={{ color: setting.font_color }}
-            >
-                Use
-            </button>
-            <button style={{ color: setting.font_color }}>Edit</button>
-            <button
-                data-setting-id={`${setting.id}`}
-                type='button'
-                onClick={resetHandler}
-                style={{ color: setting.font_color }}
-            >
-                Cancel
-            </button>
-            <button
-                data-setting-id={`${setting.id}`}
-                type='button'
-                onClick={(e) => deleteThemeHandler(e)}
-                style={{ color: setting.font_color }}
-            >
-                Delete
-            </button>
         </form>
     ));
 
