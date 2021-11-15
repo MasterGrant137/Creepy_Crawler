@@ -180,16 +180,15 @@ nav * {
     100% { background-position-y: 100%; }
 }
 /*=================================*/
-/*$==========Conditional==========$*/
+/*$=========Conditional===========$*/
 /*=================================*/
 .not-allowed { cursor: not-allowed }
 .inline-error {
     background-color: rgba(255, 255, 255, 0.9);
     color: black;
     padding: 10px;
-    /* position: absolute; */
-    /* top: 10px; */
 }
+
 .invisible { display: none }
 /*=================================*/
 /*$=============Fonts=============$*/

@@ -34,7 +34,7 @@ const CreateThemeForm = ({ style }) => {
     const [fontFamily, setFontFamily] = useState(style.font_family);
     const [fontSize, setFontSize] = useState(style.font_size);
     const [fontColor, setFontColor] = useState(style.font_color);
-    const [themeLimitReached, setThemeLimitReached] = useState(false);
+    const [hiddenThemeLimit, hideThemeLimit] = useState(true);
     const [themeName, setThemeName] = useState('');
 
     const resetHandler = (e) => {
@@ -103,8 +103,8 @@ const CreateThemeForm = ({ style }) => {
                     className={`sf2-submit-btn ${submitBtn ? '' : 'not-allowed'}`}
                     type={user.theme_count < 10 ? 'submit' : 'button'}
                     onMouseOver={async () => {
-                        await setTimeout(() => setThemeLimitReached(true), 5000);
-                        setThemeLimitReached(false);
+                        await setTimeout(() => hideThemeLimit(true), 3000);
+                        hideThemeLimit(false);
                     }}
                     style={{
                         color: style.font_color,
@@ -112,7 +112,7 @@ const CreateThemeForm = ({ style }) => {
                         fontSize: style.font_size,
                     }}
                 >
-                    Submit <span className={`${themeLimitReached ? 'invisible' : 'inline-error'}`}>Theme limit reached.</span>
+                    Submit <span className={`${hiddenThemeLimit ? 'invisible' : 'inline-error'}`}>Theme limit reached.</span>
                 </button>
                 <button
                     type='button'
