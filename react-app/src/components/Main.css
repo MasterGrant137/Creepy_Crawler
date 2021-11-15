@@ -201,8 +201,7 @@ nav * {
 /*=================================*/
 .not-allowed { cursor: not-allowed }
 
-
-.invisible { display: none }
+.invisible, [data-visibility='false'] { display: none }
 /*=================================*/
 /*$=============Fonts=============$*/
 /*=================================*/

@@ -90,15 +90,13 @@ const EditThemeForm = ({ style }) => {
             if (targKid.type === 'text') targKid.readOnly = false;
             else targKid.disabled = false;
             if (targKid.dataset.type === 'ICON' && targKid.dataset.locked === 'true') {
-                targKid.children[0].dataset.icon = 'lock-open';
-                console.log(targKid.children[0].dataset.icon);
+                targKid.children[0].dataset.visibility = 'false';
+                document.getElementById(`lock-open-${settingID}`).dataset.visibility = 'true';
                 targKid.dataset.locked = 'false';
-                console.log(targKid.children[0].dataset.icon);
             } else if (targKid.dataset.type === 'ICON' && targKid.dataset.locked === 'false') {
-                targKid.children[0].dataset.icon = 'lock';
-                console.log(targKid.children[0].dataset.icon);
+                targKid.children[1].dataset.visibility = 'false';
+                document.getElementById(`lock-${settingID}`).dataset.visibility = 'true';
                 targKid.dataset.locked = 'true';
-                console.log(targKid.children[0].dataset.icon);
 
                 const formData = new FormData();
                 formData.append('settingID', settingID);
@@ -193,7 +191,20 @@ const EditThemeForm = ({ style }) => {
                 data-setting-id={`${setting.id}`}
                 data-type='ICON'
                 data-locked='true'
-            ><FontAwesomeIcon icon='lock' style={{ color: setting.font_color }} /></button>
+            >
+                <FontAwesomeIcon
+                    id={`lock-${setting.id}`}
+                    data-visibility='true'
+                    icon='lock'
+                    style={{ color: setting.font_color }}
+                />
+                <FontAwesomeIcon
+                    id={`lock-open-${setting.id}`}
+                    icon='lock-open'
+                    style={{ color: setting.font_color }}
+                    data-visibility='false'
+                />
+            </button>
             <button
                 data-setting-id={`${setting.id}`}
                 type='button'
