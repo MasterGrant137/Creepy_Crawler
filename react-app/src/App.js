@@ -3,7 +3,11 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
-    faHome, faHistory, faUserCog, faSignOutAlt,
+    faHistory,
+    faHome,
+    faLock,
+    faSignOutAlt,
+    faUserCog,
 } from '@fortawesome/free-solid-svg-icons';
 import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
 import HistoryPage from './components/History_Page/History_Page';
@@ -18,7 +22,13 @@ import SignupForm from './components/auth/SignupForm';
 import NavBar from './components/Navigation/Nav_Bar';
 // import defaultThemes from './default_themes.json';
 
-library.add(faHome, faHistory, faUserCog, faSignOutAlt);
+library.add(
+    faHistory,
+    faHome,
+    faLock,
+    faSignOutAlt,
+    faUserCog,
+);
 
 function App() {
     const [loaded, setLoaded] = useState(false);

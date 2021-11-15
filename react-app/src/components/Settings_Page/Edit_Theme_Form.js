@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
 import { updateUserSetting, deleteUserSetting } from '../../store/settings_store';
 import dropdownData from './dropdown_data.json';
