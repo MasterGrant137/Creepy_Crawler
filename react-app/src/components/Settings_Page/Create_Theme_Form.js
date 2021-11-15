@@ -8,6 +8,7 @@ const CreateThemeForm = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector((state) => state.session.user);
     const fileInput = useRef(null);
+    const submitBtn = user.theme_count < 10;
 
     const fontFamiliesRaw = dropdownData.fonts;
     const fontFamilies = fontFamiliesRaw.map((fontFamily) => (
@@ -33,6 +34,7 @@ const CreateThemeForm = ({ style }) => {
     const [fontFamily, setFontFamily] = useState(style.font_family);
     const [fontSize, setFontSize] = useState(style.font_size);
     const [fontColor, setFontColor] = useState(style.font_color);
+    const [themeLimitReached, setThemeLimitReached] = useState(false);
     const [themeName, setThemeName] = useState('');
 
     const resetHandler = (e) => {
@@ -89,7 +91,7 @@ const CreateThemeForm = ({ style }) => {
             resetHandler(e);
             incrementThemeCount('theme_count', 'increment');
         } else {
-            console.log('GENTLE ERROR');
+            alert('You are not permitted to add any more themes!');
         }
     };
 
@@ -98,15 +100,19 @@ const CreateThemeForm = ({ style }) => {
             <form className='setter-form-2' onSubmit={createSettingHandler} style={{ borderColor: style.accent_3 }}>
                 <h2 className='create-theme-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Create Theme</h2>
                 <button
-                    className='sf2-submit-btn'
-                    disabled={user.theme_count === 10}
+                    className={`sf2-submit-btn ${submitBtn ? '' : 'not-allowed'}`}
+                    type={user.theme_count < 10 ? 'submit' : 'button'}
+                    onMouseOver={async () => {
+                        await setTimeout(() => setThemeLimitReached(true), 5000);
+                        setThemeLimitReached(false);
+                    }}
                     style={{
                         color: style.font_color,
                         fontFamily: style.font_family,
                         fontSize: style.font_size,
                     }}
                 >
-                    Submit
+                    Submit <span className={`${themeLimitReached ? 'invisible' : 'inline-error'}`}>Theme limit reached.</span>
                 </button>
                 <button
                     type='button'
@@ -128,8 +134,8 @@ const CreateThemeForm = ({ style }) => {
                             name='Theme Name'
                             type='text'
                             maxLength='50'
-                            placeholder='Theme Name (Max 50)'
-                            aria-placeholder='Theme Name (Max 50)'
+                            placeholder='50 Characters Max'
+                            aria-placeholder='50 Characters Max'
                             value={themeName}
                             onChange={(e) => setThemeName(e.target.value)}
                             style={{ fontFamily: style.font_family }}

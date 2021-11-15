@@ -189,8 +189,8 @@ const EditThemeForm = ({ style }) => {
                 type='text'
                 name='Theme Name'
                 maxLength='50'
-                placeholder='Theme Name (Max 50)'
-                aria-placeholder='Theme Name (Max 50)'
+                placeholder='50 Characters Max'
+                aria-placeholder='50 Characters Max'
                 defaultValue={setting.theme_name}
                 style={{ fontFamily: setting.font_family }}
             />
