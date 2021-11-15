@@ -126,6 +126,25 @@ const EditThemeForm = ({ style }) => {
         });
     };
 
+    const copyThemeData = (e) => {
+        const targSetting = { ...settingsObj[e.target.dataset.settingId] };
+        const themeName = targSetting.theme_name;
+        const themeKey = themeName.toLowerCase().replace(/\s/, '_');
+
+        delete targSetting.id;
+        delete targSetting.user_id;
+        delete targSetting.theme_name;
+
+        const entriesArr = Object.entries(targSetting);
+        const entriesFormatted = [];
+        entriesArr.forEach((entry) => {
+            const formattedEntry = `${'\t'}"${entry[0]}": "${entry[1]}"`;
+            entriesFormatted.push(formattedEntry);
+        });
+        const entries = entriesFormatted.join(',\n');
+        navigator.clipboard.writeText(`"${themeKey}": {${'\n'}${entries}${'\n'}}`);
+    };
+
     const decrementThemeCount = (eType, operation) => {
         dispatch(editProfile({
             column: eType,
@@ -219,6 +238,14 @@ const EditThemeForm = ({ style }) => {
             <label htmlFor={`accent-3-color-editor-${idx}`} style={{ color: setting.accent_3 }}>Accent 3</label>
             <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' disabled defaultValue={setting.accent_3} />
 
+            <button
+                data-setting-id={`${setting.id}`}
+                type='button'
+                onClick={copyThemeData}
+                style={{ color: setting.font_color }}
+            >
+                Copy Theme Data
+            </button>
             <button
                 data-setting-id={`${setting.id}`}
                 type='button'

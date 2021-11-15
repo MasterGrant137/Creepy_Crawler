@@ -1,8 +1,8 @@
 import { useState, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { editProfile } from '../../store/session';
-import dropdownData from './dropdown_data.json';
 import { createUserSetting } from '../../store/settings_store';
+import dropdownData from './dropdown_data.json';
 
 const CreateThemeForm = ({ style }) => {
     const dispatch = useDispatch();
@@ -252,8 +252,8 @@ const CreateThemeForm = ({ style }) => {
                 <h2 className='theme-tester-header' style={{ color: accent2, borderColor: accent1 }}>{themeName || 'Demo Theme'}</h2>
                 <div>
                     <h3>Test your theme.</h3>
-                    <p>See your theme specs here.</p>
-                    <span style={{ fontSize }}>Font Size</span>
+                    <p style={{ color: accent2 }}>See your theme specs here.</p>
+                    <span style={{ color: accent3, fontSize }}>Font Size</span>
                 </div>
             </div>
         </>

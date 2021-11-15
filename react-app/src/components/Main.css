@@ -199,6 +199,8 @@ nav * {
     Cormorant Garamond | serif
     Cutive | serif
     Della Respira | serif
+    Gluten | fantasy
+    Handlee | cursive
     Inconsolata | monospace
     Indie Flower | cursive
     Lobster Two | fantasy
@@ -424,6 +426,48 @@ nav * {
          url('./fonts/della-respira-v10-latin/della-respira-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
          url('./fonts/della-respira-v10-latin/della-respira-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('./fonts/della-respira-v10-latin/della-respira-v10-latin-regular.svg#DellaRespira') format('svg'); /* Legacy iOS */
+}
+
+/* gluten-regular - latin */
+@font-face {
+    font-family: 'Gluten';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/gluten-v1-latin/gluten-v1-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/gluten-v1-latin/gluten-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/gluten-v1-latin/gluten-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/gluten-v1-latin/gluten-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/gluten-v1-latin/gluten-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/gluten-v1-latin/gluten-v1-latin-regular.svg#Gluten') format('svg'); /* Legacy iOS */
+}
+
+/* gluten-700 - latin */
+@font-face {
+    font-family: 'Gluten';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/gluten-v1-latin/gluten-v1-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/gluten-v1-latin/gluten-v1-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/gluten-v1-latin/gluten-v1-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/gluten-v1-latin/gluten-v1-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/gluten-v1-latin/gluten-v1-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/gluten-v1-latin/gluten-v1-latin-700.svg#Gluten') format('svg'); /* Legacy iOS */
+}
+
+/* handlee-regular - latin */
+@font-face {
+    font-family: 'Handlee';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/handlee-v9-latin/handlee-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/handlee-v9-latin/handlee-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/handlee-v9-latin/handlee-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/handlee-v9-latin/handlee-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/handlee-v9-latin/handlee-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/handlee-v9-latin/handlee-v9-latin-regular.svg#Handlee') format('svg'); /* Legacy iOS */
 }
 
 /* inconsolata-regular - latin */

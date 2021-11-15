@@ -16,6 +16,7 @@ import ProtectedRoute from './components/auth/ProtectedRoute';
 import LoginForm from './components/auth/LoginForm';
 import SignupForm from './components/auth/SignupForm';
 import NavBar from './components/Navigation/Nav_Bar';
+// import defaultThemes from './default_themes.json';
 
 library.add(faHome, faHistory, faUserCog, faSignOutAlt);
 
