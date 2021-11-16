@@ -249,12 +249,16 @@ const EditThemeForm = ({ style }) => {
                 <FontAwesomeIcon
                     id={`lock-${setting.id}`}
                     data-visibility='true'
+                    alt='unlock theme'
+                    title='unlock theme'
                     icon='lock'
                     style={{ color: setting.font_color }}
                 />
                 <FontAwesomeIcon
                     id={`lock-open-${setting.id}`}
                     data-visibility='false'
+                    alt='lock theme'
+                    title='lock theme'
                     icon='lock-open'
                     style={{ color: setting.font_color }}
                 />

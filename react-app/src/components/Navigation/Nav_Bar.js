@@ -38,6 +38,8 @@ const NavBar = ({ style }) => {
                 </a>
                 {user && user.username}
                 <FontAwesomeIcon
+                    alt='home'
+                    title='home'
                     icon='home'
                     onClick={(e) => navHandler(e, '/home')}
                 >
@@ -45,17 +47,21 @@ const NavBar = ({ style }) => {
                 </FontAwesomeIcon>
                 {user
           && <FontAwesomeIcon
+              alt='history'
+              title='history'
               icon='history'
               onClick={(e) => navHandler(e, '/api/history/')}
           />
                 }
                 {user
           && <FontAwesomeIcon
+              alt='settings'
+              title='settings'
               icon='user-cog'
               onClick={(e) => navHandler(e, '/api/settings/')}
           />
                 }
-                {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' />}
+                {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' title='user profile media' />}
                 {!user && <li data-link-dest='/api/auth/login' onClick={navHandler}>Login</li>}
                 {!user && <li data-link-dest='/api/auth/signup' onClick={navHandler}>Signup</li>}
                 {!user && <li data-link-dest='/' onClick={navHandler}>Demo Login</li>}

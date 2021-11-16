@@ -67,11 +67,10 @@ export const updateUserSetting = (settingID, formData) => async (dispatch) => {
         const setting = await response.json();
         dispatch(updateSetting(setting));
         return setting;
+    } if (response.status === 500) {
+        window.location.reload();
+        return null;
     }
-    // if (response.status === 500) {
-    //     window.location.reload();
-    //     return null;
-    // }
     const data = await response.json();
     alert(data.errors);
     return null;
