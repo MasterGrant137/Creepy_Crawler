@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
+    faCopy,
     faHistory,
     faHome,
     faLock,
@@ -25,6 +26,7 @@ import NavBar from './components/Navigation/Nav_Bar';
 // import defaultThemes from './default_themes.json';
 
 library.add(
+    faCopy,
     faHistory,
     faHome,
     faLock,

@@ -263,14 +263,12 @@ const EditThemeForm = ({ style }) => {
                     style={{ color: setting.font_color }}
                 />
             </button>
-            <button
+            <FontAwesomeIcon
                 data-setting-id={`${setting.id}`}
-                type='button'
+                icon='copy'
                 onClick={copyThemeData}
                 style={{ color: setting.font_color }}
-            >
-                Copy Theme Data
-            </button>
+            />
             <button
                 data-setting-id={`${setting.id}`}
                 type='button'
@@ -289,14 +287,12 @@ const EditThemeForm = ({ style }) => {
             >
                 Cancel
             </button>
-            <button
+            <FontAwesomeIcon
                 data-setting-id={`${setting.id}`}
-                type='button'
+                icon='trash-alt'
                 onClick={(e) => deleteThemeHandler(e)}
                 style={{ color: setting.font_color }}
-            >
-                Delete
-            </button>
+            />
             <label htmlFor={`theme-name-editor-${idx}`}>Theme Name</label>
             <input
                 id={`theme-name-editor-${idx}`}
