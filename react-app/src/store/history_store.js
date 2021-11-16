@@ -1,29 +1,11 @@
 //$ types
 const CRUD_HISTORY = 'history_store/CREATE_HISTORY';
-// const READ_HISTORY = 'history_store/READ_HISTORY';
-// const UPDATE_HISTORY = 'history_store/UPDATE_HISTORY';
-// const DELETE_HISTORY = 'history_store/DELETE_HISTORY';
 
 //$ action creators
 const crudHistory = (entries) => ({
     type: CRUD_HISTORY,
     payload: entries,
 });
-
-// const readHistory = (entries) => ({
-//     type: READ_HISTORY,
-//     payload: entries,
-// });
-
-// const updateHistory = (entries) => ({
-//     type: UPDATE_HISTORY,
-//     payload: entries,
-// });
-
-// const deleteHistory = (entries) => ({
-//     type: DELETE_HISTORY,
-//     payload: entries,
-// });
 
 //$ thunks
 export const createHistoryEntry = (entry) => async (dispatch) => {

@@ -7,10 +7,18 @@ import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../.
 import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
 import './History_Page.css';
+import clock12Icon from './icons/12-hour-flaticon.png';
+import clock24Icon from './icons/24-hour-flaticon.png';
 
 const HistoryPage = ({ style }) => {
     const history = useHistory();
     const dispatch = useDispatch();
+    const entriesObj = useSelector((state) => state.history);
+    const clock24 = useSelector((state) => state.session.user.clock_24);
+
+    const [updatedAt, setUpdatedAt] = useState(new Date().toString());
+    const [toggledClock, toggleClock] = useState(clock24);
+    const [clockType, setClockType] = useState(!toggledClock ? '12-hour' : '24-hour');
 
     const dateRegex = new RegExp([
         '([A-Z]{1}[a-z]{2}),\\s', //? day of the week
@@ -18,10 +26,6 @@ const HistoryPage = ({ style }) => {
         '(\\d{2}:\\d{2}:\\d{2})\\s', //? time
         '(.*)', //? time zone
     ].join(''), 'g');
-
-    const [updatedAt, setUpdatedAt] = useState(new Date().toString());
-    const [toggledClock, toggleClock] = useState(false);
-    const [clockTypeBtn, setClockTypeBtn] = useState('12-Hour Clock');
 
     let prevDayOfWk = null;
     let prevDate = null;
@@ -37,14 +41,15 @@ const HistoryPage = ({ style }) => {
         if (data) history.push('/');
     };
 
-    const editProfileHandler = async (e, eType) => {
+    const editProfileHandler = async (eType) => {
         if (eType === 'clock_24') {
-            await dispatch(editProfile({
+            console.log(eType, 'HERRRRRE');
+            await toggleClock((prevClock) => !prevClock);
+            await setClockType(!toggledClock ? '12-hour' : '24-hour');
+            dispatch(editProfile({
                 clock_24: toggledClock,
                 column: eType,
             }));
-            toggleClock((prevClock) => !prevClock);
-            setClockTypeBtn(!toggledClock ? '24-Hour Clock' : '12-Hour Clock');
         }
     };
 
@@ -52,8 +57,6 @@ const HistoryPage = ({ style }) => {
         e.preventDefault();
         dispatch(deleteHistoryEntry(entryID));
     };
-
-    const entriesObj = useSelector((state) => state.history);
 
     const entries = Object.values(entriesObj)
         .map((entry) => (
@@ -96,7 +99,7 @@ const HistoryPage = ({ style }) => {
                 >
                     {(() => {
                         const time = entry.updated_at.replace(dateRegex, '$3');
-                        if (!toggledClock) return time;
+                        if (clockType === '24-hour') return time;
 
                         const hour = +`${time[0]}${time[1]}`;
                         const minutes = `${time[3]}${time[4]}`;
@@ -131,15 +134,17 @@ const HistoryPage = ({ style }) => {
 
     return (
         <div className='history-page-container'>
-            <button
-                onClick={(e) => editProfileHandler(e, 'clock_24')}
+            <img
+                className='history-clock-image'
+                alt={`convert to ${clockType} time`}
+                title={`convert to ${clockType} time`}
+                src={clockType === '12-hour' ? clock12Icon : clock24Icon}
+                onClick={() => editProfileHandler('clock_24')}
                 style={{
-                    backgroundColor: style.background_color,
-                    color: style.font_color,
+                    backgroundColor: 'white',
+                    // color: style.font_color,
                 }}
-            >
-                {clockTypeBtn}
-            </button>
+            />
             {entries}
         </div>
     );

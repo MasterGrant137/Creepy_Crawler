@@ -1,3 +1,9 @@
+.history-clock-image {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
 .history-entry-div {
     display: grid;
     grid-template-areas: 
