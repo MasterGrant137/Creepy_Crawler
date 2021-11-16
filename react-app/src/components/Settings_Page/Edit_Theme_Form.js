@@ -85,21 +85,51 @@ const EditThemeForm = ({ style }) => {
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
         const lockedBtn = targFormKids.find((ele) => ele.dataset.locked);
-        console.log(lockedBtn);
         const settingID = targForm.id;
+        const formData = new FormData();
 
-        // targKid.type === 'text' ? targKid.readOnly = false : targKid.disabled = false;
         if (lockedBtn.dataset.locked === 'true') {
             targFormKids.forEach((targKid) => {
-                lockedBtn.children[0].dataset.visibility = 'false';
-                document.getElementById(`lock-open-${settingID}`).dataset.visibility = 'true';
+                const lockIcon = lockedBtn.children[0];
+                lockIcon.dataset.visibility = 'false';
+
+                const lockOpenIcon = document.getElementById(`lock-open-${settingID}`);
+                lockOpenIcon.dataset.visibility = 'true';
+
                 targKid.dataset.locked = 'false';
-                // targFormKids.forEach((targKid) => {
+
+                if (targKid.type === 'text') {
+                    targKid.readOnly = false;
+                } else if (targKid.tagName === 'SELECT') {
+                    targKid.disabled = false;
+                }
+
+                switch (targKid.type) {
+                case 'color': targKid.disabled = false;
+                    break;
+                case 'file': targKid.disabled = false;
+                    break;
+                case 'checkbox': targKid.disabled = false;
+                    break;
+                default: break;
+                }
+            });
+        } else if (lockedBtn.dataset.locked === 'false') {
+            targFormKids.forEach((targKid) => {
+                const lockOpenIcon = lockedBtn.children[1];
+                lockOpenIcon.dataset.visibility = 'false';
+
+                const lockIcon = document.getElementById(`lock-${settingID}`);
+                lockIcon.dataset.visibility = 'true';
+
+                targKid.dataset.locked = 'true';
+
                 if (targKid.type === 'text') {
                     targKid.readOnly = true;
                 } else if (targKid.tagName === 'SELECT') {
                     targKid.disabled = true;
                 }
+
                 switch (targKid.type) {
                 case 'color': targKid.disabled = true;
                     break;
@@ -109,24 +139,10 @@ const EditThemeForm = ({ style }) => {
                     break;
                 default: break;
                 }
-            });
-        } else if (lockedBtn.dataset.locked === 'false') {
-            targFormKids.forEach((targKid) => {
-                lockedBtn.children[1].dataset.visibility = 'false';
-                document.getElementById(`lock-${settingID}`).dataset.visibility = 'true';
-                targKid.dataset.locked = 'true';
 
-                const formData = new FormData();
                 formData.append('settingID', settingID);
                 formData.append('userID', user.id);
-                if (targKid.type === 'text') {
-                    targKid.readOnly = false;
-                } else if (targKid.tagName === 'SELECT'
-                        || targKid.tagName === 'INPUT') {
-                    targKid.disabled = false;
-                    // console.log('nothing to see here');
-                }
-                // console.log(targKid.disabled);
+
                 if (targKid.tagName !== 'BUTTON') {
                     switch (targKid.name) {
                     case 'Theme Name': formData.append('themeName', targKid.value); break;
@@ -145,10 +161,10 @@ const EditThemeForm = ({ style }) => {
                     case 'Accent 3': formData.append('accent3', targKid.value); break;
                     default: break;
                     }
-                    dispatch(updateUserSetting(settingID, formData));
-                    setBackgroundMediaLoading(false);
                 }
             });
+            dispatch(updateUserSetting(settingID, formData));
+            setBackgroundMediaLoading(false);
         }
     };
 
