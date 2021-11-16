@@ -219,10 +219,10 @@ const EditThemeForm = ({ style }) => {
         }
     };
 
-    const updateActiveTheme = (e, eType) => {
+    const updateActiveTheme = (settingID, eType) => {
         dispatch(editProfile({
             column: eType,
-            id: e.target.dataset.settingId,
+            id: settingID,
         }));
     };
 
@@ -269,14 +269,13 @@ const EditThemeForm = ({ style }) => {
                 onClick={() => copyThemeData(setting.id)}
                 style={{ color: setting.font_color }}
             />
-            <button
-                data-setting-id={`${setting.id}`}
-                type='button'
-                onClick={(e) => updateActiveTheme(e, 'active_theme')}
+            <FontAwesomeIcon
+                alt='Unselected Theme'
+                title='Selected Theme'
+                icon='circle'
+                onClick={() => updateActiveTheme(setting.id, 'active_theme')}
                 style={{ color: setting.font_color }}
-            >
-                Use
-            </button>
+            />
             <FontAwesomeIcon
                 id={`cancel-btn-${setting.id}`}
                 data-setting-id={`${setting.id}`}

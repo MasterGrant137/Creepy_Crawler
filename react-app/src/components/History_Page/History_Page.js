@@ -44,6 +44,7 @@ const HistoryPage = ({ style }) => {
 
     const editProfileHandler = (eType) => {
         if (eType === 'clock_24') {
+            toggleClock((prevClock) => !prevClock);
             dispatch(editProfile({
                 clock_24: toggledClock,
                 column: eType,
@@ -136,10 +137,7 @@ const HistoryPage = ({ style }) => {
                 alt={`Convert to ${clock24 ? '12-Hour' : '24-Hour'} Time`}
                 title={`Convert to ${clock24 ? '12-Hour' : '24-Hour'} Time`}
                 src={clock24 ? clock12Icon : clock24Icon}
-                onClick={() => {
-                    toggleClock((prevClock) => !prevClock);
-                    editProfileHandler('clock_24');
-                }}
+                onClick={() => editProfileHandler('clock_24')}
                 style={{ backgroundColor: 'white' }}
             />
             {entries}

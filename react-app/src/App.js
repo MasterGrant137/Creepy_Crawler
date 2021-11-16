@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
     faBookOpen,
+    faCircle,
     faCogs,
     faCopy,
     faHistory,
@@ -31,6 +32,7 @@ import NavBar from './components/Navigation/Nav_Bar';
 
 library.add(
     faBookOpen,
+    faCircle,
     faCogs,
     faCopy,
     faHistory,
