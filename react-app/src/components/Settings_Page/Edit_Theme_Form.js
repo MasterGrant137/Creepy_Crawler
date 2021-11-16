@@ -184,8 +184,8 @@ const EditThemeForm = ({ style }) => {
         }
     };
 
-    const copyThemeData = (e) => {
-        const targSetting = { ...settingsObj[e.target.dataset.settingId] };
+    const copyThemeData = (settingID) => {
+        const targSetting = { ...settingsObj[settingID] };
         const themeName = targSetting.theme_name;
         const themeKey = themeName.toLowerCase().replace(/\s/, '_');
 
@@ -263,11 +263,10 @@ const EditThemeForm = ({ style }) => {
                 />
             </button>
             <FontAwesomeIcon
-                data-setting-id={`${setting.id}`}
                 alt='copy theme data'
                 title='copy theme data'
                 icon='copy'
-                onClick={copyThemeData}
+                onClick={() => copyThemeData(setting.id)}
                 style={{ color: setting.font_color }}
             />
             <button

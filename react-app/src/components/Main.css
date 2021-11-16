@@ -214,7 +214,7 @@ nav * {
 /*=================================*/
 /*$=========Conditional===========$*/
 /*=================================*/
-.not-allowed { cursor: not-allowed }
+* [data-sf2='not-allowed'], .not-allowed { cursor: not-allowed }
 
 .invisible, [data-visibility='false'] { display: none }
 /*=================================*/

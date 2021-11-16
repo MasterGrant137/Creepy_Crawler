@@ -101,35 +101,36 @@ const CreateThemeForm = ({ style }) => {
             <form className='setter-form-2' onSubmit={createSettingHandler} style={{ borderColor: style.accent_3 }}>
                 <h2 className='create-theme-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Create Theme</h2>
                 <button
-                    className={`sf2-submit-btn ${submitBtn ? '' : 'not-allowed'}`}
+                    className='sf2-submit-btn'
                     type={user.theme_count < 10 ? 'submit' : 'button'}
-                    onMouseOut={() => { setThemeLimitErr(false); }}
-                    style={{
-                        color: style.font_color,
-                        fontFamily: style.font_family,
-                        fontSize: style.font_size,
-                    }}
                 >
                     <FontAwesomeIcon
+                        data-sf2={`${submitBtn ? '' : 'not-allowed'}`}
                         alt='add theme'
                         title='add theme'
                         icon='plus-square'
                         onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                        onMouseOut={() => { setThemeLimitErr(false); }}
+                        style={{
+                            color: style.font_color,
+                            fontFamily: style.font_family,
+                            fontSize: style.font_size,
+                        }}
                     />
                 </button>
                 <span className={`${themeLimitErr ? 'inline-error' : 'invisible'}`}>Theme limit reached.</span>
-                <button
-                    type='button'
-                    className='sf2-reset-btn'
-                    onClick={resetHandler}
+                <FontAwesomeIcon
+                    data-sf2='reset-btn'
+                    alt='refresh'
+                    title='refresh'
+                    icon='sync'
+                    onClick={(e) => resetHandler(e)}
                     style={{
                         color: style.font_color,
                         fontFamily: style.font_family,
                         fontSize: style.font_size,
                     }}
-                >
-                    Refresh
-                </button>
+                />
                 <div className='sf2-row-a'>
                     <div className='theme-name-setter-div'>
                         <label htmlFor='theme-name-setter'>Theme Name</label>

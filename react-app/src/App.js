@@ -11,6 +11,7 @@ import {
     faLockOpen,
     faPlusSquare,
     faSignOutAlt,
+    faSync,
     faTrashAlt,
     faWindowClose,
 } from '@fortawesome/free-solid-svg-icons';
@@ -36,6 +37,7 @@ library.add(
     faLockOpen,
     faPlusSquare,
     faSignOutAlt,
+    faSync,
     faTrashAlt,
     faWindowClose,
 );

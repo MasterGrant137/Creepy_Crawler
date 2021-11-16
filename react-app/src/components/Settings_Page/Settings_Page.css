@@ -47,7 +47,13 @@
     top: 5%;
 }
 
-.sf2-reset-btn {
+* [data-sf2='submit-btn'] {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+* [data-sf2='reset-btn'] {
     position: absolute;
     left: 10%;
     top: 5%;
