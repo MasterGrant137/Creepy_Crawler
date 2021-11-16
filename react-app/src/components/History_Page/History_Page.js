@@ -22,7 +22,7 @@ const HistoryPage = ({ style }) => {
     }, [dispatch]);
 
     const [updatedAt, setUpdatedAt] = useState(new Date().toString());
-    const [toggledClock, toggleClock] = useState(clock24);
+    const [toggledClock, toggleClock] = useState(!clock24);
 
     const dateRegex = new RegExp([
         '([A-Z]{1}[a-z]{2}),\\s', //? day of the week
@@ -34,9 +34,7 @@ const HistoryPage = ({ style }) => {
     let prevDayOfWk = null;
     let prevDate = null;
 
-    const copyData = (data) => {
-        navigator.clipboard.writeText(data);
-    };
+    const copyData = (data) => navigator.clipboard.writeText(data);
 
     const updateHandler = async (e, entryID) => {
         e.preventDefault();
@@ -139,11 +137,7 @@ const HistoryPage = ({ style }) => {
                 title={`Convert to ${clock24 ? '12-Hour' : '24-Hour'} Time`}
                 src={clock24 ? clock12Icon : clock24Icon}
                 onClick={() => {
-                    toggleClock((prevClock) => {
-                        console.log(prevClock);
-                        console.log(!prevClock);
-                        return !prevClock;
-                    });
+                    toggleClock((prevClock) => !prevClock);
                     editProfileHandler('clock_24');
                 }}
                 style={{ backgroundColor: 'white' }}
