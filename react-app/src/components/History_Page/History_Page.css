@@ -1,6 +1,5 @@
 .history-clock-image {
     border-radius: 50%;
-    cursor: pointer;
     height: 25px;
     width: 25px;
 }
@@ -19,27 +18,21 @@
     width: 30%;
 }
 
-.hist-updated-at {
-    cursor: pointer;
+.hist-date { 
+    cursor: copy;
     grid-area: a;
 }
 
-.hist-tz {
-    cursor: pointer;
+.hist-time-and-tz { 
+    cursor: copy;
     grid-area: b;
 }
 
-.hist-day-of-week {
-    cursor: default;
-    grid-area: c;
-}
+.hist-day-of-week { grid-area: c }
 
-.hist-delete {
-    cursor: pointer;
-    grid-area: d;
-}
+.hist-delete { grid-area: d }
 
-.hist-text {
+.hist-text { 
     cursor: pointer;
     grid-area: e;
 }

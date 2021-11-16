@@ -5,11 +5,6 @@
     overflow-y: auto;
 }
 
-.setter-form-1 > input[type='file']::file-selector-button:hover,
-.setter-form-2 input[type='file']::file-selector-button:hover {
-    cursor: pointer;
-}
-
 .settings-page-header,
 .settings-actions-header,
 .theme-tester-header { 
@@ -53,7 +48,7 @@
     top: 5%;
 }
 
-* [data-sf2='reset-btn'] {
+* [data-sf2='reset'] {
     position: absolute;
     left: 10%;
     top: 5%;

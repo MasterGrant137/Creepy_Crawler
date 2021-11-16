@@ -106,8 +106,8 @@ const CreateThemeForm = ({ style }) => {
                 >
                     <FontAwesomeIcon
                         data-sf2={`${submitBtn ? '' : 'not-allowed'}`}
-                        alt='add theme'
-                        title='add theme'
+                        alt='Add Theme'
+                        title='Add Theme'
                         icon='plus-square'
                         onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
                         onMouseOut={() => { setThemeLimitErr(false); }}
@@ -120,9 +120,9 @@ const CreateThemeForm = ({ style }) => {
                 </button>
                 <span className={`${themeLimitErr ? 'inline-error' : 'invisible'}`}>Theme limit reached.</span>
                 <FontAwesomeIcon
-                    data-sf2='reset-btn'
-                    alt='refresh'
-                    title='refresh'
+                    data-sf2='reset'
+                    alt='Refresh Form'
+                    title='Refresh Form'
                     icon='sync'
                     onClick={(e) => resetHandler(e)}
                     style={{

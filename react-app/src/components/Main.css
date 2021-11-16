@@ -8,13 +8,13 @@
 
 *:disabled { cursor: not-allowed }
 
-*::-webkit-scrollbar {
-    display: none;
-}
+*::-webkit-scrollbar { display: none }
+
+*[data-icon='copy'] { cursor: copy }
+
+*[data-icon='book-open'] { cursor: not-allowed }
 
 img { user-select: none }
-
-input { cursor: pointer }
 
 input[type='file'] {
     height: fit-content;
@@ -29,22 +29,13 @@ input[type='file']::file-selector-button {
 
 input[type='password']:invalid:focus { outline: none }
 
-input:not(type='search') { text-align: center }
-
-select { 
-    cursor: pointer;
-    text-align: center
-}
-
 li { display: inline }
 
 ul { list-style-type: none }
-
 /*=================================*/
 /*$=============Groups============$*/
 /*=================================*/
 *[data-icon], button {
-    cursor: pointer;
     background-color: transparent;
     border: none;
     border-radius: 3px;
@@ -72,11 +63,10 @@ input[type='password'] {
     padding: 3px 6px;
 }
 
-input[type='text']:focus, input[type='search']:focus { cursor: text }
-
-input:not([type='search']), select {
+input:not(type='search'), select {
     border: none;
     border-radius: 9px;
+    text-align: center
 }
 
 h1, label { user-select: none }
@@ -152,9 +142,12 @@ nav {
 }
 
 nav * {
-    cursor: pointer;
     margin: 5px;
     user-select: none;
+}
+
+nav *[data-icon] {
+    cursor: pointer;
 }
 /*=================================*/
 /*$===========Search Page=========$*/
