@@ -248,23 +248,23 @@ const EditThemeForm = ({ style }) => {
                 <FontAwesomeIcon
                     id={`lock-${setting.id}`}
                     data-visibility='true'
-                    alt='unlock theme'
-                    title='unlock theme'
+                    alt='Unlock Theme'
+                    title='Unlock Theme'
                     icon='lock'
                     style={{ color: setting.font_color }}
                 />
                 <FontAwesomeIcon
                     id={`lock-open-${setting.id}`}
                     data-visibility='false'
-                    alt='lock theme'
-                    title='lock theme'
+                    alt='Lock Theme'
+                    title='Lock Theme'
                     icon='lock-open'
                     style={{ color: setting.font_color }}
                 />
             </button>
             <FontAwesomeIcon
-                alt='copy theme data'
-                title='copy theme data'
+                alt='Copy Theme Data'
+                title='Copy Theme Data'
                 icon='copy'
                 onClick={() => copyThemeData(setting.id)}
                 style={{ color: setting.font_color }}
@@ -281,15 +281,15 @@ const EditThemeForm = ({ style }) => {
                 id={`cancel-btn-${setting.id}`}
                 data-setting-id={`${setting.id}`}
                 className='invisible'
-                alt='cancel changes'
-                type='cancel changes'
+                alt='Cancel Changes'
+                type='Cancel Changes'
                 icon='window-close'
                 onClick={(e) => resetHandler(e)}
                 style={{ color: setting.font_color }}
             />
             <FontAwesomeIcon
-                alt='delete theme'
-                title='delete theme'
+                alt='Delete Theme'
+                title='Delete Theme'
                 icon='trash-alt'
                 onClick={(e) => deleteThemeHandler(e, setting.id)}
                 style={{ color: setting.font_color }}

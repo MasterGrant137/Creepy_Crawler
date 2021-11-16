@@ -14,8 +14,8 @@ const LogoutButton = ({ style }) => {
     };
 
     return <FontAwesomeIcon
-        alt='log out'
-        title='log out'
+        alt='Log Out'
+        title='Log Out'
         icon='sign-out-alt'
         onClick={onLogout}
         style={{ color: style.accent_2 }}>

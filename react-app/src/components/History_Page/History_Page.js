@@ -107,8 +107,8 @@ const HistoryPage = ({ style }) => {
                 </span>
                 <FontAwesomeIcon
                     className='hist-delete'
-                    alt='delete entry'
-                    title='delete entry'
+                    alt='Delete Entry'
+                    title='Delete Entry'
                     icon='trash-alt'
                     onClick={(e) => deleteHandler(e, entry.id)}
                     style={{ color: style.accent_2 }}
@@ -132,11 +132,15 @@ const HistoryPage = ({ style }) => {
         <div className='history-page-container'>
             <img
                 className='history-clock-image'
-                alt={`convert to ${clock24 ? '12-hour' : '24-hour'} time`}
-                title={`convert to ${clock24 ? '12-hour' : '24-hour'} time`}
+                alt={`Convert to ${clock24 ? '12-Hour' : '24-Hour'} Time`}
+                title={`Convert to ${clock24 ? '12-Hour' : '24-Hour'} Time`}
                 src={clock24 ? clock12Icon : clock24Icon}
                 onClick={() => {
-                    toggleClock((prevClock) => !prevClock);
+                    toggleClock((prevClock) => {
+                        console.log(prevClock);
+                        console.log(!prevClock);
+                        return !prevClock;
+                    });
                     editProfileHandler('clock_24');
                 }}
                 style={{ backgroundColor: 'white' }}

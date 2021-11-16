@@ -34,12 +34,17 @@ const NavBar = ({ style }) => {
                     target="_blank"
                     rel='noopener noreferrer'
                 >
-                    About
+                    <FontAwesomeIcon
+                        alt='About'
+                        title='About'
+                        icon='book-open'
+                        style={{ color: style.accent_2 }}
+                    />
                 </a>
                 {user && user.username}
                 <FontAwesomeIcon
-                    alt='home'
-                    title='home'
+                    alt='Home'
+                    title='Home'
                     icon='home'
                     onClick={(e) => navHandler(e, '/home')}
                 >
@@ -47,21 +52,21 @@ const NavBar = ({ style }) => {
                 </FontAwesomeIcon>
                 {user
           && <FontAwesomeIcon
-              alt='history'
-              title='history'
+              alt='History'
+              title='History'
               icon='history'
               onClick={(e) => navHandler(e, '/api/history/')}
           />
                 }
                 {user
           && <FontAwesomeIcon
-              alt='settings'
-              title='settings'
+              alt='Settings'
+              title='Settings'
               icon='cogs'
               onClick={(e) => navHandler(e, '/api/settings/')}
           />
                 }
-                {user && <img className='profile-media-small' src={user.profile_media} alt='user profile media' title='user profile media' />}
+                {user && <img className='profile-media-small' src={user.profile_media} alt='Profile Media' title='Profile Media' />}
                 {!user && <li data-link-dest='/api/auth/login' onClick={navHandler}>Login</li>}
                 {!user && <li data-link-dest='/api/auth/signup' onClick={navHandler}>Signup</li>}
                 {!user && <li data-link-dest='/' onClick={navHandler}>Demo Login</li>}
