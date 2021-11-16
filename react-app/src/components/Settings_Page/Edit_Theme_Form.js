@@ -84,78 +84,72 @@ const EditThemeForm = ({ style }) => {
         e.preventDefault();
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
+        const lockedBtn = targFormKids.find((ele) => ele.dataset.locked);
+        console.log(lockedBtn);
         const settingID = targForm.id;
 
-        targFormKids.forEach((targKid) => {
-            targKid.type === 'text' ? targKid.readOnly = false : targKid.disabled = false;
-            if (targKid.dataset.locked === 'true') {
-                targKid.children[0].dataset.visibility = 'false';
+        // targKid.type === 'text' ? targKid.readOnly = false : targKid.disabled = false;
+        if (lockedBtn.dataset.locked === 'true') {
+            targFormKids.forEach((targKid) => {
+                lockedBtn.children[0].dataset.visibility = 'false';
                 document.getElementById(`lock-open-${settingID}`).dataset.visibility = 'true';
                 targKid.dataset.locked = 'false';
-                console.log(targKid);
                 // targFormKids.forEach((targKid) => {
                 if (targKid.type === 'text') {
                     targKid.readOnly = true;
-                    console.log(targKid);
                 } else if (targKid.tagName === 'SELECT') {
                     targKid.disabled = true;
-                    console.log(targKid);
                 }
                 switch (targKid.type) {
                 case 'color': targKid.disabled = true;
-                    console.log(targKid);
                     break;
                 case 'file': targKid.disabled = true;
-                    console.log(targKid);
                     break;
                 case 'checkbox': targKid.disabled = true;
-                    console.log(targKid);
                     break;
                 default: break;
                 }
-                // });
-            } else if (targKid.dataset.locked === 'false') {
-                targKid.children[1].dataset.visibility = 'false';
+            });
+        } else if (lockedBtn.dataset.locked === 'false') {
+            targFormKids.forEach((targKid) => {
+                lockedBtn.children[1].dataset.visibility = 'false';
                 document.getElementById(`lock-${settingID}`).dataset.visibility = 'true';
                 targKid.dataset.locked = 'true';
 
                 const formData = new FormData();
                 formData.append('settingID', settingID);
                 formData.append('userID', user.id);
-
-                targFormKids.forEach((targChild) => {
-                    if (targChild.type === 'text') {
-                        targChild.readOnly = false;
-                    } else if (targChild.tagName === 'SELECT'
-                            || targChild.tagName === 'INPUT') {
-                        targChild.disabled = false;
-                        // console.log('nothing to see here');
+                if (targKid.type === 'text') {
+                    targKid.readOnly = false;
+                } else if (targKid.tagName === 'SELECT'
+                        || targKid.tagName === 'INPUT') {
+                    targKid.disabled = false;
+                    // console.log('nothing to see here');
+                }
+                // console.log(targKid.disabled);
+                if (targKid.tagName !== 'BUTTON') {
+                    switch (targKid.name) {
+                    case 'Theme Name': formData.append('themeName', targKid.value); break;
+                    case 'Background Color': formData.append('backgroundColor', targKid.value); break;
+                    case 'Background Media':
+                        formData.append('backgroundMedia', backgroundMedia);
+                        setBackgroundMediaLoading(true);
+                        targKid.value = '';
+                        break;
+                    case 'Background Rotate': formData.append('backgroundRotate', targKid.checked); break;
+                    case 'Font Color': formData.append('fontColor', targKid.value); break;
+                    case 'Font Family': formData.append('fontFamily', targKid.value.replace(/\s\|\s/, ', ')); break;
+                    case 'Font Size': formData.append('fontSize', `${targKid.value}px`); break;
+                    case 'Accent 1': formData.append('accent1', targKid.value); break;
+                    case 'Accent 2': formData.append('accent2', targKid.value); break;
+                    case 'Accent 3': formData.append('accent3', targKid.value); break;
+                    default: break;
                     }
-                    // console.log(targChild.disabled);
-                    if (targChild.tagName !== 'BUTTON') {
-                        switch (targChild.name) {
-                        case 'Theme Name': formData.append('themeName', targChild.value); break;
-                        case 'Background Color': formData.append('backgroundColor', targChild.value); break;
-                        case 'Background Media':
-                            formData.append('backgroundMedia', backgroundMedia);
-                            setBackgroundMediaLoading(true);
-                            targChild.value = '';
-                            break;
-                        case 'Background Rotate': formData.append('backgroundRotate', targChild.checked); break;
-                        case 'Font Color': formData.append('fontColor', targChild.value); break;
-                        case 'Font Family': formData.append('fontFamily', targChild.value.replace(/\s\|\s/, ', ')); break;
-                        case 'Font Size': formData.append('fontSize', `${targChild.value}px`); break;
-                        case 'Accent 1': formData.append('accent1', targChild.value); break;
-                        case 'Accent 2': formData.append('accent2', targChild.value); break;
-                        case 'Accent 3': formData.append('accent3', targChild.value); break;
-                        default: break;
-                        }
-                    }
-                });
-                dispatch(updateUserSetting(settingID, formData));
-                setBackgroundMediaLoading(false);
-            }
-        });
+                    dispatch(updateUserSetting(settingID, formData));
+                    setBackgroundMediaLoading(false);
+                }
+            });
+        }
     };
 
     const copyThemeData = (e) => {
