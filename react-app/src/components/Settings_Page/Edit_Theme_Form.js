@@ -210,8 +210,7 @@ const EditThemeForm = ({ style }) => {
         }));
     };
 
-    const deleteThemeHandler = async (e) => {
-        const settingID = e.target.dataset.settingId;
+    const deleteThemeHandler = async (e, settingID) => {
         if (user.theme_count > 0) {
             await dispatch(deleteUserSetting(settingID));
             decrementThemeCount('theme_count', 'decrement');
@@ -290,11 +289,10 @@ const EditThemeForm = ({ style }) => {
                 Cancel
             </button>
             <FontAwesomeIcon
-                data-setting-id={`${setting.id}`}
                 alt='delete theme'
                 title='delete theme'
                 icon='trash-alt'
-                onClick={(e) => deleteThemeHandler(e)}
+                onClick={(e) => deleteThemeHandler(e, setting.id)}
                 style={{ color: setting.font_color }}
             />
             <label htmlFor={`theme-name-editor-${idx}`}>Theme Name</label>

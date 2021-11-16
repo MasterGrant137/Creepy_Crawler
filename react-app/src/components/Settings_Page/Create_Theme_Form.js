@@ -101,9 +101,7 @@ const CreateThemeForm = ({ style }) => {
             <form className='setter-form-2' onSubmit={createSettingHandler} style={{ borderColor: style.accent_3 }}>
                 <h2 className='create-theme-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Create Theme</h2>
                 <button
-                    className={`sf2-submit-btn ${submitBtn ? '' : 'not-allowed'}`}
                     type={user.theme_count < 10 ? 'submit' : 'button'}
-                    onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
                     onMouseOut={() => { setThemeLimitErr(false); }}
                     style={{
                         color: style.font_color,
@@ -111,8 +109,14 @@ const CreateThemeForm = ({ style }) => {
                         fontSize: style.font_size,
                     }}
                 >
-                    <FontAwesomeIcon />
-                    Submit <span className={`${themeLimitErr ? 'inline-error' : 'invisible'}`}>Theme limit reached.</span>
+                    <FontAwesomeIcon
+                        className={`sf2-submit-btn ${submitBtn ? '' : 'not-allowed'}`}
+                        alt='add theme'
+                        title='add theme'
+                        icon='plus-square'
+                        onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                    />
+                    <span className={`${themeLimitErr ? 'inline-error' : 'invisible'}`}>Theme limit reached.</span>
                 </button>
                 <button
                     type='button'
