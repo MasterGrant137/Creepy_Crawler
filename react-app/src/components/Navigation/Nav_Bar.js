@@ -57,7 +57,7 @@ const NavBar = ({ style }) => {
           && <FontAwesomeIcon
               alt='settings'
               title='settings'
-              icon='user-cog'
+              icon='cogs'
               onClick={(e) => navHandler(e, '/api/settings/')}
           />
                 }

@@ -199,11 +199,11 @@ nav * {
     animation: inline-error-fade-in-out 3s;
     background-color: rgb(255, 255, 255);
     color: black;
+    left: 23.75%;
     opacity: 0;
     padding: 10px;
-    position: relative;
-    right: 85px;
-    top: 20px;
+    position: absolute;
+    top: 3%;
 }
 
 @keyframes inline-error-fade-in-out {

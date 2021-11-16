@@ -278,16 +278,16 @@ const EditThemeForm = ({ style }) => {
             >
                 Use
             </button>
-            <button
+            <FontAwesomeIcon
                 id={`cancel-btn-${setting.id}`}
                 data-setting-id={`${setting.id}`}
                 className='invisible'
-                type='button'
-                onClick={resetHandler}
+                alt='cancel changes'
+                type='cancel changes'
+                icon='window-close'
+                onClick={(e) => resetHandler(e)}
                 style={{ color: setting.font_color }}
-            >
-                Cancel
-            </button>
+            />
             <FontAwesomeIcon
                 alt='delete theme'
                 title='delete theme'

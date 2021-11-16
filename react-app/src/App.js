@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
+    faCogs,
     faCopy,
     faHistory,
     faHome,
@@ -11,7 +12,7 @@ import {
     faPlusSquare,
     faSignOutAlt,
     faTrashAlt,
-    faUserCog,
+    faWindowClose,
 } from '@fortawesome/free-solid-svg-icons';
 import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
 import HistoryPage from './components/History_Page/History_Page';
@@ -27,6 +28,7 @@ import NavBar from './components/Navigation/Nav_Bar';
 // import defaultThemes from './default_themes.json';
 
 library.add(
+    faCogs,
     faCopy,
     faHistory,
     faHome,
@@ -35,7 +37,7 @@ library.add(
     faPlusSquare,
     faSignOutAlt,
     faTrashAlt,
-    faUserCog,
+    faWindowClose,
 );
 
 function App() {
