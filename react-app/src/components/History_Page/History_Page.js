@@ -34,6 +34,10 @@ const HistoryPage = ({ style }) => {
     let prevDayOfWk = null;
     let prevDate = null;
 
+    const copyData = (data) => {
+        navigator.clipboard.writeText(data);
+    };
+
     const updateHandler = async (e, entryID) => {
         e.preventDefault();
         const data = await dispatch(updateHistoryEntry({ entryID, updatedAt }));
@@ -62,7 +66,7 @@ const HistoryPage = ({ style }) => {
                 className='history-entry-div'
                 style={{ backgroundColor: style.background_color }}
             >
-                <h2 id={`day-of-week-ele${entry.id}`} className='hist-day-of-week'>
+                <h2 className='hist-day-of-week'>
                     {(() => {
                         const dayOfWk = entry.updated_at.replace(dateRegex, '$1');
                         const date = entry.updated_at.replace(dateRegex, '$2');
@@ -79,8 +83,8 @@ const HistoryPage = ({ style }) => {
                     })()}
                 </h2>
                 <span
-                    id='updated-at-ele'
-                    className='hist-updated-at'
+                    className='hist-date'
+                    onClick={(e) => copyData(e.target.innerText)}
                     style={{ color: style.accent_2 }}
                 >
                     {(() => {
@@ -89,8 +93,8 @@ const HistoryPage = ({ style }) => {
                     })()}
                 </span>
                 <span
-                    id={`tz-ele-${entry.id}`}
-                    className='hist-tz'
+                    className='hist-time-and-tz'
+                    onClick={(e) => copyData(`${e.target.innerText} (${entry.tz})`)}
                     style={{ color: style.accent_2 }}
                 >
                     {(() => {
@@ -114,7 +118,6 @@ const HistoryPage = ({ style }) => {
                     style={{ color: style.accent_2 }}
                 />
                 <span
-                    id={`entry-ele${entry.id}`}
                     className='hist-text'
                     onClick={(e) => {
                         const date = new Date();
