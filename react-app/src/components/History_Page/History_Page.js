@@ -16,9 +16,14 @@ const HistoryPage = ({ style }) => {
     const entriesObj = useSelector((state) => state.history);
     const clock24 = useSelector((state) => state.session.user.clock_24);
 
+    useEffect(() => {
+        dispatch(readHistoryEntries());
+        dispatch(readUserSettings());
+    }, [dispatch]);
+
     const [updatedAt, setUpdatedAt] = useState(new Date().toString());
     const [toggledClock, toggleClock] = useState(clock24);
-    const [clockType, setClockType] = useState(!toggledClock ? '12-hour' : '24-hour');
+    const [clock, setClock] = useState(false);
 
     const dateRegex = new RegExp([
         '([A-Z]{1}[a-z]{2}),\\s', //? day of the week
@@ -30,26 +35,21 @@ const HistoryPage = ({ style }) => {
     let prevDayOfWk = null;
     let prevDate = null;
 
-    useEffect(() => {
-        dispatch(readHistoryEntries());
-        dispatch(readUserSettings());
-    }, [dispatch]);
-
     const updateHandler = async (e, entryID) => {
         e.preventDefault();
         const data = await dispatch(updateHistoryEntry({ entryID, updatedAt }));
         if (data) history.push('/');
     };
 
-    const editProfileHandler = async (eType) => {
+    const editProfileHandler = (eType) => {
+        setClock((prevClock) => !prevClock);
+        console.log(clock);
         if (eType === 'clock_24') {
-            console.log(eType, 'HERRRRRE');
-            await toggleClock((prevClock) => !prevClock);
-            await setClockType(!toggledClock ? '12-hour' : '24-hour');
             dispatch(editProfile({
                 clock_24: toggledClock,
                 column: eType,
             }));
+            console.log(toggledClock);
         }
     };
 
@@ -99,7 +99,7 @@ const HistoryPage = ({ style }) => {
                 >
                     {(() => {
                         const time = entry.updated_at.replace(dateRegex, '$3');
-                        if (clockType === '24-hour') return time;
+                        if (clock24) return time;
 
                         const hour = +`${time[0]}${time[1]}`;
                         const minutes = `${time[3]}${time[4]}`;
@@ -136,14 +136,15 @@ const HistoryPage = ({ style }) => {
         <div className='history-page-container'>
             <img
                 className='history-clock-image'
-                alt={`convert to ${clockType} time`}
-                title={`convert to ${clockType} time`}
-                src={clockType === '12-hour' ? clock12Icon : clock24Icon}
-                onClick={() => editProfileHandler('clock_24')}
-                style={{
-                    backgroundColor: 'white',
-                    // color: style.font_color,
+                alt={`convert to ${clock24 ? '12-hour' : '24-hour'} time`}
+                title={`convert to ${clock24 ? '12-hour' : '24-hour'} time`}
+                src={clock24 ? clock12Icon : clock24Icon}
+                onClick={() => {
+                    toggleClock((prevClock) => !prevClock);
+                    console.log(toggledClock);
+                    editProfileHandler('clock_24');
                 }}
+                style={{ backgroundColor: 'white' }}
             />
             {entries}
         </div>
