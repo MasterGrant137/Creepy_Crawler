@@ -23,7 +23,6 @@ const HistoryPage = ({ style }) => {
 
     const [updatedAt, setUpdatedAt] = useState(new Date().toString());
     const [toggledClock, toggleClock] = useState(clock24);
-    const [clock, setClock] = useState(false);
 
     const dateRegex = new RegExp([
         '([A-Z]{1}[a-z]{2}),\\s', //? day of the week
@@ -42,14 +41,11 @@ const HistoryPage = ({ style }) => {
     };
 
     const editProfileHandler = (eType) => {
-        setClock((prevClock) => !prevClock);
-        console.log(clock);
         if (eType === 'clock_24') {
             dispatch(editProfile({
                 clock_24: toggledClock,
                 column: eType,
             }));
-            console.log(toggledClock);
         }
     };
 
@@ -141,7 +137,6 @@ const HistoryPage = ({ style }) => {
                 src={clock24 ? clock12Icon : clock24Icon}
                 onClick={() => {
                     toggleClock((prevClock) => !prevClock);
-                    console.log(toggledClock);
                     editProfileHandler('clock_24');
                 }}
                 style={{ backgroundColor: 'white' }}
