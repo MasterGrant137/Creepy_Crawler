@@ -34,18 +34,30 @@ const EditThemeForm = ({ style }) => {
         const prev = settingsObj[targID];
         const targFormKids = Array.from(targForm.children);
 
+        const lockOpenIcon = document.getElementById(`lock-open-${targID}`);
+        const lockIcon = document.getElementById(`lock-${targID}`);
+        const lockBtn = document.getElementById(`lock-btn-${targID}`);
+        const cancelBtn = document.getElementById(`cancel-btn-${targID}`);
+
+        lockOpenIcon.dataset.visibility = 'false';
+        lockIcon.dataset.visibility = 'true';
+        lockBtn.dataset.locked = 'true';
+        cancelBtn.classList.add('invisible');
+
         targFormKids.forEach((targKid) => {
-            // if (targKid.type === 'text') targKid.readOnly = true;
-            // else if (targKid.tagName === 'SELECT') targKid.disabled = true;
-            // else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
-            //     targKid.innerText = 'Edit';
-            // }
+            if (targKid.type === 'text') targKid.readOnly = true;
+            else if (targKid.tagName === 'SELECT') targKid.disabled = true;
+            else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
+                targKid.innerText = 'Edit';
+            }
+
             switch (targKid.type) {
             case 'color': targKid.disabled = true; break;
             case 'file': targKid.disabled = true; break;
             case 'checkbox': targKid.disabled = true; break;
             default: break;
             }
+
             switch (targKid.name) {
             case 'Theme Name': targKid.value = prev.theme_name; break;
             case 'Background Color': targKid.value = prev.background_color; break;
@@ -84,19 +96,21 @@ const EditThemeForm = ({ style }) => {
         e.preventDefault();
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
-        const lockedBtn = targFormKids.find((ele) => ele.dataset.locked);
+        const lockBtn = targFormKids.find((ele) => ele.dataset.locked);
         const settingID = targForm.id;
         const formData = new FormData();
 
-        if (lockedBtn.dataset.locked === 'true') {
+        if (lockBtn.dataset.locked === 'true') {
             targFormKids.forEach((targKid) => {
-                const lockIcon = lockedBtn.children[0];
+                const lockIcon = lockBtn.children[0];
                 lockIcon.dataset.visibility = 'false';
 
                 const lockOpenIcon = document.getElementById(`lock-open-${settingID}`);
                 lockOpenIcon.dataset.visibility = 'true';
-
                 targKid.dataset.locked = 'false';
+
+                const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
+                cancelBtn.classList.remove('invisible');
 
                 if (targKid.type === 'text') {
                     targKid.readOnly = false;
@@ -114,15 +128,17 @@ const EditThemeForm = ({ style }) => {
                 default: break;
                 }
             });
-        } else if (lockedBtn.dataset.locked === 'false') {
+        } else if (lockBtn.dataset.locked === 'false') {
             targFormKids.forEach((targKid) => {
-                const lockOpenIcon = lockedBtn.children[1];
+                const lockOpenIcon = lockBtn.children[1];
                 lockOpenIcon.dataset.visibility = 'false';
 
                 const lockIcon = document.getElementById(`lock-${settingID}`);
                 lockIcon.dataset.visibility = 'true';
-
                 targKid.dataset.locked = 'true';
+
+                const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
+                cancelBtn.classList.add('invisible');
 
                 if (targKid.type === 'text') {
                     targKid.readOnly = true;
@@ -226,6 +242,7 @@ const EditThemeForm = ({ style }) => {
             }}
         >
             <button
+                id={`lock-btn-${setting.id}`}
                 data-setting-id={`${setting.id}`}
                 data-locked='true'
             >
@@ -259,7 +276,9 @@ const EditThemeForm = ({ style }) => {
                 Use
             </button>
             <button
+                id={`cancel-btn-${setting.id}`}
                 data-setting-id={`${setting.id}`}
+                className='invisible'
                 type='button'
                 onClick={resetHandler}
                 style={{ color: setting.font_color }}
