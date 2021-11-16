@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
 import { createUserSetting } from '../../store/settings_store';
 import dropdownData from './dropdown_data.json';
@@ -110,6 +111,7 @@ const CreateThemeForm = ({ style }) => {
                         fontSize: style.font_size,
                     }}
                 >
+                    <FontAwesomeIcon />
                     Submit <span className={`${themeLimitErr ? 'inline-error' : 'invisible'}`}>Theme limit reached.</span>
                 </button>
                 <button

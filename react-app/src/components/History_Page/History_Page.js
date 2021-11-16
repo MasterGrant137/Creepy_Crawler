@@ -108,8 +108,8 @@ const HistoryPage = ({ style }) => {
                 </span>
                 <FontAwesomeIcon
                     className='hist-delete'
-                    alt='delete theme'
-                    title='delete theme'
+                    alt='delete entry'
+                    title='delete entry'
                     icon='trash-alt'
                     onClick={(e) => deleteHandler(e, entry.id)}
                     style={{ color: style.accent_2 }}

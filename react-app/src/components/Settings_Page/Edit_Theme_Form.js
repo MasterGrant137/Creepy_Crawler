@@ -265,6 +265,8 @@ const EditThemeForm = ({ style }) => {
             </button>
             <FontAwesomeIcon
                 data-setting-id={`${setting.id}`}
+                alt='copy theme data'
+                title='copy theme data'
                 icon='copy'
                 onClick={copyThemeData}
                 style={{ color: setting.font_color }}
@@ -289,6 +291,8 @@ const EditThemeForm = ({ style }) => {
             </button>
             <FontAwesomeIcon
                 data-setting-id={`${setting.id}`}
+                alt='delete theme'
+                title='delete theme'
                 icon='trash-alt'
                 onClick={(e) => deleteThemeHandler(e)}
                 style={{ color: setting.font_color }}
