@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
 import { updateUserSetting, deleteUserSetting } from '../../store/settings_store';
 import dropdownData from './dropdown_data.json';
@@ -33,18 +34,30 @@ const EditThemeForm = ({ style }) => {
         const prev = settingsObj[targID];
         const targFormKids = Array.from(targForm.children);
 
+        const lockOpenIcon = document.getElementById(`lock-open-${targID}`);
+        const lockIcon = document.getElementById(`lock-${targID}`);
+        const lockBtn = document.getElementById(`lock-btn-${targID}`);
+        const cancelBtn = document.getElementById(`cancel-btn-${targID}`);
+
+        lockOpenIcon.dataset.visibility = 'false';
+        lockIcon.dataset.visibility = 'true';
+        lockBtn.dataset.locked = 'true';
+        cancelBtn.classList.add('invisible');
+
         targFormKids.forEach((targKid) => {
             if (targKid.type === 'text') targKid.readOnly = true;
             else if (targKid.tagName === 'SELECT') targKid.disabled = true;
             else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
                 targKid.innerText = 'Edit';
             }
+
             switch (targKid.type) {
             case 'color': targKid.disabled = true; break;
             case 'file': targKid.disabled = true; break;
             case 'checkbox': targKid.disabled = true; break;
             default: break;
             }
+
             switch (targKid.name) {
             case 'Theme Name': targKid.value = prev.theme_name; break;
             case 'Background Color': targKid.value = prev.background_color; break;
@@ -81,63 +94,136 @@ const EditThemeForm = ({ style }) => {
 
     const editFormHandler = async (e) => {
         e.preventDefault();
-
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
+        const lockBtn = targFormKids.find((ele) => ele.dataset.locked);
         const settingID = targForm.id;
+        const formData = new FormData();
 
-        targFormKids.forEach((targKid) => {
-            if (targKid.type === 'text') targKid.readOnly = false;
-            else targKid.disabled = false;
-            if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Edit') {
-                targKid.innerText = 'Submit';
-            } else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
-                targKid.innerText = 'Edit';
+        if (lockBtn.dataset.locked === 'true') {
+            targFormKids.forEach((targKid) => {
+                const lockIcon = lockBtn.children[0];
+                lockIcon.dataset.visibility = 'false';
 
-                const formData = new FormData();
+                const lockOpenIcon = document.getElementById(`lock-open-${settingID}`);
+                lockOpenIcon.dataset.visibility = 'true';
+                targKid.dataset.locked = 'false';
+
+                const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
+                cancelBtn.classList.remove('invisible');
+
+                if (targKid.type === 'text') {
+                    targKid.readOnly = false;
+                } else if (targKid.tagName === 'SELECT') {
+                    targKid.disabled = false;
+                }
+
+                switch (targKid.type) {
+                case 'color': targKid.disabled = false;
+                    break;
+                case 'file': targKid.disabled = false;
+                    break;
+                case 'checkbox': targKid.disabled = false;
+                    break;
+                default: break;
+                }
+            });
+        } else if (lockBtn.dataset.locked === 'false') {
+            targFormKids.forEach((targKid) => {
+                const lockOpenIcon = lockBtn.children[1];
+                lockOpenIcon.dataset.visibility = 'false';
+
+                const lockIcon = document.getElementById(`lock-${settingID}`);
+                lockIcon.dataset.visibility = 'true';
+                targKid.dataset.locked = 'true';
+
+                const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
+                cancelBtn.classList.add('invisible');
+
+                if (targKid.type === 'text') {
+                    targKid.readOnly = true;
+                } else if (targKid.tagName === 'SELECT') {
+                    targKid.disabled = true;
+                }
+
+                switch (targKid.type) {
+                case 'color': targKid.disabled = true;
+                    break;
+                case 'file': targKid.disabled = true;
+                    break;
+                case 'checkbox': targKid.disabled = true;
+                    break;
+                default: break;
+                }
+
                 formData.append('settingID', settingID);
                 formData.append('userID', user.id);
 
-                targFormKids.forEach((targChild) => {
-                    if (targChild.tagName !== 'BUTTON') {
-                        switch (targChild.name) {
-                        case 'Theme Name': formData.append('themeName', targChild.value); break;
-                        case 'Background Color': formData.append('backgroundColor', targChild.value); break;
-                        case 'Background Media':
-                            formData.append('backgroundMedia', backgroundMedia);
-                            setBackgroundMediaLoading(true);
-                            targChild.value = '';
-                            break;
-                        case 'Background Rotate': formData.append('backgroundRotate', targChild.checked); break;
-                        case 'Font Color': formData.append('fontColor', targChild.value); break;
-                        case 'Font Family': formData.append('fontFamily', targChild.value.replace(/\s\|\s/, ', ')); break;
-                        case 'Font Size': formData.append('fontSize', `${targChild.value}px`); break;
-                        case 'Accent 1': formData.append('accent1', targChild.value); break;
-                        case 'Accent 2': formData.append('accent2', targChild.value); break;
-                        case 'Accent 3': formData.append('accent3', targChild.value); break;
-                        default: break;
-                        }
-                        targChild.type === 'text' ? targChild.readOnly = true : targChild.disabled = true;
+                if (targKid.tagName !== 'BUTTON') {
+                    switch (targKid.name) {
+                    case 'Theme Name': formData.append('themeName', targKid.value); break;
+                    case 'Background Color': formData.append('backgroundColor', targKid.value); break;
+                    case 'Background Media':
+                        formData.append('backgroundMedia', backgroundMedia);
+                        setBackgroundMediaLoading(true);
+                        targKid.value = '';
+                        break;
+                    case 'Background Rotate': formData.append('backgroundRotate', targKid.checked); break;
+                    case 'Font Color': formData.append('fontColor', targKid.value); break;
+                    case 'Font Family': formData.append('fontFamily', targKid.value.replace(/\s\|\s/, ', ')); break;
+                    case 'Font Size': formData.append('fontSize', `${targKid.value}px`); break;
+                    case 'Accent 1': formData.append('accent1', targKid.value); break;
+                    case 'Accent 2': formData.append('accent2', targKid.value); break;
+                    case 'Accent 3': formData.append('accent3', targKid.value); break;
+                    default: break;
                     }
-                });
-                dispatch(updateUserSetting(settingID, formData));
-                setBackgroundMediaLoading(false);
-            }
-        });
-    };
-
-    const deleteThemeHandler = (e) => {
-        const settingID = e.target.dataset.settingId;
-        dispatch(deleteUserSetting(settingID));
-    };
-
-    const editProfileHandler = (e, eType) => {
-        if (eType === 'active_theme') {
-            dispatch(editProfile({
-                id: e.target.dataset.settingId,
-                column: eType,
-            }));
+                }
+            });
+            dispatch(updateUserSetting(settingID, formData));
+            setBackgroundMediaLoading(false);
         }
+    };
+
+    const copyThemeData = (settingID) => {
+        const targSetting = { ...settingsObj[settingID] };
+        const themeName = targSetting.theme_name;
+        const themeKey = themeName.toLowerCase().replace(/\s/, '_');
+
+        delete targSetting.id;
+        delete targSetting.user_id;
+        delete targSetting.theme_name;
+
+        const entriesArr = Object.entries(targSetting);
+        const entriesFormatted = [];
+        entriesArr.forEach((entry) => {
+            const formattedEntry = `${'\t'}"${entry[0]}": "${entry[1]}"`;
+            entriesFormatted.push(formattedEntry);
+        });
+        const entries = entriesFormatted.join(',\n');
+        navigator.clipboard.writeText(`"${themeKey}": {${'\n'}${entries}${'\n'}}`);
+    };
+
+    const decrementThemeCount = (eType, operation) => {
+        dispatch(editProfile({
+            column: eType,
+            operation,
+        }));
+    };
+
+    const deleteThemeHandler = async (e, settingID) => {
+        if (user.theme_count > 0) {
+            await dispatch(deleteUserSetting(settingID));
+            decrementThemeCount('theme_count', 'decrement');
+        } else {
+            alert('You are not permitted to delete any more themes!');
+        }
+    };
+
+    const updateActiveTheme = (e, eType) => {
+        dispatch(editProfile({
+            column: eType,
+            id: e.target.dataset.settingId,
+        }));
     };
 
     const editorThemes = Object.values(settingsObj).map((setting, idx) => (
@@ -154,15 +240,70 @@ const EditThemeForm = ({ style }) => {
                 fontFamily: setting.font_family,
             }}
         >
+            <button
+                id={`lock-btn-${setting.id}`}
+                data-setting-id={`${setting.id}`}
+                data-locked='true'
+            >
+                <FontAwesomeIcon
+                    id={`lock-${setting.id}`}
+                    data-visibility='true'
+                    alt='unlock theme'
+                    title='unlock theme'
+                    icon='lock'
+                    style={{ color: setting.font_color }}
+                />
+                <FontAwesomeIcon
+                    id={`lock-open-${setting.id}`}
+                    data-visibility='false'
+                    alt='lock theme'
+                    title='lock theme'
+                    icon='lock-open'
+                    style={{ color: setting.font_color }}
+                />
+            </button>
+            <FontAwesomeIcon
+                alt='copy theme data'
+                title='copy theme data'
+                icon='copy'
+                onClick={() => copyThemeData(setting.id)}
+                style={{ color: setting.font_color }}
+            />
+            <button
+                data-setting-id={`${setting.id}`}
+                type='button'
+                onClick={(e) => updateActiveTheme(e, 'active_theme')}
+                style={{ color: setting.font_color }}
+            >
+                Use
+            </button>
+            <FontAwesomeIcon
+                id={`cancel-btn-${setting.id}`}
+                data-setting-id={`${setting.id}`}
+                className='invisible'
+                alt='cancel changes'
+                type='cancel changes'
+                icon='window-close'
+                onClick={(e) => resetHandler(e)}
+                style={{ color: setting.font_color }}
+            />
+            <FontAwesomeIcon
+                alt='delete theme'
+                title='delete theme'
+                icon='trash-alt'
+                onClick={(e) => deleteThemeHandler(e, setting.id)}
+                style={{ color: setting.font_color }}
+            />
             <label htmlFor={`theme-name-editor-${idx}`}>Theme Name</label>
             <input
                 id={`theme-name-editor-${idx}`}
                 type='text'
                 name='Theme Name'
                 maxLength='50'
-                placeholder='Theme Name (Max 50)'
-                aria-placeholder='Theme Name (Max 50)'
+                placeholder='50 Characters Max'
+                aria-placeholder='50 Characters Max'
                 defaultValue={setting.theme_name}
+                readOnly
                 style={{ fontFamily: setting.font_family }}
             />
             <label htmlFor={`font-size-editor-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
@@ -213,31 +354,6 @@ const EditThemeForm = ({ style }) => {
             <label htmlFor={`accent-3-color-editor-${idx}`} style={{ color: setting.accent_3 }}>Accent 3</label>
             <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' disabled defaultValue={setting.accent_3} />
 
-            <button
-                data-setting-id={`${setting.id}`}
-                type='button'
-                onClick={(e) => editProfileHandler(e, 'active_theme')}
-                style={{ color: setting.font_color }}
-            >
-                Use
-            </button>
-            <button style={{ color: setting.font_color }}>Edit</button>
-            <button
-                data-setting-id={`${setting.id}`}
-                type='button'
-                onClick={resetHandler}
-                style={{ color: setting.font_color }}
-            >
-                Cancel
-            </button>
-            <button
-                data-setting-id={`${setting.id}`}
-                type='button'
-                onClick={(e) => deleteThemeHandler(e)}
-                style={{ color: setting.font_color }}
-            >
-                Delete
-            </button>
         </form>
     ));
 

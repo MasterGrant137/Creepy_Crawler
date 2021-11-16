@@ -67,7 +67,8 @@ const LoginForm = ({ style }) => {
                         ref={emailInput}
                         name='Email'
                         type='email'
-                        placeholder='Email'
+                        placeholder='jappleseed@email.com'
+                        aria-placeholder='jappleseed@email.com'
                         value={email}
                         onChange={updateEmail}
                         required
@@ -82,7 +83,8 @@ const LoginForm = ({ style }) => {
                         type='password'
                         minLength='8'
                         maxLength='255'
-                        placeholder='Password'
+                        placeholder='a1%Bp9!U'
+                        aria-placeholder='a1%Bp9!U'
                         value={password}
                         onChange={updatePassword}
                         required={passwordRequired}

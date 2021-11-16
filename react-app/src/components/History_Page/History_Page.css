@@ -1,3 +1,10 @@
+.history-clock-image {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+
 .history-entry-div {
     display: grid;
     grid-template-areas: 
@@ -23,7 +30,7 @@
 }
 
 .hist-day-of-week {
-    user-select: none;
+    cursor: default;
     grid-area: c;
 }
 
@@ -35,5 +42,4 @@
 .hist-text {
     cursor: pointer;
     grid-area: e;
-    user-select: none;
 }

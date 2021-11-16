@@ -15,14 +15,10 @@ const SettingsPage = ({ style }) => {
         dispatch(readUserSettings());
     }, [dispatch]);
 
-    const editProfileHandler = (e, eType) => {
-        e.preventDefault();
-
-        if (eType === 'reset_theme') {
-            dispatch(editProfile({
-                column: eType,
-            }));
-        }
+    const resetTheme = (eType) => {
+        dispatch(editProfile({
+            column: eType,
+        }));
     };
 
     return (
@@ -35,7 +31,7 @@ const SettingsPage = ({ style }) => {
                 >
                     <h2 className='settings-actions-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Profile</h2>
                     <ProfileMediaForm style={style} />
-                    <button type='button' onClick={(e) => editProfileHandler(e, 'reset_theme')}>Set Theme to Default</button>
+                    <button type='button' onClick={() => resetTheme('reset_theme')}>Set Theme to Default</button>
                 </div>
                 <div
                     className='create-theme-container'

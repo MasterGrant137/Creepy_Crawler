@@ -3,7 +3,17 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
-    faHome, faHistory, faUserCog, faSignOutAlt,
+    faCogs,
+    faCopy,
+    faHistory,
+    faHome,
+    faLock,
+    faLockOpen,
+    faPlusSquare,
+    faSignOutAlt,
+    faSync,
+    faTrashAlt,
+    faWindowClose,
 } from '@fortawesome/free-solid-svg-icons';
 import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
 import HistoryPage from './components/History_Page/History_Page';
@@ -16,8 +26,21 @@ import ProtectedRoute from './components/auth/ProtectedRoute';
 import LoginForm from './components/auth/LoginForm';
 import SignupForm from './components/auth/SignupForm';
 import NavBar from './components/Navigation/Nav_Bar';
+// import defaultThemes from './default_themes.json';
 
-library.add(faHome, faHistory, faUserCog, faSignOutAlt);
+library.add(
+    faCogs,
+    faCopy,
+    faHistory,
+    faHome,
+    faLock,
+    faLockOpen,
+    faPlusSquare,
+    faSignOutAlt,
+    faSync,
+    faTrashAlt,
+    faWindowClose,
+);
 
 function App() {
     const [loaded, setLoaded] = useState(false);
@@ -33,7 +56,7 @@ function App() {
         background_rotate: aT?.background_rotate || false,
         background_media: aT?.background_media ? `url('${aT?.background_media}')` : 'url()',
         font_color: aT?.font_color || '#e85a4f',
-        font_family: aT?.font_family || 'Georgia, serif',
+        font_family: aT?.font_family || 'Raleway, sans-serif',
         font_size: aT?.font_size || '16px',
         accent_1: aT?.accent_1 || '#d8c3a5',
         accent_2: aT?.accent_2 || '#8e8d8a',

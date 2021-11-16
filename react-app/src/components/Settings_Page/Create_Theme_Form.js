@@ -1,12 +1,15 @@
 import { useState, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import dropdownData from './dropdown_data.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { editProfile } from '../../store/session';
 import { createUserSetting } from '../../store/settings_store';
+import dropdownData from './dropdown_data.json';
 
 const CreateThemeForm = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector((state) => state.session.user);
     const fileInput = useRef(null);
+    const submitBtn = user.theme_count < 10;
 
     const fontFamiliesRaw = dropdownData.fonts;
     const fontFamilies = fontFamiliesRaw.map((fontFamily) => (
@@ -32,6 +35,7 @@ const CreateThemeForm = ({ style }) => {
     const [fontFamily, setFontFamily] = useState(style.font_family);
     const [fontSize, setFontSize] = useState(style.font_size);
     const [fontColor, setFontColor] = useState(style.font_color);
+    const [themeLimitErr, setThemeLimitErr] = useState(false);
     const [themeName, setThemeName] = useState('');
 
     const resetHandler = (e) => {
@@ -55,29 +59,41 @@ const CreateThemeForm = ({ style }) => {
         if (file) setBackgroundMedia(file);
     };
 
+    const incrementThemeCount = (eType, operation) => {
+        dispatch(editProfile({
+            column: eType,
+            operation,
+        }));
+    };
+
     const createSettingHandler = async (e) => {
         e.preventDefault();
 
-        const userID = user.id;
-        const formData = new FormData();
+        if (user.theme_count < 10) {
+            const userID = user.id;
+            const formData = new FormData();
 
-        formData.append('userID', userID);
-        formData.append('themeName', themeName);
-        formData.append('backgroundMedia', backgroundMedia);
-        setBackgroundMediaLoading(true);
-        formData.append('backgroundColor', backgroundColor);
-        formData.append('backgroundRotate', backgroundRotate);
-        formData.append('fontColor', fontColor);
-        formData.append('fontFamily', fontFamily);
-        formData.append('fontSize', fontSize);
-        formData.append('accent1', accent1);
-        formData.append('accent2', accent2);
-        formData.append('accent3', accent3);
+            formData.append('userID', userID);
+            formData.append('themeName', themeName);
+            formData.append('backgroundMedia', backgroundMedia);
+            setBackgroundMediaLoading(true);
+            formData.append('backgroundColor', backgroundColor);
+            formData.append('backgroundRotate', backgroundRotate);
+            formData.append('fontColor', fontColor);
+            formData.append('fontFamily', fontFamily);
+            formData.append('fontSize', fontSize);
+            formData.append('accent1', accent1);
+            formData.append('accent2', accent2);
+            formData.append('accent3', accent3);
 
-        await dispatch(createUserSetting(formData));
-        setBackgroundMediaLoading(false);
+            await dispatch(createUserSetting(formData));
+            setBackgroundMediaLoading(false);
 
-        resetHandler(e);
+            resetHandler(e);
+            incrementThemeCount('theme_count', 'increment');
+        } else {
+            alert('You are not permitted to add any more themes!');
+        }
     };
 
     return (
@@ -86,26 +102,35 @@ const CreateThemeForm = ({ style }) => {
                 <h2 className='create-theme-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Create Theme</h2>
                 <button
                     className='sf2-submit-btn'
+                    type={user.theme_count < 10 ? 'submit' : 'button'}
+                >
+                    <FontAwesomeIcon
+                        data-sf2={`${submitBtn ? '' : 'not-allowed'}`}
+                        alt='add theme'
+                        title='add theme'
+                        icon='plus-square'
+                        onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                        onMouseOut={() => { setThemeLimitErr(false); }}
+                        style={{
+                            color: style.font_color,
+                            fontFamily: style.font_family,
+                            fontSize: style.font_size,
+                        }}
+                    />
+                </button>
+                <span className={`${themeLimitErr ? 'inline-error' : 'invisible'}`}>Theme limit reached.</span>
+                <FontAwesomeIcon
+                    data-sf2='reset-btn'
+                    alt='refresh'
+                    title='refresh'
+                    icon='sync'
+                    onClick={(e) => resetHandler(e)}
                     style={{
                         color: style.font_color,
                         fontFamily: style.font_family,
                         fontSize: style.font_size,
                     }}
-                >
-                    Submit
-                </button>
-                <button
-                    type='button'
-                    className='sf2-reset-btn'
-                    onClick={resetHandler}
-                    style={{
-                        color: style.font_color,
-                        fontFamily: style.font_family,
-                        fontSize: style.font_size,
-                    }}
-                >
-                    Refresh
-                </button>
+                />
                 <div className='sf2-row-a'>
                     <div className='theme-name-setter-div'>
                         <label htmlFor='theme-name-setter'>Theme Name</label>
@@ -114,10 +139,12 @@ const CreateThemeForm = ({ style }) => {
                             name='Theme Name'
                             type='text'
                             maxLength='50'
-                            placeholder='Theme Name (Max 50)'
-                            aria-placeholder='Theme Name (Max 50)'
+                            placeholder='50 Characters Max'
+                            aria-placeholder='50 Characters Max'
                             value={themeName}
                             onChange={(e) => setThemeName(e.target.value)}
+                            onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                            onMouseOut={() => { setThemeLimitErr(false); }}
                             style={{ fontFamily: style.font_family }}
                         />
                     </div>
@@ -132,6 +159,8 @@ const CreateThemeForm = ({ style }) => {
                                 const targOption = Array.from(targKids).find((opt) => opt.selected);
                                 setFontSize(`${targOption.innerText}px`);
                             }}
+                            onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                            onMouseOut={() => { setThemeLimitErr(false); }}
                         >
                             {fontSizes}
                         </select>
@@ -147,6 +176,8 @@ const CreateThemeForm = ({ style }) => {
                                 const targOption = Array.from(targKids).find((opt) => opt.selected);
                                 setFontFamily(targOption.innerText.replace(/\s\|\s/, ', '));
                             }}
+                            onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                            onMouseOut={() => { setThemeLimitErr(false); }}
                         >
                             {fontFamilies}
                         </select>
@@ -161,6 +192,8 @@ const CreateThemeForm = ({ style }) => {
                             type='color'
                             value={fontColor}
                             onChange={(e) => setFontColor(e.target.value)}
+                            onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                            onMouseOut={() => { setThemeLimitErr(false); }}
                         />
                     </div>
                     <div className='accent-1-setter-div'>
@@ -171,6 +204,8 @@ const CreateThemeForm = ({ style }) => {
                             type='color'
                             value={accent1}
                             onChange={(e) => setAccent1(e.target.value)}
+                            onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                            onMouseOut={() => { setThemeLimitErr(false); }}
                         />
                     </div>
                     <div className='accent-2-setter-div'>
@@ -181,6 +216,8 @@ const CreateThemeForm = ({ style }) => {
                             type='color'
                             value={accent2}
                             onChange={(e) => setAccent2(e.target.value)}
+                            onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                            onMouseOut={() => { setThemeLimitErr(false); }}
                         />
                     </div>
                     <div className='accent-3-setter-div'>
@@ -191,6 +228,8 @@ const CreateThemeForm = ({ style }) => {
                             type='color'
                             value={accent3}
                             onChange={(e) => setAccent3(e.target.value)}
+                            onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                            onMouseOut={() => { setThemeLimitErr(false); }}
                         />
                     </div>
                     <div className='background-color-setter-div'>
@@ -201,6 +240,8 @@ const CreateThemeForm = ({ style }) => {
                             type='color'
                             value={backgroundColor}
                             onChange={(e) => { setBackgroundColor(e.target.value); }}
+                            onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                            onMouseOut={() => { setThemeLimitErr(false); }}
                         />
                     </div>
                 </div>
@@ -216,6 +257,8 @@ const CreateThemeForm = ({ style }) => {
                             type='file'
                             accept='image/png, image/jpg, image/jpeg, image/gif'
                             onChange={setBackgroundMediaHandler}
+                            onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                            onMouseOut={() => { setThemeLimitErr(false); }}
                         />
                         {backgroundMediaLoading && (<span>Loading...</span>)}
                     </div>
@@ -227,6 +270,8 @@ const CreateThemeForm = ({ style }) => {
                             type='checkbox'
                             checked={backgroundRotate}
                             onChange={(e) => setBackgroundRotate(e.target.checked)}
+                            onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
+                            onMouseOut={() => { setThemeLimitErr(false); }}
                         />
                     </div>
                 </div>
@@ -243,8 +288,8 @@ const CreateThemeForm = ({ style }) => {
                 <h2 className='theme-tester-header' style={{ color: accent2, borderColor: accent1 }}>{themeName || 'Demo Theme'}</h2>
                 <div>
                     <h3>Test your theme.</h3>
-                    <p>See your theme specs here.</p>
-                    <span style={{ fontSize }}>Font Size</span>
+                    <p style={{ color: accent2 }}>See your theme specs here.</p>
+                    <span style={{ color: accent3, fontSize }}>Font Size</span>
                 </div>
             </div>
         </>
