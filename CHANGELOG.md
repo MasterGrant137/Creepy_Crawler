@@ -1,3 +1,11 @@
+#### Nov 16, 2021
++ Extensive accessibility enhancements. Words exchanged for icons wherever possible to promote a language-agnostic application view. Alt tags placed on all images and icons for individuals with screen readers. Titles also placed on all images and icons for clients unable to load them and for the informational hover functionality. I tested the site on Apple’s VoiceOver screen reader to ensure I was truly making impactful decisions. That brought me to reconsider several stylistic choices including some of the `user-select: none` styling I had.
++ JS and CSS work together to gently inform user if theme count has been reached.
++ Theme limit implemented alongside thorough front to back validation for theme count.
++ 25 Google fonts personally curated and added locally to codebase.
++ Button added to copy a theme’s data to clipboard as a JSON object. The object copied is thoroughly formatted: line feed, tabulation, quotations, commas (none trailing).
++ Several placeholders made more explicit.
+---
 #### Nov 13, 2021
 + Modified history data structure to recognize the difference between two history entries falling on the same *day of the week* but with different *dates*. They will now be given separate headers, accordingly. Previously, this was not the case when the entries appeared consecutively in history.
 + Create and update entry operations made dynamic.
