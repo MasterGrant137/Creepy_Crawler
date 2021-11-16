@@ -23,7 +23,7 @@
 }
 
 .hist-day-of-week {
-    user-select: none;
+    cursor: default;
     grid-area: c;
 }
 
@@ -35,5 +35,4 @@
 .hist-text {
     cursor: pointer;
     grid-area: e;
-    user-select: none;
 }

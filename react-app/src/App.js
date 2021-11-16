@@ -8,6 +8,7 @@ import {
     faLock,
     faLockOpen,
     faSignOutAlt,
+    faTrashAlt,
     faUserCog,
 } from '@fortawesome/free-solid-svg-icons';
 import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
@@ -29,6 +30,7 @@ library.add(
     faLock,
     faLockOpen,
     faSignOutAlt,
+    faTrashAlt,
     faUserCog,
 );
 

@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
 import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/history_store';
@@ -108,8 +107,10 @@ const HistoryPage = ({ style }) => {
                     })()} {entry.tz_abbrev}
                 </span>
                 <FontAwesomeIcon
-                    icon={faTrashAlt}
                     className='hist-delete'
+                    alt='delete theme'
+                    title='delete theme'
+                    icon='trash-alt'
                     onClick={(e) => deleteHandler(e, entry.id)}
                     style={{ color: style.accent_2 }}
                 />
