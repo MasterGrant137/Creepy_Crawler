@@ -35,11 +35,11 @@ const EditThemeForm = ({ style }) => {
         const targFormKids = Array.from(targForm.children);
 
         targFormKids.forEach((targKid) => {
-            if (targKid.type === 'text') targKid.readOnly = true;
-            else if (targKid.tagName === 'SELECT') targKid.disabled = true;
-            else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
-                targKid.innerText = 'Edit';
-            }
+            // if (targKid.type === 'text') targKid.readOnly = true;
+            // else if (targKid.tagName === 'SELECT') targKid.disabled = true;
+            // else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
+            //     targKid.innerText = 'Edit';
+            // }
             switch (targKid.type) {
             case 'color': targKid.disabled = true; break;
             case 'file': targKid.disabled = true; break;
@@ -87,13 +87,34 @@ const EditThemeForm = ({ style }) => {
         const settingID = targForm.id;
 
         targFormKids.forEach((targKid) => {
-            if (targKid.type === 'text') targKid.readOnly = false;
-            else targKid.disabled = false;
-            if (targKid.dataset.type === 'ICON' && targKid.dataset.locked === 'true') {
+            targKid.type === 'text' ? targKid.readOnly = false : targKid.disabled = false;
+            if (targKid.dataset.locked === 'true') {
                 targKid.children[0].dataset.visibility = 'false';
                 document.getElementById(`lock-open-${settingID}`).dataset.visibility = 'true';
                 targKid.dataset.locked = 'false';
-            } else if (targKid.dataset.type === 'ICON' && targKid.dataset.locked === 'false') {
+                console.log(targKid);
+                // targFormKids.forEach((targKid) => {
+                if (targKid.type === 'text') {
+                    targKid.readOnly = true;
+                    console.log(targKid);
+                } else if (targKid.tagName === 'SELECT') {
+                    targKid.disabled = true;
+                    console.log(targKid);
+                }
+                switch (targKid.type) {
+                case 'color': targKid.disabled = true;
+                    console.log(targKid);
+                    break;
+                case 'file': targKid.disabled = true;
+                    console.log(targKid);
+                    break;
+                case 'checkbox': targKid.disabled = true;
+                    console.log(targKid);
+                    break;
+                default: break;
+                }
+                // });
+            } else if (targKid.dataset.locked === 'false') {
                 targKid.children[1].dataset.visibility = 'false';
                 document.getElementById(`lock-${settingID}`).dataset.visibility = 'true';
                 targKid.dataset.locked = 'true';
@@ -103,6 +124,14 @@ const EditThemeForm = ({ style }) => {
                 formData.append('userID', user.id);
 
                 targFormKids.forEach((targChild) => {
+                    if (targChild.type === 'text') {
+                        targChild.readOnly = false;
+                    } else if (targChild.tagName === 'SELECT'
+                            || targChild.tagName === 'INPUT') {
+                        targChild.disabled = false;
+                        // console.log('nothing to see here');
+                    }
+                    // console.log(targChild.disabled);
                     if (targChild.tagName !== 'BUTTON') {
                         switch (targChild.name) {
                         case 'Theme Name': formData.append('themeName', targChild.value); break;
@@ -121,7 +150,6 @@ const EditThemeForm = ({ style }) => {
                         case 'Accent 3': formData.append('accent3', targChild.value); break;
                         default: break;
                         }
-                        targChild.type === 'text' ? targChild.readOnly = true : targChild.disabled = true;
                     }
                 });
                 dispatch(updateUserSetting(settingID, formData));
@@ -189,7 +217,6 @@ const EditThemeForm = ({ style }) => {
         >
             <button
                 data-setting-id={`${setting.id}`}
-                data-type='ICON'
                 data-locked='true'
             >
                 <FontAwesomeIcon
@@ -200,9 +227,9 @@ const EditThemeForm = ({ style }) => {
                 />
                 <FontAwesomeIcon
                     id={`lock-open-${setting.id}`}
+                    data-visibility='false'
                     icon='lock-open'
                     style={{ color: setting.font_color }}
-                    data-visibility='false'
                 />
             </button>
             <button
@@ -221,7 +248,6 @@ const EditThemeForm = ({ style }) => {
             >
                 Use
             </button>
-            {/* <button style={{ color: setting.font_color }}>Edit</button> */}
             <button
                 data-setting-id={`${setting.id}`}
                 type='button'
@@ -247,6 +273,7 @@ const EditThemeForm = ({ style }) => {
                 placeholder='50 Characters Max'
                 aria-placeholder='50 Characters Max'
                 defaultValue={setting.theme_name}
+                readOnly
                 style={{ fontFamily: setting.font_family }}
             />
             <label htmlFor={`font-size-editor-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
