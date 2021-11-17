@@ -90,8 +90,8 @@ const EditThemeForm = ({ style }) => {
         e.preventDefault();
         const targForm = e.target;
         const targFormKids = Array.from(targForm.children);
-        const lockBtn = targFormKids.find((ele) => ele.dataset.locked);
         const settingID = targForm.id;
+        const lockBtn = document.getElementById(`lock-btn-${settingID}`);
         const formData = new FormData();
 
         if (lockBtn.dataset.locked === 'true') {
@@ -101,7 +101,7 @@ const EditThemeForm = ({ style }) => {
 
                 const lockOpenIcon = document.getElementById(`lock-open-${settingID}`);
                 lockOpenIcon.dataset.visibility = 'true';
-                targKid.dataset.locked = 'false';
+                lockBtn.dataset.locked = 'false';
 
                 const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
                 cancelBtn.classList.remove('invisible');
@@ -129,7 +129,7 @@ const EditThemeForm = ({ style }) => {
 
                 const lockIcon = document.getElementById(`lock-${settingID}`);
                 lockIcon.dataset.visibility = 'true';
-                targKid.dataset.locked = 'true';
+                lockBtn.dataset.locked = 'true';
 
                 const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
                 cancelBtn.classList.add('invisible');
@@ -234,71 +234,73 @@ const EditThemeForm = ({ style }) => {
                 fontFamily: setting.font_family,
             }}
         >
-            <button
-                id={`lock-btn-${setting.id}`}
-                data-setting-id={`${setting.id}`}
-                data-locked='true'
-                className='ef2-lock-btn'
-            >
+            <div>
+                <button
+                    id={`lock-btn-${setting.id}`}
+                    data-setting-id={`${setting.id}`}
+                    data-locked='true'
+                    className='ef2-lock-btn'
+                >
+                    <FontAwesomeIcon
+                        id={`lock-${setting.id}`}
+                        data-visibility='true'
+                        alt='Unlock Theme'
+                        title='Unlock Theme'
+                        icon='lock'
+                        style={{ color: setting.font_color }}
+                    />
+                    <FontAwesomeIcon
+                        id={`lock-open-${setting.id}`}
+                        data-visibility='false'
+                        alt='Lock Theme'
+                        title='Lock Theme'
+                        icon='lock-open'
+                        style={{ color: setting.font_color }}
+                    />
+                </button>
                 <FontAwesomeIcon
-                    id={`lock-${setting.id}`}
-                    data-visibility='true'
-                    alt='Unlock Theme'
-                    title='Unlock Theme'
-                    icon='lock'
+                    alt='Copy Theme Data'
+                    title='Copy Theme Data'
+                    icon='copy'
+                    onClick={() => copyThemeData(setting.id)}
+                    style={{ color: setting.font_color }}
+                />
+                {user.active_theme !== setting.id
+                    && <FontAwesomeIcon
+                        alt='Unselected Theme'
+                        title='Unselected Theme'
+                        icon='circle'
+                        onClick={() => updateActiveTheme(setting.id, 'active_theme')}
+                        style={{ color: setting.font_color }}
+                    />
+                }
+                {user.active_theme === setting.id
+                    && <FontAwesomeIcon
+                        alt='Selected Theme'
+                        title='Selected Theme'
+                        icon='check-circle'
+                        onClick={() => updateActiveTheme(setting.id, 'active_theme')}
+                        style={{ color: setting.font_color }}
+                    />
+                }
+                <FontAwesomeIcon
+                    id={`cancel-btn-${setting.id}`}
+                    data-setting-id={`${setting.id}`}
+                    className='invisible'
+                    alt='Cancel Changes'
+                    type='Cancel Changes'
+                    icon='window-close'
+                    onClick={() => resetHandler(setting.id)}
                     style={{ color: setting.font_color }}
                 />
                 <FontAwesomeIcon
-                    id={`lock-open-${setting.id}`}
-                    data-visibility='false'
-                    alt='Lock Theme'
-                    title='Lock Theme'
-                    icon='lock-open'
+                    alt='Delete Theme'
+                    title='Delete Theme'
+                    icon='trash-alt'
+                    onClick={(e) => deleteThemeHandler(e, setting.id)}
                     style={{ color: setting.font_color }}
                 />
-            </button>
-            <FontAwesomeIcon
-                alt='Copy Theme Data'
-                title='Copy Theme Data'
-                icon='copy'
-                onClick={() => copyThemeData(setting.id)}
-                style={{ color: setting.font_color }}
-            />
-            {user.active_theme !== setting.id
-                && <FontAwesomeIcon
-                    alt='Unselected Theme'
-                    title='Unselected Theme'
-                    icon='circle'
-                    onClick={() => updateActiveTheme(setting.id, 'active_theme')}
-                    style={{ color: setting.font_color }}
-                />
-            }
-            {user.active_theme === setting.id
-                && <FontAwesomeIcon
-                    alt='Selected Theme'
-                    title='Selected Theme'
-                    icon='check-circle'
-                    onClick={() => updateActiveTheme(setting.id, 'active_theme')}
-                    style={{ color: setting.font_color }}
-                />
-            }
-            <FontAwesomeIcon
-                id={`cancel-btn-${setting.id}`}
-                data-setting-id={`${setting.id}`}
-                className='invisible'
-                alt='Cancel Changes'
-                type='Cancel Changes'
-                icon='window-close'
-                onClick={() => resetHandler(setting.id)}
-                style={{ color: setting.font_color }}
-            />
-            <FontAwesomeIcon
-                alt='Delete Theme'
-                title='Delete Theme'
-                icon='trash-alt'
-                onClick={(e) => deleteThemeHandler(e, setting.id)}
-                style={{ color: setting.font_color }}
-            />
+            </div>
             <label htmlFor={`theme-name-editor-${idx}`}>Theme Name</label>
             <input
                 id={`theme-name-editor-${idx}`}

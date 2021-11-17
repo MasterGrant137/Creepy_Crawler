@@ -102,8 +102,8 @@
     right: 5%;
  }
 
-.editor-form-1 > [data-icon='copy'] { right: 25% }
+.editor-form-1 [data-icon='copy'] { right: 25% }
 
-.editor-form-1 > [data-icon='trash-alt'] { left: 5% }
+.editor-form-1 [data-icon='trash-alt'] { left: 5% }
 
-.editor-form-1 > [data-icon='window-close'] { left: 25% }
+.editor-form-1 [data-icon='window-close'] { left: 25% }
