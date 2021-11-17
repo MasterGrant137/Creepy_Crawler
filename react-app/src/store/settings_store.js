@@ -44,20 +44,16 @@ export const createUserSetting = (formData) => async (dispatch) => {
     return null;
 };
 
-export const readUserSettings = (userID) => async (dispatch) => {
-    if (userID) {
-        const response = await fetch('/api/settings/');
-        if (response.ok) {
-            const settings = await response.json();
-            await dispatch(readSettings(settings));
-            return settings;
-        } if (response.status === 500) {
-            window.location.reload();
-            return null;
-        }
+export const readUserSettings = () => async (dispatch) => {
+    const response = await fetch('/api/settings/');
+    if (response.ok) {
+        const settings = await response.json();
+        await dispatch(readSettings(settings));
+        return settings;
+    } if (response.status === 500) {
+        window.location.reload();
         return null;
     }
-    alert('You are not logged in!');
     return null;
 };
 

@@ -29,7 +29,8 @@ const NavBar = ({ style }) => {
     return (
         <nav>
             <ul style={{ color: style.accent_2 }}>
-                <a
+                {!user
+                && <a
                     href='https://github.com/MasterGrant137/Creepy_Crawler/wiki/Spider-Lair'
                     target="_blank"
                     rel='noopener noreferrer'
@@ -41,32 +42,31 @@ const NavBar = ({ style }) => {
                         style={{ color: style.accent_2 }}
                     />
                 </a>
+                }
                 {user && user.username}
                 <FontAwesomeIcon
                     alt='Home'
                     title='Home'
                     icon='home'
                     onClick={(e) => navHandler(e, '/home')}
-                >
-                    Home
-                </FontAwesomeIcon>
+                />
                 {user
-          && <FontAwesomeIcon
-              alt='History'
-              title='History'
-              icon='history'
-              onClick={(e) => navHandler(e, '/api/history/')}
-          />
+                && <FontAwesomeIcon
+                    alt='History'
+                    title='History'
+                    icon='history'
+                    onClick={(e) => navHandler(e, '/api/history/')}
+                />
                 }
                 {user
-          && <FontAwesomeIcon
-              alt='Settings'
-              title='Settings'
-              icon='cogs'
-              onClick={(e) => navHandler(e, '/api/settings/')}
-          />
+                && <FontAwesomeIcon
+                    alt='Settings'
+                    title='Settings'
+                    icon='cogs'
+                    onClick={(e) => navHandler(e, '/api/settings/')}
+                />
                 }
-                {user && <img className='profile-media-small' src={user.profile_media} alt='Profile Media' title='Profile Media' />}
+                {user && <img className='profile-media-small' src={user.profile_media} alt='User' title='User' />}
                 {!user
                 && <FontAwesomeIcon
                     alt='Log In'

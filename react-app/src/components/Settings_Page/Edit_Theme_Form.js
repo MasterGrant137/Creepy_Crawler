@@ -24,9 +24,6 @@ const EditThemeForm = ({ style }) => {
     ));
 
     const resetHandler = (targID) => {
-        // const isSubmit = e.target.dataset.submitBtnState;
-        // if (isSubmit === 'false') return;
-
         const targForm = document.getElementById(targID);
         const prev = settingsObj[targID];
         const targFormKids = Array.from(targForm.children);

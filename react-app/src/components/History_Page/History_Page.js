@@ -22,7 +22,6 @@ const HistoryPage = ({ style }) => {
     }, [dispatch]);
 
     const [updatedAt, setUpdatedAt] = useState(new Date().toString());
-    // const [toggledClock, toggleClock] = useState(clock24);
     let toggledClock = clock24;
 
     const dateRegex = new RegExp([

@@ -20,24 +20,21 @@ def authenticateLogin():
     """Authenticate a user."""
     if current_user.is_authenticated:
         return current_user.to_dict()
-    return {'errors': ['Unauthorized']}
+    return None
 
 @auth_routes.route('/signup')
 def authenticateSignup():
     """Authenticate a user."""
     if current_user.is_authenticated:
         return current_user.to_dict()
-    return {'errors': ['Unauthorized']}
+    return None
 
 @auth_routes.route('/login', methods=['POST'])
 def login():
     """Log a user in."""
     form = LoginForm()
-    # Get the csrf_token from the request cookie and put it into the
-    # form manually to validate_on_submit can be used
     form['csrf_token'].data = request.cookies['csrf_token']
     if form.validate_on_submit():
-        # Add the user to the session, we are logged in!
         user = User.query.filter(User.email == form.data['email']).first()
         login_user(user)
         return user.to_dict()
@@ -47,7 +44,7 @@ def login():
 def logout():
     """Log a user out."""
     logout_user()
-    return {'message': 'User logged out'}
+    return {'message': 'User logged out.'}
 
 @auth_routes.route('/signup', methods=['POST'])
 def sign_up():
