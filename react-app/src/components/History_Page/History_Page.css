@@ -22,11 +22,7 @@
     text-align: left;
 }
 
-.hist-date { cursor: copy }
-
 .hist-time-and-tz-div { grid-area: b }
-
-.hist-time-and-tz { cursor: copy }
 
 .hist-day-of-week-div { grid-area: c }
 

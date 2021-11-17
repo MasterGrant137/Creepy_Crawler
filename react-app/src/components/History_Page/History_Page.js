@@ -45,15 +45,8 @@ const HistoryPage = ({ style }) => {
 
     const editProfileHandler = (eType) => {
         if (eType === 'clock_24') {
-            if (clock24 === true) {
-                console.log('BEFORE IF', toggledClock);
-                toggledClock = false;
-                console.log('AFTER IF', toggledClock);
-            } else {
-                console.log('BEFORE ELSE', toggledClock);
-                toggledClock = true;
-                console.log('AFTER ELSE', toggledClock);
-            }
+            if (clock24 === true) toggledClock = false;
+            else toggledClock = true;
             dispatch(editProfile({
                 clock_24: toggledClock,
                 column: eType,
@@ -95,7 +88,7 @@ const HistoryPage = ({ style }) => {
                 </div>
                 <div className='hist-date-div'>
                     <span
-                        className='hist-date'
+                        className='copy'
                         onClick={(e) => copyData(e.target.innerText)}
                         style={{ color: style.accent_2 }}
                     >
@@ -107,7 +100,7 @@ const HistoryPage = ({ style }) => {
                 </div>
                 <div className='hist-time-and-tz-div'>
                     <span
-                        className='hist-time-and-tz'
+                        className='copy'
                         onClick={(e) => copyData(`${e.target.innerText} (${entry.tz})`)}
                         style={{ color: style.accent_2 }}
                     >
