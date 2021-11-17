@@ -22,7 +22,7 @@ const HistoryPage = ({ style }) => {
     }, [dispatch]);
 
     const [updatedAt, setUpdatedAt] = useState(new Date().toString());
-    const [toggledClock, toggleClock] = useState(!clock24);
+    const [toggledClock, toggleClock] = useState(clock24); // truthy at start
 
     const dateRegex = new RegExp([
         '([A-Z]{1}[a-z]{2}),\\s', //? day of the week
@@ -42,13 +42,15 @@ const HistoryPage = ({ style }) => {
         if (data) history.push('/');
     };
 
-    const editProfileHandler = (eType) => {
+    const editProfileHandler = async (eType) => {
         if (eType === 'clock_24') {
-            toggleClock((prevClock) => !prevClock);
-            dispatch(editProfile({
+            console.log(toggledClock); // true
+            await toggleClock((prevClock) => !prevClock); // something
+            await dispatch(editProfile({
                 clock_24: toggledClock,
                 column: eType,
             }));
+            console.log(toggledClock); // true
         }
     };
 
