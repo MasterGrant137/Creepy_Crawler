@@ -58,6 +58,7 @@ input:hover, select:hover {
 input[type='password']:invalid,
 input[type='password']:invalid:focus {
     border: 1px dashed black;
+    border-radius: 1px;
     background: linear-gradient(#e98074, #e85a4f);
 }
 
@@ -158,10 +159,6 @@ nav [data-icon] {
     height: 50vh;
     justify-content: center;
     align-items: center;
-}
-
-.search-page-search-form {
-    border-radius: 5px;
 }
 
 .search-page-search-input {

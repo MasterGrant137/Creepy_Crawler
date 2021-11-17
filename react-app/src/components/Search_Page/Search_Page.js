@@ -6,7 +6,6 @@ import '../Main.css';
 import './Search_Page.css';
 
 const SearchPage = ({ style }) => {
-    const [userID, setUserID] = useState();
     const [search, setSearch] = useState('');
     const [updatedAt, setUpdatedAt] = useState('');
 
@@ -17,11 +16,11 @@ const SearchPage = ({ style }) => {
         e.preventDefault();
 
         if (/^\s*$/.test(search)) return;
-        dispatch(createHistoryEntry({ userID, search, updatedAt }));
+        dispatch(createHistoryEntry({ userID: user.id, search, updatedAt }));
     };
 
     useEffect(() => {
-        dispatch(readUserSettings());
+        if (user.id) dispatch(readUserSettings(user.id));
     }, [dispatch]);
 
     return (
@@ -35,7 +34,6 @@ const SearchPage = ({ style }) => {
                     placeholder='Crawl the web.'
                     aria-label='Crawl the web.'
                     onChange={(e) => {
-                        if (user) setUserID(user.id);
                         setSearch(e.target.value);
                         setUpdatedAt((new Date()).toString());
                     }}

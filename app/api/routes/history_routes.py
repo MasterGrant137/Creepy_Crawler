@@ -45,7 +45,7 @@ def add_history_entry():
         js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
 
         history_entry = History(
-            user_id=request.json['userID'],
+            user_id=current_user.id,
             search=form.data['search'],
             tz=js_tz_parsed,
             tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
