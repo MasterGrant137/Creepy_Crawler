@@ -22,7 +22,8 @@ const HistoryPage = ({ style }) => {
     }, [dispatch]);
 
     const [updatedAt, setUpdatedAt] = useState(new Date().toString());
-    const [toggledClock, toggleClock] = useState(clock24);
+    // const [toggledClock, toggleClock] = useState(clock24);
+    let toggledClock = clock24;
 
     const dateRegex = new RegExp([
         '([A-Z]{1}[a-z]{2}),\\s', //? day of the week
@@ -45,13 +46,22 @@ const HistoryPage = ({ style }) => {
     const editProfileHandler = (eType) => {
         if (eType === 'clock_24') {
             // toggleClock((prevClock) => !prevClock);
+            // if (clock24 === true) {
+            //     console.log('BEFORE IF', toggledClock);
+            //     toggleClock(false);
+            //     console.log('AFTER IF', toggledClock);
+            // } else {
+            //     console.log('BEFORE ELSE', toggledClock);
+            //     toggleClock(true);
+            //     console.log('AFTER ELSE', toggledClock);
+            // }
             if (clock24 === true) {
                 console.log('BEFORE IF', toggledClock);
-                toggleClock(false);
+                toggledClock = false;
                 console.log('AFTER IF', toggledClock);
             } else {
                 console.log('BEFORE ELSE', toggledClock);
-                toggleClock(true);
+                toggledClock = true;
                 console.log('AFTER ELSE', toggledClock);
             }
             dispatch(editProfile({
