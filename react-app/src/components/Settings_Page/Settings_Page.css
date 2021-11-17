@@ -30,22 +30,22 @@
     'a'
     'b'
     'c';
-    padding: 0;
+    padding: 10px 0 0 0;
     width: 70%;
 }
 
 .create-theme-header { border-bottom: 2px solid }
 
-.sf2-submit-btn {
-    position: absolute;
-    right: 35%;
-    top: 5%;
-}
-
 [data-sf2='reset'] {
     position: absolute;
-    right: 40%;
-    top: 5%;
+    left: 32%;
+    top: 4%;
+}
+
+.sf2-submit-btn {
+    position: absolute;
+    left: 38%;
+    top: 4%;
 }
 
 .sf2-row-a {
@@ -54,11 +54,13 @@
     grid-area: a;
     justify-content: space-between;
 }
+
 .sf2-row-b {
     display: flex;
     grid-area: b;
     justify-content: space-between;
 }
+
 .sf2-row-c {
     display: flex;
     grid-area: c;
@@ -88,7 +90,6 @@
     min-width: 300px;
     position: relative;
 }
-
 
 .editor-form-1:hover { box-shadow: inset 0 0 5px 3px gray }
 

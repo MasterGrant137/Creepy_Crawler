@@ -115,6 +115,7 @@ h1, label { user-select: none }
     width: 30%;
     overflow-wrap: break-word;
     overflow-y: scroll;
+    padding-top: 10px;
 }
 
 .themes-container {

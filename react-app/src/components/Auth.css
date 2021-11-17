@@ -5,6 +5,17 @@
     justify-content: center;
 }
 
+.login-form-container div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.login-form-container button {
+    margin-top: 5%;
+}
+
 .login-form {
     border: 3px solid;
     border-radius: 5px;

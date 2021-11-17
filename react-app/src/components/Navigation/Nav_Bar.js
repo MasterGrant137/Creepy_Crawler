@@ -67,8 +67,22 @@ const NavBar = ({ style }) => {
           />
                 }
                 {user && <img className='profile-media-small' src={user.profile_media} alt='Profile Media' title='Profile Media' />}
-                {!user && <li data-link-dest='/api/auth/login' onClick={navHandler}>Login</li>}
-                {!user && <li data-link-dest='/api/auth/signup' onClick={navHandler}>Signup</li>}
+                {!user
+                && <FontAwesomeIcon
+                    alt='Log In'
+                    title='Log In'
+                    icon='sign-in-alt'
+                    data-link-dest='/api/auth/login'
+                    onClick={(e) => navHandler(e, '/api/auth/login')}
+                />}
+                {!user
+                && <FontAwesomeIcon
+                    alt='Sign Up'
+                    title='Sign Up'
+                    icon='user-plus'
+                    data-link-dest='/api/auth/signup'
+                    onClick={(e) => navHandler(e, '/api/auth/signup')}
+                />}
                 {!user && <li data-link-dest='/' onClick={navHandler}>Demo Login</li>}
                 {user && <LogoutButton style={style} />}
             </ul>

@@ -13,9 +13,11 @@ import {
     faLock,
     faLockOpen,
     faPlusSquare,
+    faSignInAlt,
     faSignOutAlt,
     faSync,
     faTrashAlt,
+    faUserPlus,
     faWindowClose,
 } from '@fortawesome/free-solid-svg-icons';
 import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
@@ -42,9 +44,11 @@ library.add(
     faLock,
     faLockOpen,
     faPlusSquare,
+    faSignInAlt,
     faSignOutAlt,
     faSync,
     faTrashAlt,
+    faUserPlus,
     faWindowClose,
 );
 
