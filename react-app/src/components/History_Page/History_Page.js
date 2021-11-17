@@ -45,16 +45,6 @@ const HistoryPage = ({ style }) => {
 
     const editProfileHandler = (eType) => {
         if (eType === 'clock_24') {
-            // toggleClock((prevClock) => !prevClock);
-            // if (clock24 === true) {
-            //     console.log('BEFORE IF', toggledClock);
-            //     toggleClock(false);
-            //     console.log('AFTER IF', toggledClock);
-            // } else {
-            //     console.log('BEFORE ELSE', toggledClock);
-            //     toggleClock(true);
-            //     console.log('AFTER ELSE', toggledClock);
-            // }
             if (clock24 === true) {
                 console.log('BEFORE IF', toggledClock);
                 toggledClock = false;
@@ -157,7 +147,7 @@ const HistoryPage = ({ style }) => {
                 title={`Convert to ${clock24 ? '12-Hour' : '24-Hour'} Time`}
                 src={clock24 ? clock12Icon : clock24Icon}
                 onClick={() => editProfileHandler('clock_24')}
-                style={{ backgroundColor: 'white' }}
+                style={{ backgroundColor: style.accent_2 }}
             />
             {entries}
         </div>

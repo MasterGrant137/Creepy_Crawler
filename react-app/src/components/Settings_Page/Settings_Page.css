@@ -42,13 +42,13 @@
     top: 5%;
 }
 
-* [data-sf2='submit-btn'] {
+[data-sf2='submit-btn'] {
     position: absolute;
     left: 5%;
     top: 5%;
 }
 
-* [data-sf2='reset'] {
+[data-sf2='reset'] {
     position: absolute;
     left: 10%;
     top: 5%;
@@ -93,6 +93,24 @@
     height: 625px;
     margin: 5px;
     min-width: 300px;
+    padding: 2% 0%;
+    position: relative;
 }
 
 .editor-form-1:hover { box-shadow: inset 0 0 5px 3px gray }
+
+.editor-form-1 [data-icon] { 
+    position: absolute;
+    top: 1%;
+}
+
+.editor-form-1 > [data-icon='copy'] { right: 25% }
+
+.editor-form-1 [data-icon='lock'],
+.editor-form-1 [data-icon='lock-open'] {
+    right: 5%;
+}
+
+.editor-form-1 > [data-icon='trash-alt'] { left: 5% }
+
+.editor-form-1 > [data-icon='window-close'] { left: 25% }

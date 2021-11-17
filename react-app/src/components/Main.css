@@ -35,13 +35,13 @@ ul { list-style-type: none }
 /*=================================*/
 /*$=============Groups============$*/
 /*=================================*/
-*[data-icon], button {
+[data-icon], button {
     background-color: transparent;
     border: none;
     border-radius: 3px;
 }
 
-*[data-icon]:not(button > [data-icon]):hover,
+[data-icon]:hover,
 button:hover {
     background-color: rgba(192, 192, 192, 0.6);
     box-shadow: inset 0 0 1px 1px rgb(192, 189, 189);
@@ -146,7 +146,7 @@ nav * {
     user-select: none;
 }
 
-nav *[data-icon] {
+nav [data-icon] {
     cursor: pointer;
 }
 /*=================================*/

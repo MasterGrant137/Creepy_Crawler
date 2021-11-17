@@ -269,13 +269,24 @@ const EditThemeForm = ({ style }) => {
                 onClick={() => copyThemeData(setting.id)}
                 style={{ color: setting.font_color }}
             />
-            <FontAwesomeIcon
-                alt='Unselected Theme'
-                title='Selected Theme'
-                icon='circle'
-                onClick={() => updateActiveTheme(setting.id, 'active_theme')}
-                style={{ color: setting.font_color }}
-            />
+            {user.active_theme !== setting.id
+                && <FontAwesomeIcon
+                    alt='Unselected Theme'
+                    title='Unselected Theme'
+                    icon='circle'
+                    onClick={() => updateActiveTheme(setting.id, 'active_theme')}
+                    style={{ color: setting.font_color }}
+                />
+            }
+            {user.active_theme === setting.id
+                && <FontAwesomeIcon
+                    alt='Selected Theme'
+                    title='Selected Theme'
+                    icon='check-circle'
+                    onClick={() => updateActiveTheme(setting.id, 'active_theme')}
+                    style={{ color: setting.font_color }}
+                />
+            }
             <FontAwesomeIcon
                 id={`cancel-btn-${setting.id}`}
                 data-setting-id={`${setting.id}`}
