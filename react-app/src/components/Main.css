@@ -18,7 +18,7 @@ border: none;
 border-radius: 3px;
 }
 
-[data-icon] { border-radius: 1px }
+[data-icon] { border-radius: 3px }
 
 img { user-select: none }
 
@@ -45,13 +45,13 @@ ul { list-style-type: none }
 /*=================================*/
 /*$=============Groups============$*/
 /*=================================*/
-[data-icon]:hover,
+[data-icon]:not(button > [data-icon]):hover,
 button:hover {
     background-color: rgba(192, 192, 192, 0.6);
     box-shadow: inset 0 0 1px 1px rgb(192, 189, 189);
 }
 
-input:hover, select:hover{
+input:hover, select:hover {
     box-shadow: inset 0 0 5px 1px rgb(100, 99, 99);
 }
 
