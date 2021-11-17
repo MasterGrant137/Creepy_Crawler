@@ -23,13 +23,10 @@ const EditThemeForm = ({ style }) => {
         <option key={fontSize}>{fontSize}</option>
     ));
 
-    const resetHandler = (e) => {
-        e.preventDefault();
+    const resetHandler = (targID) => {
+        // const isSubmit = e.target.dataset.submitBtnState;
+        // if (isSubmit === 'false') return;
 
-        const isSubmit = e.target.dataset.submitBtnState;
-        if (isSubmit === 'false') return;
-
-        const targID = e.target.dataset.settingId;
         const targForm = document.getElementById(targID);
         const prev = settingsObj[targID];
         const targFormKids = Array.from(targForm.children);
@@ -47,9 +44,6 @@ const EditThemeForm = ({ style }) => {
         targFormKids.forEach((targKid) => {
             if (targKid.type === 'text') targKid.readOnly = true;
             else if (targKid.tagName === 'SELECT') targKid.disabled = true;
-            else if (targKid.tagName === 'BUTTON' && targKid.innerText === 'Submit') {
-                targKid.innerText = 'Edit';
-            }
 
             switch (targKid.type) {
             case 'color': targKid.disabled = true; break;
@@ -244,6 +238,7 @@ const EditThemeForm = ({ style }) => {
                 id={`lock-btn-${setting.id}`}
                 data-setting-id={`${setting.id}`}
                 data-locked='true'
+                className='ef2-lock-btn'
             >
                 <FontAwesomeIcon
                     id={`lock-${setting.id}`}
@@ -294,7 +289,7 @@ const EditThemeForm = ({ style }) => {
                 alt='Cancel Changes'
                 type='Cancel Changes'
                 icon='window-close'
-                onClick={(e) => resetHandler(e)}
+                onClick={() => resetHandler(setting.id)}
                 style={{ color: setting.font_color }}
             />
             <FontAwesomeIcon

@@ -12,9 +12,19 @@
 
 *[data-icon='copy'] { cursor: copy }
 
-*[data-icon='book-open'] { cursor: not-allowed }
+button {
+background-color: transparent;
+border: none;
+border-radius: 3px;
+}
+
+[data-icon] { border-radius: 1px }
 
 img { user-select: none }
+
+input:not([type='search']), select {
+    text-align: center;
+}
 
 input[type='file'] {
     height: fit-content;
@@ -35,12 +45,6 @@ ul { list-style-type: none }
 /*=================================*/
 /*$=============Groups============$*/
 /*=================================*/
-[data-icon], button {
-    background-color: transparent;
-    border: none;
-    border-radius: 3px;
-}
-
 [data-icon]:hover,
 button:hover {
     background-color: rgba(192, 192, 192, 0.6);
@@ -63,12 +67,6 @@ input[type='password'] {
     padding: 3px 6px;
 }
 
-input:not(type='search'), select {
-    border: none;
-    border-radius: 9px;
-    text-align: center
-}
-
 h1, label { user-select: none }
 /*=================================*/
 /*$=======Settings Containers=====$*/
@@ -77,7 +75,8 @@ h1, label { user-select: none }
     text-align: center;
 }
 
-.settings-page-container h2 {
+.settings-page-container h2,
+.settings-actions-container input {
     text-align: center;
     user-select: none;
 }

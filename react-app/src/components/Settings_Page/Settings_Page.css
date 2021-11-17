@@ -38,19 +38,13 @@
 
 .sf2-submit-btn {
     position: absolute;
-    left: 5%;
-    top: 5%;
-}
-
-[data-sf2='submit-btn'] {
-    position: absolute;
-    left: 5%;
+    right: 35%;
     top: 5%;
 }
 
 [data-sf2='reset'] {
     position: absolute;
-    left: 10%;
+    right: 40%;
     top: 5%;
 }
 
@@ -90,26 +84,25 @@
     display: flex;
     flex-direction: column;
     gap: 1%;
-    height: 625px;
     margin: 5px;
     min-width: 300px;
-    padding: 2% 0%;
+    padding-top: 5.5%;
     position: relative;
 }
 
+
 .editor-form-1:hover { box-shadow: inset 0 0 5px 3px gray }
 
-.editor-form-1 [data-icon] { 
+.editor-form-1 [data-icon], .ef2-lock-btn { 
     position: absolute;
-    top: 1%;
+    top: 1.5%;
 }
+
+.ef2-lock-btn { 
+    right: 5%;
+ }
 
 .editor-form-1 > [data-icon='copy'] { right: 25% }
-
-.editor-form-1 [data-icon='lock'],
-.editor-form-1 [data-icon='lock-open'] {
-    right: 5%;
-}
 
 .editor-form-1 > [data-icon='trash-alt'] { left: 5% }
 
