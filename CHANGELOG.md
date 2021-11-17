@@ -4,6 +4,7 @@
 + Theme limit implemented alongside thorough front to back validation for theme count.
 + 25 Google fonts personally curated and added locally to codebase.
 + Button added to copy a theme’s data to clipboard as a JSON object. The object copied is thoroughly formatted: line feed, tabulation, quotations, commas (none trailing).
++ A history entry’s date or time is able to be copied with one click on either. The cursor indicates this upon hover.
 + Several placeholders made more explicit.
 ---
 #### Nov 13, 2021
