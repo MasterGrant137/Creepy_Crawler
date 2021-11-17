@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Redirect } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { login } from '../../store/session';
 import '../Main.css';
 import '../Auth.css';
@@ -95,7 +96,11 @@ const LoginForm = ({ style }) => {
                         onMouseOver={allowable}
                         style={{ color: style.font_color }}
                     >
-                        Log In
+                        <FontAwesomeIcon
+                            alt='Log In'
+                            title='Log In'
+                            icon='sign-in-alt'
+                        />
                     </button>
                 </div>
             </form>
