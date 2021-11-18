@@ -12,6 +12,7 @@ from flask import Blueprint, request
 from app.models import db, History
 from app.forms import SearchForm
 from flask_login import current_user, login_required
+from flask.helpers import make_response
 
 history_routes = Blueprint('entries', __name__)
 
@@ -63,7 +64,9 @@ def add_history_entry():
 def get_history_entries():
     """Get all of the history entries."""
     entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-    return { 'history': [ entry.to_dict() for entry in entries ] }
+    response = make_response({ 'history': [ entry.to_dict() for entry in entries ] })
+    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    return response
 
 @history_routes.route('/<int:entryID>', methods=['PATCH'])
 @login_required

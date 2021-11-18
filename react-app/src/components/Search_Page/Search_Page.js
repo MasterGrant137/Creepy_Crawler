@@ -7,23 +7,22 @@ import './Search_Page.css';
 
 const SearchPage = ({ style }) => {
     const dispatch = useDispatch();
+    const user = useSelector((state) => state.session.user);
     const [search, setSearch] = useState('');
     const [updatedAt, setUpdatedAt] = useState('');
 
+    let isUser;
+    if (user && !user.errors) isUser = true;
+    else isUser = false;
+
     const searchHandler = (e) => {
         e.preventDefault();
-
         if (/^\s*$/.test(search)) return;
-        dispatch(createHistoryEntry({ search, updatedAt }));
+        if (isUser) dispatch(createHistoryEntry({ search, updatedAt }));
     };
 
     useEffect(() => {
-        try {
-            useSelector((state) => state.session.user);
-            dispatch(readUserSettings());
-        } catch (error) {
-            return null;
-        }
+        if (isUser) dispatch(readUserSettings());
         return null;
     }, [dispatch]);
 

@@ -41,6 +41,11 @@ const EditThemeForm = ({ style }) => {
         targFormKids.forEach((targKid) => {
             if (targKid.type === 'text') targKid.readOnly = true;
             else if (targKid.tagName === 'SELECT') targKid.disabled = true;
+            else if (targKid.dataset.type === 'bg-media-editor-div') {
+                const mediaInput = targKid.children[1];
+                mediaInput.disabled = true;
+                mediaInput.value = '';
+            }
 
             switch (targKid.type) {
             case 'color': targKid.disabled = true; break;
@@ -103,11 +108,9 @@ const EditThemeForm = ({ style }) => {
                 const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
                 cancelBtn.classList.remove('invisible');
 
-                if (targKid.type === 'text') {
-                    targKid.readOnly = false;
-                } else if (targKid.tagName === 'SELECT') {
-                    targKid.disabled = false;
-                }
+                if (targKid.type === 'text') targKid.readOnly = false;
+                else if (targKid.tagName === 'SELECT') targKid.disabled = false;
+                else if (targKid.dataset.type === 'bg-media-editor-div') targKid.children[1].disabled = false;
 
                 switch (targKid.type) {
                 case 'color': targKid.disabled = false;
@@ -131,19 +134,20 @@ const EditThemeForm = ({ style }) => {
                 const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
                 cancelBtn.classList.add('invisible');
 
-                if (targKid.type === 'text') {
-                    targKid.readOnly = true;
-                } else if (targKid.tagName === 'SELECT') {
-                    targKid.disabled = true;
+                if (targKid.type === 'text') targKid.readOnly = true;
+                else if (targKid.tagName === 'SELECT') targKid.disabled = true;
+                else if (targKid.dataset.type === 'bg-media-editor-div') {
+                    const mediaInput = targKid.children[1];
+                    mediaInput.disabled = true;
+                    formData.append('backgroundMedia', backgroundMedia);
+                    setBackgroundMediaLoading(true);
+                    mediaInput.value = '';
                 }
 
                 switch (targKid.type) {
-                case 'color': targKid.disabled = true;
-                    break;
-                case 'file': targKid.disabled = true;
-                    break;
-                case 'checkbox': targKid.disabled = true;
-                    break;
+                case 'color': targKid.disabled = true; break;
+                case 'file': targKid.disabled = true; break;
+                case 'checkbox': targKid.disabled = true; break;
                 default: break;
                 }
 
@@ -154,11 +158,6 @@ const EditThemeForm = ({ style }) => {
                     switch (targKid.name) {
                     case 'Theme Name': formData.append('themeName', targKid.value); break;
                     case 'Background Color': formData.append('backgroundColor', targKid.value); break;
-                    case 'Background Media':
-                        formData.append('backgroundMedia', backgroundMedia);
-                        setBackgroundMediaLoading(true);
-                        targKid.value = '';
-                        break;
                     case 'Background Rotate': formData.append('backgroundRotate', targKid.checked); break;
                     case 'Font Color': formData.append('fontColor', targKid.value); break;
                     case 'Font Family': formData.append('fontFamily', targKid.value.replace(/\s\|\s/, ', ')); break;
@@ -334,16 +333,18 @@ const EditThemeForm = ({ style }) => {
             <label htmlFor={`bg-color-editor-${idx}`}>Background Color</label>
             <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled defaultValue={setting.background_color} />
 
-            <label htmlFor={`background-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
-            <input
-                id={`background-media-editor-${idx}`}
-                name='Background Media'
-                type='file'
-                accept='image/png, image/jpg, image/jpeg, image/gif'
-                disabled
-                onChange={setBackgroundMediaHandler}
-            />
-            {backgroundMediaLoading && (<span>Loading...</span>)}
+            <div data-type='bg-media-editor-div'>
+                <label htmlFor={`bg-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
+                <input
+                    id={`bg-media-editor-${idx}`}
+                    name='Background Media'
+                    type='file'
+                    accept='image/png, image/jpg, image/jpeg, image/gif'
+                    disabled
+                    onChange={setBackgroundMediaHandler}
+                />
+                {backgroundMediaLoading && (<span>Loading...</span>)}
+            </div>
 
             <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
             <input id={`bg-rotate-editor-${idx}`} name='Background Rotate' type='checkbox' disabled defaultChecked={setting.background_rotate} />

@@ -1,7 +1,7 @@
 .auth-errors-container {
     align-self: center;
-    height: fit-content;
-    width: fit-content;
+    max-width: 200px;
+    text-align: center;
     word-break: break-word;
 }
 

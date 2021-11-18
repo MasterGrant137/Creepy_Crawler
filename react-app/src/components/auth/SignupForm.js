@@ -45,6 +45,10 @@ const SignupForm = ({ style }) => {
         }
     };
 
+    let isUser;
+    if (user && !user.errors) isUser = true;
+    else isUser = false;
+
     const onSignUp = async (e) => {
         e.preventDefault();
         if (password === repeatPassword) {
@@ -73,9 +77,7 @@ const SignupForm = ({ style }) => {
         setRepeatPassword(e.target.value);
     };
 
-    if (user) {
-        return <Redirect to='/' />;
-    }
+    if (isUser) return <Redirect to='/' />;
 
     return (
         <div className='signup-form-container'>

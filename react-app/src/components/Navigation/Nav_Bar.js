@@ -11,17 +11,16 @@ const NavBar = ({ style }) => {
     const user = useSelector((state) => state.session.user);
     const dispatch = useDispatch();
 
-    const navHandler = async (e, dest) => {
-        const destination = dest || e.target.dataset.linkDest;
+    let isUser;
+    if (user && !user.errors) isUser = true;
+    else isUser = false;
+
+    const navHandler = async (destination) => {
         switch (destination) {
-        case '/home': history.push('/'); break;
-        case '/history':
-            history.push(destination);
-            break;
-        case '/':
+        case '/user/crawler': history.push('/'); break;
+        case '/stranger/crawler':
             await dispatch(login('jseed@aa.io', 'password'));
-            history.push(destination);
-            break;
+            history.push('/'); break;
         default: history.push(destination); break;
         }
     };
@@ -29,9 +28,8 @@ const NavBar = ({ style }) => {
     return (
         <nav>
             <ul style={{ color: style.accent_2 }}>
-                {!user
-                && <a
-                    href='https://github.com/MasterGrant137/Creepy_Crawler/wiki/Spider-Lair'
+                <a
+                    href='https://github.com/MasterGrant137/Creepy_Crawler/wiki'
                     target="_blank"
                     rel='noopener noreferrer'
                 >
@@ -42,49 +40,48 @@ const NavBar = ({ style }) => {
                         style={{ color: style.accent_2 }}
                     />
                 </a>
-                }
-                {user && user.username}
+                {isUser && user.username}
                 <FontAwesomeIcon
-                    alt='Home'
-                    title='Home'
+                    alt='Crawler'
+                    title='Crawler'
                     icon='spider'
-                    onClick={(e) => navHandler(e, '/home')}
+                    onClick={() => navHandler('/user/crawler')}
                 />
-                {user
+                {isUser
                 && <FontAwesomeIcon
                     alt='History'
                     title='History'
                     icon='history'
-                    onClick={(e) => navHandler(e, '/api/history/')}
+                    onClick={() => navHandler('/api/history/')}
                 />
                 }
-                {user
+                {isUser
                 && <FontAwesomeIcon
                     alt='Settings'
                     title='Settings'
                     icon='cogs'
-                    onClick={(e) => navHandler(e, '/api/settings/')}
+                    onClick={() => navHandler('/api/settings/')}
                 />
                 }
-                {user && <img className='profile-media-small' src={user.profile_media} alt='User' title='User' />}
-                {!user
+                {isUser && <img className='profile-media-small' src={user.profile_media} alt='User' title='User' />}
+                {!isUser
                 && <FontAwesomeIcon
                     alt='Log In'
                     title='Log In'
                     icon='sign-in-alt'
                     data-link-dest='/api/auth/login'
-                    onClick={(e) => navHandler(e, '/api/auth/login')}
+                    onClick={() => navHandler('/api/auth/login')}
                 />}
-                {!user
+                {!isUser
                 && <FontAwesomeIcon
                     alt='Sign Up'
                     title='Sign Up'
                     icon='user-plus'
                     data-link-dest='/api/auth/signup'
-                    onClick={(e) => navHandler(e, '/api/auth/signup')}
+                    onClick={() => navHandler('/api/auth/signup')}
                 />}
-                {!user && <li data-link-dest='/' onClick={navHandler}>Demo Login</li>}
-                {user && <LogoutButton style={style} />}
+                {!isUser && <li onClick={() => navHandler('/stranger/crawler')}>Demo Login</li>}
+                {isUser && <LogoutButton style={style} />}
             </ul>
         </nav>
     );
