@@ -4,6 +4,7 @@ from flask import Blueprint, request
 from app.models import db, Theme
 from app.forms import ThemeForm
 from flask_login import current_user, login_required
+from flask.helpers import make_response
 from app.s3_helpers import (upload_file_to_s3, allowed_file, get_unique_filename)
 
 settings_routes = Blueprint('settings', __name__)
@@ -61,7 +62,9 @@ def add_theme():
 def get_themes():
     """Get all of the themes belonging to a given user."""
     themes = Theme.query.filter(Theme.user_id == current_user.id).all()
-    return { 'settings': [ theme.to_dict() for theme in themes ] }
+    response = make_response({ 'settings': [ theme.to_dict() for theme in themes ] })
+    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    return response
 
 @settings_routes.route('/<int:settingID>', methods=['PUT'])
 @login_required

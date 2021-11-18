@@ -66,8 +66,6 @@ def get_history_entries():
     entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
     response = make_response({ 'history': [ entry.to_dict() for entry in entries ] })
     response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
-    response.headers['Expires']='0'
-    print('I HAVE BEEN HIT SIR', response)
     return response
 
 @history_routes.route('/<int:entryID>', methods=['PATCH'])
