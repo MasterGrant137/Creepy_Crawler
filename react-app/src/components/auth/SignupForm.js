@@ -84,9 +84,9 @@ const SignupForm = ({ style }) => {
                 onSubmit={onSignUp}
                 style={{ borderColor: style.accent_3 }}
             >
-                <div>
+                <div className='auth-errors-container'>
                     {errors.map((error, ind) => (
-                        <div key={ind}>{error}</div>
+                        <p key={ind}>{error}</p>
                     ))}
                 </div>
                 <div>

@@ -47,7 +47,7 @@ const NavBar = ({ style }) => {
                 <FontAwesomeIcon
                     alt='Home'
                     title='Home'
-                    icon='home'
+                    icon='spider'
                     onClick={(e) => navHandler(e, '/home')}
                 />
                 {user

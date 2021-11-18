@@ -1,3 +1,10 @@
+.auth-errors-container {
+    align-self: center;
+    height: fit-content;
+    width: fit-content;
+    word-break: break-word;
+}
+
 .login-form-container, .signup-form-container {
     align-items: center;
     display: flex;
