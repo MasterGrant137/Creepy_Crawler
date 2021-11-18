@@ -29,7 +29,8 @@ const NavBar = ({ style }) => {
     return (
         <nav>
             <ul style={{ color: style.accent_2 }}>
-                <a
+                {!user
+                && <a
                     href='https://github.com/MasterGrant137/Creepy_Crawler/wiki/Spider-Lair'
                     target="_blank"
                     rel='noopener noreferrer'
@@ -41,34 +42,47 @@ const NavBar = ({ style }) => {
                         style={{ color: style.accent_2 }}
                     />
                 </a>
+                }
                 {user && user.username}
                 <FontAwesomeIcon
                     alt='Home'
                     title='Home'
-                    icon='home'
+                    icon='spider'
                     onClick={(e) => navHandler(e, '/home')}
-                >
-                    Home
-                </FontAwesomeIcon>
+                />
                 {user
-          && <FontAwesomeIcon
-              alt='History'
-              title='History'
-              icon='history'
-              onClick={(e) => navHandler(e, '/api/history/')}
-          />
+                && <FontAwesomeIcon
+                    alt='History'
+                    title='History'
+                    icon='history'
+                    onClick={(e) => navHandler(e, '/api/history/')}
+                />
                 }
                 {user
-          && <FontAwesomeIcon
-              alt='Settings'
-              title='Settings'
-              icon='cogs'
-              onClick={(e) => navHandler(e, '/api/settings/')}
-          />
+                && <FontAwesomeIcon
+                    alt='Settings'
+                    title='Settings'
+                    icon='cogs'
+                    onClick={(e) => navHandler(e, '/api/settings/')}
+                />
                 }
-                {user && <img className='profile-media-small' src={user.profile_media} alt='Profile Media' title='Profile Media' />}
-                {!user && <li data-link-dest='/api/auth/login' onClick={navHandler}>Login</li>}
-                {!user && <li data-link-dest='/api/auth/signup' onClick={navHandler}>Signup</li>}
+                {user && <img className='profile-media-small' src={user.profile_media} alt='User' title='User' />}
+                {!user
+                && <FontAwesomeIcon
+                    alt='Log In'
+                    title='Log In'
+                    icon='sign-in-alt'
+                    data-link-dest='/api/auth/login'
+                    onClick={(e) => navHandler(e, '/api/auth/login')}
+                />}
+                {!user
+                && <FontAwesomeIcon
+                    alt='Sign Up'
+                    title='Sign Up'
+                    icon='user-plus'
+                    data-link-dest='/api/auth/signup'
+                    onClick={(e) => navHandler(e, '/api/auth/signup')}
+                />}
                 {!user && <li data-link-dest='/' onClick={navHandler}>Demo Login</li>}
                 {user && <LogoutButton style={style} />}
             </ul>

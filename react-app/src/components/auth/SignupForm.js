@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Redirect } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { signUp } from '../../store/session';
 import '../Main.css';
 import '../Auth.css';
@@ -83,9 +84,9 @@ const SignupForm = ({ style }) => {
                 onSubmit={onSignUp}
                 style={{ borderColor: style.accent_3 }}
             >
-                <div>
+                <div className='auth-errors-container'>
                     {errors.map((error, ind) => (
-                        <div key={ind}>{error}</div>
+                        <p key={ind}>{error}</p>
                     ))}
                 </div>
                 <div>
@@ -154,7 +155,11 @@ const SignupForm = ({ style }) => {
                     onMouseOver={allowable}
                     style={{ color: style.font_color }}
                 >
-                    Sign Up
+                    <FontAwesomeIcon
+                        alt='Sign Up'
+                        title='Sign Up'
+                        icon='user-plus'
+                    />
                 </button>
             </form>
         </div>

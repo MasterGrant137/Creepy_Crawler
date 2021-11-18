@@ -4,17 +4,20 @@ import { useDispatch, useSelector } from 'react-redux';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
     faBookOpen,
+    faCheckCircle,
     faCircle,
     faCogs,
     faCopy,
     faHistory,
-    faHome,
     faLock,
     faLockOpen,
     faPlusSquare,
+    faSignInAlt,
     faSignOutAlt,
+    faSpider,
     faSync,
     faTrashAlt,
+    faUserPlus,
     faWindowClose,
 } from '@fortawesome/free-solid-svg-icons';
 import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
@@ -32,17 +35,20 @@ import NavBar from './components/Navigation/Nav_Bar';
 
 library.add(
     faBookOpen,
+    faCheckCircle,
     faCircle,
     faCogs,
     faCopy,
     faHistory,
-    faHome,
     faLock,
     faLockOpen,
     faPlusSquare,
+    faSignInAlt,
     faSignOutAlt,
+    faSpider,
     faSync,
     faTrashAlt,
+    faUserPlus,
     faWindowClose,
 );
 

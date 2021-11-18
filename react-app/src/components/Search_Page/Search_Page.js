@@ -6,22 +6,25 @@ import '../Main.css';
 import './Search_Page.css';
 
 const SearchPage = ({ style }) => {
-    const [userID, setUserID] = useState();
+    const dispatch = useDispatch();
     const [search, setSearch] = useState('');
     const [updatedAt, setUpdatedAt] = useState('');
-
-    const dispatch = useDispatch();
-    const user = useSelector((state) => state.session.user);
 
     const searchHandler = (e) => {
         e.preventDefault();
 
         if (/^\s*$/.test(search)) return;
-        dispatch(createHistoryEntry({ userID, search, updatedAt }));
+        dispatch(createHistoryEntry({ search, updatedAt }));
     };
 
     useEffect(() => {
-        dispatch(readUserSettings());
+        try {
+            useSelector((state) => state.session.user);
+            dispatch(readUserSettings());
+        } catch (error) {
+            return null;
+        }
+        return null;
     }, [dispatch]);
 
     return (
@@ -35,7 +38,6 @@ const SearchPage = ({ style }) => {
                     placeholder='Crawl the web.'
                     aria-label='Crawl the web.'
                     onChange={(e) => {
-                        if (user) setUserID(user.id);
                         setSearch(e.target.value);
                         setUpdatedAt((new Date()).toString());
                     }}

@@ -22,7 +22,7 @@ const HistoryPage = ({ style }) => {
     }, [dispatch]);
 
     const [updatedAt, setUpdatedAt] = useState(new Date().toString());
-    const [toggledClock, toggleClock] = useState(!clock24);
+    let toggledClock = clock24;
 
     const dateRegex = new RegExp([
         '([A-Z]{1}[a-z]{2}),\\s', //? day of the week
@@ -44,7 +44,8 @@ const HistoryPage = ({ style }) => {
 
     const editProfileHandler = (eType) => {
         if (eType === 'clock_24') {
-            toggleClock((prevClock) => !prevClock);
+            if (clock24 === true) toggledClock = false;
+            else toggledClock = true;
             dispatch(editProfile({
                 clock_24: toggledClock,
                 column: eType,
@@ -65,68 +66,79 @@ const HistoryPage = ({ style }) => {
                 className='history-entry-div'
                 style={{ backgroundColor: style.background_color }}
             >
-                <h2 className='hist-day-of-week'>
-                    {(() => {
-                        const dayOfWk = entry.updated_at.replace(dateRegex, '$1');
-                        const date = entry.updated_at.replace(dateRegex, '$2');
-                        if ((!prevDayOfWk || prevDayOfWk !== dayOfWk) && (prevDate !== date)) {
-                            prevDayOfWk = dayOfWk;
-                            prevDate = date;
-                            return prevDayOfWk;
-                        } if ((!prevDayOfWk || prevDayOfWk === dayOfWk) && (prevDate !== date)) {
-                            prevDayOfWk = dayOfWk;
-                            prevDate = date;
-                            return prevDayOfWk;
-                        }
-                        return null;
-                    })()}
-                </h2>
-                <span
-                    className='hist-date'
-                    onClick={(e) => copyData(e.target.innerText)}
-                    style={{ color: style.accent_2 }}
-                >
-                    {(() => {
-                        const date = entry.updated_at.replace(dateRegex, '$2');
-                        return date;
-                    })()}
-                </span>
-                <span
-                    className='hist-time-and-tz'
-                    onClick={(e) => copyData(`${e.target.innerText} (${entry.tz})`)}
-                    style={{ color: style.accent_2 }}
-                >
-                    {(() => {
-                        const time = entry.updated_at.replace(dateRegex, '$3');
-                        if (clock24) return time;
+                <div className='hist-day-of-week-div'>
+                    <h2 className='hist-day-of-week'>
+                        {(() => {
+                            const dayOfWk = entry.updated_at.replace(dateRegex, '$1');
+                            const date = entry.updated_at.replace(dateRegex, '$2');
+                            if ((!prevDayOfWk || prevDayOfWk !== dayOfWk) && (prevDate !== date)) {
+                                prevDayOfWk = dayOfWk;
+                                prevDate = date;
+                                return prevDayOfWk;
+                            } if ((!prevDayOfWk || prevDayOfWk === dayOfWk)
+                                && (prevDate !== date)) {
+                                prevDayOfWk = dayOfWk;
+                                prevDate = date;
+                                return prevDayOfWk;
+                            }
+                            return null;
+                        })()}
+                    </h2>
+                </div>
+                <div className='hist-date-div'>
+                    <span
+                        className='copy'
+                        onClick={(e) => copyData(e.target.innerText)}
+                        style={{ color: style.accent_2 }}
+                    >
+                        {(() => {
+                            const date = entry.updated_at.replace(dateRegex, '$2');
+                            return date;
+                        })()}
+                    </span>
+                </div>
+                <div className='hist-time-and-tz-div'>
+                    <span
+                        className='copy'
+                        onClick={(e) => copyData(`${e.target.innerText} (${entry.tz})`)}
+                        style={{ color: style.accent_2 }}
+                    >
+                        {(() => {
+                            const time = entry.updated_at.replace(dateRegex, '$3');
+                            if (clock24) return time;
 
-                        const hour = +`${time[0]}${time[1]}`;
-                        const minutes = `${time[3]}${time[4]}`;
-                        const seconds = `${time[6]}${time[7]}`;
-                        if (hour > 12) return `${hour - 12}:${minutes}:${seconds} PM`;
-                        if (hour === 0o00) return `${hour + 12}:${minutes}:${seconds} AM`;
-                        return `${hour}:${minutes}:${seconds} AM`;
-                    })()} {entry.tz_abbrev}
-                </span>
-                <FontAwesomeIcon
-                    className='hist-delete'
-                    alt='Delete Entry'
-                    title='Delete Entry'
-                    icon='trash-alt'
-                    onClick={(e) => deleteHandler(e, entry.id)}
-                    style={{ color: style.accent_2 }}
-                />
-                <span
-                    className='hist-text'
-                    onClick={(e) => {
-                        const date = new Date();
-                        setUpdatedAt(date.toString());
-                        updateHandler(e, entry.id);
-                    }}
-                    style={{ color: style.accent_3 }}
-                >
-                    {entry.search || entry.visit}
-                </span>
+                            const hour = +`${time[0]}${time[1]}`;
+                            const minutes = `${time[3]}${time[4]}`;
+                            const seconds = `${time[6]}${time[7]}`;
+                            if (hour > 12) return `${hour - 12}:${minutes}:${seconds} PM`;
+                            if (hour === 0o00) return `${hour + 12}:${minutes}:${seconds} AM`;
+                            return `${hour}:${minutes}:${seconds} AM`;
+                        })()} {entry.tz_abbrev}
+                    </span>
+                </div>
+                <div className='hist-delete-div'>
+                    <FontAwesomeIcon
+                        className='hist-delete'
+                        alt='Delete Entry'
+                        title='Delete Entry'
+                        icon='trash-alt'
+                        onClick={(e) => deleteHandler(e, entry.id)}
+                        style={{ color: style.accent_2 }}
+                    />
+                </div>
+                <div className='hist-text-div'>
+                    <span
+                        className='hist-text'
+                        onClick={(e) => {
+                            const date = new Date();
+                            setUpdatedAt(date.toString());
+                            updateHandler(e, entry.id);
+                        }}
+                        style={{ color: style.accent_3 }}
+                    >
+                        {entry.search || entry.visit}
+                    </span>
+                </div>
             </div>
         ));
 
@@ -138,7 +150,7 @@ const HistoryPage = ({ style }) => {
                 title={`Convert to ${clock24 ? '12-Hour' : '24-Hour'} Time`}
                 src={clock24 ? clock12Icon : clock24Icon}
                 onClick={() => editProfileHandler('clock_24')}
-                style={{ backgroundColor: 'white' }}
+                style={{ backgroundColor: style.accent_2 }}
             />
             {entries}
         </div>

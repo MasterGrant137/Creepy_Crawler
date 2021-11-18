@@ -10,29 +10,27 @@
     'c c c'
     'a b d'
     'e e e';
-    grid-template-columns: 0.5fr 2.0fr 0.5fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 0.5fr 0.5fr;
     height: fit-content;
-    padding: 5px;
     text-align: center;
     width: 30%;
 }
 
-.hist-date { 
-    cursor: copy;
+.hist-date-div { 
     grid-area: a;
+    text-align: left;
 }
 
-.hist-time-and-tz { 
-    cursor: copy;
-    grid-area: b;
+.hist-time-and-tz-div { grid-area: b }
+
+.hist-day-of-week-div { grid-area: c }
+
+.hist-delete-div { 
+    grid-area: d;
+    text-align: right;
 }
 
-.hist-day-of-week { grid-area: c }
+.hist-text-div { grid-area: e }
 
-.hist-delete { grid-area: d }
-
-.hist-text { 
-    cursor: pointer;
-    grid-area: e;
-}
+.hist-text { cursor: pointer }
