@@ -16,5 +16,8 @@ Creepy Crawler is a full-stack search engine application. It's inspired by popul
 ### Settings Page
 ![settings_page](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_1_images/settings_page.png)
 
+### Contact
++ [LinkedIn](https://www.linkedin.com/in/alejandro-c-grant/)
+
 ### Errors I encountered and conquered:
 + https://github.com/MasterGrant137/Creepy_Crawler/wiki/Tasty-Bugs
