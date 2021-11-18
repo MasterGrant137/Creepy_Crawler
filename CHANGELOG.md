@@ -1,5 +1,5 @@
 #### Nov 18, 2021
-+ Eliminated bug where JSON object was returned instead of view when pressing back button in one’s browser.
++ Eliminated bug where JSON object was returned instead of view when pressing `history back` button on one’s browser.
 + Bug affecting conditionally rendered elements in navigation bar eliminated.
 + Search page fetching error eliminated.
 + Style enhancements to settings and auth pages.
