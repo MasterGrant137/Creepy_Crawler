@@ -29,7 +29,7 @@ const NavBar = ({ style }) => {
         <nav>
             <ul style={{ color: style.accent_2 }}>
                 <a
-                    href='https://github.com/MasterGrant137/Creepy_Crawler/wiki/Spider-Lair'
+                    href='https://github.com/MasterGrant137/Creepy_Crawler/wiki'
                     target="_blank"
                     rel='noopener noreferrer'
                 >

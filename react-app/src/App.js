@@ -61,6 +61,18 @@ function App() {
     const settings = useSelector((state) => state.settings);
     const aT = settings[user?.active_theme];
 
+    useEffect(() => {
+        (async () => {
+            try {
+                await dispatch(authenticateLogin());
+                await dispatch(authenticateSignup());
+                setLoaded(true);
+            } catch (err) {
+                window.location.reload();
+            }
+        })();
+    }, [dispatch]);
+
     const siteTheme = {
         background_color: aT?.background_color || '#eae7dc',
         background_rotate: aT?.background_rotate || false,
@@ -81,14 +93,6 @@ function App() {
     document.body.style.fontSize = siteTheme.font_size;
     if (siteTheme.background_rotate) body.classList.add('background-rotate');
     else if (!siteTheme.background_rotate) body.classList.remove('background-rotate');
-
-    useEffect(() => {
-        (async () => {
-            await dispatch(authenticateLogin());
-            await dispatch(authenticateSignup());
-            setLoaded(true);
-        })();
-    }, [dispatch]);
 
     if (!loaded) {
         return null;

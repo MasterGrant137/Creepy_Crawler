@@ -13,11 +13,7 @@ const removeUser = () => ({
 const initialState = { user: null };
 
 export const authenticateLogin = () => async (dispatch) => {
-    const response = await fetch('/api/auth/login', {
-        headers: {
-            'Content-Type': 'application/json',
-        },
-    });
+    const response = await fetch('/api/auth/login');
     if (response.ok) {
         const data = await response.json();
         dispatch(cruUser(data));
@@ -26,11 +22,7 @@ export const authenticateLogin = () => async (dispatch) => {
 };
 
 export const authenticateSignup = () => async (dispatch) => {
-    const response = await fetch('/api/auth/signup', {
-        headers: {
-            'Content-Type': 'application/json',
-        },
-    });
+    const response = await fetch('/api/auth/signup');
     if (response.ok) {
         const data = await response.json();
         dispatch(cruUser(data));

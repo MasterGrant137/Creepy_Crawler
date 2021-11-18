@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfileMedia } from '../../store/session';
 
 const ProfileMediaForm = ({ style }) => {
@@ -47,7 +48,18 @@ const ProfileMediaForm = ({ style }) => {
                     onChange={setProfileMediaHandler}
                 />
                 {profileMediaLoading && (<span>Loading...</span>)}
-                <button style={{ color: style.font_color }}>Submit</button>
+                <button>
+                    <FontAwesomeIcon
+                        alt='Add Theme'
+                        title='Add Theme'
+                        icon='plus-square'
+                        style={{
+                            color: style.font_color,
+                            fontFamily: style.font_family,
+                            fontSize: style.font_size,
+                        }}
+                    />
+                </button>
             </form>
         </>
     );

@@ -20,9 +20,7 @@ def validation_errors_to_error_messages(validation_errors):
 def authenticateLogin():
     """Authenticate a user."""
     if current_user.is_authenticated:
-        response = make_response(current_user.to_dict())
-        response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
-        return response
+        return current_user.to_dict()
     error_response = make_response({'errors': ['Unauthorized']})
     error_response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
     return error_response
@@ -31,9 +29,7 @@ def authenticateLogin():
 def authenticateSignup():
     """Authenticate a user."""
     if current_user.is_authenticated:
-        response = make_response(current_user.to_dict())
-        response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
-        return response
+        return current_user.to_dict()
     error_response = make_response({'errors': ['Unauthorized']})
     error_response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
     return error_response
@@ -53,7 +49,7 @@ def login():
 def logout():
     """Log a user out."""
     logout_user()
-    return {'message': 'User logged out'}
+    return {'message': 'User logged out.'}
 
 @auth_routes.route('/signup', methods=['POST'])
 def sign_up():
@@ -71,10 +67,3 @@ def sign_up():
         login_user(user)
         return user.to_dict()
     return {'errors': validation_errors_to_error_messages(form.errors)}, 401
-
-@auth_routes.route('/unauthorized')
-def unauthorized():
-    """Return unauthorized JSON when flask-login authentication fails."""
-    response = make_response({'errors': ['Unauthorized']})
-    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
-    return response
