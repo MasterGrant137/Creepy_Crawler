@@ -3,6 +3,7 @@
 + Copy-to-clipboard inputs made more responsive on history page.
 + History toggle time bug eliminated. Semantic, logical code substituted for previous fix.
 + Conditionally rendered icon indicates which theme has been selected.
++ Styled, added, and modified icons.
 
 #### Nov 16, 2021
 + Extensive accessibility enhancements. Words exchanged for icons wherever possible to promote a language-agnostic application view. Alt tags placed on all images and icons for individuals with screen readers. Titles also placed on all images and icons for clients unable to load them and for the informational hover functionality. I tested the site on Apple’s VoiceOver screen reader to ensure I was truly making impactful decisions. That brought me to reconsider several stylistic choices including some of the `user-select: none` styling I had.
