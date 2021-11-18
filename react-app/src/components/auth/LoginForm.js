@@ -18,6 +18,10 @@ const LoginForm = ({ style }) => {
     const user = useSelector((state) => state.session.user);
     const dispatch = useDispatch();
 
+    let isUser;
+    if (user && !user.errors) isUser = true;
+    else isUser = false;
+
     const allowable = () => {
         setPasswordRequired(true);
 
@@ -45,9 +49,7 @@ const LoginForm = ({ style }) => {
         setPassword(e.target.value);
     };
 
-    if (user) {
-        return <Redirect to='/' />;
-    }
+    if (isUser) return <Redirect to='/' />;
 
     return (
         <div className='login-form-container'>

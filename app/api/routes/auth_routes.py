@@ -20,14 +20,14 @@ def authenticateLogin():
     """Authenticate a user."""
     if current_user.is_authenticated:
         return current_user.to_dict()
-    return None
+    return {'errors': ['Unauthorized']}
 
 @auth_routes.route('/signup')
 def authenticateSignup():
     """Authenticate a user."""
     if current_user.is_authenticated:
         return current_user.to_dict()
-    return None
+    return {'errors': ['Unauthorized']}
 
 @auth_routes.route('/login', methods=['POST'])
 def login():
@@ -44,7 +44,7 @@ def login():
 def logout():
     """Log a user out."""
     logout_user()
-    return {'message': 'User logged out.'}
+    return {'message': 'User logged out'}
 
 @auth_routes.route('/signup', methods=['POST'])
 def sign_up():
