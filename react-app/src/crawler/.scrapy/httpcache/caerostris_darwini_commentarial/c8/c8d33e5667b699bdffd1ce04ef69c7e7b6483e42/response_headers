@@ -1,0 +1,16 @@
+Content-Length: 23823
+Content-Type: text/html
+Date: Fri, 19 Nov 2021 22:50:31 GMT
+Server: Apache-Coyote/1.1
+Content-Encoding: gzip
+Via: 1.1 varnish (Varnish/6.0), 1.1 c5ce554a66cf9007b8e39d06afcf462c.cloudfront.net (CloudFront)
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Set-Cookie: edition-view=espn-en-us; path=/; Expires=Fri, 26 Nov 2021 22:50:31 GMT;
+Set-Cookie: country=us; path=/;
+Set-Cookie: edition=espn-en-us; path=/; Expires=Fri, 26 Nov 2021 22:50:31 GMT;
+Set-Cookie: region=ccpa; path=/; Expires=Fri, 26 Nov 2021 22:50:31 GMT;
+Cache-Control: max-age=0, must-revalidate
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX3-C4
+X-Amz-Cf-Id: ph6E45UNqiuE8rmXiesOuxXGJpvFO_bexd3KxDLM1TuJT7RKRlTwYQ==

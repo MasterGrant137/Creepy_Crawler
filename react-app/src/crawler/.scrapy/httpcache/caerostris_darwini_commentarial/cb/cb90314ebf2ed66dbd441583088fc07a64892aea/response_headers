@@ -1,0 +1,10 @@
+Content-Length: 145
+Server: nginx/1.17.9
+Date: Fri, 19 Nov 2021 22:50:31 GMT
+Content-Type: text/html
+Location: https://www.disneyadsales.com/
+Strict-Transport-Security: max-age=15768000; includeSubdomains; preload;
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block

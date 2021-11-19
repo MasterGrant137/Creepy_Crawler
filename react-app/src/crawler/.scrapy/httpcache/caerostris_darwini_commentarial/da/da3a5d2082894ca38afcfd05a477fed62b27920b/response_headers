@@ -1,0 +1,15 @@
+Server: nginx
+Date: Fri, 19 Nov 2021 22:50:31 GMT
+Content-Type: text/plain; charset=utf-8
+X-Hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+X-Powered-By: WordPress VIP <https://wpvip.com>
+Host-Header: a9130478a60e5f9135f765b23f26593b
+Content-Security-Policy: frame-ancestors 'self' https://nielsensports.com https://www.qa.nielsen.com https://develop.nielsen.com
+Link: <https://www.nielsen.com/wp-json/>; rel="https://api.w.org/"
+X-Rq: bur7 0 2 9980
+Cache-Control: max-age=300, must-revalidate
+Content-Encoding: gzip
+Age: 0
+X-Cache: miss
+Vary: Accept-Encoding
+Accept-Ranges: bytes

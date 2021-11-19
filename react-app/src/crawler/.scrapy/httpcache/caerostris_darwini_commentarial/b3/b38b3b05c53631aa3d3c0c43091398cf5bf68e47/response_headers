@@ -1,0 +1,12 @@
+Content-Length: 33
+Content-Encoding: gzip
+Content-Type: text/plain
+Vary: Accept-Encoding
+X-Powered-By: Containerized
+X-Ua-Compatible: IE=edge
+Date: Fri, 19 Nov 2021 22:50:31 GMT
+Content-Security-Policy: frame-src https://*.disneycareers.com/ https://*.fls.doubleclick.net https://*.beamery.com https://www.facebook.com/ https://*.hotjar.com/ https://www.youtube-nocookie.com/ https://www.youtube.com/
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains
+Server: None
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff

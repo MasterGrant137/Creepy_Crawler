@@ -1,0 +1,13 @@
+Server: nginx
+Date: Fri, 19 Nov 2021 22:50:32 GMT
+Content-Type: text/plain; charset=utf-8
+Set-Cookie: country=us; expires=Sat, 20-Nov-2021 22:50:32 GMT; Max-Age=86400
+Host-Header: a9130478a60e5f9135f765b23f26593b
+X-Frame-Options: SAMEORIGIN
+Link: <https://theundefeated.com/wp-json/>; rel="https://api.w.org/"
+X-Rq: bur5 0 4 9980
+Content-Encoding: gzip
+Age: 0
+X-Cache: miss
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000;includeSubdomains;preload
