@@ -12,10 +12,4 @@ from wtforms.validators import DataRequired
 class SearchForm(FlaskForm):
     """Responsible for processing post requests for search queries."""
 
-    search = StringField('search', validators=[DataRequired()])
-
-
-class VisitForm(FlaskForm):
-    """Responsible for processing posts requests for clicked links."""
-
-    visit = StringField('visit', validators=[DataRequired()])
+    search = StringField('search', validators=[DataRequired(message='Please make a valid search!')])

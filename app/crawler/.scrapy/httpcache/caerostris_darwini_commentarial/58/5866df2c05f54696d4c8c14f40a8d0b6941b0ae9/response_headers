@@ -1,0 +1,33 @@
+Content-Length: 99312
+Content-Type: text/html;charset=utf-8
+Belfrage-Cache-Status: MISS
+Bid: sally
+Brequestid: ff9e6ed325e94a2fa7e8aa30fb723986
+Bsig: 9bb69407841b378fdebf81a1cf5cb529
+Cache-Control: public, stale-if-error=90, stale-while-revalidate=30, max-age=30
+Content-Encoding: gzip
+Content-Security-Policy: default-src *.bbc.co.uk *.bbc.com *.bbci.co.uk *.bbci.com https://tpc.googlesyndication.com https://*.safeframe.googlesyndication.com 'self';child-src 'self';connect-src *.bbc.co.uk *.bbc.com *.bbci.co.uk *.bbci.com https://modules.wearehearken.eu https://*.akamaihd.net https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net https://csi.gstatic.com https://pagead2.googlesyndication.com https://*.g.doubleclick.net https://survey.effectivemeasure.net https://collector.effectivemeasure.net https://detect-survey.effectivemeasure.net https://adservice.google.com https://tpc.googlesyndication.com https://ad.doubleclick.net https://fundingchoicesmessages.google.com https://secure-dcr-cert.imrworldwide.com https://*.safeframe.googlesyndication.com 'self';font-src *.bbc.co.uk *.bbc.com *.bbci.co.uk *.bbci.com https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/fonts/fontawesome-webfont.woff https://fonts.gstatic.com;frame-src *.bbc.co.uk *.bbc.com *.bbci.co.uk *.bbci.com https://chartbeat.com https://*.chartbeat.com https://www.youtube.com https://platform.twitter.com https://www.instagram.com https://syndication.twitter.com https://bbc.com https://bbc-maps.carto.com https://flo.uri.sh https://www.riddle.com https://*.g.doubleclick.net https://tpc.googlesyndication.com https://edigitalsurvey.com https://*.safeframe.googlesyndication.com https://ad.doubleclick.net https://secureframe.doubleclick.net 'self';img-src *.bbc.co.uk *.bbc.com *.bbci.co.uk *.bbci.com https://ping.chartbeat.net https://syndication.twitter.com https://platform.twitter.com https://pbs.twimg.com https://i.ytimg.com https://ton.twimg.com https://collector.effectivemeasure.net https://csi.gstatic.com https://pagead2.googlesyndication.com https://sb.scorecardresearch.com https://secure-us.imrworldwide.com https://uaid-linkage.imrworldwide.com https://cloudapi.imrworldwide.com https://*.redinuid.imrworldwide.com https://*.g.doubleclick.net https://tpc.googlesyndication.com https://*.google.com https://dt.adsafeprotected.com https://pixel.adsafeprotected.com https://ad.doubleclick.net https://static.doubleclick.net https://www.gstatic.com https://*.googleusercontent.com data: 'self';script-src *.bbc.co.uk *.bbc.com *.bbci.co.uk *.bbci.com https://assets.wearehearken.eu https://modules.wearehearken.eu https://ems.wearehearken.eu https://*.chartbeat.com https://platform.twitter.com https://www.instagram.com https://cdn.syndication.twimg.com https://public.flourish.studio https://adservice.google.co.uk https://adservice.google.com https://cdn.ampproject.org https://collector.effectivemeasure.net https://me-ssl.effectivemeasure.net https://pixel.adsafeprotected.com https://static.adsafeprotected.com https://sb.scorecardresearch.com https://*.g.doubleclick.net https://t.effectivemeasure.net https://tpc.googlesyndication.com https://www.googletagservices.com https://bbc.gscontxt.net https://secure-us.imrworldwide.com/ https://fundingchoicesmessages.google.com https://pagead2.googlesyndication.com https://adservice.google.co.ve https://adservice.google.ru https://adservice.google.co.in https://adservice.google.com.br https://adservice.google.com.mx https://adservice.google.com.ec https://adservice.google.cl https://adservice.google.com.eg https://adservice.google.com.sa https://adservice.google.com.co https://adservice.google.com.ar https://adservice.google.com.ua https://adservice.google.com.pe https://adservice.google.kz https://adservice.google.com.hk https://adservice.google.es https://adservice.google.co.jp https://adservice.google.ae https://adservice.google.com.tw https://adservice.google.com.uy https://adservice.google.co.il https://adservice.google.com.pr https://adservice.google.com.bo https://adservice.google.iq https://adservice.google.com.gt https://adservice.google.com.sg https://adservice.google.com.tr https://adservice.google.com.pk https://adservice.google.de https://adservice.google.ca https://adservice.google.com.vn https://adservice.google.com.py https://adservice.google.com.ng https://adservice.google.jo https://adservice.google.se https://adservice.google.com.au https://adservice.google.it https://adservice.google.com.kh https://adservice.google.co.nz https://adservice.google.az https://adservice.google.fi https://adservice.google.com.ro https://adservice.google.co.id https://adservice.google.ie https://adservice.google.cz https://adservice.google.com.cy https://adservice.google.at https://adservice.google.nl https://adservice.google.cv https://adservice.google.com.mt https://adservice.google.dk https://adservice.google.com.af https://adservice.google.fr https://adservice.google.no https://adservice.google.com.sv https://adservice.google.hn https://adservice.google.be https://adservice.google.com.ni https://adservice.google.ch https://adservice.google.co.kr https://adservice.google.pl https://adservice.google.com.mm https://adservice.google.so https://adservice.google.co.tz https://adservice.google.com.np https://adservice.google.lk https://adservice.google.lv https://adservice.google.ge 'self' 'unsafe-inline';style-src *.bbc.co.uk *.bbc.com *.bbci.co.uk *.bbci.com https://platform.twitter.com https://ton.twimg.com https://fonts.googleapis.com 'unsafe-inline';media-src *.bbc.co.uk *.bbc.com *.bbci.co.uk *.bbci.com;worker-src 'self';prefetch-src https://*.safeframe.googlesyndication.com;report-to default;upgrade-insecure-requests
+Moz-Cache-Status: HIT
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+Req-Svc-Chain: FASTLY,GTM,BELFRAGE,MOZART,SIMORGH
+Via: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Mrid: n1
+X-Msig: 3aafe61afe7a0f6932d50a8edabd4b1b
+X-Xss-Protection: 1; mode=block
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+X-Bbc-Edge-Cache-Status: EXPIRED
+X-Bbc-Origin-Response-Status: 200
+Server: BBC-GTM
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Sat, 20 Nov 2021 03:22:31 GMT
+Age: 2079
+X-Fastly-Cache-Status: HIT-STALE-CLUSTER
+X-Served-By: cache-bur17528-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1637378552.639070,VS0,VE2
+X-Lb-Nocache: true
+Vary: X-BBC-Edge-Scheme,Accept-Encoding

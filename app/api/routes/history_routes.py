@@ -45,19 +45,24 @@ def add_history_entry():
         js_tz_parsed = re.search(js_tstamp_regex, js_tstamp).group(3)
         js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
 
+        query = form.data['search']
         history_entry = History(
             user_id=current_user.id,
-            search=form.data['search'],
+            search=query,
             tz=js_tz_parsed,
             tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
             updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
         )
 
+        query_file = open('app/crawler/query.json', 'w')
+        query_file.write(f'{{"query": "{query}"}}')
+        query_file.close()
+
         db.session.add(history_entry)
         db.session.commit()
         entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
         return { 'history': [ entry.to_dict() for entry in entries ] }
-    return {'errors': ['Please make a valid search.']}, 400
+    return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
 @history_routes.route('/')
 @login_required

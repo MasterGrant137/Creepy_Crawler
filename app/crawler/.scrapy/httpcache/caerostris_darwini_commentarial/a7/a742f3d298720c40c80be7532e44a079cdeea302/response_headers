@@ -1,0 +1,24 @@
+Content-Length: 37655
+Date: Sat, 20 Nov 2021 03:22:35 GMT
+Content-Type: text/html; charset=UTF-8
+Belfrage-Cache-Status: MISS
+Bid: bruce
+Brequestid: 72748fafd110425495697040eb01746f
+Bsig: 135e53b5cdd97a6e687d23190e2d9464
+Cache-Control: public, stale-if-error=90, stale-while-revalidate=30, max-age=120
+Content-Encoding: gzip
+Content-Language: en-GB
+Link: <https://static.bbci.co.uk/frameworks/jquery/0.4.1/sharedmodules/jquery-1.9.1.js>; rel="preload"; as="script"; nopush,<https://programmes.files.bbci.co.uk/programmes-frontend/js/dsamen-bootstrap-2449a2e5c1.js>; rel="preload"; as="script"; nopush,<https://fig.bbc.co.uk>; rel="dns-prefetch",<https://programmes.files.bbci.co.uk/programmes-frontend/css/dsAmen-b3253e58eb.css>; rel="preload"; as="style"; nopush,<https://programmes.files.bbci.co.uk/programmes-frontend/js/timezone-notification-9476b56a8c.js>; rel="preload"; as="script"; nopush
+Req-Svc-Chain: GTM,BELFRAGE
+Vary: accept-encoding
+Via: 1.1 BBC-GTM, 1.1 Belfrage
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Lb-Nocache: true
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+X-Bbc-Edge-Cache-Status: MISS
+X-Bbc-Origin-Response-Status: 200
+Server: BBC-GTM
+Strict-Transport-Security: max-age=86400

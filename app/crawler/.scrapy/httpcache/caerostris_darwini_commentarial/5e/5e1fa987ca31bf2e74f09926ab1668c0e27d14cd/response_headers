@@ -1,0 +1,29 @@
+Content-Length: 176776
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: public, max-age=600, stale-if-error=7200, stale-while-revalidate=60
+Etag: W/"a5ca4-VNi1WD69VpgIWj8dzFovFNioWbs"
+Content-Encoding: gzip
+Via: 1.1 BBC-GTM, 1.1 93c05674a873410f17afbb33f0b6fa7d.cloudfront.net (CloudFront), 1.1 varnish
+X-Amz-Cf-Pop: LHR61-P3
+X-Amz-Cf-Id: vCz-OqcMsCVRnwPbwF5KIkZQFG_4USeOtvYx_32S6fqxBmmRiUUlMQ==
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+Req-Svc-Chain: FASTLY,GTM
+X-Bbc-Edge-Cache-Status: EXPIRED
+X-Bbc-Origin-Response-Status: 200
+Server: BBC-GTM
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Sat, 20 Nov 2021 03:22:36 GMT
+Age: 900
+X-Fastly-Cache-Status: HIT-STALE-CLUSTER
+X-Served-By: cache-bur17521-BUR
+X-Cache: Hit from cloudfront, HIT
+X-Cache-Hits: 1
+X-Timer: S1637378557.760199,VS0,VE2
+X-Lb-Nocache: true
+Vary: Accept-Encoding

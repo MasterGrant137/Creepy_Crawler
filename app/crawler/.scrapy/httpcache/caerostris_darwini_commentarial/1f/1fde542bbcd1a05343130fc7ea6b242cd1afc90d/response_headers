@@ -1,0 +1,16 @@
+Content-Length: 60918
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Link: <https://www.bbcpodcasts.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.bbcpodcasts.com/wp-json/wp/v2/pages/5689>; rel="alternate"; type="application/json"
+Link: <https://www.bbcpodcasts.com/?p=5689>; rel=shortlink
+Link: <https://consent.cookiebot.com>;rel="preconnect",<https://www.googletagmanager.com>;rel="preconnect",<https://consentcdn.cookiebot.com>;rel="preconnect",<https://plausible.io>;rel="preconnect",<https://www.google-analytics.com>;rel="preconnect"
+Strict-Transport-Security: max-age=10886400
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Powered-By: PHP/7.3.22
+X-Xss-Protection: 1; mode=block
+Cache-Control: private, max-age=69887
+Expires: Sat, 20 Nov 2021 22:47:24 GMT
+Date: Sat, 20 Nov 2021 03:22:37 GMT
+Vary: Accept-Encoding
