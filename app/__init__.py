@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template, request, redirect
+from flask import Flask, request, redirect
 from flask_cors import CORS
 from flask_migrate import Migrate
 from flask_wtf.csrf import generate_csrf

@@ -9,12 +9,14 @@ Categories:
 
 import json
 import scrapy
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
 
-with open('query.json', 'r') as query_object:
+
+with open('app/crawler/query.json', 'r') as query_object:
     query = json.load(query_object)['query']
-    print(query)
 
-class CDS(scrapy.Spider):
+class CDCommentarial(scrapy.Spider):
     """Commentarial spider."""
     
     name = 'caerostris_darwini_commentarial'
@@ -34,9 +36,10 @@ class CDS(scrapy.Spider):
         except:
             print('End of the line error.')
 
+process = CrawlerProcess(get_project_settings())
 
-
-
+process.crawl(CDCommentarial)
+process.start()
 
 
 
