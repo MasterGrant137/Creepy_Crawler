@@ -7,9 +7,12 @@ Categories:
     + Videographic (video)
 """
 
+import json
 import scrapy
 
-targ_text = 'war'
+with open('query.json', 'r') as query_object:
+    query = json.load(query_object)['query']
+    print(query)
 
 class CDS(scrapy.Spider):
     """Commentarial spider."""
@@ -24,7 +27,7 @@ class CDS(scrapy.Spider):
         all_text = response.css('*:not(script):not(style)::text')
         try:
             for text in all_text:
-                if (targ_text, text.get()):
+                if (query in text.get()):
                     yield {
                         'url': f'{response.request.url}: {text.get()}',
                     }
@@ -39,7 +42,7 @@ class CDS(scrapy.Spider):
 
 
 #* follows and grabs info on traversed links and compares to target text
-# targ_text = 'ESPN'
+# query = 'ESPN'
 
 # class CDS(scrapy.Spider):
 #     """Commentarial spider."""
@@ -55,7 +58,7 @@ class CDS(scrapy.Spider):
 #         all_text = response.css('*::text')
 #         try:
 #             for text in all_text:
-#                 if (targ_text in text.get()):
+#                 if (query in text.get()):
 #                     yield {
 #                         'url': f'{response.request.url}: {text.get()}',
 #                     }
