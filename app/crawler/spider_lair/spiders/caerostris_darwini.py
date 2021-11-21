@@ -7,19 +7,22 @@ Categories:
     + Videographic (video)
 """
 
-
+import os
 import json
-from twisted.internet import reactor
+# from twisted.internet import reactor
 import scrapy
-# from scrapy.crawler import CrawlerProcess
-# from scrapy.utils.project import get_project_settings
-from scrapy.crawler import CrawlerRunner
-from scrapy.utils.log import configure_logging
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
+# from scrapy.crawler import CrawlerRunner
+# from scrapy.utils.log import configure_logging
 
-with open('app/crawler/query.json', 'r') as query_object:
+# with open('app/crawler/query.json', 'r') as query_object:
+#     query = json.load(query_object)['query']
+
+with open('query.json', 'r') as query_object:
     query = json.load(query_object)['query']
 
-results_file = open('app/crawler/caerostris_darwini.json', 'w')
+results_file = open('caerostris_darwini.json', 'w')
 results_list = []
 
 class CDCommentarial(scrapy.Spider):
@@ -41,17 +44,18 @@ class CDCommentarial(scrapy.Spider):
         except:
             print('End of the line error.')
 
-# process = CrawlerProcess(get_project_settings())
-configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
-runner = CrawlerRunner()
-runner.crawl(CDCommentarial)
+process = CrawlerProcess(get_project_settings())
+# configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
+# runner = CrawlerRunner()
+# runner.crawl(CDCommentarial)
 
-# process.crawl(CDCommentarial)
-# process.start()
-## d = runner.crawl(CDCommentarial)
-deferred = runner.join()
-deferred.addBoth(lambda _: reactor.stop())
-reactor.run()
+process.crawl(CDCommentarial)
+process.start()
+
+## deferred = runner.crawl(CDCommentarial)
+# deferred = runner.join()
+# deferred.addBoth(lambda _: reactor.stop())
+# reactor.run()
 
 newline = ',\n'
 results_file.write(f"[{newline.join([json.dumps(result, indent=4) for result in results_list])}]")
