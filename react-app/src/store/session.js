@@ -41,15 +41,16 @@ export const login = (email, password) => async (dispatch) => {
             password,
         }),
     });
+    const data = await response.json();
     if (response.ok) {
-        const data = await response.json();
         dispatch(cruUser(data));
         return null;
-    } if (response.status === 500) {
+    }
+    if (data.errors === 'The CSRF token has expired.'
+        || response.status === 500) {
         window.location.reload();
         return null;
     }
-    const data = await response.json();
     return data.errors;
 };
 
@@ -65,15 +66,16 @@ export const signUp = (username, email, password) => async (dispatch) => {
             password,
         }),
     });
+    const data = await response.json();
     if (response.ok) {
-        const data = await response.json();
         dispatch(cruUser(data));
         return null;
-    } if (response.status === 500) {
+    }
+    if (data.errors === 'The CSRF token has expired.'
+        || response.status === 500) {
         window.location.reload();
         return null;
     }
-    const data = await response.json();
     return data.errors;
 };
 
@@ -92,16 +94,16 @@ export const editProfileMedia = (userID, formData) => async (dispatch) => {
         method: 'PUT',
         body: formData,
     });
+    const data = await response.json();
     if (response.ok) {
-        const media = await response.json();
-        dispatch(cruUser(media));
-        return media;
-    } if (response.status === 500) {
+        dispatch(cruUser(data));
+        return data;
+    }
+    if (data.errors === 'The CSRF token has expired.'
+        || response.status === 500) {
         window.location.reload();
         return null;
     }
-    const data = await response.json();
-    if (data.errors === 'The CSRF token has expired.') window.location.reload();
     alert(data.errors);
     return null;
 };
@@ -116,16 +118,16 @@ export const editProfile = (setting) => async (dispatch) => {
             setting,
         ),
     });
+    const data = await response.json();
     if (response.ok) {
-        const data = await response.json();
         dispatch(cruUser(data));
         return data;
-    } if (response.status === 500) {
+    }
+    if (data.errors === 'The CSRF token has expired.'
+        || response.status === 500) {
         window.location.reload();
         return null;
     }
-    const data = await response.json();
-    if (data.errors === 'The CSRF token has expired.') window.location.reload();
     alert(data.errors);
     return null;
 };
@@ -136,11 +138,13 @@ export const logout = () => async (dispatch) => {
             'Content-Type': 'application/json',
         },
     });
+    const data = await response.json();
     if (response.ok) {
-        const data = await response.json();
         dispatch(removeUser());
         return data;
-    } if (response.status === 500) {
+    }
+    if (data.errors === 'The CSRF token has expired.'
+        || response.status === 500) {
         window.location.reload();
         return null;
     }
