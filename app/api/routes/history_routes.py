@@ -7,6 +7,7 @@ committing the data to the database.
 """
 
 import re
+import sys
 
 #$ Each Time Import?
 import importlib
@@ -24,7 +25,7 @@ from flask.helpers import make_response
 # from scrapy.utils.log import configure_logging
 
 #$ Twisted Import
-from twisted.internet import reactor
+# from twisted.internet import reactor
 
 from scrapy.crawler import CrawlerRunner
 
@@ -76,39 +77,48 @@ def add_history_entry():
         # reload = True
         
         # if reload:
-        import app.crawler.spider_lair.spiders.caerostris_darwini as CDSpiders
+        # import app.crawler.spider_lair.spiders.caerostris_darwini as CDSpiders
         # CDCommentarial = CDSpiders.CDCommentarial
-        importlib.reload(CDSpiders)
+        # importlib.reload(CDSpiders)
         # reload = False
 
         #$ For Initial query
         # import app.crawler.spider_lair.spiders.caerostris_darwini as CDSpiders
         # OR
+        from twisted.internet import reactor
         # import app.crawler.spider_lair.spiders.caerostris_darwini
 
         #$ For Use of Class
-        # from app.crawler.spider_lair.spiders.caerostris_darwini import CDCommentarial
+        from app.crawler.spider_lair.spiders.caerostris_darwini import CDCommentarial
         
         #$ Twisted Way
-        # runner = CrawlerRunner()
-        # runner.crawl(CDCommentarial)
+        runner = CrawlerRunner()
+        runner.crawl(CDCommentarial)
 
         #$ Process Way
         # process = CrawlerProcess(get_project_settings())
 
         #$ Twisted Way
-        # deferred = runner.join()
-        # deferred.addBoth(lambda _: reactor.stop())
-        # reactor.run()
+        deferred = runner.join()
+        deferred.addBoth(lambda _: reactor.stop())
+        reactor.run()
 
         #$ Process Way
         # process.crawl(CDCommentarial)
         # process.start()
         # process.start(stop_after_crawl=False)
 
+        # #$ delete module
+        del sys.modules['twisted.internet.reactor']
+        del sys.modules['app.crawler.spider_lair.spiders.caerostris_darwini']
+        # from twisted.internet import reactor, default
+        # import app.crawler.spider_lair.spiders.caerostris_darwini
+        # default.install()
+
         db.session.add(history_entry)
         db.session.commit()
         entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
+
         return { 'history': [ entry.to_dict() for entry in entries ] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 

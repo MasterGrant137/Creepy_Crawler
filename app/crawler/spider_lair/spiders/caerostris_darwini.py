@@ -52,9 +52,9 @@ class CDCommentarial(scrapy.Spider):
 # process = CrawlerProcess(get_project_settings())
 
 #$ Twisted Way
-configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
-runner = CrawlerRunner()
-runner.crawl(CDCommentarial)
+# configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
+# runner = CrawlerRunner()
+# runner.crawl(CDCommentarial)
 
 #$ Process Way
 # process.crawl(CDCommentarial)
@@ -64,9 +64,9 @@ runner.crawl(CDCommentarial)
 ## deferred = runner.crawl(CDCommentarial)
 
 #$ Twisted Way
-deferred = runner.join()
-deferred.addBoth(lambda _: reactor.stop())
-reactor.run()
+# deferred = runner.join()
+# deferred.addBoth(lambda _: reactor.stop())
+# reactor.run()
 
 newline = ',\n'
 results_file.write(f"[{newline.join([json.dumps(result, indent=4) for result in results_list])}]")
