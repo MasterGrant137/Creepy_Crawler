@@ -7,6 +7,10 @@ committing the data to the database.
 """
 
 import re
+
+#$ Each Time Import?
+import importlib
+
 from datetime import datetime
 from flask import Blueprint, request
 from app.models import db, History
@@ -68,9 +72,26 @@ def add_history_entry():
         query_file.write(f'{{"query": "{query}"}}')
         query_file.close()
 
-        from app.crawler.spider_lair.spiders.caerostris_darwini import CDCommentarial
-        runner = CrawlerRunner()
-        runner.crawl(CDCommentarial)
+        #$ Each Time?
+        # reload = True
+        
+        # if reload:
+        import app.crawler.spider_lair.spiders.caerostris_darwini as CDSpiders
+        # CDCommentarial = CDSpiders.CDCommentarial
+        importlib.reload(CDSpiders)
+        # reload = False
+
+        #$ For Initial query
+        # import app.crawler.spider_lair.spiders.caerostris_darwini as CDSpiders
+        # OR
+        # import app.crawler.spider_lair.spiders.caerostris_darwini
+
+        #$ For Use of Class
+        # from app.crawler.spider_lair.spiders.caerostris_darwini import CDCommentarial
+        
+        #$ Twisted Way
+        # runner = CrawlerRunner()
+        # runner.crawl(CDCommentarial)
 
         #$ Process Way
         # process = CrawlerProcess(get_project_settings())

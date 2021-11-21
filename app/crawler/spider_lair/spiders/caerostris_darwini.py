@@ -1,10 +1,10 @@
 """Caerostris Darwini Spiders.
 
 Categories:
-    + Commentarial (image/text)
-    + Commercial (image)
-    + Encyclopedic (text)
-    + Videographic (video)
++ Commentarial (image/text)
++ Commercial (image)
++ Encyclopedic (text)
++ Videographic (video)
 """
 
 # import os
