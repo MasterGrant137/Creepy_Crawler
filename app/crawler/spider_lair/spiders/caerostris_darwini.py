@@ -7,14 +7,20 @@ Categories:
     + Videographic (video)
 """
 
-import json
-import scrapy
-from scrapy.crawler import CrawlerProcess
-from scrapy.utils.project import get_project_settings
 
+import json
+from twisted.internet import reactor
+import scrapy
+# from scrapy.crawler import CrawlerProcess
+# from scrapy.utils.project import get_project_settings
+from scrapy.crawler import CrawlerRunner
+from scrapy.utils.log import configure_logging
 
 with open('app/crawler/query.json', 'r') as query_object:
     query = json.load(query_object)['query']
+
+results_file = open('app/crawler/caerostris_darwini.json', 'w')
+results_list = []
 
 class CDCommentarial(scrapy.Spider):
     """Commentarial spider."""
@@ -30,19 +36,26 @@ class CDCommentarial(scrapy.Spider):
         try:
             for text in all_text:
                 if (query in text.get()):
-                    yield {
-                        'url': f'{response.request.url}: {text.get()}',
-                    }
+                    results_list.append({ "url": f"{response.request.url}", "result": text.get().replace('"', '\"')})
+                    yield { 'url': response.request.url }
         except:
             print('End of the line error.')
 
-process = CrawlerProcess(get_project_settings())
+# process = CrawlerProcess(get_project_settings())
+configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
+runner = CrawlerRunner()
+runner.crawl(CDCommentarial)
 
-process.crawl(CDCommentarial)
-process.start()
+# process.crawl(CDCommentarial)
+# process.start()
+## d = runner.crawl(CDCommentarial)
+deferred = runner.join()
+deferred.addBoth(lambda _: reactor.stop())
+reactor.run()
 
-
-
+newline = ',\n'
+results_file.write(f"[{newline.join([json.dumps(result, indent=4) for result in results_list])}]")
+results_file.close()
 
 #* follows and grabs info on traversed links and compares to target text
 # query = 'ESPN'
