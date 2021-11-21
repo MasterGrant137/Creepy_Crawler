@@ -13,6 +13,7 @@ from app.models import db, History
 from app.forms import SearchForm
 from flask_login import current_user, login_required
 from flask.helpers import make_response
+from twisted.internet import reactor
 # from app.crawler.spider_lair.spiders.caerostris_darwini import CDCommentarial
 
 history_routes = Blueprint('entries', __name__)
@@ -58,7 +59,9 @@ def add_history_entry():
         query_file = open('app/crawler/query.json', 'w')
         query_file.write(f'{{"query": "{query}"}}')
         query_file.close()
-        # CDCommentarial()
+        # import app.crawler.spider_lair.spiders.caerostris_darwini
+        # from app.crawler.spider_lair.spiders.caerostris_darwini import CDCommentarial
+        # CDCommentarial
 
         db.session.add(history_entry)
         db.session.commit()
