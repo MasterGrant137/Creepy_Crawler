@@ -9,15 +9,19 @@ Categories:
 
 # import os
 import json
+
+#$ Twisted Import
 from twisted.internet import reactor
+
 import scrapy
+
+#$ Process Imports
 # from scrapy.crawler import CrawlerProcess
 # from scrapy.utils.project import get_project_settings
+
+#$ Twisted Imports
 from scrapy.crawler import CrawlerRunner
 from scrapy.utils.log import configure_logging
-
-# with open('query.json', 'r') as query_object:
-#     query = json.load(query_object)['query']
 
 with open('app/crawler/query.json', 'r') as query_object:
     query = json.load(query_object)['query']
@@ -44,16 +48,22 @@ class CDCommentarial(scrapy.Spider):
         except:
             print('End of the line error.')
 
+#$ Process Way
 # process = CrawlerProcess(get_project_settings())
+
+#$ Twisted Way
 configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
 runner = CrawlerRunner()
 runner.crawl(CDCommentarial)
 
+#$ Process Way
 # process.crawl(CDCommentarial)
 # process.start()
 
+#$ Experimental Twisted Way
 ## deferred = runner.crawl(CDCommentarial)
 
+#$ Twisted Way
 deferred = runner.join()
 deferred.addBoth(lambda _: reactor.stop())
 reactor.run()

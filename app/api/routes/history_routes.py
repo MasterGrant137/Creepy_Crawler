@@ -13,8 +13,16 @@ from app.models import db, History
 from app.forms import SearchForm
 from flask_login import current_user, login_required
 from flask.helpers import make_response
+
+#$ Process Import
+# from scrapy.crawler import CrawlerProcess
+# from scrapy.utils.project import get_project_settings
+# from scrapy.utils.log import configure_logging
+
+#$ Twisted Import
 from twisted.internet import reactor
-# from app.crawler.spider_lair.spiders.caerostris_darwini import CDCommentarial
+
+from scrapy.crawler import CrawlerRunner
 
 history_routes = Blueprint('entries', __name__)
 
@@ -59,9 +67,23 @@ def add_history_entry():
         query_file = open('app/crawler/query.json', 'w')
         query_file.write(f'{{"query": "{query}"}}')
         query_file.close()
-        # import app.crawler.spider_lair.spiders.caerostris_darwini
-        # from app.crawler.spider_lair.spiders.caerostris_darwini import CDCommentarial
-        # CDCommentarial
+
+        from app.crawler.spider_lair.spiders.caerostris_darwini import CDCommentarial
+        runner = CrawlerRunner()
+        runner.crawl(CDCommentarial)
+
+        #$ Process Way
+        # process = CrawlerProcess(get_project_settings())
+
+        #$ Twisted Way
+        # deferred = runner.join()
+        # deferred.addBoth(lambda _: reactor.stop())
+        # reactor.run()
+
+        #$ Process Way
+        # process.crawl(CDCommentarial)
+        # process.start()
+        # process.start(stop_after_crawl=False)
 
         db.session.add(history_entry)
         db.session.commit()
