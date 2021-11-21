@@ -6,12 +6,15 @@ use the forms to process data before
 committing the data to the database.
 """
 
+import crochet
+crochet.setup()
+
 import re
-import sys
-
-#$ Each Time Import?
-import importlib
-
+import json
+from scrapy import signals
+from scrapy.crawler import CrawlerRunner
+from scrapy.signalmanager import dispatcher
+from app.crawler.spider_lair.spiders import caerostris_darwini
 from datetime import datetime
 from flask import Blueprint, request
 from app.models import db, History
@@ -19,15 +22,8 @@ from app.forms import SearchForm
 from flask_login import current_user, login_required
 from flask.helpers import make_response
 
-#$ Process Import
-# from scrapy.crawler import CrawlerProcess
-# from scrapy.utils.project import get_project_settings
-# from scrapy.utils.log import configure_logging
-
-#$ Twisted Import
-# from twisted.internet import reactor
-
-from scrapy.crawler import CrawlerRunner
+output_data = []
+crawl_runner = CrawlerRunner()
 
 history_routes = Blueprint('entries', __name__)
 
@@ -69,58 +65,33 @@ def add_history_entry():
             updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
         )
 
-        query_file = open('app/crawler/query.json', 'w')
-        query_file.write(f'{{"query": "{query}"}}')
-        query_file.close()
-
-        #$ Each Time?
-        # reload = True
-        
-        # if reload:
-        # import app.crawler.spider_lair.spiders.caerostris_darwini as CDSpiders
-        # CDCommentarial = CDSpiders.CDCommentarial
-        # importlib.reload(CDSpiders)
-        # reload = False
-
-        #$ For Initial query
-        # import app.crawler.spider_lair.spiders.caerostris_darwini as CDSpiders
-        # OR
-        from twisted.internet import reactor
-        # import app.crawler.spider_lair.spiders.caerostris_darwini
-
-        #$ For Use of Class
-        from app.crawler.spider_lair.spiders.caerostris_darwini import CDCommentarial
-        
-        #$ Twisted Way
-        runner = CrawlerRunner()
-        runner.crawl(CDCommentarial)
-
-        #$ Process Way
-        # process = CrawlerProcess(get_project_settings())
-
-        #$ Twisted Way
-        deferred = runner.join()
-        deferred.addBoth(lambda _: reactor.stop())
-        reactor.run()
-
-        #$ Process Way
-        # process.crawl(CDCommentarial)
-        # process.start()
-        # process.start(stop_after_crawl=False)
-
-        # #$ delete module
-        del sys.modules['twisted.internet.reactor']
-        del sys.modules['app.crawler.spider_lair.spiders.caerostris_darwini']
-        # from twisted.internet import reactor, default
-        # import app.crawler.spider_lair.spiders.caerostris_darwini
-        # default.install()
+        # query_file = open('app/crawler/query.json', 'w')
+        # query_file.write(f'{{"query": "{query}"}}')
+        # query_file.close()
 
         db.session.add(history_entry)
         db.session.commit()
         entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
+        scrape_with_crochet(query)
 
         return { 'history': [ entry.to_dict() for entry in entries ] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
+
+@crochet.wait_for(timeout=60.0)
+def scrape_with_crochet(query):
+    dispatcher.connect(_crawler_result, signal=signals.item_scraped)
+    print('PARAM INTACT', query)
+    eventual = crawl_runner.crawl(caerostris_darwini.CDCommentarial)
+    return eventual
+
+def _crawler_result(item, response, spider):
+    output_data.append(dict(item))
+    print(item)
+    results_file = open('app/crawler/caerostris_darwini.json', 'w')
+    newline = ',\n'
+    results_file.write(f"[{newline.join([json.dumps(result, indent=4) for result in output_data])}]")
+    results_file.close()
+
 
 @history_routes.route('/')
 @login_required
