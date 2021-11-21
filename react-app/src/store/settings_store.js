@@ -40,6 +40,7 @@ export const createUserSetting = (formData) => async (dispatch) => {
         return null;
     }
     const data = await response.json();
+    if (data.errors === 'The CSRF token has expired.') window.location.reload();
     alert(data.errors);
     return null;
 };
@@ -50,9 +51,6 @@ export const readUserSettings = () => async (dispatch) => {
         const settings = await response.json();
         await dispatch(readSettings(settings));
         return settings;
-    } if (response.status === 500) {
-        window.location.reload();
-        return null;
     }
     return null;
 };
@@ -71,6 +69,7 @@ export const updateUserSetting = (settingID, formData) => async (dispatch) => {
         return null;
     }
     const data = await response.json();
+    if (data.errors === 'The CSRF token has expired.') window.location.reload();
     alert(data.errors);
     return null;
 };
@@ -88,6 +87,7 @@ export const deleteUserSetting = (settingID) => async (dispatch) => {
         return null;
     }
     const data = await response.json();
+    if (data.errors === 'The CSRF token has expired.') window.location.reload();
     alert(data.errors);
     return null;
 };

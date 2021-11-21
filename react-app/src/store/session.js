@@ -101,6 +101,7 @@ export const editProfileMedia = (userID, formData) => async (dispatch) => {
         return null;
     }
     const data = await response.json();
+    if (data.errors === 'The CSRF token has expired.') window.location.reload();
     alert(data.errors);
     return null;
 };
@@ -124,6 +125,7 @@ export const editProfile = (setting) => async (dispatch) => {
         return null;
     }
     const data = await response.json();
+    if (data.errors === 'The CSRF token has expired.') window.location.reload();
     alert(data.errors);
     return null;
 };

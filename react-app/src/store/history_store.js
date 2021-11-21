@@ -16,15 +16,16 @@ export const createHistoryEntry = (entry) => async (dispatch) => {
         method: 'POST',
         body: JSON.stringify(entry),
     });
+    const data = await response.json();
     if (response.ok) {
-        const entries = await response.json();
-        await dispatch(crudHistory(entries));
-        return entries;
-    } if (response.status === 500) {
+        await dispatch(crudHistory(data));
+        return data;
+    }
+    if (data.errors === 'The CSRF token has expired.'
+        || response.status === 500) {
         window.location.reload();
         return null;
     }
-    const data = await response.json();
     alert(data.errors);
     return null;
 };
@@ -58,6 +59,7 @@ export const updateHistoryEntry = (entry) => async (dispatch) => {
         return null;
     }
     const data = await response.json();
+    if (data.errors === 'The CSRF token has expired.') window.location.reload();
     alert(data.errors);
     return null;
 };
@@ -75,6 +77,7 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
         return null;
     }
     const data = await response.json();
+    if (data.errors === 'The CSRF token has expired.') window.location.reload();
     alert(data.errors);
     return null;
 };
