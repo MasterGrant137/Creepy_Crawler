@@ -10,10 +10,10 @@ Categories:
 import json
 import scrapy
 
-query='football'
+# query='football'
 
-# with open('app/crawler/query.json', 'r') as query_object:
-#     query = json.load(query_object)['query']
+with open('app/crawler/query.json', 'r') as query_object:
+    query = json.load(query_object)['query']
 
 # results_file = open('app/crawler/caerostris_darwini.json', 'w')
 # results_list = []

@@ -65,22 +65,21 @@ def add_history_entry():
             updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
         )
 
-        # query_file = open('app/crawler/query.json', 'w')
-        # query_file.write(f'{{"query": "{query}"}}')
-        # query_file.close()
+        query_file = open('app/crawler/query.json', 'w')
+        query_file.write(f'{{"query": "{query}"}}')
+        query_file.close()
 
         db.session.add(history_entry)
         db.session.commit()
         entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-        scrape_with_crochet(query)
+        scrape_with_crochet()
 
         return { 'history': [ entry.to_dict() for entry in entries ] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
 @crochet.wait_for(timeout=60.0)
-def scrape_with_crochet(query):
+def scrape_with_crochet():
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    print('PARAM INTACT', query)
     eventual = crawl_runner.crawl(caerostris_darwini.CDCommentarial)
     return eventual
 
@@ -91,7 +90,6 @@ def _crawler_result(item, response, spider):
     newline = ',\n'
     results_file.write(f"[{newline.join([json.dumps(result, indent=4) for result in output_data])}]")
     results_file.close()
-
 
 @history_routes.route('/')
 @login_required
