@@ -72,15 +72,15 @@ def add_history_entry():
         db.session.add(history_entry)
         db.session.commit()
         entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-        scrape_with_crochet()
+        scrape_with_crochet(query)
 
         return { 'history': [ entry.to_dict() for entry in entries ] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
 @crochet.wait_for(timeout=60.0)
-def scrape_with_crochet():
+def scrape_with_crochet(query):
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    eventual = crawl_runner.crawl(caerostris_darwini.CDCommentarial)
+    eventual = crawl_runner.crawl(caerostris_darwini.CDCommentarial, query=query)
     return eventual
 
 def _crawler_result(item, response, spider):
