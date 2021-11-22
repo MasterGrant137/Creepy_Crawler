@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { createHistoryEntry, readSearchResults } from '../../store/search_store';
+import { createVisitEntry, readSearchResults } from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
 import './Search_Page.css';
@@ -17,7 +17,7 @@ const SearchResultsPage = ({ style }) => {
     else isUser = false;
 
     const visitHandler = async () => {
-        await dispatch(createHistoryEntry({ visit, updatedAt, user }));
+        await dispatch(createVisitEntry({ visit, updatedAt, user }));
     };
 
     useEffect(() => {
@@ -38,7 +38,7 @@ const SearchResultsPage = ({ style }) => {
             <a
                 href={result[0]}
                 onClick={(e) => {
-                    setVisit(e.target.value);
+                    setVisit(e.target.href);
                     setUpdatedAt((new Date()).toString());
                     visitHandler(e);
                 }}

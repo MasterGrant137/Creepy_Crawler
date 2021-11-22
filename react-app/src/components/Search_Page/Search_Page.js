@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { createHistoryEntry } from '../../store/search_store';
+import { createSearchEntry } from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
 import './Search_Page.css';
@@ -20,7 +20,7 @@ const SearchPage = ({ style }) => {
     const searchHandler = async (e) => {
         e.preventDefault();
         if (/^\s*$/.test(search)) return;
-        await dispatch(createHistoryEntry({ search, updatedAt, user }));
+        await dispatch(createSearchEntry({ search, updatedAt, user }));
         history.push('/api/search/results/');
     };
 

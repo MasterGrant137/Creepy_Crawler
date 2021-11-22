@@ -14,8 +14,31 @@ const readResults = (results) => ({
 });
 
 //$ thunks
-export const createHistoryEntry = (entry) => async (dispatch) => {
-    const response = await fetch('/api/search/history/', {
+export const createSearchEntry = (entry) => async (dispatch) => {
+    const response = await fetch('/api/search/history/searches/', {
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        method: 'POST',
+        body: JSON.stringify(entry),
+        user: entry.user,
+    });
+    const data = await response.json();
+    if (response.ok) {
+        await dispatch(crudSearch(data));
+        return data;
+    }
+    if (data.errors[0] === 'The CSRF token has expired.'
+        || response.status === 500) {
+        window.location.reload();
+        return null;
+    }
+    alert(data.errors);
+    return null;
+};
+
+export const createVisitEntry = (entry) => async (dispatch) => {
+    const response = await fetch('/api/search/history/visits/', {
         headers: {
             'Content-Type': 'application/json',
         },

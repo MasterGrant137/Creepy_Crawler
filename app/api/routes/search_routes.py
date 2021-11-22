@@ -37,41 +37,43 @@ def validation_errors_to_error_messages(validation_errors):
             errorMessages.append(error)
     return errorMessages
 
-@search_routes.route('/history/', methods=['POST'])
-def add_history_entry():
+@search_routes.route('/history/searches/', methods=['POST'])
+def add_search_entry():
     """Add a search entry to history."""
     form = SearchForm()
     form['csrf_token'].data = request.cookies['csrf_token']
 
     if form.validate_on_submit():
-        if request.json['user']['id'] == current_user.id:
-            js_tstamp = request.json['updatedAt']
-            js_tstamp_regex = re.compile(r'''
-            ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
-            ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
-            \((.*)\) #? time zone
-            ''', re.VERBOSE)
-            abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+'
-            natoTZRegex = r'[A-Z]TZ'
+        if not request.json['user']['id'] == current_user.id: 
+            return {'errors': ['You are not permitted to access history!']}, 401
 
-            js_date_parsed = re.search(js_tstamp_regex, js_tstamp).group(1)
-            js_tz_parsed = re.search(js_tstamp_regex, js_tstamp).group(3)
-            js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
+        search = form.data['search']
+        js_tstamp = request.json['updatedAt']
+        js_tstamp_regex = re.compile(r'''
+        ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
+        ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
+        \((.*)\) #? time zone
+        ''', re.VERBOSE)
+        abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+'
+        natoTZRegex = r'[A-Z]TZ'
 
-            history_entry = History(
-                user_id=current_user.id,
-                tz=js_tz_parsed,
-                tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
-                updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
-            )
-            if form.data['search']: history_entry.search = form.data['search']
-            else: history_entry.visit = form.data['visit']
+        js_date_parsed = re.search(js_tstamp_regex, js_tstamp).group(1)
+        js_tz_parsed = re.search(js_tstamp_regex, js_tstamp).group(3)
+        js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
 
-            db.session.add(history_entry)
-            db.session.commit()
-            entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
+        history_entry = History(
+            user_id=current_user.id,
+            search=search,
+            tz=js_tz_parsed,
+            tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
+            updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
+        )
+        if form.data['search']: history_entry.search = form.data['search']
+        else: history_entry.visit = form.data['visit']
 
-        if form.data['search']: scrape_with_crochet(form.data['search'])
+        db.session.add(history_entry)
+        db.session.commit()
+        entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
         return { 'history': [ entry.to_dict() for entry in entries ] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
@@ -84,12 +86,44 @@ def scrape_with_crochet(query):
 def _crawler_result(item, response, spider):
     output_data.append(dict(item))
 
+@search_routes.route('/history/visits/')
+def add_visit_entry():
+    """Add a visit entry to history."""
+    if not request.json['user']['id'] == current_user.id:
+        return {'errors': ['You are not permitted to access history!']}, 401
+
+    js_tstamp = request.json['updatedAt']
+    js_tstamp_regex = re.compile(r'''
+    ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
+    ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
+    \((.*)\) #? time zone
+    ''', re.VERBOSE)
+    abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+'
+    natoTZRegex = r'[A-Z]TZ'
+
+    js_date_parsed = re.search(js_tstamp_regex, js_tstamp).group(1)
+    js_tz_parsed = re.search(js_tstamp_regex, js_tstamp).group(3)
+    js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
+
+    history_entry = History(
+        user_id=current_user.id,
+        tz=js_tz_parsed,
+        tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
+        updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S'),
+        visit=request.json['visit']
+    )
+
+    db.session.add(history_entry)
+    db.session.commit()
+    entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
+    return { 'history': [ entry.to_dict() for entry in entries ] }
+
+
 @search_routes.route('/results/')
 def read_results():
     response = make_response({'results': [[result['url'], result['text']] for result in output_data]})
     response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
     return response
-
 
 @search_routes.route('/history/')
 @login_required
