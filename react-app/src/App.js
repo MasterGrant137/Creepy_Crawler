@@ -7,6 +7,7 @@ import {
     faCheckCircle,
     faCircle,
     faCogs,
+    faCompass,
     faCopy,
     faHistory,
     faLock,
@@ -39,6 +40,7 @@ library.add(
     faCheckCircle,
     faCircle,
     faCogs,
+    faCompass,
     faCopy,
     faHistory,
     faLock,
@@ -95,9 +97,7 @@ function App() {
     if (siteTheme.background_rotate) body.classList.add('background-rotate');
     else if (!siteTheme.background_rotate) body.classList.remove('background-rotate');
 
-    if (!loaded) {
-        return null;
-    }
+    if (!loaded) return null;
 
     return (
         <BrowserRouter>

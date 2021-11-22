@@ -32,7 +32,7 @@
 
     // Component opening...
 
-    const [loaded, setLoaded] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         // dispatch
@@ -41,17 +41,23 @@
 
     //Component closing...
 
-    if (!loaded) {
-       return (<img
-            src={loadingSpider}
+    if (loading) {
+        return (<FontAwesomeIcon
+            alt='Spinning Loading Compass'
+            title='Spinning Loading Compass'
+            icon='compass'
+            spin
             style={{
-               height: '100vh',
-               left: '0',
-               padding: '0',
-               position: 'absolute',
-               top: '0',
-               width: '100vw',
-            }} />);
+                background: 'none',
+                boxShadow: 'none',
+                height: '50vh',
+                left: '25vw',
+                outline: 'none',
+                position: 'absolute',
+                top: '25vh',
+                width: '50vw',
+            }}
+        />);
     }
 
     // return Component (if loaded)

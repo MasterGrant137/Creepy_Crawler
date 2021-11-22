@@ -13,7 +13,7 @@
 [data-icon='copy'] { cursor: copy }
 
 button {
-background-color: transparent;
+background: none;
 border: none;
 border-radius: 3px;
 }
