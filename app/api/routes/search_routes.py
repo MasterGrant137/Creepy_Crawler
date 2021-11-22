@@ -83,14 +83,13 @@ def scrape_with_crochet(query):
 
 def _crawler_result(item, response, spider):
     output_data.append(dict(item))
-    results_file = open('app/crawler/caerostris_darwini.json', 'w')
-    newline = ',\n'
-    results_file.write(f"[{newline.join([json.dumps(result, indent=4) for result in output_data])}]")
-    results_file.close()
 
 @search_routes.route('/results/')
 def read_results():
-    return {'results': [[result['url'], result['text']] for result in output_data]}
+    response = make_response({'results': [[result['url'], result['text']] for result in output_data]})
+    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    return response
+
 
 @search_routes.route('/history/')
 @login_required

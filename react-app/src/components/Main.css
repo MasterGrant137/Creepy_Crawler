@@ -124,6 +124,16 @@ h1, label { user-select: none }
     overflow-x: auto;
 }
 /*=================================*/
+/*$=======Search Containers=======$*/
+/*=================================*/
+.search-results-page-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+}
+/*=================================*/
 /*$=======History Containers======$*/
 /*=================================*/
 .history-page-container {
