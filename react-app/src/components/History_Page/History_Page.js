@@ -13,7 +13,7 @@ import clock24Icon from './icons/24-hour-flaticon.png';
 const HistoryPage = ({ style }) => {
     const history = useHistory();
     const dispatch = useDispatch();
-    const entriesObj = useSelector((state) => state.searches);
+    const entriesObj = useSelector((state) => state.history);
     const clock24 = useSelector((state) => state.session.user.clock_24);
 
     useEffect(() => {

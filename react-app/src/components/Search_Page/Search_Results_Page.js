@@ -16,8 +16,7 @@ const SearchResultsPage = ({ style }) => {
     if (user && !user.errors) isUser = true;
     else isUser = false;
 
-    const visitHandler = async (e) => {
-        e.preventDefault();
+    const visitHandler = async () => {
         await dispatch(createHistoryEntry({ visit, updatedAt, user }));
     };
 

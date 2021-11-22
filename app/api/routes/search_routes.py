@@ -13,7 +13,6 @@ import crochet
 crochet.setup()
 
 import re
-import json
 from scrapy import signals
 from scrapy.crawler import CrawlerRunner
 from scrapy.signalmanager import dispatcher
@@ -43,7 +42,6 @@ def add_history_entry():
     """Add a search entry to history."""
     form = SearchForm()
     form['csrf_token'].data = request.cookies['csrf_token']
-    query = form.data['search']
 
     if form.validate_on_submit():
         if request.json['user']['id'] == current_user.id:
@@ -62,16 +60,18 @@ def add_history_entry():
 
             history_entry = History(
                 user_id=current_user.id,
-                search=query,
                 tz=js_tz_parsed,
                 tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
                 updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
             )
+            if form.data['search']: history_entry.search = form.data['search']
+            else: history_entry.visit = form.data['visit']
 
             db.session.add(history_entry)
             db.session.commit()
             entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-        scrape_with_crochet(query)
+
+        if form.data['search']: scrape_with_crochet(form.data['search'])
         return { 'history': [ entry.to_dict() for entry in entries ] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 

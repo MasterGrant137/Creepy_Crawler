@@ -49,7 +49,6 @@ export const readHistoryEntries = () => async (dispatch) => {
 
 export const readSearchResults = () => async (dispatch) => {
     const response = await fetch('/api/search/results/');
-    console.log(response);
     if (response.ok) {
         const results = await response.json();
         await dispatch(readResults(results));
@@ -103,7 +102,7 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
 //$ reducers
 const initialState = {};
 
-export const searchReducer = (state = initialState, action) => {
+export const historyReducer = (state = initialState, action) => {
     switch (action.type) {
     case CRUD_SEARCH: {
         const entries = action.payload.history;
@@ -120,7 +119,6 @@ export const searchResultsReducer = (state = initialState2, action) => {
     switch (action.type) {
     case READ_SEARCH_RESULTS: {
         const { results } = action.payload;
-        console.log('RESULTS IN SEARCH REDUCER', results);
         return { ...results };
     }
     default:
