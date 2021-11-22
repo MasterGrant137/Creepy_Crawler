@@ -44,10 +44,54 @@ def add_search_entry():
     form['csrf_token'].data = request.cookies['csrf_token']
 
     if form.validate_on_submit():
-        if request.json['user'] and not request.json['user']['id'] == current_user.id:
-            return {'errors': ['You are not permitted to access history!']}, 401
-
         query = form.data['search']
+        try: 
+            request.json['user']['id'] == current_user.id
+            js_tstamp = request.json['updatedAt']
+            js_tstamp_regex = re.compile(r'''
+            ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
+            ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
+            \((.*)\) #? time zone
+            ''', re.VERBOSE)
+            abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+'
+            natoTZRegex = r'[A-Z]TZ'
+
+            js_date_parsed = re.search(js_tstamp_regex, js_tstamp).group(1)
+            js_tz_parsed = re.search(js_tstamp_regex, js_tstamp).group(3)
+            js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
+
+            history_entry = History(
+                user_id=current_user.id,
+                search=query,
+                tz=js_tz_parsed,
+                tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
+                updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
+            )
+            
+            db.session.add(history_entry)
+            db.session.commit()
+            entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
+            scrape_with_crochet(query)
+            return { 'history': [ entry.to_dict() for entry in entries ] }
+        except:
+            scrape_with_crochet(query)
+            return { 'message': ["Log in or sign up to record search and visit history."] }
+    return {'errors': validation_errors_to_error_messages(form.errors)}, 400
+
+@crochet.wait_for(timeout=60.0)
+def scrape_with_crochet(query):
+    dispatcher.connect(_crawler_result, signal=signals.item_scraped)
+    eventual = crawl_runner.crawl(caerostris_darwini.CDCommentarial, query=query)
+    return eventual
+
+def _crawler_result(item, response, spider):
+    output_data.append(dict(item))
+
+@search_routes.route('/history/visits/', methods=['POST'])
+def add_visit_entry():
+    """Add a visit entry to history."""
+    try:
+        request.json['user']['id'] == current_user.id
         js_tstamp = request.json['updatedAt']
         js_tstamp_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
@@ -63,60 +107,18 @@ def add_search_entry():
 
         history_entry = History(
             user_id=current_user.id,
-            search=query,
             tz=js_tz_parsed,
             tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
-            updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
+            updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S'),
+            visit=request.json['visit']
         )
-        
+
         db.session.add(history_entry)
         db.session.commit()
         entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-
-        scrape_with_crochet(query)
         return { 'history': [ entry.to_dict() for entry in entries ] }
-    return {'errors': validation_errors_to_error_messages(form.errors)}, 400
-
-@crochet.wait_for(timeout=60.0)
-def scrape_with_crochet(query):
-    dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    eventual = crawl_runner.crawl(caerostris_darwini.CDCommentarial, query=query)
-    return eventual
-
-def _crawler_result(item, response, spider):
-    output_data.append(dict(item))
-
-@search_routes.route('/history/visits/', methods=['POST'])
-def add_visit_entry():
-    """Add a visit entry to history."""
-    if request.json['user'] and not request.json['user']['id'] == current_user.id:
-        return {'errors': ['You are not permitted to access history!']}, 401
-
-    js_tstamp = request.json['updatedAt']
-    js_tstamp_regex = re.compile(r'''
-    ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
-    ([A-Z]{1,5}[-|+]\d{4})\s #? gmt offset
-    \((.*)\) #? time zone
-    ''', re.VERBOSE)
-    abbrevTZRegex = r'([A-Z]){1}[-]?[a-z]+'
-    natoTZRegex = r'[A-Z]TZ'
-
-    js_date_parsed = re.search(js_tstamp_regex, js_tstamp).group(1)
-    js_tz_parsed = re.search(js_tstamp_regex, js_tstamp).group(3)
-    js_tz_abbrev = ''.join(re.findall(abbrevTZRegex, js_tz_parsed))
-
-    history_entry = History(
-        user_id=current_user.id,
-        tz=js_tz_parsed,
-        tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
-        updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S'),
-        visit=request.json['visit']
-    )
-
-    db.session.add(history_entry)
-    db.session.commit()
-    entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-    return { 'history': [ entry.to_dict() for entry in entries ] }
+    except:
+        return { 'message': ["Log in or sign up to record search and visit history."] }
 
 @search_routes.route('/results/')
 def read_results():

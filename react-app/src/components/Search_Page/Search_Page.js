@@ -18,7 +18,7 @@ const SearchPage = ({ style }) => {
     const searchHandler = async (e) => {
         e.preventDefault();
 
-        const search = e.target.value;
+        const search = e.target.children[0].value;
         if (/^\s*$/.test(search)) return;
         await dispatch(createSearchEntry({
             search,

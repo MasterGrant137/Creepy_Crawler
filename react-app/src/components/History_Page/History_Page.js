@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
@@ -11,7 +11,7 @@ import clock12Icon from './icons/12-hour-flaticon.png';
 import clock24Icon from './icons/24-hour-flaticon.png';
 
 const HistoryPage = ({ style }) => {
-    const history = useHistory();
+    // const history = useHistory();
     const dispatch = useDispatch();
     const entriesObj = useSelector((state) => state.history);
     const clock24 = useSelector((state) => state.session.user.clock_24);
@@ -37,11 +37,11 @@ const HistoryPage = ({ style }) => {
 
     const updateHandler = async (e) => {
         e.preventDefault();
-        const data = await dispatch(updateHistoryEntry({
+        await dispatch(updateHistoryEntry({
             entryID: e.target.dataset.entryId,
             updatedAt: new Date().toString(),
         }));
-        if (data) history.push('/');
+        // if (data) history.push('api/history/results/');
     };
 
     const editProfileHandler = (eType) => {
