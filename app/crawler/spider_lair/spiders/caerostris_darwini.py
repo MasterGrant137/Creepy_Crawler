@@ -16,7 +16,8 @@ import scrapy
 class CDCommentarial(scrapy.Spider):
     """Commentarial spider."""
     name = 'caerostris_darwini_commentarial'
-    start_urls = ['https://www.espn.com/', 'https://www.bbc.com/']
+    start_urls = ['https://www.bbc.com/', 'https://www.espn.com/', 'http://https://www.ign.com',
+                  'https://https://www.nih.gov', 'https://thebulletin.org/', 'http://https://en.m.wikipedia.org']
 
     def parse(self, response):
         yield from response.follow_all(css='a::attr(href)', callback=self.parse_data)

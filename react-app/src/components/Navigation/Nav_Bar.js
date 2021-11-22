@@ -52,7 +52,7 @@ const NavBar = ({ style }) => {
                     alt='History'
                     title='History'
                     icon='history'
-                    onClick={() => navHandler('/api/history/')}
+                    onClick={() => navHandler('/api/search/history/')}
                 />
                 }
                 {isUser

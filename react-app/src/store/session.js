@@ -46,7 +46,7 @@ export const login = (email, password) => async (dispatch) => {
         dispatch(cruUser(data));
         return null;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;
@@ -71,7 +71,7 @@ export const signUp = (username, email, password) => async (dispatch) => {
         dispatch(cruUser(data));
         return null;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;
@@ -99,7 +99,7 @@ export const editProfileMedia = (userID, formData) => async (dispatch) => {
         dispatch(cruUser(data));
         return data;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;
@@ -123,7 +123,7 @@ export const editProfile = (setting) => async (dispatch) => {
         dispatch(cruUser(data));
         return data;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;
@@ -143,7 +143,7 @@ export const logout = () => async (dispatch) => {
         dispatch(removeUser());
         return data;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;

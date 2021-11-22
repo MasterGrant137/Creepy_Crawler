@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { createHistoryEntry } from '../../store/history_store';
 import { readUserSettings } from '../../store/settings_store';
@@ -18,7 +18,7 @@ const SearchPage = ({ style }) => {
     const searchHandler = (e) => {
         e.preventDefault();
         if (/^\s*$/.test(search)) return;
-        if (isUser) dispatch(createHistoryEntry({ search, updatedAt }));
+        dispatch(createHistoryEntry({ search, updatedAt, isUser }));
     };
 
     useEffect(() => {

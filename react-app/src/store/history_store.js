@@ -9,7 +9,7 @@ const crudHistory = (entries) => ({
 
 //$ thunks
 export const createHistoryEntry = (entry) => async (dispatch) => {
-    const response = await fetch('/api/history/', {
+    const response = await fetch('/api/search/history/', {
         headers: {
             'Content-Type': 'application/json',
         },
@@ -21,7 +21,7 @@ export const createHistoryEntry = (entry) => async (dispatch) => {
         await dispatch(crudHistory(data));
         return data;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;
@@ -31,7 +31,7 @@ export const createHistoryEntry = (entry) => async (dispatch) => {
 };
 
 export const readHistoryEntries = () => async (dispatch) => {
-    const response = await fetch('/api/history/');
+    const response = await fetch('/api/search/history/');
     if (response.ok) {
         const entries = await response.json();
         await dispatch(crudHistory(entries));
@@ -41,7 +41,7 @@ export const readHistoryEntries = () => async (dispatch) => {
 };
 
 export const updateHistoryEntry = (entry) => async (dispatch) => {
-    const response = await fetch(`/api/history/${entry.entryID}`, {
+    const response = await fetch(`/api/search/history/${entry.entryID}`, {
         headers: {
             'Content-Type': 'application/json',
         },
@@ -55,7 +55,7 @@ export const updateHistoryEntry = (entry) => async (dispatch) => {
         await dispatch(crudHistory(data));
         return data;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;
@@ -65,7 +65,7 @@ export const updateHistoryEntry = (entry) => async (dispatch) => {
 };
 
 export const deleteHistoryEntry = (entryID) => async (dispatch) => {
-    const response = await fetch(`/api/history/${entryID}`, {
+    const response = await fetch(`/api/search/history/${entryID}`, {
         method: 'DELETE',
     });
     const data = await response.json();
@@ -73,7 +73,7 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
         await dispatch(crudHistory(data));
         return data;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;

@@ -30,7 +30,7 @@ export const createUserSetting = (formData) => async (dispatch) => {
         await dispatch(cuSetting(data));
         return data;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;
@@ -59,7 +59,7 @@ export const updateUserSetting = (settingID, formData) => async (dispatch) => {
         await dispatch(cuSetting(data));
         return data;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;
@@ -77,7 +77,7 @@ export const deleteUserSetting = (settingID) => async (dispatch) => {
         await dispatch(deleteSetting(settingID));
         return data;
     }
-    if (data.errors === 'The CSRF token has expired.'
+    if (data.errors[0] === 'The CSRF token has expired.'
         || response.status === 500) {
         window.location.reload();
         return null;
