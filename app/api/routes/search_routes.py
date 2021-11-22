@@ -47,7 +47,7 @@ def add_search_entry():
         if not request.json['user']['id'] == current_user.id: 
             return {'errors': ['You are not permitted to access history!']}, 401
 
-        search = form.data['search']
+        query = form.data['search']
         js_tstamp = request.json['updatedAt']
         js_tstamp_regex = re.compile(r'''
         ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
@@ -63,17 +63,17 @@ def add_search_entry():
 
         history_entry = History(
             user_id=current_user.id,
-            search=search,
+            search=query,
             tz=js_tz_parsed,
             tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
             updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
         )
-        if form.data['search']: history_entry.search = form.data['search']
-        else: history_entry.visit = form.data['visit']
-
+        
         db.session.add(history_entry)
         db.session.commit()
         entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
+
+        scrape_with_crochet(query)
         return { 'history': [ entry.to_dict() for entry in entries ] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
@@ -118,11 +118,11 @@ def add_visit_entry():
     entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
     return { 'history': [ entry.to_dict() for entry in entries ] }
 
-
 @search_routes.route('/results/')
 def read_results():
     response = make_response({'results': [[result['url'], result['text']] for result in output_data]})
     response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    output_data.clear()
     return response
 
 @search_routes.route('/history/')
