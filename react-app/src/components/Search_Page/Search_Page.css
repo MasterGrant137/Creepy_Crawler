@@ -4,7 +4,6 @@
 
 .search-result-div {
     border-bottom: 3px dotted;
-    /* margin: 1%; */
     width: 40%;
 }
 
@@ -16,8 +15,4 @@
 .search-result-div > a:hover {
     text-decoration: underline wavy;
     width: 50%;
-}
-
-.search-result-div > p {
-   width: 100%;
 }

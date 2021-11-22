@@ -130,8 +130,7 @@ const HistoryPage = ({ style }) => {
                     <span
                         className='hist-text'
                         onClick={(e) => {
-                            const date = new Date();
-                            setUpdatedAt(date.toString());
+                            setUpdatedAt(new Date().toString());
                             updateHandler(e, entry.id);
                         }}
                         style={{ color: style.accent_3 }}
