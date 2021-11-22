@@ -1,3 +1,7 @@
+#### Nov 21, 2021
++ Redux route optimizations, including enhanced error handling.
++ Search engine implemented.
+
 #### Nov 18, 2021
 + Eliminated bug where JSON object was returned instead of view when pressing `history back` button in one’s browser.
 + Bug affecting conditionally rendered elements in navigation bar eliminated.
