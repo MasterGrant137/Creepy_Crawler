@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { createVisitEntry, readSearchResults } from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
@@ -9,15 +9,17 @@ const SearchResultsPage = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector((state) => state.session.user);
     const resultsObj = useSelector((state) => state.searchResults);
-    const [visit, setVisit] = useState('');
-    const [updatedAt, setUpdatedAt] = useState('');
 
     let isUser;
     if (user && !user.errors) isUser = true;
     else isUser = false;
 
-    const visitHandler = async () => {
-        await dispatch(createVisitEntry({ visit, updatedAt, user }));
+    const visitHandler = async (e) => {
+        await dispatch(createVisitEntry({
+            visit: e.target.href,
+            updatedAt: new Date().toString(),
+            user,
+        }));
     };
 
     useEffect(() => {
@@ -37,11 +39,7 @@ const SearchResultsPage = ({ style }) => {
         >
             <a
                 href={result[0]}
-                onClick={(e) => {
-                    setVisit(e.target.href);
-                    setUpdatedAt((new Date()).toString());
-                    visitHandler(e);
-                }}
+                onClick={(e) => visitHandler(e)}
                 style={{
                     color: style.accent_2,
                     textDecorationColor: style.accent_1,

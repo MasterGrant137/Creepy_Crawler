@@ -44,7 +44,7 @@ def add_search_entry():
     form['csrf_token'].data = request.cookies['csrf_token']
 
     if form.validate_on_submit():
-        if not request.json['user']['id'] == current_user.id: 
+        if request.json['user'] and not request.json['user']['id'] == current_user.id:
             return {'errors': ['You are not permitted to access history!']}, 401
 
         query = form.data['search']
@@ -86,10 +86,10 @@ def scrape_with_crochet(query):
 def _crawler_result(item, response, spider):
     output_data.append(dict(item))
 
-@search_routes.route('/history/visits/')
+@search_routes.route('/history/visits/', methods=['POST'])
 def add_visit_entry():
     """Add a visit entry to history."""
-    if not request.json['user']['id'] == current_user.id:
+    if request.json['user'] and not request.json['user']['id'] == current_user.id:
         return {'errors': ['You are not permitted to access history!']}, 401
 
     js_tstamp = request.json['updatedAt']
