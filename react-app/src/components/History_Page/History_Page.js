@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -21,7 +21,6 @@ const HistoryPage = ({ style }) => {
         dispatch(readUserSettings());
     }, [dispatch]);
 
-    const [updatedAt, setUpdatedAt] = useState(new Date().toString());
     let toggledClock = clock24;
 
     const dateRegex = new RegExp([
@@ -36,9 +35,12 @@ const HistoryPage = ({ style }) => {
 
     const copyData = (data) => navigator.clipboard.writeText(data);
 
-    const updateHandler = async (e, entryID) => {
+    const updateHandler = async (e) => {
         e.preventDefault();
-        const data = await dispatch(updateHistoryEntry({ entryID, updatedAt }));
+        const data = await dispatch(updateHistoryEntry({
+            entryID: e.target.dataset.entryId,
+            updatedAt: new Date().toString(),
+        }));
         if (data) history.push('/');
     };
 
@@ -53,16 +55,13 @@ const HistoryPage = ({ style }) => {
         }
     };
 
-    const deleteHandler = (e, entryID) => {
-        e.preventDefault();
-        dispatch(deleteHistoryEntry(entryID));
-    };
+    const deleteHandler = (entryID) => dispatch(deleteHistoryEntry(entryID));
 
     const entries = Object.values(entriesObj)
         .map((entry) => (
             <div
-                key={entry.id}
-                id={`entry-${entry.id}`}
+                key={`key-${entry.id}`}
+                id={entry.id}
                 className='history-entry-div'
                 style={{ backgroundColor: style.background_color }}
             >
@@ -122,17 +121,15 @@ const HistoryPage = ({ style }) => {
                         alt='Delete Entry'
                         title='Delete Entry'
                         icon='trash-alt'
-                        onClick={(e) => deleteHandler(e, entry.id)}
+                        onClick={() => deleteHandler(entry.id)}
                         style={{ color: style.accent_2 }}
                     />
                 </div>
                 <div className='hist-text-div'>
                     <span
+                        data-entry-id={entry.id}
                         className='hist-text'
-                        onClick={(e) => {
-                            setUpdatedAt(new Date().toString());
-                            updateHandler(e, entry.id);
-                        }}
+                        onClick={updateHandler}
                         style={{ color: style.accent_3 }}
                     >
                         {entry.search || entry.visit}
