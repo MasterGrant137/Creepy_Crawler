@@ -1,0 +1,22 @@
+Content-Length: 251
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Type: text/plain; charset=UTF-8
+Last-Modified: Thu, 08 Oct 2020 09:04:44 GMT
+Server: Apache
+X-Varnish: 121878927 122192141
+X-Varnish-Cache: HIT
+X-Varnish-Hits: 1
+Expires: Fri, 19 Nov 2021 22:50:33 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Fri, 19 Nov 2021 22:50:33 GMT
+Vary: Accept-Encoding
+Set-Cookie: country=us
+Set-Cookie: edition=espncricinfo-en-us; expires=Fri, 26-Nov-2021 22:50:33 GMT
+Set-Cookie: edition-view=espncricinfo-en-us; expires=Fri, 26-Nov-2021 22:50:33 GMT
+Set-Cookie: region=ccpa; expires=Fri, 26-Nov-2021 22:50:33 GMT
+Set-Cookie: _dcf=1; expires=Fri, 26-Nov-2021 22:50:33 GMT
+Set-Cookie: connectionspeed=full; expires=Fri, 26-Nov-2021 22:50:33 GMT
+Set-Cookie: SWID=a510c193-a999-42b7-91a5-9712ecd4fbab; expires=Thu, 14-Nov-2041 22:50:33 GMT; domain=.espncricinfo.com
+Strict-Transport-Security: max-age=15552000

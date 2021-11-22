@@ -1,0 +1,25 @@
+Content-Length: 162
+Content-Type: text/html
+Location: https://www.bbc.com/culture/
+X-Bbc-No-Scheme-Rewrite: 1
+Cache-Control: public, max-age=3600, stale-if-error=90, stale-while-revalidate=30
+Via: 1.1 BBC-GTM, 1.1 5c6c6b06dd745e052b0c5c0350148e07.cloudfront.net (CloudFront), 1.1 varnish
+X-Amz-Cf-Pop: LHR62-C3
+X-Amz-Cf-Id: hctaPcQHv8QYxE-fJDiKBf6AT9ZIoZ4yjHhMjxj9BX_lwdgvRXrNsw==
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+Req-Svc-Chain: FASTLY,GTM
+X-Bbc-Edge-Cache-Status: MISS
+X-Bbc-Origin-Response-Status: 301
+Server: BBC-GTM
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Sat, 20 Nov 2021 03:22:38 GMT
+Age: 5845
+X-Fastly-Cache-Status: HIT-STALE-CLUSTER
+X-Served-By: cache-bur17539-BUR
+X-Cache: Hit from cloudfront, HIT
+X-Cache-Hits: 1
+X-Timer: S1637378558.281896,VS0,VE2
+X-Lb-Nocache: true
+Vary: accept-encoding,x-bbc-edge-scheme

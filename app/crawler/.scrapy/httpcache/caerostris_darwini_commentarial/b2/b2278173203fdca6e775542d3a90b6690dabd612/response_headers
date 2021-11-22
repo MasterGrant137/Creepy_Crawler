@@ -1,0 +1,15 @@
+Content-Length: 0
+Date: Fri, 19 Nov 2021 22:50:33 GMT
+Content-Type: text/html
+Server: Apache-Coyote/1.1
+Via: 1.1 varnish (Varnish/6.0)
+Via: 1.1 varnish (Varnish/6.0)
+Accept-Ranges: bytes
+Set-Cookie: country=us; path=/;
+Set-Cookie: edition=espn-en-us; path=/; Expires=Fri, 26 Nov 2021 22:50:33 GMT;
+Set-Cookie: connectionspeed=full; path=/; Expires=Fri, 26 Nov 2021 22:50:33 GMT;
+Set-Cookie: edition-view=espn-en-us; path=/; Expires=Fri, 26 Nov 2021 22:50:33 GMT;
+Set-Cookie: region=ccpa; path=/; Expires=Fri, 26 Nov 2021 22:50:33 GMT;
+Set-Cookie: _dcf=1; path=/; Expires=Fri, 26 Nov 2021 22:50:33 GMT;
+Set-Cookie: SWID=FC2EF869-92CF-4CEA-CC77-65A0C45397DC; path=/; Expires=Tue, 19 Nov 2041 22:50:33 GMT; domain=secsports.com;
+Cache-Control: max-age=0, must-revalidate

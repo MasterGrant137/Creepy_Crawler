@@ -1,0 +1,14 @@
+Content-Length: 834
+Content-Type: text/plain
+Date: Fri, 19 Nov 2021 22:07:58 GMT
+Last-Modified: Mon, 15 Nov 2021 17:20:14 GMT
+Server: AmazonS3
+Via: 1.1 varnish (Varnish/6.0), 1.1 e471f2247ab9c1a6073482836b02180b.cloudfront.net (CloudFront)
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Etag: W/"0108d042984e720cd87cf57664db49e0"
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: LAX3-C4
+X-Amz-Cf-Id: 6cudkeToyp-W7-sFCGIey-aCRqpw5OMlKaESQapyv64BJvdDgiNsag==
+Age: 2552

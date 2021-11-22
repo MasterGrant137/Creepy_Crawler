@@ -1,0 +1,20 @@
+Date: Sat, 20 Nov 2021 03:22:32 GMT
+Content-Type: text/html; charset=utf-8
+X-Bbc-Edge-Scheme: https
+X-Bbc-No-Scheme-Rewrite: 1
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Host: ip-10-39-166-57
+Cache-Control: public, max-age=3600
+Etag: W/"109c9-YCU+bR8Va8X7kZzKfhs06arZ1ac"
+Vary: accept-encoding
+Content-Encoding: gzip
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+Via: 1.1 BBC-GTM
+Req-Svc-Chain: GTM
+X-Bbc-Edge-Cache-Status: MISS
+X-Bbc-Origin-Response-Status: 200
+Server: BBC-GTM
+Strict-Transport-Security: max-age=86400

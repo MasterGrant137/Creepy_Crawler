@@ -1,0 +1,27 @@
+Content-Length: 0
+Content-Type: text/plain
+Belfrage-Cache-Status: MISS
+Bid: sally
+Brequestid: 9e246f6e1f374ec69fcc4654f65a561c
+Bsig: 73833664373c11d1b6a7e6108a88cf77
+Cache-Control: public, stale-if-error=90, stale-while-revalidate=30, max-age=60
+Location: /vietnamese
+Req-Svc-Chain: FASTLY,GTM,BELFRAGE
+Via: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+X-Bbc-No-Scheme-Rewrite: 1
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+X-Bbc-Edge-Cache-Status: MISS
+X-Bbc-Origin-Response-Status: 301
+Server: BBC-GTM
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Sat, 20 Nov 2021 03:22:32 GMT
+Age: 3786
+X-Fastly-Cache-Status: HIT-STALE-CLUSTER
+X-Served-By: cache-bur17537-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1637378553.995046,VS0,VE2
+X-Lb-Nocache: true
+Vary: Accept-Encoding,X-BBC-Edge-Scheme

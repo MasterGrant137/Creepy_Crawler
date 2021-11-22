@@ -1,0 +1,23 @@
+Content-Length: 579
+Content-Type: text/plain
+X-Amzn-Requestid: c25eadd7-081d-4e08-9d1e-4c6806e845bf
+Content-Encoding: gzip
+X-Amz-Apigw-Id: JFJP7FeljoEFhCA=
+Cache-Control: max-age=3600, public, stale-if-error=86400, stale-while-revalidate=600
+X-Amzn-Trace-Id: Root=1-61985598-9e3a8fdaac5493bfad1f7f57;Sampled=0
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+Via: 1.1 BBC-GTM, 1.1 varnish
+Req-Svc-Chain: FASTLY,GTM
+X-Bbc-Edge-Cache-Status: HIT
+Server: BBC-GTM
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Sat, 20 Nov 2021 03:22:29 GMT
+Age: 4738
+X-Fastly-Cache-Status: HIT-STALE-CLUSTER
+X-Served-By: cache-bur17565-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1637378549.414913,VS0,VE73
+Vary: Accept-Encoding

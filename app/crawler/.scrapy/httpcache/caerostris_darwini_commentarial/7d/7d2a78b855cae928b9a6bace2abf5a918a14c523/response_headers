@@ -1,0 +1,14 @@
+Content-Length: 0
+Content-Type: text/html
+Date: Fri, 19 Nov 2021 22:50:32 GMT
+Server: Apache-Coyote/1.1
+Location: http://www.espn.com/espn/apps/espn
+Via: 1.1 varnish (Varnish/6.0), 1.1 12a5bcdb54ede5fbaec3241f3c798939.cloudfront.net (CloudFront)
+Set-Cookie: edition-view=espn-en-us; path=/; Expires=Fri, 26 Nov 2021 22:50:32 GMT;
+Set-Cookie: country=us; path=/;
+Set-Cookie: edition=espn-en-us; path=/; Expires=Fri, 26 Nov 2021 22:50:32 GMT;
+Set-Cookie: region=ccpa; path=/; Expires=Fri, 26 Nov 2021 22:50:32 GMT;
+Cache-Control: max-age=0, must-revalidate
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX3-C4
+X-Amz-Cf-Id: NrxLxm6KNb1PegICiFL_q-ExjjsjX_aug5Rh6xAQv47nOlU6NIXBIg==

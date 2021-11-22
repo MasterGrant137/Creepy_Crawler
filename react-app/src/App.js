@@ -23,6 +23,7 @@ import {
 import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
 import HistoryPage from './components/History_Page/History_Page';
 import SearchPage from './components/Search_Page/Search_Page';
+import SearchResultsPage from './components/Search_Page/Search_Results_Page';
 import SettingsPage from './components/Settings_Page/Settings_Page';
 import Modal from './components/Modals/Modal';
 import { authenticateLogin, authenticateSignup } from './store/session';
@@ -113,9 +114,12 @@ function App() {
                 <ProtectedRoute path='/api/settings/' exact={true}>
                     <SettingsPage style={siteTheme} />
                 </ProtectedRoute>
-                <ProtectedRoute path='/api/history/' exact={true}>
+                <ProtectedRoute path='/api/search/history/' exact={true}>
                     <HistoryPage style={siteTheme} />
                 </ProtectedRoute>
+                <Route path='/api/search/results/'>
+                    <SearchResultsPage style={siteTheme} />
+                </Route>
                 <Route path='/' exact={true} >
                     <SearchPage style={siteTheme} />
                 </Route>

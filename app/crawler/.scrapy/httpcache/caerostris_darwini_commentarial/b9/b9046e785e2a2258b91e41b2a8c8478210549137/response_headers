@@ -1,0 +1,31 @@
+Content-Length: 77715
+Content-Type: text/html;charset=utf-8
+Belfrage-Cache-Status: HIT
+Bid: bruce
+Brequestid: 6aef7f38fb304026b25e4b1e903ed820
+Bsig: dbbc8ba7bc41ff9f463c38fdd7539655
+Cache-Control: public, stale-if-error=90, stale-while-revalidate=30, max-age=30
+Content-Encoding: gzip
+Moz-Cache-Status: HIT
+Req-Svc-Chain: FASTLY,GTM,BELFRAGE,MOZART
+Via: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Mrid: n1
+X-Msig: 97d55f617193025f56e6199d9da5f637
+X-Xss-Protection: 1; mode=block
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+X-Bbc-Edge-Cache-Status: HIT
+Server: BBC-GTM
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Sat, 20 Nov 2021 03:22:30 GMT
+Age: 13
+X-Fastly-Cache-Status: HIT-CLUSTER
+X-Served-By: cache-bur17583-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1637378550.446029,VS0,VE2
+X-Lb-Nocache: true
+Vary: X-BBC-Edge-Scheme,Accept-Encoding

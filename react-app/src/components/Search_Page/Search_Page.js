@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { createHistoryEntry } from '../../store/history_store';
+import { useHistory } from 'react-router-dom';
+import { createHistoryEntry } from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
 import './Search_Page.css';
 
 const SearchPage = ({ style }) => {
+    const history = useHistory();
     const dispatch = useDispatch();
     const user = useSelector((state) => state.session.user);
     const [search, setSearch] = useState('');
@@ -15,10 +17,11 @@ const SearchPage = ({ style }) => {
     if (user && !user.errors) isUser = true;
     else isUser = false;
 
-    const searchHandler = (e) => {
+    const searchHandler = async (e) => {
         e.preventDefault();
         if (/^\s*$/.test(search)) return;
-        if (isUser) dispatch(createHistoryEntry({ search, updatedAt }));
+        await dispatch(createHistoryEntry({ search, updatedAt, user }));
+        history.push('/api/search/results/');
     };
 
     useEffect(() => {

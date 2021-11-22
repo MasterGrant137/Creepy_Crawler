@@ -1,0 +1,19 @@
+Content-Length: 119
+Content-Type: text/plain; charset=utf-8
+Date: Fri, 19 Nov 2021 22:50:31 GMT
+Server: Apache
+Strict-Transport-Security: max-age=2628000; includeSubdomains;
+X-Powered-By: PHP/7.4.20
+Set-Cookie: prod-termsofuse-SimpleSAMLSessionID=8339dea4d632ef06c72ff3249d6d1ec8; path=/; domain=.disneytermsofuse.com; secure; HttpOnly
+Set-Cookie: CloudFront-Key-Pair-Id=APKAIC3LB6G7C2I25BFA; expires=Sat, 20-Nov-2021 00:49:54 GMT; Max-Age=7163; path=/; secure; HttpOnly
+Set-Cookie: CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kaXNuZXl0ZXJtc29mdXNlLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjM3MzY5Mzk0fX19XX0_; expires=Sat, 20-Nov-2021 00:49:54 GMT; Max-Age=7163; path=/; secure; HttpOnly
+Set-Cookie: CloudFront-Signature=VSCLwv0UY3Qg9HV9diX9lfQztJAVHiXuPmGTAEtEbXfs2zFQqxLeHqqp-aJ1iHd-qMhBgyRBFs87FZlskmCOdfIE4UtlTKQSqYqr-YupndvelJSCtTS5glnSEGxnIvqc8wf0-BsUZGLs4rseeLaWWkYnMj-Xzj-lqttE85ot70oJsblRJ9Qatoa-~iBTfP9d36q5TblfhRqbJ8zADnwStoDAAITRcVA52FW1ViJCUgh-WuKHQYtCRjHEKIKoCfVAB-v55o37ofLl3Tyn4mSBSfGsf9m-Y6DhC-uF6J2NtmrPl4oaWGFtX2oNsxVbhb3vmYy2urkrwauXv0DMfMrWxw__; expires=Sat, 20-Nov-2021 00:49:54 GMT; Max-Age=7163; path=/; secure; HttpOnly
+Cache-Control: max-age=0
+Expires: Fri, 19 Nov 2021 22:50:31 GMT
+Content-Encoding: gzip
+X-Ua-Compatible: IE=edge
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 4c7e669d0f0fa9eec10fc8d9b6581458.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C3
+X-Amz-Cf-Id: 9Wzia9baloePaCGFp1j3O0einCBz6fqfVaoiWc1C6FFdLxwSBywWtg==
