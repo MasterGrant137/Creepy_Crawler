@@ -23,7 +23,6 @@ class CDCommentarial(scrapy.Spider):
         yield from response.follow_all(css='a::attr(href)', callback=self.parse_data)
         
     def parse_data(self, response):
-        print('CD CLASS IS HIT LINE 25', self.query)
         all_text = response.css('*:not(script):not(style)::text')
         try:
             for text in all_text:

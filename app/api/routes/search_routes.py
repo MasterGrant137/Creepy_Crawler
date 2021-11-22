@@ -4,6 +4,9 @@ Components pass send form data to store.
 Store passes data to backend routes which
 use the forms to process data before
 committing the data to the database.
+
+Printing item in _crawler_result definition
+will give a stdout of the crawler's yield.
 """
 
 import crochet
@@ -43,7 +46,7 @@ def add_history_entry():
     query = form.data['search']
 
     if form.validate_on_submit():
-        if request.form['user'].id == current_user.id:
+        if request.json['user']['id'] == current_user.id:
             js_tstamp = request.json['updatedAt']
             js_tstamp_regex = re.compile(r'''
             ([A-Z]{1}[a-z]{2}\s[A-Z]{1}[a-z]{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2})\s #? date and time
@@ -82,14 +85,20 @@ def scrape_with_crochet(query):
     eventual = crawl_runner.crawl(caerostris_darwini.CDCommentarial, query=query)
     return eventual
 
-@search_routes.route('/results/')
 def _crawler_result(item, response, spider):
     output_data.append(dict(item))
-    print(item)
     results_file = open('app/crawler/caerostris_darwini.json', 'w')
     newline = ',\n'
     results_file.write(f"[{newline.join([json.dumps(result, indent=4) for result in output_data])}]")
     results_file.close()
+
+@search_routes.route('/results/')
+def read_results():
+    # results_file = open('app/crawler/caerostris_darwini.json', 'r')
+    # print('RESULTS_FILE', {result['url']: result['text'] for result in results_file})
+    # results_file.close()
+    print({'VARIABLE': [{result['url']: result['text']} for result in output_data]})
+    return {'results': [[result['url'], result['text']] for result in output_data]}
 
 @search_routes.route('/history/')
 @login_required

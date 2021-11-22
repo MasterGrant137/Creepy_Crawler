@@ -1,10 +1,16 @@
 //$ types
 const CRUD_SEARCH = 'search_store/CREATE_SEARCH';
+const READ_SEARCH_RESULTS = 'search_store/READ_SEARCH_RESULTS';
 
 //$ action creators
 const crudSearch = (entries) => ({
     type: CRUD_SEARCH,
     payload: entries,
+});
+
+const readResults = (results) => ({
+    type: READ_SEARCH_RESULTS,
+    payload: results,
 });
 
 //$ thunks
@@ -15,6 +21,7 @@ export const createHistoryEntry = (entry) => async (dispatch) => {
         },
         method: 'POST',
         body: JSON.stringify(entry),
+        user: entry.user,
     });
     const data = await response.json();
     if (response.ok) {
@@ -41,11 +48,12 @@ export const readHistoryEntries = () => async (dispatch) => {
 };
 
 export const readSearchResults = () => async (dispatch) => {
-    const response = await fetch('/api/search/history/');
+    const response = await fetch('/api/search/results/');
+    console.log(response);
     if (response.ok) {
-        const entries = await response.json();
-        await dispatch(crudSearch(entries));
-        return entries;
+        const results = await response.json();
+        await dispatch(readResults(results));
+        return results;
     }
     return null;
 };
@@ -100,6 +108,20 @@ export const searchReducer = (state = initialState, action) => {
     case CRUD_SEARCH: {
         const entries = action.payload.history;
         return { ...entries };
+    }
+    default:
+        return state;
+    }
+};
+
+const initialState2 = {};
+
+export const searchResultsReducer = (state = initialState2, action) => {
+    switch (action.type) {
+    case READ_SEARCH_RESULTS: {
+        const { results } = action.payload;
+        console.log('RESULTS IN SEARCH REDUCER', results);
+        return { ...results };
     }
     default:
         return state;
