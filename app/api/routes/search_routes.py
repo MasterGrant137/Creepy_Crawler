@@ -71,10 +71,6 @@ def add_history_entry():
             db.session.add(history_entry)
             db.session.commit()
             entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-
-        query_file = open('app/crawler/query.json', 'w')
-        query_file.write(f'{{"query": "{query}"}}')
-        query_file.close()
         scrape_with_crochet(query)
         return { 'history': [ entry.to_dict() for entry in entries ] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
@@ -94,10 +90,6 @@ def _crawler_result(item, response, spider):
 
 @search_routes.route('/results/')
 def read_results():
-    # results_file = open('app/crawler/caerostris_darwini.json', 'r')
-    # print('RESULTS_FILE', {result['url']: result['text'] for result in results_file})
-    # results_file.close()
-    print({'VARIABLE': [{result['url']: result['text']} for result in output_data]})
     return {'results': [[result['url'], result['text']] for result in output_data]}
 
 @search_routes.route('/history/')
