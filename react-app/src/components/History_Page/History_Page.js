@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useEffect } from 'react';
+// import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
@@ -11,9 +11,9 @@ import clock12Icon from './icons/12-hour-flaticon.png';
 import clock24Icon from './icons/24-hour-flaticon.png';
 
 const HistoryPage = ({ style }) => {
-    const history = useHistory();
+    // const history = useHistory();
     const dispatch = useDispatch();
-    const entriesObj = useSelector((state) => state.searches);
+    const entriesObj = useSelector((state) => state.history);
     const clock24 = useSelector((state) => state.session.user.clock_24);
 
     useEffect(() => {
@@ -21,7 +21,6 @@ const HistoryPage = ({ style }) => {
         dispatch(readUserSettings());
     }, [dispatch]);
 
-    const [updatedAt, setUpdatedAt] = useState(new Date().toString());
     let toggledClock = clock24;
 
     const dateRegex = new RegExp([
@@ -36,10 +35,13 @@ const HistoryPage = ({ style }) => {
 
     const copyData = (data) => navigator.clipboard.writeText(data);
 
-    const updateHandler = async (e, entryID) => {
+    const updateHandler = async (e) => {
         e.preventDefault();
-        const data = await dispatch(updateHistoryEntry({ entryID, updatedAt }));
-        if (data) history.push('/');
+        await dispatch(updateHistoryEntry({
+            entryID: e.target.dataset.entryId,
+            updatedAt: new Date().toString(),
+        }));
+        // if (data) history.push('api/history/results/');
     };
 
     const editProfileHandler = (eType) => {
@@ -53,16 +55,13 @@ const HistoryPage = ({ style }) => {
         }
     };
 
-    const deleteHandler = (e, entryID) => {
-        e.preventDefault();
-        dispatch(deleteHistoryEntry(entryID));
-    };
+    const deleteHandler = (entryID) => dispatch(deleteHistoryEntry(entryID));
 
     const entries = Object.values(entriesObj)
         .map((entry) => (
             <div
-                key={entry.id}
-                id={`entry-${entry.id}`}
+                key={`key-${entry.id}`}
+                id={entry.id}
                 className='history-entry-div'
                 style={{ backgroundColor: style.background_color }}
             >
@@ -122,18 +121,15 @@ const HistoryPage = ({ style }) => {
                         alt='Delete Entry'
                         title='Delete Entry'
                         icon='trash-alt'
-                        onClick={(e) => deleteHandler(e, entry.id)}
+                        onClick={() => deleteHandler(entry.id)}
                         style={{ color: style.accent_2 }}
                     />
                 </div>
                 <div className='hist-text-div'>
                     <span
+                        data-entry-id={entry.id}
                         className='hist-text'
-                        onClick={(e) => {
-                            const date = new Date();
-                            setUpdatedAt(date.toString());
-                            updateHandler(e, entry.id);
-                        }}
+                        onClick={updateHandler}
                         style={{ color: style.accent_3 }}
                     >
                         {entry.search || entry.visit}

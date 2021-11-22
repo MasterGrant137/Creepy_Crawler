@@ -3,12 +3,12 @@ import {
 } from 'redux';
 import thunk from 'redux-thunk';
 import session from './session';
-import { searchReducer, searchResultsReducer } from './search_store';
+import { historyReducer, searchResultsReducer } from './search_store';
 import { settingsReducer } from './settings_store';
 
 const rootReducer = combineReducers({
     session,
-    searches: searchReducer,
+    history: historyReducer,
     searchResults: searchResultsReducer,
     settings: settingsReducer,
 });

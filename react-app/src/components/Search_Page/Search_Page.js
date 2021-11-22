@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { createHistoryEntry } from '../../store/search_store';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { createSearchEntry } from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
 import './Search_Page.css';
@@ -10,8 +11,7 @@ const SearchPage = ({ style }) => {
     const history = useHistory();
     const dispatch = useDispatch();
     const user = useSelector((state) => state.session.user);
-    const [search, setSearch] = useState('');
-    const [updatedAt, setUpdatedAt] = useState('');
+    const [loading, setLoading] = useState(false);
 
     let isUser;
     if (user && !user.errors) isUser = true;
@@ -19,15 +19,43 @@ const SearchPage = ({ style }) => {
 
     const searchHandler = async (e) => {
         e.preventDefault();
+
+        const search = e.target.children[0].value;
         if (/^\s*$/.test(search)) return;
-        await dispatch(createHistoryEntry({ search, updatedAt, user }));
+        setLoading(true);
+
+        await dispatch(createSearchEntry({
+            search,
+            updatedAt: new Date().toString(),
+            user,
+        }));
         history.push('/api/search/results/');
+        setLoading(false);
     };
 
     useEffect(() => {
         if (isUser) dispatch(readUserSettings());
         return null;
     }, [dispatch]);
+
+    if (loading) {
+        return (<FontAwesomeIcon
+            alt='Spinning Loading Compass'
+            title='Spinning Loading Compass'
+            icon='compass'
+            spin
+            style={{
+                background: 'none',
+                boxShadow: 'none',
+                height: '50vh',
+                left: '25vw',
+                outline: 'none',
+                position: 'absolute',
+                top: '25vh',
+                width: '50vw',
+            }}
+        />);
+    }
 
     return (
         <div className='search-page-container'>
@@ -39,11 +67,6 @@ const SearchPage = ({ style }) => {
                     maxLength='1000'
                     placeholder='Crawl the web.'
                     aria-label='Crawl the web.'
-                    onChange={(e) => {
-                        setSearch(e.target.value);
-                        setUpdatedAt((new Date()).toString());
-                    }}
-                    value={search}
                     style={{ borderColor: style.accent_1, fontFamily: style.font_family }}
                 />
             </form>

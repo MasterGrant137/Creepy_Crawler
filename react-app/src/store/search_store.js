@@ -14,8 +14,31 @@ const readResults = (results) => ({
 });
 
 //$ thunks
-export const createHistoryEntry = (entry) => async (dispatch) => {
-    const response = await fetch('/api/search/history/', {
+export const createSearchEntry = (entry) => async (dispatch) => {
+    const response = await fetch('/api/search/history/searches/', {
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        method: 'POST',
+        body: JSON.stringify(entry),
+        user: entry.user,
+    });
+    const data = await response.json();
+    if (response.ok) {
+        await dispatch(crudSearch(data));
+        return data;
+    }
+    if (data.errors[0] === 'The CSRF token has expired.'
+        || response.status === 500) {
+        window.location.reload();
+        return null;
+    }
+    alert(data.errors);
+    return null;
+};
+
+export const createVisitEntry = (entry) => async (dispatch) => {
+    const response = await fetch('/api/search/history/visits/', {
         headers: {
             'Content-Type': 'application/json',
         },
@@ -49,7 +72,6 @@ export const readHistoryEntries = () => async (dispatch) => {
 
 export const readSearchResults = () => async (dispatch) => {
     const response = await fetch('/api/search/results/');
-    console.log(response);
     if (response.ok) {
         const results = await response.json();
         await dispatch(readResults(results));
@@ -103,7 +125,7 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
 //$ reducers
 const initialState = {};
 
-export const searchReducer = (state = initialState, action) => {
+export const historyReducer = (state = initialState, action) => {
     switch (action.type) {
     case CRUD_SEARCH: {
         const entries = action.payload.history;
@@ -120,7 +142,6 @@ export const searchResultsReducer = (state = initialState2, action) => {
     switch (action.type) {
     case READ_SEARCH_RESULTS: {
         const { results } = action.payload;
-        console.log('RESULTS IN SEARCH REDUCER', results);
         return { ...results };
     }
     default:
