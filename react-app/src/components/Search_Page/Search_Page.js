@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { createHistoryEntry } from '../../store/history_store';
+import { createHistoryEntry } from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
 import './Search_Page.css';
@@ -18,7 +18,7 @@ const SearchPage = ({ style }) => {
     const searchHandler = (e) => {
         e.preventDefault();
         if (/^\s*$/.test(search)) return;
-        dispatch(createHistoryEntry({ search, updatedAt, isUser }));
+        dispatch(createHistoryEntry({ search, updatedAt, user }));
     };
 
     useEffect(() => {

@@ -1,9 +1,9 @@
 //$ types
-const CRUD_HISTORY = 'history_store/CREATE_HISTORY';
+const CRUD_SEARCH = 'search_store/CREATE_SEARCH';
 
 //$ action creators
-const crudHistory = (entries) => ({
-    type: CRUD_HISTORY,
+const crudSearch = (entries) => ({
+    type: CRUD_SEARCH,
     payload: entries,
 });
 
@@ -18,7 +18,7 @@ export const createHistoryEntry = (entry) => async (dispatch) => {
     });
     const data = await response.json();
     if (response.ok) {
-        await dispatch(crudHistory(data));
+        await dispatch(crudSearch(data));
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
@@ -34,7 +34,17 @@ export const readHistoryEntries = () => async (dispatch) => {
     const response = await fetch('/api/search/history/');
     if (response.ok) {
         const entries = await response.json();
-        await dispatch(crudHistory(entries));
+        await dispatch(crudSearch(entries));
+        return entries;
+    }
+    return null;
+};
+
+export const readSearchResults = () => async (dispatch) => {
+    const response = await fetch('/api/search/history/');
+    if (response.ok) {
+        const entries = await response.json();
+        await dispatch(crudSearch(entries));
         return entries;
     }
     return null;
@@ -52,7 +62,7 @@ export const updateHistoryEntry = (entry) => async (dispatch) => {
     });
     const data = await response.json();
     if (response.ok) {
-        await dispatch(crudHistory(data));
+        await dispatch(crudSearch(data));
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
@@ -70,7 +80,7 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
     });
     const data = await response.json();
     if (response.ok) {
-        await dispatch(crudHistory(data));
+        await dispatch(crudSearch(data));
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
@@ -85,9 +95,9 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
 //$ reducers
 const initialState = {};
 
-export const historyReducer = (state = initialState, action) => {
+export const searchReducer = (state = initialState, action) => {
     switch (action.type) {
-    case CRUD_HISTORY: {
+    case CRUD_SEARCH: {
         const entries = action.payload.history;
         return { ...entries };
     }

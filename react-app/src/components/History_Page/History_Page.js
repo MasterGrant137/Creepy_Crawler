@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
-import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/history_store';
+import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
 import './History_Page.css';
@@ -13,7 +13,7 @@ import clock24Icon from './icons/24-hour-flaticon.png';
 const HistoryPage = ({ style }) => {
     const history = useHistory();
     const dispatch = useDispatch();
-    const entriesObj = useSelector((state) => state.history);
+    const entriesObj = useSelector((state) => state.searches);
     const clock24 = useSelector((state) => state.session.user.clock_24);
 
     useEffect(() => {
