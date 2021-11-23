@@ -23,9 +23,12 @@ const SignupForm = ({ style }) => {
     const user = useSelector((state) => state.session.user);
     const dispatch = useDispatch();
 
-    window.onbeforeunload = () => {
-        history.push('/');
-    };
+    window.onbeforeunload = () => sessionStorage.setItem('refresh', 'true');
+
+    if (sessionStorage.refresh === 'true') {
+        history.push('/api/auth/signup');
+        sessionStorage.refresh = 'false';
+    }
 
     const allowable = () => {
         setPasswordRequired(true);

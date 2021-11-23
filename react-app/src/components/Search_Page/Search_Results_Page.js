@@ -13,9 +13,14 @@ const SearchResultsPage = ({ style }) => {
     const resultsObj = useSelector((state) => state.searchResults);
 
     window.onbeforeunload = (e) => {
+        sessionStorage.setItem('refresh', 'true');
         e.returnValue = '';
-        history.push('/');
     };
+
+    if (sessionStorage.refresh === 'true') {
+        history.push('/');
+        sessionStorage.refresh = 'false';
+    }
 
     let isUser;
     if (user && !user.errors) isUser = true;

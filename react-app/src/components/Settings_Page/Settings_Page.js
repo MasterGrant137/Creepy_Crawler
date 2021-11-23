@@ -14,9 +14,14 @@ const SettingsPage = ({ style }) => {
     const dispatch = useDispatch();
 
     window.onbeforeunload = (e) => {
+        sessionStorage.setItem('refresh', 'true');
         e.returnValue = '';
-        history.push('/');
     };
+
+    if (sessionStorage.refresh === 'true') {
+        history.push('/');
+        sessionStorage.refresh = 'false';
+    }
 
     useEffect(() => {
         dispatch(readUserSettings());
