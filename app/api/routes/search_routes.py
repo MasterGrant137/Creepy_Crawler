@@ -133,8 +133,7 @@ def get_history_entries():
     """Get all of the history entries."""
     entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
     response = make_response({ 'history': [ entry.to_dict() for entry in entries ] })
-    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
-    response.headers['Clear-Site-Data'] = 'cache'
+    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate, max-age=0'
     return response
 
 @search_routes.route('history/<int:entryID>', methods=['PATCH'])
