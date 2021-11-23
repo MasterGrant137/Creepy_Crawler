@@ -14,15 +14,36 @@ const SettingsPage = ({ style }) => {
     const dispatch = useDispatch();
 
     window.onbeforeunload = (e) => {
-        e.returnValue = '';
-        history.push('/');
         sessionStorage.setItem('refresh', 'true');
+        e.returnValue = '';
+        // history.push('/');
     };
 
     if (sessionStorage.refresh === 'true') {
         history.push('/');
         sessionStorage.refresh = 'false';
     }
+
+    //$ window.onbeforeunload = (e) => {
+    //     e.returnValue = '';
+    //     history.push('/');
+    //     sessionStorage.setItem('refresh', 'true');
+    // };
+
+    // if (sessionStorage.refresh === 'true') {
+    //     history.push('/');
+    //     sessionStorage.refresh = 'false';
+    // }
+
+    //$ window.onbeforeunload = (e) => {
+    //     sessionStorage.setItem('refresh', 'true');
+    //     e.returnValue = '';
+    // };
+
+    // if (sessionStorage.refresh === 'true') {
+    //     history.push('/');
+    //     sessionStorage.refresh = 'false';
+    // }
 
     useEffect(() => {
         dispatch(readUserSettings());
