@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { createVisitEntry, readSearchResults } from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
@@ -7,21 +6,9 @@ import '../Main.css';
 import './Search_Page.css';
 
 const SearchResultsPage = ({ style }) => {
-    const history = useHistory();
     const dispatch = useDispatch();
     const user = useSelector((state) => state.session.user);
     const resultsObj = useSelector((state) => state.searchResults);
-
-    window.onbeforeunload = (e) => {
-        e.returnValue = '';
-        history.push('/');
-        sessionStorage.setItem('refresh', 'true');
-    };
-
-    if (sessionStorage.refresh === 'true') {
-        history.push('/');
-        sessionStorage.refresh = 'false';
-    }
 
     let isUser;
     if (user && !user.errors) isUser = true;

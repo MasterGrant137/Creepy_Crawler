@@ -1,13 +1,12 @@
 import { useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { useHistory, Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { signUp } from '../../store/session';
 import '../Main.css';
 import '../Auth.css';
 
 const SignupForm = ({ style }) => {
-    const history = useHistory();
     const usernameInput = useRef(null);
     const emailInput = useRef(null);
     const passwordInput = useRef(null);
@@ -22,16 +21,6 @@ const SignupForm = ({ style }) => {
     const [signupBtn, setSignupBtn] = useState(false);
     const user = useSelector((state) => state.session.user);
     const dispatch = useDispatch();
-
-    window.onbeforeunload = (e) => {
-        e.returnValue = '';
-        sessionStorage.setItem('refresh', 'true');
-    };
-
-    if (sessionStorage.refresh === 'true') {
-        history.push('/api/auth/signup');
-        sessionStorage.refresh = 'false';
-    }
 
     const allowable = () => {
         setPasswordRequired(true);

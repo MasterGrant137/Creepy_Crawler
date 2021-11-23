@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
@@ -11,21 +10,9 @@ import clock12Icon from './icons/12-hour-flaticon.png';
 import clock24Icon from './icons/24-hour-flaticon.png';
 
 const HistoryPage = ({ style }) => {
-    const history = useHistory();
     const dispatch = useDispatch();
     const entriesObj = useSelector((state) => state.history);
     const clock24 = useSelector((state) => state.session.user.clock_24);
-
-    window.onbeforeunload = (e) => {
-        e.returnValue = '';
-        history.push('/');
-        sessionStorage.setItem('refresh', 'true');
-    };
-
-    if (sessionStorage.refresh === 'true') {
-        history.push('/');
-        sessionStorage.refresh = 'false';
-    }
 
     useEffect(() => {
         dispatch(readHistoryEntries());
