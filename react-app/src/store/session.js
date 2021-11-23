@@ -10,8 +10,6 @@ const removeUser = () => ({
     type: REMOVE_USER,
 });
 
-const initialState = { user: null };
-
 export const authenticateLogin = () => async (dispatch) => {
     const response = await fetch('/api/auth/login');
     if (response.ok) {
@@ -47,7 +45,7 @@ export const login = (email, password) => async (dispatch) => {
         return null;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-        || response.status === 500) {
+    || response.status === 500) {
         window.location.reload();
         return null;
     }
@@ -72,7 +70,7 @@ export const signUp = (username, email, password) => async (dispatch) => {
         return null;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-        || response.status === 500) {
+    || response.status === 500) {
         window.location.reload();
         return null;
     }
@@ -100,7 +98,7 @@ export const editProfileMedia = (userID, formData) => async (dispatch) => {
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-        || response.status === 500) {
+    || response.status === 500) {
         window.location.reload();
         return null;
     }
@@ -151,12 +149,15 @@ export const logout = () => async (dispatch) => {
     return null;
 };
 
+const initialState = {};
 export default function reducer(state = initialState, action) {
     switch (action.type) {
     case CRU_USER:
         return { user: action.payload };
     case REMOVE_USER:
-        return { user: null };
+        return {
+            user: null,
+        };
     default:
         return state;
     }
