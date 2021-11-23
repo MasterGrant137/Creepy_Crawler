@@ -19,8 +19,7 @@ const LoginForm = ({ style }) => {
     const user = useSelector((state) => state.session.user);
     const dispatch = useDispatch();
 
-    window.onbeforeunload = (e) => {
-        e.returnValue = '';
+    window.onbeforeunload = () => {
         history.push('/');
     };
 

@@ -16,9 +16,12 @@ const HistoryPage = ({ style }) => {
     const entriesObj = useSelector((state) => state.history);
     const clock24 = useSelector((state) => state.session.user.clock_24);
 
-    window.onbeforeunload = (e) => {
-        e.returnValue = '';
+    window.onbeforeunload = () => {
         history.push('/');
+    };
+
+    window.onpopstate = () => {
+        setTimeout((history.push('/'), 20));
     };
 
     useEffect(() => {
