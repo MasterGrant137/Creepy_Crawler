@@ -14,8 +14,8 @@ const SettingsPage = ({ style }) => {
     const dispatch = useDispatch();
 
     window.onbeforeunload = (e) => {
-        sessionStorage.setItem('refresh', 'true');
         e.returnValue = '';
+        sessionStorage.setItem('refresh', 'true');
     };
 
     if (sessionStorage.refresh === 'true') {

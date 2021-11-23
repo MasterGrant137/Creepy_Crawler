@@ -23,7 +23,10 @@ const SignupForm = ({ style }) => {
     const user = useSelector((state) => state.session.user);
     const dispatch = useDispatch();
 
-    window.onbeforeunload = () => sessionStorage.setItem('refresh', 'true');
+    window.onbeforeunload = (e) => {
+        e.returnValue = '';
+        sessionStorage.setItem('refresh', 'true');
+    };
 
     if (sessionStorage.refresh === 'true') {
         history.push('/api/auth/signup');

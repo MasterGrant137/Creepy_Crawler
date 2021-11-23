@@ -13,8 +13,8 @@ const SearchResultsPage = ({ style }) => {
     const resultsObj = useSelector((state) => state.searchResults);
 
     window.onbeforeunload = (e) => {
-        sessionStorage.setItem('refresh', 'true');
         e.returnValue = '';
+        sessionStorage.setItem('refresh', 'true');
     };
 
     if (sessionStorage.refresh === 'true') {
