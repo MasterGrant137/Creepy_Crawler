@@ -122,7 +122,7 @@ function App() {
                 <Route path='/search/results/'>
                     <SearchResultsPage style={siteTheme} />
                 </Route>
-                <Route path='/' exact={true} >
+                <Route path='/' exact>
                     <SearchPage style={siteTheme} />
                 </Route>
             </Switch>

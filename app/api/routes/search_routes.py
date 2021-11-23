@@ -122,8 +122,7 @@ def add_visit_entry():
 
 @search_routes.route('/results/')
 def read_results():
-    response = make_response({'results': [[result['url'], result['text']] for result in output_data]})
-    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    response = {'results': [[result['url'], result['text']] for result in output_data]}
     output_data.clear()
     return response
 
@@ -132,9 +131,7 @@ def read_results():
 def get_history_entries():
     """Get all of the history entries."""
     entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-    response = make_response({ 'history': [ entry.to_dict() for entry in entries ] })
-    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
-    return response
+    return { 'history': [ entry.to_dict() for entry in entries ] }
 
 @search_routes.route('history/<int:entryID>', methods=['PATCH'])
 @login_required
