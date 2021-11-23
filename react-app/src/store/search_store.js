@@ -16,9 +16,7 @@ const readResults = (results) => ({
 //$ thunks
 export const createSearchEntry = (entry) => async (dispatch) => {
     const response = await fetch('/api/search/history/searches/', {
-        headers: {
-            'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         method: 'POST',
         body: JSON.stringify(entry),
         user: entry.user,
@@ -39,9 +37,7 @@ export const createSearchEntry = (entry) => async (dispatch) => {
 
 export const createVisitEntry = (entry) => async (dispatch) => {
     const response = await fetch('/api/search/history/visits/', {
-        headers: {
-            'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         method: 'POST',
         body: JSON.stringify(entry),
         user: entry.user,
@@ -82,9 +78,7 @@ export const readSearchResults = () => async (dispatch) => {
 
 export const updateHistoryEntry = (entry) => async (dispatch) => {
     const response = await fetch(`/api/search/history/${entry.entryID}`, {
-        headers: {
-            'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         method: 'PATCH',
         body: JSON.stringify({
             updatedAt: entry.updatedAt,
