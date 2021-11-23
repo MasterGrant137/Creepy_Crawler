@@ -23,6 +23,7 @@ const LoginForm = ({ style }) => {
         e.returnValue = '';
         sessionStorage.setItem('refresh', 'true');
     };
+
     if (sessionStorage.refresh === 'true') {
         history.push('/api/auth/signup');
         sessionStorage.refresh = 'false';
