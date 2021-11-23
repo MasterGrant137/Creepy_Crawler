@@ -1,3 +1,9 @@
+#### Nov 23, 2021
++ Quelled same-device login vulnerability in state.
++ Added message for user when no results are returned by crawler.
++ Added more icons and links to navigation bar.
++ Addressed the re-emergent JSON bug browser history bug.
+
 #### Nov 21, 2021
 + Redux route optimizations, including enhanced error handling.
 + Search engine implemented.
