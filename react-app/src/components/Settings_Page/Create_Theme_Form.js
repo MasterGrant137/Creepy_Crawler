@@ -255,7 +255,7 @@ const CreateThemeForm = ({ style }) => {
                             ref={fileInput}
                             name='Background Media'
                             type='file'
-                            accept='image/png, image/jpg, image/jpeg, image/gif'
+                            // accept='image/png, image/jpg, image/jpeg, image/gif'
                             onChange={setBackgroundMediaHandler}
                             onClick={() => { if (user.theme_count >= 10) setThemeLimitErr(true); }}
                             onMouseOut={() => { setThemeLimitErr(false); }}
