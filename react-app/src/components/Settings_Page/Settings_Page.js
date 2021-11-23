@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import { useHistory } from 'react-router-dom';
 import { editProfile } from '../../store/session';
 import { readUserSettings } from '../../store/settings_store';
 import EditThemeForm from './Edit_Theme_Form';
@@ -9,7 +10,13 @@ import '../Main.css';
 import './Settings_Page.css';
 
 const SettingsPage = ({ style }) => {
+    const history = useHistory();
     const dispatch = useDispatch();
+
+    window.onbeforeunload = (e) => {
+        e.returnValue = '';
+        history.push('/');
+    };
 
     useEffect(() => {
         dispatch(readUserSettings());

@@ -4,36 +4,36 @@ import '../Main.css';
 import './User.css';
 
 function User() {
-  const [user, setUser] = useState({});
-  const { userId }  = useParams();
+    const [user, setUser] = useState({});
+    const { userID } = useParams();
 
-  useEffect(({ style }) => {
-    if (!userId) {
-      return;
+    useEffect(() => {
+        if (!userID) {
+            return;
+        }
+        (async () => {
+            const response = await fetch(`/creepycrawler/users/${userID}`);
+            const data = await response.json();
+            setUser(data);
+        })();
+    }, [userID]);
+
+    if (!user) {
+        return null;
     }
-    (async () => {
-      const response = await fetch(`/creepycrawler/users/${userId}`);
-      const user = await response.json();
-      setUser(user);
-    })();
-  }, [userId]);
 
-  if (!user) {
-    return null;
-  }
-
-  return (
-    <ul>
-      <li>
-        <strong>User Id</strong> {userId}
-      </li>
-      <li>
-        <strong>Username</strong> {user.username}
-      </li>
-      <li>
-        <strong>Email</strong> {user.email}
-      </li>
-    </ul>
-  );
+    return (
+        <ul>
+            <li>
+                <strong>User Id</strong> {userID}
+            </li>
+            <li>
+                <strong>Username</strong> {user.username}
+            </li>
+            <li>
+                <strong>Email</strong> {user.email}
+            </li>
+        </ul>
+    );
 }
 export default User;

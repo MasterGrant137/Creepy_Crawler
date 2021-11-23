@@ -17,7 +17,7 @@ const HistoryPage = ({ style }) => {
     const clock24 = useSelector((state) => state.session.user.clock_24);
 
     window.onbeforeunload = (e) => {
-        delete e.returnValue;
+        e.returnValue = '';
         history.push('/');
     };
 
