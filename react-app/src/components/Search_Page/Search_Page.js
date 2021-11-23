@@ -29,7 +29,7 @@ const SearchPage = ({ style }) => {
             updatedAt: new Date().toString(),
             user,
         }));
-        history.push('/api/search/results/');
+        history.push('/search/results/');
         setLoading(false);
     };
 

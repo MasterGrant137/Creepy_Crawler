@@ -122,8 +122,9 @@ def add_visit_entry():
 
 @search_routes.route('/results/')
 def read_results():
+    response = {'results': [[result['url'], result['text']] for result in output_data]}
     output_data.clear()
-    return {'results': [[result['url'], result['text']] for result in output_data]}
+    return response
 
 @search_routes.route('/history/')
 @login_required
