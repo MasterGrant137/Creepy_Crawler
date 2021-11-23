@@ -64,7 +64,7 @@ const NavBar = ({ style }) => {
                     alt='History'
                     title='History'
                     icon='history'
-                    onClick={() => navHandler('/api/search/history/')}
+                    onClick={() => navHandler('/search/history/')}
                 />
                 }
                 {isUser
@@ -72,7 +72,7 @@ const NavBar = ({ style }) => {
                     alt='Settings'
                     title='Settings'
                     icon='cogs'
-                    onClick={() => navHandler('/api/settings/')}
+                    onClick={() => navHandler('/settings/')}
                 />
                 }
                 {isUser && <img className='profile-media-small' src={user.profile_media} alt='User' title='User' />}
@@ -81,16 +81,14 @@ const NavBar = ({ style }) => {
                     alt='Log In'
                     title='Log In'
                     icon='sign-in-alt'
-                    data-link-dest='/api/auth/login'
-                    onClick={() => navHandler('/api/auth/login')}
+                    onClick={() => navHandler('/auth/login')}
                 />}
                 {!isUser
                 && <FontAwesomeIcon
                     alt='Sign Up'
                     title='Sign Up'
                     icon='user-plus'
-                    data-link-dest='/api/auth/signup'
-                    onClick={() => navHandler('/api/auth/signup')}
+                    onClick={() => navHandler('/auth/signup')}
                 />}
                 {!isUser && <li onClick={() => navHandler('/stranger/crawler')}>Demo Login</li>}
                 {isUser && <LogoutButton style={style} />}

@@ -14,26 +14,15 @@ const SettingsPage = ({ style }) => {
     const dispatch = useDispatch();
 
     window.onbeforeunload = (e) => {
-        sessionStorage.setItem('refresh', 'true');
         e.returnValue = '';
-        // history.push('/');
+        history.push('/');
+        sessionStorage.setItem('refresh', 'true');
     };
 
     if (sessionStorage.refresh === 'true') {
         history.push('/');
         sessionStorage.refresh = 'false';
     }
-
-    //$ window.onbeforeunload = (e) => {
-    //     e.returnValue = '';
-    //     history.push('/');
-    //     sessionStorage.setItem('refresh', 'true');
-    // };
-
-    // if (sessionStorage.refresh === 'true') {
-    //     history.push('/');
-    //     sessionStorage.refresh = 'false';
-    // }
 
     //$ window.onbeforeunload = (e) => {
     //     sessionStorage.setItem('refresh', 'true');
