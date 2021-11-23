@@ -15,6 +15,7 @@ const SettingsPage = ({ style }) => {
 
     window.onbeforeunload = (e) => {
         e.returnValue = '';
+        history.push('/');
         sessionStorage.setItem('refresh', 'true');
     };
 
