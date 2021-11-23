@@ -20,8 +20,10 @@ const SettingsPage = ({ style }) => {
     };
 
     if (sessionStorage.refresh === 'true') {
-        history.push('/');
-        sessionStorage.refresh = 'false';
+        setTimeout(() => {
+            history.push('/');
+            sessionStorage.refresh = 'false';
+        }, 10);
     }
 
     useEffect(() => {
