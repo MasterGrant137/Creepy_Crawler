@@ -11,6 +11,7 @@ const LogoutButton = ({ style }) => {
     const onLogout = async () => {
         await dispatch(logout());
         history.push('/api/auth/login');
+        window.location.reload();
     };
 
     return <FontAwesomeIcon
