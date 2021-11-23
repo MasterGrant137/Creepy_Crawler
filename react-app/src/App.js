@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
-    faBookOpen,
     faCheckCircle,
     faCircle,
     faCogs,
@@ -21,6 +20,8 @@ import {
     faUserPlus,
     faWindowClose,
 } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
 import HistoryPage from './components/History_Page/History_Page';
 import SearchPage from './components/Search_Page/Search_Page';
@@ -36,13 +37,14 @@ import NavBar from './components/Navigation/Nav_Bar';
 // import defaultThemes from './default_themes.json';
 
 library.add(
-    faBookOpen,
     faCheckCircle,
     faCircle,
     faCogs,
     faCompass,
     faCopy,
+    faGithub,
     faHistory,
+    faLinkedin,
     faLock,
     faLockOpen,
     faPlusSquare,

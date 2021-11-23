@@ -34,9 +34,21 @@ const NavBar = ({ style }) => {
                     rel='noopener noreferrer'
                 >
                     <FontAwesomeIcon
-                        alt='About'
-                        title='About'
-                        icon='book-open'
+                        alt='GitHub'
+                        title='GitHub'
+                        icon={['fab', 'github']}
+                        style={{ color: style.accent_2 }}
+                    />
+                </a>
+                <a
+                    href='https://www.linkedin.com/in/alejandro-c-grant'
+                    target="_blank"
+                    rel='noopener noreferrer'
+                >
+                    <FontAwesomeIcon
+                        alt='LinkedIn'
+                        title='LinkedIn'
+                        icon={['fab', 'linkedin']}
                         style={{ color: style.accent_2 }}
                     />
                 </a>

@@ -339,7 +339,7 @@ const EditThemeForm = ({ style }) => {
                     id={`bg-media-editor-${idx}`}
                     name='Background Media'
                     type='file'
-                    // accept='image/png, image/jpg, image/jpeg, image/gif'
+                    accept='image/png, image/jpg, image/jpeg, image/gif'
                     disabled
                     onChange={setBackgroundMediaHandler}
                 />

@@ -53,7 +53,7 @@ const SearchResultsPage = ({ style }) => {
 
     return (
         <div className='search-results-page-container' style={{ backgroundColor: style.background_color }}>
-            {results}
+            {results.length ? results : 'No results.'}
         </div>
     );
 };
