@@ -136,8 +136,6 @@ export const searchResultsReducer = (state = initialState2, action) => {
     switch (action.type) {
     case READ_SEARCH_RESULTS: {
         const { results } = action.payload;
-        console.log('REDUCER');
-        console.log(results);
         return { ...results };
     }
     default:
