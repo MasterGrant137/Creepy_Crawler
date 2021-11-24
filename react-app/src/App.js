@@ -107,19 +107,19 @@ function App() {
             <Modal open={isOpen} onClose={() => setIsOpen(false)} />
             <NavBar style={siteTheme} />
             <Switch>
-                <Route path='/auth/login' exact={true}>
+                <Route path='/auth/login' exact>
                     <LoginForm style={siteTheme} />
                 </Route>
-                <Route path='/auth/signup' exact={true}>
+                <Route path='/auth/signup' exact>
                     <SignupForm style={siteTheme} />
                 </Route>
-                <ProtectedRoute path='/settings/' exact={true}>
+                <ProtectedRoute path='/settings/' exact>
                     <SettingsPage style={siteTheme} />
                 </ProtectedRoute>
-                <ProtectedRoute path='/search/history/' exact={true}>
+                <ProtectedRoute path='/search/history/' exact>
                     <HistoryPage style={siteTheme} />
                 </ProtectedRoute>
-                <Route path='/search/results/'>
+                <Route path='/search/results/' exact>
                     <SearchResultsPage style={siteTheme} />
                 </Route>
                 <Route path='/' exact>
