@@ -68,13 +68,9 @@ function App() {
 
     useEffect(() => {
         (async () => {
-            try {
-                await dispatch(authenticateLogin());
-                await dispatch(authenticateSignup());
-                setLoaded(true);
-            } catch (err) {
-                window.location.reload();
-            }
+            await dispatch(authenticateLogin());
+            await dispatch(authenticateSignup());
+            setLoaded(true);
         })();
     }, [dispatch]);
 
