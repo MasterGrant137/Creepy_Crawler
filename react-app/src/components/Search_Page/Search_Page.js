@@ -36,7 +36,7 @@ const SearchPage = ({ style }) => {
     useEffect(() => {
         if (isUser) dispatch(readUserSettings());
         return null;
-    }, [dispatch]);
+    }, [dispatch, user]);
 
     if (loading) {
         return (<FontAwesomeIcon

@@ -7,11 +7,7 @@ Categories:
 + Videographic (video)
 """
 
-import json
 import scrapy
-
-# with open('app/crawler/query.json', 'r') as query_object:
-#     query = json.load(query_object)['query']
 
 class CDCommentarial(scrapy.Spider):
     """Commentarial spider."""

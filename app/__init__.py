@@ -21,11 +21,9 @@ app = Flask(__name__)
 login = LoginManager(app)
 login.login_view = 'auth.unauthorized'
 
-
 @login.user_loader
 def load_user(id):
     return User.query.get(int(id))
-
 
 # Tell flask about our seed commands
 app.cli.add_command(seed_commands)
@@ -42,7 +40,6 @@ Migrate(app, db)
 # Application Security
 CORS(app)
 
-
 # Since we are deploying with Docker and Flask,
 # we won't be using a buildpack when we deploy to Heroku.
 # Therefore, we need to make sure that in production any
@@ -56,7 +53,6 @@ def https_redirect():
             code = 301
             return redirect(url, code=code)
 
-
 @app.after_request
 def inject_csrf_token(response):
     response.set_cookie(
@@ -68,6 +64,12 @@ def inject_csrf_token(response):
         httponly=True)
     return response
 
+# @app.route('/', defaults={'path': ''})
+# @app.route('/<path:path>')
+# def react_root(path):
+#     if path == 'favicon.ico':
+#         return app.send_static_file('favicon.ico')
+#     return app.send_static_file('index.html')
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
