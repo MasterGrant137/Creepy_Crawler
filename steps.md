@@ -4,10 +4,10 @@ This is the starter for the Flask React project.
 
 ## Getting started
 
-1. Clone this repository (only this branch)
+1. Creating virtual environment
 
    ```bash
-   git clone https://github.com/appacademy-starters/python-project-starter.git
+   pipenv install --python "$PYENV_ROOT/versions/3.9.4/bin/python"
    ```
 
 2. Install dependencies
