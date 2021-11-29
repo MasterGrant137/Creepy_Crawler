@@ -26,7 +26,8 @@ const EditThemeForm = ({ style }) => {
     const resetHandler = (targID) => {
         const targForm = document.getElementById(targID);
         const prev = settingsObj[targID];
-        const targFormKids = Array.from(targForm.children);
+        const targFieldset = targForm.children[0];
+        const targFieldsetKids = Array.from(targForm.children[0].children);
 
         const lockOpenIcon = document.getElementById(`lock-open-${targID}`);
         const lockIcon = document.getElementById(`lock-${targID}`);
@@ -38,22 +39,12 @@ const EditThemeForm = ({ style }) => {
         lockBtn.dataset.locked = 'true';
         cancelBtn.classList.add('invisible');
 
-        targFormKids.forEach((targKid) => {
-            if (targKid.type === 'text') targKid.readOnly = true;
-            else if (targKid.tagName === 'SELECT') targKid.disabled = true;
-            else if (targKid.dataset.type === 'bg-media-editor-div') {
+        targFieldsetKids.forEach((targKid) => {
+            if (targFieldset) targFieldset.disabled = true;
+            if (targKid.dataset.type === 'bg-media-editor-div') {
                 const mediaInput = targKid.children[1];
-                mediaInput.disabled = true;
                 mediaInput.value = '';
             }
-
-            switch (targKid.type) {
-            case 'color': targKid.disabled = true; break;
-            case 'file': targKid.disabled = true; break;
-            case 'checkbox': targKid.disabled = true; break;
-            default: break;
-            }
-
             switch (targKid.name) {
             case 'Theme Name': targKid.value = prev.theme_name; break;
             case 'Background Color': targKid.value = prev.background_color; break;
@@ -91,39 +82,28 @@ const EditThemeForm = ({ style }) => {
     const editFormHandler = async (e) => {
         e.preventDefault();
         const targForm = e.target;
-        const targFormKids = Array.from(targForm.children);
+        const targFieldset = targForm.children[0];
+        const targFieldsetKids = Array.from(targForm.children[0].children);
         const settingID = targForm.id;
         const lockBtn = document.getElementById(`lock-btn-${settingID}`);
         const formData = new FormData();
 
         if (lockBtn.dataset.locked === 'true') {
-            targFormKids.forEach((targKid) => {
-                const lockIcon = lockBtn.children[0];
-                lockIcon.dataset.visibility = 'false';
+            if (targFieldset) targFieldset.disabled = false;
 
-                const lockOpenIcon = document.getElementById(`lock-open-${settingID}`);
-                lockOpenIcon.dataset.visibility = 'true';
-                lockBtn.dataset.locked = 'false';
+            const lockIcon = lockBtn.children[0];
+            lockIcon.dataset.visibility = 'false';
 
-                const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
-                cancelBtn.classList.remove('invisible');
+            const lockOpenIcon = document.getElementById(`lock-open-${settingID}`);
+            lockOpenIcon.dataset.visibility = 'true';
+            lockBtn.dataset.locked = 'false';
 
-                if (targKid.type === 'text') targKid.readOnly = false;
-                else if (targKid.tagName === 'SELECT') targKid.disabled = false;
-                else if (targKid.dataset.type === 'bg-media-editor-div') targKid.children[1].disabled = false;
-
-                switch (targKid.type) {
-                case 'color': targKid.disabled = false;
-                    break;
-                case 'file': targKid.disabled = false;
-                    break;
-                case 'checkbox': targKid.disabled = false;
-                    break;
-                default: break;
-                }
-            });
+            const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
+            cancelBtn.classList.remove('invisible');
         } else if (lockBtn.dataset.locked === 'false') {
-            targFormKids.forEach((targKid) => {
+            targFieldsetKids.forEach((targKid) => {
+                if (targFieldset) targFieldset.disabled = true;
+
                 const lockOpenIcon = lockBtn.children[1];
                 lockOpenIcon.dataset.visibility = 'false';
 
@@ -134,21 +114,11 @@ const EditThemeForm = ({ style }) => {
                 const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
                 cancelBtn.classList.add('invisible');
 
-                if (targKid.type === 'text') targKid.readOnly = true;
-                else if (targKid.tagName === 'SELECT') targKid.disabled = true;
-                else if (targKid.dataset.type === 'bg-media-editor-div') {
+                if (targKid.dataset.type === 'bg-media-editor-div') {
                     const mediaInput = targKid.children[1];
-                    mediaInput.disabled = true;
                     formData.append('backgroundMedia', backgroundMedia);
                     setBackgroundMediaLoading(true);
                     mediaInput.value = '';
-                }
-
-                switch (targKid.type) {
-                case 'color': targKid.disabled = true; break;
-                case 'file': targKid.disabled = true; break;
-                case 'checkbox': targKid.disabled = true; break;
-                default: break;
                 }
 
                 formData.append('settingID', settingID);
@@ -225,6 +195,7 @@ const EditThemeForm = ({ style }) => {
         >
             <fieldset
                 className='ef1-fieldset'
+                disabled
                 style={{
                     backgroundImage: `url(${setting.background_media})`,
                     backgroundColor: setting.background_color,
@@ -308,14 +279,12 @@ const EditThemeForm = ({ style }) => {
                     placeholder='50 Characters Max'
                     aria-placeholder='50 Characters Max'
                     defaultValue={setting.theme_name}
-                    readOnly
                     style={{ fontFamily: setting.font_family }}
                 />
                 <label htmlFor={`font-size-editor-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
                 <select
                     id={`font-size-editor-${idx}`}
                     name='Font Size'
-                    disabled
                     defaultValue={setting.font_size?.replace('px', '')}
                 >
                     {fontSizes}
@@ -324,17 +293,16 @@ const EditThemeForm = ({ style }) => {
                 <select
                     id={`font-family-editor-${idx}`}
                     name='Font Family'
-                    disabled
                     defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
                 >
                     {fontFamilies}
                 </select>
 
                 <label htmlFor={`font-color-editor-${idx}`}>Font Color</label>
-                <input id={`font-color-editor-${idx}`} name='Font Color' type='color' disabled defaultValue={setting.font_color} />
+                <input id={`font-color-editor-${idx}`} name='Font Color' type='color' defaultValue={setting.font_color} />
 
                 <label htmlFor={`bg-color-editor-${idx}`}>Background Color</label>
-                <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled defaultValue={setting.background_color} />
+                <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' defaultValue={setting.background_color} />
 
                 <div data-type='bg-media-editor-div'>
                     <label htmlFor={`bg-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
@@ -343,23 +311,22 @@ const EditThemeForm = ({ style }) => {
                         name='Background Media'
                         type='file'
                         accept='image/png, image/jpg, image/jpeg, image/gif'
-                        disabled
                         onChange={setBackgroundMediaHandler}
                     />
                     {backgroundMediaLoading && (<span>Loading...</span>)}
                 </div>
 
                 <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
-                <input id={`bg-rotate-editor-${idx}`} name='Background Rotate' type='checkbox' disabled defaultChecked={setting.background_rotate} />
+                <input id={`bg-rotate-editor-${idx}`} name='Background Rotate' type='checkbox' defaultChecked={setting.background_rotate} />
 
                 <label htmlFor={`accent-1-color-editor-${idx}`} style={{ color: setting.accent_1 }}>Accent 1</label>
-                <input id={`accent-1-color-editor-${idx}`} name='Accent 1' type='color' disabled defaultValue={setting.accent_1} />
+                <input id={`accent-1-color-editor-${idx}`} name='Accent 1' type='color' defaultValue={setting.accent_1} />
 
                 <label htmlFor={`accent-2-color-editor-${idx}`} style={{ color: setting.accent_2 }}>Accent 2</label>
-                <input id={`accent-2-color-editor-${idx}`} name='Accent 2' type='color' disabled defaultValue={setting.accent_2} />
+                <input id={`accent-2-color-editor-${idx}`} name='Accent 2' type='color' defaultValue={setting.accent_2} />
 
                 <label htmlFor={`accent-3-color-editor-${idx}`} style={{ color: setting.accent_3 }}>Accent 3</label>
-                <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' disabled defaultValue={setting.accent_3} />
+                <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' defaultValue={setting.accent_3} />
             </fieldset>
         </form>
     ));
