@@ -45,7 +45,6 @@ const SettingsPage = ({ style }) => {
                 </div>
                 <div
                     className='create-theme-container'
-                    style={{ backgroundColor: style.background_color }}
                 >
                     <CreateThemeForm style={style} />
                 </div>

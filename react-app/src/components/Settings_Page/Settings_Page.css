@@ -24,30 +24,24 @@
 /*$=========Setter Form 2=========$*/
 /*=================================*/
 .setter-form-2 {
-    border-radius: 5px 0 0 5px;
-    border-style: solid;
-    border-width: 3px 0 3px 3px;
     grid-template-areas: 
     'a'
     'b'
-    'c';
-    padding: 10px 0 0 0;
+    'c'; 
+    margin: 0;
+    padding: 0;
     width: 70%;
 }
 
+.sf2-fieldset {
+    border-radius: 5px 0 0 5px;
+    border-style: solid;
+    border-width: 3px 0 3px 3px;
+    padding: 0;
+    width: 100%;
+}
+
 .create-theme-header { border-bottom: 2px solid }
-
-[data-sf2='reset'] {
-    position: absolute;
-    left: 32%;
-    top: 4%;
-}
-
-.sf2-submit-btn {
-    position: absolute;
-    left: 38%;
-    top: 4%;
-}
 
 .sf2-row-a {
     display: flex;
