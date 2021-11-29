@@ -3,24 +3,29 @@
 + Added message for user when no results are returned by crawler.
 + Added more icons and links to navigation bar.
 + Addressed the re-emergent JSON bug browser history bug.
-
+---
+#### Nov 22, 2021
++ Extensive styling to search results page.
++ Clicked search results are added to history.
++ Users who are either not logged in or not signed up have access to the site’s search functionality. Certain privileges have been withheld.
+---
 #### Nov 21, 2021
 + Redux route optimizations, including enhanced error handling.
 + Search engine implemented.
-
+---
 #### Nov 18, 2021
 + Eliminated bug where JSON object was returned instead of view when pressing `history back` button in one’s browser.
 + Bug affecting conditionally rendered elements in navigation bar eliminated.
 + Search page fetching error eliminated.
 + Style enhancements to settings and auth pages.
-
+---
 #### Nov 17, 2021
 + Eliminated authorization bug occurring upon refresh.
 + Copy-to-clipboard inputs made more responsive on history page.
 + History toggle time bug eliminated. Semantic, logical code substituted for previous fix.
 + Conditionally rendered icon indicates which theme has been selected.
 + Styled, added, and modified icons.
-
+---
 #### Nov 16, 2021
 + Extensive accessibility enhancements. Words exchanged for icons wherever possible to promote a language-agnostic application view. Alt tags placed on all images and icons for individuals with screen readers. Titles also placed on all images and icons for clients unable to load them and for the informational hover functionality. I tested the site on Apple’s VoiceOver screen reader to ensure I was truly making impactful decisions. That brought me to reconsider several stylistic choices including some of the `user-select: none` styling I had.
 + JS and CSS work together to gently inform user if theme count has been reached.
