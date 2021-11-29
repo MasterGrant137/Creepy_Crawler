@@ -222,142 +222,145 @@ const EditThemeForm = ({ style }) => {
             id={setting.id}
             className='editor-form-1'
             onSubmit={editFormHandler}
-            style={{
-                backgroundImage: `url(${setting.background_media})`,
-                backgroundColor: setting.background_color,
-                borderColor: setting.accent_3,
-                color: setting.font_color,
-                fontFamily: setting.font_family,
-            }}
         >
-            <div className='ef1-icons-container'>
-                <FontAwesomeIcon
-                    alt='Delete Theme'
-                    title='Delete Theme'
-                    icon='trash-alt'
-                    onClick={(e) => deleteThemeHandler(e, setting.id)}
-                    style={{ color: setting.font_color }}
-                />
-                <FontAwesomeIcon
-                    id={`cancel-btn-${setting.id}`}
-                    data-setting-id={`${setting.id}`}
-                    className='invisible'
-                    alt='Cancel Changes'
-                    type='Cancel Changes'
-                    icon='window-close'
-                    onClick={() => resetHandler(setting.id)}
-                    style={{ color: setting.font_color }}
-                />
-                <FontAwesomeIcon
-                    alt='Copy Theme Data'
-                    title='Copy Theme Data'
-                    icon='copy'
-                    onClick={() => copyThemeData(setting.id)}
-                    style={{ color: setting.font_color }}
-                />
-                {user.active_theme !== setting.id
-                    && <FontAwesomeIcon
-                        alt='Unselected Theme'
-                        title='Unselected Theme'
-                        icon='circle'
-                        onClick={() => updateActiveTheme(setting.id, 'active_theme')}
-                        style={{ color: setting.font_color }}
-                    />
-                }
-                {user.active_theme === setting.id
-                    && <FontAwesomeIcon
-                        alt='Selected Theme'
-                        title='Selected Theme'
-                        icon='check-circle'
-                        onClick={() => updateActiveTheme(setting.id, 'active_theme')}
-                        style={{ color: setting.font_color }}
-                    />
-                }
-                <button
-                    id={`lock-btn-${setting.id}`}
-                    data-setting-id={`${setting.id}`}
-                    data-locked='true'
-                >
+            <fieldset
+                className='ef1-fieldset'
+                style={{
+                    backgroundImage: `url(${setting.background_media})`,
+                    backgroundColor: setting.background_color,
+                    borderColor: setting.accent_3,
+                    color: setting.font_color,
+                    fontFamily: setting.font_family,
+                }}
+            >
+                <legend className='ef1-icons-legend'>
                     <FontAwesomeIcon
-                        id={`lock-${setting.id}`}
-                        data-visibility='true'
-                        alt='Unlock Theme'
-                        title='Unlock Theme'
-                        icon='lock'
+                        alt='Delete Theme'
+                        title='Delete Theme'
+                        icon='trash-alt'
+                        onClick={(e) => deleteThemeHandler(e, setting.id)}
                         style={{ color: setting.font_color }}
                     />
                     <FontAwesomeIcon
-                        id={`lock-open-${setting.id}`}
-                        data-visibility='false'
-                        alt='Lock Theme'
-                        title='Lock Theme'
-                        icon='lock-open'
+                        id={`cancel-btn-${setting.id}`}
+                        data-setting-id={`${setting.id}`}
+                        className='invisible'
+                        alt='Cancel Changes'
+                        type='Cancel Changes'
+                        icon='window-close'
+                        onClick={() => resetHandler(setting.id)}
                         style={{ color: setting.font_color }}
                     />
-                </button>
-            </div>
-            <label htmlFor={`theme-name-editor-${idx}`}>Theme Name</label>
-            <input
-                id={`theme-name-editor-${idx}`}
-                type='text'
-                name='Theme Name'
-                maxLength='50'
-                placeholder='50 Characters Max'
-                aria-placeholder='50 Characters Max'
-                defaultValue={setting.theme_name}
-                readOnly
-                style={{ fontFamily: setting.font_family }}
-            />
-            <label htmlFor={`font-size-editor-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
-            <select
-                id={`font-size-editor-${idx}`}
-                name='Font Size'
-                disabled
-                defaultValue={setting.font_size?.replace('px', '')}
-            >
-                {fontSizes}
-            </select>
-            <label htmlFor={`font-family-editor-${idx}`}>Font Family</label>
-            <select
-                id={`font-family-editor-${idx}`}
-                name='Font Family'
-                disabled
-                defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
-            >
-                {fontFamilies}
-            </select>
-
-            <label htmlFor={`font-color-editor-${idx}`}>Font Color</label>
-            <input id={`font-color-editor-${idx}`} name='Font Color' type='color' disabled defaultValue={setting.font_color} />
-
-            <label htmlFor={`bg-color-editor-${idx}`}>Background Color</label>
-            <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled defaultValue={setting.background_color} />
-
-            <div data-type='bg-media-editor-div'>
-                <label htmlFor={`bg-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
+                    <FontAwesomeIcon
+                        alt='Copy Theme Data'
+                        title='Copy Theme Data'
+                        icon='copy'
+                        onClick={() => copyThemeData(setting.id)}
+                        style={{ color: setting.font_color }}
+                    />
+                    {user.active_theme !== setting.id
+                        && <FontAwesomeIcon
+                            alt='Unselected Theme'
+                            title='Unselected Theme'
+                            icon='circle'
+                            onClick={() => updateActiveTheme(setting.id, 'active_theme')}
+                            style={{ color: setting.font_color }}
+                        />
+                    }
+                    {user.active_theme === setting.id
+                        && <FontAwesomeIcon
+                            alt='Selected Theme'
+                            title='Selected Theme'
+                            icon='check-circle'
+                            onClick={() => updateActiveTheme(setting.id, 'active_theme')}
+                            style={{ color: setting.font_color }}
+                        />
+                    }
+                    <button
+                        id={`lock-btn-${setting.id}`}
+                        data-setting-id={`${setting.id}`}
+                        data-locked='true'
+                    >
+                        <FontAwesomeIcon
+                            id={`lock-${setting.id}`}
+                            data-visibility='true'
+                            alt='Unlock Theme'
+                            title='Unlock Theme'
+                            icon='lock'
+                            style={{ color: setting.font_color }}
+                        />
+                        <FontAwesomeIcon
+                            id={`lock-open-${setting.id}`}
+                            data-visibility='false'
+                            alt='Lock Theme'
+                            title='Lock Theme'
+                            icon='lock-open'
+                            style={{ color: setting.font_color }}
+                        />
+                    </button>
+                </legend>
+                <label htmlFor={`theme-name-editor-${idx}`}>Theme Name</label>
                 <input
-                    id={`bg-media-editor-${idx}`}
-                    name='Background Media'
-                    type='file'
-                    accept='image/png, image/jpg, image/jpeg, image/gif'
-                    disabled
-                    onChange={setBackgroundMediaHandler}
+                    id={`theme-name-editor-${idx}`}
+                    type='text'
+                    name='Theme Name'
+                    maxLength='50'
+                    placeholder='50 Characters Max'
+                    aria-placeholder='50 Characters Max'
+                    defaultValue={setting.theme_name}
+                    readOnly
+                    style={{ fontFamily: setting.font_family }}
                 />
-                {backgroundMediaLoading && (<span>Loading...</span>)}
-            </div>
+                <label htmlFor={`font-size-editor-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
+                <select
+                    id={`font-size-editor-${idx}`}
+                    name='Font Size'
+                    disabled
+                    defaultValue={setting.font_size?.replace('px', '')}
+                >
+                    {fontSizes}
+                </select>
+                <label htmlFor={`font-family-editor-${idx}`}>Font Family</label>
+                <select
+                    id={`font-family-editor-${idx}`}
+                    name='Font Family'
+                    disabled
+                    defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
+                >
+                    {fontFamilies}
+                </select>
 
-            <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
-            <input id={`bg-rotate-editor-${idx}`} name='Background Rotate' type='checkbox' disabled defaultChecked={setting.background_rotate} />
+                <label htmlFor={`font-color-editor-${idx}`}>Font Color</label>
+                <input id={`font-color-editor-${idx}`} name='Font Color' type='color' disabled defaultValue={setting.font_color} />
 
-            <label htmlFor={`accent-1-color-editor-${idx}`} style={{ color: setting.accent_1 }}>Accent 1</label>
-            <input id={`accent-1-color-editor-${idx}`} name='Accent 1' type='color' disabled defaultValue={setting.accent_1} />
+                <label htmlFor={`bg-color-editor-${idx}`}>Background Color</label>
+                <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' disabled defaultValue={setting.background_color} />
 
-            <label htmlFor={`accent-2-color-editor-${idx}`} style={{ color: setting.accent_2 }}>Accent 2</label>
-            <input id={`accent-2-color-editor-${idx}`} name='Accent 2' type='color' disabled defaultValue={setting.accent_2} />
+                <div data-type='bg-media-editor-div'>
+                    <label htmlFor={`bg-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
+                    <input
+                        id={`bg-media-editor-${idx}`}
+                        name='Background Media'
+                        type='file'
+                        accept='image/png, image/jpg, image/jpeg, image/gif'
+                        disabled
+                        onChange={setBackgroundMediaHandler}
+                    />
+                    {backgroundMediaLoading && (<span>Loading...</span>)}
+                </div>
 
-            <label htmlFor={`accent-3-color-editor-${idx}`} style={{ color: setting.accent_3 }}>Accent 3</label>
-            <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' disabled defaultValue={setting.accent_3} />
+                <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
+                <input id={`bg-rotate-editor-${idx}`} name='Background Rotate' type='checkbox' disabled defaultChecked={setting.background_rotate} />
 
+                <label htmlFor={`accent-1-color-editor-${idx}`} style={{ color: setting.accent_1 }}>Accent 1</label>
+                <input id={`accent-1-color-editor-${idx}`} name='Accent 1' type='color' disabled defaultValue={setting.accent_1} />
+
+                <label htmlFor={`accent-2-color-editor-${idx}`} style={{ color: setting.accent_2 }}>Accent 2</label>
+                <input id={`accent-2-color-editor-${idx}`} name='Accent 2' type='color' disabled defaultValue={setting.accent_2} />
+
+                <label htmlFor={`accent-3-color-editor-${idx}`} style={{ color: setting.accent_3 }}>Accent 3</label>
+                <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' disabled defaultValue={setting.accent_3} />
+            </fieldset>
         </form>
     ));
 
