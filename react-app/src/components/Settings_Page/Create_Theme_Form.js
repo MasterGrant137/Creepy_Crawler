@@ -92,26 +92,23 @@ const CreateThemeForm = ({ style }) => {
             resetHandler(e);
             incrementThemeCount('theme_count', 'increment');
         } else {
-            alert('You are not permitted to add any more themes!');
+            setThmLmtErr(true);
+            setTimeout(() => setThmLmtErr(false), 3000);
         }
     };
 
     return (
         <>
-            <form className='setter-form-2' onSubmit={createSettingHandler}>
-                <fieldset
-                    className='sf2-fieldset'
-                    style={{
-                        backgroundColor: style.background_color,
-                        borderColor: style.accent_3,
-                    }}>
-                    <h2
-                        className='create-theme-header'
-                        style={{
-                            color: style.accent_2,
-                            borderColor: style.accent_1,
-                        }}
-                    >
+            <form
+                className='setter-form-2'
+                onSubmit={createSettingHandler}
+                style={{
+                    backgroundColor: style.background_color,
+                    borderColor: style.accent_3,
+                }}
+            >
+                <fieldset className='sf2-fieldset'>
+                    <h2 style={{ color: style.accent_2, borderColor: style.accent_1 }}>
                         Create Theme
                     </h2>
                     <legend>
@@ -121,7 +118,6 @@ const CreateThemeForm = ({ style }) => {
                             icon='sync'
                             onClick={(e) => resetHandler(e)}
                             style={{
-                                backgroundColor: style.background_color,
                                 color: style.font_color,
                                 fontFamily: style.font_family,
                                 fontSize: style.font_size,
@@ -130,16 +126,13 @@ const CreateThemeForm = ({ style }) => {
                         <span className={`${themeLimitErr ? 'inline-error' : 'invisible'}`}>
                             Theme limit reached.
                         </span>
-                        <button type={user.theme_count < 10 ? 'submit' : 'button'}>
+                        <button data-sf2={`${submitBtn ? '' : 'not-allowed'}`}>
                             <FontAwesomeIcon
                                 data-sf2={`${submitBtn ? '' : 'not-allowed'}`}
                                 alt='Add Theme'
                                 title='Add Theme'
                                 icon='plus-square'
-                                onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                                onMouseOut={() => { setThmLmtErr(false); }}
                                 style={{
-                                    backgroundColor: style.background_color,
                                     color: style.font_color,
                                     fontFamily: style.font_family,
                                     fontSize: style.font_size,

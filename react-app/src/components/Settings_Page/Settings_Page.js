@@ -24,7 +24,7 @@ const SettingsPage = ({ style }) => {
     return (
         <div className='settings-page-container'>
             <h1 className='settings-page-header' style={{ borderColor: style.accent_1 }}>Settings</h1>
-            <div className='create-and-test-container'>
+            <div className='set-and-test-container'>
                 <div
                     className='settings-actions-container'
                     style={{ borderColor: style.accent_3, backgroundColor: style.background_color }}
