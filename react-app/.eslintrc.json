@@ -21,6 +21,6 @@
         "react/jsx-indent-props": ["error", 4], //? I prefer four space indents for this project
         "react/react-in-jsx-scope": "off", //? React doesn't need to be explicitly imported everywhere
         "react/prop-types": "off", //? type checking done manually
-        "spaced-comment": ["error", "always", { "markers": ["$", "*", "?", "!"] }]
+        "spaced-comment": ["error", "always", { "markers": ["$", "*", "?", "!"] }] //? allows special comment markers to immediately trail comments
     }
 }
