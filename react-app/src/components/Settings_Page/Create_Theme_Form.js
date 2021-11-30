@@ -121,6 +121,7 @@ const CreateThemeForm = ({ style }) => {
                             icon='sync'
                             onClick={(e) => resetHandler(e)}
                             style={{
+                                backgroundColor: style.background_color,
                                 color: style.font_color,
                                 fontFamily: style.font_family,
                                 fontSize: style.font_size,
@@ -138,6 +139,7 @@ const CreateThemeForm = ({ style }) => {
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}
                                 style={{
+                                    backgroundColor: style.background_color,
                                     color: style.font_color,
                                     fontFamily: style.font_family,
                                     fontSize: style.font_size,

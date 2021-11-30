@@ -210,7 +210,10 @@ const EditThemeForm = ({ style }) => {
                         title='Delete Theme'
                         icon='trash-alt'
                         onClick={(e) => deleteThemeHandler(e, setting.id)}
-                        style={{ color: setting.font_color }}
+                        style={{
+                            backgroundColor: setting.background_color,
+                            color: setting.font_color,
+                        }}
                     />
                     <FontAwesomeIcon
                         id={`cancel-btn-${setting.id}`}
@@ -220,14 +223,20 @@ const EditThemeForm = ({ style }) => {
                         type='Cancel Changes'
                         icon='window-close'
                         onClick={() => resetHandler(setting.id)}
-                        style={{ color: setting.font_color }}
+                        style={{
+                            backgroundColor: setting.background_color,
+                            color: setting.font_color,
+                        }}
                     />
                     <FontAwesomeIcon
                         alt='Copy Theme Data'
                         title='Copy Theme Data'
                         icon='copy'
                         onClick={() => copyThemeData(setting.id)}
-                        style={{ color: setting.font_color }}
+                        style={{
+                            backgroundColor: setting.background_color,
+                            color: setting.font_color,
+                        }}
                     />
                     {user.active_theme !== setting.id
                         && <FontAwesomeIcon
@@ -235,7 +244,10 @@ const EditThemeForm = ({ style }) => {
                             title='Unselected Theme'
                             icon='circle'
                             onClick={() => updateActiveTheme(setting.id, 'active_theme')}
-                            style={{ color: setting.font_color }}
+                            style={{
+                                backgroundColor: setting.background_color,
+                                color: setting.font_color,
+                            }}
                         />
                     }
                     {user.active_theme === setting.id
@@ -244,7 +256,10 @@ const EditThemeForm = ({ style }) => {
                             title='Selected Theme'
                             icon='check-circle'
                             onClick={() => updateActiveTheme(setting.id, 'active_theme')}
-                            style={{ color: setting.font_color }}
+                            style={{
+                                backgroundColor: setting.background_color,
+                                color: setting.font_color,
+                            }}
                         />
                     }
                     <button
@@ -258,7 +273,10 @@ const EditThemeForm = ({ style }) => {
                             alt='Unlock Theme'
                             title='Unlock Theme'
                             icon='lock'
-                            style={{ color: setting.font_color }}
+                            style={{
+                                backgroundColor: setting.background_color,
+                                color: setting.font_color,
+                            }}
                         />
                         <FontAwesomeIcon
                             id={`lock-open-${setting.id}`}
@@ -266,7 +284,10 @@ const EditThemeForm = ({ style }) => {
                             alt='Lock Theme'
                             title='Lock Theme'
                             icon='lock-open'
-                            style={{ color: setting.font_color }}
+                            style={{
+                                backgroundColor: setting.background_color,
+                                color: setting.font_color,
+                            }}
                         />
                     </button>
                 </legend>

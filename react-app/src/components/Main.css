@@ -6,7 +6,7 @@
     scrollbar-width: none; /*$ Firefox $*/
 }
 
-*:disabled { cursor: not-allowed }
+input:disabled:active, select:disabled:active { cursor: not-allowed }
 
 *::-webkit-scrollbar { display: none }
 
@@ -18,7 +18,7 @@ border: none;
 border-radius: 3px;
 }
 
-[data-icon] { border-radius: 3px }
+[data-icon] { border-radius: 5px }
 
 img { user-select: none }
 
@@ -52,7 +52,7 @@ button:hover {
 }
 
 input:hover, select:hover {
-    box-shadow: inset 0 0 5px 1px rgb(100, 99, 99);
+    box-shadow: inset 0 0 3px 1px rgb(100, 99, 99);
 }
 
 input[type='password']:invalid,
@@ -121,7 +121,7 @@ h1, label { user-select: none }
 
 .themes-container {
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 /*=================================*/
 /*$=======Search Containers=======$*/

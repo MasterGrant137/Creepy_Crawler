@@ -76,9 +76,8 @@
 /*=================================*/
 .editor-form-1 {
     border-radius: 10px;
-    margin: 5px;
     min-width: 300px;
-    padding: 0;
+    padding: 0 auto;
     position: relative;
 }
 
@@ -91,8 +90,9 @@
     border-radius: 10px;
     border-style: solid;
     flex-direction: column;
-    gap: 1%;
+    gap: 0.8%;
     height: 100%;
+    overflow-y: scroll;
 }
 
 .ef1-icons-legend {
