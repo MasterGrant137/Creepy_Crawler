@@ -4,7 +4,6 @@ from flask import Blueprint, request
 from app.models import User, db
 from app.forms import LoginForm, SignUpForm
 from flask_login import current_user, login_user, logout_user
-from flask.helpers import make_response
 
 auth_routes = Blueprint('auth', __name__)
 
@@ -21,18 +20,14 @@ def authenticateLogin():
     """Authenticate a user."""
     if current_user.is_authenticated:
         return current_user.to_dict()
-    error_response = make_response({'errors': ['Unauthorized']})
-    error_response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
-    return error_response
+    return {'errors': ['Unauthorized']}
 
 @auth_routes.route('/signup')
 def authenticateSignup():
     """Authenticate a user."""
     if current_user.is_authenticated:
         return current_user.to_dict()
-    error_response = make_response({'errors': ['Unauthorized']})
-    error_response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
-    return error_response
+    return {'errors': ['Unauthorized']}
 
 @auth_routes.route('/login', methods=['POST'])
 def login():

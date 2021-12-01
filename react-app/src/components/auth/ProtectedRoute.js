@@ -5,9 +5,13 @@ import '../Auth.css';
 
 const ProtectedRoute = (props) => {
     const user = useSelector((state) => state.session.user);
+    let isUser;
+    if (user && !user.errors) isUser = true;
+    else isUser = false;
+
     return (
         <Route {...props}>
-            {(user) ? props.children : <Redirect to='/login' />}
+            {(isUser) ? props.children : <Redirect to='/auth/login' />}
         </Route>
     );
 };

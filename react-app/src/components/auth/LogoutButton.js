@@ -8,9 +8,10 @@ import '../Auth.css';
 const LogoutButton = ({ style }) => {
     const history = useHistory();
     const dispatch = useDispatch();
+
     const onLogout = async () => {
         await dispatch(logout());
-        history.push('/api/auth/login');
+        history.push('/auth/login');
         window.location.reload();
     };
 

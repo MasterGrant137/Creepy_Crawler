@@ -17,16 +17,6 @@ const SearchPage = ({ style }) => {
     if (user && !user.errors) isUser = true;
     else isUser = false;
 
-    window.onbeforeunload = (e) => {
-        e.returnValue = '';
-        sessionStorage.setItem('refresh', 'true');
-    };
-
-    if (sessionStorage.refresh === 'true') {
-        history.push('/api/auth/signup');
-        sessionStorage.refresh = 'false';
-    }
-
     const searchHandler = async (e) => {
         e.preventDefault();
 
@@ -39,14 +29,14 @@ const SearchPage = ({ style }) => {
             updatedAt: new Date().toString(),
             user,
         }));
-        history.push('/api/search/results/');
+        history.push('/search/results/');
         setLoading(false);
     };
 
     useEffect(() => {
         if (isUser) dispatch(readUserSettings());
         return null;
-    }, [dispatch]);
+    }, [dispatch, user]);
 
     if (loading) {
         return (<FontAwesomeIcon
