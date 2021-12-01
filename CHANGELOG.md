@@ -1,3 +1,8 @@
+#### Dec 1, 2021
++ On every page’s initial DOM load, favicon is present.
++ Big style enhancements to settings page. This includes changes in icon placement and element responsiveness alongside other optimizations to UX.
++ Rudimentary modal implemented, activated when profile media is clicked.
+---
 #### Nov 23, 2021
 + Quelled same-device login vulnerability in state.
 + Added message for user when no results are returned by crawler.
