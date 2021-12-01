@@ -1,7 +1,8 @@
 .modal-styles {
-    left: 50%;
+    right: 5%;
     position: fixed;
-    top: 50%;
+    top: 5%;
+    z-index: 10;
 }
 
 .modal-overlay {

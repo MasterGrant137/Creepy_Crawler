@@ -42,7 +42,7 @@
     width: 100%;
 }
 
-.sf2-fieldset > legend * { margin: 0 10px 0.5px 10px }
+.sf2-fieldset > legend * { margin: 0 10px }
 
 .sf2-fieldset > h2 { 
     border-bottom: 2px solid;

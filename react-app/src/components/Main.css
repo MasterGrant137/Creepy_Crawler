@@ -13,9 +13,9 @@ input:disabled:active, select:disabled:active { cursor: not-allowed }
 [data-icon='copy'] { cursor: copy }
 
 button {
-background: none;
-border: none;
-border-radius: 3px;
+    background: none;
+    border: none;
+    border-radius: 3px;
 }
 
 [data-icon] { border-radius: 5px }
