@@ -119,7 +119,7 @@ function App() {
                 <ProtectedRoute path='/search/history/' exact>
                     <HistoryPage style={siteTheme} />
                 </ProtectedRoute>
-                <Route path='/search/results/'>
+                <Route path='/search/results/' exact>
                     <SearchResultsPage style={siteTheme} />
                 </Route>
                 <Route path='/' exact>

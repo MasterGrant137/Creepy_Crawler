@@ -8,6 +8,7 @@ import '../Auth.css';
 const LogoutButton = ({ style }) => {
     const history = useHistory();
     const dispatch = useDispatch();
+
     const onLogout = async () => {
         await dispatch(logout());
         history.push('/auth/login');

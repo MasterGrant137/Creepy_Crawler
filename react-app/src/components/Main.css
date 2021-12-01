@@ -6,7 +6,7 @@
     scrollbar-width: none; /*$ Firefox $*/
 }
 
-*:disabled { cursor: not-allowed }
+input:disabled:active, select:disabled:active { cursor: not-allowed }
 
 *::-webkit-scrollbar { display: none }
 
@@ -18,13 +18,11 @@ border: none;
 border-radius: 3px;
 }
 
-[data-icon] { border-radius: 3px }
+[data-icon] { border-radius: 5px }
 
 img { user-select: none }
 
-input:not([type='search']), select {
-    text-align: center;
-}
+input:not([type='search']), select { text-align: center; }
 
 input[type='file'] {
     height: fit-content;
@@ -52,7 +50,7 @@ button:hover {
 }
 
 input:hover, select:hover {
-    box-shadow: inset 0 0 5px 1px rgb(100, 99, 99);
+    box-shadow: inset 0 0 3px 1px rgb(100, 99, 99);
 }
 
 input[type='password']:invalid,
@@ -72,9 +70,7 @@ h1, label { user-select: none }
 /*=================================*/
 /*$=======Settings Containers=====$*/
 /*=================================*/
-.settings-page-container {
-    text-align: center;
-}
+.settings-page-container { text-align: center; }
 
 .settings-page-container h2,
 .settings-actions-container input {
@@ -88,23 +84,22 @@ h1, label { user-select: none }
     height: fit-content;
 }
 
-.settings-actions-container label {
-    border-bottom: 2px solid;
-}
+.settings-actions-container label { border-bottom: 2px solid; }
 
-.create-and-test-container {
+.set-and-test-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 1.5%;
     overflow-x: scroll;
 }
 
-.create-and-test-container h2 { margin-bottom: 0 }
+.set-and-test-container > * { margin: 0 1% }
+
+.set-and-test-container h2 { margin-bottom: 0 }
 
 .create-theme-container {
-    overflow-y: auto;
+    min-width: 800px;
     position: relative;
-    width: 800px;
 }
 
 .theme-tester-container {
@@ -116,12 +111,11 @@ h1, label { user-select: none }
     width: 30%;
     overflow-wrap: break-word;
     overflow-y: scroll;
-    padding-top: 10px;
 }
 
 .themes-container {
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 /*=================================*/
 /*$=======Search Containers=======$*/
@@ -208,7 +202,7 @@ nav [data-icon] {
 /*=================================*/
 /*$=========Conditional===========$*/
 /*=================================*/
-* [data-sf2='not-allowed'], .not-allowed { cursor: not-allowed }
+* [data-sf2='not-allowed'] { cursor: not-allowed }
 
 .copy { cursor: copy }
 

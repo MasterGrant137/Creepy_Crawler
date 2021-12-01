@@ -12,15 +12,15 @@
     "rules": {
         "default-param-last": "off", //? React reducer functional with "action" param last
         "global-require": 0, //? stops "require() is not defined" error
-        "indent": ["error", 4],
+        "indent": ["error", 4], //? I prefer four space indents for this project
         "no-alert": "off", //? alert used when pre-validation subverted
         "no-param-reassign": 0, //? param reassigned when iterating through DOM element children
         "no-underscore-dangle": "off", //? Redux store uses dangling underscore for configuration
         "no-unused-expressions": ["error", { "allowTernary": true }], //? ternary reassignment used
-        "react/jsx-indent": ["error", 4],
-        "react/jsx-indent-props": ["error", 4],
+        "react/jsx-indent": ["error", 4], //? I prefer four space indents for this project
+        "react/jsx-indent-props": ["error", 4], //? I prefer four space indents for this project
         "react/react-in-jsx-scope": "off", //? React doesn't need to be explicitly imported everywhere
         "react/prop-types": "off", //? type checking done manually
-        "spaced-comment": ["error", "always", { "markers": ["$", "*", "?", "!"] }]
+        "spaced-comment": ["error", "always", { "markers": ["$", "*", "?", "!"] }] //? allows special comment markers to immediately trail comments
     }
 }

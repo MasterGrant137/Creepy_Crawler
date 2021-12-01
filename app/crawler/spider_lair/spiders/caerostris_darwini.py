@@ -7,22 +7,21 @@ Categories:
 + Videographic (video)
 """
 
-import json
 import scrapy
-
-# with open('app/crawler/query.json', 'r') as query_object:
-#     query = json.load(query_object)['query']
 
 class CDCommentarial(scrapy.Spider):
     """Commentarial spider."""
+
     name = 'caerostris_darwini_commentarial'
     start_urls = ['https://www.bbc.com/', 'https://www.espn.com/', 'http://https://www.ign.com',
                   'https://https://www.nih.gov', 'https://thebulletin.org/', 'http://https://en.m.wikipedia.org']
 
     def parse(self, response):
+        """Follow links."""
         yield from response.follow_all(css='a::attr(href)', callback=self.parse_data)
         
     def parse_data(self, response):
+        """Process data from followed links."""
         all_text = response.css('*:not(script):not(style)::text')
         try:
             for text in all_text:

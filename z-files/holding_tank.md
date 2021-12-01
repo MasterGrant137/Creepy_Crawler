@@ -62,10 +62,3 @@
 
     // return Component (if loaded)
     ```
-
-+ for accessing data about client history
-    ```js
-    const performanceEntries = performance.getEntriesByType('navigation');
-
-    performanceEntries.forEach((entry) => console.log(entry));
-    ```

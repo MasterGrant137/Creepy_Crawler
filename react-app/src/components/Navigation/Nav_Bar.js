@@ -2,7 +2,9 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { login } from '../../store/session';
+import { useModal } from '../context/Modal_Context';
 import LogoutButton from '../auth/LogoutButton';
+import ProfileModal from './Profile_Modal';
 import '../Main.css';
 import './Nav_Bar.css';
 
@@ -10,10 +12,16 @@ const NavBar = ({ style }) => {
     const history = useHistory();
     const user = useSelector((state) => state.session.user);
     const dispatch = useDispatch();
+    const { toggleModal, setModalContent } = useModal();
 
     let isUser;
     if (user && !user.errors) isUser = true;
     else isUser = false;
+
+    const openProfileModal = () => {
+        setModalContent(<ProfileModal style={style} />);
+        toggleModal();
+    };
 
     const navHandler = async (destination) => {
         switch (destination) {
@@ -75,7 +83,15 @@ const NavBar = ({ style }) => {
                     onClick={() => navHandler('/settings/')}
                 />
                 }
-                {isUser && <img className='profile-media-small' src={user.profile_media} alt='User' title='User' />}
+                {isUser
+                && <img
+                    className='profile-media-small'
+                    src={user.profile_media}
+                    alt='User'
+                    title='User'
+                    onClick={openProfileModal}
+                />
+                }
                 {!isUser
                 && <FontAwesomeIcon
                     alt='Log In'
