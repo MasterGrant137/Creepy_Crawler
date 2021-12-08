@@ -8,11 +8,13 @@
         "node": true
     },
     "parser": "babel-eslint",
-    "plugins": ["react"],
+    "plugins": ["jsx-a11y", "react"],
     "rules": {
         "default-param-last": "off", //? React reducer functional with "action" param last
         "global-require": 0, //? stops "require() is not defined" error
         "indent": ["error", 4], //? I prefer four space indents for this project
+        "jsx-a11y/alt-text": "warn", //? assures ARIA alt text is present
+        "jsx-a11y/aria-role": "warn", //? assures ARIA rules are valid
         "no-alert": "off", //? alert used when pre-validation subverted
         "no-param-reassign": 0, //? param reassigned when iterating through DOM element children
         "no-underscore-dangle": "off", //? Redux store uses dangling underscore for configuration
