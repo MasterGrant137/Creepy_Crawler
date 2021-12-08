@@ -38,7 +38,7 @@ const NavBar = ({ style }) => {
             <ul style={{ color: style.accent_2 }}>
                 <a
                     href='https://github.com/MasterGrant137/Creepy_Crawler/wiki'
-                    target="_blank"
+                    target='_blank'
                     rel='noopener noreferrer'
                 >
                     <FontAwesomeIcon
@@ -50,7 +50,7 @@ const NavBar = ({ style }) => {
                 </a>
                 <a
                     href='https://www.linkedin.com/in/alejandro-c-grant'
-                    target="_blank"
+                    target='_blank'
                     rel='noopener noreferrer'
                 >
                     <FontAwesomeIcon

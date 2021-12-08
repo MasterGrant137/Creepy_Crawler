@@ -39,7 +39,7 @@ const SearchResultsPage = ({ style }) => {
         >
             <a
                 href={result[0]}
-                target="_blank"
+                target='_blank'
                 rel='noopener noreferrer'
                 onClick={(e) => visitHandler(e)}
                 style={{
