@@ -13,8 +13,8 @@ class CDCommentarial(scrapy.Spider):
     """Commentarial spider."""
 
     name = 'caerostris_darwini_commentarial'
-    start_urls = ['https://www.bbc.com/', 'https://www.espn.com/', 'http://https://www.ign.com',
-                  'https://https://www.nih.gov', 'https://thebulletin.org/', 'http://https://en.m.wikipedia.org']
+    start_urls = ['https://www.bbc.com/', 'https://www.espn.com/', 'https://www.ign.com',
+                  'https://www.nih.gov', 'https://thebulletin.org/', 'https://en.m.wikipedia.org']
 
     def parse(self, response):
         """Follow links."""
