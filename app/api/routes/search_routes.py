@@ -82,7 +82,9 @@ def add_search_entry():
 def scrape_with_crochet(query):
     """Connect Flask with Scrapy asynchronously."""
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    eventual = crawl_runner.crawl(caerostris_darwini.CDCommentarial, query=query)
+    crawl_runner.crawl(caerostris_darwini.CDCommentarial, query=query)
+    crawl_runner.crawl(caerostris_darwini.CDEncyclopedic, query=query)
+    eventual = crawl_runner.join()
     return eventual
 
 def _crawler_result(item, response, spider):
