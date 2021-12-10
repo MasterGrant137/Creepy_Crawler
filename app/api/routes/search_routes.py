@@ -88,6 +88,7 @@ def scrape_with_crochet(query):
 
 def _crawler_result(item, response, spider):
     """Typecast each element of crawler's yield into dictionary and append to list."""
+    # print(spider)
     output_data.append(dict(item))
 
 @search_routes.route('/history/visits/', methods=['POST'])
