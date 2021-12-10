@@ -22,7 +22,6 @@ from flask import Blueprint, request
 from app.models import db, History
 from app.forms import SearchForm
 from flask_login import current_user, login_required
-from flask.helpers import make_response
 
 output_data = []
 crawl_runner = CrawlerRunner()
@@ -80,11 +79,16 @@ def add_search_entry():
 
 @crochet.wait_for(timeout=60.0)
 def scrape_with_crochet(query):
+    """Connect Flask with Scrapy asynchronously."""
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    eventual = crawl_runner.crawl(caerostris_darwini.CDCommentarial, query=query)
+    spiders = [caerostris_darwini.CDCommentarial, caerostris_darwini.CDEncyclopedic]
+    [crawl_runner.crawl(spider, query=query) for spider in spiders]
+    eventual = crawl_runner.join()
     return eventual
 
 def _crawler_result(item, response, spider):
+    """Typecast each element of crawler's yield into dictionary and append to list."""
+    # print(spider)
     output_data.append(dict(item))
 
 @search_routes.route('/history/visits/', methods=['POST'])
@@ -122,6 +126,7 @@ def add_visit_entry():
 
 @search_routes.route('/results/')
 def read_results():
+    """Get all the crawl results."""
     response = {'results': [[result['url'], result['text']] for result in output_data]}
     output_data.clear()
     return response
