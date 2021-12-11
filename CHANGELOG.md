@@ -1,3 +1,6 @@
+#### Dec 10, 2021
++ Search engine optimizations: addressed misformated seed urls, distributed crawling across two spiders.
+---
 #### Dec 1, 2021
 + On every page’s initial DOM load, favicon is present.
 + Big style enhancements to settings page. This includes changes in icon placement and element responsiveness alongside other optimizations to UX.
