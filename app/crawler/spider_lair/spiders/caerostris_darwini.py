@@ -8,7 +8,7 @@ Categories:
 """
 
 import scrapy
-from scrapy.exceptions import CloseSpider
+# from scrapy.exceptions import CloseSpider
 
 class CDCommentarial(scrapy.Spider):
     """Commentarial spider."""
@@ -22,22 +22,18 @@ class CDCommentarial(scrapy.Spider):
         """Follow links."""
         yield from response.follow_all(css='a::attr(href)', callback=self.parse_data)
         
+        
     def parse_data(self, response):
         """Process data from followed links."""
         all_text = response.css('*:not(script):not(style)::text')
         try:
             for text in all_text:
-                print(self.count)
-                if self.query in text.get() and self.count <= self.COUNT_MAX:
-                # if self.query in text.get():
+                print(response)
+                if self.query in text.get():
                     yield { 'url': response.request.url, 'text': text.get() }
-                    self.count += 1
-                    print(self.count)
-                elif self.count > self.COUNT_MAX:
-                    CloseSpider()
+                    # CloseSpider()
         except:
             print('End of the line error.')
-            self.closed()
 
 class CDEncyclopedic(scrapy.Spider):
     """Encyclopedic spider."""
@@ -56,12 +52,8 @@ class CDEncyclopedic(scrapy.Spider):
         all_text = response.css('*:not(script):not(style)::text')
         try:
             for text in all_text:
-                if self.query in text.get() and self.count <= self.COUNT_MAX:
-                # if self.query in text.get():
+                if self.query in text.get():
                     yield { 'url': response.request.url, 'text': text.get() }
-                    self.count += 1
-                    print(self.count)
-                elif self.count > self.COUNT_MAX:
-                    CloseSpider()
+                    # CloseSpider()
         except:
             print('End of the line error.')
