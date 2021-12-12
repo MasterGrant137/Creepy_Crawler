@@ -8,22 +8,15 @@ Categories:
 """
 
 import scrapy
-# from scrapy import signals
+from scrapy.exceptions import CloseSpider
 
 class CDCommentarial(scrapy.Spider):
     """Commentarial spider."""
 
     name = 'caerostris_darwini_commentarial'
     start_urls = ['https://bbc.com/', 'https://espn.com/', 'https://ign.com/']
-
-    # def from_crawler(cls, crawler):
-        # """Close spider when time conditions are met."""
-        # item_count = crawler.settings.getInt('ITEM_COUNT')
-
-        # ext = cls(item_count)
-        # crawler.signals.connect(ext.spider_opened, signal=signals.spider_opened)
-        # crawler.signals.connect(ext.spider_closed, signal=signals.spider_closed)
-        # crawler.signals.connect(ext.spider.timeout, signal=signals.timeout)
+    COUNT_MAX = 5
+    count = 0
 
     def parse(self, response):
         """Follow links."""
@@ -31,22 +24,28 @@ class CDCommentarial(scrapy.Spider):
         
     def parse_data(self, response):
         """Process data from followed links."""
-        # self.items_scraped = 0
         all_text = response.css('*:not(script):not(style)::text')
         try:
             for text in all_text:
-                if (self.query in text.get()):
+                print(self.count)
+                if self.query in text.get() and self.count <= self.COUNT_MAX:
+                # if self.query in text.get():
                     yield { 'url': response.request.url, 'text': text.get() }
-                    # self.items_scraped += 1
-                    # print(self.items_scraped)
+                    self.count += 1
+                    print(self.count)
+                elif self.count > self.COUNT_MAX:
+                    CloseSpider()
         except:
             print('End of the line error.')
+            self.closed()
 
 class CDEncyclopedic(scrapy.Spider):
     """Encyclopedic spider."""
 
     name = 'caerostris_darwini_encyclopedic'
     start_urls = ['https://en.m.wikipedia.org/', 'https://nih.gov/', 'https://thebulletin.org/']
+    COUNT_MAX = 5
+    count = 0
 
     def parse(self, response):
         """Follow links."""
@@ -57,7 +56,12 @@ class CDEncyclopedic(scrapy.Spider):
         all_text = response.css('*:not(script):not(style)::text')
         try:
             for text in all_text:
-                if (self.query in text.get()):
+                if self.query in text.get() and self.count <= self.COUNT_MAX:
+                # if self.query in text.get():
                     yield { 'url': response.request.url, 'text': text.get() }
+                    self.count += 1
+                    print(self.count)
+                elif self.count > self.COUNT_MAX:
+                    CloseSpider()
         except:
             print('End of the line error.')
