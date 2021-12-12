@@ -68,21 +68,28 @@ class CDBroadCrawler(scrapy.Spider):
 
     def parse(self, response):
         """Follow links."""
-        link_frontier = response.css('a::attr(href)')[1]
+        link_frontier = response.css('a::attr(href)')
         print('frontier', link_frontier)
         for link in link_frontier:
             print('curr link', link)
-            if link is not None:
-                link = response.urljoin(link)
-                yield scrapy.Request(link, callback=self.parse_data)
-        
-    def parse_data(self, response):
-        """Process data from followed links."""
+            # if link is not None:
+                # link = response.urljoin(link)
+            yield response.follow(link, callback=self.parse)
+
         all_text = response.css('*:not(script):not(style)::text')
-        try:
-            for text in all_text:
-                if self.query in text.get():
-                    yield { 'url': response.request.url, 'text': text.get() }
-                    # CloseSpider()
-        except:
-            print('End of the line error.')
+        for text in all_text:
+            if self.query in text.get():
+                yield { 'url': response.request.url, 'text': text.get() }
+            print('hit pseudo parse_data block')
+        
+    # def parse_data(self, response):
+    #     """Process data from followed links."""
+    #     all_text = response.css('*:not(script):not(style)::text')
+    #     try:
+    #         for text in all_text:
+    #             if self.query in text.get():
+    #                 yield { 'url': response.request.url, 'text': text.get() }
+    #                 self.parse()
+    #             self.parse()
+    #     except:
+    #         print('End of the line error.')
