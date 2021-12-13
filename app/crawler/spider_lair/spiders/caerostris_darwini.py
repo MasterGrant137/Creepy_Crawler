@@ -58,38 +58,45 @@ import scrapy
 #         except:
 #             print('End of the line error.')
 
+# class CDBroadCrawler(scrapy.Spider):
+#     """Broad crawling spider."""
+
+#     name = 'caerostris_darwini_broad_crawler'
+#     start_urls = ['https://en.m.wikipedia.org/']
+#     COUNT_MAX = 5
+#     count = 0
+
+#     def parse(self, response):
+#         """Follow links."""
+#         link_frontier = response.css('a::attr(href)')
+#         # print('frontier', link_frontier)
+#         for link in link_frontier:
+#             print('curr link', link)
+#             yield response.follow(link, callback=self.parse)
+
+#         all_text = response.css('*:not(script):not(style)::text')
+#         for text in all_text:
+#             if self.query in text.get():
+#                 yield { 'url': response.request.url, 'text': text.get() }
+#                 print('hit pseudo parse_data block')
+
 class CDBroadCrawler(scrapy.Spider):
     """Broad crawling spider."""
 
     name = 'caerostris_darwini_broad_crawler'
-    start_urls = ['https://en.m.wikipedia.org/']
+    start_urls = ['https://en.m.wikipedia.org/', 'https://nih.gov/', 'https://thebulletin.org/']
     COUNT_MAX = 5
     count = 0
 
     def parse(self, response):
         """Follow links."""
-        link_frontier = response.css('a::attr(href)')
-        print('frontier', link_frontier)
-        for link in link_frontier:
-            print('curr link', link)
-            # if link is not None:
-                # link = response.urljoin(link)
-            yield response.follow(link, callback=self.parse)
-
+        yield from response.follow_all(css='a::attr(href)', callback=self.parse_data)
+    
+    def parse_data(self, response):
+        """Process data from followed links."""
         all_text = response.css('*:not(script):not(style)::text')
         for text in all_text:
             if self.query in text.get():
                 yield { 'url': response.request.url, 'text': text.get() }
-            print('hit pseudo parse_data block')
-        
-    # def parse_data(self, response):
-    #     """Process data from followed links."""
-    #     all_text = response.css('*:not(script):not(style)::text')
-    #     try:
-    #         for text in all_text:
-    #             if self.query in text.get():
-    #                 yield { 'url': response.request.url, 'text': text.get() }
-    #                 self.parse()
-    #             self.parse()
-    #     except:
-    #         print('End of the line error.')
+                print('hit pseudo parse_data block')
+        self.parse(self, response)
