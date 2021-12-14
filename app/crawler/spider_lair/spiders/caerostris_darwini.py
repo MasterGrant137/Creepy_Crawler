@@ -25,8 +25,8 @@ import scrapy
         
 #     def parse_data(self, response):
 #         """Process data from followed links."""
-#         all_text = response.css('*:not(script):not(style)::text')
 #         try:
+    #         all_text = response.css('*:not(script):not(style)::text')
 #             for text in all_text:
 #                 print(response)
 #                 if self.query in text.get():
@@ -49,8 +49,8 @@ import scrapy
         
 #     def parse_data(self, response):
 #         """Process data from followed links."""
-#         all_text = response.css('*:not(script):not(style)::text')
 #         try:
+    #         all_text = response.css('*:not(script):not(style)::text')
 #             for text in all_text:
 #                 if self.query in text.get():
 #                     yield { 'url': response.request.url, 'text': text.get() }
@@ -78,25 +78,23 @@ import scrapy
 #         for text in all_text:
 #             if self.query in text.get():
 #                 yield { 'url': response.request.url, 'text': text.get() }
-#                 print('hit pseudo parse_data block')
+#                 print({ 'url': response.request.url })
 
 class CDBroadCrawler(scrapy.Spider):
     """Broad crawling spider."""
 
     name = 'caerostris_darwini_broad_crawler'
     start_urls = ['https://en.m.wikipedia.org/', 'https://nih.gov/', 'https://thebulletin.org/']
-    COUNT_MAX = 5
-    count = 0
 
     def parse(self, response):
         """Follow links."""
-        yield from response.follow_all(css='a::attr(href)', callback=self.parse_data)
-    
-    def parse_data(self, response):
-        """Process data from followed links."""
-        all_text = response.css('*:not(script):not(style)::text')
-        for text in all_text:
-            if self.query in text.get():
-                yield { 'url': response.request.url, 'text': text.get() }
-                print('hit pseudo parse_data block')
-        self.parse(self, response)
+        try:
+            all_text = response.css('*:not(script):not(style)::text')
+            for text in all_text:
+                if self.query in text.get():
+                    yield { 'url': response.request.url, 'text': text.get() }
+                    print(response.request.url)
+        except:
+            print('End of the line error.')
+
+        yield from response.follow_all(css='a::attr(href)', callback=self.parse)
