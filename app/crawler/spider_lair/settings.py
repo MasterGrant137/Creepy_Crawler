@@ -12,6 +12,8 @@ BOT_NAME = 'crawler'
 SPIDER_MODULES = ['spider_lair.spiders']
 NEWSPIDER_MODULE = 'spider_lair.spiders'
 
+# My custom settings
+CLOSERSPIDER_TIMEOUT = 10
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'authorcgrant@gmail.com (https://creepy-crawler-1.herokuapp.com/)'

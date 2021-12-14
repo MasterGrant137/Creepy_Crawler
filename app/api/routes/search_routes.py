@@ -77,12 +77,12 @@ def add_search_entry():
             return { 'message': ["Log in or sign up to record search and visit history."] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
-@crochet.wait_for(timeout=60.0)
+@crochet.wait_for(timeout=200.0)
 def scrape_with_crochet(query):
     """Connect Flask with Scrapy asynchronously."""
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
     # spiders = [caerostris_darwini.CDCommentarial, caerostris_darwini.CDEncyclopedic]
-    spiders = [caerostris_darwini.CDBroadCrawler]
+    spiders = [caerostris_darwini.CDBroadCrawler1]
     [crawl_runner.crawl(spider, query=query) for spider in spiders]
     eventual = crawl_runner.join()
     return eventual

@@ -8,6 +8,8 @@ Categories:
 """
 
 import scrapy
+from scrapy import signals
+from datetime import datetime
 # from scrapy.exceptions import CloseSpider
 
 # class CDCommentarial(scrapy.Spider):
@@ -80,11 +82,23 @@ import scrapy
 #                 yield { 'url': response.request.url, 'text': text.get() }
 #                 print({ 'url': response.request.url })
 
-class CDBroadCrawler(scrapy.Spider):
+class CDBroadCrawler1(scrapy.Spider):
     """Broad crawling spider."""
 
-    name = 'caerostris_darwini_broad_crawler'
+    name = 'caerostris_darwini_broad_crawler_1'
     start_urls = ['https://en.m.wikipedia.org/', 'https://nih.gov/', 'https://thebulletin.org/']
+
+    @classmethod
+    def from_crawler(cls, crawler, *args, **kwargs):
+        """Catch spider signals for later use."""
+        print('from_crawler is hit')
+        spider = super(CDBroadCrawler1, cls).from_crawler(crawler, *args, **kwargs)
+        crawler.signals.connect(spider.spider_closed, signal=signals.spider_closed)
+        return spider
+
+    def spider_closed(self, spider):
+        """Convey spider signal information."""
+        print(self.crawler.stats.get_stats())
 
     def parse(self, response):
         """Follow links."""
@@ -93,8 +107,24 @@ class CDBroadCrawler(scrapy.Spider):
             for text in all_text:
                 if self.query in text.get():
                     yield { 'url': response.request.url, 'text': text.get() }
-                    print(response.request.url)
+                    # print(self.crawler.stats.get_stats())
+                    # print(self.crawler.stats.get('start_time') > )
         except:
             print('End of the line error.')
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+
+    #* For testing
+    # def parse(self, response):
+    #     """Follow links."""
+    #     yield from response.follow_all(css='a::attr(href)', callback=self.parse_data)
+        
+    # def parse_data(self, response):
+    #     """Process data from followed links."""
+    #     try:
+    #         all_text = response.css('*:not(script):not(style)::text')
+    #         for text in all_text:
+    #             if self.query in text.get():
+    #                 yield { 'url': response.request.url, 'text': text.get() }
+    #     except:
+    #         print('End of the line error.')
