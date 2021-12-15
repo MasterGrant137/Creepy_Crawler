@@ -9,8 +9,9 @@ Categories:
 
 import scrapy
 from scrapy import signals
-from datetime import datetime
-# from scrapy.exceptions import CloseSpider
+from scrapy.exceptions import CloseSpider
+from datetime import datetime, timezone
+import pytz
 
 # class CDCommentarial(scrapy.Spider):
 #     """Commentarial spider."""
@@ -107,8 +108,15 @@ class CDBroadCrawler1(scrapy.Spider):
             for text in all_text:
                 if self.query in text.get():
                     yield { 'url': response.request.url, 'text': text.get() }
-                    # print(self.crawler.stats.get_stats())
-                    # print(self.crawler.stats.get('start_time') > )
+
+            start_time = pytz.timezone('UTC').localize(self.crawler.stats.get_value('start_time'))
+            current_time = datetime.now(timezone.utc)
+            diff_in_sec = (current_time - start_time).total_seconds()
+            print(diff_in_sec)
+            # print(type(current_time), '-', type(start_time), '=', diff_in_sec, '>=?', self.crawler.settings['CLOSESPIDER_TIMEOUT'])
+            # print(current_time, '-', start_time, '>=?', self.crawler.settings['CLOSESPIDER_TIMEOUT'])
+            # if diff_in_sec >= self.settings['CLOSESPIDER_TIMEOUT']:
+            #     CloseSpider()
         except:
             print('End of the line error.')
 

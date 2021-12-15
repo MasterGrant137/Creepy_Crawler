@@ -31,6 +31,7 @@ faker = "*"
 requests = "*"
 scrapy = "*"
 crochet = "*"
+pytz = "*"
 
 [dev-packages]
 psycopg2-binary = "==2.8.6"
