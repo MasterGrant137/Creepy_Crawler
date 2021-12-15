@@ -89,6 +89,10 @@ class CDBroadCrawler1(scrapy.Spider):
     name = 'caerostris_darwini_broad_crawler_1'
     start_urls = ['https://en.m.wikipedia.org/', 'https://nih.gov/', 'https://thebulletin.org/']
 
+    custom_settings = {
+        'CLOSESPIDER_TIMEOUT': 10
+    }
+
     @classmethod
     def from_crawler(cls, crawler, *args, **kwargs):
         """Catch spider signals for later use."""
@@ -109,14 +113,16 @@ class CDBroadCrawler1(scrapy.Spider):
                 if self.query in text.get():
                     yield { 'url': response.request.url, 'text': text.get() }
 
-            start_time = pytz.timezone('UTC').localize(self.crawler.stats.get_value('start_time'))
-            current_time = datetime.now(timezone.utc)
-            diff_in_sec = (current_time - start_time).total_seconds()
-            print(diff_in_sec)
+            # start_time = pytz.timezone('UTC').localize(self.crawler.stats.get_value('start_time'))
+            # current_time = datetime.now(timezone.utc)
+            # diff_in_sec = (current_time - start_time).total_seconds()
+
+            # print(self.crawler.settings['CLOSESPIDER_TIMEOUT'])
             # print(type(current_time), '-', type(start_time), '=', diff_in_sec, '>=?', self.crawler.settings['CLOSESPIDER_TIMEOUT'])
             # print(current_time, '-', start_time, '>=?', self.crawler.settings['CLOSESPIDER_TIMEOUT'])
-            # if diff_in_sec >= self.settings['CLOSESPIDER_TIMEOUT']:
-            #     CloseSpider()
+            # if diff_in_sec >= 10:
+            #     print('this is where its hit')
+                # raise CloseSpider(reason='timeout')
         except:
             print('End of the line error.')
 
