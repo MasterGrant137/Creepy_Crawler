@@ -16,7 +16,6 @@ from scrapy import signals
 from scrapy.crawler import CrawlerRunner
 from scrapy.signalmanager import dispatcher
 from scrapy.utils.project import get_project_settings
-from scrapy.settings import Settings
 from app.crawler.spider_lair.spiders import caerostris_darwini
 
 import re
@@ -27,9 +26,13 @@ from app.forms import SearchForm
 from flask_login import current_user, login_required
 
 output_data = []
-crawl_runner = CrawlerRunner(get_project_settings())
-print(get_project_settings()['BOT_NAME'])
-print(Settings.get('BOT_NAME'))
+settings = get_project_settings()
+settings.update({
+    'CLOSESPIDER_TIMEOUT': 10
+})
+crawl_runner = CrawlerRunner(settings)
+# print(get_project_settings()['BOT_NAME'])
+# print(get_project_settings().attributes)
 search_routes = Blueprint('entries', __name__)
 
 def validation_errors_to_error_messages(validation_errors):
