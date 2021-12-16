@@ -8,13 +8,8 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 BOT_NAME = 'crawler'
-
 SPIDER_MODULES = ['spider_lair.spiders']
 NEWSPIDER_MODULE = 'spider_lair.spiders'
-
-# My custom settings
-CLOSESPIDER_TIMEOUT = 10
-
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'authorcgrant@gmail.com (https://creepy-crawler-1.herokuapp.com/)'
 
@@ -56,11 +51,17 @@ COOKIES_ENABLED = False
 #    'crawler.middlewares.CrawlerDownloaderMiddleware': 543,
 # }
 
+RANDOM_NEW_VARIABLE = 134
 # Enable or disable extensions
+# CLOSESPIDER_ENABLED = True
+CLOSESPIDER_TIMEOUT_ENABLED: True
+CLOSESPIDER_TIMEOUT: 10
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
-# EXTENSIONS = {
+EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
-# }
+    'scrapy.extensions.closespider.CloseSpider': 500
+}
+
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
