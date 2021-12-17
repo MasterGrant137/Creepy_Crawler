@@ -51,16 +51,11 @@ COOKIES_ENABLED = False
 #    'crawler.middlewares.CrawlerDownloaderMiddleware': 543,
 # }
 
-RANDOM_NEW_VARIABLE = 134
 # Enable or disable extensions
-# CLOSESPIDER_ENABLED = True
-CLOSESPIDER_TIMEOUT_ENABLED: True
-CLOSESPIDER_TIMEOUT: 10
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
-EXTENSIONS = {
+# EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
-    'scrapy.extensions.closespider.CloseSpider': 500
-}
+# }
 
 
 # Configure item pipelines

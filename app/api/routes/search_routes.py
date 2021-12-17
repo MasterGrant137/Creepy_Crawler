@@ -31,7 +31,7 @@ settings.update({
     'CLOSESPIDER_TIMEOUT': 10
 })
 crawl_runner = CrawlerRunner(settings)
-# print(get_project_settings()['BOT_NAME'])
+# print(get_project_settings()['SPIDER_MODULES'])
 # print(get_project_settings().attributes)
 search_routes = Blueprint('entries', __name__)
 
