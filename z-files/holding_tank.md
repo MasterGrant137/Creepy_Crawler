@@ -62,3 +62,19 @@
 
     // return Component (if loaded)
     ```
++ get stats when spider closes
+    ```py
+    class CDBroadCrawler1(scrapy.Spider):
+        ...
+        @classmethod
+        def from_crawler(cls, crawler, *args, **kwargs):
+            """Catch spider signals for later use."""
+            spider = super(CDBroadCrawler1, cls).from_crawler(crawler, *args, **kwargs)
+            crawler.signals.connect(spider.spider_closed, signal=signals.spider_closed)
+            return spider
+
+        def spider_closed(self, spider):
+            """Convey spider signal information."""
+            print(self.crawler.stats.get_stats())
+        ...
+    ```

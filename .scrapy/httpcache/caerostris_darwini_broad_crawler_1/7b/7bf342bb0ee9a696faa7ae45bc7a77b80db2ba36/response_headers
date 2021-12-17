@@ -1,0 +1,14 @@
+Content-Length: 228
+Server: nginx
+Date: Fri, 17 Dec 2021 20:10:24 GMT
+Content-Type: text/html; charset=iso-8859-1
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+Location: https://www.nih.gov/
+Cache-Control: max-age=1209600
+Expires: Mon, 27 Dec 2021 08:10:53 GMT
+X-Request-Id: v-312da80e-5bec-11ec-aaa4-cb5c03573cac
+Age: 388771
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 660519

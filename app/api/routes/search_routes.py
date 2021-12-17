@@ -19,6 +19,7 @@ from scrapy.utils.project import get_project_settings
 from app.crawler.spider_lair.spiders import caerostris_darwini
 
 import re
+import json
 from datetime import datetime
 from flask import Blueprint, request
 from app.models import db, History
@@ -27,12 +28,9 @@ from flask_login import current_user, login_required
 
 output_data = []
 settings = get_project_settings()
-settings.update({
-    'CLOSESPIDER_TIMEOUT': 10
-})
+settings_dict = json.load(open('app/api/routes/settings.json'))
+settings.update(settings_dict)
 crawl_runner = CrawlerRunner(settings)
-# print(get_project_settings()['SPIDER_MODULES'])
-# print(get_project_settings().attributes)
 search_routes = Blueprint('entries', __name__)
 
 def validation_errors_to_error_messages(validation_errors):

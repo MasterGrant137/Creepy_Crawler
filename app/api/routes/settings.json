@@ -1,10 +1,8 @@
 {
 "BOT_NAME": "crawler",
-"SPIDER_MODULES": ["spider_lair.spiders"],
-"NEWSPIDER_MODULE": "spider_lair.spiders",
 "USER_AGENT": "authorcgrant@gmail.com (https://creepy-crawler-1.herokuapp.com/)",
 "ROBOTSTXT_OBEY": true,
 "COOKIES_ENABLED": false,
-"CLOSESPIDER_TIMEOUT_ENABLED": true,
+"CLOSESPIDER_TIMEOUT": 10,
 "HTTPCACHE_ENABLED": true
 }
