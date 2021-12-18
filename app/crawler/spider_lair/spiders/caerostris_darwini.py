@@ -80,10 +80,10 @@ from scrapy import signals
 #                 yield { 'url': response.request.url, 'text': text.get() }
 #                 print({ 'url': response.request.url })
 
-class CDBroadCrawler1(scrapy.Spider):
+class BroadCrawler1(scrapy.Spider):
     """Broad crawling spider."""
 
-    name = 'caerostris_darwini_broad_crawler_1'
+    name = 'broad_crawler_1'
     start_urls = ['https://en.m.wikipedia.org/', 'https://nih.gov/', 'https://thebulletin.org/']
 
     def parse(self, response):
@@ -92,6 +92,38 @@ class CDBroadCrawler1(scrapy.Spider):
             all_text = response.css('*:not(script):not(style)::text')
             for text in all_text:
                 if self.query in text.get(): yield { 'url': response.request.url, 'text': text.get() }
-        except: print('End of the line error.')
+        except: print(f'End of the line error for {self.name}.')
+
+        yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+
+class BroadCrawler2(scrapy.Spider):
+    """Broad crawling spider."""
+
+    name = 'broad_crawler_2'
+    start_urls = ['https://nih.gov/']
+
+    def parse(self, response):
+        """Follow links."""
+        try:
+            all_text = response.css('*:not(script):not(style)::text')
+            for text in all_text:
+                if self.query in text.get(): yield { 'url': response.request.url, 'text': text.get() }
+        except: print(f'End of the line error for {self.name}.')
+
+        yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+
+class BroadCrawler3(scrapy.Spider):
+    """Broad crawling spider."""
+
+    name = 'broad_crawler_3'
+    start_urls = ['https://thebulletin.org/']
+
+    def parse(self, response):
+        """Follow links."""
+        try:
+            all_text = response.css('*:not(script):not(style)::text')
+            for text in all_text:
+                if self.query in text.get(): yield { 'url': response.request.url, 'text': text.get() }
+        except: print(f'End of the line error for {self.name}.')
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)

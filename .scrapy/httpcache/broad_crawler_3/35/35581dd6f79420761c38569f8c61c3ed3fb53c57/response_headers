@@ -1,0 +1,23 @@
+Date: Sat, 18 Dec 2021 02:07:50 GMT
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+Link: <https://thebulletin.org/wp-json/>; rel="https://api.w.org/"
+Link: <https://thebulletin.org/wp-json/wp/v2/pages/88554>; rel="alternate"; type="application/json"
+Link: <https://thebulletin.org/?p=88554>; rel=shortlink
+Last-Modified: Fri, 17 Dec 2021 23:49:51 GMT
+Cache-Control: max-age=0
+Expires: Fri, 17 Dec 2021 23:49:50 GMT
+Vary: Accept-Encoding
+X-Varnish: 21094422 16744695
+Age: 8279
+Via: 1.1 varnish (Varnish/5.2)
+X-Cache: HIT
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3JfBz8Y1VwuhAF588CdlQgxVpa9d3kSTEgkC2fVTv%2FswFHYvAquHF7nXWte6i%2FLVuNLOaOajjH6R%2Bll7e3kKfoJ0a0yrwHYBsOzjUzEjx3eyzttpJn0lhENpvVA49kM6YA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+Cf-Ray: 6bf4d70659fb7ecb-LAX
+Content-Encoding: gzip

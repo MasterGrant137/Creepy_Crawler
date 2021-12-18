@@ -1,0 +1,24 @@
+Date: Sat, 18 Dec 2021 02:07:01 GMT
+Server: mw1351.eqiad.wmnet
+X-Content-Type-Options: nosniff
+X-Article-Id: 0
+X-Language: kk
+X-Site: wikipedia
+Cache-Control: s-maxage=3600, must-revalidate, max-age=0
+Last-Modified: Mon, 30 Sep 2019 21:40:32 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Encoding: gzip
+Vary: X-Subdomain, Accept-Encoding
+Age: 0
+X-Cache: cp4031 hit, cp4030 miss
+X-Cache-Status: hit-local
+Server-Timing: cache;desc="hit-local", host;desc="cp4030"
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Report-To: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+Nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=18-Dec-2021;Path=/;HttpOnly;secure;Expires=Wed, 19 Jan 2022 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=18-Dec-2021;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed, 19 Jan 2022 00:00:00 GMT
+Set-Cookie: GeoIP=US:CA:Indio:33.72:-116.22:v4; Path=/; secure; Domain=.wikipedia.org
+X-Client-Ip: 47.158.19.38
+Accept-Ranges: bytes

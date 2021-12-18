@@ -1,0 +1,21 @@
+Content-Length: 39305
+Content-Type: text/html; charset=utf-8
+Cache-Control: max-age=300
+X-Echo-Handler: Error404Handler
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Sat, 18 Dec 2021 02:08:00 GMT
+Age: 4
+Set-Cookie: DigitalRenovation=3true; expires=Fri, 18 Mar 2022 02:08:00 GMT; path=/ ;
+Set-Cookie: gnt_region=eyJzdGF0ZSI6IkNBIiwiY2l0eSI6IlBhbG0gU3ByaW5ncyIsInN0YXRlX2NvZGUiOiJDYWxpZm9ybmlhIiwibWFya2V0IjoiVGhlIERlc2VydCBTdW4iLCJkb21haW4iOiJkZXNlcnRzdW4uY29tIiwic2l0ZV9jb2RlIjoiUFBBUyIsImluX21hcmtldCI6dHJ1ZSwiaW5femlwIjp0cnVlfQ==; domain=.usatoday.com; path=/; secure; samesite=lax; max-age=21600;
+Set-Cookie: gnt_ub=91; domain=.usatoday.com; path=/; secure; samesite=lax; max-age=31536000;
+Set-Cookie: gnt_sb=19; domain=.usatoday.com; path=/; secure; samesite=lax; max-age=31536000;
+Set-Cookie: gnt_eid=control:19; domain=.usatoday.com; path=/; secure; samesite=lax; max-age=5184000;
+Gannett-Cam-Experience-Id: control:19
+Nel: {"report_to":"default","max_age":31557600,"include_subdomains":true,"success_fraction":0.005}
+Report-To: {"max_age":31557600,"include_subdomains":true,"endpoints":[{"url":"https://reporting-api.gannettinnovation.com"}]}
+X-Cache: HIT, MISS
+X-Timer: S1639793281.833627,VS0,VE61
+Vary: X-NavReskin,X-AbVariant,X-AbVCfg,X-AltUrl,Accept-Encoding,User-Agent
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=63072000

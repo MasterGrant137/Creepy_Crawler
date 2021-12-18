@@ -1,0 +1,9 @@
+Date: Sat, 18 Dec 2021 02:06:59 GMT
+Location: http://maint.tandfonline.com
+Cf-Cache-Status: EXPIRED
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15552000
+Server: cloudflare
+Cf-Ray: 6bf4d5c5595c7e26-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

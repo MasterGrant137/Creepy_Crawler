@@ -1,8 +1,10 @@
 {
-"BOT_NAME": "crawler",
-"USER_AGENT": "authorcgrant@gmail.com (https://creepy-crawler-1.herokuapp.com/)",
-"ROBOTSTXT_OBEY": true,
-"COOKIES_ENABLED": false,
-"CLOSESPIDER_TIMEOUT": 10,
-"HTTPCACHE_ENABLED": true
+    "AJAXCRAWL_ENABLED": true,
+    "BOT_NAME": "crawler",
+    "CLOSESPIDER_TIMEOUT": 10,
+    "COOKIES_ENABLED": false,
+    "CONCURRENT_REQUESTS": 100,
+    "HTTPCACHE_ENABLED": true,
+    "ROBOTSTXT_OBEY": true,
+    "USER_AGENT": "authorcgrant@gmail.com (https://creepy-crawler-1.herokuapp.com/)"
 }

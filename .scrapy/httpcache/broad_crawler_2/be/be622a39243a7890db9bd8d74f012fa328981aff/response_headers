@@ -1,0 +1,23 @@
+Content-Length: 16747
+Cache-Control: public, max-age=3600
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 18 Dec 2021 01:58:11 GMT
+Etag: "1639792692-1:dtagent10227211018092056DkxS"
+Vary: Cookie,Accept-Encoding
+Server: Microsoft-IIS/8.5
+X-Powered-By: PHP/7.3.33
+X-Powered-By: ASP.NET
+X-Drupal-Cache: HIT
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Link: <https://commonfund.nih.gov/>; rel="canonical",<https://commonfund.nih.gov/>; rel="shortlink"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Oneagent-Js-Injection: true
+X-Ruxit-Js-Agent: true
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="1425516097"
+Set-Cookie: dtCookie=v_4_srv_1_sn_60E7E125007BE01DCF66962DFA3979CD_perc_100000_ol_0_mul_1_app-3Aea388eff05c4c35d_1; Path=/; Domain=.nih.gov
+Date: Sat, 18 Dec 2021 02:07:00 GMT

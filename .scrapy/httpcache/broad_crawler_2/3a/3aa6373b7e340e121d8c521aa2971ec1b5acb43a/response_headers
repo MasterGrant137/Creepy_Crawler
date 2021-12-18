@@ -1,0 +1,28 @@
+Content-Length: 13201
+Accept-Ranges: bytes
+Age: 16838
+Cache-Control: public, max-age=21600
+Content-Encoding: gzip
+Content-Language: en
+Content-Security-Policy: default-src 'self'; script-src 'unsafe-inline' 'unsafe-eval' *.nih.gov *.googleapis.com *.govdelivery.com *.hatchbuck.com *.youtube.com *.here.com search.usa.gov *.jquery.com *.crazyegg.com *.addthis.com *.addthisedge.com cdn.jsdelivr.net *.google-analytics.com *.moatads.com *.newrelic.com bam.nr-data.net *.feedgrabbr.com *.recaptcha.net *.gstatic.com; style-src 'unsafe-inline' *.nih.gov search.usa.gov *.googleapis.com *.here.com cdn.jsdelivr.net *.feedgrabbr.com; img-src *.nih.gov *.google-analytics.com data:; frame-src *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; frame-ancestors *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; child-src *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; font-src *.nih.gov *.googleapis.com *.gstatic.com *.feedgrabbr.com; connect-src *.nih.gov *.crazyegg.com *.google-analytics.com *.addthis.com stats.g.doubleclick.net bam.nr-data.net; report-uri /report-csp-violation
+Content-Type: text/html; charset=utf-8
+Date: Sat, 18 Dec 2021 02:06:59 GMT
+Etag: "1639776378-1"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 17 Dec 2021 21:26:18 GMT
+Link: <https://www.nih.gov/news-events/news-releases>; rel="canonical",<https://www.nih.gov/taxonomy/term/36>; rel="shortlink"
+Permissions-Policy: interest-cohort=()
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+Vary: Cookie,Accept-Encoding
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 2364
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+X-Request-Id: v-f948c706-5f7f-11ec-b844-6fd52277aca0
+X-Ua-Compatible: IE=edge,chrome=IE6
+X-Xss-Protection: 1; mode=block

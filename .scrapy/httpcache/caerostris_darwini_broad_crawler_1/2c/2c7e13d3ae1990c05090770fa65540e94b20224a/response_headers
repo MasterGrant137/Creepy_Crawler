@@ -1,0 +1,25 @@
+Content-Length: 159
+Content-Type: text/plain; charset=utf-8
+Server: Apache/2.4.29 (Ubuntu)
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: frame-ancestors 'self' https://*.brightsites.co.uk;
+Cache-Tag: standard.co.uk,v1.5.9.0
+Cache-Control: public, max-age=2592000, s-maxage=2592000, stale-if-error=86400
+Etag: W/"172-dDPyGBN83szv0XL4qHtGXuuWWoA-gzip"
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Sat, 18 Dec 2021 00:03:38 GMT
+Age: 2572704
+Canary: 1
+Set-Cookie: gdpr=0 ; Path=/ ;
+Set-Cookie: Locale=US ; Path=/ ; Expires=Sat, 18 Dec 2021 01:03:38 GMT;
+Set-Cookie: esi-uuid=32e0f180-a5cd-4545-a8ed-8d6948b187e8 ; Path=/ ; Secure; HttpOnly; Expires=Sun, 18 Dec 2022 00:03:38 GMT
+Set-Cookie: esi-permutive-id=32e0f180-a5cd-4545-a8ed-8d6948b187e8; Path=/ ; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Served-By: cache-lhr7346-LHR, cache-bur17520-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1639785819.844993,VS0,VE1
+Vary: Accept-Encoding, Locale, loggedIn

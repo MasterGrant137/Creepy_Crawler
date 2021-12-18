@@ -1,0 +1,49 @@
+Server: nginx/1.19.10
+Date: Sat, 18 Dec 2021 00:03:41 GMT
+Content-Type: text/html; charset=utf-8
+X-Archive-Orig-Etag: W/"hash6001371719685591272"
+X-Archive-Orig-Expires: Fri, 07 Jul 2017 11:11:29 GMT
+X-Archive-Orig-Link: <https://assets.guim.co.uk/stylesheets/4208ded28e5452b3e37415e99b831b92/content.css>; rel=preload; as=style; nopush,<https://assets.guim.co.uk/polyfill.io/v2/polyfill.min.js?rum=0&features=es6,es7,default-3.6&flags=gated&callback=guardianPolyfilled>; rel=preload; as=script; nopush,<https://assets.guim.co.uk/javascripts/4f230f437714a8ceb66c/graun.standard.js>; rel=preload; as=script; nopush,<https://assets.guim.co.uk/javascripts/9d24dcf66ce77808060d/graun.commercial.js>; rel=preload; as=script; nopush
+X-Archive-Orig-X-Gu-Backend-App: article
+X-Archive-Orig-Via: 1.1 varnish
+X-Archive-Orig-Via: 1.1 varnish
+X-Archive-Orig-Fastly-Debug-Digest: 71608f2140678bba9639eacf8f6a26fb1e5a91875512edad5c4f3a80a389b04d
+X-Archive-Orig-Content-Length: 417633
+X-Archive-Orig-Accept-Ranges: bytes
+X-Archive-Orig-Date: Fri, 07 Jul 2017 11:10:30 GMT
+X-Archive-Orig-Age: 0
+X-Archive-Orig-Connection: close
+X-Archive-Orig-Set-Cookie: GU_mvt_id=305556; expires=Thu, 05 Oct 2017 11:10:30 GMT; path=/; domain=.theguardian.com
+X-Archive-Orig-Set-Cookie: GU_geo_continent=NA; path=/;
+X-Archive-Orig-X-Served-By: cache-lcy1146-LCY, cache-sjc3624-SJC
+X-Archive-Orig-X-Cache: MISS, MISS
+X-Archive-Orig-X-Cache-Hits: 0, 0
+X-Archive-Orig-X-Timer: S1499425830.084927,VS0,VE289
+X-Archive-Orig-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Archive-Orig-X-Frame-Options: SAMEORIGIN
+X-Archive-Orig-X-Xss-Protection: 1; mode=block
+X-Archive-Orig-X-Content-Type-Options: nosniff
+X-Archive-Orig-Content-Security-Policy: default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src https: data:; connect-src https: wss:; report-uri https://beacon.gu-web.net/csp-report
+X-Archive-Orig-X-Gu-Edition: us
+X-Archive-Orig-Cache-Control: max-age=60, stale-while-revalidate=6, stale-if-error=864000, private
+X-Archive-Orig-Vary: Accept-Encoding,User-Agent
+X-Archive-Orig-X-Gu-Platform: next-gen-router
+X-Archive-Guessed-Content-Type: text/html
+X-Archive-Guessed-Charset: utf-8
+Memento-Datetime: Fri, 07 Jul 2017 11:10:30 GMT
+Link: <https://www.theguardian.com/music/2006/jan/22/popandrock.davidbowie>; rel="original", <https://web.archive.org/web/timemap/link/https://www.theguardian.com/music/2006/jan/22/popandrock.davidbowie>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://www.theguardian.com/music/2006/jan/22/popandrock.davidbowie>; rel="timegate", <https://web.archive.org/web/20131002173136/http://www.theguardian.com/music/2006/jan/22/popandrock.davidbowie/>; rel="first memento"; datetime="Wed, 02 Oct 2013 17:31:36 GMT", <https://web.archive.org/web/20170622152136/http://www.theguardian.com/music/2006/jan/22/popandrock.davidbowie>; rel="prev memento"; datetime="Thu, 22 Jun 2017 15:21:36 GMT", <https://web.archive.org/web/20170707111030/https://www.theguardian.com/music/2006/jan/22/popandrock.davidbowie>; rel="memento"; datetime="Fri, 07 Jul 2017 11:10:30 GMT", <https://web.archive.org/web/20171006204933/https://www.theguardian.com/music/2006/jan/22/popandrock.davidbowie>; rel="next memento"; datetime="Fri, 06 Oct 2017 20:49:33 GMT", <https://web.archive.org/web/20210910202653/http://www.theguardian.com/music/2006/jan/22/popandrock.davidbowie>; rel="last memento"; datetime="Fri, 10 Sep 2021 20:26:53 GMT"
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org analytics.archive.org pragma.archivelab.org
+X-Archive-Src: NO404-WKP-20170707101505-crawl898/NO404-WKP-20170707103046-02104.warc.gz
+Server-Timing: captures_list;dur=174.787755, exclusion.robots;dur=0.245690, exclusion.robots.policy;dur=0.234804, RedisCDXSource;dur=6.348548, esindex;dur=0.011173, LoadShardBlock;dur=143.158645, PetaboxLoader3.datanode;dur=98.764271, CDXLines.iter;dur=21.188583, load_resource;dur=57.520267, PetaboxLoader3.resolve;dur=26.793343
+X-App-Server: wwwb-app210
+X-Ts: 200
+X-Tr: 1625
+X-Location: All
+X-Cache-Key: httpsweb.archive.orgen/web/20170707111030/https://www.theguardian.com/music/2006/jan/22/popandrock.davidbowieUS
+X-Rl: 0
+X-Na: 0
+X-Page-Cache: MISS
+X-Nid: -
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+Content-Encoding: gzip

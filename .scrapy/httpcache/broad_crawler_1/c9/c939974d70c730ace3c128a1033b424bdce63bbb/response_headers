@@ -1,0 +1,20 @@
+Date: Sat, 18 Dec 2021 02:06:55 GMT
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Fri, 17 Dec 2021 23:41:56 GMT
+Cache-Control: max-age=0
+Expires: Fri, 17 Dec 2021 23:50:20 GMT
+Vary: Accept-Encoding
+X-Varnish: 22212357 21583817
+Age: 8195
+Via: 1.1 varnish (Varnish/5.2)
+X-Cache: HIT
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=36wdQlYX7HpuF0op3YKTlFt3H069%2BNqVpsn4Vw8rEVlQ2P2SmP5Yg20MUMt3NsFai4LBleK%2FA1CMyiYKKMR%2FsUlLq4WWLGBw1fr51LMxxro6HFn2uNISZutGub5MxWsR4A%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+Cf-Ray: 6bf4d5aedbcf5325-LAX
+Content-Encoding: gzip

@@ -1,0 +1,27 @@
+Server: nginx/1.19.10
+Date: Sat, 18 Dec 2021 00:03:42 GMT
+Content-Type: text/html; charset=utf-8
+X-Archive-Orig-Server: Apache
+X-Archive-Orig-Cache-Control: max-age=0, private
+X-Archive-Orig-Date: Wed, 28 Mar 2012 02:10:33 GMT
+X-Archive-Orig-Expires: Wed, 28 Mar 2012 02:10:33 GMT
+X-Archive-Orig-Connection: close
+X-Archive-Guessed-Content-Type: text/html
+X-Archive-Guessed-Charset: utf-8
+Memento-Datetime: Wed, 28 Mar 2012 02:10:33 GMT
+Link: <http://www.bbc.co.uk/news/entertainment-arts-17521244>; rel="original", <https://web.archive.org/web/timemap/link/http://www.bbc.co.uk/news/entertainment-arts-17521244>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/http://www.bbc.co.uk/news/entertainment-arts-17521244>; rel="timegate", <https://web.archive.org/web/20120328021033/http://www.bbc.co.uk/news/entertainment-arts-17521244>; rel="first memento"; datetime="Wed, 28 Mar 2012 02:10:33 GMT", <https://web.archive.org/web/20120328021033/http://www.bbc.co.uk/news/entertainment-arts-17521244>; rel="memento"; datetime="Wed, 28 Mar 2012 02:10:33 GMT", <https://web.archive.org/web/20120328180439/http://www.bbc.co.uk:80/news/entertainment-arts-17521244>; rel="next memento"; datetime="Wed, 28 Mar 2012 18:04:39 GMT", <https://web.archive.org/web/20210513125216/https://www.bbc.co.uk/news/entertainment-arts-17521244>; rel="last memento"; datetime="Thu, 13 May 2021 12:52:16 GMT"
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org analytics.archive.org pragma.archivelab.org
+X-Archive-Src: bbc.co.uk-20120320-100814/IA-FOC-bbc.co.uk-20120327214343-00000.warc.gz
+Server-Timing: captures_list;dur=423.998929, exclusion.robots;dur=0.182009, exclusion.robots.policy;dur=0.174308, RedisCDXSource;dur=0.692041, esindex;dur=0.009515, LoadShardBlock;dur=398.580999, PetaboxLoader3.datanode;dur=122.192668, CDXLines.iter;dur=21.344229, PetaboxLoader3.resolve;dur=109.734455, load_resource;dur=127.052275
+X-App-Server: wwwb-app209
+X-Ts: 200
+X-Tr: 2575
+X-Location: All
+X-Cache-Key: httpsweb.archive.orgen/web/20120328021033/http://www.bbc.co.uk/news/entertainment-arts-17521244US
+X-Rl: 0
+X-Na: 0
+X-Page-Cache: MISS
+X-Nid: -
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+Content-Encoding: gzip

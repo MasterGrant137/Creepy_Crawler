@@ -1,0 +1,11 @@
+Content-Length: 20
+Server: nginx
+Date: Sat, 18 Dec 2021 02:06:58 GMT
+Content-Type: text/html; charset=utf-8
+Location: https://wikimediafoundation.org/robots.txt
+X-Rq: bur6 0 4 9980
+Cache-Control: max-age=300, must-revalidate
+Content-Encoding: gzip
+Age: 0
+X-Cache: miss
+Strict-Transport-Security: max-age=31536000;includeSubdomains;preload

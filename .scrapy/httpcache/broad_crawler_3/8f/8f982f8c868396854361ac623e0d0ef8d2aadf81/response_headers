@@ -1,0 +1,22 @@
+Content-Length: 2850
+Content-Type: text/plain; charset=utf-8
+Etag: "61b873a5-b22"
+Expires: Wed, 15 Dec 2021 01:03:02 GMT
+Last-Modified: Tue, 14 Dec 2021 10:36:21 GMT
+Accept-Ranges: bytes
+Date: Sat, 18 Dec 2021 02:07:06 GMT
+Age: 200
+Set-Cookie: GU_mvt_id=862838; expires=Fri, 18 Mar 2022 02:07:06 GMT; path=/; domain=.theguardian.com; Secure
+Set-Cookie: GU_geo_country=US; path=/; Secure
+X-Timer: S1639793226.415818,VS0,VE141
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; frame-src https: data:; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src https: data:; connect-src https: wss:; child-src https: blob:; object-src 'none'; base-uri https://*.gracenote.com
+Referrer-Policy: no-referrer-when-downgrade
+Feature-Policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
+Permissions-Policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()
+X-Gu-Edition: us
+Cache-Control: max-age=300, private, no-transform
+Vary: Accept-Encoding,User-Agent

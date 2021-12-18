@@ -1,0 +1,22 @@
+Date: Sat, 18 Dec 2021 02:07:03 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+X-Robots-Tag: noindex, follow
+Link: <https://thenai.org/wp-json/>; rel="https://api.w.org/"
+X-Tec-Api-Version: v1
+X-Tec-Api-Root: https://thenai.org/wp-json/tribe/events/v1/
+X-Tec-Api-Origin: https://thenai.org
+X-Powered-By: WP Engine
+X-Cacheable: CacheAlways: forever
+Cache-Control: max-age=14400, must-revalidate
+X-Cache: HIT: 6
+Cf-Cache-Status: HIT
+Age: 8728
+Last-Modified: Fri, 17 Dec 2021 23:41:35 GMT
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9hfajZZ8qs6jHGaL7YeF2oqAUjQ0obLD0L2QyeWHvcy6%2BbjYeCJNTY%2BWFyNvm0XfHqYxd8r%2FLfoVDtB790hgI5Bw%2F0HES%2FE6qBS5IOsElOSKgyFDGenZhGhoXIY%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 6bf4d5dbde1f7cdd-LAX
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

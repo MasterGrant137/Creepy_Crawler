@@ -1,0 +1,14 @@
+Content-Length: 0
+Date: Sat, 18 Dec 2021 02:07:06 GMT
+Set-Cookie: AWSALB=2ef8bVXw6SWDFK1VviP0PfC/KMGUDYBihBElnvj1LIp/GCfsfuudw2khXwe0+VczMBXl86YnAXPsR2P1tHJ5LZuH2QXEXB13NB+EDuqAzl1jok9dAZWGSODiomSh; Expires=Sat, 25 Dec 2021 02:07:06 GMT; Path=/
+Set-Cookie: AWSALBCORS=2ef8bVXw6SWDFK1VviP0PfC/KMGUDYBihBElnvj1LIp/GCfsfuudw2khXwe0+VczMBXl86YnAXPsR2P1tHJ5LZuH2QXEXB13NB+EDuqAzl1jok9dAZWGSODiomSh; Expires=Sat, 25 Dec 2021 02:07:06 GMT; Path=/; SameSite=None; Secure
+Server: nginx/1.18.0
+X-Application-Context: application:prod:8080
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Location: ?c=1
+P3P: CP="NON DSP COR CUR ADMi DEV OUR BUS NAV"

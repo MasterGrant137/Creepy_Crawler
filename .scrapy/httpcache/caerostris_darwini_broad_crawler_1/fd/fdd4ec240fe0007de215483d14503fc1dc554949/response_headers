@@ -1,0 +1,25 @@
+Date: Sat, 18 Dec 2021 00:03:40 GMT
+Content-Type: text/html; charset=UTF-8
+Location: /artist/david-bowie/chart-history/tlc/
+Cf-Ray: 6bf4211f19797cb0-LAX
+Age: 0
+Cache-Control: max-age=300, must-revalidate
+Link: <https://www.billboard.com/wp-json/>; rel="https://api.w.org/"
+Set-Cookie: PGMINFO=cc:us-ip:47.158.19.38; Max-Age=3600; Path=/; Domain=.billboard.com
+Set-Cookie: __cf_bm=qQuM.nFg6wbUN87L3C8NllzmZdU7SIN.O.cDRPlEYD8-1639785820-0-AVlWD8EIbdMVmah1Vl6ZfhjGZ3iSpsPRIqw8GmhVTbxKw67MPZ/hm+KVxCy8hlr6/eldhdvuO8CrM2owrpguVd1i5FSASx4KuJNTefGOZkb0; path=/; expires=Sat, 18-Dec-21 00:33:40 GMT; domain=.billboard.com; HttpOnly; Secure; SameSite=None
+Vary: X-Country-Code, Accept-Encoding
+Cf-Cache-Status: DYNAMIC
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy: frame-ancestors 'none'
+Content-Security-Policy-Report-Only: default-src data: 'unsafe-inline' 'unsafe-eval' https: blob: http://*.files.wordpress.com wss://www.billboard.com; report-uri https://pmcuri.report-uri.com/r/d/csp/reportOnly
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Host-Header: a9130478a60e5f9135f765b23f26593b
+X-Cache: miss
+X-Frame-Options: DENY
+X-Hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+X-Powered-By: WordPress VIP <https://wpvip.com>
+X-Redirect-By: WordPress
+X-Rq: bur8 0 2 9980
+X-Ua-Compatible: IE=Edge
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

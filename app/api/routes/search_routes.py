@@ -86,15 +86,13 @@ def add_search_entry():
 def scrape_with_crochet(query):
     """Connect Flask with Scrapy asynchronously."""
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    # spiders = [caerostris_darwini.CDCommentarial, caerostris_darwini.CDEncyclopedic]
-    spiders = [caerostris_darwini.CDBroadCrawler1]
+    spiders = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3]
     [crawl_runner.crawl(spider, query=query) for spider in spiders]
     eventual = crawl_runner.join()
     return eventual
 
 def _crawler_result(item, response, spider):
     """Typecast each element of crawler's yield into dictionary and append to list."""
-    # print(response, spider)
     output_data.append(dict(item))
 
 @search_routes.route('/history/visits/', methods=['POST'])

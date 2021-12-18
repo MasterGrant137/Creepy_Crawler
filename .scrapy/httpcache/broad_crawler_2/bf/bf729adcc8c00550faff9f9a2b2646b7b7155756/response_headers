@@ -1,0 +1,15 @@
+Content-Length: 0
+Date: Sat, 18 Dec 2021 02:07:04 GMT
+Content-Type: text/html;charset=utf-8
+Set-Cookie: AWSALB=PW63EITgliwCI44fLV+KJwHCjSlLbICghHosU87XgynOpVc571HDVhwXUviRpFu8dLTiCas1kVk7fZvHG2oM616gYUSefOB2CKfJjeZcLXv4lDXMdrYmxd5kXLea; Expires=Sat, 25 Dec 2021 02:07:04 GMT; Path=/
+Set-Cookie: AWSALBCORS=PW63EITgliwCI44fLV+KJwHCjSlLbICghHosU87XgynOpVc571HDVhwXUviRpFu8dLTiCas1kVk7fZvHG2oM616gYUSefOB2CKfJjeZcLXv4lDXMdrYmxd5kXLea; Expires=Sat, 25 Dec 2021 02:07:04 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: JSESSIONID=0B5B16A813359EA5E5E4C04455F203A2; Expires=Sat, 18-Dec-2021 11:07:04 GMT; Path=/commons; Secure; HttpOnly
+Cache-Control: private, no-cache, no-store, must-revalidate, proxy-revalidate
+Strict-Transport-Security: max-age=31536000;includeSubDomains;preload
+Expires: 0
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self' *.nih.gov; script-src 'self' 'unsafe-eval' 'unsafe-inline' *.nih.gov; connect-src 'self' *.nih.gov; style-src 'self' 'unsafe-inline' *.nih.gov; img-src 'self' *.nih.gov data:; frame-src 'self' *.nih.gov blob:; font-src 'self' *.nih.gov; form-action 'self' *.nih.gov;  base-uri 'self' *.nih.gov; frame-ancestors 'self' *.nih.gov
+Pragma: no-cache
+X-Frame-Options: sameOrigin
+Location: /commons/commonsInit.do
+Server: Apache Tomcat

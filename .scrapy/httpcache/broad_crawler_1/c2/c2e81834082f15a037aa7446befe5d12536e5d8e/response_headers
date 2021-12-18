@@ -1,0 +1,12 @@
+Server: nginx
+Date: Sat, 18 Dec 2021 02:07:00 GMT
+Content-Type: text/html; charset=utf-8
+X-Safe-Redirect-Manager: true
+X-Safe-Redirect-Id: 57235
+X-Redirect-By: WordPress
+Location: https://foundation.wikimedia.org/wiki/Terms_of_Use
+X-Rq: bur5 0 4 9980
+Content-Encoding: gzip
+Age: 0
+X-Cache: miss
+Strict-Transport-Security: max-age=31536000;includeSubdomains;preload

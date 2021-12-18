@@ -1,0 +1,23 @@
+Content-Length: 8119
+Content-Type: text/html; charset=UTF-8
+Server: nginx
+Link: <https://www.hhs.gov/>; rel="canonical", <https://www.hhs.gov/>; rel="shortlink"
+Link: <https://www.hhs.gov/>; rel="alternate"; hreflang="en"
+Link: <https://www.hhs.gov/index.html>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Last-Modified: Fri, 17 Dec 2021 16:24:00 GMT
+Etag: "1639758240"
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Content-Security-Policy: frame-ancestors 'self' hhs.gov *.hhs.gov
+X-Request-Id: 0dc665c8df902b8bc204ca484d0364b3
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: public, max-age=2926
+Date: Sat, 18 Dec 2021 00:03:33 GMT
+Strict-Transport-Security: max-age=31536000;includeSubDomains;preload

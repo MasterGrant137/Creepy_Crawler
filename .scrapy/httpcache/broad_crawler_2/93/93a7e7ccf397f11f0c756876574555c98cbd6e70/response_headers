@@ -1,0 +1,10 @@
+Content-Length: 1594
+Content-Type: text/plain
+Last-Modified: Fri, 11 Oct 2019 15:01:47 GMT
+Accept-Ranges: bytes
+Etag: "28eaa0cd4480d51:0"
+X-Frame-Options: ALLOW-FROM https://seed.nih.gov
+Content-Security-Policy: frame-ancestors 'self' *.nih.gov;
+Date: Sat, 18 Dec 2021 02:07:50 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Set-Cookie: TS01714c75=01f0618ceb9403bed283119b456232c10e41a17ea6c4596c38e8e4831a4c1ecadaec1ba2f4f1a68b470313e38c017e0ff7197249c2; Path=/; Domain=.report.nih.gov

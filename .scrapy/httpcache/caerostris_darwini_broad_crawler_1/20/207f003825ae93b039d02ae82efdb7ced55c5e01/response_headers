@@ -1,0 +1,29 @@
+Content-Type: text/html; charset=utf-8
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Cache-Tag: standard.co.uk,v1.5.14.4,article_468073,section_108,section_110
+Content-Security-Policy: frame-ancestors 'self' https://*.brightsites.co.uk;
+Etag: W/"2f04e-P2Qtw1Ub2ocD7xHXpR8iPuIlLOs-gzip"
+Link: <https://cdn.permutive.com>; rel=preconnect, <https://cmpv2.standard.co.uk/unified/wrapperMessagingWithoutDetection.js>; rel=preconnect
+Server: Apache/2.4.29 (Ubuntu)
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Accept-Ranges: none
+Via: 1.1 varnish, 1.1 varnish
+Age: 0
+Set-Cookie: gdpr=0 ; Path=/ ;
+Set-Cookie: Locale=US ; Path=/ ; Expires=Sat, 18 Dec 2021 01:03:40 GMT;
+Set-Cookie: esi-uuid=82019586-500b-4785-99ae-bb330ce602e1 ; Path=/ ; Secure; HttpOnly; Expires=Sun, 18 Dec 2022 00:03:40 GMT
+Set-Cookie: esi-permutive-id=82019586-500b-4785-99ae-bb330ce602e1; Path=/ ; Secure
+Set-Cookie: gdpr=0 ; Path=/ ;
+Set-Cookie: Locale=US ; Path=/ ; Expires=Sat, 18 Dec 2021 01:03:41 GMT;
+Set-Cookie: esi-uuid=e669bbdc-7288-4bbb-af12-6c58b5341a7f ; Path=/ ; Secure; HttpOnly; Expires=Sun, 18 Dec 2022 00:03:41 GMT
+Set-Cookie: esi-permutive-id=e669bbdc-7288-4bbb-af12-6c58b5341a7f; Path=/ ; Secure
+Date: Sat, 18 Dec 2021 00:03:41 GMT
+Canary: 1
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Served-By: cache-lhr7372-LHR, cache-bur17520-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1639785819.165623,VS0,VE1879
+Vary: Accept-Encoding, Locale, loggedIn
+Content-Encoding: gzip
