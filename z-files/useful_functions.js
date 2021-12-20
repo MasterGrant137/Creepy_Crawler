@@ -1,13 +1,16 @@
 // const branchPruner = (branches) => {
 //     branches.forEach((branch) => {
 //         console.log(`git branch -D ${branch}`);
-//     })
+//     });
 // }
-// branchPruner([])
+// branchPruner([]);
 
 // const spiderMaker = (amount) => {
+//     const spider_array = [];
 //     for (let i = 1; i <= amount; i++) {
-//         process.stdout.write(`caerostris_darwini.BroadCrawler${i}, `)
+//         spider_array.push(`caerostris_darwini.BroadCrawler${i}`);
 //     }
+//     const spider_readout = spider_array.join(', ');
+//     console.log(`spiders = [${spider_readout}]`);
 // }
-// spiderMaker(1)
+// spiderMaker(1);
