@@ -1,0 +1,19 @@
+Content-Length: 6298
+Content-Encoding: gzip
+Content-Security-Policy: base-uri 'self'; block-all-mixed-content; connect-src 'self' https://api.github.com/repos/ fastly-insights.com *.fastly-insights.com *.ethicalads.io sentry.io https://api.pwnedpasswords.com https://2p66nmmycsj3.statuspage.io; default-src 'none'; font-src 'self' fonts.gstatic.com; form-action 'self'; frame-ancestors 'none'; frame-src 'none'; img-src 'self' https://warehouse-camo.ingress.cmh1.psfhosted.org/ www.google-analytics.com *.fastly-insights.com *.ethicalads.io; script-src 'self' www.googletagmanager.com www.google-analytics.com *.fastly-insights.com https://cdn.ravenjs.com *.ethicalads.io 'sha256-U3hKDidudIaxBDEzwGJApJgPEf2mWk6cfMWghrAa6i0='; style-src 'self' fonts.googleapis.com *.ethicalads.io 'sha256-2YHqZokjiizkHi1Zt+6ar0XJ0OeEy/egBnlm+MDMtrM=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='; worker-src *.fastly-insights.com
+Content-Type: text/html; charset=UTF-8
+Etag: "tCft3EuY7HX+LU5DIValaw"
+Referrer-Policy: origin-when-cross-origin
+Server: nginx/1.13.9
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 23:30:20 GMT
+X-Served-By: cache-bwi5152-BWI, cache-bur17535-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1640043021.739119,VS0,VE1
+Vary: Cookie, Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none

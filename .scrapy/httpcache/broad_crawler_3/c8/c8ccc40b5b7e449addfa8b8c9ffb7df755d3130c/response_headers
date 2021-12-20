@@ -1,0 +1,11 @@
+Content-Length: 297
+Server: AkamaiGHost
+Mime-Version: 1.0
+Content-Type: text/html
+Expires: Mon, 20 Dec 2021 21:53:14 GMT
+Date: Mon, 20 Dec 2021 21:53:14 GMT
+Set-Cookie: AKA_A2=A; expires=Mon, 20-Dec-2021 22:53:14 GMT; path=/; domain=dailymail.co.uk; secure; HttpOnly
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Content-Security-Policy-Report-Only: block-all-mixed-content; report-uri https://dmgm.report-uri.com/r/t/csp/reportOnly
+Vary: User-Agent

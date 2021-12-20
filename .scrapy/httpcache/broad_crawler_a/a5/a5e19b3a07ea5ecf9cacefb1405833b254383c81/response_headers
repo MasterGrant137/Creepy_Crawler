@@ -1,0 +1,12 @@
+Content-Length: 138
+Date: Mon, 20 Dec 2021 23:30:23 GMT
+Content-Type: text/html
+Location: https://flufli18n.readthedocs.io/robots.txt
+X-Backend: web-i-086c66a88f6bb0b82
+Cf-Cache-Status: MISS
+Expires: Tue, 21 Dec 2021 01:30:23 GMT
+Cache-Control: public, max-age=7200
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c0ca87fccb07e1a-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

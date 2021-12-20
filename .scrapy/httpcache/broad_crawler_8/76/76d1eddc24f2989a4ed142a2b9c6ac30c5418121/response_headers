@@ -1,0 +1,20 @@
+Content-Length: 105
+Server: nginx/1.19.0
+Content-Type: text/html
+Location: https://www.lexico.com/
+Cache-Control: no-cache
+Content-Encoding: gzip
+X-Request-Id: b5b198a0cfaa6124379943f82bb05467
+X-Runtime: 0.001592
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Cache-Status: MISS
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 22:00:27 GMT
+Via: 1.1 varnish
+Age: 0
+Set-Cookie: locale=en; Max-Age=94608000; Path=/; Secure; SameSite=none
+X-Served-By: cache-bur17572-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640037628.538764,VS0,VE140
+Vary: Accept-Encoding, X-OPTIONS

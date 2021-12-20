@@ -1,0 +1,11 @@
+Server: nginx
+Date: Mon, 20 Dec 2021 23:30:27 GMT
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 20 Dec 2021 23:30:26 GMT
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Frame-Options: sameorigin
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Content-Encoding: gzip

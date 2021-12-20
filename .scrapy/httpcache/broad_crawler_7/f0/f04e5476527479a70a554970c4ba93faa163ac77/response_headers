@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: Server
+Date: Mon, 20 Dec 2021 21:59:27 GMT
+X-Amz-Rid: NW55SXBG1TTR5W4EMWRD
+Cache-Control: max-age=3600
+Expires: Mon, 20 Dec 2021 22:59:27 GMT
+Location: /sundance/oscar-winners/ls062587725/
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 85a473acf37dd71b869c063db2deb905.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C4
+X-Amz-Cf-Id: cufvAa4POrADWa2Iw-yujnU9YKydWDgQmvQU3RqlFarKLAjFYPzVLQ==

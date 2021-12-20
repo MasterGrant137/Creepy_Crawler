@@ -1,0 +1,26 @@
+Date: Mon, 20 Dec 2021 23:30:30 GMT
+Content-Type: text/html
+Vary: Accept-Encoding
+X-Amz-Id-2: 3Z7Pb6RceHqK+cfXObCvCe5TOxxSusZoMljfHomIZiL3IWq2k5noJwi44MP5rijI2FliK9UuH1s=
+X-Amz-Request-Id: 5CG1RB6B6QCDGSR8
+Last-Modified: Tue, 13 Jul 2021 16:08:37 GMT
+Etag: W/"3a83669153f3167dae61f0d848a8e733"
+X-Served: Nginx-Proxito-Sendfile
+X-Backend: web-i-0e20b03d6b865363e
+X-Rtd-Project: dateutil
+X-Rtd-Version: stable
+X-Rtd-Path: /proxito/html/dateutil/stable/index.html
+X-Rtd-Domain: dateutil.readthedocs.io
+X-Rtd-Version-Method: path
+X-Rtd-Project-Method: subdomain
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Encoding: gzip
+Cf-Cache-Status: REVALIDATED
+Expires: Tue, 21 Dec 2021 01:30:30 GMT
+Cache-Control: public, max-age=7200
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c0ca8aa8c927c50-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

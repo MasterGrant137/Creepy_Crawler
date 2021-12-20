@@ -1,0 +1,19 @@
+Content-Length: 5381
+Server: Apache
+X-Powered-By: PHP/5.2.10
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-Edgeconnect-Midmile-Rtt: 31
+X-Edgeconnect-Origin-Mex-Latency: 206
+X-Akamai-Transformed: 9 3662 0 pmb=mRUM,1
+Cache-Control: max-age=320
+Date: Mon, 20 Dec 2021 21:55:38 GMT
+Vary: Accept-Encoding
+Server-Timing: cdn-cache; desc=REVALIDATE
+Server-Timing: edge; dur=1
+Server-Timing: origin; dur=206
+Access-Control-Allow-Origin: 
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS

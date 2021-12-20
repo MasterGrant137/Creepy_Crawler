@@ -1,0 +1,13 @@
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Type: text/plain; charset=utf-8
+X-Fb-Rlafr: 0
+Document-Policy: force-load-at-top
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Tue, 21 Dec 2021 21:59:30 +0000
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 0
+X-Frame-Options: DENY
+X-Fb-Debug: qgRiQTJyQLN65WS+m9qJXyexrnOTCStnqpoF9iUhH0Ms68ADUM3z5zWXETsklRJHoP/LPMifETAWHrXq63ohhA==
+Date: Mon, 20 Dec 2021 21:59:30 GMT

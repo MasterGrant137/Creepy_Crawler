@@ -1,0 +1,17 @@
+Content-Length: 54
+Server: nginx
+Content-Type: text/plain; charset=UTF-8
+Last-Modified: Sun, 22 Jan 2017 19:44:24 GMT
+Etag: W/"58850b98-22"
+Expires: Mon, 20 Dec 2021 23:19:35 GMT
+Cache-Control: max-age=300
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 23:33:21 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-bur17524-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640043202.545167,VS0,VE149
+Vary: Accept-Encoding

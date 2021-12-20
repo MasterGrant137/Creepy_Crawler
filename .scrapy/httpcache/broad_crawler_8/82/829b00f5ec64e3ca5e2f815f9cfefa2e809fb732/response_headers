@@ -1,0 +1,14 @@
+Date: Mon, 20 Dec 2021 22:00:28 GMT
+Content-Type: text/html; charset=UTF-8
+Cf-Chl-Bypass: 1
+Permissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+X-Frame-Options: SAMEORIGIN
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VRm67EXNYay12xuQK48Ycm1nqAgRWrl5YnT%2FLHL5vOcF2vvU%2F1IwXmIkbJVhXOgOmVP3kpXR18JOSTwLGUZ5QgqcgglSvNG5E2nOu3yfvACmV88dUaL6vxCH58HcvE09LWXFa%2BgHbsE%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c0c24c9cb4f7aa2-LAX
+Content-Encoding: gzip

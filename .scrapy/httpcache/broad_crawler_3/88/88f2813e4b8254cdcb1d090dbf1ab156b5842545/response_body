@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://www.fcnl.org/" />
+<meta name="description" content="The Friends Committee on National Legislation lobbies Congress and the administration to advance peace, justice, opportunity, and environmental stewardship." />
+<meta property="og:site_name" content="Friends Committee On National Legislation" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.fcnl.org/" />
+<meta property="og:title" content="Home | Friends Committee On National Legislation" />
+<meta property="og:description" content="The Friends Committee on National Legislation is a national, nonpartisan Quaker organization that lobbies Congress and the administration to advance peace, justice, and environmental stewardship." />
+<meta property="og:image" content="https://www.fcnl.org/sites/default/files/image/barbara_lee_with_ca_friends_ltn.jpg" />
+<meta name="facebook-domain-verification" content="78cn9kzb1zdaiznp90gv3m8levpjds" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="The Friends Committee on National Legislation is a national, nonpartisan Quaker organization that lobbies Congress and the administration to advance peace, justice, and environmental stewardship." />
+<meta name="twitter:site" content="@fcnl" />
+<meta name="twitter:title" content="Home | Friends Committee On National Legislation" />
+<meta name="twitter:url" content="https://www.fcnl.org/" />
+<link rel="image_src" href="https://www.fcnl.org/sites/default/files/2021-01/FCNLDefaultShare5.png" />
+<meta property="og:image:url" content="https://www.fcnl.org/sites/default/files/2021-01/FCNLDefaultShare5.png" />
+<meta property="twitter:image" content="https://www.fcnl.org/sites/default/files/2021-01/FCNLDefaultShare5.png" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/fcnl2020/favicon.ico" type="image/vnd.microsoft.icon" />
+<script src="/sites/default/files/google_tag/fcnl.org/google_tag.script.js?r46com" defer></script>
+
+    <title>Home | Friends Committee On National Legislation</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_lOwMs9gAm2S2cXJ_6Ht5Chy0JVpoglUA9BBeSD_43jQ.css" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&amp;family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_cGrY8-aKhb9eOzaWw4Q3nSpIyhyhEqnoATh1Jtdsc5Q.css" />
+
+    <script src="https://kit.fontawesome.com/7478dc8550.js" defer crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9K6JW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="page">
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light  ">
+  <div class="container">
+    <div class="row navbar-row">
+
+      <div class="col col-lg-4 mb-lg-1">
+                        
+  <div class="block block--fcnl2020-branding">
+
+  
+    
+
+    
+  <a href="/" class="navbar-brand" aria-label="">
+            <img src="/themes/custom/fcnl2020/logo.svg" alt="Friends Committee On National Legislation logo" class="img-fluid">
+
+        
+  </a>
+
+
+  </div>
+
+
+                </div>
+
+      <div class="col-auto d-flex align-items-center d-lg-none">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div id="navbar-collapse" class="col-lg-7 collapse navbar-collapse flex-column align-items-end">
+                      <div class="position-relative order-lg-2 my-2 mb-lg-0">
+            
+  <div class="block block--fcnl2020-main-menu">
+
+  
+    
+
+      
+  
+
+
+  <ul class="nav--main d-print-none nav navbar-nav">
+                                          <li class="nav-item  dropdown">
+                      <a href="/about" class="nav-link" data-drupal-link-system-path="node/4596">About</a>
+            <a class="dropdown-toggle" data-toggle="dropdown">
+              <span class="sr-only">Toggle submenu</span>
+            </a>
+                          <div class="dropdown-menu">
+              <a href="/about/world-we-seek" class="dropdown-item" data-drupal-link-system-path="node/4593">World We Seek</a>
+              <a href="/about/impact" class="dropdown-item" data-drupal-link-system-path="node/4588">Impact</a>
+              <a href="/about/history" class="dropdown-item" data-drupal-link-system-path="node/4708">History</a>
+              <a href="/about/quaker-lobbying" class="dropdown-item" data-drupal-link-system-path="node/4608">Quaker Lobbying</a>
+              <a href="/about/staff-governance" class="dropdown-item" data-drupal-link-system-path="node/4607">Staff &amp; Governance</a>
+              <a href="/about/work-fcnl" class="dropdown-item" data-drupal-link-system-path="node/4736">Work with FCNL</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  dropdown">
+                      <a href="/issues" class="nav-link" data-drupal-link-system-path="node/2289">Issues</a>
+            <a class="dropdown-toggle" data-toggle="dropdown">
+              <span class="sr-only">Toggle submenu</span>
+            </a>
+                          <div class="dropdown-menu">
+              <a href="/issues/economic-justice" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/94">Economic Justice</a>
+              <a href="/issues/environment-energy" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/92">Environment</a>
+              <a href="/issues/gun-violence-prevention" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/99">Gun Violence Prevention</a>
+              <a href="/issues/immigrants-refugees" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/91">Immigration and Refugees</a>
+              <a href="/issues/justice-reform" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/93">Justice Reform</a>
+              <a href="/issues/native-americans" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/96">Native Americans</a>
+              <a href="/issues/middle-east-iran" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/97">Middle East and Iran</a>
+              <a href="/issues/nuclear-weapons" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/95">Nuclear Weapons</a>
+              <a href="/issues/peacebuilding" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/89">Peacebuilding</a>
+              <a href="/issues/us-wars-militarism" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/90">U.S. Wars and Militarism</a>
+              <a href="/issues/voting-elections" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/98">Voting and Elections</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  dropdown">
+                      <a href="/act" class="nav-link" data-drupal-link-system-path="node/4735">Act</a>
+            <a class="dropdown-toggle" data-toggle="dropdown">
+              <span class="sr-only">Toggle submenu</span>
+            </a>
+                          <div class="dropdown-menu">
+              <a href="https://fcnl.quorum.us/" class="dropdown-item">Take Action</a>
+              <a href="/act/lobby-locally" class="dropdown-item" data-drupal-link-system-path="node/4610">Lobby Locally</a>
+              <a href="/act/join-advocacy-team" class="dropdown-item" data-drupal-link-system-path="node/4611">Join an Advocacy Team</a>
+              <a href="/act/young-adult-advocates" class="dropdown-item" data-drupal-link-system-path="node/4602">Young Adult Advocates</a>
+              <a href="/act/quakers-action" class="dropdown-item" data-drupal-link-system-path="node/4622">Quakers in Action</a>
+              <a href="/act/ways-to-give" class="dropdown-item" data-drupal-link-system-path="node/4731">Ways to Give</a>
+              <a href="/email" class="dropdown-item" data-drupal-link-system-path="node/4759">Get Email Updates</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  ">
+                      <a href="/events" class="nav-link" data-drupal-link-system-path="node/4606">Events</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/updates" class="nav-link" data-drupal-link-system-path="node/5565">Latest Updates</a>
+                  </li>
+                                                        <li class="nav-item  ">
+                      <a href="#block-exposedformsearchpage-1-2" class="d-inline-block collapse-header-toggle nav-link" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="block-exposedformsearchpage-1-2"><i class="fa fa-search"></i><span class="sr-only">Search</span></a>
+                  </li>
+                                                        <li class="nav-item  ">
+                      <a href="#block-headersignup" class="d-inline-block collapse-header-toggle nav-link" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="block-headersignup"><i class="fa fa-envelope"></i><span class="sr-only">Email signup</span></a>
+                  </li>
+            </ul>
+
+
+  
+  </div>
+
+
+        </div>
+          
+                      <div class="d-flex justify-content-between align-items-center order-lg-1">
+            
+  <div id="block-headersociallinks" class="block block--icon-links">
+
+  
+    
+
+      
+
+
+
+      <div class="d-flex">
+              <div class="mr-3">  <div class="paragraph paragraph--type--icon-link paragraph--view-mode--default">
+          
+
+
+
+            <div><a href="https://www.facebook.com/quakerlobby" target="_blank" class="text-gray">
+
+
+
+            <div><div class="fontawesome-icons">
+      <div class="fontawesome-icon">
+  <i class="fab fa-facebook-f " data-fa-transform="" data-fa-mask="" style="--fa-primary-color: #000000; --fa-secondary-color: #000000;"></i>
+</div>
+
+  </div>
+</div>
+      
+</a></div>
+      
+
+      </div>
+</div>
+              <div class="mr-3">  <div class="paragraph paragraph--type--icon-link paragraph--view-mode--default">
+          
+
+
+
+            <div><a href="https://twitter.com/fcnl" target="_blank" class="text-gray">
+
+
+
+            <div><div class="fontawesome-icons">
+      <div class="fontawesome-icon">
+  <i class="fab fa-twitter " data-fa-transform="" data-fa-mask="" style="--fa-primary-color: #000000; --fa-secondary-color: #000000;"></i>
+</div>
+
+  </div>
+</div>
+      
+</a></div>
+      
+
+      </div>
+</div>
+              <div class="mr-3">  <div class="paragraph paragraph--type--icon-link paragraph--view-mode--default">
+          
+
+
+
+            <div><a href="https://www.instagram.com/quakerlobby/" target="_blank" class="text-gray">
+
+
+
+            <div><div class="fontawesome-icons">
+      <div class="fontawesome-icon">
+  <i class="fab fa-instagram " data-fa-transform="" data-fa-mask="" style="--fa-primary-color: #000000; --fa-secondary-color: #000000;"></i>
+</div>
+
+  </div>
+</div>
+      
+</a></div>
+      
+
+      </div>
+</div>
+              <div class="mr-3">  <div class="paragraph paragraph--type--icon-link paragraph--view-mode--default">
+          
+
+
+
+            <div><a href="https://www.youtube.com/user/QuakerLobby" target="_blank" class="text-gray">
+
+
+
+            <div><div class="fontawesome-icons">
+      <div class="fontawesome-icon">
+  <i class="fab fa-youtube " data-fa-transform="" data-fa-mask="" style="--fa-primary-color: #000000; --fa-secondary-color: #000000;"></i>
+</div>
+
+  </div>
+</div>
+      
+</a></div>
+      
+
+      </div>
+</div>
+          </div>
+  
+
+  
+  </div>
+
+
+          <a class="btn btn-danger px-2 py-1" href="/donate">
+            <span class="small">DONATE</span>
+          </a>
+        </div>
+      
+                
+
+
+<div  id="block-headersignup" class="block collapse collapse-header row justify-content-between d-print-none email-signup">
+  
+  
+
+
+  
+  <div class="col">
+    <form  class="action-kit-signup">
+      <div class="alert alert-danger error d-none mb-3"></div>
+
+      
+      
+      <div class="form-group">
+        <label for="email" class="sr-only">Email Address</label>
+        <div class="input-group">
+          <input type="email" class="form-control form-control-sm" id="email" name="email" placeholder="Enter email" required />
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-primary btn-sm">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <input type="hidden" name="page" id="page" value="website-signup" />
+
+            <input type="hidden" name="agree_terms" id="agree_terms" value="no" />
+      <div class="form-group d-none">
+        <label for="website">Website</label>
+        <input type="text" class="form-control form-control-sm" id="website" name="website" placeholder="Enter Website" />
+      </div>
+
+      <div class="d-none alert alert-success action-kit-message">
+        <p>Thank you!</p>
+
+      </div>
+    </form>
+
+  </div>
+</div>
+
+  <div class="views-exposed-form block px-2 collapse collapse-header" data-drupal-selector="views-exposed-form-search-page-1" id="block-exposedformsearchpage-1-2">
+
+  
+    
+
+      <form action="/search" method="get" id="views-exposed-form-search-page-1" accept-charset="UTF-8" class="input-group">
+    
+<input placeholder="Enter search terms" data-drupal-selector="edit-terms" class="form-control-sm form-control" type="text" id="edit-terms" name="terms" value="" size="30" maxlength="128" />
+<div data-drupal-selector="edit-actions" class="form-actions input-group-append js-form-wrapper form-wrapper" id="edit-actions">  <input data-drupal-selector="edit-submit-search" type="submit" id="edit-submit-search" value="Search" class="button js-form-submit form-submit btn-sm btn btn-primary" />
+
+
+</div>
+
+
+</form>
+
+  
+  </div>
+
+
+                </div>
+
+    </div>
+  </div>
+</nav>
+
+          <div class="p-lg-3"></div>
+  
+      <div class="container">
+        <div data-drupal-messages-fallback class="hidden"></div>
+
+
+    </div>
+  
+  <main>
+    
+          <div class="page__content">
+        <div class="container">
+            
+  <div id="block-fcnl2020-content" class="block">
+
+  
+    
+
+      <article role="article" about="/home" typeof="schema:WebPage">
+  
+    <span property="schema:name" content="Home" class="hidden"></span>
+
+        <div>
+      <div  class="w-full bg-primary">
+        <div  class="pt-5 pb-5 container">
+            <div class="row justify-content-between">
+                              <div  class="col">
+              <div  class="block row">
+  
+  
+
+      <div class="col-lg-8 mb-4 mb-lg-0 pull-up-xs">
+
+
+
+            <div class="wl-full pull-up"><div class="media--item media--image position-relative">
+    
+  
+
+
+
+            <div class="media__image">  
+<img src="/sites/default/files/styles/widescreen_1170/public/image/spring_lobby_weekend_2019-20190326-235-1200px.jpg?itok=i1K1aAUQ" width="1170" height="658" alt="Advocates walk the halls of Congress during Spring Lobby Weekend 2019" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+
+</div>
+      
+
+
+
+
+  <div class="image__attribution">
+    <div class="visually-hidden">
+      Attribution    </div>
+                  <div class="field__item">Joseph Molieri</div>
+              </div>
+
+
+  </div>
+</div>
+      
+</div>
+
+  
+  <div class="col-lg-4 pl-lg-4">
+    <h2  class="h1">Opportunities for Young Adults</h2>
+    
+
+
+
+            <div><p>We are committed to building power among young adult leaders. Applications are open for FCNL&#8217;s Program Assistant program, summer internships, and Spring Lobby Weekend!</p>
+
+<p><a class="btn btn-white" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="cfc8c6dd-5697-47d8-8b22-1b81c2919bd5" href="/act/young-adult-advocates">Learn More</a></p>
+</div>
+      
+
+  </div>
+
+  </div>
+            </div>
+                        </div>
+    </div>
+  </div>
+  <div  class="w-full">
+        <div  class="pt-5 pb-5 container">
+            <div class="row justify-content-between">
+                              <div  class="col">
+              <div  class="block row justify-content-between d-print-none email-signup">
+  
+  
+
+
+      <div class="col-lg-6 col-xl-5">
+              <h2 class="mb-2">Join our email list!</h2>
+            
+
+
+
+            <div class="font-condensed"><p>Quakers and Friends are changing public policy.</p>
+</div>
+      
+
+    </div>
+  
+  <div class="col-lg-6">
+    <form  class="action-kit-signup" data-redirect="https://act.fcnl.org/signup/signup-full/">
+      <div class="alert alert-danger error d-none mb-3"></div>
+
+      
+      
+      <div class="form-group">
+        <label for="email" class="sr-only">Email Address</label>
+        <div class="input-group">
+          <input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="Enter email" required />
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-primary btn-lg">Join</button>
+          </div>
+        </div>
+      </div>
+
+      <input type="hidden" name="page" id="page" value="website-signup" />
+
+            <input type="hidden" name="agree_terms" id="agree_terms" value="no" />
+      <div class="form-group d-none">
+        <label for="website">Website</label>
+        <input type="text" class="form-control form-control-lg" id="website" name="website" placeholder="Enter Website" />
+      </div>
+
+      <div class="d-none alert alert-success action-kit-message">
+        Thank you for signing up!
+      </div>
+    </form>
+
+  </div>
+</div>
+            </div>
+                        </div>
+    </div>
+  </div>
+  <div  class="w-full bg-success">
+        <div  class="pt-5 pb-5 container">
+            <div class="row justify-content-between">
+                              <div  class="col-lg-8 col-xl-7 mb-3 mb-lg-0">
+              <div class="views-element-container block">
+
+  
+    
+
+      <div><div class="js-view-dom-id-181f31d85a4b026ff9df8294dff002d46fa3249e71f3f703b13bfd07a867d405">
+  
+  
+  
+
+  
+  
+  
+
+        <div class="views-row"><div class="mb-2"><div class="media--item media--image">
+    
+  
+
+
+
+            <div class="media__image">  
+<img src="/sites/default/files/styles/landscape_1170/public/image/rep._barbara_lee__284_29.jpg?itok=1h2oFANa" width="1170" height="878" alt="Rep. Barbara Lee (CA) meets with FCNL constituents, Annual Meeting 2017" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+
+</div>
+      
+
+  </div>
+</div><h3 class="h2"><a href="/updates/2021-12/rep-barbara-lee-diane-truly-one-who-speaks-truth-power" hreflang="en">Rep. Barbara Lee: &quot;Diane is truly one who speaks truth to power.&quot;</a></h3><div class="meta small">December 17, 2021</div></div>
+  
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  
+  </div>
+            </div>
+                                        <div  class="col-lg-4">
+              <div class="views-element-container block">
+
+  
+    
+
+      <div><div class="js-view-dom-id-6427ecec33c3bf0133013252153989909705170e15d5943a3c0588b15abcaa63">
+  
+  
+  
+
+  
+  
+  
+
+        <div class="views-row"><article role="article" about="/updates/2021-12/senate-vote-saudi-weapons-sale-shows-progress-opponents-yemen-war" class="mb-4 bar--primary">
+  
+  
+      <h3>
+      <a href="/updates/2021-12/senate-vote-saudi-weapons-sale-shows-progress-opponents-yemen-war" rel="bookmark" ><span>Senate Vote on Saudi Weapons Sale Shows Progress for Opponents of Yemen War</span>
+</a>
+    </h3>
+        <div>
+      <div  class="meta mb-2 small">December 17, 2021</div>
+    </div>
+  </article>
+</div>
+        <div class="views-row"><article role="article" about="/updates/2021-12/national-faith-leaders-join-senators-call-congress-pass-build-back-better-act" class="mb-4 bar--primary">
+  
+  
+      <h3>
+      <a href="/updates/2021-12/national-faith-leaders-join-senators-call-congress-pass-build-back-better-act" rel="bookmark" ><span>National Faith Leaders Join Senators to Call on Congress to Pass Build Back Better Act to Support Working Families</span>
+</a>
+    </h3>
+        <div>
+      <div  class="meta mb-2 small">December 16, 2021</div>
+    </div>
+  </article>
+</div>
+  
+    
+
+  
+  
+
+      <footer>
+      <a class="btn btn-sm btn-outline-white" href="/updates">More updates</a>
+    </footer>
+  
+  
+</div>
+</div>
+
+  
+  </div>
+            </div>
+                        </div>
+    </div>
+  </div>
+  <div  class="w-full">
+        <div  class="pt-5 pb-5 pb-lg-6 container">
+            <div class="row justify-content-between">
+                              <div  class="col">
+              <div class="block">
+
+  
+    
+
+      
+
+
+
+      <div class="row">
+              <div class="mb-3 col-md-4 mb-md-0"><div>
+  
+  
+            <div class="mb-2"><div class="media--item media--image">
+    
+  
+
+
+
+            <div class="media__image">  
+<img src="/sites/default/files/styles/square_800/public/2021-09/say%20no%20to%20the%20new%20jim%20crow.jpg?h=ebb25d42&amp;itok=DNcFnmsN" width="800" height="800" alt="Protestors carry sign that reads: &quot;Say no to the new Jim Crow&quot;" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+
+</div>
+      
+
+  </div>
+</div>
+                  <h3 class="mb-2"><a href="/dismantling-racism-and-militarism-us-foreign-policy">Dismantling Racism &amp; Militarism</a></h3>
+      </div>
+</div>
+              <div class="mb-3 col-md-4 mb-md-0"><div>
+  
+  
+            <div class="mb-2"><div class="media--item media--image position-relative">
+    
+  
+
+
+
+            <div class="media__image">  
+<img src="/sites/default/files/styles/square_800/public/image/jennifer_33417.jpg?itok=9I_R8pg0" width="800" height="800" alt="Advocacy Teams Summit Group work Annual Meeting 2018" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+
+</div>
+      
+
+
+
+
+  <div class="image__attribution">
+    <div class="visually-hidden">
+      Attribution    </div>
+                  <div class="field__item">Jennifer Domenick</div>
+              </div>
+
+
+  </div>
+</div>
+                  <h3 class="mb-2"><a href="/act/join-advocacy-team">Join an Advocacy Team</a></h3>
+      </div>
+</div>
+              <div class="col-md-4 mb-md-0"><div>
+  
+  
+            <div class="mb-2"><div class="media--item media--image position-relative">
+    
+  
+
+
+
+            <div class="media__image">  
+<img src="/sites/default/files/styles/square_800/public/2020-12/Jennifer_Domenick_Love_Life_Images_04670.JPG?h=961418a8&amp;itok=rcjqQyrt" width="800" height="800" alt="Two advocates laugh and hold a sign that says &quot;Love Thy Neighbor&quot;" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+
+</div>
+      
+
+
+
+
+  <div class="image__attribution">
+    <div class="visually-hidden">
+      Attribution    </div>
+                  <div class="field__item">Jennifer Domenick</div>
+              </div>
+
+
+  </div>
+</div>
+                  <h3 class="mb-2"><a href="/act/young-adult-advocates">Young Adult Advocacy</a></h3>
+      </div>
+</div>
+          </div>
+  
+
+  
+  </div>
+            </div>
+                        </div>
+    </div>
+  </div>
+  <div  class="w-full bg-danger">
+        <div  class="pt-5 pb-5 container">
+            <div class="row justify-content-between">
+                              <div  class="col">
+              <div  class="block row">
+  
+  
+
+      <div class="col-lg-6 p-0 mb-4 mb-lg-0 pull-up-xs">
+
+
+
+            <div class="wl-full pull-up"><div class="media--item media--image position-relative">
+    
+  
+
+
+
+            <div class="media__image">  
+<img src="/sites/default/files/styles/widescreen_1170/public/2021-10/20211010_DAG_0857.jpg?h=9e749a14&amp;itok=01SSQNz1" width="1170" height="658" alt="FCNL Advocacy Corps march holding Love Thy Neighbor signs in front of U.S. Capitol" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+
+</div>
+      
+
+
+
+
+  <div class="image__attribution">
+    <div class="visually-hidden">
+      Attribution    </div>
+                  <div class="field__item">Matthew D&#039;Agostino / FCNL</div>
+              </div>
+
+
+  </div>
+</div>
+      
+</div>
+
+  
+  <div class="col-lg-6 pl-lg-5">
+    <h2  class="h2">Spring Lobby Weekend</h2>
+    
+
+
+
+            <div><h3 class="font-serif font-weight-normal">March 12 - 15, 2022</h3>
+
+<p>Join hundreds of young adults in Washington, D.C. for Spring Lobby Weekend—our young adult advocacy conference and day of action.</p>
+
+<p><a class="btn btn-outline-white" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="0d815d72-41b2-4bf9-a907-0e07d1c3089b" href="/events/spring-lobby-weekend-2022">Learn More</a></p>
+</div>
+      
+
+  </div>
+
+  </div>
+            </div>
+                        </div>
+    </div>
+  </div>
+  <div  class="w-full bg-info position-relative">
+          <div class="bg-image" style="background-image: url('/sites/default/files/2020-09/Spring%20Lobby%20Weekend%202019-20190326-127.jpg');"></div>
+        <div  class="pt-5 pb-5 container">
+            <div class="row justify-content-between">
+                              <div  class="col">
+              <div class="views-element-container block">
+
+  
+            <h2>Issues We Work On </h2>
+        
+
+      <div><div class="js-view-dom-id-ed65b45a2232811bcb1825c55103abea403a68cae96a8270b290f677d47c0fbb">
+  
+  
+  
+
+  
+  
+  
+
+  <div id="views-bootstrap-we-seeks-front"  class="grid views-view-grid">
+  <div class="row">
+          <div  class="col-md-6 pr-lg-5 mb-3">
+        <div about="/taxonomy/term/125">
+  
+  <h3 ><span>We seek a world free of war and the threat of war.</span>
+</h3>
+  
+  
+
+
+
+      <ul class="font-sans-serif small list-unstyled row">
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/middle-east-iran" hreflang="en">Middle East &amp; Iran</a></li>
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/nuclear-weapons" hreflang="en">Nuclear Weapons</a></li>
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/peacebuilding" hreflang="en">Peacebuilding</a></li>
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/us-wars-militarism" hreflang="en">U.S. Wars &amp; Militarism</a></li>
+          </ul>
+  
+
+</div>
+
+      </div>
+          <div  class="col-md-6 pr-lg-5 mb-3">
+        <div about="/taxonomy/term/126">
+  
+  <h3 ><span>We seek a society with equity and justice for all.</span>
+</h3>
+  
+  
+
+
+
+      <ul class="font-sans-serif small list-unstyled row">
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/gun-violence-prevention" hreflang="en">Gun Violence Prevention</a></li>
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/immigrants-refugees" hreflang="en">Immigrants &amp; Refugees</a></li>
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/justice-reform" hreflang="en">Justice Reform</a></li>
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/native-americans" hreflang="en">Native Americans</a></li>
+          </ul>
+  
+
+</div>
+
+      </div>
+          <div  class="col-md-6 pr-lg-5 mb-3">
+        <div about="/taxonomy/term/127">
+  
+  <h3 ><span>We seek a community where every person&#039;s potential may be fufilled.</span>
+</h3>
+  
+  
+
+
+
+      <ul class="font-sans-serif small list-unstyled row">
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/economic-justice" hreflang="en">Economic Justice</a></li>
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/voting-elections" hreflang="en">Voting &amp; Elections</a></li>
+          </ul>
+  
+
+</div>
+
+      </div>
+          <div  class="col-md-6 pr-lg-5 mb-3">
+        <div about="/taxonomy/term/128">
+  
+  <h3 ><span>We seek an earth restored.</span>
+</h3>
+  
+  
+
+
+
+      <ul class="font-sans-serif small list-unstyled row">
+              <li class="mb-2 col-lg-6"><i class="fal fa-angle-double-right fa-lg text-dream"></i>&ensp;<a href="/issues/environment-energy" hreflang="en">Environment &amp; Energy</a></li>
+          </ul>
+  
+
+</div>
+
+      </div>
+      </div>
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  
+  </div>
+            </div>
+                        </div>
+    </div>
+  </div>
+  <div  class="w-full">
+        <div  class="container">
+            <div class="row justify-content-between">
+                              <div  class="col">
+              <div class="views-element-container block w-full bg-light pt-5 bg-people">
+  <div class="container">
+    <div class="row justify-content-between">
+
+      <div class="d-flex justify-content-between align-items-start d-lg-block col-lg-3 mb-4">
+        
+                  <h2 class="mb-4">Featured Events</h2>
+                
+        <a href="/events" class="btn btn-sm btn-outline-primary">See More</a>
+      </div>
+
+      <div class="col-lg-8">
+        <div><div class="js-view-dom-id-8860a5cb8f6f239a10076b4b85114177a0d2eaef1d73d2ea5f11a671f7c1ba11">
+  
+  
+  
+
+  
+  
+  
+
+        <div><article role="article" about="/events/virtual-witness-wednesday-silent-reflection-53" class="mb-4 bg-white p-3 media">
+  
+  
+      <div class="w-33 pr-3">
+      <div><div class="media--item media--image position-relative">
+    
+  
+
+
+
+            <div class="media__image">  
+<img src="/sites/default/files/styles/square_800/public/2020-11/Welcome%20Center00025.JPG?h=fc02b3b6&amp;itok=JwOriZSQ" width="800" height="800" alt="Friends gathered in a circle for silent worship" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+
+</div>
+      
+
+
+
+
+  <div class="image__attribution">
+    <div class="visually-hidden">
+      Attribution    </div>
+                  <div class="field__item">Jennifer Domenick</div>
+              </div>
+
+
+  </div>
+</div>
+    </div>
+    <div class="media-body">
+    <h3>
+      <a href="https://fcnl.actionkit.com/event/witness-wednesday-virtual-events/2509/" rel="bookmark"  target="_blank"><span>Virtual Witness Wednesday Silent Reflection </span>
+</a>
+    </h3>
+          <div class="meta">      <time datetime="2022-01-12T17:15:00-05:00">January 12, 2022, 5:15</time>
+ - <time datetime="2022-01-12T18:00:00-05:00">6 PM EST</time>
+
+  &ensp;|&ensp;      Online
+  </div>
+      </div>
+</article>
+</div>
+        <div><article role="article" about="/events/special-silent-reflection-holding-bridget-moix-light" class="mb-4 bg-white p-3 media">
+  
+  
+      <div class="w-33 pr-3">
+      <div><div class="media--item media--image">
+    
+  
+
+
+
+            <div class="media__image">  
+<img src="/sites/default/files/styles/square_800/public/image/welcome_center00052.jpg?h=21091f82&amp;itok=ZTgdk476" width="800" height="800" alt="Worship" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+
+</div>
+      
+
+  </div>
+</div>
+    </div>
+    <div class="media-body">
+    <h3>
+      <a href="https://fcnl.actionkit.com/event/witness-wednesday-virtual-events/2510/" rel="bookmark"  target="_blank"><span>Special Silent Reflection: Holding Bridget Moix in the Light</span>
+</a>
+    </h3>
+          <div class="meta">      <time datetime="2022-01-19T17:15:00-05:00">January 19, 2022, 5:15</time>
+ - <time datetime="2022-01-19T18:00:00-05:00">6 PM EST</time>
+
+  &ensp;|&ensp;      Online
+  </div>
+      </div>
+</article>
+</div>
+  
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+            </div>
+                        </div>
+    </div>
+  </div>
+    </div>
+  </article>
+
+  
+  </div>
+
+
+        </div>
+      </div>
+      </main>
+
+      <footer class="page__footer py-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+
+          <div class="col-9 col-md-5 col-lg-3 d-print-none">
+            <a href="/" title="FCNL Home">
+              <img class="img-fluid mb-3" src="/themes/custom/fcnl2020/assets/img/FCNL.NoTag.Blue.svg" alt="FCNL logo">
+            </a>
+          </div>
+
+          <div class="col-12 col-lg-8">
+            
+  <div class="block block--fcnl2020-footer">
+
+  
+    
+
+      
+  
+
+
+  <ul class="nav--footer d-print-none nav">
+                                          <li class="nav-item">
+                      <a href="/donate" class="nav-link">Donate</a>
+                  </li>
+                                      <li class="nav-item">
+                      <a href="/events" class="nav-link" data-drupal-link-system-path="node/4606">Events</a>
+                  </li>
+                                      <li class="nav-item">
+                      <a href="/signup" class="nav-link">Subscribe</a>
+                  </li>
+                                      <li class="nav-item">
+                      <a href="/press-room" class="nav-link" data-drupal-link-system-path="node/4752">Press Room</a>
+                  </li>
+                                      <li class="nav-item">
+                      <a href="/privacy-policy" class="nav-link" data-drupal-link-system-path="node/4725">Privacy Policy</a>
+                  </li>
+                                      <li class="nav-item">
+                      <a href="https://act.fcnl.org/letter/contact-us/" class="nav-link">Contact</a>
+                  </li>
+            </ul>
+
+
+  
+  </div>
+
+            <div class="mb-3 d-print-none">
+              
+  <div id="block-footersociallinks" class="block block--icon-links">
+
+  
+    
+
+      
+
+
+
+      <div class="d-flex">
+              <div class="mr-3">  <div class="paragraph paragraph--type--icon-link paragraph--view-mode--default">
+          
+
+
+
+            <div><a href="https://www.facebook.com/quakerlobby" target="_blank">
+
+
+
+            <div><div class="fontawesome-icons">
+      <div class="fontawesome-icon">
+  <i class="fab fa-facebook-f " data-fa-transform="" data-fa-mask="" style="--fa-primary-color: #000000; --fa-secondary-color: #000000;"></i>
+</div>
+
+  </div>
+</div>
+      
+</a></div>
+      
+
+      </div>
+</div>
+              <div class="mr-3">  <div class="paragraph paragraph--type--icon-link paragraph--view-mode--default">
+          
+
+
+
+            <div><a href="https://twitter.com/fcnl" target="_blank">
+
+
+
+            <div><div class="fontawesome-icons">
+      <div class="fontawesome-icon">
+  <i class="fab fa-twitter " data-fa-transform="" data-fa-mask="" style="--fa-primary-color: #000000; --fa-secondary-color: #000000;"></i>
+</div>
+
+  </div>
+</div>
+      
+</a></div>
+      
+
+      </div>
+</div>
+              <div class="mr-3">  <div class="paragraph paragraph--type--icon-link paragraph--view-mode--default">
+          
+
+
+
+            <div><a href="https://www.instagram.com/quakerlobby/" target="_blank">
+
+
+
+            <div><div class="fontawesome-icons">
+      <div class="fontawesome-icon">
+  <i class="fab fa-instagram " data-fa-transform="" data-fa-mask="" style="--fa-primary-color: #000000; --fa-secondary-color: #000000;"></i>
+</div>
+
+  </div>
+</div>
+      
+</a></div>
+      
+
+      </div>
+</div>
+              <div class="mr-3">  <div class="paragraph paragraph--type--icon-link paragraph--view-mode--default">
+          
+
+
+
+            <div><a href="https://www.youtube.com/user/QuakerLobby" target="_blank">
+
+
+
+            <div><div class="fontawesome-icons">
+      <div class="fontawesome-icon">
+  <i class="fab fa-youtube " data-fa-transform="" data-fa-mask="" style="--fa-primary-color: #000000; --fa-secondary-color: #000000;"></i>
+</div>
+
+  </div>
+</div>
+      
+</a></div>
+      
+
+      </div>
+</div>
+          </div>
+  
+
+  
+  </div>
+
+            </div>
+            <div class="tiny mb-3">
+              
+  <div id="block-footertext" class="block block--basic">
+
+  
+    
+
+      
+
+
+
+            <div><p>The Friends Committee on National Legislation, <a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="b20e30d1-fdba-42a7-ae97-4eb083e56ee6" href="/about/fcnl-education-fund">FCNL Education Fund</a>, and <a href="https://www.friendsplacedc.org/">Friends Place on Capitol Hill</a> are national nonprofit, nonpartisan Quaker organizations working collectively to advance peace, justice, and environmental stewardship.</p>
+</div>
+      
+
+  
+  </div>
+
+            </div>
+            <div class="tiny text-blue font-condensed mb-3">
+              
+  <div id="block-footeraddressphone" class="block block--basic">
+
+  
+    
+
+      
+
+
+
+            <div><p class="font-condensed text-primary">245 Second St, NE, Washington, DC 20002<br />
+Phone: (202) 547-6000 Toll Free: (800) 630-1330 Fax: (202) 547-6019</p>
+</div>
+      
+
+  
+  </div>
+
+            </div>
+          </div>
+
+          <div class="col-12 pull-up d-print-none">
+            <a href="https://www.guidestar.org/profile/53-0178883" title="Guidestar profile" target="_blank">
+              <img src="/themes/custom/fcnl2020/assets/img/guideStarSeal_2018_gold.svg" alt="Guidestar logo">
+            </a>
+             <img src="/themes/custom/fcnl2020/assets/img/LEED-Platinum.png" alt="LEED Platinum Certified" class="ml-2">
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  
+        <div class="modal fade" id="modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        
+  <div id="block-lightboxblock" class="block">
+
+  
+    
+
+      
+
+<article role="article" about="/node/5675" class="lightbox">
+  
+  
+      <div>
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div  class="block d-print-none donation-form">
+  
+  
+    <div class="row">
+      <div class="col-lg-12">
+         
+<img src="/sites/default/files/styles/lightbox_widescreen/public/2021-12/WINA-Peace-is-possible-3-2000px.jpg?itok=mb04apfh" width="800" height="265" alt="" loading="lazy" typeof="foaf:Image" class="img-fluid" />
+
+
+      </div>
+
+      <div class="col-lg-12 px-4 py-2">
+
+                  <h2>Your Gift is an Act of Hope</h2>
+        
+                  <p>
+            Your support is essential to change the world. Will you support your values with action now?
+          </p>
+        
+        <form class="form form-inline donation-starter-form align-items-start" data-drupal-selector="fcnl-donation-starter-form" action="https://act.fcnl.org/donate/fcnl-donation-dec2021/?source=YE2021-lightbox1" method="get" id="fcnl-donation-starter-form" accept-charset="UTF-8">
+  <fieldset data-drupal-selector="amount" id="amount--wrapper" class="fieldgroup form-composite required js-form-item form-item js-form-wrapper form-wrapper" required="required" aria-required="true">
+      <legend>
+    <span class="visually-hidden fieldset-legend js-form-required form-required">Select a donation amount</span>
+  </legend>
+  <div class="fieldset-wrapper">
+            <div class="donation-amounts js-form-item form-item js-form-type-radios form-item-amount js-form-item-amount form-no-label form-group">
+      <label for="amount" class="visually-hidden js-form-required form-required">Select a donation amount</label>
+        <div class="js-form-item form-item js-form-type-radio form-item-amount js-form-item-amount form-check">
+  <input class="d-none amount form-radio form-check-input" id="250" type="radio" name="amount" value="250" />
+
+
+  <label class="btn btn-info btn-sm mr-2 w-100 form-check-label option" for="250">$250</label>
+
+  
+  </div>
+<div class="js-form-item form-item js-form-type-radio form-item-amount js-form-item-amount form-check">
+  <input class="d-none amount form-radio form-check-input" id="125" type="radio" name="amount" value="125" />
+
+
+  <label class="btn btn-info btn-sm mr-2 w-100 form-check-label option" for="125">$125</label>
+
+  
+  </div>
+<div class="js-form-item form-item js-form-type-radio form-item-amount js-form-item-amount form-check">
+  <input class="d-none amount form-radio form-check-input" id="75" checked="checked" type="radio" name="amount" value="75" />
+
+
+  <label class="btn btn-info btn-sm mr-2 w-100 form-check-label option" for="75">$75</label>
+
+  
+  </div>
+<div class="js-form-item form-item js-form-type-radio form-item-amount js-form-item-amount form-check">
+  <input class="d-none amount form-radio form-check-input" id="35" type="radio" name="amount" value="35" />
+
+
+  <label class="btn btn-info btn-sm mr-2 w-100 form-check-label option" for="35">$35</label>
+
+  
+  </div>
+
+        </div>
+
+          </div>
+</fieldset>
+  
+<input type="hidden" name="source" value="YE2021-lightbox1" class="form-control" />
+<div class="pl-md-2 mb-2 mb-md-0 js-form-item form-item js-form-type-number form-item-amount-other js-form-item-amount-other form-no-label form-group">
+        <span class="field-prefix"><span class="mr-1 small font-sans-serif">$</span></span>
+        
+<input class="border-info form-control-sm font-sans-serif other-amount form-number form-control" placeholder="Other" data-drupal-selector="edit-amount-other" type="number" id="edit-amount-other" name="amount_other" value="" step="1" size="20" />
+
+        </div>
+<div class="flex-break"></div><div class="frequency js-form-item form-item js-form-type-radios form-item-frequency js-form-item-frequency form-no-label form-group">
+        <div class="js-form-item form-item js-form-type-radio form-item-frequency js-form-item-frequency form-check">
+  <input data-drupal-selector="edit-frequency-0" type="radio" id="edit-frequency-0" name="frequency" value="0" checked="checked" class="form-radio form-check-input" />
+
+
+  <label class="form-check-label option" for="edit-frequency-0">One-Time</label>
+
+  
+  </div>
+<div class="js-form-item form-item js-form-type-radio form-item-frequency js-form-item-frequency form-check">
+  <input data-drupal-selector="edit-frequency-1" type="radio" id="edit-frequency-1" name="frequency" value="1" class="form-radio form-check-input" />
+
+
+  <label class="form-check-label option" for="edit-frequency-1">Monthly</label>
+
+  
+  </div>
+
+        </div>
+<div class="flex-break"></div>  
+<input autocomplete="off" data-drupal-selector="form-lmkqkv-ut2i86-oon9d4gvvpudkkvxd120albwudryw" type="hidden" name="form_build_id" value="form-lMKQkV-uT2i86-OOn9D4GVvpuDkkVxd120ALbwUdRYw" class="form-control" />
+  
+<input data-drupal-selector="edit-fcnl-donation-starter-form" type="hidden" name="form_id" value="fcnl_donation_starter_form" class="form-control" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2">  <input class="btn-danger button js-form-submit form-submit btn-sm btn btn-primary" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Yes, I will" />
+
+
+</div>
+
+</form>
+
+      </div>
+    </div>
+</div>
+
+    </div>
+  </div>
+    </div>
+  </article>
+
+  
+  </div>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fal fa-times fa-xs"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/4760","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"lightboxId":"5675","ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/search":true},"user":{"uid":0,"permissionsHash":"36dbe66f61f08a0689a7dfecde64547655ab23c1d7c6aa8f5c086c699e1e9b94"}}</script>
+<script src="/sites/default/files/js/js_USzTU-Wf6kgKC8Ai2SQ6foj-JXXm5w_W30cd2VUn8ZQ.js"></script>
+<script src="https://addevent.com/libs/atc/1.6.1/atc.min.js"></script>
+<script src="/sites/default/files/js/js_BlZJk8YgxOcNb0NidJjYkGae-UXffnNoG9J2Rm_8hrQ.js"></script>
+
+  </body>
+</html>

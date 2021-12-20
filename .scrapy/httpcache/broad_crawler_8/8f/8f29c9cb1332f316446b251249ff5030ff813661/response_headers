@@ -1,0 +1,20 @@
+Content-Length: 28792
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.16.1
+X-Powered-By: Express
+Expires: Tue, 21 Dec 2021 05:30:00 GMT
+Etag: W/"21f1c-Ws86DNSVA0mDf1HOsEogBG2twRw"
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Show-Carambola-Ad: true
+Show-Do-Not-Sell-Link: true
+Platform: Desktop
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 22:00:38 GMT
+Age: 0
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kiad7000137-IAD, cache-bur17541-BUR
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1640037639.937424,VS0,VE58
+Vary: Accept-Encoding, show-carambola-ad, show-do-not-sell-link, platform, X-OPTIONS

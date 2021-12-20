@@ -1,0 +1,19 @@
+Date: Mon, 20 Dec 2021 21:53:10 GMT
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Link: <https://www.mobilecause.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.mobilecause.com/wp-json/wp/v2/pages/84811>; rel="alternate"; type="application/json"
+Link: <https://www.mobilecause.com/?p=84811>; rel=shortlink
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-Powered-By: WP Engine
+X-Cacheable: bot
+Cache-Control: max-age=10800, must-revalidate
+X-Cache: MISS
+X-Cache-Group: bot
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c0c1a136ebb522d-LAX
+Content-Encoding: gzip

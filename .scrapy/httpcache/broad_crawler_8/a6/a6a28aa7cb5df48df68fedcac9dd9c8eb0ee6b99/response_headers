@@ -1,0 +1,24 @@
+Date: Mon, 20 Dec 2021 22:00:28 GMT
+Content-Type: text/plain; charset=UTF-8
+Zendesk-Api-Version: 2022-01-01
+P3P: CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+Vary: Accept, Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=3600, public
+Strict-Transport-Security: max-age=31536000;
+Etag: W/"e277b4c67f93fa0fc5c6666291fd2f99"
+X-Zendesk-Origin-Server: classic-app-server-79fffd5b4f-gdnqp
+X-Request-Id: 6c0c24c58e087aa2-IAD
+X-Request-Id: 6c0c24c58e087aa2-IAD
+X-Runtime: 0.092221
+X-Zendesk-Zorg: yes
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+Cf-Cache-Status: MISS
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5JfdE%2BvUot5NUCLpUDkAUIS5XcKslDMtExfmj8t1l11P5ikglluSdYQmmuoR5MDCs4PVbr9wWxKfCvaDyHV4%2B21DXAT7t0mLYYhqN4y8Xi2YKLfusFFZZoIOahSB4LhdqPYUdfKhgHs%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Set-Cookie: __cfruid=0d7e2b8e81086283ba18f857b4a68dd8690ce67e-1640037628; path=/; domain=.dictionary.zendesk.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Cf-Ray: 6c0c24c58e087aa2-LAX

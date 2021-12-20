@@ -1,0 +1,16 @@
+Content-Length: 115143
+Content-Type: text/html; charset=utf-8
+X-Request-Id: d5f1288a-a640-4a8f-a7b6-3fdd6d2cce7b
+Content-Encoding: gzip
+Access-Control-Allow-Origin: *
+X-Aicache-Os: xxx.xx.15.200:81
+X-Aicache-Os: x.xxx.155.142:80
+Cache-Control: max-age=15
+Expires: Mon, 20 Dec 2021 21:56:03 GMT
+Date: Mon, 20 Dec 2021 21:55:48 GMT
+Vary: Accept-Encoding
+Vary: User-Agent
+Set-Cookie: region=USA; expires=Sun, 20-Mar-2022 21:55:48 GMT; path=/; domain=.cnbc.com
+Set-Cookie: AKA_A2=A; expires=Mon, 20-Dec-2021 22:55:48 GMT; path=/; domain=cnbc.com; secure; HttpOnly
+Link: <https://static-redesign.cnbcfm.com>;rel="preconnect",<https://www.googleoptimize.com>;rel="preconnect"
+Content-Security-Policy: frame-ancestors 'self' *.cnbc.com *.acorns.com;

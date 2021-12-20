@@ -1,0 +1,20 @@
+Content-Length: 20490
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+X-Pingback: https://www.thesaurus.com/e/xmlrpc.php
+Link: <https://www.thesaurus.com/e/?p=7071>; rel=shortlink
+Last-Modified: Mon, 20 Dec 2021 07:39:14 GMT
+Pragma: public
+Etag: "a3e4439d120daa69cd2b32785ae03e5d"
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Expires: Tue, 21 Dec 2021 05:30:00 GMT
+Cached-Cookies: (null); ; (null); ;
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 22:00:28 GMT
+Age: 0
+X-Served-By: cache-iad-kcgs7200067-IAD, cache-bur17545-BUR
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1640037628.974944,VS0,VE62
+Vary: Accept-Encoding, cached-cookies, X-OPTIONS

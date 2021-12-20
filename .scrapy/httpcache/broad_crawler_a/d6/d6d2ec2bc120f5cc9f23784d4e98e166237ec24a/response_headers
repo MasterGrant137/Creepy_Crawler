@@ -1,0 +1,24 @@
+Date: Mon, 20 Dec 2021 23:30:28 GMT
+Content-Type: text/plain
+Expires: Tue, 21 Dec 2021 01:30:28 GMT
+Cache-Control: public, max-age=7200
+X-Rtd-Domain: dateutil.readthedocs.io
+X-Rtd-Project: 
+X-Rtd-Project-Method: subdomain
+X-Rtd-Version-Method: path
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Permissions-Policy: interest-cohort=()
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Vary: Accept-Language, Cookie, Accept-Encoding
+Content-Language: en
+X-Served: Django-Proxito
+X-Backend: web-i-0be049453d5d67f5b
+Cf-Cache-Status: MISS
+Last-Modified: Mon, 20 Dec 2021 23:30:28 GMT
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c0ca89f3b4d7c50-LAX
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

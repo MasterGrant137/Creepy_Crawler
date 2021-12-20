@@ -1,0 +1,20 @@
+Content-Length: 21377
+Content-Type: text/html; charset=utf-8
+Server: nginx
+X-Dns-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Etag: "18b6a-uSWNZdwgwlnioosHYKl+KfJbW+8"
+Accept-Ranges: none
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Akamai-Transformed: 9 19474 0 pmb=mRUM,2
+Date: Mon, 20 Dec 2021 21:55:38 GMT
+Set-Cookie: AKA_A2=A; expires=Mon, 20-Dec-2021 22:55:38 GMT; path=/; domain=foxbusiness.com; secure; HttpOnly
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=8
+Link: <https://fonts.gstatic.com>;rel="preconnect",<https://a57.foxnews.com>;rel="preconnect",<https://js.taplytics.com>;rel="preconnect",<https://static.criteo.net>;rel="preconnect",<https://contributor.google.com>;rel="preconnect",<https://c.amazon-adsystem.com>;rel="preconnect",<https://cdn.opecloud.com>;rel="preconnect",<https://bat.bing.com>;rel="preconnect",<https://c.lytics.io>;rel="preconnect"
+Link: <https://static.foxnews.com>;rel="preconnect",<https://global.fncstatic.com>;rel="preconnect"
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains ; preload

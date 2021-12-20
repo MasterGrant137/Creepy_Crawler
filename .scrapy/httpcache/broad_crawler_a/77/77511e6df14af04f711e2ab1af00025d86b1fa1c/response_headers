@@ -1,0 +1,13 @@
+Content-Length: 126
+Accept-Ranges: bytes
+Age: 12705
+Cache-Control: public,max-age=14400,public
+Content-Security-Policy: frame-ancestors 'self' https://mycourses.w3schools.com;
+Content-Type: text/plain
+Date: Mon, 20 Dec 2021 23:33:21 GMT
+Etag: "0499428a3f5d71:0"
+Last-Modified: Mon, 20 Dec 2021 13:11:54 GMT
+Server: ECS (oxr/8378)
+X-Cache: HIT
+X-Content-Security-Policy: frame-ancestors 'self' https://mycourses.w3schools.com;
+X-Powered-By: ASP.NET

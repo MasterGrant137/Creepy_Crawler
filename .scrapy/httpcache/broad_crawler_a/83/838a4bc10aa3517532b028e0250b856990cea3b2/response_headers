@@ -1,0 +1,10 @@
+Date: Mon, 20 Dec 2021 23:30:25 GMT
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://nbviewer.org/robots.txt
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ce%2BTbe35AzJxqVwONCSUGgDJg3oWHuxk5h2qlWjRk35vKeW1WrTG0yjwj%2Bgexxa4AvodoDi92pVTphnbqgQqDF9FPMgDXo6d2BvrGltcVTNhdF8PuBnTmTJTDJtOufTANH9nEVegYg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c0ca8901ce47dbc-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

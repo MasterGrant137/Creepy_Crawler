@@ -1,0 +1,20 @@
+Content-Length: 49
+Server: GitHub.com
+Content-Type: text/plain; charset=utf-8
+Last-Modified: Wed, 10 Nov 2021 15:34:22 GMT
+Access-Control-Allow-Origin: *
+Etag: "618be67e-31"
+Expires: Mon, 20 Dec 2021 23:40:26 GMT
+Cache-Control: max-age=600
+X-Proxy-Cache: MISS
+X-Github-Request-Id: 1FEA:0E6A:56E3EA:6A9EE2:61C11212
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 23:30:26 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-bur17558-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640043026.344503,VS0,VE99
+Vary: Accept-Encoding
+X-Fastly-Request-Id: 7530cc75f4cb96056b05914b5097c01d9325b87e

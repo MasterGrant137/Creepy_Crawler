@@ -1,0 +1,17 @@
+Content-Length: 17131
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.16.1
+X-Powered-By: Next.js
+Etag: "13ad4-n4MFfmAWgVkxZ69gVg2mJK471zU"
+Content-Encoding: gzip
+Cache-Control: max-age=7200, public
+Via: 1.1 varnish, 1.1 varnish
+Platform: Desktop
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 22:00:26 GMT
+Age: 5235
+X-Served-By: cache-iad-kiad7000029-IAD, cache-bur17579-BUR
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1640037627.812437,VS0,VE60
+Vary: Accept-Encoding, platform, X-OPTIONS

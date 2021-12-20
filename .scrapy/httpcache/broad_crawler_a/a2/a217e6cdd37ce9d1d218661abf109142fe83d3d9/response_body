@@ -1,0 +1,196 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The resource cannot be found.</title>
+    <style type="text/css">
+        body {
+            font-family: "-apple-system",BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Ubuntu,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 14px;
+            height: 100%;
+            margin: 0;
+            background-color: #fff;
+        }
+
+        A {
+            color: #007ACC;
+            text-decoration: none;
+        }
+        A:hover {
+            text-decoration: underline;
+        }
+
+        .header {
+            background-color: #0078d4;
+            color: #fff;
+            height: 40px;
+            font-size: 14px;
+        }
+
+        .header .logo {
+            height: 20px;
+            margin: 9px 5px 0 9px;
+        }
+
+        .header .product-name {
+            vertical-align: top;
+            padding-top: 10px;
+            display: inline-block;
+        }
+
+        .content {
+            margin-left: 15%;
+            margin-right: 5%;
+        }
+
+        .error-summary {
+            margin-bottom: 40px;
+        }
+
+        .error-code {
+            display: inline-block;
+            vertical-align: top;
+            color: #777;
+            font-size: 200px;
+            line-height: 130px;
+            margin-top: 60px;
+            margin-right: 40px;
+        }
+
+        .error-details {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 60px;
+            max-width: 500px;
+        }
+
+        .error-details > h1 {
+            font-size: 28px;
+            margin: 0;
+            text-transform:uppercase;
+            font-weight:normal;
+        }
+        .error-details > h3 {
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        .error-details .action {
+            font-size: 16px;
+        }
+
+        .error-details .action-text {
+            vertical-align: middle;
+        }
+
+        .error-details > .helpful-links > a {
+            margin-right: 10px;
+        }
+
+        .more-info {
+            min-width:600px;
+        }
+
+        .more-info > pre {
+            margin: 20px 0;
+            white-space: pre-wrap;
+        }
+
+        .tips, .additionalDetails {
+            min-width:500px;
+            margin: 40px 0;
+        }
+
+        .tips > ul {
+            list-style-type: square;
+        }
+
+        .tips > ul > li {
+            margin-bottom: 10px;
+        }
+
+        .additionalDetails > h3 {
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+        .additionalDetails .title {
+            font-weight: bold;
+            color: #444;
+        }
+
+        .additionalDetails .info {
+            color: #777;
+        }
+
+        .additionalDetails > div {
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span><img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABMklEQVR4Xu3UrUtDYRTH8eeMweCGccF/YNFNNmw2NZpMiyYVtKhgEIsvYQwmGGwTTIOlLQgWwe5AxffgWzBZLJsYRMTHb/DCZduzHbzVH3w4cOD8ynO5pl+stSnswTOKxKDJDE4pHfpzIcc+FljswyCDE3bTvQqlrUQYY5hFHgnHXRXzIvIeukshFxQlsIonaPKILZRxjLfgICgsOw6/cI0KljCK5O8NOhPHFJ1z+MAVLnGOC9yICHt94tiFQYnjTRMxMXhQRF8YPf+F4yji01qbgWdIZBQN4BkWrzhDHdtYxCSG4ff6sKWtNMdoKD6lFl6Qdv0cwqV5Rg0Eet9Y7ngUEakzCjB4wK2irIkJbndcr7yBAzREJMtMY91Rfo8Ryo76PVISK132g1jDHQ7hh+9+AMwVLZmudBWFAAAAAElFTkSuQmCC" /></span>
+        <span class="product-name">Azure DevOps Services</span>
+    </div>
+    <div class="content">
+        <div class="error-summary">
+            <div class="error-code">404</div>
+            <div class="error-details">
+                <h1>Not Found</h1>
+                
+                <p>We could not find the requested page</p>
+                
+                    <p><a class="action" href="/">
+                        <img border="0" style="margin-right:10px;vertical-align:middle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABp0lEQVR42mJkcAFUUg+wdt9hHIfP/Z07ewvGWLNt1rZtm0Hd1bZtG8FVUDNGbdt92u36v5OdT/J84zd+t8ciepbKlOE93uYex9jHShZzm3xFHazNYFJYTgZHSOUdfqMkF+jKIiSlkl2cSVSnL8O4QcGm8zLdmMsfNONewYMTKMWPbCdRF+nCGlZzn6bEAo+qQW3Ks53/WzoVaUgNYoGnGURvMki2LfRjEM8EU4mnGE5UTzKF7YwhTsEG8wwVgynNUq4T1W06cpUWLOJJ8naVxZQL5iMySdRFirKC8qzlOfKWwefBvMExsvuQBxFuUJZH/cEWXiG7Y7wZTJz7JNtrvEB2dwnBHOMNsttHSoSnWM6j9vAjh8nuLU4Ec5CvSNSzrKAcWfzCKfL2NTuDWUllniSqp5nDN6zlTy6St6eowspgFhBoQlQ3Kc+rlOQ6BWtFYH4wN+jCQD4j2b6gN525HmLSTJawOsmjP7KehcwkFsiuARvIoC1P8l89R0+2spyGJHywA4mzkgyOkcpb/EpJztGdRYk/tvQMZXjkE94izgmyWMUjt8nXQ4uLbK++p3bRAAAAAElFTkSuQmCC" /><span class="action-text">Go back home</span>
+                    </a></p>
+                
+                <p class="helpful-links">
+                    <a href="https://go.microsoft.com/fwlink/?LinkID=242573&amp;clcid=409" target="_blank">Service Status and Support</a>
+                    <a href="https://twitter.com/AzureDevOps" target="_blank">@AzureDevOps</a>
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="more-info">
+            <h3>More information about this error</h3>
+            <p>The resource cannot be found.</p>
+
+            
+        </div>
+        
+        <div class="tips">
+            <h3>Here are some additional tips</h3>
+            <ul>
+                
+                        <li>Verify the URL you are trying to access is correct</li>
+                    
+            </ul>
+        </div>
+        
+    </div>
+    <script src="/_static/3rdParty/_scripts/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript">
+        function getError() {
+            return "eyJVcmkiOiJodHRwczovL2Rldi5henVyZS5jb206NDQzL3JvYm90cy50eHQiLCJTdGF0dXNDb2RlIjo0MDQsIk1lc3NhZ2UiOiJUaGUgcmVzb3VyY2UgY2Fubm90IGJlIGZvdW5kLiIsIkRldGFpbHMiOiIiLCJDb250ZW50IjpudWxsLCJJZGVudGl0eSI6IiJ9";
+        }
+
+        try {
+            if (typeof window.external !== "undefined" && typeof window.external.notifyError !== "undefined") {
+                window.external.notifyError(getError());
+            }
+            else if (typeof window.notifyError !== "undefined") {
+                window.notifyError(getError());
+            }
+        }
+        catch (x) {
+            document.write("<p>" + x + "</p>");
+        }
+    </script>
+</body>
+</html>
+
+

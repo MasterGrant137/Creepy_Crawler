@@ -1,0 +1,20 @@
+Server: nginx
+Date: Mon, 20 Dec 2021 23:36:16 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Vary: Accept
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-Discourse-Route: categories/index
+Cache-Control: no-cache, no-store
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'none'; script-src https://github.community/logs/ https://github.community/sidekiq/ https://github.community/mini-profiler-resources/ https://aws1.discourse-cdn.com/github/assets/ https://aws1.discourse-cdn.com/github/brotli_asset/ https://github.community/extra-locales/ https://sea1.discourse-cdn.com/github/highlight-js/ https://sea1.discourse-cdn.com/github/javascripts/ https://sea1.discourse-cdn.com/github/plugins/ https://sea1.discourse-cdn.com/github/theme-javascripts/ https://sea1.discourse-cdn.com/github/svg-sprite/ 'self' *.usabilla.com 'sha256-V3lKevaKW4eYFcy1FRk0LWBAMJewtT7yyB4A6UDPGsI=' 'sha256-HWCOPUWPqwPJg3c6/OLnhZndvtetSnDsa2LFuCkUc7g=' 'sha256-nZDxHQ59Jxxhx2mJWYo8R4yRAGnJKzNNMGbzM6u/NRo=' https://d6tizftlrpuof.cloudfront.net/; worker-src 'self' https://aws1.discourse-cdn.com/github/assets/ https://aws1.discourse-cdn.com/github/brotli_asset/ https://sea1.discourse-cdn.com/github/javascripts/ https://sea1.discourse-cdn.com/github/plugins/; frame-ancestors 'self'; manifest-src 'self'
+X-Discourse-Cached: skip
+X-Request-Id: 31fbabf7-b805-4c1a-a0ff-a23c9c5c07e9
+X-Discourse-Trackview: 1
+Content-Encoding: gzip
+Discourse-Proxy-Id: app-router-tiehunter02.sea1
+Strict-Transport-Security: max-age=31536000
