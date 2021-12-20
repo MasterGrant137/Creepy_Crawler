@@ -1,0 +1,21 @@
+Content-Length: 627
+Date: Mon, 20 Dec 2021 16:13:32 GMT
+X-Content-Type-Options: nosniff
+Last-Modified: Mon, 06 Dec 2021 17:35:58 GMT
+Etag: "6e7-5d27db090173c-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding,X-Forwarded-Proto
+Content-Encoding: gzip
+Expires: Mon, 03 Jan 2022 16:13:32 GMT
+X-Xss_Protection: 1; mode=block
+Content-Security-Policy: default-src https:;connect-src https:;font-src https: data:;frame-src https:;img-src https: data:;media-src https:;object-src https:;script-src 'unsafe-inline' 'unsafe-eval' https:;style-src 'unsafe-inline' https:;
+Content-Type: text/plain; charset=UTF-8
+X-Host: www.nimh.nih.gov
+X-Url: /robots.txt
+Cache-Control: public, max-age: 3600
+Age: 0
+X-Cache: MISS
+X-Backend: pubprd.nimh.nih.gov
+X-Cache-Hits: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Strict-Transport-Security: max-age=31557600; includeSubDomains; preload

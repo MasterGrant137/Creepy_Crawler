@@ -1,0 +1,17 @@
+Content-Length: 23
+Content-Type: text/plain
+Last-Modified: Wed, 10 Nov 2021 20:59:09 GMT
+Accept-Ranges: bytes
+Server: 
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: same-origin
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Date: Mon, 20 Dec 2021 13:20:09 GMT
+Etag: "50d8a018e8ae96732c8a2ba663c61d4e"
+X-Cache: Hit from cloudfront
+Via: 1.1 8dbb022aca84dcb0b30c03cd8d06f3ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C4
+X-Amz-Cf-Id: P2hgceK7zWOzbev7oalqF23PAt7EvEgK14_xv5_OmER5O9ue1mhYag==
+Age: 15523

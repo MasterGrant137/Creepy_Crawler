@@ -1,0 +1,11 @@
+Content-Length: 0
+Date: Mon, 20 Dec 2021 16:13:35 UTC
+Server: tsa_a
+Location: https://ads.twitter.com/?ref=en-btc-how-twitter-ads-work
+Set-Cookie: guest_id_marketing=v1%3A164001681527383753; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:35 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A164001681527383753; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:35 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_o4ssDHe4fuFzpKAoM/bZqA=="; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:35 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A164001681527383753; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:35 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Cache-Control: no-cache, no-store, max-age=0
+X-Response-Time: 3
+X-Connection-Hash: 8809e83b0cb4d5f7e999be1ddfae61f84546ac23df1268aed1cbd6ecf29a7419

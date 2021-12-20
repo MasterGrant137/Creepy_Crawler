@@ -1,0 +1,23 @@
+Content-Length: 652
+Cache-Control: private,max-age=0
+Content-Type: text/html
+Expires: Sun, 05 Dec 2021 16:13:32 GMT
+Accept-Ranges: bytes
+Server: 
+X-Sharepointhealthscore: 0
+Public-Extension: http://schemas.microsoft.com/repl-2
+Sprequestguid: b7ac0ea0-b72d-70c9-856b-f91f03b5e1e8
+Request-Id: b7ac0ea0-b72d-70c9-856b-f91f03b5e1e8
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+Sprequestduration: 10
+Spiislatency: 0
+X-Content-Type-Options: nosniff
+X-Ms-Invokeapp: 1; RequireReadOnly
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Strict-Transport-Security: max-age=31557600; includeSubDomains
+Microsoftsharepointteamservices: 
+X-Aspnet-Version: 
+Date: Mon, 20 Dec 2021 16:13:32 GMT
+Set-Cookie: asig_persistence=!sTX6sREhuEdP65P4/7dm7nBnHz9NJl4tInZC/xg2Js1vekEIGYNh2nWErv75yji389v827pxJqyWBOI=;Path=/;Version=1;Secure

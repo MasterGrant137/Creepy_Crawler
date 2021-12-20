@@ -1,0 +1,29 @@
+Content-Length: 176
+Server: nginx
+Content-Type: text/html; charset=utf-8
+X-Nyt-Data-Last-Modified: Mon, 20 Dec 2021 03:03:24 GMT
+Last-Modified: Mon, 20 Dec 2021 16:32:29 GMT
+Location: https://www.nytimes.com/interactive/2021/us/covid-cases.html
+Cache-Control: s-maxage=3600,no-cache
+X-Nyt-Route: vi-interactive
+X-Origin-Time: 2021-12-20 17:08:01 UTC
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:54:27 GMT
+Age: 2864
+X-Served-By: cache-lga21922-LGA, cache-bur17525-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1640022867.298137,VS0,VE1
+Vary: Accept, Fastly-SSL
+Set-Cookie: nyt-a=tRErkItTGB532JoYpUUhEa; Expires=Tue, 20 Dec 2022 17:54:27 GMT; Path=/; Domain=.nytimes.com; SameSite=none; Secure
+Set-Cookie: nyt-gdpr=0; Expires=Mon, 20 Dec 2021 23:54:27 GMT; Path=/; Domain=.nytimes.com
+Set-Cookie: nyt-purr=cfshcfhssckf; Expires=Tue, 20 Dec 2022 17:54:27 GMT; Path=/; Domain=.nytimes.com; SameSite=Lax; Secure
+Set-Cookie: nyt-b3-traceid=d4f531015bd34bdd8729c8a9d34f4fb5; Path=/; Domain=.nytimes.com; SameSite=none; Secure
+X-Nyt-App-Webview: 0
+X-Gdpr: 0
+X-Frame-Options: DENY
+Onion-Location: https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/interactive/2020/us/coronavirus-us-cases.html
+X-Api-Version: F-F-X
+Content-Security-Policy: upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:; report-uri https://csp.nytimes.com/report;
+Strict-Transport-Security: max-age=63072000; preload
+X-Nyt-Edge-Cache: HIT-HIT

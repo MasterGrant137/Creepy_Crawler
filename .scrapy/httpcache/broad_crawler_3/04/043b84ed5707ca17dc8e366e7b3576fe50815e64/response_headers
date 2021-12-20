@@ -1,0 +1,10 @@
+Content-Length: 118
+Content-Type: text/html; charset=utf-8
+Location: /
+X-Location: /
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: frame-ancestors 'self'
+Date: Mon, 20 Dec 2021 16:13:39 GMT
+Strict-Transport-Security: max-age=31536000

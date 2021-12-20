@@ -1,0 +1,31 @@
+Content-Length: 17926
+Accept-Ranges: bytes
+Age: 68083
+Cache-Control: max-age=2764800, public
+Content-Encoding: gzip
+Content-Language: en
+Content-Security-Policy: report-uri /report-csp-violation
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 20 Dec 2021 17:38:51 GMT
+Etag: "1639953846"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sun, 19 Dec 2021 22:44:06 GMT
+Link: <https://www.nidcr.nih.gov/grants-funding/funding-priorities>; rel="canonical"
+Link: <https://www.nidcr.nih.gov/grants-funding/funding-priorities>; rel="revision"
+Permissions-Policy: interest-cohort=()
+Referrer-Policy: no-referrer-when-downgrade
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Cookie,Accept-Encoding
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 8
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-2c687548-611d-11ec-825e-7f3005709c6c
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block

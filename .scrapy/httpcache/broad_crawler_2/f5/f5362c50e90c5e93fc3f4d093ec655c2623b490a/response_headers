@@ -1,0 +1,11 @@
+Content-Length: 11795
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+Request-Context: appId=cid-v1:42ba94de-6c34-4a6d-9063-f604bc4d4361
+Strict-Transport-Security: max-age=2592000
+X-Powered-By: ASP.NET
+Set-Cookie: ARRAffinity=618a653a57e871f33bebbab325d6ed05fe74504398268cfe3fff15f15853e359;Path=/;HttpOnly;Secure;Domain=recovercovid.org
+Set-Cookie: ARRAffinitySameSite=618a653a57e871f33bebbab325d6ed05fe74504398268cfe3fff15f15853e359;Path=/;HttpOnly;SameSite=None;Secure;Domain=recovercovid.org
+Date: Mon, 20 Dec 2021 16:13:38 GMT

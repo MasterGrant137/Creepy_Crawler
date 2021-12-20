@@ -1,0 +1,19 @@
+Content-Length: 264
+X-Amz-Id-2: MEySORmxc6HdMn8z7e3HAqa26phrlV/Uaw3FvSwingVt9GXgvW22KEKGGHP8Q7U6Vss0TMcPpqc=
+X-Amz-Request-Id: WF8KSVNA3Q7SMEG0
+Last-Modified: Mon, 27 Sep 2021 17:48:51 GMT
+Etag: "4cb0cd907b8c75bfce64af10de222f12"
+X-Amz-Version-Id: rgHHKwmOvsYu1cdxHhl98.Bgbee1UFjy
+Content-Type: text/plain
+Server: AmazonS3
+Cache-Control: max-age=604800
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:35:41 GMT
+Via: 1.1 varnish
+Age: 291554
+X-Served-By: cache-bur17558-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1640021742.868632,VS0,VE1
+Vary: Accept-Encoding, Verso
+Set-Cookie: CN_geo_country_code=US; Expires=Sat, 18 Jun 2022 17:35:41 GMT; Path=/; Domain=.wired.co.uk; Samesite=None; Secure

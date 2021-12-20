@@ -1,0 +1,13 @@
+Content-Length: 596
+Content-Type: text/plain
+Last-Modified: Fri, 17 Dec 2021 20:20:37 GMT
+Etag: W/"61bcf115-94a"
+Access-Control-Allow-Origin: https://www.cnet.com
+Content-Encoding: gzip
+Date: Mon, 20 Dec 2021 17:35:31 GMT
+Set-Cookie: fly_geo={"countryCode": "us"}; max-age=604800; path=/; domain=.cnet.com; Secure;
+Set-Cookie: fly_device=desktop; max-age=604800; path=/; domain=.cnet.com; Secure;
+Set-Cookie: fly_zip=92201; max-age=604800; path=/; domain=.cnet.com; Secure;
+Vary: Accept-Encoding, User-Agent
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Accept-Ranges: bytes

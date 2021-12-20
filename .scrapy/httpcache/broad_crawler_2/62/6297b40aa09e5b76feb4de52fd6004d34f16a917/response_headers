@@ -1,0 +1,31 @@
+Content-Length: 34845
+Server: nginx
+Date: Mon, 20 Dec 2021 17:35:34 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=2764800, public
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+Link: <https://hr.nih.gov/working-nih/dismissal-and-closures>; rel="canonical"
+Link: <https://hr.nih.gov/working-nih/dismissal-and-closures>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 18 Dec 2021 04:47:46 GMT
+Etag: "1639802866"
+Vary: Cookie,Accept-Encoding
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+From-Origin: same
+Referrer-Policy: no-referrer-when-downgrade
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+X-Request-Id: v-a54ef48e-5fbd-11ec-b8e7-67037c08c4a5
+X-Ah-Environment: prod
+Age: 218863
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 169
+Accept-Ranges: bytes

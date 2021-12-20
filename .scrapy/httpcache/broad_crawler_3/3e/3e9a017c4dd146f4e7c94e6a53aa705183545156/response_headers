@@ -1,0 +1,20 @@
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: AKA_A2=A; expires=Mon, 20-Dec-2021 18:35:33 GMT; path=/; domain=dailymail.co.uk; secure; HttpOnly
+Set-Cookie: percent=839975;Max-Age=31536000;path=/;HttpOnly;Secure
+X-Rs-Ctime: 1800
+Vary: User-Agent
+Vary: Accept-Encoding
+Content-Security-Policy-Report-Only: block-all-mixed-content; report-uri https://dmgm.report-uri.com/r/t/csp/reportOnly
+Server-Timing: origin; dur=189
+Server-Timing: edge; dur=168
+Server-Timing: cdn-cache; desc=MISS
+X-Mol-Georesp: us
+X-Rs-Ben-Time: Mon, 20 Dec 2021 17-35-32 GMT
+X-Rs-Time: Mon, 20 Dec 2021 17-35-32 GMT
+X-Rs-Ops: varnish6-web-a2-fe:6081
+X-Rs-Ben: cljfe-b9:8181
+X-Storage: dmoldarticles
+X-Akamai-Transformed: 9 493033 0 pmb=mRUM,2
+Content-Encoding: gzip
+Cache-Control: max-age=188
+Date: Mon, 20 Dec 2021 17:35:33 GMT

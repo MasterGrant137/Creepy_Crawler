@@ -1,0 +1,17 @@
+Content-Length: 744
+Server: nginx/1.20.1
+Date: Mon, 20 Dec 2021 16:13:31 GMT
+Content-Type: text/plain
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+Last-Modified: Fri, 19 Nov 2021 19:04:18 GMT
+Etag: "88d-5d128f1223080-gzip"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Varnish: 470778 17095
+Age: 2166
+Via: 1.1 varnish-v4
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block

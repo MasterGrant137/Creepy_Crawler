@@ -1,0 +1,24 @@
+Content-Length: 914597
+Date: Mon, 20 Dec 2021 17:35:46 GMT
+Content-Type: application/pdf
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Highwire-Filestream-For: http://pdf.highwire.org/stamped/biorxiv/early/2021/07/29/2021.07.29.454326.full.pdf?variant=full-text.pdf
+X-Highwire-Cache: no-cache
+X-Highwire-Cache-Control: no-cache
+Expires: Sun, 20 Dec 2020 09:35:45 -0800
+Cache-Control: no-cache, max-age=0, must-revalidate, proxy-revalidate
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Highwire-Sitecode: biorxiv
+X-Highwire-Smart-Code: biorxiv_production
+X-Varnish: 746280247
+Via: 1.1 varnish
+X-Varnish-Ttl: 
+X-Varnish-Cache: 
+Cf-Cache-Status: MISS
+Last-Modified: Mon, 20 Dec 2021 17:35:46 GMT
+Accept-Ranges: bytes
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c0aa1066ec57b4d-LAX

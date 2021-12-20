@@ -1,0 +1,15 @@
+Content-Length: 624
+Accept-Ranges: bytes
+Content-Type: text/plain
+Etag: "b02d21b8bbbec45de4588711b10c0a91:1611867201.127997"
+Last-Modified: Thu, 28 Jan 2021 20:53:21 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Mon, 20 Dec 2021 16:13:31 GMT
+Set-Cookie: optimizelyEndUserId=152d2d1798420000ababc0615b0000008c020200; expires=Wed, 20-Dec-2023 16:13:31 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: _ga=GA1.2.1666309416.1640016811; expires=Wed, 20-Dec-2023 16:13:31 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: akavpau_vp1=1640017111~id=8bef12223c057a221003655bc029c4a1; Path=/; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000 ; preload
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+X-Frame-Options: SAMEORIGIN

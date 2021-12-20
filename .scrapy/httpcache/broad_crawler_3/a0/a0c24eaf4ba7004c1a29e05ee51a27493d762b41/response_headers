@@ -1,0 +1,20 @@
+Date: Mon, 20 Dec 2021 17:38:53 GMT
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+Expires: Mon, 20 Dec 2021 18:38:53 GMT
+Cache-Control: max-age=3600
+X-Redirect-By: WordPress
+Location: https://thebulletin.org/climate-change/
+Vary: Accept-Encoding
+X-Varnish: 13903837
+Age: 0
+Via: 1.1 varnish (Varnish/5.2)
+X-Cache: MISS
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PjE5kI%2F%2B9wlqfV89TkYVb7wJ5FK3QxEjytKUZnlyedF%2FiUdk4Gmg0YlYEj4e69B2Q55Acbk%2B7bxKBzYC%2BabOgDKYlW9Ncb8oDWdB54APJkd3c3mqqhy%2FxHLX4dN6rEqnew%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+Cf-Ray: 6c0aa596fca87dbf-LAX

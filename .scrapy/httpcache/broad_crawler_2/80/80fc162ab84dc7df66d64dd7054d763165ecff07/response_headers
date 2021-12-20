@@ -1,0 +1,12 @@
+Content-Length: 0
+Location: https://www.healthcare.gov/glossary/
+Date: Mon, 20 Dec 2021 17:54:26 GMT
+Set-Cookie: optimizelyEndUserId=3cad3c17214c000052c3c0612200000052300000; expires=Wed, 20-Dec-2023 17:54:26 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: _ga=GA1.2.579657447.1640022866; expires=Wed, 20-Dec-2023 17:54:26 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: akavpau_vp1=1640023166~id=6cffb28b05b21aaf5b8d4cc2ffb35db5; Path=/; HttpOnly; Secure; SameSite=None
+Set-Cookie: _abck=48B2E921CFBF94E1F3F3CC6A1234FD93~-1~YAAQPK08F2qLQct9AQAAcvj62AdwFfaLbzGolSkv+04KALBEX4L73TeCygX7ecmlTO/h5hRSD+q3G0Efuky2ykqoXR3MbJlqeZXEoLMk2eBKdTeIy3rwVeBy1Hz5r6eo4fPW/fQTggSKqpbnc7utvOhHw6bOAWuaIqpVvh/b31T0QFN4+7+isB4q3cUX5zJeaPgH/oo2ZKRW4CYWXXcDF4blbmPpQuOCAGMi/7nkZH6SygfPv2u5Ig6+bGUDi1PapKFPzf3/xAvdrFwLjOpQlEglwSsaQw5uwFu/XdpClJa/Qnx3RE24eSk+JeLNC/yzy+iMOVEyaoUMcfacZxb3ErBQzmYBb6nPEC9c913Y3YQSbg/jD9B6SKnKnf7h~-1~-1~-1; Domain=.healthcare.gov; Path=/; Expires=Tue, 20 Dec 2022 17:54:26 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=0D571A085F7204E3FCC496761040A131~YAAQPK08F2uLQct9AQAAcvj62A48n0mlfN69Tm1R5WqcriYBxWlUGMfO7PdaXGExZSADjgAGCgwR/sI2QImTTzgFhGRaCily/hJ8oKN0tGVnN50hYcz1JPDSYNCF7gt1NV/mQJ7WFMXuiwRZzuJVf6UvbKgi7msgz9qFgcKynAxWCY3jwDInLE/RHj5GvT/Nx15xJthqB79IflcKKz1grIsujhNBEoyUwZ4hyH6asV+1DBm5ClnkGOFwGBYVt7T7p4eTrA7UnBIS1BAFMLW6HQeAC39EFuPYwjS0phgy1StsKN/gFWG+~4604978~3163697; Domain=.healthcare.gov; Path=/; Expires=Mon, 20 Dec 2021 21:54:26 GMT; Max-Age=14400
+Strict-Transport-Security: max-age=31536000 ; preload
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+X-Frame-Options: SAMEORIGIN

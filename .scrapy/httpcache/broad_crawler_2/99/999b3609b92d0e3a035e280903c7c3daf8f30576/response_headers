@@ -1,0 +1,31 @@
+Content-Length: 19325
+Accept-Ranges: bytes
+Age: 44264
+Cache-Control: max-age=2764800, public
+Content-Encoding: gzip
+Content-Language: en
+Content-Security-Policy: report-uri /report-csp-violation
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 20 Dec 2021 17:38:52 GMT
+Etag: "1639969066"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 20 Dec 2021 02:57:46 GMT
+Link: <https://www.nidcr.nih.gov/grants-funding/research-funded-by-nidcr-extramural>; rel="canonical"
+Link: <https://www.nidcr.nih.gov/grants-funding/research-funded-by-nidcr-extramural>; rel="revision"
+Permissions-Policy: interest-cohort=()
+Referrer-Policy: no-referrer-when-downgrade
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Cookie,Accept-Encoding
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 6
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-a30f216a-6154-11ec-b044-dfd445508711
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block

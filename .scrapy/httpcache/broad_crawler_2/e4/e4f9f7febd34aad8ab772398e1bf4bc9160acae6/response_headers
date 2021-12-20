@@ -1,0 +1,19 @@
+Content-Length: 23774
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/html; charset=utf-8
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: PHP/7.4.27
+X-Content-Type-Options: nosniff
+X-Frame-Options: SameOrigin
+X-Frame-Options: DENY
+Permissions-Policy: interest-cohort=()
+X-Ua-Compatible: IE=edge
+X-Generator: Drupal 7 (http://drupal.org)
+Link: </index.htm>; rel="canonical",</node/1>; rel="shortlink"
+Content-Security-Policy: upgrade-insecure-requests; frame-src www.recaptcha.net
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Date: Mon, 20 Dec 2021 16:13:40 GMT

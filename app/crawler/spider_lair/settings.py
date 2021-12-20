@@ -1,4 +1,7 @@
-"""Scrapy settings for crawler project."""
+"""Scrapy settings for crawler project.
+
+All relevant settings have been moved to app/api/routes/settings.json.
+"""
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -8,8 +11,10 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 # BOT_NAME = 'crawler'
+
 # SPIDER_MODULES = ['spider_lair.spiders']
 # NEWSPIDER_MODULE = 'spider_lair.spiders'
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'authorcgrant@gmail.com (https://creepy-crawler-1.herokuapp.com/)'
 

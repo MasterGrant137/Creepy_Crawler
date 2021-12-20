@@ -1,0 +1,31 @@
+Content-Length: 47973
+Content-Type: text/html; charset=utf-8
+Etag: W/"27295-B8fgQO21HY6qxGO1zQIoc7amy2c"
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+Feature-Policy: camera 'none';display-capture 'none';geolocation 'none';microphone 'none';payment 'none';usb 'none';xr-spatial-tracking 'none'
+Permissions-Policy: camera=(),display-capture=(),geolocation=(),microphone=(),payment=(),usb=(),xr-spatial-tracking=()
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy-Report-Only: script-src https: blob: 'unsafe-inline' 'unsafe-eval' 'self';base-uri 'self';report-uri https://reporting-api.gannettinnovation.com;report-to default
+Content-Security-Policy: upgrade-insecure-requests;frame-ancestors 'none';object-src 'none'
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:35:32 GMT
+Age: 238705
+Set-Cookie: gnt_region=eyJzdGF0ZSI6IkNBIiwiY2l0eSI6IlBhbG0gU3ByaW5ncyIsInN0YXRlX2NvZGUiOiJDYWxpZm9ybmlhIiwibWFya2V0IjoiVGhlIERlc2VydCBTdW4iLCJkb21haW4iOiJkZXNlcnRzdW4uY29tIiwic2l0ZV9jb2RlIjoiUFBBUyIsImluX21hcmtldCI6dHJ1ZSwiaW5femlwIjp0cnVlfQ==; domain=.usatoday.com; path=/; secure; samesite=lax; max-age=21600;
+Set-Cookie: gnt_ub=63; domain=.usatoday.com; path=/; secure; samesite=lax; max-age=31536000;
+Set-Cookie: gnt_sb=13; domain=.usatoday.com; path=/; secure; samesite=lax; max-age=31536000;
+Set-Cookie: gnt_eid=control:13; domain=.usatoday.com; path=/; secure; samesite=lax; max-age=5184000;
+Set-Cookie: gnt_d=%7B%22w%22%3A%7B%22t%22%3A%2254%22%2C%22f%22%3A%222-q1a2z3434cf2d2%22%2C%22c%22%3A%22Mostly%20Sunny%22%7D%2C%22z%22%3A%2292201%22%2C%22c%22%3A%22indio%22%2C%22s%22%3A%22CA%22%7D; domain=.usatoday.com; path=/; samesite=lax; secure; priority=high;
+Gannett-Cam-Experience-Id: control:13
+Nel: {"report_to":"default","max_age":31557600,"include_subdomains":true,"success_fraction":0.005}
+Report-To: {"max_age":31557600,"include_subdomains":true,"endpoints":[{"url":"https://reporting-api.gannettinnovation.com"}]}
+Link: <https://www.usatoday.com/tangstatic/svg/weather/2-q1a2z3434cf2d2.svg>;rel=preload;as=image;nopush
+X-Cache: MISS, HIT
+X-Timer: S1640021733.918801,VS0,VE2
+Vary: X-AbVariant,X-AbVCfg,X-AltUrl,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=63072000

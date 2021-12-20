@@ -1,0 +1,20 @@
+Content-Length: 45059
+Cache-Control: public, max-age=28800,public
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: Tue, 21 Dec 2021 01:54:27 GMT
+Last-Modified: Mon, 20 Dec 2021 17:54:26 GMT
+Etag: "1640022867:dtagent10227211018092056mw8C"
+Vary: *
+Set-Cookie: ss=o35olsrndd5fjmn5dchlvymi; path=/; secure; HttpOnly; SameSite=Lax
+Set-Cookie: dtCookie=v_4_srv_3_sn_F768557A26DA95EB8EFAF7D6FFD5ADC2_perc_100000_ol_0_mul_1_app-3A417f97a9e04d494d_0; Path=/; Domain=.nih.gov
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin
+Access-Control-Allow-Origin: https://ods.od.nih.gov
+X-Oneagent-Js-Injection: true
+X-Ruxit-Js-Agent: true
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="-661897740"
+Date: Mon, 20 Dec 2021 17:54:27 GMT

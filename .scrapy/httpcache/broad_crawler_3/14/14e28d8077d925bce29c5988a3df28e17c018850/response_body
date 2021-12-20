@@ -1,0 +1,10 @@
+# www.robotstxt.org/
+
+Sitemap: https://www.wired.co.uk/sitemap.xml
+Sitemap: https://www.wired.co.uk/feed/google-latest-news/sitemap-google-news
+Sitemap: https://www.wired.co.uk/feed/rss
+
+User-agent: *
+Disallow: /preview/
+Disallow: /search
+Disallow: /*?redirectURL=

@@ -1,0 +1,22 @@
+Content-Length: 743
+Date: Mon, 20 Dec 2021 17:35:41 GMT
+Content-Type: text/plain; charset=UTF-8
+X-Content-Type-Options: nosniff
+Last-Modified: Mon, 22 Nov 2021 13:29:24 GMT
+Etag: "88c-5d1609cf63500"
+Cache-Control: public, max-age=1209600
+Expires: Mon, 03 Jan 2022 17:35:41 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Highwire-Sitecode: biorxiv
+X-Highwire-Smart-Code: biorxiv_production
+X-Varnish: 681160063
+Age: 342478
+Via: 1.1 varnish
+X-Varnish-Ttl: 
+X-Varnish-Cache: 
+Cf-Cache-Status: HIT
+Accept-Ranges: bytes
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c0aa0eea8437b4d-LAX

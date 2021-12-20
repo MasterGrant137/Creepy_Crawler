@@ -1,0 +1,28 @@
+Content-Length: 12553
+Accept-Ranges: bytes
+Age: 0
+Cache-Control: max-age=900, public
+Content-Encoding: gzip
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 20 Dec 2021 17:39:00 GMT
+Etag: "1640021939"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 20 Dec 2021 17:38:59 GMT
+Link: <https://www.nidcd.nih.gov/health/resources>; rel="canonical"
+Link: <https://www.nidcd.nih.gov/health/resources>; rel="alternate"; hreflang="en"
+Link: <https://www.nidcd.nih.gov/health/resources>; rel="revision"
+Permissions-Policy: interest-cohort=()
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Cookie,Accept-Encoding
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: MISS
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-b69cfc40-61bb-11ec-bbe4-9708b4291c9b
+X-Ua-Compatible: IE=edge

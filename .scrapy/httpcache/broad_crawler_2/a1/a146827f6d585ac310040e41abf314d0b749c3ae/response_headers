@@ -1,0 +1,24 @@
+Content-Length: 2059
+Server: nginx
+Date: Mon, 20 Dec 2021 16:13:42 GMT
+Content-Type: text/plain; charset=UTF-8
+X-Content-Type-Options: nosniff
+Last-Modified: Mon, 13 Dec 2021 14:54:25 GMT
+Etag: "80b-5d3083fac2a40"
+Cache-Control: max-age=1209600
+Expires: Mon, 03 Jan 2022 12:45:11 GMT
+X-Varnish: 200395124 200026012
+Age: 12511
+Via: 1.1 varnish-v4
+X-Varnish-Cache: HIT
+X-Varnish-Server: cache1
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Ssl: true
+X-Forwarded-For: 47.158.19.38
+X-Real-Forwarded-For: 47.158.19.38
+X-Spliturl: 
+X-Varnish-Debug-Hits: 171
+X-Varnish-Debug-Age: 12511
+X-Cookie-Debug: Request cookie: ''
+X-Url-Debug: Request URL: '/robots.txt'
+Accept-Ranges: bytes

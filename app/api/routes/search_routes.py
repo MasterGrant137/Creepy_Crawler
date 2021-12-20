@@ -32,6 +32,7 @@ settings_dict = json.load(open('app/api/routes/settings.json'))
 settings.update(settings_dict)
 crawl_runner = CrawlerRunner(settings)
 search_routes = Blueprint('entries', __name__)
+print(settings_dict)
 
 def validation_errors_to_error_messages(validation_errors):
     """Turn the WTForms validation errors into a simple list."""
@@ -86,7 +87,7 @@ def add_search_entry():
 def scrape_with_crochet(query):
     """Connect Flask with Scrapy asynchronously."""
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    spiders = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3]
+    spiders = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8, caerostris_darwini.BroadCrawler9]
     [crawl_runner.crawl(spider, query=query) for spider in spiders]
     eventual = crawl_runner.join()
     return eventual

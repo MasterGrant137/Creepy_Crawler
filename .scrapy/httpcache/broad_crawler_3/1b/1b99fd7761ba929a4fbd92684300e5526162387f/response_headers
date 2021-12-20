@@ -1,0 +1,11 @@
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=600
+Content-Security-Policy: frame-ancestors 'self';
+Content-Type: text/html;charset=UTF-8
+Date: Mon, 20 Dec 2021 16:13:39 GMT
+Set-Cookie: CFID=94349888; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure
+Set-Cookie: CFTOKEN=4fa599474869c796-7632CFE0-E78B-958C-E1C04477B2FB1B17; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure
+Set-Cookie: JSESSIONID=F3DC769D9F6A19051118A1F4C8381FF2.cfusion; Path=/; Secure; HttpOnly
+Set-Cookie: BNES_CFID=GtXchEGQ3VArCoW88YJFQBmcg53hjAVJVOHwin0/DNzl8K1xqK7izwJ4/007Es3l; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure
+Set-Cookie: BNES_CFTOKEN=9I/fZ33ubs9O6muJl21awkgUubnTjc9Pna62GpN62UG0w+TFQ8sj+mAHQ8Mm793BbdWNbPrEN7joiVwwmAUoNOsDwu2NC5diTWO+QSj8zhQaop7sXeGOlg==; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure
+Set-Cookie: BNES_JSESSIONID=4+tgsmR8iqW95yA89TzVFkAj7DZ22Y2UW+yn46pzer5eQQTo+309vhsjyrkhH2oRVIQR/D79sm1xJl2yVW2ewHuJFme1cdu9uOpRBSJPoOQ=; Path=/; Secure; HttpOnly

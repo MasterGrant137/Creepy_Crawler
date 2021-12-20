@@ -1,0 +1,34 @@
+Content-Length: 0
+Server: 4.0.0
+Content-Type: text/html; charset=UTF-8
+X-Apple-Jingle-Correlation-Key: LC5FUHVOAE6W7U656EKHKVRIEE
+X-Apple-Request-Uuid: 58ba5a1e-ae01-3d6f-d3dd-f11475562821
+X-Apple-Translated-Wo-Url: /WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=401257307&cc=us&urlDesc=/nih-ott-licensing-opportunities
+Apple-Tk: false
+X-B3-Spanid: b8a19dc1944909a2
+X-Apple-Lokamai-No-Cache: true
+B3: 58ba5a1eae013d6fd3ddf11475562821-b8a19dc1944909a2
+X-Apple-Aka-Ttl: Generated Mon Dec 20 08:13:37 PST 2021, Expires Mon Dec 20 08:13:37 PST 2021, TTL 0s
+X-B3-Traceid: 58ba5a1eae013d6fd3ddf11475562821
+X-Webobjects-Loadaverage: 0
+Last-Modified: Mon, 20 Dec 2021 16:13:37 GMT
+Apple-Seq: 0.0
+Access-Control-Allow-Origin: *
+Apple-Originating-System: MZStore
+X-Frame-Options: SAMEORIGIN
+X-Apple-Orig-Url: https://itunes.apple.com/us/app/nih-ott-licensing-opportunities/id401257307?mt=8
+X-Apple-Application-Site: MR22
+Apple-Timing-App: 2 ms
+Location: https://apps.apple.com/us/app/nih-ott-licensing-opportunities/id401257307
+X-Apple-Application-Instance: 3303003
+X-Responding-Instance: MZStore:3303003:::
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Daiquiri-Instance: daiquiri:11896008:mr47p00it-qujn07082301:7987:21RELEASE200:daiquiri-amp-store-l7shared-int-001-mr
+Cache-Control: max-age=0
+Date: Mon, 20 Dec 2021 16:13:37 GMT
+X-Cache: TCP_MISS from a173-222-247-4.deploy.akamaitechnologies.com (AkamaiGHost/10.4.6-37171458) (-)
+X-True-Cache-Key: /L/itunes.apple.com/us/app/nih-ott-licensing-opportunities/id401257307 vcd=2897 ci2=mt=8///
+X-Cache-Remote: TCP_MISS from a23-15-240-47.deploy.akamaitechnologies.com (AkamaiGHost/10.4.6-37171458) (-)
+Vary: X-Apple-Store-Front, Cookie
+Vary: X-Apple-Store-Front, Cookie
+X-Apple-Partner: origin.0

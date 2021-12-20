@@ -1,0 +1,14 @@
+Content-Length: 4583
+Date: Mon, 20 Dec 2021 16:13:33 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Expect-Ct: max-age=604800, enforce, report-uri=http://localhost/report
+X-Content-Type-Options: nosniff
+Content-Security-Policy: self
+Referrer-Policy: strict-origin
+Strict-Transport-Security: max-age=31536000; preload
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html; charset=utf-8; Content-Security-Policy: script-src 'self';  https://nidb.nih.gov https://data.nidb.nih.gov; base-uri https://intramural.nih.gov ; image-src 'self'; style-src: 'self';  'unsafe-inline'; object-src 'none';
+Set-Cookie: JSESSIONID=node01tma33ykserp6bl7emln24afz330.node0;Path=/
+Set-Cookie: JSESSIONID=node01tma33ykserp6bl7emln24afz330;Path=/;Secure;HttpOnly;SameSite=Strict;domain=intramural.nih.gov

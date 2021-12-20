@@ -1,0 +1,31 @@
+Content-Length: 33050
+Server: nginx
+Date: Mon, 20 Dec 2021 17:35:30 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=2764800, public
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+Link: <https://hr.nih.gov/training-center/course-calendar>; rel="canonical"
+Link: <https://hr.nih.gov/training-center/course-calendar>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 20 Dec 2021 15:26:39 GMT
+Etag: "1640013999"
+Vary: Cookie,Accept-Encoding
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+From-Origin: same
+Referrer-Policy: no-referrer-when-downgrade
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+X-Request-Id: v-3a5561ca-61a9-11ec-b302-5b8a485c4bc5
+X-Ah-Environment: prod
+Age: 7728
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 7
+Accept-Ranges: bytes

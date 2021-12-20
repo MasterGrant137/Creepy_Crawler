@@ -1,0 +1,15 @@
+Content-Length: 207
+Date: Mon, 20 Dec 2021 16:13:35 GMT
+Content-Type: text/plain
+Cf-Ray: 6c0a28a76aad7e80-LAX
+Accept-Ranges: bytes
+Cache-Control: public, max-age=10, stale-if-error=86400, stale-while-revalidate=86400
+Etag: 0d8509178996a249a7651fa25315d9e7
+Last-Modified: Thu, 25 Nov 2021 14:43:48 GMT
+Vary: Accept-Encoding
+Cf-Cache-Status: REVALIDATED
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 0
+Set-Cookie: __cf_bm=eC446MBLKEAk6DPXjAG8yNDRsc5rCJyn2OSejrfYwKQ-1640016815-0-AdjSb8PFAMxd8b+lWu78V2ztClpf7IOk7+f4UfibajguGyGhEUFfcXiIpg6CT1Ec4EomFZPOc+RWM9Ml4A2TrQQ=; path=/; expires=Mon, 20-Dec-21 16:43:35 GMT; domain=.investor.twitterinc.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare

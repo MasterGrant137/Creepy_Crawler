@@ -1,0 +1,25 @@
+Content-Type: text/html
+X-Amz-Replication-Status: COMPLETED
+Last-Modified: Mon, 20 Dec 2021 14:54:38 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: VmqZu6tQtyaQQ7rsmGM_S8.V1cqnjVCg
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer-when-downgrade
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Download-Options: noopen
+X-Ua-Compatible: IE=edge,chrome=1
+Content-Security-Policy: default-src 'self' 'unsafe-inline';script-src 'self'  www.gstatic.com www.google.com *.googleapis.com www.googletagmanager.com www.google-analytics.com *.govdelivery.com gateway.foresee.com dap.digitalgov.gov *.instagram.com report.nih.gov *.twitter.com *.twimg.com 'unsafe-eval' 'unsafe-inline'; connect-src 'self' 'unsafe-inline' www.gstatic.com www.google-analytics.com files.nccih.nih.gov *.instagram.com graph.facebook.com *.govdelivery.com cognito-idp.us-east-1.amazonaws.com *.rocbis.com *.foresee.com; style-src 'self'  *.googleapis.com gateway.foresee.com report.nih.gov *.twitter.com *.twimg.com 'unsafe-inline'; font-src 'self' *.googleapis.com fonts.gstatic.com; manifest-src 'self' 'unsafe-inline'; img-src 'self' *.googleapis.com maps.gstatic.com files.nccih.nih.gov *.nih.gov *.vimeo.com *.vimeocdn.com *.g.doubleclick.net www.google-analytics.com www.googletagmanager.com content.govdelivery.com *.twitter.com *.twimg.com *.foresee.com data:;media-src 'self';frame-ancestors 'none';frame-src 'self' www.google.com gateway.foresee.com www.youtube.com www.facebook.com *.vimeo.com *.vimeocdn.com *.nih.gov *.instagram.com *.googletagmanager.com report.nih.gov *.twitter.com *.twimg.com 'unsafe-eval';object-src 'self';upgrade-insecure-requests; block-all-mixed-content;
+X-Generator: deny
+Content-Encoding: gzip
+Date: Mon, 20 Dec 2021 17:35:29 GMT
+Cache-Control: public, max-age=0, must-revalidate
+Etag: W/"dc3b33e588ea604f006117729e177406"
+Vary: Accept-Encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 4208ca8c7c521bdbe71d5b0a82523075.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C1
+X-Amz-Cf-Id: T1pSm_soy93111_QN1iN32TJq2sQZOBtYXpF2zrn3VmeN0296SvvRA==

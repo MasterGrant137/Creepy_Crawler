@@ -1,0 +1,10 @@
+Content-Length: 17
+Server: nginx
+Content-Type: text/plain; charset=utf-8
+X-Powered-By: Express
+Location: https://www.aljazeera.com/news/2020/04/05/former-libya-prime-minister-mahmoud-jibril-dies-from-coronavirus/
+Etag: W/"11-4ExTNZIsXkV/CnzWLJPEp/aZ+Ck"
+X-Rq: sea1 0 4 9980
+Cache-Control: max-age=300, must-revalidate
+Date: Mon, 20 Dec 2021 17:54:27 GMT
+Strict-Transport-Security: max-age=15768000

@@ -1,0 +1,5 @@
+Sitemap: https://www.cnas.org/sitemap.xml
+
+# Don't allow web crawlers to index Craft CMS
+User-agent: *
+Disallow: /admin/

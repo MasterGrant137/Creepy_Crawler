@@ -1,0 +1,22 @@
+Content-Length: 514
+Date: Mon, 20 Dec 2021 17:35:38 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: AWSALB=YC+Cb9sskm3Pd0kM0w1o39DsUxl4dWt+s8z7vmw/vwzSn/RNEXsvjsDrDn1U/MkQLg0Yhz0tbXEyvJLmXW/3ebIl/WH75mo221AlNOh6Kl+K1IPrsK/MVy8Vhe8k; Expires=Mon, 27 Dec 2021 17:35:38 GMT; Path=/
+Set-Cookie: AWSALBCORS=YC+Cb9sskm3Pd0kM0w1o39DsUxl4dWt+s8z7vmw/vwzSn/RNEXsvjsDrDn1U/MkQLg0Yhz0tbXEyvJLmXW/3ebIl/WH75mo221AlNOh6Kl+K1IPrsK/MVy8Vhe8k; Expires=Mon, 27 Dec 2021 17:35:38 GMT; Path=/; SameSite=None; Secure
+Server: nginx
+X-Powered-By: PHP/7.4.12
+Location: https://www.niaid.nih.gov/about/committees-council-federal-advisory
+X-Drupal-Route-Normalizer: 1
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+X-Varnish: 11829535
+Age: 0
+Via: 1.1 varnish (Varnish/6.3)
+X-Varnish-Cache: MISS

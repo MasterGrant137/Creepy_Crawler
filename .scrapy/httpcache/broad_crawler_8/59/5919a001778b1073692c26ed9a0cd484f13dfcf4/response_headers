@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: Server
+Date: Mon, 20 Dec 2021 17:54:34 GMT
+X-Amz-Rid: 5YEB2TAFVFN3CW73Q0Q6
+Cache-Control: max-age=3600
+Expires: Mon, 20 Dec 2021 18:54:34 GMT
+Location: /india/tv/?ref_=nv_tv_in
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 93619d0483de5a982acbcb876b8d6c08.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C4
+X-Amz-Cf-Id: b9xO7eSKWWPD-Fi3uA33Ir_Il9JtJNoNBSkDtAo13OJsawUJS-dPTw==

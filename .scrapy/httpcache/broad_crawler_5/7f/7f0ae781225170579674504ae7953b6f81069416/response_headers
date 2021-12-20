@@ -1,0 +1,12 @@
+Content-Length: 197
+Content-Type: text/html; charset=iso-8859-1
+Date: Mon, 20 Dec 2021 17:14:48 GMT
+Server: Apache/2.4.6 (CentOS) PHP/5.4.16 OpenSSL/1.0.2k-fips
+Location: https://www.espn.com/robots.txt
+Content-Encoding: gzip
+Via: 1.1 varnish (Varnish/6.0), 1.1 4d0d70ec0eabd0560d63af069388e374.cloudfront.net (CloudFront)
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: u1Plb4ZekZgROKGNmOVodq4Sou6jn7Zwmcp6fbCLmwsmgAhBNGdv4w==
+Age: 2366

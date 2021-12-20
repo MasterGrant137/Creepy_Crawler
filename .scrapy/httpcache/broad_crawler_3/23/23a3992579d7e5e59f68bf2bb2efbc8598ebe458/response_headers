@@ -1,0 +1,14 @@
+Content-Length: 0
+Date: Mon, 20 Dec 2021 17:38:55 GMT
+Location: https://www.doi.org/robots.txt
+Cache-Control: max-age=14400
+Cf-Cache-Status: HIT
+Age: 5463
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JMx6LX%2F%2FpVDx%2FiD%2B3ftJdiMoxIGFBIO3m%2BZUWltPWaNPgRkJ8HWGJCcFJykPDYm3NiDK5FWgOXUpQY7ChJWY1LogXiOUsVLFwd35VTmT91JtEPTWDjYVCyQ%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: cloudflare
+Cf-Ray: 6c0aa5a6294a7dad-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

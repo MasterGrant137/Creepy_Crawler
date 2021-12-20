@@ -1,0 +1,12 @@
+Content-Length: 0
+Location: https://www.healthcare.gov/archive/
+Date: Mon, 20 Dec 2021 17:54:26 GMT
+Set-Cookie: optimizelyEndUserId=16ad3c17bc0c000052c3c0613200000051310000; expires=Wed, 20-Dec-2023 17:54:26 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: _ga=GA1.2.820678834.1640022866; expires=Wed, 20-Dec-2023 17:54:26 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: akavpau_vp1=1640023166~id=6cffb28b05b21aaf5b8d4cc2ffb35db5; Path=/; HttpOnly; Secure; SameSite=None
+Set-Cookie: _abck=5662EEFA540DAB859BF631D5637D2430~-1~YAAQFq08F12uCtR9AQAAgvj62AdZbwq6fLHG1bksvG7T/84bCEwzC4InFfIV1M2owaxJSMlyPNbJ3j2pDkxwGdam3bnNT/aFJS00TjxoWWwA9jCw1Llhbu2iGeY7IV/1CqODpQhX0hbMyd4y9OhsMysx4Zs9UNUlb15JOpOyrSuLk5K0K6KlBWmx/MyCMFBSFWBXznGvSuRmuGKMbwx35vwNCxVT0uJ48rTer/vSji2rt/6T4GXXQdSMdvK1mZjg4u209bUz8HCxCbz/tTKDQ6wIrzvUqOWuB/2HlAcwTvB+Ww+MkBm5zZcSWz49+0Iod6d/6Itp42EIX+JaVGtGcCImUldaIJ4s/tRDGxZMFYTYEVE3FYr6g1ZrQKwk~-1~-1~-1; Domain=.healthcare.gov; Path=/; Expires=Tue, 20 Dec 2022 17:54:26 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=89894D1A312317ADA246F86DD99E6DE5~YAAQFq08F16uCtR9AQAAgvj62A7n+cJbOO46MV+Z90snKrW7rSZIRhx9axmf4/b3vMf5/MMbHGIMdhCVSIBs8MaEfUoIWPzcnDiTtjm581IiVdf6jwP8RDa+4YZe14NMjUO27SUm/pv9xZQP9okRg6uFIAawS11/njBBm+Ao/HA684uej7NP5tRE7dkJok7JZGVNYIVAQFE/8UBHd/JkiYsA0OJlnLmZZgp+obSzQo5JncLjiiHXL//dSGNlTLtwMoe8bngaXKg9OXGOtrztSGR83vE+xVsf6uI4NRnP7G0nP4xs4WCT~4604978~3163697; Domain=.healthcare.gov; Path=/; Expires=Mon, 20 Dec 2021 21:54:26 GMT; Max-Age=14400
+Strict-Transport-Security: max-age=31536000 ; preload
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+X-Frame-Options: SAMEORIGIN

@@ -1,0 +1,8 @@
+Content-Length: 0
+Set-Cookie: JSESSIONID="D3F6098B759F016636B9AF0146E82CA6.apd01.na91.prod.almf.dc04.hosted.exlibrisgroup.com:1801"; Version=1; Path=/; HttpOnly
+Set-Cookie: __Secure-UqZBpD3n3naPU21K6FLv5zCTTKNEupZZf92Kuo2FqkGKSg__=v1FjIygw__h0i; Expires=Thu, 18-Dec-2031 17:38:51 GMT; Path=/; Secure; SameSite=None
+X-Frame-Options: SAMEORIGIN
+Location: mng/login
+Content-Type: text/html
+Date: Mon, 20 Dec 2021 17:38:52 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

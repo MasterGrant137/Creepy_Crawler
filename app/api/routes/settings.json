@@ -5,6 +5,7 @@
     "COOKIES_ENABLED": false,
     "CONCURRENT_REQUESTS": 100,
     "HTTPCACHE_ENABLED": true,
+    "REDIRECT_ENABLED": false,
     "ROBOTSTXT_OBEY": true,
     "USER_AGENT": "authorcgrant@gmail.com (https://creepy-crawler-1.herokuapp.com/)"
 }

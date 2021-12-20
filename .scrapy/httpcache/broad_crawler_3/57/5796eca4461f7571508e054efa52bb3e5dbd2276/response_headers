@@ -1,0 +1,19 @@
+Date: Mon, 20 Dec 2021 16:13:37 GMT
+Content-Type: text/plain; charset=utf-8
+Cache-Control: s-maxage=14400, max-age=0
+Etag: W/"5191a1177b183ac5437c199e9ec0df1b"
+Last-Modified: Sun, 19 Dec 2021 22:56:00 GMT
+Cache-Tag: P-3821841,SS-5289629281,PGS-ALL,SW-4
+Content-Security-Policy: upgrade-insecure-requests
+Edge-Cache-Tag: P-3821841,SS-5289629281,PGS-ALL,SW-4
+X-Hs-Cf-Cache-Status: REVALIDATED
+X-Hs-Hub-Id: 3821841
+X-Hs-Prerendered: Sun, 19 Dec 2021 22:56:00 GMT
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bDS8Fn3bVsXhL5g3MDSgOLPuL1vq4yhHm4G2UY8VamMMt%2FMpTKXtBn8%2BN5F8JSXzfQ85tezcWHI18Mt%2Bsjgy5QwTSQxahhT1kZw0zMmPwyve47xSaU6dy7MQy7rINtLHb9uYi12BZg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Set-Cookie: __cfruid=213b624a64d8bd9b15987ed602e0613395b7a84e-1640016817; path=/; domain=.www.chertoffgroup.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Cf-Ray: 6c0a28b288217d1b-LAX
+Content-Encoding: gzip

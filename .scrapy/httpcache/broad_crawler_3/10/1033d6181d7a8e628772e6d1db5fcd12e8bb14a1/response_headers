@@ -1,0 +1,22 @@
+Content-Length: 126
+Date: Mon, 20 Dec 2021 17:35:32 GMT
+Content-Type: text/plain;charset=UTF-8
+Access-Control-Allow-Origin: *
+Expires: Sun, 16 Oct 2022 17:33:52 GMT
+Cache-Control: public, max-age=300
+Last-Modified: Mon, 20 Dec 2021 17:33:52 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-B: V6.3-3 web3
+Age: 100
+X-Cache: hit cached
+X-Cache-Hits: 4
+X-Forwarded-For: 47.158.19.38
+X-Ua-Device: desktop
+Set-Cookie: X-UA-Info=country|US|state|CA|city|Indio|latitude|33.720900|longitude|-116.217200|isp|Frontier Communications|ip|47.158.19.38|device|desktop|time|1640021733; path=/;
+X-Debug: 
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=86400; includeSubDomains
+Accept-Ranges: bytes

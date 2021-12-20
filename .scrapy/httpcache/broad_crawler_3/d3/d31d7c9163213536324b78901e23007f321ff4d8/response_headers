@@ -1,0 +1,26 @@
+Content-Length: 495
+Server: Apache
+Cache-Control: max-age=604800, stale-if-error=86400, stale-while-revalidate=30, public
+Last-Modified: Fri, 10 Dec 2021 22:25:34 GMT
+X-Xss-Protection: 1; mode=block
+Content-Type: text/plain; charset=UTF-8
+X-Origin-Time: 2021-12-13 20:02:47 UTC
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:35:32 GMT
+Age: 595965
+X-Served-By: cache-bur17520-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1640021733.921839,VS0,VE2
+Vary: Host, Accept-Encoding, Fastly-SSL
+X-Nyt-App-Webview: 0
+Set-Cookie: nyt-gdpr=0; Expires=Mon, 20 Dec 2021 23:35:32 GMT; Path=/; Domain=.nytimes.com
+X-Gdpr: 0
+X-Frame-Options: DENY
+Onion-Location: https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/robots.txt
+X-Api-Version: F-GL
+X-Nyt-Route: legacy-gke
+Content-Security-Policy: upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:; report-uri https://csp.nytimes.com/report;
+Strict-Transport-Security: max-age=63072000; preload
+X-Nyt-Edge-Cache: HIT

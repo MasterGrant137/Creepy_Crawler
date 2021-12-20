@@ -1,0 +1,21 @@
+Content-Length: 262
+Content-Type: text/plain
+Server: nginx/1.14.2
+X-Forwarded-Proto: https
+Via: 1.1 varnish, 1.1 varnish
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:35:32 GMT
+Age: 174
+X-Served-By: cache-dca17755-DCA, cache-bur17579-BUR
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 1
+X-Timer: S1640021733.921579,VS0,VE1
+Vary: Accept-Encoding, x-is-gdpr, Origin
+Set-Cookie: atltestbucketv1=6; Domain=.theatlantic.com; Path=/; Max-Age=7776000
+Set-Cookie: is_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600
+Set-Cookie: kppid=c_s0e0vkd79; Path=/; Max-Age=31536000; Domain=.theatlantic.com
+Set-Cookie: atl_uuid=c5ef64e0-4aae-46f1-a2e5-daab0256a2c4; Path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Domain=.theatlantic.com
+X-Is-Gdpr: 0
+X-Jwt-State: Anonymous
+State: HIT-CLUSTER

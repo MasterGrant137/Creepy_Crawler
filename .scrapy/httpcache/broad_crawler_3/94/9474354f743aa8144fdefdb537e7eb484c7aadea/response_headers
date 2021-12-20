@@ -1,0 +1,26 @@
+Content-Length: 14586
+Content-Type: text/html; charset=utf-8
+Cache-Control: s-maxage=180
+Etag: "ef41-gmc5ohdCfa4Q+BcHdtdDVCgo6mY"
+X-Is-Metered: 1
+X-Meter-Content: 412936
+X-Meter-Expires: Sat, 01 Jan 2022 00:00:00 GMT
+X-Powered-By: Next.js
+Via: 1.1 varnish, 1.1 varnish
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:35:35 GMT
+Age: 0
+X-Served-By: cache-dca17723-DCA, cache-bur17579-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640021735.219400,VS0,VE512
+Vary: X-JWT-State, X-JWT-PaymeterAccess, Accept-Encoding, x-is-gdpr
+Set-Cookie: atltestbucketv1=7; Domain=.theatlantic.com; Path=/; Max-Age=7776000
+Set-Cookie: is_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600
+Set-Cookie: kppid=47nsbcd_4uj; Path=/; Max-Age=31536000; Domain=.theatlantic.com
+Set-Cookie: articleViews=[412936]; Domain=.theatlantic.com; Path=/; expires=Sat, 01 Jan 2022 00:00:00 GMT
+Set-Cookie: atl_uuid=8d5f438c-2bf7-40bf-9f6e-b0d47d697fe1; Path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Domain=.theatlantic.com
+X-Is-Gdpr: 0
+X-Jwt-State: Anonymous
+State: MISS-CLUSTER

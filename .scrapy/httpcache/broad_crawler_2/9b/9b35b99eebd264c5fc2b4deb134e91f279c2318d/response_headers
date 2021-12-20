@@ -1,0 +1,24 @@
+Content-Length: 22355
+Date: Mon, 20 Dec 2021 16:08:35 GMT
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.nichd.nih.gov/>; rel="canonical", <https://www.nichd.nih.gov/>; rel="shortlink"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 20 Dec 2021 16:08:35 GMT
+Etag: "1640016515-gzip"
+Vary: Cookie,Accept-Encoding
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-Varnish: 5382621 5309985
+Age: 296
+Via: 1.1 varnish (Varnish/6.2), 1.1 sjc1-bit27
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block
+Set-Cookie: TS01b2e53e=019cd90b4093f6406b0126b828acf9839465b049fbb0710fd07d7df4c3515706622dc03fdc439523cfae86e2e8a71d81606319912e; Path=/; Secure; HTTPOnly

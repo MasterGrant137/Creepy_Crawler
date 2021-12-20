@@ -1,0 +1,8 @@
+Server: nginx
+Date: Mon, 20 Dec 2021 16:13:44 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+X-Powered-By: PHP/7.4.12
+Link: <https://www.soliddigital.com/wp-json/>; rel="https://api.w.org/"
+Strict-Transport-Security: max-age=31536000; includeSubdomains;
+Content-Encoding: gzip

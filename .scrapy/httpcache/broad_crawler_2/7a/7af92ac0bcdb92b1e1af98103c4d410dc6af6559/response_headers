@@ -1,0 +1,31 @@
+Content-Length: 17645
+Accept-Ranges: bytes
+Age: 9793
+Cache-Control: max-age=2764800, public
+Content-Encoding: gzip
+Content-Language: en
+Content-Security-Policy: report-uri /report-csp-violation
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 20 Dec 2021 17:38:51 GMT
+Etag: "1640012037"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 20 Dec 2021 14:53:57 GMT
+Link: <https://www.nidcr.nih.gov/careers-training/job-openings>; rel="canonical"
+Link: <https://www.nidcr.nih.gov/careers-training/job-openings>; rel="revision"
+Permissions-Policy: interest-cohort=()
+Referrer-Policy: no-referrer-when-downgrade
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Cookie,Accept-Encoding
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 2
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-e482c7e6-61a4-11ec-9a2b-0f078c6413af
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block

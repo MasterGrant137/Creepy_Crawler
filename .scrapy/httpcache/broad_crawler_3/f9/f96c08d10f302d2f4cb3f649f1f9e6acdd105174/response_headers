@@ -1,0 +1,26 @@
+Content-Length: 212
+Content-Type: text/plain; charset=utf-8
+Server: nginx
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Cache-Control: max-age=86400, public, must-revalidate
+Etag: W/"640c4962c56a51c45658c728bbbd935a"
+X-Request-Id: 936254bb9218df9783edd2f203c87bfeca3e44c6
+X-Runtime: 0.025149
+Strict-Transport-Security: max-age=31556952; preload
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:54:27 GMT
+Via: 1.1 varnish
+Age: 0
+Set-Cookie: _chorus_geoip_continent=NA; expires=Tue, 21 Dec 2021 17:54:27 GMT; path=/;
+Set-Cookie: vmidv1=0bd9dce9-bbdc-4455-bc64-f80edf8b27ce;Expires=Sat, 19 Dec 2026 17:54:27 GMT;Domain=chicago.suntimes.com;Path=/;SameSite=Lax;Secure
+X-Served-By: cache-bur17575-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1640022867.298369,VS0,VE172
+Vary: Accept-Encoding, X-Chorus-Unison-Testing, X-Chorus-Require-Privacy-Consent, X-Chorus-Restrict-In-Privacy-Consent-Region, Origin, X-Forwarded-Proto, Cookie, X-Chorus-Unison-Testing, X-Chorus-Require-Privacy-Consent, X-Chorus-Restrict-In-Privacy-Consent-Region

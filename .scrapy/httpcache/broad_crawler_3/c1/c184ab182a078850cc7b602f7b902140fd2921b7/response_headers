@@ -1,0 +1,23 @@
+Content-Length: 325848
+Content-Type: text/html; charset=utf-8
+X-Content-Hub: build-env=prod; unique-deployment-key=rn121417; build-version=v2.8.0; build-commit-hash=334187651
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=60
+Content-Security-Policy: default-src 'self' blob: https://*.cnn.com:* http://*.cnn.com:* *.cnn.io:* *.cnn.net:* *.turner.com:* *.turner.io:* *.ugdturner.com:* courageousstudio.com *.vgtf.net:*; script-src 'unsafe-eval' 'unsafe-inline' 'self' *; style-src 'unsafe-inline' 'self' blob: *; child-src 'self' blob: *; frame-src 'self' *; object-src 'self' *; img-src 'self' data: blob: *; media-src 'self' data: blob: *; font-src 'self' data: *; connect-src 'self' data: *; frame-ancestors 'self' https://*.cnn.com:* http://*.cnn.com https://*.cnn.io:* http://*.cnn.io:* *.turner.com:* courageousstudio.com;
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Last-Modified: Wed, 15 Dec 2021 01:08:43 GMT
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:54:27 GMT
+Age: 0
+Set-Cookie: countryCode=US; Domain=.cnn.com; Path=/; SameSite=None; Secure
+Set-Cookie: stateCode=CA; Domain=.cnn.com; Path=/; SameSite=None; Secure
+Set-Cookie: geoData=indio|CA|92201|US|NA|-800|broadband|33.710|-116.200; Domain=.cnn.com; Path=/; SameSite=None; Secure
+Set-Cookie: FastAB=0=8259,1=5556,2=5126,3=9119,4=1303,5=8013,6=0796,7=8516,8=3005,9=9081; Domain=.cnn.com; Path=/; Expires=Sat Jul 01 2023 00:00:00 GMT; SameSite=Lax
+X-Served-By: cache-ord1722-ORD, cache-bur17552-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640022867.799880,VS0,VE314
+Vary: X-Content-Hub-Brand-Site, X-Content-Hub-Language, X-Content-Hub-Agent, X-Content-Hub-Region, Accept-Encoding

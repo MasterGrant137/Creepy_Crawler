@@ -1,0 +1,33 @@
+Date: Mon, 20 Dec 2021 16:13:41 GMT
+Content-Type: text/html; charset=UTF-8
+Cf-Ray: 6c0a28c14b737a8d-LAX
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: max-age=86400, public
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 20 Dec 2021 16:13:39 GMT
+Link: <https://www.cfr.org/blog/quantum-race-united-states-cant-afford-lose?amp> rel="amphtml", <//cdn.cfr.org>; rel=preconnect; crossorigin, <//cdn.cfr.org>; rel=dns-prefetch
+Vary: Accept-Encoding, Cookie, Cookie, Cookie
+Via: 1.1 varnish, 1.1 varnish
+Cf-Cache-Status: DYNAMIC
+Access-Control-Allow-Headers: x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 1000
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Permissions-Policy: interest-cohort=()
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: on
+X-Drupal-Cache: MISS
+X-Drupal-Dynamic-Cache: MISS
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Pantheon-Styx-Hostname: styx-fe4-a-678589d996-zvgjz
+X-Robots-Tag: all
+X-Served-By: cache-mdw17324-MDW, cache-bur17528-BUR
+X-Styx-Req-Id: cb21b4e4-61af-11ec-9277-aac797f77324
+X-Timer: S1640016820.645149,VS0,VE1489
+X-Ua-Compatible: IE=edge
+Server: cloudflare
+Content-Encoding: gzip

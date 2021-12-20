@@ -1,0 +1,18 @@
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: fly_variation=5; expires=Tue, 21-Dec-2021 17:54:27 GMT; Max-Age=86400; path=/; domain=.cbsnews.com; secure
+Set-Cookie: fly_device=desktop; expires=Mon, 20 Dec 2021 17:59:27 GMT; path=/; domain=.cbsnews.com
+Set-Cookie: fly_geo={"countryCode": "US", "region": "CA", "dma": "804", "connection": { "type": "broadband"}}; expires=Mon, 20 Dec 2021 17:59:27 GMT; path=/; domain=.cbsnews.com
+Set-Cookie: CBS_INTERNAL=0; expires=Mon, 20 Dec 2021 17:59:27 GMT; path=/; domain=.cbsnews.com
+Link: <https://cbsnews1.cbsistatic.com>; rel="preconnect", <https://cbsnews2.cbsistatic.com>; rel="preconnect", <https://cbsnews3.cbsistatic.com>; rel="preconnect", </fly/bundles/cbsnewscontent/fonts/ProximaNova-Regular/ProximaNova-Regular.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/ProximaNova-Bold/ProximaNova-Bold.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Bold/PublicoHeadline-Bold.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Black/PublicoHeadline-Black.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoText/PublicoText.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/css/updating-story.min.css?v=fcf5a6aa14543214c5d973ef82091a75>; rel="stylesheet preload"; as="style", <https://cbsnews2.cbsistatic.com/hub/i/r/2020/02/12/80ac4caf-d042-41ff-9cad-f7e98a923598/thumbnail/1280x720/b70583076fabc68314da5065c45cb311/cbsn-fusion-were-definitely-not-prepared-concerns-raised-about-africas-coronavirus-readiness-thumbnail-444737.jpg>; rel="preload"; as="image", <https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.js?v=fcf5a6aa14543214c5d973ef82091a75>; rel="preload"; as="script", <https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.responsive.js?v=fcf5a6aa14543214c5d973ef82091a75>; rel="preload"; as="script", <https://vidtech.cbsinteractive.com>; rel="preconnect"
+Cache-Control: max-age=300, public
+Last-Modified: Mon, 20 Dec 2021 17:54:27 GMT
+Core-Api-Cache-Key: e2c331a4-d10b-4153-bbfc-060bb0c9a64e,8f4964e8-66bb-42c7-9e92-cada2e2f3f70
+X-Tx-Id: 32638c35-f7b7-4434-af9a-30907413d908
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Age: 0
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:54:27 GMT
+Via: 1.1 varnish
+Vary: Accept-Encoding, X-CBSI-ABTest-Bucket-Assignment

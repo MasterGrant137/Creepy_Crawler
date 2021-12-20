@@ -1,0 +1,414 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+	<head>
+		<meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/internet/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://clinicalcenter.nih.gov/index.html" />
+<link rel="shortlink" href="https://clinicalcenter.nih.gov/node/4" />
+<link rel="revision" href="https://clinicalcenter.nih.gov/index.html" />
+
+    			<title>Clinical Center Home Page | Clinical Center Home Page</title>
+      			<link rel="stylesheet" media="all" href="/sites/nihinternet/files/css/css_T2vwevefhSPYwV57ufjXmmB0U8ukC8SOJLgw7S7Bj0Y.css" />
+<link rel="stylesheet" media="all" href="/sites/nihinternet/files/css/css_Cu7KP7sH55terqp9_tFZO16UNzdGfD_d-Z0rMZGSeZ0.css" />
+
+			
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WXP7TNG');</script>
+<!-- End Google Tag Manager -->
+	     <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-154789063-1"></script>
+      <script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-154789063-1');
+	</script> -->
+  </head>
+				<body>
+					<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXP7TNG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+										<a href="#main-content" class="visually-hidden focusable">
+						Skip to main content
+					</a>
+
+					
+											<div class="page-wrapper">
+	<header class="header" role="banner">
+		<div class="banner"></div>
+		<div class="header-inner-wrap width-wrap">
+			<div class="row-fluid hidden-xs">
+				<ul class="org-links links-group">
+					<li>
+						<a title="Go to the U.S. Department of Health and Human Services web site" href="http://www.hhs.gov/" target="_blank" class="hhs-link">Department of Health and Human Services</a>
+					</li>
+					<li>
+						<a title="Go to the National Institutes of Health web site" href="http://www.nih.gov/" target="_blank" class="nih-link">National Institutes of Health</a>
+					</li>
+				</ul>
+			</div>
+			<div class="row-fluid hidden-xs">
+				<div class="header hidden-xs">
+					<div class="logo-bar clear-fix">
+						<div class="CC-Logo">
+							<a href="/" title="Return to Clinical Center home page"><img alt="Clinical Center Logo" src="/themes/internet/images/NIH_CC_logo.png"></a>
+						</div>
+						<div class="search-cluster">
+							<div class="search-bar">
+								<form id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+									<input name="utf8" type="hidden" value="✓">
+									<label for="utf8" style="display:none;">UTF8</label>
+									<input type="hidden" name="affiliate" id="affiliate" value="cc.nih.gov">
+									<label for="affiliate" style="display:none;">Affiliate</label>
+									<input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete" onclick="if(this.value=='Search the Site'){this.value=''}" value="Search the Site">
+									<label for="query" style="display:none;">Query</label>
+									<input type="submit" name="commit" value="Search">
+									<label for="commit" style="display:none;">Submit</label>
+								</form>
+							</div>
+							<div class="links-bar">
+								<a title="Contact Us" href="/contact.html">Contact us</a>
+								|
+								<a title="Site Map" href="/sitemap.html">Site Map</a>
+								|
+								<a title="Staff Only" href="http://intranet.cc.nih.gov/">Staff Only</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-inner-wrap width-wrap">
+			<div class="row">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+            <a class="navbar-brand visible-xs" href="/index.html" title="Return to Clinical Center home page"><img alt="Clinical Center Logo" src="/sites//nihinternet/files/internet-files/internet/general/images/cc-logo-white.png"></a>
+
+						<button type="button" class="site-search-toggle icon-search navbar-toggle collapsed" data-toggle="collapse" data-target="#searchbar" aria-expanded="false" aria-controls="searchbar">
+							<span>Search</span>
+						</button>
+						</div>
+							<div id="searchbar" class="navbar-collapse collapse">
+							<form id="search_form site-search" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+							<label for="utf8" style="display:none;">UTF8</label>
+							<input name="utf8" type="hidden" value="✓">
+							<label for="affiliate" style="display:none;">Affiliate</label>
+							<input type="hidden" name="affiliate" id="affiliate" value="cc.nih.gov">
+							<label for="query" style="display:none;">Query</label>
+							<input type="text" name="query" id="query" autocomplete="off" class="search-responsive-input" onclick="if(this.value=='Search the Site'){this.value=''}" value="Search the Site">
+							<label for="commit" style="display:none;">Submit</label>
+							<input type="submit" name="commit" value="Search" class="search-responsive-submit-btn">
+							</form>
+							</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<div class="nav-bar">
+								<ul class="nav navbar-nav links-group">
+									<li class="first">
+										<a title="About the Clinical Center" href="/about1.html">
+											<span>About the Clinical Center</span>
+										</a>
+									</li>
+									<li>
+										<a title="Search the Studies" href="http://clinicalstudies.info.nih.gov/">
+											<span>Search the Studies</span>
+										</a>
+									</li>
+									<li>
+										<a title="Patient Information" href="/participate/patientinfo1.html">
+											<span>Patient Information</span>
+										</a>
+									</li>
+									<li>
+										<a title="Education and Training" href="/training/index.html">
+											<span>Education &amp; Training</span>
+										</a>
+									</li>
+									<li>
+										<a title="Researchers and Physicians" href="/researchers1.html">
+											<span>Researchers &amp; Physicians</span>
+										</a>
+									</li>
+									<li>
+										<a title="News and Events" class="single" href="/ocmr/index.html">
+											<span>News &amp; Events</span>
+										</a>
+									</li>
+									<li class="last">
+										<a title="Staff Directory" target="_blank" class="single" href="https://ned.nih.gov/search/">
+											<span>Staff Directory</span>
+										</a>
+									</li>
+									<li class="hidden-sm hidden-md hidden-lg">
+										<a href="/contact.html">
+											<span>Contact Us</span>
+										</a>
+									</li>
+									<li class="hidden-sm hidden-md hidden-lg">
+										<a href="/sitemap.html">
+											<span>Site Map</span>
+										</a>
+									</li>
+									<li class="hidden-sm hidden-md hidden-lg">
+										<a href="http://intranet.cc.nih.gov">
+											<span>Staff Only</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>						
+					</nav>
+				</div>
+			</div>
+		</header>
+					
+					  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    	<div id="main-copy" class="front width-wrap">
+	
+
+													
+					<div class="">
+						<div class="row">
+															<!-- Home Page Code goes here -->
+							
+															<div class="alert">
+									<strong>
+										<h2>COVID-19</h2>
+
+<p><strong>Get the latest public health information from <a href="https://www.cdc.gov/coronavirus/" title="latest public health information from CDC">CDC</a>. Get the latest research information from <a href="https://covid19.nih.gov/" title="latest research information from NIH">NIH</a> (<a href="https://salud.nih.gov/covid-19/" title="”Español”">Español</a>).<br />
+NIH staff guidance on coronavirus (<a href="https://employees.nih.gov/pages/coronavirus/" title="NIH staff guidance on coronavirus for NIH Only">NIH Only</a>).</strong></p>
+</strong>
+								</div>
+																						<!-- IF Left Sidebar -->
+
+
+																	<!-- One of Sidebars -->
+									<div class="col-sm-12 col-md-9 content-area col-md-push-3">
+																					<!-- Home Page Code goes here -->
+																				  <article data-history-node-id="4" role="article" about="/index.html" typeof="schema:WebPage" class="page full clearfix">
+
+  
+      <span property="schema:name" content="Clinical Center Home Page " class="hidden"></span>
+
+
+  
+  <div class="content">
+    
+            <div property="schema:text" class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="slider">
+<div class="flexslider">
+<ul class="slides">
+	<li class="flex-active-slide" data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"><a href="/ccc/crc/index.html"><img alt="The NIH Clinical Center" draggable="false" src="/themes/internet/images/home/slider/slide-clinicalcenter-flowers.jpg" /></a>
+	<div class="flex-caption">
+	<h2>There's no other hospital like it.</h2>
+
+	<p>The NIH Clinical Center is the nation's largest hospital devoted entirely to clinical research.</p>
+	<a class="more" href="/ccc/crc/index.html" title="more">More</a></div>
+	</li>
+	<li data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"><a href="/sites/nihinternet/files/internet-files/participate/_pdf/COVID-19_Fact_Sheet.pdf"><img alt="COVID-19 screening changes for patients and visitors" draggable="false" src="/sites/nihinternet/files/assets/home/images/slide-visitors.jpg" /></a>
+	<div class="flex-caption">
+	<h2>COVID-19 Screening Changes for Patients and Visitors</h2>
+
+	<p>Our goal is to keep our patients, visitors and staff safe through the pandemic.</p>
+	<a class="more" href="/sites/nihinternet/files/internet-files/participate/_pdf/COVID-19_Fact_Sheet.pdf" title="more">More</a></div>
+	</li>
+	<li data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"><a href="/treasuretour"><img alt="The Clinical Center Treasure Tour game screen capture" draggable="false" src="/sites/nihinternet/files/assets/home/images/slide-treasuretour.jpg" /></a>
+	<div class="flex-caption">
+	<h2>Online Game for Our Youngest Patients</h2>
+
+	<p>NIHCC Treasure Tour is a fun, interactive, online game that introduces your child to the Clinical Center.</p>
+	<a class="more" href="/treasuretour" title="more">More</a></div>
+	</li>
+	<li data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"><a href="https://videocast.nih.gov/watch=41481"><img alt="COVID-19 Vaccination Event with Vice President Harris at the NIH Clinical Center" draggable="false" src="/themes/internet/images/home/slider/slide-covid_vaccine.jpg" /></a>
+	<div class="flex-caption">
+	<h2>NIH COVID-19 Vaccine Event</h2>
+
+	<p>Watch Vice President Harris receive her second COVID-19 vaccine at the NIH Clinical Center.</p>
+	<a class="more" href="https://videocast.nih.gov/watch=41481" title="more">More</a></div>
+	</li>
+</ul>
+
+<ol class="flex-control-nav flex-control-paging">
+	<li><a class="flex-active" href="#">1</a></li>
+	<li><a href="#">2</a></li>
+	<li><a href="#">3</a></li>
+</ol>
+
+<ul class="flex-direction-nav">
+	<li class="flex-nav-prev"><a class="flex-prev" href="#">Previous</a></li>
+	<li class="flex-nav-next"><a class="flex-next" href="#">Next</a></li>
+</ul>
+
+<div class="flex-pauseplay"><a class="flex-pause" href="#">Pause</a></div>
+
+<ol class="flex-control-nav flex-control-paging">
+	<li><a href="#">1</a></li>
+	<li><a href="#">2</a></li>
+	<li><a href="#">3</a></li>
+	<li><a href="#">4</a></li>
+</ol>
+
+<ul class="flex-direction-nav">
+	<li class="flex-nav-prev"><a class="flex-prev" href="#">Previous</a></li>
+	<li class="flex-nav-next"><a class="flex-next" href="#">Next</a></li>
+</ul>
+
+<div class="flex-pauseplay"><a class="flex-pause" href="#">Pause</a></div>
+</div>
+</div>
+
+<div class="col-xs-12">
+<div class="resources">
+<h2>Resources and Initiatives</h2>
+
+<p><a href="/sites/nihinternet/files/assets/home/pdf/SafetyMetrics.pdf" target="_blank" title="Clinical and Safety Performance Metrics for October 2021">Clinical and Safety Performance Metrics (October 2021)</a></p>
+
+<p>The Clinical Center is pleased to post some key metrics that illustrate our strong commitment to patient and employee safety and continuous improvement.</p>
+</div>
+</div>
+</div>
+      
+  </div>
+
+</article>
+
+
+									</div>
+								
+								<!-- IF Right Sidebar -->
+								
+																	<aside class="col-sm-12 col-md-3 sidebar sidebar-left col-md-pull-9">
+										<div class="left-col">
+											                      												<div class="welcome box">
+<div class="gallin">
+<div class="row">
+<h1><a face="sans-serif" font="" href="/welcome.html" title="Welcome to the NIH Clinical Center">Welcome to the<br />
+NIH Clinical Center </a></h1>
+</div>
+
+<div class="row welcome-portrait" style="display:flex; align-items:center;">
+<div class="text-small-right"><a href="/welcome.html" title="Welcome to the NIH Clinical Center"><img alt="Dr. James K. Gilman" src="/themes/internet/images/home/Gilman.png" /></a></div>
+
+<div class="text-small-left"><a href="/meet-our-doctors/jgilman.html" title="Dr. James K. Gilman"><strong>Dr. James K. Gilman</strong><br />
+Chief Executive Officer</a></div>
+</div>
+</div>
+</div>
+
+<div class="access box clear-fix">
+<h2><a href="/recruit/search/covidsearch.html" title="Join a COVID-19 Trial">Join a COVID-19 Trial</a></h2>
+<a href="/recruit/search/covidsearch.html" title="Join a COVID-19 Trial"><img alt="Patient wearing a mask" src="/themes/internet/images/home/covidtrial.jpg" /></a></div>
+
+<div class="access box clear-fix">
+<h2><a href="/about/visitor1.html" title="Access and Directions">Access &amp; Directions</a></h2>
+<a href="/about/visitor1.html" title="Access and Directions"><img alt="Welcome to the NIH Clinical Center Building P1 Patient Parking Entrance" src="/themes/internet/images/home/entrance.png" /></a></div>
+
+<div class="updates box">
+<form action="https://public.govdelivery.com/accounts/USNIHCC/subscribers/qualify" class="formborder">
+<div class="textbox">
+<h2><label for="email" title="Email Updates"><span>Sign up for</span> Email Updates </label></h2>
+</div>
+
+<div class="formbox"><input class="txt" id="email" name="email" onfocus="this.value=''" placeholder="Enter Email Address" size="18" title="Enter Email Address" /> <input class="search-submit" type="submit" value="Go" /></div>
+</form>
+</div>
+
+																						                      										</div>
+									</aside>
+								
+							
+
+						</div>
+						<!--/.row -->
+                        					</div>
+					<!--/.container -->
+
+									
+
+												
+					</div>
+
+  </div>
+
+
+											<footer>
+	<div class="row">
+		<div class="footer width-wrap">
+			<div class="social-media clear-fix">
+				<ul class="links-group clear-fix">
+					<li>
+						<a title="NIH Clinical Center Facebook Page" href="https://www.facebook.com/NIHClinicalCenter" class="fb">NIH Clinical Center</a></li>
+					<li>
+						<a title="NIH Clinical Center Flickr Page" href="https://www.flickr.com/photos/clinicalcenternih/" class="fl">Clinical Center Flickr</a></li>
+					<li>
+						<a title="NIH Clinical Center on Twitter" href="https://twitter.com/NIHClinicalCntr" class="tw">@NIHClinicalCntr</a></li>
+					<li>
+						<a title="NIH Clincal Center on YouTube" href="https://www.youtube.com/c/NIHClinicalCenter" class="yt">Clinical Center YouTube</a></li>
+					<li>
+						<a title="NIH Clincal Center on YouTube" href="/ocmr/socialmedia.html" class="sm">Other Clinical Center Social Media</a>
+					</li>
+				</ul>
+			</div>
+			<!-- end .social-media -->
+			<div class="footer-links">
+				<span class="footer-text">10 Center Drive, Bethesda, MD 20892 |
+				</span>
+				<a href="/about/visitor1.html" class="LNK-Footer" title="Directions">Directions</a><br>
+				<a href="/disclaimers.html#Privacy" class="LNK-Footer" title="About Privacy at the CC">Privacy Statement</a>
+				|
+				<a href="/accessibility.html" class="LNK-Footer" title="About Accessibility at the CC">Accessibility</a>
+				|
+				<a href="/plain.html" class="LNK-Footer" title="Plain Language">Plain Language</a>
+				|
+				<a href="/foia.html" class="LNK-Footer" title="About FOIA at the CC">FOIA</a>
+				|
+				<a href="/disclaimers.html" class="LNK-Footer" title="CC Disclaimers">Disclaimer</a>
+				<br>
+				<a href="/" class="LNK-Footer" title="CC Home">Clinical Center</a>
+				|
+				<a href="http://www.nih.gov/" class="LNK-Footer" title="NIH Home">National Institutes of Health</a>
+				|
+				<a href="http://www.hhs.gov/" class="LNK-Footer" title="HHS Home">U.S. Department of Health and Human Services</a>
+				|
+				<a href="http://www.usa.gov/" class="LNK-Footer" title="USA.gov Home">USA.gov</a><br>
+				<span>NIH<em>…Turning Discovery Into Health<sup>®</sup>
+					</em>
+				</span>
+			</div>
+			<!-- end .footer-links -->
+		</div>
+	</div>
+</footer></div>
+    <div id="disclaimer">
+      <p>You are now leaving the NIH Clinical Center website.</p>
+
+      <p>This external link is provided for your convenience to offer additional information. The NIH Clinical Center is not responsible for the availability, content or accuracy of this external site.</p>
+
+      <p>The NIH Clinical Center does not endorse, authorize or guarantee the sponsors, information, products or services described or offered at this external site. You will be subject to the destination site’s privacy policy if you follow this link.</p>
+
+      <p>More information about the NIH Clinical Center Privacy and Disclaimer policy is available at <a target="_blank" href="http://www.cc.nih.gov/disclaimers.html">http://www.cc.nih.gov/disclaimers.html</a></p>
+      <button id="disclaimer-link" value="OK">OK</button> <button id="disclaimer-close" class="close" value="Cancel">Cancel</button>
+    </div>
+<script async src="//dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&subagency=NIH-CC"></script>
+										
+
+					<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/4","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"4e73961d4fc219cc6b40071890cc7100864346c96d6606f6091422582f12d7f7"}}</script>
+<script src="/sites/nihinternet/files/js/js_KGJgGzrWN5Na6cAt9OIhyuAyz8QiVVX_iQP2JRVgjtU.js"></script>
+</body>
+				</html>

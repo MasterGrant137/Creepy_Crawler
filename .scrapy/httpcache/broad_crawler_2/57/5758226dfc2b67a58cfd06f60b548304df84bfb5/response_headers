@@ -1,0 +1,15 @@
+Content-Length: 755
+Date: Mon, 20 Dec 2021 16:13:32 GMT
+Content-Type: text/plain
+Last-Modified: Thu, 02 Dec 2021 14:54:28 GMT
+Etag: "61a8de24-8ab"
+Content-Security-Policy: default-src * 'unsafe-eval' 'unsafe-inline' data: filesystem: about: blob: ws: wss:
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Varnish: 392010701 392079053
+Age: 4124
+X-Vc-Cache: HIT
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
