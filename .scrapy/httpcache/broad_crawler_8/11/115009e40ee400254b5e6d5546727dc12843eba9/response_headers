@@ -1,0 +1,15 @@
+Date: Mon, 20 Dec 2021 18:48:30 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Spotify-Request-Id: 00273c57-6d1e-4dc4-9094-aecb87a01264
+Set-Cookie: sp_t=a9197b79785fa0838bfd000ce1b83267; path=/; expires=Tue, 20 Dec 2022 18:48:29 GMT; domain=.spotify.com; samesite=none; secure
+Set-Cookie: sp_landing=https%3A%2F%2Fopen.spotify.com%2Fshow%2F3CFd9ECRa8stNVICppTsMz%3Fsi%3Dw75m58_YT-m7sqqLNYVqxA; path=/; expires=Tue, 21 Dec 2021 18:48:29 GMT; domain=.spotify.com; samesite=none; secure; httponly
+Content-Security-Policy: script-src 'self' 'unsafe-eval' blob: open.scdn.co open-review.scdn.co quicksilver.scdn.co www.google-analytics.com www.googletagmanager.com static.ads-twitter.com analytics.twitter.com s.pinimg.com sc-static.net https://www.google.com/recaptcha/ cdn.ravenjs.com connect.facebook.net www.gstatic.com sb.scorecardresearch.com pixel-static.spotify.com https://s3.amazonaws.com/ki.js/51746/b0R.js turbo.qualaroo.com optimize.google.com cdn.cookielaw.org geolocation.onetrust.com www.googleoptimize.com www.fastly-insights.com static.hotjar.com script.hotjar.com https://www.googleadservices.com/pagead/conversion_async.js https://www.googleadservices.com/pagead/conversion/ https://analytics.tiktok.com/i18n/pixel/sdk.js https://analytics.tiktok.com/i18n/pixel/identify.js https://analytics.tiktok.com/i18n/pixel/config.js https://www.redditstatic.com/ads/pixel.js 'sha256-WfsTi7oVogdF9vq5d14s2birjvCglqWF842fyHhzoNw=' 'sha256-KRzjHxCdT8icNaDOqPBdY0AlKiIh5F8r4bnbe1PQwss='; frame-ancestors 'self';
+Content-Encoding: gzip
+X-Join-The-Band: https://www.spotify.com/jobs/
+Sp-Trace-Id: c7281fc2a2c7fdf0
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+Server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear

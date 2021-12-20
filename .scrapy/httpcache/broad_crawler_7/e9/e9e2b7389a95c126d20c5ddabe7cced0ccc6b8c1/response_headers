@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: Server
+Date: Mon, 20 Dec 2021 18:37:49 GMT
+X-Amz-Rid: AGJJ2KZ1SMTFWPX1PJTT
+Cache-Control: max-age=3600
+Expires: Mon, 20 Dec 2021 19:37:49 GMT
+Location: /privacy/?ref_=ft_pvc
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 1822acd2fad68b4656551ad64acdb49b.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C4
+X-Amz-Cf-Id: wRF7dwQu9Dcsyo7ipjJBLX6lc4oXr4P1cCK6dhOTjE2uRvZOKftGng==

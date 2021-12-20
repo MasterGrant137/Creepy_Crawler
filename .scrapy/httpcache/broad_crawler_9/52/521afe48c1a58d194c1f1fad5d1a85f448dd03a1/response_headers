@@ -1,0 +1,12 @@
+Content-Length: 0
+Server: Kestrel
+Location: https://support.microsoft.com/en-US/topic/168dab11-0753-043d-7c16-ede5947fc64d
+Request-Context: appId=
+X-Correlationid: 0HME3G8I2GET7:00000734
+X-Operationid: 5ec223643b8ab34eb5128ad866abf875
+Expires: Mon, 20 Dec 2021 18:53:24 GMT
+Cache-Control: max-age=0, no-cache, private
+Pragma: no-cache
+Date: Mon, 20 Dec 2021 18:53:24 GMT
+Set-Cookie: EXPID=3304fde8-94b3-4dfd-9515-707550f4d2c4; max-age=31536000; path=/; secure; samesite=none
+Strict-Transport-Security: max-age=86400 ; includeSubDomains

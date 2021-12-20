@@ -1,0 +1,25 @@
+Content-Length: 9809
+Server: nginx
+Content-Type: text/html;charset=UTF-8
+Vary: Accept-Encoding
+X-Robots-Tag: index, follow
+X-Robots-Tag: all
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Strict-Transport-Security: max-age=10368000; includeSubDomains; preload
+X-Frame-Options: DENY
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: ALLOW-FROM *.swissinfo.ch
+Content-Language: en
+X-Backend: rls-01 cae-live 10.101.106.239:42180
+Content-Security-Policy: frame-ancestors https://*.swissinfo.ch
+Content-Encoding: gzip
+X-Akamai-Transformed: 9 - 0 pmb=mRUM,1
+Expires: Mon, 20 Dec 2021 18:59:41 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Mon, 20 Dec 2021 18:59:41 GMT
+Server-Timing: edge; dur=5
+Server-Timing: origin; dur=229
+Server-Timing: cdn-cache; desc=MISS

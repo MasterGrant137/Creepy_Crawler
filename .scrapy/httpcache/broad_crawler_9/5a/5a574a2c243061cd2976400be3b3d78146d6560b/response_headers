@@ -1,0 +1,11 @@
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 18:37:48 GMT
+Via: 1.1 varnish
+Location: https://www.dictionary.com/robots.txt
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-bur17567-BUR
+X-Cache: MISS
+X-Cache-Hits: 0

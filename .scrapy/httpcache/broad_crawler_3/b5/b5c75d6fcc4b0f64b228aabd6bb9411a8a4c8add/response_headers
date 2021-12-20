@@ -1,0 +1,20 @@
+Date: Mon, 20 Dec 2021 19:14:53 GMT
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+Expires: Mon, 20 Dec 2021 20:14:53 GMT
+Cache-Control: max-age=3600
+X-Redirect-By: redirection
+Location: https://thebulletin.org/collections/military-ai/
+Vary: Accept-Encoding
+X-Varnish: 24030704
+Age: 0
+Via: 1.1 varnish (Varnish/5.2)
+X-Cache: MISS
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Tz5PtQMm6rDp9PSqz3BIUexqFR%2BiQkYcrbRtR%2BiW06iyKGsfRZR3K48Peou2Zi0HxZt2fjOvb3ZPjD218sNZE5I2XlTNwh6gidclRE3ttQZo%2Bnacg73SJkHSAHytjXIC%2FA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+Cf-Ray: 6c0b323b5b57533d-LAX

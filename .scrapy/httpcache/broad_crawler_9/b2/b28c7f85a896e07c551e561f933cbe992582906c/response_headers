@@ -1,0 +1,17 @@
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+X-Redirect-By: WordPress
+Location: https://www.dictionary.com/e/crossword/
+Via: 1.1 varnish, 1.1 varnish
+Expires: Tue, 21 Dec 2021 05:30:00 GMT
+Cached-Cookies: (null); ; (null); ;
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 18:37:50 GMT
+Age: 15341
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kjyo7100144-IAD, cache-bur17565-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1640025471.806408,VS0,VE1
+Vary: cached-cookies, X-OPTIONS

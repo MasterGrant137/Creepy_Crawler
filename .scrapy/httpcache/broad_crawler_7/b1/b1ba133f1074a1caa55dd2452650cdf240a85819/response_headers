@@ -1,0 +1,18 @@
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Date: Mon, 20 Dec 2021 18:48:29 GMT
+X-Amz-Rid: PM72K0Z9Z8QK2QH3HVX9
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy-Report-Only: 
+Cache-Control: no-transform
+Content-Encoding: gzip
+Content-Language: en-US
+Vary: accept-encoding,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 47782d990774b4d1f9e002852ed49468.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C4
+X-Amz-Cf-Id: GcxqHyrBVY25umnhAkzNF-9qA0OqESYRlfK82DYseTCBvpHgn3LopQ==

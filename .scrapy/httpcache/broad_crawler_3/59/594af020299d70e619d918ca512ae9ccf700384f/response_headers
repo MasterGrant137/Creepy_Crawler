@@ -1,0 +1,15 @@
+Content-Length: 195
+Date: Mon, 20 Dec 2021 18:37:46 GMT
+Server: tsa_a
+Location: https://twitter.com/en/privacy
+Set-Cookie: guest_id_marketing=v1%3A164002546645232290; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:37:46 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A164002546645232290; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:37:46 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_WIqvmZ09KXGSh8Wz/OPXLA=="; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:37:46 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A164002546645232290; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:37:46 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: no-cache, no-store, max-age=0
+Content-Encoding: gzip
+X-Xss-Protection: 0
+Strict-Transport-Security: max-age=631138519
+X-Response-Time: 10
+X-Connection-Hash: e3201ef1d8a1e57bdcd002362e20dd43e302b1a9492107b56130f2bcbc19e146

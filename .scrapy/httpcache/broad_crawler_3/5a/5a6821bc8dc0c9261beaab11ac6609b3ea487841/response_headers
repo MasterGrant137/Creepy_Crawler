@@ -1,0 +1,14 @@
+Content-Length: 170
+Server: nginx
+Date: Mon, 20 Dec 2021 18:59:39 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+Link: <https://pv-magazine-usa.com/wp-json/>; rel="https://api.w.org/"
+X-Powered-By: WP Engine
+X-Cacheable: CacheAlways: forever
+Cache-Control: max-age=14400, must-revalidate
+X-Cache: HIT: 1
+X-Cache-Group: bot
+Accept-Ranges: bytes

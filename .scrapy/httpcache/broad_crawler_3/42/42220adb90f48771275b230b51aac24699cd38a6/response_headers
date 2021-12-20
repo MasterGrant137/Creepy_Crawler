@@ -1,0 +1,27 @@
+Content-Length: 805
+Date: Mon, 20 Dec 2021 18:59:39 GMT
+Content-Type: text/plain;charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+Cross-Origin-Opener-Policy: unsafe-none
+Cross-Origin-Embedder-Policy: unsafe-none
+X-Drupal-Cache: MISS
+Expires: Mon, 20 Dec 2021 19:24:22 GMT
+Cache-Control: max-age=1800
+Content-Language: en
+Permissions-Policy: interest-cohort=()
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Varnish-Cache: HIT
+Varnish-Age: 317
+Varnish-Cache-Hits: 1
+Cookiedebug: 
+Cf-Cache-Status: EXPIRED
+Last-Modified: Mon, 20 Dec 2021 18:25:30 GMT
+Accept-Ranges: bytes
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: __cf_bm=4M3Bm6Kb.dF5mRkYOCHKO16W9XeIwRGOnI8jzsJnfHo-1640026779-0-ARL8qLxuckfcdYYh7GSOGMoJSzyoxzDTHjQjSzY2jILrdJKYcagi26BLKt+EhGJhkWM1U0PBb+qd81/2iGJvsp0=; path=/; expires=Mon, 20-Dec-21 19:29:39 GMT; domain=.nationalinterest.org; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Cf-Ray: 6c0b1bea9ac07ad5-LAX

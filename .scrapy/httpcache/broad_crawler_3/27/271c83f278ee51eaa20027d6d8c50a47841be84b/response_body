@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /move/success/
+Disallow: /internet/fiber/
+Disallow: /internet/gigabit/
+Disallow: /internet/speed/
+Disallow: /intl/es/internet/fiber/
+Disallow: /intl/es/internet/gigabit/
+Disallow: /intl/es/internet/speed/
+Disallow: /cities/testing/lg/here/
+
+Sitemap: https://fiber.google.com/sitemap.xml

@@ -1,0 +1,20 @@
+Content-Length: 185
+Date: Mon, 20 Dec 2021 18:59:41 GMT
+Content-Type: text/plain
+Content-Encoding: gzip
+Last-Modified: Fri, 30 Jul 2021 10:58:42 GMT
+Etag: "09de7db3185d71:0"
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Referrer-Policy: strict-origin
+Content-Security-Policy: default-src 'self'; font-src *; img-src * data:; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; connect-src * ; frame-src * ; upgrade-insecure-requests; block-all-mixed-content;
+X-Frame-Options: SAMEORIGIN
+Cf-Cache-Status: REVALIDATED
+Expires: Mon, 20 Dec 2021 19:29:41 GMT
+Cache-Control: public, max-age=1800
+Accept-Ranges: bytes
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c0b1bf3bbc67ea2-LAX

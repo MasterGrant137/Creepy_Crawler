@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /tv-apps/
+
+Sitemap: https://assistant.google.com/sitemap.xml
+Sitemap: https://assistant.google.com/sitemap/new_explore_sitemap.xml

@@ -1,0 +1,11 @@
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 18:37:56 GMT
+Via: 1.1 varnish
+Location: https://www.dictionary.com/sign-in?from=grammar-coach&redirect=https://www.thesaurus.com/grammarcoach&uup=1639780905148
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-bur17524-BUR
+X-Cache: MISS
+X-Cache-Hits: 0

@@ -1,0 +1,23 @@
+Date: Mon, 20 Dec 2021 18:37:51 GMT
+Content-Type: text/html; charset=utf-8
+Age: 0
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+X-Cache: MISS
+X-Cache-Lookup: HIT
+X-Envoy-Upstream-Service-Time: 126
+X-Varnish: 202924594
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version
+Access-Control-Expose-Headers: Location, X-Request-Id
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Newp: Yes
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: __cf_bm=0IeAgmJB1fkiC5LS60TS1_FZqOV3qMtiRcP2shbROOU-1640025471-0-AQc1AMPICvDb5RsVNOL8OVObzyRKPDo1e4+86uTAf22i+hkvlB7ZCtXF66Z0z/EjK+gH6V9KlYwJKuX1i2gIcj4=; path=/; expires=Mon, 20-Dec-21 19:07:51 GMT; domain=.typeform.com; HttpOnly; Secure; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q933RRuoz6gUPjrYws0Cp1QTVQ2jSdZihpluCman3%2FfjM6wE3zuK7iiVDmu6jeBRDd4KEHVJj6iGckQPAcXsH2EG4%2Fv1mLmHI88ek4M5qBD3jNzxrxbzOwnnJlPNTA1QKWF8r2aDyUxy"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 6c0afbf88e2352f5-LAX
+Content-Encoding: gzip

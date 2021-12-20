@@ -1,0 +1,12 @@
+Content-Length: 0
+Server: Server
+Date: Mon, 20 Dec 2021 18:59:50 GMT
+X-Amz-Rid: R7JM7GC8ZQ52Y0BS7MNM
+Location: /name/nm0000229/
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 f8304be1f14278efa9d4c5e1a317977f.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C3
+X-Amz-Cf-Id: nztLV6rNqD4HXP0PW2WaQeyAon4MSrVhN3E0Hhrq6OGpJbOx1Lhilg==

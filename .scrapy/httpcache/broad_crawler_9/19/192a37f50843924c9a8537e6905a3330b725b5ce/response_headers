@@ -1,0 +1,14 @@
+Content-Length: 276
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/plain; charset=UTF-8
+Date: Mon, 20 Dec 2021 18:53:19 GMT
+Etag: "18aeaf38b17c601c298785580f4c9530-ssl"
+Referrer-Policy: same-origin
+Strict-Transport-Security: max-age=31536000
+Age: 1
+X-Xss-Protection: 1; mode=block
+X-Nf-Request-Id: 01FQCK1QXPP30GXN0Q2QRV8PEP
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Server: Netlify

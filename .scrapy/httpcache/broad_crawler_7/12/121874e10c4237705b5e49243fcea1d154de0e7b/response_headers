@@ -1,0 +1,17 @@
+Content-Length: 4463
+Content-Type: text/plain
+Server: Server
+Date: Mon, 20 Dec 2021 18:37:47 GMT
+X-Amz-Rid: P8FR3KFECDR90CN9DSDT
+X-Amz-Request-Id: XWNPVBY1KZS9X031
+Last-Modified: Thu, 28 Oct 2021 17:51:39 GMT
+Etag: "a850165d925db701988daf7ead7492d3"
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 c19c4a06d33dedc840090b8f6e8495b7.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C4
+X-Amz-Cf-Id: IBYHxTYEnHd45glHpBWxcXfx70NGFCtD1PlPstpEEk6IUp_dXR5Xsw==

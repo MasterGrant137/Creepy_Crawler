@@ -1,0 +1,25 @@
+Date: Mon, 20 Dec 2021 18:59:41 GMT
+Content-Type: text/html; charset=UTF-8
+X-Xss-Protection: 1;  mode=block
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+X-Mod-Pagespeed: 1.13.35.2-0
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=10886400; includeSubDomains; preload
+Set-Cookie: PHPSESSID=c7fb3fe7425633077d6468331dc68971; path=/; secure; HttpOnly; SameSite=None;HttpOnly;Secure;SameSite=None
+Set-Cookie: crc_cart_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; secure;HttpOnly;Secure;SameSite=None
+Set-Cookie: crc_wishlist_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; secure;HttpOnly;Secure;SameSite=None
+Set-Cookie: routledge_cjevent=WzgHZlE3UDtRZQcyUzIHZgVmVmJYblBiUmMEYVI1AzVQNgE0WGkDYwIzUjZWY1VoDj1XYgc1UzEFYwMwWTtaOg--; expires=Thu, 03-Feb-2022 18:59:40 GMT; Max-Age=3888000; path=/; secure;HttpOnly;Secure;SameSite=None
+Set-Cookie: __cf_bm=lKUZMNXcq.Lo_2sUBB7Fr6QlPjEEycPgNaF_893IYnY-1640026781-0-AQjEIAyvZ3u+mrVc3t+phkwa7bOb2/EvuuMkJslyGOarA7xs0q2pUFDhFPhZayo8x3sTD2GkUyzKhm/BBu+yonw=; path=/; expires=Mon, 20-Dec-21 19:29:41 GMT; domain=.routledge.com; HttpOnly; Secure; SameSite=None
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: frame-ancestors 'self'
+X-Ua-Compatible: IE=Edge,chrome=1
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c0b1bf3cb467c71-LAX
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

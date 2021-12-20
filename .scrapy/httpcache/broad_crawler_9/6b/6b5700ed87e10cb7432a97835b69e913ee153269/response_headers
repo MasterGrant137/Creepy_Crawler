@@ -1,0 +1,17 @@
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+X-Redirect-By: WordPress
+Location: https://www.dictionary.com/e/crosswordsolver/
+Via: 1.1 varnish, 1.1 varnish
+Expires: Tue, 21 Dec 2021 05:30:00 GMT
+Cached-Cookies: (null); ; (null); ;
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 18:38:02 GMT
+Age: 34456
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kiad7000145-IAD, cache-bur17580-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1640025483.994897,VS0,VE1
+Vary: cached-cookies, X-OPTIONS

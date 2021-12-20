@@ -1,0 +1,18 @@
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Date: Mon, 20 Dec 2021 18:37:48 GMT
+X-Amz-Rid: WC35RHY1NXKXS3CVRCX1
+Set-Cookie: session-id=134-6243706-0206240; Domain=amazon.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/; Secure
+Set-Cookie: JSESSIONID=AEBCD3B790E6650709AB2D58021527E4; Path=/; Secure; HttpOnly
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Amazon-A20M-Country: US
+Content-Encoding: gzip
+Content-Language: en-US
+Vary: accept-encoding,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 4a7d33ed6e1269d258afa1464fe1d544.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: ff5LjM3q0HvfQugHtj_U8WXWUjpHYqk4wY4n5i7a7iw6GHILzrgI7Q==

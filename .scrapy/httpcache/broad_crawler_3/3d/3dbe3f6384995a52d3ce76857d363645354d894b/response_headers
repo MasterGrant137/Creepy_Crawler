@@ -1,0 +1,15 @@
+Content-Length: 0
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Location: https://accounts.google.com/ServiceLogin?service=memento&passive=1209600&continue=https://keep.google.com/&followup=https://keep.google.com/&ltmpl=keep
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Cross-Origin-Resource-Policy: same-site
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /cspreport
+Content-Security-Policy: script-src 'nonce-z5RTcgSqBF/ef+d+xIPTnQ' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+Report-To: {"group":"notes_coop_coep_reporting","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/notes"}]}
+Date: Mon, 20 Dec 2021 18:48:31 GMT
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

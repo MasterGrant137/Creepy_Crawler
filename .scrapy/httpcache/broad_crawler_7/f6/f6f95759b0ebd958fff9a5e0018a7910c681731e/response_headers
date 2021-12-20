@@ -1,0 +1,13 @@
+Server: Server
+Date: Mon, 20 Dec 2021 18:37:48 GMT
+Content-Type: text/html;charset=UTF-8
+X-Amz-Rid: CEP9MAGDVY2ZSDS0K554
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: 
+Content-Security-Policy-Report-Only: default-src http://*.amazon.com http://*.media-amazon.com http://*.ssl-images-amazon.com http://*.amazon-adsystem.com; script-src http://*.amazon.com http://*.media-amazon.com http://*.ssl-images-amazon.com http://*.amazon-adsystem.com 'unsafe-inline' 'unsafe-eval'; style-src http://*.amazon.com http://*.media-amazon.com http://*.ssl-images-amazon.com http://*.amazon-adsystem.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=A1EVAM02EL8SFB:sid=000-0000000-0000000:rid=CEP9MAGDVY2ZSDS0K554:sn=contribute.imdb.com
+Content-Encoding: gzip
+Content-Language: en-US
+Vary: accept-encoding,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Permissions-Policy: interest-cohort=()
