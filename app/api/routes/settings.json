@@ -6,6 +6,5 @@
     "COOKIES_ENABLED": false,
     "HTTPCACHE_ENABLED": true,
     "LOG_LEVEL": "INFO",
-    "REDIRECT_ENABLED": false,
     "ROBOTSTXT_OBEY": true
 }

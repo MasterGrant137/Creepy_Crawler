@@ -1,0 +1,13 @@
+Date: Tue, 21 Dec 2021 00:27:11 GMT
+Server: Apache
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Content-Type: text/html; charset=utf-8
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+Vary: Accept-Language,Cookie,Accept-Encoding
+Content-Language: en
+Set-Cookie: csrftoken=EiKxzStNosLzdooAlaYxTZYdelxTN69ny2J4MggNwtIJKssOsfsHMxajMewldzx0; expires=Tue, 20 Dec 2022 00:27:11 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax; Secure
+Content-Encoding: gzip
+Backend-Timing: D=251697 t=1640046431728628
+Content-Security-Policy: default-src 'self'; connect-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'
