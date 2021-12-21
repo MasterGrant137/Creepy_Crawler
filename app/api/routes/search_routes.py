@@ -32,7 +32,6 @@ settings_dict = json.load(open('app/api/routes/settings.json'))
 settings.update(settings_dict)
 crawl_runner = CrawlerRunner(settings)
 search_routes = Blueprint('entries', __name__)
-print(settings_dict)
 
 def validation_errors_to_error_messages(validation_errors):
     """Turn the WTForms validation errors into a simple list."""
