@@ -1,3 +1,6 @@
+#### Dec 21, 2021
++ Search engine optimizations: crawl is now unbounded, crawl distribution extended to eight spiders.
+---
 #### Dec 10, 2021
 + Search engine optimizations: addressed misformated seed urls, distributed crawling across two spiders.
 ---
