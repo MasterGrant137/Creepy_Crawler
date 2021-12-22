@@ -1,0 +1,13 @@
+Content-Length: 52
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Encoding: gzip
+Content-Type: text/plain
+Date: Mon, 20 Dec 2021 16:13:34 GMT
+Expires: 0
+Last-Modified: Mon, 01 Mar 2021 20:38:26 GMT
+P3P: CP="NON DSP COR CUR ADMi DEV OUR BUS NAV"
+Pragma: no-cache
+Server: nginx/1.16.1
+X-Application-Context: application:daa_prod:8080
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block

@@ -1,0 +1,16 @@
+Content-Length: 158159
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+Content-Security-Policy-Report-Only: script-src 'nonce-kl9jQVKhzhBuH5Lk0AVhmQ' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' http: https:; object-src 'none'; report-uri /cspreport/static; base-uri 'self'
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="youtube-marketing"
+Report-To: {"group":"youtube-marketing","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/youtube-marketing"}]}
+Date: Mon, 20 Dec 2021 18:37:46 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+Server: sffe
+X-Xss-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

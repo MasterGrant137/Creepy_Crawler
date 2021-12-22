@@ -1,0 +1,28 @@
+Content-Length: 624
+Content-Type: text/plain; charset=UTF-8
+Cache-Control: max-age=2764800, public
+X-Drupal-Dynamic-Cache: HIT
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 17 Dec 2021 22:00:04 GMT
+Etag: "1639778404"
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-b0c034c4-5f84-11ec-a422-0ff14cec98d7
+X-Ah-Environment: prod
+X-Cache-Hits: 2
+X-Age: 127
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Mon, 20 Dec 2021 17:54:27 GMT
+Set-Cookie: _ga=GA1.2.2006089541.1640022867; expires=Wed, 20-Dec-2023 17:54:27 GMT; path=/; domain=.cms.gov; secure
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=23
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+Strict-Transport-Security: max-age=31536000

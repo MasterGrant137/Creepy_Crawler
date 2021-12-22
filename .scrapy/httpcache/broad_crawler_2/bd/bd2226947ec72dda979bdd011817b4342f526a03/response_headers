@@ -1,0 +1,5 @@
+Server: nginx
+Date: Sat, 18 Dec 2021 02:07:03 GMT
+Set-Cookie: AWSALB=3xEtk2eFmH0h8BoO8yKLD2YndfePsGFvvn31JdMi6JnFsoi31vKkhScc2yk81e73F1yMCDxmOn3pEqj2iDvJmnEJpsXFrw3lXweKcnwp632UhbE2LqYyQDxLUYOg; Expires=Sat, 25 Dec 2021 02:07:03 GMT; Path=/
+Set-Cookie: AWSALBCORS=3xEtk2eFmH0h8BoO8yKLD2YndfePsGFvvn31JdMi6JnFsoi31vKkhScc2yk81e73F1yMCDxmOn3pEqj2iDvJmnEJpsXFrw3lXweKcnwp632UhbE2LqYyQDxLUYOg; Expires=Sat, 25 Dec 2021 02:07:03 GMT; Path=/; SameSite=None; Secure
+Location: /commons/

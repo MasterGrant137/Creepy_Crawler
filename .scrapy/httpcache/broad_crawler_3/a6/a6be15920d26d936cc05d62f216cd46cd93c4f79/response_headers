@@ -1,0 +1,12 @@
+Date: Mon, 20 Dec 2021 16:13:37 GMT
+Content-Type: text/html; charset=utf-8
+Location: /home/default.aspx
+Cf-Ray: 6c0a28b27aa97e80-LAX
+Cache-Control: public, max-age=120, stale-if-error=86400, stale-while-revalidate=86400
+Vary: Accept-Encoding
+Cf-Cache-Status: HIT
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 0
+Set-Cookie: __cf_bm=D23ZUwlsKMURenhOPEHDLBIwri2FDNvjJ8Emw_PH1Ac-1640016817-0-AW0ffxGgXR6NPAa2yyYoNPL8ts87GBck2pkqf/POap8dtUPt/kxyhTHJmVQTVSDcWa1mvGZwTNT1liuh8wnkh90=; path=/; expires=Mon, 20-Dec-21 16:43:37 GMT; domain=.investor.twitterinc.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare

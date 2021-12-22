@@ -1,0 +1,20 @@
+Cache-Control: max-age=0, private, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 6c0cb12b962a7ecc-LAX
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZEXcG2%2BnjP0JMfYb9AMOK0%2BBDLbiBnDYAQ%2BLwnwdsOZvspcp%2B7BPv%2BqqWwHWifyU%2BT9F27c%2BQZ77hKh9m9K9bmkBM%2FOjV1HIcMmHjGmoc%2BjTA9Y%2BZHYKilttWLMv"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _tauday_new_session=MzlpZzdWSjU2dXZlTWR5STlhU3I4d2tzS0IwTmNseGFleGNWQlE5dWtLeitzSGFaaSt1NVR0TmFmaFJoaDFmMDhVQmtBbklBNHZZV2t4amFjR04zL3NuWkVoMU5GZDd6SGx2ZWQwbmRldVlKSmorTVJSNU1tT3FZcWZUbkpTaVN5cHhMMFdpM1JqUFc1WHZJWmxWb2ZPWnMraVYxZm5COVFtaXkwNVA0TGhCVEdwd1RqNDBkeHBGbDh3QVVTbFc1LS1LRjVISXlQWlZyOVB2TnhMcmQwWlV3PT0%3D--eadd74d562628b9c451d8b4d9d9d45c10e778de4; path=/; HttpOnly
+Via: 1.1 vegur
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 25fac9f0-83c5-4636-8b56-da72d226378a
+X-Runtime: 0.047342
+X-Xss-Protection: 1; mode=block
+Date: Mon, 20 Dec 2021 23:36:18 GMT

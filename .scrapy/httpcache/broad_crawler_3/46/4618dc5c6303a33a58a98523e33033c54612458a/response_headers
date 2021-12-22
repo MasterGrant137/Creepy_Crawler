@@ -1,0 +1,18 @@
+Content-Length: 0
+Date: Mon, 20 Dec 2021 17:38:55 GMT
+Pragma: no-cache
+Server: tsa_a
+Expires: Tue, 31 Mar 1981 05:00:00 GMT
+Location: https://www.twitter.com/login?redirect_after_login=https%3A%2F%2Fdeveloper.twitter.com%2Fen%2Fportal%2Fpetition%2Fessential%2Fbasic-info
+Set-Cookie: guest_id_marketing=v1%3A164002193506587887; Max-Age=63072000; Expires=Wed, 20 Dec 2023 17:38:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A164002193506587887; Max-Age=63072000; Expires=Wed, 20 Dec 2023 17:38:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_NRaU1NfmJj6jPgNU3xboBw=="; Max-Age=63072000; Expires=Wed, 20 Dec 2023 17:38:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A164002193506587887; Max-Age=63072000; Expires=Wed, 20 Dec 2023 17:38:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+Last-Modified: Mon, 20 Dec 2021 17:38:55 GMT
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=631138519
+X-Response-Time: 12
+X-Connection-Hash: b4170c4fc8ff42e44819ef69e0e2a06b961ecd89c0501d6c5445bb6cf11ea388

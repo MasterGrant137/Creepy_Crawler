@@ -1,0 +1,16 @@
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Date: Mon, 20 Dec 2021 17:54:29 GMT
+X-Amz-Rid: TQ3A3JBWW9SNVCQQ4FW7
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy-Report-Only: default-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://*.imdb.com https://*.media-imdb.com https://*.a2z.com; script-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://*.imdb.com https://*.media-imdb.com https://*.a2z.com 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://*.imdb.com https://*.media-imdb.com https://*.a2z.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=A1EVAM02EL8SFB:sid=000-0000000-0000000:rid=TQ3A3JBWW9SNVCQQ4FW7:sn=help.imdb.com
+Content-Encoding: gzip
+Content-Language: en-US
+Vary: accept-encoding,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 1c6954b6a2b349a78fb0daa669c3e985.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: VIE50-P1
+X-Amz-Cf-Id: j1t3vAlk9K00XzGTzr0a9zis9L9k-08LKxKSxdafWje1AQC2IbM3ZQ==

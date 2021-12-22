@@ -1,0 +1,34 @@
+Content-Length: 0
+Server: 4.0.0
+Content-Type: text/html; charset=UTF-8
+X-Apple-Jingle-Correlation-Key: JLS22ZCD6QMHJUIBYXOWVP7P5U
+X-Apple-Request-Uuid: 4ae5ad64-43f4-1874-d101-c5dd6abfefed
+X-Apple-Translated-Wo-Url: /WebObjects/MZStore.woa/wa/viewSoftware?id=308750436&cc=us&urlDesc=/dictionary-com-english-words
+Apple-Tk: false
+X-B3-Spanid: 47afc848c589febf
+X-Apple-Lokamai-No-Cache: true
+B3: 4ae5ad6443f41874d101c5dd6abfefed-47afc848c589febf
+X-Apple-Aka-Ttl: Generated Mon Dec 20 09:54:27 PST 2021, Expires Mon Dec 20 09:54:27 PST 2021, TTL 0s
+X-B3-Traceid: 4ae5ad6443f41874d101c5dd6abfefed
+X-Webobjects-Loadaverage: 0
+Last-Modified: Mon, 20 Dec 2021 17:54:27 GMT
+Apple-Seq: 0.0
+Access-Control-Allow-Origin: *
+Apple-Originating-System: MZStore
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Apple-Orig-Url: https://itunes.apple.com/us/app/dictionary-com-english-words/id308750436
+X-Apple-Application-Site: ST11
+Apple-Timing-App: 2 ms
+Location: https://apps.apple.com/us/app/dictionary-com-english-words/id308750436
+X-Apple-Application-Instance: 2177506
+X-Responding-Instance: MZStore:2177506:::
+X-Daiquiri-Instance: daiquiri:41896007:st53p00it-qujn15040301:7987:21RELEASE200:daiquiri-amp-store-l7shared-int-001-st
+Cache-Control: max-age=0
+Date: Mon, 20 Dec 2021 17:54:27 GMT
+X-Cache: TCP_MISS from a173-222-247-27.deploy.akamaitechnologies.com (AkamaiGHost/10.4.6-37171458) (-)
+X-True-Cache-Key: /L/itunes.apple.com/us/app/dictionary-com-english-words/id308750436 vcd=2897 ci2=///
+X-Cache-Remote: TCP_MISS from a23-15-240-12.deploy.akamaitechnologies.com (AkamaiGHost/10.4.6-37171458) (-)
+Vary: X-Apple-Store-Front, Cookie
+Vary: X-Apple-Store-Front, Cookie
+X-Apple-Partner: origin.0

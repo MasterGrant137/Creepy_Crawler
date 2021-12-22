@@ -1,0 +1,27 @@
+Content-Length: 20544
+Server: nginx
+Date: Mon, 20 Dec 2021 16:13:34 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=2764800, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.nibib.nih.gov/>; rel="canonical", <https://www.nibib.nih.gov/>; rel="shortlink"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 20 Dec 2021 14:38:43 GMT
+Etag: "1640011123"
+Vary: Cookie,Accept-Encoding
+X-Generator: Drupal 9 (https://www.drupal.org)
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+X-Request-Id: v-87ebfd88-61a2-11ec-9409-6721cbf6a9e2
+X-Ah-Environment: prod
+Age: 5689
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 269
+Accept-Ranges: bytes

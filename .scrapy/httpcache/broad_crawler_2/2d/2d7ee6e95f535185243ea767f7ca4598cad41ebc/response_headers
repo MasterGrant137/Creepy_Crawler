@@ -1,0 +1,25 @@
+Content-Length: 217
+Cache-Control: private,max-age=0
+Content-Type: text/plain
+Content-Encoding: gzip
+Expires: Fri, 03 Dec 2021 02:07:10 GMT
+Last-Modified: Fri, 17 Dec 2021 09:49:33 GMT
+Accept-Ranges: bytes
+Etag: "{37DA436F-726C-465D-9B28-234FE9188906},464"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-Sharepointhealthscore: 0
+Resourcetag: rt:37DA436F-726C-465D-9B28-234FE9188906@00000000464
+Public-Extension: http://schemas.microsoft.com/repl-2
+Sprequestguid: 7dd70da0-ba9f-c0ca-0cb0-ec8b8711f519
+Request-Id: 7dd70da0-ba9f-c0ca-0cb0-ec8b8711f519
+X-Frame-Options: SAMEORIGIN
+Sprequestduration: 12
+Spiislatency: 0
+X-Powered-By: ASP.NET
+Microsoftsharepointteamservices: 16.0.0.10379
+X-Content-Type-Options: nosniff
+X-Ms-Invokeapp: 1; RequireReadOnly
+Date: Sat, 18 Dec 2021 02:07:10 GMT
+Set-Cookie: asig_persistence=!xHJ5QE+PRbFFjbr4/7dm7nBnHz9NJtY2X2cbUpaJBlmyop2Rf3eRAHoIscE8AMa7HfUWhq4u/izAcuM=; Secure; HttpOnly; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=31557600; includeSubDomains; preload

@@ -1,0 +1,12 @@
+Content-Length: 2189
+Content-Type: text/plain
+Last-Modified: Wed, 21 Jul 2021 09:40:20 GMT
+Accept-Ranges: bytes
+Etag: "09a936b147ed71:0"
+Server: Microsoft-IIS/10.0
+Content-Security-Policy: upgrade-insecure-requests; frame-src www.recaptcha.net
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Date: Mon, 20 Dec 2021 16:13:38 GMT

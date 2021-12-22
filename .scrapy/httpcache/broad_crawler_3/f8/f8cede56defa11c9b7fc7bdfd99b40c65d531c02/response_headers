@@ -1,0 +1,13 @@
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy: script-src 'nonce-JHGrpjWsjMk5HNRXdkI9/A' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/geo-earth-eng-team/earth-gws-csp-1_client-unknown-version
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Encoding: gzip
+Date: Mon, 20 Dec 2021 18:48:31 GMT
+Server: gws
+Cache-Control: private
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Expires: Mon, 20 Dec 2021 18:48:31 GMT
+Set-Cookie: 1P_JAR=2021-12-20-18; expires=Wed, 19-Jan-2022 18:48:31 GMT; path=/; domain=.google.com; Secure
+Set-Cookie: NID=511=ddM6VGg6JrW6hGHIgFb9XQGv_Zwt8g_IauMQ0y1CZF11mTkOGsvW7p9XgvvMgiSgZX417oLdDSUqKMlVvrE5lQB04EnoulGOvBfsMp-qJcjY6iV2eHr0-Th9V1Sj2jalGFGAeyJzFwtEEgtjt3JxtjGcJZt9F0MSNzD9VfyVIB0; expires=Tue, 21-Jun-2022 18:48:31 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

@@ -1,0 +1,20 @@
+Content-Length: 0
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 20 Dec 2021 16:13:43 GMT
+Location: https://www.google.com/ads/preferences?continue=aHR0cHM6Ly9hZHNzZXR0aW5ncy5nb29nbGUuY29tL2Fub255bW91cw%3D%3D
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Report-To: {"group":"AdsSettingsUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AdsSettingsUi/external"}]}
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to="AdsSettingsUi"
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/AdsSettingsUi/cspreport
+Content-Security-Policy: script-src 'report-sample' 'nonce-+KZyK5+xp0gxmdzURvaaow' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AdsSettingsUi/cspreport;worker-src 'self'
+Cross-Origin-Resource-Policy: same-site
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=CG8nXQM1sErGi_nac_R21WMo09SBLuaSoRNdFLiBxXZtpyQZYycjBL3kvMILMWDZSKq9sGJpVUybDjbKCiCsjXmx8qJ-rEYlvfzv5gMFos_E6fvyzgBuI2m1u3gtcdsbHsI4X9q9eTfzDlZR_xv7bWBbipXA4BXHRl3wnQSnQU4; expires=Tue, 21-Jun-2022 16:13:43 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

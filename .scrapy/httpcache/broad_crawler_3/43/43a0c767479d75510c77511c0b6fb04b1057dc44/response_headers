@@ -1,0 +1,20 @@
+Content-Length: 55754
+Date: Mon, 20 Dec 2021 19:15:08 GMT
+Content-Type: image/jpeg
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Wed, 02 Sep 2020 23:24:33 GMT
+Cache-Control: max-age=10368000, public
+Expires: Tue, 19 Apr 2022 19:15:08 GMT
+Vary: Accept-Encoding
+X-Varnish: 20094851
+Via: 1.1 varnish (Varnish/5.2)
+X-Cache: MISS
+Cf-Cache-Status: EXPIRED
+Accept-Ranges: bytes
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Vcb4YqhX2AyMdKBpZEyTfgVnO6FEGzqv0EhltHERRU3wkP5Yd%2FnIMcCoFzZQci7DHm3NA3MnkdR7hhuO%2Ft%2BsvYW5F%2FaYw1xgmvZJ5ayLQcUf7os%2B9StibVIBVfoNYVxtQA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+Cf-Ray: 6c0b3299acbb7d09-LAX

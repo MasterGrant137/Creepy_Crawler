@@ -1,0 +1,26 @@
+Content-Length: 186
+Server: nginx/1.19.0
+Content-Type: text/plain; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Cache-Control: max-age=86400, public
+Etag: W/"7eca8c73b6bbe3380c457db5e6e86e5d"
+Content-Encoding: gzip
+X-Request-Id: e7c59ee765ded7a8dbd8dc9ea6edfdda
+X-Runtime: 0.005470
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Cache-Status: MISS
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:54:27 GMT
+Via: 1.1 varnish
+Age: 0
+Set-Cookie: locale=en; Max-Age=94608000; Path=/; Secure; SameSite=none
+X-Served-By: cache-bur17530-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640022867.298097,VS0,VE145
+Vary: Accept-Encoding, X-OPTIONS

@@ -1,0 +1,28 @@
+Content-Length: 57565
+Content-Type: text/html; charset=utf-8
+Server: nginx
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval'; child-src https: data: blob:; connect-src https: data: blob:; font-src https: data:; img-src https: data: blob:; media-src https: data: blob:; object-src https:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; block-all-mixed-content; upgrade-insecure-requests
+Link: <https://concertads-configs.vox-cdn.com/sbn/chicagosuntimes/config.json>; rel=preload; as=fetch; crossorigin
+Cache-Control: max-age=300, public, must-revalidate
+Etag: W/"133b8f1d6a3ccdf234c83750ecd1f13b"
+X-Request-Id: 3659c1f5560c7ea7d4f21e18ea3378baf966f7ec
+X-Runtime: 0.783854
+Strict-Transport-Security: max-age=31556952; preload
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:54:30 GMT
+Via: 1.1 varnish
+Age: 0
+Set-Cookie: _chorus_geoip_continent=NA; expires=Tue, 21 Dec 2021 17:54:30 GMT; path=/;
+Set-Cookie: vmidv1=57d29ffd-ab4b-4a19-994f-106f71b24a9f;Expires=Sat, 19 Dec 2026 17:54:30 GMT;Domain=chicago.suntimes.com;Path=/;SameSite=Lax;Secure
+X-Served-By: cache-bur17575-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640022869.142360,VS0,VE1194
+Vary: Accept-Encoding, X-Chorus-Unison-Testing, X-Chorus-Require-Privacy-Consent, X-Chorus-Restrict-In-Privacy-Consent-Region, Origin, X-Forwarded-Proto, Cookie, X-Chorus-Unison-Testing, X-Chorus-Require-Privacy-Consent, X-Chorus-Restrict-In-Privacy-Consent-Region

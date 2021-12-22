@@ -1,0 +1,10 @@
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.thesaurus.com/
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 18:48:28 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17540-BUR
+X-Cache: HIT
+X-Cache-Hits: 0

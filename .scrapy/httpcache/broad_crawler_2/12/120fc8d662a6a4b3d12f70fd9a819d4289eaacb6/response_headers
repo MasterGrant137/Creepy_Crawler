@@ -1,0 +1,17 @@
+Content-Length: 0
+Date: Sat, 18 Dec 2021 02:07:56 GMT
+Retry-After: 0
+Location: https://childrensinn.org/robots.txt
+X-Pantheon-Redirect: primary-domain-policy-doc
+X-Served-By: cache-bur17560-BUR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1639793277.756489,VS0,VE1
+Via: 1.1 varnish
+Cache-Control: max-age=14400
+Cf-Cache-Status: EXPIRED
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UOGDPsnIODyBZdVvXl7aOuGzmmQrs7J2pJ1fwuT1lQPYRj8rpA8xhrsEshMlwRPTiReMOQW05e5WNhQTUHaiVI0rQpvB6bmrGKKyDnJwXmG1qHv2qvFRYBEclZzMgXiCZwUknov6"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6bf4d72b9e575295-LAX

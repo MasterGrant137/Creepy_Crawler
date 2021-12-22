@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: Server
+Date: Mon, 20 Dec 2021 18:53:38 GMT
+X-Amz-Rid: MZ3Z1PBRWR5QPRSGZ0ES
+Cache-Control: max-age=3600
+Expires: Mon, 20 Dec 2021 19:53:38 GMT
+Location: /comic-con/kickass-women-superheroes/rg97884928/
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 1805917bae7975c146a05a871d8d67fc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C4
+X-Amz-Cf-Id: z3k6MbTQlqSlzH4beYEPebCyJKmIjqMnu7LP9JvUM3zd6L8ueXRA4A==

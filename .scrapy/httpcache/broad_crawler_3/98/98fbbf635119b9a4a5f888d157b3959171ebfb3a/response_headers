@@ -1,0 +1,8 @@
+Server: nginx/1.18.0
+Date: Mon, 20 Dec 2021 16:13:39 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: public max-age=300
+Pragma: cache
+Expires: Mon, 20 Dec 2021 16:12:11 GMT
+X-Fastcgi-Cache: STALE
+Content-Encoding: gzip

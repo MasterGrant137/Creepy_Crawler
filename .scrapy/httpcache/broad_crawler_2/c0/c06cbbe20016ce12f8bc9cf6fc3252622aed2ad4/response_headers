@@ -1,0 +1,22 @@
+Date: Sat, 18 Dec 2021 02:07:58 GMT
+Content-Type: text/plain; charset=utf-8
+Cache-Control: public, max-age=14400
+Link: <https://childrensinn.org/wp-json/>; rel="https://api.w.org/"
+Strict-Transport-Security: max-age=31536001; includeSubDomains; preload
+Strict-Transport-Security: max-age=300
+X-Pantheon-Styx-Hostname: styx-fe2-b-79754f9dc6-9hr9h
+X-Styx-Req-Id: 525499a5-5fa7-11ec-8fd2-baa71e14cff3
+X-Served-By: cache-mdw17383-MDW, cache-bur17558-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1639793279.675049,VS0,VE170
+Vary: Accept-Encoding
+Via: 1.1 varnish, 1.1 varnish
+Cf-Cache-Status: EXPIRED
+Last-Modified: Sat, 18 Dec 2021 01:11:40 GMT
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MYRC%2BhVloJ08CYmotg3YYVG7FslgV9Ad4f7faiqZzDznl3TPdsPsHZgeSzxeJYqs5dxbpeOk9AVc3TNxe4Ct%2FAxoX%2FNkDzfBaebyJsGXxOxnn1%2BllGZVA30JtXyYs6sJIMo%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 6bf4d7377dde320f-LAX
+Content-Encoding: gzip

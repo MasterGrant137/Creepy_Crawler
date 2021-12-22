@@ -1,0 +1,11 @@
+Content-Length: 155
+Server: nginx
+Date: Mon, 20 Dec 2021 21:55:45 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: private, max-age=90
+Content-Security-Policy: referrer always;
+Location: http://belfercenter.ksg.harvard.edu/project/3/managing_the_atom.html
+Referrer-Policy: unsafe-url
+Set-Cookie: _bit=lbklTJ-a3e418619c5132a1a4-00b; Domain=bit.ly; Expires=Sat, 18 Jun 2022 21:55:45 GMT
+Via: 1.1 google
+Alt-Svc: clear

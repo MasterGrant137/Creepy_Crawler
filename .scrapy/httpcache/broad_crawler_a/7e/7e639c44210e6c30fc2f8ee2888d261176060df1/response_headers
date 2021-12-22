@@ -1,0 +1,15 @@
+Content-Length: 20341
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Age: 3430
+Cache-Control: Public,public
+Content-Security-Policy: frame-ancestors 'self' https://mycourses.w3schools.com;
+Content-Type: text/html
+Date: Mon, 20 Dec 2021 23:33:22 GMT
+Expires: Tue, 21 Dec 2021 03:33:22 GMT
+Last-Modified: Mon, 20 Dec 2021 22:36:12 GMT
+Server: ECS (oxr/8373)
+Vary: Accept-Encoding
+X-Cache: HIT
+X-Content-Security-Policy: frame-ancestors 'self' https://mycourses.w3schools.com;
+X-Powered-By: ASP.NET

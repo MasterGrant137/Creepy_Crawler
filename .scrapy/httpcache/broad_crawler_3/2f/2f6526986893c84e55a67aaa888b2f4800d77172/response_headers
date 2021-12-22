@@ -1,0 +1,17 @@
+Date: Mon, 20 Dec 2021 18:59:39 GMT
+Content-Type: text/plain; charset=utf-8
+Sniply-Options: BLOCK
+Vary: Cookie, Accept-Encoding
+X-Location: NonEU
+X-Varnish: 92622820
+Age: 1973
+Via: 1.1 varnish (Varnish/6.6)
+Cache-Control: max-age=14400
+Cf-Cache-Status: HIT
+Last-Modified: Mon, 20 Dec 2021 18:26:46 GMT
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bX30cg4OYHWOD3iKelbNCKCypwmnM0lCqjlDgzeIGE%2BcWoRz4LGzwZbFyMAFKSkF0xkSpLnS%2Bw27k0gX%2F9k7NHo%2BAk5e%2FB6lYeWcklRvS32T4GhygIKuBcBow12yUbsOTuImQPo%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 6c0b1beaa8497d8c-LAX
+Content-Encoding: gzip

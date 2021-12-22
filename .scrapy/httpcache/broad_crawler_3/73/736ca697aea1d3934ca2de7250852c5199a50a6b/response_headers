@@ -1,0 +1,18 @@
+Content-Length: 359652
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+Content-Security-Policy-Report-Only: script-src 'nonce-3woE2B6k7a9lC6SEYzxmog' 'report-sample' 'self' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' http: https: https://ssl.google-analytics.com https://www.google-analytics.com https://www.google.com https://www.googleadservices.com; object-src 'none'; img-src 'self' *.fls.doubleclick.net *.google.com data: https://www.google-analytics.com www.googletagmanager.com; connect-src 'self' *.g.doubleclick.net https://www.google-analytics.com; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/chrome; base-uri 'none'
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/chrome
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="uxe-owners-acl/chrome"
+Report-To: {"group":"uxe-owners-acl/chrome","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/chrome"}]}
+Date: Mon, 20 Dec 2021 18:48:36 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Last-Modified: Tue, 14 Dec 2021 19:00:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-Xss-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

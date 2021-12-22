@@ -1,0 +1,17 @@
+Content-Length: 2326
+Accept-Ranges: bytes
+Age: 191412
+Cache-Control: max-age=1209600
+Content-Type: text/plain
+Date: Sat, 18 Dec 2021 02:06:56 GMT
+Expires: Wed, 29 Dec 2021 20:56:44 GMT
+Last-Modified: Fri, 21 May 2021 06:36:45 GMT
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+Vary: Host
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 10982
+X-Content-Type-Options: nosniff
+X-Request-Id: v-8293b126-5de9-11ec-9790-bf6a0c379f53

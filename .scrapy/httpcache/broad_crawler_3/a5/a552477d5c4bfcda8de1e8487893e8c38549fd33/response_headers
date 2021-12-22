@@ -1,0 +1,15 @@
+Date: Mon, 20 Dec 2021 18:59:39 GMT
+Content-Type: text/plain
+Cf-Connecting-Ip: 17.121.112.12
+Etag: W/"f1-5a4732980d76c"
+Last-Modified: Wed, 29 Apr 2020 19:43:28 GMT
+X-Cache-Server: ip-10-33-5-93
+X-Cache-Status: HIT
+Cf-Cache-Status: REVALIDATED
+Expires: Mon, 20 Dec 2021 22:59:39 GMT
+Cache-Control: public, max-age=14400
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c0b1bea98347dbe-LAX
+Content-Encoding: gzip

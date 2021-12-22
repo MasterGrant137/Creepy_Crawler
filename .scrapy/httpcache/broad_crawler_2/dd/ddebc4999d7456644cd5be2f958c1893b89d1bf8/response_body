@@ -1,0 +1,143 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- checks at server level -->
+
+
+<!-- ends server level tests -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content=“IE=Edge"" />
+<title>NIH Intramural DataBase [NIDB] Resources</title>
+<link rel="P3Pv1" href="https://intramural.nih.gov/w3c/p3p.xml" >
+
+
+<link rel="stylesheet" href="https://intramural.nih.gov/NIDBstyles/styles/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="https://intramural.nih.gov/NIDBstyles/styles/styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://intramural.nih.gov/NIDBstyles/styles/styleChanges.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://intramural.nih.gov/NIDBstyles/styles/media.css" type="text/css" media="screen" />
+
+</head>
+<body>
+<!-- begin Main Wrapper -->
+<!-- DO NOT REMOVE. Monitors use this text. Witango running on intramural. Witango server running on intramural. -->
+ <!-- do NOT delete ... needed for monitoring. NIDB Resources -->
+
+
+<div id="mainWrapper">
+<!-- begin Top Banner -->
+	<div class="logoWrapper">
+
+    	<a href="index.taf" alt="NIH Intramural Database" title="NIH Intramural DataBase"><h1><span class="hide">NIH Intramural DataBase</span></h1></a>
+        <div class="utilityLinks">	<ul>	<li class="last"><a href="helpfiles/comments.taf" target="_blank">Comments / Requests</a></li>
+            </ul>
+            <!-- add a help for the support staff element -->
+
+        </div>
+    </div>
+    <!-- end Top Banner -->
+
+
+	<div class="contentWrapper">
+    	<!-- begin Breadcrumb -->
+        <div class="breadcrumbWrapper">
+
+            <div class="clearfix"></div>
+    		</div><!-- end Breadcrumb -->
+
+    <!-- begin Header / H2 -->
+        <div class="headerWrapper">
+        	<h2>NIH Intramural Database Resources</h2>
+    		</div><!-- end Header / H2 -->
+
+
+
+
+
+<div class="fullwidthWrapper">
+<h3>Notices</h3>
+<div class="info">
+
+<div style="color: #FF0000; font-weight: bold;">
+SCHEDULED MAINTENANCE:  Oracle database patching is scheduled for Friday, December 17 from 8-10pm.
+</div>
+
+</div>
+</div>
+<div class="fullwidthWrapperShadow"></div>
+
+<!-- sets referrer -->
+
+
+
+
+
+ <div class="fullwidthWrapper">
+ <h3>General Information</h3>
+ <div class="info">
+    		The NIH Intramural Database collects and disseminates information about research being performed in the Intramural Programs of the Institutes and Centers of the National Institutes of Health.
+</div></div>
+        <div class="fullwidthWrapperShadow"></div>
+        <!-- end Full Width Box -->
+
+ <div class="fullwidthWrapper">
+<h3>Search the NIH's Intramural Annual Reports</h3>
+ <div class="info">
+<a href="search/index.taf">
+<div class="reportbutton" style="float: left; width: 7em;">Search</div></a>
+	<div style="float: left; width: 2em;">&nbsp;</div>
+	<div style="float: left; width: 70%;"> Public access, no log in required.<br>
+						Data on research projects starting from 1999 may be searched online by NIH researchers and the public.	</div>
+
+						<div class="clearfix"></div>
+</div></div>
+        <div class="fullwidthWrapperShadow"></div>
+        <!-- end Full Width Box -->
+
+         <div class="fullwidthWrapper">
+ <h3>NIH staff logins</h3>
+ <div class="info">
+    		<a href="https://data.nidb.nih.gov/">
+    		<div class="reportbutton" style="float: left; width: 7em;">Log in</div></a>
+    		<div style="float: left; width: 2em;">&nbsp;</div>
+	<div style="float: left; width: 70%;">
+
+    		NIH log in required  
+    		</div>
+    		<div class="clearfix"></div>
+</div></div>
+        <div class="fullwidthWrapperShadow"></div>
+        <!-- end Full Width Box -->
+
+    <!-- begin Footer -->
+    <div class="footerWrapper">
+         <ul>
+         <li><a href="https://www.nih.gov/about/privacy.htm" target="_blank"  rel="noopener noreferrer">Privacy Notice</a></li>
+			<li><a href="https://www.hhs.gov/"  target="_blank"  rel="noopener noreferrer">U.S. Department of Health and Human Services</a></li>
+           	<li><a href="https://www.nih.gov/"  target="_blank"  rel="noopener noreferrer">National Institutes of Health</a></li>
+           		<li><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html"  target="_blank"  rel="noopener noreferrer">HHS Vulnerability Disclosure</a></li>
+           	<li class="last"><a href="https://www.usa.gov/"  target="_blank "  rel="noopener noreferrer">USA.gov - Government Made Easy</a></li>
+         </ul>
+    </div>
+    <!-- end Footer -->
+</div>
+<!-- End Main Wrapper -->
+</body>
+</html>

@@ -1,0 +1,21 @@
+Content-Type: text/html; charset=utf-8
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+X-Ua-Compatible: IE=edge
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 20 Dec 2021 18:37:58 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: script-src 'report-sample' 'nonce-48hH7gRVdeBPY9QbMV86EQ' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /_/PlayStoreUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/PlayStoreUi/cspreport
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to="PlayStoreUi"
+Cross-Origin-Resource-Policy: same-site
+Report-To: {"group":"PlayStoreUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/PlayStoreUi/external"}]}
+Content-Encoding: gzip
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=IY-bTvxBYO1viGbl2Av4zsDhKjDOKaR4-679pczhuaZgNOIUo4x5B736SWMqEQwzlnV45kuC7rP7bn_3n05U68UVL_CVJW1rEHmfGgVeNOxxwz6ytzbJVY2yCc7o9TqYJ96pK2N7AIw6Jhr8IMg7bbBYCYlaiEJ5_jPMlDrm1Ak; expires=Tue, 21-Jun-2022 18:37:58 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

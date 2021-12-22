@@ -1,0 +1,10 @@
+Server: nginx/1.21.3
+Date: Mon, 20 Dec 2021 17:54:29 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Expires: -1
+Set-Cookie: shell#lang=en; path=/; secure; SameSite=None
+Set-Cookie: ASP.NET_SessionId=epwccne4afzdpthfgwc0a1f4; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: SC_ANALYTICS_GLOBAL_COOKIE=531b85f5dd4c4a558f6e3047088be95e|False; expires=Thu, 18-Dec-2031 17:54:28 GMT; path=/; secure; HttpOnly; SameSite=None
+Content-Encoding: gzip

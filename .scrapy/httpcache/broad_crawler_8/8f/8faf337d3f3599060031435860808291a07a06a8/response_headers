@@ -1,0 +1,20 @@
+Content-Type: text/plain; charset=utf-8
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 20 Dec 2021 22:00:26 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Strict-Transport-Security: max-age=31536000
+Cross-Origin-Resource-Policy: cross-origin
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/PlayRobotsHttp/cspreport
+Content-Security-Policy: script-src 'report-sample' 'nonce-Znv5Lsqkwd/5d1S/Skm38A' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/PlayRobotsHttp/cspreport;worker-src 'self'
+Report-To: {"group":"PlayRobotsHttp","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/PlayRobotsHttp/external"}]}
+Cross-Origin-Opener-Policy: same-origin; report-to="PlayRobotsHttp"
+Content-Encoding: gzip
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=On5BtALmq38O0Ied0HHkqPWC4cKc8oQEL8tRtKMVPcYptOGxnhVBC5YsU-w_mzMf1ysGvZOwAoxslBehqjlA7xDjRkyYOgBLlRTu9yo-NWN1qmMAmb7BxbE7CHfLEFyx8ZYT_w3FZDG26VX9hyOaCKUfgc7eazop2F9w3qJj7Ig; expires=Tue, 21-Jun-2022 22:00:25 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

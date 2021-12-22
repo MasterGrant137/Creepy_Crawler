@@ -1,0 +1,22 @@
+Content-Length: 8894
+Age: 239730
+Date: Mon, 20 Dec 2021 16:13:41 GMT
+Vary: Cookie,X-Twitter-Internal,X-Twitter-IP-Tags
+Server: tsa_a
+Expires: Mon, 20 Dec 2021 16:13:41 GMT
+Set-Cookie: guest_id_marketing=v1%3A164001682155786825; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:41 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A164001682155786825; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:41 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_UZ+zbjvuoE/46qyS1MRwEQ=="; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:41 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A164001682155786825; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:41 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: ct0=381a5db92afb9f0f9d3d0de98f9977e2; Max-Age=21600; Expires=Mon, 20 Dec 2021 22:13:41 GMT; Path=/; Domain=.twitter.com; Secure
+Set-Cookie: cms-csp-nonce=59f7532e14367f9454a527444f12f10; Max-Age=15; Expires=Mon, 20 Dec 2021 16:13:56 GMT; Path=/; Secure
+Content-Type: text/html
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip
+X-Xss-Protection: 0
+Content-Security-Policy: default-src 'self' ; connect-src 'self' https://*.twitter.com https://s1259914507.t.eloqua.com https://www.google-analytics.com; font-src 'self' https://*.twimg.com https://*.twitter.com data:; frame-src 'self' https://twitter.com https://*.twitter.com; img-src 'self' https://*.twimg.com https://*.twitter.com https://twitter.com https://www.google-analytics.com https://cdn.cms-twdigitalassets.com https://*.g.doubleclick.net https://www.google.com/ads/ga-audiences data:; media-src 'self' https://*.twimg.com https://*.twitter.com https://cdn.cms-twdigitalassets.com; object-src 'self' ; script-src 'self' 'sha256-ppW1Vv+qSVcs+/pIj1ZXvMiCLoyHyCdRqtDMeK9fQ9w=' https://cdn.syndication.twimg.com https://*.twitter.com https://static.ads-twitter.com 'nonce-59f7532e14367f9454a527444f12f10'; style-src 'self' 'unsafe-inline' https://*.twimg.com https://*.twitter.com; report-uri https://twitter.com/i/csp_report; frame-ancestors 'self'
+Strict-Transport-Security: max-age=631138519
+X-Response-Time: 12
+X-Connection-Hash: 37414f7015635b06472dff5a446071d686d572eb64573af14436010e38a8340b

@@ -1,0 +1,26 @@
+Content-Length: 161
+Content-Type: text/plain
+X-Amz-Replication-Status: COMPLETED
+Last-Modified: Mon, 20 Dec 2021 14:54:59 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 4fT8za54O_yVJL8ULUSNcMa7faos2zlA
+Accept-Ranges: bytes
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer-when-downgrade
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Download-Options: noopen
+X-Ua-Compatible: IE=edge,chrome=1
+Content-Security-Policy: default-src 'self' 'unsafe-inline';script-src 'self'  www.gstatic.com www.google.com *.googleapis.com www.googletagmanager.com www.google-analytics.com *.govdelivery.com gateway.foresee.com dap.digitalgov.gov *.instagram.com report.nih.gov *.twitter.com *.twimg.com 'unsafe-eval' 'unsafe-inline'; connect-src 'self' 'unsafe-inline' www.gstatic.com www.google-analytics.com files.nccih.nih.gov *.instagram.com graph.facebook.com *.govdelivery.com cognito-idp.us-east-1.amazonaws.com *.rocbis.com *.foresee.com; style-src 'self'  *.googleapis.com gateway.foresee.com report.nih.gov *.twitter.com *.twimg.com 'unsafe-inline'; font-src 'self' *.googleapis.com fonts.gstatic.com; manifest-src 'self' 'unsafe-inline'; img-src 'self' *.googleapis.com maps.gstatic.com files.nccih.nih.gov *.nih.gov *.vimeo.com *.vimeocdn.com *.g.doubleclick.net www.google-analytics.com www.googletagmanager.com content.govdelivery.com *.twitter.com *.twimg.com *.foresee.com data:;media-src 'self';frame-ancestors 'none';frame-src 'self' www.google.com gateway.foresee.com www.youtube.com www.facebook.com *.vimeo.com *.vimeocdn.com *.nih.gov *.instagram.com *.googletagmanager.com report.nih.gov *.twitter.com *.twimg.com 'unsafe-eval';object-src 'self';upgrade-insecure-requests; block-all-mixed-content;
+X-Generator: deny
+Date: Mon, 20 Dec 2021 16:13:38 GMT
+Cache-Control: public, max-age=0, must-revalidate
+Etag: "6cb6a544f98fd37b8da19830234699d6"
+Vary: Accept-Encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 ccfcba4cbb8d9fd2bffd7b3d97eab98b.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C1
+X-Amz-Cf-Id: 4fvG4Yb3HLXTgdAkCPl2ROhWd5Y4vqxU46v4_4pNAB2j2w3mw3AWdA==

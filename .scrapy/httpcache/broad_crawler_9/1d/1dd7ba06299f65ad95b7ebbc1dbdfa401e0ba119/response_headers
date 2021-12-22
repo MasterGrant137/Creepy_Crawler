@@ -1,0 +1,13 @@
+Content-Length: 0
+Server: Server
+Date: Mon, 20 Dec 2021 17:54:27 GMT
+X-Amz-Rid: C7VA75JTR0EXH0XQHC9A
+Location: https://www.amazon.com/Dictionary-com-Word-of-the-Day/dp/B07WPXF85S
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 4c7e669d0f0fa9eec10fc8d9b6581458.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C3
+X-Amz-Cf-Id: _EG3bS4swC0pMFw2tWYGS6A2nly-1ksdvnm60p4_ON2YMRe00SLJRw==

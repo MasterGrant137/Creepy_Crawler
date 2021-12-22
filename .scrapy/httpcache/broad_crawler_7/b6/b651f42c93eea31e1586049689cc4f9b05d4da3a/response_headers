@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: Server
+Date: Mon, 20 Dec 2021 18:37:50 GMT
+Content-Type: text/html;charset=UTF-8
+X-Amz-Rid: NV0791DQMD9QW07CPE9V
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: 
+Content-Security-Policy-Report-Only: default-src http://*.amazon.com http://*.media-amazon.com http://*.ssl-images-amazon.com http://*.amazon-adsystem.com; script-src http://*.amazon.com http://*.media-amazon.com http://*.ssl-images-amazon.com http://*.amazon-adsystem.com 'unsafe-inline' 'unsafe-eval'; style-src http://*.amazon.com http://*.media-amazon.com http://*.ssl-images-amazon.com http://*.amazon-adsystem.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=A1EVAM02EL8SFB:sid=000-0000000-0000000:rid=NV0791DQMD9QW07CPE9V:sn=contribute.imdb.com
+Location: https://secure.imdb.com/register-imdb/login?u=http%3A%2F%2Fcontribute.imdb.com%2Fgaps%2Ffr_FR%2Fimage%3Fref_%3Dgaps_czone_main%26source%3Dtrending%26titleType%3Dmovie&ref_=login_contribute_site
+Content-Language: en-US
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()

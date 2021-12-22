@@ -1,0 +1,15 @@
+Content-Length: 215
+Date: Mon, 20 Dec 2021 16:13:37 GMT
+Server: tsa_a
+Location: https://blog.twitter.com/engineering/en_us
+Set-Cookie: guest_id_marketing=v1%3A164001681704600438; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:37 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A164001681704600438; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:37 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_2/MNAd2wVqQ6dEFKxc/mAQ=="; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:37 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A164001681704600438; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:37 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: no-cache, no-store, max-age=0
+Content-Encoding: gzip
+X-Xss-Protection: 0
+Strict-Transport-Security: max-age=631138519
+X-Response-Time: 10
+X-Connection-Hash: f6e2dc518c1d70e06ff2a05f5fc16f790230abd98dfe332c71f87248452d3f45

@@ -1,0 +1,18 @@
+Content-Type: text/html; charset=utf-8
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+X-Ua-Compatible: IE=edge
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 20 Dec 2021 21:53:13 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Security-Policy: script-src 'report-sample' 'nonce-U5r+jvlkMZaX9EnhLyUJUA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityPoliciesUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/IdentityPoliciesUi/cspreport
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-site
+Content-Encoding: gzip
+Server: ESF
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=fsKlxy9BwQxcMrdqFXA5-foDWBhyEQqYiAqZOeH9DeQ4BhB5_A6EsGxMP46MxdfPbH9fXhiMjCQinsl5Ya2gkYrAwYD2S06kEVbooPpPqAv7LUusxSqU2f-3BRCODQdNaExGu1pqo8IVWtAy6_le7uuOxBmhoAV19MMluEiWGaA; expires=Tue, 21-Jun-2022 21:53:13 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

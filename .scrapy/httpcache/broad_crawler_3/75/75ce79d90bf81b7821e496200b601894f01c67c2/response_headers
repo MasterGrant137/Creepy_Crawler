@@ -1,0 +1,21 @@
+Content-Length: 16846
+Content-Type: text/html; charset=utf-8
+Server: nginx
+X-Powered-By: Express
+X-Frame-Options: DENY
+X-Xss-Protection: 0
+Etag: "11fb8-eHo/deha/zpnPC6aDASPRZdutTs"
+Accept-Ranges: none
+Content-Encoding: gzip
+X-Akamai-Transformed: 9 14636 0 pmb=mRUM,2
+Cache-Control: must-revalidate,max-age=296
+Expires: Mon, 20 Dec 2021 22:00:36 GMT
+Date: Mon, 20 Dec 2021 21:55:40 GMT
+Vary: Accept-Encoding
+Set-Cookie: _csrf=D6knRi2hwBwgyn2RKtSyngf3; Path=/
+Set-Cookie: AKA_A2=A; expires=Mon, 20-Dec-2021 22:55:40 GMT; path=/; domain=foxnews.com; secure; HttpOnly
+Server-Timing: cdn-cache; desc=REVALIDATE
+Server-Timing: edge; dur=148
+Server-Timing: origin; dur=1188
+Link: <https://static.foxnews.com>;rel="preconnect"
+Strict-Transport-Security: max-age=7884000 ; preload

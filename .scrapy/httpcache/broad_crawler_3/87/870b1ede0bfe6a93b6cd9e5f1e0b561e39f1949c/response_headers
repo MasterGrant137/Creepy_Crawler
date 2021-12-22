@@ -1,0 +1,33 @@
+Content-Length: 52353
+Server: nginx
+Content-Type: text/html; charset=utf-8
+X-Nyt-Data-Last-Modified: Mon, 20 Dec 2021 17:54:27 GMT
+Last-Modified: Mon, 20 Dec 2021 17:54:27 GMT
+X-Scoop-Last-Modified: 2020-03-17T06:10:49.728Z
+X-Pagetype: vi-interactive-minimal
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Cache-Control: s-maxage=5,no-cache
+X-Nyt-Route: vi-interactive
+X-Origin-Time: 2021-12-20 17:54:27 UTC
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:54:27 GMT
+Age: 0
+X-Served-By: cache-lga21941-LGA, cache-bur17540-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640022867.802624,VS0,VE359
+Vary: Accept-Encoding, Fastly-SSL
+Set-Cookie: nyt-a=CWYrtqkOMUS25NFJicpmXF; Expires=Tue, 20 Dec 2022 17:54:27 GMT; Path=/; Domain=.nytimes.com; SameSite=none; Secure
+Set-Cookie: nyt-gdpr=0; Expires=Mon, 20 Dec 2021 23:54:27 GMT; Path=/; Domain=.nytimes.com
+Set-Cookie: nyt-purr=cfshcfhssckf; Expires=Tue, 20 Dec 2022 17:54:27 GMT; Path=/; Domain=.nytimes.com; SameSite=Lax; Secure
+Set-Cookie: nyt-b3-traceid=224cc08e11f64651a679d72847c810e9; Path=/; Domain=.nytimes.com; SameSite=none; Secure
+X-Nyt-App-Webview: 0
+X-Gdpr: 0
+X-Frame-Options: DENY
+Onion-Location: https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/interactive/2020/03/11/science/how-coronavirus-hijacks-your-cells.html
+X-Api-Version: F-F-VI
+Content-Security-Policy: upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:; report-uri https://csp.nytimes.com/report;
+Strict-Transport-Security: max-age=63072000; preload
+X-Nyt-Edge-Cache: MISS-MISS

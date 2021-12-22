@@ -1,0 +1,16 @@
+Content-Length: 162
+Content-Type: text/html
+Location: https://www.exploratorium.edu/robots.txt
+Server: nginx
+X-Pantheon-Styx-Hostname: styx-fe4-a-678589d996-zvgjz
+X-Styx-Req-Id: 61406242-611d-11ec-9277-aac797f77324
+Cache-Control: public, max-age=86400
+Date: Mon, 20 Dec 2021 16:13:40 GMT
+X-Served-By: cache-mdw17379-MDW, cache-bur17534-BUR
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1640016820.474176,VS0,VE56
+Vary: Cookie, Cookie
+Age: 62885
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish

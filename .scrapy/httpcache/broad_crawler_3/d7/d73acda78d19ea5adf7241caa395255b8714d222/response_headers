@@ -1,0 +1,15 @@
+Content-Length: 204
+Date: Mon, 20 Dec 2021 16:13:35 GMT
+Server: tsa_a
+Location: https://help.twitter.com/en/forms
+Set-Cookie: guest_id_marketing=v1%3A164001681527540166; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:35 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A164001681527540166; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:35 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_clv/3E5Dv/WvWuFicS8M3A=="; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:35 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A164001681527540166; Max-Age=63072000; Expires=Wed, 20 Dec 2023 16:13:35 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: no-cache, no-store, max-age=0
+Content-Encoding: gzip
+X-Xss-Protection: 0
+Strict-Transport-Security: max-age=631138519
+X-Response-Time: 39
+X-Connection-Hash: b43dd502caa8269a309156296fc4310e3b0aeb0e280c050a70ba82761fddcd2e

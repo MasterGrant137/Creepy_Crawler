@@ -1,0 +1,12 @@
+Server: Server
+Date: Mon, 20 Dec 2021 18:53:30 GMT
+X-Amz-Rid: VCZK2DYBW92Z5TVAK9GG
+Location: /title/tt0348914/
+Refresh: 0;url=/title/tt0348914/
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 b61db67cf69e87aeacb12b4ac0666b0c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C3
+X-Amz-Cf-Id: HbwgEzkW97spIACPTc9tSf7oL4sfE0x6ikgkcgyinPBvEYLvCaRwiw==

@@ -1,0 +1,14 @@
+Content-Length: 80
+Server: nginx
+Date: Mon, 20 Dec 2021 17:38:52 GMT
+Content-Type: text/plain; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Etag: "5e3eac7f5f8b6fd633d52398af084333"
+Vary: Accept-Language, Cookie
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Via: 1.1 google
+Cache-Control: max-age=3600,public
+Alt-Svc: clear

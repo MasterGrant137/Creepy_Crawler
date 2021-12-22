@@ -1,0 +1,15 @@
+Content-Length: 723
+Content-Type: text/plain
+Date: Mon, 20 Dec 2021 17:35:31 GMT
+Last-Modified: Mon, 12 Apr 2021 19:08:28 GMT
+Server: AmazonS3
+Etag: W/"94507c5c1999b462ad8600ba9b02049e"
+Content-Encoding: gzip
+Via: 1.1 varnish-v4, 1.1 8c74ec20ea984ef6dd79d2f0de6ac992.cloudfront.net (CloudFront)
+Cache-Control: max-age=172
+Accept-Ranges: bytes
+Set-Cookie: region=ccpa; path=/; Expires=Mon, 27 Dec 2021 17:35:31 GMT;
+Set-Cookie: _dcf=1; path=/; Expires=Mon, 27 Dec 2021 17:35:31 GMT;
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX50-C3
+X-Amz-Cf-Id: 2_F_hjBRcqq7LIIRj-9GBLpdjFUn1dgvJCGaL43wUwlBGMp8nSt8Ug==

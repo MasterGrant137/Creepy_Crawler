@@ -1,0 +1,31 @@
+Content-Length: 60509
+Content-Type: text/html; charset=utf-8
+X-Powered-By: web-next
+Vice-Trace-Id: 91d3198e79fb16db:91d3198e79fb16db:0:1
+Pragma: public
+Cache-Control: public, max-age=303, must-revalidate
+Expires: Mon, 20 Dec 2021 17:40:48 GMT
+Etag: "3231f-GxR5K6ZvZTYa79zSwRVz527Dtos"
+Content-Encoding: gzip
+X-Cache-Debug: cache-control: public, max-age=303, must-revalidate | surrogate-control: max-age=28800 | fastly ttl 28800.000
+Via: 1.1 varnish, 1.1 varnish
+X-Backend: 167.82.233.44
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:35:45 GMT
+Age: 0
+X-Served-By: cache-iad-kiad7000044-IAD, cache-bur17531-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640021746.671342,VS0,VE291
+Vary: Accept-Encoding
+Set-Cookie: X-Vice-Split-Testing=2020-10-19a:C; expires=Wed, 19 Jan 2022 17:35:45 GMT; domain=www.vice.com; path=/
+Set-Cookie: Vice-H2-Push-Sig=3e4b4458353daa69a835ccf418ef72e7b696ac36e6f2c48bb922e4f0; Secure; HttpOnly
+Set-Cookie: X-GeoIP-Country-Code=US; path=/;
+Set-Cookie: X-GeoIP-Region-Code=CA; path=/;
+X-Vice-Split-Testing: 2020-10-19a:C
+X-Geoip-Country-Code: US
+X-Geoip-Region-Code: CA
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: frame-ancestors 'self' *.vice.com vicetv.com *.vicetv.com vicetv.nl vicetv.be vicesports.nl vicemoney.nl vicebelgique.com survey18.toluna.com *.viceops.net survey-d.dynata.com

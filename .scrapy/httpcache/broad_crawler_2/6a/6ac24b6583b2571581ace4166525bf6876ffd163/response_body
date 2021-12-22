@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<!-- InstanceBegin template="/Templates/secondary.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head prefix="og: http://ogp.me/ns# website: http://ogp.me/ns/website#">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="/Content/icons/favicon.ico">
+<link rel="icon" type="image/png" href="/Content/icons/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/Content/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/Content/icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/Content/icons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/Content/icons/manifest.json">
+<meta name="theme-color" content="#ced7de">
+<link rel="apple-touch-icon" sizes="57x57" href="/Content/icons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/Content/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/Content/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/Content/icons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/Content/icons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/Content/icons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/Content/icons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/Content/icons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/Content/icons/apple-touch-icon-180x180.png">
+<meta name="apple-mobile-web-app-title" content="NIH">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-startup-image" href="/Content/icons/apple-touch-startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="/Content/icons/apple-touch-startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="/Content/icons/apple-touch-startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)">
+<link rel="apple-touch-startup-image" href="/Content/icons/apple-touch-startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)">
+<link rel="apple-touch-startup-image" href="/Content/icons/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="/Content/icons/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="/Content/icons/apple-touch-startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)">
+<meta name="application-name" content="NIH">
+<meta name="msapplication-TileColor" content="#ced7de">
+<meta name="msapplication-TileImage" content="/Content/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/Content/icons/browserconfig.xml">
+<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0011/2616.js" async="async"></script>
+<!--<link href="/feed/" rel="alternate" title="NIH Feed" type="application/atom+xml">-->
+<!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+<link href="/Content/bootstrap/site.css?20210311" rel="stylesheet"/>
+<link href="/Content/smartmenus/jquery.smartmenus.bootstrap.css" rel="stylesheet"/>
+<link href="/Content/site.css?20210326" rel="stylesheet"/>
+<!--<link href="/Content/slideshow/slick.css" rel="stylesheet"/>-->
+<!--<link href="/Content/slideshow/slick-theme.css" rel="stylesheet"/>-->
+<!--<link href="/Content/slideshow/custom-slider.css" rel="stylesheet"/>-->
+<!--<link href="/Content/slideshow/camera.css" rel="stylesheet"/>-->
+<meta name="x-font-awesome-stylesheet-fallback-test" class="fa">
+<link href="/Content/fontawesome/site.css" rel="stylesheet"/>
+<link href="/Content/advanced-read-more/advanced-read-more.css" rel="stylesheet"/>
+<script src="/Scripts/modernizr-2.8.3.js"></script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<script
+    type="text/javascript"
+    async defer
+    src="//assets.pinterest.com/js/pinit.js"
+></script>
+    <!-- InstanceBeginEditable name="Metatag_Content" -->
+    <title>Su versión más saludable | Los Institutos Nacionales de Salud</title>
+	<link rel="canonical" href="https://salud.nih.gov/recursos-de-salud/herramientas-de-bienestar/" />
+    <meta name="description" content="'La versión más saludable' de cada persona es diferente. Tenemos diferentes cuerpos, mentes, situaciones de vida, y gente que influye en nuestras vidas. Cada área puede afectar su salud general. Use nuestras herramientas de bienestar para buscar formas de mejorar su bienestar en cualquier área que desee.">
+    <meta name="author" content="NIH">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@nih">
+    <meta name="twitter:title" content="Su versión más saludable | Salud.nih.gov">
+    <meta name="twitter:description" content="'La versión más saludable' de cada persona es diferente. Use nuestras herramientas de bienestar para mejorar su bienestar en cualquier área que desee.">
+    <meta property="twitter:image" content="https://salud.nih.gov/Content/images/herramientas-de-bienestar/social-media/YourBody_02.jpg">
+    <meta property="twitter:image:alt" content="Ilustración de una pareja mayor caminando por un bosque.">
+    <meta property="og:title" content="Su versión más saludable | Salud.nih.gov">
+    <meta property="og:description" content="'La versión más saludable' de cada persona es diferente. Tenemos diferentes cuerpos, mentes, situaciones de vida, y gente que influye en nuestras vidas. Cada área puede afectar su salud general. Use nuestras herramientas de bienestar para buscar formas de mejorar su bienestar en cualquier área que desee.">
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://salud.nih.gov/recursos-de-salud/herramientas-de-bienestar/">
+    <meta property="og:image" content="https://salud.nih.gov/Content/images/herramientas-de-bienestar/social-media/YourBody_02.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1260">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Salud.nih.gov">
+    <meta property="business:contact_data:street_address" content="9000 Rockville Pike">
+    <meta property="business:contact_data:locality" content="Bethesda">
+    <meta property="business:contact_data:postal_code" content="Maryland">
+    <meta property="business:contact_data:country_name" content="20892">
+    <meta property="business:contact_data:email" content="preguntas@nih.gov">
+    <meta property="business:contact_data:phone_number" content="301-496-4000">
+    <meta property="business:contact_data:website" content="https://salud.nih.gov/">
+    <meta property="place:location:latitude" content="39.003407">
+    <meta property="place:location:longitude" content="-77.097423">
+    <!-- InstanceEndEditable -->
+    <!-- Begin Digital Analytics Program (DAP) -->
+        <script id="_fed_an_ua_tag" src="/Scripts/Universal-Federated-Analytics-Min.1.0.js?agency=HHS&subagency=NIH&pua=UA-68784462-1&sp=find&yt=true&exts=doc,docx,xls,xlsx,xlsm,ppt,pptx,exe,zip,pdf,js,txt,csv,dxf,wmv,jpg,wma,mov,avi,mp3,mp4,csv"></script>
+    <!-- End Digital Analytics Program (DAP) -->
+</head>
+
+<body class="recursos-salud"> <a href="#main_content" id="skipnav" class="sr-only sr-only-focusable">Saltar al contenido principal</a>
+    <a id="top"></a>
+    <!-- ****************** BANNER ****************** -->
+<div class="nihribbon-wrapper">
+		<ul id="nihribbon" class="container">
+				<li class="hhs"><a href="https://minorityhealth.hhs.gov/espanol/" hreflang="es">Departamento de Salud y Servicios Humanos</a></li>
+		</ul>
+</div>
+<div class="banner-wrapper">
+		<div id="banner" class="container">
+				<div class="row">
+						<div class="nihlogo col-xs-12 col-md-6 col-lg-7 flush-left"><a href="/"><img src="/Content/images/banner-nihlogo.png" title="National Institutes of Health (NIH) - Turning Discovery Into Health" width="390" height="60" class="img-responsive" alt="National Institutes of Health (NIH) - Transformación de Descubrimientos en Salud" /></a></div>
+
+						<!-- DigitalGov Search -->
+						<div class="col-xs-12 col-md-6 col-lg-5 flush-left flush-right">
+								<div id="site-search-collapse" class="collapse navbar-collapse">
+										<form accept-charset="UTF-8" action="https://search.nih.gov/search" id="site-search" method="get" target="_blank">
+												<fieldset>
+														<legend class="hidden-xs hidden-sm hidden-md hidden-lg">Buscar en el sitio web de los NIH</legend>
+														<input class="hidden-xs hidden-sm hidden-md hidden-lg" name="utf8" type="hidden" value="&#x2713;" />
+														<input class="hidden-xs hidden-sm hidden-md hidden-lg" id="affiliate" name="affiliate" type="hidden" value="nih-espanol" />
+														<label for="query" class="hidden-xs hidden-sm hidden-md hidden-lg">Inserte términos de búsqueda</label>
+														<input autocomplete="off" class="usagov-search-autocomplete form-field form-control col-xs-9" id="query" name="query" type="text" placeholder="Escriba aquí el término que busca" />
+														<button type="submit" name="commit" value="Buscar" id="searchbutton" class="form-button col-xs-3"><span aria-hidden="true" class="glyphicon glyphicon-search"></span><span class="hide">Buscar</span></button>
+												</fieldset>
+										</form>
+								</div>
+								<div>
+										<ul id="utilities">
+												<li ><a href="http://health.nih.gov/" class="english" hreflang="en">Información de salud en inglés</a></li>
+												<li class="last"><a href="https://www.nlm.nih.gov/medlineplus/spanish/" hreflang="es">MedlinePlus en español</a></li>
+										</ul>
+								</div>
+						</div>
+				</div>
+		</div>
+</div>
+<!-- ****************** END BANNER ****************** -->
+
+<!-- ****************** GLOBAL NAVIGATION ****************** -->
+<div class="navigation-wrapper">
+		<nav id="globalnav" class="row navbar navbar-default container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div id="globalnav-header" class="navbar-header">
+						<button type="button" id="search-toggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-search-collapse" aria-expanded="false">
+								<span class="sr-only">Search</span>
+								<span class="glyphicon glyphicon-search"></span>
+						</button>
+						<button id="health-info-toggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="false">
+								<span class="sr-only">Alternar la navegación</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+						</button>
+				</div>
+				<div class="collapse navbar-collapse" id="main-navbar-collapse">
+						<ul class="nav navbar-nav">
+								<li class="pagina-principal"><a href="/"><span class="glyphicon glyphicon-home"></span><span class="hidden-sm hidden-md">Página principal</span></a></li>
+								<li class="recursos-salud"><a href="/recursos-de-salud/" aria-haspopup="true" aria-expanded="false">Recursos de salud <span class="caret"></span></a>
+										<ul class="dropdown-menu" role="menu">
+												<!--<li><a href="/pregunta-a-carla/">Pregúntele a Carla</a></li>-->
+												<li><a href="/recursos-de-salud/herramientas-de-bienestar/" title="Su versión más saludable: Herramientas de bienestar">Herramientas de bienestar</a></li>
+												<li><a href="/recursos-de-salud/hablar-con-su-medico/">Hablar con su médico</a></li>
+												<li><a href="/recursos-de-salud/ediciones-especiales/">Ediciónes especiales</a></li>
+												<li><a href="/recursos-de-salud/herramientas-de-promocion/" title="Herramientas de promoción del El Portal de Información de Salud en Español de NIH">Herramientas de promoción</a></li>
+												<li><a href="/recursos-de-salud/lineas-telefonicas-para-informacion-sobre-la-salud/">Líneas telefónicas para información sobre la salud</a></li>
+										</ul>
+								</li>
+								<li class="temas-salud"><a href="/temas-de-salud/" aria-haspopup="true" aria-expanded="false">Temas de salud <span class="caret"></span></a>
+										<ul class="dropdown-menu" role="menu">
+												<li><a href="/covid-19/" hreflang="es">COVID-19</a></li>
+												<li><a href="/temas-de-salud/cancer/" hreflang="es">Cáncer</a></li>
+												<li><a href="/temas-de-salud/drogas-alcohol-y-tabaco/" hreflang="es">Drogas, alcohol y tabaco</a></li>
+												<li><a href="/temas-de-salud/enfermedades-y-afecciones/" hreflang="es">Enfermedades y afecciones</a></li>
+												<li><a href="/temas-de-salud/envejecimiento-saludable/" hreflang="es">Envejecimiento saludable</a></li>
+												<li><a href="/temas-de-salud/salud-de-la-mujer/" hreflang="es">Salud de la mujer</a></li>
+												<li><a href="/temas-de-salud/salud-de-los-ninos-y-adolescentes/" hreflang="es">Salud de los niños y adolescentes</a></li>
+												<li><a href="/temas-de-salud/salud-maternoinfantil/" hreflang="es">Salud maternoinfantil</a></li>
+												<li><a href="/temas-de-salud/salud-mental/" hreflang="es">Salud mental</a></li>
+												<li><a href="/temas-de-salud/vida-saludable" hreflang="es">Vida saludable</a></li>
+												<li><a href="/temas-de-salud/mas-temas" hreflang="es">Más temas</a></li>
+										</ul>
+								</li>
+								<li class="investigacion-clinica"><a href="/investigacion-clinica/">Investigación clínica <span class="caret"></span></a>
+										<ul class="dropdown-menu" role="menu">
+												<li><a href="/investigacion-clinica/los-fundamentos/">Los fundamentos</a></li>
+												<li><a href="/investigacion-clinica/como-encontrar-un-estudio-clinico/">Cómo encontrar un estudio clínico</a></li>
+												<li><a href="/investigacion-clinica/videos/">Videos sobre la investigación clínica</a></li>
+												<li><a href="/investigacion-clinica/glosario-de-terminos-comunes/">Glosario de términos comunes</a></li>
+												<li><a href="/investigacion-clinica/preguntas-frecuentes-sobre-los-registros/">Preguntas frecuentes sobre los registros</a></li>
+										</ul>
+								</li>
+								<li class="sobre-nih"><a href="/sobre-los-nih/" aria-haspopup="true" aria-expanded="false">Sobre los NIH <span class="caret"></span></a>
+										<ul class="dropdown-menu" role="menu">
+												<li><a href="/sobre-los-nih/mision-y-objetivos/">Misión y objetivos</a></li>
+												<li><a href="/sobre-los-nih/director/" title="Reseña biográfica del Dr. Francis S. Collins, Ph.D">Director de los NIH</a></li>
+												<li><a href="/sobre-los-nih/oficina-del-director/" title="Divisiones, oficinas y programas de la Oficina del Director de los NIH">Oficina del Director</a></li>
+										</ul>
+								</li>
+								<li class="preguntele-carla"><a href="/pregunta-a-carla/">Pregúntele a Carla</a></li>
+						</ul>
+				</div>
+		</nav>
+</div>
+<!-- ****************** END GLOBAL NAVIGATION ****************** -->
+    <!-- ****************** CONTAINER ****************** -->
+    <div id="container" class="container">
+        <!-- ****************** BANNER ****************** -->
+        <!-- Banner moved to header include -->
+        <!-- ****************** END BANNER ****************** -->
+        <!-- ****************** GLOBAL NAVIGATION ****************** -->
+        <!-- Global navigation moved to header include -->
+        <!-- ****************** END GLOBAL NAVIGATION ****************** -->
+        <div id="content" class="body-content row" role="main">
+            <a id="main_content" tabindex="0"></a>
+            <!--[if lt IE 8]>
+                <div class="alert alert-warning" role="alert">
+                    <p>You are using an outdated browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+                </div>
+            <![endif]-->
+            <!-- ****************** MAIN CONTENT ****************** -->
+            <div id="breadcrumbs" class="row">                
+                <ol class="breadcrumb">
+                    <!-- InstanceBeginEditable name="Breadcrumb" -->
+                    <li><a hreflang="es" href="/" title="Página principal" >Página principal</a></li>
+                    <li><a hreflang="es" href="/recursos-de-salud/">Recursos de salud</a></li>
+                    <li class="active">Su versión más saludable: Herramientas de bienestar</li>
+                    <!-- InstanceEndEditable -->
+                </ol>
+            </div>
+            <!-- ****************** SECTION HEADER ****************** -->
+            <div class="sectionheader row">
+                <div id="section-header">
+                    Recursos de salud
+                </div>
+            </div>
+            <!-- ****************** END SECTION HEADER ****************** -->
+            <div class="col-xs-12">
+                <div class="row">
+                    <!-- ****************** LEFT NAVIGATION ****************** -->
+                    <!-- ****************** END LEFT NAVIGATION ****************** -->
+                    <!-- ****************** CENTER COLUMN ****************** -->
+                    <!-- ****************** WIDE COLUMN ****************** -->
+                    <div id="centercolumn" class="article-page col-xs-12 col-md-9">
+                        <div class="syndicate">
+                            <header class="page-header">
+                                <h1><!-- InstanceBeginEditable name="Heading" -->Su versión más saludable: Herramientas de bienestar<!-- InstanceEndEditable --></h1>
+                            </header>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- InstanceBeginEditable name="Wide_Column" -->
+                                    <p class="highlighted">"La versión más saludable" de cada persona es diferente. Tenemos diferentes cuerpos, mentes, situaciones de vida, y gente que influye en nuestras vidas. Cada área puede afectar su salud general. Esto significa que cada uno de nosotros tiene un grupo exclusivo de necesidades médicas. Use nuestras herramientas de bienestar para buscar formas de mejorar su bienestar en cualquier área que desee.</p>
+									<p>&nbsp;</p>
+									<div class="article-listing-box-wrapper">
+										<div class="col-md-6">
+											<div class="article-listing-box article-listing-box-tall">
+												<div><a hreflang="es" href="sus-alrededores/"><img src="/Content/images/herramientas-de-bienestar/sus-alrededores.png" alt="Ilustración de un padre sosteniendo un trapeador y leyendo la etiqueta de un producto de limpieza en la cocina." class="img-responsive"></a></div>
+												<h2><a hreflang="es" href="sus-alrededores/">Sus alrededores</a></h2>
+												<p>Aprenda cómo hacer para que su entorno sea más seguro y cómo limitar su exposición a sustancias potencialmente nocivas para mantenerse más saludable.</p>
+												<p><a hreflang="es" href="sus-alrededores/" class="btn btn-learn-more">Leer más</a></p>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="article-listing-box article-listing-box-tall">
+												<div><a hreflang="es" href="sus-sentimientos"><img src="/Content/images/herramientas-de-bienestar/sus-sentimientos-2.png" alt="" class="img-responsive"></a></div>
+												<h2><a hreflang="es" href="sus-sentimientos">Sus sentimientos</a></h2>
+												<p>Conozca cómo controlar exitosamente el estrés de la vida y adaptarse a cambios y épocas difíciles.</p>
+												<p><a hreflang="es" href="sus-sentimientos" class="btn btn-learn-more">Leer más</a></p>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="article-listing-box article-listing-box-tall">
+												<div><a hreflang="es" href="su-cuerpo"><img src="/Content/images/herramientas-de-bienestar/su-cuerpo-2.png" alt="" class="img-responsive"></a></div>
+												<h2><a hreflang="es" href="su-cuerpo">Su cuerpo</a></h2>
+												<p>Descubra cómo los hábitos de salud física pueden ayudar a bajar su estrés, disminuir el riesgo de enfermedad, y aumentar su energía.</p>
+												<p><a hreflang="es" href="su-cuerpo" class="btn btn-learn-more">Leer más</a></p>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="article-listing-box article-listing-box-tall">
+												<div><a hreflang="es" href="sus-relaciones/"><img src="/Content/images/herramientas-de-bienestar/sus-relaciones.png" alt="Ilustración de un grupo de voluntarios." class="img-responsive"></a></div>
+												<h2><a hreflang="es" href="sus-relaciones/">Sus relaciones</a></h2>
+												<p>Aprenda cómo crear hábitos sociales positivos que lo ayuden a mantenerse más saludable de forma física y mental.</p>
+												<p><a hreflang="es" href="sus-relaciones/" class="btn btn-learn-more">Leer más</a></p>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="article-listing-box article-listing-box-tall">
+												<div><a hreflang="es" href="su-defensa-contra-enfermedades/"><img src="/Content/images/herramientas-de-bienestar/su-defensa-contra-enfermedades.png" alt="Ilustración de una mujer siendo vacunada." class="img-responsive"></a></div>
+												<h2><a hreflang="es" href="su-defensa-contra-enfermedades/">Su defensa contra enfermedades</a></h2>
+												<p>Sepa qué medidas puede tomar para proteger su salud y evitar enfermedades.</p>
+												<p><a hreflang="es" href="su-defensa-contra-enfermedades/" class="btn btn-learn-more">Leer más</a></p>
+											</div>
+										</div>
+									</div>
+												
+									<h2 class="withrule">Información relativa</h2>
+									<div class="row button-cards--no-top-margin">
+										<div class="col-xs-12 col-sm-6">
+												<p><a class="button-card" href="/temas-de-salud/vida-saludable/" hreflang="es">Vida saludable</a></p>
+										</div>
+										<div class="col-xs-12 col-sm-6">
+												<p><a class="button-card" href="/temas-de-salud/envejecimiento-saludable/" hreflang="es">Envejecimiento saludable</a></p>
+										</div>
+									</div>
+							
+									<h2 class="withrule">Obtenga más información</h2>
+									<div class="related-information">
+										<ul>
+											<li><h3><a lang="es" href="https://nccih.nih.gov/health/espanol?lang=es">Centro Nacional para una Salud Integradora y Complementaria (NCCIH)</a></h3></li>
+											<li><h3><a lang="es" href="https://www.niaid.nih.gov/global/informaci%C3%B3n-en-espa%C3%B1ol">Instituto Nacional de Alergias y Enfermedades Contagiosas (NIAID)</a></h3></li>
+											<li><h3><a lang="es" href="https://www.niams.nih.gov/es/portal-en-espanol">Instituto Nacional de Artritis y Enfermedades Musculoesqueléticas y de la Piel (NIAMS)</a></h3></li>
+											<li><h3><a lang="es" href="https://espanol.ninds.nih.gov/">Instituto Nacional de Enfermedades Neurológicas y Accidentes Cerebrovasculares (NINDS)</a></h3></li>
+											<li><h3><a lang="es" href="https://www.niddk.nih.gov/health-information/informacion-de-la-salud/diabetes/informacion-general/insulina-medicamentos-tratamientos/preguntas-medicinas">Instituto Nacional de la Diabetes y las Enfermedades Digestivas y Renales (NIDDK)</a></h3></li>
+											<li><h3><a lang="es" href="https://www.niehs.nih.gov/health/topics/enfermedades/index.cfm">Instituto Nacional de Ciencias de la Salud Ambiental (NIEHS)</a></h3></li>
+											<li><h3><a lang="es" href="https://www.cancer.gov/espanol">Instituto Nacional del Cáncer (NCI)</a></h3></li>
+											<li><h3><a lang="en" href="https://www.nhlbi.nih.gov/">Instituto Nacional del Corazón, los Pulmones y la Sangre (NHLBI)</a></h3></li>
+											<li><h3><a lang="es" href="https://www.nia.nih.gov/health/espanol/temas">Instituto Nacional sobre el Envejecimiento (NIA)</a></h3></li>
+										</ul>
+									</div>
+                                    <!-- InstanceEndEditable -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ****************** END WIDE COLUMN ****************** -->
+                    <!-- ****************** END CENTER COLUMN ****************** -->
+                    <!-- ****************** RIGHT COLUMN ****************** -->
+                    <div id="rightcolumn" class="col-xs-12 col-md-3">
+                        <!-- InstanceBeginEditable name="Right_Rail" -->
+						<!-- Box Goes Here If Exist -->
+						<div class="box blue">
+							<p class="less-bottom-padding"><a class="btn btn-white btn-tag" href="https://www.nih.gov/health-information/your-healthiest-self-wellness-toolkits">en</a></p>
+							<p><strong>View this resource in English:</strong><br />
+							<a href="https://www.nih.gov/health-information/your-healthiest-self-wellness-toolkits">Your Healthiest Self: Wellness Toolkits</a></p>
+						</div>
+						<div class="box">
+							<h3><a hreflang="es" href="/pregunta-a-carla/" title="Pregúntele a Carla" >Pregúntele a Carla</a></h3>
+							<p>Búsqueda de información de salud confiable</p>
+							<p><a hreflang="es" href="/pregunta-a-carla/" title="Pregúntele a Carla" ><img class="img-responsive" src="/Content/images/Pregunta-a-Carla.png" width="800" height="884" alt="Un dibujo de Carla."></a></p>
+							<p><a href="/pregunta-a-carla/como-puedo-perder-peso-de-manera-saludable/">¿Cómo puedo perder peso de manera saludable?</a></p>
+							<p><a href="/pregunta-a-carla/me-gustaria-dejar-de-consumir-drogas-donde-puedo-obtener-ayuda/">Me gustaría dejar de consumir drogas. ¿Dónde puedo obtener ayuda?</a></p>
+						</div>
+                        <!-- InstanceEndEditable -->
+                    </div>
+                    <!-- ****************** END RIGHT COLUMN ****************** -->
+                </div>
+            </div>
+                        <div class="uptotop"><a href="#top"><span class="icon-arrow-up"></span><span class="text">Volver arriba</span></a></div>
+            <div id="lastupdated" class="col-xs-12">Actualizada en Diciembre de 2021</div>
+        </div>
+        <!-- ****************** END MAIN CONTENT ****************** -->
+        <!-- ****************** FOOTER ****************** -->
+                <footer class="row clearfix">
+            <div id="footer" class="col-xs-12">
+                <ul>
+                    <li><a hreflang="es" href="/">Página principal</a></li>
+                    <li><a href="mailto:salud@nih.gov">Contáctenos</a></li>
+                    <li><a hreflang="es" href="/politicas/" title="Política de privacidad de NIH">Políticas</a></li>
+                    <li><a hreflang="es" href="/accesibilidad/">Accesibilidad</a></li>
+                    <li><a hreflang="es" href="/ley-de-libre-acceso-a-la-informacion/">FOIA (Ley de libre acceso a la información)</a></li>
+                </ul>
+                <ul>
+                    <li><a href="http://www.hhs.gov/" class="english" hreflang="en">Departamento de Salud y Servicios Humanos</a></li>
+                    <li><a href="https://gobierno.usa.gov/" hreflang="es">GobiernoUSA.gov</a></li>
+                </ul>
+                <p class="address">Institutos Nacionales de la Salud (NIH), 9000 Rockville Pike, Bethesda, Maryland 20892</p>
+                <p>NIH&hellip;Transformación de Descubrimientos en Salud<sup>®</sup></p>
+            </div>
+        </footer>
+        <!-- ****************** END FOOTER ****************** -->
+    </div>
+    <!-- ****************** END CONTAINER ****************** -->
+    <!-- ****************** FOOTER SCRIPTS ****************** -->
+    <script src="/Scripts/jquery-3.5.1.min.js"></script>
+		<script src="/Scripts/jquery.validate.js"></script>
+		<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+		<script src="/Scripts/jquery.validate.js"></script>
+		<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+		<script src="/Scripts/bootstrap.js"></script>
+		<script src="/Scripts/Fallback/styles.js"></script>
+		<script src="/Scripts/Fallback/scripts.js"></script>
+		<script src="/Scripts/jquery.smartmenus.min.js"></script>
+		<script src="/Scripts/jquery.smartmenus.bootstrap.min.js"></script>
+		<script src="/Scripts/slick.js"></script>
+		<script src="/Scripts/player.js"></script>
+		<script src="/Scripts/jquery.easing.min.js"></script>
+		<script src="/Scripts/jquery.mobile.customized.min.js"></script>
+		<script src="/Scripts/camera.min.js"></script>
+		<script src="/Scripts/jquery.leaveNotice.min.js"></script>
+		<script src="/Scripts/homepageSlider.js"></script>
+		<script src="/Scripts/jquery.collapse.js"></script>
+		<script src="/Scripts/jquery.collapse_storage.js"></script>
+		<script src="/Scripts/hideMaxListItem-min.js" type="text/javascript"></script>
+		<!--<script src="/Scripts/jquery.collapser.min.js" type="text/javascript"></script>-->
+		<script src="/Scripts/jquery.matchHeight.js" type="text/javascript"></script>
+		<!--<script src="/Scripts/advanced-read-more.min.js" type="text/javascript"></script>-->
+		<script src="/Scripts/readmore.js" type="text/javascript"></script>
+		<script src="/Scripts/site.js?20210319"></script>
+		
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60391307a6336c62"></script>
+
+
+    <!-- ****************** END FOOTER SCRIPTS ****************** -->
+</body>
+<!-- InstanceEnd -->
+
+</html>

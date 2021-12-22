@@ -1,0 +1,10 @@
+Content-Length: 20
+Server: nginx
+Date: Sat, 18 Dec 2021 02:07:02 GMT
+Content-Type: text/html; charset=utf-8
+Location: https://diff.wikimedia.org/2016/03/30/unique-devices-dataset/
+X-Rq: bur8 0 2 9980
+Cache-Control: max-age=300, must-revalidate
+Content-Encoding: gzip
+Age: 0
+X-Cache: miss

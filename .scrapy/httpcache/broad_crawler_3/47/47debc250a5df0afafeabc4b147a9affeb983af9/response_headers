@@ -1,0 +1,20 @@
+Date: Mon, 20 Dec 2021 16:13:39 GMT
+Content-Type: text/html; charset=utf-8
+Server: Apache
+Cache-Control: no-cache
+Referrer-Policy: strict-origin-when-cross-origin
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Request-Id: b965104d-298b-4016-838d-f8d313ba5a52
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.tribesocial.com *.intellum.com *.intellumlevel.com *.honeybadger.io *.amazonaws.com *.googleapis.com *.google-analytics.com *.jquery.com *.cookielaw.org *.onetrust.com *.cookiepro.com *.youtube.com *.youtube-nocookie.com *.embedly.com *.embed.ly vimeo.com *.vimeo.com *.brightcove.net *.facebook.com zoom.us *.zoom.us wss://*.zoom.us *.vhall.com *.nest.com *.demandbase.com *.company-target.com *.zscaler.net *.widencdn.net *.ytimg.com *.tealiumiq.com *.atdmt.com *.tiqcdn.com *.facebook.net *.facebook.com *.gstatic.com *.google.com *.doubleclick.net *.googleadservices.com *.googleusercontent.com *.googletagmanager.com *.googleplex.com *.stripe.com *.aptrinsic.com cdn.exceedlms.com img.en25.com wss://websockets.intellum.com *.googleusercontent.com *.githubusercontent.com; img-src * data:; media-src * blob: mediastream:; frame-ancestors 'self' *.tribesocial.com *.intellum.com *.exceedlms.com *.nest.com *.demandbase.com *.company-target.com *.zscaler.net *.widencdn.net *.ytimg.com *.tealiumiq.com *.atdmt.com *.tiqcdn.com *.facebook.net *.facebook.com *.gstatic.com *.google.com *.doubleclick.net *.googleadservices.com *.googleusercontent.com *.googletagmanager.com *.googleplex.com *.stripe.com *.aptrinsic.com img.en25.com;
+Set-Cookie: experiments_data=BAhJImB7Imxhc3RfY2hlY2tfYXQiOiIyMDIxLTEyLTIwVDE2OjEzOjM5KzAwOjAwIiwiZ3JvdXBfaWRzIjpbXSwiYXNzaWduZWRfc2Vzc2lvbl9pZCI6Mjc1NjkzODN9BjoGRVQ%3D--97e122fa7986d82d7e13ae00f8c0b02da5a13572; path=/; expires=Fri, 20 Dec 2041 16:13:39 GMT; Secure; SameSite=None
+Set-Cookie: tid=5e4fbd54-5d98-40c0-9b8f-79d95fb04862; path=/; expires=Tue, 20 Dec 2022 16:13:39 GMT; Secure; SameSite=None
+Set-Cookie: smart_link_url_key=BAhJIg0zODI2NTJiYwY6BkVU--5c68478a0f7f43e45683915132e806fd9555226a; path=/; Secure; SameSite=None
+Set-Cookie: smart_link_token_value=BAgw--7436707994f194efdefbbb747e9eb1bba0630d0f; path=/; Secure; SameSite=None
+Set-Cookie: smart_link_log_id=BAhpAwFpWw%3D%3D--bb38bd26a25a7e0702a56119aff7f24f7e682314; path=/; Secure; SameSite=None
+Strict-Transport-Security: max-age=63072000; includeSubdomains;
+Location: https://www.twitterflightschool.com/student/catalog?utm_source=twitter&utm_medium=referral&utm_campaign=boilerplatefooter&utm_content=all-footer-link-na-na-gbm-all-all-all
+Status: 302 Found

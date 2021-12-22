@@ -1,0 +1,17 @@
+Content-Length: 0
+Date: Mon, 20 Dec 2021 18:37:50 GMT
+Server: tsa_a
+Location: /login
+Set-Cookie: guest_id_marketing=v1%3A164002547082602415; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:37:50 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A164002547082602415; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:37:50 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_ZSpM2tc/mPay54x80Hdrkg=="; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:37:50 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A164002547082602415; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:37:50 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Cache-Control: no-cache, no-store, max-age=0
+X-Transaction: 013521965a3ebf68
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self'; connect-src 'self' https://ads-api.twitter.com https://api.twitter.com https://api.mixpanel.com https://upload.twitter.com https://pbs.twimg.com https://vpn.twttr.com https://*.vpn.twttr.com https://upload.twitter.com; font-src 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com data:; frame-src 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com https://platform.twitter.com https://syndication.twitter.com https://vine.co https://vpn.twttr.com https://*.vpn.twttr.com https://googleads.g.doubleclick.net https://twitterinc.secure.force.com https://upload.twitter.com https://www.google.com; img-src 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com https: http://*.mzstatic.com data:; media-src 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com; object-src 'none'; script-src 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com https://platform.twitter.com https://syndication.twitter.com https://ssl.google-analytics.com https://www.google-analytics.com https://bat.bing.com https://analytics.twitter.com https://static.ads-twitter.com https://s.pinimg.com https://vpn.twttr.com https://*.vpn.twttr.com https://stats.g.doubleclick.net https://www.googleadservices.com; style-src 'unsafe-inline' 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com https://ads.twitter.com https://vpn.twttr.com https://*.vpn.twttr.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVRWC3LQMFUWO3TT&ro=false;
+Strict-Transport-Security: max-age=631138519
+X-Response-Time: 6
+X-Connection-Hash: e0efa12c4775b53dc9cfc78f66c934261078f3f84b745d7f3cc8c75b0e6cd7e6

@@ -1,0 +1,22 @@
+Content-Type: text/html; charset=utf-8
+Server: openresty
+X-Powered-By: Next.js
+Etag: W/"58da6-kXonRvHlGvCNMJRr6PY5lJpPWWE"
+Last-Modified: Monday, 20-Dec-2021 17:35:52 GMT
+X-Served-By: spectrum-article
+X-Origin-Cache: MISS
+X-Origin-Upstream-Status: 200
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Akamai-Transformed: 9 - 0 pmb=mRUM,1
+Cache-Control: max-age=60
+Expires: Mon, 20 Dec 2021 17:36:52 GMT
+Date: Mon, 20 Dec 2021 17:35:52 GMT
+Set-Cookie: wp_devicetype=0; expires=Wed, 19-Jan-2022 17:35:52 GMT; path=/; domain=.washingtonpost.com; secure; SameSite=None
+Set-Cookie: wp_geo=US|CA|804|92201-92203|; max-age=3600; path=/; domain=.washingtonpost.com; SameSite=None; secure
+Set-Cookie: wp_country=US; max-age=3600; path=/; domain=.washingtonpost.com; SameSite=None; secure
+Server-Timing: cdn-cache; desc=REVALIDATE
+Server-Timing: edge; dur=8094
+Server-Timing: origin; dur=775
+Content-Security-Policy: upgrade-insecure-requests
+Origin-Trial: Ag/jsFF5ls0C6USCqeDPKE1yIw2K6mJ29TCtg5pnunsmgN5SRJnP+xfrZzLH2e60hxn7JIOUmRqH4owieSZkLwMAAABweyJvcmlnaW4iOiJodHRwczovL3dhc2hpbmd0b25wb3N0LmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlfQ==

@@ -1,0 +1,13 @@
+Content-Length: 0
+X-Request-Id: 8762bd2b-a29f-470d-bbab-247121063714
+Location: /quotes/aapl,axp,ba,cat,csco,cvx,dis,wba,gs,hd,ibm,intc,jnj,jpm,ko,mcd,mmm,mrk,msft,nke,pfe,pg,trv,unh,v,vz,wmt,xom,dow,rtx
+Access-Control-Allow-Origin: *
+X-Aicache-Os: xxx.xx.15.199:81
+X-Aicache-Os: x.xxx.155.142:80
+Cache-Control: max-age=15
+Expires: Mon, 20 Dec 2021 21:56:01 GMT
+Date: Mon, 20 Dec 2021 21:55:46 GMT
+Set-Cookie: region=USA; expires=Sun, 20-Mar-2022 21:55:46 GMT; path=/; domain=.cnbc.com
+Set-Cookie: AKA_A2=A; expires=Mon, 20-Dec-2021 22:55:46 GMT; path=/; domain=cnbc.com; secure; HttpOnly
+Link: <https://static-redesign.cnbcfm.com>;rel="preconnect",<https://www.googleoptimize.com>;rel="preconnect"
+Vary: User-Agent

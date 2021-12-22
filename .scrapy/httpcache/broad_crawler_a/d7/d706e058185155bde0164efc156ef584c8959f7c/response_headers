@@ -1,0 +1,25 @@
+Date: Mon, 20 Dec 2021 23:36:17 GMT
+Content-Type: text/html
+Vary: Accept-Encoding
+X-Amz-Id-2: Z0DBKpZ0hH61nIKhdXlGPOz8RjvCQ9OOl0BjgX9hbjpcdTovrMDspYo4E2h4mf/dPcGQRZql7jQ=
+X-Amz-Request-Id: P937V041D3VYSGT5
+Last-Modified: Tue, 14 Dec 2021 13:56:42 GMT
+Etag: W/"a4afba2ac99e33559d0de78f3917a42a"
+X-Served: Nginx-Proxito-Sendfile
+X-Backend: web-i-0963c052c0f5d7e3c
+X-Rtd-Project: cpython-devguide
+X-Rtd-Version: latest
+X-Rtd-Path: /proxito/html/cpython-devguide/latest/docquality/index.html
+X-Rtd-Domain: devguide.python.org
+X-Rtd-Version-Method: path
+X-Rtd-Project-Method: cname
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+Content-Encoding: gzip
+Cf-Cache-Status: REVALIDATED
+Expires: Tue, 21 Dec 2021 01:36:17 GMT
+Cache-Control: public, max-age=7200
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c0cb121b9ea7b61-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

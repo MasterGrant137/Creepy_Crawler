@@ -1,0 +1,21 @@
+Content-Length: 0
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 20 Dec 2021 18:48:31 GMT
+Location: https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: script-src 'report-sample' 'nonce-oOpCKotDcS92nLMuEL68Dg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DotsSplashUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/DotsSplashUi/cspreport
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Cross-Origin-Resource-Policy: same-site
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=JjMi30RmEsMaWQm0qF0St4C7E1M0q907B7LL6sfRkz60Kqe8xjpWqlpBGWOFCmrwymCJIISZWndhHs2z3IsOMAVXQcfRf2eath50RVPUcAtQEHOlLb8nvwPVxjLudzYE3K6q6N7v7K0hREG9Ui9Hy41B97SzelDAs5JxOAxHcS0; expires=Tue, 21-Jun-2022 18:48:31 GMT; path=/; domain=.google.com; HttpOnly
+Set-Cookie: GN_PREF=W251bGwsIkNBSVNEQWpfbjRPT0JoQ0FtN2JpQWciXQ__; Expires=Tue, 21-Jun-2022 06:48:31 GMT; Path=/; Secure
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

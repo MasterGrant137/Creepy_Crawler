@@ -1,0 +1,15 @@
+Content-Length: 217
+Date: Mon, 20 Dec 2021 18:53:20 GMT
+Server: tsa_a
+Location: https://help.twitter.com/ko/rules-and-policies
+Set-Cookie: guest_id_marketing=v1%3A164002640057227336; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:53:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A164002640057227336; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:53:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_A5aAZdk1HFvKh7jww7BE0A=="; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:53:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A164002640057227336; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:53:20 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: no-cache, no-store, max-age=0
+Content-Encoding: gzip
+X-Xss-Protection: 0
+Strict-Transport-Security: max-age=631138519
+X-Response-Time: 7
+X-Connection-Hash: 7f6ea7e81da13f0a9f915e3c833146502f169f1eb5681a6e3ebe959304e02b53

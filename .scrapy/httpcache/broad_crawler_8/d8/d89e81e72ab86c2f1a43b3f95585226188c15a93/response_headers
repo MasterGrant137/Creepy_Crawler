@@ -1,0 +1,17 @@
+Content-Length: 0
+Server: Server
+Date: Mon, 20 Dec 2021 19:01:27 GMT
+X-Amz-Rid: 8AJ4E9YC4W7Z83VYEST5
+Set-Cookie: uu=eyJpZCI6InV1ZTZlZTgzNTIxYTRjNDRlZjg4NmUiLCJwcmVmZXJlbmNlcyI6eyJmaW5kX2luY2x1ZGVfYWR1bHQiOmZhbHNlfX0=; Domain=.imdb.com; Expires=Sat, 07-Jan-2090 22:15:34 GMT; Path=/; Secure
+Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Sat, 07-Jan-2090 22:15:34 GMT; Path=/; Secure
+Set-Cookie: session-id-time=2270746887; Domain=.imdb.com; Expires=Sat, 07-Jan-2090 22:15:34 GMT; Path=/; Secure
+Content-Security-Policy: frame-ancestors 'self' imdb.com *.imdb.com *.media-imdb.com withoutabox.com *.withoutabox.com amazon.com *.amazon.com amazon.co.uk *.amazon.co.uk amazon.de *.amazon.de translate.google.com images.google.com www.google.com www.google.co.uk search.aol.com bing.com www.bing.com
+Location: https://www.imdb.com/originals/?mode=desktop&ref_=m_ft_dsk
+Content-Language: en
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 aff5e9451691d523addd55bc1babaaca.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C4
+X-Amz-Cf-Id: R3GczimAHIZeHXbP874H0hVsZHsvVPaE1zrHZ5iJCIO6VvSm_k51HA==

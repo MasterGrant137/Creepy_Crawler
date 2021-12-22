@@ -1,0 +1,15 @@
+Content-Length: 155099
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self' https://widget.driftqa.com https://codecov-cdn.storage.googleapis.com;img-src 'self'  https://googletagmanager.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com http://www.google-analytics.com https://bitbucket-assetroot.s3.amazonaws.com https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net https://codecov-cdn.storage.googleapis.com/ https://avatar-cdn.atlassian.com https://avatars.io https://bitbucket.org http://www.gravatar.com https://secure.gravatar.com https://avatars0.githubusercontent.com https://assets.gitlab-static.net https://gitlab.com *.stripe.com http://t.co http://p.adsymptotic.com https://*.linkedin.com data:; frame-src https://widget.drift.com https://www.googletagmanager.com *.stripe.com https://get.codecov.io;connect-src 'self' https://cancel.baremetrics.com https://sentry.baremetrics.com *.mktoresp.com https://sentry.baremetrics.io https://api.segment.io https://rs.fullstory.com *.stripe.com https://wdzsn5dlywj9.statuspage.io https://stats.g.doubleclick.net https://api.codecov.io; font-src 'self' https://codecov-cdn.storage.googleapis.com data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://baremetrics-barecancel.baremetrics.com https://get.codecov.io https://codecov-cdn.storage.googleapis.com https://fonts.googleapis.com data:; script-src 'self' 'unsafe-eval' https://js.driftt.com https://cdn.mxpnl.com https://baremetrics-barecancel.baremetrics.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google-analytics.com http://www.google-analytics.com https://cdn.segment.com https://edge.fullstory.com https://ajax.googleapis.com *.stripe.com https://fullstory.com https://codecov-cdn.storage.googleapis.com https://ws.zoominfo.com https://snap.licdn.com http://static.ads-twitter.com https://analytics.twitter.com https://get.codecov.io https://munchkin.marketo.net http://munchkin.marketo.net 'unsafe-inline';
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: X-PJAX, Accept-Encoding
+Server: envoy
+X-Ua-Compatible: IE=Edge,chrome=1
+Cache-Control: no-cache
+Date: Mon, 20 Dec 2021 23:33:20 GMT
+X-Frame-Options: deny
+Content-Type: text/html; charset=UTF-8
+X-Envoy-Upstream-Service-Time: 7
+Via: 1.1 google
+Alt-Svc: clear

@@ -1,0 +1,23 @@
+Content-Length: 151
+Date: Mon, 20 Dec 2021 18:59:39 GMT
+Content-Type: text/plain; charset=utf-8
+X-Xss-Protection: 1;  mode=block
+Last-Modified: Wed, 15 Dec 2021 08:17:17 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=10886400; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: frame-ancestors 'self'
+X-Ua-Compatible: IE=Edge,chrome=1
+Cf-Cache-Status: REVALIDATED
+Expires: Tue, 20 Dec 2022 18:59:39 GMT
+Cache-Control: public, max-age=31536000
+Accept-Ranges: bytes
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: __cf_bm=lRGTdbCSqdus1tbdtL_daxZT2cHbODA9GgAxUfO7KMM-1640026779-0-AdUN/MbbiT43SCx5Ur6dEYzqrLdqf62fXhwp5yFHbt9srm9yJyMr/BmbzTHPxj3aUtJQpzwYGeO5uDqDssQ57ok=; path=/; expires=Mon, 20-Dec-21 19:29:39 GMT; domain=.routledge.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Cf-Ray: 6c0b1beaaca67c71-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

@@ -1,0 +1,16 @@
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Date: Mon, 20 Dec 2021 21:59:34 GMT
+X-Amz-Rid: Q5AS4F21TVF7NXZ2D31E
+Set-Cookie: uu=eyJpZCI6InV1MDFmYzRiYzNmZGIwNDhkZjk5MTgiLCJwcmVmZXJlbmNlcyI6eyJmaW5kX2luY2x1ZGVfYWR1bHQiOmZhbHNlfX0=; Domain=.imdb.com; Expires=Sun, 08-Jan-2090 01:13:40 GMT; Path=/; Secure
+Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Sun, 08-Jan-2090 01:13:40 GMT; Path=/; Secure
+Set-Cookie: session-id-time=2270757572; Domain=.imdb.com; Expires=Sun, 08-Jan-2090 01:13:40 GMT; Path=/; Secure
+Content-Security-Policy: frame-ancestors 'self' imdb.com *.imdb.com *.media-imdb.com withoutabox.com *.withoutabox.com amazon.com *.amazon.com amazon.co.uk *.amazon.co.uk amazon.de *.amazon.de translate.google.com images.google.com www.google.com www.google.co.uk search.aol.com bing.com www.bing.com
+Content-Language: en
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 524b1c81c238e5098303bf1ee05a952f.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C3
+X-Amz-Cf-Id: RWVV_57LeF2tqPknbwMtnlQ_pKPUj7I6wTqXMhGg_bOEg6_m4QDoYw==

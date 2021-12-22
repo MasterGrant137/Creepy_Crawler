@@ -1,0 +1,15 @@
+Server: nginx
+Date: Mon, 20 Dec 2021 23:36:15 GMT
+Content-Type: text/plain; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-Discourse-Route: robots_txt/index
+Vary: Accept
+Cache-Control: no-cache, no-store
+X-Request-Id: cd223e27-3ab1-4bc7-a6b6-5cfde95c785b
+Discourse-Proxy-Id: app-router-tiehunter02.sea1
+Strict-Transport-Security: max-age=31536000

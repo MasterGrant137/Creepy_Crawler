@@ -1,0 +1,20 @@
+Content-Length: 35368
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+Link: <https://www.dictionary.com/e/?p=135937>; rel=shortlink
+Last-Modified: Mon, 20 Dec 2021 05:45:18 GMT
+Pragma: public
+Etag: "cacd381b5e5291d1b42ba9b7f58be50e"
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Expires: Tue, 21 Dec 2021 05:30:00 GMT
+Cached-Cookies: (null); ; (null); ;
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 18:48:43 GMT
+Age: 0
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kcgs7200141-IAD, cache-bur17557-BUR
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1640026123.121321,VS0,VE67
+Vary: Accept-Encoding, cached-cookies, X-OPTIONS

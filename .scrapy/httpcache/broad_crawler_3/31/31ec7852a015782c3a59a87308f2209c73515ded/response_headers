@@ -1,0 +1,18 @@
+Content-Length: 164
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/plain
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/news-frontend
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy: same-origin; report-to="news-frontend"
+Report-To: {"group":"news-frontend","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/news-frontend"}]}
+Date: Mon, 20 Dec 2021 18:48:29 GMT
+Expires: Mon, 20 Dec 2021 19:38:29 GMT
+Last-Modified: Thu, 23 Apr 2020 21:37:55 GMT
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Server: sffe
+X-Xss-Protection: 0
+Cache-Control: public, max-age=3000
+Age: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

@@ -1,0 +1,11 @@
+Content-Length: 0
+Location: https://www.cms.gov/newsroom
+Date: Mon, 20 Dec 2021 17:54:35 GMT
+Set-Cookie: _ga=GA1.2.144700345.1640022875; expires=Wed, 20-Dec-2023 17:54:35 GMT; path=/; domain=.cms.gov; secure
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+Strict-Transport-Security: max-age=31536000

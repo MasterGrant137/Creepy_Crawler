@@ -1,0 +1,22 @@
+Content-Length: 149
+X-Dns-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy-Report-Only: default-src 'self' data; script-src 'self' 'unsafe-eval' 'unsafe-inline' dap.digitalgov.gov www.google-analytics.com www.googletagmanager.com assets.nlm.nih.gov zn1zdxuy1htarvnjr-nlmenterprise.siteintercept.qualtrics.com; connect-src 'self' www.google-analytics.com; font-src 'self'; img-src 'self' www.gstatic.com www.google-analytics.com; style-src 'self' 'unsafe-inline' 'unsafe-eval'; report-uri https://nlmoccs.report-uri.com/r/d/csp/reportOnly
+X-Content-Security-Policy-Report-Only: default-src 'self' data; script-src 'self' 'unsafe-eval' 'unsafe-inline' dap.digitalgov.gov www.google-analytics.com www.googletagmanager.com assets.nlm.nih.gov zn1zdxuy1htarvnjr-nlmenterprise.siteintercept.qualtrics.com; connect-src 'self' www.google-analytics.com; font-src 'self'; img-src 'self' www.gstatic.com www.google-analytics.com; style-src 'self' 'unsafe-inline' 'unsafe-eval'; report-uri https://nlmoccs.report-uri.com/r/d/csp/reportOnly
+X-Webkit-Csp-Report-Only: default-src 'self' data; script-src 'self' 'unsafe-eval' 'unsafe-inline' dap.digitalgov.gov www.google-analytics.com www.googletagmanager.com assets.nlm.nih.gov zn1zdxuy1htarvnjr-nlmenterprise.siteintercept.qualtrics.com; connect-src 'self' www.google-analytics.com; font-src 'self'; img-src 'self' www.gstatic.com www.google-analytics.com; style-src 'self' 'unsafe-inline' 'unsafe-eval'; report-uri https://nlmoccs.report-uri.com/r/d/csp/reportOnly
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: -1
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Content-Security-Policy: default-src 'none'
+Content-Type: text/html; charset=utf-8
+Date: Mon, 20 Dec 2021 17:38:50 GMT
+X-Vip-Info: 130.14.16.209:443
+X-Pool-Info: /Common/meshbrowser7_p
+Xapi-Count: 1
+X-Count: 1

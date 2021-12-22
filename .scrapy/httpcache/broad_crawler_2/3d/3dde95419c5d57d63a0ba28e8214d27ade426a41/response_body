@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Healthcare Delivery Research Program Error - Page Not Found</title>
+	<link rel="icon" href="/favicon.ico">
+<link href="/toolbox/bootstrap/v4.5.2/bootstrap-4.5.2.custom.min.css" rel="stylesheet" />
+<link href="/toolbox/smartmenus/v1.1/sm-core-css.css" rel="stylesheet" />
+<link href="/toolbox/smartmenus/v1.1/sm-clean.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<link href="/css/base.css" rel="stylesheet" />
+<link href="/css/styles.css" rel="stylesheet" />    </head>
+
+<body class="">
+<a class="sr-only sr-only-focusable" href="#skip">Skip to Main Content</a>
+<!-- NCI COVID Banner Styles -->
+<style type="text/css">
+.notification-banner>div>div{padding:0;margin:0}.alert-drawer-wrapper{background:#fada87;padding:.5em 1.25em;margin-bottom:1px;min-height:0}.alert-drawer__body{display:none;flex-wrap:wrap;list-style-type:none;padding:0;justify-content:space-between;margin:.5em 0 0;border-top:1px solid #606060}.alert-drawer__body li{display:block;font:14px/19px "Noto Sans",Arial,sans-serif;color:#606060;margin:.5em .5em .5em 0}.alert-drawer__body li::before{content:"\2022"}.alert-drawer{margin:0 auto;padding:0}.alert-drawer__body li a{text-decoration:none}.alert-drawer__body li a:active,.alert-drawer__body li a:focus,.alert-drawer__body li a:hover{text-decoration:underline}.alert-drawer__body.active{display:block}.alert-drawer__body.active+.alert-drawer__toggle button::after{content:"";display:none}.alert-drawer__toggle{display:block;text-align:center}.alert-drawer__toggle button{-webkit-appearance:none;-moz-appearance:none;appearance:none;background:0 0;border:none;cursor:pointer;margin:0 auto}.alert-drawer__toggle button::after{content:"Expand for resources";display:block;font:12px/19px "Noto Sans",Arial,sans-serif;color:#606060;text-align:center}html[lang=es] .alert-drawer__toggle button::after{content:"Mostrar más recursos"}.alert-drawer .alert-drawer-title{font:bold 16px/19px "Noto Sans",Arial,sans-serif;color:#444}.alert-drawer a{text-decoration:underline;color:#606060}.ellipse{display:none}.ellipse::before{content:"\2026"}@media only screen and (min-width:768px){.alert-drawer__body.active{display:flex}.alert-drawer__body li{display:inline-block}}@media only screen and (min-width:1025px){.alert-drawer{margin:0 auto;max-width:62.5em;padding-left:10px}.alert-drawer.expanded{min-height:1px}html[lang=es] .alert-drawer.expanded{min-height:100px}.alert-drawer.collapsed{min-height:30px}html[lang=es] .alert-drawer.collapsed{min-height:30px}.alert-drawer .alert-drawer-title{font:bold 20px/24px "Noto Sans",Arial,sans-serif}}@media only screen and (min-width:1441px){.alert-drawer{max-width:1200px;padding-left:20px}}@media only print{.notification-banner{display:none}.alert-drawer-wrapper{display:none}}
+</style>
+
+<!-- NCI COVID Banner Container -->
+<div class="alert-drawer-wrapper" role="alertdialog" aria-label="COVID-19 Message">
+</div>
+
+<!-- NCI COVID Banner Create -->
+<script type="text/javascript">
+// CONFIG FOR BANNER
+(function (w, d) {
+  w.c19 = w.c19 || {};
+  w.c19.title = "COVID-19 Resources";
+  w.c19.toggleLabelText = {
+    expand: "Click to expand list of COVID-19 resources",
+    collapse: "Click to collapse list of COVID-19 resources"
+  };
+  w.c19.links = [
+    {
+      text: "What people with cancer should know",
+      url: "https://www.cancer.gov/coronavirus"
+    },
+    {
+      text: "Guidance for cancer researchers",
+      url: "https://www.cancer.gov/coronavirus-researchers"
+    },
+    {
+      text: "Get the latest public health information from CDC",
+      url: "https://www.cdc.gov/coronavirus"
+    },
+    {
+      text: "Get the latest research information from NIH",
+      url: "https://covid19.nih.gov"
+    }
+  ];
+})(window, document);
+
+// BANNER FUNCTIONALITY
+(function (w, d) {
+  w.c19 = w.c19 || {};
+
+  function clb(links) {
+    if (!links || links.length < 1) return "";
+    var link = links[0];
+    return (
+      "<li>" +
+      ' <a href="' +
+      link.url +
+      '">' +
+      link.text +
+      "</a>" +
+      "</li>" +
+      clb(links.slice(1))
+    );
+  }
+
+  function IS_DESKTOP() {
+    return window.innerWidth > 1024;
+  }
+
+  w.c19.insert = function () {
+    var wrapper = d.querySelector(".alert-drawer-wrapper");
+    if (!wrapper) {
+      if (wrapper) console.error("Could not find alert wrapper for banner");
+      return;
+    }
+
+    var heading = d.createElement("div");
+    heading.classList.add("alert-drawer__heading");
+    heading.innerHTML =
+      '<span class="alert-drawer-title">' + w.c19.title + "</span>";
+
+    var linksBody = d.createElement("ul");
+    linksBody.setAttribute("tabindex", "0");
+    linksBody.id = "alert-drawer-body";
+    linksBody.classList.add("alert-drawer__body");
+    if (IS_DESKTOP()) {
+      linksBody.classList.add("active");
+    }
+    linksBody.innerHTML = clb(w.c19.links);
+
+    var toggleBtn = d.createElement("button");
+    toggleBtn.setAttribute("type", "button");
+    toggleBtn.setAttribute("aria-controls", "alert-drawer-body");
+    toggleBtn.id = "alert-toggle-btn"; // Desktop shows X, but mobile and collapsed is down arrow.
+    var isExpanded = IS_DESKTOP();
+    var toggleBtnImg = isExpanded
+      ? "/toolbox/images/dccps/white-x.png"
+      : "/toolbox/images/dccps/white-down-arrow.png";
+    toggleBtn.setAttribute(
+      "aria-label",
+      isExpanded ? w.c19.toggleLabelText.collapse : w.c19.toggleLabelText.expand
+    );
+    toggleBtn.setAttribute("aria-expanded", isExpanded ? "true" : "false");
+    toggleBtn.innerHTML =
+      '<img id="alert-toggle-img" src="' +
+      toggleBtnImg +
+      '" alt="" aria-hidden="true" />';
+    toggleBtn.addEventListener("click", function () {
+      var alertBody = document.querySelector(".alert-drawer__body");
+      var wasOpen = alertBody.classList.contains("active"); //toggle aria-expanded, this being the toggleBtn
+      this.setAttribute("aria-expanded", wasOpen ? "false" : "true");
+      this.setAttribute(
+        "aria-label",
+        wasOpen ? w.c19.toggleLabelText.expand : w.c19.toggleLabelText.collapse
+      );
+
+      var alertDrawer = document.querySelector(".alert-drawer");
+      alertDrawer.classList.toggle("expanded");
+      alertDrawer.classList.toggle("collapsed");
+
+      var alertImg = "";
+      alertBody.classList.toggle("active");
+      if (alertBody.className.match("active")) {
+        alertBody.focus();
+        alertImg =
+          "/toolbox/images/dccps/white-x.png";
+      } else {
+        alertImg =
+          "/toolbox/images/dccps/white-down-arrow.png";
+      }
+      document.getElementById("alert-toggle-img").setAttribute("src", alertImg);
+    });
+
+    var toggle = d.createElement("div");
+    toggle.classList.add("alert-drawer__toggle");
+    toggle.appendChild(toggleBtn);
+    var drawer = d.createElement("ul");
+    drawer.classList.add("alert-drawer"); // Launch adds default styles, but we should also set the state of the // drawer on initialize.
+    if (IS_DESKTOP()) {
+      drawer.classList.add("expanded");
+    }
+    drawer.appendChild(heading);
+    drawer.appendChild(linksBody);
+    drawer.appendChild(toggle);
+
+    wrapper.innerHTML = "";
+    wrapper.appendChild(drawer);
+  };
+})(window, document);
+
+window.c19.insert();
+</script>
+    <header role="banner">
+	<div class="container">
+    	<div class="row align-items-center">
+        	<div class="col-lg-9 col-md-8">
+		        <a class="nciLogo" href="https://cancercontrol.cancer.gov/" title="Return Home">
+		        	<img src="/toolbox/images/dccps/nci_dccps.svg" alt="Healthcare Delivery Research Program at the National Cancer Institute" />
+		        </a>
+            </div>
+            <div class="col-lg-3 col-md-4 searchWrap">
+		        <form class="searchForm" id="main-search" action="/search" method="get" name="search" onSubmit="return searchCheck(this.q) && NCIAnalytics.SiteSearch(this);" role="search">
+                		            <div class="justify-content-end">
+                        <label for="q" class="sr-only">Search</label>
+                        <input class="form-control" type="text" name="q" id="q" placeholder="Search" />
+                        <button class="btn btn-secondary" type="submit"><img src="/toolbox/images/dccps/icn-search.png" alt="Search"/></button>
+		            </div>
+		        </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="ribbon">
+        <div class="container">
+            <span>Healthcare Delivery Research Program</span>
+        </div>
+    </div>
+
+    <div class="navBar">
+    	<div class="container">
+        	<nav role="navigation">
+                <button id="menu-button" class="btn btn-default" aria-controls="main-menu" aria-expanded="false">Site Menu</button>
+                <!-- Begin SmartMenu (https://www.smartmenus.org/docs/) -->
+                <ul id="main-menu" class="sm sm-clean">
+                    <li class="home"><a href="/">Home</a></li>
+					<li class="funding"><a href="#" class="has-submenu">Funding</a>
+                        <ul>
+							<li><a href="/funding/">All Funding</a></li>
+							<li><a href="/funding/opportunities.html">Funding Opportunity Announcements (FOA)</a></li>
+                            <li><a href="/media/webinars.html?Search=%27FOA%20Webinars">FOA Webinars</a></li>
+                            <li><a href="/funding/resources.html">Grantsmanship Resources</a></li>
+							<li><a href="/funding/samples.html">Sample Grants</a></li>
+                        </ul>
+                    </li>
+					<li class="data"><a href="#" class="has-submenu">Data &amp; Tools</a>
+                        <ul>
+                            <li><a href="/data/">All Data &amp; Tools</a></li>
+							<li><a href="/seermedicaid/">SEER-Medicaid Linked Database</a></li>
+							<li><a href="/seermedicare/">SEER-Medicare Linked Database</a></li>
+							<li><a href="/seer-cahps/">SEER-Consumer Assessment of Healthcare Providers and Systems (SEER-CAHPS) Linked Data Resource</a></li>
+                            <li><a href="/seer-mhos/">SEER-Medicare Health Outcomes Survey (SEER-MHOS) Linked Data Resource</a></li>
+							<li><a href="/meps/">Medical Expenditure Panel Survey</a></li>
+                            <li><a href="/nhis/">National Health Interview Survey Cancer Control Supplement</a></li>
+							<li><a href="/physician_surveys/">Physician Surveys</a></li>
+							<li><a href="/healthmeasures/">HealthMeasures</a></li>
+							<li><a href="/pro-ctcae/">Patient-Reported Outcomes Version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE)</a></li>
+							<li><a href="/poc/">Patterns of Care Studies</a></li>
+							<li><a href="/heroic/">Interagency Consortium to Promote Health Economics Research on Cancer (HEROiC)</a></li>
+                            <li><a href="/hpvuptake/">HPV Vaccine Uptake</a></li>
+							<li><a href="/aya/">Adolescent &amp; Young Adult Health Outcomes &amp; Patient Experience Study (AYA HOPE)</a></li>
+                            <li><a href="/social-determinants/">Social Determinants of Health by US Census Tract</a></li>
+                        </ul>
+                    </li>
+					<li class="networks"><a href="#" class="has-submenu">Research Networks</a>
+                        <ul>
+                            <li><a href="/networks/">All Research Networks</a></li>
+							<li><a href="/accsis/">Accelerating Colorectal Cancer Screening and follow-up through Implementation Science (ACCSIS)</a></li>
+                            <li><a href="/ccdr/">NCI Community Oncology Research Program (NCORP) Cancer Care Delivery Research (CCDR)</a></li>
+							<li><a href="/impact/">Improving the Management of Symptoms During and Following Cancer Treatment (IMPACT)</a></li>
+                            <li><a href="/prospr/">Population-based Research to Optimize the Screening Process (PROSPR)</a></li>
+                        </ul>
+                    </li>
+                    <li class="areas"><a href="#" class="has-submenu">Areas of Interest</a>
+                        <ul>
+                            <li><a href="/areas/">All Areas of Interest</a></li>
+                            <li><a href="/caregiving/">Cancer Caregiving</a></li>
+                            <li><a href="/cancer-health/">Cancer Health Economics Research</a></li>
+                            <li><a href="/healthcare/">Healthcare Teams and Teamwork Processes</a></li>
+							<li><a href="/mlti/">Multilevel Intervention Training Institute (MLTI)</a></li>
+                            <li><a href="/telehealth/">Telehealth</a></li> 
+                        </ul>
+                    </li>
+                    <li class="resources"><a href="/media/">News &amp; Events</a></li>
+                    <li class="about"><a href="#" class="has-submenu">About</a>
+						<ul>
+                            <li><a href="/about/">All About HDRP</a></li>
+							<li><a href="/about/chart.html">HDRP Branches &amp; Leadership</a></li>
+							<li><a href="/about/staff/">Staff</a></li>
+							<li><a href="/about/jobs.html">Employment &amp; Training</a></li>
+							<li><a href="/about/media.html">Fact Sheets &amp; Videos</a></li>
+                        </ul>
+					</li>
+                </ul>
+        	</nav>
+            <button id="search-tog" class="btn btn-default" aria-controls="main-search" aria-expanded="false">Search</button>
+        </div>
+    </div>
+</header>
+	<main id="skip" role="main">
+		<div class="bg-lightgray">
+			<div class="container">
+				<h1>Error: Page Not Found</h1>
+			</div>
+		</div>
+			
+		<button class="togSubNav" data-toggle="modal" data-target="#leftNav"><span>Section Menu</span></button>
+		<div class="container mb-5">
+			<div class="row">
+				<div class="col-lg-3 col-md-4">
+					<div class="subNav-wrap">
+						<nav class="subNav" aria-label="Section Menu">
+													</nav>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-md-8">
+				
+
+					<p>Sorry, but no file exists at the address you requested.  If you followed a link to get
+here, you may wish to notify the administrator of the 
+<script type="text/javascript"> document.write('<a href="javascript:history.go(-1)">referring site</a>'); //</script>
+<noscript>referring site</noscript> 
+about this error.  You can try <a href="/search">searching this site</a> 
+for the material in which you are interested, or begin browsing this site at its 
+<a href="/">home page</a>.</p>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="lastUpdate footerGray">
+			<div class="container d-flex align-items-center">
+				<div><strong>Last Updated:</strong> 29 Nov, 2021</div>
+			</div>
+		</div>
+	</main>
+
+    <footer role="contentinfo">
+	<a class="returntop" href="#skip" style="display: inline;"><span>Return to Top</span></a>
+	<div class="container">
+        <div class="row links">
+            <div class="col-md">
+                <h2>Healthcare Delivery Research Program</h2>
+                <ul class="list-unstyled">
+                    <li><a href="/">HDRP Home</a></li>
+					<li><a href="/funding/">Funding &amp; Grants</a></li>
+					<li><a href="/data/">Data &amp; Tools</a></li>
+					<li><a href="/networks/">Research Networks</a></li>
+                    <li><a href="/areas/">Areas of Interest</a></li>
+                    <li><a href="/media/">News &amp; Events</a></li>
+                    <li><a href="/about/">About HDRP</a></li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <h2>DCCPS</h2>
+                <ul class="list-unstyled">
+                    <li><a href="https://cancercontrol.cancer.gov/">DCCPS Home</a></li>
+                    <li><a href="https://cancercontrol.cancer.gov/program-areas">Program Areas</a></li>
+                    <li><a href="https://cancercontrol.cancer.gov/research-portfolios">Research Portfolios</a></li>
+                    <li><a href="https://cancercontrol.cancer.gov/funding">Funding Opportunities</a></li>
+                    <li><a href="https://cancercontrol.cancer.gov/publications-data">Publications &amp; Data</a></li>
+                    <li><a href="https://cancercontrol.cancer.gov/research-emphasis">Research Emphasis</a></li>
+                    <li><a href="https://cancercontrol.cancer.gov/about-dccps">About DCCPS</a></li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <h2>Cancer.gov</h2>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.cancer.gov/contact">Contact Us</a></li>
+                    <li><a href="https://www.cancer.gov/policies">Policies</a></li>
+                    <li><a href="https://www.cancer.gov/policies/disclaimer">Disclaimer</a></li>
+                    <li><a href="https://www.cancer.gov/policies/accessibility">Accessibility</a></li>
+                    <li><a href="https://www.cancer.gov/policies/foia">FOIA</a></li>
+                    <li><a href="https://livehelp.cancer.gov/">Help</a></li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <ul class="list-unstyled govLinks">
+                    <li><a href=" https://www.hhs.gov/">U.S. Department of Health &amp; Human Services</a></li>
+                    <li><a href="https://www.nih.gov/">National Institutes of Health</a></li>
+                    <li><a href="https://www.cancer.gov/">National Cancer Institute</a></li>
+                    <li><a href="https://www.usa.gov/">USA.gov</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footerGray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+			        <div class="livehelp">
+                        <a href="https://livehelp.cancer.gov"><img src="/toolbox/images/dccps/livehelp.png" alt="LiveHelp Cancer.gov"></a>
+                        <a href="tel:1-800-422-6237">
+					        1-800-4-CANCER
+					        <div class="livehelp-tel">(1-800-422-6237)</div>
+				        </a>
+			        </div>
+		        </div>
+		        <div class="col-lg-9 col-md-8">
+                    <div class="tagline-container">
+                        <p class="tagline">NIH...Turning Discovery Into Health<sup>®</sup></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Required JS Files For the Template -->
+<script src="/toolbox/javascript/jquery/jquery-3.6.0.min.js"></script>
+<script src="/toolbox/bootstrap/v4.5.2/bootstrap.bundle.min.js"></script>
+<script src="/toolbox/smartmenus/v1.1/jquery.smartmenus.min.js"></script>
+<script src="/toolbox/smartmenus/v1.1/jquery.smartmenus.keyboard.min.js"></script>
+
+<!-- General Template Scripts -->
+<script src="/js/template.js"></script>
+
+<!-- NCI WEB ANALYTICS CODE-->
+<script language="JavaScript" type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
+<!-- ***** End NCI Web Analytics ***** -->    </body>
+</html>
+ 

@@ -1,0 +1,10 @@
+{
+    "AJAXCRAWL_ENABLED": true,
+    "BOT_NAME": "crawler",
+    "CLOSESPIDER_TIMEOUT": 10,
+    "CONCURRENT_REQUESTS": 100,
+    "COOKIES_ENABLED": false,
+    "HTTPCACHE_ENABLED": true,
+    "LOG_LEVEL": "INFO",
+    "ROBOTSTXT_OBEY": true
+}

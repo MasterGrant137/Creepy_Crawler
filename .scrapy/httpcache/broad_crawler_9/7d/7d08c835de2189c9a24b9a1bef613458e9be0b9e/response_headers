@@ -1,0 +1,18 @@
+Server: nginx
+Date: Mon, 20 Dec 2021 18:53:20 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Cache-Enabled: True
+X-Generator: Drupal 7 (http://drupal.org)
+Link: </appchoices>; rel="canonical",</node/64>; rel="shortlink"
+Set-Cookie: drupalSGCacheBypass=0; expires=Mon, 20-Dec-2021 17:53:20 GMT; Max-Age=0; path=/
+X-Httpd: 1
+Host-Header: 6b7412fb82ca5edfd0917e3957f05d89
+X-Proxy-Cache: MISS
+X-Proxy-Cache-Info: 0 NC:000000 UP:SKIP_CACHE_SET_COOKIE
+Content-Encoding: gzip

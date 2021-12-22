@@ -1,0 +1,17 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.16.1
+X-Powered-By: Next.js
+Cache-Control: private, no-store
+Etag: "13312-ff+tGdyP84ikc4B3SPsZJ8CPxek"
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+Show-Do-Not-Sell-Link: true
+Platform: Desktop
+Date: Mon, 20 Dec 2021 22:00:26 GMT
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kjyo7100121-IAD, cache-bur17579-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640037626.997146,VS0,VE90
+Vary: Accept-Encoding, show-do-not-sell-link, platform, X-OPTIONS

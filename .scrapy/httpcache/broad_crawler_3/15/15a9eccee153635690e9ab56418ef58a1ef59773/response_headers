@@ -1,0 +1,13 @@
+Content-Type: text/html; charset=utf-8
+Access-Control-Allow-Origin: *
+X-Status-Page-Id: 564314ae3309c22c3b0002fa
+X-Response-Time: 50.701ms
+Accept-Ranges: bytes
+X-Varnish: 2110181712 2109894519
+Via: 1.1 varnish, 1.1 14bcb6b1490628f7642320bd494c55c9.cloudfront.net (CloudFront)
+Content-Encoding: gzip
+Date: Mon, 20 Dec 2021 16:13:37 GMT
+Etag: W/"8534-3FX5Zuu+cKY0k6lVdjehVVYwgh4"
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: LAX50-C4
+X-Amz-Cf-Id: fGbRf4sPtBIFSy3D4DzdEVwwXTNrnYUGpATJ141Djfu1aXxE2Q5WLw==

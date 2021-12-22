@@ -1,8 +1,0 @@
-Content-Length: 0
-Server: AkamaiGHost
-Location: https://www.tsn.ca/cfl
-Date: Fri, 19 Nov 2021 22:50:33 GMT
-Server-Timing: cdn-cache; desc=HIT
-Server-Timing: edge; dur=1
-Content-Security-Policy: frame-ancestors 'self'
-X-Frame-Options: SAMEORIGIN

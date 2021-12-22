@@ -1,0 +1,34 @@
+Server: nginx
+Date: Mon, 20 Dec 2021 16:13:32 GMT
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+Cache-Control: max-age=86400, public
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+Link: <https://www.drugabuse.gov/>; rel="canonical", <https://www.drugabuse.gov/>; rel="shortlink"
+Link: <http://www.drugabuse.gov/es>; rel="alternate"; hreflang="es"
+Link: <http://www.drugabuse.gov/>; rel="alternate"; hreflang="en"
+Link: <http://www.drugabuse.gov/national-institute-drug-abuse-3>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+X-Varnish: 550045316 548519432
+Age: 12515
+Via: 1.1 varnish-v4
+X-Varnish-Cache: HIT
+X-Varnish-Server: cache2
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Ssl: true
+X-Forwarded-For: 47.158.19.38
+X-Real-Forwarded-For: 47.158.19.38
+X-Spliturl: 
+X-Varnish-Debug-Hits: 158
+X-Varnish-Debug-Age: 12515
+X-Cookie-Debug: Request cookie: ''
+X-Url-Debug: Request URL: '/'
+Accept-Ranges: bytes

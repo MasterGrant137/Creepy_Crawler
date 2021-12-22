@@ -1,0 +1,24 @@
+Content-Length: 9390
+Server: Server
+Date: Mon, 20 Dec 2021 18:37:50 GMT
+Content-Type: text/html; charset=utf-8
+X-Amz-Rid: WXYDHS8244TTTJKTN5VE
+Set-Cookie: preferred_locale=en-US; domain=.amazon.jobs; path=/; expires=Tue, 20 Dec 2022 18:37:49 GMT; secure; SameSite=Lax
+Set-Cookie: source=%7B%22azref%22%3A%22https%3A%2F%2Fm.imdb.com%22%7D; domain=.amazon.jobs; path=/; expires=Mon, 20 Dec 2021 21:37:49 GMT; SameSite=Lax
+Set-Cookie: amazon_jobs_session=DY%2Bg6c33NVkRSp6b0UibSpQHtGv3fnPszvQ6msJ%2FP9qiPeuF6hB3u25x2lLCuHRrzumr737EjJKo5TKdiGbWvhTmxxb5xHBakZmxdRGS6h8l2udrN2BMxAnVebujr6DjhZzt2uxGWIQnfW5aLB74ELRBH9G7kzKFzI8Fgj7K1bZTjxk5jTIpvDIidKTOP9L90twAcxW4qth7XIz6LLOvGwLtLiztOjTo3AFxGDfuslhgft%2F7i6bdt2HcXWkQKq2c2d23hcK%2FbhDiEdfUj3VDmGLKoxaABZG%2FUocwge%2BUVRYHG%2FCBdsrsJRoUMbbqhykrHlNl75xgdZ0gSTqVDVZmBDiiS91vIdPVnphSKhGtL6uWHcHchz7tL35KpuMX--nutRnn5EZcQAY%2BiE--SnNuLDEYde56zxLvo%2BF6%2FA%3D%3D; domain=.amazon.jobs; path=/; expires=Tue, 21 Dec 2021 18:37:50 GMT; secure; HttpOnly; SameSite=Lax
+Cache-Control: max-age=0, private, must-revalidate
+Referrer-Policy: strict-origin-when-cross-origin
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 692b37f5-325a-41f8-8f01-0d4cf7dc217a
+Link: <//static.amazon.jobs/assets/bundles/teams/show-45c78e74f5a7864b3b4885269edc80bb4d9c07dd82bbf2be65bbe1306781217d.css>; rel=preload; as=style; nopush,<//static.amazon.jobs/assets/bundles/teams/show-9694109d57191a5f2cab8cc91e7417bcf0107beebe6cdfec2788afb40a976640.js>; rel=preload; as=script; nopush,<//assets.adobedtm.com/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js>; rel=preload; as=script; nopush,<//static.amazon.jobs/assets/application-2c528ee832a4885e275f930758c8888e508dd087aedb5e3e611b60e29ed6405f.css>; rel=preload; as=style; nopush,<//static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css>; rel=preload; as=style; nopush,<//static.amazon.jobs/assets/ie9-fix-7f7df4114c5b6e195b3a9946cc9cb62940769d6119cd137fb249ee88c1f3e706.css>; rel=preload; as=style; nopush,<//static.amazon.jobs/assets/bundles/shared/shared-401537e085577ac40922727d9c454344440d22c5d9709d358711e15fbcbb879f.css>; rel=preload; as=style; nopush,<//static.amazon.jobs/assets/application-7e6dc197bf7962a3e61acdbb1e333e0c55060d25bd8aca4e9b1c6e09c552fe75.js>; rel=preload; as=script; nopush,<//static.amazon.jobs/assets/analytics-c889b86eef3b92b9774b19a178f59826fc1e0eaa77defbdea9228d8ea122dec0.js>; rel=preload; as=script; nopush
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.354726
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 6.0.7
+Etag: W/"bb6f46616c341838b1c11997a408d2ad-gzip"
+Status: 200 OK
+Content-Encoding: gzip
+Vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()

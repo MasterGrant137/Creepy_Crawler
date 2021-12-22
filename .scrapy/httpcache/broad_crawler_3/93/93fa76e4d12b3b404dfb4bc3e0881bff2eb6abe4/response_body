@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /inviterewards/*
+
+Sitemap: https://duo.google.com/about/sitemap.xml

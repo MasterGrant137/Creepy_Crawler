@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+		<meta charset="utf-8" />
+		<title>
+Error&#151;Page Not Found</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="image_src" href="/llnl-docs/onelab/templates/assets/images/LLNL_logo.jpg" />
+				<base href="https://cgsr.llnl.gov/">
+				<link rel="stylesheet" href="/llnl-docs/onelab/templates/css/bootstrap.min.css" media="screen" />
+<link rel="stylesheet" href="/llnl-docs/onelab/templates/collections/onelab/css/bootstrap.mods.css" media="screen" />
+<link rel="stylesheet" href="/llnl-docs/onelab/templates/plugins/shadowbox/shadowbox.css" media="screen" />
+<link rel="stylesheet" href="/llnl-docs/onelab/templates/collections/onelab/css/main.css" media="screen" />
+<link rel="stylesheet" href="/llnl-docs/onelab/templates/collections/onelab/css/print.css" media="print" />
+<link rel="stylesheet" href="/llnl-docs/onelab/templates/css/font-awesome-4.3.0/css/font-awesome.min.css" media="screen">	</head>
+	<body class="home">
+		
+	<div class="smallllnlmenu">
+    <div class="container">
+        <p class="llnl-menu-tab pull-right"><a href="https://www.llnl.gov" target="_blank"><span>Lawrence Livermore National Laboratory</span></a></p>
+    </div>
+</div><div id="header-fat" class="navbar navbar-fixed-top navbar-noFixed">
+  <div id="brand" class="navbar-inner">
+    <div class="container">
+      <p id="llnl-menu-tab" class="pull-left"><a href="https://www.llnl.gov"></a></p>
+      <a class="brand" href="https://cgsr.llnl.gov/">Center for Global Security Research</a>
+        <form class="navbar-search pull-right visible-desktop" action="search" method="post"><input name="searchwhat" type="hidden" value="site" />
+          <input type="search" name="searchterm" class="search-query span3" title="Site Search" aria-label="Site Search" placeholder="search site..."><input type="submit" value="search" class="hide" />
+        </form>  	</div>
+  </div>
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+
+          <li class="dropdown"><a href="/about">About</a><ul class='dropdown-menu'><li><a href="/about/major-power-rivalry-deterrence">Major Power Rivalry and Deterrence</a></li>
+<li><a href="/about/regional-challenges">New Regional Challengers and Challenges</a></li>
+<li><a href="/about/integrated-strategic-deterrence">Toward Integrated Strategic Deterrence</a></li>
+<li><a href="/about/long-term-competition">The Future of Long Term Competitive Strategies</a></li>
+<li><a href="/about/cooperative-measures-reduce-nuclear-dangers">The Future of Cooperative Measures to Reduce Nuclear Dangers</a></li></ul></li><li class="dropdown"><a href="/experts">Experts</a><ul class='dropdown-menu'><li class='dropdown-submenu'><a href="/experts/fellows">Leadership and Fellows</a><ul class='dropdown-menu'><li><a href="/experts/fellows/brad_roberts">Dr. Brad Roberts</a></li>
+<li><a href="/experts/fellows/mike_albertson">Mike Albertson</a></li>
+<li><a href="/experts/fellows/benjamin-bahney">Benjamin Bahney</a></li>
+<li><a href="/experts/fellows/alex-campbell">Alex Campbell</a></li>
+<li><a href="/experts/fellows/zach-davis">Dr. Zachary S. Davis</a></li>
+<li><a href="/experts/fellows/william-dawson">Dr. William Dawson</a></li>
+<li><a href="/experts/fellows/jacek-durkalec">Dr. Jacek Durkalec</a></li>
+<li><a href="/experts/fellows/gasser-paige">Paige Gasser</a></li>
+<li><a href="/experts/fellows/bruce-goodwin">Dr. Bruce T. Goodwin</a></li>
+<li><a href="/experts/fellows/rose-gottemoeller">Rose Gottemoeller</a></li>
+<li><a href="/experts/fellows/madison-hissom">Madison Hissom</a></li>
+<li><a href="/experts/fellows/ronald-lehman">Amb. Ronald F. Lehman II</a></li>
+<li><a href="/experts/fellows/charles_lutes">Charles D. Lutes</a></li>
+<li><a href="/experts/fellows/michael-markey">Michael Markey</a></li>
+<li><a href="/experts/fellows/aaron-miles">Dr. Aaron Miles</a></li>
+<li><a href="/experts/fellows/jonathan-pearl">Dr. Jonathan Pearl</a></li>
+<li><a href="/experts/fellows/donald-prosnitz">Dr. Donald Prosnitz</a></li>
+<li><a href="/experts/fellows/robert-schock">Dr. Robert Schock</a></li>
+<li><a href="/experts/fellows/aj-simon">A. J. Simon</a></li>
+<li><a href="/experts/fellows/brandon-williams">Dr. Brandon Williams</a></li>
+<li><a href="/experts/fellows/robin-wong">Robin Wong</a></li></ul></li>
+<li><a href="/experts/fellows/past">Past Fellows</a></li>
+<li><a href="/experts/postdocs">PostDocs</a></li>
+<li><a href="/experts/staff">Administrative Staff</a></li>
+<li class='dropdown-submenu'><a href="/experts/visiting-scientists">Visiting Scientists</a><ul class='dropdown-menu'><li><a href="/experts/visiting-scientists/present">Present</a></li>
+<li><a href="/experts/visiting-scientists/past">Past</a></li></ul></li>
+<li class='dropdown-submenu'><a href="/experts/research-associates">Research Associates</a><ul class='dropdown-menu'><li><a href="/experts/research-associates/present">Present</a></li>
+<li><a href="/experts/research-associates/past">Past</a></li></ul></li></ul></li><li class="dropdown"><a href="/event-calendar">Lecture Series</a><ul class='dropdown-menu'><li><a href="/event-calendar/2021">2021 Speakers</a></li>
+<li><a href="/event-calendar/2020">2020 Speakers</a></li>
+<li><a href="/event-calendar/2019">2019 Speakers</a></li>
+<li><a href="/event-calendar/2018">2018 Speakers</a></li>
+<li><a href="/event-calendar/2017">2017 Speakers</a></li>
+<li><a href="/event-calendar/2016">2016 Speakers</a></li>
+<li><a href="/event-calendar/2015">2015 Speakers</a></li>
+<li><a href="/event-calendar/2014">2014 Speakers</a></li>
+<li><a href="/event-calendar/2013">2013 Speakers</a></li></ul></li><li><a href="/meet-the-authors">Meet the Authors</a></li><li><a href="/workshops">Workshops</a></li><li class="dropdown"><a href="/research">Publications</a><ul class='dropdown-menu'><li><a href="/research/livermore-papers">Livermore Papers on Global Security</a></li>
+<li><a href="/research/occasional-papers">Occasional Papers</a></li>
+<li><a href="/research/book">Books</a></li>
+<li><a href="/research/director-pubs">Director's Publications</a></li>
+<li><a href="/research/fellow-pubs">Fellow Publications</a></li>
+<li><a href="/research/research-associate-products">Research Associate Products</a></li>
+<li><a href="/research/policy-primers">Policy Primers</a></li>
+<li><a href="/research/publications">Searchable Complete Catalog</a></li></ul></li><li><a href="/research-internships">Research Associates/Internships</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>                      	
+    <div class="container">
+    	<!-- Example row of columns -->
+<br />
+<br />
+<div class="row">
+	<div class="span12">		
+		<ul class="breadcrumb">
+		<li><a href="./">home</a></li> <span class="divider">/</span> <li><a href="/robots.txt">robots.txt</a></li>		
+		</ul>
+		<div class="page-header">
+			<h1>
+Error&#151;Page Not Found</h1>
+		</div>
+				<div class="row">
+			<div class="span12">
+				 			</div>
+			<div class="span12" id="onelab-content">
+				<div class="contentinner">        		<div class="successstories">             	<div class="successstoriestop">                             	<div class="successstoriestopheader">                     	<div class="successstoriesheadertxt">                            	                         	<span class="headertitle">Error&#151;Page Not Found</span> 						</div>                          </div> 					<div class="successstoriesinnercontent"> 						<div class="innercontent">  						 						<p>We're sorry. The page you requested cannot be found. The page you are looking for might have been removed, had  							its name changed, or is temporarily unavailable. You may be able to use one  							of the following methods to find the information you need:</p> 						<ul> 						  <li>If you typed the page address in the Address bar, please make sure 							that it is spelled correctly.</li> 						  <li> Use the navigation menus above to find the link you are looking 							for.</li> 						  <li> If you bookmarked the page, try to access it directly from the 							navigation or site index. If the page has moved, please reset your bookmark.</li> 						  <li> Click the Back button to try another link.</li> 						  <li>Report the error to <a href="mailto:cgsr-info@llnl.gov">cgsr-info@llnl.gov</a></li> 						</ul> 						<p>We apologize for the inconvenience.</p> 								 						</div> 					</div> 				</div>           	  			                                 			</div>                     	         		</div>			</div>
+		</div>
+	</div>
+</div>
+    </div>
+    <div id="footer-slim" class="footer">
+	<div class="container">
+    	<hr />
+        <div class="row hidden-phone">
+            <div class="span12">
+                <ul class="footernav inline footernav-inline" id="footer-main-menu-links">
+                    <li class="dropdown"><a href="/about">About</a><ul class='dropdown-menu'><li><a href="/about/major-power-rivalry-deterrence">Major Power Rivalry and Deterrence</a></li>
+<li><a href="/about/regional-challenges">New Regional Challengers and Challenges</a></li>
+<li><a href="/about/integrated-strategic-deterrence">Toward Integrated Strategic Deterrence</a></li>
+<li><a href="/about/long-term-competition">The Future of Long Term Competitive Strategies</a></li>
+<li><a href="/about/cooperative-measures-reduce-nuclear-dangers">The Future of Cooperative Measures to Reduce Nuclear Dangers</a></li></ul></li><li class="dropdown"><a href="/experts">Experts</a><ul class='dropdown-menu'><li class='dropdown-submenu'><a href="/experts/fellows">Leadership and Fellows</a><ul class='dropdown-menu'><li><a href="/experts/fellows/brad_roberts">Dr. Brad Roberts</a></li>
+<li><a href="/experts/fellows/mike_albertson">Mike Albertson</a></li>
+<li><a href="/experts/fellows/benjamin-bahney">Benjamin Bahney</a></li>
+<li><a href="/experts/fellows/alex-campbell">Alex Campbell</a></li>
+<li><a href="/experts/fellows/zach-davis">Dr. Zachary S. Davis</a></li>
+<li><a href="/experts/fellows/william-dawson">Dr. William Dawson</a></li>
+<li><a href="/experts/fellows/jacek-durkalec">Dr. Jacek Durkalec</a></li>
+<li><a href="/experts/fellows/gasser-paige">Paige Gasser</a></li>
+<li><a href="/experts/fellows/bruce-goodwin">Dr. Bruce T. Goodwin</a></li>
+<li><a href="/experts/fellows/rose-gottemoeller">Rose Gottemoeller</a></li>
+<li><a href="/experts/fellows/madison-hissom">Madison Hissom</a></li>
+<li><a href="/experts/fellows/ronald-lehman">Amb. Ronald F. Lehman II</a></li>
+<li><a href="/experts/fellows/charles_lutes">Charles D. Lutes</a></li>
+<li><a href="/experts/fellows/michael-markey">Michael Markey</a></li>
+<li><a href="/experts/fellows/aaron-miles">Dr. Aaron Miles</a></li>
+<li><a href="/experts/fellows/jonathan-pearl">Dr. Jonathan Pearl</a></li>
+<li><a href="/experts/fellows/donald-prosnitz">Dr. Donald Prosnitz</a></li>
+<li><a href="/experts/fellows/robert-schock">Dr. Robert Schock</a></li>
+<li><a href="/experts/fellows/aj-simon">A. J. Simon</a></li>
+<li><a href="/experts/fellows/brandon-williams">Dr. Brandon Williams</a></li>
+<li><a href="/experts/fellows/robin-wong">Robin Wong</a></li></ul></li>
+<li><a href="/experts/fellows/past">Past Fellows</a></li>
+<li><a href="/experts/postdocs">PostDocs</a></li>
+<li><a href="/experts/staff">Administrative Staff</a></li>
+<li class='dropdown-submenu'><a href="/experts/visiting-scientists">Visiting Scientists</a><ul class='dropdown-menu'><li><a href="/experts/visiting-scientists/present">Present</a></li>
+<li><a href="/experts/visiting-scientists/past">Past</a></li></ul></li>
+<li class='dropdown-submenu'><a href="/experts/research-associates">Research Associates</a><ul class='dropdown-menu'><li><a href="/experts/research-associates/present">Present</a></li>
+<li><a href="/experts/research-associates/past">Past</a></li></ul></li></ul></li><li class="dropdown"><a href="/event-calendar">Lecture Series</a><ul class='dropdown-menu'><li><a href="/event-calendar/2021">2021 Speakers</a></li>
+<li><a href="/event-calendar/2020">2020 Speakers</a></li>
+<li><a href="/event-calendar/2019">2019 Speakers</a></li>
+<li><a href="/event-calendar/2018">2018 Speakers</a></li>
+<li><a href="/event-calendar/2017">2017 Speakers</a></li>
+<li><a href="/event-calendar/2016">2016 Speakers</a></li>
+<li><a href="/event-calendar/2015">2015 Speakers</a></li>
+<li><a href="/event-calendar/2014">2014 Speakers</a></li>
+<li><a href="/event-calendar/2013">2013 Speakers</a></li></ul></li><li><a href="/meet-the-authors">Meet the Authors</a></li><li><a href="/workshops">Workshops</a></li><li class="dropdown"><a href="/research">Publications</a><ul class='dropdown-menu'><li><a href="/research/livermore-papers">Livermore Papers on Global Security</a></li>
+<li><a href="/research/occasional-papers">Occasional Papers</a></li>
+<li><a href="/research/book">Books</a></li>
+<li><a href="/research/director-pubs">Director's Publications</a></li>
+<li><a href="/research/fellow-pubs">Fellow Publications</a></li>
+<li><a href="/research/research-associate-products">Research Associate Products</a></li>
+<li><a href="/research/policy-primers">Policy Primers</a></li>
+<li><a href="/research/publications">Searchable Complete Catalog</a></li></ul></li><li><a href="/research-internships">Research Associates/Internships</a></li>                </ul>
+            </div>
+        </div>
+        <br />
+        <div class="row sponsors">
+            <div class="span3 footer-col-1">
+                <a href="https://www.llnl.gov/" target="_blank"><img src="/llnl-docs/onelab/templates/assets/images/llnl-logo-text.png" alt="LLNL" /></a>
+            </div>
+            <div class="span6 footer-col-2">
+                <p>
+                    Lawrence Livermore National Laboratory &bull; 7000 East Avenue &bull; Livermore, CA 94550
+                </p>
+                <p>
+                    Operated by Lawrence Livermore National Security, LLC, for the Department of Energy's National Nuclear Security Administration.
+                </p>
+            </div>
+            <div class="span3 footer-col-3">
+            <a class="nnsa" href="https://www.energy.gov/nnsa/national-nuclear-security-administration/" target="_blank"><img src="/llnl-docs/onelab/templates/assets/images/nnsa.png" alt="NNSA" /></a>
+            <a class="doe" href="https://www.energy.gov/" target="_blank"><img src="/llnl-docs/onelab/templates/assets/images/doe_small.png" alt="U.S. DOE" /></a>
+            <a class="llns" href="http://www.llnsllc.com/" target="_blank"><img src="/llnl-docs/onelab/templates/assets/images/llns.png" alt="LLNS" /></a>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="span12 subfooter">
+                <div class="text-center">
+                    <span>Learn about the Department of Energy's&nbsp;</span><a href="https://doe.responsibledisclosure.com/hc/en-us" target="_blank">Vulnerability Disclosure Program</a>
+                    <span>&nbsp;&nbsp;|&nbsp;&nbsp;LLNL-WEB-633632 &nbsp;|&nbsp;&nbsp;</span><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#103;&#115;&#114;&#45;&#105;&#110;&#102;&#111;&#64;&#108;&#108;&#110;&#108;&#46;&#103;&#111;&#118;">&#99;&#103;&#115;&#114;&#45;&#105;&#110;&#102;&#111;&#64;&#108;&#108;&#110;&#108;&#46;&#103;&#111;&#118;</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="https://www.llnl.gov/disclaimer" target="_blank">Privacy &amp; Legal Notice</a>
+                    </div>
+           </div>
+        </div>
+    </div>
+</div>
+		<script src="/llnl-docs/onelab/templates/js/jquery-1.7.2.min.js"></script>
+<script src="/llnl-docs/onelab/templates/js/bootstrap.min.js"></script>
+<script src="/llnl-docs/onelab/templates/plugins/shadowbox/shadowbox.js"></script>
+
+<script src="/llnl-docs/onelab/templates/js/jquery.mobile.swipe.min.js"></script>
+
+
+<script src="/llnl-docs/onelab/templates/js/main.js"></script>
+
+<!-- Piwik -->
+<script src="https://analytics.llnl.gov/piwik.js"></script>
+<script>
+	function tracker_generator(id) {
+	   return function() {
+	     var tracker = null;
+	     return function(){
+	       if (tracker === null) {
+	         tracker = Piwik.getTracker("https://analytics.llnl.gov/piwik.php", id);
+	       }
+	       return tracker;
+	     }
+	   }();
+	}
+
+	var siteName = document.domain;
+    let local_tracker;
+    let piwikTracker;
+    var _paq = window._paq = window._paq || [];
+
+	try {
+		var get_global_tracker = tracker_generator(1);
+		piwikTracker = get_global_tracker();
+
+		piwikTracker.enableLinkTracking();
+
+
+		if (true) {
+			piwikTracker.setCustomVariable(1, "onelab", "cgsr", "visit");
+			
+			if ("onelab" in window && "llnl_search" in window.onelab) {
+				piwikTracker.trackSiteSearch(window.onelab.llnl_search.term, false, window.onelab.llnl_search.count);
+			}
+
+			jQuery.getJSON(
+				"https://analytics.llnl.gov/" + "get_id.php?name=" + siteName + "&callback=?", 
+				function (data){
+					if (!isNaN(data.id)) {
+						var get_local_tracker = tracker_generator(data.id);
+						local_tracker = get_local_tracker();
+						local_tracker.enableLinkTracking();
+						//This will vary based on the request
+												if (true) {
+							local_tracker.setCustomVariable (1, "error", "robots.txt|", "page");
+						}						if ("onelab" in window && "search" in window.onelab && window.onelab.search) {
+							local_tracker.trackSiteSearch(window.onelab.search.term, false, window.onelab.search.count);
+						} else {
+							local_tracker.trackPageView();
+                            window.MatomoAsyncWait = Matomo.HeatmapSessionRecording.setMatomoTrackers([local_tracker, piwikTracker]);
+                            window.MatomoAsyncWait = Matomo.HeatmapSessionRecording.enable();
+						}
+					}
+				}
+			);
+		}
+
+		if (!("onelab" in window) || !("llnl_search" in window.onelab)) {
+			piwikTracker.trackPageView();
+            window.MatomoAsyncWait = Matomo.HeatmapSessionRecording.setMatomoTrackers([local_tracker, piwikTracker]);
+            window.MatomoAsyncWait = Matomo.HeatmapSessionRecording.enable();
+		}
+		
+	} catch( err ) {
+		
+	}
+</script>
+<noscript><p><img src="https://analytics.llnl.gov/?idsite=1" style="border:0" alt="" /></p></noscript>			</body>
+</html>

@@ -1,0 +1,20 @@
+Date: Sat, 18 Dec 2021 02:16:24 GMT
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+Expires: Sat, 18 Dec 2021 03:16:24 GMT
+Cache-Control: max-age=3600
+X-Redirect-By: redirection
+Location: /about-us/whats-new-at-the-bulletin/
+Vary: Accept-Encoding
+X-Varnish: 22106392
+Age: 0
+Via: 1.1 varnish (Varnish/5.2)
+X-Cache: MISS
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AgD96LN%2FX%2BtGEd89i64uM3c9fROar0Qys06PSz9AGIQCh8jNUo0sJhNJFA000RrSkK5I9UEDpYiJrLQOAuljAVD3Jaz9dXv3sWqdyth21StkIGPAg7j9mnVqb9v3TOw0TA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+Cf-Ray: 6bf4e39248f07d70-LAX

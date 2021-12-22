@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /intl/*/customers/
+Allow: /intl/*/customers/$
+Allow: /intl/en_in/customers/
+Allow: /intl/en_ca/customers/
+Allow: /intl/en_my/customers/
+Allow: /intl/en_nz/customers/
+Allow: /intl/en_ph/customers/
+Allow: /intl/en_sg/customers/
+Allow: /intl/en_au/customers/
+Allow: /intl/en_uk/customers/
+Allow: /intl/en_id/customers/
+Disallow: /intl/ja/pricing.html
+Disallow: /intl/fr/pricing.html
+Disallow: /intl/it/pricing.html
+Disallow: /learning-center/search
+Disallow: /marketplace/search
+Disallow: /marketplace/myapps
+Disallow: /marketplace/mydomainapps
+Disallow: /marketplace/category/MARQUEE
+
+Sitemap: https://workspace.google.com/sitemap.xml
+Sitemap: https://workspace.google.com/marketplace/sitemap.xml

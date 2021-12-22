@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://ccr.cancer.gov/" />
+<link rel="shortlink" href="https://ccr.cancer.gov/" />
+<meta name="description" content="The NCI Center for Cancer Research is dedicated to solving important, challenging and neglected problems in cancer research and patient care." />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/custom/ccr/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://ccr.cancer.gov/home" />
+<script src="/sites/default/files/google_tag/nih_ccr/google_tag.script.js?r4f3uo" defer></script>
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_config.icon_color = "#FDDDE6, #BB0E3D";</script>
+<style>.a2a_svg, .a2a_count { border-radius: 50% !important; }</style>
+
+    <title>The National Cancer Institute&#039;s Center For Cancer Research | Center for Cancer Research</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_SgsIfIdvVpvthozFADdB1d1n_L8HVlv0DPN5zLwEzWc.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_k5sealObza2fduImm_WhvogNDaFIVp3_qL6aaI6LTT8.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_ATdasml-unh-Jh19Kh-euvgLv1jBLUZyZzPe59BjC-Y.css" />
+
+    
+  </head>
+  <body class="path-frontpage page-node-type-landing-page">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57MM6MC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  
+
+<div class="usa-overlay"></div>
+
+  <div class="header-top">
+    <div class="grid-container">
+        <div class="region region-header-top">
+    <div id="block-cancergov" class="block block-block-content block-block-content:e3102a0e-7875-4cc9-82df-542fc2d7cc74">
+  
+    
+      
+
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="http://www.cancer.gov">National Cancer Institute - Cancer.gov</a></p></div>
+      
+  </div>
+
+  </div>
+
+    </div>
+  </div>
+
+<header class="usa-header usa-header--extended" role="banner">
+        <div class="usa-navbar">
+        <div class="grid-row width-full">
+          <div class="grid-col-fill">
+              <div class="region region-header">
+    <div class="usa-logo" id="logo">
+
+    <a class="logo-img" href="/" accesskey="1" title="Home" aria-label="Home">
+    <img src="/themes/custom/ccr/logo.svg" alt="Home" />
+  </a>
+    
+</div>
+
+  </div>
+
+          </div>
+          <div class="grid-col-auto">
+                          <div class="usa-nav__secondary">
+                  <div class="region region-secondary-menu">
+    
+<ul class="usa-nav__secondary-links">
+  <li class="usa-nav__secondary-item">
+    <a href="/user/login">
+      Log in
+    </a>
+  </li>
+</ul>
+
+<div id="block-views-exposed-filter-block-site-search-search-page" class="block block-views block-views-exposed-filter-block:site-search-search-page">
+  
+    
+      <form class="views-exposed-form usa-form" data-drupal-target-view="site_search-search_page" data-drupal-selector="views-exposed-form-site-search-search-page" action="/search" method="get" id="views-exposed-form-site-search-search-page" accept-charset="UTF-8">
+  <div class="form--inline clearfix">
+  <div class="usa-form-group js-form-item form-item js-form-type-textfield form-item-query js-form-item-query">
+      <label for="edit-query" class="usa-label">Search</label>
+          <input placeholder="Search by keyword" class="search-form form-text usa-input" data-drupal-selector="edit-query" type="text" id="edit-query" name="query" value="" size="30" maxlength="128" />
+
+      </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-site-search" type="submit" id="edit-submit-site-search" value="Search" class="button js-form-submit form-submit usa-button" />
+</div>
+
+</div>
+
+</form>
+
+  </div>
+
+  </div>
+
+              </div>
+                      </div>
+        </div>
+
+        <button class="usa-menu-btn">Menu</button>
+      </div>
+
+              <div class="announcements">
+          <div class="grid-container">
+              <div class="region region-announcements">
+    <div id="block-sitecovidbanner" class="block block-block-content block-block-content:3fcd7568-b66d-4df0-b730-db4b8fce2caa">
+  
+    
+      
+
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>COVID-19 is an emerging, rapidly evolving situation. What people with cancer should know: <a href="https://www.cancer.gov/coronavirus" noreferrer="" rel="noopener" target="_blank">https://www.cancer.gov/coronavirus</a>. Get the latest public health information from CDC: <a href="https://www.coronavirus.gov/" noreferrer="" rel="noopener" target="_blank">https://www.coronavirus.gov</a>. Get the latest research information from NIH: <a href="https://www.nih.gov/coronavirus" noreferrer="" rel="noopener" target="_blank">https://www.nih.gov/coronavirus</a>.</p>
+</div>
+      
+  </div>
+
+  </div>
+
+          </div>
+        </div>
+      
+      <nav class="usa-nav" role="navigation">
+        <button class="usa-nav__close">
+          <img src="/themes/custom/ccr/assets/img/close-white.svg" alt="close" />
+        </button>
+                  <div class="usa-nav__inner">
+        
+                    <div class="region region-primary-menu">
+    
+
+  
+  
+          <ul class="usa-nav__primary usa-accordion">
+    
+          <li class="usa-nav__primary-item  ">
+
+        
+                  <a href="/" class="usa-nav__link usa-current" >
+            <span>Home</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__primary-item  ">
+
+                  <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="megamenu-2">
+            <span>Clinical Trials</span>
+          </button>
+        
+                    
+  
+          <ul id="megamenu-2" class="usa-nav__submenu " hidden="">
+
+            <li class="usa-nav__submenu-item">
+        <a class="usa-nav__link" href="/clinical-trials">
+          <span>Clinical Trials</span>
+        </a>
+      </li>
+      
+    
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/clinical-trials/all">
+            <span>Search</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/clinical-trials/patients">
+            <span>Patients</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/clinical-trials/physicians">
+            <span>Referring Physicians</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/clinical-trials/lab-branch-program-directory">
+            <span>Meet our Teams</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+          <li class="usa-nav__primary-item  ">
+
+                  <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="megamenu-3">
+            <span>Research</span>
+          </button>
+        
+                    
+  
+          <ul id="megamenu-3" class="usa-nav__submenu " hidden="">
+
+            <li class="usa-nav__submenu-item">
+        <a class="usa-nav__link" href="/research">
+          <span>Research</span>
+        </a>
+      </li>
+      
+    
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/staff-directory">
+            <span>Find a Researcher</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/research/lab-branch-program-directory">
+            <span>Find a Lab</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+          <li class="usa-nav__primary-item  ">
+
+                  <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="megamenu-4">
+            <span>Training</span>
+          </button>
+        
+                    
+  
+          <ul id="megamenu-4" class="usa-nav__submenu " hidden="">
+
+            <li class="usa-nav__submenu-item">
+        <a class="usa-nav__link" href="/training">
+          <span>Training</span>
+        </a>
+      </li>
+      
+    
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/training/clinical">
+            <span>Clinical</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/training/postbac">
+            <span>Postbac</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/training/predoc">
+            <span>Predoctoral</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/training/postdoc">
+            <span>Postdoctoral</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/training/summer-internships">
+            <span>Summer Interns</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/training/trainee-resources">
+            <span>Trainee Resources</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/training/diversity">
+            <span>Diversity</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+          <li class="usa-nav__primary-item  ">
+
+                  <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="megamenu-5">
+            <span>Careers</span>
+          </button>
+        
+                    
+  
+          <ul id="megamenu-5" class="usa-nav__submenu " hidden="">
+
+            <li class="usa-nav__submenu-item">
+        <a class="usa-nav__link" href="/careers">
+          <span>Careers</span>
+        </a>
+      </li>
+      
+    
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/careers/search">
+            <span>Search Jobs</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/careers/benefits/why-ccr">
+            <span>Benefits</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/careers/women-in-science">
+            <span>Women In Science</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+          <li class="usa-nav__primary-item  ">
+
+        
+                  <a href="/news" class="usa-nav__link" >
+            <span>News</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__primary-item  ">
+
+                  <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="megamenu-7">
+            <span>About CCR</span>
+          </button>
+        
+                    
+  
+          <ul id="megamenu-7" class="usa-nav__submenu " hidden="">
+
+            <li class="usa-nav__submenu-item">
+        <a class="usa-nav__link" href="/about">
+          <span>About CCR</span>
+        </a>
+      </li>
+      
+    
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/about/office-of-the-director">
+            <span>Leadership</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/about/program-offices">
+            <span>OD Program Offices</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/about/awards-and-accolades">
+            <span>Awards &amp; Accolades</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/about/contact">
+            <span>Contact CCR</span>
+          </a>
+        
+      </li>
+          <li class=" usa-nav__submenu-item ">
+
+        
+                  <a href="/about/visit">
+            <span>Visit CCR</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+          <li class="usa-nav__primary-item  ">
+
+        
+                  <a href="/ccr-central" class="usa-nav__link" >
+            <span>CCR Central (Staff only)</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+
+
+
+  </div>
+
+        
+                  <div class="usa-nav__secondary">
+              <div class="region region-secondary-menu">
+    
+<ul class="usa-nav__secondary-links">
+  <li class="usa-nav__secondary-item">
+    <a href="/user/login">
+      Log in
+    </a>
+  </li>
+</ul>
+
+<div id="block-views-exposed-filter-block-site-search-search-page" class="block block-views block-views-exposed-filter-block:site-search-search-page">
+  
+    
+      <form class="views-exposed-form usa-form" data-drupal-target-view="site_search-search_page" data-drupal-selector="views-exposed-form-site-search-search-page" action="/search" method="get" id="views-exposed-form-site-search-search-page" accept-charset="UTF-8">
+  <div class="form--inline clearfix">
+  <div class="usa-form-group js-form-item form-item js-form-type-textfield form-item-query js-form-item-query">
+      <label for="edit-query" class="usa-label">Search</label>
+          <input placeholder="Search by keyword" class="search-form form-text usa-input" data-drupal-selector="edit-query" type="text" id="edit-query" name="query" value="" size="30" maxlength="128" />
+
+      </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-site-search" type="submit" id="edit-submit-site-search" value="Search" class="button js-form-submit form-submit usa-button" />
+</div>
+
+</div>
+
+</form>
+
+  </div>
+
+  </div>
+
+          </div>
+        
+                  </div>
+             </nav>
+
+  
+</header>
+
+  <div class="usa-breadcrumb__wrapper">
+    <div class="grid-container">
+      
+    </div>
+  </div>
+
+
+<main class="usa-section has-hero">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="grid-col-12">
+        
+        
+
+        
+      </div>
+    </div>
+
+    <div class="grid-row grid-gap">
+
+      
+      <div class="region-content tablet:grid-col-12">
+          <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-content" class="block block-system block-system-main-block">
+  
+    
+      <article role="article" about="/home">
+
+  
+    
+
+  
+  <div>
+
+    
+    
+
+
+            <div class="field field--name-field-hero field--type-entity-reference-revisions field--label-hidden field__item">  <div style="background-image: url(&quot;https://ccr.cancer.gov/sites/default/files/2021-07/About%20hero%20image%20%281%29_0.png&quot;)" class="has-bg image_pos_center_top paragraph usa-hero full-width paragraph--type--hero paragraph--view-mode--default">
+    
+            <div class="grid-col-fill">
+      
+      <div class="grid-container">
+        <div class="usa-hero__callout">
+                      <span class="usa-hero__heading--alt">The National Cancer Institute&#039;s</span>
+          
+                      <h1 class="usa-hero__heading">Center for Cancer Research</h1>
+          
+                      <p class="usa-intro">Creating the cancer medicines of tomorrow through bold biomedical research</p>
+          
+          
+
+
+            <div class="field field--name-field-call-to-action field--type-link field--label-hidden usa-hero__callout-action"><a href="/about" class="usa-button usa-button--inverse usa-button--big">Learn More</a></div>
+      
+        </div>
+      </div>
+
+            </div>
+      
+      </div>
+</div>
+      
+
+
+  <div class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items">
+          
+  <div id="latest-news-0" class="usa-section--background-light-gray paragraph full-width usa-section paragraph--type--view paragraph--view-mode--default">
+                        <div class="grid-container">
+                          
+            <div class="grid-col-fill">
+      
+                    
+
+
+            <h2 class="field field--name-field-title field--type-string field--label-hidden text-align-center usa-section__title">Latest News</h2>
+      
+<div class="field field--name-field-view field--type-viewfield field--label-hidden">
+  
+    
+        
+<div class="field__item field__item-label-hidden">
+  
+    
+      <div class="views-element-container"><div class="view view-news view-id-news view-display-id-block_news_home_latest_news js-view-dom-id-eaf5f5e1304c8aba1167bec560d23c7c852c68124238ef936493420345f30444">
+  
+    
+      
+      <div class="view-content">
+      <div>
+  
+  <ul class="grid-row grid-gap-2 news-teaser__list">
+
+          <li class="grid-col news-teaser__list-item">
+<article role="article" about="/news/article/clinical-trial-targets-cell-surface-protein-gpc3-to-treat-advanced-hepatocellular-carcinoma" class="news-teaser">
+        <div class="news-teaser__thumbnail">  <a href="/news/article/clinical-trial-targets-cell-surface-protein-gpc3-to-treat-advanced-hepatocellular-carcinoma" hreflang="en"><img src="/sites/default/files/styles/half_width_16_9/public/GPC3%20HCC%20Ho_0.jpg?itok=qHVJrwt2" width="520" height="293" alt="GPC3 expression in hepatocellular carcinoma" loading="lazy" typeof="foaf:Image" class="image-style-half-width-16-9" />
+
+</a>
+</div>
+  
+  <div class="news-teaser__content">
+    
+    
+          <h3>
+        <a href="/news/article/clinical-trial-targets-cell-surface-protein-gpc3-to-treat-advanced-hepatocellular-carcinoma" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Clinical trial targets cell surface protein GPC3 to treat advanced hepatocellular carcinoma</span>
+</a>
+      </h3>
+        
+  </div>
+</article>
+</li>
+          <li class="grid-col news-teaser__list-item">
+<article role="article" about="/news/article/ccr-researchers-use-immunogenetic-profiling-to-identify-targets-for-numerous-pediatric-cancers" class="news-teaser">
+        <div class="news-teaser__thumbnail">  <a href="/news/article/ccr-researchers-use-immunogenetic-profiling-to-identify-targets-for-numerous-pediatric-cancers" hreflang="en"><img src="/sites/default/files/styles/half_width_16_9/public/Khan_NNimage_0.jpg?itok=c8Nourun" width="520" height="293" alt="artist depiction of a tumor microenvironment" loading="lazy" typeof="foaf:Image" class="image-style-half-width-16-9" />
+
+</a>
+</div>
+  
+  <div class="news-teaser__content">
+    
+    
+          <h3>
+        <a href="/news/article/ccr-researchers-use-immunogenetic-profiling-to-identify-targets-for-numerous-pediatric-cancers" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">CCR researchers use immunogenetic profiling to identify targets for numerous pediatric cancers</span>
+</a>
+      </h3>
+        
+  </div>
+</article>
+</li>
+          <li class="grid-col news-teaser__list-item">
+<article role="article" about="/news/article/anish-thomas-explains-the-challenges-and-goals-of-his-small-cell-lung-cancer-research" class="news-teaser">
+        <div class="news-teaser__thumbnail">  <a href="/news/article/anish-thomas-explains-the-challenges-and-goals-of-his-small-cell-lung-cancer-research" hreflang="en"><img src="/sites/default/files/styles/half_width_16_9/public/A%20conversation%20with%20Anish%20Thomas_0.png?itok=S0o5GCB1" width="520" height="293" alt="Dr. Anish Thomas" loading="lazy" typeof="foaf:Image" class="image-style-half-width-16-9" />
+
+</a>
+</div>
+  
+  <div class="news-teaser__content">
+    
+    
+          <h3>
+        <a href="/news/article/anish-thomas-explains-the-challenges-and-goals-of-his-small-cell-lung-cancer-research" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Anish Thomas explains the challenges and goals of his small cell lung cancer research</span>
+</a>
+      </h3>
+        
+  </div>
+</article>
+</li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          <div class="more-link"><a href="/news">View All News</a></div>
+
+      </div>
+</div>
+
+  </div>
+
+    </div>
+
+      
+            </div>
+      
+              </div>
+      
+      </div>
+
+          
+  <div id="card-group-1" class="paragraph full-width usa-section paragraph--type--card-group paragraph--view-mode--default">
+                        <div class="grid-container">
+                          
+            <div class="grid-col-fill">
+      
+                    
+
+
+      <div class="grid-row card__group-items grid-gap-md field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items" id="">
+              <div class="grid-col-12">
+  <div class="paragraph paragraph--type--flag-card paragraph--view-mode--default">
+          <div class="grid-row card flag-card">
+        
+<div  class="field-group card__media">
+      
+
+
+            <div class="field field--name-field-media-image field--type-entity-reference field--label-hidden field__item">  <img src="/sites/default/files/styles/medium_4_3/public/2021-06/Jung%20Min%20Lee%20clinical%20fellow%20lg.png?itok=n3Zpiqkl" width="800" height="600" alt="A patient speaks with a CCR nurse and scientist-physician" loading="lazy" typeof="foaf:Image" class="image-style-medium-4-3" />
+
+
+</div>
+      
+  </div>
+
+<div  class="field-group card__content">
+      
+
+
+            <h2 class="field field--name-field-title field--type-string field--label-hidden card__title">Clinical Trials</h2>
+      
+
+
+            <div class="clearfix text-formatted field field--name-field-card-body-text field--type-text-long field--label-hidden field__item"><p><span><span><span>Our highly trained physicians offer clinical trials for patients with cancer, HIV or immunodeficiency disorders.  All trials take place at the NIH Clinical Center in Bethesda, MD, and through telehealth.  Once you are enrolled in a clinical trial at the Clinical Center, medical care is free. </span></span></span></p>
+</div>
+      
+
+
+      <div class="field field--name-field-card-links field--type-link field--label-hidden card__links field__items" id="">
+              <div class="card__links-item"><a href="/clinical-trials/patients">For Patients</a></div>
+              <div class="card__links-item"><a href="/clinical-trials/physicians">Referring Physicians</a></div>
+              <div class="card__links-item"><a href="/clinical-trials/lab-branch-program-directory">Clinical Labs/Branches</a></div>
+              <div class="card__links-item"><a href="/clinical-trials/patients/faq">Clinical Trials FAQs</a></div>
+          </div>
+  
+
+
+            <div class="field field--name-field-call-to-action field--type-link field--label-hidden field__item"><a href="/clinical-trials" class="usa-button usa-button--primary">Find a Clinical Trial</a></div>
+      
+  </div>
+
+      </div>
+      </div>
+</div>
+              <div class="grid-col-12">
+  <div class="paragraph paragraph--type--flag-card paragraph--view-mode--default">
+          <div class="grid-row card flag-card">
+        
+      </div>
+      </div>
+</div>
+          </div>
+  
+      
+            </div>
+      
+              </div>
+      
+      </div>
+
+          
+  <div id="card-group-2" class="usa-section--background-light-gray paragraph full-width usa-section paragraph--type--card-group paragraph--view-mode--default">
+                        <div class="grid-container">
+                          
+            <div class="grid-col-fill">
+      
+                    
+
+
+      <div class="grid-row card__group-items grid-gap-md field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items" id="">
+              <div class="grid-col-12">
+  <div class="image-position__right paragraph paragraph--type--flag-card paragraph--view-mode--default">
+          <div class="grid-row card flag-card">
+        
+<div  class="field-group card__media">
+      
+
+
+            <div class="field field--name-field-media-image field--type-entity-reference field--label-hidden field__item">  <img src="/sites/default/files/styles/medium_4_3/public/2021-03/science-research.png?itok=L2vQPE58" width="800" height="600" alt="Science" loading="lazy" typeof="foaf:Image" class="image-style-medium-4-3" />
+
+
+</div>
+      
+  </div>
+
+<div  class="field-group card__content">
+      
+
+
+            <h2 class="field field--name-field-title field--type-string field--label-hidden card__title">Research</h2>
+      
+
+
+            <div class="clearfix text-formatted field field--name-field-card-body-text field--type-text-long field--label-hidden field__item"><p>Centrally supported by long-term funding and a culture of complete intellectual freedom, CCR scientists are able to pursue the most important and challenging problems in cancer research. </p>
+</div>
+      
+
+
+      <div class="field field--name-field-card-links field--type-link field--label-hidden card__links field__items" id="">
+              <div class="card__links-item"><a href="/research/find-researcher">Find an Expert</a></div>
+              <div class="card__links-item"><a href="/research/lab-branch-program-directory">Find a Lab/Branch</a></div>
+              <div class="card__links-item"><a href="/news/magazines">Research Highlights</a></div>
+              <div class="card__links-item"><a href="/news">News</a></div>
+          </div>
+  
+
+
+            <div class="field field--name-field-call-to-action field--type-link field--label-hidden field__item"><a href="/research" class="usa-button usa-button--primary">Explore Research</a></div>
+      
+  </div>
+
+      </div>
+      </div>
+</div>
+          </div>
+  
+      
+            </div>
+      
+              </div>
+      
+      </div>
+
+          
+  <div id="card-group-3" class="paragraph full-width usa-section paragraph--type--card-group paragraph--view-mode--default">
+                        <div class="grid-container">
+                          
+            <div class="grid-col-fill">
+      
+                    
+
+
+      <div class="grid-row card__group-items grid-gap-md field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items" id="">
+              <div class="grid-col-12">
+  <div class="paragraph paragraph--type--flag-card paragraph--view-mode--default">
+          <div class="grid-row card flag-card">
+        
+<div  class="field-group card__media">
+      
+
+
+            <div class="field field--name-field-media-image field--type-entity-reference field--label-hidden field__item">  <img src="/sites/default/files/styles/medium_4_3/public/2021-06/Surgical%20oncology%2043%20%281%29.png?itok=QtV4xEbU" width="800" height="600" alt="Surgical Oncology clinical trainees" loading="lazy" typeof="foaf:Image" class="image-style-medium-4-3" />
+
+
+</div>
+      
+  </div>
+
+<div  class="field-group card__content">
+      
+
+
+            <h2 class="field field--name-field-title field--type-string field--label-hidden card__title">Training Opportunities</h2>
+      
+
+
+            <div class="clearfix text-formatted field field--name-field-card-body-text field--type-text-long field--label-hidden field__item"><p><span><span><span>Our innovative training programs educate and mentor the next generation of researchers and physician-scientists, from summer students to faculty members.  We can help you launch your career in basic, clinical, or translational research.</span></span></span></p>
+</div>
+      
+
+
+      <div class="field field--name-field-card-links field--type-link field--label-hidden card__links field__items" id="">
+              <div class="card__links-item"><a href="/training/trainee-resources">Trainee Resources</a></div>
+              <div class="card__links-item"><a href="/about">Get to Know CCR</a></div>
+              <div class="card__links-item"><a href="/careers/search">Opportunities</a></div>
+              <div class="card__links-item"><a href="/about/visit">Our Campuses</a></div>
+          </div>
+  
+
+
+            <div class="field field--name-field-call-to-action field--type-link field--label-hidden field__item"><a href="/training" class="usa-button usa-button--primary">Training at CCR</a></div>
+      
+  </div>
+
+      </div>
+      </div>
+</div>
+          </div>
+  
+      
+            </div>
+      
+              </div>
+      
+      </div>
+
+          
+  <div id="what-can-we-help-you-find-4" class="usa-section--background-light-gray paragraph full-width usa-section paragraph--type--stats paragraph--view-mode--default">
+                        <div class="grid-container">
+                          
+            <div class="grid-col-fill">
+      
+                    
+
+
+            <h2 class="field field--name-field-title field--type-string field--label-hidden text-align-center usa-section__title">What can we help you find?</h2>
+      
+
+
+      <div class="field field--name-field-stat field--type-entity-reference-revisions field--label-hidden grid-row grid-gap-3 field__items" id="">
+              <div class="grid-col-6 tablet:grid-col stat__list">  <div class="paragraph stat stat_color_secondary paragraph--type--stat paragraph--view-mode--default">
+                  <a href="/careers/search" class="stat__link">
+      
+              <i class="stat__icon icon icon__doc-magnifyingglass"></i>
+      
+      
+
+
+            <h1 class="field field--name-field-stat-number field--type-string field--label-hidden text-align-center stat__number">112</h1>
+      
+
+
+            <div class="field field--name-field-stat-label field--type-string field--label-hidden text-align-center stat__label">Open Career Opportunities</div>
+      
+
+              </a>
+            </div>
+</div>
+              <div class="grid-col-6 tablet:grid-col stat__list">  <div class="paragraph stat stat_color_accent-warm paragraph--type--stat paragraph--view-mode--default">
+                  <a href="/clinical-trials/all" class="stat__link">
+      
+              <i class="stat__icon icon icon__thermometer"></i>
+      
+      
+
+
+            <h1 class="field field--name-field-stat-number field--type-string field--label-hidden text-align-center stat__number">192</h1>
+      
+
+
+            <div class="field field--name-field-stat-label field--type-string field--label-hidden text-align-center stat__label">Clinical Trials Enrolling</div>
+      
+
+              </a>
+            </div>
+</div>
+              <div class="grid-col-6 tablet:grid-col stat__list">  <div class="paragraph stat stat_color_accent-cool paragraph--type--stat paragraph--view-mode--default">
+                  <a href="/staff-directory" class="stat__link">
+      
+              <i class="stat__icon icon icon__person-rectangle"></i>
+      
+      
+
+
+            <h1 class="field field--name-field-stat-number field--type-string field--label-hidden text-align-center stat__number">664</h1>
+      
+
+
+            <div class="field field--name-field-stat-label field--type-string field--label-hidden text-align-center stat__label">Researchers / Experts</div>
+      
+
+              </a>
+            </div>
+</div>
+          </div>
+  
+      
+            </div>
+      
+              </div>
+      
+      </div>
+
+          
+  <div id="latest-tweets-5" class="usa-section--background-primary-darker paragraph full-width usa-section paragraph--type--view paragraph--view-mode--default">
+                        <div class="grid-container">
+                          
+            <div class="grid-col-fill">
+      
+                    
+
+
+            <h2 class="field field--name-field-title field--type-string field--label-hidden text-align-center usa-section__title">Latest Tweets</h2>
+      
+<div class="field field--name-field-view field--type-viewfield field--label-hidden">
+  
+    
+        
+<div class="field__item field__item-label-hidden">
+  
+    
+      <div class="views-element-container"><div class="view view-tweets view-id-tweets view-display-id-block_1 js-view-dom-id-3ff7d139fc70fbbc8774c520aa557570c809aea2076d559a06b1c456faf32c7b">
+  
+    
+      
+      <div class="view-content">
+      <div>
+  
+  <ul class="grid grid-row usa-list--unstyled tweets">
+
+          <li class="grid-item tablet:grid-col-6 desktop:grid-col-4"><div class="tweets__content">
+  <div class="views-field views-field-field-profile-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr"><img src="https://pbs.twimg.com/profile_images/897768460998070273/BKhgjDYe_normal.jpg" alt="NCI Center for Cancer Research" /></a></div></div><div class="views-field views-field-field-twitter-username"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr">NCI Center for Cancer Research</a></div></div><div class="views-field views-field-field-twitter-user"><div class="field-content">@NCIResearchCtr</div></div><div class="views-field views-field-field-tweet-content"><div class="field-content"><p>This #CCRAdvance published in June 2021 showcased a new potential target in #neuroblastoma. To see the paper for this No. 8 #CCRTop10 tweet, visit: <a href="https://t.co/gSUP4r0JfA">https://t.co/gSUP4r0JfA</a> @MitchellHo <a href="https://t.co/XeQp6gZmgE">https://t.co/XeQp6gZmgE</a></p>
+</div></div><div class="views-field views-field-field-twitter-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr/status/1472935329682317318"><img alt="Image" src="https://pbs.twimg.com/media/FHDq4DhX0AIonEj.jpg" /></a></div></div></div>
+</li>
+          <li class="grid-item tablet:grid-col-6 desktop:grid-col-4"><div class="tweets__content">
+  <div class="views-field views-field-field-profile-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr"><img src="https://pbs.twimg.com/profile_images/897768460998070273/BKhgjDYe_normal.jpg" alt="NCI Center for Cancer Research" /></a></div></div><div class="views-field views-field-field-twitter-username"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr">NCI Center for Cancer Research</a></div></div><div class="views-field views-field-field-twitter-user"><div class="field-content">@NCIResearchCtr</div></div><div class="views-field views-field-field-tweet-content"><div class="field-content"><p>The Laboratory of Human Carcinogenesis (LHC) is recruiting a tenure-track or tenure-eligible investigator focused on health disparity of cancer to join the LHC team. For more information, please visit: <a href="https://t.co/a4el0Lb0jR">https://t.co/a4el0Lb0jR</a> #lungcancer #CCRJobs <a href="https://t.co/7S6zttmuas">https://t.co/7S6zttmuas</a></p>
+</div></div><div class="views-field views-field-field-twitter-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr/status/1471948833903022089"><img alt="Image" src="https://pbs.twimg.com/media/FG1pqZzX0AEnviO.jpg" /></a></div></div></div>
+</li>
+          <li class="grid-item tablet:grid-col-6 desktop:grid-col-4"><div class="tweets__content">
+  <div class="views-field views-field-field-profile-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr"><img src="https://pbs.twimg.com/profile_images/897768460998070273/BKhgjDYe_normal.jpg" alt="NCI Center for Cancer Research" /></a></div></div><div class="views-field views-field-field-twitter-username"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr">NCI Center for Cancer Research</a></div></div><div class="views-field views-field-field-twitter-user"><div class="field-content">@NCIResearchCtr</div></div><div class="views-field views-field-field-tweet-content"><div class="field-content"><p>In March 2021, we highlighted #colorectalcancerawarenessmonth with this No. 9 #CCRTop10 tweet about Jonathan Hernandez @JMHernandez_MD and his #clinicaltrials @NCICCR_SurgOnc. Learn more about Dr. Hernandez&#039;s research at: <a href="https://t.co/ZDYBNZd94d">https://t.co/ZDYBNZd94d</a> <a href="https://t.co/3c20QvCen6">https://t.co/3c20QvCen6</a></p>
+</div></div><div class="views-field views-field-field-twitter-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr/status/1471911836408635394"><img alt="Image" src="https://pbs.twimg.com/media/FG1IA5cX0AEvgzK.jpg" /></a></div></div></div>
+</li>
+          <li class="grid-item tablet:grid-col-6 desktop:grid-col-4"><div class="tweets__content">
+  <div class="views-field views-field-field-profile-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr"><img src="https://pbs.twimg.com/profile_images/897768460998070273/BKhgjDYe_normal.jpg" alt="NCI Center for Cancer Research" /></a></div></div><div class="views-field views-field-field-twitter-username"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr">NCI Center for Cancer Research</a></div></div><div class="views-field views-field-field-twitter-user"><div class="field-content">@NCIResearchCtr</div></div><div class="views-field views-field-field-tweet-content"><div class="field-content"><p>We are kicking off our countdown of #CCRTop10 tweets for 2021! In at No. 10 is this award for @Hememachine. In May 2021, Dr. Jaffe was selected to received the 2022 @ASIPath Gold-Headed Cane Award. More on her research at <a href="https://t.co/335xeC95NR">https://t.co/335xeC95NR</a> <a href="https://t.co/KwudspVp3V">https://t.co/KwudspVp3V</a></p>
+</div></div><div class="views-field views-field-field-twitter-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr/status/1471848167415205894"><img alt="Image" src="https://pbs.twimg.com/media/FG0OG43WYAogDah.jpg" /></a></div></div></div>
+</li>
+          <li class="grid-item tablet:grid-col-6 desktop:grid-col-4"><div class="tweets__content">
+  <div class="views-field views-field-field-profile-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr"><img src="https://pbs.twimg.com/profile_images/897768460998070273/BKhgjDYe_normal.jpg" alt="NCI Center for Cancer Research" /></a></div></div><div class="views-field views-field-field-twitter-username"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr">NCI Center for Cancer Research</a></div></div><div class="views-field views-field-field-twitter-user"><div class="field-content">@NCIResearchCtr</div></div><div class="views-field views-field-field-tweet-content"><div class="field-content"><p>Tomorrow we welcome Dr. Steve Libutti @slibutti @RutgersCancer to present our final #NCICCR20 grand rounds lecture. For access to the lecture, please contact our conference department. #CCRLectures <a href="https://t.co/1kLjIi7SJz">https://t.co/1kLjIi7SJz</a></p>
+</div></div><div class="views-field views-field-field-twitter-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr/status/1471564550017331212"><img alt="Image" src="https://pbs.twimg.com/media/FGwMKJMXsAEdmWp.jpg" /></a></div></div></div>
+</li>
+          <li class="grid-item tablet:grid-col-6 desktop:grid-col-4"><div class="tweets__content">
+  <div class="views-field views-field-field-profile-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr"><img src="https://pbs.twimg.com/profile_images/897768460998070273/BKhgjDYe_normal.jpg" alt="NCI Center for Cancer Research" /></a></div></div><div class="views-field views-field-field-twitter-username"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr">NCI Center for Cancer Research</a></div></div><div class="views-field views-field-field-twitter-user"><div class="field-content">@NCIResearchCtr</div></div><div class="views-field views-field-field-tweet-content"><div class="field-content"><p>We congratulate our 2021 @PCF_Science Young Investigator awardees! Read more about their work at <a href="https://t.co/AkPJzdbrG3">https://t.co/AkPJzdbrG3</a> @nciccr_gmb @NCIEytanRuppin @sowalsky @DavidTakeda @Dr_RaviMadan #CCRNews <a href="https://t.co/nwo259QKYT">https://t.co/nwo259QKYT</a></p>
+</div></div><div class="views-field views-field-field-twitter-image"><div class="field-content"><a href="https://twitter.com/NCIResearchCtr/status/1471528312065376262"><img alt="Image" src="https://pbs.twimg.com/media/FGvrM0vX0AA0--X.jpg" /></a></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          <div class="more-link"><a href="https://twitter.com/NCIResearchCtr">View All Tweets</a></div>
+
+      </div>
+</div>
+
+  </div>
+
+    </div>
+
+      
+            </div>
+      
+              </div>
+      
+      </div>
+
+      </div>
+
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+      </div>
+
+      
+    </div>
+  </div>
+</main>
+
+<footer class="usa-footer usa-footer--medium" role="contentinfo">
+  <div class="grid-container usa-footer__return-to-top">
+    <a href="#">Return to top</a>
+  </div>
+
+       <div class="usa-footer__primary-section">
+       <div class="grid-container">
+         <div class="grid-row grid-gap ">
+                        <div class="mobile-lg:grid-col-12">
+               <nav class="usa-footer__nav">  <div class="region region-footer-menu">
+    <nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-mainnavigation-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item menu-item--active-trail">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Home</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/clinical-trials" data-drupal-link-system-path="node/18377">Clinical Trials</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/research" data-drupal-link-system-path="node/18378">Research</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/training" data-drupal-link-system-path="node/18379">Training</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/careers" data-drupal-link-system-path="node/18380">Careers</a>
+              </li>
+                <li class="menu-item">
+        <a href="/news" data-drupal-link-system-path="node/18381">News</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/about" data-drupal-link-system-path="node/18382">About CCR</a>
+              </li>
+                <li class="menu-item">
+        <a href="/ccr-central" data-drupal-link-system-path="node/6919">CCR Central (Staff only)</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+               </nav>
+             </div>
+           
+                 </div>
+
+                </div>
+     </div>
+  
+          <div class="usa-footer__secondary-section">
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+            <div class="tablet:grid-col-4 desktop:grid-col-3 margin-bottom-2">
+                          <div class="footer--agency mobile-lg:grid-col-12">
+                <p class="footer--agency-name">National Cancer Institute</p>
+                <p class="footer--agency-tagline">At the National Institutes of Health</p>
+              </div>
+              <div class="footer__social mobile-lg:grid-col-12">
+                <p class="footer__social-title">Follow Us</p>
+                <ul class="footer__social-links">
+                                      <li>
+                      <a class="social-link--facebook" aria-label="facebook" href="https://www.facebook.com/cancer.gov">
+                        <i class="icon" aria-hidden="true"></i>
+                        <span>Facebook</span>
+                      </a>
+                    </li>
+                                                        <li>
+                      <a class="social-link--twitter" aria-label="twitter" href="https://twitter.com/NCIResearchCtr">
+                        <i class="icon" aria-hidden="true"></i>
+                        <span>Twitter</span>
+                      </a>
+                    </li>
+                                                        <li>
+                      <a class="social-link--youtube" aria-label="youtube" href="https://www.youtube.com/user/NCIgov">
+                        <i class="icon" aria-hidden="true"></i>
+                        <span>YouTube</span>
+                      </a>
+                    </li>
+                                                    </ul>
+              </div>
+            
+            </div>
+            <div class="tablet:grid-col-8 desktop:grid-col-9">
+
+                              <div class="grid-row grid-gap">
+                  <div class="mobile-lg:grid-col-12">
+                      <div class="region region-footer-secondary">
+    <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-footer-menu">Footer</h2>
+  
+
+        
+              <ul class="menu menu--level-1 grid-row grid-gap">
+                                
+      <li class="menu-item menu-item--expanded tablet:grid-col-6 tablet-lg:grid-col-4">
+        <span>Organization</span>
+                                <ul class="menu">
+                    
+      <li class="menu-item">
+        <a href="https://www.hhs.gov/">U.S. Department of Health and Human Services</a>
+              </li>
+                
+      <li class="menu-item">
+        <a href="https://www.nih.gov/">National Institutes of Health</a>
+              </li>
+                
+      <li class="menu-item">
+        <a href="https://www.cancer.gov/">National Cancer Institute</a>
+              </li>
+                
+      <li class="menu-item">
+        <a href="https://www.usa.gov/">USA.gov</a>
+              </li>
+        </ul>
+  
+              </li>
+                            
+      <li class="menu-item menu-item--expanded tablet:grid-col-6 tablet-lg:grid-col-4">
+        <span>More Information</span>
+                                <ul class="menu">
+                    
+      <li class="menu-item">
+        <a href="/about/contact" data-drupal-link-system-path="node/7080">Contact Us</a>
+              </li>
+                
+      <li class="menu-item">
+        <a href="https://www.cancer.gov/global/viewing-files">Viewing Files</a>
+              </li>
+        </ul>
+  
+              </li>
+                            
+      <li class="menu-item menu-item--expanded tablet:grid-col-6 tablet-lg:grid-col-4">
+        <span>Policies</span>
+                                <ul class="menu">
+                    
+      <li class="menu-item">
+        <a href="https://www.cancer.gov/global/web/policies">Policies</a>
+              </li>
+                
+      <li class="menu-item">
+        <a href="https://www.cancer.gov/global/web/policies/accessibility">Accessibility</a>
+              </li>
+                
+      <li class="menu-item">
+        <a href="https://www.cancer.gov/policies/disclaimer">Disclaimer</a>
+              </li>
+                
+      <li class="menu-item">
+        <a href="https://www.cancer.gov/global/web/policies/foia">FOIA</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+                  </div>
+                </div>
+              
+            </div>
+
+
+          </div>
+
+                      <div class="footer--tagline grid-row grid-gap">
+              <div class="mobile-lg:grid-col-12 grid-col">
+                NIH...Turning Discovery Into Health®
+              </div>
+            </div>
+                  </div>
+
+      </div>
+    
+</footer>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/6897","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"addtoany\/addtoany,admin_toolbar_content\/global,ccr\/global-styling,classy\/base,classy\/messages,core\/normalize,extlink\/drupal.extlink,paragraphs\/drupal.paragraphs.unpublished,system\/base,uswds\/drupal,uswds\/uswds,views\/views.module","theme":"ccr","theme_token":null},"ajaxTrustedUrl":{"\/search":true},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"(\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"You are leaving the CCR website.\r\nThis external link provides additional information that is consistent with the intended purpose of this site. CCR cannot attest to the accuracy of a non-federal site.\r\nLinking to a non-federal site does not constitute an endorsement by CCR or any of its employees of the sponsors or the information and products presented on the site. You will be subject to the destination site\u2019s privacy policy when you follow the link.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"element":"div","show_label":false,"label_element":"h3","label_element_classes":"","attributes":"","effect":"none","speed":"fast","id":"","classes":"card__media"}}},"user":{"uid":0,"permissionsHash":"f2bc6b52e6181cc4b416a3c04f70a2eafaa3eafd825aef09b7e4fb8dd7c3c0fd"}}</script>
+<script src="/sites/default/files/js/js_7GuQxcWr_h0cqGKzB5kX7WVayie-V5IwNWNI5FEusD4.js"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/default/files/js/js_mvm6kD2qHN95msH9qReCRW9MB9qQnufDOARcYJBDLI0.js"></script>
+
+        <script type="text/javascript" id="" src="https://ccr.cancer.gov/sites/default/files/webanalytics/WA_CCR_PageLoad.js"></script>
+  </body>
+</html>

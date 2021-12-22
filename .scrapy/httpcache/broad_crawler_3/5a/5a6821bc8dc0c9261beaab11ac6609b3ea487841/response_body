@@ -1,0 +1,5 @@
+Sitemap: https://pv-magazine-usa.com/sitemap.xml
+Sitemap: https://pv-magazine-usa.com/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

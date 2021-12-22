@@ -1,0 +1,16 @@
+Content-Length: 142
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/plain
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/payments-serving-sre
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="payments-serving-sre"
+Report-To: {"group":"payments-serving-sre","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/payments-serving-sre"}]}
+Date: Mon, 20 Dec 2021 19:01:29 GMT
+Expires: Tue, 21 Dec 2021 19:01:29 GMT
+Cache-Control: public, max-age=86400
+Last-Modified: Fri, 11 Oct 2019 00:15:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-Xss-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

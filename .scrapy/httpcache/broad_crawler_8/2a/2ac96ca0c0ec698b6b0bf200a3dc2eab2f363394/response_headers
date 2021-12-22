@@ -1,0 +1,22 @@
+Content-Length: 0
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Date: Mon, 20 Dec 2021 18:48:35 GMT
+X-Amz-Rid: XR61RTZ3ARG3HP9M0J64
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy-Report-Only: default-src https://*.amazon.com https://*.amazon.ca https://*.amazon.com.mx https://*.amazon.com.br https://*.amazon.de https://*.amazon.co.uk https://*.amazon.fr https://*.amazon.it https://*.amazon.es https://*.amazon.in https://*.amazon.co.jp https://*.amazon.com.au https://a1n4jjwgy1bvgg-ats.iot.eu-west-1.amazonaws.com https://cognito-identity.eu-west-1.amazonaws.com https://d1894xhml4amkr.cloudfront.net https://d1l04yptno92u8.cloudfront.net/ https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://d5fx445wy2wpk.cloudfront.net https://dfqzuzzcqflbd.cloudfront.net https://album-art-storage-us.s3.amazonaws.com https://album-art-storage-eu.s3.amazonaws.com https://album-art-storage-fe.s3.amazonaws.com https://html5-tv-app.s3.amazonaws.com https://now-playing-screen.s3.amazonaws.com https://*.xp-assets.aiv-cdn.net; script-src https://*.amazon.com https://*.amazon.ca https://*.amazon.com.mx https://*.amazon.com.br https://*.amazon.de https://*.amazon.co.uk https://*.amazon.fr https://*.amazon.it https://*.amazon.es https://*.amazon.in https://*.amazon.co.jp https://*.amazon.com.au https://a1n4jjwgy1bvgg-ats.iot.eu-west-1.amazonaws.com https://cognito-identity.eu-west-1.amazonaws.com https://d1894xhml4amkr.cloudfront.net https://d1l04yptno92u8.cloudfront.net/ https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://d5fx445wy2wpk.cloudfront.net https://dfqzuzzcqflbd.cloudfront.net https://album-art-storage-us.s3.amazonaws.com https://album-art-storage-eu.s3.amazonaws.com https://album-art-storage-fe.s3.amazonaws.com https://html5-tv-app.s3.amazonaws.com https://now-playing-screen.s3.amazonaws.com https://*.xp-assets.aiv-cdn.net 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.amazon.ca https://*.amazon.com.mx https://*.amazon.com.br https://*.amazon.de https://*.amazon.co.uk https://*.amazon.fr https://*.amazon.it https://*.amazon.es https://*.amazon.in https://*.amazon.co.jp https://*.amazon.com.au https://a1n4jjwgy1bvgg-ats.iot.eu-west-1.amazonaws.com https://cognito-identity.eu-west-1.amazonaws.com https://d1894xhml4amkr.cloudfront.net https://d1l04yptno92u8.cloudfront.net/ https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://d5fx445wy2wpk.cloudfront.net https://dfqzuzzcqflbd.cloudfront.net https://album-art-storage-us.s3.amazonaws.com https://album-art-storage-eu.s3.amazonaws.com https://album-art-storage-fe.s3.amazonaws.com https://html5-tv-app.s3.amazonaws.com https://now-playing-screen.s3.amazonaws.com https://*.xp-assets.aiv-cdn.net 'unsafe-inline'; connect-src 'self' https://na.web.skill.music.a2z.com https://eu.web.skill.music.a2z.com  https://fe.web.skill.music.a2z.com https://qa-na.mesk.skill.music.a2z.com https://qa-eu.mesk.skill.music.a2z.com https://qa-fe.mesk.skill.music.a2z.com https://dev-na.mesk.skill.music.a2z.com https://dev-eu.mesk.skill.music.a2z.com https://dev-fe.mesk.skill.music.a2z.com https://d5fx445wy2wpk.cloudfront.net https://dfqzuzzcqflbd.cloudfront.net yplbec8hd1.execute-api.us-east-1.amazonaws.com m42pv1bdze.execute-api.us-east-1.amazonaws.com digprjsurvey.amazon.com digprjsurvey.amazon.eu digprjsurvey.amazon.co.jp; report-uri /1/batch/2/OE/mid=ATVPDKIKX0DER:sid=000-0000000-0000000:rid=XR61RTZ3ARG3HP9M0J64:sn=music.amazon.com; media-src 'self' dfqzuzzcqflbd.cloudfront.net d4s1nbwjhj7ub.cloudfront.net d1sxtrhjut2dkc.cloudfront.net d11he2cfcxosio.cloudfront.net dawax2ualjfe6.cloudfront.net d27fhhmfpo9xye.cloudfront.net blob:
+X-Ua-Compatible: IE=edge,chrome=1
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Pragma: no-cache
+Expires: -1
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Location: https://music.amazon.com/podcasts/561da4df-34b2-4987-827b-b9d6cacf3160/that-scene-with-dan-patrick?tag=imdbtag_m_fea_pod_directories_lk3-20
+Content-Language: en-US
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 30a008d85df71a65d24879648931496c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: WFUlWYDAzU9_go1qKzdLJtwl6s2HwXlnHiByrw3LRAZmA2-JSJoQnw==

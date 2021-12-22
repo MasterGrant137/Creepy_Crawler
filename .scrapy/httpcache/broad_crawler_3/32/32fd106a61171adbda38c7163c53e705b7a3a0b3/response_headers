@@ -1,0 +1,13 @@
+Content-Length: 763
+Content-Type: text/plain
+Server: openresty
+Last-Modified: Tue, 14 Dec 2021 15:17:41 GMT
+Etag: W/"61b8b595-a30"
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Cache-Control: max-age=95
+Expires: Mon, 20 Dec 2021 17:37:16 GMT
+Date: Mon, 20 Dec 2021 17:35:41 GMT
+Set-Cookie: wp_geo=US|CA|804|92201-92203|; max-age=3600; path=/; domain=.washingtonpost.com; SameSite=None; secure
+Set-Cookie: wp_country=US; max-age=3600; path=/; domain=.washingtonpost.com; SameSite=None; secure
+Content-Security-Policy: upgrade-insecure-requests

@@ -1,0 +1,24 @@
+Content-Length: 297
+Cache-Control: private, max-age=0
+Content-Type: text/plain
+Content-Encoding: gzip
+Content-Md5: qBQazyua1TqhKfwUfCnSCw==
+Last-Modified: Tue, 14 Dec 2021 01:31:28 GMT
+Etag: 0x8D9BEA17335E678
+Vary: Origin
+X-Ms-Request-Id: caef5523-e01e-004c-4eff-f0611a000000
+X-Ms-Version: 2009-09-19
+X-Ms-Lease-Status: unlocked
+X-Ms-Blob-Type: BlockBlob
+Akamai-Server-Ip: 23.65.123.44
+Akamai-Request-Id: 2bf77687
+Report-To: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://deff.nelreports.net/api/report?cat=msn"}]}
+Nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_fraction":0.25}
+Server-Timing: 8
+X-Cache: CONFIG_NOCACHE
+Accept-Ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-Msedge-Ref: Ref A: 9D32549C263C4F118C2944DA954D901A Ref B: LAX311000114029 Ref C: 2021-12-20T18:59:40Z
+Set-Cookie: _EDGE_S=F=1; path=/; httponly; domain=msn.com
+Set-Cookie: _EDGE_V=1; path=/; httponly; expires=Sat, 14-Jan-2023 18:59:40 GMT; domain=msn.com
+Set-Cookie: MUID=14A7A7324D006F690B78B6214C6A6E2E; samesite=none; path=/; secure; expires=Sat, 14-Jan-2023 18:59:40 GMT; domain=msn.com
+Date: Mon, 20 Dec 2021 18:59:39 GMT

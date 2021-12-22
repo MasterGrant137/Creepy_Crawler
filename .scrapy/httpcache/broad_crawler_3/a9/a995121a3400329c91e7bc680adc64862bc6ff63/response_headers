@@ -1,0 +1,25 @@
+Content-Length: 481
+Content-Type: text/plain; charset=utf-8
+Cache-Tag: independent.co.uk,v1.5.9.8
+Content-Encoding: gzip
+Etag: W/"59d-JtnX/5rf/UUIWrDl2d4DfFcfcEQ-gzip"
+Server: Apache/2.4.29 (Ubuntu)
+Strict-Transport-Security: max-age=63072000;  preload
+Cache-Control: public, max-age=2592000
+Via: 1.1 varnish, 1.1 varnish
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 17:35:32 GMT
+Age: 739124
+Canary: 1
+Set-Cookie: Locale=US ; Path=/ ;
+Set-Cookie: gdpr=0 ; Path=/ ;
+Set-Cookie: subscriber_origin=us ; Path=/ ;
+Set-Cookie: _pc_subscriber_origin=us ; Path=/ ;
+Set-Cookie: fresh8_toggle=1 ; Path=/ ;
+Set-Cookie: esi-uuid=3ab92cdb-74c5-4beb-98e7-5c8a9fb6383d ; Path=/ ; Secure; HttpOnly; Expires=Tue, 20 Dec 2022 17:35:32 GMT ;
+Set-Cookie: esi-permutive-id=3ab92cdb-74c5-4beb-98e7-5c8a9fb6383d; Path=/ ; Secure
+X-Served-By: cache-lhr7379-LHR, cache-bur17570-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1640021732.165503,VS0,VE1

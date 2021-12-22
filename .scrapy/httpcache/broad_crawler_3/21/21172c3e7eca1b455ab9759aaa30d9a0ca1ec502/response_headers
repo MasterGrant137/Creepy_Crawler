@@ -1,0 +1,11 @@
+Content-Length: 215
+Content-Type: application/xml
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+X-Ms-Request-Id: 78febf23-c01e-0097-01eb-f5e452000000
+X-Ms-Version: 2009-09-19
+Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding
+Cache-Control: max-age=3600
+Expires: Mon, 20 Dec 2021 22:53:12 GMT
+Date: Mon, 20 Dec 2021 21:53:12 GMT
+Access-Control-Allow-Origin: *
+Vary: Accept-Encoding

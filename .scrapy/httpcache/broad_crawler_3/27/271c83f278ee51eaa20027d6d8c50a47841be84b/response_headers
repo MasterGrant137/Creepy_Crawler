@@ -1,0 +1,8 @@
+Date: Mon, 20 Dec 2021 19:01:29 GMT
+Expires: Tue, 20 Dec 2022 19:01:29 GMT
+Cache-Control: public, max-age=31536000
+Etag: "1NaMPA"
+X-Cloud-Trace-Context: f1dd16f37c7f06c83b9aa07150f87d25
+Content-Type: text/plain
+Server: Google Frontend
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

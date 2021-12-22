@@ -1,0 +1,17 @@
+Content-Length: 0
+Date: Sat, 18 Dec 2021 02:07:59 GMT
+Retry-After: 0
+Location: https://childrensinn.org/site/c.kkI1KiMXIvF/b.2002473/k.A17B/Publications.htm
+X-Pantheon-Redirect: primary-domain-policy-doc
+X-Served-By: cache-lax10632-LGB
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1639793279.230533,VS0,VE2
+Age: 0
+Accept-Ranges: bytes
+Via: 1.1 varnish
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yC9VENgJb9YHXz%2F9CGLFPpga9nLe1uJiLn2SNQlxJVEbMIwUqZWJt6Wrz9IBvMmFv7KOo78HMVI3Zc7vnqo1WDCCrOlK%2B2WfDDFhXYqj1YdzKX0lFXABeyiE893bOrjC326Yzz83"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 6bf4d73b29395295-LAX

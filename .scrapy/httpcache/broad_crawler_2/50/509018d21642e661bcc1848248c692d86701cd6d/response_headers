@@ -1,0 +1,14 @@
+Content-Length: 256
+Age: 871790
+Cache-Control: max-age=1209600
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Dec 2021 23:58:05 GMT
+Expires: Tue, 21 Dec 2021 23:58:05 GMT
+Location: https://www.noisyplanet.nidcd.nih.gov/robots.txt
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 135
+X-Content-Type-Options: nosniff
+X-Request-Id: v-854ba6f2-57b9-11ec-99b1-93e2fd3eb293

@@ -1,0 +1,21 @@
+Content-Length: 24384
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+X-Pingback: https://www.dictionary.com/e/xmlrpc.php
+Link: <https://www.dictionary.com/e/?p=164907>; rel=shortlink
+Last-Modified: Mon, 20 Dec 2021 05:43:59 GMT
+Pragma: public
+Etag: "f2900bb1c3c6fc561a3ffd187657a4cc"
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Expires: Tue, 21 Dec 2021 05:30:00 GMT
+Cached-Cookies: (null); ; (null); ;
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 18:48:50 GMT
+Age: 0
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kjyo7100094-IAD, cache-bur17555-BUR
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1640026131.594929,VS0,VE60
+Vary: Accept-Encoding, cached-cookies, X-OPTIONS

@@ -12,11 +12,14 @@ will give a stdout of the crawler's yield.
 import crochet
 crochet.setup()
 
-import re
 from scrapy import signals
 from scrapy.crawler import CrawlerRunner
 from scrapy.signalmanager import dispatcher
+from scrapy.utils.project import get_project_settings
 from app.crawler.spider_lair.spiders import caerostris_darwini
+
+import re
+import json
 from datetime import datetime
 from flask import Blueprint, request
 from app.models import db, History
@@ -24,8 +27,10 @@ from app.forms import SearchForm
 from flask_login import current_user, login_required
 
 output_data = []
-crawl_runner = CrawlerRunner()
-
+settings = get_project_settings()
+settings_dict = json.load(open('app/api/routes/settings.json'))
+settings.update(settings_dict)
+crawl_runner = CrawlerRunner(settings)
 search_routes = Blueprint('entries', __name__)
 
 def validation_errors_to_error_messages(validation_errors):
@@ -77,18 +82,17 @@ def add_search_entry():
             return { 'message': ["Log in or sign up to record search and visit history."] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
-@crochet.wait_for(timeout=60.0)
+@crochet.wait_for(timeout=200.0)
 def scrape_with_crochet(query):
     """Connect Flask with Scrapy asynchronously."""
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    spiders = [caerostris_darwini.CDCommentarial, caerostris_darwini.CDEncyclopedic]
+    spiders = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8]
     [crawl_runner.crawl(spider, query=query) for spider in spiders]
     eventual = crawl_runner.join()
     return eventual
 
 def _crawler_result(item, response, spider):
     """Typecast each element of crawler's yield into dictionary and append to list."""
-    # print(spider)
     output_data.append(dict(item))
 
 @search_routes.route('/history/visits/', methods=['POST'])

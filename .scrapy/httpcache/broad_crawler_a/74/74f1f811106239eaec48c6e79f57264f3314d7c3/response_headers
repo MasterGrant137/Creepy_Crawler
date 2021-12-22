@@ -1,0 +1,17 @@
+Content-Length: 14739
+Server: nginx
+Content-Type: text/html
+Last-Modified: Mon, 20 Dec 2021 04:54:11 GMT
+Etag: "61c00c73-16859"
+X-Clacks-Overhead: GNU Terry Pratchett
+Strict-Transport-Security: max-age=315360000; includeSubDomains; preload
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 23:30:21 GMT
+Age: 66959
+X-Served-By: cache-lga21923-LGA, cache-bur17566-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1640043022.772592,VS0,VE81
+Vary: Accept-Encoding

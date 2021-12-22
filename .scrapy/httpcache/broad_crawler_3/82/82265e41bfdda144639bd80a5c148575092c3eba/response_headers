@@ -1,0 +1,21 @@
+Age: 0
+Date: Mon, 20 Dec 2021 18:38:03 GMT
+Vary: Cookie,X-Twitter-Internal,X-Twitter-IP-Tags
+Server: tsa_a
+Expires: Mon, 20 Dec 2021 18:38:03 GMT
+Set-Cookie: guest_id_marketing=v1%3A164002548300512139; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:38:03 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A164002548300512139; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:38:03 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_Fey1qezWnwoXQnuvbr0tIg=="; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:38:03 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A164002548300512139; Max-Age=63072000; Expires=Wed, 20 Dec 2023 18:38:03 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: ct0=30c36b4993226232d7dbe6c8b69b6f61; Max-Age=21600; Expires=Tue, 21 Dec 2021 00:38:03 GMT; Path=/; Domain=.twitter.com; Secure
+Set-Cookie: cms-csp-nonce=e191f0b8e5d77e7e90869344324a755; Max-Age=15; Expires=Mon, 20 Dec 2021 18:38:18 GMT; Path=/; Secure
+Content-Type: text/html
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip
+X-Xss-Protection: 0
+Content-Security-Policy: default-src 'self' ; connect-src 'self' https://api.twitter.com https://syndication.twitter.com https://www.google-analytics.com https://*.tt.omtrdc.net https://s1259914507.t.eloqua.com https://resources.digital-cloud-prem.medallia.com https://udc-neb.kampyle.com/ https://feedback.digital-cloud-prem.medallia.com https://webchat-service.iris.ci wss://webchat-service.iris.ci https://*.twimg.com; font-src 'self' https://*.twimg.com https://*.twitter.com https://cdn.cms-twdigitalassets.com data:; frame-src 'self' https://twitter.com https://*.twitter.com; img-src 'self' https://*.twimg.com https://*.twitter.com https://www.google-analytics.com https://cdn.cms-twdigitalassets.com https://cdn.goglobalwithtwitter.com https://twitter.com/i/jot https://udc-neb.kampyle.com/ https://*.g.doubleclick.net https://www.google.com/ads/ga-audiences data:; media-src 'self' https://*.twimg.com https://*.twitter.com https://cdn.cms-twdigitalassets.com https://cdn.goglobalwithtwitter.com; object-src 'self' ; script-src 'self' 'sha256-ppW1Vv+qSVcs+/pIj1ZXvMiCLoyHyCdRqtDMeK9fQ9w=' 'sha256-/nYZeBsBEfDf+ABhqZiU2PnUHhhhHmk3hYj22tC7NqU=' 'sha256-akh2NAyCpIHqLfeRcKlsLv3YFpCxzxo655o2LsqrU7U=' 'sha256-BpNYkFnk3M8MTdhILlIMqd1IeQzuYTVPL0s/aOcqqKI=' 'sha256-ZzS90TFgO7fQ9chXuDVZh5D0KAZTx9oOG4q2KTH+6+k=' 'sha256-xD/hGq9W74wOiYICJ/NbVXLlkjtX4XS40sOu2hyBhtU=' 'sha256-XJxhg/iMfk3mu/xelB8T5unCRR3sLMiQzFCLAgJEP0c=' https://*.twitter.com https://static.ads-twitter.com 'nonce-e191f0b8e5d77e7e90869344324a755'; style-src 'self' 'unsafe-inline' https://*.twimg.com https://*.twitter.com https://cdn.cms-twdigitalassets.com https://cdn.goglobalwithtwitter.com; report-uri https://twitter.com/i/csp_report; frame-ancestors 'self'
+Strict-Transport-Security: max-age=631138519
+X-Response-Time: 615
+X-Connection-Hash: c33e63ed6fb0b5e354ed1e3a08ba4a7fd20be2abeccde0c77d85205134a43eee

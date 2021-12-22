@@ -1,0 +1,20 @@
+Content-Length: 35
+Date: Tue, 21 Dec 2021 00:27:13 GMT
+Content-Type: text/plain
+Vary: Accept-Encoding
+Last-Modified: Thu, 22 Dec 2016 17:12:29 GMT
+Etag: "d7d9b-23-544425fc79940"
+Referrer-Policy: 
+X-Varnish: 624690541
+Age: 4524
+Via: 1.1 varnish (Varnish/5.0)
+Strict-Transport-Security: max-age=15768000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+Cache-Control: max-age=432000
+Cf-Cache-Status: HIT
+Accept-Ranges: bytes
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c0cfbbee8fa525d-LAX

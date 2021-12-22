@@ -1,4 +1,7 @@
-# Scrapy settings for crawler project
+"""Scrapy settings for crawler project.
+
+All relevant settings have been moved to app/api/routes/settings.json.
+"""
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,17 +10,16 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'crawler'
+# BOT_NAME = 'crawler'
 
-SPIDER_MODULES = ['spider_lair.spiders']
-NEWSPIDER_MODULE = 'spider_lair.spiders'
-
+# SPIDER_MODULES = ['spider_lair.spiders']
+# NEWSPIDER_MODULE = 'spider_lair.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'authorcgrant@gmail.com (https://creepy-crawler-1.herokuapp.com/)'
+# USER_AGENT = 'authorcgrant@gmail.com (https://creepy-crawler-1.herokuapp.com/)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+# ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -31,7 +33,7 @@ ROBOTSTXT_OBEY = True
 #CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-COOKIES_ENABLED = False
+# COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
@@ -60,6 +62,7 @@ COOKIES_ENABLED = False
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 # }
 
+
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
@@ -81,7 +84,7 @@ COOKIES_ENABLED = False
 
 # Enable and configure HTTP caching (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
-HTTPCACHE_ENABLED = True
+# HTTPCACHE_ENABLED = True
 #HTTPCACHE_EXPIRATION_SECS = 0
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []

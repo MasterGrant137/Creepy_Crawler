@@ -1,0 +1,15 @@
+Server: nginx
+Date: Mon, 20 Dec 2021 23:30:28 GMT
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Vary: Cookie
+X-Hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+Host-Header: WordPress.com
+X-Pingback: https://rhettinger.wordpress.com/xmlrpc.php
+Link: <https://wp.me/pNT3l-2a>; rel=shortlink
+Last-Modified: Mon, 20 Dec 2021 23:30:28 GMT
+Cache-Control: max-age=300, must-revalidate
+X-Nananana: Batcache
+Content-Encoding: gzip
+X-Ac: 5.bur _bur
+Strict-Transport-Security: max-age=15552000

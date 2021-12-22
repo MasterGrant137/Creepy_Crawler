@@ -1,0 +1,22 @@
+Content-Length: 114
+X-Request-Id: e8cc0cb0-f160-4df9-a08c-2a08c7961435
+X-Dns-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self'; frame-src www.youtube.com/embed/ youtube.com/embed/ youtu.be/embed/ player.vimeo.com; script-src 'self' 'nonce-36d990f1-cc2d-4f11-a877-311d7c2f46a6'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: github.com *.githubusercontent.com stats.g.doubleclick.net hcti.io; object-src 'self'; connect-src 'self' wss://lab.github.com; upgrade-insecure-requests
+X-Content-Security-Policy: default-src 'self'; frame-src www.youtube.com/embed/ youtube.com/embed/ youtu.be/embed/ player.vimeo.com; script-src 'self' 'nonce-36d990f1-cc2d-4f11-a877-311d7c2f46a6'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: github.com *.githubusercontent.com stats.g.doubleclick.net hcti.io; object-src 'self'; connect-src 'self' wss://lab.github.com; upgrade-insecure-requests
+X-Webkit-Csp: default-src 'self'; frame-src www.youtube.com/embed/ youtube.com/embed/ youtu.be/embed/ player.vimeo.com; script-src 'self' 'nonce-36d990f1-cc2d-4f11-a877-311d7c2f46a6'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: github.com *.githubusercontent.com stats.g.doubleclick.net hcti.io; object-src 'self'; connect-src 'self' wss://lab.github.com; upgrade-insecure-requests
+X-Ratelimit-Limit: 300
+X-Ratelimit-Remaining: 299
+Date: Mon, 20 Dec 2021 23:36:15 GMT
+X-Ratelimit-Reset: 1640043436
+Set-Cookie: _csrf=Y2L1C8mIlYpZ3YiN3oXPNrkv; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: connect.sid=s%3ArVpSEocE-PzJ9Yo4tJc-l-RXxBt4Nhbw.znAX3%2F9L6WmNM6P1OChVz2KnmaOt7B7sOZYLkBY5BWI; Path=/; HttpOnly; Secure; SameSite=Lax
+Content-Type: text/plain; charset=utf-8
+Etag: W/"72-PJH+dTYV3T710oItc/5SqQrnJB8"
+Vary: Accept-Encoding
+X-Github-Backend: Kubernetes
+X-Github-Request-Id: CC62:67E1:50381:20205B:61C1136E

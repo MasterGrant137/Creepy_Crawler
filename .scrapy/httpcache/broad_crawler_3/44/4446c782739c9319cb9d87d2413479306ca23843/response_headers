@@ -1,0 +1,18 @@
+Content-Type: text/html; charset=utf-8
+Payment: free
+Cache-Control: no-cache
+Via: 1.1 varnish, 1.1 varnish
+X-Esi: on
+Verso: true
+Date: Mon, 20 Dec 2021 17:35:47 GMT
+Age: 0
+X-Served-By: cache-fra19163-FRA, cache-bur17558-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640021746.668677,VS0,VE1415
+X-Ua-Device: desktop
+Set-Cookie: verso_bucket=679; Expires=Tue, 20 Dec 2022 17:35:47 GMT; path=/;
+Set-Cookie: CN_geo_country_code=US; Expires=Sat, 18 Jun 2022 17:35:47 GMT; Path=/; Domain=.wired.co.uk; Samesite=None; Secure
+Vary: accept-encoding, Accept-Encoding, X-UA-Device, Verso, Accept-Encoding
+Content-Encoding: gzip
+Accept-Ranges: none

@@ -1,0 +1,13 @@
+Cross-Origin-Resource-Policy: cross-origin
+Expires: Mon, 20 Dec 2021 19:48:31 GMT
+Date: Mon, 20 Dec 2021 18:48:31 GMT
+Cache-Control: public, max-age=3600
+Last-Modified: Thu, 16 Dec 2021 06:47:24 GMT
+Content-Type: text/plain
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-Xss-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

@@ -1,0 +1,14 @@
+Content-Length: 177291
+Content-Type: text/html; charset=utf-8
+X-Request-Id: d98c6476-7e7e-4705-95b7-9dc6b6105404
+Content-Encoding: gzip
+Access-Control-Allow-Origin: *
+X-Aicache-Os: xxx.xx.14.101:81
+X-Aicache-Os: x.xxx.155.142:80
+Cache-Control: max-age=15
+Expires: Mon, 20 Dec 2021 21:55:55 GMT
+Date: Mon, 20 Dec 2021 21:55:40 GMT
+Vary: Accept-Encoding
+Vary: User-Agent
+Set-Cookie: region=USA; expires=Sun, 20-Mar-2022 21:55:40 GMT; path=/; domain=.cnbc.com
+Content-Security-Policy: frame-ancestors 'self' *.cnbc.com *.acorns.com;

@@ -1,0 +1,15 @@
+Date: Mon, 20 Dec 2021 16:13:33 GMT
+Server: Apache
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+Access-Control-Max-Age: 1000
+Access-Control-Allow-Headers: x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+X-Frame-Options: SAMEORIGIN
+X-Via-Nscopi: 1.0
+Content-Type: text/html;charset=UTF-8
+Access-Control-Allow-Origin: *
+Set-Cookie: NSC_ESNS=0004ffd2-abae-11c0-9678-00e0ed82f44a_1136307306_3717588499_00000000017179979269; Path=/; Expires=Mon, 20-Dec-2021 16:13:48 GMT
+Set-Cookie: NSC_MC_WT_XXX=5ccba3d89da7cfbc990d7276a5761dc7782a68882397541a662ea18942f2ae80aa2a91b7;path=/;secure;httponly
+Cache-Control: no-cache
+Cache-Control: private
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Encoding: gzip

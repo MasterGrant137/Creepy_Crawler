@@ -1,0 +1,10 @@
+User-agent: *
+Sitemap: https://www.demandbase.com/sitemap_index.xml
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-admin/
+Disallow: /search/
+Disallow: /?s=
+
+#WP Import Export Rule
+User-agent: *
+Disallow: /wp-content/uploads/wp-import-export-lite/

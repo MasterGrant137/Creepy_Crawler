@@ -1,0 +1,14 @@
+Content-Length: 112
+Date: Mon, 20 Dec 2021 18:59:39 GMT
+Server: nginx/1.19.10
+Content-Type: text/plain; charset=utf-8
+Link: <https://hosseinmousavian.com/wp-json/>; rel="https://api.w.org/"
+Cache-Control: max-age=86400
+Expires: Tue, 21 Dec 2021 18:59:38 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Endurance-Cache-Level: 2
+X-Nginx-Cache: WordPress
+X-Server-Cache: true
+X-Proxy-Cache: EXPIRED
+Set-Cookie: pll_language=fa_ir; expires=Tue, 20-Dec-2022 18:59:39 GMT; Max-Age=31536000; path=/; SameSite=Lax

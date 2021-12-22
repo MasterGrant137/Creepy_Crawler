@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<style>/* @see https://github.com/aFarkas/lazysizes#broken-image-symbol */.js img.lazyload:not([src]) { visibility: hidden; }/* @see https://github.com/aFarkas/lazysizes#automatically-setting-the-sizes-attribute */.js img.lazyloaded[data-sizes=auto] { display: block; width: 100%; }</style>
+<link rel="canonical" href="https://www.ninr.nih.gov/" />
+<link rel="shortlink" href="https://www.ninr.nih.gov/" />
+<meta name="description" content="The mission of the National Institute of Nursing Research (NINR) is to promote and improve the health of individuals, families, and communities. To achieve this mission, NINR supports and conducts clinical and basic research and research training on health and illness, research that spans and integrates the behavioral and biological sciences, and that develops the scientific basis for clinical practice." />
+<meta name="keywords" content="NINR, National Institute of Nursing Research, nursing research, nursing science, nursing scientist" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org); Commerce 2" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/sites/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://www.ninr.nih.gov/home" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_config.templates.twitter = {
+    text: "National Institute of Nursing Research: ${title} ${link}",
+    hashtags: "NIH,NINR",
+    related: "AddToAny,Twitter"
+}; </script>
+<style>#content .service-btns .dropdown-menu {
+    top: 7.5px !important;
+}
+
+.service-btns {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+.page-title {
+    clear: both;
+}
+} 
+
+#main-content {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+.page-title {
+    width: calc(100% - 256px);
+}
+} </style>
+
+    <title>NINR - National Institute of Nursing Research | National Institute of Nursing Research</title>
+    <meta name="google-site-verification" content="fIwL3R3vn0tx16jEl15ga-YXR44_1iYvpCv5sMBYi38" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TZ8WRM');</script>
+    <!-- End Google Tag Manager -->
+    <link rel="stylesheet" media="all" href="/sites/files/css/css_5DocRRDTGvPjuCJJIrffzhxgbxnWp3Zrf1giODRQFWo.css" />
+<link rel="stylesheet" media="all" href="/sites/files/css/css_q88kPcuuFCUB31rYoSpNrIyncon6jLMVzfc3VEk6_6U.css" />
+
+    <script src="/core/assets/vendor/modernizr/modernizr.min.js?v=3.11.7"></script>
+<script src="/core/misc/modernizr-additional-tests.js?v=3.11.7"></script>
+
+  </head>
+  <body class="layout-no-sidebars home path-frontpage page-node-type-site-home">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZ8WRM" title="hhstagmanager" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <a href="#main-content" id="skip-nav">Skip Navigation Links</a>
+
+      <div class="region region-top-banner">
+    <div id="block-govwebsite" class="block block-block-content block-block-contentb4659c19-a0f6-4631-b5e7-9da6a9cfe56b">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="bg-light d-print-none" role="banner" aria-label="Official government website">
+<div class="container-fluid">
+<div class="usa-banner">
+<div class="usa-accordion">
+<div class="usa-banner__header">
+<div class="row align-items-baseline m-md-0">
+<div class="col-auto"><img alt="U.S. flag" class="usa-banner__header-flag mt-1 mr-3" src="/sites/files/images/us_flag_small.png" /> An official website of the United States government</div>
+
+<div class="col-auto">
+<p aria-hidden="true" class="m-0 usa-banner__header-action">Here's how you know</p>
+</div>
+<a aria-controls="gov-banner-default" aria-expanded="false" class="usa-accordion__button usa-banner__button" data-toggle="collapse" href="#gov-banner-default"><span class="usa-banner__button-text">Here's how you know</span> </a></div>
+</div>
+
+<div class="usa-banner__content usa-accordion__content collapse" id="gov-banner-default">
+<div class="row py-4">
+<div class="usa-banner__guidance col-md-6">
+<div class="usa-banner__icon"><svg height="42" viewbox="0 0 64 64" width="42" xmlns="http://www.w3.org/2000/svg">
+<title></title>
+<path d="M32 0c17.673 0 32 14.327 32 32 0 17.673-14.327 32-32 32C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0zm0 1.208C14.994 1.208 1.208 14.994 1.208 32S14.994 62.792 32 62.792 62.792 49.006 62.792 32 49.006 1.208 32 1.208zm10.59 38.858a.857.857 0 0 1 .882.822v1.642H18.886v-1.642a.857.857 0 0 1 .882-.822H42.59zM25.443 27.774v9.829h1.642v-9.83h3.273v9.83H32v-9.83h3.272v9.83h1.643v-9.83h3.272v9.83h.76a.857.857 0 0 1 .882.821v.821h-21.3v-.809a.857.857 0 0 1 .88-.82h.762v-9.842h3.272zm5.736-8.188l12.293 4.915v1.642h-1.63a.857.857 0 0 1-.882.822H21.41a.857.857 0 0 1-.882-.822h-1.642v-1.642l12.293-4.915z" fill="#2378C3" fill-rule="evenodd"></path> </svg></div>
+
+<div class="usa-media-block__body">
+<p><strong>Official websites use .gov </strong><br />
+A <strong>.gov</strong> website belongs to an official government organization in the United States.</p>
+</div>
+</div>
+
+<div class="usa-banner__guidance col-md-6">
+<div class="usa-banner__icon"><svg height="42" viewbox="0 0 64 64" width="42" xmlns="http://www.w3.org/2000/svg">
+<title></title>
+<path d="M32 0c17.673 0 32 14.327 32 32 0 17.673-14.327 32-32 32C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0zm0 1.208C14.994 1.208 1.208 14.994 1.208 32S14.994 62.792 32 62.792 62.792 49.006 62.792 32 49.006 1.208 32 1.208zm0 18.886a7.245 7.245 0 0 1 7.245 7.245v3.103h.52c.86 0 1.557.698 1.557 1.558v9.322c0 .86-.697 1.558-1.557 1.558h-15.53c-.86 0-1.557-.697-1.557-1.558V32c0-.86.697-1.558 1.557-1.558h.52V27.34A7.245 7.245 0 0 1 32 20.094zm0 3.103a4.142 4.142 0 0 0-4.142 4.142v3.103h8.284V27.34A4.142 4.142 0 0 0 32 23.197z" fill="#719F2A" fill-rule="evenodd"></path> </svg></div>
+
+<div class="usa-media-block__body">
+<p><strong>Secure .gov websites use HTTPS </strong><br />
+A <strong>lock</strong> ( <span class="icon-lock"> <svg aria-labelledby="banner-lock-title-default banner-lock-description-default" class="usa-banner__lock-image" focusable="false" height="16" role="img" viewbox="0 0 52 64" width="13" xmlns="http://www.w3.org/2000/svg">
+<title id="banner-lock-title-default"></title>
+<desc id="banner-lock-description-default">A locked padlock</desc> <path d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" fill="#000000" fill-rule="evenodd"></path> </svg> </span> ) or <strong>https://</strong> means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    </div>
+  </div>
+<div id="block-covid19topbanner" class="block block-block-content block-block-contenteec5d44a-e9cb-489d-bfcd-3a0eedac6a28">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div aria-label="COVID-19 Banner" class="ninr-banner collapse d-print-none" role="banner">
+<div class="container-fluid">
+<div class="ninr-banner-body d-flex">
+<div class="row py-2 flex-grow-1">
+<div class="col-lg-auto" id="banner-title-2"><svg class="bi bi-exclamation-circle-fill mb-1" fill="currentColor" height="18" viewbox="0 0 16 16" width="18" xmlns="http://www.w3.org/2000/svg"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path> </svg> <strong class="text-dark pl-2 pr-5">COVID-19</strong></div>
+
+<div class="col-lg-auto">
+<div class="row">
+<div class="col-md-auto ninr-banner-link"><a class="text-dark" href="https://www.cdc.gov/coronavirus/">CDC Health Info »</a></div>
+
+<div class="col-md-auto ninr-banner-link"><a class="text-dark" href="https://covid19.nih.gov/">NIH Research Info »</a><span class="mx-3">|</span><a class="text-dark" href="https://salud.nih.gov/covid-19/" title="Información y recursos sobre el COVID-19 en español de los Institutos Nacionales de la Salud">Español »</a></div>
+
+<div class="col-md-auto ninr-banner-link pr-0"><a class="text-dark" href="https://employees.nih.gov/pages/coronavirus/">NIH Staff Guidance (NIH Only) »</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style type="text/css">.ninr-banner {
+padding: .25rem .5rem;
+}
+body.path-frontpage .ninr-banner { background-color: #ffffff; }
+.ninr-banner * { color: #454545 !important; }
+.ninr-banner a:hover, .ninr-banner a:focus { text-decoration: underline; }
+.ninr-banner .ninr-banner-body { display: flex; align-items: flex-start; }
+.ninr-banner .ninr-banner-toggle {
+order: 10;
+margin: .25rem 0 0 2rem;
+padding:  2px 4px 0;
+line-height: 1;
+font-style: normal;
+font-size: 22px; }
+.ninr-banner-link {
+  padding-left: 37px;
+  padding-right: 23px;
+}
+</style>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+
+<div id="header">
+    <div class="branding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col logo text-left">
+                <h1><a href="/"><img src="/sites/www.ninr.nih.gov/themes/ninr/images/ninr-logo-white.png" alt="National Institute of Nursing Research"></a>
+                </h1>
+            </div>
+            <div class="col-sm-auto search-wrapper search-collapse text-right collapse collapse-mobile"
+                data-parent="#header">
+                                      <div class="clearfix region region-header">
+    <form id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+  <input type="hidden" name="affiliate" id="affiliate" value="ninr-search" />
+  <input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete" placeholder="Search" aria-label="Enter Search Terms" />
+  <input type="submit" name="commit" value="Search" id="search-submit" />
+</form>
+
+  </div>
+
+                                            </div>
+            <div class="col col-sm-auto social-media">
+            <a href="http://www.youtube.com/user/NINRnews?sub_confirmation=1" title="YouTube">
+                    <img src="/sites/www.ninr.nih.gov/themes/ninr/images/svg/youtube.svg" alt="YouTube">
+                    <span class="sr-only">YouTube</span>
+            </a><a href="https://twitter.com/NINR" title="Twitter">
+                    <img src="/sites/www.ninr.nih.gov/themes/ninr/images/svg/twitter.svg" alt="Twitter">
+                    <span class="sr-only">Twitter</span>
+            </a><a href="http://www.linkedin.com/company/ninr" title="LinkedIn">
+                    <img src="/sites/www.ninr.nih.gov/themes/ninr/images/svg/linkedin.svg" alt="LinkedIn">
+                    <span class="sr-only">LinkedIn</span>
+            </a><a href="/newsandinformation/newsandnotes/subscribe" title="Email">
+                    <img src="/sites/www.ninr.nih.gov/themes/ninr/images/svg/email.svg" alt="Email">
+                    <span class="sr-only">Email Subscription</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="utility-navigation">
+    <div class="container-fluid">
+            </div>
+</div>
+<div class="main-navigation">
+    <div class="container-fluid">
+                  <div class="region region-primary-menu">
+    <div id="block-mainnavigation" class="block block-stmp-site-structure block-main-navigation">
+  
+    
+      <div class="content">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+    <button class="navbar-toggler" type="button" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <button class="search-toggler" type="button" data-toggle="collapse" data-target=".search-collapse" aria-controls="search-collapse"
+            aria-expanded="false" aria-label="Toggle Search">
+        <span class="search-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse" id="navbarSupportedContent">
+
+                                                <ul class="navbar-nav nav nav-fill">
+                    
+                                                                        
+                                                                                                                                                                                                                                        
+                                                                                                                                <li class="nav-item mobile-only">
+                            <a class="nav-link" href="/home">Home</a>
+                            
+                        </li>
+                    
+                                                                        
+                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                <li class="nav-item ">
+                            <a class="nav-link" href="#">Research &amp; Funding</a>
+                                                            <div class='mega-menu'>
+                                    <div class='mega-menu-item'>
+
+                                    <ul class='mega-menu-list'>
+                                        
+                                                                                                                                    
+                                                                                            <li><a href="/researchandfunding/desp">Research Supported by NINR (Extramural Division)</a></li>
+
+                                        
+
+                                                                                            <li><a href="/researchandfunding/dir">Research Conducted at NINR (Intramural Division)</a></li>
+
+                                        
+
+                                                                                            <li><a href="/researchandfunding/funded-grants-and-resources">Funded Grants and Resources</a></li>
+
+                                        
+
+                                                                                            <li><a href="/researchandfunding/fundingopportunities">Funding Opportunities</a></li>
+
+                                        
+
+                                                                                            <li><a href="/researchandfunding/sbir-sttr">Small Business Funding</a></li>
+
+                                        
+
+                                                                                            <li><a href="/researchandfunding/researchhighlights">Research Highlights</a></li>
+
+                                        
+
+                                                                                            <li><a href="/researchandfunding/spotlights-on-nursing-research/painspotlight">Spotlights on Nursing Research</a></li>
+
+                                        
+
+                                                                                            <li><a href="/researchandfunding/onsen">Omics Nursing Science &amp; Education Network (ONSEN)</a></li>
+
+                                        
+
+                                                                                                                        </ul>
+                                </div>
+
+                                                                    <div class="mega-menu-item bg-highlight bg-hover-blue">
+<div class="mt-0 mega-menu-item__title text-blue">SPOTLIGHTS ON NURSING RESEARCH</div>
+
+<ul>
+	<li><a href="/researchandfunding/ninr-spotlights/spotlight-on-end-of-life-research">End-of-Life and Palliative Care Research</a></li>
+	<li><a href="/researchandfunding/spotlights-on-nursing-research/symptomscience">Symptom Science and Nursing&nbsp;Research</a></li>
+	<li><a href="/researchandfunding/ninr-spotlights/datascience">Advancing Nursing Research Through Data Science</a></li>
+	<li><a href="/researchandfunding/spotlights-on-nursing-research/womens-health-and-nursing-science">Women's Health and Nursing Science</a></li>
+</ul>
+</div>
+<style type="text/css">
+</style>
+
+                                                                    <div class="mega-menu-item bg-highlight-yellow bg-hover-yellow">
+<div class="mt-0 mega-menu-item__title  text-primary">QUICK LINKS</div>
+
+<ul>
+	<li><a href="/researchandfunding/desp/oep/areasofscience">Areas of Science and Program Contacts</a></li>
+	<li><a href="/site-structure/faq">NINR FAQ</a></li>
+	<li><a href="https://projectreporter.nih.gov/reporter.cfm">NIH RePORT</a></li>
+	<li><a href="/aboutninr/ninr-mission-and-strategic-plan">Strategic Plan</a></li>
+</ul>
+</div>
+<style type="text/css">.no-exit-notification {color: inherit;}
+</style>
+
+                                
+                                </div>
+                            
+                        </li>
+                    
+                                                                        
+                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                <li class="nav-item ">
+                            <a class="nav-link" href="#">Training</a>
+                                                            <div class='mega-menu'>
+                                    <div class='mega-menu-item'>
+
+                                    <ul class='mega-menu-list'>
+                                        
+                                                                                                                                    
+                                                                                            <li><a href="">Training at NINR</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/training/trainingopportunitiesintramural">Overview of NINR Training at NIH Campus</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/training/graduate-partnerships-program">NINR&#039;s Graduate Partnerships Program</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/training/summergeneticsinstitute">Summer Genetics Institute (SGI)</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/training/bootcamp-2">NINR Methodologies Boot Camp</a></li>
+
+                                                                                                                        </ul>
+                                </div>
+                                <div class='mega-menu-item'>
+                                    <ul class='mega-menu-list'>
+                                                                                    
+
+                                                                                            <li><a href="">Training Grants and Other Resources</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/training/training-grants">Training Grants Supported by NINR</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/training/nih-training">NIH Training Opportunities and Resources</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="">hidden</a></li>
+
+                                                                                                                            
+
+                                                                                                                        </ul>
+                                </div>
+
+                                                                    <div class="mega-menu-item bg-highlight-yellow bg-hover-yellow">
+<div class="mt-0 mega-menu-item__title  text-primary">QUICK LINKS</div>
+
+<ul>
+	<li><a href="/researchandfunding/dea/desp/oep/fundingopportunities">Funding Opportunities</a></li>
+	<li><a href="/researchandfunding/desp/oep/mechtable">Grant Programs Supported By NINR</a></li>
+</ul>
+</div>
+
+                                
+                                </div>
+                            
+                        </li>
+                    
+                                                                        
+                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                <li class="nav-item ">
+                            <a class="nav-link" href="#">News &amp; Information</a>
+                                                            <div class='mega-menu'>
+                                    <div class='mega-menu-item'>
+
+                                    <ul class='mega-menu-list'>
+                                        
+                                                                                                                                    
+                                                                                            <li><a href="">Information Resources </a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/newsandnotes">Latest News</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/events">Events </a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/publications">Publications</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/stories-of-discovery">Stories of Discovery</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/milestones-in-ninr-history">Milestones in NINR History</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/roundtable">National Nursing Research Roundtable</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/external-resources">External Resources</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="">hidden</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="">hidden</a></li>
+
+                                                                                                                        </ul>
+                                </div>
+                                <div class='mega-menu-item'>
+                                    <ul class='mega-menu-list'>
+                                                                                    
+
+                                                                                            <li><a href="">Media Resources</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/pressreleases">Press Releases</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/press">For the Press</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="">Social and Digital Media</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/multimedia">Video &amp; Multimedia</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/socialmedia">Social Media</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="">Health Information</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/what-is-palliative-care">What is Palliative Care?</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/newsandinformation/conversationsmatter/palliative-care-for-children">Palliative Care for Children</a></li>
+
+                                                                                                                            
+
+                                                                                            <li><a href="/end-of-life">End-of-Life Caregiving</a></li>
+
+                                                                                                                            
+
+                                                                                                                        </ul>
+                                </div>
+
+                                                                    <div class="mega-menu-item bg-highlight-yellow bg-hover-yellow">
+<div class="mt-0 mega-menu-item__title text-primary">QUICK LINKS</div>
+
+<ul>
+	<li><a href="/newsandinformation/events/directors-lecture">Director's Lecture Series</a></li>
+	<li><a href="/training/trainingopportunitiesintramural/bootcamp">NINR Methodologies Boot Camp</a></li>
+	<!--<li><a href="/newsandinformation/publications/palliative-care-brochure">What is Palliative Care?</a></li>-->
+	<li><a href="/researchandfunding/ninr-spotlights">Spotlights on Nursing Research</a></li>
+	<li><a class="no-exit-notification" href="https://www.ninr.nih.gov/onsen">Omics Nursing Science &amp; Education Network (ONSEN)</a></li>
+	<li><a class="no-exit-notification" href="/newsandinformation/year-of-nurse">Year of the Nurse and the Midwife</a></li>
+	<li><a href="https://www.ninr.nih.gov/newsandinformation/newsandnotes/subscribe">Subscribe to Receive the Latest Updates from NINR</a></li>
+</ul>
+</div>
+
+                                
+                                </div>
+                            
+                        </li>
+                    
+                                                                        
+                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                <li class="nav-item ">
+                            <a class="nav-link" href="#">About NINR</a>
+                                                            <div class='mega-menu'>
+                                    <div class='mega-menu-item'>
+
+                                    <ul class='mega-menu-list'>
+                                        
+                                                                                                                                    
+                                                                                            <li><a href="/aboutninr/directors-office">Office of the Director</a></li>
+
+                                        
+
+                                                                                            <li><a href="/aboutninr/directors-message">Director&#039;s Message</a></li>
+
+                                        
+
+                                                                                            <li><a href="/aboutninr/ninr-mission-and-strategic-plan">Mission &amp; Strategic Plan</a></li>
+
+                                        
+
+                                                                                            <li><a href="/aboutninr/budgetandlegislation">Budget &amp; Legislation</a></li>
+
+                                        
+
+                                                                                            <li><a href="/aboutninr/nacnr">National Advisory Council for Nursing Research</a></li>
+
+                                        
+
+                                                                                            <li><a href="/aboutninr/history">History</a></li>
+
+                                        
+
+                                                                                            <li><a href="/aboutninr/organizationinformation">Organizational Information</a></li>
+
+                                        
+
+                                                                                            <li><a href="/aboutninr/contactus">Contact Us</a></li>
+
+                                        
+
+                                                                                                                        </ul>
+                                </div>
+
+                                                                    <div class="mega-menu-item bg-highlight-yellow bg-hover-yellow" style="flex: 0 0 calc(33.33333% - 32px)">
+<div class="mt-0 mega-menu-item__title text-primary">QUICK LINKS</div>
+
+<ul>
+	<li><a href="/site-structure/faq">NINR FAQ</a></li>
+	<li><a href="/aboutninr/organizationinformation/ninrjobopportunities">NINR Job Opportunities</a></li>
+	<li><a href="/milestones-in-ninr-history">Milestones in NINR History</a></li>
+	<li><a href="/researchandfunding/desp/oep/areasofscience">Areas of Science and Program Contacts</a></li>
+	<li><a href="/aboutninr/organizationinformation/staffdirectory">Staff Directory</a></li>
+</ul>
+</div>
+<style type="text/css">@media (min-width: 992px) { .nav-item:nth-child(5) .mega-menu-list { columns: 2;} }
+.navbar-nav > li .mega-menu .mega-menu-item .mega-menu-item__title {
+    font-size: 1.125em;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media (max-width: 991px) {
+.navbar-dark .mega-menu .mega-menu-item__title {
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+} 
+}
+</style>
+
+                                                                    <style type="text/css">.path-cart .search-wrapper form > input#query {
+    float: none;
+    margin-top: 0;
+    margin-right: -32px !important;
+}
+form[action="/cart"] .invalid-tooltip, #content .commerce-order-item-add-to-cart-form .invalid-tooltip {
+    max-width: 100%;
+}
+</style>
+
+                                
+                                </div>
+                            
+                        </li>
+                                    </ul>
+                    
+            </div>
+</nav>
+    </div>
+  </div>
+
+  </div>
+
+    </div>
+</div>
+</div>
+
+<div id="content">
+      <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-ninr-stmp-theme-system-main" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+<article data-history-node-id="1" role="article" about="/home" class="node node--type-site-home node--view-mode-full clearfix">
+    <div class="content-header">
+            </div>
+    <div class="node__content clearfix" id="main-content">
+                                <div class="highlighted-quote" style="background-image: url('/sites/files/images/header-bg-light.jpg');">
+                <div class="container-fluid">
+                    <div class="highlighted-quote--body">
+            <div class="clearfix text-formatted field field--name-field-hero-text field--type-text-long field--label-hidden field__item"><div class="featured-quote oversized-quote"><em><strong>It's critical that we draw on nursing's holistic perspective to improve public health and advance health equity by identifying nursing practice and policy solutions across clinical and community settings that are responsive to the realities of people's lives. </strong> </em></div>
+
+<div class="oversized-quote-author pr-md-5 mr-md-3"><em><strong>— Dr. Shannon Zenk, NINR Director</strong></em></div>
+</div>
+      </div>
+                </div>
+            </div>
+                <div class="fold fold-featured-boxes">
+    <div class="container-fluid content-header">
+                <div class="row card-deck card-banner-deck banner-boxes">
+                                                                        <a class="card banner-box" href="https://www.ninr.nih.gov/aboutninr/ninr-mission-and-strategic-plan">
+    
+            <div class="field field--name-field-portal-featured-box-image field--type-image field--label-hidden field__item">  <img src="/sites/files/styles/large/public/images/StrategicPlanBox.jpg?itok=nJibEUnR" width="480" height="480" alt="Strategic Plan" loading="lazy" typeof="foaf:Image" class="image-style-large" />
+
+
+</div>
+      
+    <div class="banner-box-text">
+        
+            <div class="field field--name-field-portal-featured-box-title field--type-string field--label-hidden field__item">NINR Strategic Plan (2022–2026) – Under Development</div>
+      
+    </div>
+</a>
+
+                                            <a class="card banner-box" href="/aboutninr/organizationinformation/ninrjobopportunities">
+    
+            <div class="field field--name-field-portal-featured-box-image field--type-image field--label-hidden field__item">  <img src="/sites/files/styles/large/public/images/Hiring.jpg?itok=LyUN7C0-" width="480" height="480" alt="Hiring" loading="lazy" typeof="foaf:Image" class="image-style-large" />
+
+
+</div>
+      
+    <div class="banner-box-text">
+        
+            <div class="field field--name-field-portal-featured-box-title field--type-string field--label-hidden field__item">NINR is Hiring for Key Leadership Positions</div>
+      
+    </div>
+</a>
+
+                                            <a class="card banner-box" href="https://www.ninr.nih.gov/aboutninr/directors-message">
+    
+            <div class="field field--name-field-portal-featured-box-image field--type-image field--label-hidden field__item">  <img src="/sites/files/styles/large/public/2021-09/ZenkPurple.jpg?itok=XPrikeXL" width="480" height="480" alt="Dr. Shannon Zenk" loading="lazy" typeof="foaf:Image" class="image-style-large" />
+
+
+</div>
+      
+    <div class="banner-box-text">
+        
+            <div class="field field--name-field-portal-featured-box-title field--type-string field--label-hidden field__item">Director’s Message | Looking Back at My First Year</div>
+      
+    </div>
+</a>
+
+                                            <a class="card banner-box" href="https://www.ninr.nih.gov/all-stories-of-discovery#9187">
+    
+            <div class="field field--name-field-portal-featured-box-image field--type-image field--label-hidden field__item">  <img src="/sites/files/styles/large/public/2021-10/Accessibility.jpg?itok=kWn6zW-y" width="480" height="480" alt="Photo of man in wheelchair cooking" loading="lazy" typeof="foaf:Image" class="image-style-large" />
+
+
+</div>
+      
+    <div class="banner-box-text">
+        
+            <div class="field field--name-field-portal-featured-box-title field--type-string field--label-hidden field__item">Leveraging Strengths to Achieve Health Equity for Older Adults</div>
+      
+    </div>
+</a>
+
+                                                        </div>
+        <div class="row banner-boxes-footer text-right mb-3">
+            <div class="col-12">
+                <a href="/newsandinformation/newsandnotes" class="btn btn-gray">View Latest News</a>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="text-hide"><meta content="qCbNSdYheghZm7RN1pmyddItlCaP6uPSKUbXrL_T7aQ" name="google-site-verification" /></div>
+</div>
+      
+      <div class="field field--name-field-folds field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">        
+    
+<div class="fold fold-featured">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-lg-8">
+                                    <h2>The NIH UNITE Initiative</h2>
+                                <div class="media mt-0">
+                    <div class="media-image">
+                                                    
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">  <img width="1157" height="473" alt="UNITE Initiatve" loading="lazy" class="lazyload" data-src="/sites/files/images/unite-sunburst-header-v2.jpg" typeof="foaf:Image" />
+
+</div>
+      
+                                            </div>
+                    <div class="media-body">
+                                                                                                    
+            <div class="clearfix text-formatted field field--name-field-detail-description field--type-text-with-summary field--label-hidden field__item"><p class="mt-0">The UNITE initiative was established to identify and address structural racism within the NIH-supported and the greater scientific community. With representation from across the NIH Institutes and Centers, UNITE aims to establish an equitable and civil culture within the biomedical research enterprise and reduce barriers to racial equity in the biomedical research workforce.</p>
+<style type="text/css">.fold-featured .media .media-image { width: 19.5rem; }
+</style>
+</div>
+      
+                        
+                                                    <p class="mt-3">
+                                
+                                <a class='btn btn-primary' href='https://www.nih.gov/ending-structural-racism'>Read More</a>
+                            </p>
+                                            </div>
+                </div>
+            </div>
+                            <div class="col-lg-4">
+                    
+            <div class="field field--name-field-custom-block field--type-entity-reference field--label-hidden field__item">
+<article data-history-node-id="6767" role="article" about="/newsandinformation/newsandnotes/highlighted-content/newsletter-subscription" class="node node--type-highlighted-content node--promoted node--view-mode-teaser clearfix">
+    <div class="content-header">
+            </div>
+    <div class="node__content clearfix">
+        
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="card">
+<div class="card-body">
+<h3 class="card-title"><img alt="Email icon" src="/sites/files/images/icon-purple-mail.png" />Get NINR Email Updates</h3>
+
+<form accept-charset="UTF-8" action="https://public.govdelivery.com/accounts/USNIHNINR/subscribers/qualify" id="GD-snippet-form" method="post"><input name="utf8" type="hidden" value="✓" /> <input name="authenticity_token" type="hidden" value="Px1Eg4/p7EsA+SGMjblF2ycWI1xTlvNCJ93wi4YTHRfXVtH1Fq5i/1Jtv59ZGX5wg2REzfVsiFTMAFKNMPMF8A==" />
+<p>To receive updates from NINR directly to your inbox, please enter your contact information below.</p>
+<input aria-label="Enter Email Address" class="form-control long mb-4" id="email" name="email" placeholder="Email Address" type="text" value="" /> <input class="form_submit btn btn-primary" name="commit" type="submit" value="Subscribe" />&nbsp;</form>
+</div>
+</div>
+</div>
+      
+    </div>
+</article>
+</div>
+      
+                </div>
+                    </div>
+    </div>
+</div>
+
+
+
+</div>
+          </div>
+  <div class="fold bg-highlight">
+    <div class="container-fluid">
+        <h2>FEATURED RESOURCES</h2>
+        <div class="card-deck card-icon-deck">
+                                                                        <a href="/aboutninr/ninr-mission-and-strategic-plan" class="card">
+    <div class="card-icon-top">
+        
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">  <img width="124" height="133" alt="icon" loading="lazy" class="lazyload" data-src="/sites/files/images/icon-purple-plan.png" typeof="foaf:Image" />
+
+</div>
+      
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Developing NINR&#039;s Strategic Plan</div>
+      </h4>
+        <p class="card-text">
+            <div class="clearfix text-formatted field field--name-field-detail-description field--type-text-with-summary field--label-hidden field__item"><p>NINR is in the process of developing a new plan to guide the future of nursing science. </p></div>
+      </p>
+    </div>
+</a>
+                                            <a href="/newsandinformation/events/directors-lecture" class="card">
+    <div class="card-icon-top">
+        
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">  <img width="141" height="132" alt="icon" loading="lazy" class="lazyload" data-src="/sites/files/images/icon-purple-speaker.png" typeof="foaf:Image" />
+
+</div>
+      
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">NINR Director’s Lecture Series</div>
+      </h4>
+        <p class="card-text">
+            <div class="clearfix text-formatted field field--name-field-detail-description field--type-text-with-summary field--label-hidden field__item"><p>A lecture series bringing the nation’s top nurse scientists to the NIH campus to share their work and interests with a transdisciplinary audience.</p></div>
+      </p>
+    </div>
+</a>
+                                            <a href="https://www.ninr.nih.gov/researchandfunding/desp/oep/mechtable" class="card">
+    <div class="card-icon-top">
+        
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">  <img width="159" height="124" alt="icon" loading="lazy" class="lazyload" data-src="/sites/files/images/icon-purple-innovation.png" typeof="foaf:Image" />
+
+</div>
+      
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Grant Programs Supported By NINR</div>
+      </h4>
+        <p class="card-text">
+            <div class="clearfix text-formatted field field--name-field-detail-description field--type-text-with-summary field--label-hidden field__item"><p>NINR offers grants to individuals at all points in their career, from early investigators to established scientists. NINR grants also support small businesses and research centers.</p></div>
+      </p>
+    </div>
+</a>
+                                            <a href="/stories-of-discovery" class="card">
+    <div class="card-icon-top">
+        
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">  <img width="124" height="130" alt="icon" loading="lazy" class="lazyload" data-src="/sites/files/images/icon-purple-search.png" typeof="foaf:Image" />
+
+</div>
+      
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Stories of Discovery</div>
+      </h4>
+        <p class="card-text">
+            <div class="clearfix text-formatted field field--name-field-detail-description field--type-text-with-summary field--label-hidden field__item"><p>Learn how nursing research is paving the way to improve patient outcomes.</p></div>
+      </p>
+    </div>
+</a>
+                                            <a href="/researchandfunding/researchhighlights" class="card">
+    <div class="card-icon-top">
+        
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">  <img width="124" height="152" alt="icon" loading="lazy" class="lazyload" data-src="/sites/files/images/icon-purple-research-highlights.png" typeof="foaf:Image" />
+
+</div>
+      
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Research Highlights</div>
+      </h4>
+        <p class="card-text">
+            <div class="clearfix text-formatted field field--name-field-detail-description field--type-text-with-summary field--label-hidden field__item"><p>Highlights of recent research accomplishments from the community of NINR-supported scientists across the U.S.</p></div>
+      </p>
+    </div>
+</a>
+                                            <a href="/newsandinformation/conversationsmatter" class="card">
+    <div class="card-icon-top">
+        
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item">  <img width="124" height="136" alt="icon" loading="lazy" class="lazyload" data-src="/sites/files/images/icon-purple-care.png" typeof="foaf:Image" />
+
+</div>
+      
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Palliative Care: Conversations Matter™</div>
+      </h4>
+        <p class="card-text">
+            <div class="clearfix text-formatted field field--name-field-detail-description field--type-text-with-summary field--label-hidden field__item"><p>A campaign to increase the use of palliative care for children and teens living with serious illnesses.</p>
+</div>
+      </p>
+    </div>
+</a>
+                                                        </div>
+    </div>
+</div>
+    </div>
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+</div>
+
+<div class="footer" role="navigation">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="readers"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 social-media">
+            <h3>Follow Us</h3>
+            <p>
+                <a href="http://www.youtube.com/user/NINRnews?sub_confirmation=1" title="YouTube"><img src="/sites/www.ninr.nih.gov/themes/ninr/images/svg/youtube.svg" alt="YouTube"><span class="sr-only">YouTube</span></a>
+                <a href="https://twitter.com/NINR" title="Twitter"><img src="/sites/www.ninr.nih.gov/themes/ninr/images/svg/twitter.svg" alt="Twitter"><span class="sr-only">Twitter</span></a>
+                <a href="http://www.linkedin.com/company/ninr" title="LinkedIn"><img src="/sites/www.ninr.nih.gov/themes/ninr/images/svg/linkedin.svg" alt="LinkedIn"><span class="sr-only">LinkedIn</span></a>
+                <a href="https://www.ninr.nih.gov/newsandinformation/newsandnotes/subscribe" title="Email Subscription"><img src="/sites/www.ninr.nih.gov/themes/ninr/images/svg/email.svg" alt="Email"><span class="sr-only">Email Subscription</span></a>
+            </p>
+        </div>
+        <div class="col-sm-auto">
+            <h3>Helpful Links</h3>
+            <div class="row">
+                                      <div class="region region-footer-second">
+        <div class="block block-search">
+                        <div class="col-sm-auto">
+            <ul>
+                                    <li>
+                        <a href="/footer/accessibility">Accessibility</a>
+                    </li>
+                                    <li>
+                        <a href="/footer/policies">Policies</a>
+                    </li>
+                                    <li>
+                        <a href="/footer/foiainformation">FOIA Information</a>
+                    </li>
+                                    <li>
+                        <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">Vulnerability Disclosure</a>
+                    </li>
+                                    <li>
+                        <a href="/aboutninr/contactus" data-drupal-link-system-path="node/74">Contact Us</a>
+                    </li>
+                            </ul>
+        </div>
+    
+
+
+    </div>
+  <div class="block block-search">
+                    <div class="col-sm-auto">
+            <ul>
+                                    <li>
+                        <a href="https://www.nih.gov/">National Institutes of Health</a>
+                    </li>
+                                    <li>
+                        <a href="https://www.hhs.gov/">U.S. Department of Health &amp; Human Services</a>
+                    </li>
+                                    <li>
+                        <a href="https://www.usa.gov">USA.gov</a>
+                    </li>
+                            </ul>
+        </div>
+    
+
+
+  </div>
+
+  </div>
+
+                            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <p class="footer-tagline">NIH... Turning Discovery into Health®</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<a id="back-to-top" class="hidden-print"><img src="/sites/www.ninr.nih.gov/themes/ninr/images/svg/arrow-up.svg" alt="Arrow Up">
+    <span id="back-to-top-tip">Back to Top</span>
+</a>
+
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/1","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":[]},"placeholderSrc":"","preferNative":false,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"user":{"uid":0,"permissionsHash":"6a7263fb40f40c1f1d72f572519ba01e0568bbcecf257f33f9197897298d1ff8"}}</script>
+<script src="/sites/files/js/js_tNzC7ZZROm6ffJzc27dR5xejz1PS5Ki-Xvrm41orSk4.js"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/files/js/js_OwhYIPFYM1GEzSlJgJhyAr_vxvUGKlpbM4DAT4Spfko.js"></script>
+<script src="//content.govdelivery.com/overlay/js/4325.js"></script>
+<script src="/sites/files/js/js_5IlLHkbIDUINGv1lAWy1dRyiVGEtkU_9ZS8ifZpSby8.js"></script>
+
+  </body>
+</html>

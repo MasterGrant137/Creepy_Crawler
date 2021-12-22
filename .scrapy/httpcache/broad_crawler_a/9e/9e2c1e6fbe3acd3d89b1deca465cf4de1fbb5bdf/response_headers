@@ -1,0 +1,15 @@
+Content-Length: 0
+Server: nginx
+Content-Type: text/html; charset=utf-8
+Location: https://www.python.org/dev/peps/pep-0378/
+X-Frame-Options: DENY
+Via: 1.1 vegur, 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Mon, 20 Dec 2021 23:30:24 GMT
+Age: 0
+X-Served-By: cache-iad-kiad7000133-IAD, cache-bur17534-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640043025.609712,VS0,VE107
+Vary: Cookie
+Strict-Transport-Security: max-age=63072000; includeSubDomains

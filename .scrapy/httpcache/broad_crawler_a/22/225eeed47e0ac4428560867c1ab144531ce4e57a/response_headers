@@ -1,0 +1,10 @@
+Date: Mon, 20 Dec 2021 23:30:27 GMT
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://nbviewer.org/url/norvig.com/ipython/Probability.ipynb
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iS%2FsniTI9xLNTFhnEHjD%2FSUPkPsGLV7ccvueJy2a5pnWRoJFmu3x3At5SDooILzZmerov%2FIQFlpuKTrYC%2F3hgD7N%2BnQ%2F6MKf8L8b6jQ2tDxvDsGSpmoCbe7KhRaM4B5kz5DWTtCWXw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c0ca89aae3f7c67-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

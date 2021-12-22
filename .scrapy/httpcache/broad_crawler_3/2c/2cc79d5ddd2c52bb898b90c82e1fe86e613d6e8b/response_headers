@@ -1,0 +1,21 @@
+Age: 141996
+Date: Mon, 20 Dec 2021 17:38:55 GMT
+Vary: Cookie,X-Twitter-Internal,X-Twitter-IP-Tags
+Server: tsa_a
+Expires: Mon, 20 Dec 2021 17:38:55 GMT
+Set-Cookie: guest_id_marketing=v1%3A164002193506675612; Max-Age=63072000; Expires=Wed, 20 Dec 2023 17:38:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A164002193506675612; Max-Age=63072000; Expires=Wed, 20 Dec 2023 17:38:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_TTp3ajXwuHENGGNBCvWpTg=="; Max-Age=63072000; Expires=Wed, 20 Dec 2023 17:38:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A164002193506675612; Max-Age=63072000; Expires=Wed, 20 Dec 2023 17:38:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: ct0=08f4e4a1e4c23461285cc5df3a903698; Max-Age=21600; Expires=Mon, 20 Dec 2021 23:38:55 GMT; Path=/; Domain=.twitter.com; Secure
+Set-Cookie: cms-csp-nonce=97e8ff231f8346c3601449b3fe27353; Max-Age=15; Expires=Mon, 20 Dec 2021 17:39:10 GMT; Path=/; Secure
+Content-Type: text/html
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip
+X-Xss-Protection: 0
+Content-Security-Policy: default-src 'self' ; connect-src 'self' https://*.twitter.com https://www.google-analytics.com https://s1259914507.t.eloqua.com https://*.tt.omtrdc.net; font-src 'self' https://*.twimg.com https://*.twitter.com https://cdn.cms-twdigitalassets.com data:; frame-src 'self' https://twitter.com https://*.twitter.com https://vine.co https://platform.vine.co https://www.youtube.com; img-src 'self' https://*.twimg.com https://*.twitter.com https://twitter.com https://www.google-analytics.com https://cdn.cms-twdigitalassets.com https://t.co https://s1259914507.t.eloqua.com https://linkedin.com https://www.linkedin.com https://*.ads.linkedin.com https://*.g.doubleclick.net https://ad.doubleclick.net https://adservice.google.com https://www.google.com/pagead/1p-user-list/861529740/ https://p.adsymptotic.com/d/px data:; media-src 'self' https://*.twimg.com https://*.twitter.com https://cdn.cms-twdigitalassets.com; object-src 'self' ; script-src 'self' 'sha256-ppW1Vv+qSVcs+/pIj1ZXvMiCLoyHyCdRqtDMeK9fQ9w=' 'sha256-4vjRgvPWP4vJR8o44Hly4wuWPbcPosEtObsy+q163L0=' https://cdn.syndication.twimg.com https://*.twitter.com https://static.ads-twitter.com 'nonce-97e8ff231f8346c3601449b3fe27353'; style-src 'self' 'unsafe-inline' https://*.twimg.com https://*.twitter.com https://cdn.cms-twdigitalassets.com; report-uri https://twitter.com/i/csp_report; frame-ancestors 'self'
+Strict-Transport-Security: max-age=631138519
+X-Response-Time: 7
+X-Connection-Hash: 051f12a01a4cb8131fd2b07548cbd6696452130dc84aa3376b743c3bf8f487ed

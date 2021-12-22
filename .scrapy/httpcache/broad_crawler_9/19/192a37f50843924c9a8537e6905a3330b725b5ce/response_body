@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /*/search
+Disallow: /*/not-found
+Disallow: /*/partners?*
+Disallow: /*/customers?*
+Disallow: /*/events?*
+Disallow: /*/company/careers/open-positions/*
+Disallow: /preview/*
+Sitemap: https://www.brightcove.com/sitemap.xml
+Host: https://www.brightcove.com

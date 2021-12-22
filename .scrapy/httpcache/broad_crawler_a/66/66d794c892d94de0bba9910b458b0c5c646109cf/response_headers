@@ -1,0 +1,12 @@
+Content-Length: 277
+Date: Mon, 20 Dec 2021 23:33:20 GMT
+Content-Type: text/text; charset=utf-8
+Server: nginx
+X-Frame-Options: DENY
+Etag: W/"115-iWITbYSb9HUJa0F77hoYjQcflVQ"
+Set-Cookie: g_session=s%3AMUJJl3WSPJ4Tg8EROpa4jEWPqAzrgR_u.rVGoWNBimyfcWSqAweBamBSwkr6lbyyplPqkt%2Bi0kLY; Domain=.gitter.im; Path=/; Expires=Tue, 21 Dec 2021 03:33:20 GMT; HttpOnly; Secure; SameSite=None
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+X-Upstream: 127.0.0.1:5022
+X-Server-Id: webapp-01
