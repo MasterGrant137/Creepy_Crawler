@@ -1,0 +1,12 @@
+Content-Length: 0
+Date: Thu, 23 Dec 2021 20:09:13 GMT
+Location: https://blog.chesapeakeregional.com/
+Cache-Control: s-maxage=3600,max-age=120
+Strict-Transport-Security: max-age=31536000
+X-Hs-Https-Only: worker
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9QOI1yT5oOLhaZXYw8yVujv34NOZDRFH4iFqVUKWekr5kpiiJyx9cGPFE52m6VAsPYQGkR8j%2B2eit8gd0hEViQvhEhJLKKfEexQcmWz5CpOBmSnVUv3PfM%2BtfVLukXjp%2Bpab8tteV%2Bg4tnfzcQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Set-Cookie: __cfruid=1f59daff648e74e985ee601684f91dc6b59d08cc-1640290153; path=/; domain=.blog.chesapeakeregional.com; HttpOnly
+Server: cloudflare
+Cf-Ray: 6c2439f5ea627cb9-LAX

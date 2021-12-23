@@ -1,0 +1,14 @@
+Date: Thu, 23 Dec 2021 20:09:14 GMT
+Cache-Control: max-age=3600
+Expires: Thu, 23 Dec 2021 21:09:14 GMT
+Location: https://www.canva.com/
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: __cf_bm=7KkEa.PCNYwf.vPRb1RH7ct3mCPY.QjFhm5JK1HE.CU-1640290154-0-AZc638EdAT2pM/V+ZnMLAkyofUXPDI1At/ZBdmgh3OnGP6Q1iYDOR+V3i/YdymMDK5SQqknvf5KHWScPsqm+bag=; path=/; expires=Thu, 23-Dec-21 20:39:14 GMT; domain=.canva.com; HttpOnly; Secure; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4zcHCc4gDvF2j5oAWqAimvQCbK4nuFz3iGArBxCbyxWSb1lm6uzUcojY79MOqEwVRvF7Toxv4aGHncLOu5ApPwerQS6CZi2IqGvsXc%2BCQU7GVHeRj43bI5Up%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+Cf-Ray: 6c2439fb5b367b51-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

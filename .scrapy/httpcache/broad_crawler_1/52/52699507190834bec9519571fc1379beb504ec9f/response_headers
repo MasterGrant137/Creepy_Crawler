@@ -1,0 +1,10 @@
+Content-Length: 0
+Server: AkamaiGHost
+Location: https://www.ibm.com/us-en/?ar=1
+Date: Thu, 23 Dec 2021 19:46:24 GMT
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=31536000
+Set-Cookie: _abck=55BE6868D5C8A5EC56C0260A2B508F27~-1~YAAQJ608F4aU/cx9AQAAXpLU6AdygJlvfUOtIvXNSaLcK3f5cYNyr22W+XeMslPcvaV1lF+zO5a0dmm4wQEP6tpuCGi3pS7ND3NbwD/qUZrccR1xCJdISrqoWBfS2X1Fv01HncQujOOW2tPccwJXBj57yVnwgQWhshdUt4VqK9qL3zuJPxNlJEGy+2fncA8G/Vu0I39y7gZe5Yz27ABk9QFZRucRQn6pN7wCNMo4l8EyDNcLFaTZGTVFp6QbJkyGjE1lKxniCUS25LQptMt8HJihpYGgmhPvR2tNcjSjHAiF/BTGZ9E0ZvTJI8fndEwQq+knOV1AfcwHTlIOA4U82M5tPZa8RPx1Z4xyfGYFlHLcD9VnvdQ=~-1~-1~-1; Domain=.ibm.com; Path=/; Expires=Fri, 23 Dec 2022 19:46:24 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=CA5B014F5E52DC9EAF1507AF1B61637C~YAAQJ608F4eU/cx9AQAAXpLU6A52xWqZUAk29k7eH/6nlmRjhdHhrfFaCJyD+o7eswUfZnHFCuhvD+eAM4xd98hPLPOMIG/SrqXQn4rHNmgdZYocf1oorHFA2v3m0D/k/dzRgAF34eVAAamQbyyvtASRnOZHnqlHAh+EigXHJ6BlehFpeegFb6E0Y+re2OfnOxQAZp+TOiniQzJDJJsPgGLb+fVvn5OryBTSf7R+zg6AfdAK13aFPlXPi+pivMlZkWMI7ILT7/yQGDEicahsArYCtsLaHgK4p8gllwQZnWo=~3753027~4272707; Domain=.ibm.com; Path=/; Expires=Thu, 23 Dec 2021 23:46:24 GMT; Max-Age=14400

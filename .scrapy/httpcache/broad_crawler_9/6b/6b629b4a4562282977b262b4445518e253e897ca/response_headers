@@ -1,0 +1,24 @@
+Content-Length: 1170
+Date: Thu, 23 Dec 2021 20:09:14 GMT
+Content-Type: text/plain;charset=utf-8
+Cf-Ray: 6c2439f83cf37b29-LAX
+Accept-Ranges: bytes
+Cache-Control: public, max-age=432000
+Content-Encoding: gzip
+Expires: Tue, 28 Dec 2021 20:09:14 GMT
+Last-Modified: Thu, 23 Dec 2021 19:58:48 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding, User-Agent
+Cf-Cache-Status: EXPIRED
+Content-Security-Policy: frame-ancestors 'none';
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Request-Id: 6c2439f83cf37b29
+X-Xss-Protection: 1; mode=block
+Set-Cookie: __cf_bm=aAnfNBWAb5ANopQsT8tPFddJKMFK0phAfowhHc6.aSg-1640290154-0-ATLBDD+g8bVGfW+9Ex7FnYFGQEocG83PBtSjXT5x3ggjwdWqVQ03EKu9x/alGI9yALiV3m7O8b+Lagj2skFksLo=; path=/; expires=Thu, 23-Dec-21 20:39:14 GMT; domain=.canva.com; HttpOnly; Secure; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wbRxHW9W9x0sTvUEZZSAAkAhGdo9eciF3WuuiRQrlREU0bxEOf10wQSgZasWk9LHkShB7Tkmi9Q1jyKZrFahGY%2BQ0PXne5vICWyA8Rf2jsBhxP5P9AQeP8%2BNMNZwBis%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

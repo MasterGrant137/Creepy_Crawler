@@ -1,0 +1,12 @@
+Server: openresty
+Date: Thu, 23 Dec 2021 20:06:22 GMT
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Thu, 23 Dec 2021 19:36:44 GMT
+Cache-Control: max-age=1822, must-revalidate
+Vary: Cookie
+Link: <https://blog.arxiv.org/wp-json/>; rel="https://api.w.org/"
+Link: <https://blog.arxiv.org/wp-json/wp/v2/posts/1119>; rel="alternate"; type="application/json"
+Link: <https://blog.arxiv.org/?p=1119>; rel=shortlink
+X-Cache: MISS
+X-Cache-Bypass-Reason: 0
+Content-Encoding: gzip

@@ -1,0 +1,7 @@
+# Welcome to Bitly =)
+# robots welcome;
+# API documentation can be found at https://dev.bitly.com/
+Sitemap: https://bitly.com/pages/sitemap_index.xml
+Sitemap: https://bitly.com/blog/sitemap_index.xml
+User-Agent: *
+Disallow: /pages/form-test-page-autopilot$

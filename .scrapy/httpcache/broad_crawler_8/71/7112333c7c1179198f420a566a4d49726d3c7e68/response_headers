@@ -1,0 +1,25 @@
+Date: Thu, 23 Dec 2021 18:46:16 GMT
+Content-Type: text/html; charset=utf-8
+Age: 0
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Content-Security-Policy-Report-Only: report-uri https://endpoint2.collection.us2.sumologic.com/receiver/v1/http/ZaVnC4dhaV13syWPqbJn9XwMGe4caaop-n9urcHvJLaMJIs-ysikqC26ja3rzeMNHUqlhJ6Jj32snr_AmKUAt2hrNPOgIYRfr_GPi-UndDkRUPtIQ-yZfA== ; default-src https: data: blob: 'unsafe-eval' 'unsafe-inline' ; frame-ancestors http://localhost:* capacitor: ionic: https: ;
+Pragma: no-cache
+Vary: Accept-Encoding
+X-Cache: MISS
+X-Cache-Lookup: HIT
+X-Envoy-Upstream-Service-Time: 205
+X-Powered-By: 5958-3.290.8
+X-Varnish: 209910602
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version
+Access-Control-Expose-Headers: Location, X-Request-Id
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Newp: Yes
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: __cf_bm=BnpGEk2pF6ccx95._YxN3.82vgW4WEjgUcXrq9_ad7k-1640285176-0-AVVN88gmK9/w7ne6i1KzoXxtla4Eir1oK3lFELKHCJmavMSewrFjtuAbxo/ee00bUsf865Mlb+XJ7gSQSp/hYqo=; path=/; expires=Thu, 23-Dec-21 19:16:16 GMT; domain=.typeform.com; HttpOnly; Secure; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tuCzB8D5xHLa1lOtJynajs7pXVjaiwE8P3iMnZLSS0jeImuMxCOii8Z%2FdflgbTAoPx5R0Oy9YX04XyI6FBBXQlOFE%2FJpapLY48%2FsFFqFIT3OLQQpRwwBb9RWbgaKQWmhZTNV"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 6c23c06d5e5f7c1d-LAX
+Content-Encoding: gzip

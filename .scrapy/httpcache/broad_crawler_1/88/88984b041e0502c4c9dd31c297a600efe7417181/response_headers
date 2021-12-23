@@ -1,0 +1,21 @@
+Server: Apache
+Date: Thu, 23 Dec 2021 19:47:32 GMT
+Content-Type: text/html;charset=UTF-8
+Vary: Accept-Encoding
+Set-Cookie: bci=6329272695105161216; Domain=.ok.ru; Expires=Tue, 10-Jan-2090 23:01:39 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: _statid=1bd9debe-21b8-4691-9901-48740d73eef0; Domain=.ok.ru; Expires=Tue, 10-Jan-2090 23:01:39 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: landref=moz.com; Domain=.ok.ru; Path=/; Secure
+Content-Security-Policy: default-src data: 'self' 'unsafe-inline' 'unsafe-eval' ok.ru *.ok.ru odnoklassniki.ru *.odnoklassniki.ru mycdn.me http://*.mycdn.me https://*.mycdn.me wss://ad.mail.ru *.mail.ru *.imgsmail.ru *.mradx.net *.serving-sys.com *.googleapis.com *.gstatic.com www.google.com https://api-maps.yandex.ru yastatic.net yandex.st *.doubleverify.com *.adsafeprotected.com https://consentmanager.mgr.consensu.org https://cdn.consentmanager.mgr.consensu.org https://football.sportmail.ru *.google.ru *.google.com *.googlesyndication.com blob:;  script-src 'unsafe-inline' 'unsafe-eval' *.mail.ru https://*.mail.ru *.imgsmail.ru *.mradx.net ok.ru *.ok.ru odnoklassniki.ru *.odnoklassniki.ru mycdn.me http://*.mycdn.me https://*.mycdn.me mc.yandex.ru an.yandex.ru yastatic.net yandex.st *.google-analytics.com api-maps.yandex.ru https://api-maps.yandex.ru https://clck.yandex.ru *.googleapis.com *.gstatic.com www.google.com www.youtube.com https://www.youtube.com *.ytimg.com https://*.ytimg.com *.doubleverify.com *.dvtps.com *.doubleclick.net *.googletagservices.com *.googlesyndication.com *.googleadservices.com *.goodgame.ru https://*.goodgame.ru https://*.moatads.com *.adlooxtracking.com *.adsafeprotected.com *.serving-sys.com https://enterprise.api-maps.yandex.ru https://suggest-maps.yandex.ru https://*.hit.gemius.pl https://consentmanager.mgr.consensu.org https://cdn.consentmanager.mgr.consensu.org https://gum.criteo.com https://football.sportmail.ru *.googletagmanager.com connect.facebook.net *.google.ru *.google.com *.googlesyndication.com;  worker-src blob: 'self';  connect-src * wss: blob:;  font-src * data: blob:; frame-src * blob: 'self';  img-src * data: blob: about:;  media-src * data: blob:;  object-src *;  report-uri /csp/report;
+Content-Security-Policy-Report-Only: default-src data: blob: about: 'self' 'unsafe-inline' 'unsafe-eval' https: wss:; report-uri /csp/report?always;
+Cache-Control: no-cache
+Cache-Control: no-store
+Pragma: no-cache
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000;includeSubdomains;preload
+Rendered-Blocks: HtmlPage
+X-Sct: true
+X-Frame-Options: SAMEORIGIN
+Fetchedall: true
+Content-Encoding: gzip

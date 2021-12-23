@@ -1,0 +1,8 @@
+Server: openresty
+Date: Thu, 23 Dec 2021 20:05:20 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Cookie
+Link: <https://blog.arxiv.org/wp-json/>; rel="https://api.w.org/"
+X-Cache: MISS
+X-Cache-Bypass-Reason: 0
+Content-Encoding: gzip

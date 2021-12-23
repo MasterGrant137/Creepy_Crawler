@@ -1,0 +1,26 @@
+Cache-Control: private, no-store, max-age=0, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Encoding: gzip
+Content-Security-Policy: default-src * data: blob:;style-src * 'unsafe-inline';script-src https://*.quora.com https://*.facebook.net https://*.facebook.com https://*.googleapis.com https://*.twitter.com https://*.quoracdn.net https://*.google.com https://*.google-analytics.com https://*.gstatic.com https://*.youtube.com https://*.ytimg.com https://*.jwpcdn.com https://*.stripe.com https://*.intercom.io https://*.intercomcdn.com https://*.syndication.twimg.com https://cdnjs.cloudflare.com https://*.jwplatform.com https://*.googlesyndication.com https://*.googletagmanager.com https://*.googleadservices.com https://*.doubleclick.net https://*.googletagservices.com https://*.ampproject.org https://*.amazon-adsystem.com https://*.rubiconproject.com https://*.lijit.com https://*.openx.net https://*.aaxads.com https://*.criteo.com https://*.ads-twitter.com https://*.dwin1.com https://*.marketo.net https://*.licdn.com https://*.linkedin.com https://*.qualtrics.com https://*.siteintercept.qualtrics.com https://sc-static.net https://static.bytedance.com https://*.iteratehq.com https://cdn.embedly.com https://qinternal-packages.s3.amazonaws.com 'unsafe-inline' 'unsafe-eval' 127.0.0.1:*;connect-src 'self' https://*.quora.com wss://*.quora.com https://*.quoracdn.net https://*.stripe.com https://*.intercom.io wss://*.intercom.io https://*.jwplatform.com https://*.jwpsrv.com https://syndication.twitter.com https://*.syndication.twimg.com https://*.googleapis.com https://*.googlesyndication.com https://*.qualtrics.com https://*.facebook.com https://*.fbcdn.net blob: https://*.mktoresp.com https://*.doubleclick.net https://accounts.google.com https://*.amazon-adsystem.com https://*.aaxads.com https://*.iteratehq.com https://iteratehq.com https://*.giphy.com ;report-uri /security_reports/content_security_policy_violation_3RD_PARTY_POST
+Content-Type: text/html; charset=utf-8
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Pragma: no-cache
+Server: nginx
+Set-Cookie: m-b=6ERIgsuE9SF1NuFSh84nSA==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Sat, 23-Dec-2023 19:47:35 GMT; secure; HttpOnly; SameSite=None
+Set-Cookie: m-b_lax=6ERIgsuE9SF1NuFSh84nSA==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Sat, 23-Dec-2023 19:47:35 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: m-b_strict=6ERIgsuE9SF1NuFSh84nSA==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Sat, 23-Dec-2023 19:47:35 GMT; secure; HttpOnly; SameSite=Strict
+Set-Cookie: m-s=CWDl6nj4RZVVs4KjeeTQLQ==; Domain=.quora.com; Max-Age=63072000; Path=/; expires=Sat, 23-Dec-2023 19:47:35 GMT; secure; HttpOnly
+Set-Cookie: m-uid=None; Domain=.quora.com; Max-Age=63115200; Path=/; expires=Sun, 24-Dec-2023 07:47:35 GMT
+Set-Cookie: m-ans_frontend_early_version=ae5f6cbbbbf75641; Domain=.quora.com; Max-Age=63115200; Path=/; expires=Sun, 24-Dec-2023 07:47:35 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Q-Stat: ,d7a63a3e27c753a26ff2afbf5b231259,10.0.0.81,58060,47.158.19.38,,577871530381,1,1640288855.683,0.059,,.,0,0,0.000,0.060,-,0,0,3260,187,93,10,35796,,,,,,-,
+X-Ua-Compatible: IE=Edge, chrome=1
+X-Xss-Protection: 1; mode=block
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 19:47:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-wdc5541-WDC
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640288856.624029,VS0,VE60

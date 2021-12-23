@@ -1,0 +1,11 @@
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://calcite.apache.org/robots.txt
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:09:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17558-BUR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1640290151.150036,VS0,VE0

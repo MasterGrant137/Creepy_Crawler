@@ -1,0 +1,16 @@
+Content-Length: 0
+Content-Type: application/binary
+Location: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://plus.google.com/&followup=https://plus.google.com/
+X-Robots-Tag: noindex
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Strict-Transport-Security: max-age=31536000
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/PlusAppUi/cspreport
+Content-Security-Policy: script-src 'report-sample' 'nonce-KiDDaZa4uPIAy4b7ryCmwg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/PlusAppUi/cspreport;worker-src 'self'
+Date: Thu, 23 Dec 2021 20:05:12 GMT
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=FV5U839Km5sEZ8ZKkzdanIL4RgAIi8y6S9D_ME-JNerZ_QIV3wMLezBCdYN3gLtKZWirtJFrLKTBZp0y_T-KNeEZUqjZMOKVOeTyRMAas2_fhvbyGdEeaE5QRjed_b02_FptFW0vmECBQ_FYch2BEq9BGOManoq5nHa088RtpU8; expires=Fri, 24-Jun-2022 20:05:12 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

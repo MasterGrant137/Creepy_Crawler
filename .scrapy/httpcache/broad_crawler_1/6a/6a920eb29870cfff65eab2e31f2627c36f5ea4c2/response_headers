@@ -1,0 +1,17 @@
+Content-Length: 569
+Date: Thu, 23 Dec 2021 19:47:32 GMT
+Content-Type: text/plain
+Cache-Control: public, max-age=2592000
+X-Backend-Cache-Hit: False
+Content-Language: en
+Detected-Country-Code: US
+Detected-Geo-Buckets: euro_russia_namerica
+X-Storage: default
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Content-Security-Policy: frame-ancestors 'self' https://*.opera.com; upgrade-insecure-requests;
+X-Cache: MISS
+X-Via: 2-ow,ecf14071477941c6a999f06185595e33-643674085
+Accept-Ranges: bytes

@@ -1,0 +1,12 @@
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.yale.edu/
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 19:46:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17536-BUR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1640288782.429973,VS0,VE0
+Strict-Transport-Security: max-age=300

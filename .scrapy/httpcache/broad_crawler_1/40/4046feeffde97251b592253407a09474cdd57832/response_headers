@@ -1,0 +1,11 @@
+Content-Length: 240
+Location: https://marketingplatform.google.com/about/
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Thu, 23 Dec 2021 19:26:05 GMT
+Expires: Thu, 23 Dec 2021 19:56:05 GMT
+Server: sffe
+X-Xss-Protection: 0
+Cache-Control: public, max-age=1800
+Age: 1286
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

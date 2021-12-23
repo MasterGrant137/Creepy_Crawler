@@ -1,0 +1,27 @@
+Content-Length: 588
+Server: nginx
+Content-Type: text/plain; charset=UTF-8
+Content-Security-Policy: frame-ancestors https://www.incimages.com http://www.inc.com https://www.inc.com http://www.stumbleupon.com https://www.google.com https://cdn.ampproject.org
+Last-Modified: Mon, 06 Dec 2021 22:06:41 GMT
+Etag: "1261056-845-5d28178b738ba"
+Cache-Control: max-age=259200
+Expires: Thu, 16 Dec 2021 06:38:12 GMT
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish
+X-By: 0932149ecf23da196:apache-proxy-robots
+Accept-Ranges: bytes
+Age: 209720
+Set-Cookie: fastlygeo=(null):United States:(null):47.158.19.38; expires=Thu, 23 Dec 2021 19:47:48 GMT; path=/;
+Set-Cookie: X-abtest=b; path=/; domain=inc.com
+Set-Cookie: fastlygeo=Indio:United States:92201:47.158.19.38; expires=Thu, 23 Dec 2021 19:47:48 GMT; path=/;
+Set-Cookie: X-abtest=a; path=/; domain=inc.com
+Date: Thu, 23 Dec 2021 19:47:38 GMT
+X-Served-By: cache-iad-kiad7000162-IAD, cache-wdc5578-WDC
+X-Cache: HIT, MISS
+X-Cache-Hits: 21757, 0
+X-Timer: S1640288858.308875,VS0,VE1
+Geoip-City: Indio
+Geoip-Countryname: United States
+Geoip-Latitude: 33.721
+Geoip-Postalcode: 92201
+Vary: Accept-Encoding, Cookie

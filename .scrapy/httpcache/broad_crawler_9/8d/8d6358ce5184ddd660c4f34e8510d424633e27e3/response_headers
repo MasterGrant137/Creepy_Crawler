@@ -1,0 +1,16 @@
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 23 Dec 2021 20:06:18 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/ContactsUi/cspreport
+Content-Security-Policy: script-src 'report-sample' 'nonce-zRL/iPxI4EXWm/fY7k/Wlw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/ContactsUi/cspreport;worker-src 'self'
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to="ContactsUi"
+Report-To: {"group":"ContactsUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/ContactsUi/external"}]}
+Content-Encoding: gzip
+Server: ESF
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=GxJ8ORIZp6-6ynvAGYrSZ4nYNY8mO70iuGporQSW1pO2iaqJsc1QVd3c503NwxRxpfEBSSUEHxJoE-h0rNGRkzfLymph9hS_nE-RGqmjdTQJ2DoCcOAfydwCfd3KhPUg_sU3z1qdqh7dkZsbJI4H5lck0Pc8R6qnJRn6JDtLCKw; expires=Fri, 24-Jun-2022 20:06:18 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

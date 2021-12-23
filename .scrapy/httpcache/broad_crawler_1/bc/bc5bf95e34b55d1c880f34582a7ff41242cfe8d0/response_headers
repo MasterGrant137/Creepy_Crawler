@@ -1,0 +1,19 @@
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Content-Type: 
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 19:47:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17571-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640288857.650855,VS0,VE0
+Geoip-City: Indio
+Geoip-Countryname: United States
+Geoip-Latitude: 33.721
+Geoip-Postalcode: 92201
+Location: https://www.inc.com/robots.txt
+Set-Cookie: fastlygeo=Indio:United States:92201:47.158.19.38; expires=Thu, 23 Dec 2021 19:47:46 GMT; path=/;
+Set-Cookie: X-abtest=(null); path=/; domain=inc.com
+Last-Modified: Thu, 23 Dec 2021 19:47:36 GMT

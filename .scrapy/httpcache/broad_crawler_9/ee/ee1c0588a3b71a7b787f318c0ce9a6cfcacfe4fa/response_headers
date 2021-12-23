@@ -1,0 +1,35 @@
+Content-Length: 750
+Server: nginx
+Content-Type: text/plain;charset=utf-8
+X-Instrumentation: airbnb
+X-Server-Lifecycle-Phase: running
+Status: 200 OK
+X-Kraken-Loop-Name: monorail
+Server-Timing: total;dur=145
+Server-Timing: cdn-cache; desc=HIT, edge; dur=80, origin; dur=UNSET
+Content-Security-Policy: default-src 'self' https: blob:; child-src * blob:; connect-src 'self' https: wss: *.amap.com *.inspectlet.com; font-src 'self' data: *.muscache.com fonts.gstatic.com use.typekit.net; img-src 'self' https: data: *.inspectlet.com; media-src 'self' https:; script-src 'self' 'unsafe-eval' a0.muscache.com cdn.siftscience.com ss.musthird.com t1.musthird.com bat.bing.com connect.facebook.net www.google-analytics.com www.googleadservices.com tpc.googlesyndication.com www.googletagmanager.com maps.googleapis.com ajax.googleapis.com *.g.doubleclick.net www.google.com www.gstatic.com smartlock.google.com accounts.google.com app.link cdn.branch.io api.branch.io bam.nr-data.net js-agent.newrelic.com ethn.io s.yimg.jp api.geetest.com cdn.ampproject.org storage.googleapis.com/workbox-cdn/ tagmanager.google.com pay.google.com songbird.cardinalcommerce.com/ www.recaptcha.net www.gstatic.cn client-api.arkoselabs.com h.online-metrix.net blob: webapi.amap.com restapi.amap.com vdata.amap.com *.inspectlet.com 'nonce-35d7f8798853d193927851c1e4d7ed'; style-src 'self' https: 'unsafe-inline'; report-uri /tracking/csp?action=robots&controller=sitemaps&report_only=false&req_uuid=0f5b389f-07d5-472b-b25a-a1611320af1d&version=1f7f2bbc1521cb52bcc2a05dd75779d6e84b89d8
+X-Ua-Compatible: IE=Edge,chrome=1
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy-Report-Only: default-src blob: *; child-src blob: *; connect-src blob: *; font-src 'self' data: *.muscache.com fonts.gstatic.com use.typekit.net; img-src 'self' https: data: *.inspectlet.com; script-src 'self' 'unsafe-eval' webpack.localhost.airbnb.com jira.airbnb.biz *.g.doubleclick.net cdn.siftscience.com ss.musthird.com t1.musthird.com bat.bing.com connect.facebook.net www.google-analytics.com www.googleadservices.com tpc.googlesyndication.com www.googletagmanager.com maps.googleapis.com ajax.googleapis.com app.link cdn.branch.io api.branch.io bam.nr-data.net js-agent.newrelic.com sslwidget.criteo.com static.criteo.net dis.criteo.com widget.us.criteo.com ethn.io blob: webapi.amap.com restapi.amap.com *.inspectlet.com cdn.ampproject.org/v0.js cdn.ampproject.org/v0/ a.alipayobjects.com gw.alipayobjects.com static.t.agrant.cn t.agrantsem.com ditu.google.com *.muscache.cn *.muscache.com ss.musthird.cn www.google.com www.gstatic.com b92.yahoo.co.jp mc.yandex.ru wcs.naver.net static.matterport.com a.cdn.intentmedia.net s.yimg.jp icm.aexp-static.com checkout.americanexpress.com www.paypalobjects.com smartlock.google.com accounts.google.com tagmanager.google.com vdata.amap.com; style-src * blob: 'unsafe-inline'; report-uri /tracking/csp?action=robots&controller=sitemaps&report_only=true&req_uuid=0f5b389f-07d5-472b-b25a-a1611320af1d&version=1f7f2bbc1521cb52bcc2a05dd75779d6e84b89d8
+X-App-Git-Sha: 1f7f2bbc1521cb52bcc2a05dd75779d6e84b89d8
+X-Server-Service-Name: Monorail
+X-Envoy-Upstream-Service-Time: 154
+X-Xss-Protection: 1; mode=block
+Etag: W/"2b928fc4508973e2ba33a8b7db60405f--gzip"
+Referrer-Policy: same-origin
+X-Content-Type-Options: nosniff
+X-Server-Canonical-Path: SitemapsController#robots
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=10886400; includeSubdomains
+X-Server-Name: www.airbnb.com
+X-Edgeconnect-Midmile-Rtt: 0
+X-Edgeconnect-Origin-Mex-Latency: 177
+Cache-Control: public, max-age=3032
+Date: Thu, 23 Dec 2021 20:05:20 GMT
+Vary: Accept-Encoding
+Set-Cookie: bev=1640289920_MWUyNGVmYjA2NzA1; expires=Sat, 23-Dec-2023 20:05:20 GMT; path=/; domain=.airbnb.com; secure
+Set-Cookie: country=US; path=/; domain=.airbnb.com; secure
+Origin-Trial: AkOekvxwprBLSP7I2nhyRn5yZGt9lTJN6UIYziFKVYg5OhlzmlNDciWbBWkEQ5TYPz+aqsuIUT2pPEjPUD5dFAsAAABneyJvcmlnaW4iOiJodHRwczovL2FpcmJuYi5jb206NDQzIiwiZmVhdHVyZSI6IlByaW9yaXR5SGludHNBUEkiLCJleHBpcnkiOjE2NDc5OTM1OTksImlzU3ViZG9tYWluIjp0cnVlfQ==
+X-Browser-Type: unknown
+X-Erf-Bev-Bev-Is-Generated: 1
+X-Erf-Bev-Bev: 1640289920_MWUyNGVmYjA2NzA1

@@ -1,0 +1,20 @@
+Content-Length: 126323
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+Content-Security-Policy: script-src 'nonce-tHkCvGoGxOaM5VkK124CTg' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/ads-homepage; base-uri 'none'
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="ads-homepage"
+Report-To: {"group":"ads-homepage","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/ads-homepage"}]}
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Thu, 23 Dec 2021 20:06:19 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Last-Modified: Wed, 01 Dec 2021 11:48:00 GMT
+Strict-Transport-Security: max-age=3600
+X-Content-Type-Options: nosniff
+Server: sffe
+X-Xss-Protection: 0
+Set-Cookie: NID=511=Nfn-xBs6cUC2pZSNs8Omo4wXZ5k5dOMEhOP1RtW8aKDbofXf_RQZ5tYan8ZHZiB1nCKFjHYY67lPcwNDfkC5qB9PzZ49qTdjK2oo_YuSWSY9vsfaOUpmp6ajOhdqBRvkxWH6psOdaEmUQU3jsyKb1bcpu4q7uo7_5BOil5pwD_8; expires=Fri, 24-Jun-2022 20:06:19 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

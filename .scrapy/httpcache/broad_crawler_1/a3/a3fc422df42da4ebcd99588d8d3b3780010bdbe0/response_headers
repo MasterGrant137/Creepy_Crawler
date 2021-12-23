@@ -1,0 +1,26 @@
+Content-Length: 43537
+Cache-Control: public, max-age=1200
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Link: <https://www.harvard.edu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.harvard.edu/wp-json/wp/v2/pages/6392>; rel="alternate"; type="application/json"
+Link: <https://www.harvard.edu/>; rel=shortlink
+Permissions-Policy: geolocation=(self)
+Referrer-Policy: same-origin
+Server: nginx
+Strict-Transport-Security: max-age=31622400
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Pantheon-Styx-Hostname: styx-fe3-a-854479d6f8-9q5q7
+X-Pingback: https://www.harvard.edu/xmlrpc.php
+X-Styx-Req-Id: d3b61308-6427-11ec-98fa-464f61808489
+X-Xss-Protection: 1; mode=block
+Age: 505
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+X-Served-By: cache-mdw17376-MDW, cache-mdw17376-MDW, cache-bur17536-BUR, cache-bur17539-BUR
+X-Cache: HIT, MISS, MISS, MISS
+X-Cache-Hits: 21, 0, 0, 0
+X-Timer: S1640288782.873987,VS0,VE62
+Vary: Accept-Encoding, Cookie, orig-host

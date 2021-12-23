@@ -1,0 +1,13 @@
+Content-Length: 13966
+Server: Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips mod_wsgi/3.4 Python/2.7.5 PHP/7.4.26
+Strict-Transport-Security: max-age=63072000;
+X-Powered-By: PHP/7.4.26
+Link: <https://www.jhu.edu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.jhu.edu/wp-json/wp/v2/pages/12375>; rel="alternate"; type="application/json"
+Link: <https://www.jhu.edu/>; rel=shortlink
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=1800
+Expires: Thu, 23 Dec 2021 20:16:25 GMT
+Date: Thu, 23 Dec 2021 19:46:25 GMT
+Vary: Accept-Encoding

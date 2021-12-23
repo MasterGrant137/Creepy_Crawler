@@ -1,0 +1,25 @@
+Content-Length: 162
+Content-Type: text/html
+Location: https://www.bbc.com/worklife/
+X-Bbc-No-Scheme-Rewrite: 1
+Cache-Control: public, max-age=3600, stale-if-error=90, stale-while-revalidate=30
+Via: 1.1 BBC-GTM, 1.1 a01fca0cccde2470ea24242deceb9118.cloudfront.net (CloudFront), 1.1 varnish
+X-Amz-Cf-Pop: LHR61-C2
+X-Amz-Cf-Id: lyThJ9fXwKhhxCNJqfeR008YFnvBIisyknfwJrunRSDtgSXZmEddzw==
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Req-Svc-Chain: FASTLY,GTM
+X-Bbc-Edge-Cache-Status: MISS
+X-Bbc-Origin-Response-Status: 301
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 18:46:31 GMT
+Age: 2014
+X-Fastly-Cache-Status: HIT-CLUSTER
+X-Served-By: cache-bur17553-BUR
+X-Cache: Miss from cloudfront, HIT
+X-Cache-Hits: 1
+X-Timer: S1640285191.453753,VS0,VE1
+X-Lb-Nocache: true
+Vary: accept-encoding,x-bbc-edge-scheme

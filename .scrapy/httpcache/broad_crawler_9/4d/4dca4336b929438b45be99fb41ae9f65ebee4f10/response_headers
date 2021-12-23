@@ -1,0 +1,16 @@
+Content-Length: 520
+Date: Thu, 23 Dec 2021 20:05:14 GMT
+Content-Type: text/plain
+X-Amzn-Requestid: 736c0833-ae4d-4d06-a69e-20300cc2c734
+Content-Encoding: gzip
+X-Amz-Apigw-Id: K0TCLEKpjoEFSQw=
+Vary: accept-encoding
+Cache-Control: max-age=3600, public, stale-if-error=86400, stale-while-revalidate=600
+X-Amzn-Trace-Id: Root=1-61c4cba7-5a8be885dc2919fd31f4ad6e
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Via: 1.1 BBC-GTM
+Req-Svc-Chain: GTM
+X-Bbc-Edge-Cache-Status: HIT
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Strict-Transport-Security: max-age=2592000

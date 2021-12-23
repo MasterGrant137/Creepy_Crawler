@@ -1,0 +1,12 @@
+Date: Thu, 23 Dec 2021 20:06:20 GMT
+Access-Control-Allow-Credentials: true
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://seomoz.cloudflareaccess.com/cdn-cgi/access/login/cms.moz.com?kid=9f392c1e201e32ea148488e818dd6feb00cb615b26f698a3008ba618e32f30a2&redirect_url=%2Fterms-privacy&meta=eyJraWQiOiJlZmJlODg5ZGU5MDBmNDA1YmMwMTAyOWI4MDgwZjc2YTYzMDQyOWNjZGVjOTEzMjQwMjRhODhhYzNlNDU4ZGFmIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTY0MDI4OTk4MCwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjlmMzkyYzFlMjAxZTMyZWExNDg0ODhlODE4ZGQ2ZmViMDBjYjYxNWIyNmY2OThhMzAwOGJhNjE4ZTMyZjMwYTIiLCJob3N0bmFtZSI6ImNtcy5tb3ouY29tIiwidHlwZSI6Im1ldGEiLCJuYmYiOjE2NDAyODk5ODAsInJlZGlyZWN0X3VybCI6IlwvdGVybXMtcHJpdmFjeSIsImlzX2dhdGV3YXkiOmZhbHNlLCJpc193YXJwIjpmYWxzZSwiYXV0aF9zdGF0dXMiOiJOT05FIn0.JTA9ebWfqWzCLSKLhrnXcKRvUzsDhF7UMAsIVjMX3Ce8nLvozcHRUxjnmAbBzZFM_3DqfzMmpyNzDN2KI8qgIZhtO3izsyQG-qC-hW1AUOHE0QU_hukxr_BipVuPWNSgYIWqab2tkHCTHb2nFwq9hT5pPaV7ERIeCfZvQFO8KiAQiMBDNtFleKOIdkeH-3VBWX-abz3tKL4bWyJf4lVoqgmuoO_6crWgZr845N8V6G3RsIM77yw56d5acQX79IDuTUu8W-DwaqIgCUyfW-PpOWwfje7qEac_nI3seHoDqyk5Q6-h5iOGSsbcnRND2OavN_W8n6Ys7om1rOAwk-8_aA
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: __cf_bm=fIFTyp0AJyQlBhn5grvjOKL4kphys45HljqG3W9cW80-1640289980-0-Ae8FhloS+DVMD84Qz8m8X3zrO3oLNwVyIvKzjTBrw+9fb4FqlUCVWN3he0GAstBBotRWArnZJfRI4YdDr1aAeBk=; path=/; expires=Thu, 23-Dec-21 20:36:20 GMT; domain=.moz.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=2592000
+Server: cloudflare
+Cf-Ray: 6c2435b7bd26528f-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

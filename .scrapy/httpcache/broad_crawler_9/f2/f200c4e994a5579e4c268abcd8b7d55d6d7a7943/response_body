@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /home*
+
+Sitemap: https://admob.google.com/home/sitemap.xml

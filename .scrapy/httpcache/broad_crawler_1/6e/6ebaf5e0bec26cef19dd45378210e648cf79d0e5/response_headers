@@ -1,0 +1,25 @@
+Content-Length: 244
+Content-Type: text/plain; charset=UTF-8
+Cache-Control: public, max-age=0
+Etag: W/"327-17dc99f19b8"
+Last-Modified: Fri, 17 Dec 2021 18:19:47 GMT
+Server: nginx
+X-Hp-Trace-Id: 5f998a3501c4e7ec0bf1331fa9847d6a03a262d6
+X-Hp-Webp: false
+X-Request-Id: 77dd2911224d6c6a59a2e6dcfcc2c088
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 19:47:31 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-bur17579-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640288852.570337,VS0,VE154
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+Referrer-Policy: no-referrer-when-downgrade
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation; frame-ancestors 'self' *.huffpost.com *.huffingtonpost.com *.huffpost.net *.buzzfeed.com clients.opinary.com compass.pressekompass.net; report-uri https://huffpost.report-uri.com/r/d/csp/enforce;
+Set-Cookie: ccpa=true; expires=Thu, 06 Jan 2022 19:47:31 GMT; path=/; domain=www.huffpost.com;
+Vary: Accept-Encoding

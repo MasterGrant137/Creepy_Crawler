@@ -1,0 +1,10 @@
+Date: Thu, 23 Dec 2021 20:05:15 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: frame-ancestors 'none'
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie,Accept-Encoding,User-Agent
+Set-Cookie: browser=47.158.19.38.1640289915495947; path=/; max-age=946080000; domain=.arxiv.org
+Set-Cookie: arxiv_browse=.eJwdjD0KgDAMha8imUVwdStOLi7iAWoNGrCJ1CiI9O5Gt_e-9_NAIL2hgY5nEighCCsxskLzmJnRst5ZwD7-WpKuhYuYKHjI3-BkTd_FOFhtQaG9ujAdJGywNnacE3s17zcjrYP8AgW5JlY.YcTWew.x9ccw0_t6ULah1YGCqg33IzEyuY; HttpOnly
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8

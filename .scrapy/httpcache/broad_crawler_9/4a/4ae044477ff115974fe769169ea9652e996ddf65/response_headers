@@ -1,0 +1,19 @@
+Content-Length: 0
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 23 Dec 2021 20:05:15 GMT
+Location: https://www.google.com/ads/preferences?continue=aHR0cHM6Ly9hZHNzZXR0aW5ncy5nb29nbGUuY29tL2Fub255bW91cw%3D%3D
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Cross-Origin-Resource-Policy: same-site
+Content-Security-Policy: script-src 'report-sample' 'nonce-DojnDO/xx304qNzlVHrGig' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AdsSettingsUi/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/AdsSettingsUi/cspreport
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=qSjwg0QhhARkdJdL9yjGc1HaJuvSeSmeaCjVZHg3E1fZ1gydQzFsBTZbavKD1HVtK53zUguz75eymGC7ucDj0Y7b6LqlAKGtcsXXKG6AFah2n6ifPPJnht-ySVEZ6ffi2zbBW2aQIS88p2H-k8L3uMmK33wVp3KruTFTXwGRTnU; expires=Fri, 24-Jun-2022 20:05:15 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

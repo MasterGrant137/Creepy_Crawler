@@ -1,0 +1,14 @@
+Content-Length: 603
+Content-Type: text/plain; charset=UTF-8
+Link: <https://www.dotdash.com/wp-json/>; rel="https://api.w.org/"
+Server: Apache
+Status: 200 OK
+X-Frame-Options: SAMEORIGIN
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:05:19 GMT
+Age: 82184
+Cache-Control: max-age=3600
+X-Served-By: cache-sea4478-SEA, cache-bur17573-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1

@@ -1,0 +1,23 @@
+Content-Length: 67
+Cache-Control: public, max-age=1200
+Content-Type: text/plain; charset=utf-8
+Link: <https://www.harvard.edu/wp-json/>; rel="https://api.w.org/"
+Permissions-Policy: geolocation=(self)
+Referrer-Policy: same-origin
+Server: nginx
+Strict-Transport-Security: max-age=31622400
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Pantheon-Styx-Hostname: styx-fe3-a-854479d6f8-gh9mz
+X-Robots-Tag: noindex, follow
+X-Styx-Req-Id: 144af265-6428-11ec-b9e1-6ecf6794f502
+X-Xss-Protection: 1; mode=block
+Age: 397
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+X-Served-By: cache-mdw17372-MDW, cache-mdw17345-MDW, cache-bur17538-BUR, cache-bur17539-BUR
+X-Cache: HIT, MISS, MISS, MISS
+X-Cache-Hits: 7, 0, 0, 0
+X-Timer: S1640288781.045195,VS0,VE71
+Vary: Accept-Encoding, orig-host

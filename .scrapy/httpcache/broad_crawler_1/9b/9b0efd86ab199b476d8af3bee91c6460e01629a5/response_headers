@@ -1,0 +1,14 @@
+Content-Length: 132128
+Content-Type: text/html; charset=utf-8
+Server: nginx
+X-Powered-By: Next.js
+Content-Language: en
+Link: <https://securepubads.g.doubleclick.net/>; rel="preconnect", <https://mps.nbcuni.com/fetch/ext/load-nbcnews-bento.js?nowrite=jq>; as="script"; rel="preload"
+Etag: "c73db-lw9s4WxYM8cLlExVldX949UxAyQ"
+Content-Encoding: gzip
+X-Backend-Server: green-ramen2-7cc9c9578b-2tg9p
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+Vary: Accept-Encoding
+Set-Cookie: nbcnews_geolocation=us; path=/; domain=.nbcnews.com; secure; SameSite=None
+Set-Cookie: akaas_NBCNews=1641152781~rv=90~id=7263147ff961d0738baf389ffc43cbb8~rn=; path=/; Expires=Sun, 02 Jan 2022 19:46:21 GMT; Secure; SameSite=None
+X-Frame-Options: SAMEORIGIN

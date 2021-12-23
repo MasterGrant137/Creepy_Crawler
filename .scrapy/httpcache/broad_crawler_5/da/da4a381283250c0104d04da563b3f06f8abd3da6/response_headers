@@ -1,0 +1,10 @@
+Content-Type: text/html; charset=iso-8859-1
+Date: Thu, 23 Dec 2021 18:46:09 GMT
+Server: Apache/2.4.6 (CentOS) PHP/5.4.16 OpenSSL/1.0.2k-fips
+Location: https://www.espn.com/video/clip?id=32903656
+Content-Encoding: gzip
+Via: 1.1 varnish (Varnish/6.0), 1.1 adc433645a74a443ef3e8a3436f54242.cloudfront.net (CloudFront)
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: RXsY3vpPPJzH4I7GnNvj9pxR1kv_EXEBE54VcLtHwRsvaUwnqEvHaQ==

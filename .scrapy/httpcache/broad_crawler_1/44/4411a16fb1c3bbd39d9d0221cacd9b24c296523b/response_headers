@@ -1,0 +1,14 @@
+Date: Thu, 23 Dec 2021 19:46:22 GMT
+Content-Type: text/plain
+Last-Modified: Wed, 15 Dec 2021 18:10:32 GMT
+Etag: W/"61ba2f98-b6"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Cf-Cache-Status: MISS
+Expires: Thu, 23 Dec 2021 20:16:22 GMT
+Cache-Control: public, max-age=1800
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c24187a28853215-LAX
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

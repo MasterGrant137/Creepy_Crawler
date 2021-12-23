@@ -1,0 +1,12 @@
+Content-Length: 184
+Content-Type: text/html; charset=iso-8859-1
+Date: Thu, 23 Dec 2021 18:44:09 GMT
+Server: Apache/2.4.6 (CentOS) PHP/5.4.16 OpenSSL/1.0.2k-fips
+Location: http://www.xgames.com/
+Content-Encoding: gzip
+Via: 1.1 varnish (Varnish/6.0), 1.1 192a3b8b8f8d6d8997f0a7df9cf5f1be.cloudfront.net (CloudFront)
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: lT9KYTl7ywbN74gwD04FF8FH5eFF2PpU8_4TyuD6KkbYT1-M8OrJFg==
+Age: 126

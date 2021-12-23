@@ -1,0 +1,12 @@
+Content-Length: 256
+Server: nginx
+Date: Thu, 23 Dec 2021 20:05:15 GMT
+Content-Type: text/plain
+Last-Modified: Fri, 12 Nov 2021 20:22:24 GMT
+Etag: "618ecd00-100"
+Expires: Fri, 24 Dec 2021 20:05:15 GMT
+Cache-Control: max-age=86400
+Strict-Transport-Security: max-age=31536000
+Accept-Ranges: bytes
+Via: 1.1 google
+Alt-Svc: clear

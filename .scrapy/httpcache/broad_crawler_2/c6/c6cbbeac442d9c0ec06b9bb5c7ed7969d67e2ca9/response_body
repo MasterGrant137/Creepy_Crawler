@@ -1,0 +1,1891 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- InstanceBegin template="/Templates/secondary.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap and demo CSS -->
+<link href="/assets/js/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/assets/js/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
+<link href="/css/print.css" rel="stylesheet">
+<link href="/css/basictable.css" rel="stylesheet">
+<noscript>
+    <link href="/css/noscript.css" rel="stylesheet">
+</noscript>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--if lt IE 9
+    script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+    script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
+    
+    -->
+
+
+    <meta name="keywords" content="nimhd, advancing science, promote health equity">
+    <meta name="description" content="The NIMHD Scientific Advancement Plan was established to improve health equity by advancing the science of minority health and health disparities.">
+    <title>Scientific Advancement Plan</title>
+    <!--Twitter Meta Tag-->
+    <!--Do not leave tags blank.  If you do not have content for them, please delete them-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://www.nimhd.nih.gov/about/overview/scientific-advancement.html">
+    <meta name="twitter:title" content="Scientific Advancement Plan">
+    <meta name="twitter:description" content="The NIMHD Scientific Advancement Plan was established to improve health equity by advancing the science of minority health and health disparities.">
+    <meta name="twitter:image" content="https://www.nimhd.nih.gov/images/_twitter/shutterstock_399074143_TW1024x512.png">
+    <!--Facebook Meta Tags-->
+    <!--Do not leave tags blank.  If you do not have content for them, please delete them-->
+    <meta property="og:title" content="Scientific Advancement Plan" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.nimhd.nih.gov/about/overview/scientific-advancement.html" />
+    <meta property="og:image" content="https://www.nimhd.nih.gov/images/_facebook/shutterstock_399074143_FB1200x630.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="The NIMHD Scientific Advancement Plan was established to improve health equity by advancing the science of minority health and health disparities." />
+    <meta property="og:site_name" content="NIMHD" />
+</head>
+
+<body>
+     <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P6R3N8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P6R3N8');</script>
+<!-- End Google Tag Manager -->
+    <div class="container" id="fluid-container">
+    <div id="grey-bar">
+        <ul class="col-lg-12">
+            <li><img src="/assets/img/hhs-logo.png" alt="HHS Logo"> <a href="https://www.hhs.gov" target="_blank">U.S.
+                    Department of
+                    Health &amp; Human Services »</a></li>
+            <li><img src="/assets/img/nih-ribbon-logo.png" alt="NIH Logo"><a href="https://www.nih.gov"
+                    target="_blank">National
+                    Institutes of Health »</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <div class="hidden-sm hidden-xs white-bkg">
+        <div class="top-header row">
+            <div class="col-lg-4 col-md-4">
+                <a class="gtm-header-home" href="/"><img src="/assets/img/web-logo.png"
+                        alt="National Institutes of Minority Health and Disparities" class="img-responsive logo"></a>
+            </div>
+            <div class="col-lg-6 col-lg-offset-2 col-md-offset-6 header-social-media">
+                <ul>
+                    <!--<li><a href="https://public.govdelivery.com/accounts/USNIHNIMHD/subscriber/new">Subscribe to our Email Newsletter</a></li>-->
+                    <li>
+                        <a class="gtm-header-social"
+                            href="https://public.govdelivery.com/accounts/USNIHNIMHD/subscriber/new"
+                            target="_blank"><img src="/assets/img/newsletter_sml.png" title="Email Subscription"
+                                alt="link to sign up for NIMHD email updates"></a>
+                    </li>
+                    <li>
+                        <a class="gtm-header-social" href="/contact/"><img src="/assets/img/contact_sml.png"
+                                title="Contact Us" alt="link to contact us page"></a>
+                    </li>
+                    <li>
+                        <a class="gtm-header-social" href="https://www.facebook.com/NIMHD" target="_blank"><img
+                                src="/assets/img/facebook_sml.png" title="Facebook"
+                                alt="link to NIMHD facebook page "></a>
+                    </li>
+                    <li>
+                        <a class="gtm-header-social" href="https://twitter.com/NIMHD" target="_blank"><img
+                                src="/assets/img/twitter_sml.png" title="Twitter" alt="link to NIMHD twitter page"></a>
+                    </li>
+                    <li>
+                        <a class="gtm-header-social" href="https://www.linkedin.com/company/nimhd-nih/"
+                            target="_blank"><img src="/assets/img/linkedin_sml.png" title="Linkedin"
+                                alt="link to NIMHD Linkedin page"></a>
+                    </li>
+                    <li>
+                        <a class="gtm-header-social" href="https://www.youtube.com/channel/UC24wExXe2ynSniF-iKYTQaw"
+                            target="_blank"><img src="/assets/img/youtube_sml.png" title="Youtube"
+                                alt="link to NIMHD youtube page"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--/top-header-->
+    </div>
+    <!--/hidden-->
+    <div id="skip-link">
+        <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+
+    <div class="covid-red-banner">
+        <p class="banner-heading">COVID-19 is an emerging, rapidly evolving situation. Get the latest information on:
+        </p>
+        <ul>
+            <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="new"
+                    style="text-decorations:none; color:white;">Public health information from CDC</a></li>
+            <li><a href="https://covid19.nih.gov/" target="new" style="text-decorations:none; color:white;">Research
+                    information from NIH</a></li>
+            <li><a href="https://espanol.cdc.gov/coronavirus/2019-ncov/index.html" target="new"
+                    style="text-decorations:none; color:white;">Información sobre prevención (Coronavirus 2019 -
+                    COVID-19), tratamiento y más Leer Más</a></li>
+        </ul>
+        <!--<p style="color: white">Updates regarding government operating status and resumption of normal operations can be found at <a style="color: inherit" href="https://www.usa.gov/">USA.gov</a>.</p>-->
+    </div>
+
+
+    <div id="mainNav" class="navbar navbar-default yamm hidden-sm hidden-xs ">
+        <div id="navbar-collapse-grid" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <!-- Grid 12 Menu -->
+                <li class="dropdown yamm-fw col-md-2 no-gutter">
+                    <a href="/about/" data-toggle="dropdown" class="gtm-topnav dropdown-toggle">About
+                        <b class="hidden-lg hidden-md glyphicon glyphicon-menu-down"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="grid-demo" style="min-height: 398px">
+                            <div class="menu-group media-body">
+                                <div class="level-two">
+                                    <a href="/about/overview/" class="gtm-topnav-1">Overview
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow.png" alt="" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="level-three first-level-three">
+                                    <ul>
+                                        <li>
+                                            <a href="/about/overview/mission-vision.html" class="gtm-topnav-2">Mission
+                                                and Vision</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/overview/scientific-advancement.html"
+                                                class="gtm-topnav-2">Scientific
+                                                Advancement Plan</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/overview/science-visioning/" class="gtm-topnav-2">Science
+                                                Visioning</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/overview/research-framework/" class="gtm-topnav-2">Research
+                                                Framework</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/overview/org-structure/" class="gtm-topnav-2">Organizational
+                                                Structure</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/overview/staff-directory.html" class="gtm-topnav-2">Staff
+                                                Directory</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/overview/history/" class="gtm-topnav-2">History</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/about/directors-corner/" class="gtm-topnav-1">Director's Corner
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow.png" alt="" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="level-three">
+                                    <ul>
+                                        <li>
+                                            <a href="/about/directors-corner/about.html" class="gtm-topnav-2">About the
+                                                Director</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/directors-corner/message.html"
+                                                class="gtm-topnav-2">Director’s Message</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/directors-corner/news.html" class="gtm-topnav-2">News
+                                                Mentions</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/directors-corner/presentations.html"
+                                                class="gtm-topnav-2">Presentations</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/directors-corner/pubs.html" class="gtm-topnav-2">Selected
+                                                Publications</a>
+                                        </li>
+                                        <li><a href="/about/directors-corner/laboratory.html"
+                                                class="gtm-topnav-2">Director's
+                                                Laboratory</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/about/legislative-info/" class="gtm-topnav-1">Legislative Information
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow.png" alt="" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="level-three">
+                                    <ul>
+                                        <li>
+                                            <a href="/about/legislative-info/congress-justification.html"
+                                                class="gtm-topnav-2">Congressional
+                                                Justification</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/legislative-info/congress-testimony.html"
+                                                class="gtm-topnav-2">Congressional
+                                                Testimony</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/legislative-info/clips/index.html"
+                                                class="gtm-topnav-2">CLIPS (Conversations
+                                                Leading to Insights on
+                                                Policy and Science)</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about/legislative-info/legislative-history.html"
+                                                class="gtm-topnav-2">Legislative
+                                                History</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group media-body">
+                                <div class="level-two">
+                                    <a class="gtm-topnav-2" href="/about/strategic-plan/" class="gtm-topnav-1">Strategic
+                                        Plan
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow.png" alt="" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="level-three "> <!-- first-level-three -->
+                                    <ul class="double double-border">
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-directors-foreword.html">NIH
+                                                Minority Health and Health
+                                                Disparities Strategic Plan 2021-2025</a></li>
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-definitions-and-parameters.html">Minority
+                                                Health and Health
+                                                Disparities: Definitions and Parameters</a></li>
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-nih-and-hhs-commitment.html">NIH
+                                                and HHS Commitment</a></li>
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-foundation-for-planning.html">Foundation
+                                                for Planning</a></li>
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-structure.html">Structure
+                                                of This Plan</a></li>
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-categories.html">Strategic
+                                                Plan Categories</a></li>
+                                    </ul>
+                                    <ul class="double">
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-summary-of-categories-and-goals.html">Summary
+                                                of Categories
+                                                and Goals</a></li>
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-scientific-goals-research-strategies-priority-areas.html">Scientific
+                                                Goals, Research Strategies, and Priority Areas</a></li>
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-research-sustaining-activities.html">Research-Sustaining
+                                                Activities: Goals, Strategies, and Priority Areas</a></li>
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-outreach-collaboration-dissemination.html">Outreach,
+                                                Collaboration, and Dissemination: Goals and Strategies</a></li>
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-leap-forward-research-challenge.html">Leap
+                                                Forward Research
+                                                Challenge</a></li>
+                                        <li><a class="gtm-topnav-2"
+                                                href="/about/strategic-plan/nih-strategic-plan-future-plans.html">Future
+                                                Plans</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/about/10-year-anniversary/" class="gtm-topnav-1">NIMHD Celebrates Its
+                                        10 Year Anniversary</a>
+                                </div>
+                                <div class="level-three">
+
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/about/publications/" class="gtm-topnav-1">Publications
+                                        <!--<span class="hidden-sm hidden-xs"><img src="/assets/img/nav-arrow.png" alt=""/></span>-->
+                                    </a>
+                                </div>
+                                <div class="level-three">
+                                    <!-- <ul>
+                                    <li><a href="/about/publications/publication-1.html">Publication 1</a></li>
+                                </ul>-->
+                                </div>
+                            </div>
+
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/about/advisory-council/" class="gtm-topnav-1">Advisory Council
+                                        <!--<span class="hidden-sm hidden-xs"><img src="/assets/img/nav-arrow.png" alt=""/></span>-->
+                                    </a>
+                                </div>
+                                <div class="level-three">
+                                    <!-- <ul>
+                                    <li><a href="/about/advisory-council/nacmhd-members.html">NACMHD Members</a></li>
+                                </ul>-->
+                                </div>
+                            </div>
+
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/about/honors/" class="gtm-topnav-1">Honors
+                                        <!--<span class="hidden-sm hidden-xs"><img src="/assets/img/nav-arrow.png" alt=""/></span>-->
+                                    </a>
+                                </div>
+                                <div class="level-three">
+                                    <!-- <ul>
+                                    <li><a href="/about/advisory-council/nacmhd-members.html">NACMHD Members</a></li>
+                                </ul>-->
+                                </div>
+                            </div>
+
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/about/employment.html" class="gtm-topnav-1">Employment
+                                        Opportunities</a>
+                                </div>
+                                <div class="level-three">
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown yamm-fw col-md-2 no-gutter">
+                    <a href="/programs/" data-toggle="dropdown" class="gtm-topnav dropdown-toggle">Programs
+                        <b class="hidden-lg hidden-md glyphicon glyphicon-menu-down"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="grid-demo">
+                            <div class="menu-group open">
+
+                                <div class="menu-group">
+                                    <div class="level-two">
+                                        <a href="/programs/covid-19/index.html" class="gtm-topnav-1">COVID-19
+                                            Information and Resources</a>
+                                    </div>
+                                    <div class="level-three">
+                                    </div>
+                                </div>
+
+                                <div class="level-two">
+                                    <a href="/programs/extramural/" class="gtm-topnav-1">Extramural Research
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow.png" alt="" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="level-three first-level-three">
+                                    <ul class="double double-border">
+                                        <li>
+                                            <a href="/programs/extramural/research-areas/" class="gtm-topnav-2">Research
+                                                Interest
+                                                Areas</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/programs/extramural/research-centers/index.html"
+                                                class="gtm-topnav-2">Research
+                                                Centers</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/programs/extramural/research-endowment.html"
+                                                class="gtm-topnav-2">Research
+                                                Endowment</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/programs/extramural/community-based-participatory.html"
+                                                class="gtm-topnav-2">Community
+                                                Based Participatory
+                                                Research Program (CBPR)</a>
+                                        </li>
+                                        <!--<li>
+                                                <a href="programs/extramural/domestic-international-research-training.html">Minority Health and Health Disparities Research Training
+                                                    Program (MHRT)</a>
+                                            </li>-->
+
+                                        <li>
+                                            <a href="/programs/extramural/sbir-sttr.html" class="gtm-topnav-2">Small
+                                                Business Program
+                                                (SBIR/STTR)</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/programs/extramural/investigator-initiated-research/"
+                                                class="gtm-topnav-2">Solicited
+                                                and Investigator-Initiated
+                                                Research Project Grants</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/programs/extramural/scientific-conferences.html"
+                                                class="gtm-topnav-2">Scientific
+                                                Conferences</a>
+                                        </li>
+
+
+                                    </ul>
+                                    <ul class="double">
+
+                                        <li>
+                                            <a href="/programs/extramural/training-career-dev/" class="gtm-topnav-2">
+                                                Training and Career
+                                                Development Grant
+                                                Programs</a>
+                                        </li>
+
+                                        <li><a href="/programs/extramural/loan-repayment.html" class="gtm-topnav-2">Loan
+                                                Repayment
+                                                Program (LRP)</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/programs/intramural/" class="gtm-topnav-1">Intramural Research
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow.png" alt="" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="level-three">
+                                    <ul>
+                                        <li>
+                                            <a href="/programs/intramural/scientific-director/index.html"
+                                                class="gtm-topnav-2">About
+                                                the
+                                                Scientific Director</a>
+                                        </li>
+                                        <li>
+                                            <a href="/programs/intramural/mrsp.html" class="gtm-topnav-2">NIH Medical
+                                                Research Scholars
+                                                Program</a>
+                                        </li>
+                                        <li>
+                                            <a href="/programs/intramural/research-innovation-award/index.html"
+                                                class="gtm-topnav-2">Research
+                                                Innovation Award</a>
+                                        </li>
+                                        <li>
+                                            <a href="/programs/intramural/hdig/index.html"
+                                                class="gtm-topnav-2">Health Disparities Interest Group
+                                                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/programs/collab/" class="gtm-topnav-1">NIMHD Collaborations</a>
+                                </div>
+                                <div class="level-three">
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/programs/edu-training/" class="gtm-topnav-1">Education, Training and
+                                        Outreach
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow.png" alt="" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="level-three">
+                                    <ul class="double double-border">
+
+                                        <li>
+                                            <a href="/programs/edu-training/art-challenge/index.html"
+                                                class="gtm-topnav-2">Art
+                                                Challenge</a>
+                                        </li>
+
+                                        <!-- <li>
+                                            <a href="/programs/edu-training/care-network/index.html"
+                                                class="gtm-topnav-2">CARE
+                                                Network</a>
+                                        </li> --> <!-- Archive -->
+
+                                        <li>
+                                            <a href="/programs/edu-training/breathe-better/index.html"
+                                                class="gtm-topnav-2">Breathe
+                                                Better
+                                                Network</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/programs/edu-training/healthy-hearts/index.html"
+                                                class="gtm-topnav-2">Healthy
+                                                Hearts
+                                                Network</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/programs/edu-training/debut/index.html" class="gtm-topnav-2">DEBUT
+                                                Challenge</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/programs/edu-training/hmi/index.html" class="gtm-topnav-2">Healthy
+                                                Mind
+                                                Initiative</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/programs/edu-training/science-day/index.html"
+                                                class="gtm-topnav-2">Science Day
+                                                for
+                                                Students at NIH</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/programs/edu-training/hdri/"
+                                                class="gtm-topnav-2">NIMHD
+                                                Health Disparities
+                                                Research Institute</a>
+                                        </li>
+                                        <!--<li>
+                                            <a href="/programs/edu-training/fuelup60/" class="gtm-topnav-2">Fuel Up to
+                                                Play 60 en
+                                                Espanol</a>
+                                        </li>
+                                        <li>
+                                            <a href="/programs/edu-training/byomm/" class="gtm-topnav-2">Brother, You're
+                                                on My Mind</a>
+                                        </li>-->
+                                    </ul>
+                                    <ul class="double">
+
+					<li>
+                                            <a href="/programs/edu-training/fuelup60/" class="gtm-topnav-2">Fuel Up to
+                                                Play 60 en
+                                                Espanol</a>
+                                        </li>
+                                        <li>
+                                            <a href="/programs/edu-training/byomm/" class="gtm-topnav-2">Brother, You're
+                                                on My Mind</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="/programs/edu-training/nmhm/" class="gtm-topnav-2">Celebrating
+                                                National Minority
+                                                Health Month</a>
+                                        </li>
+                                        <li>
+                                            <a href="/programs/edu-training/language-access/"
+                                                class="gtm-topnav-2">Reaching People
+                                                in
+                                                Multiple Languages</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                        </li>
+                    </ul>
+                </li>
+                <!--new-->
+                <li class="dropdown yamm-right funding-opp-menu col-md-3 no-gutter">
+                    <a href="/funding/nimhd-funding/" data-toggle="dropdown" class="gtm-topnav dropdown-toggle">Funding
+                        Opportunities
+                        <b class="hidden-lg hidden-md glyphicon glyphicon-menu-down"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="grid-demo">
+                            <div class="menu-group media-body">
+                                <div class="level-two">
+                                    <a href="/funding/nimhd-funding" class="gtm-topnav-1">NIMHD Funding
+                                        Opportunities
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow.png" alt="" />
+                                        </span>
+                                    </a>
+                                </div>
+
+                                <div class="level-three first-level-three">
+                                    <ul>
+                                        <li><a href="/funding/nimhd-funding/funding-strategy.html"
+                                                class="gtm-topnav-2">Funding
+                                                Strategy</a></li>
+                                        <li>
+                                            <a href="/funding/nimhd-funding/active_foa.html" class="gtm-topnav-2">Active
+                                                Funding
+                                                Opportunities</a>
+                                        </li>
+                                        <li>
+                                            <a href="/funding/nimhd-funding/expired_foa.html"
+                                                class="gtm-topnav-2">Expired Funding
+                                                Opportunities</a>
+                                        </li>
+                                        <li>
+                                            <a href="/funding/nimhd-funding/notices.html"
+                                                class="gtm-topnav-2">Notices</a>
+                                        </li>
+                                        <li>
+                                            <a href="/funding/nimhd-funding/webinars.html"
+                                                class="gtm-topnav-2">Technical
+                                                Assistance
+                                                Webinars</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="level-three first-level-three">
+                                </div>-->
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/funding/approved-concepts/index.html" class="gtm-topnav-1">Approved
+                                        Research Concepts
+                                        <!--<span class="hidden-sm hidden-xs"><img src="/assets/img/nav-arrow.png" alt=""/></span>-->
+                                    </a>
+                                </div>
+                                <div class="level-three">
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/funding/nih.html" class="gtm-topnav-1">NIH Funding Opportunities</a>
+                                </div>
+                                <div class="level-three">
+                                </div>
+                            </div>
+                            <!--menu-group-->
+
+                        </li>
+                    </ul>
+                </li>
+                <!--/new-->
+                <!--new-->
+                <li class="dropdown yamm-right col-md-3 no-gutter">
+                    <a href="/news-events/" data-toggle="dropdown" class="gtm-topnav dropdown-toggle">News and
+                        Events
+                        <b class="hidden-lg hidden-md glyphicon glyphicon-menu-down"></b>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li class="grid-demo">
+                            <div class="menu-group media-body">
+                                <div class="level-two">
+                                    <a href="/news-events/news-releases/" class="gtm-topnav-1">
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow-l.png" alt="" />
+                                        </span>News Releases</a>
+                                </div>
+                                <div class="level-three first-level-three">
+                                    <ul>
+                                        <li>
+                                            <a href="/news-events/news-releases#2020" class="gtm-topnav-2">News Releases
+                                                - 2020</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/news-releases/2019" class="gtm-topnav-2">News Releases
+                                                - 2019</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/news-releases/2018" class="gtm-topnav-2">News Releases
+                                                - 2018</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/news-releases/2017" class="gtm-topnav-2">News Releases
+                                                - 2017</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/news-events/news-releases/2016" class="gtm-topnav-2">News Releases
+                                                - 2016</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/news-releases/2015" class="gtm-topnav-2">News Releases
+                                                - 2015</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/news-releases/2014" class="gtm-topnav-2">News Releases
+                                                - 2014</a>
+                                        </li>
+                                        <!--<li>
+                                                <a href="/news-events/news-releases/2013">News Releases - 2013</a>
+                                            </li>
+                                            <li>
+                                                <a href="/news-events/news-releases/2012">News Releases - 2012</a>
+                                            </li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/news-events/in-the-news" class="gtm-topnav-1">
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow-l.png" alt="" />
+                                        </span> NIMHD in the News</a>
+                                </div>
+                                <div class="level-three">
+                                    <ul>
+                                        <li>
+                                            <a href="/news-events/in-the-news/2020" class="gtm-topnav-2">NIMHD in the
+                                                News - 2020</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/in-the-news/2019" class="gtm-topnav-2">NIMHD in the
+                                                News - 2019</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/in-the-news/2018" class="gtm-topnav-2">NIMHD in the
+                                                News - 2018</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/in-the-news/2017" class="gtm-topnav-2">NIMHD in the
+                                                News - 2017</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/in-the-news/2016" class="gtm-topnav-2">NIMHD in the
+                                                News - 2016</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/in-the-news/2015" class="gtm-topnav-2">NIMHD in the
+                                                News - 2015</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/in-the-news/2014" class="gtm-topnav-2">NIMHD in the
+                                                News - 2014</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/news-events/conferences-events" class="gtm-topnav-1">Conferences and
+                                        Events</a>
+                                </div>
+                                <div class="level-three">
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/news-events/features" class="gtm-topnav-1">
+                                        <span class="hidden-sm hidden-xs">
+                                            <img src="/assets/img/nav-arrow-l.png" alt="" />
+                                        </span>Features</a>
+                                </div>
+                                <div class="level-three">
+                                    <ul>
+                                        <li>
+                                            <a href="/news-events/features/community-health/index.html"
+                                                class="gtm-topnav-2">Community
+                                                Health and Population
+                                                Sciences</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/features/clinical-health-services/index.html"
+                                                class="gtm-topnav-2">Clinical
+                                                and Health Services
+                                                Research</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/features/biological-behavioral-siences/index.html"
+                                                class="gtm-topnav-2">Integrative
+                                                Biological and
+                                                Behavioral Sciences</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/features/intramural-research/index.html"
+                                                class="gtm-topnav-2">Intramural
+                                                Research Program</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/features/training-workforce-dev/index.html"
+                                                class="gtm-topnav-2">Training
+                                                and Diverse Workforce
+                                                Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="/news-events/features/inside-nimhd/index.html"
+                                                class="gtm-topnav-2">Inside
+                                                NIMHD</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="http://nimhd.blogs.govdelivery.com/" class="gtm-topnav-1">Blog</a>
+                                </div>
+                                <div class="level-three">
+                                </div>
+                            </div>
+
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/news-events/research-spotlights/" class="gtm-topnav-1">Research
+                                        Spotlights</a>
+                                </div>
+                                <div class="level-three">
+                                </div>
+                            </div>
+
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/news-events/enewsletters/index.html" class="gtm-topnav-1">e-Newsletter</a>
+                                </div>
+                                <div class="level-three">
+                                </div>
+                            </div>
+
+                            <!--<div class="menu-group">
+                                    <div class="level-two">
+                                        <a href="/news-events/grantees/index.html">Grantee Recognition</a>
+                                    </div>
+                                    <div class="level-three">
+                                    </div>
+                                </div>-->
+
+                            <!--menu-group-->
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown yamm-right col-md-2 no-gutter">
+                    <a href="/resources/" data-toggle="dropdown" class="gtm-topnav dropdown-toggle">Resources</a>
+                    <ul class="dropdown-menu dropdown-menu-right second">
+                        <li class="grid-demo">
+
+                            <div class="menu-group media-body">
+                                <div class="level-two">
+                                    <a href="/resources/hd-pulse.html" class="gtm-topnav-1">HDPulse</a>
+                                </div>
+                            </div>
+
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/resources/understanding-health-disparities/" class="gtm-topnav-1">Understanding Health
+                                        Disparities</a>
+                                </div>
+                            </div>
+
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/resources/applicants.html" class="gtm-topnav-1">For Research
+                                        Applicants</a>
+                                </div>
+                            </div>
+
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/resources/grantees.html" class="gtm-topnav-1">For Research
+                                        Grantees</a>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/resources/research-training.html" class="gtm-topnav-1">Research for
+                                        Training Programs</a>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/resources/reports-data.html" class="gtm-topnav-1">Reports and Data
+                                        Resources</a>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/resources/health-info.html" class="gtm-topnav-1">Health Information
+                                        for the Public</a>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                            <div class="menu-group">
+                                <div class="level-two">
+                                    <a href="/resources/science-edu.html" class="gtm-topnav-1">Science Education</a>
+                                </div>
+                            </div>
+                            <!--menu-group-->
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--slinky mobile menu-->
+<nav id="mobileNav" class="navbar navbar-default hidden-lg hidden-md">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"
+            aria-expanded="false" aria-controls="menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="text">menu</span>
+        </button>
+        <a class="navbar-brand gtm-header-home" href="/">
+            <img src="/assets/img/logo.png" alt="National Institutes of Miniority Health and Disparities"
+                class="mobile-logo img-responsive">
+        </a>
+    </div>
+    <!--navbar-header-->
+    <div id="menu" class="slinky-menu collapse">
+        <ul>
+            <li>
+                <a href="#">About</a>
+                <ul>
+                    <li>
+                        <a href="/about/" class="gtm-topnav">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="child">Overview</a>
+                        <ul>
+                            <li>
+                                <a href="/about/overview/" class="gtm-topnav-1">Overview</a>
+                            </li>
+                            <li>
+                                <a href="/about/overview/mission-visioning.html" class="child gtm-topnav-2">Mission and
+                                    Vision</a>
+                            </li>
+                            <li>
+                                <a href="/about/overview/scientific-advancement.html"
+                                    class="child gtm-topnav-2">Scientific
+                                    Advancement Plan</a>
+                            </li>
+                            <li>
+                                <a href="/about/overview/science-visioning/" class="child gtm-topnav-2">Science
+                                    Visioning</a>
+                            </li>
+                            <li>
+                                <a href="/about/overview/research-framework/" class="child gtm-topnav-2">Research
+                                    Framework</a>
+                            </li>
+                            <li>
+                                <a href="/about/overview/org-structure/" class="child gtm-topnav-2">Organizational
+                                    Structure</a>
+                            </li>
+                            <li>
+                                <a href="/about/overview/staff-directory.html" class="child gtm-topnav-2">Staff
+                                    Directory</a>
+                            </li>
+                            <li>
+                                <a href="/about/overview/history/" class="child gtm-topnav-2">History</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="child">Director's Corner</a>
+                        <ul>
+                            <li>
+                                <a href="/about/directors-corner/" class="gtm-topnav-1">Director's Corner</a>
+                            </li>
+                            <li>
+                                <a href="/about/directors-corner/about.html" class="child gtm-topnav-2">About the
+                                    Director</a>
+                            </li>
+                            <li>
+                                <a href="/about/directors-corner/message.html" class="child gtm-topnav-2">Director's
+                                    Message</a>
+                            </li>
+                            <li>
+                                <a href="/about/directors-corner/news.html" class="child gtm-topnav-2">News Mentions</a>
+                            </li>
+                            <li>
+                                <a href="/about/directors-corner/presentations.html"
+                                    class="child gtm-topnav-2">Presentations</a>
+                            </li>
+                            <li>
+                                <a href="/about/directors-corner/pubs.html" class="child gtm-topnav-2">Selected
+                                    Publications</a>
+                            </li>
+                            <li>
+                                <a href="/about/directors-corner/laboratory.html" class="child gtm-topnav-2">Director's
+                                    Laboratory</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="child">Legislative Information</a>
+                        <ul>
+                            <li>
+                                <a href="/about/legislative-info/" class="gtm-topnav-1">Legislative Information</a>
+                            </li>
+                            <li>
+                                <a href="/about/legislative-info/congress-justification.html"
+                                    class="child gtm-topnav-2">Congressional
+                                    Justification</a>
+                            </li>
+                            <li>
+                                <a href="/about/legislative-info/congress-testimony.html"
+                                    class="child gtm-topnav-2">Congessional
+                                    Testimony</a>
+                            </li>
+                            <li>
+                                <a href="/about/legislative-info/clips/index.html" class="child gtm-topnav-2">CLIPS
+                                    (Conversations Leading to
+                                    Insights on Policy and Science)</a>
+                            </li>
+                            <li>
+                                <a href="/about/legislative-info/legislative-history.html"
+                                    class="child gtm-topnav-2">Legislative
+                                    History</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="child gtm-topnav-2" href="#" class="child">Strategic Plan</a>
+                        <ul>
+                            <li>
+                                <a class="child gtm-topnav-2" href="/about/strategic-plan/"
+                                    class="gtm-topnav-1">Strategic Plan</a>
+                            </li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-directors-foreword.html">NIH
+                                    Minority Health and Health
+                                    Disparities Strategic Plan 2021-2025</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-definitions-and-parameters.html">Minority
+                                    Health and Health
+                                    Disparities: Definitions and Parameters</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-nih-and-hhs-commitment.html">NIH
+                                    and HHS Commitment</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-foundation-for-planning.html">Foundation
+                                    for Planning</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-structure.html">Structure
+                                    of This Plan</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-categories.html">Strategic
+                                    Plan Categories</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-summary-of-categories-and-goals.html">Summary
+                                    of Categories
+                                    and Goals</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-scientific-goals-research-strategies-priority-areas.html">Scientific
+                                    Goals, Research Strategies, and Priority Areas</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-research-sustaining-activities.html">Research-Sustaining
+                                    Activities: Goals, Strategies, and Priority Areas</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-outreach-collaboration-dissemination.html">Outreach,
+                                    Collaboration, and Dissemination: Goals and Strategies</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-leap-forward-research-challenge.html">Leap
+                                    Forward Research
+                                    Challenge</a></li>
+                            <li><a class="child gtm-topnav-2"
+                                    href="/about/strategic-plan/nih-strategic-plan-future-plans.html">Future
+                                    Plans</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/about/10-year-anniversary/" class="child gtm-topnav-1">NIMHD Celebrates Its 10 Year
+                            Anniversary</a>
+                    </li>
+                    <li>
+                        <a href="/about/publications/" class="child gtm-topnav-1">Publications</a>
+                    </li>
+
+                    <li>
+                        <a href="/about/advisory-council/index.html" class="child gtm-topnav-1">Advisory Council</a>
+                    </li>
+
+                    <li>
+                        <a href="/about/honors/index.html" class="child gtm-topnav-1">Honors</a>
+                    </li>
+
+                    <li>
+                        <a href="/about/employment.html" class="child gtm-topnav-1">Employment Opportunities</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Programs</a>
+
+                <ul>
+                    <li>
+                        <a href="/programs/" class="gtm-topnav">Programs</a>
+                    </li>
+
+                    <li>
+                        <a href="programs/covid-19/index.html" class="child gtm-topnav-1">COVID-19 Information and
+                            Resources</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="child">Extramural Research</a>
+
+                    <ul>
+
+                      <li>
+                        <a href="/programs/extramural/" class="gtm-topnav-1">Extramural Research</a>
+                      </li>
+                    
+                    
+                      <li>
+                        <a href="/programs/extramural/research-areas/" class="child gtm-topnav-2">Research Interest Areas</a>
+                      </li>
+
+
+                      <li>
+                        <a href="/programs/extramural/research-centers/index.html" class="child gtm-topnav-2">Research Centers</a>
+                      </li>
+
+                      
+                      <li>
+                        <a href="/programs/extramural/research-endowment.html" class="child gtm-topnav-2">Research Endowment</a>
+                      </li>
+
+                      
+                      <li>
+                        <a href="/programs/extramural/community-based-participatory.html" class="child gtm-topnav-2">Community Based Participatory Research Program (CBPR)</a>
+                      </li>
+
+
+                      <li>
+                        <a href="/programs/extramural/sbir-sttr.html" class="child gtm-topnav-2">Small Business Innovation Research/Small Business Technology Transfer Program (SBIR/STTR)</a>
+                      </li>
+                      
+
+                      <li>
+                        <a href="/programs/extramural/investigator-initiated-research/" class="child gtm-topnav-2">Solicited and Investigator-Initiated Research Project Grants</a>
+                      </li>
+                      
+                      
+                      <li>
+                        <a href="/programs/extramural/scientific-conferences.html" class="child gtm-topnav-2">Scientific Conferences</a>
+                      </li>
+
+
+                      <li>
+                        <a href="/programs/extramural/training-career-dev/" class="child gtm-topnav-2"> Training and Career Development Grant Programs</a>
+                      </li>
+
+
+                      <li>
+                        <a href="/programs/extramural/loan-repayment.html" class="child gtm-topnav-2">Loan Repayment Program (LRP)</a>
+                      </li>
+
+                     
+                      <li>
+                        <a href="#menu" class="top btn">Top of Menu</a>
+                      </li>
+                      
+                     </ul>
+                    </li>
+
+
+                   <li>
+                        <a href="#" class="child">Intramural Research</a>
+                        
+                    <ul>
+
+                      <li>
+                        <a href="/programs/intramural/" class="gtm-topnav-1">Intramural Research</a>
+                      </li>
+                            
+                      
+                      <li>
+                        <a href="/programs/intramural/scientific-director/index.html" class="child gtm-topnav-2">About the Scientific Director</a>
+                      </li>
+                      
+                      
+                      <li>
+                        <a href="/programs/intramural/mrsp.html" class="child gtm-topnav-2">NIH Medical Research Scholars Program</a>
+                      </li>
+                      
+                      
+                      <li>
+                        <a href="/programs/intramural/research-innovation-award/index.html" class="child gtm-topnav-2">Research
+                                    Innovation Award</a>
+                      </li>
+
+                     </ul>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="/programs/collab/" class="child gtm-topnav-1">NIMHD Collaborations</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#" class="child">Education, Training and Outreach</a>
+                        
+                        <ul>
+
+
+                            <li>
+                                <a href="/programs/edu-training/index.html" class="gtm-topnav-1">Education, Training and Outreach</a>
+                            </li>
+
+                                
+                            <li>
+                                <a href="/programs/edu-training/art-challenge/index.html" class="child gtm-topnav-2">Art Challenge</a>
+                            </li>
+
+
+                            <li>
+                                <a href="/programs/edu-training/care-network/index.html" class="child gtm-topnav-2">CARE Network</a>
+                            </li>
+
+
+                            <li>
+                                <a href="/programs/edu-training/breathe-better/index.html" class="child gtm-topnav-2">Breathe Better Network</a>
+                            </li>
+
+
+                            <li>
+                                <a href="/programs/edu-training/healthy-hearts/index.html" class="child gtm-topnav-2">Healthy Hearts Network</a>
+                            </li>
+
+
+                            <li>
+                                <a href="/programs/edu-training/debut/index.html" class="child gtm-topnav-2">DEBUT Challenge</a>
+                            </li>
+
+
+                            <li>
+                                <a href="/programs/edu-training/hmi/index.html" class="child gtm-topnav-2">Healthy Mind Initiative</a>
+                            </li>
+                        
+
+                            <li>
+                                <a href="programs/edu-training/science-day/index.html" class="child gtm-topnav-2">Science Day for Students at NIH</a>
+                            </li>
+
+
+                            <li>         
+                                <a href="/programs/edu-training/hdri/" class="child gtm-topnav-2">NIMHD Health Disparities Research Institute</a>
+                            </li>
+                        
+
+                            <li>
+                                <a href="/programs/edu-training/fuelup60/" class="child gtm-topnav-2">Fuel Up to Play 60 en Español</a>
+                            </li>
+                        
+                        
+                            <li>
+                                <a href="/programs/edu-training/byomm/" class="child gtm-topnav-2">Brother, You're on My Mind</a>
+                            </li>
+                        
+
+                            <li>
+                                <a href="/programs/edu-training/nmhm/" class="child gtm-topnav-2">Celebrating National Minority Health Month</a>
+                            </li>
+                        
+
+                            <li>
+                                <a href="/programs/edu-training/language-access/" class="child gtm-topnav-2">Reaching People in Multiple Languages</a>
+                            </li>
+                        
+                       </ul>
+
+                    </li>
+                  </ul>
+
+
+            </li>
+            <li>
+                <a href="#">Funding Opportunities</a>
+                <ul>
+                    <li>
+                        <a href="/funding/nimhd-funding/" class="gtm-topnav">Funding Opportunities</a>
+                    </li>
+                    <li>
+                        <a href="#" class="child">NIMHD Funding Opportunities</a>
+                        <ul>
+                            <li>
+                                <a href="/funding/nimhd-funding/" class="gtm-topnav-1">NIMHD Funding Opportunities</a>
+                            </li>
+                            <li>
+                                <a href="/funding/nimhd-funding/funding-strategy.html"
+                                    class="child gtm-topnav-2">Funding
+                                    Strategy</a>
+                            </li>
+                            <li>
+                                <a href="/funding/nimhd-funding/active_foa.html" class="child gtm-topnav-2">Active
+                                    Funding
+                                    Opportunities</a>
+                            </li>
+                            <li>
+                                <a href="/funding/nimhd-funding/expired_foa.html" class="child gtm-topnav-2">Expired
+                                    Funding
+                                    Opportunities</a>
+                            </li>
+                            <li>
+                                <a href="/funding/nimhd-funding/notices.html" class="child gtm-topnav-2">Notices</a>
+                            </li>
+                            <li>
+                                <a href="/funding/nimhd-funding/webinars.html" class="child gtm-topnav-2">Technical
+                                    Assistance
+                                    Webinars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/funding/approved-concepts/index.html" class="child gtm-topnav-1">Approved Research
+                            Concepts</a>
+                    </li>
+                    <li>
+                        <a href="/funding/nih.html" class="child gtm-topnav-1">NIH Funding Opportunities</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">News and Events</a>
+                <ul>
+                    <li>
+                        <a href="/news-events/" class="gtm-topnav">News and Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="child">News Releases</a>
+                        <ul>
+                            <li>
+                                <a href="/news-events/news-releases/" class="gtm-topnav-1">News Releases</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/news-releases#2020" class="child gtm-topnav-2">2020</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/news-releases/2019/" class="child gtm-topnav-2">2019</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/news-releases/2018/" class="child gtm-topnav-2">2018</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/news-releases/2017/" class="child gtm-topnav-2">2017</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/news-releases/2016/" class="child gtm-topnav-2">2016</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/news-releases/2015/" class="child gtm-topnav-2">2015</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/news-releases/2014/" class="child gtm-topnav-2">2014</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/news-releases/2013/" class="child gtm-topnav-2">2013</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/news-releases/2012/" class="child gtm-topnav-2">2012</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="child">NIMHD in the News</a>
+                        <ul>
+                            <li>
+                                <a href="/news-events/in-the-news/" class="gtm-topnav-1">NIMHD in the News</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/in-the-news/2020/" class="child gtm-topnav-2">2020</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/in-the-news/2019/" class="child gtm-topnav-2">2019</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/in-the-news/2018/" class="child gtm-topnav-2">2018</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/in-the-news/2017/" class="child gtm-topnav-2">2017</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/in-the-news/2016/" class="child gtm-topnav-2">2016</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/in-the-news/2015/" class="child gtm-topnav-2">2015</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/in-the-news/2014/" class="child gtm-topnav-2">2014</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="/news-events/conferences-events/" class="child gtm-topnav-1">Conferences &amp;
+                            Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="child">Features</a>
+                        <ul>
+                            <li>
+                                <a href="/news-events/features/" class="gtm-topnav-1">Features</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/features/community-health/index.html"
+                                    class="child gtm-topnav-2">Community
+                                    Health and
+                                    Population Sciences</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/features/clinical-health-services/index.html"
+                                    class="child gtm-topnav-2">Clinical and Health
+                                    Services Research</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/features/biological-behavioral-siences/index.html"
+                                    class="child gtm-topnav-2">Integrative
+                                    Biological and Behavioral Sciences</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/features/intramural-research/index.html"
+                                    class="child gtm-topnav-2">Intramural Research
+                                    Program</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/features/training-workforce-dev/index.html"
+                                    class="child gtm-topnav-2">Training and Diverse
+                                    Workforce Development</a>
+                            </li>
+                            <li>
+                                <a href="/news-events/features/inside-nimhd/index.html"
+                                    class="child gtm-topnav-2">Inside
+                                    NIMHD</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="http://nimhd.blogs.govdelivery.com/" class="child gtm-topnav-1">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/news-events/research-spotlights/index.html" class="child gtm-topnav-1">Research
+                            Spotlights</a>
+                    </li>
+                    <li>
+                        <a href="/news-events/enewsletters/index.html" class="child gtm-topnav-1">e-Newsletter</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Resources</a>
+                <ul>
+                    <li>
+                        <a href="/resources/" class="gtm-topnav">Resources</a>
+                    </li>
+                    <li>
+                        <a href="/resources/hd-pulse.html" class="child gtm-topnav-1">HDPulse</a>
+                    </li>
+                    <li>
+                        <a href="/resources/understanding-health-disparities/" class="child gtm-topnav-1">Understanding Health
+                            Disparities</a>
+                    </li>
+                    <li>
+                        <a href="/resources/applicants.html" class="child gtm-topnav-1">For Research Applicants</a>
+                    </li>
+                    <li>
+                        <a href="/resources/grantees.html" class="child gtm-topnav-1">For Research Grantees</a>
+                    </li>
+                    <li>
+                        <a href="/resources/research-training.html" class="child gtm-topnav-1">Research and Training
+                            Programs</a>
+                    </li>
+                    <li>
+                        <a href="/resources/reports-data.html" class="child gtm-topnav-1">Reports and Data Resources</a>
+                    </li>
+                    <li>
+                        <a href="/resources/health-info.html" class="child gtm-topnav-1">Health Information for the
+                            Public</a>
+                    </li>
+                    <li>
+                        <a href="/resources/science-edu.html" class="child gtm-topnav-1">Science Education</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!--menu-->
+</nav>
+<!--/slinky mobile menu-->
+    <div class="container">
+        <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+	<input id="affiliate" name="affiliate" type="hidden" value="nimhd" />
+	<label for="query">Enter search</label>
+	<input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" placeholder="What can we help you find?" />
+	<button class="btn btn-default gtm-search" type="submit"><img src="/assets/img/search.png" alt=" "></button>
+</form>
+        <!--heading ends-->
+        <!--body content begins-->
+        <ul class="breadcrumbs">
+            <li><a href="/">Home</a></li>
+<li><a href="/about/">About</a></li>
+
+<li><a href="/about/overview/">Overview</a></li>
+            <li><a href="/about/overview/scientific-advancement.html">Scientific Advancement Plan</a></li>
+        </ul>
+        <div class="row home">
+            <div class="col-lg-12">
+                <div class="secondary-header box-shadow">
+                    <img src="/images/shutterstock_399074143_2400x628.jpg" class="img-responsive" alt=" ">
+                </div>
+                <!--secondary-header-->
+            </div>
+            <!--col-lg-12-->
+        </div>
+        <!--/row-->
+        <div class="row home">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                <div class="side-nav box-shadow">
+                    <ul>
+                        <li><a href="/about/overview/">Overview</a>
+<ul class="children">
+	<li><a href="/about/overview/mission-vision.html">Mission and Vision</a></li>
+	<li><a href="/about/overview/scientific-advancement.html">Scientific Advancement Plan</a></li>
+    <li><a href="/about/overview/science-visioning/">Science Visioning</a></li>    
+    <li><a href="/about/overview/research-framework/">Research Framework</a></li>
+   <!-- <li><a href="../../../about/overview/strategic-plan.html">Strategic Plan</a></li> -->
+	
+    <li><a href="/about/overview/org-structure/">Organizational Structure</a></li>
+    <li><a href="/about/overview/staff-directory.html">Staff Directory</a></li>
+    <li><a href="/about/overview/history/">History</a></li>
+</ul>
+</li>
+<li><a href="/about/directors-corner/">Director's Corner</a></li>
+<li><a href="/about/legislative-info/">Legislative Information</a></li>
+<li><a href="/about/10-year-anniversary/">NIMHD Celebrates Its 10 Year Anniversary</a></li>
+<li><a href="/about/publications/">Publications</a></li>
+<li><a href="/about/advisory-council/">Advisory Council</a></li>
+<li><a href="/about/employment.html">Employment Opportunities</a></li>
+                        <!-- InstanceEndEditable -->
+                    </ul>
+                </div>
+                <!--side-nav-->
+            </div>
+            <!--col-lg-3-->
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="main-content box-shadow secondary">
+                    <div class="body-content">
+                        <!-- InstanceBeginEditable name="Body_Content02" -->
+                        <h1>Scientific Advancement Plan</h1> 
+                        <p>The NIMHD Scientific Advancement Plan was established to improve health equity by advancing the science of minority health and health disparities.</p> 
+
+                        <ul>
+                            <li><a href="#why_this_plan_is_needed">Why this plan is needed</a></li>
+                            <li><a href="#what_nimhd_is_doing">What NIMHD is doing</a></li>
+                            <li><a href="#key_activities">Key activities </a></li>
+                        </ul>                        
+
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <div class="embed-video"><iframe src="https://www.youtube.com/embed/EuO-S59z7Og?rel=0&showinfo=0" frameborder="0" class="youtube-embed" allowfullscreen title="YouTube embedded video: NIMHD Scientific Advancement Plan"> YouTube embed video: <a href="https://www.youtube.com/embed/EuO-S59z7Og">https://www.youtube.com/embed/TI5MHAwlOGw</a></iframe></div>
+                        </div>
+
+                        <h2 id="why_this_plan_is_needed">Why this plan is needed</h2>
+                        <p>We are in the midst of a biomedical revolution.  With the emergence of <a href="https://www.genome.gov/27527652/genomic-medicine-and-health-care/" target="_blank">genomic science</a>, <a href="https://ghr.nlm.nih.gov/primer/precisionmedicine/definition" target="_blank">precision medicine</a>, health information technologies and other research advances, biomedical and behavioral research hold greater promise today than ever before to improve our nation's health.  As the lead institute at NIH charged to conduct and support research on minority health and health disparities, NIMHD is working to align its research programs and activities to ensure the benefits of these advances reach all populations equally.</p>
+
+                        <p>The Scientific Advancement Plan outlines NIMHD's approach to champion the fields of minority health and health disparities research to both contribute to and benefit from these advances in the interest of health disparity populations and to foster the next generation of researchers to lead discoveries that will promote health equity.</p>
+
+                        <h2 id="what_nimhd_is_doing">What NIMHD is doing</h2>
+                        <p>The fields of minority health and health disparities research are dynamic and complex, and they demand that we keep up with all biomedical advances.  To help meet these demands, NIMHD is redefining, reorganizing, and establishing new research programs and activities to:</p>
+
+                        <ul>
+                            <li>Strengthen research in minority health and health disparities, from understanding etiology to improving methods and developing interventions</li>
+                            <li>Increase opportunities for investigator-initiated research</li>
+                            <li>Strengthen the evaluation and reporting of minority health and health disparities research</li>
+                            <li>Support the expansion of workforce diversity</li>
+                        </ul>
+
+                        <h2 id="key_activities">Key activities</h2>
+                        <p>NIMHD is creating a transformative research agenda that will define the minority health and health disparities research fields for the next decade. Key activities include:</p>
+                        <ol>
+                            <li>Implementing NIMHD's <a href="/about/overview/science-visioning/">science visioning</a> recommendations</li>
+                            <li>Establishing NIMHD's <a href="research-framework/nimhd-framework.html">Research Framework</a></li>
+                            <li>Establishing <a href="/programs/extramural/research-areas/">three scientific program areas</a></li>
+                            <li>Enhancing opportunities for early-stage investigators</li>
+                            
+                            <li>Leveraging the <a href="https://www.nimhd.nih.gov/programs/edu-training/hd-research-institute/hdri_logon.asp">NIMHD Health Disparities Research Institute</a> to cultivate the next generation</li>
+                            
+                            <!--<li>Restructuring the <a href="/programs/edu-training/hd-research-institute/hdri_logon.asp">NIMHD Health Disparities Research Institute</a></li>-->
+                            <li>Establishing <a href="/programs/extramural/investigator-initiated-research/">investigator-initiated research</a></li>
+                          <li>Expanding <a href="/programs/extramural/training-career-dev/">research career training programs</a> such as career awards (K) and fellowships (F)</li>
+                            <li>Establishing NIMHD’s <a href="https://hdpulse.nimhd.nih.gov/">HD<em>Pulse</em>: An Ecosystem of Health Disparities and Minority Health Resources</a></li>
+                          <li>Redefining and strengthening legacy research programs:
+                                <ul>
+                                    <li>The <a href="/programs/extramural/research-centers/specialized-coe/index.html">Centers of Excellence program</a> creates collaborative hubs for minority health and health disparities research among research institutions and local communities, which will now support early-career scientists as well as established investigators</li>
+                                    <li>The <a href="/programs/extramural/coe/rcmi.html">Research Centers in Minority Institutions program</a>, builds research infrastructure to train a new generation of researchers from underrepresented populations, which will now increase training for R01 investigator status</li>
+                                    <li>The <a href="/programs/extramural/research-endowment.html">Research Endowment program</a>, which provides funds to endowments of academic institutions to help those organizations build research infrastructure and recruit, train, and maintain a diverse student body and faculty</li>
+                                </ul>                            
+                            </li>
+                        </ol>
+                        <!-- InstanceEndEditable -->
+                    </div>
+                    <span class="bord"></span>
+                    <div class="right-sidebar">
+                        <h3>Learn More</h3>
+ <!--<p><a href="/programs/intramural/">NIMHD Intramural Research Program</a></p>-->
+ 
+ <p><a href="https://nimhd.nih.gov/news-events/features/inside-nimhd/scientific-advancement-plan.html">Advancing the Science of Minority Health and Health Disparities</a></p> 
+
+ <p><a href="/docs/about-nimhd-factsheet.pdf">Download NIMHD Fact Sheet</a></p> 
+ <p>Read about what is happening at NIMHD at the <a href="/news-events/">News and Events</a> section</p>
+  
+ 
+ <h3>Contact Us</h3>
+ <p>Tel: 301-402-1366</p>
+ <p>Email: <a href="mailto:NIMHDinfo@NIMHD.NIH.gov">NIMHDinfo@NIMHD.NIH.gov</a></p>
+ 
+ <h3>Stay Connected with Us:</h3>
+ <p><a href="https://www.facebook.com/NIMHD" target="_blank">Facebook</a></p>
+ <p><a href="https://twitter.com/NIMHD" target="_blank">Twitter</a></p>
+ <p><a href="https://www.linkedin.com/company/nimhd-nih/">LinkedIn</a></p>
+ <p><a href="https://public.govdelivery.com/accounts/USNIHNIMHD/subscriber/new" target="_blank">Subscribe to Email Updates</a>
+                    </div>
+                </div>
+                <!--body-content-->
+            </div>
+            <!--col-lg-9-->
+        </div>
+        <!--row-->
+        <div class="row home">
+  <div class="footer">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+      <div class="social-media box-shadow">
+        <div class="heading">
+          <img src="/assets/img/staying-connected.png" alt="" class="icon">
+          <h2>Staying Connected</h2>
+        </div>
+        <!--heading-->
+        <ul class="col-xs-12">
+
+          <div style="padding-left: 13px">
+            <div style="float:left; margin: 0px;  width: 33%">
+              <li><a href="https://www.facebook.com/NIMHD" class="gtm-footer-social" target="_blank"><img
+                    src="/assets/img/facebook.png" alt=""><br />Facebook</a>
+                <a href="/disclaimer/" title="External link"><img src="/assets/img/exit-icon.png" data-pin-nopin="true"
+                    alt=""></a>
+              </li>
+            </div>
+
+            <div style="float:left; margin: 0px;  width: 33%">
+              <li><a href="https://twitter.com/NIMHD" class="gtm-footer-social" target="_blank"><img
+                    src="/assets/img/twitter.png" alt=""><br />Twitter</a>
+                <a href="/disclaimer/" title="External link"><img src="/assets/img/exit-icon.png" data-pin-nopin="true"
+                    alt=""></a>
+              </li>
+            </div>
+
+            <div style="float:left; margin: 0px;  width: 33%">
+              <li><a href="https://www.linkedin.com/company/nimhd-nih/" class="gtm-footer-social" target="_blank"><img
+                    src="/assets/img/linkedin.png" alt=""><br />Linkedin</a>
+                <a href="/disclaimer/" title="External link"><img src="/assets/img/exit-icon.png" data-pin-nopin="true"
+                    alt=""></a>
+              </li>
+            </div>
+          </div>
+
+
+          <div style="padding-left: 13px">
+            <div style="float:left; margin: 0px;  width: 33%">
+              <li><a href="https://www.youtube.com/channel/UC24wExXe2ynSniF-iKYTQaw" class="gtm-footer-social"
+                  target="_blank"><img src="/assets/img/youtube.png" alt=""><br />
+                  Youtube</a>
+                <a href="/disclaimer/" title="External link"><img src="/assets/img/exit-icon.png" data-pin-nopin="true"
+                    alt=""></a></li>
+            </div>
+
+            <div style="float:left; margin: 0px;  width: 33%">
+              <li><a href="https://public.govdelivery.com/accounts/USNIHNIMHD/subscriber/new" class="gtm-footer-social"
+                  target="_blank"><img src="/assets/img/newsletter.png" alt=""><br />
+                  Email Subscription</a>
+                <a href="/disclaimer/" title="External link"><img src="/assets/img/exit-icon.png" data-pin-nopin="true"
+                    alt=""></a></li>
+            </div>
+
+
+            <div style="float:left; margin: 0px;  width: 33%">
+              <li><a href="/contact/"><img src="/assets/img/contact.png" alt=""><br />Contact Us</a></li>
+            </div>
+
+          </div>
+
+        </ul>
+
+
+      </div>
+      <!--social-media-->
+    </div>
+    <!--col-lg-4-->
+
+    <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+      <div class="site-map box-shadow">
+        <ul>
+          <li><a class="gtm-footer-nav" href="/">Home &nbsp;<img src="/assets/img/footer-arrow-right.png" alt=""></a>
+          </li>
+          <li><a class="gtm-footer-nav" href="/about/">About &nbsp;<img src="/assets/img/footer-arrow-right.png"
+                alt=""></a></li>
+          <li><a class="gtm-footer-nav" href="/programs/">Programs &nbsp;<img src="/assets/img/footer-arrow-right.png"
+                alt=""></a></li>
+          <li><a class="gtm-footer-nav" href="/funding/">Funding Opportunities &nbsp;<img
+                src="/assets/img/footer-arrow-right.png" alt=""></a></li>
+          <li><a class="gtm-footer-nav" href="/news-events/">News &amp; Events &nbsp;<img
+                src="/assets/img/footer-arrow-right.png" alt=""></a></li>
+          <li><a class="gtm-footer-nav" href="/resources/">Resources &nbsp;<img src="/assets/img/footer-arrow-right.png"
+                alt=""></a></li>
+          <li><a class="gtm-footer-nav" href="/sitemap/">Site Map &nbsp;<img src="/assets/img/footer-arrow-right.png"
+                alt=""></a></li>
+          <li><a class="gtm-footer-nav" href="/contact/">Contact Us &nbsp;<img src="/assets/img/footer-arrow-right.png"
+                alt=""></a></li>
+          <li><a class="gtm-footer-nav" href="/foia/">FOIA &nbsp;<img src="/assets/img/footer-arrow-right.png"
+                alt=""></a></li>
+
+
+          <li><a class="gtm-footer-nav" href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" target="_blank">HHS Vulnerability Disclosure &nbsp;<img
+            src="/assets/img/footer-arrow-right.png" alt=""></a></li>
+
+
+          <li><a class="gtm-footer-nav" href="/disclaimer/">Privacy/Disclaimer/Accessibility Policy &nbsp;<img
+                src="/assets/img/footer-arrow-right.png" alt=""></a></li>
+          <li><a class="gtm-footer-nav" href="/viewers-and-players/">Viewers &amp; Players &nbsp;<img
+                src="/assets/img/footer-arrow-right.png" alt=""></a></li>
+        </ul>
+      </div>
+      <!--sitemap-->
+    </div>
+    <!--col-lg-8-->
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-footer">
+      <div class="purple-bar box-shadow"><!-- http://www.hhs.gov/ -->
+        <a class="gtm-footer-nav" href="https://www.hhs.gov/" target="_blank">U.S. Department of Health &amp; Human Services</a> |
+        <a class="gtm-footer-nav" href="https://www.nih.gov/" target="_blank">National Institutes of Health</a> |
+        <a class="gtm-footer-nav" href="https://www.usa.gov/" target="_blank">USA.gov</a>
+      </div>
+    </div>
+
+  </div>
+  <!--footer-->
+</div>
+<!--body content ends-->
+
+</div>
+<!--/container-->
+        <!-- Bootstrap core JavaScript-->
+<script src="/assets/js/jquery/dist/jquery.js"></script>
+<script src="/assets/js/jquery.slinky.js"></script>
+<script src="/assets/js/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assets/js/bicubicInterpolation.js"></script>
+<script src="/assets/js/jquery.basictable.js"></script>
+<script src="/assets/js/functions.js"></script>
+
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css"></script>
+<script>
+$(function() {
+    window.prettyPrint && prettyPrint()
+    $(document).on('click', '.yamm .dropdown-menu', function(e) {
+        e.stopPropagation()
+    })
+})
+
+$(document).ready(function() {
+
+    /**To be DESKTOP ONLY functionality**/
+
+    $('.level-two').hover(function() {
+        $('.level-three').removeClass('open');
+        $('.menu-group').removeClass('open');
+        $(this).parent().addClass('open');
+        $(this).parent().find('.level-three').addClass('open');
+    });
+
+
+    $('a.dropdown-toggle').click(function(event) {
+        if ($(window).width() > 990) {
+            var link_location = $(this).attr('href');
+            window.location.href = link_location;
+        }
+    });
+
+    $('.dropdown').hover(function(event) {
+            if ($(window).width() > 990) {
+                $('.dropdown').each(function() {
+                    $(this).removeClass('open');
+                });
+                $(this).addClass('open');
+            }
+        },
+        function() {
+            $('.dropdown').each(function() {
+                $(this).removeClass('open');
+            });
+            $('.level-three').removeClass('open');
+            $('.menu-group').removeClass('open');
+        });
+
+    /**End DESKTOP ONLY functionality**/
+
+    $('.dropdown-toggle').click(function() {
+        $('.menu-group').removeClass('open');
+
+        $('.level-three').removeClass('open');
+
+    });
+
+});
+
+</script>
+<script>
+$(document).ready(function() {
+    $('#menu').slinky();
+});
+
+</script>
+<!-- tweet and share :)-->
+<script>
+! function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, "script", "twitter-wjs");
+
+</script>
+<script src="/assets/js/jquery.mobile.custom.min.js"></script>
+
+
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,17 @@
+Content-Length: 181
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Location: https://www.bing.com:443/?toWww=1&redig=D3E0C68401B3415A8E2BE387261A6388
+Vary: Accept-Encoding
+Set-Cookie: SUID=M; domain=bing.com; expires=Fri, 24-Dec-2021 20:05:20 GMT; path=/; HttpOnly
+Set-Cookie: MUID=0F37442C88BE669F01CA553A894567AF; domain=bing.com; expires=Tue, 17-Jan-2023 20:05:20 GMT; path=/; secure; SameSite=None
+Set-Cookie: MUIDB=0F37442C88BE669F01CA553A894567AF; expires=Tue, 17-Jan-2023 20:05:20 GMT; path=/; HttpOnly
+Set-Cookie: _EDGE_S=F=1&SID=0F759FC3EBB96C5D3E608ED5EA426DE0; domain=bing.com; path=/; HttpOnly
+Set-Cookie: _EDGE_V=1; domain=bing.com; expires=Tue, 17-Jan-2023 20:05:20 GMT; path=/; HttpOnly
+X-Snr-Routing: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Cache: CONFIG_NOCACHE
+Accept-Ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-Msedge-Ref: Ref A: B92A1F80F8754DA6B93706D30699FE78 Ref B: LAXEDGE1715 Ref C: 2021-12-23T20:05:20Z
+Date: Thu, 23 Dec 2021 20:05:20 GMT

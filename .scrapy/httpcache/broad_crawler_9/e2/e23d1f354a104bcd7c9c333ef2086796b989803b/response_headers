@@ -1,0 +1,15 @@
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy: base-uri 'none'; object-src 'none'; report-uri https://bandcamp.com/api/cspreport/1/violation; script-src http: https: 'nonce-SC/O4yHiW1T/qpPTXper7g==' 'report-sample' 'strict-dynamic'
+Referrer-Policy: no-referrer-when-downgrade
+Link: <https://balaclavarecords.bandcamp.com/album/outro-volume>;   rel="canonical"
+Set-Cookie: BACKENDID=red-jqbc-16; path=/; Secure
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:09:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17522-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640290155.273931,VS0,VE1148
+Vary: Accept-Encoding

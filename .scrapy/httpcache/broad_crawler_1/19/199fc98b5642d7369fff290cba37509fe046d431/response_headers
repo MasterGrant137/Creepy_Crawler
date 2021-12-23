@@ -1,0 +1,16 @@
+Date: Thu, 23 Dec 2021 19:46:20 GMT
+Content-Type: text/plain; charset=utf-8
+Cf-Ray: 6c24186c5a1e52b9-LAX
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Link: <https://plos.org/wp-json/>; rel="https://api.w.org/"
+Vary: Accept-Encoding
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Ki-Edge: v=16.7
+X-Content-Type-Options: nosniff
+X-Edge-Location-Klb: 1
+X-Kinsta-Cache: HIT
+X-Robots-Tag: noindex, follow
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

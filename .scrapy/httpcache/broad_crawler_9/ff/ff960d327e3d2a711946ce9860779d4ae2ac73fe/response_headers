@@ -1,0 +1,14 @@
+Content-Length: 198
+Server: nginx/1.15.8
+Content-Type: text/plain
+Last-Modified: Tue, 08 Jun 2021 17:00:35 GMT
+Etag: "167-5c44418b6b2c0-gzip"
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Cache-Tag: addthis-site
+Surrogate-Key: addthis-site
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Cache-Control: max-age=14400
+Expires: Fri, 24 Dec 2021 00:05:17 GMT
+Date: Thu, 23 Dec 2021 20:05:17 GMT
+Vary: Accept-Encoding

@@ -1,0 +1,15 @@
+Server: nginx
+Date: Thu, 23 Dec 2021 19:46:25 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+X-Powered-By: Express
+X-App-Version: 1.249.0
+X-Dbg-Geo: 54118936
+Set-Cookie: split-v2=3; Max-Age=2592000; Domain=.rambler.ru; Path=/; Expires=Sat, 22 Jan 2022 19:46:25 GMT
+Set-Cookie: ruid=vAsAABHSxGFLN/SnAf/3SQB=; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=.rambler.ru; path=/; Secure; SameSite=None
+Etag: W/"52c-j39Ix7LCQZMl4DNK2IvGWEwPMbk"
+Expires: Fri, 24 Dec 2021 19:46:25 GMT
+Cache-Control: max-age=86400
+Cache-Control: public
+P3P: CP="NON DSP NID ADMa DEVa TAIa PSAa PSDa OUR IND UNI COM NAV"
+Content-Encoding: gzip

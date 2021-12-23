@@ -1,0 +1,19 @@
+Date: Thu, 23 Dec 2021 19:22:59 GMT
+Content-Type: text/plain; charset=utf-8
+Cache-Control: s-maxage=14400, max-age=0
+Etag: W/"9de9da9ad4370b43744edad07cf6f6f3"
+Last-Modified: Wed, 22 Dec 2021 22:32:39 GMT
+Cache-Tag: P-725052,SS-3142748061,PGS-ALL,SW-0
+Content-Security-Policy: upgrade-insecure-requests
+Edge-Cache-Tag: P-725052,SS-3142748061,PGS-ALL,SW-0
+X-Hs-Cf-Cache-Status: REVALIDATED
+X-Hs-Hub-Id: 725052
+X-Hs-Prerendered: Wed, 22 Dec 2021 22:32:39 GMT
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DHTPwd%2FiZQL25fszzSxXcLurD6OYXDeeBMbY7gFAZ4nEYozE4%2FEAhhYNfhBB4M47PXTsyW39%2FYuK%2FDt7r4AFn6NDDoPwHaPgQzL1sk49%2Bpi7ti7vDirO0wdZJjJdBcrFmEDY%2ByoNYg8w"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Set-Cookie: __cfruid=c2fab0bf9a1480336c333a812be72a1c6ec996b9-1640287379; path=/; domain=.www.lead-innovation.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Cf-Ray: 6c23f637e98f52fb-LAX
+Content-Encoding: gzip

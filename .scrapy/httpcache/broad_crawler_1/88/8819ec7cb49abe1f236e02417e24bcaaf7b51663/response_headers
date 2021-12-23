@@ -1,0 +1,24 @@
+Date: Thu, 23 Dec 2021 19:38:08 GMT
+Server: mw1373.eqiad.wmnet
+X-Content-Type-Options: nosniff
+P3P: CP="See https://nqo.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Content-Language: nqo
+Content-Security-Policy-Report-Only: script-src 'unsafe-eval' blob: 'self' meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikivoyage.org *.mediawiki.org 'unsafe-inline' login.wikimedia.org; default-src 'self' data: blob: upload.wikimedia.org https://commons.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikivoyage.org *.mediawiki.org wikimedia.org en.wiktionary.org en.wikibooks.org en.wikiquote.org en.wikisource.org commons.wikimedia.org en.wikinews.org en.wikiversity.org www.mediawiki.org www.wikidata.org species.wikimedia.org incubator.wikimedia.org en.wikivoyage.org api.wikimedia.org wikimania.wikimedia.org login.wikimedia.org; style-src 'self' data: blob: upload.wikimedia.org https://commons.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikivoyage.org *.mediawiki.org wikimedia.org 'unsafe-inline'; object-src 'none'; report-uri /w/api.php?action=cspreport&format=json&reportonly=1
+Vary: Accept-Encoding,Cookie,Authorization
+Last-Modified: Thu, 09 Dec 2021 19:38:08 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Age: 0
+X-Cache: cp4031 miss, cp4030 miss
+X-Cache-Status: miss
+Server-Timing: cache;desc="miss", host;desc="cp4030"
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Report-To: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+Nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=23-Dec-2021;Path=/;HttpOnly;secure;Expires=Mon, 24 Jan 2022 12:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=23-Dec-2021;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Mon, 24 Jan 2022 12:00:00 GMT
+Set-Cookie: GeoIP=US:CA:Indio:33.72:-116.22:v4; Path=/; secure; Domain=.wikipedia.org
+X-Client-Ip: 47.158.19.38
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Accept-Ranges: bytes

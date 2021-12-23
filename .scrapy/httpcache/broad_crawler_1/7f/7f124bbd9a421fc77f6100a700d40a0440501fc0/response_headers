@@ -1,0 +1,16 @@
+Server: nginx
+Date: Thu, 23 Dec 2021 19:23:04 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Cache: GET
+Etag: W/"22e0a-tGdjvIRMuTeOGQi8hTlBUw1ni6U"
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Sm-Log-Id: flb-835469bfc77d53cc30db15808276b556
+Content-Encoding: gzip
+Via: 1.1 google
+Set-Cookie: GCLB=CPT8ydrh3eSoBw; path=/; HttpOnly; expires=Fri, 24-Dec-2021 19:23:03 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

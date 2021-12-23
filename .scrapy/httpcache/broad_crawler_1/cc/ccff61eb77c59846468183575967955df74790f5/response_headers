@@ -1,0 +1,13 @@
+Content-Type: text/html; charset=utf-8
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy-Report-Only: frame-ancestors 'self'; object-src 'none'; report-uri /api/csp-reporting
+X-Hl-Ver: 131797
+Cache-Control: max-age=300, must-revalidate, private
+Set-Cookie: blab=c2b34bdf-bf1c-4f92-a51f-0208757b3fad; Max-Age=315360000; Expires=Sun, 21 Dec 2031 19:46:21 GMT; Secure; SameSite=Lax; Domain=medicalnewstoday.com; Path=/
+Vary: accept-encoding
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 cb7d4a3c5329f4f381e8cdfcd4a3e1e4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C1
+X-Amz-Cf-Id: WyQEJMEe-EGXm45Wfx2oklr122_tyn8NJaw1ZF0HCTeD5elNOxtN_Q==

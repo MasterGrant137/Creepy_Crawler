@@ -1,0 +1,1 @@
+{'url': 'http://abc.com/robots.txt', 'method': 'GET', 'status': 301, 'response_url': 'http://abc.com/robots.txt', 'timestamp': 1640289977.320441}

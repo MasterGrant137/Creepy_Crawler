@@ -1,0 +1,22 @@
+Content-Type: text/html; charset=utf-8
+Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+Etag: W/"3004b-qSIy8oGLj9dkImdl0umOd1B4Bko"
+Expect-Ct: max-age=0
+Referrer-Policy: no-referrer
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 c806365ba43eabe769161a7b339ff969.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: vRIQCVZcCCz-O1HhXE1qv39Ljx4zrG4Dr3nTlVq24b3tT0EmEWOUCQ==

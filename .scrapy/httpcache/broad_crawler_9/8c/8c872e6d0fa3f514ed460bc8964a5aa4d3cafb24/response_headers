@@ -1,0 +1,18 @@
+Server: Server
+Content-Type: text/html;charset=UTF-8
+X-Amz-Rid: 69XEHPP2J8MHYFBK234H
+X-Ua-Compatible: IE=edge
+X-Content-Type-Options: nosniff
+Expires: -1
+X-Xss-Protection: 1;
+Accept-Ch-Lifetime: 86400
+Content-Encoding: gzip
+Content-Language: de-DE
+Pragma: no-cache
+Accept-Ch: ect,rtt,downlink
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Date: Thu, 23 Dec 2021 20:05:18 GMT
+Vary: Accept-Encoding

@@ -1,0 +1,16 @@
+Content-Length: 162766
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/admob_google_com
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="uxe-owners-acl/admob_google_com"
+Report-To: {"group":"uxe-owners-acl/admob_google_com","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/admob_google_com"}]}
+Date: Thu, 23 Dec 2021 20:09:13 GMT
+Expires: Thu, 23 Dec 2021 20:09:13 GMT
+Cache-Control: private, max-age=3000
+Last-Modified: Thu, 09 Dec 2021 05:18:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-Xss-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

@@ -1,0 +1,20 @@
+Content-Type: text/html;charset=UTF-8
+Date: Thu, 23 Dec 2021 18:46:12 GMT
+Access-Control-Allow-Origin: *
+Content-Security-Policy: frame-ancestors  'self' *.espn.com:* *.espnqa.com:* *.espnsb.com *.espn.co.uk *.espndeportes.espn.com *.espn.com.br *.espn.com.mx *.espn.com.ve *.espn.com.ar *.espn.com.co *.espnfc.com.au *.espn.com.au *.espn.in *.espn.com.sg *.espn.cl *.espn.ph *.espn.ph:* *.espn.com.pe *.espn.com.gt *.espn.com.do *.espn.com.ec *.espn.com.uy *.espn.com.pa *.espn.co.cr qa.abcnews.go.com preview.abcnews.go.com abc7ny.com abc7.com *.abcotvssb.com preview.goodmorningamerica.com http://*.espnqa.com:* http://*.espn.com:* *.abcotvssb.com abcnews.go.com abc30.com abc7news.com abc13.com abc7chicago.com 6abc.com abc11.com *.goodmorningamerica.com qa.abc7.com
+Etag: W/"0c6c49b73e9ddef4d4eda8badff99628f3c20961"
+Content-Encoding: gzip
+Via: 1.1 varnish (Varnish/6.0), 1.1 4a7d33ed6e1269d258afa1464fe1d544.cloudfront.net (CloudFront)
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Set-Cookie: edition-view=espn-en-us; path=/; Expires=Thu, 30 Dec 2021 18:46:12 GMT;
+Set-Cookie: connectionspeed=full; path=/; Expires=Thu, 30 Dec 2021 18:46:12 GMT;
+Set-Cookie: edition=espn-en-us; path=/; Expires=Thu, 30 Dec 2021 18:46:12 GMT;
+Set-Cookie: country=us; path=/;
+Set-Cookie: region=ccpa; path=/; Expires=Thu, 30 Dec 2021 18:46:12 GMT;
+Set-Cookie: _dcf=1; path=/; Expires=Thu, 30 Dec 2021 18:46:12 GMT;
+Set-Cookie: SWID=79371F0D-C8B0-4315-C3A1-BCE8A7DCD00A; path=/; Expires=Mon, 23 Dec 2041 18:46:12 GMT; domain=espn.com;
+Cache-Control: max-age=0, must-revalidate
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: 6VgfzAOf1CvcYgsnPCu4mAn5m7TAqsKuSnwwsbVSARhnrQolM4qxCw==

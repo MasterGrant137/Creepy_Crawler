@@ -1,0 +1,12 @@
+Content-Length: 53
+Date: Thu, 23 Dec 2021 20:05:17 GMT
+Content-Type: text/plain; charset=ISO-8859-1
+Server: Apache/2.4
+Last-Modified: Mon, 07 May 2018 20:47:15 GMT
+Etag: "35-56ba3c66534e0"
+Accept-Ranges: bytes
+Cache-Control: max-age=86400
+Expires: Fri, 24 Dec 2021 20:05:17 GMT
+X-Frame-Options: deny
+Content-Security-Policy: frame-ancestors *.berkeley.edu berkeley.edu ;
+Vary: User-Agent

@@ -1,0 +1,18 @@
+Content-Length: 228
+Content-Type: text/plain
+Server: meinheld/0.6.1
+Date: Thu, 23 Dec 2021 20:05:12 GMT
+X-Frame-Options: DENY
+Content-Security-Policy: img-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com data: mozilla.org www.googletagmanager.com www.google-analytics.com adservice.google.com adservice.google.de adservice.google.dk creativecommons.org cdn-3.convertexperiments.com logs.convertexperiments.com images.ctfassets.net ad.doubleclick.net; script-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com tagmanager.google.com www.youtube.com s.ytimg.com cdn-3.convertexperiments.com app.convert.com data.track.convertexperiments.com 1003350.track.convertexperiments.com 1003343.track.convertexperiments.com; child-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com; style-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' app.convert.com; connect-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com logs.convertexperiments.com 1003350.metrics.convertexperiments.com 1003343.metrics.convertexperiments.com sentry.prod.mozaws.net https://accounts.firefox.com/ https://accounts.firefox.com.cn/; frame-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com; default-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com; font-src 'self' assets.getpocket.com
+Cache-Control: max-age=600
+Expires: Thu, 23 Dec 2021 20:15:13 GMT
+X-Clacks-Overhead: GNU Terry Pratchett
+X-Backend-Server: bedrock-prod-web-6ff7588b8d-lxwh4.iowa-a
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Via: 1.1 google, 1.1 192a3b8b8f8d6d8997f0a7df9cf5f1be.cloudfront.net (CloudFront)
+Etag: "8403f96640cf82a8be1216ee0ab8cc59"
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: zivLRTW5jobETtE6Cetneodaxspqj8QlZtent-OlNiVzRLqZ3AM9-g==

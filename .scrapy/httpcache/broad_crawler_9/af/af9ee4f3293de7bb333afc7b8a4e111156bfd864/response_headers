@@ -1,0 +1,8 @@
+Content-Length: 0
+Server: DMS/1.0.42
+Content-Type: text/html
+Strict-Transport-Security: max-age=31708800; includeSubDomains; preload
+Date: Thu, 23 Dec 2021 20:05:12 GMT
+Server-Timing: total;dur=0, dc;desc="ix7"
+Location: https://www.dailymotion.com/robots.txt
+Timing-Allow-Origin: *

@@ -1,0 +1,13 @@
+Content-Length: 241
+Age: 137
+Cache-Control: max-age=900, public
+Content-Type: text/html; charset=iso-8859-1
+Date: Thu, 23 Dec 2021 18:55:19 GMT
+Location: https://www.edi.nih.gov/index.php
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Content-Type-Options: nosniff
+X-Request-Id: v-8e012dd4-6421-11ec-8f90-2baf6d7857e9

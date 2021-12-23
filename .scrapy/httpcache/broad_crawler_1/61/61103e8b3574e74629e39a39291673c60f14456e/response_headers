@@ -1,0 +1,21 @@
+Content-Length: 184
+Content-Type: text/plain; charset=utf-8
+Server: nginx
+Date: Thu, 23 Dec 2021 19:47:32 GMT
+X-Hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+X-Powered-By: WordPress VIP <https://wpvip.com>
+Host-Header: a9130478a60e5f9135f765b23f26593b
+Link: <https://www.thesun.co.uk/wp-json/>; rel="https://api.w.org/"
+X-Rq: lhr3 0 2 9980
+Cache-Control: max-age=300, must-revalidate
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000
+Set-Cookie: nuk_customer_country_code=US; Path=/; Secure; SameSite=None
+Set-Cookie: nuk_customer_region_code=CA; Path=/; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 a18ab1a2e56cae6e1bbaf5b1ee56db86.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX3-C4
+X-Amz-Cf-Id: 5txsPxQLCUNbh7iSe-nAFcs48nphXZMrV1sBP_5oerVQCdjdk-OKuA==
+Age: 1774

@@ -1,0 +1,22 @@
+Server: nginx
+Date: Thu, 23 Dec 2021 19:22:52 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Referrer-Policy: same-origin
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Service-Response-Time: 0.26881
+Content-Language: en
+X-Service: website
+Server-Timing: service;dur=268.81300, backend;dur=334.51735
+Set-Cookie: PHPSESSID=fcfbb1c37c789b7d3b7a12762d07ea39; Path=/; Domain=semrush.com; Expires=Fri, 24 Dec 2021 19:22:52 GMT; HttpOnly; Secure
+Set-Cookie: SSO-JWT=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmY2ZiYjFjMzdjNzg5YjdkM2I3YTEyNzYyZDA3ZWEzOSIsImlhdCI6MTY0MDI4NzM2NywiaXNzIjoic3NvIn0.LWSRw3-rtii8z2w9-WcdgHBGwWFY1-Z01HYzNYx3SYO6U0fp5_WWnSMuB2Tbtjd8Gw2dn3DtoJOt4XwOYKkQCQ; Path=/; Domain=semrush.com; Expires=Fri, 24 Dec 2021 19:22:52 GMT; HttpOnly; Secure
+Set-Cookie: GCLB=CJXM1_bE5_L2Sw; path=/; HttpOnly; expires=Fri, 24-Dec-2021 19:22:52 GMT
+Sm-Log-Id: flb-a9f9cb80d256ce0fd7c7e5a94eae5bb0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache
+Content-Encoding: gzip
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

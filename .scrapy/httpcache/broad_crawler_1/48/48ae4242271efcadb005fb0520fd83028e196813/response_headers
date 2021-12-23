@@ -1,0 +1,19 @@
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Encoding: gzip
+Content-Security-Policy: script-src 'report-sample' 'nonce-tzIWQeosqs+FEwAwovWZVA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DurableDeepLinkUi/cspreport;worker-src 'self',require-trusted-types-for 'script';report-uri /_/DurableDeepLinkUi/cspreport
+Content-Type: text/html; charset=utf-8
+Cross-Origin-Opener-Policy: unsafe-none
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Pragma: no-cache
+Server: ESF
+X-Content-Type-Options: nosniff
+X-Fh-No-Setcookie-Unroll: true
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 19:47:31 GMT
+X-Served-By: cache-bur17545-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640288851.866031,VS0,VE260
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, x-fh-requested-host, accept-encoding

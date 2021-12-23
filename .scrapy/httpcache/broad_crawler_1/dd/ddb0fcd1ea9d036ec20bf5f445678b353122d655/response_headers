@@ -1,0 +1,19 @@
+Content-Length: 1371
+X-Ebay-C-Request-Id: ri=fDQnIUVtJQ9N,rci=d75e52fdb262956a
+Rlogid: t6qjdhwv%3C%3Dosuulgisp%28be4va*w%60ut3540-17de8d4877e-0x102
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+Content-Type: text/plain
+Server: ebay-proxy-server
+X-Envoy-Upstream-Service-Time: 27
+X-Ebay-Pop-Id: UFES2-MRS-dweb-www2
+X-Edgeconnect-Midmile-Rtt: 1
+X-Edgeconnect-Origin-Mex-Latency: 34
+Date: Thu, 23 Dec 2021 19:46:22 GMT
+Vary: Accept-Encoding
+Set-Cookie: ebay=%5Esbf%3D%23%5E;Domain=.ebay.de;Path=/; Secure
+Set-Cookie: dp1=bu1p/QEBfX0BAX19AQA**6587390e^bl/US6587390e^;Domain=.ebay.de;Expires=Sat, 23-Dec-2023 19:46:22 GMT;Path=/; Secure
+Set-Cookie: s=CgAD4ACBhxiOOZThkNDg3N2QxN2QwYTc3ZmQ0ZjQyYTlmZmZmZmI0ZDbTrvA1;Domain=.ebay.de;Path=/; Secure; HttpOnly
+Set-Cookie: nonsession=CgADKACBlhzkOZThkNDg3N2QxN2QwYTc3ZmQ0ZjQyYTlmZmZmZmI0ZDYAywABYcTZFjHmrQC7;Domain=.ebay.de;Expires=Sat, 23-Dec-2023 19:46:22 GMT;Path=/; Secure

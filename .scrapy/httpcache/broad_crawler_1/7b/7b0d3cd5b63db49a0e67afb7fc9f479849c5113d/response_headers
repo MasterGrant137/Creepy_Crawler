@@ -1,0 +1,19 @@
+Content-Length: 0
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 23 Dec 2021 19:46:20 GMT
+Location: https://groups.google.com/my-groups
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Cross-Origin-Resource-Policy: same-site
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/GroupsFrontendRedirectsUi/cspreport
+Content-Security-Policy: script-src 'report-sample' 'nonce-nl4HlGjkJV1NfhK5uuk52A' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/GroupsFrontendRedirectsUi/cspreport;worker-src 'self'
+Cross-Origin-Opener-Policy: same-origin
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=BB6L5H1YTJW9PIpathC5YU9vRw4bURrKKKnjrQkR7eayswYMLp6E49Psb4jw0PQDzTp1EN8_duDbDBtJyrVwuEDbvV3c1sHo35wRPM4H0sqcHyO_EvePk7uwYhhlG1qpKCIYhbGAqbr58BZkRB8-yrVu38usjn_LIRgTttrvyK4; expires=Fri, 24-Jun-2022 19:46:20 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

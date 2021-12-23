@@ -1,0 +1,16 @@
+Content-Length: 134
+Server: nginx
+Date: Thu, 23 Dec 2021 20:05:13 GMT
+Content-Type: text/plain; charset=utf-8
+X-Hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+X-Powered-By: WordPress VIP <https://wpvip.com>
+Host-Header: a9130478a60e5f9135f765b23f26593b
+Link: <https://abril.com.br/wp-json/>; rel="https://api.w.org/"
+X-Rq: bur6 0 4 9980
+Cache-Control: max-age=300, must-revalidate
+Content-Encoding: gzip
+Age: 1062
+X-Cache: hit
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=86400

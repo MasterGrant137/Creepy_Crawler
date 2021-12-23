@@ -1,0 +1,13 @@
+Content-Length: 157
+X-Amz-Id-2: wmLxHt6Pa+HFSug8jSutjiAQaF+TJyJe3fealj25JemoLqSsEpASz1lmR8DAqO/vQSiVC3eU024=
+X-Amz-Request-Id: 0VWM31Z3TVAAWG76
+Last-Modified: Thu, 13 May 2021 13:42:00 GMT
+Etag: "c228cfd36dac6f2e31db230ba11b77de"
+X-Amz-Server-Side-Encryption: AES256
+Accept-Ranges: bytes
+Content-Type: text/plain
+Server: AmazonS3
+Date: Thu, 23 Dec 2021 20:09:15 GMT
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Strict-Transport-Security: max-age=31536000

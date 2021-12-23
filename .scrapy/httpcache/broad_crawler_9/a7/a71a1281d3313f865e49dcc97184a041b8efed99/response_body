@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en" dir="ltr" class="google glue-flexbox spa"  locale="ALL_us" user-region="north-america" path="/how-our-business-works/">
+  <head>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+
+        <title>How Google Works - Google</title>
+
+        <meta name="description" content="How Google Works">
+
+<script type="text/javascript" nonce="EadEu-8WzyIymYDV3hkYEg">
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+   'gtm.blacklist':['customScripts','nonGoogleScripts','nonGooglePixels','customPixels']
+},{
+   'locale_fallback': (document.childNodes[1].attributes.locale || {}).value
+});
+</script>
+<!-- Google Tag Manager -->
+<script nonce="EadEu-8WzyIymYDV3hkYEg">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQZB4J');</script>
+<!-- End Google Tag Manager -->
+<script nonce="EadEu-8WzyIymYDV3hkYEg">
+window.dataLayer.push({
+    event: 'coinToss5050',
+    action: Math.random() > .5 ? 'group1': 'group2'
+});
+</script>
+        <link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500,700,900|Google+Sans+Display:400,500" rel="stylesheet" nonce="EadEu-8WzyIymYDV3hkYEg">
+
+        <link href="/assets-legal/css/main.min.css?cache=5dc7ea6" rel="stylesheet" nonce="EadEu-8WzyIymYDV3hkYEg">
+
+
+      <meta property="og:description" content="How Google Works">
+      <meta property="og:title" content="How Google Works - Google">
+      <meta property="og:image" content="">
+      <meta property="og:image:width" content="">
+      <meta property="og:image:height" content="">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="//www.google.com/how-our-business-works/">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@google">
+      <meta name="twitter:title" content="How Google Works - Google">
+      <meta name="twitter:description" content="">
+      <meta name="twitter:image" content="">
+      <meta property="google:search-sre-monitor" content="ALL_us">
+
+      <link rel="apple-touch-icon" href="https://www.gstatic.com/images/branding/googleg/2x/googleg_standard_color_120dp.png">
+      <link rel="apple-touch-icon-precomposed" href="https://www.gstatic.com/images/branding/googleg/2x/googleg_standard_color_120dp.png">
+
+        <link rel="canonical" href="https://about.google/intl/ALL_us/how-our-business-works/">
+
+      <script nonce="EadEu-8WzyIymYDV3hkYEg">
+(function(){document.documentElement.classList.remove("google");document.documentElement.classList.add("google-js");}).call(window)      </script>
+
+  </head>
+
+  <body data-ng-controller="MainCtrl as mainCtrl">
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQZB4J"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<header
+    class="header"
+    data-about-nav
+    data-ng-class="{'header--dark-bg': navCtrl.navIsDark, 'header--custom-color': navCtrl.navCustomColor, 'header--inactive': navCtrl.navIsFixed}"
+    >
+  <div class="header-inner">
+    <div class="product-logo">
+      <a href="../" 
+          target="_self"
+          aria-label="Google"
+          data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="google logo"
+  data-g-label="header"
+>
+          <svg alt="Google"  class="logo-svg " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 28">
+    <path fill="#4285F4" d="M10.4,21C4.7,21,0,16.2,0,10.5S4.7,0,10.4,0c3.1,0,5.3,1.3,7,2.9l-1.9,2c-1.2-1.2-2.8-2-5-2
+      c-4.1,0-7.3,3.4-7.3,7.6s3.2,7.6,7.3,7.6c2.7,0,4.2-1.1,5.1-2.1c0.8-0.8,1.3-2,1.5-3.8h-6.6V9.3h9.3c0.1,0.5,0.2,1.1,0.2,1.8
+      c0,2.2-0.5,5-2.4,6.9C15.7,20,13.4,21,10.4,21z"/>
+    <path fill="#EA4335" d="M34.2,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S34.2,10.2,34.2,14.1z M31.4,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C29.6,18.2,31.4,16.5,31.4,14.1z"/>
+    <path fill="#FBBC03" d="M48.4,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S48.4,10.2,48.4,14.1z M45.5,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C43.8,18.2,45.5,16.5,45.5,14.1z"/>
+    <path fill="#4285F4" d="M61.7,7.8V20c0,5-2.7,7-6.1,7c-3.2,0-5-2.2-5.8-4l2.5-1.1c0.4,1.1,1.5,2.4,3.3,2.4c2.1,0,3.4-1.4,3.4-3.9v-1
+      h-0.1c-0.6,0.8-1.8,1.6-3.4,1.6c-3.3,0-6.2-2.9-6.2-6.8s2.9-6.7,6.2-6.7c1.6,0,2.7,0.7,3.4,1.6h0.1V7.8H61.7z M59.2,14.1
+      c0-2.4-1.5-4.1-3.5-4.1c-1.9,0-3.5,1.7-3.5,4.1s1.5,4.1,3.5,4.1C57.7,18.2,59.2,16.5,59.2,14.1z"/>
+    <path fill="#34A853" d="M66.4,1.1v19.8h-2.8V1.1H66.4z"/>
+    <path fill="#EA4335" d="M77.7,16.3l2.2,1.6c-0.7,1.1-2.5,3-5.5,3c-3.7,0-6.5-2.9-6.5-6.7c0-4,2.8-6.7,6.2-6.7c3.4,0,5,2.8,5.6,4.3
+      l0.3,0.7l-8.8,3.7c0.7,1.4,1.7,2,3.2,2S76.9,17.5,77.7,16.3z M70.8,14l5.8-2.5c-0.4-0.8-1.3-1.5-2.4-1.5C72.7,10,70.7,11.3,70.8,14
+      z"/>
+  </svg>
+
+      </a>
+    </div>
+    <button class="nav-toggle-button outside" data-about-nav-toggle aria-label="Navigation menu toggle"
+    
+      data-g-category="header"
+      data-g-action="navigation"
+      data-g-label="Navigation menu toggle"
+        data-g-module-type="Main Nav"
+>
+        <svg alt="Open navigation menu"  class="menu-bars" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+  </svg>
+  <img alt="Open navigation menu"  class="menu-bars" src="/assets-legal/img/menu.png?cache=38c6aed" height="24" width="24">
+
+        <svg alt="Close navigation menu"  class="menu-close" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+  </svg>
+  <img alt="Close navigation menu"  class="menu-close" src="/assets-legal/img/close.png?cache=5628868" height="24" width="24">
+
+    </button>
+
+    <nav class="top-nav">
+      <div class="product-logo">
+        <a href="../"
+            target="_self"
+            data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="google logo"
+  data-g-label="header"
+>
+            <svg alt="Google"  class="logo-svg " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 28">
+    <path fill="#4285F4" d="M10.4,21C4.7,21,0,16.2,0,10.5S4.7,0,10.4,0c3.1,0,5.3,1.3,7,2.9l-1.9,2c-1.2-1.2-2.8-2-5-2
+      c-4.1,0-7.3,3.4-7.3,7.6s3.2,7.6,7.3,7.6c2.7,0,4.2-1.1,5.1-2.1c0.8-0.8,1.3-2,1.5-3.8h-6.6V9.3h9.3c0.1,0.5,0.2,1.1,0.2,1.8
+      c0,2.2-0.5,5-2.4,6.9C15.7,20,13.4,21,10.4,21z"/>
+    <path fill="#EA4335" d="M34.2,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S34.2,10.2,34.2,14.1z M31.4,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C29.6,18.2,31.4,16.5,31.4,14.1z"/>
+    <path fill="#FBBC03" d="M48.4,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S48.4,10.2,48.4,14.1z M45.5,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C43.8,18.2,45.5,16.5,45.5,14.1z"/>
+    <path fill="#4285F4" d="M61.7,7.8V20c0,5-2.7,7-6.1,7c-3.2,0-5-2.2-5.8-4l2.5-1.1c0.4,1.1,1.5,2.4,3.3,2.4c2.1,0,3.4-1.4,3.4-3.9v-1
+      h-0.1c-0.6,0.8-1.8,1.6-3.4,1.6c-3.3,0-6.2-2.9-6.2-6.8s2.9-6.7,6.2-6.7c1.6,0,2.7,0.7,3.4,1.6h0.1V7.8H61.7z M59.2,14.1
+      c0-2.4-1.5-4.1-3.5-4.1c-1.9,0-3.5,1.7-3.5,4.1s1.5,4.1,3.5,4.1C57.7,18.2,59.2,16.5,59.2,14.1z"/>
+    <path fill="#34A853" d="M66.4,1.1v19.8h-2.8V1.1H66.4z"/>
+    <path fill="#EA4335" d="M77.7,16.3l2.2,1.6c-0.7,1.1-2.5,3-5.5,3c-3.7,0-6.5-2.9-6.5-6.7c0-4,2.8-6.7,6.2-6.7c3.4,0,5,2.8,5.6,4.3
+      l0.3,0.7l-8.8,3.7c0.7,1.4,1.7,2,3.2,2S76.9,17.5,77.7,16.3z M70.8,14l5.8-2.5c-0.4-0.8-1.3-1.5-2.4-1.5C72.7,10,70.7,11.3,70.8,14
+      z"/>
+  </svg>
+
+        </a>
+      </div>
+
+      <ul>
+          <li class="_-home"
+              >
+              <a href="../"
+                  title="About"
+                  target="_self"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="home"
+  data-g-label="header"
+>
+                About
+              </a>
+            </li>
+          <li class="_-google-in-america"
+              >
+              <a href="../google-in-america/"
+                  title="Google in the U.S."
+                  target="_self"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="google-in-america"
+  data-g-label="header"
+>
+                Google in the U.S.
+              </a>
+            </li>
+          <li class="_-products"
+              >
+              <a href="../products/"
+                  title="Products"
+                  target="_self"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="products"
+  data-g-label="header"
+>
+                Products
+              </a>
+            </li>
+          <li class="_-commitments"
+              >
+              <a href="../commitments/"
+                  title="Commitments"
+                  target="_self"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="commitments"
+  data-g-label="header"
+>
+                Commitments
+              </a>
+            </li>
+          <li class="_-stories"
+              >
+              <a href="../stories/"
+                  title="Stories"
+                  target="_self"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="stories"
+  data-g-label="header"
+>
+                Stories
+              </a>
+            </li>
+          <li class="_-keyword"
+              >
+              <a href="https://www.blog.google/?utm_source=about.google&amp;utm_medium=referral&amp;utm_campaign=nav-the-keyword"
+                  title="The Keyword"
+                  target="_blank"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="keyword"
+  data-g-label="header"
+>
+                The Keyword
+              </a>
+            </li>
+      </ul>
+
+    </nav>
+
+  </div>
+</header>
+        <main class="static-content-view" data-ui-view="main">
+  <div class="modular-page modular-page-how-google-works"
+      data-page-title="How Google Works - Google"
+      data-page-description="How Google Works"
+      data-track-page-load
+>
+      
+<section class="module-spacer">
+  <div class="module-spacer--medium module-spacer--color-white"></div>
+  <div class="module-spacer--medium module-spacer--color-white"></div>
+</section>      
+<div class="module-markdown-block h-c-page _module-markdown-block-how-google-works-header" data-section-id="how-google-works-header">
+  <div class="h-c-grid">
+    <div class="h-c-grid__col-s--4 h-c-grid__col--offset-1 h-c-grid__col--10 h-c-grid__col-l--offset-2 h-c-grid__col-l--8 h-c-grid__col-xl--offset-2 h-c-grid__col-xl--8">
+      <h1>How our business works</h1>
+    </div>
+  </div>
+</div>      
+<section class="module-spacer">
+  <div class="module-spacer--extra-small module-spacer--color-white"></div>
+  <div class="module-spacer--extra-small module-spacer--color-white"></div>
+</section>      
+<div class="module-markdown-block h-c-page _module-markdown-block-how-google-works-content" data-section-id="how-google-works-content">
+  <div class="h-c-grid">
+    <div class="h-c-grid__col-s--4 h-c-grid__col--offset-1 h-c-grid__col--10 h-c-grid__col-l--offset-2 h-c-grid__col-l--8 h-c-grid__col-xl--offset-2 h-c-grid__col-xl--8">
+      <h4>Ads help fund our products</h4>
+<p>Our mission to organize the world’s information and make it universally accessible and useful has always been core to everything we do at Google.  It’s why we make so many of our products, like Search, Maps, and Gmail, accessible and free of charge to everyone.    </p>
+<p>Advertising is what makes it possible to offer our products to everyone. While we sell things like Pixel phones, apps on the Play Store, YouTube subscriptions, and tools for businesses, we make the vast majority of our money from advertising. </p>
+<p>So how does advertising at Google work? We make money selling ad space to businesses -- big and small, global and local -- in two key ways.  First, businesses can reach potential customers by showing ads on a range of Google products such as Search, Maps, and YouTube.   </p>
+<p>Second, businesses can buy ad space that we show on sites and apps that partner with us, like news publications and blogs. In this case, most of the money goes to the partner and helps fund their content. So ads not only help support Google but also many other websites and creators.</p>
+<p>Ultimately, we earn most of our money by showing ads alongside relevant Search results on Google.com. If you’re interested, you can learn more about <a href="https://howwemakemoney.withgoogle.com/">how we make money with advertising</a>.</p>
+<h4>We don’t sell your personal information to anyone</h4>
+<p>We use your personal information to make our products more helpful to you. It’s how we can autocomplete your searches, get you home faster with Maps, or show you more useful ads based on your interests.  But we never sell your personal information to anyone and you can use many of our products without signing in or saving any personal information at all.  </p>
+<p>When we show ads, advertisers pay us either for the placement of an ad -- like a banner at the top of a web page -- or for how an ad actually performs -- like when someone clicks on it.  Advertisers do not pay us for personal information, such as your name or email, and we never share that information with advertisers, <a href="https://policies.google.com/privacy?hl=en-US#whycollect">unless you ask us to</a>.  We also never use your emails, documents, photos, or sensitive information like race, religion, or sexual orientation, to personalize ads to you. We share reports with our advertisers to help them  understand the performance of their ads, but we do so without revealing any of your personal information.  At every point in the process of showing you ads, we keep your personal information protected with <a href="https://safety.google/security/security-leadership/">industry-leading security technologies</a>.</p>
+<h4>Your data, your choice</h4>
+<p>When it comes to privacy, we know one size doesn’t fit all.  That’s why we build <a href="https://safety.google/privacy/privacy-controls/">powerful, easy-to-use privacy controls</a> into your <a href="https://myaccount.google.com/">Google Account</a> and directly into our products so you can choose the privacy settings that are right for you. </p>
+<p>When we show you ads we give you transparency and controls so you can make informed decisions.  If you’re curious why you’re seeing a given ad, you can select <a href="https://support.google.com/accounts/answer/1634057">Why this ad</a> for more information. If you no longer find a specific ad relevant, you can <a href="https://support.google.com/ads/answer/2662922">mute it</a>. You can use <a href="https://adssettings.google.com/authenticated">Ad Settings</a> to control the information about you that’s used to show ads. And if you don’t want to see personalized ads at all, you can <a href="https://adssettings.google.com/authenticated">turn them off</a> at any time.  </p>
+<p>Because of advertising, we’re able to offer our products to users around the world free of charge, helping people find answers and get things done.  But, when you use our products you trust us with your personal information.  That’s why we never sell your personal information and why we give you powerful privacy controls.  It’s a responsibility that comes with creating products that are accessible for everyone, everywhere.</p>
+    </div>
+  </div>
+</div>  </div>
+        </main>
+
+<div class="cap"
+    data-about-footer
+    data-ng-class="{'footer--hidden': footerCtrl.footerHidden}"
+    data-ng-cloak="">
+  <a href="#" class="scroll-to-top" data-scroll
+      
+    data-track-event
+    data-track-event-category="about us"
+    data-track-event-action="back-to-top"
+    data-track-event-label="/intl/ALL_us/how-our-business-works/index.html"
+>
+      Back to top   <svg alt=""  class="scroll-to-top-icon" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 20 20">
+    <g stroke="none" stroke-width="1" fill="inherit">
+      <circle fill="inherit" cx="9" cy="9" r="9"></circle>
+      <polygon fill="#fff" points="3 9 4.0575 10.0575 8.25 5.8725 8.25 15 9.75 15 9.75 5.8725 13.935 10.065 15 9 9 3"></polygon>
+    </g>
+  </svg>
+
+  </a>
+</div>
+
+<footer class="footer"
+    data-about-footer
+    data-ng-class="{'footer--hidden': footerCtrl.footerHidden}"
+    data-ng-cloak="">
+  <div class="main">
+    <div class="main-inner">
+      <section class="social">
+        <div class="social-inner">
+          <h5>Follow us</h5>
+          <ul>
+              <li>
+                <a href="https://instagram.com/google/"
+                    target="_blank"
+                    aria-label="Instagram"
+                    data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="social follow - instagram"
+  data-g-label="footer"
+>
+                        <svg alt="Instagram"  class="" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000">
+    <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+  </svg>
+
+
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/Google"
+                    target="_blank"
+                    aria-label="YouTube"
+                    data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="social follow - youtube"
+  data-g-label="footer"
+>
+                      <svg alt="YouTube"  class="" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000">
+  <path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+</svg>
+
+
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/google"
+                    target="_blank"
+                    aria-label="Twitter"
+                    data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="social follow - twitter"
+  data-g-label="footer"
+>
+                        <svg alt="Twitter"  class="" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000">
+    <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/>
+  </svg>
+
+
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/Google"
+                    target="_blank"
+                    aria-label="Facebook"
+                    data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="social follow - facebook"
+  data-g-label="footer"
+>
+                        <svg alt="Facebook"  class="" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000">
+    <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/>
+  </svg>
+
+
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/google"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                    data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="social follow - linkedin"
+  data-g-label="footer"
+>
+                        <svg alt="LinkedIn"  class="" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000">
+    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+  </svg>
+
+
+                </a>
+              </li>
+          </ul>
+        </div>
+  <div class="language-selector">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95a15.65 15.65 0 00-1.38-3.56A8.03 8.03 0 0118.92 8zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.987 7.987 0 015.08 16zm2.95-8H5.08a7.987 7.987 0 014.33-3.56A15.65 15.65 0 008.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 01-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/>
+  </svg>
+
+      <a class="language-selector--lang" target="_self" href="/intl/es_us/how-our-business-works/"
+      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="language selector - español"
+  data-g-label="footer"
+>Español</a>
+  </div>
+      </section>
+      <section class="sitemap">
+        <ul class="cols-row footer-links glue-zippy-set-single"
+            id="footer-sitemap-links">
+            <li id="footer-company-resources" class="glue-zippy glue-a-zippy--v-smooth-expand">
+              <h4 class="glue-zippy-btn">Company resources
+                  <svg alt=""  class="icon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="currentcolor"/>
+  </svg>
+
+              </h4>
+              <div class="glue-zippy-content">
+                <ul class="links-list">
+
+
+
+<li>
+  <a href="../contact-google/"
+      class="footer-link"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - contact-us"
+  data-g-label="footer"
+>
+Contact us
+  </a>
+</li>
+
+
+<li>
+  <a href="https://support.google.com/?hl=en/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - help-center"
+  data-g-label="footer"
+>
+Help center
+  </a>
+</li>
+
+
+<li>
+  <a href="../locations/"
+      class="footer-link"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - locations"
+  data-g-label="footer"
+>
+Locations
+  </a>
+</li>
+
+
+<li>
+  <a href="https://careers.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - careers"
+  data-g-label="footer"
+>
+Careers
+  </a>
+</li>
+
+
+<li>
+  <a href="https://www.blog.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - blog"
+  data-g-label="footer"
+>
+Blog
+  </a>
+</li>
+
+
+<li>
+  <a href="https://www.blog.google/press/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - press-resources"
+  data-g-label="footer"
+>
+Press resources
+  </a>
+</li>
+
+
+<li>
+  <a href="https://abc.xyz/investor/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - investor-relations"
+  data-g-label="footer"
+>
+Investor relations
+  </a>
+</li>
+
+
+<li>
+  <a href="../brand-resource-center/"
+      class="footer-link"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - brand-resource-center"
+  data-g-label="footer"
+>
+Brand Resource Center
+  </a>
+</li>                </ul>
+              </div>
+            </li>
+            <li id="footer-featured-products" class="glue-zippy glue-a-zippy--v-smooth-expand">
+              <h4 class="glue-zippy-btn">Featured products
+                  <svg alt=""  class="icon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="currentcolor"/>
+  </svg>
+
+              </h4>
+              <div class="glue-zippy-content">
+                <ul class="links-list">
+
+
+
+<li>
+  <a href="https://ads.google.com/intl/ALL_us/home/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - ads"
+  data-g-label="footer"
+>
+Google Ads
+  </a>
+</li>
+
+
+<li>
+  <a href="https://www.android.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - android"
+  data-g-label="footer"
+>
+Android
+  </a>
+</li>
+
+
+<li>
+  <a href="https://www.google.com/chrome/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - chrome"
+  data-g-label="footer"
+>
+Chrome
+  </a>
+</li>
+
+
+<li>
+  <a href="https://cloud.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-cloud"
+  data-g-label="footer"
+>
+Google Cloud
+  </a>
+</li>
+
+
+<li>
+  <a href="https://edu.google.com?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-for-education"
+  data-g-label="footer"
+>
+Google for Education
+  </a>
+</li>
+
+
+<li>
+  <a href="https://www.google.com/gmail/about/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - gmail"
+  data-g-label="footer"
+>
+Gmail
+  </a>
+</li>
+
+
+<li>
+  <a href="https://www.google.com/maps/about/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-maps"
+  data-g-label="footer"
+>
+Google Maps
+  </a>
+</li>
+
+
+<li>
+  <a href="https://www.google.com/photos/about/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-photos"
+  data-g-label="footer"
+>
+Google Photos
+  </a>
+</li>
+
+
+<li>
+  <a href="https://play.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-play"
+  data-g-label="footer"
+>
+Google Play
+  </a>
+</li>
+
+
+<li>
+  <a href="https://shopping.google.com/?nord=1?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-shopping"
+  data-g-label="footer"
+>
+Google Shopping
+  </a>
+</li>
+
+
+<li>
+  <a href="https://www.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-search"
+  data-g-label="footer"
+>
+Google Search
+  </a>
+</li>
+
+
+<li>
+  <a href="https://smallbusiness.withgoogle.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-for-small-business"
+  data-g-label="footer"
+>
+Google for Small Business
+  </a>
+</li>
+
+
+<li>
+  <a href="https://store.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-store"
+  data-g-label="footer"
+>
+Google Store
+  </a>
+</li>
+
+
+<li>
+  <a href="https://workspace.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-workspace"
+  data-g-label="footer"
+>
+Google Workspace
+  </a>
+</li>
+
+
+<li>
+  <a href="https://www.youtube.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - product-youtube"
+  data-g-label="footer"
+>
+YouTube
+  </a>
+</li>
+
+
+<li>
+  <a href="../products/#all-products/"
+      class="footer-link"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - all-products"
+  data-g-label="footer"
+>
+View all products
+  </a>
+</li>                </ul>
+              </div>
+            </li>
+            <li id="social-responsibility" class="glue-zippy glue-a-zippy--v-smooth-expand">
+              <h4 class="glue-zippy-btn">Responsibility
+                  <svg alt=""  class="icon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="currentcolor"/>
+  </svg>
+
+              </h4>
+              <div class="glue-zippy-content">
+                <ul class="links-list">
+
+
+
+<li>
+  <a href="https://www.google.com/accessibility/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - accessibility"
+  data-g-label="footer"
+>
+Accessibility
+  </a>
+</li>
+
+
+<li>
+  <a href="https://crisisresponse.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - crisis-response"
+  data-g-label="footer"
+>
+Crisis response
+  </a>
+</li>
+
+
+<li>
+  <a href="https://wellbeing.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - digital-wellbeing"
+  data-g-label="footer"
+>
+Digital wellbeing
+  </a>
+</li>
+
+
+<li>
+  <a href="https://diversity.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - diversity"
+  data-g-label="footer"
+>
+Diversity &amp; inclusion
+  </a>
+</li>
+
+
+<li>
+  <a href="https://www.google.org/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - google-dot-org"
+  data-g-label="footer"
+>
+Google.org
+  </a>
+</li>
+
+
+<li>
+  <a href="https://grow.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - grow-with-google"
+  data-g-label="footer"
+>
+Grow with Google
+  </a>
+</li>
+
+
+<li>
+  <a href="../human-rights/"
+      class="footer-link"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - human-rights"
+  data-g-label="footer"
+>
+Human rights
+  </a>
+</li>
+
+
+<li>
+  <a href="https://learning.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - learning"
+  data-g-label="footer"
+>
+Learning
+  </a>
+</li>
+
+
+<li>
+  <a href="https://safety.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - safety-center"
+  data-g-label="footer"
+>
+Safety Center
+  </a>
+</li>
+
+
+<li>
+  <a href="https://sustainability.google/progress/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link/#supplier-responsibility"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - supplier-responsibility"
+  data-g-label="footer"
+>
+Supplier responsibility
+  </a>
+</li>
+
+
+<li>
+  <a href="https://sustainability.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - sustainability"
+  data-g-label="footer"
+>
+Sustainability
+  </a>
+</li>                </ul>
+              </div>
+            </li>
+            <li id="footer-more-about-us" class="glue-zippy glue-a-zippy--v-smooth-expand">
+              <h4 class="glue-zippy-btn">More about us
+                  <svg alt=""  class="icon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="currentcolor"/>
+  </svg>
+
+              </h4>
+              <div class="glue-zippy-content">
+                <ul class="links-list">
+
+
+
+<li>
+  <a href="https://transparencyreport.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="more about us - transparency"
+  data-g-label="footer"
+>
+Transparency report
+  </a>
+</li>
+
+
+<li>
+  <a href="../community-guidelines/"
+      class="footer-link"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="more about us - community-guidelines"
+  data-g-label="footer"
+>
+Community guidelines
+  </a>
+</li>
+
+
+<li>
+  <a href="../how-our-business-works/"
+      class="footer-link"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="more about us - how-google-works"
+  data-g-label="footer"
+>
+How our business works
+  </a>
+</li>
+
+
+<li>
+  <a href="../extended-workforce/"
+      class="footer-link"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="more about us - extended-workforce"
+  data-g-label="footer"
+>
+Extended workforce
+  </a>
+</li>                </ul>
+              </div>
+            </li>
+        </ul>
+      </section>
+      <section class="foot">
+        <div class="product-logo">
+          <a href="../" target="_self"              aria-label="Google"
+              data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="google logo"
+  data-g-label="footer"
+>
+                <svg alt="Google"  class="logo-svg " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 28">
+    <path fill="#4285F4" d="M10.4,21C4.7,21,0,16.2,0,10.5S4.7,0,10.4,0c3.1,0,5.3,1.3,7,2.9l-1.9,2c-1.2-1.2-2.8-2-5-2
+      c-4.1,0-7.3,3.4-7.3,7.6s3.2,7.6,7.3,7.6c2.7,0,4.2-1.1,5.1-2.1c0.8-0.8,1.3-2,1.5-3.8h-6.6V9.3h9.3c0.1,0.5,0.2,1.1,0.2,1.8
+      c0,2.2-0.5,5-2.4,6.9C15.7,20,13.4,21,10.4,21z"/>
+    <path fill="#EA4335" d="M34.2,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S34.2,10.2,34.2,14.1z M31.4,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C29.6,18.2,31.4,16.5,31.4,14.1z"/>
+    <path fill="#FBBC03" d="M48.4,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S48.4,10.2,48.4,14.1z M45.5,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C43.8,18.2,45.5,16.5,45.5,14.1z"/>
+    <path fill="#4285F4" d="M61.7,7.8V20c0,5-2.7,7-6.1,7c-3.2,0-5-2.2-5.8-4l2.5-1.1c0.4,1.1,1.5,2.4,3.3,2.4c2.1,0,3.4-1.4,3.4-3.9v-1
+      h-0.1c-0.6,0.8-1.8,1.6-3.4,1.6c-3.3,0-6.2-2.9-6.2-6.8s2.9-6.7,6.2-6.7c1.6,0,2.7,0.7,3.4,1.6h0.1V7.8H61.7z M59.2,14.1
+      c0-2.4-1.5-4.1-3.5-4.1c-1.9,0-3.5,1.7-3.5,4.1s1.5,4.1,3.5,4.1C57.7,18.2,59.2,16.5,59.2,14.1z"/>
+    <path fill="#34A853" d="M66.4,1.1v19.8h-2.8V1.1H66.4z"/>
+    <path fill="#EA4335" d="M77.7,16.3l2.2,1.6c-0.7,1.1-2.5,3-5.5,3c-3.7,0-6.5-2.9-6.5-6.7c0-4,2.8-6.7,6.2-6.7c3.4,0,5,2.8,5.6,4.3
+      l0.3,0.7l-8.8,3.7c0.7,1.4,1.7,2,3.2,2S76.9,17.5,77.7,16.3z M70.8,14l5.8-2.5c-0.4-0.8-1.3-1.5-2.4-1.5C72.7,10,70.7,11.3,70.8,14
+      z"/>
+  </svg>
+
+          </a>
+        </div>
+        <ul class="bottom-links">
+
+
+
+<li>
+  <a href="https://support.google.com/?hl=en/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="bottom footer - help"
+  data-g-label="footer"
+>
+        <svg alt=""  class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="#000">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/>
+  </svg>
+
+Help
+  </a>
+</li>
+
+
+<li>
+  <a href="https://policies.google.com/privacy?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="bottom footer - privacy"
+  data-g-label="footer"
+>
+Privacy
+  </a>
+</li>
+
+
+<li>
+  <a href="https://policies.google.com/terms?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+      class="footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="bottom footer - terms"
+  data-g-label="footer"
+>
+Terms
+  </a>
+</li>        </ul>
+      </section>
+    </div>
+  </div>
+</footer>
+      <div data-ui-view="modal" class="modal"></div>
+
+      <div class="progress" data-ng-if="mainCtrl.isLoading">
+        <span class="progress-bar progress-bar1"><!----></span>
+        <span class="progress-bar progress-bar2"><!----></span>
+      </div>
+
+
+
+
+      <script nonce="EadEu-8WzyIymYDV3hkYEg">window.optimizeWhitelist = [];
+          window.optimizeTestModules = [];
+      </script>
+
+      <!--[if gt IE 8]><!-->
+<script type="text/ng-template" id="/modal.html" nonce="EadEu-8WzyIymYDV3hkYEg">
+  <div class="modal-overlay">
+    <div data-ui-view="modal-content" class="modal-content"></div>
+    <button class="glue-modal-close" aria-label="close" data-ng-click="modalStateCtrl.closeModal()">  <svg alt=""  class="icon icon-white" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M7.41 18.59L8.83 20 12 16.83 15.17 20l1.41-1.41L12 14l-4.59 4.59zm9.18-13.18L15.17 4 12 7.17 8.83 4 7.41 5.41 12 10l4.59-4.59z"/>
+  </svg>
+</button>
+  </div>
+</script>
+
+<script type="text/ng-template" id="/glue/modal/modal-template.html" nonce="EadEu-8WzyIymYDV3hkYEg">
+  <div>
+    <div class="glue-modal-overlay overlay-animate" data-glue-show="modalCtrl.getModalVisible()" data-ng-if="modalCtrl.getModalVisible()">
+      <div class="glue-modal" data-glue-show="modalCtrl.getModalVisible()" role="dialog" tabindex="-1">
+        <div class="glue-modal-content" data-ng-transclude></div>
+        <button class="glue-modal-close" aria-label="close">  <svg alt=""  class="icon icon-white" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M7.41 18.59L8.83 20 12 16.83 15.17 20l1.41-1.41L12 14l-4.59 4.59zm9.18-13.18L15.17 4 12 7.17 8.83 4 7.41 5.41 12 10l4.59-4.59z"/>
+  </svg>
+</button>
+      </div>
+    </div>
+  </div>
+</script>        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js" nonce="EadEu-8WzyIymYDV3hkYEg"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-touch.min.js" nonce="EadEu-8WzyIymYDV3hkYEg"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-animate.min.js" nonce="EadEu-8WzyIymYDV3hkYEg"></script>
+        <script src="//www.gstatic.com/external_hosted/gsap/v1_18_0/TweenMax.min.js" nonce="EadEu-8WzyIymYDV3hkYEg"></script>
+        <script src="//www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="EadEu-8WzyIymYDV3hkYEg"></script>
+        <script src="/assets-legal/js/main.min.js?cache=9bcdd3b" nonce="EadEu-8WzyIymYDV3hkYEg"></script>
+        <script src="/assets-legal/js/detect.min.js?cache=c84f19a" nonce="EadEu-8WzyIymYDV3hkYEg"></script>
+        <script
+          data-autoload-cookie-consent-bar="true"
+          data-autoload-cookie-consent-bar-intl-code=""
+          src="https://www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v3.js" nonce="EadEu-8WzyIymYDV3hkYEg">
+        </script>
+      <!--<![endif]-->
+  </body>
+</html>

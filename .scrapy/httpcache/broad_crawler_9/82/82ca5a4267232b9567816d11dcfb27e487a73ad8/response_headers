@@ -1,0 +1,10 @@
+Content-Length: 278
+Date: Thu, 23 Dec 2021 20:05:17 GMT
+Content-Type: text/html
+Server: Tengine
+Set-Cookie: ali_apache_id=33.3.58.29.1640289917973.390100.1; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+Location: https://www.alibaba.com/?__redirected__=1
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+Eagleid: 21033a1d16402899179755811e9749
+Server-Timing: rt;dur=0.002,eagleid;desc=21033a1d16402899179755811e9749

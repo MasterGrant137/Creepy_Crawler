@@ -1,0 +1,17 @@
+Content-Length: 2023
+Last-Modified: Thu, 16 Dec 2021 21:08:08 GMT
+Content-Type: text/plain; charset=UTF-8
+Server: Apache
+Strict-Transport-Security: max-age=86400
+Accept-Ranges: bytes
+X-Adobe-Loc: uw2
+X-Adobe-Source: 112.97
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Cache-Control: max-age=381
+Expires: Thu, 23 Dec 2021 20:11:34 GMT
+Date: Thu, 23 Dec 2021 20:05:13 GMT
+Vary: Accept-Encoding
+Set-Cookie: AKA_A2=A; expires=Thu, 23-Dec-2021 21:05:13 GMT; path=/; domain=adobe.com; secure; HttpOnly
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=9

@@ -1,0 +1,17 @@
+Content-Length: 0
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Location: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://contacts.google.com/?hl%3Den%26tab%3DuC&followup=https://contacts.google.com/?hl%3Den%26tab%3DuC&hl=en
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Strict-Transport-Security: max-age=31536000
+Cross-Origin-Resource-Policy: same-site
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/ContactsUi/cspreport
+Content-Security-Policy: script-src 'report-sample' 'nonce-rLgSrT0Vz74zuDVOFNRzfQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/ContactsUi/cspreport;worker-src 'self'
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Date: Thu, 23 Dec 2021 20:06:18 GMT
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=n1BoAo59W2nwMM8GApGlYc_7iTQHVCbIXkjmGk9FePmjC1Ou6fdQqQyEC_sJ181cUe1MLJLjIexjIULx7FsIk1nkpJFHWvPqggC9EQfDdVM-ye22y0sCAbzDT5k-bLUL6aCX3nFnASSr9GuOJspiyO5RRjkQ1u2ot-H9hyQXSkQ; expires=Fri, 24-Jun-2022 20:06:18 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

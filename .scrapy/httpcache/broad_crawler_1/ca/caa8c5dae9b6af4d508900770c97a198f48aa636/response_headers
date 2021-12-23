@@ -1,0 +1,17 @@
+Content-Length: 520
+Content-Type: text/plain; charset=utf-8
+Last-Modified: Wed, 22 Dec 2021 22:10:33 GMT
+Etag: "61c3a259-208"
+Accept-Ranges: bytes
+Content-Security-Policy: upgrade-insecure-requests
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+X-Served-By: cache-iad-kcgs7200164-IAD, cache-bur17573-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640288782.822734,VS0,VE67
+Vary: Accept-Encoding
+Server: cat factory 1.0
+Strict-Transport-Security: max-age=300
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: https://imgur.com
+Access-Control-Allow-Credentials: false

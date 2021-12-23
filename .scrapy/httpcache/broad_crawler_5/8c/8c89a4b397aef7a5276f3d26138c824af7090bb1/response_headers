@@ -1,0 +1,14 @@
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Type: text/plain; charset=utf-8
+X-Fb-Rlafr: 0
+Document-Policy: force-load-at-top
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Fri, 24 Dec 2021 18:46:10 +0000
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15552000; preload
+X-Fb-Debug: JO+5whSBWAGXcpGPGKOTzaRGMV105LGYR3UZjg8W06QHeIlHoqxQlEw6MGGkfvc52S5JSPs1vvx/wJ4k3EKHxg==
+Date: Thu, 23 Dec 2021 18:46:10 GMT

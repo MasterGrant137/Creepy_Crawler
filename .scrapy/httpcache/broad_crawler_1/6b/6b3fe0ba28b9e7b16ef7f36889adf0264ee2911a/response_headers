@@ -1,0 +1,27 @@
+Content-Length: 16054
+Date: Thu, 23 Dec 2021 19:34:45 GMT
+Server: Apache
+X-Drupal-Cache: HIT
+Content-Language: fr
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <https://www.cnil.fr/fr>; rel="canonical",<https://www.cnil.fr/fr>; rel="shortlink"
+Cache-Control: public, max-age=900
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy-Report-Only: form-action 'self'; style-src 'self' 'unsafe-inline' ; script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' data: *.cnil.fr *.educnum.fr; frame-ancestors 'self' www.dailymotion.com www.youtube-nocookie.com www.youtube.com; img-src 'self'; frame-src 'self' www.dailymotion.com www.youtube-nocookie.com www.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://piwik.cnil.fr; object-src 'self'; font-src 'self'; base-uri 'self'; block-all-mixed-content; default-src 'self' data: blob:;
+X-Content-Type-Options: nosniff
+Etag: "1640269014-1"
+Last-Modified: Thu, 23 Dec 2021 14:16:54 GMT
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html; charset=utf-8
+X-Varnish: 287446517 287514639
+Age: 696
+Via: 1.1 varnish-v4
+X-Cache: HIT
+X-Cache-Hits: 51
+Accept-Ranges: bytes

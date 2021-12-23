@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165663494-1" nonce="gAoc6h4Z83_iRP8oHb5lqQ"></script>
+  <script nonce="gAoc6h4Z83_iRP8oHb5lqQ">
+    window.analyticsId = "UA-165663494-1";
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag() {dataLayer.push(arguments);}
+    window.gtag('js', new Date());
+  </script>
+  <script src="/static/js/analytics.min.js?cache=ee58759" nonce="gAoc6h4Z83_iRP8oHb5lqQ"></script>
+  <meta charset="utf-8">
+  <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+  <title>Business Messages: Create connections that count</title>
+  <meta name="description" content="Delight customers and drive results right from Google Search, Maps, and brand-owned channels. Business Messages is a better way to chat with customers.">
+    <meta property="og:image" content="https://lh3.googleusercontent.com/2vDQoPjYFReIa9UFAjNhCzhmx6iZCei6Gadd1cJDm593iWPi60xW8dE1v8plYcACFgbrzDIrWVAYn6RBeC5yeWh46LV0ZPrUMPq5=w843">
+  <meta name="referrer" content="no-referrer">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180"
+        href="https://storage.googleapis.com/operating-anagram-8280/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32"
+        href="https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16"
+        href="https://storage.googleapis.com/operating-anagram-8280/favicon-16x16.png">
+  <link rel="shortcut icon" href="https://storage.googleapis.com/operating-anagram-8280/favicon.ico">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&amp;lang=en" nonce="gAoc6h4Z83_iRP8oHb5lqQ">
+  <link rel="stylesheet" href="/static/css/index.min.css?cache=919c58b" nonce="gAoc6h4Z83_iRP8oHb5lqQ">
+  <script src="https://www.gstatic.com/glue/polyfill.min.js" nonce="gAoc6h4Z83_iRP8oHb5lqQ"></script>
+</head>
+
+<body class="glue-body">
+
+
+<header class="glue-header glue-header--single"
+        glue-header-options='{"drawer": "true", "hideOnScroll": "false", "steppedNav": "false"}'>
+  <div class="glue-header__bar glue-header__bar--mobile">
+    <div class="glue-header__tier">
+      <div class="glue-header__container">
+        <div class="glue-header__lock-up">
+          <div class="glue-header__hamburger glue-header__hamburger--first-tier">
+            <div class="glue-header__hamburger-wrapper">
+              <button type="button" class="glue-header__drawer-toggle-btn"
+                      aria-controls="drawer" aria-expanded="false" aria-label="Open the navigation drawer">
+                <svg role="img" class="glue-icon glue-icon--24px" aria-label="">
+                  <use xlink:href="/static/img/glue-icons.svg#menu"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="glue-header__logo">
+            <a class="glue-header__logo-link" href="/" title="">
+              <div class="glue-header__logo-container ">
+                <svg role="img" aria-hidden="true" class="glue-header__logo-svg" aria-label="">
+                  <use xlink:href="/static/img/glue-icons.svg#google-color-logo"></use>
+                </svg>
+              </div>
+              <p class="glue-header__logo--product">Business Messages</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="glue-header__container">
+        <div class="glue-header__cta">
+<a class="glue-button glue-button--medium-emphasis glue-button--icon-right"
+     href="https://developers.google.com/business-communications/business-messages/guides"
+target="_blank" rel="noopener noreferrer">
+                  For developers
+              <svg role="img" class="glue-icon" alt>
+                <use xlink:href="/static/img/glue-icons.svg#open-in-new"></use>
+              </svg>
+
+  </a><a class="glue-button glue-button--high-emphasis"
+     href="/contact-us/"
+>
+                  Contact us
+
+  </a>        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="glue-header__bar glue-header__bar--desktop glue-header__drawer" id="drawer">
+    <div class="glue-header__tier">
+      <div class="glue-header__container">
+        <a href="#content" class="glue-header__link glue-header__skip-content">
+          <p class="glue-header__skip-content-text">Jump to Content</p>
+        </a>
+        <div class="glue-header__lock-up">
+          <div class="glue-header__logo">
+            <a class="glue-header__logo-link" href="/" title="">
+              <div class="glue-header__logo-container ">
+                <svg role="img" aria-hidden="true" class="glue-header__logo-svg" aria-label="">
+                  <use xlink:href="/static/img/glue-icons.svg#google-color-logo"></use>
+                </svg>
+              </div>
+              <p class="glue-header__logo--product">Business Messages</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="glue-header__container glue-header__container--flex-auto">
+        <nav class="glue-header__link-bar">
+          <ul id="list-1" class="glue-header__list">
+                <li name="For businesses"
+                    class="glue-header__item js-nav-items
+                      glue-header--is-active
+">
+<a class="glue-header__link"
+     href="/"
+>
+                        For businesses
+
+  </a>                </li>
+                <li name="For consumers"
+                    class="glue-header__item js-nav-items
+">
+<a class="glue-header__link"
+     href="/for-consumers/"
+>
+                        For consumers
+
+  </a>                </li>
+                <li name="Success stories"
+                    class="glue-header__item js-nav-items
+">
+<a class="glue-header__link"
+     href="/success-stories/"
+>
+                        Success stories
+
+  </a>                </li>
+                <li name="Resources"
+                    class="glue-header__item js-nav-items
+">
+<a class="glue-header__link"
+     href="/resources/ipsos-report/"
+>
+                        Resources
+
+  </a>                    <ul class="glue-header__list glue-header__list--nested">
+                          <li name="Ipsos report" class="glue-header__item js-sub-header-items">
+<a class="glue-header__link"
+     href="/resources/ipsos-report/"
+>
+                                Ipsos report
+
+  </a>                          </li>
+                    </ul>
+                </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="glue-header__container glue-header__container--cta">
+        <div class="glue-header__cta">
+<a class="glue-button glue-button--medium-emphasis glue-button--icon-right"
+     href="https://developers.google.com/business-communications/business-messages/guides"
+target="_blank" rel="noopener noreferrer">
+                  For developers
+              <svg role="img" class="glue-icon" alt>
+                <use xlink:href="/static/img/glue-icons.svg#open-in-new"></use>
+              </svg>
+
+  </a><a class="glue-button glue-button--high-emphasis"
+     href="/contact-us/"
+>
+                  Contact us
+
+  </a>        </div>
+      </div>
+    </div>
+  </div>
+  <div class="glue-header__drawer-backdrop"></div>
+</header><aside class="prefix" data-name="businesses-overview-prefix">
+<section data-name="businesses-primary"
+         class="biz-section biz-section--businesses-features ">
+
+<section data-name="businesses-hero"
+         class="biz-section biz-section--businesses-hero ">
+  <div class="glue-page">
+    <div class="biz-content">
+      <div class="biz-content-header">
+          <h1 class="glue-headline glue-headline--headline-2">
+            Reach customers where they are with Business Messages
+          </h1>
+          <div class="biz-content-description">
+            <p>Help your customers reach you with the scale of <em>Google Search and&nbsp;Maps</em>. With Business Messages’ conversational experience, delight your customers and drive results.</p>
+          </div>
+        <div class="biz-content-icons">
+          <img src="https://lh3.googleusercontent.com/LjlQXZGF-3C0yv99xAKpv942l62ZV8nhG59rR8PXbqR_ue2_AJY67X7dlEKi_a21vgswYqVD0E7fdFYcku4uQjDncYVSVA65IUBVRm4=w153"
+ class="biz-content-icons-icon" srcset="https://lh3.googleusercontent.com/LjlQXZGF-3C0yv99xAKpv942l62ZV8nhG59rR8PXbqR_ue2_AJY67X7dlEKi_a21vgswYqVD0E7fdFYcku4uQjDncYVSVA65IUBVRm4=w153 3x,https://lh3.googleusercontent.com/LjlQXZGF-3C0yv99xAKpv942l62ZV8nhG59rR8PXbqR_ue2_AJY67X7dlEKi_a21vgswYqVD0E7fdFYcku4uQjDncYVSVA65IUBVRm4=w102 2x,https://lh3.googleusercontent.com/LjlQXZGF-3C0yv99xAKpv942l62ZV8nhG59rR8PXbqR_ue2_AJY67X7dlEKi_a21vgswYqVD0E7fdFYcku4uQjDncYVSVA65IUBVRm4=w51 1x" width="51" height="51" alt="Google search icon">
+          <img src="https://lh3.googleusercontent.com/PYpf7k4DepxS4HkXEeAAsrtxHy92Mdlq8SM32OCIvZR0hqNGwoVFjUjXnti3eXCuLYJZeorkgBxOs9qs8IZbwEUk8cw3X1ku1ld7zg=w96"
+ class="biz-content-icons-icon" srcset="https://lh3.googleusercontent.com/PYpf7k4DepxS4HkXEeAAsrtxHy92Mdlq8SM32OCIvZR0hqNGwoVFjUjXnti3eXCuLYJZeorkgBxOs9qs8IZbwEUk8cw3X1ku1ld7zg=w96 3x,https://lh3.googleusercontent.com/PYpf7k4DepxS4HkXEeAAsrtxHy92Mdlq8SM32OCIvZR0hqNGwoVFjUjXnti3eXCuLYJZeorkgBxOs9qs8IZbwEUk8cw3X1ku1ld7zg=w64 2x,https://lh3.googleusercontent.com/PYpf7k4DepxS4HkXEeAAsrtxHy92Mdlq8SM32OCIvZR0hqNGwoVFjUjXnti3eXCuLYJZeorkgBxOs9qs8IZbwEUk8cw3X1ku1ld7zg=w32 1x" width="32" height="45" alt="Google maps icon">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section data-name="animation-runners"
+         class="biz-animation biz-section biz-section--animation-runners ">
+  <div class="container">
+    <div class="device">
+      <div class="background">
+        <img src="https://lh3.googleusercontent.com/yKrsTxGI89nEBU50Tp_a25ghtZEbpsw1141YrcEvZwbxLzYDHu2sU2boz9vlx68BrBbm_bCbU1YPYKs998yoCRb37m-u3pyUTfVBeEg=w1962"
+ class="symbol symbol-25-background" srcset="https://lh3.googleusercontent.com/yKrsTxGI89nEBU50Tp_a25ghtZEbpsw1141YrcEvZwbxLzYDHu2sU2boz9vlx68BrBbm_bCbU1YPYKs998yoCRb37m-u3pyUTfVBeEg=w1962 3x,https://lh3.googleusercontent.com/yKrsTxGI89nEBU50Tp_a25ghtZEbpsw1141YrcEvZwbxLzYDHu2sU2boz9vlx68BrBbm_bCbU1YPYKs998yoCRb37m-u3pyUTfVBeEg=w1308 2x,https://lh3.googleusercontent.com/yKrsTxGI89nEBU50Tp_a25ghtZEbpsw1141YrcEvZwbxLzYDHu2sU2boz9vlx68BrBbm_bCbU1YPYKs998yoCRb37m-u3pyUTfVBeEg=w654 1x" width="654" height="573" alt="Consumer messaging business">
+      </div>
+      <img src="https://lh3.googleusercontent.com/cWTZxAvij4Ch6-AM6IR7ALH4OW8zosKj50a3waGhQH2AVagnaNQXVtr8qTsjiecrt-qVXgT9zJuXrgtD0l2NOhnhwkwev-DHXV4j-A=w1161"
+ class="symbol symbol-00-device" srcset="https://lh3.googleusercontent.com/cWTZxAvij4Ch6-AM6IR7ALH4OW8zosKj50a3waGhQH2AVagnaNQXVtr8qTsjiecrt-qVXgT9zJuXrgtD0l2NOhnhwkwev-DHXV4j-A=w1161 3x,https://lh3.googleusercontent.com/cWTZxAvij4Ch6-AM6IR7ALH4OW8zosKj50a3waGhQH2AVagnaNQXVtr8qTsjiecrt-qVXgT9zJuXrgtD0l2NOhnhwkwev-DHXV4j-A=w774 2x,https://lh3.googleusercontent.com/cWTZxAvij4Ch6-AM6IR7ALH4OW8zosKj50a3waGhQH2AVagnaNQXVtr8qTsjiecrt-qVXgT9zJuXrgtD0l2NOhnhwkwev-DHXV4j-A=w387 1x" width="387" height="701" alt="Customers chat from Google Search_1">
+
+      <div class="screen screen-start">
+        <img src="https://lh3.googleusercontent.com/VFHm8DnXvgCT1PCxMt9_w50rFBAkH_EbolW13Zz1kgkUQagOEQBhLX0lG9W7-dSbUnhjcixpkhKsTFmuhA4FjozeBceJgXc-M5BFH0SJvCnTkq4isBnG=w918"
+ class="symbol symbol-01-start" srcset="https://lh3.googleusercontent.com/VFHm8DnXvgCT1PCxMt9_w50rFBAkH_EbolW13Zz1kgkUQagOEQBhLX0lG9W7-dSbUnhjcixpkhKsTFmuhA4FjozeBceJgXc-M5BFH0SJvCnTkq4isBnG=w918 3x,https://lh3.googleusercontent.com/VFHm8DnXvgCT1PCxMt9_w50rFBAkH_EbolW13Zz1kgkUQagOEQBhLX0lG9W7-dSbUnhjcixpkhKsTFmuhA4FjozeBceJgXc-M5BFH0SJvCnTkq4isBnG=w612 2x,https://lh3.googleusercontent.com/VFHm8DnXvgCT1PCxMt9_w50rFBAkH_EbolW13Zz1kgkUQagOEQBhLX0lG9W7-dSbUnhjcixpkhKsTFmuhA4FjozeBceJgXc-M5BFH0SJvCnTkq4isBnG=w306 1x" width="306" height="630" alt="Customers chat from Google Search_2">
+        <div class="group group-search">
+          <img src="https://lh3.googleusercontent.com/-5WYAib4gELsUXC6a10yuxMcZKm_-E8zQmYaXAKT-9lcBXfX21Y7JB6yV94gi34eZk7jikEA8_kq_GIHtOl-mfBFdNlkfp1PlzthYA=w878"
+ class="symbol symbol-02-search" srcset="https://lh3.googleusercontent.com/-5WYAib4gELsUXC6a10yuxMcZKm_-E8zQmYaXAKT-9lcBXfX21Y7JB6yV94gi34eZk7jikEA8_kq_GIHtOl-mfBFdNlkfp1PlzthYA=w879 3x,https://lh3.googleusercontent.com/-5WYAib4gELsUXC6a10yuxMcZKm_-E8zQmYaXAKT-9lcBXfX21Y7JB6yV94gi34eZk7jikEA8_kq_GIHtOl-mfBFdNlkfp1PlzthYA=w586 2x,https://lh3.googleusercontent.com/-5WYAib4gELsUXC6a10yuxMcZKm_-E8zQmYaXAKT-9lcBXfX21Y7JB6yV94gi34eZk7jikEA8_kq_GIHtOl-mfBFdNlkfp1PlzthYA=w293 1x" width="293" height="41" alt="Customers chat from Google Search_3">
+        </div>
+      </div>
+
+      <div class="screen screen-messages">
+        <img src="https://lh3.googleusercontent.com/A1Tgw4_TCk7mm0sMBHrsp04Jv7eE9Rt5XWGWP3sIIXK1KrW2cubxFvDfKNEEqnLGO-AjK2Gq6onT4GosJuTkRl2im2HoaxiuMTt06g=w918"
+ class="symbol symbol-04-shadow" srcset="https://lh3.googleusercontent.com/A1Tgw4_TCk7mm0sMBHrsp04Jv7eE9Rt5XWGWP3sIIXK1KrW2cubxFvDfKNEEqnLGO-AjK2Gq6onT4GosJuTkRl2im2HoaxiuMTt06g=w918 3x,https://lh3.googleusercontent.com/A1Tgw4_TCk7mm0sMBHrsp04Jv7eE9Rt5XWGWP3sIIXK1KrW2cubxFvDfKNEEqnLGO-AjK2Gq6onT4GosJuTkRl2im2HoaxiuMTt06g=w612 2x,https://lh3.googleusercontent.com/A1Tgw4_TCk7mm0sMBHrsp04Jv7eE9Rt5XWGWP3sIIXK1KrW2cubxFvDfKNEEqnLGO-AjK2Gq6onT4GosJuTkRl2im2HoaxiuMTt06g=w306 1x" width="306" height="630" alt="Customers chat from Google Search_5">
+        <img src="https://lh3.googleusercontent.com/2u2Opc9Ikb4xFSW4sB8eN7LOnm6VdAh2WW3m8gBeH7zGxkU9oNW1Zfe6WEWPEhA6Xv7DZto5-AuZDWNVC4plgIFAuHOKigkZgB3-hNY=w918"
+ class="symbol symbol-05-status" srcset="https://lh3.googleusercontent.com/2u2Opc9Ikb4xFSW4sB8eN7LOnm6VdAh2WW3m8gBeH7zGxkU9oNW1Zfe6WEWPEhA6Xv7DZto5-AuZDWNVC4plgIFAuHOKigkZgB3-hNY=w918 3x,https://lh3.googleusercontent.com/2u2Opc9Ikb4xFSW4sB8eN7LOnm6VdAh2WW3m8gBeH7zGxkU9oNW1Zfe6WEWPEhA6Xv7DZto5-AuZDWNVC4plgIFAuHOKigkZgB3-hNY=w612 2x,https://lh3.googleusercontent.com/2u2Opc9Ikb4xFSW4sB8eN7LOnm6VdAh2WW3m8gBeH7zGxkU9oNW1Zfe6WEWPEhA6Xv7DZto5-AuZDWNVC4plgIFAuHOKigkZgB3-hNY=w306 1x" width="306" height="630" alt="Customers chat from Google Search_6">
+        <div class="group group-ui">
+          <img src="https://lh3.googleusercontent.com/1_T2xYrZLNkHwncSh02elQL2dwSS7cr10Kt4EkmiwgLUZSpRMmP4D2L7ycrZsBQcsbHAD6XBZ6pDzHJ72yV5BTiyEExdsQ0oX3cb=w918"
+ class="symbol symbol-06-messages" srcset="https://lh3.googleusercontent.com/1_T2xYrZLNkHwncSh02elQL2dwSS7cr10Kt4EkmiwgLUZSpRMmP4D2L7ycrZsBQcsbHAD6XBZ6pDzHJ72yV5BTiyEExdsQ0oX3cb=w918 3x,https://lh3.googleusercontent.com/1_T2xYrZLNkHwncSh02elQL2dwSS7cr10Kt4EkmiwgLUZSpRMmP4D2L7ycrZsBQcsbHAD6XBZ6pDzHJ72yV5BTiyEExdsQ0oX3cb=w612 2x,https://lh3.googleusercontent.com/1_T2xYrZLNkHwncSh02elQL2dwSS7cr10Kt4EkmiwgLUZSpRMmP4D2L7ycrZsBQcsbHAD6XBZ6pDzHJ72yV5BTiyEExdsQ0oX3cb=w306 1x" width="306" height="630" alt="Customers chat from Google Search_7">
+        </div>
+        <div class="group group-mask">
+          <div class="group group-messages">
+            <img src="https://lh3.googleusercontent.com/-vUHkIKFI3wkZ86cWbnGG7BmgFXup_xTLk_F3EFjBzz4GWwYBJaewBrP3VkvFTvPqMZE4W0z6cXlqsrHhfxkwLkEwnqsh3wJqCaXVw=w576"
+ class="symbol symbol-11-message" srcset="https://lh3.googleusercontent.com/-vUHkIKFI3wkZ86cWbnGG7BmgFXup_xTLk_F3EFjBzz4GWwYBJaewBrP3VkvFTvPqMZE4W0z6cXlqsrHhfxkwLkEwnqsh3wJqCaXVw=w576 3x,https://lh3.googleusercontent.com/-vUHkIKFI3wkZ86cWbnGG7BmgFXup_xTLk_F3EFjBzz4GWwYBJaewBrP3VkvFTvPqMZE4W0z6cXlqsrHhfxkwLkEwnqsh3wJqCaXVw=w384 2x,https://lh3.googleusercontent.com/-vUHkIKFI3wkZ86cWbnGG7BmgFXup_xTLk_F3EFjBzz4GWwYBJaewBrP3VkvFTvPqMZE4W0z6cXlqsrHhfxkwLkEwnqsh3wJqCaXVw=w192 1x" width="192" height="94" alt="Customers chat from Google Search_12">
+            <img src="https://lh3.googleusercontent.com/psNg0Ksn_Cmw9ZtsIFNN9bIv0ciIXdBuWZFD9d1_UC8VDGmRWkX0Ioabrg04VjbGFkt5DfRWOlyROycsa1vcEmg9MsMG54ftx-Oa3WU=w408"
+ class="symbol symbol-12-message" srcset="https://lh3.googleusercontent.com/psNg0Ksn_Cmw9ZtsIFNN9bIv0ciIXdBuWZFD9d1_UC8VDGmRWkX0Ioabrg04VjbGFkt5DfRWOlyROycsa1vcEmg9MsMG54ftx-Oa3WU=w408 3x,https://lh3.googleusercontent.com/psNg0Ksn_Cmw9ZtsIFNN9bIv0ciIXdBuWZFD9d1_UC8VDGmRWkX0Ioabrg04VjbGFkt5DfRWOlyROycsa1vcEmg9MsMG54ftx-Oa3WU=w272 2x,https://lh3.googleusercontent.com/psNg0Ksn_Cmw9ZtsIFNN9bIv0ciIXdBuWZFD9d1_UC8VDGmRWkX0Ioabrg04VjbGFkt5DfRWOlyROycsa1vcEmg9MsMG54ftx-Oa3WU=w136 1x" width="136" height="47" alt="Customers chat from Google Search_13">
+            <img src="https://lh3.googleusercontent.com/McTxrQ4grriEDbQ9rWpe7abxlViP_G0WStltw5sA1u8iRNoBaXhWByn5SKAMOIAPPy_EZ2agp76DH955csw7hb0xDvcY3AXYMIWENA=w670"
+ class="symbol symbol-13-message" srcset="https://lh3.googleusercontent.com/McTxrQ4grriEDbQ9rWpe7abxlViP_G0WStltw5sA1u8iRNoBaXhWByn5SKAMOIAPPy_EZ2agp76DH955csw7hb0xDvcY3AXYMIWENA=w669 3x,https://lh3.googleusercontent.com/McTxrQ4grriEDbQ9rWpe7abxlViP_G0WStltw5sA1u8iRNoBaXhWByn5SKAMOIAPPy_EZ2agp76DH955csw7hb0xDvcY3AXYMIWENA=w446 2x,https://lh3.googleusercontent.com/McTxrQ4grriEDbQ9rWpe7abxlViP_G0WStltw5sA1u8iRNoBaXhWByn5SKAMOIAPPy_EZ2agp76DH955csw7hb0xDvcY3AXYMIWENA=w223 1x" width="223" height="80" alt="Customers chat from Google Search_14">
+            <img src="https://lh3.googleusercontent.com/iz2hAP-bfD7PEFCmYTdia3n0MJAoFlC-Y3s4FdLuPb7Ya9K76NTm4QnxOMK2ALgrEsAjmmjBYA-V2_1lbg374i6yoEfQ2UquTCERdQ=w635"
+ class="symbol symbol-14-message" srcset="https://lh3.googleusercontent.com/iz2hAP-bfD7PEFCmYTdia3n0MJAoFlC-Y3s4FdLuPb7Ya9K76NTm4QnxOMK2ALgrEsAjmmjBYA-V2_1lbg374i6yoEfQ2UquTCERdQ=w636 3x,https://lh3.googleusercontent.com/iz2hAP-bfD7PEFCmYTdia3n0MJAoFlC-Y3s4FdLuPb7Ya9K76NTm4QnxOMK2ALgrEsAjmmjBYA-V2_1lbg374i6yoEfQ2UquTCERdQ=w424 2x,https://lh3.googleusercontent.com/iz2hAP-bfD7PEFCmYTdia3n0MJAoFlC-Y3s4FdLuPb7Ya9K76NTm4QnxOMK2ALgrEsAjmmjBYA-V2_1lbg374i6yoEfQ2UquTCERdQ=w212 1x" width="212" height="62" alt="Customers chat from Google Search_15">
+            <img src="https://lh3.googleusercontent.com/yepGuAJGDuK62wXQYOj87-t8oyn5nXHfZa1u6xW91nIwlscLxoIeVMYWTbnh-8fGgOjdOTl5jneeR2VsPl4f31v3GqX_j437vXui=w421"
+ class="symbol symbol-16-message" srcset="https://lh3.googleusercontent.com/yepGuAJGDuK62wXQYOj87-t8oyn5nXHfZa1u6xW91nIwlscLxoIeVMYWTbnh-8fGgOjdOTl5jneeR2VsPl4f31v3GqX_j437vXui=w420 3x,https://lh3.googleusercontent.com/yepGuAJGDuK62wXQYOj87-t8oyn5nXHfZa1u6xW91nIwlscLxoIeVMYWTbnh-8fGgOjdOTl5jneeR2VsPl4f31v3GqX_j437vXui=w280 2x,https://lh3.googleusercontent.com/yepGuAJGDuK62wXQYOj87-t8oyn5nXHfZa1u6xW91nIwlscLxoIeVMYWTbnh-8fGgOjdOTl5jneeR2VsPl4f31v3GqX_j437vXui=w140 1x" width="140" height="53" alt="Customers chat from Google Search_17">
+            <img src="https://lh3.googleusercontent.com/an4l4aa1yLeLqCx-oZHTceYzHyfepkZBqwelLAralFUCxDirL0q05TSif7Ab4SFIwez9isby-QRrHyC8lSyYqN3Y2B1u4ulQBDZW9A=w635"
+ class="symbol symbol-17-message" srcset="https://lh3.googleusercontent.com/an4l4aa1yLeLqCx-oZHTceYzHyfepkZBqwelLAralFUCxDirL0q05TSif7Ab4SFIwez9isby-QRrHyC8lSyYqN3Y2B1u4ulQBDZW9A=w636 3x,https://lh3.googleusercontent.com/an4l4aa1yLeLqCx-oZHTceYzHyfepkZBqwelLAralFUCxDirL0q05TSif7Ab4SFIwez9isby-QRrHyC8lSyYqN3Y2B1u4ulQBDZW9A=w424 2x,https://lh3.googleusercontent.com/an4l4aa1yLeLqCx-oZHTceYzHyfepkZBqwelLAralFUCxDirL0q05TSif7Ab4SFIwez9isby-QRrHyC8lSyYqN3Y2B1u4ulQBDZW9A=w212 1x" width="212" height="60" alt="Customers chat from Google Search_18">
+            <img src="https://lh3.googleusercontent.com/GFBJA97tPq2Tg2m14QEmPZu4p1UNHZWB6pGwI-Ni-zwAP6Y5SPY7sO0JIiDK5QP11A5-mE9grz-3XCOfDoXcRSTmdFASAIuX4zakrXc=w1605"
+ class="symbol symbol-18-message" srcset="https://lh3.googleusercontent.com/GFBJA97tPq2Tg2m14QEmPZu4p1UNHZWB6pGwI-Ni-zwAP6Y5SPY7sO0JIiDK5QP11A5-mE9grz-3XCOfDoXcRSTmdFASAIuX4zakrXc=w1605 3x,https://lh3.googleusercontent.com/GFBJA97tPq2Tg2m14QEmPZu4p1UNHZWB6pGwI-Ni-zwAP6Y5SPY7sO0JIiDK5QP11A5-mE9grz-3XCOfDoXcRSTmdFASAIuX4zakrXc=w1070 2x,https://lh3.googleusercontent.com/GFBJA97tPq2Tg2m14QEmPZu4p1UNHZWB6pGwI-Ni-zwAP6Y5SPY7sO0JIiDK5QP11A5-mE9grz-3XCOfDoXcRSTmdFASAIuX4zakrXc=w535 1x" width="535" height="238" alt="Customers chat from Google Search_19">
+            <img src="https://lh3.googleusercontent.com/KAz1yNhHWF1gq9yfivog5kponHv_jjdDSV8DHp-1dHfF9IAwzcY7yvFzGCvzLADbbgCaGNVpExZdeo7h3RrwtC2z9lL3wRNHiZms=w587"
+ class="symbol symbol-19-message" srcset="https://lh3.googleusercontent.com/KAz1yNhHWF1gq9yfivog5kponHv_jjdDSV8DHp-1dHfF9IAwzcY7yvFzGCvzLADbbgCaGNVpExZdeo7h3RrwtC2z9lL3wRNHiZms=w588 3x,https://lh3.googleusercontent.com/KAz1yNhHWF1gq9yfivog5kponHv_jjdDSV8DHp-1dHfF9IAwzcY7yvFzGCvzLADbbgCaGNVpExZdeo7h3RrwtC2z9lL3wRNHiZms=w392 2x,https://lh3.googleusercontent.com/KAz1yNhHWF1gq9yfivog5kponHv_jjdDSV8DHp-1dHfF9IAwzcY7yvFzGCvzLADbbgCaGNVpExZdeo7h3RrwtC2z9lL3wRNHiZms=w196 1x" width="196" height="47" alt="Customers chat from Google Search_20">
+            <img src="https://lh3.googleusercontent.com/5Hi6hrn5-acHaH3eJZ9U3Ih8aRQDoYimJ-LrWrlNyVUURvtORdBwDDGA2cavCl2omvbLl7ZF7I90gJEhNJmFnzHeBsz0jkmCUSxq=w684"
+ class="symbol symbol-20-message" srcset="https://lh3.googleusercontent.com/5Hi6hrn5-acHaH3eJZ9U3Ih8aRQDoYimJ-LrWrlNyVUURvtORdBwDDGA2cavCl2omvbLl7ZF7I90gJEhNJmFnzHeBsz0jkmCUSxq=w684 3x,https://lh3.googleusercontent.com/5Hi6hrn5-acHaH3eJZ9U3Ih8aRQDoYimJ-LrWrlNyVUURvtORdBwDDGA2cavCl2omvbLl7ZF7I90gJEhNJmFnzHeBsz0jkmCUSxq=w456 2x,https://lh3.googleusercontent.com/5Hi6hrn5-acHaH3eJZ9U3Ih8aRQDoYimJ-LrWrlNyVUURvtORdBwDDGA2cavCl2omvbLl7ZF7I90gJEhNJmFnzHeBsz0jkmCUSxq=w228 1x" width="228" height="95" alt="Customers chat from Google Search_21">
+            <img src="https://lh3.googleusercontent.com/LNH7ga8N5X2qGbK5DV9uWTjXwLzjSspwa8lJlCt3XM059dPva3hUL4Rcx2EOp0C7U6uc0AjW1l21_AX3SN-pJrAjk57id1_zssQkZg=w408"
+ class="symbol symbol-21-message" srcset="https://lh3.googleusercontent.com/LNH7ga8N5X2qGbK5DV9uWTjXwLzjSspwa8lJlCt3XM059dPva3hUL4Rcx2EOp0C7U6uc0AjW1l21_AX3SN-pJrAjk57id1_zssQkZg=w408 3x,https://lh3.googleusercontent.com/LNH7ga8N5X2qGbK5DV9uWTjXwLzjSspwa8lJlCt3XM059dPva3hUL4Rcx2EOp0C7U6uc0AjW1l21_AX3SN-pJrAjk57id1_zssQkZg=w272 2x,https://lh3.googleusercontent.com/LNH7ga8N5X2qGbK5DV9uWTjXwLzjSspwa8lJlCt3XM059dPva3hUL4Rcx2EOp0C7U6uc0AjW1l21_AX3SN-pJrAjk57id1_zssQkZg=w136 1x" width="136" height="32" alt="Customers chat from Google Search_22">
+            <img src="https://lh3.googleusercontent.com/2PyuDl1uh4T7UDaMMbUuOMyicw3Kkn6QyPjWiTfcZgaHVOvK8tMNrHbjHVtNExtGit686mP_3Ggi5JTF97NTKwRLsLHh9RZ0HrGUXA=w598"
+ class="symbol symbol-22-message" srcset="https://lh3.googleusercontent.com/2PyuDl1uh4T7UDaMMbUuOMyicw3Kkn6QyPjWiTfcZgaHVOvK8tMNrHbjHVtNExtGit686mP_3Ggi5JTF97NTKwRLsLHh9RZ0HrGUXA=w597 3x,https://lh3.googleusercontent.com/2PyuDl1uh4T7UDaMMbUuOMyicw3Kkn6QyPjWiTfcZgaHVOvK8tMNrHbjHVtNExtGit686mP_3Ggi5JTF97NTKwRLsLHh9RZ0HrGUXA=w398 2x,https://lh3.googleusercontent.com/2PyuDl1uh4T7UDaMMbUuOMyicw3Kkn6QyPjWiTfcZgaHVOvK8tMNrHbjHVtNExtGit686mP_3Ggi5JTF97NTKwRLsLHh9RZ0HrGUXA=w199 1x" width="199" height="47" alt="Customers chat from Google Search_23">
+            <img src="https://lh3.googleusercontent.com/awepPAf70_9PFWzv-mOtPQlAE0Hxen6HMEh9VyNiHmeoG_sCVUnRXB3t5-GxQlXvMpEVYAenx4jTL9ROjqPha8YThfCe8o6n3iaj2w=w525"
+ class="symbol symbol-23-message" srcset="https://lh3.googleusercontent.com/awepPAf70_9PFWzv-mOtPQlAE0Hxen6HMEh9VyNiHmeoG_sCVUnRXB3t5-GxQlXvMpEVYAenx4jTL9ROjqPha8YThfCe8o6n3iaj2w=w525 3x,https://lh3.googleusercontent.com/awepPAf70_9PFWzv-mOtPQlAE0Hxen6HMEh9VyNiHmeoG_sCVUnRXB3t5-GxQlXvMpEVYAenx4jTL9ROjqPha8YThfCe8o6n3iaj2w=w350 2x,https://lh3.googleusercontent.com/awepPAf70_9PFWzv-mOtPQlAE0Hxen6HMEh9VyNiHmeoG_sCVUnRXB3t5-GxQlXvMpEVYAenx4jTL9ROjqPha8YThfCe8o6n3iaj2w=w175 1x" width="175" height="242" alt="Customers chat from Google Search_24">
+          </div>
+        </div>
+        <div class="group group-ui">
+          <img src="https://lh3.googleusercontent.com/XY9UCsRJ6YRgVjkn_4UpJO_yk3m6hzPgPq9KZE5bgv4QX-8P13a9nlw7V7HWD7RcNSXc-RF7Y2OXSQe3MzQDWs7zZJDcjpvncBu5h48=w918"
+ class="symbol symbol-15-header" srcset="https://lh3.googleusercontent.com/XY9UCsRJ6YRgVjkn_4UpJO_yk3m6hzPgPq9KZE5bgv4QX-8P13a9nlw7V7HWD7RcNSXc-RF7Y2OXSQe3MzQDWs7zZJDcjpvncBu5h48=w918 3x,https://lh3.googleusercontent.com/XY9UCsRJ6YRgVjkn_4UpJO_yk3m6hzPgPq9KZE5bgv4QX-8P13a9nlw7V7HWD7RcNSXc-RF7Y2OXSQe3MzQDWs7zZJDcjpvncBu5h48=w612 2x,https://lh3.googleusercontent.com/XY9UCsRJ6YRgVjkn_4UpJO_yk3m6hzPgPq9KZE5bgv4QX-8P13a9nlw7V7HWD7RcNSXc-RF7Y2OXSQe3MzQDWs7zZJDcjpvncBu5h48=w306 1x" width="306" height="630" alt="Customers chat from Google Search_16">
+          <img src="https://lh3.googleusercontent.com/zUEDBtDkWyXtZZ7G_-LH_yWVtrvCodboXgTB7H9mycdUEGVqPT9kX5IbRXOcTsmkJrSiYR3abi8D3Mz_F48Grh4g6N9cjnTm1Rd0Ojs=w918"
+ class="symbol symbol-24-icons" srcset="https://lh3.googleusercontent.com/zUEDBtDkWyXtZZ7G_-LH_yWVtrvCodboXgTB7H9mycdUEGVqPT9kX5IbRXOcTsmkJrSiYR3abi8D3Mz_F48Grh4g6N9cjnTm1Rd0Ojs=w918 3x,https://lh3.googleusercontent.com/zUEDBtDkWyXtZZ7G_-LH_yWVtrvCodboXgTB7H9mycdUEGVqPT9kX5IbRXOcTsmkJrSiYR3abi8D3Mz_F48Grh4g6N9cjnTm1Rd0Ojs=w612 2x,https://lh3.googleusercontent.com/zUEDBtDkWyXtZZ7G_-LH_yWVtrvCodboXgTB7H9mycdUEGVqPT9kX5IbRXOcTsmkJrSiYR3abi8D3Mz_F48Grh4g6N9cjnTm1Rd0Ojs=w306 1x" width="306" height="630" alt="Customers chat from Google Search_25">
+          <img src="https://lh3.googleusercontent.com/cFs9liOS14vmQcsLy7LZr_FNEw5AaU6gdITepl6Nd_DBncydpib3S5dmNn-HvwarNIHgSnRXIzlVP8MVyL-91lwBCVNkVQYFFsVvvg=w142"
+ class="symbol symbol-07-logo" srcset="https://lh3.googleusercontent.com/cFs9liOS14vmQcsLy7LZr_FNEw5AaU6gdITepl6Nd_DBncydpib3S5dmNn-HvwarNIHgSnRXIzlVP8MVyL-91lwBCVNkVQYFFsVvvg=w141 3x,https://lh3.googleusercontent.com/cFs9liOS14vmQcsLy7LZr_FNEw5AaU6gdITepl6Nd_DBncydpib3S5dmNn-HvwarNIHgSnRXIzlVP8MVyL-91lwBCVNkVQYFFsVvvg=w94 2x,https://lh3.googleusercontent.com/cFs9liOS14vmQcsLy7LZr_FNEw5AaU6gdITepl6Nd_DBncydpib3S5dmNn-HvwarNIHgSnRXIzlVP8MVyL-91lwBCVNkVQYFFsVvvg=w47 1x" width="47" height="47" alt="Customers chat from Google Search_8">
+          <img src="https://lh3.googleusercontent.com/XKKbcZYlH2fP8issRWEa1K0z_kinpkMwA3gvNNCiK-SLPI-YW-OGFWJvdFa75MsEspPcQ6-HhdcESxOtNvFWbPDBH8MJHvFMrvsr=w470"
+ class="symbol symbol-08-title" srcset="https://lh3.googleusercontent.com/XKKbcZYlH2fP8issRWEa1K0z_kinpkMwA3gvNNCiK-SLPI-YW-OGFWJvdFa75MsEspPcQ6-HhdcESxOtNvFWbPDBH8MJHvFMrvsr=w471 3x,https://lh3.googleusercontent.com/XKKbcZYlH2fP8issRWEa1K0z_kinpkMwA3gvNNCiK-SLPI-YW-OGFWJvdFa75MsEspPcQ6-HhdcESxOtNvFWbPDBH8MJHvFMrvsr=w314 2x,https://lh3.googleusercontent.com/XKKbcZYlH2fP8issRWEa1K0z_kinpkMwA3gvNNCiK-SLPI-YW-OGFWJvdFa75MsEspPcQ6-HhdcESxOtNvFWbPDBH8MJHvFMrvsr=w157 1x" width="157" height="21" alt="Customers chat from Google Search_9">
+          <img src="https://lh3.googleusercontent.com/srn67BwChRbSdMv3kdukq5U_V1XDaQa8f3zdNc7s42YZMhjJImOIDRDgC3kF-Z4_fTIgXl6OoC4LL4b8dN3fqL0YYb3197LpGIwV=w838"
+ class="symbol symbol-09-response" srcset="https://lh3.googleusercontent.com/srn67BwChRbSdMv3kdukq5U_V1XDaQa8f3zdNc7s42YZMhjJImOIDRDgC3kF-Z4_fTIgXl6OoC4LL4b8dN3fqL0YYb3197LpGIwV=w837 3x,https://lh3.googleusercontent.com/srn67BwChRbSdMv3kdukq5U_V1XDaQa8f3zdNc7s42YZMhjJImOIDRDgC3kF-Z4_fTIgXl6OoC4LL4b8dN3fqL0YYb3197LpGIwV=w558 2x,https://lh3.googleusercontent.com/srn67BwChRbSdMv3kdukq5U_V1XDaQa8f3zdNc7s42YZMhjJImOIDRDgC3kF-Z4_fTIgXl6OoC4LL4b8dN3fqL0YYb3197LpGIwV=w279 1x" width="279" height="14" alt="Customers chat from Google Search_10">
+          <img src="https://lh3.googleusercontent.com/dgeVvh9xch8GaulvGjoyD5SvCdJE_c731-W0MyF9MZxVgDcWWDVvZT-o1eFnY0nh3g-iuOQ9yJqE1eH-QIeoFxB9IT_TR45Y1ghBjg=w918"
+ class="symbol symbol-10-send" srcset="https://lh3.googleusercontent.com/dgeVvh9xch8GaulvGjoyD5SvCdJE_c731-W0MyF9MZxVgDcWWDVvZT-o1eFnY0nh3g-iuOQ9yJqE1eH-QIeoFxB9IT_TR45Y1ghBjg=w918 3x,https://lh3.googleusercontent.com/dgeVvh9xch8GaulvGjoyD5SvCdJE_c731-W0MyF9MZxVgDcWWDVvZT-o1eFnY0nh3g-iuOQ9yJqE1eH-QIeoFxB9IT_TR45Y1ghBjg=w612 2x,https://lh3.googleusercontent.com/dgeVvh9xch8GaulvGjoyD5SvCdJE_c731-W0MyF9MZxVgDcWWDVvZT-o1eFnY0nh3g-iuOQ9yJqE1eH-QIeoFxB9IT_TR45Y1ghBjg=w306 1x" width="306" height="630" alt="Customers chat from Google Search_11">
+        </div>
+      </div>
+
+      <div class="screen screen-popups">
+        <div class="popup popup-search">
+          <img src="https://lh3.googleusercontent.com/1kciJWLhXYDEl5eHv50BATV4HcFDyYMtY-6yTKIslWZIDNcL5TGQ3nH2hnuW3kx3NTPtHFecWtlhH5QWbTBp_JLSy-xPJFxHCfqiWw=w1113"
+ class="symbol symbol-27-search" srcset="https://lh3.googleusercontent.com/1kciJWLhXYDEl5eHv50BATV4HcFDyYMtY-6yTKIslWZIDNcL5TGQ3nH2hnuW3kx3NTPtHFecWtlhH5QWbTBp_JLSy-xPJFxHCfqiWw=w1113 3x,https://lh3.googleusercontent.com/1kciJWLhXYDEl5eHv50BATV4HcFDyYMtY-6yTKIslWZIDNcL5TGQ3nH2hnuW3kx3NTPtHFecWtlhH5QWbTBp_JLSy-xPJFxHCfqiWw=w742 2x,https://lh3.googleusercontent.com/1kciJWLhXYDEl5eHv50BATV4HcFDyYMtY-6yTKIslWZIDNcL5TGQ3nH2hnuW3kx3NTPtHFecWtlhH5QWbTBp_JLSy-xPJFxHCfqiWw=w371 1x" width="371" height="52" alt="Customers chat from Google Search_27">
+        </div>
+        <div class="popup popup-button">
+          <img src="https://lh3.googleusercontent.com/JuCUEmpA_yPqtySHzpZdSbbA-o7UH3xEBt1AJ8xQedPjwXCWRlMvIX-d_3BTCAO99bwaFym2yuU2xgsU1NFGKOE7SyBKYVlYXrWaBqw2XZoycwIVbi8=w277"
+ class="symbol symbol-03-button" srcset="https://lh3.googleusercontent.com/JuCUEmpA_yPqtySHzpZdSbbA-o7UH3xEBt1AJ8xQedPjwXCWRlMvIX-d_3BTCAO99bwaFym2yuU2xgsU1NFGKOE7SyBKYVlYXrWaBqw2XZoycwIVbi8=w276 3x,https://lh3.googleusercontent.com/JuCUEmpA_yPqtySHzpZdSbbA-o7UH3xEBt1AJ8xQedPjwXCWRlMvIX-d_3BTCAO99bwaFym2yuU2xgsU1NFGKOE7SyBKYVlYXrWaBqw2XZoycwIVbi8=w184 2x,https://lh3.googleusercontent.com/JuCUEmpA_yPqtySHzpZdSbbA-o7UH3xEBt1AJ8xQedPjwXCWRlMvIX-d_3BTCAO99bwaFym2yuU2xgsU1NFGKOE7SyBKYVlYXrWaBqw2XZoycwIVbi8=w92 1x" width="92" height="92" alt="Customers chat from Google Search_4">
+        </div>
+        <div class="popup popup-card">
+          <img src="https://lh3.googleusercontent.com/05V-WGKK71WPofZBDLf59Au83Ozk0px8I4po_GzqUyafsj6y2SyRFqW9ouO4S0kGh1t8U0rTbG4XX1Yy9SLwV-r05yU6mjr3GXBw1w=w750"
+ class="symbol symbol-26-message" srcset="https://lh3.googleusercontent.com/05V-WGKK71WPofZBDLf59Au83Ozk0px8I4po_GzqUyafsj6y2SyRFqW9ouO4S0kGh1t8U0rTbG4XX1Yy9SLwV-r05yU6mjr3GXBw1w=w750 3x,https://lh3.googleusercontent.com/05V-WGKK71WPofZBDLf59Au83Ozk0px8I4po_GzqUyafsj6y2SyRFqW9ouO4S0kGh1t8U0rTbG4XX1Yy9SLwV-r05yU6mjr3GXBw1w=w500 2x,https://lh3.googleusercontent.com/05V-WGKK71WPofZBDLf59Au83Ozk0px8I4po_GzqUyafsj6y2SyRFqW9ouO4S0kGh1t8U0rTbG4XX1Yy9SLwV-r05yU6mjr3GXBw1w=w250 1x" width="250" height="296" alt="Customers chat from Google Search_26">
+        </div>
+        <div class="cursor"></div>
+      </div>
+    </div>
+  </div>
+</section><section data-name="businesses-meet"
+         class="biz-section biz-section--businesses-meet ">
+  <div class="glue-page">
+    <div class="biz-content">
+      <div class="biz-content-header">
+          <h2 class="biz-content-title glue-headline">
+            Create connections that count
+          </h2>
+          <div class="biz-content-description">
+            <p>Drive sales, loyalty, and customer satisfaction through <em>assistive experiences</em> and <em>rich features</em>.</p>
+<p>Improve customer response time, increase support to 24/7, and save money with digital agents.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</section></section></aside>
+<main class="main" data-name="businesses-overview-main">
+<section data-name="video"
+    class="biz-section biz-section--businesses-video biz-grey-background"
+    id="video">
+  <div class="glue-page">
+    <div class="biz-content">
+      <div class="biz-content-header">
+          <h2 class="glue-headline biz-content-title glue-mod-spacer-3-bottom">
+            Helpful, timely, and engaging experiences
+          </h2>
+          <div class="biz-content-description glue-mod-spacer-3-bottom">
+            <p>Discover how brands are meeting customers in their moments of need — delighting them and driving business results.</p>
+          </div>
+      </div>
+
+        <div class="video-background" tabindex="0" role="dialog">
+          <img src="https://lh3.googleusercontent.com/G6CdPh_fmqe9Uu8qIuIPmRiAt9i6o_nA-1HMRfHK05Z8ZWJOY-2BBPYZrNOjqJFwex_YR63IEtRxXNaLQXIP4kDeboOoMOCfrTDA=w843"
+              srcset="https://lh3.googleusercontent.com/G6CdPh_fmqe9Uu8qIuIPmRiAt9i6o_nA-1HMRfHK05Z8ZWJOY-2BBPYZrNOjqJFwex_YR63IEtRxXNaLQXIP4kDeboOoMOCfrTDA=w843 1x"
+              alt="How Business Messages works">
+          <svg role="img" class="homepage-video-icon glue-icon" alt>
+            <use xlink:href="/static/img/glue-icons.svg#video-youtube-black"></use>
+          </svg>
+        </div>
+
+        <div class="glue-video homepage-video-container hide-display">
+          <div class="glue-video__container businesses-homepage-video"
+              data-glue-yt-video-vid="1ph-XMW4osQ">
+          </div>
+        </div>
+    </div>
+  </div>
+</section><section data-name="businesses-secondary"
+         class="biz-section biz-section--businesses-features ">
+<section data-name="businesses-connect"
+         class="biz-section biz-section--businesses-connect ">
+  <div class="glue-page">
+    <div class="biz-content">
+      <div class="biz-content-header">
+          <h2 class="biz-content-title glue-headline">
+            A better way to chat with customers
+          </h2>
+        <div class="biz-content-graphic">
+          <svg class="symbol-chart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+               version="1.1" viewBox="0 0 70 70" preserveAspectRatio="none">
+            <circle cx="35" cy="35" r="32" fill="none" stroke-width="2" stroke-dasharray="220,20000"
+                    transform="rotate(-90,35,35)"></circle>
+            <circle class="group-pie" cx="35" cy="35" r="32" fill="none" stroke-width="2" stroke-dasharray="150,20000"
+                    transform="rotate(-90,35,35)"></circle>
+            <text class="group-percent" text-anchor="middle" x="37" y="42">75%</text>
+          </svg>
+        </div>
+          <div class="biz-content-subtitle glue-headline">
+            of consumers now prefer to engage with a brand over private messaging channels versus traditional channels.<br><em>Conversocial, 2019.</em>
+          </div>
+          <div class="biz-content-description">
+            <h3>Build their trust</h3>
+<p>Show expected wait times, answers to frequently asked questions, and the option to connect with live help.</p>
+<h3>Optimize their experience</h3>
+<p>Route calls to personalized messaging and improve customer satisfaction with CSAT data and feedback.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section data-name="animation-wireless"
+         class="biz-animation biz-section biz-section--animation-wireless ">
+  <div class="container">
+    <div class="device">
+      <img src="https://lh3.googleusercontent.com/ku9k4t0l_tHI7Y3TPO81gljIbPEPBVpAOX52yv8jVdoSxT9VmLj81J6slq-25isQOHFHHXAAQvZXF0x2cWwSNh9MWM5KPaq29vip=w1161"
+ class="symbol symbol-00-device" srcset="https://lh3.googleusercontent.com/ku9k4t0l_tHI7Y3TPO81gljIbPEPBVpAOX52yv8jVdoSxT9VmLj81J6slq-25isQOHFHHXAAQvZXF0x2cWwSNh9MWM5KPaq29vip=w1161 3x,https://lh3.googleusercontent.com/ku9k4t0l_tHI7Y3TPO81gljIbPEPBVpAOX52yv8jVdoSxT9VmLj81J6slq-25isQOHFHHXAAQvZXF0x2cWwSNh9MWM5KPaq29vip=w774 2x,https://lh3.googleusercontent.com/ku9k4t0l_tHI7Y3TPO81gljIbPEPBVpAOX52yv8jVdoSxT9VmLj81J6slq-25isQOHFHHXAAQvZXF0x2cWwSNh9MWM5KPaq29vip=w387 1x" width="387" height="701" alt="Wireless Mobile uses rich features to help consumers_1">
+
+      <div class="screen screen-messages">
+        <img src="https://lh3.googleusercontent.com/Q7KBxdgUvfEW-oWv-fDrE6z8pjWaQLYo-_ll3PGQa4YcCGfidGaaM5YoxOWt2_ZL_cdHCet69r90udDz-shm7LKV1ICvpOmO31LNbfU=w918"
+ class="symbol symbol-01-shadow" srcset="https://lh3.googleusercontent.com/Q7KBxdgUvfEW-oWv-fDrE6z8pjWaQLYo-_ll3PGQa4YcCGfidGaaM5YoxOWt2_ZL_cdHCet69r90udDz-shm7LKV1ICvpOmO31LNbfU=w918 3x,https://lh3.googleusercontent.com/Q7KBxdgUvfEW-oWv-fDrE6z8pjWaQLYo-_ll3PGQa4YcCGfidGaaM5YoxOWt2_ZL_cdHCet69r90udDz-shm7LKV1ICvpOmO31LNbfU=w612 2x,https://lh3.googleusercontent.com/Q7KBxdgUvfEW-oWv-fDrE6z8pjWaQLYo-_ll3PGQa4YcCGfidGaaM5YoxOWt2_ZL_cdHCet69r90udDz-shm7LKV1ICvpOmO31LNbfU=w306 1x" width="306" height="630" alt="Wireless Mobile uses rich features to help consumers_2">
+        <img src="https://lh3.googleusercontent.com/PBKWrO1BVrqyEGmJT5SmhEC6xaEPBczeWDN-1wc6SbLFixx61DQcriRbm8qxSGRBcu7vny5fDJteHvLCQqbpqg4Ix54GDRsO6_bpmg=w918"
+ class="symbol symbol-02-status" srcset="https://lh3.googleusercontent.com/PBKWrO1BVrqyEGmJT5SmhEC6xaEPBczeWDN-1wc6SbLFixx61DQcriRbm8qxSGRBcu7vny5fDJteHvLCQqbpqg4Ix54GDRsO6_bpmg=w918 3x,https://lh3.googleusercontent.com/PBKWrO1BVrqyEGmJT5SmhEC6xaEPBczeWDN-1wc6SbLFixx61DQcriRbm8qxSGRBcu7vny5fDJteHvLCQqbpqg4Ix54GDRsO6_bpmg=w612 2x,https://lh3.googleusercontent.com/PBKWrO1BVrqyEGmJT5SmhEC6xaEPBczeWDN-1wc6SbLFixx61DQcriRbm8qxSGRBcu7vny5fDJteHvLCQqbpqg4Ix54GDRsO6_bpmg=w306 1x" width="306" height="630" alt="Wireless Mobile uses rich features to help consumers_3">
+        <div class="group group-ui">
+          <img src="https://lh3.googleusercontent.com/sQmYlAY_IEpjO4q0Z-YMrTx7FUxX66y3rzqQezeSUXDFIDvY1hM12m7ej7dHrhuE6_CvTl-az_GqTt3sH_zPiSkuGKMQ7N-pd-WDWfY=w918"
+ class="symbol symbol-03-messages" srcset="https://lh3.googleusercontent.com/sQmYlAY_IEpjO4q0Z-YMrTx7FUxX66y3rzqQezeSUXDFIDvY1hM12m7ej7dHrhuE6_CvTl-az_GqTt3sH_zPiSkuGKMQ7N-pd-WDWfY=w918 3x,https://lh3.googleusercontent.com/sQmYlAY_IEpjO4q0Z-YMrTx7FUxX66y3rzqQezeSUXDFIDvY1hM12m7ej7dHrhuE6_CvTl-az_GqTt3sH_zPiSkuGKMQ7N-pd-WDWfY=w612 2x,https://lh3.googleusercontent.com/sQmYlAY_IEpjO4q0Z-YMrTx7FUxX66y3rzqQezeSUXDFIDvY1hM12m7ej7dHrhuE6_CvTl-az_GqTt3sH_zPiSkuGKMQ7N-pd-WDWfY=w306 1x" width="306" height="630" alt="Wireless Mobile uses rich features to help consumers_4">
+        </div>
+        <div class="group group-mask">
+          <div class="group group-messages">
+            <img src="https://lh3.googleusercontent.com/Na2HViBd7wltDbl1tYsb0WEwW7IcxLv-sVaeqIiVgtU16FIt3LgNT_7Rb0Vh6FIUn1B8exIU0wwrW2n1ZdMs1vrdjSFGHcY8Z6pH=w580"
+ class="symbol symbol-09-message" srcset="https://lh3.googleusercontent.com/Na2HViBd7wltDbl1tYsb0WEwW7IcxLv-sVaeqIiVgtU16FIt3LgNT_7Rb0Vh6FIUn1B8exIU0wwrW2n1ZdMs1vrdjSFGHcY8Z6pH=w579 3x,https://lh3.googleusercontent.com/Na2HViBd7wltDbl1tYsb0WEwW7IcxLv-sVaeqIiVgtU16FIt3LgNT_7Rb0Vh6FIUn1B8exIU0wwrW2n1ZdMs1vrdjSFGHcY8Z6pH=w386 2x,https://lh3.googleusercontent.com/Na2HViBd7wltDbl1tYsb0WEwW7IcxLv-sVaeqIiVgtU16FIt3LgNT_7Rb0Vh6FIUn1B8exIU0wwrW2n1ZdMs1vrdjSFGHcY8Z6pH=w193 1x" width="193" height="97" alt="Wireless Mobile uses rich features to help consumers_10">
+            <img src="https://lh3.googleusercontent.com/6aRo1Yqorgw6PkthwpURdI3vyG9Xmh-z_-_Dah9YasvDyREz1wAtOtXCiJmi2AZv4moJM_BKbCzG9AJIylvak0KqoxGZ6uJkuFJoeDQ=w487"
+ class="symbol symbol-10-option" srcset="https://lh3.googleusercontent.com/6aRo1Yqorgw6PkthwpURdI3vyG9Xmh-z_-_Dah9YasvDyREz1wAtOtXCiJmi2AZv4moJM_BKbCzG9AJIylvak0KqoxGZ6uJkuFJoeDQ=w486 3x,https://lh3.googleusercontent.com/6aRo1Yqorgw6PkthwpURdI3vyG9Xmh-z_-_Dah9YasvDyREz1wAtOtXCiJmi2AZv4moJM_BKbCzG9AJIylvak0KqoxGZ6uJkuFJoeDQ=w324 2x,https://lh3.googleusercontent.com/6aRo1Yqorgw6PkthwpURdI3vyG9Xmh-z_-_Dah9YasvDyREz1wAtOtXCiJmi2AZv4moJM_BKbCzG9AJIylvak0KqoxGZ6uJkuFJoeDQ=w162 1x" width="162" height="33" alt="Wireless Mobile uses rich features to help consumers_11">
+            <img src="https://lh3.googleusercontent.com/mj_OWS5DUJssO9JchS9jGxRA26VcfwGityo2RBi04eJk6kjqX8V_pU5xI35fK_JBSpJFtL41zyhMoslMH8MU8UylCMwyLbH5K5hq=w438"
+ class="symbol symbol-11-option" srcset="https://lh3.googleusercontent.com/mj_OWS5DUJssO9JchS9jGxRA26VcfwGityo2RBi04eJk6kjqX8V_pU5xI35fK_JBSpJFtL41zyhMoslMH8MU8UylCMwyLbH5K5hq=w438 3x,https://lh3.googleusercontent.com/mj_OWS5DUJssO9JchS9jGxRA26VcfwGityo2RBi04eJk6kjqX8V_pU5xI35fK_JBSpJFtL41zyhMoslMH8MU8UylCMwyLbH5K5hq=w292 2x,https://lh3.googleusercontent.com/mj_OWS5DUJssO9JchS9jGxRA26VcfwGityo2RBi04eJk6kjqX8V_pU5xI35fK_JBSpJFtL41zyhMoslMH8MU8UylCMwyLbH5K5hq=w146 1x" width="146" height="33" alt="Wireless Mobile uses rich features to help consumers_12">
+            <img src="https://lh3.googleusercontent.com/xPaYXZOU-VAZ0TG4S6hNXHveXrgNRxzCXb_EVR5k0KepQq-EQ7hVJ02uGh7btlBI4qrz9Nk-pEQMvBnvUXtas6zl1sQ1z1xTfyLw7xY=w323"
+ class="symbol symbol-12-option" srcset="https://lh3.googleusercontent.com/xPaYXZOU-VAZ0TG4S6hNXHveXrgNRxzCXb_EVR5k0KepQq-EQ7hVJ02uGh7btlBI4qrz9Nk-pEQMvBnvUXtas6zl1sQ1z1xTfyLw7xY=w324 3x,https://lh3.googleusercontent.com/xPaYXZOU-VAZ0TG4S6hNXHveXrgNRxzCXb_EVR5k0KepQq-EQ7hVJ02uGh7btlBI4qrz9Nk-pEQMvBnvUXtas6zl1sQ1z1xTfyLw7xY=w216 2x,https://lh3.googleusercontent.com/xPaYXZOU-VAZ0TG4S6hNXHveXrgNRxzCXb_EVR5k0KepQq-EQ7hVJ02uGh7btlBI4qrz9Nk-pEQMvBnvUXtas6zl1sQ1z1xTfyLw7xY=w108 1x" width="108" height="33" alt="Wireless Mobile uses rich features to help consumers_13">
+            <img src="https://lh3.googleusercontent.com/RRc5vBvu-EYRGInufZZUdfrlF3bOLSjDyI13rjhvdYRteupBfAzHo16FqkScbkww3vQlpLn2clyOz3kFFG5XondGzIZBHPrYzbg47g=w348"
+ class="symbol symbol-13-option" srcset="https://lh3.googleusercontent.com/RRc5vBvu-EYRGInufZZUdfrlF3bOLSjDyI13rjhvdYRteupBfAzHo16FqkScbkww3vQlpLn2clyOz3kFFG5XondGzIZBHPrYzbg47g=w348 3x,https://lh3.googleusercontent.com/RRc5vBvu-EYRGInufZZUdfrlF3bOLSjDyI13rjhvdYRteupBfAzHo16FqkScbkww3vQlpLn2clyOz3kFFG5XondGzIZBHPrYzbg47g=w232 2x,https://lh3.googleusercontent.com/RRc5vBvu-EYRGInufZZUdfrlF3bOLSjDyI13rjhvdYRteupBfAzHo16FqkScbkww3vQlpLn2clyOz3kFFG5XondGzIZBHPrYzbg47g=w116 1x" width="116" height="33" alt="Wireless Mobile uses rich features to help consumers_14">
+            <img src="https://lh3.googleusercontent.com/AkGjbHQjDhBxqBgCnBoLpVY6Hcqcu8mOmys7zysNaE_gYaRH-pYPmxDAkNLW-RViySAZ_wElPT9i28Va3lKwdoI-zGICjMkK-2cQkrE=w310"
+ class="symbol symbol-14-selected" srcset="https://lh3.googleusercontent.com/AkGjbHQjDhBxqBgCnBoLpVY6Hcqcu8mOmys7zysNaE_gYaRH-pYPmxDAkNLW-RViySAZ_wElPT9i28Va3lKwdoI-zGICjMkK-2cQkrE=w309 3x,https://lh3.googleusercontent.com/AkGjbHQjDhBxqBgCnBoLpVY6Hcqcu8mOmys7zysNaE_gYaRH-pYPmxDAkNLW-RViySAZ_wElPT9i28Va3lKwdoI-zGICjMkK-2cQkrE=w206 2x,https://lh3.googleusercontent.com/AkGjbHQjDhBxqBgCnBoLpVY6Hcqcu8mOmys7zysNaE_gYaRH-pYPmxDAkNLW-RViySAZ_wElPT9i28Va3lKwdoI-zGICjMkK-2cQkrE=w103 1x" width="103" height="33" alt="Wireless Mobile uses rich features to help consumers_15">
+            <img src="https://lh3.googleusercontent.com/qDW6Eao4jty7-r8ER36p6c6TyCVQSvp6g1pvvShlT_ErRuKaieWn-MXXWHofkP2R12hkNuafGp3CrieHmlnhk-RDhrAQ8cDahlKiffM=w723"
+ class="symbol symbol-16-message" srcset="https://lh3.googleusercontent.com/qDW6Eao4jty7-r8ER36p6c6TyCVQSvp6g1pvvShlT_ErRuKaieWn-MXXWHofkP2R12hkNuafGp3CrieHmlnhk-RDhrAQ8cDahlKiffM=w723 3x,https://lh3.googleusercontent.com/qDW6Eao4jty7-r8ER36p6c6TyCVQSvp6g1pvvShlT_ErRuKaieWn-MXXWHofkP2R12hkNuafGp3CrieHmlnhk-RDhrAQ8cDahlKiffM=w482 2x,https://lh3.googleusercontent.com/qDW6Eao4jty7-r8ER36p6c6TyCVQSvp6g1pvvShlT_ErRuKaieWn-MXXWHofkP2R12hkNuafGp3CrieHmlnhk-RDhrAQ8cDahlKiffM=w241 1x" width="241" height="94" alt="Wireless Mobile uses rich features to help consumers_17">
+            <img src="https://lh3.googleusercontent.com/Tgsh5Z-AcYgbbwVowMti-hk4lMLBTKiuYTKhawEopTj8QCtgJhvv-qdZd7FvqZTTWtMK--50K2F3CcIo33K770AezmNvl2TBX4pj=w544"
+ class="symbol symbol-17-message" srcset="https://lh3.googleusercontent.com/Tgsh5Z-AcYgbbwVowMti-hk4lMLBTKiuYTKhawEopTj8QCtgJhvv-qdZd7FvqZTTWtMK--50K2F3CcIo33K770AezmNvl2TBX4pj=w543 3x,https://lh3.googleusercontent.com/Tgsh5Z-AcYgbbwVowMti-hk4lMLBTKiuYTKhawEopTj8QCtgJhvv-qdZd7FvqZTTWtMK--50K2F3CcIo33K770AezmNvl2TBX4pj=w362 2x,https://lh3.googleusercontent.com/Tgsh5Z-AcYgbbwVowMti-hk4lMLBTKiuYTKhawEopTj8QCtgJhvv-qdZd7FvqZTTWtMK--50K2F3CcIo33K770AezmNvl2TBX4pj=w181 1x" width="181" height="33" alt="Wireless Mobile uses rich features to help consumers_18">
+            <img src="https://lh3.googleusercontent.com/OAnfsLpWBwXCQ_X-MmG1k4GFgIr2ddhID9-kptm9Q86TMaXjlYXIpLXEZII51P7d7ljhCflIths6E5P6ILnujMCeFacJfmZqVLDfQeU=w599"
+ class="symbol symbol-18-message" srcset="https://lh3.googleusercontent.com/OAnfsLpWBwXCQ_X-MmG1k4GFgIr2ddhID9-kptm9Q86TMaXjlYXIpLXEZII51P7d7ljhCflIths6E5P6ILnujMCeFacJfmZqVLDfQeU=w600 3x,https://lh3.googleusercontent.com/OAnfsLpWBwXCQ_X-MmG1k4GFgIr2ddhID9-kptm9Q86TMaXjlYXIpLXEZII51P7d7ljhCflIths6E5P6ILnujMCeFacJfmZqVLDfQeU=w400 2x,https://lh3.googleusercontent.com/OAnfsLpWBwXCQ_X-MmG1k4GFgIr2ddhID9-kptm9Q86TMaXjlYXIpLXEZII51P7d7ljhCflIths6E5P6ILnujMCeFacJfmZqVLDfQeU=w200 1x" width="200" height="80" alt="Wireless Mobile uses rich features to help consumers_19">
+            <img src="https://lh3.googleusercontent.com/OljI_qa4SRyqnk_Heth4Zpm9a_L0pr0E7wCQ4cO1aFob6UcrfP_nrjHkpufdBks1twIL36Y1w2Mqux8H2bbtXoK3T5woesMZLF2niw=w261"
+ class="symbol symbol-19-message" srcset="https://lh3.googleusercontent.com/OljI_qa4SRyqnk_Heth4Zpm9a_L0pr0E7wCQ4cO1aFob6UcrfP_nrjHkpufdBks1twIL36Y1w2Mqux8H2bbtXoK3T5woesMZLF2niw=w261 3x,https://lh3.googleusercontent.com/OljI_qa4SRyqnk_Heth4Zpm9a_L0pr0E7wCQ4cO1aFob6UcrfP_nrjHkpufdBks1twIL36Y1w2Mqux8H2bbtXoK3T5woesMZLF2niw=w174 2x,https://lh3.googleusercontent.com/OljI_qa4SRyqnk_Heth4Zpm9a_L0pr0E7wCQ4cO1aFob6UcrfP_nrjHkpufdBks1twIL36Y1w2Mqux8H2bbtXoK3T5woesMZLF2niw=w87 1x" width="87" height="11" alt="Wireless Mobile uses rich features to help consumers_20">
+            <div class="group group-carousel">
+              <img src="https://lh3.googleusercontent.com/bv0pJztoMBFOE35mhhhwGVYo0vwPXRS2xENpgydJwEaZPiL10u4lloeZVeU9qrC6-oomPzPmE1ojbckv5ugPNlSWJGCRaKcC8erIeg=w1065"
+ class="symbol symbol-20-message" srcset="https://lh3.googleusercontent.com/bv0pJztoMBFOE35mhhhwGVYo0vwPXRS2xENpgydJwEaZPiL10u4lloeZVeU9qrC6-oomPzPmE1ojbckv5ugPNlSWJGCRaKcC8erIeg=w1065 3x,https://lh3.googleusercontent.com/bv0pJztoMBFOE35mhhhwGVYo0vwPXRS2xENpgydJwEaZPiL10u4lloeZVeU9qrC6-oomPzPmE1ojbckv5ugPNlSWJGCRaKcC8erIeg=w710 2x,https://lh3.googleusercontent.com/bv0pJztoMBFOE35mhhhwGVYo0vwPXRS2xENpgydJwEaZPiL10u4lloeZVeU9qrC6-oomPzPmE1ojbckv5ugPNlSWJGCRaKcC8erIeg=w355 1x" width="355" height="238" alt="Wireless Mobile uses rich features to help consumers_21">
+            </div>
+            <div class="group group-chips">
+              <img src="https://lh3.googleusercontent.com/S1SrJw0sWDap59Nj0prhQYRQw9VtGs89Kddi9wAqtEJYAtf6WOVTDgzzy43A0xCzeD_4KhxKc1DlQb6GbbTuNdfaL_KUTSBK3z89Qg=w976"
+ class="symbol symbol-21-message" srcset="https://lh3.googleusercontent.com/S1SrJw0sWDap59Nj0prhQYRQw9VtGs89Kddi9wAqtEJYAtf6WOVTDgzzy43A0xCzeD_4KhxKc1DlQb6GbbTuNdfaL_KUTSBK3z89Qg=w975 3x,https://lh3.googleusercontent.com/S1SrJw0sWDap59Nj0prhQYRQw9VtGs89Kddi9wAqtEJYAtf6WOVTDgzzy43A0xCzeD_4KhxKc1DlQb6GbbTuNdfaL_KUTSBK3z89Qg=w650 2x,https://lh3.googleusercontent.com/S1SrJw0sWDap59Nj0prhQYRQw9VtGs89Kddi9wAqtEJYAtf6WOVTDgzzy43A0xCzeD_4KhxKc1DlQb6GbbTuNdfaL_KUTSBK3z89Qg=w325 1x" width="325" height="33" alt="Wireless Mobile uses rich features to help consumers_22">
+            </div>
+          </div>
+        </div>
+        <div class="group group-ui">
+          <img src="https://lh3.googleusercontent.com/PTKoL_usZSiLRRgrYysYkCphu-EftmYCGO1I58vYZo7WGYDDY9H8UU2ngod3MLTKpkM3YmoZ-cSh95V6PezbavjvhzqoRNt7iVapV5s=w918"
+ class="symbol symbol-15-header" srcset="https://lh3.googleusercontent.com/PTKoL_usZSiLRRgrYysYkCphu-EftmYCGO1I58vYZo7WGYDDY9H8UU2ngod3MLTKpkM3YmoZ-cSh95V6PezbavjvhzqoRNt7iVapV5s=w918 3x,https://lh3.googleusercontent.com/PTKoL_usZSiLRRgrYysYkCphu-EftmYCGO1I58vYZo7WGYDDY9H8UU2ngod3MLTKpkM3YmoZ-cSh95V6PezbavjvhzqoRNt7iVapV5s=w612 2x,https://lh3.googleusercontent.com/PTKoL_usZSiLRRgrYysYkCphu-EftmYCGO1I58vYZo7WGYDDY9H8UU2ngod3MLTKpkM3YmoZ-cSh95V6PezbavjvhzqoRNt7iVapV5s=w306 1x" width="306" height="630" alt="Wireless Mobile uses rich features to help consumers_16">
+          <img src="https://lh3.googleusercontent.com/Q96Zt8Vvj09ijGO1QiJxVz1wHfHaf0s_GNdvdGe91SnBXlqsc54qyoQhWH3um1SZgzuRXAmtoervdY5WTWsSp8354oFMXjFV82gACw=w918"
+ class="symbol symbol-07-icons" srcset="https://lh3.googleusercontent.com/Q96Zt8Vvj09ijGO1QiJxVz1wHfHaf0s_GNdvdGe91SnBXlqsc54qyoQhWH3um1SZgzuRXAmtoervdY5WTWsSp8354oFMXjFV82gACw=w918 3x,https://lh3.googleusercontent.com/Q96Zt8Vvj09ijGO1QiJxVz1wHfHaf0s_GNdvdGe91SnBXlqsc54qyoQhWH3um1SZgzuRXAmtoervdY5WTWsSp8354oFMXjFV82gACw=w612 2x,https://lh3.googleusercontent.com/Q96Zt8Vvj09ijGO1QiJxVz1wHfHaf0s_GNdvdGe91SnBXlqsc54qyoQhWH3um1SZgzuRXAmtoervdY5WTWsSp8354oFMXjFV82gACw=w306 1x" width="306" height="630" alt="Wireless Mobile uses rich features to help consumers_8">
+          <div class="group group-header">
+            <img src="https://lh3.googleusercontent.com/5ikzisBVXsufwziEFeSxRCThOV8YSvjorzNqRinWxFZzK6sKS-2hhaS0nH2HwT-BQm67GkiVHGE85_Wo1AYwBULovUFT6q7KT7ft=w142"
+ class="symbol symbol-04-logo" srcset="https://lh3.googleusercontent.com/5ikzisBVXsufwziEFeSxRCThOV8YSvjorzNqRinWxFZzK6sKS-2hhaS0nH2HwT-BQm67GkiVHGE85_Wo1AYwBULovUFT6q7KT7ft=w141 3x,https://lh3.googleusercontent.com/5ikzisBVXsufwziEFeSxRCThOV8YSvjorzNqRinWxFZzK6sKS-2hhaS0nH2HwT-BQm67GkiVHGE85_Wo1AYwBULovUFT6q7KT7ft=w94 2x,https://lh3.googleusercontent.com/5ikzisBVXsufwziEFeSxRCThOV8YSvjorzNqRinWxFZzK6sKS-2hhaS0nH2HwT-BQm67GkiVHGE85_Wo1AYwBULovUFT6q7KT7ft=w47 1x" width="47" height="47" alt="Wireless Mobile uses rich features to help consumers_5">
+            <img src="https://lh3.googleusercontent.com/7X_afhDZTDBJfiDk-9HSDm4ZhYaKiMTdbH7b8kKZ7art1L4twTuANcuh96zjfVsQxo-bxqet-CNE47C8iIw4MH6Q0kVxb_Br8hq2=w470"
+ class="symbol symbol-05-title" srcset="https://lh3.googleusercontent.com/7X_afhDZTDBJfiDk-9HSDm4ZhYaKiMTdbH7b8kKZ7art1L4twTuANcuh96zjfVsQxo-bxqet-CNE47C8iIw4MH6Q0kVxb_Br8hq2=w471 3x,https://lh3.googleusercontent.com/7X_afhDZTDBJfiDk-9HSDm4ZhYaKiMTdbH7b8kKZ7art1L4twTuANcuh96zjfVsQxo-bxqet-CNE47C8iIw4MH6Q0kVxb_Br8hq2=w314 2x,https://lh3.googleusercontent.com/7X_afhDZTDBJfiDk-9HSDm4ZhYaKiMTdbH7b8kKZ7art1L4twTuANcuh96zjfVsQxo-bxqet-CNE47C8iIw4MH6Q0kVxb_Br8hq2=w157 1x" width="157" height="21" alt="Wireless Mobile uses rich features to help consumers_6">
+            <img src="https://lh3.googleusercontent.com/DGuiunJz2S4_q4IZ0gEATQOCpz5TlRHsDAKgMTctoM4TlABxd7QlRtUDjOdO2qclMag_8oyI9MaCPDYpQHpMupXkwU5Z38r2GBULyYU=w838"
+ class="symbol symbol-06-response" srcset="https://lh3.googleusercontent.com/DGuiunJz2S4_q4IZ0gEATQOCpz5TlRHsDAKgMTctoM4TlABxd7QlRtUDjOdO2qclMag_8oyI9MaCPDYpQHpMupXkwU5Z38r2GBULyYU=w837 3x,https://lh3.googleusercontent.com/DGuiunJz2S4_q4IZ0gEATQOCpz5TlRHsDAKgMTctoM4TlABxd7QlRtUDjOdO2qclMag_8oyI9MaCPDYpQHpMupXkwU5Z38r2GBULyYU=w558 2x,https://lh3.googleusercontent.com/DGuiunJz2S4_q4IZ0gEATQOCpz5TlRHsDAKgMTctoM4TlABxd7QlRtUDjOdO2qclMag_8oyI9MaCPDYpQHpMupXkwU5Z38r2GBULyYU=w279 1x" width="279" height="14" alt="Wireless Mobile uses rich features to help consumers_7">
+          </div>
+          <img src="https://lh3.googleusercontent.com/1CYUAD28ig5DlrV2p-wyGnXkz2VqFV_bPgL0rDbTAp2zHZjBHO3juefe37AMR1Qv6DbnzNQiXNcULQRQiPtDHp4JxFeV2vTvNa536g=w918"
+ class="symbol symbol-08-send" srcset="https://lh3.googleusercontent.com/1CYUAD28ig5DlrV2p-wyGnXkz2VqFV_bPgL0rDbTAp2zHZjBHO3juefe37AMR1Qv6DbnzNQiXNcULQRQiPtDHp4JxFeV2vTvNa536g=w918 3x,https://lh3.googleusercontent.com/1CYUAD28ig5DlrV2p-wyGnXkz2VqFV_bPgL0rDbTAp2zHZjBHO3juefe37AMR1Qv6DbnzNQiXNcULQRQiPtDHp4JxFeV2vTvNa536g=w612 2x,https://lh3.googleusercontent.com/1CYUAD28ig5DlrV2p-wyGnXkz2VqFV_bPgL0rDbTAp2zHZjBHO3juefe37AMR1Qv6DbnzNQiXNcULQRQiPtDHp4JxFeV2vTvNa536g=w306 1x" width="306" height="630" alt="Wireless Mobile uses rich features to help consumers_9">
+        </div>
+      </div>
+      <div class="screen screen-popups">
+        <div class="popup popup-header">
+          <img src="https://lh3.googleusercontent.com/je4orv5z7FV-RCzLE9FDUUwKgxKDhEONP2DvJJ-tYWavq5vDE6u_qIxHjcaOd-DU2xGbaBH9itmZYNIat9_B0i3L9OBaoSNtb4isxQ=w1140"
+ class="symbol symbol-22-header" srcset="https://lh3.googleusercontent.com/je4orv5z7FV-RCzLE9FDUUwKgxKDhEONP2DvJJ-tYWavq5vDE6u_qIxHjcaOd-DU2xGbaBH9itmZYNIat9_B0i3L9OBaoSNtb4isxQ=w1140 3x,https://lh3.googleusercontent.com/je4orv5z7FV-RCzLE9FDUUwKgxKDhEONP2DvJJ-tYWavq5vDE6u_qIxHjcaOd-DU2xGbaBH9itmZYNIat9_B0i3L9OBaoSNtb4isxQ=w760 2x,https://lh3.googleusercontent.com/je4orv5z7FV-RCzLE9FDUUwKgxKDhEONP2DvJJ-tYWavq5vDE6u_qIxHjcaOd-DU2xGbaBH9itmZYNIat9_B0i3L9OBaoSNtb4isxQ=w380 1x" width="380" height="125" alt="Wireless Mobile uses rich features to help consumers_23">
+        </div>
+        <div class="popup popup-options">
+          <img src="https://lh3.googleusercontent.com/lIMK36KKp0dIbark09193FIjApZ8jm4rPdUzWCpBfZ-YRnHrh_u7zUFujTdQ95BeTkCnqAFElw6mxxam7g0GZKPrup6-pa1tU7OU=w619"
+ class="symbol symbol-23-option" srcset="https://lh3.googleusercontent.com/lIMK36KKp0dIbark09193FIjApZ8jm4rPdUzWCpBfZ-YRnHrh_u7zUFujTdQ95BeTkCnqAFElw6mxxam7g0GZKPrup6-pa1tU7OU=w618 3x,https://lh3.googleusercontent.com/lIMK36KKp0dIbark09193FIjApZ8jm4rPdUzWCpBfZ-YRnHrh_u7zUFujTdQ95BeTkCnqAFElw6mxxam7g0GZKPrup6-pa1tU7OU=w412 2x,https://lh3.googleusercontent.com/lIMK36KKp0dIbark09193FIjApZ8jm4rPdUzWCpBfZ-YRnHrh_u7zUFujTdQ95BeTkCnqAFElw6mxxam7g0GZKPrup6-pa1tU7OU=w206 1x" width="206" height="46" alt="Wireless Mobile uses rich features to help consumers_24">
+          <img src="https://lh3.googleusercontent.com/sdp5UBjKlN5568RXByiVqX_xgaTl49_iSMufuMYMN0XyzDVqJwlG75I0CBt5xRcraCOg6c2ZK5G2ZHItJd5ZkbkQbwwp4LH-Rbhbtg=w558"
+ class="symbol symbol-24-option" srcset="https://lh3.googleusercontent.com/sdp5UBjKlN5568RXByiVqX_xgaTl49_iSMufuMYMN0XyzDVqJwlG75I0CBt5xRcraCOg6c2ZK5G2ZHItJd5ZkbkQbwwp4LH-Rbhbtg=w558 3x,https://lh3.googleusercontent.com/sdp5UBjKlN5568RXByiVqX_xgaTl49_iSMufuMYMN0XyzDVqJwlG75I0CBt5xRcraCOg6c2ZK5G2ZHItJd5ZkbkQbwwp4LH-Rbhbtg=w372 2x,https://lh3.googleusercontent.com/sdp5UBjKlN5568RXByiVqX_xgaTl49_iSMufuMYMN0XyzDVqJwlG75I0CBt5xRcraCOg6c2ZK5G2ZHItJd5ZkbkQbwwp4LH-Rbhbtg=w186 1x" width="186" height="46" alt="Wireless Mobile uses rich features to help consumers_25">
+          <img src="https://lh3.googleusercontent.com/Rl4JmUEIOxEYcEfAw0ysfM-E0_3a8cPFSEKKtfFJ-wqWMVu9LEZc9xXScM6l0OO4ByJevQOkYFk3-tNvFJ0WFbbdmy_DZpcTQobgO0s=w415"
+ class="symbol symbol-25-option" srcset="https://lh3.googleusercontent.com/Rl4JmUEIOxEYcEfAw0ysfM-E0_3a8cPFSEKKtfFJ-wqWMVu9LEZc9xXScM6l0OO4ByJevQOkYFk3-tNvFJ0WFbbdmy_DZpcTQobgO0s=w414 3x,https://lh3.googleusercontent.com/Rl4JmUEIOxEYcEfAw0ysfM-E0_3a8cPFSEKKtfFJ-wqWMVu9LEZc9xXScM6l0OO4ByJevQOkYFk3-tNvFJ0WFbbdmy_DZpcTQobgO0s=w276 2x,https://lh3.googleusercontent.com/Rl4JmUEIOxEYcEfAw0ysfM-E0_3a8cPFSEKKtfFJ-wqWMVu9LEZc9xXScM6l0OO4ByJevQOkYFk3-tNvFJ0WFbbdmy_DZpcTQobgO0s=w138 1x" width="138" height="46" alt="Wireless Mobile uses rich features to help consumers_26">
+          <img src="https://lh3.googleusercontent.com/bE87ArKRcB83TJPz2Cvef2oKcqkpVdNH9-YCgay9XziVNeH4ehs4Aw44XKRqcKbGREvboolS-aTyGiTrPVvWEKQgQHqc0pYPeKqelw=w446"
+ class="symbol symbol-26-option" srcset="https://lh3.googleusercontent.com/bE87ArKRcB83TJPz2Cvef2oKcqkpVdNH9-YCgay9XziVNeH4ehs4Aw44XKRqcKbGREvboolS-aTyGiTrPVvWEKQgQHqc0pYPeKqelw=w447 3x,https://lh3.googleusercontent.com/bE87ArKRcB83TJPz2Cvef2oKcqkpVdNH9-YCgay9XziVNeH4ehs4Aw44XKRqcKbGREvboolS-aTyGiTrPVvWEKQgQHqc0pYPeKqelw=w298 2x,https://lh3.googleusercontent.com/bE87ArKRcB83TJPz2Cvef2oKcqkpVdNH9-YCgay9XziVNeH4ehs4Aw44XKRqcKbGREvboolS-aTyGiTrPVvWEKQgQHqc0pYPeKqelw=w149 1x" width="149" height="46" alt="Wireless Mobile uses rich features to help consumers_27">
+          <img src="https://lh3.googleusercontent.com/lkkeaGyx2q28atMw65gJ_3PgDkzTov4tc9zmU5_oi2W90UZdCTvz5xmtTtGyAx6pvEI0OFKze-nFZA3yNCgYpI0pHDA_QGR2n2KTEQ=w401"
+ class="symbol symbol-27-selected" srcset="https://lh3.googleusercontent.com/lkkeaGyx2q28atMw65gJ_3PgDkzTov4tc9zmU5_oi2W90UZdCTvz5xmtTtGyAx6pvEI0OFKze-nFZA3yNCgYpI0pHDA_QGR2n2KTEQ=w402 3x,https://lh3.googleusercontent.com/lkkeaGyx2q28atMw65gJ_3PgDkzTov4tc9zmU5_oi2W90UZdCTvz5xmtTtGyAx6pvEI0OFKze-nFZA3yNCgYpI0pHDA_QGR2n2KTEQ=w268 2x,https://lh3.googleusercontent.com/lkkeaGyx2q28atMw65gJ_3PgDkzTov4tc9zmU5_oi2W90UZdCTvz5xmtTtGyAx6pvEI0OFKze-nFZA3yNCgYpI0pHDA_QGR2n2KTEQ=w134 1x" width="134" height="41" alt="Wireless Mobile uses rich features to help consumers_28">
+        </div>
+        <div class="popup popup-chips">
+          <img src="https://lh3.googleusercontent.com/ZbRVSO0gTWx0xdftDrk75iyUP5qIWC7njW450iuWwS7f3nQHpifo-qObsYVxdxg3z5gvs3RRrOR6cmYHlVshZF-SPR8OBlD57hZTBg=w1443"
+ class="symbol symbol-28-message" srcset="https://lh3.googleusercontent.com/ZbRVSO0gTWx0xdftDrk75iyUP5qIWC7njW450iuWwS7f3nQHpifo-qObsYVxdxg3z5gvs3RRrOR6cmYHlVshZF-SPR8OBlD57hZTBg=w1443 3x,https://lh3.googleusercontent.com/ZbRVSO0gTWx0xdftDrk75iyUP5qIWC7njW450iuWwS7f3nQHpifo-qObsYVxdxg3z5gvs3RRrOR6cmYHlVshZF-SPR8OBlD57hZTBg=w962 2x,https://lh3.googleusercontent.com/ZbRVSO0gTWx0xdftDrk75iyUP5qIWC7njW450iuWwS7f3nQHpifo-qObsYVxdxg3z5gvs3RRrOR6cmYHlVshZF-SPR8OBlD57hZTBg=w481 1x" width="481" height="52" alt="Wireless Mobile uses rich features to help consumers_29">
+        </div>
+        <div class="cursor"></div>
+      </div>
+    </div>
+  </div>
+</section></section></main>
+<aside class="suffix" data-name="businesses-overview-suffix">
+<section data-name="businesses-carousel"
+         class="biz-section biz-section--businesses-carousel ">
+  <div class="glue-page">
+    <div class="biz-content">
+      <div class="biz-content-header">
+          <h2 class="biz-content-title glue-headline">
+            Success Stories
+          </h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="glue-carousel glue-carousel--simple glue-carousel--simple-full-bleed glue-carousel--dark"
+       data-glue-pagination="carousel-fullbleed">
+    <div class="biz-carousel-wrap glue-carousel__wrap">
+      <ul class="glue-carousel__list">
+
+<li data-name="businesses-carousel-levis"
+    class="biz-slide biz-section biz-section--businesses-carousel-slide
+ businesses-carousel-levis glue-carousel__item">
+    <img src="https://lh3.googleusercontent.com/tJE8XirxOsQtFqzl0KM474LLMS6NPYfyvQOY7qYBojgzLHX77beWcTcvrjnAf_WvqWWEdJ7dIOn9g5Ngd74D3ehhln1ag62SUKPNUb3YRaolaHWdEYo=w2882"
+ class="biz-slide-background glue-carousel__image" srcset="https://lh3.googleusercontent.com/tJE8XirxOsQtFqzl0KM474LLMS6NPYfyvQOY7qYBojgzLHX77beWcTcvrjnAf_WvqWWEdJ7dIOn9g5Ngd74D3ehhln1ag62SUKPNUb3YRaolaHWdEYo=w2882 2x,https://lh3.googleusercontent.com/tJE8XirxOsQtFqzl0KM474LLMS6NPYfyvQOY7qYBojgzLHX77beWcTcvrjnAf_WvqWWEdJ7dIOn9g5Ngd74D3ehhln1ag62SUKPNUb3YRaolaHWdEYo=w1441 1x" width="1441" height="518" alt="Levi’s">
+  <div class="biz-slide-content">
+    <div class="biz-slide-content-header">
+        <div class="biz-slide-content-partner">
+          Linc
+        </div>
+        <img src="https://lh3.googleusercontent.com/X-pvxW08Dz7Q4h9GluxjDQT2KClD_fiY_qNd65RKklvV03mx5oyOD9-AghV2Z3JhxhpyfpRQEUeVyJRv78q9IIycKOHPye9PL6HbBBtG7B7tFc_lbKg=w216"
+ class="biz-slide-content-logo" srcset="https://lh3.googleusercontent.com/X-pvxW08Dz7Q4h9GluxjDQT2KClD_fiY_qNd65RKklvV03mx5oyOD9-AghV2Z3JhxhpyfpRQEUeVyJRv78q9IIycKOHPye9PL6HbBBtG7B7tFc_lbKg=w216 3x,https://lh3.googleusercontent.com/X-pvxW08Dz7Q4h9GluxjDQT2KClD_fiY_qNd65RKklvV03mx5oyOD9-AghV2Z3JhxhpyfpRQEUeVyJRv78q9IIycKOHPye9PL6HbBBtG7B7tFc_lbKg=w144 2x,https://lh3.googleusercontent.com/X-pvxW08Dz7Q4h9GluxjDQT2KClD_fiY_qNd65RKklvV03mx5oyOD9-AghV2Z3JhxhpyfpRQEUeVyJRv78q9IIycKOHPye9PL6HbBBtG7B7tFc_lbKg=w72 1x" width="72" height="29" alt="Levi’s">
+        <div class="biz-slide-content-testimonial">
+          &ldquo;Business Messages creates a stronger customer experience by enabling us to do a better job at ‘hearing’ shoppers, answering their questions and uncovering new ways to delight Levi’s fans.&rdquo;
+        </div>
+        <div class="biz-slide-content-source">
+          <span class="biz-slide-content-name">Rico Arrastia</span>,
+          <span class="biz-slide-content-title">VP Product Experience</span>
+        </div>
+          <div class="glue-mod-spacer-6-bottom glue-mod-spacer-2-top">
+<a class="glue-button glue-button--medium-emphasis glue-button--reversed"
+     href="/success-stories/levi/"
+>
+                Read more
+
+  </a>          </div>
+    </div>
+  </div>
+</li>
+<li data-name="businesses-carousel-estafeta"
+    class="biz-slide biz-section biz-section--businesses-carousel-slide
+ businesses-carousel-estafeta glue-carousel__item">
+    <img src="https://lh3.googleusercontent.com/0OJtmw_kel6vxEPC5Zjtyq-57lVhyvHk9VphA_h7kpoHnOR4VNurheFUZXpVHk3UFn8b_A04YZO2e8jMXbJaxOm8O1KTSnlx3VCB=w5601"
+ class="biz-slide-background glue-carousel__image" srcset="https://lh3.googleusercontent.com/0OJtmw_kel6vxEPC5Zjtyq-57lVhyvHk9VphA_h7kpoHnOR4VNurheFUZXpVHk3UFn8b_A04YZO2e8jMXbJaxOm8O1KTSnlx3VCB=w5602 2x,https://lh3.googleusercontent.com/0OJtmw_kel6vxEPC5Zjtyq-57lVhyvHk9VphA_h7kpoHnOR4VNurheFUZXpVHk3UFn8b_A04YZO2e8jMXbJaxOm8O1KTSnlx3VCB=w2801 1x" width="2801" height="1663" alt="Estafeta">
+  <div class="biz-slide-content">
+    <div class="biz-slide-content-header">
+        <div class="biz-slide-content-partner">
+          Auronix
+        </div>
+        <img src="https://lh3.googleusercontent.com/Vl7PPxqmGEgQNP2BnzsvWSc2596BzCcr_ss2fpp09ZO5yHgjPEJxICr4l0M8vVFmQr_-reOmTzNIwZhylklqF14y9nfGRN4RqAfDOQ=w318"
+ class="biz-slide-content-logo" srcset="https://lh3.googleusercontent.com/Vl7PPxqmGEgQNP2BnzsvWSc2596BzCcr_ss2fpp09ZO5yHgjPEJxICr4l0M8vVFmQr_-reOmTzNIwZhylklqF14y9nfGRN4RqAfDOQ=w318 3x,https://lh3.googleusercontent.com/Vl7PPxqmGEgQNP2BnzsvWSc2596BzCcr_ss2fpp09ZO5yHgjPEJxICr4l0M8vVFmQr_-reOmTzNIwZhylklqF14y9nfGRN4RqAfDOQ=w212 2x,https://lh3.googleusercontent.com/Vl7PPxqmGEgQNP2BnzsvWSc2596BzCcr_ss2fpp09ZO5yHgjPEJxICr4l0M8vVFmQr_-reOmTzNIwZhylklqF14y9nfGRN4RqAfDOQ=w106 1x" width="106" height="17" alt="Estafeta">
+        <div class="biz-slide-content-testimonial">
+          &ldquo;I would strongly recommend using Business Messages for all—whatever sector they’re in. Right now it’s important for companies to have open, on-demand conversations&rdquo;
+        </div>
+        <div class="biz-slide-content-source">
+          <span class="biz-slide-content-name">Paulina Torres Ocejo</span>,
+          <span class="biz-slide-content-title">New Product and Innovation Strategist</span>
+        </div>
+          <div class="glue-mod-spacer-6-bottom glue-mod-spacer-2-top">
+<a class="glue-button glue-button--medium-emphasis glue-button--reversed"
+     href="/success-stories/estafeta/"
+>
+                Read more
+
+  </a>          </div>
+    </div>
+  </div>
+</li>
+<li data-name="businesses-carousel-dish"
+    class="biz-slide biz-section biz-section--businesses-carousel-slide
+ businesses-carousel-dish glue-carousel__item">
+    <img src="https://lh3.googleusercontent.com/jA546oJH9I-jNgTiZrjX1zdtW7GwdfMxKZsLZ9XKVQD5mqb855Zg23nzDZjX9Z5KEueHZ-zQfcrDYh2qR3cNIAOzCWIm6koiZISz=w2882"
+ class="biz-slide-background glue-carousel__image" srcset="https://lh3.googleusercontent.com/jA546oJH9I-jNgTiZrjX1zdtW7GwdfMxKZsLZ9XKVQD5mqb855Zg23nzDZjX9Z5KEueHZ-zQfcrDYh2qR3cNIAOzCWIm6koiZISz=w2882 2x,https://lh3.googleusercontent.com/jA546oJH9I-jNgTiZrjX1zdtW7GwdfMxKZsLZ9XKVQD5mqb855Zg23nzDZjX9Z5KEueHZ-zQfcrDYh2qR3cNIAOzCWIm6koiZISz=w1441 1x" width="1441" height="518" alt="Dish">
+  <div class="biz-slide-content">
+    <div class="biz-slide-content-header">
+        <div class="biz-slide-content-partner">
+          [24]7.ai
+        </div>
+        <img src="https://lh3.googleusercontent.com/v0be1-WCUTBfA92dJXPs8lIJB-vNt2p1uUS7c7Gw3rS9aQralkkc_Yk6QktxfZsOSxlkRxfrRJUzlfM6Z8QeWTCIPZSrEJz--j-taA=w282"
+ class="biz-slide-content-logo" srcset="https://lh3.googleusercontent.com/v0be1-WCUTBfA92dJXPs8lIJB-vNt2p1uUS7c7Gw3rS9aQralkkc_Yk6QktxfZsOSxlkRxfrRJUzlfM6Z8QeWTCIPZSrEJz--j-taA=w282 3x,https://lh3.googleusercontent.com/v0be1-WCUTBfA92dJXPs8lIJB-vNt2p1uUS7c7Gw3rS9aQralkkc_Yk6QktxfZsOSxlkRxfrRJUzlfM6Z8QeWTCIPZSrEJz--j-taA=w188 2x,https://lh3.googleusercontent.com/v0be1-WCUTBfA92dJXPs8lIJB-vNt2p1uUS7c7Gw3rS9aQralkkc_Yk6QktxfZsOSxlkRxfrRJUzlfM6Z8QeWTCIPZSrEJz--j-taA=w94 1x" width="94" height="34" alt="Dish">
+        <div class="biz-slide-content-testimonial">
+          &ldquo;We saw a reduction of 28% in average handle time using Business Messages features compared to other messaging&nbsp;channels.&rdquo;
+        </div>
+        <div class="biz-slide-content-source">
+          <span class="biz-slide-content-name">Kathy Schneider</span>,
+          <span class="biz-slide-content-title">SVP of Customer Experience Operations</span>
+        </div>
+          <div class="glue-mod-spacer-6-bottom glue-mod-spacer-2-top">
+<a class="glue-button glue-button--medium-emphasis glue-button--reversed"
+     href="/success-stories/dish/"
+>
+                Read more
+
+  </a>          </div>
+    </div>
+  </div>
+</li>
+<li data-name="businesses-carousel-walmart"
+    class="biz-slide biz-section biz-section--businesses-carousel-slide
+ businesses-carousel-walmart glue-carousel__item">
+    <img src="https://lh3.googleusercontent.com/sYo3jcFfX8f6y0tyCKW0GmqhlasYEcuCfBPWOw-jAzgq2oVT6I8mCjnmbuQIOKiAE3JyiuSv8zH4qNxM2YAJUxNK7OlXmZquiKqPVwY=w2882"
+ class="biz-slide-background glue-carousel__image" srcset="https://lh3.googleusercontent.com/sYo3jcFfX8f6y0tyCKW0GmqhlasYEcuCfBPWOw-jAzgq2oVT6I8mCjnmbuQIOKiAE3JyiuSv8zH4qNxM2YAJUxNK7OlXmZquiKqPVwY=w2882 2x,https://lh3.googleusercontent.com/sYo3jcFfX8f6y0tyCKW0GmqhlasYEcuCfBPWOw-jAzgq2oVT6I8mCjnmbuQIOKiAE3JyiuSv8zH4qNxM2YAJUxNK7OlXmZquiKqPVwY=w1441 1x" width="1441" height="519" alt="Walmart">
+  <div class="biz-slide-content">
+    <div class="biz-slide-content-header">
+        <img src="https://lh3.googleusercontent.com/TGjqtyY3bstEQ4q2p1aAXNCjJebXp1yj5ci0IGvY-EP2G6_rJouMgbMF9u1QZBQEQlxmHEPyEbXS789vblwEyhHMZkEZTxvzy6OKxQ=w451"
+ class="biz-slide-content-logo" srcset="https://lh3.googleusercontent.com/TGjqtyY3bstEQ4q2p1aAXNCjJebXp1yj5ci0IGvY-EP2G6_rJouMgbMF9u1QZBQEQlxmHEPyEbXS789vblwEyhHMZkEZTxvzy6OKxQ=w450 3x,https://lh3.googleusercontent.com/TGjqtyY3bstEQ4q2p1aAXNCjJebXp1yj5ci0IGvY-EP2G6_rJouMgbMF9u1QZBQEQlxmHEPyEbXS789vblwEyhHMZkEZTxvzy6OKxQ=w300 2x,https://lh3.googleusercontent.com/TGjqtyY3bstEQ4q2p1aAXNCjJebXp1yj5ci0IGvY-EP2G6_rJouMgbMF9u1QZBQEQlxmHEPyEbXS789vblwEyhHMZkEZTxvzy6OKxQ=w150 1x" width="150" height="44" alt="Walmart">
+        <div class="biz-slide-content-testimonial">
+          &ldquo;I’m proud of the team for being on the forefront of making life easier for our customers with Business Messages; especially during the&nbsp;pandemic.&rdquo;
+        </div>
+        <div class="biz-slide-content-source">
+          <span class="biz-slide-content-name">Janey Whiteside</span>,
+          <span class="biz-slide-content-title">EVP &amp; Chief Digital Officer</span>
+        </div>
+    </div>
+  </div>
+</li>
+<li data-name="businesses-carousel-albertsons"
+    class="biz-slide biz-section biz-section--businesses-carousel-slide
+ businesses-carousel-albertsons glue-carousel__item">
+    <img src="https://lh3.googleusercontent.com/GnGTy3_5eJByBEbQLn7jLMAg-K15MI1hzlOAtUQdj81HkGtL39Wd-8TCeuaXdV5hs6hrZUYtGavXoIt7GHZHKDIikCOWXTzW2Ta6=w1441"
+ class="biz-slide-background glue-carousel__image" srcset="https://lh3.googleusercontent.com/GnGTy3_5eJByBEbQLn7jLMAg-K15MI1hzlOAtUQdj81HkGtL39Wd-8TCeuaXdV5hs6hrZUYtGavXoIt7GHZHKDIikCOWXTzW2Ta6=w1442 2x,https://lh3.googleusercontent.com/GnGTy3_5eJByBEbQLn7jLMAg-K15MI1hzlOAtUQdj81HkGtL39Wd-8TCeuaXdV5hs6hrZUYtGavXoIt7GHZHKDIikCOWXTzW2Ta6=w721 1x" width="721" height="259" alt="Albertsons">
+  <div class="biz-slide-content">
+    <div class="biz-slide-content-header">
+        <img src="https://lh3.googleusercontent.com/b2sAFGihu2Bib5L7aD_C5XKqnm_Jvy7nU9XE1sPq976LKeh2Xo2ZOTaFbUs_OL4Xb90AoQVklzFPZn2PHxmLUhoKkTTGVFaZWKDNgA=w486"
+ class="biz-slide-content-logo" srcset="https://lh3.googleusercontent.com/b2sAFGihu2Bib5L7aD_C5XKqnm_Jvy7nU9XE1sPq976LKeh2Xo2ZOTaFbUs_OL4Xb90AoQVklzFPZn2PHxmLUhoKkTTGVFaZWKDNgA=w486 3x,https://lh3.googleusercontent.com/b2sAFGihu2Bib5L7aD_C5XKqnm_Jvy7nU9XE1sPq976LKeh2Xo2ZOTaFbUs_OL4Xb90AoQVklzFPZn2PHxmLUhoKkTTGVFaZWKDNgA=w324 2x,https://lh3.googleusercontent.com/b2sAFGihu2Bib5L7aD_C5XKqnm_Jvy7nU9XE1sPq976LKeh2Xo2ZOTaFbUs_OL4Xb90AoQVklzFPZn2PHxmLUhoKkTTGVFaZWKDNgA=w162 1x" width="162" height="25" alt="Albertsons">
+        <div class="biz-slide-content-testimonial">
+          &ldquo;Not only do customers appreciate faster resolution times with Business Messages, but the analytics created by these interactions are helping us gain an understanding of customer intent and&nbsp;sentiment.&rdquo;
+        </div>
+        <div class="biz-slide-content-source">
+          <span class="biz-slide-content-name">Cameron Craig</span>,
+          <span class="biz-slide-content-title">VP of Digital Product Design</span>
+        </div>
+    </div>
+  </div>
+</li>
+<li data-name="businesses-carousel-mattressfirm"
+    class="biz-slide biz-section biz-section--businesses-carousel-slide
+ businesses-carousel-mattressfirm glue-carousel__item">
+    <img src="https://lh3.googleusercontent.com/LX5uf4ZvGdw8KELwKRnGTInaIySTUtCqNk7hxCqnZYExXNiub7o7JmQogL9iqqzAc9V5b6Bm1aLrnsc3pmpQgcoM0xfXre-m9aYmPnU=w2882"
+ class="biz-slide-background glue-carousel__image" srcset="https://lh3.googleusercontent.com/LX5uf4ZvGdw8KELwKRnGTInaIySTUtCqNk7hxCqnZYExXNiub7o7JmQogL9iqqzAc9V5b6Bm1aLrnsc3pmpQgcoM0xfXre-m9aYmPnU=w2883 3x,https://lh3.googleusercontent.com/LX5uf4ZvGdw8KELwKRnGTInaIySTUtCqNk7hxCqnZYExXNiub7o7JmQogL9iqqzAc9V5b6Bm1aLrnsc3pmpQgcoM0xfXre-m9aYmPnU=w1922 2x,https://lh3.googleusercontent.com/LX5uf4ZvGdw8KELwKRnGTInaIySTUtCqNk7hxCqnZYExXNiub7o7JmQogL9iqqzAc9V5b6Bm1aLrnsc3pmpQgcoM0xfXre-m9aYmPnU=w961 1x" width="961" height="346" alt="Omnichannel Integration">
+  <div class="biz-slide-content">
+    <div class="biz-slide-content-header">
+        <div class="biz-slide-content-partner">
+          Podium
+        </div>
+        <img src="https://lh3.googleusercontent.com/zMnpnjTEtnR0vo_gWUHWXeWM0k-FW6wCZ1A-d1xsXp5Fmusknw88DWbxg-2VxVX3ju7ZIzwiOAsruFM3zuMnzQnDWuENUdfzAlXvOQ=w440"
+ class="biz-slide-content-logo" srcset="https://lh3.googleusercontent.com/zMnpnjTEtnR0vo_gWUHWXeWM0k-FW6wCZ1A-d1xsXp5Fmusknw88DWbxg-2VxVX3ju7ZIzwiOAsruFM3zuMnzQnDWuENUdfzAlXvOQ=w441 3x,https://lh3.googleusercontent.com/zMnpnjTEtnR0vo_gWUHWXeWM0k-FW6wCZ1A-d1xsXp5Fmusknw88DWbxg-2VxVX3ju7ZIzwiOAsruFM3zuMnzQnDWuENUdfzAlXvOQ=w294 2x,https://lh3.googleusercontent.com/zMnpnjTEtnR0vo_gWUHWXeWM0k-FW6wCZ1A-d1xsXp5Fmusknw88DWbxg-2VxVX3ju7ZIzwiOAsruFM3zuMnzQnDWuENUdfzAlXvOQ=w147 1x" width="147" height="21" alt="Omnichannel Integration">
+        <div class="biz-slide-content-testimonial">
+          &ldquo;We created an option for a completely contactless selling environment that works alongside Business Messages during COVID-19 -- customers could chat for assistance and buy the perfect bed online!&rdquo;
+        </div>
+        <div class="biz-slide-content-source">
+          <span class="biz-slide-content-name">Steve Barnes</span>,
+          <span class="biz-slide-content-title">Senior Manager, Omnichannel Integration</span>
+        </div>
+    </div>
+  </div>
+</li>
+<li data-name="businesses-carousel-bajajauto"
+    class="biz-slide biz-section biz-section--businesses-carousel-slide
+ businesses-carousel-bajajauto glue-carousel__item">
+    <img src="https://lh3.googleusercontent.com/8K5zNSGVttz9FHn07Uj5XwVjvUHJpcdm4kT1huqpm5sBXnutaODv013430it5UDllrOBSbqw-rhdhBkRSuxPp-CFuiMpnyo3W74yJxDiXcJ40DriNw=w1440"
+ class="biz-slide-background glue-carousel__image" alt="Bajaj Auto Ltd">
+  <div class="biz-slide-content">
+    <div class="biz-slide-content-header">
+        <img src="https://lh3.googleusercontent.com/PpF6yUu9oIrF8nv37Jc3m83J87nfZV3IW00j5vFfLqr8Rwkt-u2RpNq9uzJFFg0EbpbHsrTgye2yKTZIngrUoCQJS59iAkt_Ee5JcfsIRAZSuOD8paY=w246"
+ class="biz-slide-content-logo" srcset="https://lh3.googleusercontent.com/PpF6yUu9oIrF8nv37Jc3m83J87nfZV3IW00j5vFfLqr8Rwkt-u2RpNq9uzJFFg0EbpbHsrTgye2yKTZIngrUoCQJS59iAkt_Ee5JcfsIRAZSuOD8paY=w246 2x,https://lh3.googleusercontent.com/PpF6yUu9oIrF8nv37Jc3m83J87nfZV3IW00j5vFfLqr8Rwkt-u2RpNq9uzJFFg0EbpbHsrTgye2yKTZIngrUoCQJS59iAkt_Ee5JcfsIRAZSuOD8paY=w123 1x" width="123" height="44" alt="Bajaj Auto Ltd">
+        <div class="biz-slide-content-testimonial">
+          &ldquo;Google's Business Messages, in combination with the ORI Revenue Acceleration platform, allowed us to assist our customers at the most important point of their customer journey: their discovery phase. This in turn skyrocketed our overall visitor-to-lead conversions.&rdquo;
+        </div>
+        <div class="biz-slide-content-source">
+          <span class="biz-slide-content-name">Shardul Verma</span>,
+          <span class="biz-slide-content-title">Head of Digital Marketing</span>
+        </div>
+          <div class="glue-mod-spacer-6-bottom glue-mod-spacer-2-top">
+<a class="glue-button glue-button--medium-emphasis glue-button--reversed"
+     href="/success-stories/bajajauto/"
+>
+                Read more
+
+  </a>          </div>
+    </div>
+  </div>
+</li>
+<li data-name="businesses-carousel-tangotechnology"
+    class="biz-slide biz-section biz-section--businesses-carousel-slide
+ businesses-carousel-tangotechnology glue-carousel__item">
+    <img src="https://lh3.googleusercontent.com/-m0ID4qWb_QQUwmAaZq7fVgDvH1WY-SQFyC-UaIA4L3Mp_dugRqqxkpWWOJ3r4Tx3D_C7eJJ9-58zKJ6IYiK1dSuMhuVZuLV3OTMs9R-NWqwnft90ZI=w2882"
+ class="biz-slide-background glue-carousel__image" srcset="https://lh3.googleusercontent.com/-m0ID4qWb_QQUwmAaZq7fVgDvH1WY-SQFyC-UaIA4L3Mp_dugRqqxkpWWOJ3r4Tx3D_C7eJJ9-58zKJ6IYiK1dSuMhuVZuLV3OTMs9R-NWqwnft90ZI=w2882 1x" width="2882" height="1036" alt="Tango Technology">
+  <div class="biz-slide-content">
+    <div class="biz-slide-content-header">
+        <img src="https://lh3.googleusercontent.com/CATEgTOul77BSntum_uWJP3ToRuU-Vv0-iZMhspq45Z0L0y23fCQzVqTTMwC31gV5qTenXrwIJ80CVOy9iyIYO6lTn6awMnifXv-ZVEmchDE6QhH8i2R=w390"
+ class="biz-slide-content-logo" srcset="https://lh3.googleusercontent.com/CATEgTOul77BSntum_uWJP3ToRuU-Vv0-iZMhspq45Z0L0y23fCQzVqTTMwC31gV5qTenXrwIJ80CVOy9iyIYO6lTn6awMnifXv-ZVEmchDE6QhH8i2R=w390 2x,https://lh3.googleusercontent.com/CATEgTOul77BSntum_uWJP3ToRuU-Vv0-iZMhspq45Z0L0y23fCQzVqTTMwC31gV5qTenXrwIJ80CVOy9iyIYO6lTn6awMnifXv-ZVEmchDE6QhH8i2R=w195 1x" width="195" height="41" alt="Tango Technology">
+        <div class="biz-slide-content-testimonial">
+          &ldquo;Google’s Business Messages has helped the public sector respond directly to citizens in real time during the COVID-19 pandemic by reducing staff workload and cutting costs for agencies.&rdquo;
+        </div>
+        <div class="biz-slide-content-source">
+          <span class="biz-slide-content-name">Sam Tate</span>,
+          <span class="biz-slide-content-title">Co-Founder, Tango Technology</span>
+        </div>
+          <div class="glue-mod-spacer-6-bottom glue-mod-spacer-2-top">
+<a class="glue-button glue-button--medium-emphasis glue-button--reversed"
+     href="/success-stories/tangotechnology/"
+>
+                Read more
+
+  </a>          </div>
+    </div>
+  </div>
+</li>
+<li data-name="businesses-carousel-popeyes"
+    class="biz-slide biz-section biz-section--businesses-carousel-slide
+ businesses-carousel-popeyes glue-carousel__item">
+    <img src="https://lh3.googleusercontent.com/ysWLwl3EvV2ZxTpoKRGe2kAIieh0ALyDZAlqPaXfSGomNIi2i82W8SUj7NWkClslPzToLaYA88CBEGQwXDBb2aOhNfLBBbrGVqDm6aMv-SacZJo88xk=w2882"
+ class="biz-slide-background glue-carousel__image" srcset="https://lh3.googleusercontent.com/ysWLwl3EvV2ZxTpoKRGe2kAIieh0ALyDZAlqPaXfSGomNIi2i82W8SUj7NWkClslPzToLaYA88CBEGQwXDBb2aOhNfLBBbrGVqDm6aMv-SacZJo88xk=w2882 1x" width="2882" height="1036" alt="Popeye&#39;s">
+  <div class="biz-slide-content">
+    <div class="biz-slide-content-header">
+        <img src="https://lh3.googleusercontent.com/YZ5ap8BXg9c3UgZQxTwg51_rhJcVVypUWYtIw1duFPxtvkJmgWvvpeA9gGSaHXc0Tat7FeRUtmioW14zu6g1nuB5-bh8_SZ-EEGZ9-pkWv72JtQEJqo=w246"
+ class="biz-slide-content-logo" srcset="https://lh3.googleusercontent.com/YZ5ap8BXg9c3UgZQxTwg51_rhJcVVypUWYtIw1duFPxtvkJmgWvvpeA9gGSaHXc0Tat7FeRUtmioW14zu6g1nuB5-bh8_SZ-EEGZ9-pkWv72JtQEJqo=w246 2x,https://lh3.googleusercontent.com/YZ5ap8BXg9c3UgZQxTwg51_rhJcVVypUWYtIw1duFPxtvkJmgWvvpeA9gGSaHXc0Tat7FeRUtmioW14zu6g1nuB5-bh8_SZ-EEGZ9-pkWv72JtQEJqo=w123 1x" width="123" height="66" alt="Popeye&#39;s">
+        <div class="biz-slide-content-testimonial">
+          &ldquo;The bottom line for companies is this: You cannot afford to miss a single interaction with a customer. You’re on duty every day of the year, every hour of the day. Business Messages is a great solution for this exact problem, whatever your work schedule. It supports retailers 24/7.&rdquo;
+        </div>
+        <div class="biz-slide-content-source">
+          <span class="biz-slide-content-name">Philippe-Antoine Defoy</span>,
+          <span class="biz-slide-content-title">Owner of 27 Popeye’s Supplements licenses across Eastern Canada.</span>
+        </div>
+          <div class="glue-mod-spacer-6-bottom glue-mod-spacer-2-top">
+<a class="glue-button glue-button--medium-emphasis glue-button--reversed"
+     href="/success-stories/popeyes/"
+>
+                Read more
+
+  </a>          </div>
+    </div>
+  </div>
+</li>
+<li data-name="businesses-carousel-videotron"
+    class="biz-slide biz-section biz-section--businesses-carousel-slide
+ businesses-carousel-videotron glue-carousel__item">
+    <img src="https://lh3.googleusercontent.com/afzmlEhBxX5HTsd50opaDxWW4bUt2-xp8ej8FM0UfFdas56YRqa7C81TdKmdYOnXmDTRhW0Mtreqeehe5awgBTYAmUrwlgltEra6bU1sJ17ppxkD2LM=w1441"
+ class="biz-slide-background glue-carousel__image" srcset="https://lh3.googleusercontent.com/afzmlEhBxX5HTsd50opaDxWW4bUt2-xp8ej8FM0UfFdas56YRqa7C81TdKmdYOnXmDTRhW0Mtreqeehe5awgBTYAmUrwlgltEra6bU1sJ17ppxkD2LM=w1441 1x" width="1441" height="518" alt="Videotron">
+  <div class="biz-slide-content">
+    <div class="biz-slide-content-header">
+        <img src="https://lh3.googleusercontent.com/bQAixV96IZ6mXmOTQ3O8rs-sgqZ-lOc0ySDzTZZNwFK9eQeo6nMYNqqW6Y58nZsnVPqLOTVdx9sFMGHtX0e_2vO8APV37vitWR6kvkLEtp7_wGrpXEE=w360"
+ class="biz-slide-content-logo" srcset="https://lh3.googleusercontent.com/bQAixV96IZ6mXmOTQ3O8rs-sgqZ-lOc0ySDzTZZNwFK9eQeo6nMYNqqW6Y58nZsnVPqLOTVdx9sFMGHtX0e_2vO8APV37vitWR6kvkLEtp7_wGrpXEE=w360 2x,https://lh3.googleusercontent.com/bQAixV96IZ6mXmOTQ3O8rs-sgqZ-lOc0ySDzTZZNwFK9eQeo6nMYNqqW6Y58nZsnVPqLOTVdx9sFMGHtX0e_2vO8APV37vitWR6kvkLEtp7_wGrpXEE=w180 1x" width="180" height="36" alt="Videotron">
+        <div class="biz-slide-content-testimonial">
+          &ldquo;Vidéotron’s agile approach to digital care made it easy to add Google’s Business Messages into their existing Khoros workflows — and it's already making a big impact on customer satisfaction and agent efficiency.&rdquo;
+        </div>
+        <div class="biz-slide-content-source">
+          <span class="biz-slide-content-name">Chris Tranquil</span>,
+          <span class="biz-slide-content-title">Chief of Strategy at Khoros.</span>
+        </div>
+          <div class="glue-mod-spacer-6-bottom glue-mod-spacer-2-top">
+<a class="glue-button glue-button--medium-emphasis glue-button--reversed"
+     href="/success-stories/videotron/"
+>
+                Read more
+
+  </a>          </div>
+    </div>
+  </div>
+</li>      </ul>
+
+      <div class="biz-carousel-previous glue-carousel__paginate glue-pagination-previous">
+        <button type="button" class="glue-pagination__button "
+                data-glue-pagination-previous
+                data-glue-pagination="carousel-fullbleed"
+                data-glue-pagination-update-model="false"
+                title="Previous">
+          <div class="glue-carousel__paginate-wrap">
+            <div class="glue-carousel__arrow glue-carousel__arrow--left"></div>
+          </div>
+        </button>
+      </div>
+
+      <div class="biz-carousel-next glue-carousel__paginate glue-pagination-next">
+        <button type="button" class="glue-pagination__button "
+                data-glue-pagination-next
+                data-glue-pagination="carousel-fullbleed"
+                data-glue-pagination-update-model="false"
+                title="Next">
+          <div class="glue-carousel__paginate-wrap">
+            <div class="glue-carousel__arrow glue-carousel__arrow--right"></div>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="biz-carousel-navigation glue-carousel__navigation">
+      <ul class="glue-pagination-page-list" data-glue-pagination-page-list data-glue-pagination="carousel-fullbleed">
+          <li class="glue-pagination__button-container glue-pagination__page-list-button-container">
+            <button type="button" class="glue-pagination__button glue-pagination__page-list-button" role="tab"
+                    data-glue-pagination-page="1">1</button>
+          </li>
+          <li class="glue-pagination__button-container glue-pagination__page-list-button-container">
+            <button type="button" class="glue-pagination__button glue-pagination__page-list-button" role="tab"
+                    data-glue-pagination-page="2">2</button>
+          </li>
+          <li class="glue-pagination__button-container glue-pagination__page-list-button-container">
+            <button type="button" class="glue-pagination__button glue-pagination__page-list-button" role="tab"
+                    data-glue-pagination-page="3">3</button>
+          </li>
+          <li class="glue-pagination__button-container glue-pagination__page-list-button-container">
+            <button type="button" class="glue-pagination__button glue-pagination__page-list-button" role="tab"
+                    data-glue-pagination-page="4">4</button>
+          </li>
+          <li class="glue-pagination__button-container glue-pagination__page-list-button-container">
+            <button type="button" class="glue-pagination__button glue-pagination__page-list-button" role="tab"
+                    data-glue-pagination-page="5">5</button>
+          </li>
+          <li class="glue-pagination__button-container glue-pagination__page-list-button-container">
+            <button type="button" class="glue-pagination__button glue-pagination__page-list-button" role="tab"
+                    data-glue-pagination-page="6">6</button>
+          </li>
+          <li class="glue-pagination__button-container glue-pagination__page-list-button-container">
+            <button type="button" class="glue-pagination__button glue-pagination__page-list-button" role="tab"
+                    data-glue-pagination-page="7">7</button>
+          </li>
+          <li class="glue-pagination__button-container glue-pagination__page-list-button-container">
+            <button type="button" class="glue-pagination__button glue-pagination__page-list-button" role="tab"
+                    data-glue-pagination-page="8">8</button>
+          </li>
+          <li class="glue-pagination__button-container glue-pagination__page-list-button-container">
+            <button type="button" class="glue-pagination__button glue-pagination__page-list-button" role="tab"
+                    data-glue-pagination-page="9">9</button>
+          </li>
+          <li class="glue-pagination__button-container glue-pagination__page-list-button-container">
+            <button type="button" class="glue-pagination__button glue-pagination__page-list-button" role="tab"
+                    data-glue-pagination-page="10">10</button>
+          </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section data-name="businesses-action"
+         class="biz-section biz-section--businesses-action ">
+  <div class="glue-page">
+    <div class="glue-grid">
+      <div class="glue-grid__col glue-grid__col--span-1"></div>
+      <div class="glue-grid__col glue-grid__col--span-4">
+        <div class="biz-content">
+          <div class="biz-content-header">
+              <h2 class="biz-content-title glue-headline">
+                Connect with your customers
+              </h2>
+            <div class="biz-content-icons">
+              <img src="https://lh3.googleusercontent.com/LjlQXZGF-3C0yv99xAKpv942l62ZV8nhG59rR8PXbqR_ue2_AJY67X7dlEKi_a21vgswYqVD0E7fdFYcku4uQjDncYVSVA65IUBVRm4=w153"
+ class="biz-content-icons-icon" srcset="https://lh3.googleusercontent.com/LjlQXZGF-3C0yv99xAKpv942l62ZV8nhG59rR8PXbqR_ue2_AJY67X7dlEKi_a21vgswYqVD0E7fdFYcku4uQjDncYVSVA65IUBVRm4=w153 3x,https://lh3.googleusercontent.com/LjlQXZGF-3C0yv99xAKpv942l62ZV8nhG59rR8PXbqR_ue2_AJY67X7dlEKi_a21vgswYqVD0E7fdFYcku4uQjDncYVSVA65IUBVRm4=w102 2x,https://lh3.googleusercontent.com/LjlQXZGF-3C0yv99xAKpv942l62ZV8nhG59rR8PXbqR_ue2_AJY67X7dlEKi_a21vgswYqVD0E7fdFYcku4uQjDncYVSVA65IUBVRm4=w51 1x" width="51" height="51" alt="Google search icon">
+              <img src="https://lh3.googleusercontent.com/PYpf7k4DepxS4HkXEeAAsrtxHy92Mdlq8SM32OCIvZR0hqNGwoVFjUjXnti3eXCuLYJZeorkgBxOs9qs8IZbwEUk8cw3X1ku1ld7zg=w96"
+ class="biz-content-icons-icon" srcset="https://lh3.googleusercontent.com/PYpf7k4DepxS4HkXEeAAsrtxHy92Mdlq8SM32OCIvZR0hqNGwoVFjUjXnti3eXCuLYJZeorkgBxOs9qs8IZbwEUk8cw3X1ku1ld7zg=w96 3x,https://lh3.googleusercontent.com/PYpf7k4DepxS4HkXEeAAsrtxHy92Mdlq8SM32OCIvZR0hqNGwoVFjUjXnti3eXCuLYJZeorkgBxOs9qs8IZbwEUk8cw3X1ku1ld7zg=w64 2x,https://lh3.googleusercontent.com/PYpf7k4DepxS4HkXEeAAsrtxHy92Mdlq8SM32OCIvZR0hqNGwoVFjUjXnti3eXCuLYJZeorkgBxOs9qs8IZbwEUk8cw3X1ku1ld7zg=w32 1x" width="32" height="45" alt="Google maps icon">
+            </div>
+            <div class="biz-content-actions">
+<a class="glue-button glue-button--high-emphasis"
+     href="/contact-us/"
+>
+                      Contact us
+
+  </a>            </div>
+          </div>
+        </div>
+      </div>
+      <div class="glue-grid__col glue-grid__col--span-2"></div>
+      <div class="glue-grid__col glue-grid__col--span-4">
+        <div class="biz-content">
+          <div class="biz-content-header">
+              <h3 class="biz-content-title glue-headline">
+                Find a partner
+              </h3>
+              <div class="biz-content-description">
+                <p>Contact one of our partners to enable messaging and to optimize your program.</p>
+              </div>
+            <div class="biz-content-actions">
+<a class="glue-button glue-button--medium-emphasis"
+     href="https://developers.google.com/business-communications/business-messages/partners"
+target="_blank" rel="noopener noreferrer">
+                      Find a partner
+
+  </a>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section></aside>
+
+
+<footer class="glue-footer">
+  <section class="glue-footer__global">
+    <div class="glue-footer__logo">
+      <a href="https://www.google.com" title="Google"
+          target="_blank" rel="noopener noreferrer">
+        <svg role="img" aria-hidden="true" class="glue-footer__logo-img" aria-label="">
+          <use xlink:href="/static/img/glue-icons.svg#google-solid-logo"></use>
+        </svg>
+      </a>
+    </div>
+
+    <ul class="glue-footer__global-links glue-no-bullet">
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://about.google/"
+            target="_blank" rel="noopener noreferrer">
+          About Google
+        </a>
+      </li>
+
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://about.google/products/"
+            target="_blank" rel="noopener noreferrer">
+          Google products
+        </a>
+      </li>
+
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://policies.google.com/privacy"
+            target="_blank" rel="noopener noreferrer">
+          Privacy
+        </a>
+      </li>
+
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link " href="https://policies.google.com/terms"
+            target="_blank" rel="noopener noreferrer">
+          Terms
+        </a>
+      </li>
+    </ul>
+
+    <ul class="glue-footer__global-links glue-footer__global-links--extra glue-no-bullet">
+      <li class="glue-footer__global-links-list-item glue-footer__global-links-list-item--extra">
+        <a class="glue-footer__link " href="https://support.google.com/?hl=en"
+            target="_blank" rel="noopener noreferrer">
+          <svg role="img" aria-hidden="true" class="glue-icon glue-icon--24px glue-icon--footer-help" aria-label="">
+            <use xlink:href="/static/img/glue-icons.svg#help"></use>
+          </svg>
+          Help
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+</footer>
+<script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js" nonce="gAoc6h4Z83_iRP8oHb5lqQ"></script>
+<script src="https://www.gstatic.com/external_hosted/gsap/v1_18_0/TweenMax.min.js" nonce="gAoc6h4Z83_iRP8oHb5lqQ"></script>
+<script src="https://www.gstatic.com/external_hosted/gsap/v1_18_0/TimelineMax.min.js" nonce="gAoc6h4Z83_iRP8oHb5lqQ"></script>
+<script src="https://www.gstatic.com/external_hosted/gsap/v1_18_0/plugins/CSSPlugin.min.js" nonce="gAoc6h4Z83_iRP8oHb5lqQ"></script>
+<script src="https://www.gstatic.com/external_hosted/scrollmagic/ScrollMagic.min.js" nonce="gAoc6h4Z83_iRP8oHb5lqQ"></script>
+<script src="/static/js/index.min.js?cache=ff3f036" nonce="gAoc6h4Z83_iRP8oHb5lqQ"></script>
+
+<script data-autoload-cookie-consent-bar="true"
+        src="https://www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v2.js" nonce="gAoc6h4Z83_iRP8oHb5lqQ"></script>
+
+
+</body>
+</html>

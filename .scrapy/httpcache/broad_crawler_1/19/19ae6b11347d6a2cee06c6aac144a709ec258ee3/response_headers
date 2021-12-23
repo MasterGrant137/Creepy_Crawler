@@ -1,0 +1,19 @@
+Content-Length: 1371
+X-Ebay-C-Request-Id: ri=ist8YY00yix8,rci=220b1ab7ab43a4b0
+Rlogid: t6qjdhwv%3C%3Dpieulgisp%28q05iw*w%60ut3527-17de8d4863e-0xfb
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+Content-Type: text/plain
+Server: ebay-proxy-server
+X-Envoy-Upstream-Service-Time: 33
+X-Ebay-Pop-Id: UFES2-MRS-dweb-www2
+X-Edgeconnect-Midmile-Rtt: 1
+X-Edgeconnect-Origin-Mex-Latency: 49
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+Vary: Accept-Encoding
+Set-Cookie: ebay=%5Esbf%3D%23%5E;Domain=.ebay.co.uk;Path=/; Secure
+Set-Cookie: dp1=bu1p/QEBfX0BAX19AQA**6587390d^bl/US6587390d^;Domain=.ebay.co.uk;Expires=Sat, 23-Dec-2023 19:46:21 GMT;Path=/; Secure
+Set-Cookie: s=CgAD4ACBhxiONZThkNDg2M2QxN2QwYTQ5YTI4ODBlMmFmZmZmZmE4MTMLKR01;Domain=.ebay.co.uk;Path=/; Secure; HttpOnly
+Set-Cookie: nonsession=CgADKACBlhzkNZThkNDg2M2QxN2QwYTQ5YTI4ODBlMmFmZmZmZmE4MTMAywABYcTZFTFmiSn2;Domain=.ebay.co.uk;Expires=Sat, 23-Dec-2023 19:46:21 GMT;Path=/; Secure

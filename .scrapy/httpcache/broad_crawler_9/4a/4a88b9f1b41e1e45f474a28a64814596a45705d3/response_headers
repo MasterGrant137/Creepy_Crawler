@@ -1,0 +1,17 @@
+Content-Length: 446
+Content-Type: text/plain
+Server: openresty
+Last-Modified: Thu, 23 Dec 2021 17:30:44 GMT
+Etag: "61c4b244-6c8"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: private, max-age=56
+Expires: Thu, 23 Dec 2021 20:07:16 GMT
+Date: Thu, 23 Dec 2021 20:06:20 GMT
+Set-Cookie: _lbz=1; expires=Fri, 23-Dec-2022 20:06:20 GMT; domain=.chicagotribune.com
+Set-Cookie: _lb=1; expires=Thu, 23-Dec-2021 20:21:20 GMT; path=/; domain=.chicagotribune.com
+Set-Cookie: akaas_AS_tronc_chicago_tribune_prod=2147483647~rv=51~id=16f275a6209b69df09fe16b4993b8e65; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=171
+Content-Security-Policy: upgrade-insecure-requests

@@ -1,0 +1,22 @@
+Date: Thu, 23 Dec 2021 19:46:16 GMT
+Content-Type: text/html; charset=UTF-8
+Cf-Ray: 6c2418576cdc7bcb-LAX
+Age: 137164
+Cache-Control: no-cache
+Last-Modified: Wed, 22 Dec 2021 05:40:12 GMT
+Set-Cookie: _moz_csrf=e25f51481b87394344705a07f25040ced405b677; Max-Age=3600000; Domain=moz.com; Path=/; SameSite=Strict; Secure; HttpOnly
+Set-Cookie: __cf_bm=GNftPZ6gNAcg6vhwsfwD9mwXhovMY0Lchb6l7CSRmP4-1640288776-0-ATu771htQf5zla48XU/eRb4Up9c1bTkq/3Met8+01rLn5aqQ6qTRWgtZp3JqJwND5VcQ0nazxj+rxyhiGiy8H7A=; path=/; expires=Thu, 23-Dec-21 20:16:16 GMT; domain=.moz.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=2592000
+Vary: Accept-Encoding
+Cf-Cache-Status: HIT
+Accept-Ch: DPR, Viewport-Width, Width
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Permissions-Policy: interest-cohort=()
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Robots-Tag: none
+X-Xss-Protection: 1; mode=block
+Server: cloudflare
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

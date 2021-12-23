@@ -1,0 +1,15 @@
+Server: nginx/1.20.2
+Date: Thu, 23 Dec 2021 19:22:57 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+X-Robots-Tag: noindex, follow
+Link: <https://optinmonster.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://optin.to/2L42FpR>; rel=shortlink
+Strict-Transport-Security: max-age=15768000
+X-Cached: HIT
+X-Proxy-Cache: HIT
+Content-Encoding: gzip
+Via: 1.1 google
+Set-Cookie: GCLB=CLjI6tv-gc7rMw; path=/; HttpOnly; expires=Thu, 23-Dec-2021 20:22:57 GMT
+Alt-Svc: clear

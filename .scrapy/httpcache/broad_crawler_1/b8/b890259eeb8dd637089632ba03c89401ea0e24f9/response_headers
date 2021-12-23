@@ -1,0 +1,26 @@
+Content-Length: 68187
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 23 Dec 2021 07:46:17 GMT
+P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Security-Policy-Report-Only: default-src https: data: blob: wss: 'unsafe-inline' 'unsafe-eval'; report-uri /_csp
+Content-Encoding: gzip
+X-Bapp-Server: pweb-v18719-69scz
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+X-Varnish-Cache: 0
+X-Vserver: infra-webproxy-b-16
+X-Vimeo-Dc: ge
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 19:46:17 GMT
+Age: 0
+X-Served-By: cache-iad-kcgs7200177-IAD, cache-bur17552-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640288778.687273,VS0,VE176
+Vary: User-Agent,Accept-Encoding

@@ -1,10 +1,14 @@
 {
     "AJAXCRAWL_ENABLED": true,
     "BOT_NAME": "crawler",
-    "CLOSESPIDER_TIMEOUT": 10,
+    "CLOSESPIDER_TIMEOUT": 3,
     "CONCURRENT_REQUESTS": 100,
     "COOKIES_ENABLED": false,
+    "DEPTH_PRIORITY": 1,
+    "DOWNLOAD_TIMEOUT": 3,
     "HTTPCACHE_ENABLED": true,
     "LOG_LEVEL": "INFO",
-    "ROBOTSTXT_OBEY": true
+    "RETRY_ENABLED": false,
+    "ROBOTSTXT_OBEY": true,
+    "USER_AGENT": "authorcgrant@gmail.com (https://creepy-crawler-1.herokuapp.com/"
 }

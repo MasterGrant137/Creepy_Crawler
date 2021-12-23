@@ -1,0 +1,20 @@
+Content-Length: 166
+Date: Thu, 23 Dec 2021 19:47:33 GMT
+Content-Type: text/plain; charset=UTF-8
+Cache-Control: public, max-age=31536000
+Expires: Thu, 23 Dec 2021 19:53:02 GMT
+Last-Modified: Tue, 09 Jun 2020 07:42:51 GMT
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Powered-By: PleskLin
+X-Xss-Protection: 1; mode=block
+Access-Control-Allow-Origin: https://www.plesk.com
+X-Turbo-Charged-By: LiteSpeed
+Cf-Cache-Status: HIT
+Age: 172471
+Accept-Ranges: bytes
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Strict-Transport-Security: max-age=15552000
+X-Content-Type-Options: nosniff
+Server: cloudflare
+Cf-Ray: 6c241a37fa0b5337-LAX

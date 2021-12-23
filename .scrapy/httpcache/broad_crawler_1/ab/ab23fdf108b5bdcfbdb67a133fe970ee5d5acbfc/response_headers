@@ -1,0 +1,11 @@
+Server: nginx
+Date: Thu, 23 Dec 2021 19:46:26 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: uprand=aaffb8e96b70259525ff1ed6b11883ed; path=/; domain=.depositfiles.com
+Set-Cookie: referer=https%3A%2F%2Fmoz.com%2Ftop500; expires=Fri, 24-Dec-2021 19:46:26 GMT; Max-Age=86400; path=/; domain=.depositfiles.com
+Set-Cookie: lang_current=en; expires=Fri, 23-Dec-2022 19:46:26 GMT; Max-Age=31536000; path=/; domain=.depositfiles.com; secure
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip

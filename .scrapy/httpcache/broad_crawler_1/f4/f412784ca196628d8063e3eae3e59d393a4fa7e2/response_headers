@@ -1,0 +1,21 @@
+Date: Thu, 23 Dec 2021 19:46:18 GMT
+Content-Type: text/html; charset=UTF-8
+Cf-Ray: 6c241858bc517dd2-LAX
+Cache-Control: no-cache
+Link: <https://moz.com/training>; rel='canonical'
+Set-Cookie: _moz_csrf=e25f51481b87394344705a07f25040ced405b677; Max-Age=3600000; Domain=moz.com; Path=/; SameSite=Strict; Secure; HttpOnly
+Set-Cookie: __cf_bm=Q_Tmgse_viGaFIA6Bibayu2jHkWnfbcqPt4hyzQJTCc-1640288778-0-AfrT5Z9lfE+k7Jqro4TXRIBw0sEIMLz++2JPN0Ku3FznJ8Cl66GGO/Rmk0u2Era65uHJb5B7WWzwGxy3oJot2JI=; path=/; expires=Thu, 23-Dec-21 20:16:18 GMT; domain=.moz.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=2592000
+Cf-Cache-Status: DYNAMIC
+Accept-Ch: DPR, Viewport-Width, Width
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Permissions-Policy: interest-cohort=()
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Robots-Tag: all
+X-Xss-Protection: 1; mode=block
+Vary: Accept-Encoding
+Server: cloudflare
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

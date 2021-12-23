@@ -1,0 +1,20 @@
+Content-Type: text/plain; charset=utf-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 23 Dec 2021 20:05:12 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+X-Robots-Tag: noindex
+Strict-Transport-Security: max-age=31536000
+Report-To: {"group":"PlusAppUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/PlusAppUi/external"}]}
+Cross-Origin-Resource-Policy: cross-origin
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/PlusAppUi/cspreport
+Content-Security-Policy: script-src 'report-sample' 'nonce-41RtjIzvZ0Z2Lcqg+U89OQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/PlusAppUi/cspreport;worker-src 'self'
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to="PlusAppUi"
+Content-Encoding: gzip
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=jCQSRaUXHcpOLJoXtTJoIbM7aIvSUk6PMR5xL58WcjrmhAVoaeLR4ukYR36tv02OWqt00QU6tqY2v7X--v095Vt6Pc2c-grUs0nTehw1lIX1AW52AVp2V6kkU2FejzcGWf0ci9rPDGUkMM4CDlH8l415PAQMwuPNn1EcQs9lI8k; expires=Fri, 24-Jun-2022 20:05:12 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

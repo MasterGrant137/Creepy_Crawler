@@ -1,0 +1,24 @@
+# This virtual robots.txt file was created by the Virtual Robots.txt WordPress plugin: https://www.wordpress.org/plugins/pc-robotstxt/
+User-agent: *
+Noindex: /page/
+Noindex: /channels/
+Noindex: /experts/
+Noindex: /category/
+Noindex: /*about
+Noindex: /*201
+Noindex: /*advertising
+Noindex: /team/
+Noindex: /author/
+Noindex: /solutions/
+Disallow: /page/
+Disallow: /channels/
+Disallow: /experts/
+Disallow: /category/
+Disallow: /*about
+Disallow: /*201
+Disallow: /*advertising
+Disallow: /team/
+Disallow: /author/
+Disallow: /solutions/
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php

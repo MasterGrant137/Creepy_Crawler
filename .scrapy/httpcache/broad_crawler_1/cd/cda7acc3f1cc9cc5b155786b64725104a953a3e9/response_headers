@@ -1,0 +1,13 @@
+Content-Length: 0
+Location: https://www.facebook.com/
+Access-Control-Expose-Headers: X-FB-Debug, X-Loader-Length
+Access-Control-Allow-Methods: OPTIONS
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://facebook.com
+Vary: Origin
+Strict-Transport-Security: max-age=15552000; preload
+Content-Type: text/html; charset="utf-8"
+X-Fb-Debug: bM7KwzQe2RDsDZhynirjo6qX4afT8dNGMTdwp14EZU5E5npWL7QOzIljkUFrB+nTkjOPOXzvujAtbocSca5Hjg==
+Date: Thu, 23 Dec 2021 19:46:17 GMT
+Priority: u=3,i
+Alt-Svc: h3=":443"; ma=3600, h3-29=":443"; ma=3600

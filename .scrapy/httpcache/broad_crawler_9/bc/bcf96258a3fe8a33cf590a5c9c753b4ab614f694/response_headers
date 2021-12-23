@@ -1,0 +1,13 @@
+Content-Length: 233
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: script-src 'nonce-wPtbJeYE9xbU0VdMlpJcVg' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+Location: https://policies.google.com/privacy?gl=US&hl=en
+Date: Thu, 23 Dec 2021 20:06:21 GMT
+Expires: Thu, 23 Dec 2021 20:06:21 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

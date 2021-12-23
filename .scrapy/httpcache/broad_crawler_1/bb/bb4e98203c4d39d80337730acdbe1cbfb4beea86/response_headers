@@ -1,0 +1,20 @@
+Date: Thu, 23 Dec 2021 18:46:13 GMT
+Content-Type: text/plain; charset=UTF-8
+X-Frame-Options: sameorigin
+Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security: max-age=3600; preload
+X-Content-Type-Options: nosniff
+Etag: W/"dc656234a8d90dd91e6d671e6fac0bfb"
+Expires: Fri, 24 Dec 2021 18:46:13 GMT
+Access-Control-Allow-Origin: *
+X-Grace: none
+X-Nearside-Cache: HIT
+X-Nearside-Cache-Hits: 16
+Cache-Control: public, max-age=86400
+Age: 12410
+Cf-Cache-Status: HIT
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c23c05bcdd552e9-LAX
+Content-Encoding: gzip

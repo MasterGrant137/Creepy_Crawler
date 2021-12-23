@@ -1,0 +1,9 @@
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 23 Dec 2021 20:05:14 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+X-Renderer: rendertron
+X-Rendertron-Cached: Thu, 23 Dec 2021 19:39:55 GMT
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=15724800
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0

@@ -1,0 +1,16 @@
+Content-Length: 2136
+Server: Apache
+Last-Modified: Fri, 29 Oct 2021 17:10:59 GMT
+Etag: "19fd-5cf80e9425d5b-gzip"
+Content-Encoding: gzip
+Access-Control-Allow-Origin: *
+Content-Type: text/html
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:09:11 GMT
+Age: 2078
+X-Served-By: cache-hel1410030-HEL, cache-bur17552-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1640290152.562951,VS0,VE1
+Vary: Accept-Encoding

@@ -1,0 +1,11 @@
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 19:47:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17565-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640288857.256625,VS0,VE0
+Location: https://www.etsy.com/robots.txt

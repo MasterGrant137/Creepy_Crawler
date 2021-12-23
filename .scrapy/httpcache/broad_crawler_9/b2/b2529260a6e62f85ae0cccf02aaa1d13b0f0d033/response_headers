@@ -1,0 +1,10 @@
+Server: nginx
+Location: https://bandcamp.com/andrewjervis
+Set-Cookie: BACKENDID=bender22-6; path=/; Secure
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:06:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17524-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640289982.569992,VS0,VE38

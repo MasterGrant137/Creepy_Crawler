@@ -1,0 +1,26 @@
+Content-Length: 29931
+Date: Thu, 23 Dec 2021 19:03:03 GMT
+Server: mw1413.eqiad.wmnet
+X-Content-Type-Options: nosniff
+P3P: CP="See https://foundation.wikimedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Content-Language: en
+X-Webkit-Csp-Report-Only: default-src *.wikimedia.org *.wikipedia.org *.wiktionary.org *.wikisource.org *.wikibooks.org *.wikiversity.org *.wikiquote.org *.wikinews.org www.mediawiki.org www.wikidata.org *.wikivoyage.org data: blob: 'self'; script-src *.wikimedia.org 'unsafe-inline' 'unsafe-eval' 'self'; style-src  *.wikimedia.org data: 'unsafe-inline' 'self'; report-uri /w/api.php?action=cspreport&format=none&reportonly=1&source=wmfwiki&
+X-Content-Security-Policy-Report-Only: default-src *.wikimedia.org *.wikipedia.org *.wiktionary.org *.wikisource.org *.wikibooks.org *.wikiversity.org *.wikiquote.org *.wikinews.org www.mediawiki.org www.wikidata.org *.wikivoyage.org data: blob: 'self'; script-src *.wikimedia.org 'unsafe-inline' 'unsafe-eval' 'self'; style-src  *.wikimedia.org data: 'unsafe-inline' 'self'; report-uri /w/api.php?action=cspreport&format=none&reportonly=1&source=wmfwiki&
+Content-Security-Policy-Report-Only: script-src 'unsafe-eval' blob: 'self' meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikivoyage.org *.mediawiki.org 'unsafe-inline' login.wikimedia.org; default-src 'self' data: blob: upload.wikimedia.org https://commons.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikivoyage.org *.mediawiki.org wikimedia.org en.wikipedia.org en.wiktionary.org en.wikibooks.org en.wikiquote.org en.wikisource.org commons.wikimedia.org en.wikinews.org en.wikiversity.org www.mediawiki.org www.wikidata.org species.wikimedia.org incubator.wikimedia.org en.wikivoyage.org api.wikimedia.org wikimania.wikimedia.org login.wikimedia.org; style-src 'self' data: blob: upload.wikimedia.org https://commons.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikivoyage.org *.mediawiki.org wikimedia.org 'unsafe-inline'; object-src 'none'; report-uri /w/api.php?action=cspreport&format=json&reportonly=1
+Vary: Accept-Encoding,Cookie,Authorization
+Last-Modified: Thu, 23 Dec 2021 18:03:03 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Age: 2100
+X-Cache: cp4030 hit, cp4030 hit/3
+X-Cache-Status: hit-front
+Server-Timing: cache;desc="hit-front", host;desc="cp4030"
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Report-To: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+Nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=23-Dec-2021;Path=/;HttpOnly;secure;Expires=Mon, 24 Jan 2022 12:00:00 GMT
+Set-Cookie: GeoIP=US:CA:Indio:33.72:-116.22:v4; Path=/; secure; Domain=.wikimedia.org
+X-Client-Ip: 47.158.19.38
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Accept-Ranges: bytes

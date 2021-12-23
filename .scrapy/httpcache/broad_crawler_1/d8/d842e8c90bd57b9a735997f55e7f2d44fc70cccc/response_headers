@@ -1,0 +1,19 @@
+Server: nq_website_core-prod-release ce85b426-7f7f-4b7d-b836-34ea4ccacf12
+X-Frame-Options: DENY
+Location: https://www.netflix.com/robots.txt
+Date: Thu, 23 Dec 2021 19:46:18 GMT
+X-Envoy-Upstream-Service-Time: 3
+X-B3-Traceid: c0d5a011b9839d52
+X-Request-Id: 133a2b84-4c43-4dc6-b307-2dd54704bac1
+X-Envoy-Decorator-Operation: lo_svc
+Via: 1.1 i-0e4e21fb2a43aa6ec (us-east-1)
+X-Xss-Protection: 1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Originating-Url: http://netflix.com/robots.txt
+Edge-Control: no-cache, no-store
+Cache-Control: no-cache, no-store
+Set-Cookie: nfvdid=BQFmAAEBECp1Ti97kYt5h5j4REsv1TBAVbbmK54dAYfuO6F2iwqhvexZugD3owt2oFJ2tIyEnAGZFwS4MosoSyh9JS02ivowa6IsPqtxxGvvFDUS8VFSPg%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+Set-Cookie: memclid=9a3cffaf-7175-44cb-85a2-76a93fbe2406; Max-Age=31536000; Expires=Fri, 23 Dec 2022 19:46:18 GMT; Path=/; Domain=.netflix.com
+X-Netflix.Nfstatus: 1_1
+X-Netflix.Proxy.Execution-Time: 753

@@ -1,0 +1,17 @@
+Date: Thu, 23 Dec 2021 20:06:19 GMT
+Content-Type: text/html
+Access-Control-Allow-Origin: null
+Set-Cookie: CF_Session=nKDd1f1d2r5GzaawH; Path=/; Secure; Expires=Fri, 24 Dec 2021 00:06:19 GMT; HttpOnly; SameSite=none
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Access-Control-Allow-Credentials: true
+Cf-Access-Domain: cms.moz.com
+Cf-Version: 1025-be8c0e5
+Content-Security-Policy: frame-ancestors 'none'; connect-src 'self' http://127.0.0.1:*; default-src https: 'unsafe-inline'
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c2435b35ade7eb1-LAX
+Content-Encoding: gzip

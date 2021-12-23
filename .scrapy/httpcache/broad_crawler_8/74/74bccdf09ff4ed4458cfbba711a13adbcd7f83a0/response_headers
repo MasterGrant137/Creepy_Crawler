@@ -1,0 +1,24 @@
+Content-Length: 65569
+Server: daiquiri/3.0.0
+Content-Type: text/html; charset=utf-8
+X-Daiquiri-Rate-Limit-Generic: generic-minute-lim:90000;generic-minute-rem:87465;
+X-Daiquiri-Rate-Limit-Timing-Generic: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Apple-Jingle-Correlation-Key: LTLEJPXLQUZTKAVG36YYKUIKLM
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Daiquiri-Instance: daiquiri:41896006:st53p00it-qujn15070301:7987:21RELEASE200:daiquiri-amp-store-l7shared-int-001-st
+X-Daiquiri-Instance: daiquiri:47691001:st44p00it-hyhk16124001:7987:21RELEASE200:daiquiri-amp-store-shared-ext-003-st
+Cache-Control: public, max-age=59
+Expires: Thu, 23 Dec 2021 19:05:06 GMT
+Date: Thu, 23 Dec 2021 19:04:07 GMT
+X-Cache: TCP_MISS from a23-60-173-12.deploy.akamaitechnologies.com (AkamaiGHost/10.4.6-37171458) (-)
+X-True-Cache-Key: /L/apps.apple.com/us/app/dictionary-com-english-words/id308750436 vcd=2897 ci2=///USERCOUNTRY=US
+Vary: Accept-Encoding
+Vary: X-Apple-Store-Front, Cookie
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-15-240-71.deploy.akamaitechnologies.com (AkamaiGHost/10.4.6-37171458) (-)
+Set-Cookie: geo=US; path=/; domain=.apple.com
+X-Apple-Partner: origin.0

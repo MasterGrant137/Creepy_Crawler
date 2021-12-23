@@ -1,0 +1,8 @@
+Server: nginx
+Date: Thu, 23 Dec 2021 20:05:12 GMT
+Content-Type: text/plain; charset=utf-8
+Strict-Transport-Security: max-age=360
+X-Olaf: ⛄
+Link: <https://wordpress.org/wp-json/>; rel="https://api.w.org/"
+X-Frame-Options: SAMEORIGIN
+X-Nc: HIT ord 1

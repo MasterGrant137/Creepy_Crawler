@@ -1,0 +1,7 @@
+Crawl-delay: 5
+Sitemap: https://www.channel4.com/news/sitemap.xml
+Sitemap: https://www.channel4.com/sitemap.xml
+
+User-agent: TurnitinBot
+Disallow: /
+

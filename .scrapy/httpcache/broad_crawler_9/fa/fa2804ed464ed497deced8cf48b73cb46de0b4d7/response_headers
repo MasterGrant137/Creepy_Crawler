@@ -1,0 +1,14 @@
+Content-Length: 342
+Date: Thu, 23 Dec 2021 20:05:21 GMT
+Server: Apache
+Strict-Transport-Security: max-age=600;
+Last-Modified: Wed, 25 Mar 2020 19:50:12 GMT
+Etag: "41c-5a1b32d23807b-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Language
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1;mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: frame-ancestors 'self';
+Content-Type: text/plain

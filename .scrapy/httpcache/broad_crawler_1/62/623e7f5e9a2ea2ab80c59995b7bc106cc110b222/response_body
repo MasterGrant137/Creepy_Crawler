@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url='/select-language?destination=/node/1'" />
+
+        <title>Redirecting to /select-language?destination=/node/1</title>
+    </head>
+    <body>
+        Redirecting to <a href="/select-language?destination=/node/1">/select-language?destination=/node/1</a>.
+    </body>
+</html>

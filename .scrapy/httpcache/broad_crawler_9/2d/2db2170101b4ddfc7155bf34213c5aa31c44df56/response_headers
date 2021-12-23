@@ -1,0 +1,12 @@
+Content-Length: 252
+Location: https://about.google/intl/en_US/how-our-business-works/
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+Date: Thu, 23 Dec 2021 20:04:38 GMT
+Expires: Thu, 23 Dec 2021 20:34:38 GMT
+Server: sffe
+X-Xss-Protection: 0
+Cache-Control: public, max-age=1800
+Age: 272
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

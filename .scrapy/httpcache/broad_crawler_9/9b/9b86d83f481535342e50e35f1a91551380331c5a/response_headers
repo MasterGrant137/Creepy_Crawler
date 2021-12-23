@@ -1,0 +1,12 @@
+Content-Length: 257
+Server: Apache
+Location: https://aries.apache.org/documentation/index.html
+Content-Type: text/html; charset=iso-8859-1
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:09:11 GMT
+Age: 0
+X-Served-By: cache-hel1410032-HEL, cache-bur17523-BUR
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1640290152.571679,VS0,VE153

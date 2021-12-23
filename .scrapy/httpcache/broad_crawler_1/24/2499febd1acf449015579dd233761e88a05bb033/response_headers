@@ -1,0 +1,17 @@
+Date: Thu, 23 Dec 2021 19:47:32 GMT
+Content-Type: text/plain
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Last-Modified: Thu, 11 Nov 2021 15:05:45 GMT
+Etag: W/"618d3149-54f"
+Strict-Transport-Security: max-age=16000000
+Strict-Transport-Security: max-age=16000000; includeSubDomains
+Content-Encoding: gzip
+Cf-Cache-Status: REVALIDATED
+Expires: Thu, 23 Dec 2021 23:47:32 GMT
+Cache-Control: public, max-age=14400
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: __cflb=02DiuJ7dRDeDqrVicRhK2UNxaXSsMQBegUfP24Et6zXqN; SameSite=None; Secure; path=/; expires=Fri, 24-Dec-21 18:47:32 GMT; HttpOnly
+Set-Cookie: __cfruid=85bb6cb2578e85ea9c89c9e6380c0a6133be113f-1640288852; path=/; domain=.namecheap.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Cf-Ray: 6c241a321b2c7ccb-LAX

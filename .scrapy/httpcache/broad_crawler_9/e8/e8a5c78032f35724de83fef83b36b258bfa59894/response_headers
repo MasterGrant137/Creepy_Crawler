@@ -1,0 +1,24 @@
+Content-Length: 1088
+Server: Server
+Content-Type: text/plain
+X-Amz-Rid: CWMSFRWXBGWRNTJZYXF5
+X-Amz-Request-Id: B3NAQEB6H2JQFQ78
+Last-Modified: Tue, 21 Apr 2020 18:28:26 GMT
+Etag: "8046c33b5e069796fc7e30591422e336"
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Content-Encoding: gzip
+Date: Thu, 23 Dec 2021 20:05:17 GMT
+Set-Cookie: session-id=-; path=/; domain=.www.amazon.it; expires=Wed, 23-Dec-2009 20:05:17 GMT
+Set-Cookie: session-id-time=-; path=/; domain=.www.amazon.it; expires=Wed, 23-Dec-2009 20:05:17 GMT
+Set-Cookie: session-token=-; path=/; domain=.www.amazon.it; expires=Wed, 23-Dec-2009 20:05:17 GMT
+Set-Cookie: ubid-acbit=-; path=/; domain=.www.amazon.it; expires=Wed, 23-Dec-2009 20:05:17 GMT
+Set-Cookie: at-acbit=-; path=/; domain=.www.amazon.it; expires=Wed, 23-Dec-2009 20:05:17 GMT
+Set-Cookie: lc-acbit=-; path=/; domain=.www.amazon.it; expires=Wed, 23-Dec-2009 20:05:17 GMT
+Set-Cookie: x-acbit=-; path=/; domain=.www.amazon.it; expires=Wed, 23-Dec-2009 20:05:17 GMT
+Set-Cookie: x-wl-uid=-; path=/; domain=.www.amazon.it; expires=Wed, 23-Dec-2009 20:05:17 GMT
+Set-Cookie: sess-at-acbit=-; path=/; domain=.www.amazon.it; expires=Wed, 23-Dec-2009 20:05:17 GMT
+Set-Cookie: UserPref=-; path=/; domain=.www.amazon.it; expires=Wed, 23-Dec-2009 20:05:17 GMT

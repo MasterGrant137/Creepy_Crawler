@@ -1,0 +1,10 @@
+Content-Length: 2231
+Server: nginx
+Date: Thu, 23 Dec 2021 20:05:20 GMT
+Content-Type: text/plain; charset=UTF-8
+Vary: User-Agent, Accept-Encoding
+Content-Encoding: gzip
+Set-Cookie: _pxhd=%2FGY-f2iQIilt21puWvonzijxaur6zkeCfDUuwtdgfh9E7GgPkGbJuSBjyc4Yer1DXEzjUvcWXPyS7BLsJJGYFg%3D%3D%3AFwfFgRwtEokQqvOT3Ngq8hZV1RDGZ74dmSysP9taTu4F1ACQWLDMrDVn%2Fr8xNQ29U%2F-XNM7qfOrzMcegwVwK1j8nXkFx3LISK0NKVlv4%2Fm4%3D; path=/; expires=Fri, 23-Dec-2022 20:05:20 GMT
+Strict-Transport-Security: max-age=604800
+Content-Security-Policy-Report-Only: frame-ancestors 'none'; report-uri https://reports.booking.com/csp_violation?type=report&tag=112&pid=4d538d4069a901b1&e=UmFuZG9tSVYkc2RlIyh9YYtiLujDJ_nNR0cY9PwbROF1wSzdrFNbY6ORIqwk_cWv&f=0&s=0;
+X-Xss-Protection: 1; mode=block

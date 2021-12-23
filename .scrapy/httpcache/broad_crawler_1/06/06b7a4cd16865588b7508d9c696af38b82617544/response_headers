@@ -1,0 +1,12 @@
+Server: nginx
+Date: Thu, 23 Dec 2021 19:47:31 GMT
+Content-Type: text/html; charset=utf-8
+X-Safe-Redirect-Manager: true
+X-Safe-Redirect-Id: 106919
+X-Redirect-By: WordPress
+Location: https://assine.abril.com.br/?redirect=abrilcom
+X-Rq: bur6 0 4 9980
+Content-Encoding: gzip
+Age: 0
+X-Cache: miss
+Strict-Transport-Security: max-age=86400

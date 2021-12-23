@@ -1,0 +1,13 @@
+Content-Length: 718
+Server: Varnish
+Retry-After: 0
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:06:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17580-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640289982.058734,VS0,VE0
+Strict-Transport-Security: max-age=31536000
+Location: https://www.businessinsider.com/

@@ -1,0 +1,18 @@
+Content-Length: 14139
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=0, s-maxage=60
+Content-Encoding: gzip
+Content-Security-Policy: default-src http: https: data: blob:; media-src http: https: data: blob:; img-src http: https: data: blob:; script-src http: https: data: 'unsafe-inline' 'unsafe-eval'; style-src http: https: data: 'unsafe-inline' 'unsafe-eval'; connect-src http: https: data:; worker-src http: https: data: blob:; font-src http: https: data:;
+Date: Thu, 23 Dec 2021 19:23:00 GMT
+Server: CloudFront
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: YcTMlJzDSbQEIBXfrUeZEQAABBc
+X-Viewer-Country: us
+X-Xss-Protection: 1; mode=block
+Vary: Origin,Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 7ae870cd25f69f522a5d075cc08767f0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: EWR50-C1
+X-Amz-Cf-Id: lsq07FkkLrC_g7NpH7WbmXob5nM9PpOsuJWvpIK_t-BR5LaovLou8Q==

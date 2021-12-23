@@ -1,0 +1,14 @@
+Content-Length: 1033
+Accept-Ranges: bytes
+Cache-Control: max-age=3600
+Content-Encoding: gzip
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 23 Dec 2021 20:05:15 GMT
+Etag: "3c45-5d35415dd6355-gzip"
+Expires: Thu, 23 Dec 2021 21:05:15 GMT
+Last-Modified: Fri, 17 Dec 2021 09:23:01 GMT
+Server: DMS/1.0.42
+Server-Timing: total;dur=1, dc;desc="dc3"
+Strict-Transport-Security: max-age=31708800; includeSubDomains; preload
+Timing-Allow-Origin: *
+Vary: X-DM-SSL,Accept-Encoding
