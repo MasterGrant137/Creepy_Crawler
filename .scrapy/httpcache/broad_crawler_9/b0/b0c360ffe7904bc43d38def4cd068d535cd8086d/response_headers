@@ -1,0 +1,12 @@
+Content-Length: 246
+Server: Apache
+Location: https://accumulo.apache.org/downloads/
+Content-Type: text/html; charset=iso-8859-1
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:10:09 GMT
+Age: 0
+X-Served-By: cache-hel1410033-HEL, cache-bur17542-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640290210.603804,VS0,VE153

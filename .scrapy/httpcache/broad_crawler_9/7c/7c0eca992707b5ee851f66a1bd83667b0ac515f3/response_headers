@@ -1,0 +1,24 @@
+Content-Length: 62887
+Server: daiquiri/3.0.0
+Content-Type: text/html; charset=utf-8
+X-Daiquiri-Rate-Limit-Generic: generic-minute-lim:90000;generic-minute-rem:79855;
+X-Daiquiri-Rate-Limit-Timing-Generic: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Apple-Jingle-Correlation-Key: YC4IRW4UYFQJU24VQIEB7AV6KA
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Daiquiri-Instance: daiquiri:41896008:st53p00it-qujn12040101:7987:21RELEASE200:daiquiri-amp-store-l7shared-int-001-st
+X-Daiquiri-Instance: daiquiri:47117002:st44p00it-hyhk15104901:7987:21RELEASE200:daiquiri-amp-store-shared-ext-002-st
+Cache-Control: public, max-age=56
+Expires: Thu, 23 Dec 2021 20:06:16 GMT
+Date: Thu, 23 Dec 2021 20:05:20 GMT
+X-Cache: TCP_MISS from a23-60-173-7.deploy.akamaitechnologies.com (AkamaiGHost/10.4.6-37171458) (-)
+X-True-Cache-Key: /L/apps.apple.com/us/app/apple-store/id375380948 vcd=2897 ci2=///USERCOUNTRY=US
+Vary: Accept-Encoding
+Vary: X-Apple-Store-Front, Cookie
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_REFRESH_MISS from a23-15-240-4.deploy.akamaitechnologies.com (AkamaiGHost/10.4.6-37171458) (S)
+Set-Cookie: geo=US; path=/; domain=.apple.com
+X-Apple-Partner: origin.0

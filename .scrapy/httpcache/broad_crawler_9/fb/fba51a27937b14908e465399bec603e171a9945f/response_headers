@@ -1,0 +1,14 @@
+Date: Thu, 23 Dec 2021 20:05:17 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Security-Policy: upgrade-insecure-requests; block-all-mixed-content; sandbox allow-modals allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-orientation-lock allow-pointer-lock;
+Cache-Control: no-cache, no-store, private, must-revalidate
+Age: 0
+Strict-Transport-Security: max-age=31536000
+Server: ATS
+Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN

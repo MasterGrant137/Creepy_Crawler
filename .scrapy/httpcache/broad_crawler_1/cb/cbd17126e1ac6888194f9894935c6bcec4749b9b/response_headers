@@ -1,0 +1,10 @@
+Content-Length: 233
+Location: https://www.google.com.au/robots.txt
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Thu, 23 Dec 2021 19:46:25 GMT
+Expires: Thu, 23 Dec 2021 20:16:25 GMT
+Cache-Control: public, max-age=1800
+Server: sffe
+X-Xss-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

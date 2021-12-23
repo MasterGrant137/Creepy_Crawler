@@ -1,0 +1,13 @@
+Content-Length: 228
+Date: Thu, 23 Dec 2021 20:04:27 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy-Report-Only: form-action 'self'; style-src 'self' 'unsafe-inline' ; script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' data: *.cnil.fr *.educnum.fr; frame-ancestors 'self' www.dailymotion.com www.youtube-nocookie.com www.youtube.com; img-src 'self'; frame-src 'self' www.dailymotion.com www.youtube-nocookie.com www.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://piwik.cnil.fr; object-src 'self'; font-src 'self'; base-uri 'self'; block-all-mixed-content; default-src 'self' data: blob:;
+Location: https://www.cnil.fr/
+Content-Type: text/html; charset=iso-8859-1
+X-Varnish: 287711282 287849909
+Age: 113
+Via: 1.1 varnish-v4
+X-Cache: HIT
+X-Cache-Hits: 1

@@ -1,0 +1,17 @@
+Content-Length: 193
+Content-Type: text/html; charset=iso-8859-1
+Date: Thu, 23 Dec 2021 18:46:15 GMT
+Server: Apache/2.4.6 (CentOS) PHP/5.4.16 OpenSSL/1.0.2k-fips
+Location: https://www.espn.com/espnw/
+Content-Encoding: gzip
+Via: 1.1 varnish (Varnish/6.0), 1.1 bd9637c4f3589cb11bd1c97ee3334dcd.cloudfront.net (CloudFront)
+Vary: Accept-Encoding
+Set-Cookie: country=us; path=/;
+Set-Cookie: connectionspeed=full; path=/; Expires=Thu, 30 Dec 2021 18:46:15 GMT;
+Set-Cookie: edition-view=espn-en-us; path=/; Expires=Thu, 30 Dec 2021 18:46:15 GMT;
+Set-Cookie: edition=espn-en-us; path=/; Expires=Thu, 30 Dec 2021 18:46:15 GMT;
+Set-Cookie: region=ccpa; path=/; Expires=Thu, 30 Dec 2021 18:46:15 GMT;
+Set-Cookie: _dcf=1; path=/; Expires=Thu, 30 Dec 2021 18:46:15 GMT;
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: UT46iGmjrJ6G4GiVDReRW0zYzFUBRo8pmS3JcKycwYh7_UH_QJLudw==

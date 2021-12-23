@@ -1,0 +1,16 @@
+Content-Length: 72500
+Content-Type: text/html; charset=utf-8
+Date: Thu, 23 Dec 2021 19:47:26 GMT
+Server: nginx/1.18.0
+X-Generated-By: @newsint/nu-sun-helios 1.547.3
+Content-Encoding: gzip
+Cache-Control: s-maxage=20, stale-if-error=600, public
+X-Rendered-From: redis-1640288844027-gzip
+Etag: W/"11b34-FLaIxALs8nqjmXJs94TVd4JqS5I"
+Set-Cookie: nuk_customer_country_code=US; Path=/; Secure; SameSite=None
+Set-Cookie: nuk_customer_region_code=CA; Path=/; Secure; SameSite=None
+X-Cache: Hit from cloudfront
+Via: 1.1 a18ab1a2e56cae6e1bbaf5b1ee56db86.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX3-C4
+X-Amz-Cf-Id: ODjiiIUt_JUez_trwQqloUAeeGxsH98bFQ1DlbV3ADhNknTGX-jq8Q==
+Age: 7

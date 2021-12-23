@@ -1,0 +1,8 @@
+Date: Thu, 23 Dec 2021 20:05:20 GMT
+Cache-Control: max-age=3600
+Expires: Thu, 23 Dec 2021 21:05:20 GMT
+Location: https://www.boston.com/robots.txt
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c2434418a867e5e-LAX

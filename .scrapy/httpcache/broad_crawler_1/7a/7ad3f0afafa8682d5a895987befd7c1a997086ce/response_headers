@@ -1,0 +1,22 @@
+Content-Length: 415
+Content-Type: text/plain; charset=UTF-8
+Last-Modified: Fri, 03 Dec 2021 19:37:57 GMT
+Etag: W/"6a5-17d81cda208"
+X-Full-Ttl: 604800.000
+X-Varnish: 153033325
+X-Vcl-Version: NBA.com prod 1.7
+X-Status: miss
+X-Hits: 0
+X-Cache-Ability: cacheable
+Accept-Ranges: bytes
+X-Envoy-Upstream-Service-Time: 5
+Content-Encoding: gzip
+Server: envoy
+Cache-Control: public, max-age=3600
+Expires: Thu, 23 Dec 2021 20:46:26 GMT
+Date: Thu, 23 Dec 2021 19:46:26 GMT
+Vary: Accept-Encoding
+X-Frame-Options: sameorigin
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=86400

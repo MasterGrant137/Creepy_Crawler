@@ -1,0 +1,22 @@
+Content-Length: 94
+Date: Thu, 23 Dec 2021 19:46:26 GMT
+Content-Type: text/plain
+Last-Modified: Tue, 14 Dec 2021 14:57:42 GMT
+Content-Security-Policy: upgrade-insecure-requests
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Age: 103355
+X-Served-By: cache-bos4667-BOS, cache-lax10624-LGB
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1640288787.670596,VS0,VE1
+Vary: Accept-Encoding, Origin, Accept-Encoding, client-geo-region, client-geo-region
+X-Boston-Geo-Country: US
+X-Boston-Geo-Region: CA
+X-Boston-True-Client-Ip: 47.158.19.38
+Strict-Transport-Security: max-age=300
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c241894999a7adb-LAX

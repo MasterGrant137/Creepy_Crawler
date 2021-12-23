@@ -1,0 +1,17 @@
+Server: openresty
+Date: Thu, 23 Dec 2021 20:06:17 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Etag: W/"13eb030c672b9d65d6763b70f56562b8"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 6fa0dcc1-5b85-48b8-b472-5a12e86b5ac3
+X-Runtime: 0.083042
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: frame-ancestors 'self';
+Content-Encoding: gzip

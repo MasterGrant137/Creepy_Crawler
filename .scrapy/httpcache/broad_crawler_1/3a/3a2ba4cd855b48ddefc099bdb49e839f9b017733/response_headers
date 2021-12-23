@@ -1,0 +1,22 @@
+Content-Type: text/plain;charset=iso-8859-1
+X-Abt-Application-Version: 1.200.1
+Strict-Transport-Security: max-age=15552000
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+Content-Security-Policy: frame-ancestors 'self' *.specless.io *.specless.tech http://*.seo.aws.about.com https://*.seo.aws.about.com http://*.dotdash.com https://*.dotdash.com *.investopedia.com
+X-Content-Security-Policy: frame-ancestors 'self' *.specless.io *.specless.tech http://*.seo.aws.about.com https://*.seo.aws.about.com http://*.dotdash.com https://*.dotdash.com *.investopedia.com
+Set-Cookie: TMog=n64f22c96bd3d4687968e45ea08eac80119; Path=/; Domain=.investopedia.com; Expires=Tue, 10-Jan-2090 23:00:28 GMT; Max-Age=2147483647
+Set-Cookie: Mint=n64f22c96bd3d4687968e45ea08eac80119; Path=/; Domain=.investopedia.com; Expires=Thu, 23-Dec-2021 20:16:21 GMT; Max-Age=1800
+Set-Cookie: pc=1; Path=/; Domain=.investopedia.com; Expires=Thu, 23-Dec-2021 20:16:21 GMT; Max-Age=1800
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: max-age=3600, private
+Link: <//www.investopedia.com/static/1.200.1/font/SourceSansPro-regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin; nopush, <//www.investopedia.com/static/1.200.1/font/cabin-semi-bold.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin; nopush, <//www.googletagmanager.com/gtm.js?id=GTM-5P3SZGS>; rel=preload; as=script; nopush, <//www.google-analytics.com/analytics.js>; rel=preload; as=script; nopush, <//securepubads.g.doubleclick.net/tag/js/gpt.js>; rel=preload; as=script; nopush
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+Nel: {"report_to":"network-errors","max_age":2592000,"success_fraction":0,"failure_fraction":1.0, "include_subdomains": true}
+Report-To: {"group":"network-errors","max_age":2592000,"endpoints":[{"url":"https://r.3gl.net/hawklogserver/555/re.p"}]}
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+X-Served-By: cache-sea4422-SEA, cache-bur17567-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0

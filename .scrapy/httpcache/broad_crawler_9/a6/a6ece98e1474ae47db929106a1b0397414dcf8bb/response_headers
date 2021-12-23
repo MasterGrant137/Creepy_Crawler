@@ -1,0 +1,12 @@
+Server: nginx
+Location: https://bandcamp.com
+Content-Security-Policy: base-uri 'none'; object-src 'none'; report-uri https://bandcamp.com/api/cspreport/1/violation; script-src http: https: 'nonce-fulEKwXqdvsgXh6vy6YR+g==' 'report-sample' 'strict-dynamic'
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: BACKENDID=bender14-5; path=/; Secure
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:06:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17570-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640289979.072780,VS0,VE45

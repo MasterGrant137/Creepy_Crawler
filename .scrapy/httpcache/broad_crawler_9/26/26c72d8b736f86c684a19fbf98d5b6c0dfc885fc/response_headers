@@ -1,0 +1,19 @@
+Content-Length: 152365
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+Content-Security-Policy-Report-Only: script-src 'nonce-AcPoZMZCRMPi81RQUPFWGA' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/static-on-bigtable; base-uri 'none'
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/static-on-bigtable
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="static-on-bigtable"
+Report-To: {"group":"static-on-bigtable","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/static-on-bigtable"}]}
+Date: Thu, 23 Dec 2021 20:09:09 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Last-Modified: Tue, 14 Dec 2021 13:48:00 GMT
+Strict-Transport-Security: max-age=3600
+X-Content-Type-Options: nosniff
+Server: sffe
+X-Xss-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

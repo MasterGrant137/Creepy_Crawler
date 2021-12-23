@@ -1,0 +1,22 @@
+Content-Type: text/html;charset=utf-8
+X-Abt-Application-Version: 1.200.1
+Strict-Transport-Security: max-age=15552000
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+Content-Security-Policy: frame-ancestors 'self' *.specless.io *.specless.tech http://*.seo.aws.about.com https://*.seo.aws.about.com http://*.dotdash.com https://*.dotdash.com *.investopedia.com
+X-Content-Security-Policy: frame-ancestors 'self' *.specless.io *.specless.tech http://*.seo.aws.about.com https://*.seo.aws.about.com http://*.dotdash.com https://*.dotdash.com *.investopedia.com
+Set-Cookie: TMog=nb56b0e5a2b6a4b82b227a7fc202bc75019; Path=/; Domain=.investopedia.com; Expires=Tue, 10-Jan-2090 23:00:29 GMT; Max-Age=2147483647
+Set-Cookie: Mint=nb56b0e5a2b6a4b82b227a7fc202bc75019; Path=/; Domain=.investopedia.com; Expires=Thu, 23-Dec-2021 20:16:22 GMT; Max-Age=1800
+Set-Cookie: pc=1; Path=/; Domain=.investopedia.com; Expires=Thu, 23-Dec-2021 20:16:22 GMT; Max-Age=1800
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: max-age=1800, private
+Link: <//www.investopedia.com/static/1.200.1/cache/eNqNU1GOhCAMvdASzlShKplKDWXc2dtvQSc6CYv7IfS9vtpSipUMOTjrRGwx8ctemLDAhGYlcDgzeUwfXsk_hHJSvKwcMWax4KUqpjX33FvwyC3BRDwA2RlBcx5bSxdhC5OSHA-RUeZitmIW9AEs8cR1aUlGToseDyG52RRwtTv1Smb3MOp7aNVX0IqZedHWan-13sQ7LFZL6yD5urScA2miG82ZDEWUCUAHeeLeTY2ErzAQGiV6OqqtH_iPMhoyg6_crxiSunTQduqN-jGaIMUdV7OvHhHyM6HfqTfq9HoMEaJDU6GpY9wmO__I7MvXGaeROesg7dvN-As7vUMdUCL-_kT_zWAoxHK2C7hJqrpFzADptG4iPGcPMptnDBsm0RrLgy0j0fT8Avwowy4.min.css>; rel=preload; as=style; nopush, <//www.investopedia.com/static/1.200.1/font/SourceSansPro-regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin; nopush, <//www.investopedia.com/static/1.200.1/font/cabin-semi-bold.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin; nopush, <//www.googletagmanager.com/gtm.js?id=GTM-5P3SZGS>; rel=preload; as=script; nopush, <//www.google-analytics.com/analytics.js>; rel=preload; as=script; nopush, <//securepubads.g.doubleclick.net/tag/js/gpt.js>; rel=preload; as=script; nopush, <//www.investopedia.com/static/1.200.1/cache/eNptkVtOxDAMRTdElD2AEF9Io1FZQB6ejicPh8QpSldPO8AoLf3M9fH1tSMLK0Yjb0XqDMolwsjlSR7KwqtGlT-SVQwbKKim4SEYCokiLB3yp2NFbkWYKxj3oDzqVV2QuRWct4aelAX7j23K1R5L5NsFve-1CaKlLANZyBHnLIKK7KFHDJHDbuCf_WeF3ApnjGOPV0aPjNuElygOdUvhuPB2Gg5i8jUT7-JlWIoVhqyM20VJVZeqe-Xl_XR0eGXvG42Je_g8PPdPXiecWb9OsPv1pEYQE8LXkffI4X5Fj8YJ_k35DcTI214.min.js>; rel=preload; as=script; nopush; group=top, <//www.investopedia.com/static/1.200.1/cache/eNqFkGEOgjAMhS9ks8N4gsE6qZSiXRHw9E5QMWHGZD-6r699bV0yb1Q7piq5c37XAXU-uBfOZDBiMsIE1UBsMJI1sJd1YnystWf-0LrvLr2gWHIkhiqeXcCI-tQvgWIoqX2M2dMbApO0oDgq2Vr2I1XqgtPqSfdVvOy3g6VK8Tc6ZdiLa9AHVMjkKyzOHJb-kXGiihH8ttn7til_2hlasj-mecQun9vrFj0Av6iiMg.min.js>; rel=preload; as=script; nopush; group=bottom, <//cdn.cookielaw.org/scripttemplates/otSDKStub.js>; rel=preload; as=script; nopush
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+Nel: {"report_to":"network-errors","max_age":2592000,"success_fraction":0,"failure_fraction":1.0, "include_subdomains": true}
+Report-To: {"group":"network-errors","max_age":2592000,"endpoints":[{"url":"https://r.3gl.net/hawklogserver/555/re.p"}]}
+Date: Thu, 23 Dec 2021 19:46:22 GMT
+X-Served-By: cache-sea4446-SEA, cache-bur17567-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0

@@ -1,0 +1,2201 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en" dir="ltr" class="google glue-flexbox spa"  locale="ALL_us" user-region="north-america" path="/commitments/">
+  <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+
+        <title>Google&#39;s Mission, Values &amp; Commitments - Google</title>
+
+        <meta name="description" content="From protecting our users to promoting economic opportunity, find out more about the work we do at Google to support our mission and vision.">
+
+<script type="text/javascript" nonce="P58kB5zpVfoREdnEghFWdQ">
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+   'gtm.blacklist':['customScripts','nonGoogleScripts','nonGooglePixels','customPixels']
+},{
+   'locale_fallback': (document.childNodes[1].attributes.locale || {}).value
+});
+</script>
+<!-- Google Tag Manager -->
+<script nonce="P58kB5zpVfoREdnEghFWdQ">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQZB4J');</script>
+<!-- End Google Tag Manager -->
+<script nonce="P58kB5zpVfoREdnEghFWdQ">
+window.dataLayer.push({
+    event: 'coinToss5050',
+    action: Math.random() > .5 ? 'group1': 'group2'
+});
+</script>
+        <link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500,700,900|Google+Sans+Display:400,500" rel="stylesheet" nonce="P58kB5zpVfoREdnEghFWdQ">
+
+        <link href="/assets/css/main.min.css?cache=582c21e" rel="stylesheet" nonce="P58kB5zpVfoREdnEghFWdQ">
+
+
+      <meta property="og:description" content="From protecting our users to promoting economic opportunity, find out more about the work we do at Google to support our mission and vision.">
+      <meta property="og:title" content="Google&#39;s Mission, Values &amp; Commitments - Google">
+      <meta property="og:image" content="https://lh3.googleusercontent.com/5XGVgJz4vSlzoSCLn-xgsRsAZdknifysxxrjTwu2zj_4g-y3Tj1LE8YwFl3npqYhkTBC7DJU1IOdFFe9YzRm3LHIrkOiYBiUbeq0BW0=w600-l80-sg-rj">
+      <meta property="og:image:width" content="600">
+      <meta property="og:image:height" content="320">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="//www.google.com/commitments/">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@google">
+      <meta name="twitter:title" content="Google&#39;s Mission, Values &amp; Commitments - Google">
+      <meta name="twitter:description" content="Check out Google’s 5 year goal to award $1 billion to build products that create opportunity for everyone.">
+      <meta name="twitter:image" content="https://lh3.googleusercontent.com/5XGVgJz4vSlzoSCLn-xgsRsAZdknifysxxrjTwu2zj_4g-y3Tj1LE8YwFl3npqYhkTBC7DJU1IOdFFe9YzRm3LHIrkOiYBiUbeq0BW0=w600-l80-sg-rj">
+      <meta property="google:search-sre-monitor" content="ALL_us">
+
+      <link rel="apple-touch-icon" href="https://www.gstatic.com/images/branding/googleg/2x/googleg_standard_color_120dp.png">
+      <link rel="apple-touch-icon-precomposed" href="https://www.gstatic.com/images/branding/googleg/2x/googleg_standard_color_120dp.png">
+
+        <link rel="canonical" href="https://about.google/intl/ALL_us/commitments/">
+
+      <script nonce="P58kB5zpVfoREdnEghFWdQ">
+(function(){document.documentElement.classList.remove("google");document.documentElement.classList.add("google-js");}).call(window)      </script>
+
+  </head>
+
+  <body data-ng-controller="MainCtrl as mainCtrl">
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQZB4J"
+    height="0" width=0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<header
+    class="header"
+    data-about-nav
+    data-ng-class="{'header--dark-bg': navCtrl.navIsDark, 'header--custom-color': navCtrl.navCustomColor, 'header--inactive': navCtrl.navIsFixed}"
+    >
+  <div class="header-inner">
+    <div class="product-logo">
+      <a href="#content" aria-label="Jump to content" class="glue-header__link glue-header__skip-content">
+        <p class="glue-header__skip-content-text">Jump to content</p>
+      </a>
+      <a href="../" 
+          target="_self"
+          aria-label="Google"
+          data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="google logo"
+  data-g-label="header"
+>
+          <svg alt="Google"  class="logo-svg " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 28">
+    <path fill="#4285F4" d="M10.4,21C4.7,21,0,16.2,0,10.5S4.7,0,10.4,0c3.1,0,5.3,1.3,7,2.9l-1.9,2c-1.2-1.2-2.8-2-5-2
+      c-4.1,0-7.3,3.4-7.3,7.6s3.2,7.6,7.3,7.6c2.7,0,4.2-1.1,5.1-2.1c0.8-0.8,1.3-2,1.5-3.8h-6.6V9.3h9.3c0.1,0.5,0.2,1.1,0.2,1.8
+      c0,2.2-0.5,5-2.4,6.9C15.7,20,13.4,21,10.4,21z"/>
+    <path fill="#EA4335" d="M34.2,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S34.2,10.2,34.2,14.1z M31.4,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C29.6,18.2,31.4,16.5,31.4,14.1z"/>
+    <path fill="#FBBC03" d="M48.4,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S48.4,10.2,48.4,14.1z M45.5,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C43.8,18.2,45.5,16.5,45.5,14.1z"/>
+    <path fill="#4285F4" d="M61.7,7.8V20c0,5-2.7,7-6.1,7c-3.2,0-5-2.2-5.8-4l2.5-1.1c0.4,1.1,1.5,2.4,3.3,2.4c2.1,0,3.4-1.4,3.4-3.9v-1
+      h-0.1c-0.6,0.8-1.8,1.6-3.4,1.6c-3.3,0-6.2-2.9-6.2-6.8s2.9-6.7,6.2-6.7c1.6,0,2.7,0.7,3.4,1.6h0.1V7.8H61.7z M59.2,14.1
+      c0-2.4-1.5-4.1-3.5-4.1c-1.9,0-3.5,1.7-3.5,4.1s1.5,4.1,3.5,4.1C57.7,18.2,59.2,16.5,59.2,14.1z"/>
+    <path fill="#34A853" d="M66.4,1.1v19.8h-2.8V1.1H66.4z"/>
+    <path fill="#EA4335" d="M77.7,16.3l2.2,1.6c-0.7,1.1-2.5,3-5.5,3c-3.7,0-6.5-2.9-6.5-6.7c0-4,2.8-6.7,6.2-6.7c3.4,0,5,2.8,5.6,4.3
+      l0.3,0.7l-8.8,3.7c0.7,1.4,1.7,2,3.2,2S76.9,17.5,77.7,16.3z M70.8,14l5.8-2.5c-0.4-0.8-1.3-1.5-2.4-1.5C72.7,10,70.7,11.3,70.8,14
+      z"/>
+  </svg>
+
+      </a>
+    </div>
+    <button class="nav-toggle-button outside" data-about-nav-toggle aria-label="Navigation menu toggle"
+    
+      data-g-category="header"
+      data-g-action="navigation"
+      data-g-label="Navigation menu toggle"
+        data-g-module-type="Main Nav"
+>
+        <svg alt="Open navigation menu"  class="menu-bars" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+  </svg>
+  <img alt="Open navigation menu"  class="menu-bars" src="/assets/img/menu.png?cache=38c6aed" height="24" width="24">
+
+        <svg alt="Close navigation menu"  class="menu-close" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+  </svg>
+  <img alt="Close navigation menu"  class="menu-close" src="/assets/img/close.png?cache=5628868" height="24" width="24">
+
+    </button>
+
+    <nav class="top-nav">
+      <div class="product-logo">
+        <a href="../"
+            target="_self"
+            data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="google logo"
+  data-g-label="header"
+>
+            <svg alt="Google"  class="logo-svg " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 28">
+    <path fill="#4285F4" d="M10.4,21C4.7,21,0,16.2,0,10.5S4.7,0,10.4,0c3.1,0,5.3,1.3,7,2.9l-1.9,2c-1.2-1.2-2.8-2-5-2
+      c-4.1,0-7.3,3.4-7.3,7.6s3.2,7.6,7.3,7.6c2.7,0,4.2-1.1,5.1-2.1c0.8-0.8,1.3-2,1.5-3.8h-6.6V9.3h9.3c0.1,0.5,0.2,1.1,0.2,1.8
+      c0,2.2-0.5,5-2.4,6.9C15.7,20,13.4,21,10.4,21z"/>
+    <path fill="#EA4335" d="M34.2,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S34.2,10.2,34.2,14.1z M31.4,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C29.6,18.2,31.4,16.5,31.4,14.1z"/>
+    <path fill="#FBBC03" d="M48.4,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S48.4,10.2,48.4,14.1z M45.5,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C43.8,18.2,45.5,16.5,45.5,14.1z"/>
+    <path fill="#4285F4" d="M61.7,7.8V20c0,5-2.7,7-6.1,7c-3.2,0-5-2.2-5.8-4l2.5-1.1c0.4,1.1,1.5,2.4,3.3,2.4c2.1,0,3.4-1.4,3.4-3.9v-1
+      h-0.1c-0.6,0.8-1.8,1.6-3.4,1.6c-3.3,0-6.2-2.9-6.2-6.8s2.9-6.7,6.2-6.7c1.6,0,2.7,0.7,3.4,1.6h0.1V7.8H61.7z M59.2,14.1
+      c0-2.4-1.5-4.1-3.5-4.1c-1.9,0-3.5,1.7-3.5,4.1s1.5,4.1,3.5,4.1C57.7,18.2,59.2,16.5,59.2,14.1z"/>
+    <path fill="#34A853" d="M66.4,1.1v19.8h-2.8V1.1H66.4z"/>
+    <path fill="#EA4335" d="M77.7,16.3l2.2,1.6c-0.7,1.1-2.5,3-5.5,3c-3.7,0-6.5-2.9-6.5-6.7c0-4,2.8-6.7,6.2-6.7c3.4,0,5,2.8,5.6,4.3
+      l0.3,0.7l-8.8,3.7c0.7,1.4,1.7,2,3.2,2S76.9,17.5,77.7,16.3z M70.8,14l5.8-2.5c-0.4-0.8-1.3-1.5-2.4-1.5C72.7,10,70.7,11.3,70.8,14
+      z"/>
+  </svg>
+
+        </a>
+      </div>
+
+      <ul role="tablist">
+          <li class="_-home"
+              
+              role="tab"
+              id="tab-1"
+              tabindex="0">
+              <a href="../"
+                  title="About"
+                  target="_self"
+                  class="header-link-home"
+                  tabindex="-1"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="home"
+  data-g-label="header"
+>
+                About
+              </a>
+            </li>
+          <li class="_-google-in-america"
+              
+              role="tab"
+              id="tab-2"
+              tabindex="0">
+              <a href="../google-in-america/"
+                  title="Google in the U.S."
+                  target="_self"
+                  class="header-link-google-in-america"
+                  tabindex="-1"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="google-in-america"
+  data-g-label="header"
+>
+                Google in the U.S.
+              </a>
+            </li>
+          <li class="_-products"
+              
+              role="tab"
+              id="tab-3"
+              tabindex="0">
+              <a href="../products/"
+                  title="Products"
+                  target="_self"
+                  class="header-link-products"
+                  tabindex="-1"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="products"
+  data-g-label="header"
+>
+                Products
+              </a>
+            </li>
+          <li class="selected-page _-commitments"
+              
+              role="tab"
+              id="tab-4"
+              tabindex="0">
+              <a href="../commitments/"
+                  title="Commitments"
+                  target="_self"
+                  class="header-link-commitments"
+                  tabindex="-1"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="commitments"
+  data-g-label="header"
+>
+                Commitments
+              </a>
+            </li>
+          <li class="_-stories"
+              
+              role="tab"
+              id="tab-5"
+              tabindex="0">
+              <a href="../stories/"
+                  title="Stories"
+                  target="_self"
+                  class="header-link-stories"
+                  tabindex="-1"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="stories"
+  data-g-label="header"
+>
+                Stories
+              </a>
+            </li>
+          <li class="_-keyword"
+              
+              role="tab"
+              id="tab-6"
+              tabindex="0">
+              <a href="https://www.blog.google/?utm_source=about.google&amp;utm_medium=referral&amp;utm_campaign=nav-the-keyword"
+                  title="The Keyword"
+                  target="_blank"
+                  class="header-link-keyword"
+                  tabindex="-1"
+                  data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="keyword"
+  data-g-label="header"
+>
+                The Keyword
+              </a>
+            </li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+        <main class="static-content-view" id="content" data-ui-view="main">
+<div class="responsibility"
+      data-page-title="Google&#39;s Mission, Values &amp; Commitments - Google"
+      data-page-description="From protecting our users to promoting economic opportunity, find out more about the work we do at Google to support our mission and vision."
+      data-ng-controller="SubNavCtrl as subNavCtrl">
+<div class="glue-sticky">
+  <div class="sub-nav-outer-wrapper"
+      data-paginator
+      data-paginator-viewport=".sub-nav-viewport"
+      data-paginator-wrapper=".sub-nav"
+      data-paginator-items=".sub-nav-item"
+      data-paginator-page-by="1">
+    <div class="sub-nav-viewport">
+      <nav class="sub-nav" data-elastic-bar data-elastic-bar-selected="{[subNavCtrl.selectedSection]}">
+        <ul class="sub-nav-list">
+                <li class="sub-nav-item" data-nav-section-id="expanding_opportunity">
+      <button class="sub-nav-item-button"
+          data-elastic-bar-anchor="expanding_opportunity"
+          data-ng-click="subNavCtrl.scrollToSection('expanding_opportunity')"
+          
+>
+        Expanding opportunity
+      </button>
+  </li>
+
+                <li class="sub-nav-item" data-nav-section-id="protecting_users">
+      <button class="sub-nav-item-button"
+          data-elastic-bar-anchor="protecting_users"
+          data-ng-click="subNavCtrl.scrollToSection('protecting_users')"
+          
+>
+        Protecting users
+      </button>
+  </li>
+
+                <li class="sub-nav-item" data-nav-section-id="including_all_voices">
+      <button class="sub-nav-item-button"
+          data-elastic-bar-anchor="including_all_voices"
+          data-ng-click="subNavCtrl.scrollToSection('including_all_voices')"
+          
+>
+        Including all voices
+      </button>
+  </li>
+
+                <li class="sub-nav-item" data-nav-section-id="responding_to_crises">
+      <button class="sub-nav-item-button"
+          data-elastic-bar-anchor="responding_to_crises"
+          data-ng-click="subNavCtrl.scrollToSection('responding_to_crises')"
+          
+>
+        Responding to crises
+      </button>
+  </li>
+
+                <li class="sub-nav-item" data-nav-section-id="advancing_sustainability">
+      <button class="sub-nav-item-button"
+          data-elastic-bar-anchor="advancing_sustainability"
+          data-ng-click="subNavCtrl.scrollToSection('advancing_sustainability')"
+          
+>
+        Advancing sustainability
+      </button>
+  </li>
+
+        </ul>
+        <div class="line-selected"><!----></div>
+      </nav>
+    </div>
+    <a href="../commitments/reports/"
+        target="_self"
+        class="sub-nav--reports-cta mobile-cta fade-gradient">Reports</a>
+    <a href="../commitments/reports/"
+        target="_self"
+        class="sub-nav--reports-cta desktop-cta fade-gradient">View all reports</a>
+  </div>
+</div><section class="section hero-module">
+  <div class="copies">
+    <h1 class="title">Committed to significantly improving the lives of as many people as possible.</h1>
+    <a class="subtitle"
+        target="_blank"
+        rel="noopener"
+        href="https://abc.xyz/investor/founders-letters/2004-ipo-letter/">
+      2004 Founders’ IPO Letter
+    </a>
+  </div>
+</section>    <div class="sections">
+        <section class="responsibility-section expanding_opportunity"
+      data-section-id="expanding_opportunity"
+      id="expanding_opportunity">
+    <div class="content">
+      <div class="section-header">
+        <div class="heading">Expanding opportunity</div>
+        <div class="subheading">$1 billion in grants. 1 million volunteer hours. Providing people with  <a href="https://learning.google/?utm_source=about.google&amp;utm_medium=referral&amp;utm_campaign=aboutcommitments" target="_blank">information, tools and services</a> to help them build knowledge, fuel curiosity, and unlock opportunity.</div>
+      </div>
+
+      <div class="section-tiles">
+            
+<a class="responsibility-tile"
+    href="https://learning.google/school/?utm_source=about.google&amp;utm_medium=referral&amp;utm_campaign=aboutcommitments"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-11fb545 {
+          background-image: url(https://lh3.googleusercontent.com/Ll8mWDYQlhLWCUPSAEw6uXvi8tvNt204Ji0QApZrW1FVOJOLoTN34ze6Dev6piF0TRzuyy5jqzJ4RfBizrwq-X9TBBdZEuu7yJrJLjmbJkDWcLOJL64=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-11fb545 {
+          background-image: url(https://lh3.googleusercontent.com/Ll8mWDYQlhLWCUPSAEw6uXvi8tvNt204Ji0QApZrW1FVOJOLoTN34ze6Dev6piF0TRzuyy5jqzJ4RfBizrwq-X9TBBdZEuu7yJrJLjmbJkDWcLOJL64=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-11fb545 {
+          background-image: url(https://lh3.googleusercontent.com/Ll8mWDYQlhLWCUPSAEw6uXvi8tvNt204Ji0QApZrW1FVOJOLoTN34ze6Dev6piF0TRzuyy5jqzJ4RfBizrwq-X9TBBdZEuu7yJrJLjmbJkDWcLOJL64=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-11fb545"></div>
+  <div class="description">Powering education through technology, tools and training.</div>
+  <div class="cta-container">
+    <span class="cta">Discover more about learning for school</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://learning.google/life/?utm_source=about.google&amp;utm_medium=referral&amp;utm_campaign=aboutcommitments"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-1e3d451 {
+          background-image: url(https://lh3.googleusercontent.com/28KfjYg9SbKRXdtR4ia7T63Y8M8z7CddJ4QYEXOr7XexvZaNDIYRrSsfS6bdSiL06MsPqW2tgnjm4ySP6Sdx9QeEYT3h3a-tt8LTiX4T8X50z8U_1Q=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-1e3d451 {
+          background-image: url(https://lh3.googleusercontent.com/28KfjYg9SbKRXdtR4ia7T63Y8M8z7CddJ4QYEXOr7XexvZaNDIYRrSsfS6bdSiL06MsPqW2tgnjm4ySP6Sdx9QeEYT3h3a-tt8LTiX4T8X50z8U_1Q=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-1e3d451 {
+          background-image: url(https://lh3.googleusercontent.com/28KfjYg9SbKRXdtR4ia7T63Y8M8z7CddJ4QYEXOr7XexvZaNDIYRrSsfS6bdSiL06MsPqW2tgnjm4ySP6Sdx9QeEYT3h3a-tt8LTiX4T8X50z8U_1Q=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-1e3d451"></div>
+  <div class="description">Nurturing lifelong curiosity, from the epic quests to the everyday asks.</div>
+  <div class="cta-container">
+    <span class="cta">Discover more about learning for life</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://learning.google/work/?utm_source=about.google&amp;utm_medium=referral&amp;utm_campaign=aboutcommitments"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-6429ce1 {
+          background-image: url(https://lh3.googleusercontent.com/ImLSHRUYuTdo7TzR_wlooD6gt5gVjWk9-8yFwDQF8IWXHbAHqnLL7ccOHj0SFI3mREk4iB9VH2HDMVUuiwnqsbpWhWsj7YV8N24orOYSWA2Nf5IrHEg=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-6429ce1 {
+          background-image: url(https://lh3.googleusercontent.com/ImLSHRUYuTdo7TzR_wlooD6gt5gVjWk9-8yFwDQF8IWXHbAHqnLL7ccOHj0SFI3mREk4iB9VH2HDMVUuiwnqsbpWhWsj7YV8N24orOYSWA2Nf5IrHEg=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-6429ce1 {
+          background-image: url(https://lh3.googleusercontent.com/ImLSHRUYuTdo7TzR_wlooD6gt5gVjWk9-8yFwDQF8IWXHbAHqnLL7ccOHj0SFI3mREk4iB9VH2HDMVUuiwnqsbpWhWsj7YV8N24orOYSWA2Nf5IrHEg=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-6429ce1"></div>
+  <div class="description">Helping people grow their skills, careers, and businesses.</div>
+  <div class="cta-container">
+    <span class="cta">Discover more about learning for work</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile report-tile"
+    href="https://economicimpact.google.com/"
+    target="_blank"
+    rel="noopener">
+  <div class="content">
+    <div class="report-icon-container">
+      <span class="report-icon">
+<svg width="24" height="24" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M61.642 57.492c0 2.678-.855 4.808-2.565 6.39-1.71 1.58-3.84 2.564-6.39 2.951v4.211H49.3v-4.162c-2.26-.259-4.364-1.154-6.316-2.686-1.952-1.533-3.251-3.574-3.897-6.123l3.679-1.452a9.243 9.243 0 0 0 2.444 4.162c1.178 1.162 2.54 1.888 4.09 2.178V50.813l-.145-.049c-2.904-1.16-5.098-2.5-6.583-4.017-1.484-1.516-2.226-3.404-2.226-5.663 0-1.419.363-2.766 1.089-4.04.726-1.276 1.767-2.332 3.122-3.17 1.355-.84 2.936-1.34 4.743-1.502V28.26h3.388v4.21c2.259.355 4.074 1.17 5.445 2.444 1.37 1.275 2.299 2.638 2.783 4.09l-3.678 1.55c-.26-.904-.767-1.735-1.525-2.494-.758-.758-1.767-1.282-3.025-1.572v11.374c2.839 1.193 5.04 2.5 6.606 3.92 1.565 1.42 2.348 3.323 2.348 5.711zM44.46 41.084c0 1.194.395 2.211 1.186 3.05.79.838 2.008 1.63 3.654 2.371V36.341c-1.452.226-2.622.767-3.51 1.622-.886.855-1.33 1.895-1.33 3.121zm8.228 21.781c1.484-.29 2.67-.888 3.558-1.79.887-.905 1.33-2.066 1.33-3.486 0-1.194-.403-2.202-1.21-3.025-.807-.823-2.033-1.605-3.678-2.347v10.648z" fill-rule="evenodd"/></svg>      </span>
+    </div>
+    <div class="text-content">
+      <div class="report-title">U.S. Economic Impact Report</div>
+      <div class="report-body-copy">In 2020, Google products, YouTube, and Google Play helped provide $426B of economic activity for more than 2 million American businesses, nonprofits, publishers, creators and developers.</div>
+    </div>
+    <div class="cta-container">
+      <span class="cta">Learn more</span>
+    </div>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://www.google.org/billion-commitment-to-create-more-opportunity/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-862a384 {
+          background-image: url(https://lh3.googleusercontent.com/1JvhW704_8lBg1F74xwU-YNC6x71cvz_MtPXV5axOd7BDkqW8_U7yIQgb2yykQZ03u3UTbaAIZpOGMW4NhvUk7-UU2bzm8v_qRZLUA=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-862a384 {
+          background-image: url(https://lh3.googleusercontent.com/1JvhW704_8lBg1F74xwU-YNC6x71cvz_MtPXV5axOd7BDkqW8_U7yIQgb2yykQZ03u3UTbaAIZpOGMW4NhvUk7-UU2bzm8v_qRZLUA=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-862a384 {
+          background-image: url(https://lh3.googleusercontent.com/1JvhW704_8lBg1F74xwU-YNC6x71cvz_MtPXV5axOd7BDkqW8_U7yIQgb2yykQZ03u3UTbaAIZpOGMW4NhvUk7-UU2bzm8v_qRZLUA=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-862a384"></div>
+  <div class="description">Contributing time, money, and volunteer hours to create a world that works for everyone.</div>
+  <div class="cta-container">
+    <span class="cta">Learn more about Google.org</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://www.google.com/nonprofits/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-ed239d6 {
+          background-image: url(https://lh3.googleusercontent.com/iai-QwI0nOOOD5TCHV98I3P6erOK9mnAoQ2TV6aI1ns8ou1-Y-m3nnQXSl4b18VuUKhU_8OBcUzcvLoqZ_TbWpxj-Gu1-lsofoK8WVM=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-ed239d6 {
+          background-image: url(https://lh3.googleusercontent.com/iai-QwI0nOOOD5TCHV98I3P6erOK9mnAoQ2TV6aI1ns8ou1-Y-m3nnQXSl4b18VuUKhU_8OBcUzcvLoqZ_TbWpxj-Gu1-lsofoK8WVM=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-ed239d6 {
+          background-image: url(https://lh3.googleusercontent.com/iai-QwI0nOOOD5TCHV98I3P6erOK9mnAoQ2TV6aI1ns8ou1-Y-m3nnQXSl4b18VuUKhU_8OBcUzcvLoqZ_TbWpxj-Gu1-lsofoK8WVM=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-ed239d6"></div>
+  <div class="description">Helping organizations publicize their mission, engage supporters, and fundraise online.</div>
+  <div class="cta-container">
+    <span class="cta">Learn more about Google for Nonprofits</span>
+  </div>
+</a>
+
+
+      </div>
+    </div>
+  </section>
+
+        <section class="responsibility-section protecting_users"
+      data-section-id="protecting_users"
+      id="protecting_users">
+    <div class="content">
+      <div class="section-header">
+        <div class="heading">Protecting users</div>
+        <div class="subheading">Every day Google keeps billions of people safer online. We protect our users with industry-leading security, responsible data practices, and easy-to-use privacy controls.</div>
+      </div>
+
+      <div class="section-tiles">
+            
+<a class="responsibility-tile"
+    href="https://safety.google/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-55b1bb4 {
+          background-image: url(https://lh3.googleusercontent.com/m8hz2-0Sp16cMMDhZQqTxJz9_tj8GbsDHK99vELKoEVVWOewt_1K23OnPjOpIor8JnfU4UmnLBLD95qSUExh6e3rMK8Huk-JNa7jkA=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-55b1bb4 {
+          background-image: url(https://lh3.googleusercontent.com/m8hz2-0Sp16cMMDhZQqTxJz9_tj8GbsDHK99vELKoEVVWOewt_1K23OnPjOpIor8JnfU4UmnLBLD95qSUExh6e3rMK8Huk-JNa7jkA=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-55b1bb4 {
+          background-image: url(https://lh3.googleusercontent.com/m8hz2-0Sp16cMMDhZQqTxJz9_tj8GbsDHK99vELKoEVVWOewt_1K23OnPjOpIor8JnfU4UmnLBLD95qSUExh6e3rMK8Huk-JNa7jkA=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-55b1bb4"></div>
+  <div class="description">Learn about all the ways that Google keeps your personal information private, safe, and secure.</div>
+  <div class="cta-container">
+    <span class="cta">Go to Safety Center</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://myaccount.google.com/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-95bad7f {
+          background-image: url(https://lh3.googleusercontent.com/izaTsBmaDFNih8kE7bp4vPaJina8qdnr_x2XBPSEus-h0gmXSPYeV0R9JPXHHCaFrH99FECPf5N1qrYp1C9pjqr-wzEmqFClZ0cdMw=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-95bad7f {
+          background-image: url(https://lh3.googleusercontent.com/izaTsBmaDFNih8kE7bp4vPaJina8qdnr_x2XBPSEus-h0gmXSPYeV0R9JPXHHCaFrH99FECPf5N1qrYp1C9pjqr-wzEmqFClZ0cdMw=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-95bad7f {
+          background-image: url(https://lh3.googleusercontent.com/izaTsBmaDFNih8kE7bp4vPaJina8qdnr_x2XBPSEus-h0gmXSPYeV0R9JPXHHCaFrH99FECPf5N1qrYp1C9pjqr-wzEmqFClZ0cdMw=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-95bad7f"></div>
+  <div class="description">Easy-to-use privacy and security settings, all in one place—your Google Account.</div>
+  <div class="cta-container">
+    <span class="cta">Go to your account</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://wellbeing.google/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-68f69f8 {
+          background-image: url(https://lh3.googleusercontent.com/B2BaANCfRkWVMKmq34p68rfahqMYfsHElyWV8V4ZSipCE8_QmfmyQhULBhxk6sZAA1gDaHYpzlSkXZysjXuXOc-q7UYuMZ2vj2hX4w=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-68f69f8 {
+          background-image: url(https://lh3.googleusercontent.com/B2BaANCfRkWVMKmq34p68rfahqMYfsHElyWV8V4ZSipCE8_QmfmyQhULBhxk6sZAA1gDaHYpzlSkXZysjXuXOc-q7UYuMZ2vj2hX4w=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-68f69f8 {
+          background-image: url(https://lh3.googleusercontent.com/B2BaANCfRkWVMKmq34p68rfahqMYfsHElyWV8V4ZSipCE8_QmfmyQhULBhxk6sZAA1gDaHYpzlSkXZysjXuXOc-q7UYuMZ2vj2hX4w=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-68f69f8"></div>
+  <div class="description">Understand your tech usage, disconnect when needed, and create healthy habits.</div>
+  <div class="cta-container">
+    <span class="cta">Learn more about Digital Wellbeing</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://ai.google/education/responsible-ai-practices"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-8313c8c {
+          background-image: url(https://lh3.googleusercontent.com/w2J5MJQe_ebY88AbiXMFZ5wo7zKmwniDW7-2e2g-1LpYFe44Cyx9qEgDLCR6kQ5gMzWhRgd7aKmG_JL1tQdP5IFoV8tNJqXsSi24sQ=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-8313c8c {
+          background-image: url(https://lh3.googleusercontent.com/w2J5MJQe_ebY88AbiXMFZ5wo7zKmwniDW7-2e2g-1LpYFe44Cyx9qEgDLCR6kQ5gMzWhRgd7aKmG_JL1tQdP5IFoV8tNJqXsSi24sQ=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-8313c8c {
+          background-image: url(https://lh3.googleusercontent.com/w2J5MJQe_ebY88AbiXMFZ5wo7zKmwniDW7-2e2g-1LpYFe44Cyx9qEgDLCR6kQ5gMzWhRgd7aKmG_JL1tQdP5IFoV8tNJqXsSi24sQ=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-8313c8c"></div>
+  <div class="description">Developing AI practices that are responsible and sharing knowledge, research, and other resources with the world.</div>
+  <div class="cta-container">
+    <span class="cta">Learn more about Responsible AI</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile report-tile"
+    href="https://transparencyreport.google.com/"
+    target="_blank"
+    rel="noopener">
+  <div class="content">
+    <div class="report-icon-container">
+      <span class="report-icon">
+<svg width="24" height="24" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><path d="M45.886 36.453c-2.615 0-5.229.995-7.219 2.985-3.98 3.981-3.98 10.457 0 14.438a10.143 10.143 0 0 0 7.22 2.99c2.726 0 5.29-1.062 7.217-2.99a10.14 10.14 0 0 0 2.991-7.219c0-2.727-1.062-5.29-2.99-7.219a10.178 10.178 0 0 0-7.219-2.985m0 25.413a15.107 15.107 0 0 1-10.754-4.455c-5.93-5.93-5.93-15.578 0-21.508s15.578-5.93 21.508 0a15.107 15.107 0 0 1 4.455 10.754c0 4.063-1.582 7.882-4.455 10.754a15.107 15.107 0 0 1-10.754 4.455"/><path d="M66.358 70.665L53.105 57.412l3.535-3.536L69.893 67.13z"/></g></svg>      </span>
+    </div>
+    <div class="text-content">
+      <div class="report-title">Transparency Report</div>
+      <div class="report-body-copy">Sharing data that sheds light on how the policies and actions of governments and corporations affect privacy, security, and access to information.</div>
+    </div>
+    <div class="cta-container">
+      <span class="cta">Learn more</span>
+    </div>
+  </div>
+</a>
+
+
+      </div>
+    </div>
+  </section>
+
+        <section class="responsibility-section including_all_voices"
+      data-section-id="including_all_voices"
+      id="including_all_voices">
+    <div class="content">
+      <div class="section-header">
+        <div class="heading">Including all voices</div>
+        <div class="subheading">Building a world where progress, equitable outcomes, diversity, and inclusion can be realities both inside and outside our workplace.</div>
+      </div>
+
+      <div class="section-tiles">
+            
+<a class="responsibility-tile"
+    href="https://about.google/commitments/racialequity/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-2788b23 {
+          background-image: url(https://lh3.googleusercontent.com/rTXdZaSej8emOAepUVKoGAdRaIatskrfIZSwdGMTF74ddtUxSw60Mjp2hSBAWjR2PtnSwU54Z8NnKEk0Vwj5Z0nGdr0mE19F_pp0zg=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-2788b23 {
+          background-image: url(https://lh3.googleusercontent.com/rTXdZaSej8emOAepUVKoGAdRaIatskrfIZSwdGMTF74ddtUxSw60Mjp2hSBAWjR2PtnSwU54Z8NnKEk0Vwj5Z0nGdr0mE19F_pp0zg=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-2788b23 {
+          background-image: url(https://lh3.googleusercontent.com/rTXdZaSej8emOAepUVKoGAdRaIatskrfIZSwdGMTF74ddtUxSw60Mjp2hSBAWjR2PtnSwU54Z8NnKEk0Vwj5Z0nGdr0mE19F_pp0zg=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-2788b23"></div>
+  <div class="description">Building sustainable equity for Google’s Black+ community and making our products and programs helpful to Black users.</div>
+  <div class="cta-container">
+    <span class="cta">Read our commitments to racial equity</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://diversity.google/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-ca421b9 {
+          background-image: url(https://lh3.googleusercontent.com/l8fJgCyw2eAL7nLrLagWXCfBKLqyUylF53QIPy3KN40IJDuiKMaXWlpvTX3cWouFTGX8z5HIclVJz5ug7TqtSjRmosRp8HI08NKeLUE=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-ca421b9 {
+          background-image: url(https://lh3.googleusercontent.com/l8fJgCyw2eAL7nLrLagWXCfBKLqyUylF53QIPy3KN40IJDuiKMaXWlpvTX3cWouFTGX8z5HIclVJz5ug7TqtSjRmosRp8HI08NKeLUE=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-ca421b9 {
+          background-image: url(https://lh3.googleusercontent.com/l8fJgCyw2eAL7nLrLagWXCfBKLqyUylF53QIPy3KN40IJDuiKMaXWlpvTX3cWouFTGX8z5HIclVJz5ug7TqtSjRmosRp8HI08NKeLUE=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-ca421b9"></div>
+  <div class="description">Committed to building a diverse workforce that’s more representative of all people who use our products.</div>
+  <div class="cta-container">
+    <span class="cta">Learn more about Diversity</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://www.google.com/accessibility/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-41d611a {
+          background-image: url(https://lh3.googleusercontent.com/9vxOJaMuu1c98sAHSWiO5TCQdsfx5uq337Rlx96f5igbvmyPu-JITVenB2_19B_1xMvhlLx516Dy5poSaYGv0WbKk9MGSES_NBNWSw=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-41d611a {
+          background-image: url(https://lh3.googleusercontent.com/9vxOJaMuu1c98sAHSWiO5TCQdsfx5uq337Rlx96f5igbvmyPu-JITVenB2_19B_1xMvhlLx516Dy5poSaYGv0WbKk9MGSES_NBNWSw=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-41d611a {
+          background-image: url(https://lh3.googleusercontent.com/9vxOJaMuu1c98sAHSWiO5TCQdsfx5uq337Rlx96f5igbvmyPu-JITVenB2_19B_1xMvhlLx516Dy5poSaYGv0WbKk9MGSES_NBNWSw=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-41d611a"></div>
+  <div class="description">Technology must be accessible for everyone. We are making that a reality in everything that we build.</div>
+  <div class="cta-container">
+    <span class="cta">Learn more about Accessibility</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://www.google.org/racial-justice/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-ea04e6d {
+          background-image: url(https://lh3.googleusercontent.com/2t768W-W77PUhhPwUtoQKfO78uY3_cj_THCOqobLoEZexnAzII43TG99Z19G1ICZQsI_EXyTE8ONxLqhDyBisppYwQcRtB1oua-MT9RS2q3U-jwkYWk=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-ea04e6d {
+          background-image: url(https://lh3.googleusercontent.com/2t768W-W77PUhhPwUtoQKfO78uY3_cj_THCOqobLoEZexnAzII43TG99Z19G1ICZQsI_EXyTE8ONxLqhDyBisppYwQcRtB1oua-MT9RS2q3U-jwkYWk=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-ea04e6d {
+          background-image: url(https://lh3.googleusercontent.com/2t768W-W77PUhhPwUtoQKfO78uY3_cj_THCOqobLoEZexnAzII43TG99Z19G1ICZQsI_EXyTE8ONxLqhDyBisppYwQcRtB1oua-MT9RS2q3U-jwkYWk=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-ea04e6d"></div>
+  <div class="description">Standing with organizations that use data science and innovative approaches to reduce disparate racial outcomes</div>
+  <div class="cta-container">
+    <span class="cta">Learn more about Google.org’s commitment to racial justice</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile report-tile"
+    href="https://diversity.google/annual-report/"
+    target="_blank"
+    rel="noopener">
+  <div class="content">
+    <div class="report-icon-container">
+      <span class="report-icon">
+<svg width="24" height="24" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><path d="M45 31.81a3 3 0 0 1 2.64-3.32c1.65-.19 3.13.99 3.32 2.64a3 3 0 1 1-5.96.68m10.09 3.38h.01a2.996 2.996 0 0 1-1.86-3.81c.54-1.57 2.25-2.4 3.82-1.86a3.003 3.003 0 1 1-.99 5.84c-.32 0-.65-.05-.98-.17m-17.32.59c-.89-1.4-.47-3.25.93-4.14 1.4-.89 3.25-.47 4.14.93.88 1.4.47 3.25-.93 4.14-.5.31-1.05.46-1.6.46-1 0-1.97-.49-2.54-1.39m23.13 3.05c-.01 0-.01-.01-.02-.02-.01 0-.01 0-.02-.01a3 3 0 0 1-.01-4.24 3.012 3.012 0 0 1 4.25-.02c.02.03.05.06.07.08a3 3 0 0 1-2.15 5.09c-.77 0-1.54-.29-2.12-.88m-27.94 3.66a3.005 3.005 0 0 1-.94-4.14c.88-1.4 2.73-1.83 4.13-.95 1.4.88 1.83 2.73.95 4.14-.57.91-1.55 1.4-2.55 1.4a3 3 0 0 1-1.59-.45m31.56 2.1c-.54-1.56.28-3.27 1.84-3.82 1.57-.55 3.28.28 3.83 1.84.54 1.57-.28 3.28-1.85 3.82-.32.12-.66.17-.99.17-1.24 0-2.4-.77-2.83-2.01m-32.96 6.03a3.006 3.006 0 0 1-2.66-3.31 3.006 3.006 0 0 1 3.31-2.66c1.65.18 2.84 1.67 2.66 3.31a3.006 3.006 0 0 1-2.98 2.68c-.11 0-.22-.01-.33-.02m36.37 4.05a2.993 2.993 0 0 1-2.65-3.31 3.008 3.008 0 0 1 3.32-2.65c1.64.19 2.83 1.67 2.65 3.32a2.997 2.997 0 0 1-2.98 2.66c-.11 0-.23 0-.34-.02m-37.95 2.05c-.55-1.56.27-3.28 1.84-3.82a3 3 0 0 1 1.98 5.66 2.99 2.99 0 0 1-3.82-1.84m34.01 5.2a3 3 0 0 1-.95-4.14c.88-1.4 2.74-1.82 4.14-.94 1.4.88 1.82 2.73.94 4.14-.57.9-1.54 1.4-2.54 1.4-.55 0-1.1-.15-1.59-.46m-28.95 2.82a3.003 3.003 0 0 1-.01-4.25 3 3 0 0 1 4.24 0 2.99 2.99 0 0 1 .01 4.24c-.59.59-1.36.88-2.12.88-.77 0-1.54-.29-2.12-.87m22.25 2a3.01 3.01 0 0 1 .94-4.14 3.01 3.01 0 0 1 4.14.94c.88 1.4.46 3.26-.94 4.14-.5.31-1.05.46-1.6.46-.99 0-1.97-.49-2.54-1.4m-14.22 3.03a2.99 2.99 0 0 1-1.85-3.82 3.006 3.006 0 0 1 3.82-1.85c1.56.55 2.39 2.26 1.85 3.82a3.022 3.022 0 0 1-2.84 2.02c-.33 0-.66-.06-.98-.17m6.09-1.6c-.18-1.65 1-3.13 2.65-3.32 1.64-.18 3.13 1 3.32 2.65a3.014 3.014 0 0 1-2.99 3.34c-1.5 0-2.8-1.13-2.98-2.67M47.05 39.59a3 3 0 0 1 2.99-3 2.99 2.99 0 0 1 3.01 2.99c.01 1.65-1.34 3-2.99 3.01h-.01c-1.65 0-2.99-1.34-3-3zm8.02 5.07v-.01c-.01 0-.01-.01-.01-.01a2.99 2.99 0 0 1-.01-4.24 2.981 2.981 0 0 1 4.14-.1c.05.03.09.07.13.11a3.012 3.012 0 0 1 0 4.25 3.03 3.03 0 0 1-4.25 0zm-14.24.02a3.003 3.003 0 0 1 4.23-4.26 3.012 3.012 0 0 1 .01 4.25c-.59.59-1.36.88-2.13.88-.76 0-1.53-.29-2.11-.87zm16.31 4.97c0-1.66 1.34-3 3-3s3 1.34 3 3c0 1.65-1.34 3-3 3-1.65 0-3-1.34-3-3zm-20.13.03a3 3 0 1 1 3.01 2.99c-1.66 0-3-1.34-3.01-2.99zm18.07 9.21a3 3 0 0 1 0-4.24v-.01a3 3 0 0 1 4.24 0 3 3 0 0 1 0 4.24c-.58.59-1.35.88-2.12.88s-1.53-.29-2.12-.87zm-14.23.01a3 3 0 0 1 0-4.24 3 3 0 0 1 4.24-.01 3.012 3.012 0 0 1 0 4.25c-.58.59-1.35.88-2.12.88s-1.53-.29-2.12-.88zm6.24.82c0-1.66 1.34-3 3-3 1.65-.01 2.99 1.34 3 2.99 0 1.66-1.34 3-3 3.01-1.66 0-3-1.34-3-3zM53.077 49.651a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/></g></svg>      </span>
+    </div>
+    <div class="text-content">
+      <div class="report-title">2021 Diversity Annual Report</div>
+      <div class="report-body-copy">We’re advancing a diverse, accessible, and inclusive Google where everyone feels like they belong. Check out our progress.</div>
+    </div>
+    <div class="cta-container">
+      <span class="cta">Learn More</span>
+    </div>
+  </div>
+</a>
+
+
+      </div>
+    </div>
+  </section>
+
+        <section class="responsibility-section responding_to_crises"
+      data-section-id="responding_to_crises"
+      id="responding_to_crises">
+    <div class="content">
+      <div class="section-header">
+        <div class="heading">Responding to crises</div>
+        <div class="subheading">Helping those affected by crises through our products, our people, and our partners.</div>
+      </div>
+
+      <div class="section-tiles">
+            
+<a class="responsibility-tile"
+    href="https://crisisresponse.google/philanthropy"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-4c01780 {
+          background-image: url(https://lh3.googleusercontent.com/NxBfpgk8HlogNOsu_t7IE0KgD8S8LKBpmhurOFzSB91pDhl33UH92xR4ths2CZsJi11nH-HUj3358R5U8O2iZsIpNBIWWwPm4Vj8WA=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-4c01780 {
+          background-image: url(https://lh3.googleusercontent.com/NxBfpgk8HlogNOsu_t7IE0KgD8S8LKBpmhurOFzSB91pDhl33UH92xR4ths2CZsJi11nH-HUj3358R5U8O2iZsIpNBIWWwPm4Vj8WA=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-4c01780 {
+          background-image: url(https://lh3.googleusercontent.com/NxBfpgk8HlogNOsu_t7IE0KgD8S8LKBpmhurOFzSB91pDhl33UH92xR4ths2CZsJi11nH-HUj3358R5U8O2iZsIpNBIWWwPm4Vj8WA=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-4c01780"></div>
+  <div class="description">We partner with first responders on the front lines of global crises by providing grants, resources, and volunteers.</div>
+  <div class="cta-container">
+    <span class="cta">Learn more about Google.org Crisis Response</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://crisisresponse.google/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-fa31783 {
+          background-image: url(https://lh3.googleusercontent.com/WYV7l_ZroM3_wDky_AdHQiTaokdkRmUMzS2arJ_fPEjR1BBPYsnkocP4EDqT3NFihmyPQ1LeE7YQYq_ozR29V9F5KoGI68V6a-GialI=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-fa31783 {
+          background-image: url(https://lh3.googleusercontent.com/WYV7l_ZroM3_wDky_AdHQiTaokdkRmUMzS2arJ_fPEjR1BBPYsnkocP4EDqT3NFihmyPQ1LeE7YQYq_ozR29V9F5KoGI68V6a-GialI=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-fa31783 {
+          background-image: url(https://lh3.googleusercontent.com/WYV7l_ZroM3_wDky_AdHQiTaokdkRmUMzS2arJ_fPEjR1BBPYsnkocP4EDqT3NFihmyPQ1LeE7YQYq_ozR29V9F5KoGI68V6a-GialI=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-fa31783"></div>
+  <div class="description">We provide critical information to users in moments of crisis through our products and technology.</div>
+  <div class="cta-container">
+    <span class="cta">Learn more about Crisis Response products</span>
+  </div>
+</a>
+
+
+      </div>
+    </div>
+  </section>
+
+        <section class="responsibility-section advancing_sustainability"
+      data-section-id="advancing_sustainability"
+      id="advancing_sustainability">
+    <div class="content">
+      <div class="section-header">
+        <div class="heading">Advancing sustainability</div>
+        <div class="subheading">We unify our practices, partnerships, and products around a single mission — to foster sustainability at scale. By organizing information  about our planet, and making it actionable through technology, we help people make more positive impact together.</div>
+      </div>
+
+      <div class="section-tiles">
+            
+<a class="responsibility-tile"
+    href="https://sustainability.google/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-f0ec41e {
+          background-image: url(https://lh3.googleusercontent.com/hC-HChYz_yR9gLdaftQAGBxhlbxfb_QHJRcSa4z2mBLPf4_kkmjIFhAbv5Mp8YEMviE90Vq31sxM-Z9uG2PUhrOhPdlDRU9AupJN=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-f0ec41e {
+          background-image: url(https://lh3.googleusercontent.com/hC-HChYz_yR9gLdaftQAGBxhlbxfb_QHJRcSa4z2mBLPf4_kkmjIFhAbv5Mp8YEMviE90Vq31sxM-Z9uG2PUhrOhPdlDRU9AupJN=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-f0ec41e {
+          background-image: url(https://lh3.googleusercontent.com/hC-HChYz_yR9gLdaftQAGBxhlbxfb_QHJRcSa4z2mBLPf4_kkmjIFhAbv5Mp8YEMviE90Vq31sxM-Z9uG2PUhrOhPdlDRU9AupJN=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-f0ec41e"></div>
+  <div class="description">We build technology that helps people do more for the planet.</div>
+  <div class="cta-container">
+    <span class="cta">Learn more about Sustainability</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile"
+    href="https://sustainability.google/commitments/"
+    target="_blank"
+    rel="noopener">
+  <style>
+
+
+
+
+
+      @media screen  {
+ .hero-image-431257a {
+          background-image: url(https://lh3.googleusercontent.com/o1hkTGurscgcu1KnBitZs3aUWVYHLfQ7jrssuWeCS8ahF8hFHPY9zLH2aQ1DaftNpCULsIf_QhDOYaf8lhPNsceOIcFI9Kof8A8je40=w600-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 600px) {
+ .hero-image-431257a {
+          background-image: url(https://lh3.googleusercontent.com/o1hkTGurscgcu1KnBitZs3aUWVYHLfQ7jrssuWeCS8ahF8hFHPY9zLH2aQ1DaftNpCULsIf_QhDOYaf8lhPNsceOIcFI9Kof8A8je40=w1024-l80-sg-rj);
+        }
+      }
+
+
+
+
+
+
+
+      @media screen and (min-width: 1024px) {
+ .hero-image-431257a {
+          background-image: url(https://lh3.googleusercontent.com/o1hkTGurscgcu1KnBitZs3aUWVYHLfQ7jrssuWeCS8ahF8hFHPY9zLH2aQ1DaftNpCULsIf_QhDOYaf8lhPNsceOIcFI9Kof8A8je40=w1440-l80-sg-rj);
+        }
+      }
+
+
+  </style>
+  <div class="hero-image crossfade
+          hero-image-431257a"></div>
+  <div class="description">Google&#39;s third decade of climate action — our most ambitious yet.</div>
+  <div class="cta-container">
+    <span class="cta">Learn about how we intend to operate carbon-free by 2030</span>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile report-tile"
+    href="https://www.gstatic.com/gumdrop/sustainability/google-2021-environmental-report.pdf"
+    target="_blank"
+    rel="noopener">
+  <div class="content">
+    <div class="report-icon-container">
+      <span class="report-icon">
+<svg width="24" height="24" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M62.083 61.021c-.542-1.687-2.083-2.896-3.958-2.896h-2.084v-6.25a2.089 2.089 0 0 0-2.083-2.083h-12.5v-4.167h4.167a2.09 2.09 0 0 0 2.083-2.083v-4.167h4.167a4.179 4.179 0 0 0 4.166-4.167v-.854c6.104 2.48 10.417 8.459 10.417 15.438 0 4.333-1.667 8.271-4.375 11.229zm-14.375 5.292c-8.229-1.021-14.583-8.021-14.583-16.521 0-1.292.166-2.521.437-3.729l9.979 9.979v2.083a4.18 4.18 0 0 0 4.167 4.167v4.021zM49.791 30C38.861 30 30 38.861 30 49.792c0 10.931 8.861 19.792 19.791 19.792 10.931 0 19.792-8.861 19.792-19.792C69.583 38.861 60.722 30 49.791 30z" fill-rule="evenodd"/></svg>      </span>
+    </div>
+    <div class="text-content">
+      <div class="report-title">2021 Environmental Report</div>
+      <div class="report-body-copy">We’re reducing the environmental impact of our operations and working to empower people everywhere to live more sustainably.</div>
+    </div>
+    <div class="cta-container">
+      <span class="cta">Learn more</span>
+    </div>
+  </div>
+</a>
+
+
+            
+<a class="responsibility-tile report-tile"
+    href="https://sustainability.google/progress/#supplier-responsibility"
+    target="_blank"
+    rel="noopener">
+  <div class="content">
+    <div class="report-icon-container">
+      <span class="report-icon">
+<svg width="24" height="24" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M62.083 61.021c-.542-1.687-2.083-2.896-3.958-2.896h-2.084v-6.25a2.089 2.089 0 0 0-2.083-2.083h-12.5v-4.167h4.167a2.09 2.09 0 0 0 2.083-2.083v-4.167h4.167a4.179 4.179 0 0 0 4.166-4.167v-.854c6.104 2.48 10.417 8.459 10.417 15.438 0 4.333-1.667 8.271-4.375 11.229zm-14.375 5.292c-8.229-1.021-14.583-8.021-14.583-16.521 0-1.292.166-2.521.437-3.729l9.979 9.979v2.083a4.18 4.18 0 0 0 4.167 4.167v4.021zM49.791 30C38.861 30 30 38.861 30 49.792c0 10.931 8.861 19.792 19.791 19.792 10.931 0 19.792-8.861 19.792-19.792C69.583 38.861 60.722 30 49.791 30z" fill-rule="evenodd"/></svg>      </span>
+    </div>
+    <div class="text-content">
+      <div class="report-title">Responsible Supply Chain Report</div>
+      <div class="report-body-copy">We work with more than 500 suppliers worldwide to ensure ethical and fair treatment for workers, safe and healthy workplaces, and a smaller environmental footprint.</div>
+    </div>
+    <div class="cta-container">
+      <span class="cta">Learn more</span>
+    </div>
+  </div>
+</a>
+
+
+      </div>
+    </div>
+  </section>
+
+    </div>
+  </div>
+        </main>
+
+<div class="cap"
+    data-about-footer
+    data-ng-class="{'footer--hidden': footerCtrl.footerHidden}"
+    data-ng-cloak="">
+  <a href="#" class="scroll-to-top" data-scroll
+      
+    data-track-event
+    data-track-event-category="about us"
+    data-track-event-action="back-to-top"
+    data-track-event-label="/intl/ALL_us/commitments/index.html"
+>
+      Back to top   <svg alt=""  class="scroll-to-top-icon" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 20 20">
+    <g stroke="none" stroke-width="1" fill="inherit">
+      <circle fill="inherit" cx="9" cy="9" r="9"></circle>
+      <polygon fill="#fff" points="3 9 4.0575 10.0575 8.25 5.8725 8.25 15 9.75 15 9.75 5.8725 13.935 10.065 15 9 9 3"></polygon>
+    </g>
+  </svg>
+
+  </a>
+</div>
+
+<footer class="footer"
+    data-about-footer
+    data-ng-class="{'footer--hidden': footerCtrl.footerHidden}"
+    data-ng-cloak="">
+  <div class="main">
+    <div class="main-inner">
+      <section class="social">
+        <div class="social-inner">
+          <h2>Follow us</h2>
+          <ul>
+              <li>
+                <a href="https://instagram.com/google/"
+                    target="_blank"
+                    aria-label="Instagram"
+                    data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="social follow - instagram"
+  data-g-label="footer"
+>
+                        <svg alt="Instagram"  class="" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000">
+    <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+  </svg>
+
+
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/Google"
+                    target="_blank"
+                    aria-label="YouTube"
+                    data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="social follow - youtube"
+  data-g-label="footer"
+>
+                      <svg alt="YouTube"  class="" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000">
+  <path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+</svg>
+
+
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/google"
+                    target="_blank"
+                    aria-label="Twitter"
+                    data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="social follow - twitter"
+  data-g-label="footer"
+>
+                        <svg alt="Twitter"  class="" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000">
+    <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/>
+  </svg>
+
+
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/Google"
+                    target="_blank"
+                    aria-label="Facebook"
+                    data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="social follow - facebook"
+  data-g-label="footer"
+>
+                        <svg alt="Facebook"  class="" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000">
+    <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/>
+  </svg>
+
+
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/google"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                    data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="social follow - linkedin"
+  data-g-label="footer"
+>
+                        <svg alt="LinkedIn"  class="" width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000">
+    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+  </svg>
+
+
+                </a>
+              </li>
+          </ul>
+        </div>
+  <div class="language-selector">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95a15.65 15.65 0 00-1.38-3.56A8.03 8.03 0 0118.92 8zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.987 7.987 0 015.08 16zm2.95-8H5.08a7.987 7.987 0 014.33-3.56A15.65 15.65 0 008.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 01-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/>
+  </svg>
+
+      <a class="language-selector--lang" target="_self" href="/intl/es_us/commitments/" data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="language selector - español"
+  data-g-label="footer"
+>Español</a>
+  </div>
+      </section>
+      <section class="sitemap">
+        <ul class="cols-row footer-links glue-zippy-set-single"
+            id="footer-sitemap-links">
+            <li id="footer-company-resources" class="glue-zippy glue-a-zippy--v-smooth-expand">
+              <h2 class="glue-zippy-btn">Company resources
+                  <svg alt=""  class="icon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="currentcolor"/>
+  </svg>
+
+              </h2>
+              <div class="glue-zippy-content">
+                <ul class="links-list">
+
+
+
+<li>
+  <a href="../contact-google/"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - contact-us"
+  data-g-label="footer"
+>
+Contact us
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://support.google.com/?hl=en/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - help-center"
+  data-g-label="footer"
+>
+Help center
+  </a>    
+</li>
+
+
+<li>
+  <a href="../locations/"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - locations"
+  data-g-label="footer"
+>
+Locations
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://careers.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - careers"
+  data-g-label="footer"
+>
+Careers
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://www.blog.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - blog"
+  data-g-label="footer"
+>
+Blog
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://www.blog.google/press/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - press-resources"
+  data-g-label="footer"
+>
+Press resources
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://abc.xyz/investor/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - investor-relations"
+  data-g-label="footer"
+>
+Investor relations
+  </a>    
+</li>
+
+
+<li>
+  <a href="../brand-resource-center/"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="company resources - brand-resource-center"
+  data-g-label="footer"
+>
+Brand Resource Center
+  </a>    
+</li>                </ul>
+              </div>
+            </li>
+            <li id="footer-featured-products" class="glue-zippy glue-a-zippy--v-smooth-expand">
+              <h2 class="glue-zippy-btn">Featured products
+                  <svg alt=""  class="icon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="currentcolor"/>
+  </svg>
+
+              </h2>
+              <div class="glue-zippy-content">
+                <ul class="links-list">
+
+
+
+<li>
+  <a href="https://ads.google.com/intl/ALL_us/home/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - ads"
+  data-g-label="footer"
+>
+Google Ads
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://www.android.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - android"
+  data-g-label="footer"
+>
+Android
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://www.google.com/chrome/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - chrome"
+  data-g-label="footer"
+>
+Chrome
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://cloud.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-cloud"
+  data-g-label="footer"
+>
+Google Cloud
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://edu.google.com?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-for-education"
+  data-g-label="footer"
+>
+Google for Education
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://www.google.com/gmail/about/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - gmail"
+  data-g-label="footer"
+>
+Gmail
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://www.google.com/maps/about/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-maps"
+  data-g-label="footer"
+>
+Google Maps
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://www.google.com/photos/about/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-photos"
+  data-g-label="footer"
+>
+Google Photos
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://play.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-play"
+  data-g-label="footer"
+>
+Google Play
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://shopping.google.com/?nord=1?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-shopping"
+  data-g-label="footer"
+>
+Google Shopping
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://www.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-search"
+  data-g-label="footer"
+>
+Google Search
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://smallbusiness.withgoogle.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-for-small-business"
+  data-g-label="footer"
+>
+Google for Small Business
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://store.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-store"
+  data-g-label="footer"
+>
+Google Store
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://workspace.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - google-workspace"
+  data-g-label="footer"
+>
+Google Workspace
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://www.youtube.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - product-youtube"
+  data-g-label="footer"
+>
+YouTube
+  </a>    
+</li>
+
+
+<li>
+  <a href="../products/#all-products/"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="featured products - all-products"
+  data-g-label="footer"
+>
+View all products
+  </a>    
+</li>                </ul>
+              </div>
+            </li>
+            <li id="social-responsibility" class="glue-zippy glue-a-zippy--v-smooth-expand">
+              <h2 class="glue-zippy-btn">Responsibility
+                  <svg alt=""  class="icon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="currentcolor"/>
+  </svg>
+
+              </h2>
+              <div class="glue-zippy-content">
+                <ul class="links-list">
+
+
+
+<li>
+  <a href="https://www.google.com/accessibility/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - accessibility"
+  data-g-label="footer"
+>
+Accessibility
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://crisisresponse.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - crisis-response"
+  data-g-label="footer"
+>
+Crisis response
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://wellbeing.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - digital-wellbeing"
+  data-g-label="footer"
+>
+Digital wellbeing
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://diversity.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - diversity"
+  data-g-label="footer"
+>
+Diversity &amp; inclusion
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://www.google.org/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - google-dot-org"
+  data-g-label="footer"
+>
+Google.org
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://grow.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - grow-with-google"
+  data-g-label="footer"
+>
+Grow with Google
+  </a>    
+</li>
+
+
+<li>
+  <a href="../human-rights/"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - human-rights"
+  data-g-label="footer"
+>
+Human rights
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://learning.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - learning"
+  data-g-label="footer"
+>
+Learning
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://safety.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - safety-center"
+  data-g-label="footer"
+>
+Safety Center
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://sustainability.google/progress/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link/#supplier-responsibility"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - supplier-responsibility"
+  data-g-label="footer"
+>
+Supplier responsibility
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://sustainability.google/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="responsibility - sustainability"
+  data-g-label="footer"
+>
+Sustainability
+  </a>    
+</li>                </ul>
+              </div>
+            </li>
+            <li id="footer-more-about-us" class="glue-zippy glue-a-zippy--v-smooth-expand">
+              <h2 class="glue-zippy-btn">More about us
+                  <svg alt=""  class="icon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="currentcolor"/>
+  </svg>
+
+              </h2>
+              <div class="glue-zippy-content">
+                <ul class="links-list">
+
+
+
+<li>
+  <a href="https://transparencyreport.google.com/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="more about us - transparency"
+  data-g-label="footer"
+>
+Transparency report
+  </a>    
+</li>
+
+
+<li>
+  <a href="../community-guidelines/"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="more about us - community-guidelines"
+  data-g-label="footer"
+>
+Community guidelines
+  </a>    
+</li>
+
+
+<li>
+  <a href="../how-our-business-works/"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="more about us - how-google-works"
+  data-g-label="footer"
+>
+How our business works
+  </a>    
+</li>
+
+
+<li>
+  <a href="../extended-workforce/"
+target="_self"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="more about us - extended-workforce"
+  data-g-label="footer"
+>
+Extended workforce
+  </a>    
+</li>                </ul>
+              </div>
+            </li>
+        </ul>
+      </section>
+      <section class="foot">
+        <div class="product-logo">
+          <a href="../" target="_self"              aria-label="Google"
+              data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="google logo"
+  data-g-label="footer"
+>
+                <svg alt="Google"  class="logo-svg " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 28">
+    <path fill="#4285F4" d="M10.4,21C4.7,21,0,16.2,0,10.5S4.7,0,10.4,0c3.1,0,5.3,1.3,7,2.9l-1.9,2c-1.2-1.2-2.8-2-5-2
+      c-4.1,0-7.3,3.4-7.3,7.6s3.2,7.6,7.3,7.6c2.7,0,4.2-1.1,5.1-2.1c0.8-0.8,1.3-2,1.5-3.8h-6.6V9.3h9.3c0.1,0.5,0.2,1.1,0.2,1.8
+      c0,2.2-0.5,5-2.4,6.9C15.7,20,13.4,21,10.4,21z"/>
+    <path fill="#EA4335" d="M34.2,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S34.2,10.2,34.2,14.1z M31.4,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C29.6,18.2,31.4,16.5,31.4,14.1z"/>
+    <path fill="#FBBC03" d="M48.4,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S48.4,10.2,48.4,14.1z M45.5,14.1
+      c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C43.8,18.2,45.5,16.5,45.5,14.1z"/>
+    <path fill="#4285F4" d="M61.7,7.8V20c0,5-2.7,7-6.1,7c-3.2,0-5-2.2-5.8-4l2.5-1.1c0.4,1.1,1.5,2.4,3.3,2.4c2.1,0,3.4-1.4,3.4-3.9v-1
+      h-0.1c-0.6,0.8-1.8,1.6-3.4,1.6c-3.3,0-6.2-2.9-6.2-6.8s2.9-6.7,6.2-6.7c1.6,0,2.7,0.7,3.4,1.6h0.1V7.8H61.7z M59.2,14.1
+      c0-2.4-1.5-4.1-3.5-4.1c-1.9,0-3.5,1.7-3.5,4.1s1.5,4.1,3.5,4.1C57.7,18.2,59.2,16.5,59.2,14.1z"/>
+    <path fill="#34A853" d="M66.4,1.1v19.8h-2.8V1.1H66.4z"/>
+    <path fill="#EA4335" d="M77.7,16.3l2.2,1.6c-0.7,1.1-2.5,3-5.5,3c-3.7,0-6.5-2.9-6.5-6.7c0-4,2.8-6.7,6.2-6.7c3.4,0,5,2.8,5.6,4.3
+      l0.3,0.7l-8.8,3.7c0.7,1.4,1.7,2,3.2,2S76.9,17.5,77.7,16.3z M70.8,14l5.8-2.5c-0.4-0.8-1.3-1.5-2.4-1.5C72.7,10,70.7,11.3,70.8,14
+      z"/>
+  </svg>
+
+          </a>
+        </div>
+        <ul class="bottom-links">
+
+
+
+<li>
+  <a href="https://support.google.com/?hl=en/?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="bottom footer - help"
+  data-g-label="footer"
+>
+        <svg alt=""  class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="#000">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/>
+  </svg>
+
+Help
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://policies.google.com/privacy?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="bottom footer - privacy"
+  data-g-label="footer"
+>
+Privacy
+  </a>    
+</li>
+
+
+<li>
+  <a href="https://policies.google.com/terms?utm_source=about&amp;utm_medium=referral&amp;utm_campaign=footer-link"
+target="_blank"      data-g-nav-link
+  data-g-category="site navigation"
+  data-g-action="bottom footer - terms"
+  data-g-label="footer"
+>
+Terms
+  </a>    
+</li>        </ul>
+      </section>
+    </div>
+  </div>
+</footer>
+      <div data-ui-view="modal" class="modal"></div>
+
+      <div class="progress" data-ng-if="mainCtrl.isLoading">
+        <span class="progress-bar progress-bar1"><!----></span>
+        <span class="progress-bar progress-bar2"><!----></span>
+      </div>
+
+
+
+
+
+
+      <!--[if gt IE 8]><!-->
+<script type="text/ng-template" id="/modal.html" nonce="P58kB5zpVfoREdnEghFWdQ">
+  <div class="modal-overlay">
+    <div data-ui-view="modal-content" class="modal-content"></div>
+    <button class="glue-modal-close" aria-label="close" data-ng-click="modalStateCtrl.closeModal()">  <svg alt=""  class="icon icon-white" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M7.41 18.59L8.83 20 12 16.83 15.17 20l1.41-1.41L12 14l-4.59 4.59zm9.18-13.18L15.17 4 12 7.17 8.83 4 7.41 5.41 12 10l4.59-4.59z"/>
+  </svg>
+</button>
+  </div>
+</script>
+
+<script type="text/ng-template" id="/glue/modal/modal-template.html" nonce="P58kB5zpVfoREdnEghFWdQ">
+  <div>
+    <div class="glue-modal-overlay overlay-animate" data-glue-show="modalCtrl.getModalVisible()" data-ng-if="modalCtrl.getModalVisible()">
+      <div class="glue-modal" data-glue-show="modalCtrl.getModalVisible()" role="dialog" tabindex="-1">
+        <div class="glue-modal-content" data-ng-transclude></div>
+        <button class="glue-modal-close" aria-label="close">  <svg alt=""  class="icon icon-white" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+    <path d="M7.41 18.59L8.83 20 12 16.83 15.17 20l1.41-1.41L12 14l-4.59 4.59zm9.18-13.18L15.17 4 12 7.17 8.83 4 7.41 5.41 12 10l4.59-4.59z"/>
+  </svg>
+</button>
+      </div>
+    </div>
+  </div>
+</script>        <script src="//www.gstatic.com/external_hosted/picturefill/picturefill.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-touch.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-animate.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-sanitize.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//www.gstatic.com/external_hosted/ng_ui_router/release/angular-ui-router.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//www.gstatic.com/external_hosted/gsap/v1_18_0/TweenMax.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//www.gstatic.com/external_hosted/gsap/v1_18_0/plugins/ScrollToPlugin.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//www.gstatic.com/external_hosted/scrollmagic/ScrollMagic.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//www.gstatic.com/external_hosted/scrollmagic/animation.gsap.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//www.gstatic.com/external_hosted/intersectionobserver_polyfill/intersection-observer.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//www.gstatic.com/external_hosted/pixi/pixi.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//www.google.com/jsapi" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="//www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="/assets/js/main.min.js?cache=80a9382" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script src="/assets/js/detect.min.js?cache=c84f19a" nonce="P58kB5zpVfoREdnEghFWdQ"></script>
+        <script
+            data-autoload-cookie-consent-bar="true"
+            data-autoload-cookie-consent-bar-intl-code=""
+            src="https://www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v3.js" nonce="P58kB5zpVfoREdnEghFWdQ">
+        </script>
+      <!--<![endif]-->
+  </body>
+</html>

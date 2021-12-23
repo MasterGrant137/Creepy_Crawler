@@ -1,0 +1,14 @@
+Content-Length: 166
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+Content-Type: text/html
+Location: https://moz.com/top-500/download?table=top500Domains
+Cf-Ray: 6c24187458cf0cbb-LAX
+Set-Cookie: _moz_csrf=e25f51481b87394344705a07f25040ced405b677; Max-Age=3600000; Domain=moz.com; Path=/; SameSite=Strict; Secure; HttpOnly
+Set-Cookie: __cf_bm=2..ZxjZjp497u.pKLolEI5xeGcdXj9mIpXU3Lg3fBqo-1640288781-0-AbKoV808udgZe2SNLp6R6/S5MpKvJk3u1/pFXA00Wtjbz9aJDUjydkeihKZ+QQiRNZk1NZ4Z9KVaL2QVLJ/MC0w=; path=/; expires=Thu, 23-Dec-21 20:16:21 GMT; domain=.moz.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=2592000
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+X-Frame-Options: SAMEORIGIN
+Vary: Accept-Encoding
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

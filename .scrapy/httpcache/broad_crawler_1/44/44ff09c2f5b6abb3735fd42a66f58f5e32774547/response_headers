@@ -1,0 +1,24 @@
+Date: Thu, 23 Dec 2021 19:46:24 GMT
+P3P: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Cache-Control: no-store, no-cache, max-age=0, private
+Strict-Transport-Security: max-age=31536000
+Accept-Ch: device-memory, dpr, width, viewport-width, rtt, downlink, ect
+Accept-Ch-Lifetime: 604800
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: autorf=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=www.yahoo.com
+Set-Cookie: A1=d=AQABBBDSxGECEA6d5-l8T9s7QasVJuZYOzQFEgEBAQEjxmHOYQAAAAAA_eMAAA&S=AQAAAuPz0y6cOTn675U570cqxyY; Expires=Sat, 24 Dec 2022 01:46:24 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: A3=d=AQABBBDSxGECEA6d5-l8T9s7QasVJuZYOzQFEgEBAQEjxmHOYQAAAAAA_eMAAA&S=AQAAAuPz0y6cOTn675U570cqxyY; Expires=Sat, 24 Dec 2022 01:46:24 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly
+Set-Cookie: A1S=d=AQABBBDSxGECEA6d5-l8T9s7QasVJuZYOzQFEgEBAQEjxmHOYQAAAAAA_eMAAA&S=AQAAAuPz0y6cOTn675U570cqxyY&j=CCPA; Domain=.yahoo.com; Path=/; SameSite=Lax; Secure
+Set-Cookie: B=38eqospgs9kgg&b=3&s=sk; Expires=Sat, 24 Dec 2022 01:46:24 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/
+Set-Cookie: GUC=AQEBAQFhxiNhzkIglwTg; Expires=Sat, 24 Dec 2022 01:46:24 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; Secure
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation; report-uri https://csp.yahoo.com/beacon/csp?src=frontpage&site=fp&region=US&lang=en-US&device=desktop&partner=default;
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=UTF-8
+X-Envoy-Upstream-Service-Time: 20
+Server: ATS
+Age: 0
+Expires: -1
+Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+Referrer-Policy: no-referrer-when-downgrade

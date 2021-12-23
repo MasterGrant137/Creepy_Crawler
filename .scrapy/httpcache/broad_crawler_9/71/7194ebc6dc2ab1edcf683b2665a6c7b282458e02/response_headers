@@ -1,0 +1,20 @@
+Content-Length: 0
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 23 Dec 2021 20:05:13 GMT
+Location: https://accounts.google.com/ServiceLogin?passive=true&go=true&service=blogger&continue=https://www.blogger.com/?bpli%3D1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to="BloggerUi"
+Report-To: {"group":"BloggerUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/BloggerUi/external"}]}
+Cross-Origin-Resource-Policy: same-site
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script';report-uri /_/BloggerUi/cspreport
+Content-Security-Policy: script-src 'report-sample' 'nonce-4jLV25U1gpt/j0SlJJ0dOg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/BloggerUi/cspreport;worker-src 'self'
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=ZwTVxujELlrqiqwaojZXuYTtsvYlMXM9iYn3oleMtkzIj-RhU6zrpsvorzynUAVTa327dDN0P1RFffN8xBOeb7eAwrIiXAmzf6khm6BhLoTswlf4aym3cZgrNsveQfyjOkzB7SVDPVxDPBw9Vp_kZe1ceDf6FTHzKxpk5xNF98E; expires=Fri, 24-Jun-2022 20:05:13 GMT; path=/; domain=.blogger.com; Secure; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

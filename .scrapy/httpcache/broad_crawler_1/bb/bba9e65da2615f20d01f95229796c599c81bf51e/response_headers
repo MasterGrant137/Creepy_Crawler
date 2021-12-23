@@ -1,0 +1,26 @@
+Date: Thu, 23 Dec 2021 19:46:17 GMT
+Content-Type: text/html; charset=utf-8
+Cf-Ray: 6c24185c9a65312b-LAX
+Age: 385
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Expires: Thu, 23 Dec 2021 21:46:17 GMT
+Set-Cookie: uid=lo_59ff58b1b705; Domain=medium.com; Path=/; Expires=Fri, 23 Dec 2022 19:46:17 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: sid=1%3AjsGwDT9v3ZHqzKZYFElQGSszKzjUvhuSPDscDoi%2F3oY4rD1axuRWsZBHAtAOBA7t; Domain=medium.com; Path=/; Expires=Fri, 23 Dec 2022 19:46:17 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: optimizelyEndUserId=lo_59ff58b1b705; Domain=medium.com; Path=/; Expires=Fri, 23 Dec 2022 19:46:17 GMT; Secure; SameSite=None
+Set-Cookie: __cfruid=1fd030627162ea3037c6aeb9b9ac738ca6c56be2-1640288777; path=/; domain=.medium.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Cf-Cache-Status: HIT
+Content-Security-Policy: frame-ancestors 'self' https://medium.com
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Medium-Fulfilled-By: edgy/8.2.0, valencia/main-20211221-164410-1a06fba482, lite/main-20211223-174047-cbedb4c9dd, rito/main-20211221-170337-9f46a2ee36, tutu/main-20211223-104838-a5c6d6ed5c
+Medium-Missing-Time: 234
+Worker-Cache-Key: medium.com/?li=false
+Worker-Cache-Middleware: true
+Worker-Missing-Cookies: 3
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 1054
+X-Request-Received-At: 1640288229692
+Server: cloudflare
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

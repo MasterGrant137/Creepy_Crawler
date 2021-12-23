@@ -1,0 +1,15 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.16.1
+X-Powered-By: Next.js
+Etag: "202ec-6bM5kOI8CSOiwypgUMYxOT2W0kU"
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+Platform: Desktop
+Date: Thu, 23 Dec 2021 18:46:16 GMT
+X-Served-By: cache-iad-kiad7000141-IAD, cache-bur17545-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640285176.900943,VS0,VE242
+Vary: Accept-Encoding, platform, X-OPTIONS

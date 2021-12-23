@@ -1,0 +1,11 @@
+Server: ddos-guard
+Content-Security-Policy: upgrade-insecure-requests;
+Set-Cookie: __ddg1=BKB3by6Pd7lMsW7I6yNp; Domain=.ucoz.ru; HttpOnly; Path=/; Expires=Fri, 23-Dec-2022 19:47:38 GMT
+X-Ddg-Cachegen: 1636988129
+Date: Thu, 23 Dec 2021 19:47:34 GMT
+Content-Type: text/plain; charset=UTF-8
+Last-Modified: Thu, 23 Sep 2021 08:40:39 GMT
+Etag: W/"614c3d87-158"
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip
+Age: 4

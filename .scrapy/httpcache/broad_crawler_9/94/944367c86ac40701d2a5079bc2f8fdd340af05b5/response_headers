@@ -1,0 +1,9 @@
+Date: Thu, 23 Dec 2021 20:06:20 GMT
+Cache-Control: max-age=3600
+Expires: Thu, 23 Dec 2021 21:06:20 GMT
+Location: https://www.clarin.com/
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c2435bbffc07d17-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

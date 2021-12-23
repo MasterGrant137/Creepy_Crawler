@@ -1,0 +1,11 @@
+Content-Length: 425
+Cache-Control: max-age=60
+Content-Type: text/plain
+Content-Encoding: gzip
+Last-Modified: Mon, 14 Oct 2019 20:20:43 GMT
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+Set-Cookie: ARRAffinityCU=15cb4180ed9d6258d70ada6c7547c4d05866fd25bb9233a13de701e51a3de32a;Path=/;Domain=www.cornell.edu
+X-Powered-By: ARR/3.0
+Date: Thu, 23 Dec 2021 20:06:20 GMT

@@ -1,0 +1,17 @@
+Content-Length: 1300
+Content-Type: text/plain; charset=utf-8
+X-Activity-Id: 0a868ca8-1cd2-4474-98cd-df1558a3f819
+Ms-Cv: i/pUx/6J4EeBw6z8.0
+X-Appversion: 1.0.8006.31248
+X-Az: {did:92e7dc58ca2143cfb2c818b047cc5cd1, rid: OneDeployContainer, sn: marketingsites-prod-odwestcentralus, dt: 2018-05-03T20:14:23.4188992Z, bt: 2021-12-03T01:21:36.0000000Z}
+Ms-Operation-Id: 4db5bc35a1354d4bb815e77c047141c6
+P3P: CP="CAO CONi OTR OUR DEM ONL"
+Access-Control-Allow-Methods: HEAD,GET,POST,PATCH,PUT,OPTIONS
+X-Xss-Protection: 1; mode=block
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=900
+Date: Thu, 23 Dec 2021 19:46:18 GMT
+Tls_Version: tls1.3
+Strict-Transport-Security: max-age=31536000
+X-Rtag: RT

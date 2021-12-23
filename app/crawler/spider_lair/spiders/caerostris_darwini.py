@@ -137,3 +137,19 @@ class BroadCrawler8(scrapy.Spider):
         except: print(f'End of the line error for {self.name}.')
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+
+class BroadCrawler9(scrapy.Spider):
+    """Broad crawling spider."""
+
+    name = 'broad_crawler_9'
+    start_urls = ['https://moz.com/top500']
+
+    def parse(self, response):
+        """Follow links."""
+        try:
+            all_text = response.css('*:not(script):not(style)::text')
+            for text in all_text:
+                if self.query in text.get(): yield { 'url': response.request.url, 'text': text.get() }
+        except: print(f'End of the line error for {self.name}.')
+
+        yield from response.follow_all(css='a::attr(href)', callback=self.parse)

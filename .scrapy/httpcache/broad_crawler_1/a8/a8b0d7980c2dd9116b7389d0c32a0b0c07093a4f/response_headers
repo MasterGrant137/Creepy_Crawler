@@ -1,0 +1,16 @@
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 23 Dec 2021 19:22:59 GMT
+Content-Encoding: gzip
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Security-Policy: script-src 'nonce-etjpMP/MzNG7GBIcOW/g4w' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /trends/cspreport
+Report-To: {"group":"coop_gse_px05kv","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gse_px05kv"}]}
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="coop_gse_px05kv"
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: NID=511=ZnlrHVcUhpENSvTGCpRjJGh8mllZVcUh8FpXpBclD1Xw86ksjoPCijmUmWSX3jjUAfRYS3lEGZfwOjrnHWVtSF3k_266aIwySW53HuuuMmNThAvO1wxFofSfzoxDK0JsLLMtM-_RPERkehkArc_d5yNWvstehSd2q1y5KBCUjpM; expires=Fri, 24-Jun-2022 19:22:59 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

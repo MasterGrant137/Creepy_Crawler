@@ -1,0 +1,20 @@
+Content-Length: 52
+Server: Apache
+Last-Modified: Wed, 25 Nov 2020 16:24:50 GMT
+Cache-Control: max-age=2592000
+Expires: Fri, 31 Dec 2021 14:02:53 GMT
+Access-Control-Allow-Origin: *
+X-Ua-Compatible: IE=edge
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: text/plain; charset=utf-8
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:06:21 GMT
+Age: 1922608
+X-Served-By: cache-hel1410024-HEL, cache-bur17538-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 59, 1
+X-Timer: S1640289982.580372,VS0,VE1
+Vary: Accept-Encoding

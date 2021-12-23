@@ -1,0 +1,19 @@
+Content-Length: 0
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 23 Dec 2021 19:46:20 GMT
+Location: https://www.blogger.com/about?bpli=1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Cross-Origin-Resource-Policy: same-site
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script';report-uri /_/BloggerUi/cspreport
+Content-Security-Policy: script-src 'report-sample' 'nonce-lO3hpewb4cpLVhZxAbJ7ZA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/BloggerUi/cspreport;worker-src 'self'
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=j4EHUdr0eHE1G71T99fgIcnVJ6zSHLf1Z_pakWvtPPJsVmADcC2th4MXIlBIRshNOXm5sWYF2ofUGNEQrnyYAqzZzIPV0BG-IvpNkcC1cG_5UMq1_vlMSHntSvAAGf-y1NHoGcAdXfP8MFOaBHcepZmfR4RwneGt8Eid_evBzhs; expires=Fri, 24-Jun-2022 19:46:20 GMT; path=/; domain=.blogger.com; Secure; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

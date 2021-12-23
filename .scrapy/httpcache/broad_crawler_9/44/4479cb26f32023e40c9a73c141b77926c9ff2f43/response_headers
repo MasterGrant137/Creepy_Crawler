@@ -1,0 +1,17 @@
+Content-Length: 94
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: 
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, X-APCLIENTID
+Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Last-Modified: Thu, 23 Dec 2021 19:56:04 GMT
+Etag: W/"4e-6u9GTFpB94LP42CxKVFkbYvUzHg"
+Content-Encoding: gzip
+X-Cloud-Trace-Context: bc58da5a3a29fd222b3a94ed996c9e95
+Date: Thu, 23 Dec 2021 19:56:07 GMT
+Server: Google Frontend
+Via: 1.1 google
+Age: 550
+Cache-Control: public,max-age=120
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

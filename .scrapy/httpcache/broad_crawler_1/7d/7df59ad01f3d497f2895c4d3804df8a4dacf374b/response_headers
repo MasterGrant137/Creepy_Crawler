@@ -1,0 +1,19 @@
+Content-Type: text/html; charset=utf-8
+Server: meinheld/0.6.1
+Date: Thu, 23 Dec 2021 19:47:32 GMT
+X-Frame-Options: DENY
+Content-Security-Policy: connect-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com logs.convertexperiments.com 1003350.metrics.convertexperiments.com 1003343.metrics.convertexperiments.com sentry.prod.mozaws.net https://accounts.firefox.com/ https://accounts.firefox.com.cn/; frame-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com; style-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' app.convert.com; script-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com tagmanager.google.com www.youtube.com s.ytimg.com cdn-3.convertexperiments.com app.convert.com data.track.convertexperiments.com 1003350.track.convertexperiments.com 1003343.track.convertexperiments.com; img-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com data: mozilla.org www.googletagmanager.com www.google-analytics.com adservice.google.com adservice.google.de adservice.google.dk creativecommons.org cdn-3.convertexperiments.com logs.convertexperiments.com images.ctfassets.net ad.doubleclick.net; default-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com; font-src 'self' assets.getpocket.com; child-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com
+Cache-Control: max-age=600
+Expires: Thu, 23 Dec 2021 19:57:32 GMT
+X-Clacks-Overhead: GNU Terry Pratchett
+X-Backend-Server: bedrock-prod-web-6ff7588b8d-xl86f.iowa-a
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Via: 1.1 google, 1.1 347bc4275e3d5eb6571ed3f540a5cbb4.cloudfront.net (CloudFront)
+Content-Encoding: gzip
+Etag: W/"d13d1003e89dfb5b25236a0b7007b9b8"
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: P21MYq-ABjxlbPgato_t7tV7ZiQncq-EdNB_JGXyipkTIxry7DXPlg==

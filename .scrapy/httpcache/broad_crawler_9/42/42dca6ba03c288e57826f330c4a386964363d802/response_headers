@@ -1,0 +1,12 @@
+Content-Length: 196
+Content-Type: text/html; charset=iso-8859-1
+Server: Apache/2.4.46 (Amazon) OpenSSL/1.0.2k-fips
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:05:16 GMT
+Age: 340253
+Cache-Control: max-age=3600
+X-Served-By: cache-bwi5160-BWI, cache-bur17543-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1640289917.778453,VS0,VE1

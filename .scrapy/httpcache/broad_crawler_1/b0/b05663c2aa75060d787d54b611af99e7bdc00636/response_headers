@@ -1,0 +1,15 @@
+Content-Length: 23322
+Accept-Ranges: bytes
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' mailto: data: census.gov *.census.gov http://www.census.gov house.gov *.house.gov senate.gov *.senate.gov *.ytimg.com *.youtube.com *.twitter.com *.facebook.net *.facebook.com *.google-analytics.com *.google.com *.gstatic.com *.googleapis.com *.googlecode.com *.googletagmanager.com *.doubleclick.net *.jquery.com *.govdelivery.com *.highcharts.com *.adobe.com *.adobedtm.com *.amsadobe.com *.demdex.net *.omtrdc.net *.everesttech.net *.arcgisonline.com *.digitalgov.gov *.tableau.com *.instagram.com *.go-mpulse.net *.askstat.io *.c-span.org sitecatalyst.omniture.com authorize.omniture.com;
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-store
+X-Frame-Options: sameorigin
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Thu, 23 Dec 2021 19:22:59 GMT
+Set-Cookie: HttpOnly;Secure
+Set-Cookie: K755t7m=!gsLqxiKLpITETd7x8EanYH2p5GsVqkUGmvieehomprfeWiqvtvY8gdOxM6ysSwCMLC4zYCkdnycVhw==; path=/; Httponly; Secure
+Set-Cookie: TS01a30f36=01283c52a49025bb1c79c520552ebc0063d98348a094e9d81b44a419a59258cd09bacea5c2116824b7789c5ba0c3f1a780bf9e5adf; Path=/; Domain=.www.census.gov

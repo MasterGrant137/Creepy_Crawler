@@ -1,0 +1,17 @@
+Content-Length: 218553
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: https://apnews.com
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, X-APCLIENTID
+Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Etag: W/"db085-OpPnTiKr5jV5C1Y9gfWwk4POn0s"
+Last-Modified: Thu, 23 Dec 2021 19:33:00 GMT
+Content-Encoding: gzip
+X-Cloud-Trace-Context: 913bcb16f66b27856e8146044027739b
+Date: Thu, 23 Dec 2021 19:33:29 GMT
+Server: Google Frontend
+Via: 1.1 google
+Age: 2143
+Cache-Control: public,max-age=120
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

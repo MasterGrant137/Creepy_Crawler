@@ -1,0 +1,29 @@
+Content-Length: 27459
+Cache-Control: max-age=3600, public
+Content-Encoding: gzip
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Etag: W/"1640281069"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Thu, 23 Dec 2021 17:37:49 GMT
+Link: <https://chesapeakeregional.com/about-us>; rel="canonical"
+Link: <https://chesapeakeregional.com/about-us>; rel="revision"
+Server: nginx
+Strict-Transport-Security: max-age=300
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 8 (https://www.drupal.org)
+X-Pantheon-Styx-Hostname: styx-fe1-a-687b88c89f-nq9tb
+X-Styx-Req-Id: b2d0c4b2-642b-11ec-9197-262c3519da91
+X-Ua-Compatible: IE=edge
+Date: Thu, 23 Dec 2021 20:09:15 GMT
+X-Served-By: cache-mdw17360-MDW, cache-bur17524-BUR
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1640290155.978612,VS0,VE61
+Vary: Accept-Encoding, Cookie, Cookie, Cookie
+Age: 216
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish

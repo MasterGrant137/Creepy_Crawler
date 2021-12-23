@@ -1,0 +1,16 @@
+Content-Type: text/html; charset=utf-8
+Cache-Control: public, max-age=180
+Content-Encoding: gzip
+Date: Thu, 23 Dec 2021 18:46:12 GMT
+Server: nginx/1.12.1
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Xss-Protection: 1; mode=block
+Vary: Accept-Encoding
+Set-Cookie: optimizelyEndUserId=oeu1640285172549ds.551dc0f06463a756; Domain=.espn.com; Path=/; Expires=2022-06-21T18:46:12.549Z
+X-Cache: Miss from cloudfront
+Via: 1.1 fca79858a379c5600416e25a5905844c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C3
+X-Amz-Cf-Id: 9PPWP_iQ2aCHeT24URFOYAnFmBoXT-yBrOl1REx0Mu4BOkHHqIyzcQ==

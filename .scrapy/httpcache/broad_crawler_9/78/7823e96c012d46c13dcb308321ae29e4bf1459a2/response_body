@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US"
+	prefix="og: https://ogp.me/ns#"  >
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://blog.cpanel.com/xmlrpc.php">
+
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- GDPR cookie -->
+    <link rel="stylesheet" href="https://store.cpanel.net/commonui/css/vendor/cookieconsent/3.1.0/cookieconsent.min.css">
+    <link rel="stylesheet" href="https://cpanel.com/assets/css/gdpr.min.css">
+    <script src="https://store.cpanel.net/commonui/js/vendor/cookieconsent/3.1.0/cookieconsent.min.js"></script>
+    <script src="https://store.cpanel.net/idev_magic_revision/e470da806e17928830aa7ed88e3301a2/commonui/js/common/gdpr-consent.js"></script>
+	<title>cPanel Blog</title>
+
+		<!-- All in One SEO 4.1.5.3 -->
+		<meta name="description" content="From the Inside" />
+		<meta name="robots" content="max-image-preview:large" />
+		<link rel="canonical" href="https://blog.cpanel.com/" />
+		<link rel="next" href="https://blog.cpanel.com/page/2/" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="cPanel Blog" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="cPanel Blog" />
+		<meta property="og:description" content="From the Inside" />
+		<meta property="og:url" content="https://blog.cpanel.com/" />
+		<meta property="fb:admins" content="212294041787" />
+		<meta property="og:image" content="https://blog.cpanel.com/wp-content/uploads/2018/01/blog-og-banners.png" />
+		<meta property="og:image:secure_url" content="https://blog.cpanel.com/wp-content/uploads/2018/01/blog-og-banners.png" />
+		<meta property="article:published_time" content="2021-12-15T01:45:08+00:00" />
+		<meta property="article:modified_time" content="2021-12-15T19:10:44+00:00" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@cPanel" />
+		<meta name="twitter:domain" content="blog.cpanel.com" />
+		<meta name="twitter:title" content="cPanel Blog" />
+		<meta name="twitter:description" content="From the Inside" />
+		<meta name="twitter:image" content="https://blog.cpanel.com/wp-content/uploads/2018/01/blog-og-banners.png" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/blog.cpanel.com\/#website","url":"https:\/\/blog.cpanel.com\/","name":"cPanel Blog","description":"From the Inside","inLanguage":"en-US","publisher":{"@id":"https:\/\/blog.cpanel.com\/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/blog.cpanel.com\/?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https:\/\/blog.cpanel.com\/#organization","name":"cPanel Blog","url":"https:\/\/blog.cpanel.com\/","sameAs":["https:\/\/twitter.com\/cPanel"]},{"@type":"BreadcrumbList","@id":"https:\/\/blog.cpanel.com\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/blog.cpanel.com\/#listItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/blog.cpanel.com\/","name":"Home","description":"From the Inside","url":"https:\/\/blog.cpanel.com\/"}}]},{"@type":"CollectionPage","@id":"https:\/\/blog.cpanel.com\/#collectionpage","url":"https:\/\/blog.cpanel.com\/","name":"cPanel Blog","description":"From the Inside","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/blog.cpanel.com\/#website"},"breadcrumb":{"@id":"https:\/\/blog.cpanel.com\/#breadcrumblist"},"about":{"@id":"https:\/\/blog.cpanel.com\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://blog.cpanel.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://blog.cpanel.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cpblog15-stylesheet-css'  href='https://blog.cpanel.com/wp-content/themes/cpBlog15/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://blog.cpanel.com/wp-content/plugins/add-to-any/addtoany.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.lightbox.min.css-css'  href='https://blog.cpanel.com/wp-content/plugins/wp-jquery-lightbox/styles/lightbox.min.css' type='text/css' media='all' />
+<script type='text/javascript' id='addtoany-core-js-before'>
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+</script>
+<script type='text/javascript' async src='https://static.addtoany.com/menu/page.js' id='addtoany-core-js'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js' id='jquery-js'></script>
+<script type='text/javascript' async src='https://blog.cpanel.com/wp-content/plugins/add-to-any/addtoany.min.js' id='addtoany-jquery-js'></script>
+<script type='text/javascript' src='https://blog.cpanel.com/wp-content/plugins/stop-user-enumeration/frontend/js/frontend.js' id='stop-user-enumeration-js'></script>
+<link rel="https://api.w.org/" href="https://blog.cpanel.com/wp-json/" /><link rel="Shortcut Icon" type="image/png" href="https://blog.cpanel.com/wp-content/themes/cpBlog15/assets/img/favicon.ico" />		<style type="text/css" id="wp-custom-css">
+			h1{ letter-spacing:-0.7px;}
+h2{letter-spacing:0;}
+
+/*COMMENTS MOBILE WIDTH*/
+.comment-response{
+	max-width:100%;
+}
+
+.comment-form-comment label{
+	display:block;
+}
+
+.comment-form-comment textarea{
+	width:100%;
+	max-width:100%;
+}
+
+/* 2017 EOY Blog Post */
+.postid-47333 .featured-thumbnail {
+    border: 0;
+}
+.postid-47333 .aligncenter {
+    margin-bottom: 1em;
+}
+.shape-section {
+    margin-top: -30px;  
+    padding: 40px 0;  
+    margin-bottom: -6px;
+}
+.shape-section hr {
+    margin:-26px auto 0px;  
+    border-color: #333;  
+    line-height: 1;  
+    position: relative;  
+    outline: 0;  
+    border: 0;  
+    height: 2px;  
+    z-index: 0;
+}
+.shape-section hr:before {  
+    content: '';  
+    background: 
+    linear-gradient(to right, transparent, #333, transparent);  
+    position: absolute;  
+    left: 0;  
+    top: 50%;  
+    width: 100%;  
+    height: 1px;
+}
+.timeline {  
+    margin-bottom: -20px;
+}
+.timeline .well {  
+    background-color: #fff;
+}
+.timeline .well h3 {  
+    margin-top: 20px;  
+    margin-bottom: 20px;
+}
+.diamond-container {  
+    margin: auto;  
+    text-align: center;  
+    width: 100%;
+}
+.diamond-shape {  
+    background: #fff;  
+    text-align: center;  
+    border: 1px solid #1e1e1e; 
+    height: 50px;  width: 50px; 
+    transform: rotate(45deg);  
+    text-transform: uppercase; 
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;  
+    font-size: 18px;  
+    z-index: 1;  
+    position: relative;
+}
+.item-month {  
+    color: #82b74c;  
+    display: table-cell;  
+    height: 50px;  
+    width: 50px;  
+    transform: rotate(-45deg);  
+    vertical-align: middle;
+}
+.v-line {  
+    width: 1px;  
+    background-color: #333;  
+    display: block;  
+    margin: 0 auto;
+}
+.v-short {  
+    height: 25px;
+}
+.v-tall {  
+    height: 75px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){
+	.wp-pagenavi {
+		font-size: 15px !important;
+	}
+  .wp-pagenavi .pages, .wp-pagenavi .first, .wp-pagenavi .last, .wp-pagenavi .page, .wp-pagenavi .extend, .wp-pagenavi .current, .wp-pagenavi .previouspostslink, .wp-pagenavi .nextpostslink {
+    padding: 3px 5px !important;
+  }
+}
+
+.img-border {
+   border-style:solid;
+   border-width: 1px;
+   border-color: #000;
+}
+
+.adbanner {
+	text-align:center;
+	margin: 0px auto 40px auto;
+}		</style>
+		
+
+</head>
+
+<body class="home blog">
+
+<!-- HEADER -->
+<header>
+	<nav class="site-header navbar navbar-default" role="navigation">
+	    <div class="container-fluid container-max-width">
+		    <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		        </button>
+		        <a class="navbar-brand" href="http://cpanel.com"><img src="https://blog.cpanel.com/wp-content/themes/cpBlog15/assets/img/cP-logo.png" alt="cP" /></a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		        <ul class="nav navbar-nav navbar-right">
+		            <li><a href="http://cpanel.net/products/" title="Products | cPanel, Inc.">Products</a></li>
+		            <li><a href="http://cpanel.net/pricing/" title="Plans & Pricing | cPanel, Inc.">Pricing</a></li>
+		            <li><a href="http://cpanel.net/partners/" title="Partners | cPanel, Inc.">Partners</a></li>
+		            <li><a href="http://cpanel.net/support/" title="Support | cPanel, Inc.">Support</a></li>
+		            <li><a href="https://cpanel.net/products/trial/" title="Preview | cPanel, Inc.">Preview</a></li>
+		        </ul>
+		    </div>
+	    </div>
+	</nav>
+</header>
+
+
+<section class="container-fluid text-center bg-blue-grad cp-banner">
+	<div class="row">
+		<div class="col-md-12">
+			<img src="https://blog.cpanel.com/wp-content/themes/cpBlog15/assets/img/cp-blog-header-no-bg.png">
+		</div>
+	</div>
+</section>
+
+
+
+<div class="sub-menu border-bottom" role="navigation">
+    <div class="container-fluid container-max-width">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-2">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	        </button>
+	        <span class="home current-cat" ><a href="https://blog.cpanel.com/" title="cPanel Blog"><span class="glyphicon glyphicon-home"></span> &nbsp; All Blog</a></span>
+	    </div>
+		<div class="collapse navbar-collapse" id="bs-navbar-collapse-2">
+			<ul class="nav navbar-nav navbar-left secondary-nav news-nav">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+							<li class="cat-item cat-item-11"><a href="https://blog.cpanel.com/category/cpeople/">cPeople</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="https://blog.cpanel.com/category/products/">Products</a>
+</li>
+	<li class="cat-item cat-item-51"><a href="https://blog.cpanel.com/category/tips-and-tricks/">Tips &amp; Tricks</a>
+</li>
+					</ul>
+				</li>
+				<li><a href="https://cpanel.net/pricing">Buy cPanel & WHM<sup>®</sup></a></li>
+			</ul>
+			<!-- search -->
+<form class="search navbar-form navbar-right" method="get" id="searchForm" action="https://blog.cpanel.com" role="search">
+	<div class="form-group">
+		<input class="search-field form-control" type="search" placeholder="Search Articles" name="s" id="s" />
+	</div>
+</form>		</div>
+    </div>
+</div>
+
+<section class="container-fluid bg-gray">
+		<div class="container-max-width">
+
+		
+		
+				
+
+				  
+		<!-- display sticky/featured in this area -->
+			
+			<div class="featured row">
+				<div class="col-md-12">
+					<div class="thumbnail sticky-post">						
+						<article id="post-62193" class="post-62193 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-announcements category-products category-security tag-apache tag-dovecot tag-security tag-server-security tag-solr" >
+							
+							<a href="https://blog.cpanel.com/the-apache-log4j-exploit-and-how-to-protect-your-cpanel-server/" title="The Apache Log4j exploit and how to protect your cPanel server" rel="bookmark">
+								
+								<h4>The Apache Log4j exploit and how to protect your cPanel server<span class="post-link hidden"> &#8250; </span></h4>	
+															<img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/12/The-Apache-Log4J-Exploit-blog-header.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Important Patch Update Released December 10, 2021 for Apache Log4j Vulnerability" loading="lazy" />																			
+							</a>		
+							
+							<footer class="hidden">								
+								<h4><a class="btn btn-primary btn-lg pull-right post-link"> &#8250; </a><a href="https://blog.cpanel.com/the-apache-log4j-exploit-and-how-to-protect-your-cpanel-server/" class="post-title">The Apache Log4j exploit and how to protect your cPanel server</a></h4>
+							</footer>			
+										
+						</article><!-- #post-## -->
+						
+	
+					</div>
+				</div>
+			</div>
+	
+					
+
+		<div class="categoryposts row">
+
+		<div class="col-md-4">
+		<footer class="trio-meta-cat products">
+			<a href="https://blog.cpanel.com/category/announcements/">Announcements</a>		</footer>
+		<div class="thumbnail"> 
+			
+			<div class="box-thumbnail">
+				<a href="https://blog.cpanel.com/the-apache-log4j-exploit-and-how-to-protect-your-cpanel-server/">
+									<img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/12/The-Apache-Log4J-Exploit-blog-header.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Important Patch Update Released December 10, 2021 for Apache Log4j Vulnerability" loading="lazy" />								<h4>The Apache Log4j exploit and how to protect your cPanel server</h4>
+				</a>
+			</div><!-- .box-thumbnail -->
+						
+			<footer class="entry-footer">
+				<small><a href="https://blog.cpanel.com/author/cptabby/" rel="author" class="fn">Tabby Worthington</a> / <time class="updated" datetime="2021-12-14T19:45:08-06:00" pubdate>Dec 14th, 2021</time></small>
+				<a href="https://blog.cpanel.com/the-apache-log4j-exploit-and-how-to-protect-your-cpanel-server/" class="btn btn-primary btn-lg pull-right post-link"> &#8250; </a>
+			</footer><!-- .entry-footer -->
+		</div>
+	</div>
+				
+		<div class="col-md-4">
+		<footer class="trio-meta-cat tips">
+			<a href="https://blog.cpanel.com/category/general-knowledge/">General Knowledge</a>		</footer>
+		<div class="thumbnail"> 
+			<div class="box-thumbnail">
+				<a href="https://blog.cpanel.com/how-to-increase-the-php-max-upload-size-in-cpanel/">
+									<img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/08/PHP-Max-Upload-Size.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="PHP Max Upload Size" loading="lazy" />								<h4>How To Increase the PHP Max Upload Size in cPanel®?</h4>
+				</a>
+			</div><!-- .box-thumbnail -->
+						
+			<footer class="entry-footer">
+				<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-10-28T13:30:03-05:00" pubdate>Oct 28th, 2021</time></small>
+				<a href="https://blog.cpanel.com/how-to-increase-the-php-max-upload-size-in-cpanel/" class="btn btn-primary btn-lg pull-right post-link"> &#8250; </a>
+			</footer><!-- .entry-footer -->
+		</div>
+	</div>
+				
+		<div class="col-md-4">
+		<footer class="trio-meta-cat cpeeps">
+			<a href="https://blog.cpanel.com/category/general-knowledge/">General Knowledge</a>		</footer>
+		<div class="thumbnail"> 
+			<div class="box-thumbnail">
+				<a href="https://blog.cpanel.com/cloudfest-2021-in-review/">
+									<img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/04/CouldFest-2021-Review.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="CouldFest 2021 In Review" loading="lazy" />								<h4>CloudFest 2021 In Review</h4>
+				</a>
+			</div><!-- .box-thumbnail -->
+						
+			<footer class="entry-footer">
+				<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-04-14T15:03:18-05:00" pubdate>Apr 14th, 2021</time></small>
+				<a href="https://blog.cpanel.com/cloudfest-2021-in-review/" class="btn btn-primary btn-lg pull-right post-link"> &#8250; </a>
+			</footer><!-- .entry-footer -->
+		</div>
+	</div>
+		
+</div>					
+		
+	
+		
+		
+		
+		
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1">
+				
+				
+								
+				
+    
+					
+										
+<article id="post-62109" class="bg-white post-62109 post type-post status-publish format-standard has-post-thumbnail hentry category-products">
+	
+	<footer class="meta-cat">
+		<a href="https://blog.cpanel.com/category/products/" rel="category tag">Products</a>	</footer>
+	
+		<figure class="featured-thumbnail">
+		<a href="https://blog.cpanel.com/join-our-cpanel-seo-beta-testing-program/" title="Join Our cPanel SEO Beta Testing Program"><img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/11/cPanel-SEO-Beta-Test.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" /></a>
+	</figure>
+	
+	<header>
+		<h4><a href="https://blog.cpanel.com/join-our-cpanel-seo-beta-testing-program/" rel="bookmark">Join Our cPanel SEO Beta Testing Program</a></h4>	</header><!-- .entry-header -->
+
+
+	<div class="entry-content">
+		<p>Are you an SEM enthusiast? If you enjoy trying and testing new and exciting tech, join our cPanel SEO Beta Testing Program and help improve our tools, service, and solutions. We ask that you don’t publicize or share the features you’re testing until they’re officially launched. (Including comments on social) By beta testing, you’ll become an important part of our product development. Your participation and&nbsp;feedback&nbsp;will help us release a better version of our tool as &#8230;</p>
+	</div><!-- .entry-content -->
+	
+	
+	
+	<footer class="entry-footer">
+		<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-11-30T06:00:00-06:00" pubdate>Nov 30th, 2021</time> </small>
+		<a href="https://blog.cpanel.com/join-our-cpanel-seo-beta-testing-program/" class="pull-right post-link"> &#8250; </a>
+	</footer><!-- .entry-footer -->
+						
+</article><!-- #post-## -->				 
+				
+    
+					
+										
+<article id="post-61977" class="bg-white post-61977 post type-post status-publish format-standard has-post-thumbnail hentry category-announcements">
+	
+	<footer class="meta-cat">
+		<a href="https://blog.cpanel.com/category/announcements/" rel="category tag">Announcements</a>	</footer>
+	
+		<figure class="featured-thumbnail">
+		<a href="https://blog.cpanel.com/take-our-survey-for-a-chance-to-win-100/" title="<center>Take Our Survey For A<br>  Chance To Win $100!</center>"><img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/11/Web-Proff-Nov-cPanel-survey-1200-x-475-px.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" /></a>
+	</figure>
+	
+	<header>
+		<h4><a href="https://blog.cpanel.com/take-our-survey-for-a-chance-to-win-100/" rel="bookmark"><center>Take Our Survey For A<br>  Chance To Win $100!</center></a></h4>	</header><!-- .entry-header -->
+
+
+	<div class="entry-content">
+		<p>As we near the end of 2021, we&#8217;re looking forward and feeling excited about all the changes and improvements we&#8217;re making, much of which is a direct result of feedback we&#8217;ve received from our customers. We&#8217;ve reached out via multiple channels throughout this year to get as much feedback from you as we can&#8230; some of which has even already been implemented into our products! We wanted to take one last opportunity to hear from &#8230;</p>
+	</div><!-- .entry-content -->
+	
+	
+	
+	<footer class="entry-footer">
+		<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-11-24T06:00:00-06:00" pubdate>Nov 24th, 2021</time> </small>
+		<a href="https://blog.cpanel.com/take-our-survey-for-a-chance-to-win-100/" class="pull-right post-link"> &#8250; </a>
+	</footer><!-- .entry-footer -->
+						
+</article><!-- #post-## -->				 
+				
+    
+					
+										
+<article id="post-61861" class="bg-white post-61861 post type-post status-publish format-standard has-post-thumbnail hentry category-general-knowledge category-tips-and-tricks">
+	
+	<footer class="meta-cat">
+		<a href="https://blog.cpanel.com/category/general-knowledge/" rel="category tag">General Knowledge</a>, <a href="https://blog.cpanel.com/category/tips-and-tricks/" rel="category tag">Tips &amp; Tricks</a>	</footer>
+	
+		<figure class="featured-thumbnail">
+		<a href="https://blog.cpanel.com/how-to-increase-the-php-max-upload-size-in-cpanel/" title="How To Increase the PHP Max Upload Size in cPanel®?"><img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/08/PHP-Max-Upload-Size.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="PHP Max Upload Size" loading="lazy" /></a>
+	</figure>
+	
+	<header>
+		<h4><a href="https://blog.cpanel.com/how-to-increase-the-php-max-upload-size-in-cpanel/" rel="bookmark">How To Increase the PHP Max Upload Size in cPanel®?</a></h4>	</header><!-- .entry-header -->
+
+
+	<div class="entry-content">
+		<p>PHP protects server performance by limiting file upload sizes, but the default limit is too low for many modern web applications. You’re likely to encounter this issue when a PHP application displays an error message asking you to increase the PHP max upload file size. There are various ways to increase the upload limit, including editing PHP configuration files directly. In this article, we’ll show you how to adjust PHP upload limits in cPanel &amp; &#8230;</p>
+	</div><!-- .entry-content -->
+	
+	
+	
+	<footer class="entry-footer">
+		<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-10-28T13:30:03-05:00" pubdate>Oct 28th, 2021</time> </small>
+		<a href="https://blog.cpanel.com/how-to-increase-the-php-max-upload-size-in-cpanel/" class="pull-right post-link"> &#8250; </a>
+	</footer><!-- .entry-footer -->
+						
+</article><!-- #post-## -->				 
+				
+    
+					
+										
+<article id="post-61809" class="bg-white post-61809 post type-post status-publish format-standard has-post-thumbnail hentry category-products">
+	
+	<footer class="meta-cat">
+		<a href="https://blog.cpanel.com/category/products/" rel="category tag">Products</a>	</footer>
+	
+		<figure class="featured-thumbnail">
+		<a href="https://blog.cpanel.com/varchar-vs-text-for-mysql-databases/" title="VARCHAR vs. TEXT for MySQL Databases"><img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/07/VARCHAR-vs-TEXT.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="VARCHAR vs TEXT" loading="lazy" /></a>
+	</figure>
+	
+	<header>
+		<h4><a href="https://blog.cpanel.com/varchar-vs-text-for-mysql-databases/" rel="bookmark">VARCHAR vs. TEXT for MySQL Databases</a></h4>	</header><!-- .entry-header -->
+
+
+	<div class="entry-content">
+		<p>When you’re building a database for a web application, one of the most impactful decisions is the data type you choose for text data fields. MySQL provides multiple string data types, each with unique characteristics and trade-offs. The data type you choose affects how much data you can store, where it’s stored, the functionality available to you, and the performance of everyday database operations. In this article, we’ll look at one frequently asked question concerning &#8230;</p>
+	</div><!-- .entry-content -->
+	
+	
+	
+	<footer class="entry-footer">
+		<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-10-07T08:58:15-05:00" pubdate>Oct 7th, 2021</time> </small>
+		<a href="https://blog.cpanel.com/varchar-vs-text-for-mysql-databases/" class="pull-right post-link"> &#8250; </a>
+	</footer><!-- .entry-footer -->
+						
+</article><!-- #post-## -->				 
+				
+    
+					
+										
+<article id="post-61785" class="bg-white post-61785 post type-post status-publish format-standard has-post-thumbnail hentry category-business-knowledge category-general-knowledge">
+	
+	<footer class="meta-cat">
+		<a href="https://blog.cpanel.com/category/business-knowledge/" rel="category tag">Business Knowledge</a>, <a href="https://blog.cpanel.com/category/general-knowledge/" rel="category tag">General Knowledge</a>	</footer>
+	
+		<figure class="featured-thumbnail">
+		<a href="https://blog.cpanel.com/what-are-the-best-shopify-alternatives-in-2021/" title="What Are the Best Shopify® Alternatives in 2021?"><img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/07/Shopify-Alternatives.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Shopify Alternatives" loading="lazy" /></a>
+	</figure>
+	
+	<header>
+		<h4><a href="https://blog.cpanel.com/what-are-the-best-shopify-alternatives-in-2021/" rel="bookmark">What Are the Best Shopify® Alternatives in 2021?</a></h4>	</header><!-- .entry-header -->
+
+
+	<div class="entry-content">
+		<p>U.S. ecommerce sales rose by over 44% last year, the most significant single-year increase since ecommerce became a serious player in the retail space at the beginning of the century. As COVID-19 closed brick-and-mortar stores and kept customers at home, shopping moved online and retailers rapidly expanded ecommerce operations. Shopify, the cloud ecommerce platform, is one of the biggest beneficiaries.&nbsp; Shopify aims to lower ecommerce’s technical barriers and simplify store management. That …</p>
+	</div><!-- .entry-content -->
+	
+	
+	
+	<footer class="entry-footer">
+		<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-09-23T10:03:42-05:00" pubdate>Sep 23rd, 2021</time> </small>
+		<a href="https://blog.cpanel.com/what-are-the-best-shopify-alternatives-in-2021/" class="pull-right post-link"> &#8250; </a>
+	</footer><!-- .entry-footer -->
+						
+</article><!-- #post-## -->				 
+				
+    
+					
+										
+<article id="post-61921" class="bg-white post-61921 post type-post status-publish format-standard has-post-thumbnail hentry category-announcements">
+	
+	<footer class="meta-cat">
+		<a href="https://blog.cpanel.com/category/announcements/" rel="category tag">Announcements</a>	</footer>
+	
+		<figure class="featured-thumbnail">
+		<a href="https://blog.cpanel.com/a-farewell-to-paper-lantern/" title="A Farewell To Paper Lantern"><img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/08/farewell-paper-lantern.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Farewell Paper Lantern" loading="lazy" /></a>
+	</figure>
+	
+	<header>
+		<h4><a href="https://blog.cpanel.com/a-farewell-to-paper-lantern/" rel="bookmark">A Farewell To Paper Lantern</a></h4>	</header><!-- .entry-header -->
+
+
+	<div class="entry-content">
+		<p>With the introduction of the&nbsp;Jupiter&nbsp;theme in version 98, you may have wondered about the fate of&nbsp;Paper Lantern.&nbsp;Today we&nbsp;officially&nbsp;announce&nbsp;Paper Lantern&#8217;s&nbsp;deprecation and its eventual removal from the product. What does this mean for you? If you are already using&nbsp;Jupiter, relax; you are good for all future updates. If you are using&nbsp;Paper Lantern, why not give&nbsp;Jupiter&nbsp;a try? You can continue using&nbsp;Paper Lantern&nbsp;for the short term, but eventually, we will stop supporting this theme. How much …</p>
+	</div><!-- .entry-content -->
+	
+	
+	
+	<footer class="entry-footer">
+		<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-08-31T08:08:09-05:00" pubdate>Aug 31st, 2021</time> </small>
+		<a href="https://blog.cpanel.com/a-farewell-to-paper-lantern/" class="pull-right post-link"> &#8250; </a>
+	</footer><!-- .entry-footer -->
+						
+</article><!-- #post-## -->				 
+				
+    
+					
+										
+<article id="post-61837" class="bg-white post-61837 post type-post status-publish format-standard has-post-thumbnail hentry category-general-knowledge">
+	
+	<footer class="meta-cat">
+		<a href="https://blog.cpanel.com/category/general-knowledge/" rel="category tag">General Knowledge</a>	</footer>
+	
+		<figure class="featured-thumbnail">
+		<a href="https://blog.cpanel.com/how-to-use-cookie-free-domains-for-faster-website-performance/" title="How To Use Cookie-Free Domains for Faster Website Performance"><img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/08/Cookie-Free-Domains.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cookie Free Domains" loading="lazy" /></a>
+	</figure>
+	
+	<header>
+		<h4><a href="https://blog.cpanel.com/how-to-use-cookie-free-domains-for-faster-website-performance/" rel="bookmark">How To Use Cookie-Free Domains for Faster Website Performance</a></h4>	</header><!-- .entry-header -->
+
+
+	<div class="entry-content">
+		<p>Cookies are how websites remember. Without them, they forget you as soon as a page finishes loading. This ability to remember allows you to log in to a content management system or put products in an ecommerce shopping cart. It’s what allows a dynamic CMS like WordPress to personalize web pages. But sites don’t need to include a cookie with every file they serve, and needless cookies increase latency and generate unnecessary network traffic.&nbsp; Cookie-free &#8230;</p>
+	</div><!-- .entry-content -->
+	
+	
+	
+	<footer class="entry-footer">
+		<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-08-25T12:31:19-05:00" pubdate>Aug 25th, 2021</time> </small>
+		<a href="https://blog.cpanel.com/how-to-use-cookie-free-domains-for-faster-website-performance/" class="pull-right post-link"> &#8250; </a>
+	</footer><!-- .entry-footer -->
+						
+</article><!-- #post-## -->				 
+				
+    
+					
+										
+<article id="post-61889" class="bg-white post-61889 post type-post status-publish format-standard has-post-thumbnail hentry category-general-knowledge category-tips-and-tricks">
+	
+	<footer class="meta-cat">
+		<a href="https://blog.cpanel.com/category/general-knowledge/" rel="category tag">General Knowledge</a>, <a href="https://blog.cpanel.com/category/tips-and-tricks/" rel="category tag">Tips &amp; Tricks</a>	</footer>
+	
+		<figure class="featured-thumbnail">
+		<a href="https://blog.cpanel.com/how-to-change-the-main-shared-ip-address-on-cpanel/" title="How to Change the Main Shared IP Address on cPanel®"><img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/08/Change-Shared-IP.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Change Shared IP" loading="lazy" /></a>
+	</figure>
+	
+	<header>
+		<h4><a href="https://blog.cpanel.com/how-to-change-the-main-shared-ip-address-on-cpanel/" rel="bookmark">How to Change the Main Shared IP Address on cPanel®</a></h4>	</header><!-- .entry-header -->
+
+
+	<div class="entry-content">
+		<p>cPanel &amp; WHM’s main shared IP address is used by new shared hosting accounts created on a server. This allows web hosts to create new accounts easily and automates the otherwise complex and time-consuming domain and web server configuration process. But what if you want to change the main shared IP address on your cPanel server? In this article, we outline a three-step process for changing a server’s shared IP address. Changing the main shared &#8230;</p>
+	</div><!-- .entry-content -->
+	
+	
+	
+	<footer class="entry-footer">
+		<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-08-18T13:39:54-05:00" pubdate>Aug 18th, 2021</time> </small>
+		<a href="https://blog.cpanel.com/how-to-change-the-main-shared-ip-address-on-cpanel/" class="pull-right post-link"> &#8250; </a>
+	</footer><!-- .entry-footer -->
+						
+</article><!-- #post-## -->				 
+				
+    
+					
+										
+<article id="post-61745" class="bg-white post-61745 post type-post status-publish format-standard has-post-thumbnail hentry category-general-knowledge">
+	
+	<footer class="meta-cat">
+		<a href="https://blog.cpanel.com/category/general-knowledge/" rel="category tag">General Knowledge</a>	</footer>
+	
+		<figure class="featured-thumbnail">
+		<a href="https://blog.cpanel.com/how-to-manually-remove-malware-from-websites/" title="How To Manually Remove Malware From Websites"><img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/07/Remove-Malware.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How To Manually Remove malware From Websites" loading="lazy" /></a>
+	</figure>
+	
+	<header>
+		<h4><a href="https://blog.cpanel.com/how-to-manually-remove-malware-from-websites/" rel="bookmark">How To Manually Remove Malware From Websites</a></h4>	</header><!-- .entry-header -->
+
+
+	<div class="entry-content">
+		<p>Your website has been compromised, and you suspect the attackers have injected malware into its code. What can you do about it? There are many ways to approach a malware infection, and we’ll look at some in a moment, but your final recourse may be to roll up your sleeves, hunt through the site’s files, and remove the malware manually. This article will show you how to find malware code in your site’s files and &#8230;</p>
+	</div><!-- .entry-content -->
+	
+	
+	
+	<footer class="entry-footer">
+		<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-08-12T11:03:05-05:00" pubdate>Aug 12th, 2021</time> </small>
+		<a href="https://blog.cpanel.com/how-to-manually-remove-malware-from-websites/" class="pull-right post-link"> &#8250; </a>
+	</footer><!-- .entry-footer -->
+						
+</article><!-- #post-## -->				 
+				
+    
+					
+										
+<article id="post-61693" class="bg-white post-61693 post type-post status-publish format-standard has-post-thumbnail hentry category-general-knowledge">
+	
+	<footer class="meta-cat">
+		<a href="https://blog.cpanel.com/category/general-knowledge/" rel="category tag">General Knowledge</a>	</footer>
+	
+		<figure class="featured-thumbnail">
+		<a href="https://blog.cpanel.com/how-to-manage-inode-quotas-and-control-inode-usage/" title="How to Manage Inode Quotas and Control Inode Usage"><img width="1200" height="475" src="https://blog.cpanel.com/wp-content/uploads/2021/07/inode-usage.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to Manage Inode Quotas and Control Inode Usage" loading="lazy" /></a>
+	</figure>
+	
+	<header>
+		<h4><a href="https://blog.cpanel.com/how-to-manage-inode-quotas-and-control-inode-usage/" rel="bookmark">How to Manage Inode Quotas and Control Inode Usage</a></h4>	</header><!-- .entry-header -->
+
+
+	<div class="entry-content">
+		<p>The CentOS operating system has several features that restrict users&#8217; resource consumption. They help web hosts and server administrators to fairly distribute resources on shared servers and to create tiered account systems. Without quotas, rogue users can—accidentally or deliberately—use more than their fair share, hurting their neighbors&#8217; web hosting performance. Inode quotas limit the number of files a user can create. In this article, we explore what inodes are, how to display inode quotas in &#8230;</p>
+	</div><!-- .entry-content -->
+	
+	
+	
+	<footer class="entry-footer">
+		<small><a href="https://blog.cpanel.com/author/cpadmin/" rel="author" class="fn">cPanel</a> / <time class="updated" datetime="2021-08-04T09:21:00-05:00" pubdate>Aug 4th, 2021</time> </small>
+		<a href="https://blog.cpanel.com/how-to-manage-inode-quotas-and-control-inode-usage/" class="pull-right post-link"> &#8250; </a>
+	</footer><!-- .entry-footer -->
+						
+</article><!-- #post-## -->				 
+													
+					
+										    
+						<div class='wp-pagenavi' role='navigation'>
+<span aria-current='page' class='current'>1</span><a class="page larger" title="Page 2" href="https://blog.cpanel.com/page/2/">2</a><a class="page larger" title="Page 3" href="https://blog.cpanel.com/page/3/">3</a><span class='extend'>...</span><a class="nextpostslink" rel="next" aria-label="Next Page" href="https://blog.cpanel.com/page/2/">Next ›</a><a class="last" aria-label="Last Page" href="https://blog.cpanel.com/page/56/">Last »</a>
+</div>					    
+										
+					
+					
+									
+					
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- FOOTER -->
+<footer id="colophon">
+    <div class="container-fluid container-max-width sitemap">
+        <div class="row">
+            <ul class="list-unstyled col-sm-2 small">
+                <li><h4>Company</h4></li>
+                <li><a href="http://cpanel.com/company/" title="About Us">About Us</a></li>
+                <li><a href="http://cpanel.com/company/#leadership" title="Our Leadership">Our Leadership</a></li>
+                <li><a href="http://cpanel.com/company/#givingback" title="Giving Back">Giving Back</a></li>
+                <li><a href="http://cpanel.com/company/#contact" title="Contact">Contact</a></li>
+                <li><a href="http://cpanel.com/partners/" title="Become a Partner">Become a Partner</a></li>
+                <li><a href="http://jobs.cpanel.com" title="Careers" target="_blank">Careers</a></li>
+            </ul>
+
+            <ul class="list-unstyled col-sm-2 small">
+                <li><h4>Products</h4></li>
+                <li><a href="http://cpanel.com/products/#cpanel" title="cPanel Features">cPanel Features</a></li>
+                <li><a href="http://cpanel.com/products/#whm" title="WHM Features">WHM Features</a></li>
+                <li><a href="http://cpanel.com/products/#cloudlinux" title="CloudLinux Features">CloudLinux Features</a></li>
+                <li><a href="http://cpanel.com/demo" title="cPanel & WHM Demo">cPanel & WHM Demo</a></li>
+                <li><a href="http://cpanel.com/trial" title="cPanel & WHM Trial">cPanel & WHM Trial</a></li>
+                <li><a href="http://cpanel.com/pricing" title="Plans & Pricing">Plans & Pricing</a></li>
+            </ul>
+
+            <ul class="list-unstyled col-sm-2 small">
+                <li><h4>Support</h4></li>
+                <li><a href="http://cpanel.com/support" title="Documentation Search">Documentation Search</a></li>
+                <li><a href="https://server.iad.liveperson.net/hc/55720005/?cmd=file&file=visitorWantsToChat&offlineURL=http://www.cpanel.net/offline-chat.html&site=55720005&byhref=1&imageUrl=https://server.iad.liveperson.net/hcp/Gallery/ChatButton-Gallery/English/General/1a/" target="chat55720005"  onClick="javascript:window.open('https://server.iad.liveperson.net/hc/55720005/?cmd=file&file=visitorWantsToChat&offlineURL=http://www.cpanel.net/offline-chat.html&site=55720005&imageUrl=https://server.iad.liveperson.net/hcp/Gallery/ChatButton-Gallery/English/General/1a/&referrer='+escape(document.location),'chat55720005','width=475,height=400,resizable=yes');return false;">Live Sales Chat</a></li>
+                <li><a href="http://cpanel.com/support/#crowd-sourced-solutions" title="Crowd-Sourced Solutions">Crowd-Sourced Solutions</a></li>
+                <li><a href="https://tickets.cpanel.net/submit/" title="Technical Support" target="_blank">Technical Support</a></li>
+            </ul>
+
+            <ul class="list-unstyled col-sm-6 small">
+                <li><h4>Resources</h4>
+                    <div class="row">
+                        <ul class="list-unstyled col-sm-4">
+                            <li><a href="http://documentation.cpanel.net/" title="Documentation" target="_blank">Documentation</a></li>
+                            <li><a href="http://documentation.cpanel.net/display/CKB/cPanel+Knowledge+Base" title="Knowledge Base" target="_blank">Knowledge Base</a></li>
+                            <li><a href="http://releases.cpanel.com" title="Releases">Releases</a></li>
+                            <li><a href="http://security.cpanel.net/" title="Security TSRs & CVEs">Security TSRs & CVEs</a></li>
+                            <li><a href="http://verify.cpanel.net/" title="License Verification" target="_blank">License Verification</a></li>
+                        </ul>
+                        <ul class="list-unstyled col-sm-4">
+                            <li><a href="http://forums.cpanel.net/" title="Forums" target="_blank">Forums</a></li>
+                            <li><a href="http://news.cpanel.com/" title="News">News</a></li>
+                            <li><a href="http://blog.cpanel.com/" title="Blog">Blog</a></li>
+                            <li><a href="http://partnernoc.cpanel.net/" title="Partner NOC Directory" target="_blank">Partner NOC Directory</a></li>
+                            <li><a href="http://features.cpanel.net/" title="Feature Requests" target="_blank">Feature Requests</a></li>
+                        </ul>
+                          <ul class="list-unstyled col-sm-4">
+                            <li><a href="http://university.cpanel.net" title="cPU Certification" target="_blank">cPU Certification</a></li>
+                            <li><a href="http://conference.cpanel.com" title="Conference" target="_blank">cPanel Conference</a></li>
+                            <li><a href="http://cpanel.com/assets/downloads/cPanel-brand-guide.pdf" title="Brand Guide" target="_blank">cPanel Brand Guide</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid mailing-list-footer">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <p class="col-sm-12 col-md-10 col-lg-8 lead">Be the first to know about software releases and important cPanel news</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <a href="http://cpanel.com/mailing-list" title="Join Mailing List" class="cta-join">Join Mailing List</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid container-max-width misc">
+        <div class="row">
+            <a href="http://cpanel.com" title="cPanel, Inc." class="col-sm-2 center-block cPanel-logo"><img src="https://blog.cpanel.com/wp-content/themes/cpBlog15/assets/img/cPanel-logo.png" title="cPanel, Inc."/></a>
+            <div class="col-sm-7 legal"><p class="small">&copy; 2021 All Rights Reserved / <a href="http://cpanel.com/legal-notices.html" title="Legal Notices">Legal Notices</a> / <a href="http://cpanel.com/privacy-policy.html" title="Privacy Policy">Privacy Policy</a></p></div>
+            <div class="col-sm-3 social">
+                <div class="row">
+                    <a href="http://www.facebook.com/cpanel" class="col-sm-3 fb" target="_blank" title="facebook"><img src="https://blog.cpanel.com/wp-content/themes/cpBlog15/assets/img/fb.png" title="facebook" /></a>
+                    <a href="http://twitter.com/cpanel" class="col-sm-3 tw" target="_blank" title="twitter"><img src="https://blog.cpanel.com/wp-content/themes/cpBlog15/assets/img/tw.png" title="twitter" /></a>
+                    <a href="http://www.linkedin.com/company/cpanel" class="col-sm-3 in" target="_blank" title="linkedin"><img src="https://blog.cpanel.com/wp-content/themes/cpBlog15/assets/img/in.png" title="linkedin" /></a>
+                    <a href="https://www.youtube.com/user/cpaneltv" class="col-sm-3 yt" target="_blank" title="youtube"><img src="https://blog.cpanel.com/wp-content/themes/cpBlog15/assets/img/yt.png" title="youtube" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid trademark">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <small>cPanel, WebHost Manager and WHM are registered trademarks of cPanel, L.L.C. for providing its computer software that facilitates the management and configuration of Internet web servers.</small>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-sm-12 text-center">
+                <br> <img src="https://blog.cpanel.com/wp-content/themes/cpBlog15/assets/img/powered-by-cPanel&WHM.png" />
+        </div>
+        </div>
+    </div>
+</footer>
+
+<script type='text/javascript' src='https://blog.cpanel.com/wp-content/themes/cpBlog15/assets/js/scripts.min.js' id='script-name-js'></script>
+<script type='text/javascript' src='https://blog.cpanel.com/wp-content/plugins/wp-jquery-lightbox/jquery.touchwipe.min.js' id='wp-jquery-lightbox-swipe-js'></script>
+<script type='text/javascript' id='wp-jquery-lightbox-js-extra'>
+/* <![CDATA[ */
+var JQLBSettings = {"showTitle":"1","showCaption":"1","showNumbers":"1","fitToScreen":"1","resizeSpeed":"400","showDownload":"0","navbarOnTop":"0","marginSize":"0","slideshowSpeed":"4000","prevLinkTitle":"previous image","nextLinkTitle":"next image","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","pause":"(pause slideshow)","play":"(play slideshow)"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.cpanel.com/wp-content/plugins/wp-jquery-lightbox/jquery.lightbox.min.js' id='wp-jquery-lightbox-js'></script>
+<script type='text/javascript' src='https://blog.cpanel.com/wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script>
+
+<!-- GRPR-->
+
+<script>
+    gdprAllow = function (e) {
+    
+        window['ga-disable-UA-27582338-28'] = false;
+
+        if (typeof fbq !== 'undefined')
+            fbq('consent', 'grant');
+
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WB4LHQ4');
+
+        // Facebook Pixel
+        !function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '1655190138078291'); fbq('track', "PageView");
+    };
+
+    gdprDeny = function (e) {
+
+        window['ga-disable-UA-27582338-28'] = true;
+
+        if (typeof fbq !== 'undefined')
+            fbq('consent', 'revoke');
+    };
+
+    document.addEventListener ? document.addEventListener('gdprAllow', gdprAllow, false) : document.attachEvent('gdprAllow', gdprAllow);
+    document.addEventListener ? document.addEventListener('gdprDeny', gdprDeny, false) : document.attachEvent('gdprDeny', gdprDeny);
+</script>
+
+</body>
+</html>

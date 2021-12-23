@@ -1,0 +1,21 @@
+Content-Length: 727
+Accept-Ranges: bytes
+Content-Type: text/plain
+Last-Modified: Thu, 18 Nov 2021 07:59:23 GMT
+Server: nginx
+X-Age: 243028
+X-Ah-Environment: prod
+X-Cache-Hits: 899
+X-Content-Type-Options: nosniff
+X-Request-Id: v-5482eaaa-5f0f-11ec-8068-db2eea249c56
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=553
+Expires: Thu, 23 Dec 2021 19:56:53 GMT
+Date: Thu, 23 Dec 2021 19:47:40 GMT
+Set-Cookie: nok_ip_locale=US; expires=Sat, 22-Jan-2022 19:47:40 GMT; path=/
+Set-Cookie: nok_ip_region=americas; path=/
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=153
+Strict-Transport-Security: max-age=31536000
+Access-Control-Allow-Origin: web-assets.nokia.com

@@ -1,0 +1,22 @@
+Date: Thu, 23 Dec 2021 20:05:16 GMT
+Content-Type: text/html; charset=utf-8
+Content-Language: en
+Vary: Cookie
+P3P: CP="This is not a P3P policy!"
+X-Ua-Compatible: IE=edge
+Cache-Control: no-cache, no-store, must-revalidate, private
+Pragma: no-cache
+Expires: Thu, 23 Dec 2021 20:05:16 GMT
+X-Frame-Options: 
+X-Xss-Protection: 1
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=2592000
+Set-Cookie: sj_ubid=9a7112cf-ff15-4861-8fdb-4600e13ab369; expires=Wed, 18 Dec 2041 20:05:16 GMT; HttpOnly; Max-Age=630720000; Path=/; Secure
+Set-Cookie: __cf_bm=epvC3d96byykcz3ETAm8M4mnXbRSN7FArtSGXxeokCE-1640289916-0-AfYnMndmqdMivK0KbWHlZ31dFCsriz7vbRbFg4FyVe3BCxh182SmQT5kcLkAEngSu64fms2W7VEWg0fHep3/9lo=; path=/; expires=Thu, 23-Dec-21 20:35:16 GMT; domain=.moz.com; HttpOnly; Secure; SameSite=None
+Via: 1.1 vegur
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c243426886652e3-LAX
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

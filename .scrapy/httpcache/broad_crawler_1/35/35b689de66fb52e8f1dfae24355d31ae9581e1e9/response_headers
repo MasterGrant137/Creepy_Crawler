@@ -1,0 +1,20 @@
+Content-Type: text/plain
+Access-Control-Allow-Origin: https://www.timeout.com https://www.timeout.fr https://www.timeout.pt https://www.timeout.es https://www.timeout.jp https://www.timeout.cat https://www.timeout.com.hk https://www.timeoutkorea.kr https://www.timeoutisrael.ru https://www.timeoutmexico.mx
+Server: nginx
+Last-Modified: Tue, 21 Dec 2021 12:43:58 GMT
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+Date: Thu, 23 Dec 2021 13:36:25 GMT
+Etag: W/"61c1cc0e-8f0"
+Vary: Accept-Encoding
+Set-Cookie: _TO_AB_Testing=12; path=/; domain=timeout.com; expires=Sat, 25 Dec 2021 19:20:39 GMT;
+Set-Cookie: _TO_GPWEB=99_true; path=/; domain=timeout.com; expires=Sat, 25 Dec 2021 19:20:39 GMT;
+Set-Cookie: _TO_Canary=False; path=/; domain=timeout.com; expires=Sun, 02 Jan 2022 19:20:39 GMT;
+X-Cache: Hit from cloudfront
+Via: 1.1 4a7d33ed6e1269d258afa1464fe1d544.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: KDWubKtuPAHLsNcHqjpzOLswlkiXKiWrUO5npH_Nt1bfs8ftV5bEhw==
+Age: 22199

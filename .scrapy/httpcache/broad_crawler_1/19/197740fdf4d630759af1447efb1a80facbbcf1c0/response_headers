@@ -1,0 +1,15 @@
+Content-Length: 0
+Content-Type: application/binary
+X-Content-Type-Options: nosniff
+Expires: Thu, 23 Dec 2021 19:46:17 GMT
+Date: Thu, 23 Dec 2021 19:46:17 GMT
+Cache-Control: private, max-age=31536000
+Location: https://www.youtube.com/
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-model=*, ch-ua-platform=*, ch-ua-platform-version=*
+Report-To: {"group":"ATmXEA_aXV-idIZ-e5x1JSbJUg8hfAx2dSl3lQ","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/encsid_ATmXEA_aXV-idIZ-e5x1JSbJUg8hfAx2dSl3lQ"}]}
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="ATmXEA_aXV-idIZ-e5x1JSbJUg8hfAx2dSl3lQ"
+Server: ESF
+X-Xss-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

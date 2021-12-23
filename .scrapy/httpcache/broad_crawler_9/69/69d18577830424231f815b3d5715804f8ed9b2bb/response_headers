@@ -1,0 +1,17 @@
+Date: Thu, 23 Dec 2021 20:06:19 GMT
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Last-Modified: Thu, 23 Dec 2021 20:06:19 GMT
+Referrer-Policy: 
+X-Varnish: 30412813
+Age: 0
+Via: 1.1 varnish (Varnish/5.0)
+Strict-Transport-Security: max-age=15768000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+Cf-Ray: 6c2435af4c050cd7-LAX
+Content-Encoding: gzip

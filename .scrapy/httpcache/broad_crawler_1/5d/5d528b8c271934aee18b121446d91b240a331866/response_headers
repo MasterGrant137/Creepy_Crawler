@@ -1,0 +1,21 @@
+Content-Encoding: gzip
+Content-Type: text/plain; charset=utf-8
+X-Fb-Rlafr: 0
+Document-Policy: force-load-at-top
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Fri, 24 Dec 2021 19:46:17 +0000
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 0
+X-Frame-Options: DENY
+Access-Control-Expose-Headers: X-FB-Debug, X-Loader-Length
+Access-Control-Allow-Methods: OPTIONS
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://facebook.com
+Vary: Origin
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15552000; preload
+X-Fb-Debug: i/wa2NoOymstBS7IEIP0Lrk3tJvfVHyZdbKIMrgVm7AZSThIg2Fpld1EqwYmtLzLbpPwF5Umxg9omM4yxo/AxA==
+Date: Thu, 23 Dec 2021 19:46:17 GMT
+Priority: u=3,i
+Alt-Svc: h3=":443"; ma=3600, h3-29=":443"; ma=3600

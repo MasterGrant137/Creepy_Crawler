@@ -1,0 +1,11 @@
+Date: Thu, 23 Dec 2021 19:47:38 GMT
+Cache-Control: max-age=3600
+Expires: Thu, 23 Dec 2021 20:47:38 GMT
+Location: https://www.billboard.com/
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: PGMINFO=cc:us-ip:47.158.19.38; Max-Age=3600; Path=/; Domain=.billboard.com
+Set-Cookie: __cf_bm=G08wIvMdRX2Wkk8a3B6p3rCahfBDWe6EmNYusOSDe08-1640288858-0-AeGe6busY7+KwJNLhGvC2HesGJhlLDEM05Ww3OaztzzGajDWhrWFoOhosHkddHIi2V/e8ppqNXXVqMSlNQ+6gW7XB/tg+3Af2qSQj39ZXULV; path=/; expires=Thu, 23-Dec-21 20:17:38 GMT; domain=.billboard.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c241a578b347e17-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

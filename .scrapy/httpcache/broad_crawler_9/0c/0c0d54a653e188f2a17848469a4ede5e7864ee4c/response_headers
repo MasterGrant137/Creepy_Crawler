@@ -1,0 +1,13 @@
+Content-Length: 169
+Date: Thu, 23 Dec 2021 20:06:18 GMT
+Content-Type: text/html
+Location: https://www.change.org/robots.txt
+Cf-Cache-Status: EXPIRED
+Expires: Fri, 24 Dec 2021 00:06:18 GMT
+Cache-Control: public, max-age=14400
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Set-Cookie: __cfruid=ae49632eddec63b797bec61d7143b494431223f2-1640289978; path=/; domain=.change.org; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Cf-Ray: 6c2435af4cb47c7d-LAX

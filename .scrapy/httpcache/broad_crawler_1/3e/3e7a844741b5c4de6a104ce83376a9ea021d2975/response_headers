@@ -1,0 +1,14 @@
+Content-Length: 0
+Date: Thu, 23 Dec 2021 11:27:50 GMT
+Location: https://www.sciencedaily.com/robots.txt
+Server: AmazonS3
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: same-origin
+X-Cache: Hit from cloudfront
+Via: 1.1 bc026bbeb6351b9fc6315a678d5987e7.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX3-C4
+X-Amz-Cf-Id: 5zK11V8L-BSLYlu9ihzTrRd6ki8wE3qewvJW6W6ciXcAhA5t8fOmug==
+Age: 29909

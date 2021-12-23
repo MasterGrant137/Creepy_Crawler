@@ -1,0 +1,10 @@
+Content-Length: 20
+Server: nginx/1.18.0
+Date: Thu, 23 Dec 2021 20:05:13 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: stel_ssid=573bc52f0e20b1f319_9451342607173738043; expires=Fri, 24 Dec 2021 20:05:13 GMT; path=/; samesite=None; secure; HttpOnly
+Pragma: no-cache
+Cache-Control: no-store
+Location: //telegram.org/
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=35768000

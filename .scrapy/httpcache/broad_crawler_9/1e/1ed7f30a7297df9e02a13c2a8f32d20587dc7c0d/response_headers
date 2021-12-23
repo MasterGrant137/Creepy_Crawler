@@ -1,0 +1,15 @@
+Server: nginx
+Content-Type: text/plain
+Content-Security-Policy: base-uri 'none'; object-src 'none'; report-uri https://bandcamp.com/api/cspreport/1/violation; script-src http: https: 'nonce-d4KPF3WO2MN9uM3mzVXGnw==' 'report-sample' 'strict-dynamic'
+Cache-Control: max-age=14400
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: BACKENDID=bender25-5; path=/; Secure
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:09:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17551-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1640290155.981318,VS0,VE71
+Vary: Accept-Encoding

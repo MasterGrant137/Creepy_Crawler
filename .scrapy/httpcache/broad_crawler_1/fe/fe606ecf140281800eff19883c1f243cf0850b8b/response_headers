@@ -1,0 +1,17 @@
+Content-Length: 20
+Server: kittenx
+Date: Thu, 23 Dec 2021 19:46:25 GMT
+Content-Type: text/html; charset=windows-1251
+X-Powered-By: KPHP/7.4.109742
+Set-Cookie: remixir=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com; secure; HttpOnly
+Set-Cookie: remixlang=3; expires=Tue, 20 Dec 2022 18:03:32 GMT; path=/; domain=.vk.com
+Set-Cookie: remixvkcom=1; path=/; domain=.vk.com; secure
+Cache-Control: no-store
+P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+X-Robots-Tag: noindex
+Location: /robots.txt
+Content-Encoding: gzip
+X-Frontend: front512007
+Strict-Transport-Security: max-age=15768000
+Access-Control-Expose-Headers: X-Frontend
+Alt-Svc: h3=":443"; ma=86400,h3-29=":443"; ma=86400

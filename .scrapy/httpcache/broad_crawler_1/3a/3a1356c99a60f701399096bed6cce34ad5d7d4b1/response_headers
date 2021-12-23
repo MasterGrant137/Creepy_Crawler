@@ -1,0 +1,21 @@
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 41086
+Content-Encoding: gzip
+Content-Language: en-US
+Content-Type: text/html; charset=utf-8
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+X-Backend: default
+X-Content-Type-Options: nosniff
+X-Uncacheable: false
+X-Varnish-Cache: HIT
+X-Xss-Protection: 1; mode=block
+Via: 1.1 varnish, 1.1 varnish
+Date: Thu, 23 Dec 2021 19:46:26 GMT
+X-Frame-Options: SAMEORIGIN
+X-Served-By: cache-lga21921-LGA, cache-bur17576-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640288786.006193,VS0,VE71
+Vary: Accept-Encoding

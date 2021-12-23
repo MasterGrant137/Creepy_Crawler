@@ -1,0 +1,12 @@
+Content-Type: text/html; charset=utf-8
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: script-src 'nonce-lu94TfMeDLFrG6VRFcI7qw' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+Date: Thu, 23 Dec 2021 20:05:17 GMT
+Expires: Thu, 23 Dec 2021 20:05:17 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: __Host-GAPS=1:rMlFw9qXX8onrS1roJO8AQEN0BqLTQ:oqCz9E4_DdMiz5Cv;Path=/;Expires=Sat, 23-Dec-2023 20:05:17 GMT;Secure;HttpOnly;Priority=HIGH
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

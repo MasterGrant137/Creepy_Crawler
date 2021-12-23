@@ -1,0 +1,7 @@
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 23 Dec 2021 20:05:14 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15724800
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+Content-Encoding: gzip

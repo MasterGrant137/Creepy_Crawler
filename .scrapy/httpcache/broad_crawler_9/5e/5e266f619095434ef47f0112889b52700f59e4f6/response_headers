@@ -1,0 +1,16 @@
+Content-Length: 27693
+Content-Type: text/html; charset=utf-8
+Date: Thu, 23 Dec 2021 20:09:12 GMT
+Server: nginx/1.20.1
+Expires: Thu, 23 Dec 2021 20:09:38 GMT
+Last-Modified: Thu, 23 Dec 2021 20:09:38 GMT
+Content-Encoding: gzip
+Via: 1.1 varnish-v4, 1.1 76bac52618e160b145d8ea3139571a77.cloudfront.net (CloudFront)
+Cache-Control: max-age=26
+Accept-Ranges: bytes
+Set-Cookie: region=ccpa; path=/; Expires=Thu, 30 Dec 2021 20:09:12 GMT;
+Set-Cookie: _dcf=1; path=/; Expires=Thu, 30 Dec 2021 20:09:12 GMT;
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX50-C3
+X-Amz-Cf-Id: fuCO7Yprb5MzVRTnnL0myp7YAcKFJT9vZG6ZryG9VrN1vkVdOV-DXg==

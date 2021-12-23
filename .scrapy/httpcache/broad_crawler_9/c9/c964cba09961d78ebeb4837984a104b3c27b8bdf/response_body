@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /hosting/search
+Disallow: /p/*/issues/csv
+Disallow: /p/*/source/diff
+Disallow: /p/*/people/detail
+Disallow: /u/*
+Disallow: /a/
+Allow: /a/eclipselabs.org/
+Allow: /a/apache-extras.org/
+Disallow: /a/*/hosting/search
+Disallow: /a/*/p/*/issues/csv
+Disallow: /a/*/p/*/source/diff
+Disallow: /p/blackout-m7/
+Crawl-delay: 120

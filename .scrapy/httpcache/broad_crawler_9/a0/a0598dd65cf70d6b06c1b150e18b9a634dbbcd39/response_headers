@@ -1,0 +1,18 @@
+Content-Length: 0
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Location: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&continue=https://drive.google.com/&followup=https://drive.google.com/&emr=1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Strict-Transport-Security: max-age=31536000
+Report-To: {"group":"DriveHomeRedirect","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/DriveHomeRedirect/external"}]}
+Cross-Origin-Opener-Policy: same-origin; report-to="DriveHomeRedirect"
+Content-Security-Policy: script-src 'report-sample' 'nonce-UajJZOdp7O7c8tsMlV438w' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DriveHomeRedirect/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/DriveHomeRedirect/cspreport
+Cross-Origin-Resource-Policy: same-site
+Date: Thu, 23 Dec 2021 20:05:12 GMT
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=ZwNmdFEitemMFNDZYKfHFJDqabBwuhBWt8vluqUVyQsLrvI7mbC57Bdh8gtu1xV8BHCvcCJZxgxkN7v0X9SI_fSG8hyWh7mPjMSuYZBN1cCGi8tUblLDZbtWM9cYjX8VYiaAx9g9bFLkVcy7povSSbb0JJbCoRhsWnprnBS4Jmw; expires=Fri, 24-Jun-2022 20:05:12 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

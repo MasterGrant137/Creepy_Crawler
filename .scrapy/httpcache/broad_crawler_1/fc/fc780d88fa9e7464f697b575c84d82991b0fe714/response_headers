@@ -1,0 +1,16 @@
+Content-Length: 584
+Content-Type: text/plain; charset=utf-8
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: style-src 'self' 'unsafe-inline' *.gov;
+X-Content-Type-Options: nosniff
+Last-Modified: Thu, 23 Dec 2021 14:50:00 GMT
+Etag: "63a-5d3d15a52d1b7"
+X-Varnish: 726726 789017
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Cache-Control: max-age=604
+Expires: Thu, 23 Dec 2021 19:56:25 GMT
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+X-Content-Security-Policy: upgrade-insecure-requests;

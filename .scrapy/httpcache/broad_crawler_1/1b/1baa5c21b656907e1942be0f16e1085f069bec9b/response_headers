@@ -1,0 +1,15 @@
+Content-Length: 20
+Server: nginx
+Date: Thu, 23 Dec 2021 19:47:32 GMT
+Content-Type: text/html; charset=UTF-8
+X-Hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+X-Powered-By: WordPress VIP <https://wpvip.com>
+Host-Header: a9130478a60e5f9135f765b23f26593b
+X-Redirect-By: WordPress
+Location: https://www.thesun.co.uk/
+X-Rq: bur5 0 2 9980
+Cache-Control: max-age=300, must-revalidate
+Content-Encoding: gzip
+Age: 1158
+X-Cache: hit
+Strict-Transport-Security: max-age=31536000

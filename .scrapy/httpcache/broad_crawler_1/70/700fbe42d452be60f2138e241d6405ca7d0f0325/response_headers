@@ -1,0 +1,9 @@
+Date: Thu, 23 Dec 2021 19:46:22 GMT
+Cache-Control: max-age=3600
+Expires: Thu, 23 Dec 2021 20:46:22 GMT
+Location: https://www.pcmag.com/
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 6c24187d0b657b13-LAX
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

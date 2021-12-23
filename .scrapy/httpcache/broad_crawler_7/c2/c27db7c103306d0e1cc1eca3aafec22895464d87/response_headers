@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: Server
+Date: Thu, 23 Dec 2021 18:46:14 GMT
+X-Amz-Rid: TRR6WTMSKFQKWSATASHV
+Cache-Control: max-age=43200
+Expires: Sat, 22 Jan 2022 18:46:14 GMT
+Location: /search/name/?birth_monthday=12-20&ref_=nv_cel_brn
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Permissions-Policy: interest-cohort=()
+X-Cache: Miss from cloudfront
+Via: 1.1 3e720c4eaac99cf5867e4a8a49dc59ca.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX3-C4
+X-Amz-Cf-Id: 7L2z_zY3WJIOicQId7xZ-lz_0EOFsd9CCigDxp_naPAS2G09uVzxhA==

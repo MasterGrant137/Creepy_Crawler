@@ -1,0 +1,9 @@
+Date: Thu, 23 Dec 2021 20:05:17 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: frame-ancestors 'none'
+X-Frame-Options: DENY
+Set-Cookie: browser=47.158.19.38.1640289917977547; path=/; max-age=946080000; domain=.arxiv.org
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8

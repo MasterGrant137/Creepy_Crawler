@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /video/
+Disallow: /paywall/
+Disallow: /es/paywall/
+Disallow: /en/paywall/
+
+Sitemap: https://plus.espn.com/sitemap.xml
+Sitemap: https://plus.espn.com/es/sitemap.xml

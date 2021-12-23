@@ -1,0 +1,21 @@
+Date: Thu, 23 Dec 2021 20:05:13 GMT
+Content-Type: text/plain; charset=utf-8
+Cf-Ray: 6c243414cd300ccb-LAX
+Age: 55509
+Cache-Control: max-age=2592000
+Etag: W/"6196d402-95b"
+Expires: Fri, 24 Dec 2021 04:39:45 GMT
+Last-Modified: Thu, 18 Nov 2021 22:30:26 GMT
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+Cf-Cache-Status: HIT
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Set-Cookie: __cf_bm=k_Xz3adIJfKP8wrRKdRh1Xa2SMCdduqH4eKFmwP2XEA-1640289913-0-AWODqAE8da1iHdS5KOghM7o0QsWTmhYusLJuRrF6m1EKKz0rMxpHWX6DFcux0N6YmR07ArjbN6lJfhD30rdSYe5gytF109/UyQGokex8mOfw; path=/; expires=Thu, 23-Dec-21 20:35:13 GMT; domain=.www.cloudflare.com; HttpOnly; Secure; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4yyhFVTBwvydPSvlK8kfsF%2BU8WvO%2BCjF%2FypVWjItA2hgV%2BlyXnI8MeG%2BMX2Qt44vhfG4s7Uz0RkHkMtyXH5snBzvbBdapP6Yhe0sNsfhsUH9aHiuqZOqTS1FIEIQU6ZA%2FDFmlw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

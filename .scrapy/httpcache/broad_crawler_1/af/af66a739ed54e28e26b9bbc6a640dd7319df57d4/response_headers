@@ -1,0 +1,20 @@
+Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security: max-age=15552000
+X-Frame-Options: SAMEORIGIN
+Cache-Control: private, no-store, no-cache, max-age=0
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Thu, 23 Dec 2021 19:46:22 GMT
+X-Envoy-Upstream-Service-Time: 386
+Server: ATS
+Age: 3
+Content-Security-Policy: frame-ancestors 'self' https://*.builtbygirls.com https://*.rivals.com https://*.engadget.com https://*.intheknow.com https://*.autoblog.com https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.search.yahoo.com https://*.search.aol.com https://*.search.huffpost.com https://*.verizonmedia.com https://*.publishing.oath.com https://*.autoblog.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-downloads; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=sports&region=US&lang=en-US&device=desktop&yrid=fn21l7dgs9kge&partner=;
+Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Set-Cookie: A1=d=AQABBA7SxGECENBKlxdR1hBbPy_MQcc0KSIFEgEBAQEjxmHOYQAAAAAA_eMAAA&S=AQAAAoCviQEkFyxUS6L5X0P28ys; Expires=Sat, 24 Dec 2022 01:46:23 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: A3=d=AQABBA7SxGECENBKlxdR1hBbPy_MQcc0KSIFEgEBAQEjxmHOYQAAAAAA_eMAAA&S=AQAAAoCviQEkFyxUS6L5X0P28ys; Expires=Sat, 24 Dec 2022 01:46:23 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly
+Set-Cookie: A1S=d=AQABBA7SxGECENBKlxdR1hBbPy_MQcc0KSIFEgEBAQEjxmHOYQAAAAAA_eMAAA&S=AQAAAoCviQEkFyxUS6L5X0P28ys&j=CCPA; Domain=.yahoo.com; Path=/; SameSite=Lax; Secure
+Set-Cookie: B=24a9kotgs9kge&b=3&s=uv; Expires=Sat, 24 Dec 2022 01:46:23 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/
+Set-Cookie: GUC=AQEBAQFhxiNhzkId1ASZ; Expires=Sat, 24 Dec 2022 01:46:23 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; Secure

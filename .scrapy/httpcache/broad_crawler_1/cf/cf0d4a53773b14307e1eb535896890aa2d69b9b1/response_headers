@@ -1,0 +1,15 @@
+Content-Length: 1630
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Type: text/plain
+Date: Thu, 23 Dec 2021 19:46:24 GMT
+Etag: "53e0245-28ca-5d121d27badc0"-gzip
+Last-Modified: Fri, 19 Nov 2021 10:34:39 GMT
+Nel: {"report_to": "network-errors", "max_age": 86400, "success_fraction": 0.001, "failure_fraction": 0.1}
+Report-To: { "group": "network-errors", "max_age": 86400, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+Vary: Host,Accept-Encoding
+X-Content-Type-Options: nosniff
+Set-Cookie: is_gdpr=0; Path=/; Domain=.yandex.com; Expires=Sat, 23 Dec 2023 19:46:24 GMT
+Set-Cookie: is_gdpr_b=CNy3XhCmWCgC; Path=/; Domain=.yandex.com; Expires=Sat, 23 Dec 2023 19:46:24 GMT
+Set-Cookie: _yasc=N29WlTZEBWzslhP65uVvgoVRdHwwAQ1+fjVI/H+jeejlenoU; domain=.yandex.com; path=/; expires=Sat, 22-Jan-2022 19:46:24 GMT; secure
+Set-Cookie: i=bg1iI/K53ZK9mtPF5YGtwnlGpF2lX3/IEE5Uo7YmBjl12mj2cDdhqh+uQEvzzPh8NDgyl8ZaDLBgQrF9/mvnmBJtGyI=; Expires=Sat, 23-Dec-2023 19:46:24 GMT; Domain=.yandex.com; Path=/; Secure; HttpOnly

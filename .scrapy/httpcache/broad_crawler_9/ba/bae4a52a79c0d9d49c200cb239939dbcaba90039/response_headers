@@ -1,0 +1,16 @@
+Content-Type: text/html
+Server: nginx
+Date: Thu, 23 Dec 2021 20:05:14 GMT
+Location: https://www.academia.edu/robots.txt
+X-Nginx: lb-cloudfront-20210608-keen-bean.va.z0o.us
+Expires: 0
+Pragma: no-cache
+X-Request-Id: bF8Voz-cswPq8-cTuvnd
+Cache-Control: private, max-age=0, no-transform, no-cache, no-store, must-revalidate
+Set-Cookie: request_id=bF8Voz-cswPq8-cTuvnd
+Set-Cookie: auvid3=bF8Voz-cswPq8-cTuvnd; Expires=Sat, 24-Dec-22 02:05:14 GMT; Domain=.academia.edu
+X-Accelerating: The World's Research
+X-Cache: Miss from cloudfront
+Via: 1.1 adc433645a74a443ef3e8a3436f54242.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: jm_6ngh4rVVoAs_hiGPLrDoyPwdiNBDHfLSYMip_8SU7tOKX8OeXPA==

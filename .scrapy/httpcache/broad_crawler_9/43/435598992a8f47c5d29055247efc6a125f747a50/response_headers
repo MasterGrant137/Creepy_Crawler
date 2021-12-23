@@ -1,0 +1,17 @@
+Content-Length: 8029
+Server: Apache
+Last-Modified: Sat, 23 Oct 2021 15:17:54 GMT
+Etag: "8d83-5cf06a1bff1ce-gzip"
+Cache-Control: max-age=3600
+Expires: Thu, 23 Dec 2021 21:06:21 GMT
+Content-Encoding: gzip
+Content-Type: text/html
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 20:06:21 GMT
+Age: 0
+X-Served-By: cache-hel1410022-HEL, cache-bur17583-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1640289982.807315,VS0,VE171
+Vary: Accept-Encoding

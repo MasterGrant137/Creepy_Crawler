@@ -1,0 +1,13 @@
+Content-Length: 0
+Content-Type: application/binary
+Location: https://accounts.google.com/ServiceLogin?service=cultural&passive=1209600&continue=https://artsandculture.google.com/profile&followup=https://artsandculture.google.com/profile
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Security-Policy: script-src 'nonce-LniHdrmw+AgUXrukULubPw' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Date: Thu, 23 Dec 2021 20:06:22 GMT
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=Xx2_zgT1h_aBQpdMvd0u13cN2eeOVSYHFj9TkUPhOmeBK5sI70sTS14gfa8-JMw-b68UhN_IvDxu6mH6KMEpdgYJiluGYuodVGnYb4AckXxtSULvr4yXYDHQu7gw6ovJnYBo6rLEcz7NneMQSPCuOtMwP_0r9d0Z8M9SmnThyLQ; expires=Fri, 24-Jun-2022 20:06:22 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

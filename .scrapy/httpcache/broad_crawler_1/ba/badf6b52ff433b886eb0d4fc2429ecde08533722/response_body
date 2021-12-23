@@ -1,0 +1,26 @@
+User-agent: Mediapartners-Google
+Disallow: 
+
+# alexa.com
+User-agent: ia_archiver
+Disallow:
+
+# archive.org
+User-agent: archive.org_bot
+Disallow:
+
+# msnbot bing.com
+User-agent: msnbot
+Disallow:
+
+# wget
+User-agent: wget
+Disallow: /
+
+# httrack
+User-agent: httrack
+Disallow: /
+
+User-agent: *
+Disallow: /robots.txt
+Disallow: /sitemap.txt

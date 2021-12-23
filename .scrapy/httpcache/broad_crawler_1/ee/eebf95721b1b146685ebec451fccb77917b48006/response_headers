@@ -1,0 +1,14 @@
+Content-Length: 1133
+Cache-Control: max-age=301
+Expires: Thu, 23 Dec 2021 19:51:25 GMT
+Last-Modified: Tue, 27 Jul 2021 15:57:56 GMT
+Etag: "e1b-5c81ceee4cd91"
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Type: text/plain
+Date: Thu, 23 Dec 2021 19:46:24 GMT
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=31536000

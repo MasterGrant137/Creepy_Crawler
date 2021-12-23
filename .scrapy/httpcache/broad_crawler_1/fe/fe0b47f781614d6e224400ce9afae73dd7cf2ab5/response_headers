@@ -1,0 +1,12 @@
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.ign.com/
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 19:46:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bur17524-BUR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1640288781.222767,VS0,VE0
+Cache-Control: max-age:604800

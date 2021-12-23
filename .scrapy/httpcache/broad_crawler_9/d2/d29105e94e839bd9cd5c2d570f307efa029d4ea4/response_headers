@@ -1,0 +1,9 @@
+Server: nginx
+Date: Thu, 23 Dec 2021 20:05:20 GMT
+Location: https://www.booking.com/
+Nel: {"max_age":604800,"report_to":"default"}
+Report-To: {"max_age":604800,"endpoints":[{"url":"https://nellie.booking.com/report"}],"group":"default"}
+Set-Cookie: _pxhd=UTLxvVe-ys6ZPugXa9%2FAISjNFE7fM6qtDgm5o0pQ%2F7V%2FRH4hN8j%2FdGT7cH3maxLsiO8Btjc8bekqwoYTdFFSUw%3D%3D%3A5keLadhBMpD5ccU0xvf6D0fNRjLVl4gh4k4W3ABCVvyF8GxlgV7a%2FvWji0JfOfFicLboicjIQNWqvON4G2vG-vGqfTzpKGJk2dGuHG29TLM%3D; path=/; expires=Fri, 23-Dec-2022 20:05:20 GMT
+Strict-Transport-Security: max-age=604800
+Content-Security-Policy-Report-Only: frame-ancestors 'none'; report-uri https://reports.booking.com/csp_violation?type=report&tag=112&pid=8d518d4079a4013b&e=UmFuZG9tSVYkc2RlIyh9YdPFJGDFjZSqK4Z-4dNTMVtVNs22ZtOjPDw0dfBU5EGACKeesBDWhjM&f=0&s=0;
+X-Xss-Protection: 1; mode=block

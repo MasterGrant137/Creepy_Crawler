@@ -1,0 +1,7 @@
+Content-Length: 0
+Server: AkamaiGHost
+Location: https://www.abc.es/robots.txt
+Cache-Control: max-age=604800
+Expires: Thu, 30 Dec 2021 20:05:15 GMT
+Date: Thu, 23 Dec 2021 20:05:15 GMT
+Vary: User-Agent,Cookie

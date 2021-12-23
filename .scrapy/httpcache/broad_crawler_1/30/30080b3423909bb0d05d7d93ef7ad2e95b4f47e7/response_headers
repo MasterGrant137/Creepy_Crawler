@@ -1,0 +1,21 @@
+Content-Type: text/html;charset=utf-8
+Accept-Ranges: bytes
+Cache-Control: no-cache="set-cookie"
+Content-Encoding: gzip
+Content-Security-Policy: frame-ancestors 'self'; base-uri 'self';upgrade-insecure-requests;
+Date: Thu, 23 Dec 2021 00:49:48 GMT
+Etag: W/"41ca2-5d3c59d8a2286-gzip"
+Last-Modified: Thu, 23 Dec 2021 00:49:48 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000; includeSubdomains;
+X-Content-Type-Options: nosniff
+X-Dispatcher: dispatcher1uswest2
+X-Frame-Options: SAMEORIGIN
+X-Vhost: publish
+X-Xss-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 76ba6b3d9cbda18b2d8a4974a9dc976a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: EWR52-C4
+X-Amz-Cf-Id: dJx80p9ZOiPCz-ohjpCR4j3ppLOd7ctdZZxVBEjD9mla8RxndaQozw==
+Age: 68269

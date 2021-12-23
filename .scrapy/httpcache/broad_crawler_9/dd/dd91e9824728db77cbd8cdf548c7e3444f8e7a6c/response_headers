@@ -1,0 +1,8 @@
+Content-Length: 0
+Server: nginx
+Date: Thu, 23 Dec 2021 20:05:18 GMT
+Content-Type: text/html; charset=UTF-8
+Location: /
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+Alt-Svc: clear

@@ -1,0 +1,9 @@
+Server: ddos-guard
+Content-Security-Policy: upgrade-insecure-requests;
+Set-Cookie: __ddg1=WmvvJM2griI6PqprliQV; Domain=.ucoz.ru; HttpOnly; Path=/; Expires=Fri, 23-Dec-2022 19:47:36 GMT
+Date: Thu, 23 Dec 2021 19:47:33 GMT
+Content-Type: text/html
+Location: https://www.ucoz.ru/
+X-Frame-Options: SOMEORIGIN
+Content-Encoding: gzip
+Vary: Accept-Encoding

@@ -1,0 +1,19 @@
+Content-Type: text/plain; charset=utf-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 23 Dec 2021 19:46:17 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Strict-Transport-Security: max-age=31536000
+Cross-Origin-Resource-Policy: cross-origin
+Report-To: {"group":"DriveHomeRedirect","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/DriveHomeRedirect/external"}]}
+Content-Security-Policy: script-src 'report-sample' 'nonce-k4vWFFfiPTVtYCuTsUD71Q' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DriveHomeRedirect/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/DriveHomeRedirect/cspreport
+Cross-Origin-Opener-Policy: same-origin; report-to="DriveHomeRedirect"
+Content-Encoding: gzip
+Server: ESF
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=GOfqYbFe4gsWiSw67pqBUqkWYjiPVRWU1sqALwddpM4HLhfDq8EhqZDX8aDRd1FaYfFoluZZeYq5hHyXh0zneo1Ef6MJ57mC2MX-RoDqgRwP1TDOHQFfMHXn7TTdgyVhNtt3-ce4Mk6L2JlizPQJHygG0YvNWpgfF7HHS3lTq4Q; expires=Fri, 24-Jun-2022 19:46:17 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

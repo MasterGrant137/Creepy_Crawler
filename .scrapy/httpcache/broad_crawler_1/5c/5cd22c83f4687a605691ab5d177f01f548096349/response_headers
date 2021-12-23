@@ -1,0 +1,20 @@
+Content-Length: 7156
+Last-Modified: Wed, 22 Dec 2021 22:29:35 GMT
+Etag: "7d37cc563708627000dc774054aef33b"
+Content-Type: text/html
+Content-Security-Policy: upgrade-insecure-requests
+Accept-Ranges: bytes
+Date: Thu, 23 Dec 2021 19:46:22 GMT
+Age: 17
+X-Served-By: cache-bur17573-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1640288782.179316,VS0,VE1
+Vary: Accept-Encoding
+Server: cat factory 1.0
+Strict-Transport-Security: max-age=300
+X-Frame-Options: DENY
+Set-Cookie: postpagebeta=1; Expires=Mon, 4 Sep 2090 20:00:00 GMT; path=/; domain=.imgur.com;
+Access-Control-Allow-Origin: https://imgur.com
+Access-Control-Allow-Credentials: false
+Cache-Control: max-age=60, stale-while-revalidate=600, stale-if-error=86400, public

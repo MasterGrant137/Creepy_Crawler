@@ -1,0 +1,20 @@
+Content-Length: 434
+Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security: max-age=15552000
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: bytes
+Cache-Control: public, max-age=3600
+Last-Modified: Wed, 15 Dec 2021 11:19:26 GMT
+Content-Type: text/plain; charset=UTF-8
+Vary: Accept-Encoding
+Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://csp.yahoo.com/beacon/csp?src=fendr_finance-nodejs-production.finance-k8s.omega.yahoo.com
+Date: Thu, 23 Dec 2021 19:44:52 GMT
+X-Envoy-Upstream-Service-Time: 3
+Server: ATS
+X-Envoy-Decorator-Operation: finance-nodejs--mtls-production-gq1.finance-k8s.svc.yahoo.local:4080/*
+Content-Security-Policy: frame-ancestors 'self' https://*.builtbygirls.com https://*.rivals.com https://*.engadget.com https://*.intheknow.com https://*.autoblog.com https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.search.yahoo.com https://*.search.aol.com https://*.search.huffpost.com https://*.verizonmedia.com https://*.publishing.oath.com https://*.autoblog.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=finance&region=US&lang=en-US&device=desktop&yrid=0osotstgs9kdj&partner=;
+Etag: W/"1b2-17dbdd18a30"
+Age: 88
+Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff

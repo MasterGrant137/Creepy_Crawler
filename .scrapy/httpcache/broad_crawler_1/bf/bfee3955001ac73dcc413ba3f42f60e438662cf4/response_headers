@@ -1,0 +1,20 @@
+Date: Thu, 23 Dec 2021 19:46:17 GMT
+Content-Type: text/html; charset=utf-8
+Cf-Ray: 6c241858bc157e7c-LAX
+Set-Cookie: _moz_csrf=e25f51481b87394344705a07f25040ced405b677; Max-Age=3600000; Domain=moz.com; Path=/; SameSite=Strict; Secure; HttpOnly
+Set-Cookie: __cf_bm=mV8GNaScFM0mJkjdwnsB3Dgr9CmkqV_Ax4nNgiqx6Wo-1640288777-0-AeL953QhGBfv8Mb/3rvGXhJ6wkQGiD8fkCZpIjYEVIt20syzF+aI1jkgc5PbWZDm58dU6ztVUYI2HQ2Fydm+JMU=; path=/; expires=Thu, 23-Dec-21 20:16:17 GMT; domain=.moz.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=2592000
+Cf-Cache-Status: DYNAMIC
+Content-Security-Policy: frame-ancestors 'self'
+Expect-Ct: max-age=0
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+Vary: Accept-Encoding
+Server: cloudflare
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
