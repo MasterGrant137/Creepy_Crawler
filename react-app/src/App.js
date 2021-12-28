@@ -87,11 +87,11 @@ function App() {
     };
 
     const { body } = document;
-    document.body.style.backgroundColor = siteTheme.background_color;
-    document.body.style.backgroundImage = siteTheme.background_media;
-    document.body.style.color = siteTheme.font_color;
-    document.body.style.fontFamily = siteTheme.font_family;
-    document.body.style.fontSize = siteTheme.font_size;
+    body.style.backgroundColor = siteTheme.background_color;
+    body.style.backgroundImage = siteTheme.background_media;
+    body.style.color = siteTheme.font_color;
+    body.style.fontFamily = siteTheme.font_family;
+    body.style.fontSize = siteTheme.font_size;
     if (siteTheme.background_rotate) body.classList.add('background-rotate');
     else if (!siteTheme.background_rotate) body.classList.remove('background-rotate');
 
