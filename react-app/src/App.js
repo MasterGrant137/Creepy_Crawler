@@ -96,7 +96,6 @@ function App() {
     else if (!siteTheme.background_rotate) body.classList.remove('background-rotate');
 
     if (!loaded) return null;
-
     return (
         <BrowserRouter>
             <ScrollToTop />
