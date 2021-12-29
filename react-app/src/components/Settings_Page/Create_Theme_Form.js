@@ -166,7 +166,7 @@ const CreateThemeForm = ({ style }) => {
                                 onChange={(e) => {
                                     const trgKids = e.target.children;
                                     const targOpt = Array.from(trgKids).find((opt) => opt.selected);
-                                    setFontSize(`${targOpt.innerText}px`);
+                                    setFontSize(`${targOpt.value}px`);
                                 }}
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}
@@ -184,7 +184,7 @@ const CreateThemeForm = ({ style }) => {
                                 onChange={(e) => {
                                     const trgKids = e.target.children;
                                     const targOpt = Array.from(trgKids).find((opt) => opt.selected);
-                                    setFontFamily(targOpt.innerText.replace(/\s\|\s/, ', '));
+                                    setFontFamily(targOpt.value.replace(/\s\|\s/, ', '));
                                 }}
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}

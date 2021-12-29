@@ -54,7 +54,7 @@ const EditThemeForm = ({ style }) => {
             case 'Font Family': {
                 const targText = prev.font_family.replace(/,\s/, ' | ');
                 const targKids = targKid.children;
-                const targFamily = Array.from(targKids).find((opt) => opt.innerText === targText);
+                const targFamily = Array.from(targKids).find((opt) => opt.text === targText);
                 targFamily.selected = true;
                 break;
             }
@@ -62,7 +62,7 @@ const EditThemeForm = ({ style }) => {
                 targKid.value = prev.font_size;
                 const targNum = prev.font_size.replace('px', '');
                 const targKids = targKid.children;
-                const targSize = Array.from(targKids).find((opt) => opt.innerText === targNum);
+                const targSize = Array.from(targKids).find((opt) => opt.text === targNum);
                 targSize.selected = true;
                 break;
             }

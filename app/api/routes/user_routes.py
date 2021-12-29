@@ -49,6 +49,11 @@ def edit_user_profile():
         db.session.add(user)
         db.session.commit()
         return user.to_dict()
+    elif req_column == 'default_theme':
+        user.default_theme = setting['default_theme']
+        db.session.add(user)
+        db.session.commit()
+        return user.to_dict()
     elif req_column == 'custom_theme':
         user.custom_theme = int(setting['id'])
         db.session.add(user)
