@@ -87,7 +87,7 @@ function App() {
     //     font_size: cT?.font_size || '16px',
     // };
 
-    const siteTheme = defaultThemes.parchment_handlee;
+    const siteTheme = defaultThemes['Parchment Handlee'];
 
     // if (user?.custom_theme) siteTheme = user?.defaultTheme;
     // else siteTheme = user?.custom_theme;

@@ -170,6 +170,7 @@ const CreateThemeForm = ({ style }) => {
                                 }}
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}
+                                style={{ color: style.font_color, fontFamily: style.font_family }}
                             >
                                 {fontSizes}
                             </select>
@@ -187,6 +188,7 @@ const CreateThemeForm = ({ style }) => {
                                 }}
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}
+                                style={{ color: style.font_color, fontFamily: style.font_family }}
                             >
                                 {fontFamilies}
                             </select>

@@ -312,6 +312,7 @@ const EditThemeForm = ({ style }) => {
                     id={`font-size-editor-${idx}`}
                     name='Font Size'
                     defaultValue={setting.font_size?.replace('px', '')}
+                    style={{ color: setting.font_color, fontFamily: setting.font_family }}
                 >
                     {fontSizes}
                 </select>
@@ -320,6 +321,7 @@ const EditThemeForm = ({ style }) => {
                     id={`font-family-editor-${idx}`}
                     name='Font Family'
                     defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
+                    style={{ color: setting.font_color, fontFamily: setting.font_family }}
                 >
                     {fontFamilies}
                 </select>
