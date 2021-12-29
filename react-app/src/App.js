@@ -64,7 +64,7 @@ function App() {
 
     const user = useSelector((state) => state.session.user);
     const settings = useSelector((state) => state.settings);
-    const aT = settings[user?.active_theme];
+    const cT = settings[user?.custom_theme];
 
     useEffect(() => {
         (async () => {
@@ -75,15 +75,15 @@ function App() {
     }, [dispatch]);
 
     const siteTheme = {
-        background_color: aT?.background_color || '#eae7dc',
-        background_rotate: aT?.background_rotate || false,
-        background_media: aT?.background_media ? `url('${aT?.background_media}')` : 'url()',
-        font_color: aT?.font_color || '#e85a4f',
-        font_family: aT?.font_family || 'Raleway, sans-serif',
-        font_size: aT?.font_size || '16px',
-        accent_1: aT?.accent_1 || '#d8c3a5',
-        accent_2: aT?.accent_2 || '#8e8d8a',
-        accent_3: aT?.accent_3 || '#e98074',
+        background_color: cT?.background_color || '#eae7dc',
+        background_rotate: cT?.background_rotate || false,
+        background_media: cT?.background_media ? `url('${cT?.background_media}')` : 'url()',
+        font_color: cT?.font_color || '#e85a4f',
+        font_family: cT?.font_family || 'Raleway, sans-serif',
+        font_size: cT?.font_size || '16px',
+        accent_1: cT?.accent_1 || '#d8c3a5',
+        accent_2: cT?.accent_2 || '#8e8d8a',
+        accent_3: cT?.accent_3 || '#e98074',
     };
 
     const { body } = document;

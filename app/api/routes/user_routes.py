@@ -49,13 +49,13 @@ def edit_user_profile():
         db.session.add(user)
         db.session.commit()
         return user.to_dict()
-    elif req_column == 'active_theme':
-        user.active_theme = int(setting['id'])
+    elif req_column == 'custom_theme':
+        user.custom_theme = int(setting['id'])
         db.session.add(user)
         db.session.commit()
         return user.to_dict()
     elif req_column == 'reset_theme':
-        user.active_theme = None
+        user.custom_theme = None
         db.session.add(user)
         db.session.commit()
         return user.to_dict()

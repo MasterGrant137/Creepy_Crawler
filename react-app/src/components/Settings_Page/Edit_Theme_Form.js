@@ -238,24 +238,24 @@ const EditThemeForm = ({ style }) => {
                             color: setting.font_color,
                         }}
                     />
-                    {user.active_theme !== setting.id
+                    {user.custom_theme !== setting.id
                         && <FontAwesomeIcon
                             alt='Unselected Theme'
                             title='Unselected Theme'
                             icon='circle'
-                            onClick={() => updateActiveTheme(setting.id, 'active_theme')}
+                            onClick={() => updateActiveTheme(setting.id, 'custom_theme')}
                             style={{
                                 backgroundColor: setting.background_color,
                                 color: setting.font_color,
                             }}
                         />
                     }
-                    {user.active_theme === setting.id
+                    {user.custom_theme === setting.id
                         && <FontAwesomeIcon
                             alt='Selected Theme'
                             title='Selected Theme'
                             icon='check-circle'
-                            onClick={() => updateActiveTheme(setting.id, 'active_theme')}
+                            onClick={() => updateActiveTheme(setting.id, 'custom_theme')}
                             style={{
                                 backgroundColor: setting.background_color,
                                 color: setting.font_color,
