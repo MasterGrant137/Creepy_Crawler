@@ -156,8 +156,13 @@ const EditThemeForm = ({ style }) => {
         const entriesArr = Object.entries(targSetting);
         const entriesFormatted = [];
         entriesArr.forEach((entry) => {
-            const formattedEntry = `${'\t'}"${entry[0]}": "${entry[1]}"`;
-            entriesFormatted.push(formattedEntry);
+            if (entry[0] === 'background_rotate') {
+                const formattedEntry = `${'\t'}"${entry[0]}": ${entry[1]}`;
+                entriesFormatted.push(formattedEntry);
+            } else {
+                const formattedEntry = `${'\t'}"${entry[0]}": "${entry[1]}"`;
+                entriesFormatted.push(formattedEntry);
+            }
         });
         const entries = entriesFormatted.join(',\n');
         navigator.clipboard.writeText(`"${themeKey}": {${'\n'}${entries}${'\n'}}`);

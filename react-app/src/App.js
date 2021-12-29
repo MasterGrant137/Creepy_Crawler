@@ -34,7 +34,7 @@ import ProtectedRoute from './components/auth/ProtectedRoute';
 import LoginForm from './components/auth/LoginForm';
 import SignupForm from './components/auth/SignupForm';
 import NavBar from './components/Navigation/Nav_Bar';
-// import defaultThemes from './default_themes.json';
+import defaultThemes from './default_themes.json';
 
 library.add(
     faCheckCircle,
@@ -63,8 +63,9 @@ function App() {
     const dispatch = useDispatch();
 
     const user = useSelector((state) => state.session.user);
-    const settings = useSelector((state) => state.settings);
-    const cT = settings[user?.custom_theme];
+    // const settings = useSelector((state) => state.settings);
+    // const cT = settings[user?.custom_theme];
+    console.log(user);
 
     useEffect(() => {
         (async () => {
@@ -74,19 +75,25 @@ function App() {
         })();
     }, [dispatch]);
 
-    const siteTheme = {
-        background_color: cT?.background_color || '#eae7dc',
-        background_rotate: cT?.background_rotate || false,
-        background_media: cT?.background_media ? `url('${cT?.background_media}')` : 'url()',
-        font_color: cT?.font_color || '#e85a4f',
-        font_family: cT?.font_family || 'Raleway, sans-serif',
-        font_size: cT?.font_size || '16px',
-        accent_1: cT?.accent_1 || '#d8c3a5',
-        accent_2: cT?.accent_2 || '#8e8d8a',
-        accent_3: cT?.accent_3 || '#e98074',
-    };
+    // const siteTheme = {
+    //     accent_1: cT?.accent_1 || '#d8c3a5',
+    //     accent_2: cT?.accent_2 || '#8e8d8a',
+    //     accent_3: cT?.accent_3 || '#e98074',
+    //     background_color: cT?.background_color || '#eae7dc',
+    //     background_rotate: cT?.background_rotate || false,
+    //     background_media: cT?.background_media ? `url('${cT?.background_media}')` : 'url()',
+    //     font_color: cT?.font_color || '#e85a4f',
+    //     font_family: cT?.font_family || 'Raleway, sans-serif',
+    //     font_size: cT?.font_size || '16px',
+    // };
+
+    const siteTheme = defaultThemes.parchment_handlee;
+
+    // if (user?.custom_theme) siteTheme = user?.defaultTheme;
+    // else siteTheme = user?.custom_theme;
 
     const { body } = document;
+    // if (siteTheme) {
     body.style.backgroundColor = siteTheme.background_color;
     body.style.backgroundImage = siteTheme.background_media;
     body.style.color = siteTheme.font_color;
@@ -94,6 +101,7 @@ function App() {
     body.style.fontSize = siteTheme.font_size;
     if (siteTheme.background_rotate) body.classList.add('background-rotate');
     else if (!siteTheme.background_rotate) body.classList.remove('background-rotate');
+    // }
 
     if (!loaded) return null;
     return (
