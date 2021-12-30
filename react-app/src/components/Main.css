@@ -6,8 +6,6 @@
     scrollbar-width: none; /*$ Firefox $*/
 }
 
-input:disabled:active, select:disabled:active { cursor: not-allowed }
-
 *::-webkit-scrollbar { display: none }
 
 [data-icon='copy'] { cursor: copy }
@@ -21,8 +19,6 @@ button {
 [data-icon] { border-radius: 5px }
 
 img { user-select: none }
-
-input:not([type='search']), select { text-align: center; }
 
 input[type='file'] {
     height: fit-content;
@@ -48,6 +44,10 @@ button:hover {
     background-color: rgba(192, 192, 192, 0.6);
     box-shadow: inset 0 0 1px 1px rgb(192, 189, 189);
 }
+
+input:disabled:active, select:disabled:active { cursor: not-allowed }
+
+input:not([type='search']), select { text-align: center; }
 
 input:hover, select:hover {
     box-shadow: inset 0 0 3px 1px rgb(100, 99, 99);
@@ -192,7 +192,6 @@ nav [data-icon] {
     position: absolute;
     top: 3%;
 }
-
 
 @keyframes inline-fade-in-out {
     0% { opacity: 0 }
