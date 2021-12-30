@@ -305,14 +305,22 @@ const EditThemeForm = ({ style }) => {
                     placeholder='50 Characters Max'
                     aria-placeholder='50 Characters Max'
                     defaultValue={setting.theme_name}
-                    style={{ fontFamily: setting.font_family }}
+                    style={{
+                        backgroundColor: setting.background_color,
+                        color: setting.font_color,
+                        fontFamily: setting.font_family,
+                    }}
                 />
                 <label htmlFor={`font-size-editor-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
                 <select
                     id={`font-size-editor-${idx}`}
                     name='Font Size'
                     defaultValue={setting.font_size?.replace('px', '')}
-                    style={{ color: setting.font_color, fontFamily: setting.font_family }}
+                    style={{
+                        backgroundColor: setting.background_color,
+                        color: setting.font_color,
+                        fontFamily: setting.font_family,
+                    }}
                 >
                     {fontSizes}
                 </select>
@@ -321,7 +329,11 @@ const EditThemeForm = ({ style }) => {
                     id={`font-family-editor-${idx}`}
                     name='Font Family'
                     defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
-                    style={{ color: setting.font_color, fontFamily: setting.font_family }}
+                    style={{
+                        backgroundColor: setting.background_color,
+                        color: setting.font_color,
+                        fontFamily: setting.font_family,
+                    }}
                 >
                     {fontFamilies}
                 </select>

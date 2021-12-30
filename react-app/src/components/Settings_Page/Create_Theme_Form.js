@@ -154,7 +154,11 @@ const CreateThemeForm = ({ style }) => {
                                 onChange={(e) => setThemeName(e.target.value)}
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}
-                                style={{ fontFamily: style.font_family }}
+                                style={{
+                                    backgroundColor: style.background_color,
+                                    color: style.font_color,
+                                    fontFamily: style.font_family,
+                                }}
                             />
                         </div>
                         <div className='font-size-setter-div'>
@@ -170,7 +174,11 @@ const CreateThemeForm = ({ style }) => {
                                 }}
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}
-                                style={{ color: style.font_color, fontFamily: style.font_family }}
+                                style={{
+                                    backgroundColor: style.background_color,
+                                    color: style.font_color,
+                                    fontFamily: style.font_family,
+                                }}
                             >
                                 {fontSizes}
                             </select>
@@ -188,7 +196,11 @@ const CreateThemeForm = ({ style }) => {
                                 }}
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}
-                                style={{ color: style.font_color, fontFamily: style.font_family }}
+                                style={{
+                                    backgroundColor: style.background_color,
+                                    color: style.font_color,
+                                    fontFamily: style.font_family,
+                                }}
                             >
                                 {fontFamilies}
                             </select>
