@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useModal } from '../context/Modal_Context';
 import { editProfile } from '../../store/session';
 import { readUserSettings } from '../../store/settings_store';
@@ -9,6 +9,7 @@ import '../Modal.css';
 
 const ProfileModal = ({ style }) => {
     const dispatch = useDispatch();
+    const user = useSelector((state) => state.session.user);
     const { closeModal } = useModal();
 
     useEffect(() => {
@@ -34,7 +35,7 @@ const ProfileModal = ({ style }) => {
             <select
                 id='default-theme-editor'
                 name='Default Theme'
-                value={style.defaultTheme}
+                value={user?.default_theme || defaultThemeKeys[0]}
                 onChange={(e) => {
                     const trgKids = e.target.children;
                     const targOpt = Array.from(trgKids).find((opt) => opt.selected);
