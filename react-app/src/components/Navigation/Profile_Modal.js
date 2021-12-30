@@ -23,13 +23,6 @@ const ProfileModal = ({ style }) => {
         closeModal();
     };
 
-    const resetTheme = async (eType) => {
-        await dispatch(editProfile({
-            column: eType,
-        }));
-        closeModal();
-    };
-
     const defaultThemeKeys = Object.keys(defaultThemes);
     const defaultThemeOptions = defaultThemeKeys.map((themeName) => (
         <option key={themeName}>{themeName}</option>
@@ -53,17 +46,6 @@ const ProfileModal = ({ style }) => {
                     fontSize: style.font_size,
                 }}
             >{defaultThemeOptions}</select>
-            <button
-                type='button'
-                onClick={() => resetTheme('reset_theme')}
-                style={{
-                    color: style.font_color,
-                    fontFamily: style.font_family,
-                    fontSize: style.font_size,
-                }}
-            >
-                Set Theme to Default
-            </button>
         </div>
     );
 };

@@ -63,9 +63,8 @@ function App() {
     const dispatch = useDispatch();
 
     const user = useSelector((state) => state.session.user);
-    // const settings = useSelector((state) => state.settings);
-    // const cT = settings[user?.custom_theme];
-    console.log(user);
+    const settings = useSelector((state) => state.settings);
+    const cT = settings[user?.custom_theme];
 
     useEffect(() => {
         (async () => {
@@ -75,22 +74,24 @@ function App() {
         })();
     }, [dispatch]);
 
-    // const siteTheme = {
-    //     accent_1: cT?.accent_1 || '#d8c3a5',
-    //     accent_2: cT?.accent_2 || '#8e8d8a',
-    //     accent_3: cT?.accent_3 || '#e98074',
-    //     background_color: cT?.background_color || '#eae7dc',
-    //     background_rotate: cT?.background_rotate || false,
-    //     background_media: cT?.background_media ? `url('${cT?.background_media}')` : 'url()',
-    //     font_color: cT?.font_color || '#e85a4f',
-    //     font_family: cT?.font_family || 'Raleway, sans-serif',
-    //     font_size: cT?.font_size || '16px',
-    // };
+    const customTheme = {
+        accent_1: cT?.accent_1 || '#d8c3a5',
+        accent_2: cT?.accent_2 || '#8e8d8a',
+        accent_3: cT?.accent_3 || '#e98074',
+        background_color: cT?.background_color || '#eae7dc',
+        background_rotate: cT?.background_rotate || false,
+        background_media: cT?.background_media ? `url('${cT?.background_media}')` : 'url()',
+        font_color: cT?.font_color || '#e85a4f',
+        font_family: cT?.font_family || 'Raleway, sans-serif',
+        font_size: cT?.font_size || '16px',
+    };
 
-    const siteTheme = defaultThemes['Parchment Handlee'];
+    const siteTheme = defaultThemes[user?.default_theme] || customTheme || defaultThemes['Parchment Handlee'];
 
-    // if (user?.custom_theme) siteTheme = user?.defaultTheme;
-    // else siteTheme = user?.custom_theme;
+    // if (user) {
+    //     if (user.custom_theme) siteTheme = user.default_theme;
+    //     else siteTheme = user.custom_theme;
+    // }
 
     const { body } = document;
     // if (siteTheme) {
