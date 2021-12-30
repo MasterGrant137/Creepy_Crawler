@@ -65,6 +65,7 @@ function App() {
     const user = useSelector((state) => state.session.user);
     const settings = useSelector((state) => state.settings);
     const cT = settings[user?.custom_theme];
+    const dT = defaultThemes['Parchment Handlee'];
 
     useEffect(() => {
         (async () => {
@@ -75,26 +76,20 @@ function App() {
     }, [dispatch]);
 
     const customTheme = {
-        accent_1: cT?.accent_1 || '#d8c3a5',
-        accent_2: cT?.accent_2 || '#8e8d8a',
-        accent_3: cT?.accent_3 || '#e98074',
-        background_color: cT?.background_color || '#eae7dc',
-        background_rotate: cT?.background_rotate || false,
-        background_media: cT?.background_media ? `url('${cT?.background_media}')` : 'url()',
-        font_color: cT?.font_color || '#e85a4f',
-        font_family: cT?.font_family || 'Raleway, sans-serif',
-        font_size: cT?.font_size || '16px',
+        accent_1: cT?.accent_1 || dT.accent_1,
+        accent_2: cT?.accent_2 || dT.accent_2,
+        accent_3: cT?.accent_3 || dT.accent_3,
+        background_color: cT?.background_color || dT.background_color,
+        background_rotate: cT?.background_rotate || dT.background_rotate,
+        background_media: cT?.background_media || dT.background_media,
+        font_color: cT?.font_color || dT.font_color,
+        font_family: cT?.font_family || dT.font_family,
+        font_size: cT?.font_size || dT.font_size,
     };
 
-    const siteTheme = defaultThemes[user?.default_theme] || customTheme || defaultThemes['Parchment Handlee'];
-
-    // if (user) {
-    //     if (user.custom_theme) siteTheme = user.default_theme;
-    //     else siteTheme = user.custom_theme;
-    // }
+    const siteTheme = defaultThemes[user?.default_theme] || customTheme;
 
     const { body } = document;
-    // if (siteTheme) {
     body.style.backgroundColor = siteTheme.background_color;
     body.style.backgroundImage = siteTheme.background_media;
     body.style.color = siteTheme.font_color;
@@ -102,7 +97,6 @@ function App() {
     body.style.fontSize = siteTheme.font_size;
     if (siteTheme.background_rotate) body.classList.add('background-rotate');
     else if (!siteTheme.background_rotate) body.classList.remove('background-rotate');
-    // }
 
     if (!loaded) return null;
     return (
