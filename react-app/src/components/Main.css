@@ -186,7 +186,7 @@ nav [data-icon] {
     animation: inline-fade-in-out 3s;
     background-color: rgb(255, 255, 255);
     color: black;
-    left: 23.75%;
+    left: 25%;
     opacity: 0;
     padding: 10px;
     position: absolute;

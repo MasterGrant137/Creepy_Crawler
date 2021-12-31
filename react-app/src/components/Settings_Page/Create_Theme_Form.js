@@ -108,9 +108,9 @@ const CreateThemeForm = ({ style }) => {
                 }}
             >
                 <fieldset className='sf2-fieldset'>
-                    <h2 style={{ color: style.accent_2, borderColor: style.accent_1 }}>
+                    {/* <h2 style={{ color: style.accent_2, borderColor: style.accent_1 }}>
                         Create Theme
-                    </h2>
+                    </h2> */}
                     <legend>
                         <FontAwesomeIcon
                             alt='Refresh Form'
@@ -123,6 +123,14 @@ const CreateThemeForm = ({ style }) => {
                                 fontSize: style.font_size,
                             }}
                         />
+                        <strong
+                            style={{
+                                color: style.accent_2,
+                                borderColor: style.accent_1,
+                            }}
+                        >
+                            Create Theme
+                        </strong>
                         <span className={`${themeLimitErr ? 'inline-error' : 'invisible'}`}>
                             Theme limit reached.
                         </span>

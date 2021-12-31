@@ -42,12 +42,11 @@
     width: 100%;
 }
 
-.sf2-fieldset > legend * { margin: 0 10px }
+.sf2-fieldset > legend { padding-top: 5px }
 
-.sf2-fieldset > h2 { 
-    border-bottom: 2px solid;
-    margin-top: 0;
-}
+.sf2-fieldset > legend > button { padding: 0 }
+
+.sf2-fieldset > legend > strong { padding: 0 9px }
 
 .sf2-row-a {
     display: flex;
