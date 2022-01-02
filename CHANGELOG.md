@@ -1,3 +1,9 @@
+#### Jan 1, 2022
++ A user can now pick one of the several new default themes from the profile modal menu.
++ When copying a theme’s settings, the JSON value for *background_rotate* is now correctly formatted as a boolean (instead of a string).
++ Theme settings extended to dropdown menus and text fields to give the client more control over customization and for UI consistency.
++ Various enhancements made to UI.
+---
 #### Dec 21, 2021
 + Search engine optimizations: crawl is now unbounded, crawl distribution extended to eight spiders.
 ---
