@@ -1,39 +1,52 @@
 import { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useModal } from '../context/Modal_Context';
 import { editProfile } from '../../store/session';
 import { readUserSettings } from '../../store/settings_store';
+import defaultThemes from '../../default_themes.json';
 import '../Main.css';
 import '../Modal.css';
 
 const ProfileModal = ({ style }) => {
     const dispatch = useDispatch();
+    const user = useSelector((state) => state.session.user);
     const { closeModal } = useModal();
 
     useEffect(() => {
         dispatch(readUserSettings());
     }, [dispatch]);
 
-    const resetTheme = async (eType) => {
+    const defaultTheme = async (eType, themeName) => {
         await dispatch(editProfile({
             column: eType,
+            default_theme: themeName,
         }));
         closeModal();
     };
 
+    const defaultThemeKeys = Object.keys(defaultThemes);
+    const defaultThemeOptions = defaultThemeKeys.map((themeName) => (
+        <option key={themeName}>{themeName}</option>
+    ));
+
     return (
         <div>
-            <button
-                type='button'
-                onClick={() => resetTheme('reset_theme')}
+            <label htmlFor='default-theme-editor'>Default Themes</label>
+            <select
+                id='default-theme-editor'
+                name='Default Theme'
+                value={user?.default_theme || defaultThemeKeys[0]}
+                onChange={(e) => {
+                    const trgKids = e.target.children;
+                    const targOpt = Array.from(trgKids).find((opt) => opt.selected);
+                    defaultTheme('default_theme', targOpt.text);
+                }}
                 style={{
                     color: style.font_color,
                     fontFamily: style.font_family,
                     fontSize: style.font_size,
                 }}
-            >
-                Set Theme to Default
-            </button>
+            >{defaultThemeOptions}</select>
         </div>
     );
 };

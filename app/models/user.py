@@ -13,7 +13,8 @@ class User(db.Model, UserMixin):
 
     id = db.Column(db.Integer, primary_key=True)
     clock_24 = db.Column(db.Boolean, nullable=False, default=True)
-    active_theme = db.Column(db.SmallInteger, nullable=True)
+    custom_theme = db.Column(db.SmallInteger, nullable=True)
+    default_theme = db.Column(db.String(255), nullable=True)
     email = db.Column(db.String(255), nullable=False, unique=True)
     hashed_password = db.Column(db.String(255), nullable=False)
     profile_media = db.Column(db.String(1000), nullable=False, default='https://randomuser.me/api/portraits/lego/2.jpg')
@@ -50,6 +51,7 @@ class User(db.Model, UserMixin):
             'username': self.username,
             'email': self.email,
             'profile_media': self.profile_media,
-            'active_theme': self.active_theme,
+            'custom_theme': self.custom_theme,
+            'default_theme': self.default_theme,
             'theme_count': self.theme_count
         }

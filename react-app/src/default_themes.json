@@ -1,66 +1,66 @@
 {
-    "ocean_day": {
+    "Ocean Day": {
         "accent_1": "#ffffff",
         "accent_2": "#46a29f",
         "accent_3": "#1f2833",
         "background_color": "#66fcf1",
         "background_media": "",
-        "background_rotate": "false",
+        "background_rotate": false,
         "font_color": "#0b0c0f",
         "font_family": "Gluten, fantasy",
         "font_size": "16px"
     },
-    "ocean_night": {
+    "Ocean Night": {
         "accent_1": "#1f2833",
         "accent_2": "#c5c6c7",
         "accent_3": "#66fcf1",
         "background_color": "#0b0c10",
         "background_media": "",
-        "background_rotate": "false",
+        "background_rotate": false,
         "font_color": "#ffffff",
         "font_family": "Gluten, fantasy",
         "font_size": "16px"
     },
-    "parchment_gluten": {
+    "Parchment Gluten": {
         "accent_1": "#d8c3a5",
         "accent_2": "#8e8d8a",
         "accent_3": "#e98074",
         "background_color": "#eae7dc",
         "background_media": "",
-        "background_rotate": "false",
+        "background_rotate": false,
         "font_color": "#e85a4f",
         "font_family": "Gluten, fantasy",
         "font_size": "16px"
     },
-    "parchment_handlee": {
+    "Parchment Handlee": {
         "accent_1": "#d8c3a5",
         "accent_2": "#8e8d8a",
         "accent_3": "#e98074",
         "background_color": "#eae7dc",
         "background_media": "",
-        "background_rotate": "false",
+        "background_rotate": false,
         "font_color": "#e85a4f",
         "font_family": "Handlee, cursive",
         "font_size": "16px"
     },
-    "volcano_day": {
+    "Volcano Day": {
         "accent_1": "#fdcc03",
         "accent_2": "#75777a",
         "accent_3": "#0b0c10",
         "background_color": "#fbeb27",
         "background_media": "",
-        "background_rotate": "false",
+        "background_rotate": false,
         "font_color": "#d64c4c",
         "font_family": "Gluten, fantasy",
         "font_size": "16px"
     },
-    "volcano_night": {
+    "Volcano Night": {
         "accent_1": "#fdcc03",
         "accent_2": "#c5c6c8",
         "accent_3": "#faec26",
         "background_color": "#0b0c10",
         "background_media": "",
-        "background_rotate": "false",
+        "background_rotate": false,
         "font_color": "#d64c4c",
         "font_family": "Gluten, fantasy",
         "font_size": "16px"

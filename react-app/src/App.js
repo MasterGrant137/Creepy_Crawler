@@ -34,7 +34,7 @@ import ProtectedRoute from './components/auth/ProtectedRoute';
 import LoginForm from './components/auth/LoginForm';
 import SignupForm from './components/auth/SignupForm';
 import NavBar from './components/Navigation/Nav_Bar';
-// import defaultThemes from './default_themes.json';
+import defaultThemes from './default_themes.json';
 
 library.add(
     faCheckCircle,
@@ -64,7 +64,8 @@ function App() {
 
     const user = useSelector((state) => state.session.user);
     const settings = useSelector((state) => state.settings);
-    const aT = settings[user?.active_theme];
+    const cT = settings[user?.custom_theme];
+    const dT = defaultThemes['Parchment Handlee'];
 
     useEffect(() => {
         (async () => {
@@ -74,29 +75,30 @@ function App() {
         })();
     }, [dispatch]);
 
-    const siteTheme = {
-        background_color: aT?.background_color || '#eae7dc',
-        background_rotate: aT?.background_rotate || false,
-        background_media: aT?.background_media ? `url('${aT?.background_media}')` : 'url()',
-        font_color: aT?.font_color || '#e85a4f',
-        font_family: aT?.font_family || 'Raleway, sans-serif',
-        font_size: aT?.font_size || '16px',
-        accent_1: aT?.accent_1 || '#d8c3a5',
-        accent_2: aT?.accent_2 || '#8e8d8a',
-        accent_3: aT?.accent_3 || '#e98074',
+    const customTheme = {
+        accent_1: cT?.accent_1 || dT.accent_1,
+        accent_2: cT?.accent_2 || dT.accent_2,
+        accent_3: cT?.accent_3 || dT.accent_3,
+        background_color: cT?.background_color || dT.background_color,
+        background_rotate: cT?.background_rotate || dT.background_rotate,
+        background_media: cT?.background_media || dT.background_media,
+        font_color: cT?.font_color || dT.font_color,
+        font_family: cT?.font_family || dT.font_family,
+        font_size: cT?.font_size || dT.font_size,
     };
 
+    const siteTheme = defaultThemes[user?.default_theme] || customTheme;
+
     const { body } = document;
-    document.body.style.backgroundColor = siteTheme.background_color;
-    document.body.style.backgroundImage = siteTheme.background_media;
-    document.body.style.color = siteTheme.font_color;
-    document.body.style.fontFamily = siteTheme.font_family;
-    document.body.style.fontSize = siteTheme.font_size;
+    body.style.backgroundColor = siteTheme.background_color;
+    body.style.backgroundImage = siteTheme.background_media;
+    body.style.color = siteTheme.font_color;
+    body.style.fontFamily = siteTheme.font_family;
+    body.style.fontSize = siteTheme.font_size;
     if (siteTheme.background_rotate) body.classList.add('background-rotate');
     else if (!siteTheme.background_rotate) body.classList.remove('background-rotate');
 
     if (!loaded) return null;
-
     return (
         <BrowserRouter>
             <ScrollToTop />

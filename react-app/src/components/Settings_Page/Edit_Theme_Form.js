@@ -54,7 +54,7 @@ const EditThemeForm = ({ style }) => {
             case 'Font Family': {
                 const targText = prev.font_family.replace(/,\s/, ' | ');
                 const targKids = targKid.children;
-                const targFamily = Array.from(targKids).find((opt) => opt.innerText === targText);
+                const targFamily = Array.from(targKids).find((opt) => opt.text === targText);
                 targFamily.selected = true;
                 break;
             }
@@ -62,7 +62,7 @@ const EditThemeForm = ({ style }) => {
                 targKid.value = prev.font_size;
                 const targNum = prev.font_size.replace('px', '');
                 const targKids = targKid.children;
-                const targSize = Array.from(targKids).find((opt) => opt.innerText === targNum);
+                const targSize = Array.from(targKids).find((opt) => opt.text === targNum);
                 targSize.selected = true;
                 break;
             }
@@ -156,8 +156,13 @@ const EditThemeForm = ({ style }) => {
         const entriesArr = Object.entries(targSetting);
         const entriesFormatted = [];
         entriesArr.forEach((entry) => {
-            const formattedEntry = `${'\t'}"${entry[0]}": "${entry[1]}"`;
-            entriesFormatted.push(formattedEntry);
+            if (entry[0] === 'background_rotate') {
+                const formattedEntry = `${'\t'}"${entry[0]}": ${entry[1]}`;
+                entriesFormatted.push(formattedEntry);
+            } else {
+                const formattedEntry = `${'\t'}"${entry[0]}": "${entry[1]}"`;
+                entriesFormatted.push(formattedEntry);
+            }
         });
         const entries = entriesFormatted.join(',\n');
         navigator.clipboard.writeText(`"${themeKey}": {${'\n'}${entries}${'\n'}}`);
@@ -238,24 +243,24 @@ const EditThemeForm = ({ style }) => {
                             color: setting.font_color,
                         }}
                     />
-                    {user.active_theme !== setting.id
+                    {user.custom_theme !== setting.id
                         && <FontAwesomeIcon
                             alt='Unselected Theme'
                             title='Unselected Theme'
                             icon='circle'
-                            onClick={() => updateActiveTheme(setting.id, 'active_theme')}
+                            onClick={() => updateActiveTheme(setting.id, 'custom_theme')}
                             style={{
                                 backgroundColor: setting.background_color,
                                 color: setting.font_color,
                             }}
                         />
                     }
-                    {user.active_theme === setting.id
+                    {user.custom_theme === setting.id
                         && <FontAwesomeIcon
                             alt='Selected Theme'
                             title='Selected Theme'
                             icon='check-circle'
-                            onClick={() => updateActiveTheme(setting.id, 'active_theme')}
+                            onClick={() => updateActiveTheme(setting.id, 'custom_theme')}
                             style={{
                                 backgroundColor: setting.background_color,
                                 color: setting.font_color,
@@ -300,13 +305,22 @@ const EditThemeForm = ({ style }) => {
                     placeholder='50 Characters Max'
                     aria-placeholder='50 Characters Max'
                     defaultValue={setting.theme_name}
-                    style={{ fontFamily: setting.font_family }}
+                    style={{
+                        backgroundColor: setting.background_color,
+                        color: setting.font_color,
+                        fontFamily: setting.font_family,
+                    }}
                 />
                 <label htmlFor={`font-size-editor-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
                 <select
                     id={`font-size-editor-${idx}`}
                     name='Font Size'
                     defaultValue={setting.font_size?.replace('px', '')}
+                    style={{
+                        backgroundColor: setting.background_color,
+                        color: setting.font_color,
+                        fontFamily: setting.font_family,
+                    }}
                 >
                     {fontSizes}
                 </select>
@@ -315,6 +329,11 @@ const EditThemeForm = ({ style }) => {
                     id={`font-family-editor-${idx}`}
                     name='Font Family'
                     defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
+                    style={{
+                        backgroundColor: setting.background_color,
+                        color: setting.font_color,
+                        fontFamily: setting.font_family,
+                    }}
                 >
                     {fontFamilies}
                 </select>

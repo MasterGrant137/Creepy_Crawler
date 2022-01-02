@@ -108,9 +108,9 @@ const CreateThemeForm = ({ style }) => {
                 }}
             >
                 <fieldset className='sf2-fieldset'>
-                    <h2 style={{ color: style.accent_2, borderColor: style.accent_1 }}>
+                    {/* <h2 style={{ color: style.accent_2, borderColor: style.accent_1 }}>
                         Create Theme
-                    </h2>
+                    </h2> */}
                     <legend>
                         <FontAwesomeIcon
                             alt='Refresh Form'
@@ -123,6 +123,14 @@ const CreateThemeForm = ({ style }) => {
                                 fontSize: style.font_size,
                             }}
                         />
+                        <strong
+                            style={{
+                                color: style.accent_2,
+                                borderColor: style.accent_1,
+                            }}
+                        >
+                            Create Theme
+                        </strong>
                         <span className={`${themeLimitErr ? 'inline-error' : 'invisible'}`}>
                             Theme limit reached.
                         </span>
@@ -154,7 +162,11 @@ const CreateThemeForm = ({ style }) => {
                                 onChange={(e) => setThemeName(e.target.value)}
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}
-                                style={{ fontFamily: style.font_family }}
+                                style={{
+                                    backgroundColor: style.background_color,
+                                    color: style.font_color,
+                                    fontFamily: style.font_family,
+                                }}
                             />
                         </div>
                         <div className='font-size-setter-div'>
@@ -166,10 +178,15 @@ const CreateThemeForm = ({ style }) => {
                                 onChange={(e) => {
                                     const trgKids = e.target.children;
                                     const targOpt = Array.from(trgKids).find((opt) => opt.selected);
-                                    setFontSize(`${targOpt.innerText}px`);
+                                    setFontSize(`${targOpt.value}px`);
                                 }}
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}
+                                style={{
+                                    backgroundColor: style.background_color,
+                                    color: style.font_color,
+                                    fontFamily: style.font_family,
+                                }}
                             >
                                 {fontSizes}
                             </select>
@@ -183,10 +200,15 @@ const CreateThemeForm = ({ style }) => {
                                 onChange={(e) => {
                                     const trgKids = e.target.children;
                                     const targOpt = Array.from(trgKids).find((opt) => opt.selected);
-                                    setFontFamily(targOpt.innerText.replace(/\s\|\s/, ', '));
+                                    setFontFamily(targOpt.value.replace(/\s\|\s/, ', '));
                                 }}
                                 onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                                 onMouseOut={() => { setThmLmtErr(false); }}
+                                style={{
+                                    backgroundColor: style.background_color,
+                                    color: style.font_color,
+                                    fontFamily: style.font_family,
+                                }}
                             >
                                 {fontFamilies}
                             </select>
