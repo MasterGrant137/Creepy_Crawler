@@ -1,20 +1,17 @@
 # [Creepy_Crawler](https://creepy-crawler-1.herokuapp.com/)
 Creepy Crawler is a full-stack search engine application. It's inspired by popular search engine apps. It allows the user to make queries, see their history, and set their theme. 
 
-### Demo Login
-![demo_login](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_1_images/demo_login.png)
+### Crawl the web 🕷
+![search](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_2_images/search.gif)
 
-### Navigation Bar
-![nav_bar](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_1_images//nav_bar.png)
+### Create custom themes 🎨
+![custom themes](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_2_images/custom-themes.gif)
 
-### Search Bar
-![search_bar](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_1_images/search_bar.png)
+### Look over your search history 🔍
+![history](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_2_images//history.gif)
 
-### History Page
-![history_page](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_1_images/history_page.png)
-
-### Settings Page
-![settings_page](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_1_images/settings_page.png)
+### Enjoy advanced interactions with your themes 🧮
+![theme interaction](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_2_images/theme-interaction.gif)
 
 ### Contact
 + [LinkedIn](https://www.linkedin.com/in/alejandro-c-grant/)
