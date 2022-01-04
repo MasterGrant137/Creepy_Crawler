@@ -42,6 +42,7 @@ const ProfileModal = ({ style }) => {
                     defaultTheme('default_theme', targOpt.text);
                 }}
                 style={{
+                    backgroundColor: style.background_color,
                     color: style.font_color,
                     fontFamily: style.font_family,
                     fontSize: style.font_size,

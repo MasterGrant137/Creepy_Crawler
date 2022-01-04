@@ -81,7 +81,7 @@ function App() {
         accent_3: cT?.accent_3 || dT.accent_3,
         background_color: cT?.background_color || dT.background_color,
         background_rotate: cT?.background_rotate || dT.background_rotate,
-        background_media: cT?.background_media || dT.background_media,
+        background_media: `url('${cT?.background_media}')` || `url('${dT.background_media}')`,
         font_color: cT?.font_color || dT.font_color,
         font_family: cT?.font_family || dT.font_family,
         font_size: cT?.font_size || dT.font_size,

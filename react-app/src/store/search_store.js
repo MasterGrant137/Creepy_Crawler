@@ -27,7 +27,7 @@ export const createSearchEntry = (entry) => async (dispatch) => {
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-        || response.status === 500) {
+        || response.status === 500 || response.status === 503) {
         window.location.reload();
         return null;
     }
@@ -48,7 +48,7 @@ export const createVisitEntry = (entry) => async (dispatch) => {
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-        || response.status === 500) {
+        || response.status === 500 || response.status === 503) {
         window.location.reload();
         return null;
     }
@@ -90,7 +90,7 @@ export const updateHistoryEntry = (entry) => async (dispatch) => {
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-        || response.status === 500) {
+        || response.status === 500 || response.status === 503) {
         window.location.reload();
         return null;
     }
@@ -108,7 +108,7 @@ export const deleteHistoryEntry = (entryID) => async (dispatch) => {
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-        || response.status === 500) {
+        || response.status === 500 || response.status === 503) {
         window.location.reload();
         return null;
     }

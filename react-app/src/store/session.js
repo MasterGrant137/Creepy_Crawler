@@ -43,7 +43,7 @@ export const login = (email, password) => async (dispatch) => {
         return null;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-    || response.status === 500) {
+    || response.status === 500 || response.status === 503) {
         window.location.reload();
         return null;
     }
@@ -66,7 +66,7 @@ export const signUp = (username, email, password) => async (dispatch) => {
         return null;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-    || response.status === 500) {
+    || response.status === 500 || response.status === 503) {
         window.location.reload();
         return null;
     }
@@ -94,7 +94,7 @@ export const editProfileMedia = (userID, formData) => async (dispatch) => {
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-    || response.status === 500) {
+    || response.status === 500 || response.status === 503) {
         window.location.reload();
         return null;
     }
@@ -116,7 +116,7 @@ export const editProfile = (setting) => async (dispatch) => {
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-        || response.status === 500) {
+        || response.status === 500 || response.status === 503) {
         window.location.reload();
         return null;
     }
@@ -132,7 +132,7 @@ export const logout = () => async (dispatch) => {
         return data;
     }
     if (data.errors[0] === 'The CSRF token has expired.'
-        || response.status === 500) {
+        || response.status === 500 || response.status === 503) {
         window.location.reload();
         return null;
     }
