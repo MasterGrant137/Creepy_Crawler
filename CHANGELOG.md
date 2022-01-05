@@ -1,3 +1,8 @@
+#### Jan 4, 2022
++ Added more error handling for the search engine.
++ Addressed styling/accessibility issue in modal dropdown.
++ Fixed bug where site background image wouldn't appear.
+---
 #### Jan 1, 2022
 + A user can now pick one of the several new default themes from the profile modal menu.
 + When copying a theme’s settings, the JSON value for *background_rotate* is now correctly formatted as a boolean (instead of a string).
