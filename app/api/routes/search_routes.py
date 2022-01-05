@@ -85,8 +85,13 @@ def add_search_entry():
 
 @crochet.wait_for(timeout=200.0)
 def scrape_with_crochet(raw_query):
-    """Connect Flask with Scrapy asynchronously."""
-    partitioned_query = ('|').join([i for i in raw_query.split() if i not in stop_word_set])
+    r"""Connect Flask with Scrapy asynchronously.
+    
+    In regard to the partitioned query's regular expression:
+        - Assert string is not preceded by any word characters (negative lookbehind): `(?<!\w)`
+        - Only match match strings followed by specified characters: `[\s|.|,|?|!|:|;|-]`
+    """
+    partitioned_query = ('|').join([f'(?<!\w){i}[\s|.|,|?|!|:|;|-]' for i in raw_query.split() if i not in stop_word_set])
     query_regex = re.compile(rf'{partitioned_query}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
     spiders = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8, caerostris_darwini.BroadCrawler9]
