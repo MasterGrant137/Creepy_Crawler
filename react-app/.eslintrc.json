@@ -17,7 +17,7 @@
         "jsx-a11y/aria-role": "warn", //? assures ARIA rules are valid
         "no-alert": "off", //? alert used when pre-validation subverted
         "no-param-reassign": 0, //? param reassigned when iterating through DOM element children
-        "no-plusplus": [2, { "allowForLoopAfterthoughts": true }], //? allows increment and decrement operators in for loops
+        "no-plusplus": 0, //? allows increment and decrement operators
         "no-underscore-dangle": "off", //? Redux store uses dangling underscore for configuration
         "no-unused-expressions": ["error", { "allowTernary": true }], //? allows ternary reassignment
         "react/jsx-indent": ["error", 4], //? I prefer four space indents for this project

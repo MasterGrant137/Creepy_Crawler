@@ -38,23 +38,34 @@ const SearchPage = ({ style }) => {
         return null;
     }, [dispatch, user]);
 
-    if (loading) {
-        return (<FontAwesomeIcon
-            alt='Spinning Loading Compass'
-            title='Spinning Loading Compass'
-            icon='compass'
-            spin
-            style={{
-                background: 'none',
-                boxShadow: 'none',
-                height: '50vh',
-                left: '25vw',
-                outline: 'none',
-                position: 'absolute',
-                top: '25vh',
-                width: '50vw',
-            }}
-        />);
+    if (!loading) {
+        let maxTime = 25;
+        const timer = setInterval(() => {
+            maxTime--;
+            if (maxTime === 0) {
+                clearInterval(timer);
+                // window.location.reload();
+            }
+            document.getElementById('search-time-countdown').innerText = maxTime;
+        }, 1000);
+        return (
+            <div className='search-page-waiting-container'>
+                <div
+                    id='search-time-countdown'
+                    className='search-time-countdown'
+                    style={{ color: style.accent_2 }}
+                >
+                    {maxTime}
+                </div>
+                <FontAwesomeIcon
+                    className='search-waiting-icon'
+                    alt='Spinning Loading Compass'
+                    title='Spinning Loading Compass'
+                    icon='compass'
+                    spin
+                />
+            </div>
+        );
     }
 
     return (

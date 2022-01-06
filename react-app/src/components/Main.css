@@ -151,9 +151,7 @@ nav * {
     user-select: none;
 }
 
-nav [data-icon] {
-    cursor: pointer;
-}
+nav [data-icon] { cursor: pointer }
 /*=================================*/
 /*$===========Search Page=========$*/
 /*=================================*/

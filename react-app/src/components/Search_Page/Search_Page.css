@@ -16,3 +16,24 @@
     text-decoration: underline wavy;
     width: 50%;
 }
+
+div.search-page-waiting-container [data-icon].search-waiting-icon {
+    background: none;
+    box-shadow: none;
+    height: 50vh;
+    left: 25vw;
+    outline: none;
+    position: absolute;
+    top: 25vh;
+    width: 50%;
+}
+
+.search-time-countdown {
+    font-size: 40vh;
+    left: 25vw;
+    position: absolute;
+    text-align: center;
+    top: 35vh;
+    width: 50%;
+    z-index: 1;
+}
