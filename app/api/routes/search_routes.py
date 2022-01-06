@@ -94,10 +94,11 @@ def scrape_with_crochet(raw_query):
     partitioned_query = ('|').join([f'(?<!\w){i}[\s|.|,|?|!|:|;|-]' for i in raw_query.split() if i not in stop_word_set])
     query_regex = re.compile(rf'{partitioned_query}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    spiders = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8, caerostris_darwini.BroadCrawler9]
-    [crawl_runner.crawl(spider, query_regex=query_regex) for spider in spiders]
-    eventual = crawl_runner.join()
-    return eventual
+    spiders = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8]
+    if len(partitioned_query):
+        for spider in spiders: crawl_runner.crawl(spider, query_regex=query_regex)
+        eventual = crawl_runner.join()
+        return eventual
 
 def _crawler_result(item, response, spider):
     """Typecast each element of crawler's yield into dictionary and append to list."""

@@ -7,8 +7,8 @@ Categories:
 + Videographic (video)
 """
 
-import scrapy
 import re
+import scrapy
 
 class BroadCrawler1(scrapy.Spider):
     """Broad crawling spider."""
@@ -147,19 +147,19 @@ class BroadCrawler8(scrapy.Spider):
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
-class BroadCrawler9(scrapy.Spider):
-    """Broad crawling spider."""
+# class BroadCrawler9(scrapy.Spider):
+#     """Broad crawling spider."""
 
-    name = 'broad_crawler_9'
-    start_urls = ['https://moz.com/top500']
+#     name = 'broad_crawler_9'
+#     start_urls = ['https://moz.com/top500']
 
-    def parse(self, response):
-        """Follow links."""
-        try:
-            all_text = response.css('*:not(script):not(style)::text')
-            for text in all_text:
-                query_found = bool(re.search(self.query_regex, text.get()))
-                if query_found: yield { 'url': response.request.url, 'text': text.get() }
-        except: print(f'End of the line error for {self.name}.')
+#     def parse(self, response):
+#         """Follow links."""
+#         try:
+#             all_text = response.css('*:not(script):not(style)::text')
+#             for text in all_text:
+#                 query_found = bool(re.search(self.query_regex, text.get()))
+#                 if query_found: yield { 'url': response.request.url, 'text': text.get() }
+#         except: print(f'End of the line error for {self.name}.')
 
-        yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+#         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
