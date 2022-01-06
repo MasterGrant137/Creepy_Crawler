@@ -40,9 +40,9 @@ Migrate(app, db)
 # Application Security
 CORS(app)
 
-# Since we are deploying with Docker and Flask,
-# we won't be using a buildpack when we deploy to Heroku.
-# Therefore, we need to make sure that in production any
+# Since I am deploying with Docker and Flask,
+# I won't be using a buildpack when I deploy to Heroku.
+# Therefore, I need to make sure that in production any
 # request made over http is redirected to https.
 # Well.........
 @app.before_request
