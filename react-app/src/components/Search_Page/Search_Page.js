@@ -12,6 +12,7 @@ const SearchPage = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector((state) => state.session.user);
     const [loading, setLoading] = useState(false);
+    const [count, setCount] = useState(25);
 
     let isUser;
     if (user && !user.errors) isUser = true;
@@ -38,24 +39,30 @@ const SearchPage = ({ style }) => {
         return null;
     }, [dispatch, user]);
 
-    if (!loading) {
-        let maxTime = 25;
-        const timer = setInterval(() => {
-            maxTime--;
-            if (maxTime === 0) {
-                clearInterval(timer);
-                // window.location.reload();
-            }
-            document.getElementById('search-time-countdown').innerText = maxTime;
-        }, 1000);
+    useEffect(() => {
+        if (loading) {
+            let countdown = count;
+            const timer = setInterval(() => {
+                countdown--;
+                setCount(countdown);
+                if (countdown === 0) {
+                    clearInterval(timer);
+                    window.location.reload();
+                }
+            }, 1000);
+        }
+    }, [loading]);
+
+    if (loading) {
         return (
             <div className='search-page-waiting-container'>
                 <div
                     id='search-time-countdown'
                     className='search-time-countdown'
+                    value={count}
                     style={{ color: style.accent_2 }}
                 >
-                    {maxTime}
+                    {count}
                 </div>
                 <FontAwesomeIcon
                     className='search-waiting-icon'
@@ -70,7 +77,7 @@ const SearchPage = ({ style }) => {
 
     return (
         <div className='search-page-container'>
-            <h1 className='search-page-title'>Creepy Crawler</h1>
+            <span className='search-page-title'>Creepy Crawler</span>
             <form onSubmit={searchHandler} className='search-page-search-form'>
                 <input
                     type='search'
