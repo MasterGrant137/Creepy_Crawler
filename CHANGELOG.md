@@ -1,3 +1,9 @@
+#### Jan 6, 2022
++ Search engine optimizations: relevance of search results, performance.
++ UX improvements: countdown timer, client protection against excessively long searches.
++ UI improvements: search page title, favicon.
++ Various project updates: ERD file, site cover.
+---
 #### Jan 4, 2022
 + Added more error handling for the search engine.
 + Addressed styling/accessibility issue in modal dropdown.
