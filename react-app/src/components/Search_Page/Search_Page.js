@@ -12,7 +12,7 @@ const SearchPage = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector((state) => state.session.user);
     const [loading, setLoading] = useState(false);
-    const [count, setCount] = useState(25);
+    const [count, setCount] = useState(5);
 
     let isUser;
     if (user && !user.errors) isUser = true;
@@ -23,15 +23,23 @@ const SearchPage = ({ style }) => {
 
         const search = e.target.children[0].value;
         if (/^\s*$/.test(search)) return;
+
         setLoading(true);
+        let countdown = count - 1;
+        const timer = setInterval(() => {
+            if (countdown === 0) window.location.reload();
+            setCount(countdown);
+            countdown--;
+        }, 1000);
 
         await dispatch(createSearchEntry({
             search,
             updatedAt: new Date().toString(),
             user,
         }));
-        history.push('/search/results/');
         setLoading(false);
+        history.push('/search/results/');
+        clearInterval(timer);
     };
 
     useEffect(() => {
@@ -39,27 +47,13 @@ const SearchPage = ({ style }) => {
         return null;
     }, [dispatch, user]);
 
-    useEffect(() => {
-        if (loading) {
-            let countdown = count;
-            const timer = setInterval(() => {
-                countdown--;
-                setCount(countdown);
-                if (countdown === 0) {
-                    clearInterval(timer);
-                    window.location.reload();
-                }
-            }, 1000);
-        }
-    }, [loading]);
-
     if (loading) {
         return (
             <div className='search-page-waiting-container'>
                 <div
                     id='search-time-countdown'
                     className='search-time-countdown'
-                    value={count}
+                    // value={count}
                     style={{ color: style.accent_2 }}
                 >
                     {count}

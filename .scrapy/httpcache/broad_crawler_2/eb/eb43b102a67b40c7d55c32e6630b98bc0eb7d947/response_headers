@@ -1,0 +1,25 @@
+Content-Length: 10853
+Accept-Ranges: bytes
+Age: 341
+Cache-Control: public, max-age=300
+Content-Encoding: gzip
+Content-Language: en
+Content-Type: text/html; charset=utf-8
+Date: Thu, 06 Jan 2022 08:02:27 GMT
+Etag: "1641448025-1"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Thu, 06 Jan 2022 05:47:05 GMT
+Link: </no-fear-act>; rel="canonical",</node/646>; rel="shortlink"
+Permissions-Policy: interest-cohort=()
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Cookie,Accept-Encoding
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Drupal-Cache: HIT
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+X-Request-Id: v-31dc84fe-6ec6-11ec-908c-53f9da9b380b
+X-Ua-Compatible: IE=edge,chrome=1
