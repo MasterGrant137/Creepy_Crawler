@@ -53,9 +53,19 @@ const SearchResultsPage = ({ style }) => {
         </div>
     ));
 
+    const shuffle = (array) => {
+        for (let i = array.length - 1; i >= 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const t = array[i];
+            array[i] = array[j];
+            array[j] = t;
+        }
+        return results;
+    };
+
     return (
         <div className='search-results-page-container' style={{ backgroundColor: style.background_color }}>
-            {results.length ? results : 'No results.'}
+            {results.length ? shuffle(results) : 'No results.'}
         </div>
     );
 };

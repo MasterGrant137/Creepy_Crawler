@@ -1,0 +1,24 @@
+Date: Thu, 06 Jan 2022 08:02:28 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: must-revalidate, no-cache, private
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+Link: <https://heal.nih.gov/>; rel="canonical"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+Vary: Accept-Encoding
+X-Request-Id: v-fd6bf082-6ec6-11ec-bd67-9fb95735c828
+X-Ah-Environment: prod
+Age: 0
+Via: varnish
+X-Cache: MISS
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Strict-Transport-Security: max-age=31536000
+Server: cloudflare
+Cf-Ray: 6c936c98eb49522b-LAX
+Content-Encoding: gzip

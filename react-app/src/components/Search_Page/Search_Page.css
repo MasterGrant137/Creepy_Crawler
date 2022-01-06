@@ -1,6 +1,6 @@
-.search-page-search-input {
-    border: 3px solid;
-}
+.search-page-title { font-size: 10vh }
+
+.search-page-search-input { border: 3px solid }
 
 .search-result-div {
     border-bottom: 3px dotted;
@@ -15,4 +15,26 @@
 .search-result-div > a:hover {
     text-decoration: underline wavy;
     width: 50%;
+}
+
+div.search-page-waiting-container [data-icon].search-waiting-icon {
+    background: none;
+    box-shadow: none;
+    height: 50vh;
+    left: 25vw;
+    outline: none;
+    position: absolute;
+    top: 25vh;
+    width: 50%;
+}
+
+.search-time-countdown {
+    font-family: 'Times New Roman';
+    font-size: 40vh;
+    left: 25vw;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 50%;
+    z-index: 1;
 }

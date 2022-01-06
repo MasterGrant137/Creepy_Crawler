@@ -27,6 +27,7 @@ from app.forms import SearchForm
 from flask_login import current_user, login_required
 
 output_data = []
+stop_word_set = {'ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than'}
 settings = get_project_settings()
 settings_dict = json.load(open('app/api/routes/settings.json'))
 settings.update(settings_dict)
@@ -48,7 +49,7 @@ def add_search_entry():
     form['csrf_token'].data = request.cookies['csrf_token']
 
     if form.validate_on_submit():
-        query = form.data['search']
+        raw_query = form.data['search']
         try: 
             request.json['user']['id'] == current_user.id
             js_tstamp = request.json['updatedAt']
@@ -66,7 +67,7 @@ def add_search_entry():
 
             history_entry = History(
                 user_id=current_user.id,
-                search=query,
+                search=raw_query,
                 tz=js_tz_parsed,
                 tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
                 updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
@@ -75,21 +76,29 @@ def add_search_entry():
             db.session.add(history_entry)
             db.session.commit()
             entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
-            scrape_with_crochet(query)
+            scrape_with_crochet(raw_query)
             return { 'history': [ entry.to_dict() for entry in entries ] }
         except:
-            scrape_with_crochet(query)
+            scrape_with_crochet(raw_query)
             return { 'message': ["Log in or sign up to record search and visit history."] }
     return {'errors': validation_errors_to_error_messages(form.errors)}, 400
 
 @crochet.wait_for(timeout=200.0)
-def scrape_with_crochet(query):
-    """Connect Flask with Scrapy asynchronously."""
+def scrape_with_crochet(raw_query):
+    r"""Connect Flask with Scrapy asynchronously.
+    
+    In regard to the partitioned query's regular expression:
+        - Assert string is not preceded by any word characters (negative lookbehind): `(?<!\w)`
+        - Only match match strings followed by specified characters: `[\s|.|,|?|!|:|;|-]`
+    """
+    partitioned_query = ('|').join([f'(?<!\w){i}[\s|.|,|?|!|:|;|-]' for i in raw_query.split() if i not in stop_word_set])
+    query_regex = re.compile(rf'{partitioned_query}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    spiders = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8, caerostris_darwini.BroadCrawler9]
-    [crawl_runner.crawl(spider, query=query) for spider in spiders]
-    eventual = crawl_runner.join()
-    return eventual
+    spiders = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8]
+    if len(partitioned_query):
+        for spider in spiders: crawl_runner.crawl(spider, query_regex=query_regex)
+        eventual = crawl_runner.join()
+        return eventual
 
 def _crawler_result(item, response, spider):
     """Typecast each element of crawler's yield into dictionary and append to list."""

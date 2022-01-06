@@ -12,6 +12,7 @@ const SearchPage = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector((state) => state.session.user);
     const [loading, setLoading] = useState(false);
+    const [count, setCount] = useState(5);
 
     let isUser;
     if (user && !user.errors) isUser = true;
@@ -22,15 +23,23 @@ const SearchPage = ({ style }) => {
 
         const search = e.target.children[0].value;
         if (/^\s*$/.test(search)) return;
+
         setLoading(true);
+        let countdown = count - 1;
+        const timer = setInterval(() => {
+            if (countdown === 0) window.location.reload();
+            setCount(countdown);
+            countdown--;
+        }, 1000);
 
         await dispatch(createSearchEntry({
             search,
             updatedAt: new Date().toString(),
             user,
         }));
-        history.push('/search/results/');
         setLoading(false);
+        history.push('/search/results/');
+        clearInterval(timer);
     };
 
     useEffect(() => {
@@ -39,27 +48,30 @@ const SearchPage = ({ style }) => {
     }, [dispatch, user]);
 
     if (loading) {
-        return (<FontAwesomeIcon
-            alt='Spinning Loading Compass'
-            title='Spinning Loading Compass'
-            icon='compass'
-            spin
-            style={{
-                background: 'none',
-                boxShadow: 'none',
-                height: '50vh',
-                left: '25vw',
-                outline: 'none',
-                position: 'absolute',
-                top: '25vh',
-                width: '50vw',
-            }}
-        />);
+        return (
+            <div className='search-page-waiting-container'>
+                <div
+                    id='search-time-countdown'
+                    className='search-time-countdown'
+                    // value={count}
+                    style={{ color: style.accent_2 }}
+                >
+                    {count}
+                </div>
+                <FontAwesomeIcon
+                    className='search-waiting-icon'
+                    alt='Spinning Loading Compass'
+                    title='Spinning Loading Compass'
+                    icon='compass'
+                    spin
+                />
+            </div>
+        );
     }
 
     return (
         <div className='search-page-container'>
-            <h1 className='search-page-title'>Creepy Crawler</h1>
+            <span className='search-page-title'>Creepy Crawler</span>
             <form onSubmit={searchHandler} className='search-page-search-form'>
                 <input
                     type='search'
