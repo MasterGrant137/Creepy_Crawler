@@ -1,3 +1,6 @@
+#### Jan 8, 2022
++ Improved aesthetics of navigation bar and modal menu.
+---
 #### Jan 6, 2022
 + Search engine optimizations: relevance of search results, performance.
 + UX improvements: countdown timer, client protection against excessively long searches.
