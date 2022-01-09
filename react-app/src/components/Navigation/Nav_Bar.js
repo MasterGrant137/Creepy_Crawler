@@ -59,7 +59,8 @@ const NavBar = ({ style }) => {
                         icon={['fab', 'linkedin']}
                         style={{ color: style.accent_2 }}
                     />
-                </a>
+                </a></ul>
+            <ul style={{ color: style.accent_2 }}>
                 {isUser && user.username}
                 <FontAwesomeIcon
                     alt='Crawler'
