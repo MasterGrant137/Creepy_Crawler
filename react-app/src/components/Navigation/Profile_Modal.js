@@ -30,10 +30,11 @@ const ProfileModal = ({ style }) => {
     ));
 
     return (
-        <div>
-            <label htmlFor='default-theme-editor'>Default Themes</label>
+        <div className='profile-dropdown' style= {{ backgroundColor: style.accent_1 }}>
+            <label htmlFor='default-theme-editor' style= {{ color: style.accent_2 }}>Default Themes</label>
             <select
                 id='default-theme-editor'
+                className='default-themes-dropdown'
                 name='Default Theme'
                 value={user?.default_theme || defaultThemeKeys[0]}
                 onChange={(e) => {

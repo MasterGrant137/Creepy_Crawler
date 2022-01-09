@@ -1,8 +1,7 @@
-.modal-styles {
-    right: 5%;
+.modal-styles > * {
     position: fixed;
-    top: 5%;
-    z-index: 10;
+    text-align: center;
+    z-index: 1;
 }
 
 .modal-overlay {
@@ -11,5 +10,14 @@
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 10;
+    z-index: 1;
+}
+
+.profile-dropdown {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    right: 2%;
+    top: 8%;
 }
