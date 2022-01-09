@@ -33,6 +33,8 @@ const NavBar = ({ style }) => {
         }
     };
 
+    const copyUsername = (e) => navigator.clipboard.writeText(e.target.innerText);
+
     return (
         <nav>
             <ul style={{ color: style.accent_2 }}>
@@ -59,8 +61,9 @@ const NavBar = ({ style }) => {
                         icon={['fab', 'linkedin']}
                         style={{ color: style.accent_2 }}
                     />
-                </a>
-                {isUser && user.username}
+                </a></ul>
+            <ul style={{ color: style.accent_2 }}>
+                {isUser && <span className='copy' onClick={copyUsername}>{user.username}</span>}
                 <FontAwesomeIcon
                     alt='Crawler'
                     title='Crawler'

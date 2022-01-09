@@ -9,7 +9,7 @@ const Modal = () => {
 
     return ReactDom.createPortal(
         <>
-            <div onClick={closeModal} className='modal-overlay'></div>
+            <div className='modal-overlay' onClick={closeModal}></div>
             <div className='modal-styles'>{modalContent}</div>
         </>,
         document.getElementById('portal'),
