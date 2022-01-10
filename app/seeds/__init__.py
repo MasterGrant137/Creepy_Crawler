@@ -19,4 +19,3 @@ def undo():
     """Create the `flask seed undo` command."""
     undo_users()
     undo_history()
-    # Add other undo functions here
