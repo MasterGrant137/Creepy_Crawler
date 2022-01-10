@@ -1,3 +1,5 @@
+"""History seeder."""
+
 from app.models import db, History
 from faker import Faker
 fake = Faker()
