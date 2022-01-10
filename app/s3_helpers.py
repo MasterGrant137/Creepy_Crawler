@@ -1,7 +1,6 @@
-"""aws helper functions."""
+"""AWS helper functions."""
 
 import boto3
-import botocore
 import os
 import uuid
 
