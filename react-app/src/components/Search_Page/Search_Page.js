@@ -33,6 +33,7 @@ const SearchPage = ({ style }) => {
         }, 1000);
 
         await dispatch(createSearchEntry({
+            origin: 'home_search',
             search,
             updatedAt: new Date().toString(),
             user,

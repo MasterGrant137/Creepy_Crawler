@@ -57,6 +57,7 @@ const HistoryPage = ({ style }) => {
         }, 1000);
 
         await dispatch(createSearchEntry({
+            origin: 'history_search',
             search,
             updatedAt: new Date().toString(),
             user,
