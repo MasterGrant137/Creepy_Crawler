@@ -1,3 +1,7 @@
+#### Jan 10, 2022
++ Addressed short search time bug.
++ Users can now re-search their past queries by clicking any entry in their history.
+---
 #### Jan 8, 2022
 + Improved aesthetics of navigation bar and modal menu.
 ---
