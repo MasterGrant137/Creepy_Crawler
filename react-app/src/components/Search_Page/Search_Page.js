@@ -12,7 +12,7 @@ const SearchPage = ({ style }) => {
     const dispatch = useDispatch();
     const user = useSelector((state) => state.session.user);
     const [loading, setLoading] = useState(false);
-    const [count, setCount] = useState(5);
+    const [count, setCount] = useState(25);
 
     let isUser;
     if (user && !user.errors) isUser = true;
@@ -53,7 +53,6 @@ const SearchPage = ({ style }) => {
                 <div
                     id='search-time-countdown'
                     className='search-time-countdown'
-                    // value={count}
                     style={{ color: style.accent_2 }}
                 >
                     {count}
