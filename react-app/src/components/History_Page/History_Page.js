@@ -34,7 +34,6 @@ const HistoryPage = ({ style }) => {
     const copyData = (data) => navigator.clipboard.writeText(data);
 
     const updateHandler = async (e) => {
-        e.preventDefault();
         await dispatch(updateHistoryEntry({
             entryID: e.target.dataset.entryId,
             updatedAt: new Date().toString(),
@@ -123,14 +122,31 @@ const HistoryPage = ({ style }) => {
                     />
                 </div>
                 <div className='hist-text-div'>
-                    <span
-                        data-entry-id={entry.id}
-                        className='hist-text'
-                        onClick={updateHandler}
-                        style={{ color: style.accent_3 }}
-                    >
-                        {entry.search || <a href={entry.visit}>{entry.visit}</a>}
-                    </span>
+                    {(() => {
+                        if (entry.search) {
+                            return (<span
+                                data-entry-id={entry.id}
+                                className='hist-text'
+                                onClick={updateHandler}
+                                style={{
+                                    color: style.accent_3,
+                                    textDecorationColor: style.accent_1,
+                                }}
+                            >{entry.search}</span>);
+                        }
+                        return (<a
+                            data-entry-id={entry.id}
+                            className='hist-text'
+                            href={entry.visit}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            onClick={updateHandler}
+                            style={{
+                                color: style.accent_3,
+                                textDecorationColor: style.accent_1,
+                            }}
+                        >{entry.visit}</a>);
+                    })()}
                 </div>
             </div>
         ));

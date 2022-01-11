@@ -33,4 +33,9 @@
 
 .hist-text-div { grid-area: e }
 
-.hist-text { cursor: pointer }
+.hist-text { 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hist-text:hover { text-decoration: underline wavy }
