@@ -42,13 +42,8 @@ const SearchResultsPage = ({ style }) => {
                 target='_blank'
                 rel='noopener noreferrer'
                 onClick={visitHandler}
-                style={{
-                    color: style.accent_2,
-                    textDecorationColor: style.accent_1,
-                }}
-            >
-                {result[0]}
-            </a>
+                style={{ color: style.accent_2, textDecorationColor: style.accent_1 }}
+            > {result[0]}</a>
             <p style={{ color: style.accent_3 }}>{result[1]}</p>
         </div>
     ));

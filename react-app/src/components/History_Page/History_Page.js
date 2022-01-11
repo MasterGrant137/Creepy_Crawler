@@ -1,18 +1,29 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
-import { readHistoryEntries, updateHistoryEntry, deleteHistoryEntry } from '../../store/search_store';
+import {
+    createSearchEntry,
+    readHistoryEntries,
+    updateHistoryEntry,
+    deleteHistoryEntry,
+} from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
 import '../Main.css';
 import './History_Page.css';
+import '../Search_Page/Search_Page.css';
 import clock12Icon from './icons/12-hour-flaticon.png';
 import clock24Icon from './icons/24-hour-flaticon.png';
 
 const HistoryPage = ({ style }) => {
     const dispatch = useDispatch();
+    const user = useSelector((state) => state.session.user);
+    const history = useHistory();
     const entriesObj = useSelector((state) => state.history);
     const clock24 = useSelector((state) => state.session.user.clock_24);
+    const [loading, setLoading] = useState(false);
+    const [count, setCount] = useState(25);
 
     useEffect(() => {
         dispatch(readHistoryEntries());
@@ -30,6 +41,30 @@ const HistoryPage = ({ style }) => {
 
     let prevDayOfWk = null;
     let prevDate = null;
+
+    const searchHandler = async (e) => {
+        e.preventDefault();
+
+        const search = e.target.innerText;
+        if (/^\s*$/.test(search)) return;
+
+        setLoading(true);
+        let countdown = count - 1;
+        const timer = setInterval(() => {
+            if (countdown === 0) window.location.reload();
+            setCount(countdown);
+            countdown--;
+        }, 1000);
+
+        await dispatch(createSearchEntry({
+            search,
+            updatedAt: new Date().toString(),
+            user,
+        }));
+        setLoading(false);
+        history.push('/search/results/');
+        clearInterval(timer);
+    };
 
     const copyData = (data) => navigator.clipboard.writeText(data);
 
@@ -124,32 +159,59 @@ const HistoryPage = ({ style }) => {
                 <div className='hist-text-div'>
                     {(() => {
                         if (entry.search) {
-                            return (<span
+                            return (
+                                <form className='search-page-search-form'>
+                                    <span
+                                        data-entry-id={entry.id}
+                                        className='hist-text'
+                                        onClick={(e) => {
+                                            updateHandler(e);
+                                            searchHandler(e);
+                                        }}
+                                        style={{
+                                            color: style.accent_3,
+                                            textDecorationColor: style.accent_1,
+                                        }}
+                                    >{entry.search}</span></form>);
+                        }
+                        return (
+                            <a
                                 data-entry-id={entry.id}
                                 className='hist-text'
+                                href={entry.visit}
+                                target='_blank'
+                                rel='noopener noreferrer'
                                 onClick={updateHandler}
                                 style={{
                                     color: style.accent_3,
                                     textDecorationColor: style.accent_1,
                                 }}
-                            >{entry.search}</span>);
-                        }
-                        return (<a
-                            data-entry-id={entry.id}
-                            className='hist-text'
-                            href={entry.visit}
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            onClick={updateHandler}
-                            style={{
-                                color: style.accent_3,
-                                textDecorationColor: style.accent_1,
-                            }}
-                        >{entry.visit}</a>);
+                            >{entry.visit}</a>);
                     })()}
                 </div>
             </div>
         ));
+
+    if (loading) {
+        return (
+            <div className='search-page-waiting-container'>
+                <div
+                    id='search-time-countdown'
+                    className='search-time-countdown'
+                    style={{ color: style.accent_2 }}
+                >
+                    {count}
+                </div>
+                <FontAwesomeIcon
+                    className='search-waiting-icon'
+                    alt='Spinning Loading Compass'
+                    title='Spinning Loading Compass'
+                    icon='compass'
+                    spin
+                />
+            </div>
+        );
+    }
 
     return (
         <div className='history-page-container'>
