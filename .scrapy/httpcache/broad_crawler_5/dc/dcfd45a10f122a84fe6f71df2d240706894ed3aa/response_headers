@@ -1,0 +1,19 @@
+Content-Length: 9630
+Content-Type: text/html
+Date: Tue, 11 Jan 2022 01:10:32 GMT
+Server: Apache-Coyote/1.1
+Content-Encoding: gzip
+Via: 1.1 varnish (Varnish/6.0), 1.1 42b10ce0efa243af420d08c395787242.cloudfront.net (CloudFront)
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Set-Cookie: connectionspeed=full; path=/; Expires=Tue, 18 Jan 2022 01:10:32 GMT;
+Set-Cookie: edition-view=espn-en-us; path=/; Expires=Tue, 18 Jan 2022 01:10:32 GMT;
+Set-Cookie: edition=espn-en-us; path=/; Expires=Tue, 18 Jan 2022 01:10:32 GMT;
+Set-Cookie: country=us; path=/;
+Set-Cookie: region=ccpa; path=/; Expires=Tue, 18 Jan 2022 01:10:32 GMT;
+Set-Cookie: _dcf=1; path=/; Expires=Tue, 18 Jan 2022 01:10:32 GMT;
+Set-Cookie: SWID=C7763196-7A2C-4B3A-CBEA-035F2719460E; path=/; Expires=Sat, 11 Jan 2042 01:10:32 GMT; domain=espn.com;
+Cache-Control: max-age=0, must-revalidate
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: y6GbUGGthXj7Tt_ocuv06pKbk5V4mRQPgINFnE3PHAnSkMUk05npnA==

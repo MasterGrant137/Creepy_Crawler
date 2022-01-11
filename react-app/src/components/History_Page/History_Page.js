@@ -39,7 +39,6 @@ const HistoryPage = ({ style }) => {
             entryID: e.target.dataset.entryId,
             updatedAt: new Date().toString(),
         }));
-        // if (data) history.push('api/history/results/');
     };
 
     const editProfileHandler = (eType) => {
@@ -130,7 +129,7 @@ const HistoryPage = ({ style }) => {
                         onClick={updateHandler}
                         style={{ color: style.accent_3 }}
                     >
-                        {entry.search || entry.visit}
+                        {entry.search || <a href={entry.visit}>{entry.visit}</a>}
                     </span>
                 </div>
             </div>
