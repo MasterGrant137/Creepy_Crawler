@@ -14,11 +14,11 @@
 
     // Component opening...
 
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         // dispatch
-        setLoaded(true);
+        setLoading(false);
     }, [dispatch]);
 
     //Component closing...
