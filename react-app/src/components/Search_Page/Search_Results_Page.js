@@ -7,7 +7,7 @@ import './Search_Page.css';
 
 const SearchResultsPage = ({ style }) => {
     const dispatch = useDispatch();
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     const user = useSelector((state) => state.session.user);
     const resultsObj = useSelector((state) => state.searchResults);
 
@@ -24,11 +24,11 @@ const SearchResultsPage = ({ style }) => {
     };
 
     useEffect(() => {
-        setLoading(true);
         dispatch(readSearchResults());
+        setLoading(false);
         if (isUser) dispatch(readUserSettings());
         return null;
-    }, [dispatch]);
+    }, [dispatch, user]);
 
     const results = Object.values(resultsObj).map((result, idx) => (
         <div
