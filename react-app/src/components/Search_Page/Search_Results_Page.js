@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { createVisitEntry, readSearchResults } from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
@@ -7,6 +7,7 @@ import './Search_Page.css';
 
 const SearchResultsPage = ({ style }) => {
     const dispatch = useDispatch();
+    const [loading, setLoading] = useState(false);
     const user = useSelector((state) => state.session.user);
     const resultsObj = useSelector((state) => state.searchResults);
 
@@ -23,7 +24,9 @@ const SearchResultsPage = ({ style }) => {
     };
 
     useEffect(() => {
+        setLoading(true);
         dispatch(readSearchResults());
+        setLoading(false);
         if (isUser) dispatch(readUserSettings());
         return null;
     }, [dispatch]);
@@ -57,6 +60,9 @@ const SearchResultsPage = ({ style }) => {
         }
         return results;
     };
+
+    // if (loading) { return (<></>); }
+    if (loading) { return null; }
 
     return (
         <div className='search-results-page-container' style={{ backgroundColor: style.background_color }}>
