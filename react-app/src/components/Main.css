@@ -185,8 +185,8 @@ nav [data-icon] { cursor: pointer }
     100% { background-position-y: 100%; }
 }
 
-.inline-error {
-    animation: inline-fade-in-out 3s;
+.fade-in-out-error {
+    animation: fade-in-out 3s;
     background-color: rgb(255, 255, 255);
     color: black;
     left: 25%;
@@ -196,7 +196,21 @@ nav [data-icon] { cursor: pointer }
     top: 3%;
 }
 
-@keyframes inline-fade-in-out {
+@keyframes fade-in-out {
+    0% { opacity: 0 }
+    50% { opacity: 1 }
+    100% { opacity: 0 }
+}
+
+.fade-in-error {
+    animation: fade-in infinite 5s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    opacity: 0;
+    padding: 10px;
+}
+
+@keyframes fade-in {
     0% { opacity: 0 }
     50% { opacity: 1 }
     100% { opacity: 0 }
