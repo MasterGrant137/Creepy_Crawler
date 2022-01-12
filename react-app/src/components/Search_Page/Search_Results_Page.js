@@ -26,7 +26,6 @@ const SearchResultsPage = ({ style }) => {
     useEffect(() => {
         setLoading(true);
         dispatch(readSearchResults());
-        setLoading(false);
         if (isUser) dispatch(readUserSettings());
         return null;
     }, [dispatch]);
@@ -51,6 +50,11 @@ const SearchResultsPage = ({ style }) => {
         </div>
     ));
 
+    const noResultsReadout = () => {
+        if (loading) return '';
+        return 'No results';
+    };
+
     const shuffle = (array) => {
         for (let i = array.length - 1; i >= 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -61,12 +65,9 @@ const SearchResultsPage = ({ style }) => {
         return results;
     };
 
-    // if (loading) { return (<></>); }
-    if (loading) { return null; }
-
     return (
         <div className='search-results-page-container' style={{ backgroundColor: style.background_color }}>
-            {results.length ? shuffle(results) : 'No results.'}
+            {results.length ? shuffle(results) : noResultsReadout()}
         </div>
     );
 };
