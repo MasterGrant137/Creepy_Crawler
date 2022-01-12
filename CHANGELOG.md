@@ -1,3 +1,7 @@
+### Jan 11, 2022
++ UI improvements to “No results.” message.
++ Fixed bug where search timer would continue to count into negative numbers.
+---
 #### Jan 10, 2022
 + Addressed short search time bug.
 + Users can now re-search their past queries by clicking any entry in their history.
