@@ -27,7 +27,10 @@ const SearchPage = ({ style }) => {
         setLoading(true);
         let countdown = count - 1;
         const timer = setInterval(() => {
-            if (countdown === 0) window.location.reload();
+            if (countdown === 0) {
+                clearInterval(timer);
+                window.location.reload();
+            }
             setCount(countdown);
             countdown--;
         }, 1000);
