@@ -63,14 +63,15 @@ Creepy Crawler is a full-stack search engine application. It's inspired by popul
 
 ### Create custom themes 🎨
 ![custom themes](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_2_images/custom-themes.gif)
++ AWS integration allows users to add backgrounds and profile images of their choice.
 
 ### Look over your search history 🔍
 ![history](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_2_images//history.gif)
-+ The user is able to switch between 24 and 12 hour time. Moreover, NATO timezone abbreviations are specially parsed for users with altered native settings.
++ The user can conveniently switch between 24 and 12 hour time. 
++ Moreover, NATO timezone abbreviations are specially parsed for users with altered native settings.
 
 ### Enjoy advanced interactions with your themes 🧮
 ![theme interaction](https://github.com/MasterGrant137/Creepy_Crawler/blob/main/z-files/images/readme_images/readme_2_images/theme-interaction.gif)
-+ AWS integration allows users to add backgrounds and profile images of their choice.
 
 ### Contact
 + [LinkedIn](https://www.linkedin.com/in/alejandro-c-grant/)
