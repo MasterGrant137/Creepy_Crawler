@@ -51,7 +51,6 @@ const SearchResultsPage = ({ style }) => {
   const processFullResults = (resObj, action) => {
     if (action === 'save') {
       sessionStorage.searchResults = JSON.stringify(resultsObj);
-      results.sort((a, b) => a - b);
       return results;
     }
     const res = (Object.values(resObj).map((result, idx) => (
@@ -73,8 +72,6 @@ const SearchResultsPage = ({ style }) => {
             <p style={{ color: style.accent_2 }}>{result[1]}</p>
         </div>
     )));
-    res.sort((a, b) => a - b);
-    // console.log(resObj, res.props.children);
     return res;
   };
 
