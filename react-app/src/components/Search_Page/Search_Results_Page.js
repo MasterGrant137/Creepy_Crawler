@@ -36,7 +36,7 @@ const SearchResultsPage = ({ style }) => {
             borderColor: style.accent_1,
             marginBottom: style.font_size,
           }}
-        >
+      >
           <a
               href={result[0]}
               target='_blank'
@@ -48,19 +48,45 @@ const SearchResultsPage = ({ style }) => {
       </div>
   ));
 
-  const shuffle = (array) => {
-    for (let i = array.length - 1; i >= 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      const t = array[i];
-      array[i] = array[j];
-      array[j] = t;
+  const processFullResults = (resObj, action) => {
+    if (action === 'save') {
+      sessionStorage.searchResults = JSON.stringify(resultsObj);
+      results.sort((a, b) => a - b);
+      return results;
     }
-    return results;
+    const res = (Object.values(resObj).map((result, idx) => (
+        <div
+            key={idx}
+            className='search-result-div'
+            style={{
+              borderColor: style.accent_1,
+              marginBottom: style.font_size,
+            }}
+        >
+            <a
+                href={result[0]}
+                target='_blank'
+                rel='noopener noreferrer'
+                onClick={visitHandler}
+                style={{ color: style.accent_3, textDecorationColor: style.accent_2 }}
+                > {result[0]}</a>
+            <p style={{ color: style.accent_2 }}>{result[1]}</p>
+        </div>
+    )));
+    res.sort((a, b) => a - b);
+    // console.log(resObj, res.props.children);
+    return res;
+  };
+
+  const processEmptyResults = () => {
+    const storedRes = sessionStorage.searchResults;
+    if (storedRes) return processFullResults(JSON.parse(storedRes), 'refill');
+    return (<span className='fade-in-error'>No results.</span>);
   };
 
   return (
       <div className='search-results-page-container' style={{ backgroundColor: style.background_color }}>
-          {results.length ? shuffle(results) : (() => (<span className='fade-in-error'>No results.</span>))()}
+          {results.length ? processFullResults(results, 'save') : processEmptyResults()}
       </div>
   );
 };

@@ -47,6 +47,7 @@ const HistoryPage = ({ style }) => {
 
     const search = e.target.innerText;
     if (/^\s*$/.test(search)) return;
+    sessionStorage.searchResults = '';
 
     setLoading(true);
     let countdown = count - 1;

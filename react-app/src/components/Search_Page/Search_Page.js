@@ -23,6 +23,7 @@ const SearchPage = ({ style }) => {
 
     const search = e.target.children[0].value;
     if (/^\s*$/.test(search)) return;
+    sessionStorage.searchResults = '';
 
     setLoading(true);
     let countdown = count - 1;
