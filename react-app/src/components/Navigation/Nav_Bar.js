@@ -37,7 +37,7 @@ const NavBar = ({ style }) => {
 
   return (
       <nav>
-          <ul style={{ color: style.accent_2 }}>
+          <ul className='personal-links' style={{ color: style.accent_2 }}>
               <a
                   href='https://github.com/MasterGrant137/Creepy_Crawler/wiki'
                   target='_blank'
@@ -63,7 +63,7 @@ const NavBar = ({ style }) => {
                     />
               </a></ul>
           <ul style={{ color: style.accent_2 }}>
-              {isUser && <span className='copy' onClick={copyUsername}>{user.username}</span>}
+              {isUser && <li className='copy' onClick={copyUsername}>{user.username}</li>}
               <FontAwesomeIcon
                   alt='Crawler'
                   title='Crawler'

@@ -1,3 +1,26 @@
+nav * {
+  margin: 0 5px;
+  user-select: none;
+}
+
+nav ul {
+align-items: flex-end;
+display: flex;
+padding: 0;
+}
+
+nav ul [role='button'] {
+position: relative;
+top: 5px;
+}
+
+nav .copy, .personal-links > a {
+  position: relative;
+  top: 3px;
+}
+
+nav [data-icon] { cursor: pointer }
+
 .profile-media-small {
     border-radius: 50%;
     height: 50px;

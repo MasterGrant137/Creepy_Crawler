@@ -1,6 +1,12 @@
 .search-page-title { font-size: 10vh }
 
-.search-page-search-input { border: 3px solid }
+.search-page-search-input {
+  border: 3px solid;
+  border-radius: 25px;
+  padding: 10px;
+  width: 55vw;
+  height: 5vh;
+}
 
 .search-result-div {
     border-bottom: 3px dotted;
