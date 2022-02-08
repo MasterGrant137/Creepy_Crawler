@@ -52,7 +52,7 @@ This is the starter for the Flask React project.
 
 ***Each time the database models change, repeat the migrate and upgrade commands.***
 
-6. To run the React App in development, checkout the [README](./react-app/README.md) inside the `react-app` directory.
+6. To run the React App in development, checkout the [README](./react-app/steps.md) inside the `react-app` directory.
 
 ***
 *IMPORTANT!*

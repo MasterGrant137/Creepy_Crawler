@@ -171,7 +171,7 @@ const HistoryPage = ({ style }) => {
                                 }}
                                 style={{
                                   color: style.accent_3,
-                                  textDecorationColor: style.accent_1,
+                                  textDecorationColor: style.accent_2,
                                 }}
                                     >{entry.search}</span></form>);
                   }
@@ -185,7 +185,7 @@ const HistoryPage = ({ style }) => {
                           onClick={updateHandler}
                           style={{
                             color: style.accent_3,
-                            textDecorationColor: style.accent_1,
+                            textDecorationColor: style.accent_2,
                           }}
                             >{entry.visit}</a>);
                 })()}
