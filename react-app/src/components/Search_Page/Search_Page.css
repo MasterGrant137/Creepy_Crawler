@@ -8,6 +8,7 @@
 }
 
 .search-result-div > a {
+    overflow-wrap: break-word;
     text-decoration: none;
     width: 50%;
 }

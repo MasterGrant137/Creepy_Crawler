@@ -2,8 +2,8 @@
 /*$==========Foundation===========$*/
 /*=================================*/
 * {
-    box-sizing: border-box;
-    scrollbar-width: none; /*$ Firefox $*/
+  box-sizing: border-box;
+  scrollbar-width: none; /*$ Firefox $*/
 }
 
 *::-webkit-scrollbar { display: none }
@@ -11,9 +11,9 @@
 [data-icon='copy'] { cursor: copy }
 
 button {
-    background: none;
-    border: none;
-    border-radius: 3px;
+  background: none;
+  border: none;
+  border-radius: 3px;
 }
 
 [role='button'] {
@@ -139,8 +139,8 @@ h1, label { user-select: none }
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    overflow: auto;
+    height: 85vh;
+    overflow-y: auto;
 }
 /*=================================*/
 /*$=========Nav Containers========$*/
@@ -178,6 +178,11 @@ nav [data-icon] { cursor: pointer }
     padding: 10px;
     width: 55vw;
     height: 5vh;
+}
+
+.search-results-page-container {
+    height: 85vh;
+    overflow-y: auto;
 }
 /*=================================*/
 /*$==========Animations===========$*/
