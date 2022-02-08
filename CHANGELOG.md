@@ -1,4 +1,8 @@
-### Jan 11, 2022
+#### Feb 7, 2022
++ UI improvements: navigation bar, history page, and search results page.
++ UX improvement to search results page, the results are now cached so that they persist after page refresh.
+---
+#### Jan 11, 2022
 + UI improvements to “No results.” message.
 + Fixed bug where search timer would continue to count into negative numbers.
 ---
@@ -29,7 +33,7 @@
 + Search engine optimizations: crawl is now unbounded, crawl distribution extended to eight spiders.
 ---
 #### Dec 10, 2021
-+ Search engine optimizations: addressed misformated seed urls, distributed crawling across two spiders.
++ Search engine optimizations: addressed incorrectly formatted seed urls, distributed crawling across two spiders.
 ---
 #### Dec 1, 2021
 + On every page’s initial DOM load, favicon is present.
