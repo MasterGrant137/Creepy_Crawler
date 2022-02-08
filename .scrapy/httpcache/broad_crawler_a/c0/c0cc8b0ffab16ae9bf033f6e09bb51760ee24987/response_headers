@@ -1,8 +1,0 @@
-Content-Length: 0
-Date: Mon, 20 Dec 2021 23:33:22 GMT
-Content-Type: text/html; charset=utf-8
-Server: nginx/1.17.8
-Etag: "d41d8cd98f00b204e9800998ecf8427e"
-Location: http://code.activestate.com/recipes/langs/python/
-Cache-Control: max-age=60
-X-Frame-Options: SAMEORIGIN

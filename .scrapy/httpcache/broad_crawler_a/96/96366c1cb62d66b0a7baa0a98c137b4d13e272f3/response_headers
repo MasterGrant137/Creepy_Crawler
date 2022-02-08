@@ -1,8 +1,0 @@
-Content-Length: 233
-Date: Tue, 21 Dec 2021 00:27:12 GMT
-Server: Apache
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-Location: https://misuse.ncbi.nlm.nih.gov/error/abuse.shtml
-Content-Type: text/html; charset=iso-8859-1
-Via: 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

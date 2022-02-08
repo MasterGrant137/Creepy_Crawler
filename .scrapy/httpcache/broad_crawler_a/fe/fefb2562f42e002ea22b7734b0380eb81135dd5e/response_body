@@ -1,8 +1,0 @@
-# robots.txt for http://code.activestate.com/
-
-User-agent: *
-Allow:
-Sitemap: https://code.activestate.com/sitemap.xml
-
-User-agent: Sosospider
-Disallow: /

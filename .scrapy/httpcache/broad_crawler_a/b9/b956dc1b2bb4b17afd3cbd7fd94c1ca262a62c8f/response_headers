@@ -1,9 +1,0 @@
-Content-Length: 0
-Date: Mon, 20 Dec 2021 23:30:23 GMT
-Location: https://www.drdobbs.com/robots.txt
-Cf-Cache-Status: BYPASS
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HXBSc1EwKacYP%2FayxN49O5BuZwN4ywC20x1Oc6eQ5umgHOA86cDTPY09JxMoqjt2E4i%2FczUtUVS5O%2FVub37fIgN890ju1OYJjsjiJDVY4EEIBSiTkIKt9srNlDJEJ8HaMA%3D%3D"}],"group":"cf-nel","max_age":604800}
-Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Vary: Accept-Encoding
-Server: cloudflare
-Cf-Ray: 6c0ca87dcd067c36-LAX

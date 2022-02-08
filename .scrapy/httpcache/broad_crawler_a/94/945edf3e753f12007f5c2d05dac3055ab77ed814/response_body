@@ -1,6 +1,0 @@
-
-      # robotstxt.org/
-      User-agent: *
-      Disallow:
-      Sitemap: https://lab.github.com/sitemap.txt
-    

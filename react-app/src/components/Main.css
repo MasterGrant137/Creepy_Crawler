@@ -156,6 +156,11 @@ nav * {
     user-select: none;
 }
 
+nav ul {
+  display: flex;
+  align-items: flex-end;
+}
+
 nav [data-icon] { cursor: pointer }
 /*=================================*/
 /*$===========Search Page=========$*/

@@ -35,6 +35,7 @@
 
 .hist-text { 
     cursor: pointer;
+    overflow-wrap: break-word;
     text-decoration: none;
 }
 
