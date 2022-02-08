@@ -16,6 +16,11 @@ button {
     border-radius: 3px;
 }
 
+[role='button'] {
+  border-radius: 3px;
+  cursor: pointer;
+}
+
 [data-icon] { border-radius: 5px }
 
 img { user-select: none }
@@ -40,7 +45,7 @@ ul { list-style-type: none }
 /*$=============Groups============$*/
 /*=================================*/
 [data-icon]:not(button > [data-icon]):hover,
-button:hover {
+button:hover, [role='button']:hover {
     background-color: rgba(192, 192, 192, 0.6);
     box-shadow: inset 0 0 1px 1px rgb(192, 189, 189);
 }
@@ -143,16 +148,12 @@ h1, label { user-select: none }
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 nav * {
     margin: 0 5px;
     user-select: none;
-}
-
-nav ul {
-    display: flex;
-    align-items: flex-end;
 }
 
 nav [data-icon] { cursor: pointer }
