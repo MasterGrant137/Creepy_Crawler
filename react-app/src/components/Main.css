@@ -142,7 +142,6 @@ h1, label { user-select: none }
 /*=================================*/
 nav {
     display: flex;
-    padding: 0 10px 0 10px;
     justify-content: space-between;
 }
 

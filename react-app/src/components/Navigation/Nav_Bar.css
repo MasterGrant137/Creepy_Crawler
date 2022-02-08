@@ -5,3 +5,7 @@
 }
 
 .profile-media-small:hover { border: 3px solid rgba(192, 192, 192, 0.6) }
+
+[role='button'] {
+  cursor: pointer;
+}
