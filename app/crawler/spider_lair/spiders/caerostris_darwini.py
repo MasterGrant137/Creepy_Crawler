@@ -38,14 +38,31 @@ class BroadCrawler1(scrapy.Spider):
     name = 'broad_crawler_1'
 
     def start_requests(self):
-        url = 'https://librarytechnology.org/repository/'
-        data = { 'submit': self.raw_query }
+        pass
+        # url = 'https://librarytechnology.org/repository/'
+        # data = { 'q': self.raw_query }
         # yield JsonRequest(url=url, data=data, callback=self.parse)
-        yield FormRequest(url, method='POST', formdata=data, callback=self.parse)
+        # yield FormRequest(
+        #                     url,
+        #                     method='POST', 
+        #                     formdata=data, 
+        #                     headers={ 'Content-Type': 'application/x-www-form-urlencoded' },
+        #                     callback=self.parse
+        #                 )
 
     def parse(self, response):
         """Follow links."""
         try:
+            url = 'https://librarytechnology.org/repository/'
+            data = { 'q': self.raw_query }
+            request = FormRequest.from_response(
+                                response,
+                                method='POST', 
+                                formdata=data, 
+                                headers={ 'Content-Type': 'application/x-www-form-urlencoded' },
+                                callback=self.parse
+                            )
+            yield request
             all_results = response.css('input::attr(value)')
             print('DISCOVERED', len(all_results), all_results)
             # for text in all_text:
