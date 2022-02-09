@@ -10,14 +10,13 @@ from scrapy.http import FormRequest
 
 class DeepCrawler1(scrapy.Spider):
     """Deep crawling spider."""
-    print('we are in business')
+
     name = 'deep_crawler_1'
     start_urls = ['https://librarytechnology.org/repository/']
 
     def parse(self, response):
         """Send post request."""
         try:
-            print('hitting parse', self.raw_query)
             data = { 'q': self.raw_query }
             request = FormRequest.from_response(
                                 response,
@@ -37,8 +36,8 @@ class DeepCrawler1(scrapy.Spider):
         the `action` attribute as opposed to the `href`.
         """
         forms = response.css('form::attr(action)')
-        print('hitting forms', len(forms))
-        i, res_length = 0, len(forms)
-        while 1 < i < (res_length - 2): 
-            yield { 'url': response.request.url, 'text': forms[i].get() }
+        print('hitting forms', type(forms))
+        i, res_length = 1, len(forms)
+        while i < (res_length - 2): 
+            yield { 'url': forms[i].get(), 'text': forms[i].get() }
             i += 1
