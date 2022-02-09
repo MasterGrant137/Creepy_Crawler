@@ -104,13 +104,13 @@ def scrape_with_crochet(raw_query):
     deep_crawlers = [theraphosidae.DeepCrawler1]
     if len(partitioned_query):
         # for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=query_regex)
-        for broad_crawler in deep_crawlers: crawl_runner.crawl(broad_crawler, raw_query=raw_query)
+        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, raw_query=raw_query)
         eventual = crawl_runner.join()
         return eventual
 
 def _crawler_result(item, response, spider):
     """Typecast each element of crawler's yield into dictionary and append to list."""
-    print('this is the repsonse:', response)
+    print('this is the response:', item)
     output_data.append(dict(item))
 
 @search_routes.route('/history/visits/', methods=['POST'])

@@ -1,0 +1,9 @@
+Sitemap: https://librarytechnology.org/SiteMap.xml
+User-agent: *
+Disallow: /facebook.pl
+Disallow: /message-send.pl
+Disallow: /lwc-displaylibrary.pl
+Disallow: /ltg-displaytext.pl
+Disallow: /bib-processquery.pl
+Disallow: /news/search.pl
+Disallow: /list/
