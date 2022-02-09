@@ -7,58 +7,54 @@ Categories:
 + Videographic (video)
 """
 
+from gc import callbacks
 import json
-from scrapy.http import FormRequest
+from scrapy.http import JsonRequest, FormRequest
 
 import re
 import scrapy
 
-class DeepCrawler1(scrapy.Spider):
-    """Broad crawling spider."""
-
-    name = 'deep_crawler_1'
-
-    def start_requests(self):
-        """Send request."""
-        request = scrapy.Request(f'https://onlinelibrary.wiley.com/action/doSearch?AllField={self.raw_query}', callback=self.parse)
-        print('THIS', request)
-        yield request
-
-    def parse(self, response):
-        """Follow links."""
-        try:
-            # print('LOOK AT PARSE', response.body)
-            all_text = response.css('a::attr(href)')
-            yield all_text
-        except: print(f'End of the line error for {self.name}.')
-
-# ! EXPERIMENTAL SPIDER
 # class DeepCrawler1(scrapy.Spider):
 #     """Broad crawling spider."""
 
 #     name = 'deep_crawler_1'
-#     start_urls = ['https://www.jstor.org/']
 
-#     def request_data(self):
-#         data = { 'Query': self.raw_query }
-#         yield JsonRequest(url=self.start_urls[0], data=data)
-#         print('LOOK AT REQUEST_DATA')
+#     start_urls = ['https://onlinelibrary.wiley.com/action/doSearch?AllField=poetry']
+#     # def start_requests(self):
+#     #     """Send request."""
+#     #     yield scrapy.Request(f'https://onlinelibrary.wiley.com/action/doSearch?AllField={self.raw_query}')
 
 #     def parse(self, response):
 #         """Follow links."""
 #         try:
-# data = { 'Query': self.raw_query }
-#         request = FormRequest(
-#                         response.url,
-#                         # method='POST',
-#                         # headers={ 'Content-Type': 'application/json' },
-#                         body=json.dumps(data),
-#                         callback=self.parse
-                    # )
+#             print('LOOK AT PARSE', response.url)
 #             all_text = response.css('a::attr(href)')
-#             print('LOOK AT PARSE', all_text)
 #             yield all_text
 #         except: print(f'End of the line error for {self.name}.')
+
+class BroadCrawler1(scrapy.Spider):
+    """Broad crawling spider."""
+
+    name = 'broad_crawler_1'
+
+    def start_requests(self):
+        url = 'https://librarytechnology.org/repository/'
+        data = { 'submit': self.raw_query }
+        # yield JsonRequest(url=url, data=data, callback=self.parse)
+        yield FormRequest(url, method='POST', formdata=data, callback=self.parse)
+
+    def parse(self, response):
+        """Follow links."""
+        try:
+            all_results = response.css('input::attr(value)')
+            print('DISCOVERED', len(all_results), all_results)
+            # for text in all_text:
+            #     query_found = bool(re.search(self.query_regex, text.get()))
+            #     if query_found: yield { 'url': response.request.url, 'text': text.get() }
+            yield { 'url': response.request.url, 'text': f'Deep search results: {len(all_results)}' }
+        except: print(f'End of the line error for {self.name}.')
+
+        # yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
 # class BroadCrawler1(scrapy.Spider):
 #     """Broad crawling spider."""
@@ -69,6 +65,7 @@ class DeepCrawler1(scrapy.Spider):
 #     def parse(self, response):
 #         """Follow links."""
 #         try:
+#             # print('DISCOVERED', response)
 #             all_text = response.css('*:not(script):not(style)::text')
 #             for text in all_text:
 #                 query_found = bool(re.search(self.query_regex, text.get()))

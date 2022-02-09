@@ -101,7 +101,7 @@ def scrape_with_crochet(raw_query):
     query_regex = re.compile(rf'{partitioned_query}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
     # broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8]
-    broad_crawlers = [caerostris_darwini.DeepCrawler1]
+    broad_crawlers = [caerostris_darwini.BroadCrawler1]
     if len(partitioned_query):
         # for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=query_regex)
         for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, raw_query=raw_query)
@@ -110,6 +110,7 @@ def scrape_with_crochet(raw_query):
 
 def _crawler_result(item, response, spider):
     """Typecast each element of crawler's yield into dictionary and append to list."""
+    print('this is the repsonse:', response)
     output_data.append(dict(item))
 
 @search_routes.route('/history/visits/', methods=['POST'])
