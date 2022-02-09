@@ -16,7 +16,7 @@ from scrapy import signals
 from scrapy.crawler import CrawlerRunner
 from scrapy.signalmanager import dispatcher
 from scrapy.utils.project import get_project_settings
-from app.crawler.spider_lair.spiders import caerostris_darwini
+from app.crawler.spider_lair.spiders import caerostris_darwini, theraphosidae
 
 import re
 import json
@@ -101,10 +101,10 @@ def scrape_with_crochet(raw_query):
     query_regex = re.compile(rf'{partitioned_query}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
     # broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8]
-    broad_crawlers = [caerostris_darwini.BroadCrawler1]
+    deep_crawlers = [theraphosidae.DeepCrawler1]
     if len(partitioned_query):
         # for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=query_regex)
-        for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, raw_query=raw_query)
+        for broad_crawler in deep_crawlers: crawl_runner.crawl(broad_crawler, raw_query=raw_query)
         eventual = crawl_runner.join()
         return eventual
 

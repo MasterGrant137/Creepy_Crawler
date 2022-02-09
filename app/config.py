@@ -8,7 +8,6 @@ so the connection uri must be updated here
 
 import os
 
-
 class Config:
     """Configuration class."""
     
