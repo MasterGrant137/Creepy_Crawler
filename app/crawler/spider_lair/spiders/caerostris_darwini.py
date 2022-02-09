@@ -19,7 +19,6 @@ class BroadCrawler1(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            # print('DISCOVERED', response)
             all_text = response.css('*:not(script):not(style)::text')
             for text in all_text:
                 query_found = bool(re.search(self.query_regex, text.get()))

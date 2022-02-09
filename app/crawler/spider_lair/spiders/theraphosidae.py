@@ -1,7 +1,8 @@
 """Theraphosidae Spiders.
 
 Categories:
-+ Library
++ Encyclopedic (text)
++ Videographic (video)
 """
 
 import scrapy
@@ -26,11 +27,11 @@ class DeepCrawler1(scrapy.Spider):
                             )
             yield request
         except: print(f'End of the line error for {self.name}.')
+        
     def process_search(self, response):
         """Process search results."""
-        all_results = response.css('input::attr(value)')
-        print('DISCOVERED', len(all_results), all_results)
-        # for text in all_text:
-        #     query_found = bool(re.search(self.query_regex, text.get()))
-        #     if query_found: yield { 'url': response.request.url, 'text': text.get() }
-        yield { 'url': response.request.url, 'text': f'Deep search results: {len(all_results)}' }
+        forms = response.css('form::attr(action)')
+        i, res_length = 0, len(forms)
+        while 1 < i < (res_length - 2):
+            form = forms[i]
+            yield { 'url': response.request.url, 'text': form.get() }
