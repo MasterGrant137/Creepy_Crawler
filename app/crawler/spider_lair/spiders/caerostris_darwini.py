@@ -36,9 +36,10 @@ class BroadCrawler1(scrapy.Spider):
     """Broad crawling spider."""
 
     name = 'broad_crawler_1'
+    start_urls = ['https://librarytechnology.org/repository/']
 
-    def start_requests(self):
-        pass
+    # def start_requests(self):
+        # pass
         # url = 'https://librarytechnology.org/repository/'
         # data = { 'q': self.raw_query }
         # yield JsonRequest(url=url, data=data, callback=self.parse)
@@ -51,25 +52,28 @@ class BroadCrawler1(scrapy.Spider):
         #                 )
 
     def parse(self, response):
-        """Follow links."""
+        """Send post request."""
         try:
-            url = 'https://librarytechnology.org/repository/'
+            # url = 'https://librarytechnology.org/repository/'
+            print(response, 'this is res')
             data = { 'q': self.raw_query }
             request = FormRequest.from_response(
                                 response,
                                 method='POST', 
                                 formdata=data, 
                                 headers={ 'Content-Type': 'application/x-www-form-urlencoded' },
-                                callback=self.parse
+                                callback=self.process_search
                             )
             yield request
-            all_results = response.css('input::attr(value)')
-            print('DISCOVERED', len(all_results), all_results)
-            # for text in all_text:
-            #     query_found = bool(re.search(self.query_regex, text.get()))
-            #     if query_found: yield { 'url': response.request.url, 'text': text.get() }
-            yield { 'url': response.request.url, 'text': f'Deep search results: {len(all_results)}' }
         except: print(f'End of the line error for {self.name}.')
+    def process_search(self, response):
+        """Process search results."""
+        all_results = response.css('input::attr(value)')
+        print('DISCOVERED', len(all_results), all_results)
+        # for text in all_text:
+        #     query_found = bool(re.search(self.query_regex, text.get()))
+        #     if query_found: yield { 'url': response.request.url, 'text': text.get() }
+        yield { 'url': response.request.url, 'text': f'Deep search results: {len(all_results)}' }
 
         # yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
