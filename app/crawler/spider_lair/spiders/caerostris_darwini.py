@@ -20,16 +20,15 @@ class DeepCrawler1(scrapy.Spider):
 
     def start_requests(self):
         """Send request."""
-        print('this is hit', self.raw_query)
-        yield scrapy.Request(f'https://onlinelibrary.wiley.com/action/doSearch?AllField=poetry{self.raw_query}', callback=self.parse)
-        # yield request
-
+        request = scrapy.Request(f'https://onlinelibrary.wiley.com/action/doSearch?AllField={self.raw_query}', callback=self.parse)
+        print('THIS', request)
+        yield request
 
     def parse(self, response):
         """Follow links."""
         try:
+            # print('LOOK AT PARSE', response.body)
             all_text = response.css('a::attr(href)')
-            print('LOOK AT PARSE', response)
             yield all_text
         except: print(f'End of the line error for {self.name}.')
 
