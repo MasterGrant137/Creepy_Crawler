@@ -1,9 +1,0 @@
-Content-Length: 143
-Content-Type: text/html; charset=UTF-8
-Location: https://www.cdc.gov/
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-Srv: 5
-Access-Control-Allow-Origin: *
-X-Ua-Compatible: IE=edge
-Date: Thu, 23 Dec 2021 20:06:19 GMT
-Set-Cookie: TS01b4334d=012409b353f8168ec492979c1a6e467e3669b915d0efa13418a4ffd24732efb31bdf07f58410a8d51da9b9ac6c6fb6ee764f1d77d1; Path=/; Domain=.cdc.gov

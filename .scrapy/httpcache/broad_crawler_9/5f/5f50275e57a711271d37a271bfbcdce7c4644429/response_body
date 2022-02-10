@@ -1,5 +1,0 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Wayfinding</title><base href="web"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><script>window.m22ZoomDynamicAdjustment = 0.01;</script><script src="assets/jquery-3.3.1.min.js"></script><script>/*
-        setTimeout(function(){
-            $('.map[fid="4DAD0531-6F83-72E3-CE22-1553B1348627"]').css({'transform-origin':'764.5px 1443.5px 0px;', 'transform':'translate3d(136px, -273px, 0px) scale(0.6, 0.6)'});
-        }, 2000);
-        */</script><link href="styles.d3ce89cab53b4e07a77b.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.41e2c79c0278428af3fc.bundle.js"></script><script type="text/javascript" src="polyfills.79f716337ebddb06e5c7.bundle.js"></script><script type="text/javascript" src="vendor.532c17b345446c600b1d.bundle.js"></script><script type="text/javascript" src="main.a0bc95cc8b38f9a54529.bundle.js"></script></body></html>

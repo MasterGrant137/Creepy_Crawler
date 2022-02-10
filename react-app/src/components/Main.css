@@ -150,18 +150,6 @@ nav {
     justify-content: space-between;
     padding: 20px;
 }
-
-nav * {
-    margin: 0 5px;
-    user-select: none;
-}
-
-nav ul {
-  display: flex;
-  align-items: flex-end;
-}
-
-nav [data-icon] { cursor: pointer }
 /*=================================*/
 /*$===========Search Page=========$*/
 /*=================================*/
@@ -171,13 +159,6 @@ nav [data-icon] { cursor: pointer }
     height: 50vh;
     justify-content: center;
     align-items: center;
-}
-
-.search-page-search-input {
-    border-radius: 25px;
-    padding: 10px;
-    width: 55vw;
-    height: 5vh;
 }
 
 .search-results-page-container {

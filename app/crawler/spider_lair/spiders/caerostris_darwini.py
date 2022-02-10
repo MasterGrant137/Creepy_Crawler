@@ -14,7 +14,7 @@ class BroadCrawler1(scrapy.Spider):
     """Broad crawling spider."""
 
     name = 'broad_crawler_1'
-    start_urls = ['https://en.m.wikipedia.org/']
+    start_urls = ['https://en.m.wikipedia.org/wiki/Wikipedia:Contents/Overviews']
 
     def parse(self, response):
         """Follow links."""
@@ -31,7 +31,7 @@ class BroadCrawler2(scrapy.Spider):
     """Broad crawling spider."""
 
     name = 'broad_crawler_2'
-    start_urls = ['https://nih.gov/']
+    start_urls = ['https://www.nih.gov/news-events/news-releases']
 
     def parse(self, response):
         """Follow links."""
@@ -66,7 +66,7 @@ class BroadCrawler4(scrapy.Spider):
     """Broad crawling spider."""
 
     name = 'broad_crawler_4'
-    start_urls = ['https://bbc.com/']
+    start_urls = ['https://www.bbc.com/news']
 
     def parse(self, response):
         """Follow links."""
@@ -117,7 +117,7 @@ class BroadCrawler7(scrapy.Spider):
     """Broad crawling spider."""
 
     name = 'broad_crawler_7'
-    start_urls = ['https://m.imdb.com']
+    start_urls = ['https://www.imdb.com/feature/genre/']
 
     def parse(self, response):
         """Follow links."""
@@ -134,7 +134,7 @@ class BroadCrawler8(scrapy.Spider):
     """Broad crawling spider."""
 
     name = 'broad_crawler_8'
-    start_urls = ['https://www.dictionary.com']
+    start_urls = ['https://www.dictionary.com/list/a']
 
     def parse(self, response):
         """Follow links."""

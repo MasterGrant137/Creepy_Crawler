@@ -1,7 +1,0 @@
-Content-Length: 178
-Server: nginx
-Date: Thu, 23 Dec 2021 20:05:20 GMT
-Content-Type: text/html
-Location: https://www.airbnb.com/
-X-Server-Name: airbnb.tld
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

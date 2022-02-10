@@ -23,7 +23,7 @@ const HistoryPage = ({ style }) => {
   const entriesObj = useSelector((state) => state.history);
   const clock24 = useSelector((state) => state.session.user.clock_24);
   const [loading, setLoading] = useState(false);
-  const [count, setCount] = useState(25);
+  const [count, setCount] = useState(30);
 
   useEffect(() => {
     dispatch(readHistoryEntries());
@@ -52,9 +52,13 @@ const HistoryPage = ({ style }) => {
     setLoading(true);
     let countdown = count - 1;
     const timer = setInterval(() => {
-      if (countdown === 0) window.location.reload();
-      setCount(countdown);
-      countdown--;
+      if (countdown === 0) {
+        clearInterval(timer);
+        window.location.reload();
+      } else {
+        setCount(countdown);
+        countdown--;
+      }
     }, 1000);
 
     await dispatch(createSearchEntry({
