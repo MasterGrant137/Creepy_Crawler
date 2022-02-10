@@ -33,9 +33,9 @@ class DeepCrawler1(scrapy.Spider):
         try:
             inputs = response.css('input.SubmitLink')
             for input in inputs:
+                base_url = 'https://librarytechnology.org/document/'
                 resource_idx = input.xpath("//input/../../input[@name='RC']/@value").get()
-                print('this is the resource_idx', resource_idx)
-                url = input.xpath('//input/../../form/@action').get()
+                url = f'{base_url}{resource_idx}'
                 title = input.css('::attr(value)').get()
                 yield { 'url': url, 'text': title }
         except: print(f'End of the line error in process_search method for {self.name}.')
