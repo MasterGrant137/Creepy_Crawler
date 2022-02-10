@@ -32,9 +32,10 @@ class DeepCrawler1(scrapy.Spider):
         """Process search results."""
         try:
             inputs = response.css('input.SubmitLink')
-            for input in inputs:
+            for i in range(len(inputs)):
+                input = inputs[i]
                 base_url = 'https://librarytechnology.org/document/'
-                resource_idx = input.xpath("//input/../../input[@name='RC']/@value").get()
+                resource_idx = input.xpath("//input/../../input[@name='RC']/@value").getall()[i]
                 url = f'{base_url}{resource_idx}'
                 title = input.css('::attr(value)').get()
                 yield { 'url': url, 'text': title }
