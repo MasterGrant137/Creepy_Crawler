@@ -29,20 +29,13 @@ class DeepCrawler1(scrapy.Spider):
         except: print(f'End of the line error in parse method for {self.name}.')
 
     def process_search(self, response):
-        """Process search results.
-        
-        First result and last two results are omitted on this scrape.
-        Furthermore, results were form elements so the link had to be
-        parsed from the `action` attribute as opposed to the `href` 
-        and the titles had pulled from the input values.
-        """
+        """Process search results."""
         try:
-
-            links = response.css('form::attr(action)')
-            titles = response.css('input.SubmitLink')
-            print('hitting links', type(links))
-            i, res_length = 1, len(links)
-            while i < (res_length - 2): 
-                yield { 'url': links[i].get(), 'text': links[i].get() }
-                i += 1
+            inputs = response.css('input.SubmitLink')
+            for input in inputs:
+                resource_idx = input.xpath("//input/../../input[@name='RC']/@value").get()
+                print('this is the resource_idx', resource_idx)
+                url = input.xpath('//input/../../form/@action').get()
+                title = input.css('::attr(value)').get()
+                yield { 'url': url, 'text': title }
         except: print(f'End of the line error in process_search method for {self.name}.')
