@@ -1,5 +1,5 @@
-#### Feb 8, 2022
-+ Search engine optimizations: the crawler can now traverse the deep web, spiders modified to increase result relevancy.
+#### Feb 9, 2022
++ Search engine optimizations: the crawler now traverses the deep web, search time increased, several broad crawler seed URLs altered to increase result relevancy. 
 + UI improvement: additional alignments made to navigation bar.
 ---
 #### Feb 7, 2022

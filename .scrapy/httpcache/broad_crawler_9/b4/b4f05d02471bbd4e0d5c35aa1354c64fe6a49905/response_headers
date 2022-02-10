@@ -1,9 +1,0 @@
-Content-Length: 123
-Accept-Ranges: bytes
-Cache-Control: max-age=86400
-Content-Type: text/plain
-Date: Thu, 23 Dec 2021 20:05:16 GMT
-Etag: "5d24ecde-7b"
-Expires: Fri, 24 Dec 2021 20:05:16 GMT
-Last-Modified: Tue, 09 Jul 2019 19:37:02 GMT
-Server: nginx

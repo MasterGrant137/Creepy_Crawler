@@ -1,9 +1,0 @@
-Server: nginx
-Date: Thu, 23 Dec 2021 20:05:17 GMT
-Content-Type: text/html; charset=UTF-8
-Vary: Accept-Encoding
-Link: <https://bbpress.org/wp-json/>; rel="https://api.w.org/"
-Link: <https://bbpress.org/wp-json/wp/v2/pages/30>; rel="alternate"; type="application/json"
-Link: <https://bbpress.org/>; rel=shortlink
-X-Frame-Options: SAMEORIGIN
-Content-Encoding: gzip

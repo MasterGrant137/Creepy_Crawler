@@ -1,8 +1,0 @@
-Content-Length: 0
-Location: https://www.whatsapp.com/
-Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
-Content-Type: text/plain
-Server: proxygen-bolt
-X-Fb-Trip-Id: 1679558926
-Date: Thu, 23 Dec 2021 20:05:13 GMT
-Alt-Svc: h3=":443"; ma=3600,h3-29=":443"; ma=3600

@@ -1,9 +1,0 @@
-Server: nginx/1.18.0 (Ubuntu)
-Date: Thu, 23 Dec 2021 20:09:08 GMT
-Content-Type: text/html; charset=UTF-8
-Set-Cookie: donation-identifier=f0771bdf22507ef19a712ab2cefd1119; expires=Fri, 23-Dec-2022 20:09:08 GMT; Max-Age=31536000; path=/; domain=.archive.org
-Set-Cookie: abtest-identifier=d8ffd356c14543dbfc0761e3383e1fb3; expires=Fri, 23-Dec-2022 20:09:08 GMT; Max-Age=31536000; path=/; domain=.archive.org
-Set-Cookie: PHPSESSID=s1as0cmddmf5vqlcjphm5ou728; path=/; domain=.archive.org
-Strict-Transport-Security: max-age=15724800
-Referrer-Policy: no-referrer-when-downgrade
-Content-Encoding: gzip

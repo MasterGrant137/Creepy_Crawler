@@ -1,9 +1,0 @@
-Content-Length: 250
-Location: https://play.google.com/about/comment-posting-policy/
-Cache-Control: private
-Content-Type: text/html; charset=UTF-8
-X-Content-Type-Options: nosniff
-Date: Mon, 20 Dec 2021 18:37:55 GMT
-Server: sffe
-X-Xss-Protection: 0
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

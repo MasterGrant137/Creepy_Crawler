@@ -1,7 +1,0 @@
-Content-Length: 291
-Date: Thu, 23 Dec 2021 20:06:18 GMT
-Content-Type: text/html; charset=utf-8
-Server: nginx/1.15.3
-Location: https://www.chicagotribune.com/robots.txt
-Vary: Cookie
-Set-Cookie: session=eyJfcGVybWFuZW50Ijp0cnVlfQ.YcTWug.3wN1dhZoUYSoHyXXo-lV-n6L5PY; Expires=Thu, 23-Dec-2021 20:16:18 GMT; HttpOnly; Path=/
