@@ -32,11 +32,12 @@ class DeepCrawler1(scrapy.Spider):
         """Process search results."""
         try:
             inputs = response.css('input.SubmitLink')
+            resource_indices = inputs.xpath("//input/../../input[@name='RC']/@value").getall()
             for i in range(len(inputs)):
                 input = inputs[i]
                 base_url = 'https://librarytechnology.org/document/'
-                resource_idx = input.xpath("//input/../../input[@name='RC']/@value").getall()[i]
+                resource_idx = resource_indices[i]
                 url = f'{base_url}{resource_idx}'
-                title = input.css('::attr(value)').get()
-                yield { 'url': url, 'text': title }
+                text = input.css('::attr(value)').get()
+                yield { 'url': url, 'text': text }
         except: print(f'End of the line error in process_search method for {self.name}.')

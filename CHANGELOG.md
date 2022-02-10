@@ -1,11 +1,10 @@
 #### Feb 8, 2022
-+ Search engine optimizations: spiders modified to increase result relevancy.
-+ UX improvement: addressed caching bug where stale cached results were returned on a search instead of newly searched content.
++ Search engine optimizations: the crawler can now traverse the deep web, spiders modified to increase result relevancy.
 + UI improvement: additional alignments made to navigation bar.
 ---
 #### Feb 7, 2022
 + UI improvements: navigation bar, history page, and search results page.
-+ UX improvement to search results page, the results are now cached so that they persist after page refresh.
++ UX improvement to search results page, the results are now cached so that they persist after page refresh and when navigating back from other pages.
 ---
 #### Jan 11, 2022
 + UI improvements to “No results.” message.
