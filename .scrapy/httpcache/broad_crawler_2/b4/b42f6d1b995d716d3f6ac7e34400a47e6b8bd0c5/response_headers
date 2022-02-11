@@ -1,0 +1,25 @@
+Content-Length: 24149
+Date: Fri, 11 Feb 2022 06:58:43 GMT
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.nichd.nih.gov/health/topics/labor-delivery>; rel="canonical"
+Link: <https://www.nichd.nih.gov/health/topics/labor-delivery>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 06:58:43 GMT
+Etag: "1644562723-gzip"
+Vary: Cookie,Accept-Encoding
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-Varnish: 25936782 26181814
+Age: 24208
+Via: 1.1 varnish (Varnish/6.2), 1.1 sjc1-bit30
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block
+Set-Cookie: TS01b2e53e=01b0f6b22f7de98264158a6bff6f68de409d312e752cb3f83198d2a6069e12a07660d49991ee3ab7f99921833373ff122fb0462247; Path=/; Secure; HTTPOnly

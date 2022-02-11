@@ -1,0 +1,29 @@
+Content-Length: 37091
+Date: Fri, 11 Feb 2022 13:50:10 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: AWSALB=0gaV2Tq3KETJE0eykXHx/PLK2bc4xu2we1YE5QVVAacbfc43oD7fJH4v7YGChp8D/mlHAAQoJw/spXZmH6Fcf7Aa4M3N8mjMALIihMYtHotcrqZo/GXENVpOCitM; Expires=Fri, 18 Feb 2022 13:50:10 GMT; Path=/
+Set-Cookie: AWSALBCORS=0gaV2Tq3KETJE0eykXHx/PLK2bc4xu2we1YE5QVVAacbfc43oD7fJH4v7YGChp8D/mlHAAQoJw/spXZmH6Fcf7Aa4M3N8mjMALIihMYtHotcrqZo/GXENVpOCitM; Expires=Fri, 18 Feb 2022 13:50:10 GMT; Path=/; SameSite=None; Secure
+Server: nginx
+Vary: Accept-Encoding, Cookie
+X-Powered-By: PHP/7.4.12
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+Link: <https://www.niaid.nih.gov/about/daids>; rel="canonical", <https://www.niaid.nih.gov/node/2784>; rel="shortlink"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 04 Feb 2022 21:31:52 GMT
+Etag: W/"1644010312"
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+X-Varnish: 8303953 630577
+Age: 577096
+Via: 1.1 varnish (Varnish/6.3)
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes

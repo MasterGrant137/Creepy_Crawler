@@ -1,0 +1,20 @@
+Content-Length: 189
+X-Amz-Id-2: FpYxVBYqCeAZFyX3vgUCenTKzG7NzmNMvAeHU8A0d9o7BPBTXWdo0QIuPpcrcqdAoV1+yGsgqBs=
+X-Amz-Request-Id: EKD1GN4J03TNEYGD
+Last-Modified: Mon, 13 Sep 2021 16:00:07 GMT
+Etag: "aa60afa82900e677f9e1fadf43f12cf7"
+X-Amz-Version-Id: laqwUNJVMVpeSbOAlwU2fZRm.tlpjorq
+Content-Type: text/plain
+Server: AmazonS3
+Cache-Control: max-age=7200, public
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Fri, 11 Feb 2022 08:12:55 GMT
+Via: 1.1 varnish
+Age: 4378
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-bur-kbur8200119-SMO
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1644567176.926080,VS0,VE1
+Vary: Accept-Encoding, X-OPTIONS

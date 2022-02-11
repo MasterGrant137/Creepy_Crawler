@@ -1,0 +1,19 @@
+Content-Length: 80
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.16.1
+X-Powered-By: Express
+Expires: Sat, 12 Feb 2022 05:30:00 GMT
+Location: /browse/wipe
+Via: 1.1 varnish, 1.1 varnish
+Show-Carambola-Ad: true
+Show-Do-Not-Sell-Link: true
+Platform: Desktop
+Accept-Ranges: bytes
+Date: Fri, 11 Feb 2022 16:10:19 GMT
+Age: 0
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kjyo7100173-IAD, cache-bur-kbur8200166-SMO
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1644595819.994091,VS0,VE180
+Vary: Accept, show-carambola-ad, show-do-not-sell-link, platform, X-OPTIONS

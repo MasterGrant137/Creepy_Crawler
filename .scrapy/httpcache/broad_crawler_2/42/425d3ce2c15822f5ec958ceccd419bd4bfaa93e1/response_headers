@@ -1,0 +1,25 @@
+Content-Length: 22616
+Date: Fri, 11 Feb 2022 06:58:39 GMT
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.nichd.nih.gov/health/topics/infantcare/conditioninfo>; rel="canonical"
+Link: <https://www.nichd.nih.gov/health/topics/infantcare/conditioninfo>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 06:58:39 GMT
+Etag: "1644562719-gzip"
+Vary: Cookie,Accept-Encoding
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-Varnish: 23290124 23986633
+Age: 24215
+Via: 1.1 varnish (Varnish/6.2), 1.1 sjc1-bit30
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block
+Set-Cookie: TS01b2e53e=01b0f6b22ff0a8b617d4a2c51a0b8852394a52e37536a7a70cf886ef2a2680625bbb63f0ebc8f60a333019a686653ee0cc45af4356; Path=/; Secure; HTTPOnly

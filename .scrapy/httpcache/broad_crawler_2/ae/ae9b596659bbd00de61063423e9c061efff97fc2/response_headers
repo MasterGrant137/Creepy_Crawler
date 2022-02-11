@@ -1,0 +1,29 @@
+Content-Length: 32936
+Date: Fri, 11 Feb 2022 14:34:58 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: AWSALB=w/oNQ1FFSTxq3sqIoDuDuNLtNYhamwe/1wweh9hVdeQkmBH3p3F1q9wDlB6PaG7o1kxe04u2YLeWbPuWUIzVwGFBkvnsotM/V82mpgT5T08IXLfQJSIRS47qwiy3; Expires=Fri, 18 Feb 2022 14:34:58 GMT; Path=/
+Set-Cookie: AWSALBCORS=w/oNQ1FFSTxq3sqIoDuDuNLtNYhamwe/1wweh9hVdeQkmBH3p3F1q9wDlB6PaG7o1kxe04u2YLeWbPuWUIzVwGFBkvnsotM/V82mpgT5T08IXLfQJSIRS47qwiy3; Expires=Fri, 18 Feb 2022 14:34:58 GMT; Path=/; SameSite=None; Secure
+Server: nginx
+Vary: Accept-Encoding, Cookie
+X-Powered-By: PHP/7.4.12
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.niaid.nih.gov/clinical-trials/vaccine-clinical-studies-safeguards>; rel="canonical", <https://www.niaid.nih.gov/node/1789>; rel="shortlink"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 14:07:41 GMT
+Etag: W/"1644588461"
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+X-Varnish: 255404 1973590
+Age: 1636
+Via: 1.1 varnish (Varnish/6.3)
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes

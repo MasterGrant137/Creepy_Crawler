@@ -53,6 +53,7 @@ const HistoryPage = ({ style }) => {
     let countdown = count - 1;
     const timer = setInterval(() => {
       if (countdown === 0) {
+        setCount(countdown);
         clearInterval(timer);
         window.location.reload();
       } else {

@@ -1,0 +1,21 @@
+Content-Length: 23568
+Cache-Control: public, max-age=600
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Link: <https://nimhd.blogs.govdelivery.com/?p=1876>; rel=shortlink
+Server: nginx
+Strict-Transport-Security: max-age=300
+Traceparent: 00-a02f958a2f4f45b4b370a98e8489931c-f87d5dda781c14aa-00
+X-Cloud-Trace-Context: a02f958a2f4f45b4b370a98e8489931c/17905570886394320042;o=0
+X-Pantheon-Styx-Hostname: styx-fe2-b-d8dd6bb59-zk7zw
+X-Pingback: https://nimhd.blogs.govdelivery.com/xmlrpc.php
+X-Styx-Req-Id: 6bfb8c5d-8b40-11ec-b637-f664f5746c29
+Date: Fri, 11 Feb 2022 13:42:15 GMT
+X-Served-By: cache-mdw17353-MDW, cache-bur-kbur8200116-SMO
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1644586935.710057,VS0,VE405
+Vary: Accept-Encoding, Cookie, Cookie
+Age: 0
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish

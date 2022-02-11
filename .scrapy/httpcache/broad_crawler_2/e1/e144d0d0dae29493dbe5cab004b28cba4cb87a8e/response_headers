@@ -1,0 +1,25 @@
+Content-Length: 24391
+Date: Fri, 11 Feb 2022 06:08:31 GMT
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.nichd.nih.gov/health/topics/idds/conditioninfo>; rel="canonical"
+Link: <https://www.nichd.nih.gov/health/topics/idds/conditioninfo>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 06:08:31 GMT
+Etag: "1644559711-gzip"
+Vary: Cookie,Accept-Encoding
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-Varnish: 28708921 27103517
+Age: 27221
+Via: 1.1 varnish (Varnish/6.2), 1.1 sjc1-bit30
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block
+Set-Cookie: TS01b2e53e=01b0f6b22fa42e9a7201de61dcd20d550f5016ebbfcadfb8eb5ef6a63cb86ee41050bee5170fd790b498cd61323817e2ac07809391; Path=/; Secure; HTTPOnly

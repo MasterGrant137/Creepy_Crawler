@@ -92,19 +92,39 @@ def add_search_entry():
 def scrape_with_crochet(raw_query):
     r"""Connect Flask with Scrapy asynchronously.
     
+    Key word arguments:
+        - In the `crawl` method, critical kwargs are passed to the spiders
+          such as the query and the text truncation amounts.
+
     In regard to the partitioned query's regular expression:
-        - Assert string is not preceded by any word characters (negative lookbehind): `(?<!\w)`
-        - Only match match strings followed by specified characters: `[\s|.|,|?|!|:|;|-]` (i.e., a
-          space or punctuation)
+        - Assert string is not immediately preceded by any word characters (negative lookbehind): `(?<!\w)`.
+        - Only match match strings followed by specified characters: `[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]` (i.e., a
+          space or punctuation).
+        - Unicode: \u2010 (hyphen), \u2013 (en-dash), \u2014 (em-dash).
     """
-    partitioned_query = ('|').join([f'(?<!\w){i}[\s|.|,|?|!|:|;|-]' for i in raw_query.split() if i not in stop_word_set])
-    query_regex = re.compile(rf'{partitioned_query}', re.I)
+    trunc_amt_1 = 160
+    trunc_amt_2 = 16
+
+    raw_query_str_list = raw_query.split()
+    broad_crawler_str = ''
+    deep_crawler_str = ''
+    deep_crawler_str_list = []
+
+    for i in range(len(raw_query_str_list)):
+        raw_query_substring = raw_query_str_list[i]
+        if raw_query_substring not in stop_word_set:
+            broad_crawler_str += f'|(?<!\w){raw_query_substring}[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]'
+            deep_crawler_str += f'{raw_query_substring} ' if i < (len(raw_query_str_list) - 1) else raw_query_substring
+            deep_crawler_str_list.append(raw_query_substring)
+
+    broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8]
-    deep_crawlers = [theraphosidae.DeepCrawler1]
-    if len(partitioned_query):
-        for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=query_regex)
-        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, raw_query=raw_query)
+    broad_crawlers = [caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
+    deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
+
+    if len(broad_crawler_str):
+        for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex, trunc_amt_1=trunc_amt_1)
+        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_string=deep_crawler_str, query_list=deep_crawler_str_list, trunc_amt_1=trunc_amt_1, trunc_amt_2=trunc_amt_2)
         eventual = crawl_runner.join()
         return eventual
 
