@@ -1,7 +1,7 @@
 {
     "AJAXCRAWL_ENABLED": true,
     "BOT_NAME": "Caerostris Darwini",
-    "CLOSESPIDER_TIMEOUT": 4,
+    "CLOSESPIDER_TIMEOUT": 5,
     "CONCURRENT_REQUESTS": 100,
     "COOKIES_ENABLED": false,
     "DEPTH_PRIORITY": 1,

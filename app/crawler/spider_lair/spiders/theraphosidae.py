@@ -15,7 +15,12 @@ class DeepCrawler1(scrapy.Spider):
     start_urls = ['https://librarytechnology.org/repository/']
 
     def parse(self, response):
-        """Send post request."""
+        """Send `POST` request.
+        
+        This resource repository handles one word entries, so
+        each word present in the raw query is run as a separate
+        `POST` request.
+        """
         try:
             data = { 'q': self.raw_query }
             request = FormRequest.from_response(
