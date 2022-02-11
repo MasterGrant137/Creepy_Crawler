@@ -25,14 +25,13 @@ class BroadCrawler2(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            all_text = response.css('*:not(script):not(style)::text').get()
+            all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
             match_list = re.findall(self.query_regex, all_text)
             match_str = ''.join(match_list)
-            # text = re.search(self.query_regex, all_text)
             if match_str:
-                # text = text.group(0)
-                trunc_query = match_str if len(match_str) <= self.trunc_amt_2 else f'{match_str[0:self.trunc_amt_2]}...'
-                yield { 'url': response.request.url, 'text': f'[Broad Crawler Found: {trunc_query}]({match_str}) OXO' }
+                print(len(match_str), self.trunc_amt_1)
+                trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'{len(match_list)} characters crawled. Here is what was caught on the web by the Broad Crawler: {trunc_match_str}.' }
         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
@@ -46,14 +45,12 @@ class BroadCrawler4(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            all_text = response.css('*:not(script):not(style)::text').get()
+            all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
             match_list = re.findall(self.query_regex, all_text)
             match_str = ''.join(match_list)
-            # text = re.search(self.query_regex, all_text)
             if match_str:
-                # text = text.group(0)
-                trunc_query = match_str if len(match_str) <= self.trunc_amt_2 else f'{match_str[0:self.trunc_amt_2]}...'
-                yield { 'url': response.request.url, 'text': f'[Broad Crawler Found: {trunc_query}]({match_str}) OXO' }
+                trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'Character: {len(match_list)}. Here is what was caught on the web: {trunc_match_str}.' }
         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
@@ -67,14 +64,12 @@ class BroadCrawler5(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            all_text = response.css('*:not(script):not(style)::text').get()
+            all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
             match_list = re.findall(self.query_regex, all_text)
             match_str = ''.join(match_list)
-            # text = re.search(self.query_regex, all_text)
             if match_str:
-                # text = text.group(0)
-                trunc_query = match_str if len(match_str) <= self.trunc_amt_2 else f'{match_str[0:self.trunc_amt_2]}...'
-                yield { 'url': response.request.url, 'text': f'[Broad Crawler Found: {trunc_query}]({match_str}) OXO' }
+                trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'Character: {len(match_list)}. Here is what was caught on the web: {trunc_match_str}.' }
         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
@@ -88,14 +83,12 @@ class BroadCrawler6(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            all_text = response.css('*:not(script):not(style)::text').get()
+            all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
             match_list = re.findall(self.query_regex, all_text)
             match_str = ''.join(match_list)
-            # text = re.search(self.query_regex, all_text)
             if match_str:
-                # text = text.group(0)
-                trunc_query = match_str if len(match_str) <= self.trunc_amt_2 else f'{match_str[0:self.trunc_amt_2]}...'
-                yield { 'url': response.request.url, 'text': f'[Broad Crawler Found: {trunc_query}]({match_str}) OXO' }
+                trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'Character: {len(match_list)}. Here is what was caught on the web: {trunc_match_str}.' }
         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
@@ -109,13 +102,11 @@ class BroadCrawler7(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            all_text = response.css('*:not(script):not(style)::text').get()
+            all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
             match_list = re.findall(self.query_regex, all_text)
             match_str = ''.join(match_list)
-            # text = re.search(self.query_regex, all_text)
             if match_str:
-                # text = text.group(0)
-                trunc_query = match_str if len(match_str) <= self.trunc_amt_2 else f'{match_str[0:self.trunc_amt_2]}...'
-                yield { 'url': response.request.url, 'text': f'[Broad Crawler Found: {trunc_query}]({match_str}) OXO' }
+                trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'Character: {len(match_list)}. Here is what was caught on the web: {trunc_match_str}.' }
         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)

@@ -63,7 +63,8 @@ class DeepCrawler1(scrapy.Spider):
                 url = f'{base_url}{resource_idx}'
                 text = input.css('::attr(value)').get()
                 trunc_text = text if len(text) <= self.trunc_amt_1 else f'{text[0:self.trunc_amt_1]}...'
-                yield { 'url': url, 'text': f'[Deep Crawl Found: {query}] {trunc_text}' }
+                trunc_query = query if len(query) <= self.trunc_amt_2 else f'{query[0:self.trunc_amt_2]}...'
+                yield { 'url': url, 'text': f'[Deep crawler found: {trunc_query}] {trunc_text}' }
         except: print(f'End of the line error in process_search method for {self.name}.')
 
 
@@ -92,7 +93,8 @@ class DeepCrawler2(scrapy.Spider):
                 query = response.meta['query']
                 text = ''.join(response.css("div[value='1'] *::text").getall())
                 trunc_text = text if len(text) <= self.trunc_amt_1 else f'{text[0:self.trunc_amt_1]}...'
-                yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {trunc_text}' }
+                trunc_query = query if len(query) <= self.trunc_amt_2 else f'{query[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'[Deep crawler found: {trunc_query}] {trunc_text}' }
         except:  print(f'End of the line error in parse method for {self.name}.')
 
 
@@ -114,5 +116,6 @@ class DeepCrawler3(scrapy.Spider):
             query = response.meta['query']
             text = ''.join(response.css('p::text').getall())
             trunc_text = text if len(text) <= self.trunc_amt_1 else f'{text[0:self.trunc_amt_1]}...'
-            yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {trunc_text}' }
+            trunc_query = query if len(query) <= self.trunc_amt_2 else f'{query[0:self.trunc_amt_2]}...'
+            yield { 'url': response.request.url, 'text': f'[Deep crawler found: {trunc_query}] {trunc_text}' }
         except:  print(f'End of the line error in parse method for {self.name}.')

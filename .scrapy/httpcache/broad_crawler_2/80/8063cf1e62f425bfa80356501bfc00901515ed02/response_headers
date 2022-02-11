@@ -1,0 +1,15 @@
+Content-Length: 0
+Server: openresty
+Date: Fri, 11 Feb 2022 14:48:35 GMT
+Content-Type: text/html; charset=UTF-8
+X-Rid: a38feb1e232b25b6d085799f6824943d
+P3P: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=15552001
+Location: https://nihmedarts.tumblr.com/#_=_
+Set-Cookie: pfg=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.tumblr.com; secure; HttpOnly
+X-Ua-Compatible: IE=Edge,chrome=1
+X-Ua-Device: desktop
+Vary: X-UA-Device, Accept
