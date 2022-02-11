@@ -107,13 +107,14 @@ def scrape_with_crochet(raw_query):
         raw_query_substring = raw_query_str_list[i]
         if raw_query_substring not in stop_word_set:
             broad_crawler_str += f'|(?<!\w){raw_query_substring}[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]'
-            deep_crawler_str += f' {raw_query_substring}'
+            deep_crawler_str += f'{raw_query_substring} ' if i < (len(raw_query_str_list) - 1) else raw_query_substring
             deep_crawler_str_list.append(raw_query_substring)
 
     broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
     # broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
-    deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2]
+    # deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
+    deep_crawlers = [theraphosidae.DeepCrawler3]
 
     if len(broad_crawler_str):
         # for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex)

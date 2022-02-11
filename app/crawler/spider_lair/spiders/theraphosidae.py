@@ -9,7 +9,7 @@ import scrapy
 from scrapy.http import FormRequest
 
 trunc_amt_1 = 160
-trunc_amt_2 = 0
+trunc_amt_2 = 16
 
 class DeepCrawler1(scrapy.Spider):
     """Deep crawling spider."""
@@ -71,7 +71,6 @@ class DeepCrawler2(scrapy.Spider):
         try:
             for query in self.query_list: 
                 yield scrapy.Request(f'https://www.dictionary.com/browse/{query}', meta={'query': query})
-
         except: print(f'End of the line error in start_requests method for {self.name}.')
     
     def parse(self, response):
@@ -100,30 +99,15 @@ class DeepCrawler3(scrapy.Spider):
     def start_requests(self):
         """Follow links."""
         try:
-            query = self.query_string
-            yield scrapy.Request(f'https://en.wikipedia.org/wiki/{query}', meta={'query': query})
-
+            for query in self.query_list:
+                yield scrapy.Request(f'https://en.wikipedia.org/wiki/{query}', meta={'query': query})
         except: print(f'End of the line error in start_requests method for {self.name}.')
     
     def parse(self, response):
-        """Process search results.
-        
-        Either parse data from the article that appears
-        or from the list of suggested articles that appear.
-        """
+        """Process search results."""
         try:
-            article_present = len(response.css("h1#firstHeading"))
-            if article_present:
-                query = response.meta['query']
-                text = ''.join(response.css("div[value='1'] *::text").getall())
-                trunc_text = text if len(text) <= trunc_amt_1 else f'{text[0:trunc_amt_1]}...'
-                yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {trunc_text}' }
-            else:
-                articles = response.css("li.mw-search-result")
-                for article in articles:
-                    url = article.css('div.mw-search-result-heading > a::attr(href)')
-                    text = ''.join(article.css('div.searchresult *::text').getall())
-                    trunc_text = text if len(text) <= trunc_amt_1 else f'{text[0:trunc_amt_1]}...'
-                    trunc_query = query if len(query) <= trunc_amt_2 else f'{query[0:trunc_amt_2]}...'
-                    yield { 'url': url, 'text': f'[Deep Crawl Found: {trunc_query}] {trunc_text}' }
+            query = response.meta['query']
+            text = ''.join(response.css('p::text').getall())
+            trunc_text = text if len(text) <= trunc_amt_1 else f'{text[0:trunc_amt_1]}...'
+            yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {trunc_text}' }
         except:  print(f'End of the line error in parse method for {self.name}.')
