@@ -27,6 +27,7 @@ class BroadCrawler1(scrapy.Spider):
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
+
 class BroadCrawler2(scrapy.Spider):
     """Broad crawling spider."""
 
@@ -45,6 +46,7 @@ class BroadCrawler2(scrapy.Spider):
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
+
 class BroadCrawler3(scrapy.Spider):
     """Broad crawling spider."""
 
@@ -61,6 +63,7 @@ class BroadCrawler3(scrapy.Spider):
         except: print(f'End of the line error for {self.name}.')
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+
 
 class BroadCrawler4(scrapy.Spider):
     """Broad crawling spider."""
@@ -79,6 +82,7 @@ class BroadCrawler4(scrapy.Spider):
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
+
 class BroadCrawler5(scrapy.Spider):
     """Broad crawling spider."""
 
@@ -96,6 +100,7 @@ class BroadCrawler5(scrapy.Spider):
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
+
 class BroadCrawler6(scrapy.Spider):
     """Broad crawling spider."""
 
@@ -112,6 +117,7 @@ class BroadCrawler6(scrapy.Spider):
         except: print(f'End of the line error for {self.name}.')
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+
 
 class BroadCrawler7(scrapy.Spider):
     """Broad crawling spider."""

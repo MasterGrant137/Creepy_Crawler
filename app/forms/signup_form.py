@@ -27,7 +27,6 @@ def proper_password(form, field):
     sufficient.
     """
     validation_errors = []
-
     password = field.data
 
     lowercase_letter_present = bool(re.search(r'[a-z]', password))
