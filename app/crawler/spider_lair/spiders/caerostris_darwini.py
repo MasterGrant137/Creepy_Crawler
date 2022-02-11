@@ -10,10 +10,10 @@ Categories:
 import re
 import scrapy
 
-trunc_amt_1 = 0
+trunc_amt_1 = 160
 trunc_amt_2 = 0
 
-# text.get() if len(text.get()) <= 160 else text.get()[0:160]  
+# text.get() if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
 
 class BroadCrawler1(scrapy.Spider):
     """Broad crawling spider."""

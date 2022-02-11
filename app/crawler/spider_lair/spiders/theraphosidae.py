@@ -5,11 +5,10 @@ Categories:
 + Videographic (video)
 """
 
-import re
 import scrapy
 from scrapy.http import FormRequest
 
-trunc_amt_1 = 0
+trunc_amt_1 = 160
 trunc_amt_2 = 0
 
 class DeepCrawler1(scrapy.Spider):
@@ -56,7 +55,9 @@ class DeepCrawler1(scrapy.Spider):
                 resource_idx = resource_indices[i]
                 url = f'{base_url}{resource_idx}'
                 text = input.css('::attr(value)').get()
-                yield { 'url': url, 'text': f'[Deep Crawl Found: {query}] {text}' }
+                trunc_text = text if len(text) <= trunc_amt_1 else f'{text[0:trunc_amt_1]}...'
+                trunc_query = query if len(query) <= trunc_amt_2 else f'{query[0:trunc_amt_2]}...'
+                yield { 'url': url, 'text': f'[Deep Crawl Found: {trunc_query}] {trunc_text}' }
         except: print(f'End of the line error in process_search method for {self.name}.')
 
 
@@ -76,7 +77,7 @@ class DeepCrawler2(scrapy.Spider):
     def parse(self, response):
         """Process search results.
         
-        Parse the first defnition if present. It is a
+        Parse the first definition if present. It is a
         space-separated list and is thus joined with
         an empty string.
         """
@@ -84,8 +85,10 @@ class DeepCrawler2(scrapy.Spider):
             content_present = len(response.css("h1[data-first-headword='true']"))
             if content_present:
                 query = response.meta['query']
-                first_definition = ''.join(response.css("div[value='1'] *::text").getall())
-                yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {first_definition}' }
+                text = ''.join(response.css("div[value='1'] *::text").getall())
+                trunc_text = text if len(text) <= trunc_amt_1 else f'{text[0:trunc_amt_1]}...'
+                trunc_query = query if len(query) <= trunc_amt_2 else f'{query[0:trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {trunc_query}] {trunc_text}' }
         except:  print(f'End of the line error in parse method for {self.name}.')
 
 
@@ -103,17 +106,24 @@ class DeepCrawler3(scrapy.Spider):
         except: print(f'End of the line error in start_requests method for {self.name}.')
     
     def parse(self, response):
-        """Process search results."""
+        """Process search results.
+        
+        Either parse data from the article that appears
+        or from the list of suggested articles that appear.
+        """
         try:
             article_present = len(response.css("h1#firstHeading"))
             if article_present:
                 query = response.meta['query']
-                first_definition = ''.join(response.css("div[value='1'] *::text").getall())
-                yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {first_definition}' }
+                text = ''.join(response.css("div[value='1'] *::text").getall())
+                trunc_text = text if len(text) <= trunc_amt_1 else f'{text[0:trunc_amt_1]}...'
+                yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {trunc_text}' }
             else:
                 articles = response.css("li.mw-search-result")
                 for article in articles:
                     url = article.css('div.mw-search-result-heading > a::attr(href)')
-                    yield { 'url': url, 'text': f'[Deep Crawl Found: {query}] {first_definition}' }
-
+                    text = ''.join(article.css('div.searchresult *::text').getall())
+                    trunc_text = text if len(text) <= trunc_amt_1 else f'{text[0:trunc_amt_1]}...'
+                    trunc_query = query if len(query) <= trunc_amt_2 else f'{query[0:trunc_amt_2]}...'
+                    yield { 'url': url, 'text': f'[Deep Crawl Found: {trunc_query}] {trunc_text}' }
         except:  print(f'End of the line error in parse method for {self.name}.')
