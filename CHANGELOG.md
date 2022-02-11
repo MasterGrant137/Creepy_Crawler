@@ -1,5 +1,16 @@
+#### Feb 11, 2022
++ Major search engine update:
+    + search time cut down by up to twenty seconds
+    + accuracy dramatically increased
++ UI/UX changes:
+    + counter reaches zero instead of stopping at one
+    + text truncation added to search results page
+---
 #### Feb 9, 2022
-+ Search engine optimizations: the crawler now traverses the deep web, search time increased, several broad crawler seed URLs altered to increase result relevancy. 
++ Search engine optimizations: 
+    + the crawler now traverses the deep web
+    + search time increased
+    + several broad crawler seed URLs altered to increase result relevancy.
 + UI improvement: additional alignments made to navigation bar.
 ---
 #### Feb 7, 2022
