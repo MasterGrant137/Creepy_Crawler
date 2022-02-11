@@ -100,12 +100,14 @@ def scrape_with_crochet(raw_query):
     """
     raw_query_str_list = raw_query.split()
     broad_crawler_str = ''
+    deep_crawler_str = ''
     deep_crawler_str_list = []
 
     for i in range(len(raw_query_str_list)):
         raw_query_substring = raw_query_str_list[i]
         if raw_query_substring not in stop_word_set:
             broad_crawler_str += f'|(?<!\w){raw_query_substring}[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]'
+            deep_crawler_str += f' {raw_query_substring}'
             deep_crawler_str_list.append(raw_query_substring)
 
     broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
@@ -115,7 +117,7 @@ def scrape_with_crochet(raw_query):
 
     if len(broad_crawler_str):
         # for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex)
-        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=deep_crawler_str_list)
+        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_string=deep_crawler_str, query_list=deep_crawler_str_list)
         eventual = crawl_runner.join()
         return eventual
 

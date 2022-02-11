@@ -10,6 +10,11 @@ Categories:
 import re
 import scrapy
 
+trunc_amt_1 = 0
+trunc_amt_2 = 0
+
+# text.get() if len(text.get()) <= 160 else text.get()[0:160]  
+
 class BroadCrawler1(scrapy.Spider):
     """Broad crawling spider."""
 

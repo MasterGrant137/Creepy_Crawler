@@ -9,6 +9,9 @@ import re
 import scrapy
 from scrapy.http import FormRequest
 
+trunc_amt_1 = 0
+trunc_amt_2 = 0
+
 class DeepCrawler1(scrapy.Spider):
     """Deep crawling spider."""
 
@@ -63,7 +66,7 @@ class DeepCrawler2(scrapy.Spider):
     name = 'deep_crawler_2'
 
     def start_requests(self):
-        """Follow links."""
+        """Construct and follow link for each query."""
         try:
             for query in self.query_list: 
                 yield scrapy.Request(f'https://www.dictionary.com/browse/{query}', meta={'query': query})
@@ -78,9 +81,39 @@ class DeepCrawler2(scrapy.Spider):
         an empty string.
         """
         try:
-            definition = response.css("h1[data-first-headword='true']")
-            if len(definition):
+            content_present = len(response.css("h1[data-first-headword='true']"))
+            if content_present:
                 query = response.meta['query']
                 first_definition = ''.join(response.css("div[value='1'] *::text").getall())
                 yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {first_definition}' }
+        except:  print(f'End of the line error in parse method for {self.name}.')
+
+
+class DeepCrawler3(scrapy.Spider):
+    """Construct and follow link for each query."""
+
+    name = 'deep_crawler_3'
+
+    def start_requests(self):
+        """Follow links."""
+        try:
+            query = self.query_string
+            yield scrapy.Request(f'https://en.wikipedia.org/wiki/{query}', meta={'query': query})
+
+        except: print(f'End of the line error in start_requests method for {self.name}.')
+    
+    def parse(self, response):
+        """Process search results."""
+        try:
+            article_present = len(response.css("h1#firstHeading"))
+            if article_present:
+                query = response.meta['query']
+                first_definition = ''.join(response.css("div[value='1'] *::text").getall())
+                yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {first_definition}' }
+            else:
+                articles = response.css("li.mw-search-result")
+                for article in articles:
+                    url = article.css('div.mw-search-result-heading > a::attr(href)')
+                    yield { 'url': url, 'text': f'[Deep Crawl Found: {query}] {first_definition}' }
+
         except:  print(f'End of the line error in parse method for {self.name}.')
