@@ -93,9 +93,9 @@ def scrape_with_crochet(raw_query):
     r"""Connect Flask with Scrapy asynchronously.
     
     In regard to the partitioned query's regular expression:
-        - Assert string is not preceded by any word characters (negative lookbehind): `(?<!\w)`
+        - Assert string is not preceded by any word characters (negative lookbehind): `(?<!\w)`.
         - Only match match strings followed by specified characters: `[\s|.|,|?|!|:|;|-]` (i.e., a
-          space or punctuation)
+          space or punctuation).
     """
     partitioned_query = ('|').join([f'(?<!\w){i}[\s|.|,|?|!|:|;|-]' for i in raw_query.split() if i not in stop_word_set])
     query_regex = re.compile(rf'{partitioned_query}', re.I)
