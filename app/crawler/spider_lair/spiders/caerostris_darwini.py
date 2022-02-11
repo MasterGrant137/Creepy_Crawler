@@ -15,24 +15,6 @@ trunc_amt_2 = 0
 
 # text.get() if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
 
-class BroadCrawler1(scrapy.Spider):
-    """Broad crawling spider."""
-
-    name = 'broad_crawler_1'
-    start_urls = ['https://en.m.wikipedia.org/wiki/Wikipedia:Contents/Overviews']
-
-    def parse(self, response):
-        """Follow links."""
-        try:
-            all_text = response.css('*:not(script):not(style)::text')
-            for text in all_text:
-                query_found = bool(re.search(self.query_regex, text.get()))
-                if query_found: yield { 'url': response.request.url, 'text': text.get() }
-        except: print(f'End of the line error for {self.name}.')
-
-        yield from response.follow_all(css='a::attr(href)', callback=self.parse)
-
-
 class BroadCrawler2(scrapy.Spider):
     """Broad crawling spider."""
 
@@ -43,32 +25,15 @@ class BroadCrawler2(scrapy.Spider):
         """Follow links."""
         try:
             all_text = response.css('*:not(script):not(style)::text')
+            query_found = bool(re.search(self.query_regex, all_text))
             for text in all_text:
-                query_found = bool(re.search(self.query_regex, text.get()))
-                if query_found: yield { 'url': response.request.url, 'text': text.get() }
+                raw_text = text.get()
+                trunc_text = raw_text if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
+                if query_found: yield { 'url': response.request.url, 'text': trunc_text }
                 
         except: print(f'End of the line error for {self.name}.')
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
-
-
-class BroadCrawler3(scrapy.Spider):
-    """Broad crawling spider."""
-
-    name = 'broad_crawler_3'
-    start_urls = ['https://thebulletin.org/']
-
-    def parse(self, response):
-        """Follow links."""
-        try:
-            all_text = response.css('*:not(script):not(style)::text')
-            for text in all_text:
-                query_found = bool(re.search(self.query_regex, text.get()))
-                if query_found: yield { 'url': response.request.url, 'text': text.get() }
-        except: print(f'End of the line error for {self.name}.')
-
-        yield from response.follow_all(css='a::attr(href)', callback=self.parse)
-
 
 class BroadCrawler4(scrapy.Spider):
     """Broad crawling spider."""
@@ -80,9 +45,11 @@ class BroadCrawler4(scrapy.Spider):
         """Follow links."""
         try:
             all_text = response.css('*:not(script):not(style)::text')
+            query_found = bool(re.search(self.query_regex, all_text))
             for text in all_text:
-                query_found = bool(re.search(self.query_regex, text.get()))
-                if query_found: yield { 'url': response.request.url, 'text': text.get() }
+                raw_text = text.get()
+                trunc_text = raw_text if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
+                if query_found: yield { 'url': response.request.url, 'text': trunc_text }
         except: print(f'End of the line error for {self.name}.')
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
@@ -98,9 +65,11 @@ class BroadCrawler5(scrapy.Spider):
         """Follow links."""
         try:
             all_text = response.css('*:not(script):not(style)::text')
+            query_found = bool(re.search(self.query_regex, all_text))
             for text in all_text:
-                query_found = bool(re.search(self.query_regex, text.get()))
-                if query_found: yield { 'url': response.request.url, 'text': text.get() }
+                raw_text = text.get()
+                trunc_text = raw_text if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
+                if query_found: yield { 'url': response.request.url, 'text': trunc_text }
         except: print(f'End of the line error for {self.name}.')
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
@@ -116,9 +85,11 @@ class BroadCrawler6(scrapy.Spider):
         """Follow links."""
         try:
             all_text = response.css('*:not(script):not(style)::text')
+            query_found = bool(re.search(self.query_regex, all_text))
             for text in all_text:
-                query_found = bool(re.search(self.query_regex, text.get()))
-                if query_found: yield { 'url': response.request.url, 'text': text.get() }
+                raw_text = text.get()
+                trunc_text = raw_text if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
+                if query_found: yield { 'url': response.request.url, 'text': trunc_text }
         except: print(f'End of the line error for {self.name}.')
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
@@ -134,9 +105,11 @@ class BroadCrawler7(scrapy.Spider):
         """Follow links."""
         try:
             all_text = response.css('*:not(script):not(style)::text')
+            query_found = bool(re.search(self.query_regex, all_text))
             for text in all_text:
-                query_found = bool(re.search(self.query_regex, text.get()))
-                if query_found: yield { 'url': response.request.url, 'text': text.get() }
+                raw_text = text.get()
+                trunc_text = raw_text if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
+                if query_found: yield { 'url': response.request.url, 'text': trunc_text }
         except: print(f'End of the line error for {self.name}.')
 
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)

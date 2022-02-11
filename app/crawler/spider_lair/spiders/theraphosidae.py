@@ -3,6 +3,10 @@
 Categories:
 + Encyclopedic (text)
 + Videographic (video)
+
+Legend:
+- [`rel`]: Done for the sake of relevancy.
+- [`dis`]: Done due to disallowance by site.
 """
 
 import scrapy
@@ -67,7 +71,7 @@ class DeepCrawler2(scrapy.Spider):
     name = 'deep_crawler_2'
 
     def start_requests(self):
-        """Construct and follow link for each query."""
+        """Construct and follow link for each query [`rel`]."""
         try:
             for query in self.query_list: 
                 yield scrapy.Request(f'https://www.dictionary.com/browse/{query}', meta={'query': query})
@@ -92,12 +96,12 @@ class DeepCrawler2(scrapy.Spider):
 
 
 class DeepCrawler3(scrapy.Spider):
-    """Construct and follow link for each query."""
+    """Deep crawling spider."""
 
     name = 'deep_crawler_3'
 
     def start_requests(self):
-        """Follow links."""
+        """Construct and follow link for each query [`dis`]."""
         try:
             for query in self.query_list:
                 yield scrapy.Request(f'https://en.wikipedia.org/wiki/{query}', meta={'query': query})

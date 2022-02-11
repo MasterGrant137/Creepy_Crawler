@@ -93,7 +93,7 @@ def scrape_with_crochet(raw_query):
     r"""Connect Flask with Scrapy asynchronously.
     
     In regard to the partitioned query's regular expression:
-        - Assert string is not preceded by any word characters (negative lookbehind): `(?<!\w)`.
+        - Assert string is not immediately preceded by any word characters (negative lookbehind): `(?<!\w)`.
         - Only match match strings followed by specified characters: `[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]` (i.e., a
           space or punctuation).
         - \u2010 (hyphen), \u2013 (en-dash), \u2014 (em-dash)
@@ -112,12 +112,11 @@ def scrape_with_crochet(raw_query):
 
     broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    # broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
-    # deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
-    deep_crawlers = [theraphosidae.DeepCrawler3]
+    broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
+    deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
 
     if len(broad_crawler_str):
-        # for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex)
+        for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex)
         for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_string=deep_crawler_str, query_list=deep_crawler_str_list)
         eventual = crawl_runner.join()
         return eventual
