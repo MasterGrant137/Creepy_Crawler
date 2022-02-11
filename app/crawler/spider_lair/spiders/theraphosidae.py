@@ -5,6 +5,7 @@ Categories:
 + Videographic (video)
 """
 
+import re
 import scrapy
 from scrapy.http import FormRequest
 
@@ -72,13 +73,14 @@ class DeepCrawler2(scrapy.Spider):
     def parse(self, response):
         """Process search results.
         
-        Check for definition and if present parse
-        the first defnition and title.
+        Parse the first defnition if present. It is a
+        space-separated list and is thus joined with
+        an empty string.
         """
         try:
             definition = response.css("h1[data-first-headword='true']")
             if len(definition):
                 query = response.meta['query']
-                first_definition = response.css("div[value='1']")
-                yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {first_definition.get()}' }
+                first_definition = ''.join(response.css("div[value='1'] *::text").getall())
+                yield { 'url': response.request.url, 'text': f'[Deep Crawl Found: {query}] {first_definition}' }
         except:  print(f'End of the line error in parse method for {self.name}.')

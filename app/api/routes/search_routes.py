@@ -110,11 +110,11 @@ def scrape_with_crochet(raw_query):
 
     broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
-    deep_crawlers = [theraphosidae.DeepCrawler1]
+    # broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
+    deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2]
 
     if len(broad_crawler_str):
-        for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex)
+        # for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex)
         for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=deep_crawler_str_list)
         eventual = crawl_runner.join()
         return eventual
