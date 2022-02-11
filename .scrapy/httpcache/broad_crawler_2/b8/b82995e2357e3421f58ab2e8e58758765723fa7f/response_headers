@@ -1,0 +1,25 @@
+Content-Length: 22086
+Date: Fri, 11 Feb 2022 06:56:26 GMT
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.nichd.nih.gov/health/topics/mccune-albright/clinicaltrials>; rel="canonical"
+Link: <https://www.nichd.nih.gov/health/topics/mccune-albright/clinicaltrials>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 06:56:26 GMT
+Etag: "1644562586-gzip"
+Vary: Cookie,Accept-Encoding
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-Varnish: 23665662 26460149
+Age: 24344
+Via: 1.1 varnish (Varnish/6.2), 1.1 sjc1-bit30
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block
+Set-Cookie: TS01b2e53e=01b0f6b22f5d74009ed5d4cd998d80f2e511c3a052c023a9e5d46f404588943283203f8773aac58e479a2ae6ff9a094a975a74b8e3; Path=/; Secure; HTTPOnly

@@ -1,0 +1,29 @@
+Content-Length: 28221
+Date: Fri, 11 Feb 2022 14:34:58 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: AWSALB=zTE4gqO6EjKElJ+4mNqHWktSuMGRa71RlV128LR4Cd/IdlMd1RipF7pl1K9C0mJGuNwNgngwnVLjBTYI4O245plFymxwrtKJ7rwC3Ik9ohSQ0M0PQOsrNcfE6n2Q; Expires=Fri, 18 Feb 2022 14:34:58 GMT; Path=/
+Set-Cookie: AWSALBCORS=zTE4gqO6EjKElJ+4mNqHWktSuMGRa71RlV128LR4Cd/IdlMd1RipF7pl1K9C0mJGuNwNgngwnVLjBTYI4O245plFymxwrtKJ7rwC3Ik9ohSQ0M0PQOsrNcfE6n2Q; Expires=Fri, 18 Feb 2022 14:34:58 GMT; Path=/; SameSite=None; Secure
+Server: nginx
+Vary: Accept-Encoding, Cookie
+X-Powered-By: PHP/7.4.12
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.niaid.nih.gov/news-events/director-in-the-news>; rel="canonical", <https://www.niaid.nih.gov/news-events/director-in-the-news>; rel="shortlink"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 13:58:34 GMT
+Etag: W/"1644587914"
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+X-Varnish: 479295 1558882
+Age: 2184
+Via: 1.1 varnish (Varnish/6.3)
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes

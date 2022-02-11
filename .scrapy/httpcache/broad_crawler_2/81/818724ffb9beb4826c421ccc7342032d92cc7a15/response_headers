@@ -1,0 +1,29 @@
+Content-Length: 34672
+Date: Fri, 11 Feb 2022 14:35:02 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: AWSALB=DpudFF6U3HTQU1CapjshVdSnWJtb4/jmlBe/jYvYy2If9Nvcb3n1r4gzpqsE2O3gVj414A7rQXCdceVnm1fBBU8hTUgpRBvMrEGYk1BYVseMffOKP12UramZiVE5; Expires=Fri, 18 Feb 2022 14:35:02 GMT; Path=/
+Set-Cookie: AWSALBCORS=DpudFF6U3HTQU1CapjshVdSnWJtb4/jmlBe/jYvYy2If9Nvcb3n1r4gzpqsE2O3gVj414A7rQXCdceVnm1fBBU8hTUgpRBvMrEGYk1BYVseMffOKP12UramZiVE5; Expires=Fri, 18 Feb 2022 14:35:02 GMT; Path=/; SameSite=None; Secure
+Server: nginx
+Vary: Accept-Encoding, Cookie
+X-Powered-By: PHP/7.4.12
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.niaid.nih.gov/grants-contracts/types-funding-opportunities>; rel="canonical", <https://www.niaid.nih.gov/node/5150>; rel="shortlink"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 13:57:30 GMT
+Etag: W/"1644587850"
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+X-Varnish: 255407 8930884
+Age: 2250
+Via: 1.1 varnish (Varnish/6.3)
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes

@@ -5,15 +5,16 @@ Categories:
 + Commercial (image)
 + Encyclopedic (text)
 + Videographic (video)
+
+Class attributes:
+- Attributes are passed from Flask *search_routes.py* as kwargs in the `crawl` method inside the
+  `scrape_with_crochet` function.
+- They are accessed by keying into the self parameter.
 """
 
 import re
 import scrapy
 
-trunc_amt_1 = 160
-trunc_amt_2 = 0
-
-# text.get() if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
 
 class BroadCrawler2(scrapy.Spider):
     """Broad crawling spider."""
@@ -24,16 +25,17 @@ class BroadCrawler2(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            all_text = response.css('*:not(script):not(style)::text')
-            query_found = bool(re.search(self.query_regex, all_text))
-            for text in all_text:
-                raw_text = text.get()
-                trunc_text = raw_text if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
-                if query_found: yield { 'url': response.request.url, 'text': trunc_text }
-                
-        except: print(f'End of the line error for {self.name}.')
-
+            all_text = response.css('*:not(script):not(style)::text').get()
+            match_list = re.findall(self.query_regex, all_text)
+            match_str = ''.join(match_list)
+            # text = re.search(self.query_regex, all_text)
+            if match_str:
+                # text = text.group(0)
+                trunc_query = match_str if len(match_str) <= self.trunc_amt_2 else f'{match_str[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'[Broad Crawler Found: {trunc_query}]({match_str}) OXO' }
+        except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+
 
 class BroadCrawler4(scrapy.Spider):
     """Broad crawling spider."""
@@ -44,14 +46,15 @@ class BroadCrawler4(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            all_text = response.css('*:not(script):not(style)::text')
-            query_found = bool(re.search(self.query_regex, all_text))
-            for text in all_text:
-                raw_text = text.get()
-                trunc_text = raw_text if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
-                if query_found: yield { 'url': response.request.url, 'text': trunc_text }
-        except: print(f'End of the line error for {self.name}.')
-
+            all_text = response.css('*:not(script):not(style)::text').get()
+            match_list = re.findall(self.query_regex, all_text)
+            match_str = ''.join(match_list)
+            # text = re.search(self.query_regex, all_text)
+            if match_str:
+                # text = text.group(0)
+                trunc_query = match_str if len(match_str) <= self.trunc_amt_2 else f'{match_str[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'[Broad Crawler Found: {trunc_query}]({match_str}) OXO' }
+        except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
 
@@ -64,14 +67,15 @@ class BroadCrawler5(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            all_text = response.css('*:not(script):not(style)::text')
-            query_found = bool(re.search(self.query_regex, all_text))
-            for text in all_text:
-                raw_text = text.get()
-                trunc_text = raw_text if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
-                if query_found: yield { 'url': response.request.url, 'text': trunc_text }
-        except: print(f'End of the line error for {self.name}.')
-
+            all_text = response.css('*:not(script):not(style)::text').get()
+            match_list = re.findall(self.query_regex, all_text)
+            match_str = ''.join(match_list)
+            # text = re.search(self.query_regex, all_text)
+            if match_str:
+                # text = text.group(0)
+                trunc_query = match_str if len(match_str) <= self.trunc_amt_2 else f'{match_str[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'[Broad Crawler Found: {trunc_query}]({match_str}) OXO' }
+        except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
 
@@ -84,14 +88,15 @@ class BroadCrawler6(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            all_text = response.css('*:not(script):not(style)::text')
-            query_found = bool(re.search(self.query_regex, all_text))
-            for text in all_text:
-                raw_text = text.get()
-                trunc_text = raw_text if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
-                if query_found: yield { 'url': response.request.url, 'text': trunc_text }
-        except: print(f'End of the line error for {self.name}.')
-
+            all_text = response.css('*:not(script):not(style)::text').get()
+            match_list = re.findall(self.query_regex, all_text)
+            match_str = ''.join(match_list)
+            # text = re.search(self.query_regex, all_text)
+            if match_str:
+                # text = text.group(0)
+                trunc_query = match_str if len(match_str) <= self.trunc_amt_2 else f'{match_str[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'[Broad Crawler Found: {trunc_query}]({match_str}) OXO' }
+        except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
 
 
@@ -104,12 +109,13 @@ class BroadCrawler7(scrapy.Spider):
     def parse(self, response):
         """Follow links."""
         try:
-            all_text = response.css('*:not(script):not(style)::text')
-            query_found = bool(re.search(self.query_regex, all_text))
-            for text in all_text:
-                raw_text = text.get()
-                trunc_text = raw_text if len(text.get()) <= trunc_amt_1 else f'{text.get()[0:trunc_amt_1]}...'
-                if query_found: yield { 'url': response.request.url, 'text': trunc_text }
-        except: print(f'End of the line error for {self.name}.')
-
+            all_text = response.css('*:not(script):not(style)::text').get()
+            match_list = re.findall(self.query_regex, all_text)
+            match_str = ''.join(match_list)
+            # text = re.search(self.query_regex, all_text)
+            if match_str:
+                # text = text.group(0)
+                trunc_query = match_str if len(match_str) <= self.trunc_amt_2 else f'{match_str[0:self.trunc_amt_2]}...'
+                yield { 'url': response.request.url, 'text': f'[Broad Crawler Found: {trunc_query}]({match_str}) OXO' }
+        except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
         yield from response.follow_all(css='a::attr(href)', callback=self.parse)

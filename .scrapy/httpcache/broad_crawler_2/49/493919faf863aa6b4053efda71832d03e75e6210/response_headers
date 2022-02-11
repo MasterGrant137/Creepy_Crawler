@@ -1,0 +1,25 @@
+Content-Length: 22200
+Date: Fri, 11 Feb 2022 06:56:34 GMT
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.nichd.nih.gov/health/topics/infant-mortality/more_information>; rel="canonical"
+Link: <https://www.nichd.nih.gov/health/topics/infant-mortality/more_information>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 06:56:34 GMT
+Etag: "1644562594-gzip"
+Vary: Cookie,Accept-Encoding
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-Varnish: 28708925 18513078
+Age: 24338
+Via: 1.1 varnish (Varnish/6.2), 1.1 sjc1-bit30
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block
+Set-Cookie: TS01b2e53e=01b0f6b22f55127ae13af073c24b8db370f05d00587a1e6d34d08fb41032aa35e5ffae251c2f34a7535dc06f15e3f0dd774042c054; Path=/; Secure; HTTPOnly

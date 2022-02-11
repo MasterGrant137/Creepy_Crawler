@@ -1,0 +1,20 @@
+Content-Length: 27584
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 11 Feb 2022 13:04:38 GMT
+Server: Apache
+Strict-Transport-Security: max-age=2628000; includeSubdomains;
+X-Powered-By: PHP/7.4.20
+Set-Cookie: prod-termsofuse-SimpleSAMLSessionID=10c14256bd2789d5f65d05d1c0323a86; path=/; domain=.disneytermsofuse.com; secure; HttpOnly
+Set-Cookie: CloudFront-Key-Pair-Id=APKAIC3LB6G7C2I25BFA; expires=Fri, 11-Feb-2022 15:00:27 GMT; Max-Age=6949; path=/; secure; HttpOnly
+Set-Cookie: CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kaXNuZXl0ZXJtc29mdXNlLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjQ0NTkxNjI3fX19XX0_; expires=Fri, 11-Feb-2022 15:00:27 GMT; Max-Age=6949; path=/; secure; HttpOnly
+Set-Cookie: CloudFront-Signature=MPGzrA9IohK86VvolbBlbAH302Me0H4~Ay5Dnj5BExM0dn8IieWXH~3fZMOn04QqzLQxjBMTHn9vHPfisMYRf9uLmNSG0lpTyfSetuHYR4Eq0ZvDRT~jsTZs5jZSndVjWpCRj-vrhUH5HxAWMvVyMwqsEahmGistM9vCiOhhrPF~LWZjE39esQbP~dot6o93ErHXfTj5TC6yoR0j6SjQ59aUgfx9WPuntCgiM56Opeosj8mj9W5MFCbgpx4nerFfgi8uqzut9h2vVb7P4tP2R22F5Pv6CHIu1cM3oWXnqJaBGXqeFrUAi3e478NJxtsiDXppXNzF4jI3rVjsQX5eHA__; expires=Fri, 11-Feb-2022 15:00:27 GMT; Max-Age=6949; path=/; secure; HttpOnly
+Link: <https://disneytermsofuse.com/?p=878>; rel=shortlink
+Cache-Control: max-age=0
+Expires: Fri, 11 Feb 2022 13:04:38 GMT
+Content-Encoding: gzip
+X-Ua-Compatible: IE=edge
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 d0e9493afe30356ba9d74f759fd26f52.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ORD50-C1
+X-Amz-Cf-Id: Z6-DlbZzkup0zGKWFyQRQ1GjNZAHBe41f0hOHOAHLvVUMjTcmN4h0Q==

@@ -1,0 +1,25 @@
+Content-Length: 22208
+Date: Fri, 11 Feb 2022 06:58:43 GMT
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.nichd.nih.gov/health/topics/klinefelter/researchinfo/default>; rel="canonical"
+Link: <https://www.nichd.nih.gov/health/topics/klinefelter/researchinfo/default>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 06:58:43 GMT
+Etag: "1644562723-gzip"
+Vary: Cookie,Accept-Encoding
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-Varnish: 23290116 18513190
+Age: 24208
+Via: 1.1 varnish (Varnish/6.2), 1.1 sjc1-bit30
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block
+Set-Cookie: TS01b2e53e=01b0f6b22f5ddffda1a7a14363738afec6088bfe0ce7113557a91bb66ab58b6cba84cca075e18ec92bcefaed77265e7b2b36edafab; Path=/; Secure; HTTPOnly

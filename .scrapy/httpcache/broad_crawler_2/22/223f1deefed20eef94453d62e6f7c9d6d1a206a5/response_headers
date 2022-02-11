@@ -1,0 +1,29 @@
+Content-Length: 30464
+Date: Fri, 11 Feb 2022 14:34:59 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: AWSALB=p3LPFGhYiZp9bEhTMYdk97iNk90Ct+L/Jf5PZauoNjheIh6W8Hq+Qyc1IegfgGMoF70/iShEpggNgYqdWsmSlpLVN1OXKUfMj95IAcbzbVVyn/8psw+W6VgpO/Ne; Expires=Fri, 18 Feb 2022 14:34:59 GMT; Path=/
+Set-Cookie: AWSALBCORS=p3LPFGhYiZp9bEhTMYdk97iNk90Ct+L/Jf5PZauoNjheIh6W8Hq+Qyc1IegfgGMoF70/iShEpggNgYqdWsmSlpLVN1OXKUfMj95IAcbzbVVyn/8psw+W6VgpO/Ne; Expires=Fri, 18 Feb 2022 14:34:59 GMT; Path=/; SameSite=None; Secure
+Server: nginx
+Vary: Accept-Encoding, Cookie
+X-Powered-By: PHP/7.4.12
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.niaid.nih.gov/clinical-trials/participant-testimonials>; rel="canonical", <https://www.niaid.nih.gov/clinical-trials/participant-testimonials>; rel="shortlink"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 14:07:28 GMT
+Etag: W/"1644588448"
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+X-Varnish: 9056273 8834392
+Age: 1650
+Via: 1.1 varnish (Varnish/6.3)
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes

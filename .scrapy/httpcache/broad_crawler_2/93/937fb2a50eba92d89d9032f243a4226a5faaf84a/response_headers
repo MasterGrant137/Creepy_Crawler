@@ -1,0 +1,25 @@
+Content-Length: 22315
+Date: Fri, 11 Feb 2022 06:56:20 GMT
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Link: <https://www.nichd.nih.gov/health/topics/mccune-albright/conditioninfo>; rel="canonical"
+Link: <https://www.nichd.nih.gov/health/topics/mccune-albright/conditioninfo>; rel="revision"
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 11 Feb 2022 06:56:20 GMT
+Etag: "1644562580-gzip"
+Vary: Cookie,Accept-Encoding
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-Varnish: 25936775 15226158
+Age: 24350
+Via: 1.1 varnish (Varnish/6.2), 1.1 sjc1-bit30
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block
+Set-Cookie: TS01b2e53e=01b0f6b22fa3a81da80b7af99defb0f9497e9ba4b06d6f7082d91894ae18ffa4c9944e97ea6f4291cf62333516ed9bdc3ca7ac906f; Path=/; Secure; HTTPOnly
