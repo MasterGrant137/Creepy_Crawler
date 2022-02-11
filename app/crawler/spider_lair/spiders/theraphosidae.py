@@ -48,3 +48,19 @@ class DeepCrawler1(scrapy.Spider):
                 text = input.css('::attr(value)').get()
                 yield { 'url': url, 'text': text }
         except: print(f'End of the line error in process_search method for {self.name}.')
+
+
+
+class DeepCrawler2(scrapy.Spider):
+    """Deep crawling spider."""
+
+    name = 'deep_crawler_2'
+    start_urls = ['https://www.dictionary.com/browse/']
+
+    def parse(self, response):
+        """Follow links."""
+        try:
+            for text in all_text:
+                query_found = bool(re.search(self.query_regex, text.get()))
+                if query_found: yield { 'url': response.request.url, 'text': text.get() }
+        except: print(f'End of the line error for {self.name}.')

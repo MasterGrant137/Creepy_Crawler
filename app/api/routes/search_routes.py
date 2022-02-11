@@ -97,10 +97,19 @@ def scrape_with_crochet(raw_query):
         - Only match match strings followed by specified characters: `[\s|.|,|?|!|:|;|-]` (i.e., a
           space or punctuation).
     """
-    partitioned_query = ('|').join([f'(?<!\w){i}[\s|.|,|?|!|:|;|-]' for i in raw_query.split() if i not in stop_word_set])
+    raw_query_str_list = raw_query.split()
+    broad_crawler_str = ''
+    deep_crawler_str = ''
+
+    for i in range(len(raw_query_str_list)):
+        raw_query_substring = raw_query_str_list[i]
+        if raw_query_substring not in stop_word_set:
+            broad_crawler_str += f'|(?<!\w){i}[\s|.|,|?|!|:|;|-]'
+
+    partitioned_query = ('|').join([ for i in  if i not in stop_word_set])
     query_regex = re.compile(rf'{partitioned_query}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7, caerostris_darwini.BroadCrawler8]
+    broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
     deep_crawlers = [theraphosidae.DeepCrawler1]
     if len(partitioned_query):
         for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=query_regex)
