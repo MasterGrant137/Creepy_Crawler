@@ -1,7 +1,0 @@
-Content-Length: 132
-Server: nginx
-Date: Thu, 23 Dec 2021 19:46:19 GMT
-Content-Type: text/html; charset=utf-8
-X-Redirector: dw
-Location: https://www.francetvinfo.fr/robots.txt
-Vary: Accept

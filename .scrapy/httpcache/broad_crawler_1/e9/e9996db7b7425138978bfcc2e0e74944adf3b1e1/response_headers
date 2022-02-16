@@ -1,7 +1,0 @@
-Content-Length: 0
-Location: https://www.facebook.com/msg/robots.txt/?show_interstitial=0&mdotme_uri=https%3A%2F%2Fm.me%2Frobots.txt&handler=m.me&referer
-Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
-Content-Type: text/html; charset="utf-8"
-X-Fb-Debug: HFSxSCqJNLXmCVea7zWj35goMQ2m1a1vNVy8GfKYpO5ErG2MpY7pbdhn/PFkkqcUnIxm9qn5Lj8cOIQid3vp0Q==
-Date: Thu, 23 Dec 2021 19:46:25 GMT
-Alt-Svc: h3=":443"; ma=3600, h3-29=":443"; ma=3600

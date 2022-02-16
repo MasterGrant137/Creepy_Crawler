@@ -1,9 +1,0 @@
-Content-Type: text/plain; charset=UTF-8
-Date: Thu, 23 Dec 2021 19:46:17 GMT
-Expires: Fri, 24 Dec 2021 19:46:17 GMT
-Cache-Control: public, max-age=86400
-Content-Encoding: gzip
-Server: support-content-ui
-X-Xss-Protection: 0
-X-Frame-Options: SAMEORIGIN
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

@@ -1,9 +1,0 @@
-Content-Length: 162
-Date: Thu, 23 Dec 2021 19:47:30 GMT
-Content-Type: text/html
-Location: https://www.mozilla.org/robots.txt
-Strict-Transport-Security: max-age=60; includeSubDomains
-X-Backend-Server: TS
-Cache-Control: max-age=3600
-X-Frame-Options: SAMEORIGIN
-Content-Security-Policy: frame-ancestors 'none'

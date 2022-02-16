@@ -1,9 +1,0 @@
-Server: ddos-guard
-Content-Security-Policy: upgrade-insecure-requests;
-Set-Cookie: __ddg1=xfKvFyL6685d8ax89FXe; Domain=.ucoz.ru; HttpOnly; Path=/; Expires=Fri, 23-Dec-2022 19:47:38 GMT
-Set-Cookie: UZRef=https://moz.com/top500; path=/; expires=Sat, 22-Jan-2022 19:47:34 GMT
-Set-Cookie: uSID=ANu6qbZPLiTscqM%212aiyO%21kb8tFTSsp9Ghy4FX3KnZ%21kELvkm4M2wTfo; path=/
-Date: Thu, 23 Dec 2021 19:47:34 GMT
-Content-Type: text/html; charset=UTF-8
-X-Frame-Options: SAMEORIGIN
-Content-Encoding: gzip

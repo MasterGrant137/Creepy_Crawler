@@ -1,8 +1,0 @@
-Content-Type: text/plain; charset=utf-8
-Vary: Accept-Encoding
-Content-Encoding: gzip
-X-Cloud-Trace-Context: ac5cbe35c5bca58a47956beed038527b
-Date: Thu, 23 Dec 2021 19:22:58 GMT
-Server: Google Frontend
-Cache-Control: private
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

@@ -1,7 +1,0 @@
-Content-Length: 0
-Server: AkamaiGHost
-Location: https://www.ibm.com/
-Cache-Control: max-age=0
-Expires: Thu, 23 Dec 2021 19:46:24 GMT
-Date: Thu, 23 Dec 2021 19:46:24 GMT
-Strict-Transport-Security: max-age=3600

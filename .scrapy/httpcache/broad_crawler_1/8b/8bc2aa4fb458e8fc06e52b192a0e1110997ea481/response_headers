@@ -1,8 +1,0 @@
-Content-Length: 0
-Server: CloudFront
-Date: Thu, 23 Dec 2021 19:46:22 GMT
-Location: https://www.timeout.com/robots.txt
-X-Cache: LambdaGeneratedResponse from cloudfront
-Via: 1.1 b53110859cfc7819470fe06f91c67857.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: LAX50-C2
-X-Amz-Cf-Id: ofQ91bGeXEendU-MdTvNxxjrnmcqe1SvpperUM__oO8UCRZA1UQNrQ==
