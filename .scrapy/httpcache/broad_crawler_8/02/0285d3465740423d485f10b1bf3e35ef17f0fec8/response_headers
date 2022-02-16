@@ -1,8 +1,0 @@
-Content-Length: 0
-Server: Varnish
-Retry-After: 0
-Accept-Ranges: bytes
-Date: Mon, 20 Dec 2021 22:00:26 GMT
-X-Varnish: 1222147109
-Via: 1.1 varnish
-Location: https://www.thesaurus.com/e/writing/

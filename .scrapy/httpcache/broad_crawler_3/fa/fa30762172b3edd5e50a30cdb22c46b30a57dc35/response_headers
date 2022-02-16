@@ -1,7 +1,0 @@
-Content-Length: 0
-Content-Type: text/html; charset=UTF-8
-Location: https://fiber.google.com/legal/privacy/
-X-Cloud-Trace-Context: 66da0fe2ee154062a493155000a7e631
-Date: Mon, 20 Dec 2021 19:01:31 GMT
-Server: Google Frontend
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"

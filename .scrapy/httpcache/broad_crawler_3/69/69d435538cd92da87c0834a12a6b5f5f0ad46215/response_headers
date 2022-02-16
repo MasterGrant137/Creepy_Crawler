@@ -1,8 +1,0 @@
-Server: nginx/1.21.3
-Date: Mon, 20 Dec 2021 17:54:26 GMT
-Content-Type: text/plain;charset=UTF-8
-Set-Cookie: CFID=30603042; Expires=Wed, 13-Dec-2051 17:54:26 GMT; Path=/; HttpOnly
-Set-Cookie: CFTOKEN=d04973409affa2eb-79CC4E42-9EAA-ABD7-9253A5B70E2F664A; Expires=Wed, 13-Dec-2051 17:54:26 GMT; Path=/; HttpOnly
-X-Device-Class: DEFAULT
-X-Powered-By: ASP.NET
-Content-Encoding: gzip

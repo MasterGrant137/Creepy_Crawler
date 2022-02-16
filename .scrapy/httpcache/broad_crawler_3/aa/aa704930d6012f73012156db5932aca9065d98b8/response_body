@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /health/
-Crawl-delay: 2
-
-Host: twitterdev.bevylabs.com
-

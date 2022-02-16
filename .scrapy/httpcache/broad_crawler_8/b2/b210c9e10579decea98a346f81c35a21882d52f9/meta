@@ -1,1 +1,0 @@
-{'url': 'https://www.imdb.com/search/title/?count=100&groups=oscar_best_picture_winners&sort=year%2Cdesc&ref_=nv_ch_osc', 'method': 'GET', 'status': 200, 'response_url': 'https://www.imdb.com/search/title/?count=100&groups=oscar_best_picture_winners&sort=year%2Cdesc&ref_=nv_ch_osc', 'timestamp': 1640022881.246062}

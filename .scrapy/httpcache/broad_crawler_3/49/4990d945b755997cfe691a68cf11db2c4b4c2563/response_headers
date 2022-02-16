@@ -1,8 +1,0 @@
-Date: Sat, 18 Dec 2021 02:07:00 GMT
-Cache-Control: max-age=3600
-Expires: Sat, 18 Dec 2021 03:07:00 GMT
-Location: https://maint.tandfonline.com/
-Vary: Accept-Encoding
-Server: cloudflare
-Cf-Ray: 6bf4d5ccbcc2323e-LAX
-Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400

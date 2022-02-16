@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /api/
-Host: https://www.climatewatchdata.org
-Sitemap: https://www.climatewatchdata.org/sitemap.xml
