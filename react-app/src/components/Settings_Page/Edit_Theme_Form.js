@@ -210,7 +210,6 @@ const EditThemeForm = ({ style }) => {
                     />
                   <FontAwesomeIcon
                       id={`cancel-btn-${setting.id}`}
-                      data-setting-id={`${setting.id}`}
                       data-visibility={unlockedThemes.has(setting.id)}
                       alt='Cancel Changes'
                       type='Cancel Changes'
@@ -257,7 +256,6 @@ const EditThemeForm = ({ style }) => {
                     }
                   <button
                       id={`lock-btn-${setting.id}`}
-                      data-setting-id={`${setting.id}`}
                       data-locked={!unlockedThemes.has(setting.id)}
                     >
                       <FontAwesomeIcon
