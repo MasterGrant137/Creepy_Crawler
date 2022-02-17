@@ -10,6 +10,7 @@ const EditThemeForm = ({ style }) => {
   const user = useSelector((state) => state.session.user);
   const settingsObj = useSelector((state) => state.settings);
 
+  const [unlockedThemes, setUnlockedThemes] = useState(new Set());
   const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
   const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
 
@@ -82,14 +83,15 @@ const EditThemeForm = ({ style }) => {
   const editFormHandler = async (e) => {
     e.preventDefault();
     const targForm = e.target;
-    const targFieldset = targForm.children[0];
     const targFieldsetKids = Array.from(targForm.children[0].children);
     const settingID = targForm.id;
     const lockBtn = document.getElementById(`lock-btn-${settingID}`);
     const formData = new FormData();
 
     if (lockBtn.dataset.locked === 'true') {
-      if (targFieldset) targFieldset.disabled = false;
+      unlockedThemes.add(+settingID);
+      console.log(unlockedThemes, 'unlocked');
+      setUnlockedThemes(unlockedThemes);
 
       const lockIcon = lockBtn.children[0];
       lockIcon.dataset.visibility = 'false';
@@ -101,9 +103,10 @@ const EditThemeForm = ({ style }) => {
       const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
       cancelBtn.classList.remove('invisible');
     } else if (lockBtn.dataset.locked === 'false') {
+      unlockedThemes.delete(+settingID);
+      console.log(unlockedThemes, 'locked');
+      setUnlockedThemes(unlockedThemes);
       targFieldsetKids.forEach((targKid) => {
-        if (targFieldset) targFieldset.disabled = true;
-
         const lockOpenIcon = lockBtn.children[1];
         lockOpenIcon.dataset.visibility = 'false';
 
@@ -200,7 +203,8 @@ const EditThemeForm = ({ style }) => {
         >
           <fieldset
               className='ef1-fieldset'
-              disabled
+              log={console.log(unlockedThemes, !unlockedThemes.has(setting.id))}
+              disabled={!unlockedThemes.has(setting.id)}
               style={{
                 backgroundImage: `url(${setting.background_media})`,
                 backgroundColor: setting.background_color,
@@ -245,8 +249,8 @@ const EditThemeForm = ({ style }) => {
                     />
                   {user.custom_theme !== setting.id
                         && <FontAwesomeIcon
-                            alt='Unselected Theme'
-                            title='Unselected Theme'
+                            alt='Select Theme'
+                            title='Select Theme'
                             icon='circle'
                             onClick={() => updateActiveTheme(setting.id, 'custom_theme')}
                             style={{
@@ -257,8 +261,8 @@ const EditThemeForm = ({ style }) => {
                     }
                   {user.custom_theme === setting.id
                         && <FontAwesomeIcon
-                            alt='Selected Theme'
-                            title='Selected Theme'
+                            alt='Unselect Theme'
+                            title='Unselect Theme'
                             icon='check-circle'
                             onClick={() => updateActiveTheme(setting.id, 'custom_theme')}
                             style={{
