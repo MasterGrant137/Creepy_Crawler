@@ -15,6 +15,8 @@ const EditThemeForm = ({ style }) => {
   const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
   const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
 
+  useEffect(() => {}, [render]);
+
   const fontFamiliesRaw = dropdownData.fonts;
   const fontFamilies = fontFamiliesRaw.map((fontFamily) => (
       <option key={fontFamily}>{fontFamily}</option>
@@ -172,10 +174,6 @@ const EditThemeForm = ({ style }) => {
       id: settingID,
     }));
   };
-
-  useEffect(() => {
-
-  }, [render]);
 
   const editorThemes = Object.values(settingsObj).map((setting, idx) => (
       <form
