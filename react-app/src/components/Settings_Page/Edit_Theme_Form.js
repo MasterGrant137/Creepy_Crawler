@@ -93,17 +93,11 @@ const EditThemeForm = ({ style }) => {
       unlockedThemes.add(+settingID);
       setUnlockedThemes(unlockedThemes);
       rerender((prv) => !prv);
-
-      const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
-      cancelBtn.classList.remove('invisible');
     } else if (lockBtn.dataset.locked === 'false') {
       unlockedThemes.delete(+settingID);
       setUnlockedThemes(unlockedThemes);
       rerender((prv) => !prv);
       targFieldsetKids.forEach((targKid) => {
-        const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
-        cancelBtn.classList.add('invisible');
-
         if (targKid.dataset.type === 'bg-media-editor-div') {
           const mediaInput = targKid.children[1];
           formData.append('backgroundMedia', backgroundMedia);
@@ -217,7 +211,7 @@ const EditThemeForm = ({ style }) => {
                   <FontAwesomeIcon
                       id={`cancel-btn-${setting.id}`}
                       data-setting-id={`${setting.id}`}
-                      className='invisible'
+                      data-visibility={unlockedThemes.has(setting.id)}
                       alt='Cancel Changes'
                       type='Cancel Changes'
                       icon='window-close'
