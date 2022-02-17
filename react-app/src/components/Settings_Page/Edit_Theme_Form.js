@@ -96,9 +96,6 @@ const EditThemeForm = ({ style }) => {
 
       const lockIcon = lockBtn.children[0];
       lockIcon.dataset.visibility = 'false';
-
-      const lockOpenIcon = document.getElementById(`lock-open-${settingID}`);
-      lockOpenIcon.dataset.visibility = 'true';
       lockBtn.dataset.locked = 'false';
 
       const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
@@ -110,9 +107,6 @@ const EditThemeForm = ({ style }) => {
       targFieldsetKids.forEach((targKid) => {
         const lockOpenIcon = lockBtn.children[1];
         lockOpenIcon.dataset.visibility = 'false';
-
-        const lockIcon = document.getElementById(`lock-${settingID}`);
-        lockIcon.dataset.visibility = 'true';
         lockBtn.dataset.locked = 'true';
 
         const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
