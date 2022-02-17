@@ -10,7 +10,7 @@ const EditThemeForm = ({ style }) => {
   const user = useSelector((state) => state.session.user);
   const settingsObj = useSelector((state) => state.settings);
 
-  const [render, rerender] = useState(true);
+  const [render, rerender] = useState(false);
   const [unlockedThemes, setUnlockedThemes] = useState(new Set());
   const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
   const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
@@ -91,9 +91,8 @@ const EditThemeForm = ({ style }) => {
 
     if (lockBtn.dataset.locked === 'true') {
       unlockedThemes.add(+settingID);
-      rerender((prv) => !prv);
-      console.log(unlockedThemes, 'unlocked');
       setUnlockedThemes(unlockedThemes);
+      rerender((prv) => !prv);
 
       const lockIcon = lockBtn.children[0];
       lockIcon.dataset.visibility = 'false';
@@ -106,9 +105,8 @@ const EditThemeForm = ({ style }) => {
       cancelBtn.classList.remove('invisible');
     } else if (lockBtn.dataset.locked === 'false') {
       unlockedThemes.delete(+settingID);
-      rerender((prv) => !prv);
-      console.log(unlockedThemes, 'locked');
       setUnlockedThemes(unlockedThemes);
+      rerender((prv) => !prv);
       targFieldsetKids.forEach((targKid) => {
         const lockOpenIcon = lockBtn.children[1];
         lockOpenIcon.dataset.visibility = 'false';
@@ -198,8 +196,7 @@ const EditThemeForm = ({ style }) => {
   };
 
   useEffect(() => {
-    console.log(unlockedThemes);
-    console.log('useEffect hit');
+
   }, [render]);
 
   const editorThemes = Object.values(settingsObj).map((setting, idx) => (
@@ -211,7 +208,6 @@ const EditThemeForm = ({ style }) => {
         >
           <fieldset
               className='ef1-fieldset'
-              log={console.log(unlockedThemes, !unlockedThemes.has(setting.id))}
               disabled={!unlockedThemes.has(setting.id)}
               style={{
                 backgroundImage: `url(${setting.background_media})`,

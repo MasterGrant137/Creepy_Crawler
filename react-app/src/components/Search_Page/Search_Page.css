@@ -1,4 +1,7 @@
-.search-page-title { font-size: 10vh }
+.search-page-title { 
+  font-size: 10vh;
+  text-align: center;
+}
 
 .search-page-search-input {
   border: 3px solid;
