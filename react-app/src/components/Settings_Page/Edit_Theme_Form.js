@@ -94,10 +94,6 @@ const EditThemeForm = ({ style }) => {
       setUnlockedThemes(unlockedThemes);
       rerender((prv) => !prv);
 
-      const lockIcon = lockBtn.children[0];
-      lockIcon.dataset.visibility = 'false';
-      lockBtn.dataset.locked = 'false';
-
       const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
       cancelBtn.classList.remove('invisible');
     } else if (lockBtn.dataset.locked === 'false') {
@@ -105,10 +101,6 @@ const EditThemeForm = ({ style }) => {
       setUnlockedThemes(unlockedThemes);
       rerender((prv) => !prv);
       targFieldsetKids.forEach((targKid) => {
-        const lockOpenIcon = lockBtn.children[1];
-        lockOpenIcon.dataset.visibility = 'false';
-        lockBtn.dataset.locked = 'true';
-
         const cancelBtn = document.getElementById(`cancel-btn-${settingID}`);
         cancelBtn.classList.add('invisible');
 
@@ -272,7 +264,7 @@ const EditThemeForm = ({ style }) => {
                   <button
                       id={`lock-btn-${setting.id}`}
                       data-setting-id={`${setting.id}`}
-                      data-locked='true'
+                      data-locked={!unlockedThemes.has(setting.id)}
                     >
                       <FontAwesomeIcon
                           id={`lock-${setting.id}`}
