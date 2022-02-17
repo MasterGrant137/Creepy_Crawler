@@ -33,15 +33,9 @@ const EditThemeForm = ({ style }) => {
     const targFieldset = targForm.children[0];
     const targFieldsetKids = Array.from(targForm.children[0].children);
 
-    const lockOpenIcon = document.getElementById(`lock-open-${targID}`);
-    const lockIcon = document.getElementById(`lock-${targID}`);
-    const lockBtn = document.getElementById(`lock-btn-${targID}`);
-    const cancelBtn = document.getElementById(`cancel-btn-${targID}`);
-
-    lockOpenIcon.dataset.visibility = 'false';
-    lockIcon.dataset.visibility = 'true';
-    lockBtn.dataset.locked = 'true';
-    cancelBtn.classList.add('invisible');
+    unlockedThemes.delete(targID);
+    setUnlockedThemes(unlockedThemes);
+    rerender((prv) => !prv);
 
     targFieldsetKids.forEach((targKid) => {
       if (targFieldset) targFieldset.disabled = true;
