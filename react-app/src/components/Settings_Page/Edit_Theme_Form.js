@@ -85,16 +85,14 @@ const EditThemeForm = ({ style }) => {
     e.preventDefault();
     const targForm = e.target;
     const targFieldsetKids = Array.from(targForm.children[0].children);
-    const settingID = targForm.id;
-    const lockBtn = document.getElementById(`lock-btn-${settingID}`);
+    const settingID = +targForm.id;
     const formData = new FormData();
-
-    if (lockBtn.dataset.locked === 'true') {
-      unlockedThemes.add(+settingID);
+    if (!unlockedThemes.has(settingID)) {
+      unlockedThemes.add(settingID);
       setUnlockedThemes(unlockedThemes);
       rerender((prv) => !prv);
-    } else if (lockBtn.dataset.locked === 'false') {
-      unlockedThemes.delete(+settingID);
+    } else if (unlockedThemes.has(settingID)) {
+      unlockedThemes.delete(settingID);
       setUnlockedThemes(unlockedThemes);
       rerender((prv) => !prv);
       targFieldsetKids.forEach((targKid) => {
