@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
@@ -10,6 +10,7 @@ const EditThemeForm = ({ style }) => {
   const user = useSelector((state) => state.session.user);
   const settingsObj = useSelector((state) => state.settings);
 
+  const [render, rerender] = useState(true);
   const [unlockedThemes, setUnlockedThemes] = useState(new Set());
   const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
   const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
@@ -90,6 +91,7 @@ const EditThemeForm = ({ style }) => {
 
     if (lockBtn.dataset.locked === 'true') {
       unlockedThemes.add(+settingID);
+      rerender((prv) => !prv);
       console.log(unlockedThemes, 'unlocked');
       setUnlockedThemes(unlockedThemes);
 
@@ -104,6 +106,7 @@ const EditThemeForm = ({ style }) => {
       cancelBtn.classList.remove('invisible');
     } else if (lockBtn.dataset.locked === 'false') {
       unlockedThemes.delete(+settingID);
+      rerender((prv) => !prv);
       console.log(unlockedThemes, 'locked');
       setUnlockedThemes(unlockedThemes);
       targFieldsetKids.forEach((targKid) => {
@@ -193,6 +196,11 @@ const EditThemeForm = ({ style }) => {
       id: settingID,
     }));
   };
+
+  useEffect(() => {
+    console.log(unlockedThemes);
+    console.log('useEffect hit');
+  }, [render]);
 
   const editorThemes = Object.values(settingsObj).map((setting, idx) => (
       <form
