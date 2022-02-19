@@ -44,10 +44,7 @@ const EditThemeForm = ({ style }) => {
     const settingID = +targForm.id;
     const formData = new FormData(e.target);
 
-    if (!unlockedThemes.has(settingID)) {
-      unlockedThemes.add(settingID);
-      setUnlockedThemes(unlockedThemes);
-    } else if (unlockedThemes.has(settingID)) {
+    if (unlockedThemes.has(settingID)) {
       unlockedThemes.delete(settingID);
       setUnlockedThemes(unlockedThemes);
 
@@ -63,6 +60,9 @@ const EditThemeForm = ({ style }) => {
 
       dispatch(updateUserSetting(settingID, formData));
       setBackgroundMediaLoading(false);
+    } else {
+      unlockedThemes.add(settingID);
+      setUnlockedThemes(unlockedThemes);
     }
     rerender((prv) => !prv);
   };
