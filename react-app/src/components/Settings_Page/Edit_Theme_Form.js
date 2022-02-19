@@ -160,14 +160,15 @@ const EditThemeForm = ({ style }) => {
                         color: setting.font_color,
                       }}
                     />
-                  <button type='reset'>
+                  <button
+                      type='reset' data-visibility={unlockedThemes.has(setting.id)}
+                      onClick={() => resetHandler(setting.id)}
+                    >
                       <FontAwesomeIcon
                           id={`cancel-btn-${setting.id}`}
-                          data-visibility={unlockedThemes.has(setting.id)}
                           alt='Cancel Changes'
                           type='Cancel Changes'
                           icon='window-close'
-                          onClick={() => resetHandler(setting.id)}
                           style={{
                             backgroundColor: setting.background_color,
                             color: setting.font_color,
