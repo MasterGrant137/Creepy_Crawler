@@ -28,7 +28,6 @@ const EditThemeForm = ({ style }) => {
   ));
 
   const resetHandler = (settingID) => {
-    console.log('hit', settingID);
     unlockedThemes.delete(settingID);
     setUnlockedThemes(unlockedThemes);
     rerender((prv) => !prv);
@@ -42,6 +41,7 @@ const EditThemeForm = ({ style }) => {
   const editFormHandler = async (e) => {
     e.preventDefault();
     const targForm = e.target;
+    console.log(targForm.elements);
     const targFieldsetKids = Array.from(targForm.children[0].children);
     const settingID = +targForm.id;
     const formData = new FormData();
