@@ -41,47 +41,30 @@ const EditThemeForm = ({ style }) => {
   const editFormHandler = async (e) => {
     e.preventDefault();
     const targForm = e.target;
-    console.log(targForm.elements);
-    const targFieldsetKids = Array.from(targForm.children[0].children);
     const settingID = +targForm.id;
-    const formData = new FormData();
+    const formData = new FormData(e.target);
+
     if (!unlockedThemes.has(settingID)) {
       unlockedThemes.add(settingID);
       setUnlockedThemes(unlockedThemes);
-      rerender((prv) => !prv);
     } else if (unlockedThemes.has(settingID)) {
       unlockedThemes.delete(settingID);
       setUnlockedThemes(unlockedThemes);
-      rerender((prv) => !prv);
-      targFieldsetKids.forEach((targKid) => {
-        if (targKid.dataset.type === 'bg-media-editor-div') {
-          const mediaInput = targKid.children[1];
-          formData.append('backgroundMedia', backgroundMedia);
-          setBackgroundMediaLoading(true);
-          mediaInput.value = '';
-        }
 
-        formData.append('settingID', settingID);
-        formData.append('userID', user.id);
+      const backgroundRotate = formData.get('backgroundRotate') === 'on';
+      const fontFamily = formData.get('fontFamily').replace(/\s\|\s/, ', ');
+      const fontSize = `${formData.get('fontSize')}px`;
 
-        if (targKid.tagName !== 'BUTTON') {
-          switch (targKid.name) {
-            case 'themeName': formData.append('themeName', targKid.value); break;
-            case 'backgroundColor': formData.append('backgroundColor', targKid.value); break;
-            case 'backgroundRotate': formData.append('backgroundRotate', targKid.checked); break;
-            case 'fontColor': formData.append('fontColor', targKid.value); break;
-            case 'fontFamily': formData.append('fontFamily', targKid.value.replace(/\s\|\s/, ', ')); break;
-            case 'fontSize': formData.append('fontSize', `${targKid.value}px`); break;
-            case 'accent1': formData.append('accent1', targKid.value); break;
-            case 'accent2': formData.append('accent2', targKid.value); break;
-            case 'accent3': formData.append('accent3', targKid.value); break;
-            default: break;
-          }
-        }
-      });
+      formData.set('backgroundRotate', backgroundRotate);
+      formData.set('fontFamily', fontFamily);
+      formData.set('fontSize', fontSize);
+      formData.set('settingID', settingID);
+      formData.set('userID', user.id);
+
       dispatch(updateUserSetting(settingID, formData));
       setBackgroundMediaLoading(false);
     }
+    rerender((prv) => !prv);
   };
 
   const copyThemeData = (settingID) => {
@@ -289,7 +272,7 @@ const EditThemeForm = ({ style }) => {
                   <label htmlFor={`bg-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
                   <input
                       id={`bg-media-editor-${idx}`}
-                      name='Background Media'
+                      name='backgroundMedia'
                       type='file'
                       accept='image/png, image/jpg, image/jpeg, image/gif'
                       onChange={setBackgroundMediaHandler}
