@@ -27,49 +27,11 @@ const EditThemeForm = ({ style }) => {
       <option key={fontSize}>{fontSize}</option>
   ));
 
-  const resetHandler = (targID) => {
-    const targForm = document.getElementById(targID);
-    const prev = settingsObj[targID];
-    const targFieldset = targForm.children[0];
-    const targFieldsetKids = Array.from(targForm.children[0].children);
-
-    unlockedThemes.delete(targID);
+  const resetHandler = (settingID) => {
+    console.log('hit', settingID);
+    unlockedThemes.delete(settingID);
     setUnlockedThemes(unlockedThemes);
     rerender((prv) => !prv);
-
-    targFieldsetKids.forEach((targKid) => {
-      if (targFieldset) targFieldset.disabled = true;
-      if (targKid.dataset.type === 'bg-media-editor-div') {
-        const mediaInput = targKid.children[1];
-        mediaInput.value = '';
-      }
-      switch (targKid.name) {
-        case 'Theme Name': targKid.value = prev.theme_name; break;
-        case 'Background Color': targKid.value = prev.background_color; break;
-        case 'Background Media': targKid.value = ''; break;
-        case 'Background Rotate': targKid.checked = prev.background_rotate; break;
-        case 'Font Color': targKid.value = prev.font_color; break;
-        case 'Font Family': {
-          const targText = prev.font_family.replace(/,\s/, ' | ');
-          const targKids = targKid.children;
-          const targFamily = Array.from(targKids).find((opt) => opt.text === targText);
-          targFamily.selected = true;
-          break;
-        }
-        case 'Font Size': {
-          targKid.value = prev.font_size;
-          const targNum = prev.font_size.replace('px', '');
-          const targKids = targKid.children;
-          const targSize = Array.from(targKids).find((opt) => opt.text === targNum);
-          targSize.selected = true;
-          break;
-        }
-        case 'Accent 1': targKid.value = prev.accent_1; break;
-        case 'Accent 2': targKid.value = prev.accent_2; break;
-        case 'Accent 3': targKid.value = prev.accent_3; break;
-        default: break;
-      }
-    });
   };
 
   const setBackgroundMediaHandler = (e) => {
@@ -198,18 +160,20 @@ const EditThemeForm = ({ style }) => {
                         color: setting.font_color,
                       }}
                     />
-                  <FontAwesomeIcon
-                      id={`cancel-btn-${setting.id}`}
-                      data-visibility={unlockedThemes.has(setting.id)}
-                      alt='Cancel Changes'
-                      type='Cancel Changes'
-                      icon='window-close'
-                      onClick={() => resetHandler(setting.id)}
-                      style={{
-                        backgroundColor: setting.background_color,
-                        color: setting.font_color,
-                      }}
-                    />
+                  <button type='reset'>
+                      <FontAwesomeIcon
+                          id={`cancel-btn-${setting.id}`}
+                          data-visibility={unlockedThemes.has(setting.id)}
+                          alt='Cancel Changes'
+                          type='Cancel Changes'
+                          icon='window-close'
+                          onClick={() => resetHandler(setting.id)}
+                          style={{
+                            backgroundColor: setting.background_color,
+                            color: setting.font_color,
+                          }}
+                        />
+                  </button>
                   <FontAwesomeIcon
                       alt='Copy Theme Data'
                       title='Copy Theme Data'
