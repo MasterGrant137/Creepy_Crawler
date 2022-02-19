@@ -66,15 +66,15 @@ const EditThemeForm = ({ style }) => {
 
         if (targKid.tagName !== 'BUTTON') {
           switch (targKid.name) {
-            case 'Theme Name': formData.append('themeName', targKid.value); break;
-            case 'Background Color': formData.append('backgroundColor', targKid.value); break;
-            case 'Background Rotate': formData.append('backgroundRotate', targKid.checked); break;
-            case 'Font Color': formData.append('fontColor', targKid.value); break;
-            case 'Font Family': formData.append('fontFamily', targKid.value.replace(/\s\|\s/, ', ')); break;
-            case 'Font Size': formData.append('fontSize', `${targKid.value}px`); break;
-            case 'Accent 1': formData.append('accent1', targKid.value); break;
-            case 'Accent 2': formData.append('accent2', targKid.value); break;
-            case 'Accent 3': formData.append('accent3', targKid.value); break;
+            case 'themeName': formData.append('themeName', targKid.value); break;
+            case 'backgroundColor': formData.append('backgroundColor', targKid.value); break;
+            case 'backgroundRotate': formData.append('backgroundRotate', targKid.checked); break;
+            case 'fontColor': formData.append('fontColor', targKid.value); break;
+            case 'fontFamily': formData.append('fontFamily', targKid.value.replace(/\s\|\s/, ', ')); break;
+            case 'fontSize': formData.append('fontSize', `${targKid.value}px`); break;
+            case 'accent1': formData.append('accent1', targKid.value); break;
+            case 'accent2': formData.append('accent2', targKid.value); break;
+            case 'accent3': formData.append('accent3', targKid.value); break;
             default: break;
           }
         }
@@ -241,7 +241,7 @@ const EditThemeForm = ({ style }) => {
               <input
                   id={`theme-name-editor-${idx}`}
                   type='text'
-                  name='Theme Name'
+                  name='themeName'
                   maxLength='50'
                   placeholder='50 Characters Max'
                   aria-placeholder='50 Characters Max'
@@ -255,7 +255,7 @@ const EditThemeForm = ({ style }) => {
               <label htmlFor={`font-size-editor-${idx}`} style={{ fontSize: setting.font_size }}>Font Size</label>
               <select
                   id={`font-size-editor-${idx}`}
-                  name='Font Size'
+                  name='fontSize'
                   defaultValue={setting.font_size?.replace('px', '')}
                   style={{
                     backgroundColor: setting.background_color,
@@ -268,7 +268,7 @@ const EditThemeForm = ({ style }) => {
               <label htmlFor={`font-family-editor-${idx}`}>Font Family</label>
               <select
                   id={`font-family-editor-${idx}`}
-                  name='Font Family'
+                  name='fontFamily'
                   defaultValue={setting.font_family?.replace(/,\s/, ' | ')}
                   style={{
                     backgroundColor: setting.background_color,
@@ -280,10 +280,10 @@ const EditThemeForm = ({ style }) => {
               </select>
 
               <label htmlFor={`font-color-editor-${idx}`}>Font Color</label>
-              <input id={`font-color-editor-${idx}`} name='Font Color' type='color' defaultValue={setting.font_color} />
+              <input id={`font-color-editor-${idx}`} name='fontColor' type='color' defaultValue={setting.font_color} />
 
               <label htmlFor={`bg-color-editor-${idx}`}>Background Color</label>
-              <input id={`bg-color-editor-${idx}`} name='Background Color' type='color' defaultValue={setting.background_color} />
+              <input id={`bg-color-editor-${idx}`} name='backgroundColor' type='color' defaultValue={setting.background_color} />
 
               <div data-type='bg-media-editor-div'>
                   <label htmlFor={`bg-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
@@ -298,16 +298,16 @@ const EditThemeForm = ({ style }) => {
               </div>
 
               <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
-              <input id={`bg-rotate-editor-${idx}`} name='Background Rotate' type='checkbox' defaultChecked={setting.background_rotate} />
+              <input id={`bg-rotate-editor-${idx}`} name='backgroundRotate' type='checkbox' defaultChecked={setting.background_rotate} />
 
               <label htmlFor={`accent-1-color-editor-${idx}`} style={{ color: setting.accent_1 }}>Accent 1</label>
-              <input id={`accent-1-color-editor-${idx}`} name='Accent 1' type='color' defaultValue={setting.accent_1} />
+              <input id={`accent-1-color-editor-${idx}`} name='accent1' type='color' defaultValue={setting.accent_1} />
 
               <label htmlFor={`accent-2-color-editor-${idx}`} style={{ color: setting.accent_2 }}>Accent 2</label>
-              <input id={`accent-2-color-editor-${idx}`} name='Accent 2' type='color' defaultValue={setting.accent_2} />
+              <input id={`accent-2-color-editor-${idx}`} name='accent2' type='color' defaultValue={setting.accent_2} />
 
               <label htmlFor={`accent-3-color-editor-${idx}`} style={{ color: setting.accent_3 }}>Accent 3</label>
-              <input id={`accent-3-color-editor-${idx}`} name='Accent 3' type='color' defaultValue={setting.accent_3} />
+              <input id={`accent-3-color-editor-${idx}`} name='accent3' type='color' defaultValue={setting.accent_3} />
           </fieldset>
       </form>
   ));
