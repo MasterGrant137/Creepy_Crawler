@@ -12,7 +12,6 @@ const EditThemeForm = ({ style }) => {
 
   const [render, rerender] = useState(false);
   const [unlockedThemes, setUnlockedThemes] = useState(new Set());
-  const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
 
   useEffect(() => {}, [render]);
 
@@ -32,7 +31,7 @@ const EditThemeForm = ({ style }) => {
     rerender((prv) => !prv);
   };
 
-  const editFormHandler = async (e) => {
+  const editFormHandler = (e) => {
     e.preventDefault();
     const targForm = e.target;
     const settingID = +targForm.id;
@@ -53,7 +52,6 @@ const EditThemeForm = ({ style }) => {
       formData.set('userID', user.id);
 
       dispatch(updateUserSetting(settingID, formData));
-      setBackgroundMediaLoading(false);
     } else {
       unlockedThemes.add(settingID);
       setUnlockedThemes(unlockedThemes);
@@ -260,9 +258,7 @@ const EditThemeForm = ({ style }) => {
                       type='file'
                       accept='image/png, image/jpg, image/jpeg, image/gif'
                     />
-                  {backgroundMediaLoading && (<span>Loading...</span>)}
               </div>
-
               <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
               <input
                   id={`bg-rotate-editor-${idx}`}
