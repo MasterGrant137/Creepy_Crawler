@@ -1,26 +1,27 @@
 .history-clock-image {
-    border-radius: 50%;
-    cursor: pointer;
-    height: 25px;
-    width: 25px;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
 }
 
+.history-clock-image:hover { border: 3px solid rgba(192, 192, 192, 0.6) }
+
 .history-entry-div {
-    display: grid;
-    grid-template-areas: 
-    'c c c'
-    'a b d'
-    'e e e';
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 0.5fr 0.5fr;
-    height: fit-content;
-    text-align: center;
-    width: 30%;
+  display: grid;
+  grid-template-areas: 
+  'c c c'
+  'a b d'
+  'e e e';
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  height: fit-content;
+  text-align: center;
+  width: 30%;
 }
 
 .hist-date-div { 
-    grid-area: a;
-    text-align: left;
+  grid-area: a;
+  text-align: left;
 }
 
 .hist-time-and-tz-div { grid-area: b }
@@ -28,16 +29,16 @@
 .hist-day-of-week-div { grid-area: c }
 
 .hist-delete-div { 
-    grid-area: d;
-    text-align: right;
+  grid-area: d;
+  text-align: right;
 }
 
 .hist-text-div { grid-area: e }
 
 .hist-text { 
-    cursor: pointer;
-    overflow-wrap: break-word;
-    text-decoration: none;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  text-decoration: none;
 }
 
 .hist-text:hover { text-decoration: underline wavy }
