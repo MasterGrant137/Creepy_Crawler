@@ -12,7 +12,6 @@ const EditThemeForm = ({ style }) => {
 
   const [render, rerender] = useState(false);
   const [unlockedThemes, setUnlockedThemes] = useState(new Set());
-  const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
   const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
 
   useEffect(() => {}, [render]);
@@ -31,11 +30,6 @@ const EditThemeForm = ({ style }) => {
     unlockedThemes.delete(settingID);
     setUnlockedThemes(unlockedThemes);
     rerender((prv) => !prv);
-  };
-
-  const setBackgroundMediaHandler = (e) => {
-    const file = e.target.files[0];
-    if (file) setBackgroundMedia(file);
   };
 
   const editFormHandler = async (e) => {
@@ -258,20 +252,24 @@ const EditThemeForm = ({ style }) => {
               <label htmlFor={`bg-color-editor-${idx}`}>Background Color</label>
               <input id={`bg-color-editor-${idx}`} name='backgroundColor' type='color' defaultValue={setting.background_color} />
 
-              <div data-type='bg-media-editor-div'>
-                  <label htmlFor={`bg-media-editor-${idx}`}>{backgroundMedia !== '' ? 'Background Media' : 'Added'}</label>
+              <div className='background-media-div'>
+                  <label htmlFor={`bg-media-editor-${idx}`}>{setting.background_media ? 'Added' : 'Background Media'}</label>
                   <input
                       id={`bg-media-editor-${idx}`}
                       name='backgroundMedia'
                       type='file'
                       accept='image/png, image/jpg, image/jpeg, image/gif'
-                      onChange={setBackgroundMediaHandler}
                     />
                   {backgroundMediaLoading && (<span>Loading...</span>)}
               </div>
 
               <label htmlFor={`bg-rotate-editor-${idx}`}>Background Rotate</label>
-              <input id={`bg-rotate-editor-${idx}`} name='backgroundRotate' type='checkbox' defaultChecked={setting.background_rotate} />
+              <input
+                  id={`bg-rotate-editor-${idx}`}
+                  name='backgroundRotate'
+                  type='checkbox'
+                  defaultChecked={setting.background_rotate}
+              />
 
               <label htmlFor={`accent-1-color-editor-${idx}`} style={{ color: setting.accent_1 }}>Accent 1</label>
               <input id={`accent-1-color-editor-${idx}`} name='accent1' type='color' defaultValue={setting.accent_1} />

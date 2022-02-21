@@ -109,7 +109,7 @@ const NavBar = ({ style }) => {
                     icon='user-plus'
                     onClick={() => navHandler('/auth/signup')}
                 />}
-              {!isUser && <li role='button' onClick={() => navHandler('/stranger/crawler')}>Demo Login</li>}
+              {!isUser && <li role='link' onClick={() => navHandler('/stranger/crawler')}>Demo Login</li>}
               {isUser && <LogoutButton style={style} />}
           </ul>
       </nav>

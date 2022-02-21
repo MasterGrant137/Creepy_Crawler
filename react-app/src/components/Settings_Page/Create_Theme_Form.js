@@ -131,9 +131,9 @@ const CreateThemeForm = ({ style }) => {
                       <span className={`${themeLimitErr ? 'fade-in-out-error' : 'invisible'}`}>
                           Theme limit reached.
                       </span>
-                      <button data-sf2={`${submitBtn ? '' : 'not-allowed'}`}>
+                      <button className={`${submitBtn ? '' : 'not-allowed'}`}>
                           <FontAwesomeIcon
-                              data-sf2={`${submitBtn ? '' : 'not-allowed'}`}
+                              className={`${submitBtn ? '' : 'not-allowed'}`}
                               alt='Add Theme'
                               title='Add Theme'
                               icon='plus-square'
@@ -274,7 +274,7 @@ const CreateThemeForm = ({ style }) => {
                       </div>
                   </div>
                   <div className='sf2-row-c'>
-                      <div className='background-media-setter-div'>
+                      <div className='background-media-div'>
                           <label htmlFor='sf2-background-media'>
                               {backgroundMedia === '' || !fileInput.current?.value ? 'Background Media' : 'Added'}
                           </label>
