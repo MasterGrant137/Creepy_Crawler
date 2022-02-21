@@ -146,6 +146,7 @@ const EditThemeForm = ({ style }) => {
                   <button
                       type='reset' data-visibility={unlockedThemes.has(setting.id)}
                       onClick={() => resetHandler(setting.id)}
+                      style={{ fontSize: style.font_size }}
                     >
                       <FontAwesomeIcon
                           id={`cancel-btn-${setting.id}`}
@@ -195,6 +196,7 @@ const EditThemeForm = ({ style }) => {
                   <button
                       id={`lock-btn-${setting.id}`}
                       data-locked={!unlockedThemes.has(setting.id)}
+                      style={{ fontSize: style.font_size }}
                     >
                       <FontAwesomeIcon
                           id={unlockedThemes.has(setting.id) ? `lock-open-${setting.id}` : `lock-${setting.id}`}
