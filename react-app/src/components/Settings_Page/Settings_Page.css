@@ -12,6 +12,8 @@
 }
 
 .background-media-div {
+  align-items: center;
+  cursor: default;
   display: flex;
   flex-direction: column;
 }

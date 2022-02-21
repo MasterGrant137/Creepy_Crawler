@@ -274,7 +274,7 @@ const CreateThemeForm = ({ style }) => {
                       </div>
                   </div>
                   <div className='sf2-row-c'>
-                      <div className='background-media-div'>
+                      <div>
                           <label htmlFor='sf2-background-media'>
                               {backgroundMedia === '' || !fileInput.current?.value ? 'Background Media' : 'Added'}
                           </label>

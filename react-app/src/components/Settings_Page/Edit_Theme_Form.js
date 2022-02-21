@@ -12,6 +12,7 @@ const EditThemeForm = ({ style }) => {
 
   const [render, rerender] = useState(false);
   const [unlockedThemes, setUnlockedThemes] = useState(new Set());
+  const [clicked, setClicked] = useState(false);
 
   useEffect(() => {}, [render]);
 
@@ -249,7 +250,6 @@ const EditThemeForm = ({ style }) => {
 
               <label htmlFor={`bg-color-editor-${idx}`}>Background Color</label>
               <input id={`bg-color-editor-${idx}`} name='backgroundColor' type='color' defaultValue={setting.background_color} />
-
               <div className='background-media-div'>
                   <label htmlFor={`bg-media-editor-${idx}`}>{setting.background_media ? 'Added' : 'Background Media'}</label>
                   <input
@@ -265,8 +265,10 @@ const EditThemeForm = ({ style }) => {
                   name='backgroundRotate'
                   type='checkbox'
                   defaultChecked={setting.background_rotate}
+                  onPointerDown={() => setClicked(setting.id)}
+                  onPointerUp={() => setClicked(false)}
+                  style={{ cursor: setting.id === clicked ? 'not-allowed' : '' }}
               />
-
               <label htmlFor={`accent-1-color-editor-${idx}`} style={{ color: setting.accent_1 }}>Accent 1</label>
               <input id={`accent-1-color-editor-${idx}`} name='accent1' type='color' defaultValue={setting.accent_1} />
 
