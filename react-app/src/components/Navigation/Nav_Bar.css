@@ -23,6 +23,7 @@ nav [data-icon] { cursor: pointer }
 
 .profile-media-small {
     border-radius: 50%;
+    cursor: pointer;
     height: 50px;
     width: 50px;
 }
