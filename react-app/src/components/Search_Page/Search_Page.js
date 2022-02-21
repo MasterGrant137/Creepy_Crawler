@@ -12,7 +12,7 @@ const SearchPage = ({ style }) => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.session.user);
   const [loading, setLoading] = useState(false);
-  const [count, setCount] = useState(30);
+  const [count, setCount] = useState(15);
 
   let isUser;
   if (user && !user.errors) isUser = true;
