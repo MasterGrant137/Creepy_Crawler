@@ -197,22 +197,10 @@ const EditThemeForm = ({ style }) => {
                       data-locked={!unlockedThemes.has(setting.id)}
                     >
                       <FontAwesomeIcon
-                          id={`lock-${setting.id}`}
-                          data-visibility={!unlockedThemes.has(setting.id)}
-                          alt='Unlock Theme'
-                          title='Unlock Theme'
-                          icon='lock'
-                          style={{
-                            backgroundColor: setting.background_color,
-                            color: setting.font_color,
-                          }}
-                        />
-                      <FontAwesomeIcon
-                          id={`lock-open-${setting.id}`}
-                          data-visibility={unlockedThemes.has(setting.id)}
-                          alt='Lock Theme'
-                          title='Lock Theme'
-                          icon='lock-open'
+                          id={unlockedThemes.has(setting.id) ? `lock-open-${setting.id}` : `lock-${setting.id}`}
+                          alt={unlockedThemes.has(setting.id) ? 'Lock Theme' : 'Unlock Theme'}
+                          title={unlockedThemes.has(setting.id) ? 'Lock Theme' : 'Unlock Theme'}
+                          icon={unlockedThemes.has(setting.id) ? 'lock-open' : 'lock'}
                           style={{
                             backgroundColor: setting.background_color,
                             color: setting.font_color,
