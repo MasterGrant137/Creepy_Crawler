@@ -50,7 +50,9 @@ button:hover, [role='button']:hover {
   box-shadow: inset 0 0 1px 1px rgb(192, 189, 189);
 }
 
-.not-allowed, *:disabled:active { cursor: not-allowed }
+.not-allowed, input:disabled:active, select:disabled:active { 
+  cursor: not-allowed;
+}
 
 input:not([type='search']), select { text-align: center; }
 
