@@ -1,4 +1,4 @@
-"""Theraphosidae Spiders.
+"""Deep Crawling Spiders.
 
 Categories:
 + Encyclopedic (text)
@@ -8,10 +8,6 @@ Class attributes:
 - Attributes are passed from Flask *search_routes.py* as kwargs in the `crawl` method inside the
   `scrape_with_crochet` function.
 - They are accessed by keying into the self parameter.
-
-Legend:
-- [`rel`]: Done to enhance search result relevancy.
-- [`obs`]: Done to observe robots.txt.
 """
 
 import scrapy
@@ -74,7 +70,7 @@ class DeepCrawler2(scrapy.Spider):
     name = 'deep_crawler_2'
 
     def start_requests(self):
-        """Construct and follow link for each query [`rel`]."""
+        """Construct and follow link for each query."""
         try:
             for query in self.query_list: 
                 yield scrapy.Request(f'https://www.dictionary.com/browse/{query}', meta={'query': query})
@@ -104,7 +100,7 @@ class DeepCrawler3(scrapy.Spider):
     name = 'deep_crawler_3'
 
     def start_requests(self):
-        """Construct and follow link for each query [`obs`]."""
+        """Construct and follow link for every query permutation."""
         try:
             for query in self.query_list:
                 yield scrapy.Request(f'https://en.wikipedia.org/wiki/{query}', meta={'query': query})
