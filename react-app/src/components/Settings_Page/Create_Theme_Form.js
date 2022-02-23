@@ -37,6 +37,12 @@ const CreateThemeForm = ({ style }) => {
   const [themeLimitErr, setThmLmtErr] = useState(false);
   const [themeName, setThemeName] = useState('');
 
+  const errorHandler = (e) => {
+    const remove = e.type === 'mouseout';
+    if (remove) setThmLmtErr(false);
+    else if (!remove && !user.theme_count < 10) setThmLmtErr(true);
+  };
+
   const resetHandler = (e) => {
     e.preventDefault();
 
@@ -149,8 +155,8 @@ const CreateThemeForm = ({ style }) => {
                               aria-placeholder='50 Characters Max'
                               value={themeName}
                               onChange={(e) => setThemeName(e.target.value)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                               style={{
                                 backgroundColor: style.background_color,
                                 color: style.font_color,
@@ -169,8 +175,8 @@ const CreateThemeForm = ({ style }) => {
                                 const targOpt = Array.from(trgKids).find((opt) => opt.selected);
                                 setFontSize(`${targOpt.value}px`);
                               }}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                               style={{
                                 backgroundColor: style.background_color,
                                 color: style.font_color,
@@ -191,8 +197,8 @@ const CreateThemeForm = ({ style }) => {
                                 const targOpt = Array.from(trgKids).find((opt) => opt.selected);
                                 setFontFamily(targOpt.value.replace(/\s\|\s/, ', '));
                               }}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                               style={{
                                 backgroundColor: style.background_color,
                                 color: style.font_color,
@@ -212,8 +218,8 @@ const CreateThemeForm = ({ style }) => {
                               type='color'
                               value={fontColor}
                               onChange={(e) => setFontColor(e.target.value)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                       <div className='accent-1-setter-div'>
@@ -224,8 +230,8 @@ const CreateThemeForm = ({ style }) => {
                               type='color'
                               value={accent1}
                               onChange={(e) => setAccent1(e.target.value)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                       <div className='accent-2-setter-div'>
@@ -236,8 +242,8 @@ const CreateThemeForm = ({ style }) => {
                               type='color'
                               value={accent2}
                               onChange={(e) => setAccent2(e.target.value)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                       <div className='accent-3-setter-div'>
@@ -248,8 +254,8 @@ const CreateThemeForm = ({ style }) => {
                               type='color'
                               value={accent3}
                               onChange={(e) => setAccent3(e.target.value)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                       <div className='background-color-setter-div'>
@@ -260,8 +266,8 @@ const CreateThemeForm = ({ style }) => {
                               type='color'
                               value={backgroundColor}
                               onChange={(e) => { setBackgroundColor(e.target.value); }}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                   </div>
@@ -277,8 +283,8 @@ const CreateThemeForm = ({ style }) => {
                               type='file'
                               accept='image/png, image/jpg, image/jpeg, image/gif'
                               onChange={setBackgroundMediaHandler}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                       <div className='background-rotate-setter-div'>
@@ -289,8 +295,8 @@ const CreateThemeForm = ({ style }) => {
                               type='checkbox'
                               checked={backgroundRotate}
                               onChange={(e) => setBackgroundRotate(e.target.checked)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                   </div>
