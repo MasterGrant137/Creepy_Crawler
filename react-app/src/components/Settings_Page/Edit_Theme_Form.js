@@ -137,7 +137,8 @@ const EditThemeForm = ({ style }) => {
                       }}
                     />
                   <button
-                      type='reset' data-visibility={unlockedThemes.has(setting.id)}
+                      type='reset'
+                      data-visibility={unlockedThemes.has(setting.id)}
                       onClick={() => resetHandler(setting.id)}
                       style={{ fontSize: style.font_size }}
                     >

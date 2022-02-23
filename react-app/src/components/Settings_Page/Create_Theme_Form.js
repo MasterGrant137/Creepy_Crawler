@@ -13,14 +13,14 @@ const CreateThemeForm = ({ style }) => {
 
   const fontFamiliesRaw = dropdownData.fonts;
   const fontFamilies = fontFamiliesRaw.map((fontFamily) => (
-      <option key={fontFamily} >
+      <option key={fontFamily}>
           {fontFamily}
       </option>
   ));
 
   const fontSizesRaw = dropdownData['font-sizes'];
   const fontSizes = fontSizesRaw.map((fontSize) => (
-      <option key={fontSize} >
+      <option key={fontSize}>
           {fontSize}
       </option>
   ));
@@ -40,12 +40,10 @@ const CreateThemeForm = ({ style }) => {
   const errorHandler = (e) => {
     const remove = e.type === 'mouseout';
     if (remove) setThmLmtErr(false);
-    else if (!remove && !user.theme_count < 10) setThmLmtErr(true);
+    else if (!remove && user.theme_count >= 10) setThmLmtErr(true);
   };
 
-  const resetHandler = (e) => {
-    e.preventDefault();
-
+  const resetHandler = () => {
     setThemeName('');
     setBackgroundColor(style.background_color);
     setBackgroundMedia('');

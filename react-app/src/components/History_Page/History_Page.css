@@ -16,7 +16,8 @@
   grid-template-rows: 1fr 0.5fr 0.5fr;
   height: fit-content;
   text-align: center;
-  width: 30%;
+  padding: 0 20px;
+  width: 40%;
 }
 
 .hist-date-div { 
