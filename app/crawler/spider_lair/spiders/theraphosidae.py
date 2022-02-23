@@ -23,9 +23,9 @@ class DeepCrawler1(scrapy.Spider):
     def parse(self, response):
         """Send `POST` request.
         
-        This resource repository handles one word entries, so
-        each word present in the raw query is run as a separate
-        `POST` request.
+        This resource repository best handles one word entries,
+        so each word present in the raw query is run as a 
+        separate `POST` request.
         """
         try:
             for i in range(len(self.query_list)):
@@ -70,7 +70,7 @@ class DeepCrawler2(scrapy.Spider):
     name = 'deep_crawler_2'
 
     def start_requests(self):
-        """Construct and follow link for each query."""
+        """Construct and follow link for each subquery."""
         try:
             for query in self.query_list: 
                 yield scrapy.Request(f'https://www.dictionary.com/browse/{query}', meta={'query': query})
@@ -100,7 +100,7 @@ class DeepCrawler3(scrapy.Spider):
     name = 'deep_crawler_3'
 
     def start_requests(self):
-        """Construct and follow link for every query permutation."""
+        """Construct and follow link for each query permutation."""
         try:
             for query in self.query_list:
                 yield scrapy.Request(f'https://en.wikipedia.org/wiki/{query}', meta={'query': query})

@@ -1,0 +1,20 @@
+Content-Length: 16444
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.16.1
+X-Powered-By: Express
+Expires: Thu, 24 Feb 2022 05:30:00 GMT
+Etag: W/"130ac-k1lBWqTEYsD7pInXwp9TN1a7+P0"
+Content-Encoding: gzip
+Via: 1.1 varnish, 1.1 varnish
+Show-Carambola-Ad: true
+Show-Do-Not-Sell-Link: true
+Platform: Desktop
+Accept-Ranges: bytes
+Date: Wed, 23 Feb 2022 22:38:20 GMT
+Age: 0
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kiad7000042-IAD, cache-bur-kbur8200075-SMO
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1645655901.831140,VS0,VE104
+Vary: Accept-Encoding, show-carambola-ad, show-do-not-sell-link, platform, X-OPTIONS
