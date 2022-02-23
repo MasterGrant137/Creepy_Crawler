@@ -162,19 +162,6 @@ const EditThemeForm = ({ style }) => {
                         color: setting.font_color,
                       }}
                     />
-                  {/* {user.custom_theme !== setting.id
-                        && <FontAwesomeIcon
-                            alt='Select Theme'
-                            title='Select Theme'
-                            icon='circle'
-                            onClick={() => updateActiveTheme(setting.id, 'custom_theme')}
-                            style={{
-                              backgroundColor: setting.background_color,
-                              color: setting.font_color,
-                            }}
-                        />
-                    } */}
-                  {/* {user.custom_theme === setting.id */}
                   <FontAwesomeIcon
                       alt={user.custom_theme === setting.id ? 'Unselect Theme' : 'Select Theme'}
                       title={user.custom_theme === setting.id ? 'Unselect Theme' : 'Select Theme'}
@@ -184,8 +171,7 @@ const EditThemeForm = ({ style }) => {
                         backgroundColor: setting.background_color,
                         color: setting.font_color,
                       }}
-                  />
-                  {/* // } */}
+                    />
                   <button
                       id={`lock-btn-${setting.id}`}
                       data-locked={!unlockedThemes.has(setting.id)}

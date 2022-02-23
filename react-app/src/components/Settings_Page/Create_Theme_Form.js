@@ -314,10 +314,7 @@ const CreateThemeForm = ({ style }) => {
                 color: fontColor,
               }}
             >
-              <h2
-                  className='theme-tester-header'
-                  style={{ color: accent2, borderColor: accent1 }}
-                >
+              <h2 className='theme-tester-header' style={{ color: accent2, borderColor: accent1 }}>
                   {themeName || 'Demo Theme'}
               </h2>
               <div>
