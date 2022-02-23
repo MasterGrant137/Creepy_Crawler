@@ -29,7 +29,6 @@ const CreateThemeForm = ({ style }) => {
   const [accent2, setAccent2] = useState(style.accent_2);
   const [accent3, setAccent3] = useState(style.accent_3);
   const [backgroundColor, setBackgroundColor] = useState(style.background_color);
-  const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
   const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
   const [backgroundRotate, setBackgroundRotate] = useState(style.background_rotate);
   const [fontFamily, setFontFamily] = useState(style.font_family);
@@ -66,34 +65,22 @@ const CreateThemeForm = ({ style }) => {
     }));
   };
 
-  const createSettingHandler = async (e) => {
+  const createSettingHandler = (e) => {
     e.preventDefault();
 
     if (user.theme_count < 10) {
       const formData = new FormData(e.target);
 
-      const backgroundRotate = formData.get('backgroundRotate') === 'on';
-      const fontFamily = formData.get('fontFamily').replace(/\s\|\s/, ', ');
-      const fontSize = `${formData.get('fontSize')}px`;
+      const bgRotate = formData.get('backgroundRotate') === 'on';
+      const fntFamily = formData.get('fontFamily').replace(/\s\|\s/, ', ');
+      const fntSize = `${formData.get('fontSize')}px`;
 
-      // formData.append('userID', user.id);
-      // formData.append('themeName', themeName);
-      // formData.append('backgroundMedia', backgroundMedia);
-      // setBackgroundMediaLoading(true);
-      // formData.append('backgroundColor', backgroundColor);
-      // formData.append('backgroundRotate', backgroundRotate);
-      // formData.append('fontColor', fontColor);
-      // formData.append('fontFamily', fontFamily);
-      // formData.append('fontSize', fontSize);
-      // formData.append('accent1', accent1);
-      // formData.append('accent2', accent2);
-      // formData.append('accent3', accent3);
+      formData.set('backgroundRotate', bgRotate);
+      formData.set('fontFamily', fntFamily);
+      formData.set('fontSize', fntSize);
+      formData.set('userID', user.id);
 
-
-
-      await dispatch(createUserSetting(formData));
-      setBackgroundMediaLoading(false);
-
+      dispatch(createUserSetting(formData));
       resetHandler(e);
       incrementThemeCount('theme_count', 'increment');
     } else {
@@ -293,7 +280,6 @@ const CreateThemeForm = ({ style }) => {
                               onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
                               onMouseOut={() => { setThmLmtErr(false); }}
                             />
-                          {backgroundMediaLoading && (<span>Loading...</span>)}
                       </div>
                       <div className='background-rotate-setter-div'>
                           <label htmlFor='sf2-bg-rotate'>Background Rotate</label>
