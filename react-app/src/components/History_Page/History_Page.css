@@ -20,6 +20,10 @@
   width: 40%;
 }
 
+.history-entry-div:nth-child(2) { border-radius: 20px 20px 0 0 }
+
+.history-entry-div:last-child { border-radius: 0 0 20px 20px }
+
 .hist-date-div { 
   grid-area: a;
   text-align: left;
