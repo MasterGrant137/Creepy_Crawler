@@ -29,7 +29,7 @@ const CreateThemeForm = ({ style }) => {
   const [accent2, setAccent2] = useState(style.accent_2);
   const [accent3, setAccent3] = useState(style.accent_3);
   const [backgroundColor, setBackgroundColor] = useState(style.background_color);
-  const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
+  // const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
   const [backgroundRotate, setBackgroundRotate] = useState(style.background_rotate);
   const [fontFamily, setFontFamily] = useState(style.font_family);
   const [fontSize, setFontSize] = useState(style.font_size);
@@ -46,7 +46,7 @@ const CreateThemeForm = ({ style }) => {
   const resetHandler = () => {
     setThemeName('');
     setBackgroundColor(style.background_color);
-    setBackgroundMedia('');
+    // setBackgroundMedia('');
     document.getElementById('sf2-background-media').value = '';
     setBackgroundRotate(style.background_rotate);
     setFontColor(style.font_color);
@@ -57,10 +57,10 @@ const CreateThemeForm = ({ style }) => {
     setAccent3(style.accent_3);
   };
 
-  const setBackgroundMediaHandler = (e) => {
-    const file = e.target.files[0];
-    if (file) setBackgroundMedia(file);
-  };
+  // const setBackgroundMediaHandler = (e) => {
+  //   const file = e.target.files[0];
+  //   if (file) setBackgroundMedia(file);
+  // };
 
   const incrementThemeCount = (eType, operation) => {
     dispatch(editProfile({
@@ -272,7 +272,7 @@ const CreateThemeForm = ({ style }) => {
                   <div className='sf2-row-c'>
                       <div>
                           <label htmlFor='sf2-background-media'>
-                              {backgroundMedia === '' || !fileInput.current?.value ? 'Background Media' : 'Added'}
+                              {!fileInput.current?.value ? 'Background Media' : 'Added'}
                           </label>
                           <input
                               id='sf2-background-media'
@@ -280,7 +280,7 @@ const CreateThemeForm = ({ style }) => {
                               name='backgroundMedia'
                               type='file'
                               accept='image/png, image/jpg, image/jpeg, image/gif'
-                              onChange={setBackgroundMediaHandler}
+                              // onChange={setBackgroundMediaHandler}
                               onClick={errorHandler}
                               onMouseOut={errorHandler}
                             />
