@@ -128,11 +128,19 @@ h1, label { user-select: none }
 /*$=======Search Containers=======$*/
 /*=================================*/
 .search-results-page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-results-container {
   align-items: center;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   height: 100vh;
   overflow: auto;
+  padding-top: 3.5%;
+  width: 50%;
 }
 /*=================================*/
 /*$=======History Containers======$*/

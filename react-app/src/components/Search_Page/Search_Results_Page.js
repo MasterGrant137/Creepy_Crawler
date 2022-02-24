@@ -82,8 +82,10 @@ const SearchResultsPage = ({ style }) => {
   };
 
   return (
-      <div className='search-results-page-container' style={{ backgroundColor: style.background_color }}>
-          {results.length ? processFullResults(results, 'save') : processEmptyResults()}
+      <div className='search-results-page-container'>
+          <div className='search-results-container' style={{ backgroundColor: style.background_color }}>
+              {results.length ? processFullResults(results, 'save') : processEmptyResults()}
+          </div>
       </div>
   );
 };

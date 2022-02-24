@@ -99,7 +99,7 @@ def scrape_with_crochet(raw_query):
 
     In regard to the partitioned query's regular expression:
         - Assert string is not immediately preceded by any word characters (negative lookbehind): `(?<!\w)`.
-        - Only match match strings followed by specified characters: `[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]` (i.e., a
+        - Only match strings followed by specified characters: `[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]` (i.e., a
           space or punctuation).
         - Unicode: \u2010 (hyphen), \u2013 (en-dash), \u2014 (em-dash).
     """
@@ -107,25 +107,26 @@ def scrape_with_crochet(raw_query):
     trunc_amt_2 = 16
 
     raw_query_str_list = raw_query.split()
-    broad_crawler_str = ''
+    broad_crawler_str_list = []
     query_permutations = []
+    broad_crawler_str = ''
 
     for i in range(len(raw_query_str_list)):
         raw_query_substring = raw_query_str_list[i]
+        broad_crawler_str_list.append(raw_query_substring)
+        if i <= 4: query_permutations += [' '.join(perm) for perm in permutations(raw_query_str_list, i + 1)]
         if raw_query_substring not in stop_word_set: broad_crawler_str += f'(?<!\w){raw_query_substring}[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]'
         if i < len(raw_query_str_list) - 1: broad_crawler_str += '|'
-        if i <= 4: query_permutations += [' '.join(perm) for perm in permutations(raw_query_str_list, i + 1)]
+
 
     broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
     broad_crawlers = [caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
     deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
 
-    print(query_permutations, 'AND', broad_crawler_str)
-
     if len(broad_crawler_str):
         for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex, trunc_amt_1=trunc_amt_1)
-        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=query_permutations, trunc_amt_1=trunc_amt_1, trunc_amt_2=trunc_amt_2)
+        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=broad_crawler_str_list, query_perms=query_permutations, trunc_amt_1=trunc_amt_1, trunc_amt_2=trunc_amt_2)
         eventual = crawl_runner.join()
         return eventual
 

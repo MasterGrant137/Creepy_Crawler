@@ -60,7 +60,7 @@ class DeepCrawler1(scrapy.Spider):
                 text = input.css('::attr(value)').get()
                 trunc_text = text if len(text) <= self.trunc_amt_1 else f'{text[0:self.trunc_amt_1]}...'
                 trunc_query = query if len(query) <= self.trunc_amt_2 else f'{query[0:self.trunc_amt_2]}...'
-                yield { 'url': url, 'text': f'[Deep crawler found: {trunc_query}] {trunc_text}' }
+                yield { 'url': url, 'text': f'[deep crawler found: {trunc_query}] {trunc_text}' }
         except: print(f'End of the line error in process_search method for {self.name}.')
 
 
@@ -90,7 +90,7 @@ class DeepCrawler2(scrapy.Spider):
                 text = ''.join(response.css("div[value='1'] *::text").getall())
                 trunc_text = text if len(text) <= self.trunc_amt_1 else f'{text[0:self.trunc_amt_1]}...'
                 trunc_query = query if len(query) <= self.trunc_amt_2 else f'{query[0:self.trunc_amt_2]}...'
-                yield { 'url': response.request.url, 'text': f'[Deep crawler found: {trunc_query}] {trunc_text}' }
+                yield { 'url': response.request.url, 'text': f'[deep crawler found: {trunc_query}] {trunc_text}' }
         except:  print(f'End of the line error in parse method for {self.name}.')
 
 
@@ -102,7 +102,7 @@ class DeepCrawler3(scrapy.Spider):
     def start_requests(self):
         """Construct and follow link for each query permutation."""
         try:
-            for query in self.query_list:
+            for query in self.query_perms:
                 yield scrapy.Request(f'https://en.wikipedia.org/wiki/{query}', meta={'query': query})
         except: print(f'End of the line error in start_requests method for {self.name}.')
     
@@ -113,5 +113,5 @@ class DeepCrawler3(scrapy.Spider):
             text = ''.join(response.css('p::text').getall())
             trunc_text = text if len(text) <= self.trunc_amt_1 else f'{text[0:self.trunc_amt_1]}...'
             trunc_query = query if len(query) <= self.trunc_amt_2 else f'{query[0:self.trunc_amt_2]}...'
-            yield { 'url': response.request.url, 'text': f'[Deep crawler found: {trunc_query}] {trunc_text}' }
+            yield { 'url': response.request.url, 'text': f'[deep crawler found: {trunc_query}] {trunc_text}' }
         except:  print(f'End of the line error in parse method for {self.name}.')
