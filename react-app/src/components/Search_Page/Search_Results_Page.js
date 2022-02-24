@@ -14,8 +14,8 @@ const SearchResultsPage = ({ style }) => {
   if (user && !user.errors) isUser = true;
   else isUser = false;
 
-  const visitHandler = async (e) => {
-    await dispatch(createVisitEntry({
+  const visitHandler = (e) => {
+    dispatch(createVisitEntry({
       visit: e.target.href,
       updatedAt: new Date().toString(),
       user,

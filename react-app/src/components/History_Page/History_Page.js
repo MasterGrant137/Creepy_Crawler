@@ -75,8 +75,8 @@ const HistoryPage = ({ style }) => {
 
   const copyData = (data) => navigator.clipboard.writeText(data);
 
-  const updateHandler = async (e) => {
-    await dispatch(updateHistoryEntry({
+  const updateHandler = (e) => {
+    dispatch(updateHistoryEntry({
       entryID: e.target.dataset.entryId,
       updatedAt: new Date().toString(),
     }));
