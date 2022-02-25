@@ -37,8 +37,9 @@ const NavBar = ({ style }) => {
 
   return (
       <nav>
-          <ul className='personal-links' style={{ color: style.accent_2 }}>
+          <ul style={{ color: style.accent_2 }}>
               <a
+                  className={isUser ? '' : 'creator-links-shifted'}
                   href='https://github.com/MasterGrant137/Creepy_Crawler/wiki'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -51,17 +52,20 @@ const NavBar = ({ style }) => {
                     />
               </a>
               <a
+                  className={isUser ? '' : 'creator-links-shifted'}
                   href='https://www.linkedin.com/in/alejandro-c-grant'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   <FontAwesomeIcon
+                      className='test1'
                       alt='LinkedIn'
                       title='LinkedIn'
                       icon={['fab', 'linkedin']}
                       style={{ color: style.accent_2 }}
                     />
-              </a></ul>
+              </a>
+          </ul>
           <ul style={{ color: style.accent_2 }}>
               {isUser && <li className='copy' onClick={copyUsername}>{user.username}</li>}
               <FontAwesomeIcon
@@ -109,7 +113,7 @@ const NavBar = ({ style }) => {
                     icon='user-plus'
                     onClick={() => navHandler('/auth/signup')}
                 />}
-              {!isUser && <li role='link' onClick={() => navHandler('/stranger/crawler')}>Demo Login</li>}
+              {!isUser && <li className='demo-login' role='link' onClick={() => navHandler('/stranger/crawler')}>Demo Login</li>}
               {isUser && <LogoutButton style={style} />}
           </ul>
       </nav>
