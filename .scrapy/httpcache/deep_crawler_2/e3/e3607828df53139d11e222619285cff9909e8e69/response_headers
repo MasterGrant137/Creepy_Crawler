@@ -1,0 +1,19 @@
+Content-Length: 138
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.16.1
+X-Powered-By: Express
+Expires: Thu, 24 Feb 2022 05:30:00 GMT
+Location: /misspelling?term=russo%20war%20Ukrainian
+Via: 1.1 varnish, 1.1 varnish
+Show-Carambola-Ad: true
+Show-Do-Not-Sell-Link: true
+Platform: Desktop
+Accept-Ranges: bytes
+Date: Wed, 23 Feb 2022 22:38:17 GMT
+Age: 0
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kjyo7100165-IAD, cache-bur-kbur8200127-SMO
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1645655897.824054,VS0,VE213
+Vary: Accept, show-carambola-ad, show-do-not-sell-link, platform, X-OPTIONS

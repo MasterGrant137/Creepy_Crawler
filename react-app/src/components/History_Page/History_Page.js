@@ -23,7 +23,7 @@ const HistoryPage = ({ style }) => {
   const entriesObj = useSelector((state) => state.history);
   const clock24 = useSelector((state) => state.session.user.clock_24);
   const [loading, setLoading] = useState(false);
-  const [count, setCount] = useState(30);
+  const [count, setCount] = useState(15);
 
   useEffect(() => {
     dispatch(readHistoryEntries());
@@ -75,8 +75,8 @@ const HistoryPage = ({ style }) => {
 
   const copyData = (data) => navigator.clipboard.writeText(data);
 
-  const updateHandler = async (e) => {
-    await dispatch(updateHistoryEntry({
+  const updateHandler = (e) => {
+    dispatch(updateHistoryEntry({
       entryID: e.target.dataset.entryId,
       updatedAt: new Date().toString(),
     }));

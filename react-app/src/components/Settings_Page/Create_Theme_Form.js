@@ -13,14 +13,14 @@ const CreateThemeForm = ({ style }) => {
 
   const fontFamiliesRaw = dropdownData.fonts;
   const fontFamilies = fontFamiliesRaw.map((fontFamily) => (
-      <option key={fontFamily} >
+      <option key={fontFamily}>
           {fontFamily}
       </option>
   ));
 
   const fontSizesRaw = dropdownData['font-sizes'];
   const fontSizes = fontSizesRaw.map((fontSize) => (
-      <option key={fontSize} >
+      <option key={fontSize}>
           {fontSize}
       </option>
   ));
@@ -29,8 +29,6 @@ const CreateThemeForm = ({ style }) => {
   const [accent2, setAccent2] = useState(style.accent_2);
   const [accent3, setAccent3] = useState(style.accent_3);
   const [backgroundColor, setBackgroundColor] = useState(style.background_color);
-  const [backgroundMediaLoading, setBackgroundMediaLoading] = useState(false);
-  const [backgroundMedia, setBackgroundMedia] = useState(style.background_media);
   const [backgroundRotate, setBackgroundRotate] = useState(style.background_rotate);
   const [fontFamily, setFontFamily] = useState(style.font_family);
   const [fontSize, setFontSize] = useState(style.font_size);
@@ -38,12 +36,15 @@ const CreateThemeForm = ({ style }) => {
   const [themeLimitErr, setThmLmtErr] = useState(false);
   const [themeName, setThemeName] = useState('');
 
-  const resetHandler = (e) => {
-    e.preventDefault();
+  const errorHandler = (e) => {
+    const remove = e.type === 'mouseout';
+    if (remove) setThmLmtErr(false);
+    else if (!remove && user.theme_count >= 10) setThmLmtErr(true);
+  };
 
+  const resetHandler = () => {
     setThemeName('');
     setBackgroundColor(style.background_color);
-    setBackgroundMedia('');
     document.getElementById('sf2-background-media').value = '';
     setBackgroundRotate(style.background_rotate);
     setFontColor(style.font_color);
@@ -54,11 +55,6 @@ const CreateThemeForm = ({ style }) => {
     setAccent3(style.accent_3);
   };
 
-  const setBackgroundMediaHandler = (e) => {
-    const file = e.target.files[0];
-    if (file) setBackgroundMedia(file);
-  };
-
   const incrementThemeCount = (eType, operation) => {
     dispatch(editProfile({
       column: eType,
@@ -66,29 +62,22 @@ const CreateThemeForm = ({ style }) => {
     }));
   };
 
-  const createSettingHandler = async (e) => {
+  const createSettingHandler = (e) => {
     e.preventDefault();
 
     if (user.theme_count < 10) {
-      const userID = user.id;
-      const formData = new FormData();
+      const formData = new FormData(e.target);
 
-      formData.append('userID', userID);
-      formData.append('themeName', themeName);
-      formData.append('backgroundMedia', backgroundMedia);
-      setBackgroundMediaLoading(true);
-      formData.append('backgroundColor', backgroundColor);
-      formData.append('backgroundRotate', backgroundRotate);
-      formData.append('fontColor', fontColor);
-      formData.append('fontFamily', fontFamily);
-      formData.append('fontSize', fontSize);
-      formData.append('accent1', accent1);
-      formData.append('accent2', accent2);
-      formData.append('accent3', accent3);
+      const bgRotate = formData.get('backgroundRotate') === 'on';
+      const fntFamily = formData.get('fontFamily').replace(/\s\|\s/, ', ');
+      const fntSize = `${formData.get('fontSize')}px`;
 
-      await dispatch(createUserSetting(formData));
-      setBackgroundMediaLoading(false);
+      formData.set('backgroundRotate', bgRotate);
+      formData.set('fontFamily', fntFamily);
+      formData.set('fontSize', fntSize);
+      formData.set('userID', user.id);
 
+      dispatch(createUserSetting(formData));
       resetHandler(e);
       incrementThemeCount('theme_count', 'increment');
     } else {
@@ -131,9 +120,9 @@ const CreateThemeForm = ({ style }) => {
                       <span className={`${themeLimitErr ? 'fade-in-out-error' : 'invisible'}`}>
                           Theme limit reached.
                       </span>
-                      <button data-sf2={`${submitBtn ? '' : 'not-allowed'}`}>
+                      <button className={`${submitBtn ? '' : 'not-allowed'}`}>
                           <FontAwesomeIcon
-                              data-sf2={`${submitBtn ? '' : 'not-allowed'}`}
+                              className={`${submitBtn ? '' : 'not-allowed'}`}
                               alt='Add Theme'
                               title='Add Theme'
                               icon='plus-square'
@@ -150,15 +139,15 @@ const CreateThemeForm = ({ style }) => {
                           <label htmlFor='theme-name-setter'>Theme Name</label>
                           <input
                               id='theme-name-setter'
-                              name='Theme Name'
+                              name='themeName'
                               type='text'
                               maxLength='50'
                               placeholder='50 Characters Max'
                               aria-placeholder='50 Characters Max'
                               value={themeName}
                               onChange={(e) => setThemeName(e.target.value)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                               style={{
                                 backgroundColor: style.background_color,
                                 color: style.font_color,
@@ -170,15 +159,15 @@ const CreateThemeForm = ({ style }) => {
                           <label htmlFor='font-size-setter'>Font Size</label>
                           <select
                               id='font-size-setter'
-                              name='Font Size'
+                              name='fontSize'
                               value={fontSize?.replace('px', '')}
                               onChange={(e) => {
                                 const trgKids = e.target.children;
                                 const targOpt = Array.from(trgKids).find((opt) => opt.selected);
                                 setFontSize(`${targOpt.value}px`);
                               }}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                               style={{
                                 backgroundColor: style.background_color,
                                 color: style.font_color,
@@ -192,15 +181,15 @@ const CreateThemeForm = ({ style }) => {
                           <label htmlFor='font-family-setter'>Font Family</label>
                           <select
                               id='font-family-setter'
-                              name='Font Family'
+                              name='fontFamily'
                               value={fontFamily?.replace(/,\s/, ' | ')}
                               onChange={(e) => {
                                 const trgKids = e.target.children;
                                 const targOpt = Array.from(trgKids).find((opt) => opt.selected);
                                 setFontFamily(targOpt.value.replace(/\s\|\s/, ', '));
                               }}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                               style={{
                                 backgroundColor: style.background_color,
                                 color: style.font_color,
@@ -216,90 +205,88 @@ const CreateThemeForm = ({ style }) => {
                           <label htmlFor='sf2-font-color'>Font Color</label>
                           <input
                               id='sf2-font-color'
-                              name='Font Color'
+                              name='fontColor'
                               type='color'
                               value={fontColor}
                               onChange={(e) => setFontColor(e.target.value)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                       <div className='accent-1-setter-div'>
                           <label htmlFor='sf2-accent-1-color'>Accent 1</label>
                           <input
                               id='sf2-accent-1-color'
-                              name='Accent 1'
+                              name='accent1'
                               type='color'
                               value={accent1}
                               onChange={(e) => setAccent1(e.target.value)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                       <div className='accent-2-setter-div'>
                           <label htmlFor='sf2-accent-2-color'>Accent 2</label>
                           <input
                               id='sf2-accent-2-color'
-                              name='Accent 2'
+                              name='accent2'
                               type='color'
                               value={accent2}
                               onChange={(e) => setAccent2(e.target.value)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                       <div className='accent-3-setter-div'>
                           <label htmlFor='sf2-accent-3-color'>Accent 3</label>
                           <input
                               id='sf2-accent-3-color'
-                              name='Accent 3'
+                              name='accent3'
                               type='color'
                               value={accent3}
                               onChange={(e) => setAccent3(e.target.value)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                       <div className='background-color-setter-div'>
                           <label htmlFor='sf2-bg-color'>Background Color</label>
                           <input
                               id='sf2-bg-color'
-                              name='Background Color'
+                              name='backgroundColor'
                               type='color'
                               value={backgroundColor}
                               onChange={(e) => { setBackgroundColor(e.target.value); }}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                   </div>
                   <div className='sf2-row-c'>
-                      <div className='background-media-setter-div'>
+                      <div>
                           <label htmlFor='sf2-background-media'>
-                              {backgroundMedia === '' || !fileInput.current?.value ? 'Background Media' : 'Added'}
+                              {!fileInput.current?.value ? 'Background Media' : 'Added'}
                           </label>
                           <input
                               id='sf2-background-media'
                               ref={fileInput}
-                              name='Background Media'
+                              name='backgroundMedia'
                               type='file'
                               accept='image/png, image/jpg, image/jpeg, image/gif'
-                              onChange={setBackgroundMediaHandler}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
-                          {backgroundMediaLoading && (<span>Loading...</span>)}
                       </div>
                       <div className='background-rotate-setter-div'>
                           <label htmlFor='sf2-bg-rotate'>Background Rotate</label>
                           <input
                               id='sf2-bg-rotate'
-                              name='Background Rotate'
+                              name='backgroundRotate'
                               type='checkbox'
                               checked={backgroundRotate}
                               onChange={(e) => setBackgroundRotate(e.target.checked)}
-                              onClick={() => { if (user.theme_count >= 10) setThmLmtErr(true); }}
-                              onMouseOut={() => { setThmLmtErr(false); }}
+                              onClick={errorHandler}
+                              onMouseOut={errorHandler}
                             />
                       </div>
                   </div>
@@ -314,10 +301,7 @@ const CreateThemeForm = ({ style }) => {
                 color: fontColor,
               }}
             >
-              <h2
-                  className='theme-tester-header'
-                  style={{ color: accent2, borderColor: accent1 }}
-                >
+              <h2 className='theme-tester-header' style={{ color: accent2, borderColor: accent1 }}>
                   {themeName || 'Demo Theme'}
               </h2>
               <div>

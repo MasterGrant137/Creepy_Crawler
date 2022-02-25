@@ -25,15 +25,9 @@ const SettingsPage = ({ style }) => {
                   <h2 className='settings-actions-header' style={{ color: style.accent_2, borderColor: style.accent_1 }}>Profile</h2>
                   <ProfileMediaForm style={style} />
               </div>
-              <div
-                  className='create-theme-container'
-                >
-                  <CreateThemeForm style={style} />
-              </div>
+              <div className='create-theme-container'><CreateThemeForm style={style} /></div>
           </div>
-          <div className='themes-container'>
-              <EditThemeForm style={style} />
-          </div>
+          <div className='themes-container'><EditThemeForm style={style} /></div>
       </div>
   );
 };

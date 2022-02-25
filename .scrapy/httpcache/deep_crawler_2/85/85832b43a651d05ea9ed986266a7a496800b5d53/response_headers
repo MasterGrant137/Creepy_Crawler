@@ -1,0 +1,19 @@
+Content-Length: 106
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.16.1
+X-Powered-By: Express
+Expires: Thu, 24 Feb 2022 05:30:00 GMT
+Location: /browse/appleseed--johnny
+Via: 1.1 varnish, 1.1 varnish
+Show-Carambola-Ad: true
+Show-Do-Not-Sell-Link: true
+Platform: Desktop
+Accept-Ranges: bytes
+Date: Wed, 23 Feb 2022 23:33:06 GMT
+Age: 47
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kjyo7100030-IAD, cache-bur-kbur8200175-SMO
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 1
+X-Timer: S1645659186.469419,VS0,VE1
+Vary: Accept, show-carambola-ad, show-do-not-sell-link, platform, X-OPTIONS

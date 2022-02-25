@@ -1,4 +1,4 @@
-"""Theraphosidae Spiders.
+"""Deep Crawling Spiders.
 
 Categories:
 + Encyclopedic (text)
@@ -8,10 +8,6 @@ Class attributes:
 - Attributes are passed from Flask *search_routes.py* as kwargs in the `crawl` method inside the
   `scrape_with_crochet` function.
 - They are accessed by keying into the self parameter.
-
-Legend:
-- [`rel`]: Done to enhance search result relevancy.
-- [`obs`]: Done to observe robots.txt.
 """
 
 import scrapy
@@ -27,9 +23,9 @@ class DeepCrawler1(scrapy.Spider):
     def parse(self, response):
         """Send `POST` request.
         
-        This resource repository handles one word entries, so
-        each word present in the raw query is run as a separate
-        `POST` request.
+        This resource repository best handles one word entries,
+        so each word present in the raw query is run as a 
+        separate `POST` request.
         """
         try:
             for i in range(len(self.query_list)):
@@ -64,7 +60,7 @@ class DeepCrawler1(scrapy.Spider):
                 text = input.css('::attr(value)').get()
                 trunc_text = text if len(text) <= self.trunc_amt_1 else f'{text[0:self.trunc_amt_1]}...'
                 trunc_query = query if len(query) <= self.trunc_amt_2 else f'{query[0:self.trunc_amt_2]}...'
-                yield { 'url': url, 'text': f'[Deep crawler found: {trunc_query}] {trunc_text}' }
+                yield { 'url': url, 'text': f'[deep crawler found: {trunc_query}] {trunc_text}' }
         except: print(f'End of the line error in process_search method for {self.name}.')
 
 
@@ -74,7 +70,7 @@ class DeepCrawler2(scrapy.Spider):
     name = 'deep_crawler_2'
 
     def start_requests(self):
-        """Construct and follow link for each query [`rel`]."""
+        """Construct and follow link for each subquery."""
         try:
             for query in self.query_list: 
                 yield scrapy.Request(f'https://www.dictionary.com/browse/{query}', meta={'query': query})
@@ -94,7 +90,7 @@ class DeepCrawler2(scrapy.Spider):
                 text = ''.join(response.css("div[value='1'] *::text").getall())
                 trunc_text = text if len(text) <= self.trunc_amt_1 else f'{text[0:self.trunc_amt_1]}...'
                 trunc_query = query if len(query) <= self.trunc_amt_2 else f'{query[0:self.trunc_amt_2]}...'
-                yield { 'url': response.request.url, 'text': f'[Deep crawler found: {trunc_query}] {trunc_text}' }
+                yield { 'url': response.request.url, 'text': f'[deep crawler found: {trunc_query}] {trunc_text}' }
         except:  print(f'End of the line error in parse method for {self.name}.')
 
 
@@ -104,9 +100,9 @@ class DeepCrawler3(scrapy.Spider):
     name = 'deep_crawler_3'
 
     def start_requests(self):
-        """Construct and follow link for each query [`obs`]."""
+        """Construct and follow link for each query permutation."""
         try:
-            for query in self.query_list:
+            for query in self.query_perms:
                 yield scrapy.Request(f'https://en.wikipedia.org/wiki/{query}', meta={'query': query})
         except: print(f'End of the line error in start_requests method for {self.name}.')
     
@@ -117,5 +113,5 @@ class DeepCrawler3(scrapy.Spider):
             text = ''.join(response.css('p::text').getall())
             trunc_text = text if len(text) <= self.trunc_amt_1 else f'{text[0:self.trunc_amt_1]}...'
             trunc_query = query if len(query) <= self.trunc_amt_2 else f'{query[0:self.trunc_amt_2]}...'
-            yield { 'url': response.request.url, 'text': f'[Deep crawler found: {trunc_query}] {trunc_text}' }
+            yield { 'url': response.request.url, 'text': f'[deep crawler found: {trunc_query}] {trunc_text}' }
         except:  print(f'End of the line error in parse method for {self.name}.')

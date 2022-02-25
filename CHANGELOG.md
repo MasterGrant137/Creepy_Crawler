@@ -1,3 +1,7 @@
+#### Feb 25, 2022
++ Search engine optimization: deep crawling spiders outfitted to handle multi-word queries.
++ UI/UX changes: search page, search results page, history page, navigation bar, and edit theme form.
+---
 #### Feb 11, 2022
 + Major search engine update:
     + search time cut down by up to twenty seconds

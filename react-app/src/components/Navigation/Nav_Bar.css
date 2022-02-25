@@ -4,27 +4,27 @@ nav * {
 }
 
 nav ul {
-align-items: flex-end;
-display: flex;
-padding: 0;
+  align-items: flex-end;
+  display: flex;
+  padding: 0;
 }
 
-nav ul [role='button'] {
-position: relative;
-top: 5px;
-}
-
-nav .copy, .personal-links > a {
+nav ul .copy {
   position: relative;
   top: 3px;
+}
+
+nav ul .demo-login, .creator-links-shifted {
+  position: relative;
+  top: 6px;
 }
 
 nav [data-icon] { cursor: pointer }
 
 .profile-media-small {
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 
 .profile-media-small:hover { border: 3px solid rgba(192, 192, 192, 0.6) }
