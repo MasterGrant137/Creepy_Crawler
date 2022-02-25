@@ -1,6 +1,8 @@
 .history-clock-image {
   border-radius: 50%;
   height: 25px;
+  position: sticky;
+  top: 0;
   width: 25px;
 }
 
