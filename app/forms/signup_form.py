@@ -47,7 +47,7 @@ def proper_password(form, field):
         raise ValidationError(' '.join(validation_errors))
 
 
-class SignUpForm(FlaskForm):
+class SignupForm(FlaskForm):
     """Signup form class."""
 
     username = StringField('username', validators=[DataRequired(message='Username is required!'), username_exists])
