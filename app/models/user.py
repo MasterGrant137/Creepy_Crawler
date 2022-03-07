@@ -1,4 +1,4 @@
-"""User Model."""
+"""User model file."""
 
 from .db import db
 from datetime import datetime
@@ -7,7 +7,7 @@ from flask_login import UserMixin
 
 
 class User(db.Model, UserMixin):
-    """User model."""
+    """User model class."""
 
     __tablename__ = 'users'
 

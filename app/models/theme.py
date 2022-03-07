@@ -1,10 +1,10 @@
-"""Theme model creation."""
+"""Theme model file."""
 
 from .db import db
 from datetime import datetime
 
 class Theme(db.Model):
-    """Theme model."""
+    """Theme model class."""
 
     __tablename__='themes'
 

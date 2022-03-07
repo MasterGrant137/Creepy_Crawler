@@ -1,10 +1,10 @@
-"""History model creation."""
+"""History model file."""
 
 from .db import db
 from datetime import datetime
 
 class History(db.Model):
-    """History model."""
+    """History model class."""
 
     __tablename__='histories'
 
