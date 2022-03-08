@@ -107,13 +107,11 @@ def scrape_with_crochet(raw_query):
     trunc_amt_2 = 16
 
     raw_query_str_list = raw_query.split()
-    broad_crawler_str_list = []
     query_permutations = []
     broad_crawler_str = ''
 
     for i in range(len(raw_query_str_list)):
         raw_query_substring = raw_query_str_list[i]
-        broad_crawler_str_list.append(raw_query_substring)
         if i <= 4: query_permutations += [' '.join(perm) for perm in permutations(raw_query_str_list, i + 1)]
         if raw_query_substring not in stop_word_set: broad_crawler_str += f'(?<!\w){raw_query_substring}[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]'
         if i < len(raw_query_str_list) - 1: broad_crawler_str += '|'
@@ -126,7 +124,7 @@ def scrape_with_crochet(raw_query):
 
     if len(broad_crawler_str):
         for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex, trunc_amt_1=trunc_amt_1)
-        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=broad_crawler_str_list, query_perms=query_permutations, trunc_amt_1=trunc_amt_1, trunc_amt_2=trunc_amt_2)
+        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=raw_query_str_list, query_perms=query_permutations, trunc_amt_1=trunc_amt_1, trunc_amt_2=trunc_amt_2)
         eventual = crawl_runner.join()
         return eventual
 

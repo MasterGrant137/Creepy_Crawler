@@ -48,6 +48,7 @@ class BroadCrawler4(scrapy.Spider):
             match_list = re.findall(self.query_regex, all_text)
             match_str = ''.join(match_list)
             if match_str:
+                print('LOOK HERE', match_list)
                 trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_1]}...'
                 yield { 'url': response.request.url, 'text': f"[broad crawler found {len(match_list)} {'matches' if len(match_list) > 1 else 'match'}] {trunc_match_str}" }
         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
