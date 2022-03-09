@@ -1,3 +1,6 @@
+#### March 9, 2022
++ Site security updates.
+---
 #### Feb 25, 2022
 + Search engine optimization: deep crawling spiders outfitted to handle multi-word queries.
 + UI/UX changes: search page, search results page, history page, navigation bar, and edit theme form.
