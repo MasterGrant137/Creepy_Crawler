@@ -1,17 +1,17 @@
 import { useDispatch } from 'react-redux';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { logout } from '../../store/session';
 import '../Main.css';
 import '../Auth.css';
 
 const LogoutButton = ({ style }) => {
-  const history = useHistory();
+  const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const onLogout = async () => {
     await dispatch(logout());
-    history.push('/auth/login');
+    navigate('/auth/login');
     window.location.reload();
   };
 

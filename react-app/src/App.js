@@ -107,8 +107,8 @@ function App() {
           <Routes>
               <Route path='/auth/login' element={<LoginForm style={siteTheme} />} exact />
               <Route path='/auth/signup' element={<SignupForm style={siteTheme} />} exact />
-              <ProtectedRoute path='/settings/' element={<SettingsPage style={siteTheme} />} exact />
-              <ProtectedRoute path='/search/history/' element={<HistoryPage style={siteTheme} />} exact />
+              <><ProtectedRoute path='/settings/' element={<SettingsPage style={siteTheme} />} exact /></>
+              <><ProtectedRoute path='/search/history/' element={<HistoryPage style={siteTheme} />} exact /></>
               <Route path='/search/results/' element={<SearchResultsPage style={siteTheme} />} exact />
               <Route path='/' element={<SearchPage style={siteTheme} />} exact />
           </Routes>

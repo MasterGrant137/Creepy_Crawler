@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { createSearchEntry } from '../../store/search_store';
 import { readUserSettings } from '../../store/settings_store';
@@ -8,7 +8,7 @@ import '../Main.css';
 import './Search_Page.css';
 
 const SearchPage = ({ style }) => {
-  const history = useHistory();
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const user = useSelector((state) => state.session.user);
   const [loading, setLoading] = useState(false);
@@ -45,7 +45,7 @@ const SearchPage = ({ style }) => {
       user,
     }));
     setLoading(false);
-    history.push('/search/results/');
+    navigate('/search/results/');
     clearInterval(timer);
   };
 
