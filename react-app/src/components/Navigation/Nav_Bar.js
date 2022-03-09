@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { login } from '../../store/session';
 import { useModal } from '../context/Modal_Context';
@@ -9,14 +9,11 @@ import '../Main.css';
 import './Nav_Bar.css';
 
 const NavBar = ({ style }) => {
-  const history = useHistory();
+  const navigate = useNavigate();
   const user = useSelector((state) => state.session.user);
   const dispatch = useDispatch();
   const { toggleModal, setModalContent } = useModal();
-
-  let isUser;
-  if (user && !user.errors) isUser = true;
-  else isUser = false;
+  const isUser = user && !user.errors;
 
   const openProfileModal = () => {
     setModalContent(<ProfileModal style={style} />);
@@ -25,11 +22,11 @@ const NavBar = ({ style }) => {
 
   const navHandler = async (destination) => {
     switch (destination) {
-      case '/user/crawler': history.push('/'); break;
+      case '/user/crawler': navigate('/'); break;
       case '/stranger/crawler':
         await dispatch(login('jseed@aa.io', 'password'));
-        history.push('/'); break;
-      default: history.push(destination); break;
+        navigate('/'); break;
+      default: navigate(destination); break;
     }
   };
 

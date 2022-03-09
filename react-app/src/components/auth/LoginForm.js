@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Redirect } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { login } from '../../store/session';
 import '../Main.css';
@@ -17,10 +17,7 @@ const LoginForm = ({ style }) => {
   const [loginBtn, setLoginBtn] = useState(true);
   const user = useSelector((state) => state.session.user);
   const dispatch = useDispatch();
-
-  let isUser;
-  if (user && !user.errors) isUser = true;
-  else isUser = false;
+  const isUser = user && !user.errors;
 
   const allowable = () => {
     setPasswordRequired(true);
@@ -49,7 +46,7 @@ const LoginForm = ({ style }) => {
     setPassword(e.target.value);
   };
 
-  if (isUser) return <Redirect to='/' />;
+  if (isUser) return <Navigate to='/' />;
 
   return (
       <div className='login-form-container'>

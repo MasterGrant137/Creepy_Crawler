@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { editProfile } from '../../store/session';
@@ -19,7 +19,7 @@ import clock24Icon from './icons/24-hour-flaticon.png';
 const HistoryPage = ({ style }) => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.session.user);
-  const history = useHistory();
+  const navigate = useNavigate();
   const entriesObj = useSelector((state) => state.history);
   const clock24 = useSelector((state) => state.session.user.clock_24);
   const [loading, setLoading] = useState(false);
@@ -69,7 +69,7 @@ const HistoryPage = ({ style }) => {
       user,
     }));
     setLoading(false);
-    history.push('/search/results/');
+    navigate('/search/results/');
     clearInterval(timer);
   };
 

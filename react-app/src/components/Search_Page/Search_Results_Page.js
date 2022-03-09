@@ -9,10 +9,7 @@ const SearchResultsPage = ({ style }) => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.session.user);
   const resultsObj = useSelector((state) => state.searchResults);
-
-  let isUser;
-  if (user && !user.errors) isUser = true;
-  else isUser = false;
+  const isUser = user && !user.errors;
 
   const visitHandler = (e) => {
     dispatch(createVisitEntry({

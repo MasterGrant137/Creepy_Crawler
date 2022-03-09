@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Redirect } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { signUp } from '../../store/session';
 import '../Main.css';
@@ -21,6 +21,7 @@ const SignupForm = ({ style }) => {
   const [signupBtn, setSignupBtn] = useState(false);
   const user = useSelector((state) => state.session.user);
   const dispatch = useDispatch();
+  const isUser = user && !user.errors;
 
   const allowable = () => {
     setPasswordRequired(true);
@@ -44,10 +45,6 @@ const SignupForm = ({ style }) => {
       setSignupBtn(false);
     }
   };
-
-  let isUser;
-  if (user && !user.errors) isUser = true;
-  else isUser = false;
 
   const onSignUp = async (e) => {
     e.preventDefault();
@@ -77,7 +74,7 @@ const SignupForm = ({ style }) => {
     setRepeatPassword(e.target.value);
   };
 
-  if (isUser) return <Redirect to='/' />;
+  if (isUser) return <Navigate to='/' />;
 
   return (
       <div className='signup-form-container'>

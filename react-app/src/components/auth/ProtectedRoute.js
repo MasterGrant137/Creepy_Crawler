@@ -1,19 +1,13 @@
 import { useSelector } from 'react-redux';
-import { Route, Redirect } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import '../Main.css';
 import '../Auth.css';
 
 const ProtectedRoute = (props) => {
   const user = useSelector((state) => state.session.user);
-  let isUser;
-  if (user && !user.errors) isUser = true;
-  else isUser = false;
+  const isUser = user && !user.errors;
 
-  return (
-      <Route {...props}>
-          {(isUser) ? props.children : <Redirect to='/auth/login' />}
-      </Route>
-  );
+  return isUser ? props.children : <Navigate to='/auth/login' />;
 };
 
 export default ProtectedRoute;
