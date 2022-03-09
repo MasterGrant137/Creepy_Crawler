@@ -21,6 +21,7 @@ const SignupForm = ({ style }) => {
   const [signupBtn, setSignupBtn] = useState(false);
   const user = useSelector((state) => state.session.user);
   const dispatch = useDispatch();
+  const isUser = user && !user.errors;
 
   const allowable = () => {
     setPasswordRequired(true);
@@ -44,9 +45,6 @@ const SignupForm = ({ style }) => {
       setSignupBtn(false);
     }
   };
-
-  let isUser;
-  if (user && !user.errors) isUser = true;
 
   const onSignUp = async (e) => {
     e.preventDefault();

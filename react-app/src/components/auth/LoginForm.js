@@ -17,9 +17,7 @@ const LoginForm = ({ style }) => {
   const [loginBtn, setLoginBtn] = useState(true);
   const user = useSelector((state) => state.session.user);
   const dispatch = useDispatch();
-
-  let isUser;
-  if (user && !user.errors) isUser = true;
+  const isUser = user && !user.errors;
 
   const allowable = () => {
     setPasswordRequired(true);

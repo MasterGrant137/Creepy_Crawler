@@ -13,9 +13,7 @@ const NavBar = ({ style }) => {
   const user = useSelector((state) => state.session.user);
   const dispatch = useDispatch();
   const { toggleModal, setModalContent } = useModal();
-
-  let isUser;
-  if (user && !user.errors) isUser = true;
+  const isUser = user && !user.errors;
 
   const openProfileModal = () => {
     setModalContent(<ProfileModal style={style} />);
