@@ -101,7 +101,7 @@ def scrape_with_crochet(raw_query):
         - Assert string is not immediately preceded by any word characters (negative lookbehind): `(?<!\w)`.
         - Only match strings followed by specified characters: `[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]` (i.e., a
           space or punctuation).
-        - Unicode: \u2010 (hyphen), \u2013 (en-dash), \u2014 (em-dash).
+        - Unicode: \u002D (hyphen-minus), \u2010 (hyphen), \u2013 (en-dash), \u2014 (em-dash).
     """
     trunc_amt_1 = 160
     trunc_amt_2 = 16
@@ -113,9 +113,9 @@ def scrape_with_crochet(raw_query):
     for i in range(len(raw_query_str_list)):
         raw_query_substring = raw_query_str_list[i]
         if i <= 4: query_permutations += [' '.join(perm) for perm in permutations(raw_query_str_list, i + 1)]
-        if raw_query_substring not in stop_word_set: broad_crawler_str += f'(?<!\w){raw_query_substring}[\s|.|,|?|!|:|;|\u2010|\u2013|\u2014]'
-        if i < len(raw_query_str_list) - 1: broad_crawler_str += '|'
-
+        if raw_query_substring not in stop_word_set: 
+            broad_crawler_str += f'(?<!\w){raw_query_substring}[\s|.|,|?|!|:|;|\u002D|\u2010|\u2013|\u2014]'
+            if i < len(raw_query_str_list) - 1: broad_crawler_str += '|'
 
     broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
