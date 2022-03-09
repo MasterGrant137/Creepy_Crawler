@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -104,26 +104,14 @@ function App() {
           <ScrollToTop />
           <Modal open={isOpen} onClose={() => setIsOpen(false)} />
           <NavBar style={siteTheme} />
-          <Switch>
-              <Route path='/auth/login' exact>
-                  <LoginForm style={siteTheme} />
-              </Route>
-              <Route path='/auth/signup' exact>
-                  <SignupForm style={siteTheme} />
-              </Route>
-              <ProtectedRoute path='/settings/' exact>
-                  <SettingsPage style={siteTheme} />
-              </ProtectedRoute>
-              <ProtectedRoute path='/search/history/' exact>
-                  <HistoryPage style={siteTheme} />
-              </ProtectedRoute>
-              <Route path='/search/results/' exact>
-                  <SearchResultsPage style={siteTheme} />
-              </Route>
-              <Route path='/' exact>
-                  <SearchPage style={siteTheme} />
-              </Route>
-          </Switch>
+          <Routes>
+              <Route path='/auth/login' element={<LoginForm style={siteTheme} />} exact />
+              <Route path='/auth/signup' element={<SignupForm style={siteTheme} />} exact />
+              <ProtectedRoute path='/settings/' element={<SettingsPage style={siteTheme} />} exact />
+              <ProtectedRoute path='/search/history/' element={<HistoryPage style={siteTheme} />} exact />
+              <Route path='/search/results/' element={<SearchResultsPage style={siteTheme} />} exact />
+              <Route path='/' element={<SearchPage style={siteTheme} />} exact />
+          </Routes>
       </BrowserRouter>
   );
 }

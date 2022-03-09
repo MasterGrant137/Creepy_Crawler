@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Redirect } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { login } from '../../store/session';
 import '../Main.css';
@@ -49,7 +49,7 @@ const LoginForm = ({ style }) => {
     setPassword(e.target.value);
   };
 
-  if (isUser) return <Redirect to='/' />;
+  if (isUser) return <Navigate to='/' />;
 
   return (
       <div className='login-form-container'>
