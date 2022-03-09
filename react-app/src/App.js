@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
@@ -23,7 +24,7 @@ import {
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import ScrollToTop from './components/Scroll_to_Top/Scroll_to_Top';
-import HistoryPage from './components/History_Page/History_Page';
+// import HistoryPage from './components/History_Page/History_Page';
 import SearchPage from './components/Search_Page/Search_Page';
 import SearchResultsPage from './components/Search_Page/Search_Results_Page';
 import SettingsPage from './components/Settings_Page/Settings_Page';
@@ -107,8 +108,9 @@ function App() {
           <Routes>
               <Route path='/auth/login' element={<LoginForm style={siteTheme} />} exact />
               <Route path='/auth/signup' element={<SignupForm style={siteTheme} />} exact />
-              <><ProtectedRoute path='/settings/' element={<SettingsPage style={siteTheme} />} exact /></>
-              <><ProtectedRoute path='/search/history/' element={<HistoryPage style={siteTheme} />} exact /></>
+              <Route path='/settings/' element={<ProtectedRoute><SettingsPage style={siteTheme} /></ProtectedRoute>} exact />
+              {/* {DON'T FORGET COMMENT AT TOP OF FILE} */}
+              {/* <Route path='/search/history/' element={<ProtectedRoute><HistoryPage style={siteTheme} /></ProtectedRoute>} exact /> */}
               <Route path='/search/results/' element={<SearchResultsPage style={siteTheme} />} exact />
               <Route path='/' element={<SearchPage style={siteTheme} />} exact />
           </Routes>
