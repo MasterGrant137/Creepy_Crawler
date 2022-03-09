@@ -47,7 +47,6 @@ const SignupForm = ({ style }) => {
 
   let isUser;
   if (user && !user.errors) isUser = true;
-  else isUser = false;
 
   const onSignUp = async (e) => {
     e.preventDefault();

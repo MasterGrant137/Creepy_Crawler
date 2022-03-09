@@ -12,7 +12,6 @@ const SearchResultsPage = ({ style }) => {
 
   let isUser;
   if (user && !user.errors) isUser = true;
-  else isUser = false;
 
   const visitHandler = (e) => {
     dispatch(createVisitEntry({

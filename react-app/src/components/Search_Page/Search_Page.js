@@ -16,7 +16,6 @@ const SearchPage = ({ style }) => {
 
   let isUser;
   if (user && !user.errors) isUser = true;
-  else isUser = false;
 
   const searchHandler = async (e) => {
     e.preventDefault();

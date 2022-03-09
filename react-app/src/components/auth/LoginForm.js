@@ -20,7 +20,6 @@ const LoginForm = ({ style }) => {
 
   let isUser;
   if (user && !user.errors) isUser = true;
-  else isUser = false;
 
   const allowable = () => {
     setPasswordRequired(true);

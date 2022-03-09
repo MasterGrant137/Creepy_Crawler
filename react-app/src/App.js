@@ -109,7 +109,7 @@ function App() {
               <Route path='/auth/signup' element={<SignupForm style={siteTheme} />} exact />
               <Route path='/settings/' element={<ProtectedRoute><SettingsPage style={siteTheme} /></ProtectedRoute>} exact />
               <Route path='/search/history/' element={<ProtectedRoute><HistoryPage style={siteTheme} /></ProtectedRoute>} exact />
-              <Route path='/search/results/' element={<SearchResultsPage style={siteTheme} />} exact />
+              <Route path='/search/results/' element={<ProtectedRoute><SearchResultsPage style={siteTheme} /></ProtectedRoute>} exact />
               <Route path='/' element={<SearchPage style={siteTheme} />} exact />
           </Routes>
       </BrowserRouter>
