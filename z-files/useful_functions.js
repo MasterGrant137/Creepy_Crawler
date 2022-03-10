@@ -1,9 +1,9 @@
-// const branchPruner = (branches) => {
-//     branches.forEach((branch) => {
-//         console.log(`git branch -D ${branch}`);
-//     });
-// }
-// branchPruner([]);
+const branchPruner = (branches) => {
+  branches.split(' ').forEach((branch) => {
+      console.log(`git branch -D ${branch}`);
+  });
+}
+branchPruner('');
 
 // const spiderMaker = (amount) => {
 //     const spider_array = [];
