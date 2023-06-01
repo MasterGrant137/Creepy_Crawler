@@ -20,6 +20,7 @@ from app.crawler.spider_lair.spiders import caerostris_darwini, theraphosidae
 
 import re
 import json
+from os.path import join, dirname, realpath
 from datetime import datetime
 from itertools import permutations
 from flask import Blueprint, request
@@ -30,7 +31,8 @@ from flask_login import current_user, login_required
 output_data = []
 stop_word_set = {'ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than'}
 settings = get_project_settings()
-settings_dict = json.load(open('app/api/routes/settings.json'))
+upload_path = join(dirname(realpath(__file__)), 'settings.json')
+settings_dict = json.load(open(upload_path))
 settings.update(settings_dict)
 crawl_runner = CrawlerRunner(settings)
 search_routes = Blueprint('entries', __name__)
