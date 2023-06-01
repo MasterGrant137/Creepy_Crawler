@@ -1,19 +1,16 @@
-name: Python application
-
+name: Creepy Crawler
 on:
   push:
     branches:
       - main
 jobs:
-  build:
+  deploy:
+    name: Deploy app
     runs-on: ubuntu-latest
-    env:
-      HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
     steps:
-    - uses: actions/checkout@v2
-    - name: Login to Heroku Container registry
-      run: heroku container:login
-    - name: Build and push
-      run: heroku container:push -a creepy-crawler-1 web
-    - name: Release
-      run: heroku container:release -a creepy-crawler-1 web
+      - uses: actions/checkout@v3
+      - uses: superfly/flyctl-actions/setup-flyctl@main
+      - run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+

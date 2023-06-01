@@ -1,0 +1,14 @@
+Server: nginx/1.16.1
+Cache-Control: max-age=7200, public
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+Show-Carambola-Ad: true
+Show-Do-Not-Sell-Link: true
+Platform: Desktop
+Date: Thu, 31 Mar 2022 21:26:12 GMT
+Content-Security-Policy: upgrade-insecure-requests
+X-Served-By: cache-iad-kjyo7100156-IAD, cache-bur-kbur8200171-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1648761972.301275,VS0,VE78
+Vary: show-carambola-ad, show-do-not-sell-link, platform, X-OPTIONS
