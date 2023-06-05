@@ -3,24 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "aws-sdk": "^2.1011.0",
-    "http-proxy-middleware": "^1.0.5",
-    "multer": "^1.4.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-redux": "^7.2.4",
-    "react-router-dom": "^6.2.2",
-    "react-scripts": "^4.0.3",
-    "redux": "^4.1.0",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0"
+    "@fortawesome/fontawesome-svg-core": "1.2.36",
+    "@fortawesome/free-brands-svg-icons": "5.15.4",
+    "@fortawesome/free-solid-svg-icons": "5.15.4",
+    "@fortawesome/react-fontawesome": "0.1.16",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "11.2.7",
+    "@testing-library/user-event": "12.8.3",
+    "aws-sdk": "2.1011.0",
+    "http-proxy-middleware": "1.0.5",
+    "multer": "1.4.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.4",
+    "react-router-dom": "6.2.2",
+    "react-scripts": "5.0.1",
+    "redux": "4.1.0",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,12 +44,16 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:8080",
   "devDependencies": {
-    "eslint-config-airbnb": "^19.0.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.27.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "@babel/core": "^7.22.1",
+    "@babel/eslint-parser": "^7.21.8",
+    "@babel/preset-react": "^7.22.3",
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb": "19.0.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-react": "7.27.0",
+    "eslint-plugin-react-hooks": "4.3.0"
   }
 }

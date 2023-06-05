@@ -7,7 +7,10 @@
         "browser": true,
         "node": true
     },
-    "parser": "babel-eslint",
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "requireConfigFile": false
+    },
     "plugins": ["jsx-a11y", "react"],
     "rules": {
         "default-param-last": "off", //? React reducer functional with "action" param last

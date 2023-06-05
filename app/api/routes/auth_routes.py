@@ -33,6 +33,7 @@ def authenticateSignup():
 def login():
     """Log a user in."""
     form = LoginForm()
+    print(form)
     form['csrf_token'].data = request.cookies['csrf_token']
     if form.validate_on_submit():
         user = User.query.filter(User.email == form.data['email']).first()
