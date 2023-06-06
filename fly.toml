@@ -6,6 +6,9 @@
 app = "creepy-crawler"
 primary_region = "lax"
 
+[env]
+PORT = "8080"
+
 [http_service]
   internal_port = 8080
   force_https = true
