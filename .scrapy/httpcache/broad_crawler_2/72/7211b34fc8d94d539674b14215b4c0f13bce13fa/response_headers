@@ -1,0 +1,17 @@
+Server: nginx
+Date: Fri, 09 Jun 2023 17:06:37 GMT
+Content-Type: text/html; charset=UTF-8
+Expires: Fri, 09 Jun 2023 17:36:37 GMT
+Cache-Control: public, must-revalidate, max-age=1800
+X-Build-Back-Better: https://usds.gov/
+X-Frame-Options: DENY
+Referrer-Policy: strict-origin-when-cross-origin
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests
+X-Rq: bur6 96 184 443
+Content-Encoding: gzip
+Age: 0
+X-Cache: miss
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000;includeSubdomains;preload

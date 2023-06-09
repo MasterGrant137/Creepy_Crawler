@@ -1,0 +1,13 @@
+Content-Length: 134
+Date: Fri, 09 Jun 2023 18:26:01 GMT
+Content-Type: text/plain
+Set-Cookie: AWSALB=KDrduDC4IYrMG+J6SU1wy3LtLoHUYMPr1SldGpyBTFdY68QJwVF6SwxwNmoGQXGdHCE2ELynrUOW4nnctyhnEn0oUgTYms+1T/R7kZbTey3tTEl7L45qaSuS2JDD; Expires=Fri, 16 Jun 2023 18:26:01 GMT; Path=/
+Set-Cookie: AWSALBCORS=KDrduDC4IYrMG+J6SU1wy3LtLoHUYMPr1SldGpyBTFdY68QJwVF6SwxwNmoGQXGdHCE2ELynrUOW4nnctyhnEn0oUgTYms+1T/R7kZbTey3tTEl7L45qaSuS2JDD; Expires=Fri, 16 Jun 2023 18:26:01 GMT; Path=/; SameSite=None; Secure
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Wed, 13 Mar 2013 14:36:35 GMT
+Etag: "f4-4d7cf553b62c0-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding,X-Forwarded-Proto
+Content-Encoding: gzip

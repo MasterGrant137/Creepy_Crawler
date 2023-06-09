@@ -1,0 +1,8 @@
+Content-Length: 0
+Allow: GET, HEAD, OPTIONS, TRACE
+Server: 
+Strict-Transport-Security: max-age=31536000; preload
+X-Powered-By: ASP.NET
+Content-Security-Policy: upgrade-insecure-requests
+Referrer-Policy: no-referrer
+Date: Fri, 09 Jun 2023 17:34:13 GMT

@@ -1,0 +1,21 @@
+Content-Type: text/html
+X-Amz-Id-2: CdWb5m+PeUNi0ikXv62w/+ILb/TxRQRYJIUAcm6CATzaW1GZhPdCFp7P08kafb4Vjdla/MMszPU=
+X-Amz-Request-Id: XMSWQ51W826320T4
+Date: Thu, 08 Jun 2023 21:19:28 GMT
+Last-Modified: Thu, 08 Jun 2023 16:24:09 GMT
+Etag: W/"749402bbc8f891d1df12b7593ab653a6"
+X-Amz-Server-Side-Encryption: AES256
+Cache-Control: public, max-age=0, must-revalidate
+Server: None
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 9e9fde687cd38d3d64c729260b6189f6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX53-P1
+X-Amz-Cf-Id: WnQAHuY484TEgFTE9hWRST2J2qFzt6jjWFP2PEiEh5Wn0mQUu2qrmw==
+Age: 77073
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval' always
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

@@ -1,0 +1,8 @@
+Content-Length: 0
+Location: https://www.medicare.gov/robots.txt
+Date: Fri, 09 Jun 2023 18:44:00 GMT
+Set-Cookie: optimizelyEndUserId=252d2d17a5772500f072836483020000bacd0500; expires=Sun, 08-Jun-2025 18:44:00 GMT; path=/; domain=.medicare.gov; secure
+Set-Cookie: _ga=GA1.2.1014126405.1686336240; expires=Sun, 08-Jun-2025 18:44:00 GMT; path=/; domain=.medicare.gov; secure
+Set-Cookie: akavpau_default=1686336540~id=7d2a1dfe649d0e3ddf29b96ad7facbaa; Path=/; HttpOnly
+X-Frame-Options: SAMEORIGIN
+Server-Timing: ak_p; desc="1686336240633_388836645_174918987_11_9529_294_0_-";dur=1

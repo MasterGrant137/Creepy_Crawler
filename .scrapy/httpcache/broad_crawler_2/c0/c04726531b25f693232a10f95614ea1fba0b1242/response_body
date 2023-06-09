@@ -1,0 +1,938 @@
+<!-- Start Header Top -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="Office of Child Care Initiatives" />
+<link rel="canonical" href="https://www.acf.hhs.gov/occ/initiatives-0" />
+<meta property="og:title" content="Office of Child Care Initiatives" />
+<meta property="og:description" content="Office of Child Care Initiatives" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Office of Child Care Initiatives" />
+<link rel="image_src" href="https://www.acf.hhs.gov/modules/custom/acf_utilities/images/social_media_thumbnails/default_acf.jpg" />
+<meta property="og:image" content="https://www.acf.hhs.gov/modules/custom/acf_utilities/images/social_media_thumbnails/default_acf.jpg" />
+<meta property="og:image:url" content="https://www.acf.hhs.gov/modules/custom/acf_utilities/images/social_media_thumbnails/default_acf.jpg" />
+<meta property="og:image:secure_url" content="https://www.acf.hhs.gov/modules/custom/acf_utilities/images/social_media_thumbnails/default_acf.jpg" />
+<meta name="twitter:image" content="https://www.acf.hhs.gov/modules/custom/acf_utilities/images/social_media_thumbnails/default_acf.jpg" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/acf_enterprise/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Office of Child Care Initiatives | The Administration for Children and Families</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_81lgB9LxpP8-s8rXkUE44NkaQQkgHH6R3Z6b7v1n18w.css" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v6.2.0/css/v4-shims.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Wuy8Oa_0SsY6oa6-dErrvdeojHVeB-hOIgulWhn1dT8.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_TiE0JOKoTtBukxk-GH00CWg53Qf9ev4MaybkwV-DOlA.css" />
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i" />
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" />
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Oswald:400,400i,700,700i" />
+
+    <script src="/core/assets/vendor/modernizr/modernizr.min.js?v=3.11.7"></script>
+<script src="/core/misc/modernizr-additional-tests.js?v=3.11.7"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W3P647');</script>
+    <!-- End Google Tag Manager -->
+
+  </head>
+<!-- End Header Top -->
+
+<!-- Start Header bottom -->
+  <body class="acf_office occ acf_office_occ uri_occ-initiatives-0 bundle_page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3P647" title="hhsgoogletagmanager"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <a href="#main-content" class="visually-hidden focusable">Skip To Main Content</a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+				
+						<div id="acf_wrapper">
+
+			<div id="acf_branding_bar">
+			  <div>
+    
+
+	
+		
+			
+		<nav role="navigation" aria-labelledby="block-superfish-menu-branding-bar-menu" id="block-superfish-menu-branding-bar">
+																
+			<h2 class="visually-hidden" id="block-superfish-menu-branding-bar-menu">Branding Bar Menu</h2>
+			
+
+							
+		<nav id="branding_bar" class="branding_bar" role="navigation">
+				 <ul class="branding_bar_main_menu menu sf-menu sf-js-enabled sf-arrows">
+																		  <li block="block-superfish-menu-branding-bar" class="menu__item">
+				<span><a href="https://www.hhs.gov" class="hhs_icon menu__link">U.S. Department of Health &amp; Human Services</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item">
+				<span><a href="/" class="acf_icon menu__link" data-drupal-link-system-path="&lt;front&gt;">Administration for Children &amp; Families</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/acf-program-offices" class="menu__link menu__link--with-sub sf-with-ul" data-drupal-link-system-path="node/30">Select an ACF Office</a></span>
+			    <i class="background_arrow_right"></i>
+												 <ul class="branding_bar_sub_menu branding_bar_sub_menu_1 menu--sub menu--sub-1">
+																		  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/ana" class="menu__link" data-drupal-link-system-path="node/2">Administration for Native Americans (ANA)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/acyf" class="menu__link" data-drupal-link-system-path="node/3">Administration on Children, Youth, and Families (ACYF)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/cb" class="menu__link" data-drupal-link-system-path="node/4">Children&#039;s Bureau (CB)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/ecd" class="menu__link" data-drupal-link-system-path="node/5">Early Childhood Development (ECD)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/fysb" class="menu__link" data-drupal-link-system-path="node/6">Family and Youth Services Bureau (FYSB)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/occ" class="menu__link" data-drupal-link-system-path="node/7">Office of Child Care (OCC)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/css" class="menu__link" data-drupal-link-system-path="node/8">Office of Child Support Services (OCSS)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/ocs" class="menu__link" data-drupal-link-system-path="node/9">Office of Community Services (OCS)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/ofa" class="menu__link" data-drupal-link-system-path="node/10">Office of Family Assistance (OFA)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/ofvps" class="menu__link" data-drupal-link-system-path="node/27381">Office of Family Violence and Prevention Services (OFVPS)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/ohs" class="menu__link" data-drupal-link-system-path="node/11">Office of Head Start (OHS)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/ohsepr" class="menu__link" data-drupal-link-system-path="node/12">Office of Human Services Emergency Preparedness and Response (OHSEPR)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/olab" class="menu__link" data-drupal-link-system-path="node/13">Office of Legislative Affairs and Budget (OLAB)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/opre" class="menu__link" data-drupal-link-system-path="node/14">Office of Planning, Research &amp; Evaluation (OPRE)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/orr" class="menu__link" data-drupal-link-system-path="node/15">Office of Refugee Resettlement (ORR)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/oro" class="menu__link" data-drupal-link-system-path="node/1170">Office of Regional Operations (ORO)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/otip" class="menu__link" data-drupal-link-system-path="node/16">Office on Trafficking in Persons (OTIP)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+																  <li block="block-superfish-menu-branding-bar" class="menu__item menu__item--with-sub">
+				<span><a href="/paris" class="menu__link" data-drupal-link-system-path="node/17">Public Assistance Reporting Information System (PARIS)</a></span>
+			    <i class="background_arrow_right"></i>
+			  </li>
+		 </ul>
+	
+	
+			  </li>
+		 </ul>
+	
+	</nav>
+	
+
+
+					</nav>
+
+	
+  </div>
+
+		</div>
+	
+			<div id="acf_header" role="header">
+			<div id="acf_header_top">
+					<div class="container-fluid">
+		<div class="row">
+								<div class="col-6" id="acf_header_top_left">
+  								  <div>
+    <div  id="block-block-content-5498fdfd-a1ec-4f5c-a718-40656bfcec05" class="block">
+	
+
+	
+	
+			<div>
+	
+						<div class="text-long wysiwyg"><div class="office_header">
+<div class="office_header_office_name"><a href="/occ">Office of Child Care</a></div>
+<div class="office_header_office_subtitle">An Office of the Administration for Children &amp; Families</div>
+</div></div>
+			</div>
+	</div>
+  </div>
+
+							</div>						<div class="col-6" id="acf_header_top_right">
+  								  <div>
+    <div  class="views-exposed-form block" novalidate="novalidate" data-drupal-selector="views-exposed-form-site-searches-all-site-search" id="block-office-site-search">
+	
+
+	
+	
+			<form block="block-office-site-search" action="/occ/site_search" method="get" id="views-exposed-form-site-searches-all-site-search" accept-charset="UTF-8">
+  
+	<div class="search_form office_top">
+		
+	<div class="search_form_container">
+		<div class="left_input_field">
+			<label for="keyword" class="visually-hidden">Search this site </label>
+<input type="text" class="input_text input_text" id="edit-keyword" label="" name="keyword" title="Keyword" />
+		</div>
+		<div class="right_button_field">
+			<button type="submit" id="edit-submit-site-searches" class="button blue_gradient">
+				<i class="fas fa-search"></i>
+				<span class="hide">Apply</span>
+			</button>
+		</div>
+	</div>
+	</div>
+
+</form>
+
+	</div><div  id="block-gtranslate-block" class="block">
+	
+
+	
+	
+			
+<div class="gtranslate">
+<script>eval(unescape("eval%28function%28p%2Ca%2Cc%2Ck%2Ce%2Cr%29%7Be%3Dfunction%28c%29%7Breturn%28c%3Ca%3F%27%27%3Ae%28parseInt%28c/a%29%29%29+%28%28c%3Dc%25a%29%3E35%3FString.fromCharCode%28c+29%29%3Ac.toString%2836%29%29%7D%3Bif%28%21%27%27.replace%28/%5E/%2CString%29%29%7Bwhile%28c--%29r%5Be%28c%29%5D%3Dk%5Bc%5D%7C%7Ce%28c%29%3Bk%3D%5Bfunction%28e%29%7Breturn%20r%5Be%5D%7D%5D%3Be%3Dfunction%28%29%7Breturn%27%5C%5Cw+%27%7D%3Bc%3D1%7D%3Bwhile%28c--%29if%28k%5Bc%5D%29p%3Dp.replace%28new%20RegExp%28%27%5C%5Cb%27+e%28c%29+%27%5C%5Cb%27%2C%27g%27%29%2Ck%5Bc%5D%29%3Breturn%20p%7D%28%276%207%28a%2Cb%29%7Bn%7B4%282.9%29%7B3%20c%3D2.9%28%22o%22%29%3Bc.p%28b%2Cf%2Cf%29%3Ba.q%28c%29%7Dg%7B3%20c%3D2.r%28%29%3Ba.s%28%5C%27t%5C%27+b%2Cc%29%7D%7Du%28e%29%7B%7D%7D6%20h%28a%29%7B4%28a.8%29a%3Da.8%3B4%28a%3D%3D%5C%27%5C%27%29v%3B3%20b%3Da.w%28%5C%27%7C%5C%27%29%5B1%5D%3B3%20c%3B3%20d%3D2.x%28%5C%27y%5C%27%29%3Bz%283%20i%3D0%3Bi%3Cd.5%3Bi++%294%28d%5Bi%5D.A%3D%3D%5C%27B-C-D%5C%27%29c%3Dd%5Bi%5D%3B4%282.j%28%5C%27k%5C%27%29%3D%3DE%7C%7C2.j%28%5C%27k%5C%27%29.l.5%3D%3D0%7C%7Cc.5%3D%3D0%7C%7Cc.l.5%3D%3D0%29%7BF%286%28%29%7Bh%28a%29%7D%2CG%29%7Dg%7Bc.8%3Db%3B7%28c%2C%5C%27m%5C%27%29%3B7%28c%2C%5C%27m%5C%27%29%7D%7D%27%2C43%2C43%2C%27%7C%7Cdocument%7Cvar%7Cif%7Clength%7Cfunction%7CGTranslateFireEvent%7Cvalue%7CcreateEvent%7C%7C%7C%7C%7C%7Ctrue%7Celse%7CdoGTranslate%7C%7CgetElementById%7Cgoogle_translate_element2%7CinnerHTML%7Cchange%7Ctry%7CHTMLEvents%7CinitEvent%7CdispatchEvent%7CcreateEventObject%7CfireEvent%7Con%7Ccatch%7Creturn%7Csplit%7CgetElementsByTagName%7Cselect%7Cfor%7CclassName%7Cgoog%7Cte%7Ccombo%7Cnull%7CsetTimeout%7C500%27.split%28%27%7C%27%29%2C0%2C%7B%7D%29%29"))</script><style>div.skiptranslate,#google_translate_element2,#goog-gt-{display:none!important}body{top:0!important}</style><div id="google_translate_element2"></div>
+<script>function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false}, 'google_translate_element2');}</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script><select onchange="doGTranslate(this);" id="gtranslate_selector" class="notranslate" aria-label="Website Language Selector"><option value="">Select Language</option><option value="en|en" style="font-weight:bold;background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -0px;padding-left:18px;">English</option><option value="en|af" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -688px;padding-left:18px;">Afrikaans</option><option value="en|sq" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -560px;padding-left:18px;">Albanian</option><option value="en|ar" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -16px;padding-left:18px;">Arabic</option><option value="en|hy" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -832px;padding-left:18px;">Armenian</option><option value="en|az" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -848px;padding-left:18px;">Azerbaijani</option><option value="en|eu" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -864px;padding-left:18px;">Basque</option><option value="en|be" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -768px;padding-left:18px;">Belarusian</option><option value="en|bn" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -928px;padding-left:18px;">Bengali</option><option value="en|bs" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -944px;padding-left:18px;">Bosnian</option><option value="en|bg" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -32px;padding-left:18px;">Bulgarian</option><option value="en|ca" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -384px;padding-left:18px;">Catalan</option><option value="en|ceb" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -960px;padding-left:18px;">Cebuano</option><option value="en|zh-CN" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -48px;padding-left:18px;">Chinese (Simplified)</option><option value="en|zh-TW" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -64px;padding-left:18px;">Chinese (Traditional)</option><option value="en|hr" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -80px;padding-left:18px;">Croatian</option><option value="en|cs" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -96px;padding-left:18px;">Czech</option><option value="en|da" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -112px;padding-left:18px;">Danish</option><option value="en|nl" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -128px;padding-left:18px;">Dutch</option><option value="en|eo" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -976px;padding-left:18px;">Esperanto</option><option value="en|et" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -576px;padding-left:18px;">Estonian</option><option value="en|tl" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -400px;padding-left:18px;">Filipino</option><option value="en|fi" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -144px;padding-left:18px;">Finnish</option><option value="en|fr" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -160px;padding-left:18px;">French</option><option value="en|gl" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -592px;padding-left:18px;">Galician</option><option value="en|ka" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -880px;padding-left:18px;">Georgian</option><option value="en|de" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -176px;padding-left:18px;">German</option><option value="en|el" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -192px;padding-left:18px;">Greek</option><option value="en|gu" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -992px;padding-left:18px;">Gujarati</option><option value="en|ht" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -896px;padding-left:18px;">Haitian Creole</option><option value="en|ha" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1008px;padding-left:18px;">Hausa</option><option value="en|iw" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -416px;padding-left:18px;">Hebrew</option><option value="en|hi" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -208px;padding-left:18px;">Hindi</option><option value="en|hmn" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1024px;padding-left:18px;">Hmong</option><option value="en|hu" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -608px;padding-left:18px;">Hungarian</option><option value="en|is" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -784px;padding-left:18px;">Icelandic</option><option value="en|ig" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1040px;padding-left:18px;">Igbo</option><option value="en|id" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -432px;padding-left:18px;">Indonesian</option><option value="en|ga" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -736px;padding-left:18px;">Irish</option><option value="en|it" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -224px;padding-left:18px;">Italian</option><option value="en|ja" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -240px;padding-left:18px;">Japanese</option><option value="en|jw" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1056px;padding-left:18px;">Javanese</option><option value="en|kn" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1072px;padding-left:18px;">Kannada</option><option value="en|km" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1088px;padding-left:18px;">Khmer</option><option value="en|ko" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -256px;padding-left:18px;">Korean</option><option value="en|lo" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1104px;padding-left:18px;">Lao</option><option value="en|la" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1120px;padding-left:18px;">Latin</option><option value="en|lv" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -448px;padding-left:18px;">Latvian</option><option value="en|lt" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -464px;padding-left:18px;">Lithuanian</option><option value="en|mk" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -800px;padding-left:18px;">Macedonian</option><option value="en|ms" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -704px;padding-left:18px;">Malay</option><option value="en|mt" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -624px;padding-left:18px;">Maltese</option><option value="en|mi" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1136px;padding-left:18px;">Maori</option><option value="en|mr" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1152px;padding-left:18px;">Marathi</option><option value="en|mn" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1168px;padding-left:18px;">Mongolian</option><option value="en|ne" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1184px;padding-left:18px;">Nepali</option><option value="en|no" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -272px;padding-left:18px;">Norwegian</option><option value="en|ps" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1552px;padding-left:18px;">Pashto</option><option value="en|fa" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -672px;padding-left:18px;">Persian</option><option value="en|pl" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -288px;padding-left:18px;">Polish</option><option value="en|pt" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -304px;padding-left:18px;">Portuguese</option><option value="en|pa" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1200px;padding-left:18px;">Punjabi</option><option value="en|ro" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -320px;padding-left:18px;">Romanian</option><option value="en|sr" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -480px;padding-left:18px;">Serbian</option><option value="en|sk" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -496px;padding-left:18px;">Slovak</option><option value="en|sl" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -512px;padding-left:18px;">Slovenian</option><option value="en|so" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1216px;padding-left:18px;">Somali</option><option value="en|es" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -352px;padding-left:18px;">Spanish</option><option value="en|sw" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -720px;padding-left:18px;">Swahili</option><option value="en|sv" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -368px;padding-left:18px;">Swedish</option><option value="en|ta" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1232px;padding-left:18px;">Tamil</option><option value="en|te" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1248px;padding-left:18px;">Telugu</option><option value="en|th" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -640px;padding-left:18px;">Thai</option><option value="en|tr" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -656px;padding-left:18px;">Turkish</option><option value="en|ur" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -912px;padding-left:18px;">Urdu</option><option value="en|vi" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -544px;padding-left:18px;">Vietnamese</option><option value="en|cy" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -752px;padding-left:18px;">Welsh</option><option value="en|yi" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -816px;padding-left:18px;">Yiddish</option><option value="en|yo" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1264px;padding-left:18px;">Yoruba</option><option value="en|zu" style="background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1280px;padding-left:18px;">Zulu</option></select>
+</div>
+	</div><div  id="block-office-mobile-menu-icon" class="block">
+	
+
+	
+	
+			<div class="block icon_link_block" id="office_mobile_menu_icon" icon-link-block-target-block-id-class=".office_top_nav_menu">
+	<a href="javascript: void(0);" class="menu_icon" icon-link-block-a-toggle-class="office_menu_icon_close">
+		<span class="sr-only">Click to expand</span>		menu
+	</a>
+</div>
+	</div><div  id="block-office-mobile-search-icon" class="block">
+	
+
+	
+	
+			<div class="block icon_link_block" id="office_mobile_search_icon" icon-link-block-target-block-id-class=".office_site_search_mobile">
+	<a href="javascript: void(0);" class="search_icon" icon-link-block-a-toggle-class="office_search_icon_close">
+		<span class="sr-only">Click to expand</span>		search
+	</a>
+</div>
+	</div>
+  </div>
+
+							</div>						</div>
+</div>			</div> <!-- /#acf_header_top -->
+
+							<div id="acf_header_bottom">
+					  <div>
+    <div  class="views-exposed-form office_site_search_mobile block" novalidate="novalidate" data-drupal-selector="views-exposed-form-site-searches-all-site-search" id="block-office-site-search-mobile">
+	
+
+	
+	
+			<form block="block-office-site-search-mobile" action="/occ/site_search" method="get" id="views-exposed-form-site-searches-all-site-search" accept-charset="UTF-8">
+  
+	<div class="search_form office_top">
+		
+	<div class="search_form_container">
+		<div class="left_input_field">
+			<label for="keyword" class="visually-hidden">Search this site </label>
+<input type="text" class="input_text input_text" id="edit-keyword--2" label="" name="keyword" title="Keyword" />
+		</div>
+		<div class="right_button_field">
+			<button type="submit" id="edit-submit-site-searches--2" class="button blue_gradient">
+				<i class="fas fa-search"></i>
+				<span class="hide">Apply</span>
+			</button>
+		</div>
+	</div>
+	</div>
+
+</form>
+
+	</div>
+
+	
+					
+			
+		<nav role="navigation" aria-labelledby="block-office-top-nav-menu-menu" class="office_top_nav_menu" id="block-office-top-nav-menu">
+																
+			<h2 class="visually-hidden" id="block-office-top-nav-menu-menu">OCC - Main Navigation</h2>
+			
+
+							
+
+
+				<div id="office_main_nav" class="office_main_nav office_occ" role="navigation">
+			<div id="office_menu_nav_container">
+							<ul class="office_main_top_level menu sf-menu sf-js-enabled sf-arrows">
+																	<li class="menu__item menu__item--with-sub">
+					<div class="menu_link_container">
+						<a href="/occ/about" class="menu__link menu__link--with-sub sf-with-ul menu__link--parent">About</a>
+									<a href="javascript: void(0);" class="expand_link"><i class="fa fa-angle-down"></i><span class="hide">Expand</span></a>
+					</div>
+					
+								<ul class="office_main_sub_level office_main_sub_menu_1 menu--sub menu--sub-1">
+																	<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/contacts" class="menu__link">Contacts</a>
+									</div>
+								</li>
+								</ul>
+		
+								</li>
+																		<li class="menu__item menu__item--with-sub  menu_item--active-trail">
+					<div class="menu_link_container">
+						<a href="/occ/initiatives-0" class="menu__link menu__link--with-sub sf-with-ul menu__link--parent">Initiatives</a>
+									<a href="javascript: void(0);" class="expand_link"><i class="fa fa-angle-down"></i><span class="hide">Expand</span></a>
+					</div>
+					
+								<ul class="office_main_sub_level office_main_sub_menu_1 menu--sub menu--sub-1">
+																	<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/initiatives-0" class="menu__link">Office of Child Care Initiatives</a>
+									</div>
+								</li>
+								</ul>
+		
+								</li>
+																		<li class="menu__item menu__item--with-sub">
+					<div class="menu_link_container">
+						<a href="/occ/data-0" class="menu__link menu__link--with-sub sf-with-ul menu__link--parent">Data & Funding</a>
+									<a href="javascript: void(0);" class="expand_link"><i class="fa fa-angle-down"></i><span class="hide">Expand</span></a>
+					</div>
+					
+								<ul class="office_main_sub_level office_main_sub_menu_1 menu--sub menu--sub-1">
+																	<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/data/child-care-and-development-fund-statistics" class="menu__link">CCDF Statistics</a>
+									</div>
+								</li>
+																		<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/data/child-care-and-development-fund-expenditure-data-list-all-years" class="menu__link">CCDF Expenditures</a>
+									</div>
+								</li>
+																		<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/grant-funding/ccdf-funding-allocations" class="menu__link">CCDF Funding Allocations</a>
+									</div>
+								</li>
+								</ul>
+		
+								</li>
+																		<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/ta" class="menu__link">Technical Assistance</a>
+									</div>
+								</li>
+																		<li class="menu__item menu__item--with-sub">
+					<div class="menu_link_container">
+						<a href="/occ/resource-library" class="menu__link menu__link--with-sub sf-with-ul menu__link--parent">Resources</a>
+									<a href="javascript: void(0);" class="expand_link"><i class="fa fa-angle-down"></i><span class="hide">Expand</span></a>
+					</div>
+					
+								<ul class="office_main_sub_level office_main_sub_menu_1 menu--sub menu--sub-1">
+																	<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/policy-guidance/ccdf-federal-onsite-monitoring" class="menu__link">CCDF Federal Onsite Monitoring</a>
+									</div>
+								</li>
+																		<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/policy-guidance/ccdf-state-territory-and-tribal-reporting" class="menu__link">CCDF Reporting</a>
+									</div>
+								</li>
+																		<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/training-technical-assistance/office-child-care-covid-19-resources" class="menu__link">COVID-19</a>
+									</div>
+								</li>
+																		<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/policy-guidance/information-memoranda" class="menu__link">Information Memoranda</a>
+									</div>
+								</li>
+																		<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/guide-ccdf-resources" class="menu__link">OCC Guide to CCDF Resources</a>
+									</div>
+								</li>
+																		<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/policy-guidance/policy-interpretation-questions" class="menu__link">Policy Interpretation Questions</a>
+									</div>
+								</li>
+																		<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/policy-guidance/program-instructions" class="menu__link">Program Instructions</a>
+									</div>
+								</li>
+																		<li class="menu__item">
+					<div class="menu_link_container">
+						<a href="/occ/training-technical-assistance/current-technical-bulletins" class="menu__link">Technical Bulletins</a>
+									</div>
+								</li>
+								</ul>
+		
+								</li>
+								</ul>
+				</div>
+	</div>
+	
+
+
+					</nav>
+
+	
+  </div>
+
+				</div>
+					</div>
+	<!-- End Header bottom -->
+
+			<div id="acf_breadcrumb">
+				<div class="container-fluid">
+		<div class="row">
+							<div class="col-md-12">
+  							  <div>
+    <div  id="block-acf-enterprise-breadcrumbs" class="block">
+	
+
+	
+	
+				<nav role="navigation" class="breadcrumb_nav acf_main has_print">
+	<ol class="breadcrumb_ol">
+					<li class="breadcrumb_li">
+									<a class="breadcrumb_link" href="/">Home</a>
+							</li>
+					<li class="breadcrumb_li">
+									<a class="breadcrumb_link" href="/occ">Office of Child Care (OCC)</a>
+							</li>
+					<li class="breadcrumb_li">
+									<span class="breadcrumb_content">Office of Child Care Initiatives</span>
+							</li>
+			</ol>
+			<a href="javascript: window.print();" class="print_link float_right"	title="Print this page"
+>PRINT</a>
+	</nav>
+
+	</div>
+  </div>
+
+						</div>					</div>
+</div>		</div>
+	
+	
+	<main id="acf_main" role="main">
+		<div id="acf_main_container">
+				<div class="container-fluid">
+		<div class="row">
+													<div class="col-md-3">
+  								<aside id="acf_main_container_left" role="complementary">
+								    <div>
+    
+
+	
+							
+			
+						
+								
+			
+																	
+			
+								
+			
+								
+			
+								
+						
+			
+		<nav role="navigation" aria-labelledby="block-system-menu-block-occ-main-navigation-menu" class="region_sidebar_left" id="block-system-menu-block-occ-main-navigation">
+																
+			<h2 class="visually-hidden" id="block-system-menu-block-occ-main-navigation-menu">OCC - Left Navigation</h2>
+			
+
+							
+
+												
+	
+		<nav id="office_left_nav" class="office_left_nav" role="navigation">
+ <div id="office_left_nav_parent"><a href="/occ/initiatives-0">Initiatives</a></div>
+ <div id="office_left_nav_container">
+				  <ul class="office_left_top_level">
+										   <li class="">
+							<a href="/occ/initiatives-0">Office of Child Care Initiatives</a>
+			   </li>
+		  </ul>
+	
+	 </div>
+</nav>
+	
+
+
+					</nav>
+
+	
+  </div>
+
+								</aside>
+							</div>										<div class="col-md">
+  							<div id="acf_main_container_content">
+																<a id="main-content" tabindex="-1"></a>
+
+								
+
+								  <div>
+    <div data-drupal-messages-fallback class="hidden"></div><div  id="block-acf-enterprise-page-title" class="block">
+	
+
+	
+	
+			
+	<h1 class="h1">
+	<span property="schema:name">Office of Child Care Initiatives</span>
+
+</h1>
+	</div><div  id="block-openreadspeakerblock" class="block">
+	
+
+	
+	
+			
+<div class="open-readspeaker-ui">
+  <div id="readspeaker_button" class="rs_skip rsbtn rs_preserve">
+    <a class="rsbtn_play open-readspeaker-button" title="Listen to this page using ReadSpeaker" accesskey="L" href="//app-na.readspeaker.com/cgi-bin/rsent?customerid=7596&amp;lang=en_us&amp;readid=acf_main_container&amp;url=https%3A%2F%2Fwww.acf.hhs.gov%2Focc%2Finitiatives-0">
+      <span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+      <span class="rsbtn_right rsimg rsplay rspart"></span>
+    </a>
+  </div>
+</div>
+
+	</div><div  id="block-acf-enterprise-content" class="block">
+	
+
+	
+	
+			<article  role="article" about="/occ/initiatives-0" typeof="schema:WebPage">
+
+  
+      <span property="schema:name" content="Office of Child Care Initiatives" class="hidden"></span>
+
+
+  
+  <div>
+    
+
+    <div class="publication_date">
+                                <span class="publication_date_label">Current as of:</span>
+                <time datetime="2022-08-29T12:00:00Z">August 29, 2022</time>
+
+    </div>
+<div id="field_body">
+	<div>
+	
+						<div class="text-long wysiwyg"><h2>Child Care Stabilization Grants and Recovery</h2>
+
+<p>Congress awarded approximately $24 billion to the Child Care and Development Fund (CCDF) program. The goal was to provide financial relief to child care providers to help pay for costs associated with the coronavirus disease 2019 (COVID-19) pandemic and stabilize the child care market.</p>
+
+<p>Child care is critical to supporting children, families, and the economy. The Office of Child Care is providing timely guidance and technical assistance to help states, territories, and Tribes quickly and effectively distribute these funds. The stabilization grants provide an unprecedented opportunity to rebuild a stronger child care system that provides equal access to high-quality child care.</p>
+
+<p>States, territories, and Tribes must use the majority of these funds to provide subgrants to child care providers. They can spend the remaining funds on administrative activities, supply-building strategies, and technical assistance. Lead Agencies are particularly encouraged to build the supply of child care to meet the varying needs of families and reach a wide range of providers, including those who may not have previously participated in the child care subsidy system. Key resources include the following:</p>
+
+<ul><li><a href="https://childcareta.acf.hhs.gov/child-care-stabilization-grants" target="_blank" class="external">Child Care Technical Assistance Network. (n.d.). Child care stabilization grants. U.S. Department of Health and Human Services, Administration for Children and Families<span><svg xmlns="http://www.w3.org/2000/svg" height="24" viewbox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></span></a></li>
+	<li><a href="/sites/default/files/documents/occ/CCDF-ACF-IM-2021-02.pdf" target="_blank">Office of Child Care. (2021). Child care stabilization grants appropriated in the American Rescue Plan (ARP) Act (Public Law 117-2) signed into law on March 11, 2021 (CCDF-ACF-IM-2021-02). U.S. Department of Health and Human Services, Administration for Children and Families</a></li>
+	<li><a href="/occ/faq/stabilizing-child-care-and-covid-19-faqs">Office of Child Care. (2021). Stabilizing child care and COVID-19 FAQs. U.S. Department of Health and Human Services, Administration for Children and Families</a></li>
+</ul><h2>Emergency Preparedness and Disaster Response and Recovery</h2>
+
+<p>Preparing for and responding to emergencies and disasters are important goals for the Office of Child Care. Child safety, family well-being, and the sustainability of child care are key parts of a healthy economy and nation. The coronavirus disease 2019 (COVID-19) pandemic has focused attention on the important role of child care and the CCDF program. CCDF Lead Agencies can create strong, effective disaster plans to help child care programs respond and recover.</p>
+
+<p>The Office of Child Care created a web page of <a href="/occ/contact-information/emergency-preparedness-resources-grantees-and-child-care-providers-eprr">emergency preparedness resources for grantees and child care providers</a>. Some key resources include the following:</p>
+
+<ul><li><a href="/occ/policy-guidance/flexibility-spending-ccdf-funds-response-federal-or-state-declared-emergency">Office of Child Care. (2017). Flexibility in Spending CCDF Funds in Response to Federal or State Declared Emergency Situations</a></li>
+	<li><a href="https://childcareta.acf.hhs.gov/resource/refining-ccdf-disaster-plans-following-covid-19-pandemic" target="_blank" class="external">Child Care Technical Assistance Network. (2021). Refining CCDF Disaster Plans Following the COVID-19 Pandemic<span><svg xmlns="http://www.w3.org/2000/svg" height="24" viewbox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></span></a></li>
+	<li><a href="https://childcareta.acf.hhs.gov/resource/resource-guide-emergency-preparedness-and-response-resources-child-care-programs" target="_blank" class="external">Child Care Technical Assistance Network. (2022). Resource Guide: Emergency Preparedness, Response, and Recovery Resources for Child Care Programs<span><svg xmlns="http://www.w3.org/2000/svg" height="24" viewbox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></span></a></li>
+</ul><h2>OCC Equity Action Plan</h2>
+
+<p>The Office of Child Care (OCC) supports low-income working families through child care financial assistance and promotes children's learning by improving the quality of early care and education and afterschool programs. OCC is committed to advancing equity for all children and families, especially those who have been historically underserved, marginalized, and adversely affected by persistent poverty and inequality.</p>
+
+<h3>OCC has made steps to advance equity by:</h3>
+
+<ol><li>Incorporating input from Child Care and Development Fund (CCDF) Tribal Administrators, gathered during a focus group, to make the CCDF Tribal Plan Pre-Print — the application for CCDF funds — easier to complete and more reflective of Tribal CCDF programs.</li>
+	<li>Establishing a set of guiding principles on equity in collaboration with the Office of Head Start to guide our technical assistance (TA) to CCDF grantees and other early care and education programs funded by the Administration for Children and Families such as Head Start/Early Head Start and Tribal Maternal, Infant, and Early Childhood Home Visiting.</li>
+	<li>Elevating the voices and perspectives of parents, providers, and others with lived expertise in the child care subsidy system through periodic listening sessions, nationwide roundtables, and working groups established to inform our TA activities.</li>
+	<li>Encouraging OCC staff engagement in equity-focused activities, such as participation in professional development opportunities on diversity, equity, inclusion, and accessibility, and culturally specific employee resource groups.</li>
+	<li>Increasing OCC staff knowledge and skills through a series of eleven webinars from the Center for Equity &amp; Excellence, to support the implementation of trauma-informed culturally affirming and culturally responsive strategies in early care and education settings.</li>
+</ol><h3>Moving forward OCC will:</h3>
+
+<ol><li>Immediately — continue to provide training to equip OCC staff members with information and resources to help build our historical, cultural, and trauma awareness of issues specific to indigenous communities that, in turn, will strengthen our engagement with and service delivery to the populations that we serve.</li>
+	<li>In 2022-2023 — identify the impact on child and family outcomes in U.S. Territories of CCDF administrative requirements, with a specific focus on consumer education, state median income, and market rate surveys. Also identify potential administrative solutions to increase access to high-quality child care that meets the needs of low-income and other underserved families.</li>
+	<li>From 2022 — 2024 -- implement recruitment and retention strategies to ultimately increase the diversity of OCC’s workforce to better reflect the demographics of the national civilian workforce. These strategies include:
+	<ul><li>Broadening distribution of position announcements</li>
+		<li>Reviewing and revising hiring documents</li>
+		<li>Assessing the feasibility of implementing an internship and/or fellowship program</li>
+		<li>Improving on-boarding and professional development opportunities to create a more inclusive workplace culture and support OCC staff advancing equity through their work</li>
+	</ul></li>
+</ol><p>OCC invites public input on the actions we are taking to advance equity. Please send any suggestions or comments on our plans to <a href="mailto:occ@acf.hhs.gov" target="_blank">occ@acf.hhs.gov</a>.</p>
+
+<p>We will provide a semi-annual status update.</p>
+
+<p>ACF is committed to making equity a central part of how we operate and deliver our mission. In 2021, every ACF office committed to equity by creating an Equity Action Plan. Please review <a href="/equity">ACF's Equity and Action page</a> to learn more.</p></div>
+			</div></div>
+  </div>
+
+</article>
+
+	</div>
+  </div>
+
+
+								
+																							</div>
+						</div>										</div>
+</div>		</div>
+	</main>
+
+			<div id="acf_below">
+			  <div>
+    <div  id="block-acf-feedback-form-below-content" class="block">
+	
+
+	
+	
+			<span id="webform-submission-acf-feedback-node-583-form-ajax-content"></span><div id="webform-submission-acf-feedback-node-583-form-ajax" class="webform-ajax-form-wrapper" data-effect="fade" data-progress-type="throbber"><form class="webform-submission-form webform-submission-add-form webform-submission-acf-feedback-form webform-submission-acf-feedback-add-form webform-submission-acf-feedback-node-583-form webform-submission-acf-feedback-node-583-add-form background_light_blue padding_all round_border js-webform-disable-autosubmit js-webform-details-toggle webform-details-toggle" data-drupal-selector="webform-submission-acf-feedback-node-583-add-form" novalidate="novalidate" action="/occ/initiatives-0" method="post" id="webform-submission-acf-feedback-node-583-add-form" accept-charset="UTF-8">
+  
+  <div data-webform-key="step_0" data-drupal-selector="edit-step-0" id="edit-step-0" class="js-form-wrapper form-wrapper"><fieldset data-drupal-selector="edit-was-this-page-helpful-" class="js-webform-buttons webform-buttons legend_speaking_bubble big_blue_labels webform-buttons--wrapper fieldgroup form-composite webform-composite-visible-title required js-webform-type-webform-buttons webform-type-webform-buttons js-form-item form-item js-form-wrapper form-wrapper" id="edit-was-this-page-helpful---wrapper">
+      <legend>
+    <span class="fieldset-legend js-form-required form-required">Was this page helpful?</span>
+  </legend>
+  <div class="fieldset-wrapper">
+                <div id="edit-was-this-page-helpful-" class="js-webform-webform-buttons webform-options-display-side-by-side"><div class="js-form-item form-item js-form-type-radio form-item-was-this-page-helpful- js-form-item-was-this-page-helpful-">
+        <input data-drupal-selector="edit-was-this-page-helpful-yes" type="radio" id="edit-was-this-page-helpful-yes" name="was_this_page_helpful_" value="Yes" class="form-radio" />
+
+        <label for="edit-was-this-page-helpful-yes" class="option">Yes</label>
+      </div>
+<div class="js-form-item form-item js-form-type-radio form-item-was-this-page-helpful- js-form-item-was-this-page-helpful-">
+        <input data-drupal-selector="edit-was-this-page-helpful-no" type="radio" id="edit-was-this-page-helpful-no" name="was_this_page_helpful_" value="No" class="form-radio" />
+
+        <label for="edit-was-this-page-helpful-no" class="option">No</label>
+      </div>
+</div>
+
+          </div>
+</fieldset>
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions webform-actions js-form-wrapper form-wrapper" id="edit-actions--3"><input class="webform-button--next button js-form-submit form-submit" data-drupal-selector="edit-actions-wizard-next" data-disable-refocus="true" type="submit" id="edit-actions-wizard-next" name="op" value="Next" />
+
+</div>
+<input autocomplete="off" data-drupal-selector="form-tzdut-hvtetk47ivqcevkw-zmr9gtlpzz2vjd2g5jgi" type="hidden" name="form_build_id" value="form-TzDUT_hvtetK47IvqCEVkW-Zmr9gtLPzZ2Vjd2G5jGI" />
+<input data-drupal-selector="edit-webform-submission-acf-feedback-node-583-add-form" type="hidden" name="form_id" value="webform_submission_acf_feedback_node_583_add_form" />
+
+
+  
+</form>
+</div>
+	</div>
+  </div>
+
+		</div>
+	
+    <!-- Start Footer -->
+	<footer id="acf_footer" role="footer">
+        <div class="acf_pre_footer">
+        <div id="acf_pre_footer_container">
+          <div class="container">
+           
+          </div>
+        </div>
+      </div>
+    
+		<div id="acf_footer_above">
+			<div id="acf_footer_above_container">
+					<div class="container-fluid">
+		<div class="row">
+															<div class="col-md-4" id="acf_footer_left">
+  									  <div>
+    
+
+	
+										
+			
+		<nav role="navigation" aria-labelledby="block-system-menu-block-occ-main-navigation--2-menu" class="region_footer_left" id="block-system-menu-block-occ-main-navigation--2">
+																
+			<h2 class="visually-hidden" id="block-system-menu-block-occ-main-navigation--2-menu">OCC - Bottom Navigation</h2>
+			
+
+							        <div id="footer_nav" class="footer_nav">         <ul class="footer_main_menu">
+                            <li>
+                    <a href="/occ/about">About</a>
+                </li>
+                            <li>
+                    <a href="/occ/initiatives-0">Initiatives</a>
+                </li>
+                            <li>
+                    <a href="/occ/data-0">Data & Funding</a>
+                </li>
+                            <li>
+                    <a href="/occ/ta">Technical Assistance</a>
+                </li>
+                            <li>
+                    <a href="/occ/resource-library">Resources</a>
+                </li>
+                    </ul>
+    </div>
+
+					</nav>
+
+	
+  </div>
+
+								</div>												<div class="col-md-8" id="acf_footer_middle">
+  								  <div>
+    
+
+	
+		
+			
+		<nav role="navigation" aria-labelledby="block-bottom-footer-nav-menu" id="block-bottom-footer-nav">
+																
+			<h2 class="visually-hidden" id="block-bottom-footer-nav-menu">Bottom Footer Navigation</h2>
+			
+
+								<div id="bottom_footer_nav" class="bottom_footer_nav">
+		<ul class="bottom_footer_main_menu">
+											                <li>
+					<a href="/welcome-acf">Related Sites</a>
+											<ul>
+																																																<li>
+									<a href="https://www.hhs.gov" class="external"	target="_blank"
+>HHS.gov	<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+</svg>
+
+</a>
+								</li>
+																																																<li>
+									<a href="https://www.grants.gov" class="external"	target="_blank"
+>Grants.gov	<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+</svg>
+
+</a>
+								</li>
+																																																<li>
+									<a href="https://www.usajobs.gov/" class="external"	target="_blank"
+>USAJobs.gov	<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+</svg>
+
+</a>
+								</li>
+																																																<li>
+									<a href="https://www.usa.gov" class="external"	target="_blank"
+>USA.gov	<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+</svg>
+
+</a>
+								</li>
+													</ul>
+									</li>
+											                <li>
+					<a href="/welcome-acf">Helpful Links</a>
+											<ul>
+																																																<li>
+									<a href="https://oig.hhs.gov/fraud/report-fraud/" class="external"	target="_blank"
+>Report Fraud	<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+</svg>
+
+</a>
+								</li>
+																																																<li>
+									<a href="https://www.hhs.gov/open/execorders/13571/index.html" class="external"	target="_blank"
+>HHS Customer Service Plan	<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+</svg>
+
+</a>
+								</li>
+																															<li>
+									<a href="/acf-plug-ins">Viewers & Players</a>
+								</li>
+																																																<li>
+									<a href="https://get.adobe.com/reader/" class="external"	target="_blank"
+>Download Acrobat Reader ©	<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+</svg>
+
+</a>
+								</li>
+													</ul>
+									</li>
+											                <li>
+					<a href="/about/acf-policies">Policies</a>
+											<ul>
+																															<li>
+									<a href="/accessibility">Accessibility</a>
+								</li>
+																															<li>
+									<a href="/no-fear-act">No FEAR Act</a>
+								</li>
+																															<li>
+									<a href="/privacy-policy">Privacy Policy</a>
+								</li>
+																															<li>
+									<a href="/foia">FOIA</a>
+								</li>
+																																																<li>
+									<a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="external"	target="_blank"
+>HHS Vulnerability Disclosure Policy	<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+</svg>
+
+</a>
+								</li>
+																															<li>
+									<a href="/disclaimers">Disclaimers</a>
+								</li>
+													</ul>
+									</li>
+			        </ul>
+	</div>
+
+					</nav>
+
+	
+  </div>
+
+							</div>												</div>
+</div>			</div>
+		</div> <!-- /#acf_footer_above -->
+
+		<div id="acf_footer_below">
+			<div id="acf_footer_below_container">
+					<div class="container-fluid">
+		<div class="row">
+								<div class="col-md-4" id="acf_sub_footer_left">
+  								  <div>
+    <div  id="block-footerimage" class="block">
+	
+
+	
+	
+			<div>
+	
+						<div class="text-long wysiwyg"><p><img alt="" src="/themes/custom/acf_enterprise/images/logos/acf_main_logo_white.png" /></p>
+</div>
+			</div>
+	</div>
+  </div>
+
+							</div>						<div class="col-md-4" id="acf_sub_footer_middle">
+  								
+							</div>						<div class="col-md-4" id="acf_sub_footer_right">
+  								  <div>
+    <div  id="block-footerinformation" class="block">
+	
+
+	
+	
+			<div>
+	
+						<div class="text-long wysiwyg"><strong>U.S. Department of Health &amp; Human Services</strong><br />
+330 C Street, S.W., Washington, D.C. 20201</div>
+			</div>
+	</div><div  id="block-socialmediaiconsblockglobal" class="block">
+	
+
+	
+	
+				<div id="social_media_links">
+									<a href="https://www.facebook.com/ChildrenAndFamilies" target="_blank" class="social_media_link facebook" title="ACF on Facebook">
+      <i class="fab fa-facebook"></i><span class="hide">ACF on Facebook</span>
+  </a>
+												<a href="https://www.twitter.com/acfhhs" target="_blank" class="social_media_link twitter" title="ACF on Twitter">
+      <i class="fab fa-twitter"></i><span class="hide">ACF on Twitter</span>
+  </a>
+												<a href="https://www.instagram.com/acf_gov" target="_blank" class="social_media_link instagram" title="ACF on Instagram">
+      <i class="fab fa-instagram"></i><span class="hide">ACF on Instagram</span>
+  </a>
+												<a href="https://www.flickr.com/photos/acfgov" target="_blank" class="social_media_link flickr" title="ACF on Flickr">
+      <i class="fab fa-flickr"></i><span class="hide">ACF on Flickr</span>
+  </a>
+												<a href="https://www.youtube.com/channel/UCWBKgxPd3mMuv8agsCICHww" target="_blank" class="social_media_link youtube" title="ACF YouTube Channel">
+      <i class="fab fa-youtube"></i><span class="hide">ACF YouTube Channel</span>
+  </a>
+						</div>
+
+
+
+
+
+
+	</div>
+  </div>
+
+							</div>						</div>
+</div>			</div>
+		</div> <!-- /#acf_footer_below -->
+
+	</footer> <!-- /acf_footer -->
+    <!-- End Footer -->
+
+</div> <!-- /acf_wrapper -->
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/583","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"abtestui\/admin_design_always,acf_enterprise\/acf-main-site-search-form,acf_enterprise\/global,acf_enterprise\/office-left-nav,acf_enterprise\/office-main-nav,acf_utilities\/acf-utilities-icon-link-block,back_to_top\/back_to_top_icon,back_to_top\/back_to_top_js,calendar\/calendar.theme,core\/drupal.ajax,core\/drupal.collapse,core\/internal.jquery.form,fontawesome\/fontawesome.webfonts,fontawesome\/fontawesome.webfonts.shim,open_readspeaker\/basic,system\/base,webform\/webform.ajax,webform\/webform.composite,webform\/webform.dialog,webform\/webform.element.details,webform\/webform.element.details.save,webform\/webform.element.details.toggle,webform\/webform.element.message,webform\/webform.element.options,webform\/webform.form,webform_jqueryui_buttons\/webform_jqueryui_buttons.element","theme":"acf_enterprise","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/occ\/initiatives-0?ajax_form=1":true,"\/occ\/site_search":true},"back_to_top":{"back_to_top_button_trigger":100,"back_to_top_prevent_on_mobile":true,"back_to_top_prevent_in_admin":true,"back_to_top_button_type":"image","back_to_top_button_text":"Back to top"},"webform":{"dialog":{"options":{"narrow":{"title":"Narrow","width":600},"normal":{"title":"Normal","width":800},"wide":{"title":"Wide","width":1000}},"entity_type":"node","entity_id":"583"}},"ajax":{"edit-actions-wizard-next":{"callback":"::submitAjaxForm","event":"click","effect":"fade","speed":0,"progress":{"type":"throbber","message":""},"disable-refocus":true,"url":"\/occ\/initiatives-0?ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next"}}},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"classes":"","id":"taxonomy_fields","element":"div","show_label":false,"label_element":"h3","label_element_classes":"","attributes":"","effect":"none","speed":"fast"}}},"user":{"uid":0,"permissionsHash":"aee121ff6ab19ec04a666fe8b0f7f0b1713ea6e274ab8d0832f77a4a8917d9ac"}}</script>
+<script src="/sites/default/files/js/js_D7pcfSBu5qUwHM9NLjzHk1Sq_ju26tS6qAev1xNPPaQ.js"></script>
+<script src="https://cdn1.readspeaker.com/script/7596/ReadSpeaker.js?pids=embhl"></script>
+<script src="/sites/default/files/js/js_f_6rzeJ_UbTZ-X891NVYX62z0dTUBB17jA_JRrXt6Ds.js"></script>
+
+  </body>
+</html>

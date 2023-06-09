@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: AWSALB=xgxn3UgQZUrpN/59dLtnpSVqa42tGqMQmFJf0irVdyEW7P+9pYHwP8WfPbecxJU4x1M9gHT4miFydWP0SuF3eFOe+q2M8VzCe9iB5fiTOciDtXpFUJJw/YD2UyWw; Expires=Fri, 16 Jun 2023 14:34:22 GMT; Path=/
+Set-Cookie: AWSALBCORS=xgxn3UgQZUrpN/59dLtnpSVqa42tGqMQmFJf0irVdyEW7P+9pYHwP8WfPbecxJU4x1M9gHT4miFydWP0SuF3eFOe+q2M8VzCe9iB5fiTOciDtXpFUJJw/YD2UyWw; Expires=Fri, 16 Jun 2023 14:34:22 GMT; Path=/; SameSite=None; Secure
+X-Ua-Compatible: IE=edge
+Content-Language: en
+Last-Modified: Fri, 09 Jun 2023 06:39:55 GMT
+X-Varnish: 7440456 64
+Via: 1.1 varnish (Varnish/6.0), 1.1 cc5ee9362c1a190f2004ed17d0fdd242.cloudfront.net (CloudFront)
+X-Varnish-Cache: HIT
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Content-Security-Policy: default-src 'self' blob: ; media-src * data: ; connect-src *; img-src * data: about: ; script-src 'self' blob: 'unsafe-inline' 'unsafe-eval' https://*.googleapis.com https://*.dacast.com https://whatfix.com https://*.eclkc.info https://use.fortawesome.com https://www.cdc.gov https://cdn.siteimprove.net https://*.printfriendly.com https://tagmanager.google.com https://use.typekit.net https://s.ytimg.com https://www.youtube.com https://alleninteractions.atlassian.net https://player.vzaar.com https://dap.digitalgov.gov https://code.jquery.com https://*.kxcdn.com https://siteimproveanalytics.com https://www.googletagmanager.com https://www.google-analytics.com https://ajax.googleapis.com https://maxcdn.bootstrapcdn.com https://maps.googleapis.com https://www.google.com https://www.gstatic.com; script-src-elem 'self' blob: 'unsafe-inline' https://*.googleapis.com https://translate.google.com https://*.dacast.com https://whatfix.com https://*.eclkc.info https://*.cdc.gov https://tagmanager.google.com https://use.typekit.net https://s.ytimg.com https://www.youtube.com https://cdn.siteimprove.net https://*.printfriendly.com https://dap.digitalgov.gov https://player.vzaar.com https://cdnjs.cloudflare.com https://code.jquery.com https://use.fortawesome.com https://ajax.googleapis.com https://maxcdn.bootstrapcdn.com https://siteimproveanalytics.com https://*.google-analytics.com https://www.googletagmanager.com https://maps.googleapis.com https://*.kxcdn.com https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://*.googleapis.com https://use.fortawesome.com https://cdn.printfriendly.com https://tagmanager.google.com https://use.fontawesome.com https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; style-src-elem 'self' 'unsafe-inline' https://translate.googleapis.com https://stackpath.bootstrapcdn.com https://tagmanager.google.com https://cdn.printfriendly.com https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com https://use.fortawesome.com https://fonts.googleapis.com; font-src 'self' data: https://stackpath.bootstrapcdn.com https://fonts.googleapis.com https://use.typekit.net https://maxcdn.bootstrapcdn.com https://fonts.gstatic.com; frame-src 'self' https://*.dacast.com https://whatfix.com https://*.eclkc.info https://*.cdc.gov https://*.siteimprove.com https://headstart.maps.arcgis.com https://www.youtube.com https://docs.google.com https://drive.google.com https://ncecdtl.wufoo.com  https://*.printfriendly.com https://cdn.embedly.com https://data.hrsa.gov https://player.vimeo.com https://vimeo.com https://maps.google.com https://view.vzaar.com https://app.smartsheet.com https://www.google.com https://umassamherst.co1.qualtrics.com; frame-ancestors 'self' https://*.lingotek.com https://umassamherst.co1.qualtrics.com
+Content-Encoding: gzip
+Date: Fri, 09 Jun 2023 17:08:00 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: max-age=600, public
+Etag: W/"1686292795"
+Vary: Accept-Encoding,Cookie
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: LAX50-P5
+X-Amz-Cf-Id: jNoi16DBhbAvJIEGZiQCjrJW0RyqZFLBzbiieSX_RLRFLPzH-H0N5Q==
+Age: 242

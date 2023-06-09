@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon_nih.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Page not found | National Institutes of Health | Division of Loan Repayment</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/ajax-progress.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/autocomplete-loading.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tabledrag.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
+<link rel="stylesheet" media="all" href="/themes/radix/assets/css/radix.style.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/themes/radix_lrp/assets/css/radix_lrp.style.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/themes/radix_lrp/assets/css/radix_lrp.style_custom.css?ru1c2u" />
+
+
+    <!-- GTM -->
+    <!-- ADDED ON 05/01/2023 -->
+    <!-- All services and snippets (AKA tags) have been removed from this file -->
+    <!-- They are handled in the ralated container in Google Tag Manger -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KMZ2M8V');</script>
+    <!-- End Google Tag Manager -->
+
+    
+  </head>
+  <body>
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="page">
+
+      
+  <div class="block block--basic block--uswdstopbanner">
+
+  
+    
+
+      
+            <div class="basic__body"><!-- [BEGIN] USWDS BLOCK -->
+<!-- This block emulates the USWDS Design guidelines for the banner (https://designsystem.digital.gov/components/banner/) without importing the whole framework -->
+<!-- Optimized for Bootstrap 4 -->
+<style>
+	#us-banner {
+		background: #f0f0f0;
+	/*	font: 400 .9rem/1.2 'Public Sans';*/
+	}
+
+	#us-banner .fas {
+		font-size: 0.7rem;
+	}
+
+	#us-banner [aria-expanded="true"]+i:before {
+		content: "\f077";
+	}
+
+	#us-banner #collapseUsaBanner>div>div {
+		font-size: .94rem;
+		line-height: 1.6;
+	}
+</style>
+
+<section id="us-banner" class="px-3 px-lg-5 py-1" aria-label="Official government website">
+    <div class="d-flex justify-content-between">
+		<div>
+			<img src="/themes/radix_lrp/img/us_flag_small.png" class="mr-2" alt="US Flag Icon" width="16" height="11">
+			An official website of the United States government
+			<a class="btn-link link-primary text-decoration-underline ml-2 collapsed" data-toggle="collapse"
+				href="#collapseUsaBanner" data-label="Expand/Collapse USWDS Website Header" role="button"
+				aria-expanded="false" aria-controls="collapseUsaBanner">
+				Here's how you know
+			</a>
+			<i class="ml-1 fas fa-chevron-down"></i>
+		</div>
+		<div>
+			<a href="https://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a> |
+			<a href="https://www.nih.gov/" target="_blank">National Institutes of Health</a> | 
+			<a href="https://grants.nih.gov/" target="_blank"><img src="/themes/radix_lrp/img/nihfavicon.png" class="me-2" alt="US Flag Icon" width="22" height="auto"> NIH Grants and Funding</a>
+		</div>
+	</div>
+
+    <div class="collapse" id="collapseUsaBanner">
+		<div class="row py-5">
+			<div class="col-12 col-md-4 d-flex align-items-start">
+				<img class="mr-3" src="/themes/radix_lrp/img/icon-dot-gov.svg" role="img" alt=".GOV Icon"
+					aria-hidden="true" style="width: 2.5rem;">
+				<div>
+					<strong> Official websites use .gov </strong><br>
+					A <strong>.gov</strong> website belongs to an official government<br>
+					organization in the United States.
+				</div>
+			</div>
+			<div class="col-12 col-md-4 mt-3 mt-md-0 col-4 d-flex align-items-start">
+				<img class="mr-3" src="/themes/radix_lrp/img/icon-https.svg" role="img" alt="HTTPS Icon"
+					aria-hidden="true" style="width: 2.5rem;">
+				<div>
+					<strong> Secure .gov websites use HTTPS </strong><br>
+					A <strong>lock</strong> (
+					<span class="icon-lock">
+						<svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 52 64" role="img"
+							aria-labelledby="banner-lock-title-default banner-lock-description-default"
+							focusable="false">
+							<title id="banner-lock-title-default">A locked padlock</title>
+							<desc id="banner-lock-description-default">A locked padlock</desc>
+							<path fill="#000000" fill-rule="evenodd"
+								d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z">
+							</path>
+						</svg></span>
+					) or <strong>https://</strong> means you've safely connected to the<br>
+					.gov website. Share sensitive information only on official,<br>
+					secure websites.
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- [END] USWDS BLOCK --></div>
+      
+  
+  </div>
+
+
+
+    <header class="randomHeader">
+                  <div class="container d-none d-lg-block">
+            <div class="row">
+              <div id="tippyTop" class="col-12 d-flex">
+                  
+  <div class="block block--basic block--lrpglobaltippytopheader">
+
+  
+    
+
+      
+            <div class="basic__body"><div class="d-flex justify-content-between align-center">
+    <a href="http://www.hhs.gov/"><img alt="" data-entity-type="" data-entity-uuid="" src="/sites/default/files/uploaded/images/dep-of-health-icon.png" />U.S. Department of Health &amp; Human Services</a>
+    <a href="http://www.nih.gov/" class="ml-4 mr-auto"><img alt="" data-entity-type="" data-entity-uuid="" src="/sites/default/files/uploaded/images/nih-icon-small.png" /> National Institutes of Health</a>
+    <a href="/faqs" class="mr-4">FAQs</a>
+    <a href="/az-index">A-Z Index</a>
+</div></div>
+      
+  
+  </div>
+
+  <div class="block block--basic block--customsearch">
+
+  
+    
+
+      
+            <div class="basic__body"><div class="search-block-form block block--searchform" data-drupal-selector="search-block-form" role="search">
+    <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="form-inline">
+        <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+            <input title="Enter the terms you wish to search for." type="search" id="edit-keys" name="keys" value="" size="20" maxlength="128" placeholder="Search" class="form-search form-control">
+        </div>
+        
+        <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+            <input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit btn btn-primary">
+        </div>
+    </form>
+</div></div>
+      
+  
+  </div>
+
+
+              </div>
+            </div>
+          </div>
+        
+        
+
+
+<nav class="navbar navbar-expand-lg justify-content-between navbar-light  p-0">
+      <div class="container">
+  
+                              
+  <div class="block block--sitebranding">
+
+  
+    
+
+    
+  <a href="/" class="navbar-brand d-flex align-items-center " aria-label="">
+            <img src="/sites/default/files/uploaded/images/nih-lrp-logo.png" width="30" height="auto" alt="National Institutes of Health | Division of Loan Repayment logo" class="mr-2" />
+
+        
+  </a>
+
+
+  </div>
+
+
+                      
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse">
+                          
+                                
+  <div class="block block--radix-lrp-main-menu">
+
+  
+    
+
+      
+  
+
+
+  <ul class="nav navbar-nav">
+                                          <li class="nav-item  dropdown">
+                      <a href="/eligibility-programs" class="nav-link dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/17">Eligibility &amp; Programs</a>
+                          <div class="dropdown-menu">
+              <a href="/eligibility-programs" class="dropdown-item" data-drupal-link-system-path="node/17">Overview</a>
+              <a href="/eligibility-programs#eligibility" class="dropdown-item" data-drupal-link-system-path="node/17">Eligibility Requirements</a>
+              <a href="/eligibility-programs#programs" class="dropdown-item" data-drupal-link-system-path="node/17">Extramural Program</a>
+              <a href="/eligibility-programs#programs" class="dropdown-item" data-drupal-link-system-path="node/17">Intramural Program</a>
+              <a href="/eligibility-programs#lrpBenefits" class="dropdown-item" data-drupal-link-system-path="node/17">LRP Benefits</a>
+              <a href="#calculatorModal" class="dropdown-item">Repayment Calculator</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  dropdown">
+                      <a href="/data-reports" class="nav-link dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/20">Data &amp; Reports</a>
+                          <div class="dropdown-menu">
+              <a href="/data-reports#DataReportsDataBooksTile" class="dropdown-item" data-drupal-link-system-path="node/20">Program Data</a>
+              <a href="/data-reports#HistoricalDataBooks" class="dropdown-item" data-drupal-link-system-path="node/20">Previously Published Program Data</a>
+              <a href="/data-reports#DataReportsFindingsandAnalysesTile" class="dropdown-item" data-drupal-link-system-path="node/20">Trends and Evaluations</a>
+              <a href="http://report.nih.gov/" class="dropdown-item">NIH RePORT</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  dropdown">
+                      <a href="/contact-engage" class="nav-link dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/65">Contact &amp; Engage</a>
+                          <div class="dropdown-menu">
+              <a href="/contact-engage" class="dropdown-item" data-drupal-link-system-path="node/65">LRP Information Center</a>
+              <a href="/contact-engage#ContactEngageContactListsTile" class="dropdown-item" data-drupal-link-system-path="node/65">NIH Institutes and Centers</a>
+              <a href="/contact-engage#ContactEngageImageCollage" class="dropdown-item" data-drupal-link-system-path="node/65">Engage</a>
+              <a href="/contact-engage#contactengage" class="dropdown-item" data-drupal-link-system-path="node/65">Connect</a>
+              <a href="/blog" class="dropdown-item" data-drupal-link-system-path="blog">LRP Director&#039;s Blog</a>
+              <a href="/conferences" class="dropdown-item" data-drupal-link-system-path="node/22">Upcoming Conferences</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  dropdown">
+                      <a href="/about" class="nav-link dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/23">About DLR</a>
+                          <div class="dropdown-menu">
+              <a href="/about" class="dropdown-item" data-drupal-link-system-path="node/23">Mission Statement</a>
+              <a href="/about#vision" class="dropdown-item" data-drupal-link-system-path="node/23">Vision Statement</a>
+              <a href="/about#staff-directory" class="dropdown-item" data-drupal-link-system-path="node/23">Staff Directory</a>
+              <a href="/privacy-act-notice" class="dropdown-item" data-drupal-link-system-path="node/24">DLR Privacy Notice</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  ">
+                      <a href="/apply" class="nav-link" data-drupal-link-system-path="node/18">Apply</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/conferences" class="nav-link" data-drupal-link-system-path="node/22">Upcoming Conferences</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/award" class="nav-link" data-drupal-link-system-path="node/32">Award</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/renew" class="nav-link" data-drupal-link-system-path="node/26">Renew</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/research-supervisors-mentors" class="nav-link" data-drupal-link-system-path="node/51">Research Supervisors / Mentors</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/referees-recommenders" class="nav-link" data-drupal-link-system-path="node/52">Referees/Recommenders</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/institutional-business-officials" class="nav-link" data-drupal-link-system-path="node/27">Institutional Business Officials</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/nih-employees" class="nav-link" data-drupal-link-system-path="node/53">For NIH Employees</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/ambassador-program" class="nav-link" data-drupal-link-system-path="node/56">LRP Ambassador Program</a>
+                  </li>
+            </ul>
+
+
+  
+  </div>
+
+
+                        </div>
+
+      </div>
+  </nav>
+
+        <div class="container p-0 wrapper">
+            
+  <div class="block block--basic block--mainnavigationsecondary">
+
+  
+    
+
+      
+            <div class="basic__body"><nav id="main-second" class="navbar navbar-expand-lg bg-fifth p-0 d-none d-lg-flex" style="background-color: #226aba !important;">
+  <ul class="navbar-nav m-0">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/apply" title="">Apply</a>
+      <div class="dropdown-menu d-flex">
+        <div class="col py-4 pl-4 pr-0">
+          <ul class="squares">
+            <li>Check Eligibility for a <a href="/apply" title="">New Award</a></li>
+            <li>Find a Program for a <a href="/apply#programs" title="">New Award</a></li>
+            <li><a href="/oas-welcome" title="Registration">Register to Start an Application</a></li>
+          </ul>
+          <br />
+          <p>Already Started an Application?</p>
+          <a class="btn btn-fourth" href="/oas-welcome" title="">Login Here</a>
+        </div>
+        <div class="col p-4">
+          <div class="p-3 cBox bg-light shadow-none">
+            <h4>LRP Resources</h4>
+            <ul class="squares">
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-DrowningDebt-final.pdf">LRP Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-Updated-Infographic.pdf">Applying to the LRP is as easy as 1...2...3!</a>
+              </li>
+              <li class="d-none">
+                <a target="_blank" href="#">LRP Helps Cut Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/Extramual-LRP-FAQ.pdf">Extramural LRP FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/award" title="">Award</a>
+      <div class="dropdown-menu d-flex">
+        <div class="col py-4 pl-4 pr-0">
+          <ul class="squares">
+            <li>
+              <a href="/award#AwardeesPaymentTile" title="">Payment &amp; Distribution</a>
+            </li>
+            <li>
+              <a href="/award#AwardeesLoanRepaymentTile" title="">Loan Repayment Process</a>
+            </li>
+            <li>
+              <a href="/award#AwardResearchTile" title="">Research Service Changes</a>
+            </li>
+            <li>
+              <a href="/award#AwardeesLoanChangesTile" title="">Loan Changes</a>
+            </li>
+            <li>
+              <a href="/award#AwardeesTaxesTile" title="">Taxes</a>
+            </li>
+            <li>
+              <a href="/award#AwardeesRenewingTile" title="">Renew an LRP Award</a>
+            </li>
+          </ul>
+          <br />
+          <a class="btn btn-fourth" href="https://public.era.nih.gov/commonsplus/" title="Awardee Portal">Participant Portal Login</a>
+        </div>
+        <div class="col py-4 pl-0 pr-4">
+          <div data-target="#calculatorModal" data-toggle="modal" class="cBox calc fet bg-sixth h-lighten p-4 mb-3">
+            <h6 class="text-white">Repayment Calculator</h6>
+            <p class="text-dark">Use the repayment calculator to get a renewal award estimate</p>
+            <a data-target="#calculatorModal" data-toggle="modal" href="#" title="Repayment Calculator" class="btn btn-third px-4 mr-auto">
+              CALCULATE
+            </a>
+          </div>
+
+          <br />
+          <div class="p-3 cBox bg-light shadow-none">
+            <h4>LRP Resources</h4>
+            <ul class="squares">
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-DrowningDebt-final.pdf">LRP Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-Updated-Infographic.pdf">Applying to the LRP is as easy as 1...2...3!</a>
+              </li>
+              <li class="d-none">
+                <a target="_blank" href="#">LRP Helps Cut Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/Extramual-LRP-FAQ.pdf">Extramural LRP FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/renew" title="">Renew</a>
+
+      <div class="dropdown-menu d-flex">
+        <div class="col py-4 pl-4 pr-0">
+          <ul class="squares">
+            <li>Check Eligibility for a <a href="/renew" title="">Renewal</a></li>
+            <li>Find a Program for a <a href="/renew#programs" title="">Renewal</a></li>
+            <li>
+              <a href="/oas-welcome">Register to Start an Application</a>
+            </li>
+          </ul>
+          <br />
+          <p>Already Started an Application?</p>
+          <a class="btn btn-fourth" href="/oas-welcome" title="">Login Here</a>
+        </div>
+        <div class="col p-4">
+          <div class="p-3 cBox bg-light shadow-none">
+            <h4>LRP Resources</h4>
+            <ul class="squares">
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-DrowningDebt-final.pdf">LRP Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-Updated-Infographic.pdf">Applying to the LRP is as easy as 1...2...3!</a>
+              </li>
+              <li class="d-none">
+                <a target="_blank" href="">LRP Helps Cut Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/Extramual-LRP-FAQ.pdf">Extramural LRP FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/research-supervisors-mentors" title="">Research Supervisors/Mentors</a>
+      <div class="dropdown-menu d-flex">
+        <div class="col py-4 pl-4 pr-0">
+          <ul class="squares">
+            <li>
+              <a href="/research-supervisors-mentors" title="">Who is a Research Supervisor</a>
+            </li>
+            <li>
+              <a href="https://public.era.nih.gov/commonsplus/" title="">Extramural Research/Service Verification</a>
+            </li>
+            <li>
+              <a href="https://public.era.nih.gov/commonsplus/" title="">Intramural Research/Service Verification</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col p-4">
+          <ul class="squares">
+            <li>
+              <a href="/research-supervisors-mentors#mentors">Who is a Mentor</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://public.era.nih.gov/commonsplus/public/lrpreference/referenceLetter.era?mode=mentor" title="">Submit Primary Mentor Reference Letter</a>
+            </li>
+          </ul>
+          <br />
+          <a class="btn btn-fourth" href="https://public.era.nih.gov/commonsplus/public/lrpreference/referenceLetter.era?mode=mentor" title="">Mentor's Portal</a>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/referees-recommenders" title="">Referees / Recommenders</a>
+
+      <div class="dropdown-menu d-flex" style="min-width: 400px;">
+        <div class="col p-4">
+          <ul class="squares">
+            <li>
+              <a href="/referees-recommenders" title="">Who is a Referee?</a>
+            </li>
+            <li>
+              <a href="/referees-recommenders#ref" title="">Responsibilities of a Referee</a>
+            </li>
+          </ul>
+          <br />
+          <a target="_blank" class="btn btn-fourth" href="https://public.era.nih.gov/commonsplus/public/lrpreference/referenceLetter.era?mode=referee" title="">Reference Letter Submission</a>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/institutional-business-officials" title="">Institutional Business Officials</a>
+
+      <div class="dropdown-menu d-flex" style="min-width: 400px;">
+        <div class="col p-4">
+          <ul class="squares">
+            <li>
+              <a href="/institutional-business-officials" title="">Who is an Institutional Business Official?</a>
+            </li>
+            <li>
+              <a href="/institutional-business-officials#ibo" title="">Responsibilities of an IBO</a>
+            </li>
+            <li>
+              <a href="https://grants.nih.gov/grants/ElectronicReceipt/files/registration_handout.pdf" title="">Obtain a Commons ID</a>
+            </li>
+          </ul>
+          <br />
+          <a class="btn btn-fourth" href="https://public.era.nih.gov/commonsplus/" title="IBO Login">Commons Login</a>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/nih-employees" title="">For NIH Employees</a>
+
+      <div class="dropdown-menu d-flex">
+        <div class="col p-4">
+          <ul class="squares">
+            <li>
+              <a href="/nih-employees" title="about Intramural LRPs">Intramural Loan Repayment Programs</a>
+            </li>
+            <li>
+              <a href="/nih-employees#NIHEmployeesStudentLRPTile" title="about NIH Student Program">NIH Student Loan Repayment Program</a>
+            </li>
+            <li>
+              <a href="/nih-employees#NIHEmployeesFundingOpportunitiesTile" title="list of useful links">Funding Opportunities and Other Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/ambassador-program" title="">LRP Ambassador Program</a>
+
+      <div class="dropdown-menu d-flex">
+        <div class="col p-4">
+          <ul class="squares">
+            <li>
+              <a href="/sign-become-lrp-ambassador" title="">Become an LRP Ambassador</a>
+            </li>
+            <li>
+              <a href="/ambassador-resources" title="">Resources for Ambassadors</a>
+            </li>
+            <li>
+              <a href="/ambassador-directory" title="">Find an Ambassador</a>
+            </li>
+          </ul>
+          <br />
+          <a class="btn btn-fourth" href="/ambassador-resources">Ambassador's Login</a>
+        </div>
+        <div class="col p-4">
+          <img alt="Ambassador Badge" class="w-100" src="/sites/default/files/uploaded/images/ambassador-badge.png" />
+        </div>
+      </div>
+    </li>
+  </ul>
+</nav></div>
+      
+  
+  </div>
+
+
+
+          <div class="titleMeta d-flex align-items-center ml-3 ml-xl-2 mt-4 mt-lg-5">
+          
+            <i class=""></i>
+            <div>
+                            <h1>Page not found </h1>
+              <h2></h2>
+            </div>
+        
+          </div>
+        </div>
+
+    </header>
+
+
+            <!-- [AVK] Following strcture can be found in layouts files -->
+          <div data-drupal-messages-fallback class="hidden"></div>
+  <div class="block block--basic block--accessibilityblock">
+
+  
+    
+
+      
+            <div class="basic__body"><div class="bg-light border rounded p-2" style="position: fixed; top: 50%; left: 0; transform: translateY(-50%); z-index: 9999; margin-left: -3px">
+    <div id="accessibility-block" class="d-flex flex-column">
+        <a id="decrease-text" class="mb-2 p-2 bg-opaque rounded noU text-dark" title="Decrease Text Size" href="#">A<sup>–</sup><span class="sr-only">Decrease text size</span></a>
+        <a id="increase-text" class="mb-2 p-2 bg-opaque rounded noU text-dark" title="Increase Text Size" href="#">A<sup>+</sup><span class="sr-only">Increase text size</span></a>
+        <a id="print-page" class="rounded p-2 bg-opaque" href="javascript:window.print()" title="Print"><i class="fas fa-print text-dark"></i><span class="sr-only">Print this Page</span></a>
+    </div>
+</div>
+</div>
+      
+  
+  </div>
+
+  <div class="block block--radix-lrp-content">
+
+  
+    
+
+      The requested page could not be found.
+  
+  </div>
+
+
+      
+
+          <footer class="page__footer">
+        <div class="container-fluid bg-opaque">
+          <div class="container px-0 py-5">
+              
+  <div class="block block--basic block--footer">
+
+  
+    
+
+      
+            <div class="basic__body"><div class="container">
+    <div class="row">
+        <div class="col-3 px-4">
+            <img src="/sites/default/files/uploaded/images/LRP_logo_color_temp.JPG" class="w-100 mb-3" /><br>
+            National Institutes of Health<br>
+            6700B Rockledge Drive,<br>
+            Suite 2300<br>
+            Bethesda, MD 20892
+            
+            <h4 class="mt-3">Powered By</h4>
+            <ul class="pl-0">
+                <li><a href="https://www.nih.gov/" target="_blank">National Institutes of Health</a></li>
+                <li><a href="https://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a></li>
+                <li><a href="https://www.usa.gov/" target="_blank">USA.gov - Government made easy</a></li>
+            </ul>
+        </div>
+        <div class="col-3 px-4">
+            <h4 class="mt-3">Site Map</h4>
+            <ul class="pl-0">
+                <li><a href="/eligibility-programs">Eligibility &amp; Programs</a></li>
+                <li><a href="/data-reports">Data &amp; Reports</a></li>
+                <li><a href="/contact-engage">Contact &amp; Engage</a></li>
+                <li><a href="/about">About DLR</a></li>
+                <li><a href="https://web.archive.org/web/*/www.lrp.nih.gov" target="_blank">Older Versions of This Page</a></li>
+            </ul>
+        </div>
+        <div class="col-3 px-4">
+            <h4 class="mt-3">Resources</h4>
+            <ul class="pl-0">
+                <li><a href="/faqs">FAQs</a></li>
+                <li><a href="/az-index">A-Z Index</a></li>
+                <li><a href="/nih-employees">For NIH Employees</a></li>
+                <li><a href="http://www.nih.gov/about/privacy.htm" target="_blank">NIH Privacy Notice</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a href="http://www.nih.gov/icd/od/foia/index.htm">FOIA</a></li>
+                <li><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" target="_blank">HHS Vulnerability Disclosure</a></li>
+                <li><a href="/disclaimer">Disclaimer</a></li>
+            </ul>
+        </div>
+        <div class="col-3 px-4">
+            <h4 class="mt-3">Connect with us</h4>
+            <div class="d-flex aling-items-center text-primary h3">
+                <a href="tel:866-849-4047"><i class="fas fa-phone text-primary"></i></a>
+                <a href="mailto:lrp@nih.gov"><i class="fas fa-envelope ml-3 text-primary"></i></a>
+                <a href="https://twitter.com/NIH_LRP" target="_blank"><i class="fab fa-twitter ml-3 text-primary"></i></a>
+                <a href="https://www.facebook.com/nihlrp" target="_blank"><i class="fab fa-facebook ml-3 text-primary"></i></a>
+            </div>
+            <h4 class="mt-5">Stay in the loop</h4>
+            <p>Subscribe to our mailing list to be updated of deadlines and important information.</p>
+            <a href="https://public.govdelivery.com/accounts/USNIHOER/signup/31415" class="btn btn-secondary btn-lg" target="_blank">SUBSCRIBE</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="d-flex justify-content-end align-items-center mt-5">
+        Download Reader <span class="sr-only">Readers for Documents on the Page</span>
+        <a href="https://get.adobe.com/reader/" target="_blank">
+            <i class="fab fa-adobe text-danger ml-3" style="font-size: 1.5em"></i>
+        </a>
+    </div>
+</div></div>
+      
+  
+  </div>
+
+  <div class="block block--bootstrap-modals block--bootstrapmodals">
+
+  
+    
+
+      
+            <div class="bootstrap-modals__body"><!-- Calculator Modal -->
+<div aria-hidden="true" aria-labelledby="calculatorModalLabel" class="modal fade in" id="calculatorModal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="calculatorModalLabel">LRP Repayment Calculator</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12 px-3">
+            <div class="calculator-well">
+              <p>
+                The repayment amounts shown here are non-binding estimates based on the information entered. If an applicant receives an LRP award,&nbsp;the total award&nbsp;will be calculated by NIH
+                and may be different than the values shown in this calculator.
+              </p>
+            </div>
+            <form class="ng-pristine ng-valid">
+              <div class="calculator-well calculator-buttons">
+                <fieldset>
+                  <legend class="mt-3 mb-2"><span class="coin1">1</span>Award Type <small>(choose one)</small></legend>
+                  <div class="d-flex align-items-start justify-content-between">
+                    <div class="col">
+                      <label for="type-new">New <input id="type-new" name="type" type="radio" value="new" /> <span class="coin2">✔</span> </label>
+                    </div>
+                    <div class="col">
+                      <label for="type-renew">Renewal <input id="type-renew" name="type" type="radio" value="renew" /> <span class="coin2">✔</span> </label>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="calculator-well calculator-buttons">
+                <fieldset class="mt-3 mb-2">
+                  <legend><span class="coin1">2</span>Programs <small>(choose one)</small></legend>
+                  <div class="d-flex align-items-start justify-content-between">
+                    <div class="col">
+                      <strong class="program-type"><em>Extramural</em></strong>
+                      <label for="extramural-clinical">
+                        Clinical
+                        <input id="extramural-clinical" name="program" type="radio" value="extramural-clinical" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="extramural-pediatric">
+                        Pediatric
+                        <input id="extramural-pediatric" name="program" type="radio" value="extramural-pediatric" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="extramural-disparities">
+                        Health Disparities
+                        <input id="extramural-disparities" name="program" type="radio" value="extramural-disparities" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="extramural-disadvantaged">
+                        Clinical Disadvantaged
+                        <input id="extramural-disadvantaged" name="program" type="radio" value="extramural-disadvantaged" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="extramural-contraception">
+                        Contraception &amp; Infertility
+                        <input id="extramural-contraception" name="program" type="radio" value="extramural-contraception" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="extramural-reach">
+                        REACH
+                        <input id="extramural-reach" name="program" type="radio" value="extramural-reach" />
+                        <span class="coin2">✔</span>
+                      </label>
+                    </div>
+                    <div class="col">
+                      <strong class="program-type"><em>Intramural</em></strong>
+                      <label for="intramural-aids">
+                        AIDS
+                        <input id="intramural-aids" name="program" type="radio" value="intramural-aids" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="intramural-clinical">
+                        Clinical
+                        <input id="intramural-clinical" name="program" type="radio" value="intramural-clinical" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="intramural-general">
+                        General
+                        <input id="intramural-general" name="program" type="radio" value="intramural-general" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="intramural-acgme">
+                        General ACGME
+                        <input id="intramural-acgme" name="program" type="radio" value="intramural-acgme" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <p class="warnings" id="acgme-warning">&nbsp;</p>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="calculator-well short-label">
+                <legend class="mt-3 mb-2"><span class="coin1">3</span>Enter&nbsp;Debt and Salary&nbsp;Information</legend>
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <label class="col" for="debt">Eligible Educational Debt Amount:</label>
+                  <div class="col d-flex align-items-center dollar"><input id="debt" type="number" step="0.01" /> <span>◀ Enter Amount</span></div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <label class="col" for="income">Annual Base Salary:</label>
+                  <div class="col d-flex align-items-center dollar"><input id="income" type="number" step="0.01" /> <span>◀ Enter Amount</span></div>
+                </div>
+                <div id="calculator-warning-container" class="col">
+                  <p id="calculator-warning">&nbsp;</p>
+                </div>
+              </div>
+            </form>
+            <div class="calculator-well calculator-well-buttons text-right">
+              <button class="btn" id="calculate" value="Calculate Quaterly payments">Calculate</button>
+              <button class="btn" id="calculator-reset" value="Reset">Reset</button>
+              <button class="btn" data-dismiss="modal" value="Close the Calculator">Close</button>
+            </div>
+            <div class="results">
+              <div class="d-flex align-items-center justify-content-between"><strong>Total Repayment for Award:</strong> <span class="amount">&nbsp;</span></div>
+              <table>
+                <caption class="year1">
+                  <em>Quarterly Payment Breakdown</em>
+                </caption>
+                <thead>
+                  <tr>
+                    <th>Year 1</th>
+                    <th>Year 1 Payments</th>
+                    <th>Year 2</th>
+                    <th>Year 2 Payments</th>
+                    <th>Year 3</th>
+                    <th>Year 3 Payments</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="year1">Quarter 1</td>
+                    <td class="year1-payment">&nbsp;</td>
+                    <td class="year2">Quarter 5</td>
+                    <td class="year2-payment">&nbsp;</td>
+                    <td class="year3">Quarter 9</td>
+                    <td class="year3-payment">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="year1">Quarter 2</td>
+                    <td class="year1-payment">&nbsp;</td>
+                    <td class="year2">Quarter 6</td>
+                    <td class="year2-payment">&nbsp;</td>
+                    <td class="year3">Quarter 10</td>
+                    <td class="year3-payment">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="year1">Quarter 3</td>
+                    <td class="year1-payment">&nbsp;</td>
+                    <td class="year2">Quarter 7</td>
+                    <td class="year2-payment">&nbsp;</td>
+                    <td class="year3">Quarter 11</td>
+                    <td class="year3-payment">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="year1">Quarter 4</td>
+                    <td class="year1-payment">&nbsp;</td>
+                    <td class="year2">Quarter 8</td>
+                    <td class="year2-payment">&nbsp;</td>
+                    <td class="year3">Quarter 12</td>
+                    <td class="year3-payment">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="warnings" id="calculator-notes"><span class="sr-only">Results notes</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+      
+            <div class="bootstrap-modals__field-body-2"><!-- Loan Priority Modal -->
+<div aria-hidden="true" aria-labelledby="priorityModalLabel" class="modal fade in" id="priorityModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="priorityModalLabel">Loan Priority Order</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body p-4">
+        <p>When awardees have outstanding loans from multiple sources, NIH prioritizes which loans are repaid first based on the loan type. NIH will repay loans in the following order:</p>
+        <a class="btn btn-outline-primary expand-toggle my-3" href="#" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false">Expand the list</a>
+
+        <div class="collapseBoxes pl-3 mb-5">
+          <div>
+            <a class="collapsed" data-toggle="collapse" href="#loanInfo1" role="button" aria-expanded="false" aria-controls="loanInfo1">
+              Loans guaranteed by the U.S. Department of Health and Human Services:
+            </a>
+            <div id="loanInfo1" class="collapse multi-collapse">
+              <div class="card card-body border-0 p-0 pt-3">
+                <ul class="squares">
+                  <li>Health Education Assistance Loans (HEAL)</li>
+                  <li>Health Professions Student Loans (HPSL)</li>
+                  <li>Loans for Disadvantaged Students (LDS)</li>
+                  <li>Nursing Student Loans (NSL)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <a class="collapsed" data-toggle="collapse" href="#loanInfo2" role="button" aria-expanded="false" aria-controls="loanInfo2">
+              Loans guaranteed by the U.S. Department of Education:
+            </a>
+            <div id="loanInfo2" class="collapse multi-collapse">
+              <div class="card card-body border-0 p-0 pt-3">
+                <ul class="squares">
+                  <li>
+                    Direct Loans
+                    <ul class="squares">
+                      <li>Stafford Loans</li>
+                      <li>Consolidation Loans</li>
+                      <li>Perkins Loans</li>
+                      <li>Graduate PLUS Loans (on or after July 1, 2006)</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Federal Family Education Loans (FFEL)
+                    <ul class="squares">
+                      <li>Stafford Loans</li>
+                      <li>Consolidation Loans</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <ul class="squares">
+            <li>Loans made or guaranteed by a state, the District of Columbia, the Commonwealth of Puerto Rico, or a territory or possession of the United States</li>
+            <li>Loans made by academic institutions</li>
+          </ul>
+
+          <div>
+            <a class="collapsed" data-toggle="collapse" href="#loanInfo3" role="button" aria-expanded="false" aria-controls="loanInfo3">
+              Loan Eligibility Private (Alternative) Educational Loans:
+            </a>
+            <div id="loanInfo3" class="collapse multi-collapse">
+              <div class="card card-body border-0 p-0 pt-3">
+                <ul class="squares">
+                  <li>MEDLOANS</li>
+                  <li>Private (non-guaranteed) Consolidation Loans</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p><strong>Note:</strong> Parent PLUS loans do not qualify for repayment.</p>
+      </div>
+
+      <div class="modal-footer border-0 bg-fifth"><button class="btn btn-outline-light" data-dismiss="modal" type="button">Close</button></div>
+    </div>
+  </div>
+</div></div>
+      
+            <div class="bootstrap-modals__field-body-3"><!-- Consolidating Loans modal -->
+<div aria-hidden="true" aria-labelledby="consolidationModalLabel" class="modal fade in" id="consolidationModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog" style="max-width: 840px;">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="consolidationModalLabel">Consolidating Loans after the Start of an LRP Award</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body p-4">
+        <p>
+          If an applicant or awardee wishes to consolidate loans, the applicant/awardee should inform DLR as soon as possible by emailing <a href="mailto:lrp@nih.gov">lrp@nih.gov</a>. Only loans listed in the LRP portfolio may be included in the consolidation for the loan to remain eligible for loan
+          repayment. This includes ensuring that a consolidation loan does not include loans that are ineligible for the LRP, such as:
+        </p>
+        <ul class="squares">
+          <li>Non-educational loans (e.g., home equity loan);</li>
+          <li>Loans belonging to another individual (e.g., spouse or child); and</li>
+          <li>Loans disbursed after the start date of the first LRP award</li>
+        </ul>
+        <p>DLR must be provided with the following:</p>
+        <ol>
+          <li>Loan Information Form – Complete Section 1 of the Form</li>
+          <li>Consolidation promissory note or disclosure statement</li>
+          <li>Current statement from the new lender, showing the balance or payoff amount of the consolidated loan</li>
+          <li>Final statement from the previous lender(s), showing $0 balances or paid-in-full status</li>
+          <li>
+            NSLDS reports including:
+            <ul class="squares">
+              <li>
+                Aid Summary page<br />
+                Example: <a href="/sites/default/files/uploaded/documents/1009_2_LT_NSLDS-summary_sheet.pdf" target="_blank" title="Aid Summary PDF file">1009_2_LT_NSLDS-summary_sheet.pdf</a>
+              </li>
+              <li>
+                Detail Loan Information pages for all individual loans<br />
+                Example: <a href="/sites/default/files/uploaded/documents/1009_2_LT_NSLDS-detail_sheet.pdf" target="_blank" title="Detail Loan PDF file">1009_2_LT_NSLDS-detail_sheet.pdf</a>
+              </li>
+            </ul>
+          </li>
+        </ol>
+        <p>
+          The Association of American Medical Colleges has a <a href="https://students-residents.aamc.org/financial-aid/article/consolidating-your-federal-student-loans/" title="PDF file" class="exit-link" target="_blank">a loan consolidation primer</a>
+          <a href="#" data-toggle="modal" data-target="#externalLinkModal"><i class="fas fa-external-link-alt"></i></a> that can be helpful in determining whether consolidating loans is appropriate.
+        </p>
+      </div>
+
+      <div class="modal-footer border-0 bg-fifth"><button class="btn btn-outline-light" data-dismiss="modal" type="button">Close</button></div>
+    </div>
+  </div>
+</div></div>
+      
+            <div class="bootstrap-modals__field-body-4"><!-- Application Periods Modal -->
+<div aria-hidden="true" aria-labelledby="applicationPeriodsModalLabel" class="modal fade in" id="applicationPeriodsModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog" style="max-width: 840px">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="applicationPeriodsModalLabel">Application Periods and Documentation Deadlines</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body p-4">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="card appd shadow text-white mb-3">
+              <div class="card-header">
+                <h6 class="card-title mb-0">Extramural New & Renewal Awards</h6>
+              </div>
+              <div class="card-body">
+                <strong class="text-primary">Online Application Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Sep 1, 2022 - Nov 17, 2022</p>
+                <strong class="text-primary">Supporting Documentation Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Sep 1, 2022 - Nov 17, 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card appd shadow text-white mb-3">
+              <div class="card-header">
+                <h6 class="card-title mb-0">Intramural New & Renewal Awards</h6>
+              </div>
+              <div class="card-body">
+                <strong class="text-primary">Online Application Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Jan 3, 2023 - Mar 15, 2023</p>
+                <strong class="text-primary">Supporting Documentation Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Jan 3, 2023 - Mar 15, 2023</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card appd shadow text-white mb-3">
+              <div class="card-header">
+                <h6 class="card-title mb-0">Intramural ACGME New Awards</h6>
+              </div>
+              <div class="card-body">
+                <strong class="text-primary">Online Application Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Jan 3, 2023 - Apr 15, 2023</p>
+                <strong class="text-primary">Supporting Documentation Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Jan 3, 2023 - Apr 15, 2023</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="modal-footer border-0 bg-fifth"><button class="btn btn-outline-light" data-dismiss="modal" type="button">Close</button></div>
+    </div>
+  </div>
+</div></div>
+      
+            <div class="bootstrap-modals__field-body-5"><!-- Ambassador Administration Modal | The body for this modal changes depedning on the action and will be populated dynamically -->
+<div aria-hidden="true" aria-labelledby="ambEditModalLabel" class="modal fade in" id="ambEditModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="ambEditModalLabel">Ambassadors Administration</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body p-4"></div>
+
+      <div class="modal-footer d-flex justify-content-between align-items-center">
+        <div class="loading">
+          <i class="fas fa-spinner" style="display: none;"></i>
+          <span class="text-success" style="display: none;">Saved. Refreshing table...</span>
+          <span class="text-danger" style="display: none;">An error has occurred. Please try again.</span>
+        </div>
+        <div>
+          <button class="btn cancel btn-outline-opaque" data-dismiss="modal" type="button">Cancel</button>
+          <button class="btn save btn-fifth">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Ambassador Administration Modal | The body of this modal is always fixed: Full Edit Form -->
+<form id="ambassadorEditForm">   
+  <div aria-hidden="true" aria-labelledby="ambEditModalLabel" class="modal fade in" id="ambFullEditModal" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content shadow">
+        <div class="modal-header align-items-center border-0 bg-fifth">
+          <h2 class="modal-title" id="ambEditModalLabel">Ambassadors Administration</h2>
+          <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="modal-body p-4">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Full Name</div>
+            </div>
+            <input type="text" class="form-control" data-edit="name" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" required />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Position/Title</div>
+            </div>
+            <input type="text" class="form-control" data-edit="position_title" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Institution</div>
+            </div>
+            <input type="text" class="form-control" data-edit="institution" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" required/>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Degree(s)</div>
+            </div>
+            <input type="text" class="form-control" data-edit="degree_s_" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Tel</div>
+            </div>
+            <input type="tel" class="form-control" data-edit="telephone" pattern="^\+(?:\d|\d{2}|\d{3}) \d{3}-\d{3}-\d{4}$" title="Your phone number format should be in the format +x xxx-xxx-xxxx" required/>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Email</div>
+            </div>
+            <input type="email" class="form-control" data-edit="email" required/>
+          </div>
+          <div class="mb-3">
+            <div class="input-group d-flex align-items-center">
+              <div class="input-group-prepend">
+                <div class="input-group-text">Address</div>
+              </div>
+              <input type="text" class="form-control" data-edit="address" placeholder="Street" style="width: 33%" pattern="^[a-zA-Z0-9 ,.'-\/]+$" title="Allowed characters: , . ' - /" required />
+              <input type="text" class="form-control" data-edit="city" placeholder="City" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" required />
+              <select class="form-control" data-edit="state_province" required><option value="">- Select -</option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="American Samoa">American Samoa</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="Armed Forces (Canada, Europe, Africa, or Middle East)">Armed Forces (Canada, Europe, Africa, or Middle East)</option><option value="Armed Forces Americas">Armed Forces Americas</option><option value="Armed Forces Pacific">Armed Forces Pacific</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Federated States of Micronesia">Federated States of Micronesia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Marshall Islands">Marshall Islands</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Mariana Islands">Northern Mariana Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Palau">Palau</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virgin Islands">Virgin Islands</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option><option value="Alberta">Alberta</option><option value="British Columbia">British Columbia</option><option value="Manitoba">Manitoba</option><option value="New Brunswick">New Brunswick</option><option value="Newfoundland and Labrador">Newfoundland and Labrador</option><option value="Nova Scotia">Nova Scotia</option><option value="Northwest Territories">Northwest Territories</option><option value="Nunavut">Nunavut</option><option value="Ontario">Ontario</option><option value="Prince Edward Island">Prince Edward Island</option><option value="Quebec">Quebec</option><option value="Saskatchewan">Saskatchewan</option><option value="Yukon">Yukon</option></select>
+              <input type="text" class="form-control" data-edit="postal_code" placeholder="Zip" />
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Type of LRP</div>
+            </div>
+            <select class="form-control" data-edit="type_of_lrp_" required><option value="">- Select -</option><option value="Not Applicable">Not Applicable</option><option value="Clinical Research">Clinical Research</option><option value="Pediatric Research">Pediatric Research</option><option value="Health Disparities Research">Health Disparities Research</option><option value="Clinical Research for Individuals from Disadvantaged Backgrounds">Clinical Research for Individuals from Disadvantaged Backgrounds</option><option value="Contraception and Infertility Research">Contraception and Infertility Research</option><option value="Research in Emerging Areas Critical to Human Health">Research in Emerging Areas Critical to Human Health</option></select>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Year(s) Received</div>
+            </div>
+            <input type="text" class="form-control" data-edit="year_s_received_lrp" pattern="^[0-9, -]+$" title="Please insert a range/list of ranges in the format xxxx-xxxx, xxxx-xxxx" />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Research Interest</div>
+            </div>
+            <input type="text" class="form-control" data-edit="primary_research_interest" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" />
+          </div>
+          <div class="d-flex align-items-center">
+            <strong>Application Status: </strong>
+            <select class="form-control ml-3 w-50 mr-auto" data-edit="approve_deny">
+              <option value="">Pending</option>
+              <option value="Approved">Approved</option>
+              <option value="Denied">Denied</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-between align-items-center">
+          <div class="loading">
+            <i class="fas fa-spinner" style="display: none;"></i>
+            <span class="text-success" style="display: none;">Saved. Refreshing table...</span>
+            <span class="text-danger" style="display: none;">An error has occurred. Please try again.</span>
+          </div>
+          <div>
+            <button class="btn cancel btn-outline-opaque" data-dismiss="modal" type="button">Cancel</button>
+            <input type="submit" class="btn btn-fifth" value="Save">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form></div>
+      
+            <div class="bootstrap-modals__field-body-6"><!-- External Link Modal | Must Always be the last modal (put this code in the last Body Input on this page) -->
+<div aria-hidden="true" aria-labelledby="externalLinkModalLabel" class="modal fade in" id="externalLinkModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog mt-5">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="externalLinkModalLabel">External Link Disclaimer</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body p-4">
+        <ul class="squares">
+          <li>This graphic notice (exit link icon) means that you are leaving the NIH Loan Repayment Programs Web site and going to a non-federal Web site.</li>
+          <li>This external Web site provides additional information that is consistent with the intended purpose of the NIH Loan Repayment Programs.</li>
+          <li>The NIH Loan Repayment Programs cannot attest to the accuracy of a non-federal Web site.</li>
+          <li>Linking to a non-federal site does not constitute an endorsement by NIH Loan Repayment Programs or any of its employees of the sponsors or the information and products presented on the site.</li>
+          <li>You will be subject to the destination site's privacy policy when you follow the link.</li>
+        </ul>
+      </div>
+
+      <div class="modal-footer border-0 bg-fifth"><button class="btn btn-outline-light" data-dismiss="modal" type="button">Close</button></div>
+    </div>
+  </div>
+</div>
+</div>
+      
+  
+  </div>
+
+
+          </div>
+        </div>
+      </footer>
+    
+</div>
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"q":"sites\/default\/files\/uploaded\/documents\/1009_2_LT_NSLDS-summary_sheet.pdf"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"1689c06d7084b07716eeef6cdc555334f4e7e04c5a41ecae353ccf55a4fa7b82"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.8"></script>
+<script src="/core/misc/drupal.js?v=9.5.8"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.8"></script>
+<script src="/themes/radix_lrp/assets/js/radix_lrp.script.js?v=9.5.8"></script>
+
+
+  </body>
+</html>

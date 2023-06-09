@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /2217/
+Allow: /7078/
+Allow: /org-1380/
+Allow: /10073/
+Disallow: /
+Crawl-delay: 10

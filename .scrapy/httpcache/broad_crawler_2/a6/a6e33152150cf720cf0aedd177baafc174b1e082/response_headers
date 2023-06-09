@@ -1,0 +1,8 @@
+Content-Length: 247
+Date: Fri, 09 Jun 2023 18:54:29 GMT
+Content-Type: text/html; charset=iso-8859-1
+Set-Cookie: AWSALB=LE2Tk1TOynYAeDoIOJ5fUGLtxbLtZ6F+3qRTX2+MN1RijE6xNppwHF/iW1TGSXHYWXGxcnqJpisj3tNUF0+tx+uWmV1wm2UFxi6VzI3iHM8z668A/2VeEJssP4bd; Expires=Fri, 16 Jun 2023 18:54:29 GMT; Path=/
+Set-Cookie: AWSALBCORS=LE2Tk1TOynYAeDoIOJ5fUGLtxbLtZ6F+3qRTX2+MN1RijE6xNppwHF/iW1TGSXHYWXGxcnqJpisj3tNUF0+tx+uWmV1wm2UFxi6VzI3iHM8z668A/2VeEJssP4bd; Expires=Fri, 16 Jun 2023 18:54:29 GMT; Path=/; SameSite=None
+Server: Apache
+Location: https://www.training.nih.gov/robots.txt
+Vary: X-Forwarded-Proto

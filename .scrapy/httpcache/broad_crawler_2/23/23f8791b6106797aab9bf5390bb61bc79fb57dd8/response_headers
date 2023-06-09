@@ -1,0 +1,21 @@
+Content-Length: 11566
+Content-Type: text/html
+Content-Encoding: gzip
+Etag: "QpFhGBoHuSR8UwzW7F3LJq212AA2IhP4xymGJlIwThw="
+Vary: Accept-Encoding
+Request-Context: appId=cid-v1:b1c5b6ea-7ff0-41d3-9862-84c5e1dc3be7
+X-Datacenter: wus
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Rendering-Stack: Dynamic
+Nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.01,"failure_fraction":1.0}
+Report-To: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://mdec.nelreports.net/api/report?cat=mdocs"}]}
+X-Azure-Ref: 0NV+DZAAAAACnm0+qB/h3TpyNvFvru/grU0pDRURHRTAzMTEANzE2ODkyMGUtOWY1Yi00YTYyLWIxNmUtZDViZTYzY2U2MWU3
+Cache-Control: public, max-age=600
+Expires: Fri, 09 Jun 2023 17:29:49 GMT
+Date: Fri, 09 Jun 2023 17:19:49 GMT
+Akamai-Cache-Status: Miss from child, Miss from parent
+Server-Timing: ak_p; desc="1686331189037_388239300_305528111_5025_8582_22_22_-";dur=1

@@ -1,0 +1,26 @@
+Content-Length: 27782
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Etag: "1686256036"
+Last-Modified: Thu, 08 Jun 2023 20:27:16 GMT
+Link: <https://www.cancer.gov/news-events/nca50/stories>; rel="canonical"
+Server: nginx
+X-Age: 28522
+X-Ah-Environment: 01live
+X-Cache-Hits: 6
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-dbe59316-063a-11ee-8a52-138e1ad73b81
+X-Ua-Compatible: IE=edge
+Expires: Fri, 09 Jun 2023 05:08:25 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Fri, 09 Jun 2023 05:08:25 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+Server-Timing: ak_p; desc="1686287305256_400336282_450726220_9355_4823_19_0_-";dur=1

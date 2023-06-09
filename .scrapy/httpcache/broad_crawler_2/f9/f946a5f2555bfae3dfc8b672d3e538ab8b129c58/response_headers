@@ -1,0 +1,12 @@
+Content-Type: text/html;charset=utf-8
+Server: nginx
+Date: Fri, 09 Jun 2023 16:10:29 GMT
+Expires: Fri, 09 Jun 2023 16:12:29 GMT
+X-Varnish: 54073550 48005757
+Via: 1.1 varnish (Varnish/5.2), 1.1 d753bdff57c5dcd160113c97de38707a.cloudfront.net (CloudFront)
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: LAX50-P2
+X-Amz-Cf-Id: 1tbaJ3BNEPLERF9iMECSaQJxx7MVIrkK3ClOjyZ4nSeERO8bmgsHGg==
+Age: 3693

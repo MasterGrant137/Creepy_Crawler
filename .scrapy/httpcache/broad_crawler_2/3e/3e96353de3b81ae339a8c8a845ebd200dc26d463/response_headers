@@ -1,0 +1,16 @@
+Content-Length: 11402
+Date: Fri, 09 Jun 2023 18:26:02 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: AWSALB=ke0cig8Kh4RwJigJXqvnQErykAZiFCY4OgbCserUj5qOPut6BQi+yHuxHYTIBw1ZsL1yiNefp8hlPvReyrRzYaReUPoMTzNet6aYm1AD8Zsf9pVM53zL2geMRAiD; Expires=Fri, 16 Jun 2023 18:26:01 GMT; Path=/
+Set-Cookie: AWSALBCORS=ke0cig8Kh4RwJigJXqvnQErykAZiFCY4OgbCserUj5qOPut6BQi+yHuxHYTIBw1ZsL1yiNefp8hlPvReyrRzYaReUPoMTzNet6aYm1AD8Zsf9pVM53zL2geMRAiD; Expires=Fri, 16 Jun 2023 18:26:01 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: PHPSESSID=1da78eb15f103f3378becd9e080bea51; path=/; domain=www.training.nih.gov; secure; HttpOnly
+Set-Cookie: symp_cookie_check=1; path=/; domain=www.training.nih.gov; secure; httponly
+Server: Apache
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Vary: Accept-Encoding,X-Forwarded-Proto
+Content-Encoding: gzip

@@ -1,0 +1,12 @@
+Content-Length: 0
+Location: /job/624642300?PostingChannelID=
+Server: Microsoft-IIS/10.0
+Request-Context: appId=cid-v1:21f5e2a5-fb31-426e-a2bd-0c303e8d074b
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.usajobs.gov/ https://*.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://gateway.answerscloud.com https://dap.digitalgov.gov https://*.bing.com https://*.virtualearth.net https://cdn.ampproject.org https://go.usa.gov https://*.foresee.com https://device.4seeresults.com https://survey.answerscloud.com https://survey.foreseeresults.com https://*.fr011.ttecfed.com https://*.azure.com 'nonce-W7uH89Q/i/SdN8vG6o1MMgIWE0VCqocjjDtOZRLaApQ='; form-action 'self' * https://*.usajobs.gov/; object-src 'none'; frame-ancestors 'self'; frame-src 'self' *; img-src 'self' data: https://*.usajobs.gov/ https://*.usajobs.gov https://*.google-analytics.com https://*.googletagmanager.com https://*.analytics.google.com https://*.bing.com https://*.virtualearth.net https://*.foresee.com https://*.fr011.ttecfed.com; connect-src https://*.usajobs.gov/ https://*.bing.com https://*.dev.virtualearth.net https://*.google-analytics.com https://*.googletagmanager.com https://*.analytics.google.com https://*.foresee.com https://device.4seeresults.com https://survey.answerscloud.com https://survey.foreseeresults.com wss://hoover.foresee.com https://*.fr011.ttecfed.com https://dap.digitalgov.gov https://*.intelligencecareers.gov https://*.azure.com; font-src 'self' data: https://*.usajobs.gov/ https://cxsurvey.foresee.com2 https://gateway.foresee.com https://*.fr011.ttecfed.com; report-uri https://data.usajobs.gov/csp-report; upgrade-insecure-requests
+Date: Fri, 09 Jun 2023 05:15:17 GMT
+Set-Cookie: akavpau_usajobs=1686288017~id=d918bac8194b7bf037c1b6bb6448edff; Domain=www.usajobs.gov; Path=/; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload

@@ -1,0 +1,23 @@
+Server: nginx
+Date: Fri, 09 Jun 2023 05:14:55 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=600, public
+X-Drupal-Dynamic-Cache: MISS
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Thu, 08 Jun 2023 08:03:04 GMT
+Etag: "1686211384"
+Vary: Cookie,Accept-Encoding
+X-Generator: Drupal 9 (https://www.drupal.org)
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Drupal-Cache: HIT
+Content-Encoding: gzip
+X-Request-Id: v-926abe92-0684-11ee-9784-431bcd000e88
+X-Ah-Environment: prod
+Age: 0
+Via: varnish
+X-Cache: MISS
+Accept-Ranges: bytes

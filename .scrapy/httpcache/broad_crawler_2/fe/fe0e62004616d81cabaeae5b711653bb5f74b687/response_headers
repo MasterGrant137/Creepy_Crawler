@@ -1,0 +1,7 @@
+Date: Fri, 09 Jun 2023 05:14:55 GMT
+Server: Apache/2.4.6 (Red Hat Enterprise Linux)
+Allow: GET,HEAD,POST,OPTIONS,TRACE
+X-Cnection: close
+Content-Type: text/html; charset=iso-8859-1
+Set-Cookie: BIGipServerProd-Apache-HTTP-Pool=2483145994.3367.0000; expires=Fri, 09-Jun-2023 05:44:55 GMT; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=31536000

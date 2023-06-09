@@ -1,0 +1,9 @@
+Server: nginx
+Date: Fri, 09 Jun 2023 17:28:44 GMT
+Content-Type: text/html; charset=utf-8
+Location: https://blog.flickr.net/en
+X-Rq: bur7 123 242 443
+Content-Encoding: gzip
+Age: 0
+X-Cache: miss
+Strict-Transport-Security: max-age=31536000

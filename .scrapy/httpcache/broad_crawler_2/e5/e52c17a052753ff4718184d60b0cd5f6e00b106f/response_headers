@@ -1,0 +1,20 @@
+Date: Fri, 09 Jun 2023 17:34:14 GMT
+Content-Type: text/html; charset=utf-8
+X-Ua-Compatible: IE=edge
+Content-Language: en-us
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Location: https://hhs.responsibledisclosure.com/hc/en-us
+Cache-Control: max-age=0, public
+X-Zendesk-Processed-Host-Header: hhs.responsibledisclosure.com
+Strict-Transport-Security: max-age=259200;
+X-Zendesk-Origin-Server: help-center-unicorn-f4865b54d-kh67g
+X-Request-Id: 7d4b1fc9f81d2f41-LAX
+X-Runtime: 0.054140
+Protocol: HTTP/1.1 always
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9N2j%2B0FAfuhiS9oRzT8A4LrggQVfvkVPyukKlqPmmTqcPop7eZ5icK7qYZQnj0QCAVWEHqvWGLIOhtzxTgi4btnGSqHS4Q6Q3%2Bf%2FCjYri%2F2kRjQ1zb5HjNrM9k6vhBH2jjmuo6mCJtCSLVPz8aeo"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Set-Cookie: __cfruid=075424c3c37128b0b2c35066c553047eb3cced72-1686332054; path=/; domain=.hhs.responsibledisclosure.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Cf-Ray: 7d4b1fc9f81d2f41-LAX

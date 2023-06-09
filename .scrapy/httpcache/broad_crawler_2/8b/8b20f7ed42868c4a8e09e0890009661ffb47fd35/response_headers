@@ -1,0 +1,14 @@
+Content-Length: 651199
+Content-Type: application/pdf
+Last-Modified: Mon, 21 Jun 2021 17:07:19 GMT
+Etag: "60d0c747-9efbf"
+Content-Security-Policy: frame-ancestors 'self' hhs.gov *.hhs.gov
+X-Content-Type-Options: nosniff
+X-Request-Id: 5a02627ef98faaa10b704021eb8b56bb
+Accept-Ranges: bytes
+Date: Fri, 09 Jun 2023 18:45:44 GMT
+Server-Timing: cdn-cache; desc=REVALIDATE
+Server-Timing: edge; dur=120
+Server-Timing: origin; dur=71
+Server-Timing: ak_p; desc="1686336343961_388836646_229537359_19131_121534_150_66_-";dur=1
+Strict-Transport-Security: max-age=31536000;includeSubDomains;preload

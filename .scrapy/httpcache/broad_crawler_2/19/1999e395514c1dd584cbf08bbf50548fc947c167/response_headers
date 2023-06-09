@@ -1,0 +1,28 @@
+Content-Length: 11565
+Content-Type: text/html; charset=UTF-8
+X-Drupal-Dynamic-Cache: MISS
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Last-Modified: Fri, 09 Jun 2023 16:40:40 GMT
+Etag: "1686328840"
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Content-Security-Policy: frame-ancestors 'self'
+X-Xss-Protection: 1; mode=block
+Access-Control-Allow-Origin: youtube-nocookie.com
+Access-Control-Allow-Origin: youtube.com
+X-Akamai-Transformed: 9 46875 0 pmb=mRUM,2
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: public, private, no-store
+Expires: Fri, 09 Jun 2023 17:43:37 GMT
+Date: Fri, 09 Jun 2023 17:43:37 GMT
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=358
+Server-Timing: origin; dur=0
+Server-Timing: ak_p; desc="1686332616216_399944197_238962580_35739_432873_197_80_-";dur=1
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload

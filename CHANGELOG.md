@@ -1,3 +1,6 @@
+#### June 7, 2023
++ Site redeployment, from Heroku to fly.io.
+---
 #### March 9, 2022
 + Site security updates.
 ---

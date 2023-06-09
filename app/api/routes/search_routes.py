@@ -53,7 +53,7 @@ def add_search_entry():
 
     if form.validate_on_submit():
         raw_query = form.data['search']
-        try: 
+        try:
             if request.json['origin'] == 'home_search': 
                 request.json['user']['id'] == current_user.id
                 js_tstamp = request.json['updatedAt']
@@ -76,7 +76,7 @@ def add_search_entry():
                     tz_abbrev=js_tz_abbrev if not re.search(natoTZRegex, js_tz_abbrev) else js_tz_abbrev[0],
                     updated_at=datetime.strptime(js_date_parsed, '%a %b %d %Y %H:%M:%S')
                 )
-                
+
                 db.session.add(history_entry)
                 db.session.commit()
                 entries = History.query.filter(History.user_id == current_user.id).order_by(History.updated_at.desc()).all()
@@ -94,7 +94,7 @@ def add_search_entry():
 @crochet.wait_for(timeout=200.0)
 def scrape_with_crochet(raw_query):
     r"""Connect Flask with Scrapy asynchronously.
-    
+
     Key word arguments:
         - In the `crawl` method, critical kwargs are passed to the spiders
           such as the query and the text truncation amounts.
@@ -121,12 +121,16 @@ def scrape_with_crochet(raw_query):
 
     broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    broad_crawlers = [caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
-    deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
+    # broad_crawlers = [caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
+    broad_crawlers = [caerostris_darwini.BroadCrawler2]
+    # deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
 
     if len(broad_crawler_str):
-        for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex, trunc_amt_1=trunc_amt_1)
-        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=raw_query_str_list, query_perms=query_permutations, trunc_amt_1=trunc_amt_1, trunc_amt_2=trunc_amt_2)
+        for broad_crawler in broad_crawlers: 
+            broad_crawler.crawled_urls = set()
+            broad_crawler.broad_crawler_2_monitor.reset_crawl_depth()
+            crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex, trunc_amt_1=trunc_amt_1)
+        # for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=raw_query_str_list, query_perms=query_permutations, trunc_amt_1=trunc_amt_1, trunc_amt_2=trunc_amt_2)
         eventual = crawl_runner.join()
         return eventual
 

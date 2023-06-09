@@ -1,0 +1,12 @@
+Content-Length: 151
+Content-Type: text/html; charset=UTF-8
+Location: https://www.cdc.gov/od/foia/
+Srv: 3
+Access-Control-Allow-Origin: *
+X-Ua-Compatible: IE=edge
+Date: Fri, 09 Jun 2023 18:45:44 GMT
+Set-Cookie: TS0196e5be=015d0abe871d01004c3dba176dfd6491bf3e58da08d031ca31559361675c9a5d480ec1b8e8b47326d8e277dd814cdef2fb63bc145e; Path=/; Domain=.www.cdc.gov; Secure; HTTPOnly
+Set-Cookie: akamai_visit_id=9877d9173634403d208Z; expires=Sun, 08-Jun-2025 18:45:44 GMT; path=/; domain=.cdc.gov; secure; HttpOnly
+Set-Cookie: Akamai-Request-ID=9877d9173634403d208Z; path=/; domain=cdc.gov
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+Server-Timing: ak_p; desc="1686336343974_400127896_100913672_11839_5148_75_103_-";dur=1

@@ -1,0 +1,26 @@
+Content-Length: 34126
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Etag: "1686251635"
+Last-Modified: Thu, 08 Jun 2023 19:13:55 GMT
+Link: <https://www.cancer.gov/about-cancer/managing-care/track-care-costs>; rel="canonical"
+Server: nginx
+X-Age: 78859
+X-Ah-Environment: 01live
+X-Cache-Hits: 17
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-9c9fb722-0630-11ee-937d-0b96b6849bec
+X-Ua-Compatible: IE=edge
+Expires: Fri, 09 Jun 2023 17:19:49 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Fri, 09 Jun 2023 17:19:49 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+Server-Timing: ak_p; desc="1686331189013_400336278_55560300_2798_4592_330_28_-";dur=1

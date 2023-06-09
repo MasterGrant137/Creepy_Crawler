@@ -1,0 +1,22 @@
+Content-Type: text/html
+X-Amz-Replication-Status: COMPLETED
+Last-Modified: Fri, 09 Jun 2023 04:13:02 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: ktuwQfua4grSXOQzZASmhMw6WyCAZWp_
+Server: AmazonS3
+Strict-Transport-Security: max-age= 63072000; includeSubdomains; preload
+Content-Security-Policy: default-src 'none'; connect-src 'self'  https://medlineplus.gov www.google-analytics.com stats.g.doubleclick.net *.crazyegg.com *.qualtrics.com; font-src 'self' data: https://medlineplus.gov ; media-src 'self' https://medlineplus.gov ; worker-src 'self' blob: https://medlineplus.gov ; frame-src https://medlineplus.gov  www.googletagmanager.com https://platform.twitter.com:443 https://syndication.twitter.com:443; frame-ancestors 'self' https://guides.nnlm.gov https://medlineplus.gov; img-src 'self' data: https://medlineplus.gov https://accreditnet.urac.org https://content.govdelivery.com https://ssl.adam.com/ www.google-analytics.com www.googletagmanager.com gtrk.s3.amazonaws.com stats.g.doubleclick.net https://syndication.twitter.com:443 https://platform.twitter.com:443 *.twimg.com *.qualtrics.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://medlineplus.gov  https://content.govdelivery.com https://platform.twitter.com:443 syndication.twitter.com https://dap.digitalgov.gov *.crazyegg.com www.google-analytics.com www.googletagmanager.com *.cloudfront.net *.nlm.nih.gov ajax.googleapis.com cdn.syndication.twimg.com *.qualtrics.com; style-src 'self' 'unsafe-inline' https://medlineplus.gov  https://content.govdelivery.com https://platform.twitter.com:443; object-src 'none'; upgrade-insecure-requests; report-uri https://nlmoccs.report-uri.com/r/d/csp/reportOnly;
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Access-Control-Allow-Origin: *.nlm.nih.gov
+Content-Encoding: gzip
+Date: Fri, 09 Jun 2023 16:32:03 GMT
+Etag: W/"e6e104e58d2afdd76b90775073aa2dcf"
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 3c478a1cf5abf5ffa4902e34c0d54510.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-P1
+X-Amz-Cf-Id: 5sl4cNs9teOeSDAs4S-iMqDTpI0O-W0v4Wdl81ro7veA5lEVjJRWIA==
+Age: 104

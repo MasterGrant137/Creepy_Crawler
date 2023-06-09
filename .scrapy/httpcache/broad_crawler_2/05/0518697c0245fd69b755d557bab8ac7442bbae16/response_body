@@ -1,0 +1,488 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Client error | Public Access</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_87GMcmxT1ib8ziQiU2KUAnTDFtZQV6iP-KGslA9LigM.css" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.13.1/css/fontawesome.css" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.13.1/css/solid.css" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.13.1/css/brands.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_x1gvV-iS9tis5inIfZI1ZPnKkrqWGPoViNTbUmGr084.css" />
+
+
+    <!-- GTM -->
+    <!-- ADDED ON 05/01/2023 -->
+    <!-- All services and snippets (AKA tags) have been removed from this file -->
+    <!-- They are handled in the ralated container in Google Tag Manger -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WDBBNP');</script>
+    <!-- End Google Tag Manager -->
+
+    
+    <meta name="description" content="Client error | Public Access">
+
+  </head>
+  <body class="path-frontpage   d-flex flex-column h-100">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
+    
+
+<header>
+  <div class="container-fluid px-0">  <div class="region region-header-top px-0">
+    <div id="block-uswdstopbanner" class="block block-block-content block-block-contentc146d7d8-1672-421e-b4f7-a3a7043be417">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><!-- [BEGIN] USWDS BLOCK -->
+<!-- This block emulates the USWDS Design guidelines for the banner (https://designsystem.digital.gov/components/banner/) without importing the whole framework -->
+<!-- Optimized for Bootstrap 5 -->
+<style>
+    #us-banner {
+        background: #f0f0f0;
+        /*font: 400 0.9rem/1.2 'Public Sans';*/
+    }
+
+    #us-banner .fas {
+        font-size: 0.7rem;
+    }
+
+    #us-banner [aria-expanded="true"]+i:before {
+        content: "\f077";
+    }
+
+    #us-banner #collapseUsaBanner>div>div {
+        font-size: .94rem;
+        line-height: 1.6;
+    }
+</style>
+
+<section id="us-banner" class="px-3 px-lg-5 py-1" aria-label="Official government website">
+
+    <div class="d-flex justify-content-between">
+        <div>
+            <img src="/themes/bootstrap5_subtheme/img/us_flag_small.png" alt="US Flag Icon" width="16" height="11">
+            An official website of the United States government
+            <a class="btn-link link-primary text-decoration-underline ms-2 collapsed" data-bs-toggle="collapse" href="#collapseUsaBanner" data-label="Expand/Collapse USWDS Website Header" role="button" aria-expanded="false" aria-controls="collapseUsaBanner">
+                Here's how you know
+            </a>
+            <i class="ms-1 fas fa-chevron-down"></i>
+        </div>
+        <div class="d-none d-md-block">
+            <a href="https://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a> |
+            <a href="https://www.nih.gov/" target="_blank">National Institutes of Health</a> | 
+            <a href="https://grants.nih.gov/" target="_blank"><img src="/themes/bootstrap5_subtheme/img/nihfavicon.png" class="me-2" alt="US Flag Icon" width="22" height="auto"> NIH Grants and Funding</a>
+        </div>
+    </div>
+    <div class="collapse" id="collapseUsaBanner" style="">
+        <div class="row py-5">
+            <div class="col-12 col-md-4 d-flex align-items-start">
+                <img class="me-3" src="/themes/bootstrap5_subtheme/img/icon-dot-gov.svg" role="img" alt=".GOV Icon" aria-hidden="true" style="width: 2.5rem;">
+                <div>
+                    <strong> Official websites use .gov </strong><br>
+                    A <strong>.gov</strong> website belongs to an official government<br>
+                    organization in the United States.
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-3 mt-md-0 col-4 d-flex align-items-start">
+                <img class="me-3" src="/themes/bootstrap5_subtheme/img/icon-https.svg" role="img" alt="HTTPS Icon" aria-hidden="true" style="width: 2.5rem;">
+                <div>
+                    <strong> Secure .gov websites use HTTPS </strong><br>
+                    A <strong>lock</strong> (
+                    <span class="icon-lock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 52 64" role="img" aria-labelledby="banner-lock-title-default banner-lock-description-default" focusable="false">
+                            <title id="banner-lock-title-default">A locked padlock</title>
+                            <desc id="banner-lock-description-default">A locked padlock</desc>
+                            <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z">
+                            </path>
+                        </svg></span>
+                    ) or <strong>https://</strong> means you've safely connected to the<br>
+                    .gov website. Share sensitive information only on official,<br>
+                    secure websites.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- [END] USWDS BLOCK --></div>
+      
+  </div>
+<div id="block-websiteheader" class="block block-block-content block-block-contentb8571ef7-01cb-4844-80a2-32cebceb9f98">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="px-3 px-lg-5 d-flex align-items-center" style="background: #20558a;">
+    <img src="/sites/default/files/2022-04/nihribbon-hhs.png" />
+    <a href="https://www.hhs.gov/" class="text-white mx-3" target="_blank">U.S. Department of Health & Human Services</a>
+    <img src="/sites/default/files/2022-04/nihribbon-divider.png" />
+</div>
+</div>
+      
+  </div>
+
+  </div>
+</div>
+
+  <div class="container-fluid px-3 px-lg-5 py-4">
+    <div class="row">
+      <div class="col-8 col-lg-7">  <div class="region region-header-branding px-0">
+    <div id="block-sitebranding" class="block block-system block-system-branding-block">
+  
+    
+  <div class="navbar-brand d-flex align-items-center">
+
+    <a href="/" title="Home" rel="home" class="site-logo d-block">
+    <img src="/sites/default/files/2022-04/pa-logo.png" alt="Home" width="391" height="60" />
+  </a>
+  
+  <div>
+    
+      </div>
+</div>
+</div>
+
+  </div>
+</div>
+      <div class="col-12 col-lg-5 d-none d-lg-block">  <div class="region region-header-search px-0">
+    <form action="https://search.usa.gov/search" method="get" id="search-block-form" accept-charset="UTF-8" data-drupal-form-fields="edit-keys" name="search_form">
+  <div class="mb-lg-2 w-100">
+    <div class="input-group">
+      <input id="affiliate" name="affiliate" type="hidden" value="usagov">
+      <input title="Enter the terms you wish to search for." placeholder="Search" type="search" name="query" value="" maxlength="128" class="form-search form-control" aria-label="Username" aria-describedby="basic-addon1">
+      <button type="submit" aria-label="Search button" class="input-group-text bg-light">
+        Search
+      </button>
+    </div>    
+  </div>
+</form><nav aria-labelledby="block-tools-menu" id="block-tools" class="block block-menu navigation menu--tools">
+            
+  
+
+        
+              <ul data-block="header_search" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="http://grants.nih.gov/grants/glossary.htm" class="nav-link">OER Glossary</a>
+              </li>
+                <li class="nav-item">
+        <a href="/contact.htm" class="nav-link" data-drupal-link-system-path="node/1">Contact Us</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+</div>
+      <div class="col-4 col-lg-5 d-flex d-lg-none align-items-center justify-content-end">
+        <a class="btn btn-white border me-0" data-bs-toggle="collapse" href="#mobileSearch" role="button" aria-expanded="false" aria-controls="mobileSearch">
+          <i class="fas fa-search"></i>
+        </a>
+        <a class="btn btn-white border" data-bs-toggle="collapse" href="#hamburgerSection" role="button" aria-expanded="false" aria-controls="hamburgerSection">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid px-3 px-lg-5 d-none d-lg-block ">
+      <div class="region region-navbar-main px-0">
+    <nav aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="container block block-menu navigation menu--main">
+            
+  <h5 class="visually-hidden" id="block-mainnavigation-menu">Main navigation</h5>
+  
+
+        
+            <ul data-block="navbar_main" class="navbar-nav mr-auto">
+                        <li class="nav-item">
+          <a href="/" class="nav-item nav-link" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/communications.htm" class="nav-item nav-link" data-drupal-link-system-path="node/3">Training</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/policy.htm" class="nav-item nav-link" data-drupal-link-system-path="node/4">Policy Details</a>
+      </li>
+
+                    <li class="nav-item dropdown">
+            <a href="/submit_process.htm" class="nav-item nav-link" data-drupal-link-system-path="node/5">Managing Papers</a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item">
+          <a href="/submit_process.htm" class="nav-item nav-link" data-drupal-link-system-path="node/5">Submitting Papers</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/include-pmcid-citations.htm" class="nav-item nav-link" data-drupal-link-system-path="node/6">Reporting Papers</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                    <li class="nav-item dropdown">
+            <a href="/list-faqs.htm" class="nav-item nav-link" data-drupal-link-system-path="node/7">FAQs</a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item">
+          <a href="/faq.htm" class="nav-item nav-link" data-drupal-link-system-path="node/8">NIH Public Access Policy FAQ</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/my-bibliography-faq.htm" class="nav-item nav-link" data-drupal-link-system-path="node/9">My Bibliography FAQ</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="https://www.nihms.nih.gov/help/" class="nav-item nav-link">NIHMS Help and FAQ</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="https://grants.nih.gov/faqs#/research-performance-progress-report.htm" class="nav-item nav-link">RPPR FAQ</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/my-ncbi-delegates-faq.htm" class="nav-item nav-link" data-drupal-link-system-path="node/10">MY NCBI Delegates FAQ</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+                    <li class="nav-item dropdown">
+            <a href="/sponsored-programs.htm" class="nav-item nav-link" data-drupal-link-system-path="node/11">Special Users</a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item">
+          <a href="/sponsored-programs.htm" class="nav-item nav-link" data-drupal-link-system-path="node/11">For Sponsored Programs</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="/nih_employee_procedures.htm" class="nav-item nav-link" data-drupal-link-system-path="node/12">For NIH Employee Authors</a>
+      </li>
+
+                    <li class="nav-item dropdown">
+            <a href="https://extramural-intranet.nih.gov/PublicAccess/" class="nav-item nav-link">For NIH Extramural Staff</a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item">
+          <a href="https://extramural-intranet.nih.gov/PublicAccess/temp-processing-delays.htm" class="nav-item nav-link">Temporary NIHMS Processing Delays</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="https://extramural-intranet.nih.gov/PublicAccess/guidance-for-all-ics.htm" class="nav-item nav-link">Guidance for all ICs</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="https://extramural-intranet.nih.gov/PublicAccess/ics-not-using-pa-support-center.htm" class="nav-item nav-link">Information  for ICs not using the Public Access Support Center</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="https://extramural-intranet.nih.gov/PublicAccess/ics-enrolled-in-pa-support-center.htm" class="nav-item nav-link">Information for ICs enrolled in the Public Access Support Center</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="https://extramural-intranet.nih.gov/PublicAccess/tools-and-questions.htm" class="nav-item nav-link">Communication and Training Tools</a>
+      </li>
+
+        </ul>
+  
+      </li>
+
+        </ul>
+  
+      </li>
+
+                    <li class="nav-item">
+          <a href="https://www.ncbi.nlm.nih.gov/account/?back_url=https%3A//www.ncbi.nlm.nih.gov/sites/myncbi/" class="nav-item nav-link">My NCBI</a>
+      </li>
+
+                    <li class="nav-item">
+          <a href="https://www.nihms.nih.gov/login/?next=/submission/" class="nav-item nav-link">NIHMS</a>
+      </li>
+
+        </ul>
+  
+
+
+
+  </nav>
+
+  </div>
+
+  </div>
+
+  <div class="container-fluid px-3 px-lg-5 py-3 d-block d-lg-none bg-light" id="hamburger">
+    <div class="collapse" id="mobileSearch">
+        <div class="region region-header-search px-0">
+    <form action="https://search.usa.gov/search" method="get" id="search-block-form" accept-charset="UTF-8" data-drupal-form-fields="edit-keys" name="search_form">
+  <div class="mb-lg-2 w-100">
+    <div class="input-group">
+      <input id="affiliate" name="affiliate" type="hidden" value="usagov">
+      <input title="Enter the terms you wish to search for." placeholder="Search" type="search" name="query" value="" maxlength="128" class="form-search form-control" aria-label="Username" aria-describedby="basic-addon1">
+      <button type="submit" aria-label="Search button" class="input-group-text bg-light">
+        Search
+      </button>
+    </div>    
+  </div>
+</form><nav aria-labelledby="block-tools--2-menu" id="block-tools--2" class="block block-menu navigation menu--tools">
+            
+  
+
+        
+              <ul data-block="header_search" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="http://grants.nih.gov/grants/glossary.htm" class="nav-link">OER Glossary</a>
+              </li>
+                <li class="nav-item">
+        <a href="/contact.htm" class="nav-link" data-drupal-link-system-path="node/1">Contact Us</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+    </div>
+    <div class="collapse" id="hamburgerSection">
+      
+    </div>
+  </div>
+
+</header>
+
+<main role="main" class="bg-light">
+  <div id="main-content" tabindex="-1"></div>
+    
+    
+  
+
+  <div class="container bg-white">
+
+            <div class="region region-breadcrumb px-0">
+    <div id="block-bootstrap5-subtheme-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      
+<div class="container p-0">
+      <nav aria-label="breadcrumb">
+      <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+      <ol class="breadcrumb bg-transparent">
+                        <li class="breadcrumb-item">
+                          <a href="/">Home</a>
+                      </li>
+                    </ol>
+    </nav>
+  </div>
+  </div>
+
+  </div>
+
+    
+    <div class="row g-0">
+    
+          
+      <div class="order-1 order-lg-2 col-12">
+          <div class="region region-content px-0">
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-bootstrap5-subtheme-page-title" class="block block-core block-page-title-block">
+  
+    
+      
+<div class="container mt-3 p-0">
+  
+      <h1 class="h2 page-title">
+      <strong>
+        Client error
+      </strong>
+    </h1>
+    
+</div>
+
+  </div>
+<div id="block-bootstrap5-subtheme-content" class="block block-system block-system-main-block">
+  
+    
+      A client error happened
+  </div>
+
+  </div>
+
+
+        <div style="padding:20px">
+          <div id="embed-survey"></div>
+
+        </div>
+      </div>
+    
+            
+    </div>
+  </div>
+
+</main>
+
+<footer class="container-fluid px-5 mt-auto  footer-light text-dark bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+          <div class="region region-footer px-0">
+    <div id="block-websitefooter" class="block block-block-content block-block-contentc1312915-2fd7-4705-9adc-496fea6b3dcf">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div>
+	<ul class="mb-0">
+		<li><a href="http://search.usa.gov/search/advanced?affiliate=publicaccess">Search</a></li>
+		<li><a href="http://grants.nih.gov/grants/edocs.htm">Help Downloading Files</a></li>
+		<li><a href="https://publicaccess.nih.gov/disclaimer.htm">Disclaimer</a></li>
+		<li><a href="http://grants.nih.gov/grants/privacy.htm">Privacy Notice</a></li>
+		<li><a href="https://grants.nih.gov/accessibility.htm">Accessibility</a></li>
+		<li><a href="http://www.nih.gov/icd/od/foia/index.htm">FOIA</a></li>
+		<li><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure</a></li>
+		<li id="archiveSearch"><a href="#">Older Version of this Page</a></li>
+	</ul>
+	<ul>
+		<li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+		<li><a href="http://www.grants.gov/">Grants.gov</a></li>
+		<li><a href="http://www.usa.gov/">USA.gov - Government Made Easy</a></li>
+		<li class="last">
+			<a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure</a>
+		</li>
+	</ul>
+	<div class="text-center">
+		<div>National Institutes of Health (NIH), 9000 Rockville Pike, Bethesda, Maryland 20892</div>
+		<p>NIH…Turning Discovery Into Health</p>
+	</div>
+</div>
+<script>
+	document.querySelector("#archiveSearch a").href =
+		"https://web.archive.org/web/20220000000000*/" + window.location.href;
+</script></div>
+      
+  </div>
+
+  </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"43f33ce3ea20cba7f2afcdfcd87595de033597342b9435fe671945385d544e08"}}</script>
+<script src="/sites/default/files/js/js_YYLIozpR72DJIx3Ca83G_kozyL4wtTtN0krcOqAIkaU.js"></script>
+
+  </body>
+</html>

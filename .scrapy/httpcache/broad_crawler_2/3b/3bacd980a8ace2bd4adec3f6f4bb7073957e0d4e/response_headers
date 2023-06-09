@@ -1,0 +1,15 @@
+Content-Length: 33155
+Cache-Control: public, max-age=28800,public
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: Sat, 10 Jun 2023 03:03:06 GMT
+Last-Modified: Fri, 09 Jun 2023 19:03:06 GMT
+Vary: *
+Set-Cookie: ss=1p5dwjpgh3urahwitgirx4t5; path=/; secure; HttpOnly; SameSite=Lax
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin
+Access-Control-Allow-Origin: https://ods.od.nih.gov
+Date: Fri, 09 Jun 2023 19:03:05 GMT

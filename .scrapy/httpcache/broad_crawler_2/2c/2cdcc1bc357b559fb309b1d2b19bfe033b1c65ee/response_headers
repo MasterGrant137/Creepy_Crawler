@@ -1,0 +1,15 @@
+Date: Fri, 09 Jun 2023 04:48:32 GMT
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Origin
+Content-Type: text/html
+Cache-Control: private
+Referrer-Policy: same-origin
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Set-Cookie: ncbi_sid=E7501792482AEB83_0286SID; Domain=.nih.gov; expires=Sat, 08 Jun 2024 04:48:32 GMT; HttpOnly; Max-Age=31536000; Path=/; Secure
+X-Ua-Compatible: IE=Edge
+X-Xss-Protection: 1; mode=block
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

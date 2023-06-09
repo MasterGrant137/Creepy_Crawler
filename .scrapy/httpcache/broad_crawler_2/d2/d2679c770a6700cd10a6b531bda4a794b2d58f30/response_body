@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>NIH &#8212; Office of Budget &#8212;Budget Request</title>
+
+<!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
+<script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&subagency=NIH" id="_fed_an_ua_tag"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!--<script type="text/javascript" src="../functions.js"></script>
+-->
+<link href="css/obLayout-2.css" rel="stylesheet" type="text/css" />
+<!--[if IE 7]>
+<style>
+#container #main {
+	position: relative;
+	top: -2.312em;
+}
+#container #head #subNav label {
+	left: 0em;
+	top: 0em;
+    }
+ul.tabs {
+	margin-bottom:8px;
+}
+#home {
+	margin-top: 0.0em;
+}
+</style>
+<![endif]-->
+<!--[if IE 6]><style type="text/css" media="screen">@import url(css/lteIE6.css);</style><![endif]-->
+<!--/Add Main Button Style Paths for Specific Page Color/-->
+
+<!--[if IE 6]><style type="text/css" media="screen">@import url(css/red.css);</style><![endif]-->
+
+<!--/End Main Button Style/-->
+</head>
+<body class="redTopGrad">
+ 
+<!-- leftnavRed -->
+     
+<div id="skiptocontent" style="display:none"><a href="#skipnav" title="Skip Navigation">Skip Navigation</a></div>
+<div id="container">
+  <div id="head">
+    <div id="topHead">
+      <div class="icons"><a href="http://hhs.gov"><img src="images/hhsLogo.png" alt="US Department of Health and Human Services Logo" border="0" /></a>
+      </div>
+      <img src="images/mockup-1a-cutup_09.gif" alt="National Institutes of Health Office of Budget" id="obHead" /></div>
+    <div id="subNav">
+      <form method="get" action="http://staging.websrch.cit.nih.gov/sps/OBudget/results.html" name="search" id="search">
+        <label id="searchBoxLabel" for="searchbox">Search Box</label>
+        <input id="query" type="text" name="query" size="25" maxlength="255" value=""/>
+		<button type="submit" form="search" value="search">Search</button>
+      </form>
+
+      <br style="display:none" class="clearfloat" />
+      <!--<div class="navBtns"><a href="#">Contact Us</a></div>
+      <div class="navBtns"><a href="#">FAQ</a></div>
+      <div class="navBtns"><a href="links.html">Links</a></div><br style="display:none" class="clearfloat">-->
+    </div>
+    <div id="title" class="titleRed"><span id="home"><a href="index.htm">Home</a></span> Budget Request </div>
+  </div>
+  <div id="main">
+    <div class="mainNav" id="leftnavRed">
+      <div class="navcontainer">
+        <ul class="navlist">
+          <li class="red"><a href="#">Budget Request</a></li>
+          
+          <li id="currYear"><a href="cy.html">Current Year</a></li>
+          <li id="history"><a href="history.html">History</a></li>
+          <li id="genBdgInfo"><a href="gbi.html">General Budget Info</a></li>
+          <li id="bdgecom"><a href="Org Chart 1.pdf">Contact Us <img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13" border="0" /></a></li>
+          <li id="bdgecom"><a href="faq.html">FAQ</a></li>
+          <li id="bdgecom"><a href="links.html">Links</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div id="rightnav">   
+      <ul class="navlist2">
+        
+        <li class="red3"><a href="pdfs/FY24/br/Overview of FY 2024 Presidents Budget.pdf">Overview of FY 2024 Presidents Budget</a><span class="linkIcon">&nbsp;<img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13" /></span></li>
+        <li class="red3"><a href="pdfs/FY24/br/Overview of FY 2024 Introductory Items.pdf">Introductory Items</a><span class="linkIcon">&nbsp;<img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13"  /></span></li>
+        <li class="red3"><a href="pdfs/FY24/br/Overview of FY 2024 Executive Summary.pdf">Executive Summary</a><span class="linkIcon"> <img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13"  /></span></li>
+        <li class="red3"><a href="pdfs/FY24/br/Overview of FY 2024 Overall Appropriations.pdf">Overall Appropriations</a><span class="linkIcon"> <img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13"  /></span></li>
+        <li class="red3"><a href="pdfs/FY24/br/Overview of FY 2024 Supplementary Tables.pdf">Supplementary Tables</a><span class="linkIcon"> <img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13"  /></span></li>
+        
+		 <li class="red3"><a href="pdfs/FY24/br/Overview of FY 2024 Legislative Proposals.pdf">Legislative Proposals</a><span class="linkIcon"> <img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13" /></span></li> 
+		  
+	    <li class="red3"><a href="pdfs/FY24/br/Overview of FY 2024 Cross-Cutting Initiatives.pdf">Cross-Cutting Initiatives</a><span class="linkIcon"> <img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13" /></span></li>
+        <li class="red3"><a href="pdfs/FY24/br/NIH FY 2024 CJ Significant Items Volume final.pdf">Significant Items</a><span class="linkIcon"> <img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13"  /></span></li>
+        
+        
+        <li class="red3"><a href="insti_center_subs.html">Institute/Center Submissions</a><span class="linkIcon"> </span></li>
+        
+        <li class="red3"><a href="https://www.hhs.gov/about/budget/index.html#performance">Online Performance Appendix</a><span class="linkIcon"> <img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13"  /></span></li>
+        <li class="red3"><a href="pdfs/FY24/br/Overview of FY 2024 Drug Control Programs.pdf">Drug Control Programs</a><span class="linkIcon"> <img height="13" alt="Adobe Acrobat PDF File" src="Images/pdfIcon.jpg" width="13"  /></span></li>
+        
+      </ul>
+    </div>
+    
+    <div id="mainContent2">
+      <p><a name="skipnav" id="skipnav"> </a>
+        <!--<h2>Subheading</h2>-->
+The NIH Congressional Justification (&quot;CJ&quot;) provides the Senate and House Appropriations Committees detailed estimates and justifications for research and research support activities (infrastructure, administrative, etc.) that NIH would anticipate funding at the President's Budget Request level.<br />
+        <br />
+        <a href="pdfs/FY24/br/Overview of FY 2024 Presidents Budget.pdf">The Overview</a> <img height="13" alt="Adobe Acrobat PDF File" src="images/pdfIcon.jpg" width="13" border="0" /> section provides a narrative discussing NIH's past accomplishments in advancing the biomedical research enterprise, as well as current and future research endeavors of great promise. This section also provides NIH budget and employment summary tables (consolidated from those of all NIH's Institutes and Centers) and, justifications and tables for centrally provided services (the NIH Management Fund, and the NIH Service and Supply Fund).<br />
+        <br />
+      NIH has 27   separate appropriations for which CJ documentation is prepared. Links to this documentation is provided here: <a title="Institute and Centers Congressional Justifications" href="insti_center_subs.html">Institutes and Centers Congressional Justifications</a></p>
+      <p>&nbsp;</p>
+      <!-- <p>Please note that the Overview section and the justification for the National Institute of Allergy and Infectious Diseases (NIAID) do not reflect the amendment to the FY 2021 PB request for NIAID released by the Office of Management and Budget on March 17, 2020.</p> -->
+      <p><br />
+      </p>
+    </div>
+  </div>
+  <div id="footer">
+    <!--<table>
+    <tr>
+      <td align="right"><h1 align="right">[ Contact OB (<a href="#">OB-WebQuestions@mail.nih.gov</a>)]</h1></td>
+    </tr>
+    <tr>
+      <td align="right"><h1 align="right">[ <a href="#">OB Staff</a>] </h1></td>
+    </tr>
+    <tr>
+      <td align="right"><h1 align="right"><a href="#">Download Adobe Acrobat Reader</a> <img src="../images/pdfIcon.jpg" alt="PDF Icon" width="19" height="19" /></h1></td>
+    </tr>
+    <tr>
+      <td align="right">&nbsp;</td>
+    </tr>
+  </table>-->
+    <div style="font-size:70%; position:relative; float: right; padding-left: 300px; padding-right: 20px; padding-top: 40px;">
+      <p><strong>To support the NIH mission to uncover new knowledge and transform health care with responsive, accurate, and timely budget and performance management information.</strong></p>
+      <p>&nbsp;</p>
+      <p><em>Persons  using assistive technology may not be able to fully access information in one  or more the files comprising the Congressional Justification (CJ). If the  content is stored on an IC web site, contact the web administrator for that IC.  &nbsp;For materials stored on the OB web site, some CJ files may currently be  undergoing remediation for compliance with Section 508. The remediation is  anticipated to be completed by early June 2017. In the interim, if  you need accessibility assistance with a CJ file, please contact the NIH Office  of Budget by e-mail at <a href="mailto:OD508@mail.nih.gov">OD508@mail.nih.gov</a> or <a href="mailto:boylem@mail.nih.gov">boylem@mail.nih.gov</a>.&rdquo;</em></p>
+</div>
+  </div>
+</div>
+</body>
+</html>

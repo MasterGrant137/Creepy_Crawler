@@ -1,0 +1,19 @@
+Accept-Ranges: bytes
+Content-Type: text/html
+Etag: "8c0681bdd875e6eb751aafc48f1e18fe:1685988551.061832"
+Last-Modified: Mon, 05 Jun 2023 18:08:30 GMT
+Vary: Accept-Encoding
+X-Akamai-Transformed: 9l - 0 pmb=mTOE,1
+Content-Encoding: gzip
+Date: Fri, 09 Jun 2023 18:36:29 GMT
+Set-Cookie: optimizelyEndUserId=282d2d176f7204002d7183640101000050130000; expires=Sun, 08-Jun-2025 18:36:29 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: _ga=GA1.2.122396176.1686335789; expires=Sun, 08-Jun-2025 18:36:29 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: akavpau_vp1=1686336089~id=2d160c142d07423fd629e48a97d59af6; Path=/; HttpOnly; Secure; SameSite=None
+Set-Cookie: _abck=A80856BEB11DF69204B58BD441669E35~-1~YAAQKC0tF8MGyZ6IAQAAyRhyoQrY1w1Al0AiSYP9+Gh6PhdVbwcb31BttjsUYmdtitpAHBlPEv1F/hAxAI2Cw0GxtHcO5moty5mxvl58Sey4un7Xux2VX35TA9w8mCLe2/a90j0SkWuZJ4rlCqTLy5laseyDMOyu61Jnvd2GBkRnicsYIE+8XkHRi48PuznwKSCqwVZdzk7xBvPdjrTBGeULtpc+KzwUSgDmpH6TJV2GFT0q2vfKgWzWumk+ie1X0FCJ+lLH4pN79d40NjTH5o5aopNvrYLOP5jbuuEDTyFX6b05EPRtqRlOOFO+rzrFyyFFrKOSdY7DZI0Ibe5yusU7e5OgmxZ2fnmdXP2amhjCoJKOPemt2wZJDEgY~-1~-1~1686339305; Domain=.healthcare.gov; Path=/; Expires=Sat, 08 Jun 2024 18:36:29 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=CB9720207001BB514F6B997E16E17E4D~YAAQKC0tF8QGyZ6IAQAAyRhyoRRaJkboHYIGBvz+M9CG3uiIbUOMzK1RXCGB5CAKvIVyRAq1+6QQFhdZIDMm91DTeflnLRLKoH6HL2e99lM4gjJodFOokY0xgAgmYlVY3yNdQijt05ZejYZ5px7/WTDABUut/QoEdGLXEHZn9+VVZ31/V80odJ207ZKDJO6Ufqzbls7gVfbjou+QB7Pdb47AsrZd3L6LkJ36rNaAOfCy2Xck8tKdoWcEciHx7Y2LzR9nRzHJd2hjmR0EL1Zn45rd/W+1qSAGh/dY/vD9rWjgUCFFw38j~4604729~4601399; Domain=.healthcare.gov; Path=/; Expires=Fri, 09 Jun 2023 22:36:29 GMT; Max-Age=14400
+Cache-Control: max-age=0
+Strict-Transport-Security: max-age=31536000 ; preload
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+X-Frame-Options: SAMEORIGIN
+Server-Timing: ak_p; desc="1686335789048_388836648_59678562_1752_10747_234_141_-";dur=1

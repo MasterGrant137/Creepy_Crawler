@@ -1,0 +1,13 @@
+Content-Length: 0
+Date: Fri, 09 Jun 2023 05:15:17 GMT
+Location: https://www.doi.org/robots.txt
+Permissions-Policy: interest-cohort=(),browsing-topics=()
+Cache-Control: max-age=14400
+Cf-Cache-Status: EXPIRED
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wcV8Lhjw4ELWRhf%2BMvD8rCpFpg8bBxbDa1sIppvjXcq%2BBQ1q51s9rruQxSsBGY1%2BR%2F6YMJzw8LSuxOdHm4rLdy3axcdmCXobssvj4lVCmyI1liqK5dwHH2o%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: cloudflare
+Cf-Ray: 7d46e5593b5a2ab4-LAX
+Alt-Svc: h3=":443"; ma=86400

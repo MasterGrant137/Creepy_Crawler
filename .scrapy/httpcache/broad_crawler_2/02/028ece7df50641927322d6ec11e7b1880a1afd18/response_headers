@@ -1,0 +1,15 @@
+X-Frame-Options: DENY
+X-Xss-Protection: 0
+Content-Security-Policy: connect-src 'self' blob: https://storysharing.snapchat.com https://cf-st.sc-cdn.net https://app.snapchat.com https://s.sc-cdn.net https://bolt-gcdn.sc-cdn.net https://gcp.api.snapchat.com https://web-frontend-dot-sc-analytics.appspot.com https://aws.api.snapchat.com https://*.google-analytics.com https://*.analytics.google.com https://stats.g.doubleclick.net https://*.googletagmanager.com https://www.snapchat.com https://sentry.sc-prod.net https://story.snapchat.com https://us-central1-gcp.api.snapchat.com https://staging-us-central1-gcp.api.snapchat.com https://accounts.snapchat.com ws: wss:; img-src 'self' blob: data: https://lens.snapchat.com https://s.sc-cdn.net https://support-tools.storage.googleapis.com https://app.snapchat.com https://devsnapchat.appspot.com https://feelinsonice-hrd.appspot.com https://www.snapchat.com https://cf-st.sc-cdn.net https://*.google-analytics.com https://*.googletagmanager.com https://dwt8x9rms639l.cloudfront.net data: https://lens-storage.storage.googleapis.com https://community-lens.storage.googleapis.com https://bolt-gcdn.sc-cdn.net https://media-cdn.tripadvisor.com/ https://www.google.com https://www.google.co.uk https://www.google.com.sa https://www.google.ca https://www.google.fr https://www.google.com.no https://www.google.com.au https://images.bitmoji.com https://static.snapchat.com https://us-east1-aws.api.snapchat.com https://impala-media-production.s3.amazonaws.com; media-src 'self' https://lens-storage.storage.googleapis.com https://community-lens.storage.googleapis.com https://s.sc-cdn.net https://bolt-gcdn.sc-cdn.net https://cf-st.sc-cdn.net blob:; script-src 'self' blob: https://story.snapchat.com 'sha256-T+mJpzkspYbS2c9j2qrgyezx0+bxueaYNJwVB75pe3Y=' 'sha256-SlyXqNpddFY9lxbguST5m22HifGELYV1FYec8XhHUkk=' 'sha256-5rMxh1U6sIDlVjmobBQY89QTC9nNeK3hd9dsXpD2AYE=' 'sha256-2LmOILM2HIS9pJC380owRlOYo+c5WOuuNL7oEMLss2I=' https://www.google-analytics.com https://*.googletagmanager.com; style-src 'self' https://story.snapchat.com 'unsafe-inline'; default-src 'self'; font-src 'self' https://snap-design-system.storage.googleapis.com https://ads-interfaces.sc-cdn.net https://story.snapchat.com https://static.snapchat.com; frame-ancestors 'none'; block-all-mixed-content
+Strict-Transport-Security: max-age=31536000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Request-Id: 533a0a38-2630-4cb2-b9b3-14f6ca6b80f2
+Cache-Control: public,max-age=300
+Content-Type: text/html; charset=utf-8
+Date: Fri, 09 Jun 2023 18:54:29 GMT
+X-Envoy-Upstream-Service-Time: 221
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: API Gateway
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

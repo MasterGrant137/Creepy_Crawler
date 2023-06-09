@@ -1,0 +1,11 @@
+Server: nginx
+Date: Fri, 09 Jun 2023 17:06:37 GMT
+Content-Type: text/html; charset=utf-8
+X-Redirect-By: redirects.php
+Location: https://obamawhitehouse.archives.gov/blog/2014/08/28/ensuring-biosafety-and-biosecurity-us-laboratories
+X-Rq: bur6 96 184 443
+Cache-Control: max-age=300, must-revalidate
+Content-Encoding: gzip
+Age: 0
+X-Cache: miss
+Strict-Transport-Security: max-age=31536000;includeSubdomains;preload

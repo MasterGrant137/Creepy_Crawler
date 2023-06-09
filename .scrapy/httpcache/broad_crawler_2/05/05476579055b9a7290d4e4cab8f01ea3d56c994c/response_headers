@@ -1,0 +1,26 @@
+Content-Length: 13307
+Server: nginx
+Date: Fri, 09 Jun 2023 05:05:04 GMT
+Content-Type: text/html; charset=utf-8
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Powered-By: PHP/7.4.33
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: public, max-age=300
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <https://ncats.nih.gov/director/bio>; rel="canonical",<https://ncats.nih.gov/node/290>; rel="shortlink"
+Etag: "1686286701-1"
+Last-Modified: Fri, 09 Jun 2023 04:58:21 GMT
+Vary: Cookie,Accept-Encoding
+Content-Encoding: gzip
+X-Varnish: 8528248 7898687
+Age: 402
+Via: 1.1 varnish-v4
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block

@@ -1,0 +1,18 @@
+Server: nginx
+Date: Fri, 09 Jun 2023 17:32:19 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: must-revalidate, no-cache, private
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Allow: GET, POST, HEAD
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-953e40e6-06eb-11ee-a3ea-e3938ee16dbd
+X-Ah-Environment: prod
+Age: 0
+Via: varnish
+X-Cache: MISS

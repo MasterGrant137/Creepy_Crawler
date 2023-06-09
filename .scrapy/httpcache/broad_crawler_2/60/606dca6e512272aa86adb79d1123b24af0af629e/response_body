@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-305524-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-305524-1", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false});</script>
+<link rel="canonical" href="https://ori.hhs.gov/" />
+<link rel="shortlink" href="https://ori.hhs.gov/" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/ori_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>ORI - The Office of Research Integrity | ORI - The Office of Research Integrity</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_LijwGMPxrtLZN5lCDmyFmTs6c7yMvvOWDqfn2DfpraU.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_5f9SpczoH0NrNNf1lnMy5JhLp0lp3SAPzp7fZWoGcXM.css" />
+
+    <script src="/core/assets/vendor/modernizr/modernizr.min.js?v=3.11.7"></script>
+<script src="/core/misc/modernizr-additional-tests.js?v=3.11.7"></script>
+
+  </head>
+  <body class="is-ultimenu-canvas is-ultimenu-canvas--hover path-frontpage node--type-page">
+    <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper" class="clearfix">
+
+  <div id="page" class="clearfix with--header without--menus without--preface-first without--preface-second without--preface-third without--preface-fourth with--highlighted with--content without--sidebar-first with--sidebar-second without--postscript-first without--postscript-second without--postscript-third without--postscript-fourth with--footer">
+
+    <header id="header-outer-wrapper" class="outer-wrapper clearfix without-secondary-menu" role="banner">  
+      <div id="upperBar">
+        <div id="upperBarInner" class="header-layout">
+          <div id="block-headerupperbar">
+  
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="https://www.hhs.gov"><img alt="Department of Health &amp; Human Services" src="/themes/custom/ori_theme/images/ori_header.png" /></a></p>
+</div>
+      
+      </div>
+</div>
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="header-layout with--header without--menus inner-wrapper clearfix">
+        <div class="header-inner">
+          <div class="left">
+              <div id="block-ori-theme-branding">
+  
+    
+    
+  <div id="site-branding">
+          <div id="logo">
+        <a href="https://ori.hhs.gov/" title="Home" rel="home" class="site-logo">
+          <img src="/sites/default/files/oriweb_logo.png" alt="Home" />
+        </a>
+      </div>
+        
+        
+  </div>
+</div>
+
+          </div>
+          <div class="right">
+                <div class="region--headerRight region region-headerright">
+    <div id="block-simplecontactlink">
+  
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="/contact-us">Contact Us</a></p></div>
+      
+      </div>
+</div>
+
+
+
+
+
+<div class="search-api-page-block-form" data-drupal-selector="gse-search-form" id="block-searchform">
+  
+    
+
+  <div>
+          <form action="/ORISearch" method="get" id="gse-search-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-key-word form-item-key-word form-no-label">
+      <label for="edit-key-word" class="visually-hidden">Search</label>
+        <input placeholder="Google Custom Search..." class="form-search" data-drupal-selector="edit-key-word" type="search" id="edit-key-word" name="key-word" value="" size="15" maxlength="128" />
+        </div>
+    <button class="button js-form-submit form-submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" title="Search"> <i class="fa fa-search fa-2x"></i></button>
+    
+
+
+
+
+</form>
+
+      </div>
+</div>
+
+
+
+
+
+<div id="block-ori20link">
+  
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="/content/ori-20"><img src="/themes/custom/ori_theme/images/oriwebicon.png" alt="ORI 2.0" /></a></p>
+</div>
+      
+      </div>
+</div>
+
+
+
+
+
+
+  </div>
+
+          </div>
+        </div> 
+      </div>
+            <div id="nav-wrapper">
+        <div class="header-layout">
+          <nav role="navigation" aria-labelledby="block-ori-theme-main-menu-menu" id="block-ori-theme-main-menu" class="block block-menu navigation menu--main">
+            
+  <h1 class="visually-hidden" id="block-ori-theme-main-menu-menu">Main navigation</h1>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Home</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>About ORI</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/about-ori" data-drupal-link-system-path="node/1404">About ORI</a>
+              </li>
+                <li class="menu-item">
+        <a href="/frequently-asked-questions" data-drupal-link-system-path="node/1578">Frequently Asked Questions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/policies-ori-mission" data-drupal-link-system-path="node/1419">ORI Mission</a>
+              </li>
+                <li class="menu-item">
+        <a href="/historical-background" data-drupal-link-system-path="node/1406">Historical Background</a>
+              </li>
+                <li class="menu-item">
+        <a href="/meet-directors" data-drupal-link-system-path="node/1405">Meet the Directors</a>
+              </li>
+                <li class="menu-item">
+        <a href="/ori-staff" data-drupal-link-system-path="node/1585">ORI Staff</a>
+              </li>
+                <li class="menu-item">
+        <a href="/office-director" data-drupal-link-system-path="node/1407">Office of the Director</a>
+              </li>
+                <li class="menu-item">
+        <a href="/division-investigative-oversight" data-drupal-link-system-path="node/1408">Division of Investigative Oversight</a>
+              </li>
+                <li class="menu-item">
+        <a href="/division-education-and-integrity" data-drupal-link-system-path="node/1409">Division of Education and Integrity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/office-general-counsel-research-oversight-legal-team" data-drupal-link-system-path="node/1410">Office of the General Counsel</a>
+              </li>
+                <li class="menu-item">
+        <a href="/contact-us" data-drupal-link-system-path="node/1362">Contact Us</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>News &amp; Events</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/content/updates" data-drupal-link-system-path="updates">ORI Updates</a>
+              </li>
+                <li class="menu-item">
+        <a href="/conference" data-drupal-link-system-path="conference">Conferences</a>
+              </li>
+                <li class="menu-item">
+        <a href="/newsletters" data-drupal-link-system-path="newsletters">ORI Newsletters</a>
+              </li>
+                <li class="menu-item">
+        <a href="/ori-annual-reports" title="ORI Annual Report" data-drupal-link-system-path="ori-annual-reports">ORI Data</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>Research Misconduct</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/content/case_summary" data-drupal-link-system-path="case_summary">Case Summaries</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/handling-misconduct" data-drupal-link-system-path="node/1351">Handling Misconduct</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/rapid-response-technical-assistance" data-drupal-link-system-path="node/1380">Technical Assistance</a>
+              </li>
+                <li class="menu-item">
+        <a href="/complainant" data-drupal-link-system-path="node/1381">Complainant</a>
+              </li>
+                <li class="menu-item">
+        <a href="/respondent" data-drupal-link-system-path="node/1382">Respondent</a>
+              </li>
+                <li class="menu-item">
+        <a href="/handling-allegations" data-drupal-link-system-path="node/1383">Handling Allegations</a>
+              </li>
+                <li class="menu-item">
+        <a href="/preliminary-assessment" data-drupal-link-system-path="node/1384">Preliminary Assessment</a>
+              </li>
+                <li class="menu-item">
+        <a href="/inquiries" data-drupal-link-system-path="node/1385">Inquiries</a>
+              </li>
+                <li class="menu-item">
+        <a href="/investigations" data-drupal-link-system-path="node/1386">Investigations</a>
+              </li>
+                <li class="menu-item">
+        <a href="/institutional-decision" data-drupal-link-system-path="node/1387">Institutional Decision</a>
+              </li>
+                <li class="menu-item">
+        <a href="/ori-oversight-review" data-drupal-link-system-path="node/1388">ORI Oversight Review</a>
+              </li>
+                <li class="menu-item">
+        <a href="/phshhs-decision" data-drupal-link-system-path="node/1389">PHS/HHS Decision</a>
+              </li>
+                <li class="menu-item">
+        <a href="/hearings" data-drupal-link-system-path="node/1390">Hearings</a>
+              </li>
+                <li class="menu-item">
+        <a href="/administrative-actions" data-drupal-link-system-path="node/1391">Administrative Actions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/legal-concerns" data-drupal-link-system-path="node/1392">Legal Concerns</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/forensic-tools" data-drupal-link-system-path="node/1359">Forensic Tools</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/droplets" data-drupal-link-system-path="node/1376">Droplets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/forensic-actions" data-drupal-link-system-path="node/1377">Forensic Actions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/advanced-forensic-actions" data-drupal-link-system-path="node/1577">Advanced Forensic Actions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/samples" data-drupal-link-system-path="node/1378">Samples</a>
+              </li>
+                <li class="menu-item">
+        <a href="/help" data-drupal-link-system-path="node/1379">Help</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>RCR Resources</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/rcr-objectives-delphi-study" data-drupal-link-system-path="node/1580">RCR Objectives</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>Interactive Videos</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/the-lab" data-drupal-link-system-path="node/3069">The Lab</a>
+              </li>
+                <li class="menu-item">
+        <a href="/research-clinic" data-drupal-link-system-path="node/1586">The Research Clinic</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/integrity-scientific-research-videos" data-drupal-link-system-path="node/3560">Integrity in Scientific Research Videos</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>Case Studies</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/rcr-casebook-stories-about-researchers-worth-discussing" data-drupal-link-system-path="node/1589">RCR Casebook</a>
+              </li>
+                <li class="menu-item">
+        <a href="/videos/case-study" data-drupal-link-system-path="videos/case-study-list">Video Case Studies</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/infographics" data-drupal-link-system-path="infographics">Infographics</a>
+              </li>
+                <li class="menu-item">
+        <a href="/general-resources" data-drupal-link-system-path="node/1568">General Resources</a>
+              </li>
+                <li class="menu-item">
+        <a href="/human-subject-research" data-drupal-link-system-path="node/1567">Human Subject Research</a>
+              </li>
+                <li class="menu-item">
+        <a href="/research-misconduct" data-drupal-link-system-path="node/1565">Research Misconduct</a>
+              </li>
+                <li class="menu-item">
+        <a href="/publicationsauthorship" data-drupal-link-system-path="node/1566">Publication/Authorship</a>
+              </li>
+                <li class="menu-item">
+        <a href="/animal-resources" data-drupal-link-system-path="node/1559">Animal Resources</a>
+              </li>
+                <li class="menu-item">
+        <a href="/mentorship" data-drupal-link-system-path="node/1564">Mentorship</a>
+              </li>
+                <li class="menu-item">
+        <a href="/data-management" data-drupal-link-system-path="node/1561">Data Management</a>
+              </li>
+                <li class="menu-item">
+        <a href="/collaborative-science-0" data-drupal-link-system-path="node/1563">Collaborative Science</a>
+              </li>
+                <li class="menu-item">
+        <a href="/conflicts-interest-and-commitment" data-drupal-link-system-path="node/1562">Conflicts of Interest and Commitment</a>
+              </li>
+                <li class="menu-item">
+        <a href="/peer-review-0" data-drupal-link-system-path="node/1560">Peer Review</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>Programs</span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <span>RIO Training</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/rio-boot-camp" data-drupal-link-system-path="node/1429">RIO Boot Camp</a>
+              </li>
+                <li class="menu-item">
+        <a href="/video-role-rio" data-drupal-link-system-path="node/1557">RIO Video</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/intramural-research-program" data-drupal-link-system-path="node/1411">Intramural Research</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/studies-completed" data-drupal-link-system-path="node/1413">Studies Completed</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/extramural-research" data-drupal-link-system-path="node/1358">Extramural Research</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/rri_conference" data-drupal-link-system-path="rri_conference">RRI Conferences</a>
+              </li>
+                <li class="menu-item">
+        <a href="/rri-program" data-drupal-link-system-path="node/1370">RRI Program</a>
+              </li>
+                <li class="menu-item">
+        <a href="/awards" data-drupal-link-system-path="awards">Award Data</a>
+              </li>
+                <li class="menu-item">
+        <a href="/rri-publications" data-drupal-link-system-path="node/1374">RRI Publications</a>
+              </li>
+                <li class="menu-item">
+        <a href="/literature-reviewsbibliographies" data-drupal-link-system-path="node/1375">Bibliography</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>Policies &amp; Regulations</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/federal-policies" data-drupal-link-system-path="node/1393">Federal Policies</a>
+              </li>
+                <li class="menu-item">
+        <a href="/phs-policies" data-drupal-link-system-path="node/1394">PHS Policies</a>
+              </li>
+                <li class="menu-item">
+        <a href="/ori-policies" data-drupal-link-system-path="node/1395">ORI Policies</a>
+              </li>
+                <li class="menu-item">
+        <a href="/statutes-regulations" data-drupal-link-system-path="node/1396">Statutes &amp; Regulations</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span>Assurance Program</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/assurance-program" data-drupal-link-system-path="node/1356">Assurance Program</a>
+              </li>
+                <li class="menu-item">
+        <a href="/small-organization-statement" data-drupal-link-system-path="node/1363">Small Organization Statement</a>
+              </li>
+                <li class="menu-item">
+        <a href="/foreign-organization-statement" data-drupal-link-system-path="node/1365">Foreign Organization Statement</a>
+              </li>
+                <li class="menu-item">
+        <a href="/institutional-policy" data-drupal-link-system-path="node/1366">Institutional Policy</a>
+              </li>
+                <li class="menu-item">
+        <a href="/institutional-compliance" data-drupal-link-system-path="node/1367">Institutional Compliance</a>
+              </li>
+                <li class="menu-item">
+        <a href="/agreement" data-drupal-link-system-path="node/1368">Agreement</a>
+              </li>
+                <li class="menu-item">
+        <a href="/retaliation-complaints" data-drupal-link-system-path="node/1369">Retaliation Complaints</a>
+              </li>
+                <li class="menu-item">
+        <a href="/sample-policy-procedures-responding-research-misconduct-allegations" data-drupal-link-system-path="node/1576">Sample Policy &amp; Procedures</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+        </div>
+      </div>   
+    </header> <!-- /.section, /#header-->
+  
+    <section id="core-outer-wrapper" class="outer-wrapper clearfix">
+      <div id="core-layout" class="core-layout with--highlighted inner-wrapper clearfix">
+                    <div class="region--highlighted region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+              </div>
+    </section>
+    
+    
+    <section id="content-outer-wrapper" class="outer-wrapper clearfix">
+     <div id="main-content"> 
+     <div id="main-layout" class="main-layout with--content without--sidebar-first with--sidebar-second inner-wrapper clearfix">
+        
+                    <div class="region--content region region-content">
+      <div class="views-element-container" id="block-views-block-front-banner-block-1">
+  
+    
+
+  <div>
+          <div><div class="view view-front-banner view-id-front_banner view-display-id-block_1 js-view-dom-id-ad40ffee2c9f0d38c7ffc8097788dc0fd6093c1e9a35b361e072a8cf0ef90816">
+  
+    
+      
+      <div class="view-content">
+        <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_front_banner-block_1" class="views_slideshow_cycle_main views_slideshow_main">
+    <div id="views_slideshow_cycle_teaser_section_front_banner-block_1"  class="views_slideshow_cycle_teaser_section">
+     <div id="views_slideshow_cycle_div_front_banner-block_1_0"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+      <div  class="views-row views-row-0 views-row-odd views-row-first">
+  
+
+<div class="views-field views-field-nothing"><span class="field-content"><div id="mainSection">
+<div id="asg_slider_text_fields">
+<div class="views-field-title"><span><a href="/follow-ori-twitter-0" hreflang="en">Follow ORI on Twitter</a></span></div>
+<div class="views-field-body"><p>Get the latest news and updates from ORI.</p><p><a href="http://twitter.com/HHS_ORI">View the Tweets</a></p></div>
+
+</div>
+  <img loading="lazy" src="/sites/default/files/styles/front_banner/public/banner_twitter-logo-on-computer-screen_0.jpg?itok=8at3AHud" width="640" height="320" alt="Twitter logo on computer screen" title="Twitter logo on computer screen" typeof="Image" class="image-style-front-banner" />
+
+
+
+</div>
+<div id="sliderMobileSection" class="showSm">
+<div class="views-field-title"><a href="/follow-ori-twitter-0" hreflang="en">Follow ORI on Twitter</a></div>
+<div class="views-field-body"><p>Get the latest news and updates from ORI.</p><p><a href="http://twitter.com/HHS_ORI">View the Tweets</a></p></div>
+</div></span></div>
+
+
+</div>
+
+  </div>
+
+  </div>
+
+</div>
+
+
+        </div>
+
+    </div>
+  
+          </div>
+</div>
+
+      </div>
+</div>
+
+
+
+
+
+<div id="block-oriupdatestitlebuttons-3">
+  
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="ori-updates-title-front"><a href="updates">ORI Updates</a></div>
+
+<div class="showMd" id="ori-updates-subscribe-button"><a href="feed.xml">Subscribe</a></div>
+
+<div class="showMd" id="ori-updates-read-more-button"><a href="updates">Read More</a></div>
+</div>
+      
+      </div>
+</div>
+
+
+
+
+
+<div class="views-element-container" id="block-views-block-block-front-block-1">
+  
+    
+
+  <div>
+          <div><div class="view view-block-front view-id-block_front view-display-id-block_1 js-view-dom-id-504b9fec8ccba310e74f6d7c6b71e7173754cd2aceb78acf69893fb5f8ebf98e">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li>
+<div class="asg_front_block_date_separator"><div class="views-field views-field-created-1"><span class="field-content">Apr</span></div><div class="views-field views-field-created"><span class="field-content">27</span></div></div><!-- Close of asg_front_block_date_separator --><div class="asg_front_block_body_separator"><div class="views-field views-field-field-update-link"><div class="field-content"><a href="https://ori.hhs.gov/content/case-summary-he-johnny-j">Research Misconduct Finding: Johnny J. He, Ph.D.</a></div></div><div class="views-field views-field-body"><div class="field-content"><p>ORI found that Johnny J. He, Ph.D., who is a Professor, Department of Microbiology and Immunology, RFUMS, engaged in research misconduct in research reported in grant applications submitted for U.S. Public Health Service (PHS) funds, specifically the National Institute on Drug Abuse (NIDA), National Institutes of Health (NIH), National Institute on Aging (NIA), NIH, and National Institute of Neurological Disorders and Stroke (NINDS), NIH.</p></div></div></div><!-- Close of asg_front_block_body_separator -->
+
+</li>
+          <li>
+<div class="asg_front_block_date_separator"><div class="views-field views-field-created-1"><span class="field-content">Apr</span></div><div class="views-field views-field-created"><span class="field-content">24</span></div></div><!-- Close of asg_front_block_date_separator --><div class="asg_front_block_body_separator"><div class="views-field views-field-field-update-link"><div class="field-content"><a href="https://ori.hhs.gov/blog/research-integrity-specialist-expression-interest">Research Integrity Specialist (Expression of Interest)</a></div></div><div class="views-field views-field-body"><div class="field-content"><p><span><span><span>The Office of Research Integrity, Office of the Assistant Secretary for Health has posted an Expression of Interest for a Research Integrity Specialist.</span></span></span></p></div></div></div><!-- Close of asg_front_block_body_separator -->
+
+</li>
+          <li>
+<div class="asg_front_block_date_separator"><div class="views-field views-field-created-1"><span class="field-content">Apr</span></div><div class="views-field views-field-created"><span class="field-content">10</span></div></div><!-- Close of asg_front_block_date_separator --><div class="asg_front_block_body_separator"><div class="views-field views-field-field-update-link"><div class="field-content"><a href="https://ori.hhs.gov/content/case-summary-spirli-carlo">Research Misconduct Finding: Carlo Spirli, Ph.D.</a></div></div><div class="views-field views-field-body"><div class="field-content"><p>ORI found that Carlo Spirli, Ph.D., who was an Assistant Professor of Medicine, Department of Digestive Diseases, YU, engaged in research misconduct in research supported by U.S. Public Health Service (PHS) funds, specifically National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes of Health (NIH).</p></div></div></div><!-- Close of asg_front_block_body_separator -->
+
+</li>
+          <li>
+<div class="asg_front_block_date_separator"><div class="views-field views-field-created-1"><span class="field-content">Mar</span></div><div class="views-field views-field-created"><span class="field-content">02</span></div></div><!-- Close of asg_front_block_date_separator --><div class="asg_front_block_body_separator"><div class="views-field views-field-field-update-link"><div class="field-content"><a href="https://ori.hhs.gov/blog/fiscal-year-fy-2023-notice-funding-opportunity-announcements">Fiscal Year (FY) 2023 Notice of Funding Opportunity Announcements</a></div></div><div class="views-field views-field-body"><div class="field-content"><p>ORI has released two notice of funding opportunity announcements for projects, conferences, and workshops that advance the evolving field of research integrity and produce tangible outcomes related to ensuring the integrity and reliability of Public Health Service funded research.</p></div></div></div><!-- Close of asg_front_block_body_separator -->
+
+</li>
+          <li>
+<div class="asg_front_block_date_separator"><div class="views-field views-field-created-1"><span class="field-content">Feb</span></div><div class="views-field views-field-created"><span class="field-content">21</span></div></div><!-- Close of asg_front_block_date_separator --><div class="asg_front_block_body_separator"><div class="views-field views-field-field-update-link"><div class="field-content"><a href="https://ori.hhs.gov/blog/annual-report-fy-2022">Annual Report FY 2022</a></div></div><div class="views-field views-field-body"><div class="field-content"><p><span><span><span><span><span><span><span>The ORI FY 2022 Annual Report is now available.</span></span></span></span></span></span></span></p></div></div></div><!-- Close of asg_front_block_body_separator -->
+
+</li>
+          <li>
+<div class="asg_front_block_date_separator"><div class="views-field views-field-created-1"><span class="field-content">Feb</span></div><div class="views-field views-field-created"><span class="field-content">16</span></div></div><!-- Close of asg_front_block_date_separator --><div class="asg_front_block_body_separator"><div class="views-field views-field-field-update-link"><div class="field-content"><a href="https://ori.hhs.gov/blog/new-job-opportunities-0">New Job Opportunities</a></div></div><div class="views-field views-field-body"><div class="field-content"><p><span><span><span><span>The Office of Research Integrity is seeking highly qualified candidates for two positions: a Scientist-Investigator position within the Division of Investigative Oversight and an Education and Integrity Specialist position within the Division of Education and Integrity. </span></span></span></span></p></div></div></div><!-- Close of asg_front_block_body_separator -->
+
+</li>
+          <li>
+<div class="asg_front_block_date_separator"><div class="views-field views-field-created-1"><span class="field-content">Feb</span></div><div class="views-field views-field-created"><span class="field-content">10</span></div></div><!-- Close of asg_front_block_date_separator --><div class="asg_front_block_body_separator"><div class="views-field views-field-field-update-link"><div class="field-content"><a href="https://ori.hhs.gov/blog/sheila-garrity-named-director-office-research-integrity">Sheila Garrity Named Director of the Office of Research Integrity</a></div></div><div class="views-field views-field-body"><div class="field-content"><p>We are pleased to announce that Sheila Garrity, JD, MPH, MBA will be joining ORI in March as the new Director.</p></div></div></div><!-- Close of asg_front_block_body_separator -->
+
+</li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+      </div>
+
+</div>
+
+
+
+
+
+<div id="block-frontblogbottomlinks">
+  
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="removeStyles" id="block-oriupdatestitlebuttons-3">
+<div class="showSm" id="ori-updates-subscribe-button"><a href="/feed.xml">Subscribe</a></div>
+
+<div class="showSm" id="ori-updates-read-more-button"><a href="/updates">Read More</a></div>
+</div>
+</div>
+      
+      </div>
+</div>
+
+
+
+
+
+<div id="block-ori-theme-content">
+  
+    
+
+  <div>
+          
+<article data-history-node-id="3081" role="article" about="/ori-homepage" typeof="schema:WebPage" class="node node--type-page node--view-mode-full">
+
+  
+      <span property="schema:name" content="ORI - The Office of Research Integrity" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    <div class="node_view"><ul class="pre_links"><li class="print"><a href="/node/3081/printable/print" target="_blank">Print</a></li></ul></div>
+  </div>
+
+</article>
+
+      </div>
+</div>
+
+
+
+
+
+
+  </div>
+
+          
+    
+            
+                    <div class="region--sidebar-second region region-sidebar-second">
+    <div class="views-element-container" id="block-views-block-block-left-block-1">
+  
+    
+
+  <div>
+          <div><div class="view view-block-left view-id-block_left view-display-id-block_1 js-view-dom-id-62e530443296f61e6cc5ce6350914514483284a251f645ef98a10363de6da810">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><span class="views-field views-field-field-image"><span class="field-content">  <img loading="lazy" src="/sites/default/files/2017-12/icon_misconduct_0.gif" width="51" height="45" alt="Icon Misconduct" typeof="foaf:Image" />
+
+</span></span><span class="views-field views-field-title"><span class="field-content"><a href="https://ori.hhs.gov/case_summary" alt="Misconduct Case Summaries">Misconduct Case Summaries</a>
+</span></span><span class="views-field views-field-field-right-sidebar-icon-pdf-ima"><span class="field-content"></span></span><span class="views-field views-field-field-right-sidebar-icon-rss-img"><span class="field-content"></span></span><span class="views-field views-field-field-right-sidebar-icon-csv-img"><span class="field-content"></span></span></li>
+          <li><span class="views-field views-field-field-image"><span class="field-content">  <img loading="lazy" src="/sites/default/files/2017-12/icon_newsletter_0.gif" width="51" height="45" alt="Newsletters Icon" typeof="foaf:Image" />
+
+</span></span><span class="views-field views-field-title"><span class="field-content"><a href="https://ori.hhs.gov/newsletters" alt="Newsletter">Newsletter</a>
+</span></span><span class="views-field views-field-field-right-sidebar-icon-pdf-ima"><span class="field-content"></span></span><span class="views-field views-field-field-right-sidebar-icon-rss-img"><span class="field-content"></span></span><span class="views-field views-field-field-right-sidebar-icon-csv-img"><span class="field-content"></span></span></li>
+          <li><span class="views-field views-field-field-image"><span class="field-content">  <img loading="lazy" src="/sites/default/files/2017-12/icon_twitter_0.gif" width="51" height="45" alt="Twitter" typeof="foaf:Image" />
+
+</span></span><span class="views-field views-field-title"><span class="field-content"><a href="https://twitter.com/HHS_ORI" target="_blank" alt="Follow Us on Twitter">Follow Us on Twitter</a>
+</span></span><span class="views-field views-field-field-right-sidebar-icon-pdf-ima"><span class="field-content"></span></span><span class="views-field views-field-field-right-sidebar-icon-rss-img"><span class="field-content"></span></span><span class="views-field views-field-field-right-sidebar-icon-csv-img"><span class="field-content"></span></span></li>
+          <li><span class="views-field views-field-field-image"><span class="field-content">  <img loading="lazy" src="/sites/default/files/2017-12/icon_bulletin_board.gif" width="51" height="45" alt="Bulletin" typeof="foaf:Image" />
+
+</span></span><span class="views-field views-field-title"><span class="field-content"><a href="https://ori.hhs.gov/ORI_PHS_alert.html?d=update" alt="PHS Administrative Action Bulletin Board">PHS Administrative Action Bulletin Board</a>
+</span></span><span class="views-field views-field-field-right-sidebar-icon-pdf-ima"><span class="field-content"><a href="https://ori.hhs.gov/ORI_PHS_alert.pdf" target="_blank">  <img loading="lazy" src="/sites/default/files/2017-12/smallpdficon2.png" width="17" height="14" alt="PDF " title="PDF" typeof="foaf:Image" />
+
+</a></span></span><span class="views-field views-field-field-right-sidebar-icon-rss-img"><span class="field-content"><a href="https://ori.hhs.gov/ORI_PHS_alert.rss" target="_blank">  <img loading="lazy" src="/sites/default/files/2017-12/smallrssicon2.png" width="18" height="14" alt="RSS" title="RSS" typeof="foaf:Image" />
+
+</a></span></span><span class="views-field views-field-field-right-sidebar-icon-csv-img"><span class="field-content"><a href="https://ori.hhs.gov/ORI_PHS_alert.csv" target="_blank">  <img loading="lazy" src="/sites/default/files/2017-12/smallcsvicon.png" width="18" height="14" alt="CSV" title="CSV" typeof="foaf:Image" />
+
+</a></span></span></li>
+          <li><span class="views-field views-field-field-image"><span class="field-content">  <img loading="lazy" src="/sites/default/files/2017-12/icon_annualreport.gif" width="51" height="45" alt="ARPRM" typeof="foaf:Image" />
+
+</span></span><span class="views-field views-field-title"><span class="field-content"><a href="https://ori.hhs.gov/arprm" alt="Annual Report System">Annual Report System</a>
+</span></span><span class="views-field views-field-field-right-sidebar-icon-pdf-ima"><span class="field-content"></span></span><span class="views-field views-field-field-right-sidebar-icon-rss-img"><span class="field-content"></span></span><span class="views-field views-field-field-right-sidebar-icon-csv-img"><span class="field-content"></span></span></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+      </div>
+</div>
+
+
+
+
+
+<div id="block-quicktabssocialmedia">
+  
+      <h2>Social Media</h2>
+    
+
+  <div>
+          <div class="quicktabs-wrapper" id="quicktabs-social_media"><div class="item-list"><ul class="quicktabs-tabs" role="tablist"><li role="tab" aria-controls="quicktabs-tabpage-social_media-0" aria-selected="true" id="quicktabs-tab-social_media-0" tabIndex="-1" class="active twitter" tabindex="0"><a href="/quicktabs/nojs/social_media/0" class="quicktabs-loaded" data-quicktabs-tab-index="0">Twitter</a></li><li role="tab" aria-controls="quicktabs-tabpage-social_media-1" aria-selected="false" id="quicktabs-tab-social_media-1" tabIndex="-1" class="ori-blog"><a href="/quicktabs/nojs/social_media/1" class="quicktabs-loaded" data-quicktabs-tab-index="1">ORI Blog</a></li></ul></div><div class="quicktabs-main" id="quicktabs-container-social_media"><div id="quicktabs-tabpage-social_media-0" class="quicktabs-tabpage" role="tabpanel" aria-labelledby="quicktabs-tab-social_media-0" tabindex="0">
+<div class="quicktabs-block-title"></div>
+<div>
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p style="padding:3%;"><a class="twitter-timeline" data-height="380" href="https://twitter.com/HHS_ORI?ref_src=twsrc%5Etfw">This browser is no longer supported. To view HHS ORI Twitter feed, click here.</a> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+</div>
+      </div>
+</div>
+<div id="quicktabs-tabpage-social_media-1" class="quicktabs-tabpage quicktabs-hide" role="tabpanel" aria-labelledby="quicktabs-tab-social_media-1" tabindex="0">
+<div class="quicktabs-block-title"></div>
+<div><div class="views-element-container"><div class="view view-block-front-blog view-id-block_front_blog view-display-id-block_1 js-view-dom-id-c00c4ea6c5b7050f267662e3c90aeb463496df294eb776b0b8cd6304f368bcdc">
+  
+    
+      <div class="view-header">
+      <style>
+<!--/*--><![CDATA[/* ><!--*/
+
+#block-views-block-block-front-blog-block-1 .view-id-block_front_blog .view-header .theblog {
+    padding: 5px 5px 10px;
+    margin: -5px 0px 5px 10px;
+    position: relative;
+	font-weight:700px;
+	box-shadow:0px 13px 22px -15px #000;
+}
+#block-views-block-block-front-blog-block-1 .view-id-block_front_blog .view-header .theblog a {
+    color: #855d00 !important;
+    font-size: 18px;
+	pointer-events: none;
+}
+#block-views-block-block-front-blog-block-1 .view-id-block_front_blog .view-header {
+    background-image: url('/themes/custom/ori_theme/images/popular-title.png');
+    background-repeat: no-repeat;
+    background-position: 4px 3px;
+    background-size: 97%;
+    position: relative;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+#block-views-block-block-front-blog-block-1 .view-id-block_front_blog .view-content .views-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5px;
+	padding: 10px 12px 10px;
+}
+#block-views-block-block-front-blog-block-1 .view-id-block_front_blog .views-row .views-field-title {
+    float: right;
+    width: 75%;
+	padding-left:10px;
+}
+#block-views-block-block-front-blog-block-1 .view-id-block_front_blog .views-row .views-field-created {
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+#block-views-block-block-front-blog-block-1 .view-id-block_front_blog .views-row .views-field-created span {
+    background: #478500;
+    color: white;
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 4px #353535;
+    padding: 4px 0;
+}
+#block-views-block-block-front-blog-block-1 .view-id-block_front_blog .view-footer {
+    padding-left: 15px;
+}
+@media (max-width: 1023px) and (min-width: 768px)
+{
+.region--sidebar-second > div {
+    float: right;
+    width: 48%;
+}
+#block-views-block-block-left-block-1 {
+    margin-top: 10px;
+    margin-right: -10px;
+    margin-left: 30px;
+	margin-bottom: 100px;
+}
+.region--sidebar-second > nav {
+    float: left;
+    margin-right: 0 !important;
+}
+#block-videonavigation  {
+    margin-left: 20px;
+}
+#block-custom-simplenews-block-form  {
+    margin-right: -8px;
+}
+}
+@media only screen and (max-width: 767px) {
+#block-views-block-block-front-blog-block-1 .view-id-block_front_blog .view-header .theblog {
+    box-shadow: none;
+}
+#block-views-block-block-front-blog-block-1 .view-id-block_front_blog .view-header {
+    background-image: none;
+}
+}
+
+/*--><!]]>*/
+</style><div class="theblog"><a href="/blog"><strong>ORI Blog</strong></a></div>
+    </div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-created"><span class="field-content">Apr-24</span></div><div class="views-field views-field-title"><span class="field-content"><a href="/blog/research-integrity-specialist-expression-interest" hreflang="en">Research Integrity Specialist (Expression of Interest)</a></span></div></div>
+    <div class="views-row"><div class="views-field views-field-created"><span class="field-content">Mar-02</span></div><div class="views-field views-field-title"><span class="field-content"><a href="/blog/fiscal-year-fy-2023-notice-funding-opportunity-announcements" hreflang="en">Fiscal Year (FY) 2023 Notice of Funding Opportunity Announcements:</a></span></div></div>
+    <div class="views-row"><div class="views-field views-field-created"><span class="field-content">Feb-21</span></div><div class="views-field views-field-title"><span class="field-content"><a href="/blog/annual-report-fy-2022" hreflang="en">Annual Report FY 2022</a></span></div></div>
+    <div class="views-row"><div class="views-field views-field-created"><span class="field-content">Feb-16</span></div><div class="views-field views-field-title"><span class="field-content"><a href="/blog/new-job-opportunities-0" hreflang="en">New Job Opportunities</a></span></div></div>
+
+    </div>
+  
+            <div class="view-footer">
+      <a href="/blog">Read More ...</a>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+      </div>
+</div>
+
+
+
+
+
+<div id="block-custom-simplenews-block-form">
+  
+      <h2>Email Updates</h2>
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div style="margin:15px;">Stay informed on our latest news!</div>
+
+<div style="background: #355684;height: 28px;width: 180px;text-align: center;padding: 5px 10px;margin:10px 0 20px 15px;-moz-border-radius: 4px;-webkit-border-radius: 4px;-khtml-border-radius: 4px;-o-border-radius: 4px;border-radius: 4px;"><a href="https://cloud.connect.hhs.gov/ORI" style="color:#fff;font-size:13px;text-decoration:none;">Subscribe to our Newsletter</a></div>
+</div>
+      
+      </div>
+</div>
+
+
+
+
+
+
+  </div>
+
+            
+      </div><!-- /#main -->
+     </div>
+    </section><!-- /#main-outer-wrapper -->
+  
+        
+    <footer id="footer-outer-wrapper" class="outer-wrapper clearfix">
+      <div id="footer-layout" role="contentinfo" class="footer-layout with--footer inner-wrapper clearfix asg_container">
+        
+                  <div id="footerTopContent">
+              <div class="region--footer region region-footer">
+    <div id="block-footertopsection">
+  
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+.ui-widget-content a {color: #0778d5}
+#block-views-block-videos-case-study-choosing-the-right-lab-block-1 {border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
+#block-views-block-videos-case-study-choosing-the-right-lab-block-5 {margin-top: 0;border-top-left-radius: 0;border-top-right-radius: 0;border-top: none;}
+#block-views-block-videos-case-study-choosing-the-right-lab-block-5 .views-row .views-field-nothing a {padding-top:0 !important;border-bottom: none !important;}
+.view-id-videos_case_study_choosing_the_right_lab.view-display-id-block_5 {padding-top: 0;margin-top: -10px;}
+#asg_slider_text_fields .views-field-body h2 a {color: #FFE866;text-decoration: underline;}
+#asg_slider_text_fields .views-field-title {background: none !important;}
+#sliderMobileSection .views-field-title a {font-size: 26px;line-height: 28px;margin-bottom: 2px !important;font-weight: bold;}
+#sliderMobileSection h2 {text-align: center;}
+#sliderMobileSection {margin: 15px 10px 30px !important;}
+#views_slideshow_cycle_div_front_banner-block_1_0 #mainSection {box-shadow: 0px 25px 20px -25px #666 !important;}
+@media (max-width: 1023px) and (min-width: 768px)
+{
+#block-quicktabssocialmedia {float: left;}
+.main-layout .region--content {margin-top: 20px;}
+}
+@media (max-width: 767px)
+{
+header .header-inner .region-headerright #block-searchform input[type="search"] {width: 85% !important;}
+header .header-inner .region-headerright #block-searchform button[type="submit"] {width: 13% !important;top: 9px !important;margin-left: 0 !important; margin-right: 0 !important; }
+.responsive-menus.responsified.responsive-toggled .responsive-menus-simple, .responsive-menus.responsified.responsive-toggled .responsive-menus-simple ul {margin: 23px 0 0 -8px;}
+.responsive-menus-simple .contextual {display:none !important;}
+header #nav-wrapper span.toggler a {border-left:none;}
+header #nav-wrapper #quicklinksWrapper ul {padding: 0;}
+header #nav-wrapper #quicklinksWrapper ul li {border-left: 1px solid white;margin-top: -11px;}
+header #nav-wrapper #quicklinksWrapper ul li a, header #nav-wrapper #quicklinksWrapper ul li span {padding:0;margin-top: 3px;display: block;text-decoration: none;}
+header #nav-wrapper #quicklinksWrapper ul li ul {left: -38px;top: 32px;}
+header #nav-wrapper #quicklinksWrapper ul li ul li {padding-left: 23px;height: 56px;font-size: 14px;}
+.responsive-menus.responsified.responsive-toggled .responsive-menus-simple ul {margin: 28px 0 0 -8px;width: 120%;}
+}
+
+/*--><!]]>*/
+</style><div class="showMd">
+<p>For accessing information in different file formats, see <a href="/content/download-viewers-and-players">Download Viewers and Players.</a> <span class="icons right"> <a href="/blog" target="_blank"><img alt="Blog" src="/themes/custom/ori_theme/images/icon_bottomblog.png" /></a> <a href="/feed.xml" target="_blank"><img alt="RSS" src="&#10;/themes/custom/ori_theme/images/icon_rss.png" /></a> <a href="https://twitter.com/HHS_ORI" target="_blank"><img alt="Twitter" src="&#10;/themes/custom/ori_theme/images/icon_twitter.png" /></a> <a href="/content/listservs" target="_blank"><img alt="Listservs" src="/themes/custom/ori_theme/images/icon_emailupdate.png" /></a> </span></p>
+</div>
+</div>
+      
+      </div>
+</div>
+
+
+
+
+
+
+  </div>
+
+          </div>
+        
+
+                  <div id="footerLeftContent" class="asg_cols_4">
+              <div class="region--footer-left region region-footer-left">
+    <div id="block-footercontactlinks">
+  
+      <h2>CONNECT WITH ORI</h2>
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul><li><a href="/contact-us">Contact Information</a></li>
+	<li><a href="/content/about-ori-driving-directions">Direction to ORI Office</a></li>
+	<li>Twitter <a href="http://twitter.com/hhs_ori">@HHS_ORI</a></li>
+</ul></div>
+      
+      </div>
+</div>
+
+
+
+
+
+
+  </div>
+
+          </div>
+        
+
+                  <div id="footerCenterContent" class="asg_cols_4">
+            <div class="region--footer-center region region-footer-center">
+    <div id="block-footerresourceslinks">
+  
+      <h2>RESOURCES &amp; PUBLICATIONS</h2>
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul><li><a href="/newsletters">Newsletters</a></li>
+	<li><a href="/content/handbooks-and-guidelines">Handbooks &amp; Guidelines</a></li>
+	<li><a href="/content/studies-and-reports">Studies &amp; Reports</a></li>
+	<li><a href="/content/related-organization">Related Organizations</a></li>
+</ul></div>
+      
+      </div>
+</div>
+
+
+
+
+
+
+  </div>
+
+          </div>
+        
+                  <div id="footerRightContent" class="asg_cols_4">
+              <div class="region--footer-right region region-footer-right">
+    <div id="block-footertermsandconditions">
+  
+      <h2>TERMS AND CONDITIONS</h2>
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul><li><a href="http://www.hhs.gov/accessibility.html">Accessibility</a></li>
+	<li><a href="/content/privacy-policy">Privacy Policy</a></li>
+	<li><a href="http://www.hhs.gov/foia">FOIA</a></li>
+	<li><a href="/content/disclaimer">Disclaimer</a></li>
+	<li><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">Vulnerability Disclosure Policy</a></li>
+	<li><a href="/content/logo-specification-guide">Use of the ORI Logo</a></li>
+</ul></div>
+      
+      </div>
+</div>
+
+
+
+
+
+
+  </div>
+
+          </div>
+        
+                <div id="footerBottomContent">
+              <div class="region--footer-bottom region region-footer-bottom">
+    <div id="block-footerlocation">
+  
+    
+
+  <div>
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="http://www.hhs.gov"><img alt="HHS" src="/themes/custom/ori_theme/images/hhs-logo-bottom.png" /></a> <a href="https://get.adobe.com/reader/"><img alt="Adobe Reader" src="/themes/custom/ori_theme/images/get_adobe_reader.png" /></a></p>
+
+<p>U.S. Department of Health and Human Services<br />
+Office of Research Integrity ~ 1101 Wootton Parkway ~ Suite 240 ~ Rockville MD 20852</p>
+</div>
+      
+      </div>
+</div>
+
+
+
+
+
+
+  </div>
+
+        </div>
+        
+      </div> <!-- /#footer -->
+          </footer> <!-- /#footer-outer-wrapper -->
+</div></div> <!-- /#page, /#page-wrapper -->
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/3081","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"back_to_top\/back_to_top_icon,back_to_top\/back_to_top_js,classy\/base,classy\/messages,classy\/node,core\/normalize,extlink\/drupal.extlink,google_analytics\/google_analytics,omega\/omega_branding,omega\/omega_breadcrumbs,omega\/omega_forms,omega\/omega_html_elements,omega\/omega_main_menus,omega\/omega_messages,omega\/omega_pagers,omega\/omega_tabs,omega\/omega_taxonomy_terms,ori_theme\/ori_theme,ori_theme\/ori_video_page,poll\/drupal.poll-links,printable\/entity-links,quicktabs\/quicktabs,responsive_menus\/responsive_menus_simple,statistics\/drupal.statistics,system\/base,views\/views.module,views_slideshow\/jquery_hoverIntent,views_slideshow\/widget_info,views_slideshow_cycle\/jquery_cycle,views_slideshow_cycle\/json2,views_slideshow_cycle\/views_slideshow_cycle","theme":"ori_theme","theme_token":null},"ajaxTrustedUrl":{"\/ORISearch":true},"back_to_top":{"back_to_top_button_trigger":100,"back_to_top_prevent_on_mobile":true,"back_to_top_prevent_in_admin":false,"back_to_top_button_type":"image","back_to_top_button_text":"Back to top"},"google_analytics":{"account":{},"trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true},"responsive_menus":[{"toggler_text":"\u003Cdiv id=\u0022quicklinksWrapper\u0022\u003E\u003Cul\u003E\u003Cli\u003E\u003Cspan\u003E\u2630 Menu \u003C\/span\u003E\u003C\/li\u003E\u003Cli\u003E\u003Ca href=\u0022\/content\/ori-20\u0022\u003EORI 2.0\u003C\/a\u003E\u003Cul\u003E\u003Cli\u003E\u003Ca href=\u0022https:\/\/ori.hhs.gov\/content\/ori-20\u0022\u003EORI 2.0\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003C\/li\u003E\u003Cli\u003E\u003Ca href=\u0027#\u0027\u003EQuick Links\u003C\/a\u003E\u003Cul\u003E\u003Cli\u003E\u003Ca href=\u0022\/case_summary\u0022\u003EMisconduct Case Summaries\u003C\/a\u003E\u003C\/li\u003E\u003Cli\u003E\u003Ca href=\u0022\/newsletters\u0022\u003ENewsletter\u003C\/a\u003E\u003C\/li\u003E\u003Cli\u003E\u003Ca href=\u0022https:\/\/twitter.com\/HHS_ORI\u0022 target=\u0022_blank\u0022\u003EFollow Us on Twitter\u003C\/a\u003E\u003C\/li\u003E\u003Cli\u003E\u003Ca href=\u0022https:\/\/ori.hhs.gov\/ORI_PHS_alert.html?d=update\u0022 target=\u0022_blank\u0022\u003EPHS Administrative Action Bulletin Board\u003C\/a\u003E\u003C\/li\u003E\u003Cli\u003E\u003Ca href=\u0022\/arprm\/Login.php\u0022\u003EAnnual Report System\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003C\/div\u003E","selectors":["#block-ori-theme-main-menu"],"media_size":"767","media_unit":"px","absolute":0,"disable_mouse_events":0,"remove_attributes":1,"responsive_menus_style":"responsive_menus_simple"}],"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"addthis.com\/*|feedproxy*|twitter.com\/HHS_OR*|ori*","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":null}},"quicktabs":{"qt_social_media":{"tabs":[{"title":"Twitter","weight":0,"type":"block_content","content":{"view_content":{"options":{"vid":"aggregator_rss_feed","display":"default","args":""}},"node_content":{"options":{"nid":"","view_mode":"full","hide_title":true}},"block_content":{"options":{"bid":"block_content:686c254a-c8a3-416e-9a7f-47bbb56c6573","block_title":"","display_title":false}},"qtabs_content":{"options":{"machine_name":"animal_resources"}}},"tab_page":0},{"title":"ORI Blog","weight":0,"type":"block_content","content":{"view_content":{"options":{"vid":"aggregator_rss_feed","display":"default","args":""}},"node_content":{"options":{"nid":"","view_mode":"full","hide_title":true}},"block_content":{"options":{"bid":"views_block:block_front_blog-block_1","block_title":"","display_title":false}},"qtabs_content":{"options":{"machine_name":"animal_resources"}}},"tab_page":1}]}},"statistics":{"data":{"nid":"3081"},"url":"\/core\/modules\/statistics\/statistics.php"},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_front_banner-block_1":{"num_divs":1,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"front_banner-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"items_per_slide_first":false,"items_per_slide_first_number":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":true,"cleartypenobg":false,"advanced_options":"{}"}},"viewsSlideshow":{"front_banner-block_1":{"methods":{"goToSlide":["viewsSlideshowSlideCounter","viewsSlideshowPager","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowSlideCounter","viewsSlideshowPager","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowSlideCounter","viewsSlideshowPager","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowSlideCounter","viewsSlideshowPager"],"transitionEnd":[]},"paused":0}},"user":{"uid":0,"permissionsHash":"6da19e43457f6de58ecd5c2478f972b42d791daebf1140c39c85732d79cebe47"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.0"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.4.8"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.4.8"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.3"></script>
+<script src="/core/misc/polyfills/nodelist.foreach.js?v=9.4.8"></script>
+<script src="/core/assets/vendor/css-escape/css.escape.js?v=1.5.1"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/core/assets/vendor/backbone/backbone-min.js?v=1.4.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.4.8"></script>
+<script src="/core/misc/drupal.js?v=9.4.8"></script>
+<script src="/core/misc/drupal.init.js?v=9.4.8"></script>
+<script src="/modules/contrib/jquery_ui_effects/jquery.ui/ui/effect-min.js?v=1.12.1"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=5.3.2"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.4.8"></script>
+<script src="/modules/contrib/jquery_ui_effects/jquery.ui/ui/effects/effect-fade-min.js?v=1.12.1"></script>
+<script src="/modules/contrib/back_to_top/js/back_to_top.js?v=9.4.8"></script>
+<script src="/modules/contrib/google_analytics/js/google_analytics.js?v=9.4.8"></script>
+<script src="/modules/contrib/responsive_menus/styles/responsive_menus_simple/js/responsive_menus_simple.js?v=9.4.8"></script>
+<script src="/themes/custom/ori_theme/js/ori_theme.js?v=9.4.8"></script>
+<script src="/themes/custom/ori_theme/js/ori_section508.js?v=9.4.8"></script>
+<script src="/modules/contrib/extlink/extlink.js?v=9.4.8"></script>
+<script src="/core/misc/debounce.js?v=9.4.8"></script>
+<script src="/core/misc/announce.js?v=9.4.8"></script>
+<script src="/core/misc/displace.js?v=9.4.8"></script>
+<script src="/themes/contrib/omega/omega/js/omega.js?v=9.4.8"></script>
+<script src="/themes/custom/ori_theme/js/ori_video/ajaxtabs.js?v=9.4.8"></script>
+<script src="/themes/custom/ori_theme/js/ori_video/js.js?v=9.4.8"></script>
+<script src="/core/misc/progress.js?v=9.4.8"></script>
+<script src="/core/misc/ajax.js?v=9.4.8"></script>
+<script src="/core/themes/stable/js/ajax.js?v=9.4.8"></script>
+<script src="/core/assets/vendor/js-cookie/js.cookie.min.js?v=3.0.1"></script>
+<script src="/core/misc/jquery.cookie.shim.js?v=9.4.8"></script>
+<script src="/modules/contrib/quicktabs/js/quicktabs.js?v=9.4.8"></script>
+<script src="/core/modules/statistics/statistics.js?v=9.4.8"></script>
+<script src="/libraries/json2/json2.js?v=2"></script>
+<script src="/libraries/jquery.cycle/jquery.cycle.all.js?v=3.0.3"></script>
+<script src="/modules/contrib/views_slideshow/modules/views_slideshow_cycle/js/views_slideshow_cycle.js?ru5j8s"></script>
+<script src="/libraries/jquery.hoverIntent/jquery.hoverIntent.js?v=1.9"></script>
+<script src="/modules/contrib/views_slideshow/js/views_slideshow.js?v=9.4.8"></script>
+
+  </body>
+</html>

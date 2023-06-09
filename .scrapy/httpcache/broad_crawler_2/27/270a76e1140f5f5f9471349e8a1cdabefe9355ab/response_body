@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar" dir="rtl"><head id="j_idt2">
+			<meta http-equiv="X-UA-Compatible" content="IE=9" /><link type="text/css" rel="stylesheet" href="/ocr/javax.faces.resource/theme.css.jsf?ln=primefaces-aristo" /><link type="text/css" rel="stylesheet" href="/ocr/javax.faces.resource/components.css.jsf;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03?ln=primefaces&amp;v=6.1" /><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='ar';}</script>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>U.S. Department of Health &amp; Human Services - Office for Civil Rights</title>
+
+		<link rel="Shortcut Icon" href="/ocr/images/favicon.ico" type="image/x-icon" />
+
+
+		<link href="/ocr/css/ocr-portal.css" rel="stylesheet" type="text/css" />
+		<link href="/ocr/css/navigation_ocr.css" rel="stylesheet" type="text/css" />
+
+		<link href="/ocr/css/primary.css" rel="stylesheet" type="text/css" />
+		<link href="/ocr/css/skip.css" rel="stylesheet" type="text/css" />
+		<link href="/ocr/css/headerNavigation.css" rel="stylesheet" type="text/css" />
+		<link href="/ocr/css/content.css" rel="stylesheet" type="text/css" />
+		<link href="/ocr/css/cp-frontpage.css" rel="stylesheet" type="text/css" />
+
+		<script src="/ocr/js/util.js" type="text/javascript"></script>
+		<script src="/ocr/js/locale.js" type="text/javascript"></script>
+		<script src="/ocr/js/ocr-portal.js" type="text/javascript"></script></head><body>
+		<div id="top"></div>
+		<div id="container">
+<form id="headerNavigation" name="headerNavigation" method="post" action="/ocr/cp/complaint_frontpage.jsf;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="headerNavigation" value="headerNavigation" />
+
+
+
+	<div class="" id="skip">
+		<ul id="skiplinks">
+			<li><a href="#bodyContent" tabindex="0" title="Skip">Skip to content</a></li>
+		</ul>
+	</div>
+
+	
+	<div id="level1">
+		<div class="header">
+			<div id="navigationNew">
+
+				<div class="site-controls-greybar"><img src="/ocr/images/cap_left_dkgrey_systemutil.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="28" style="border: 0; vertical-align: middle" width="19" /><script type="text/javascript" src="/ocr/javax.faces.resource/jsf.js.jsf;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03?ln=javax.faces"></script><a href="#" onclick="mojarra.jsfcljs(document.getElementById('headerNavigation'),{'headerNavigation:j_idt11':'headerNavigation:j_idt11'},'');return false" class="headerLink">الصفحة الرئيسية</a>  |
+					<a href="http://www.hhs.gov" class="headerLink">HHS</a>  |
+					<a href="http://www.hhs.gov/ocr/office/index.html" class="headerLink">مكتب الحقوق المدنية</a>  |
+					<a href="/ocr/cp/about_us.jsf;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" class="headerLink">معلومات عنا</a>  |
+					<a href="https://www.hhs.gov/ocr/about-us/contact-us/index.html" class="headerLink">اتصل بنا</a>
+
+				</div>
+
+				<div class="site-controls-greybar-lt"><img src="/ocr/images/back_left_ltgrey_systemutil_sm.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="28" style="border: 0; vertical-align: middle" width="25" />
+					<div class="site-controls-greybar-lt-bkgrnd"><img src="/ocr/images/clear.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="28" style="border: 0; vertical-align: middle" width="1" />
+						<img src="/ocr/images/icons/icon_user.gif" alt="user icon" title="مرحبًا" width="16" height="16" border="0" align="absmiddle" class="sc-icon" />
+						مرحبًا
+					</div>
+				</div>
+			</div>
+			<h1 id="header-logo" class="h1">
+				<div id="titleContent">
+					U.S. Department of Health and Human Services<br />
+					Office for Civil Rights<br />
+
+					<div class="titleDivider"></div>
+					Complaint Portal
+				</div>
+			</h1>
+		</div>
+	</div>
+
+	
+	<div id="bannerSection">
+		<div id="bannerImageWrapper">
+			<img src="/ocr/images/1680x100sittingAtComputer2.jpg" alt="Person sitting at a laptop" width="1680" height="100" class="bannerImage" />
+		</div>
+	</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="7626993696243627652:-5501253625212029131" autocomplete="off" />
+</form>
+
+			<div class="divider"></div>
+			<div id="mainContent">
+				<div class="pageInstructions">
+					<a name="bodyContent"></a><div id="ocrMessage" class="ui-messages ui-widget" aria-live="polite"></div>
+
+					<div class="content">
+<form id="ocrForm" name="ocrForm" method="post" action="/ocr/cp/complaint_frontpage.jsf;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" enctype="multipart/form-data">
+<input type="hidden" name="ocrForm" value="ocrForm" />
+
+
+	
+	<table class="tableNoSpacing" style="float:left; width: 100%;">
+		<tr>
+			<td style="vertical-align: top; width: 25%;">
+				<div class="banner">
+					 الحقوق المدنية
+				</div>
+				<div style="width: 95%;padding-left:5px;">
+					<p><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt29':'ocrForm:j_idt29'},'');return false">تقديم شكوى بخصوص الحقوق المدنية</a>
+					</p>
+					<p>إذا كنت تعتقد أن إحدى الهيئات المشمولة قد قامت بالتمييز ضدك أو انتهكت حقوقك المدنية (أو شخص آخر) على أساس العرق أو اللون أو الأصل الوطني أو السن أو الإعاقة أو الجنس، فيمكنك تقديم شكوى إلى مكتب Office for Civil Rights (OCR).<br/> فيما يلي بعض الأمثلة للهيئات المحتملة المشمولة (بما في ذلك المؤسسات والموظفون) التي يجب أن تلتزم بقوانين الحقوق المدنية الاتحادية:  <ul><li> الوكالات الحكومية التابعة للولاية والمحلية المسؤولة عن إدارة الرعاية الصحية </li> <li> وكالات الخدمة البشرية والمساعدة الحكومية المحلية والتابعة للولاية على شكل دخل </li><li> المستشفيات </li><li> موفرو خدمات برنامجي Medicaid وMedicare </li><li> الأطباء وأخصائيو الرعاية الصحية الآخرون في الممارسة الخاصة مع المرضى الذين يتمتعون بدعم من برنامج Medicaid </li><li> مراكز الصحة الأسرية </li><li> المراكز المجتمعية للصحة العقلية </li><li> مراكز العلاج من الكحوليات والمخدرات </li><li> دور الرعاية </li><li> دور تبني الأطفال </li><li> وكالات التبني العامة والخاصة ووكالات تبنّي الأطفال </li><li> مراكز الرعاية النهارية </li> <li> مراكز كبار السن </li><li> برامج التغذية </li><li> أي كيان تم إنشاؤه بموجب قانون Affordable Care Act (قانون الرعاية الميسورة) </li><li> برامج وشركات التأمين الصحي </li><li> مؤسسات الحفاظ على الصحة (HMO) </li><li> الصيدليات </li><li> ملاجئ للمشردين </li><li> الباحثون في مجال الصحة </li></ul><br/> يمكنك تقديم شكوى عن نفسك أو مؤسستك أو عن شخص آخر.</p>
+				</div>
+			</td>
+
+			<td><img src="../images/blank.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="1" width="5" /></td>
+			<td style="background-color: #0D4092;"><img src="../images/blank.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="1" width="1" /></td>
+			<td><img src="../images/blank.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="1" width="5" /></td>
+
+			<td style="vertical-align: top; width: 25%;">
+				<div class="banner">
+					 حرية الاعتقاد والدين
+				</div>
+				<div style="width: 95%;padding-left:5px;">
+					<p><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt41':'ocrForm:j_idt41'},'');return false">تقديم شكوى بخصوص حرية الاعتقاد والدين</a>
+					</p>
+					<p>إذا كنت تعتقد أن إحدى الهيئات المشمولة قد قامت بالتمييز ضدك أو انتهكت حرية اعتقادك أو دينك (أو شخص آخر)، فيمكنك تقديم شكوى إلى مكتب Office for Civil Rights (OCR).  تحميك قوانين حرية الاعتقاد والدين من الإجبار، أو التمييز على أساس الاعتقاد أو الدين، والقيود على حرية الممارسة الدينية.<br/> فيما يلي بعض الأمثلة للهيئات المحتملة المشمولة (بما في ذلك المؤسسات والموظفون) التي يجب أن تلتزم بقوانين الحقوق المدنية الاتحادية:  <ul><li> الوكالات الحكومية التابعة للولاية والمحلية المسؤولة عن إدارة الرعاية الصحية </li><li> وكالات الخدمة البشرية والمساعدة الحكومية المحلية والتابعة للولاية على شكل دخل </li><li> المستشفيات </li><li> موفرو خدمات برنامجي Medicaid و Medicare </li><li> الأطباء وأخصائيو الرعاية الصحية الآخرون في الممارسة الخاصة مع المرضى الذين يتمتعون بدعم من برنامج Medicaid </li><li> مراكز الصحة الأسرية </li><li> المراكز المجتمعية للصحة العقلية </li><li> مراكز العلاج من الكحوليات والمخدرات </li><li> دور الرعاية </li><li> دور تبني الأطفال </li><li> وكالات التبني العامة والخاصة ووكالات تبنّي الأطفال </li><li> مراكز الرعاية النهارية </li><li> مراكز كبار السن </li><li> برامج التغذية </li><li> أي كيان تم إنشاؤه بموجب قانون Affordable Care Act (قانون الرعاية الميسورة) </li><li> برامج وشركات التأمين الصحي </li><li> مؤسسات الحفاظ على الصحة (HMO) </li><li> الصيدليات </li><li> ملاجئ للمشردين </li><li> الباحثون في مجال الصحة </li></ul><br/> يمكنك تقديم شكوى عن نفسك أو مؤسستك أو عن شخص آخر.</p>
+				</div>
+			</td>
+
+			<td><img src="../images/blank.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="1" width="5" /></td>
+			<td style="background-color: #0D4092;"><img src="../images/blank.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="1" width="1" /></td>
+			<td><img src="../images/blank.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="1" width="5" /></td>
+			<td style="vertical-align: top; width: 25%">
+				<div class="banner">
+					 خصوصية المعلومات الصحية
+				</div>
+				<div style="width: 95%;padding-left:5px;">
+					<p><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt53':'ocrForm:j_idt53'},'');return false">تقديم شكوى حول خصوصية المعلومات الصحية</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt55':'ocrForm:j_idt55'},'');return false">تقديم شكوى بخصوص انتهاك قاعدة الأمان</a><br /><br />
+
+						
+						
+
+						
+						
+
+					</p>
+					<p>إذا كنت تعتقد أن إحدى الهيئات المشمولة قد انتهكت حقوق خصوصية معلوماتك الصحية (أو شخص آخر)، أو ارتكبت انتهاكًا آخر يندرج ضِمن خصوصية Health Insurance Portability and Accountability Act (HIPAA، إخضاع قانون التأمين الصحي لقابلية النقل والمحاسبة)، والأمان، وقواعد الإبلاغ عن وجود خرق أو قانون سلامة المرضى، فيمكنك تقديم شكوى إلى مكتب Office for Civil Rights (OCR). <br/> فيما يلي بعض الأمثلة للهيئات المشمولة التي يجب أن تلبي متطلبات أمان الخصوصية الاتحادية وقواعد الإبلاغ عن وجود خرق: <ul><li>البرامج الصحية </li><li>شركات مقاصة الرعاية الصحية </li><li>وموفرو الرعاية الصحية الذين ينجزون جزءًا من أعمالهم إلكترونيًّا باستخدام معاملات تتوافق مع قانون HIPAA.</li></ul><br/> من الممكن أن يحقق مكتب OCR في الشكاوى ضد الهيئات المشمولة والشركات التابعة لها في العمل.  يمكنك تقديم شكوى نيابة عن نفسك، أو مؤسستك، أو نيابة عن شخص آخر.
+					</p>
+
+				</div>
+			</td>
+			<td><img src="../images/blank.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="1" width="5" /></td>
+			<td style="background-color: #0D4092;"><img src="../images/blank.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="1" width="1" /></td>
+			<td><img src="../images/blank.gif;jsessionid=6E9B6CD64BDE1BD4E63EBBB666049D03" alt="" height="1" width="5" /></td>
+			<td style="vertical-align: top; width: 25%">
+				<div class="banner">
+					 اللغة
+				</div>
+				<div style="width: 95%;padding-left:5px;">
+					<p><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt68':'ocrForm:j_idt68'},'');return false">How to file a complaint - English</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt70':'ocrForm:j_idt70'},'');return false">怎樣提出投訴 - 中文</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt72':'ocrForm:j_idt72'},'');return false">불만 제기 방법 - 한국어</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt74':'ocrForm:j_idt74'},'');return false">Jak złożyć skargę? - Polski</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt76':'ocrForm:j_idt76'},'');return false">Как подать жалобу - Pусский</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt78':'ocrForm:j_idt78'},'');return false">Cómo presentar una denuncia - Español</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt80':'ocrForm:j_idt80'},'');return false">Paano magsampa ng reklamo - Tagalog (Filipino)</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt82':'ocrForm:j_idt82'},'');return false">Cách gửi khiếu nại - Tiếng Việt</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt84':'ocrForm:j_idt84'},'');return false">كيفية تقديم شكوى - عربى</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt86':'ocrForm:j_idt86'},'');return false">نحوه طرح شکایت - فارسی</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt88':'ocrForm:j_idt88'},'');return false">Comment déposer une plainte - français</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt90':'ocrForm:j_idt90'},'');return false">So kann man Beschwerde einlegen - Deutsche</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt92':'ocrForm:j_idt92'},'');return false">Kòman pou-w pote yon plent - kreyòl-franse</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt94':'ocrForm:j_idt94'},'');return false">Come presentare un reclamo - italiano</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt96':'ocrForm:j_idt96'},'');return false">苦情の申請方法 - 日本語</a><br /><br /><a href="#" onclick="mojarra.jsfcljs(document.getElementById('ocrForm'),{'ocrForm:j_idt98':'ocrForm:j_idt98'},'');return false">Como apresentar uma reclamação - Português</a><br /><br />
+
+					</p>
+				</div>
+			</td>
+		</tr>
+	</table><p xmlns="http://www.w3.org/1999/xhtml" style="clear:both;">
+	<br />إذا احتجت إلى المساعدة لتقديم شكوى بخصوص الحقوق المدنية، أو حرية الاعتقاد والدين أو خصوصية المعلومات الصحية، فيُرجى مراسلة مكتب OCR عبر OCRMail@hhs.gov أو الاتصا نوفر تن 1019-368-800-1. سيقات مختلفة (مثل طريقة برايل للقراءة والطباعة بحجم كبير)، ومساعدات وخدمات ملائمة (مثل خدمة تسهيل التواصل)، والمساعدة اللغوية.
+	<br /><br />وإذا احتجت إلى مساعدة أخرى على هذا الموقع الإلكتروني المترجم أو المتوفر بتنسيقات بديلة، فيُرجى إرسال بريد إلكتروني إلينا عبر OCRMail@hhs.gov.
+</p><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="7626993696243627652:-5501253625212029131" autocomplete="off" />
+</form>
+
+					</div>
+				</div>
+			</div>
+
+    <div>  </div>
+
+    <div id="footerNew">
+        <div id="footerContent">
+            U.S. Department of Health &amp; Human Services - 200 Independence Avenue, S.W. - Washington, D.C. 20201
+            
+
+            <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" style="float: right; color:#FFFFFF;">HHS Vulnerability Disclosure</a>
+        </div>
+        <div id="footerPadding"></div>
+    </div>
+		</div></body>
+</html>

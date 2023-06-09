@@ -1,0 +1,7 @@
+Content-Length: 0
+Location: https://www.hhs.gov/foia/index.html
+Date: Fri, 09 Jun 2023 18:44:01 GMT
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Server-Timing: ak_p; desc="1686336240698_388836646_229401514_18_324044_124_44_-";dur=1
+Strict-Transport-Security: max-age=31536000;includeSubDomains;preload

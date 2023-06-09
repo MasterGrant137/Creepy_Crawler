@@ -1,0 +1,18 @@
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Location: https://annex.exploratorium.edu/imaging_station/index.php
+Server: nginx
+Strict-Transport-Security: max-age=31622400; includeSubDomains; preload
+X-Other-Status-Code: 200
+X-Pantheon-Styx-Hostname: styx-fe1-a-76d97c5bc4-hkn98
+X-Styx-Req-Id: fb919481-0685-11ee-9fcd-fa05337762ee
+Cache-Control: public, max-age=86400
+Date: Fri, 09 Jun 2023 05:25:02 GMT
+X-Served-By: cache-chi-kigq8000176-CHI, cache-bur-kbur8200169-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1686288302.570385,VS0,VE1078
+Vary: Cookie, Cookie
+Age: 0
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish

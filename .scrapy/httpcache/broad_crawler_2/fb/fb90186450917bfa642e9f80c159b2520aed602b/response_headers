@@ -1,0 +1,26 @@
+Content-Length: 13499
+Server: nginx
+Date: Fri, 09 Jun 2023 17:47:14 GMT
+Content-Type: text/html; charset=utf-8
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Powered-By: PHP/7.4.33
+X-Drupal-Cache: HIT
+Etag: "1686327485-1"
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <https://ncats.nih.gov/director>; rel="canonical",<https://ncats.nih.gov/node/289>; rel="shortlink"
+Cache-Control: public, max-age=300
+Last-Modified: Fri, 09 Jun 2023 16:18:05 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Content-Encoding: gzip
+X-Varnish: 8628393
+Age: 0
+Via: 1.1 varnish-v4
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block

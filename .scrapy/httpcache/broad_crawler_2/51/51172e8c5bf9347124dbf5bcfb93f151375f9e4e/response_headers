@@ -1,0 +1,10 @@
+Content-Length: 0
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html;charset=UTF-8
+Location: /policy/nihgps/index.htm
+Set-Cookie: CFID=24252362; Expires=Sun, 01-Jun-2053 17:06:37 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: CFTOKEN=7711b19e72c16cd6-4B3D99AC-D214-CEE1-84526983C9BEF9EA; Expires=Sun, 01-Jun-2053 17:06:37 GMT; Path=/; Secure; HttpOnly
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Date: Fri, 09 Jun 2023 17:06:37 GMT

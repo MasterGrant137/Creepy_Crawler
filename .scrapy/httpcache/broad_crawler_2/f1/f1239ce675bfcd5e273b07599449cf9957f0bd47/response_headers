@@ -1,0 +1,30 @@
+Content-Length: 26481
+Content-Type: text/html; charset=UTF-8
+X-Drupal-Route-Normalizer: 1
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+Location: https://www.irs.gov/affordable-care-act/employers
+X-Request-Id: v-06bba1f8-06f3-11ee-8b97-4f4cddac2e06
+X-Ah-Environment: prod
+X-Age: 0
+X-Edgeconnect-Midmile-Rtt: 0
+X-Edgeconnect-Midmile-Rtt: 10
+X-Edgeconnect-Midmile-Rtt: 1
+X-Edgeconnect-Origin-Mex-Latency: 239
+X-Edgeconnect-Origin-Mex-Latency: 239
+X-Edgeconnect-Origin-Mex-Latency: 239
+Cache-Control: public, max-age=400
+Expires: Fri, 09 Jun 2023 18:32:15 GMT
+Date: Fri, 09 Jun 2023 18:25:35 GMT
+Set-Cookie: AKA_A2=A; expires=Fri, 09-Jun-2023 19:25:35 GMT; path=/; domain=irs.gov; secure; HttpOnly
+Set-Cookie: _abck=485F65B972E45571722BFEC7093A38D6~-1~YAAQjg8kF/m/pYqIAQAA5R9ooQqJr4KTx93x45ysTfZwkUWEROe8Diye6lalEfDJt+GoRcZit+duFAor/4rBT4Vb0s8U16Ip8cwH9ct428q8ud1EujE+dVqMuLOr/ReOaNozL0Ph13BEkm1gCCVvzA+YWGDqy6n/KLTT92N22NV2krUdxXWcM0UI5uXYnhUfkjmBDD+dKA++O1p/pyGco1iz6sSlrPeJPDhZjpu0bmkuh5NUiqJcXZ2WmALiMdUKi0iPl5sYRKEini+r8YFQ66U0A4+wip7focJvMZ9+E7fXs1aMjfC8l0fGokzQxpoi7JULPLUi2qKAxHwSMDto9YYbm2fb9Gju/pojIKFcxt1wekxx2u0=~-1~-1~-1; Domain=.irs.gov; Path=/; Expires=Sat, 08 Jun 2024 18:25:35 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=8EFEA146DC631A5BBE85DD8B07D2C46F~YAAQjg8kF/q/pYqIAQAA5R9ooRTgxZqvJZ5U2FuKTsttNgemry+EJNcyuN2bzG2Kxgw7k4ckZYCqt4urrIkEAr3syF2ZYsaQ0BDYLz8y1U5TbT2xD/aIp3rWFSqDv7pt/EiJaoMmV/u0ODPXYV2OGgZlnX9gcQfzQxc7RULAc+ItfPBvB5bkA0AZGrBX01aQ1SutQaKERD3S1w9xeRvWt04Dm4UE0kF0SRhqvbavVpJMS68DbjtWCpHK6bjyJOtYmUOgJ0O8ru8x1ypZHfgCDo75lTLP25Ze+8L3WreuDDc=~3162433~3158840; Domain=.irs.gov; Path=/; Expires=Fri, 09 Jun 2023 22:25:35 GMT; Max-Age=14400
+Server-Timing: cdn-cache; desc=REVALIDATE
+Server-Timing: edge; dur=51
+Server-Timing: origin; dur=239
+Server-Timing: ak_p; desc="1686335135414_388239246_757797533_29051_12000_86_0_-";dur=1
+Link: <https://static.addtoany.com>;rel="preconnect",<https://js-agent.newrelic.com>;rel="preconnect",<https://www.google-analytics.com>;rel="preconnect",<https://resources.digital-cloud-gov.medallia.com>;rel="preconnect"
+Strict-Transport-Security: max-age=31536000

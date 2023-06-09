@@ -1,0 +1,19 @@
+Content-Type: text/html
+X-Amz-Id-2: NK10RGxiJu2BluXX75D7792dGu+fjLfvVhg+MxH+YaPhPqfy+kaI+terTs2s2UtA+GAWn1vXu+k=
+X-Amz-Request-Id: N7FZBHJ18037DM4Q
+X-Amz-Replication-Status: COMPLETED
+Last-Modified: Sun, 27 Nov 2022 14:03:00 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: RTwm9Fgvu6rjdYAT8f6tR8fOtslnv0pU
+Server: AmazonS3
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Security-Policy-Report-Only: default-src 'none'; font-src fonts.gstatic.com maxcdn.bootstrapcdn.com use.fontawesome.com data: *.nlm.nih.gov; connect-src google-analytics.com siteintercept.qualtrics.com stats.g.doubleclick.net *.nlm.nih.gov; frame-src platform.twitter.com www.google.com; img-src 'self' data: www.google-analytics.com www.googletagmanager.com gtrk.s3.amazonaws.com stats.g.doubleclick.net co1.qualtrics.com; media-src 'self'; object-src 'self'; script-src 'self' 'unsafe-inline' *.nlm.nih.gov ajax.googleapis.com siteintercept.qualtrics.com www.google-analytics.com dap.digitalgov.gov www.googletagmanager.com code.jquery.com *.cloudfront.net; style-src 'self' 'unsafe-inline' fonts.googleapis.com use.fontawesome.com maxcdn.bootstrapcdn.com *.nlm.nih.gov code.jquery.com cdn.datatables.net; upgrade-insecure-requests; report-uri https://nlmoccs.report-uri.com/r/d/csp/reportOnly
+Content-Encoding: gzip
+Date: Fri, 09 Jun 2023 17:32:19 GMT
+Etag: W/"ff7ccc6ae282a385bd414c8bcf6d59f6"
+Vary: Accept-Encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 60a739d966f0e7be8035a21cab92a320.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX53-P1
+X-Amz-Cf-Id: J59NHEKvi-ZNZsrVIwNmLzux_RjHQOT4iuj89VM1fjtN0Crxr5QdpQ==

@@ -1,0 +1,18 @@
+Content-Length: 147
+Content-Type: text/plain
+Content-Encoding: gzip
+Last-Modified: Thu, 31 Dec 2020 20:45:04 GMT
+Accept-Ranges: bytes
+Etag: "dcb4f9d0b5dfd61:0"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-Sharepointhealthscore: 0
+Sprequestguid: cb0bbba0-ba73-c0ca-6d79-727b5e588664
+Request-Id: cb0bbba0-ba73-c0ca-6d79-727b5e588664
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+Microsoftsharepointteamservices: 16.0.0.10398
+X-Content-Type-Options: nosniff
+X-Ms-Invokeapp: 1; RequireReadOnly
+Date: Fri, 09 Jun 2023 05:10:08 GMT
+Strict-Transport-Security: max-age=31557600; includeSubDomains; preload

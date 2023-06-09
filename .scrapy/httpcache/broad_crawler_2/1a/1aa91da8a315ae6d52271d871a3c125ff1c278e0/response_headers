@@ -1,0 +1,18 @@
+Content-Length: 34641
+Server: nginx
+Date: Thu, 08 Jun 2023 20:05:03 GMT
+Content-Type: text/html; charset=UTF-8
+X-Build-Back-Better: https://usds.gov/
+X-Frame-Options: DENY
+Referrer-Policy: strict-origin-when-cross-origin
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests
+X-Rq: bur6 96 185 443
+Cache-Control: max-age=300, must-revalidate
+Content-Encoding: gzip
+Age: 264
+X-Cache: hit
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000;includeSubdomains;preload

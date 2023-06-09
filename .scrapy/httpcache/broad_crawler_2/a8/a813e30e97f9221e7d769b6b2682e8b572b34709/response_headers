@@ -1,0 +1,22 @@
+Content-Length: 684
+Cache-Control: private,max-age=0
+Content-Type: text/html
+Expires: Thu, 25 May 2023 17:28:44 GMT
+Accept-Ranges: bytes
+Server: 
+X-Sharepointhealthscore: 0
+Public-Extension: http://schemas.microsoft.com/repl-2
+Sprequestguid: 0e36bba0-0790-70c9-856b-ff10f8adb3e6
+Request-Id: 0e36bba0-0790-70c9-856b-ff10f8adb3e6
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+Sprequestduration: 24
+Spiislatency: 0
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Strict-Transport-Security: max-age=31557600; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Ms-Invokeapp: 1; RequireReadOnly
+X-Xss-Protection: 1
+Date: Fri, 09 Jun 2023 17:28:43 GMT
+Set-Cookie: asig_persistence=!YuOZk3UhYzm4gb644YFRk8uGDvae/2tjeTwUKW07pkCS9fjd2WEQ0L97KnqGcwgFWQNO1DEus2FmCwU=; Path=/; Version=1; Secure

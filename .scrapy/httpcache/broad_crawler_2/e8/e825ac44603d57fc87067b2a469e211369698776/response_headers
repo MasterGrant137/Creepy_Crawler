@@ -1,0 +1,14 @@
+Content-Length: 0
+Location: https://www.healthcare.gov/keep-or-change-plan/choices/
+Date: Fri, 09 Jun 2023 17:46:08 GMT
+Set-Cookie: optimizelyEndUserId=3faad61736600300606583644f00000042230000; expires=Sun, 08-Jun-2025 17:46:08 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: _ga=GA1.2.59950121.1686332768; expires=Sun, 08-Jun-2025 17:46:08 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: akavpau_vp1=1686333068~id=b1d4959453e7dfd3ff08920efb30e8ec; Path=/; HttpOnly; Secure; SameSite=None
+Set-Cookie: _abck=5A83557F9E74F8A11C42B53CC9B6CBC0~-1~YAAQP6rWF3kqe52IAQAAT/9DoQoYiGNSFu2OPrevvsI4j5TCiCXW9yPZR3KKFn57oSLyQkZqDzvZDKHJCFVgKmwlMQJ4ThV/ONsGDidUZ60NFCpvtRcZ0moLCLVy6mW4dz4I3u6xL2qPGKiNOSPi3lhlZFj/Es2YKmdUfQkEdgis/IcDn7zaIFXcdqe2kifi9KM32l4fBmLKDWgO7RVPlose05X0l/Hl4PIFBm3zDqcbUvRYiLeJBwoD1Cl2LAJAyb5yVbtyA6t6iOAKfCjfP2RrsBn3BCO11XqVIHjsAMnoVYM6fKPJ+sY1GGeDKtAn0bUEOXKNHSKoKJDZMISFt0AHOhXY2z6Hg2IpEC4TsP/sxhqeZ9hfkcSuNUJq~-1~-1~1686336314; Domain=.healthcare.gov; Path=/; Expires=Sat, 08 Jun 2024 17:46:08 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=F21BBD4D3A7D09D3298BB84C295D8C7A~YAAQP6rWF3oqe52IAQAAT/9DoRT/Sba1J+rN16Bk66O1xM91AG4FikLlh1Ct10Oc1DfGI8BGd+ClvtunLWbys5HpQEETswSzvWQ0BcE4y+qc2Chtltzg7HNYddH5A6t5fcpTjJkjOKBI9J7BdBe7qPRkbv/HC3nEkOejDbBCUvc0MBvDGdu8QR6WoQ+QneoxERDnTvFuqLKu7v5775orcBUEyFpgp1csxqcg2pWwT+eLbsi5PHFAvBNvDkJCQptwLONWm7hdPd7zcS+Qoen58tle/ZKFvPrUaqq9xQNbZqJd3E6DCjWr~3617843~3555633; Domain=.healthcare.gov; Path=/; Expires=Fri, 09 Jun 2023 21:46:08 GMT; Max-Age=14400
+Cache-Control: max-age=0
+Strict-Transport-Security: max-age=31536000 ; preload
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+X-Frame-Options: SAMEORIGIN
+Server-Timing: ak_p; desc="1686332767823_399944255_88451392_19_40560_264_215_-";dur=1

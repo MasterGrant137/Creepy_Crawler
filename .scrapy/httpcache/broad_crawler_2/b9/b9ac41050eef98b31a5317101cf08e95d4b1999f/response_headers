@@ -1,0 +1,24 @@
+Content-Length: 12295
+Content-Type: text/html; charset=UTF-8
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Last-Modified: Fri, 09 Jun 2023 18:44:44 GMT
+Etag: "1686336284"
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+Content-Security-Policy: frame-ancestors 'self' hhs.gov *.hhs.gov
+X-Request-Id: 5baffbd6f82cfa1fecdcd8a2e5a75370
+X-Akamai-Transformed: 9 48683 0 pmb=mRUM,2
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: public, max-age=3600
+Date: Fri, 09 Jun 2023 18:44:45 GMT
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=109
+Server-Timing: origin; dur=778
+Server-Timing: ak_p; desc="1686336284644_388836646_229455861_88676_9423_104_52_-";dur=1
+Strict-Transport-Security: max-age=31536000;includeSubDomains;preload

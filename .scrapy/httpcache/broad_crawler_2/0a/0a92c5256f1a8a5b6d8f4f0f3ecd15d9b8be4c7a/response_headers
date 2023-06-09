@@ -1,0 +1,15 @@
+Date: Fri, 09 Jun 2023 17:32:18 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Referrer-Policy: origin-when-cross-origin
+Content-Security-Policy: upgrade-insecure-requests
+Last-Modified: Wed, 07 Jun 2023 20:09:23 GMT
+Accept-Ranges: bytes
+Cache-Control: max-age=86400
+Expires: Sat, 10 Jun 2023 17:32:18 GMT
+Content-Type: text/html
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Ua-Compatible: IE=Edge
+X-Xss-Protection: 1; mode=block
+Access-Control-Allow-Origin: *

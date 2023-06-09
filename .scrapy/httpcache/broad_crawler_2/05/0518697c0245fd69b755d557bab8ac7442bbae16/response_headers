@@ -1,0 +1,14 @@
+Content-Length: 20065
+Cache-Control: must-revalidate, no-cache, private
+Allow: GET, POST, HEAD
+Content-Type: text/html; charset=UTF-8
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Server: Microsoft-IIS/10.0
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 10 (https://www.drupal.org)
+X-Powered-By: ASP.NET
+Strict-Transport-Security: max-age=31536000
+Date: Fri, 09 Jun 2023 17:34:13 GMT

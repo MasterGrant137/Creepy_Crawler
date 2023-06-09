@@ -1,0 +1,15 @@
+Content-Length: 11160
+Content-Type: text/html; charset=utf-8
+Date: Fri, 09 Jun 2023 18:54:29 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Encoding: gzip
+Expires: -1
+Pragma: no-cache
+Set-Cookie: Dynamics365PortalAnalytics=qSV8xnbTuoFHXx0bWpmhhtIjw787RO_N7Dhfrx0eYT-63mnQvZHFFTgoe-T1vaWSmf1B0GuB1No1WE6cCVUPyFfqYOtaUuPnefP7OTzZCXQee2viJCYOLDL-DkA4jFSkRK1t3bx_E4VJMGZpKvEhjw2; expires=Thu, 07-Sep-2023 18:54:29 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: ASP.NET_SessionId=ib3gho3efpxon3p1he41pvp4; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: ARRAffinity=b3f3854069a920783b2f4e9617ba6ad480d94791ff61f014a7f534c89c965351;Path=/;HttpOnly;Secure;Domain=support.nlm.nih.gov
+Set-Cookie: ARRAffinitySameSite=b3f3854069a920783b2f4e9617ba6ad480d94791ff61f014a7f534c89c965351;Path=/;HttpOnly;SameSite=None;Secure;Domain=support.nlm.nih.gov
+Vary: Accept-Encoding
+X-Ms-Request-Id: 67a5c932-bf4b-4ae6-bcd2-f7aa6e32d158
+X-Ms-Portal-App: site-bf31cb1c-ac53-4cc2-9ad4-db81f24f361d-GCv
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

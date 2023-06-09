@@ -1,0 +1,11 @@
+Content-Length: 204432
+Content-Type: text/html
+Srv: 4
+Access-Control-Allow-Origin: *
+X-Ua-Compatible: IE=edge
+Date: Fri, 09 Jun 2023 17:43:36 GMT
+Set-Cookie: TS0196e5be=012409b3531e616ed763e9c45b1706212d9e3e3842b95e54566eee5fba21feb4f8163cc6b23f0f03e02121bf06f9a1be50f5264e26; Path=/; Domain=.www.cdc.gov; Secure; HTTPOnly
+Set-Cookie: akamai_visit_id=37f00f1732616cecdf5Z; expires=Sun, 08-Jun-2025 17:43:36 GMT; path=/; domain=.cdc.gov; secure; HttpOnly
+Set-Cookie: Akamai-Request-ID=37f00f1732616cecdf5Z; path=/; domain=cdc.gov
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+Server-Timing: ak_p; desc="1686332616213_386920503_47107573_7013_6721_172_58_-";dur=1

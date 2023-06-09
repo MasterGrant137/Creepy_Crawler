@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<title>Our Apologies (Error 500 - Internal Server Error)</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+<style type="text/css">
+body {
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+        background: #006699;
+        text-align: center;
+        color: #666;
+        margin: 64px 0;
+
+}
+h1 {
+        font-weight: normal;
+        margin-top: 0;
+        font-size: 32px;
+        color: #555;
+        font-weight: 300;
+
+}
+div {
+		width: 100%;
+		max-width: 520px;
+        margin: 0 auto;
+        background: #fff;
+        box-sizing: border-box;
+}
+div div {
+        padding: 64px 32px;
+
+}
+a, a:visited {
+	color: #006699;
+}
+a:active {
+	opacity: .8;
+}
+a:hover {
+	color: #004f77;	
+}
+</style>
+</head>
+<body>
+<div>
+<div>
+<h1>Our Apologies</h1>
+<p>We experienced a problem handling your request.</p>
+<p>This issue has been logged and will be resolved by our technical team shortly. Please try again at your convenience. Thank you for your patience.</p>
+<p>For details, please see our <a href="http://sympstatus.com" target="_blank">network status</a>.</p>
+</div>
+</div>
+</body>
+</html>

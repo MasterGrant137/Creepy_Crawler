@@ -1,0 +1,29 @@
+Content-Length: 28944
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=2764800, public
+X-Drupal-Dynamic-Cache: MISS
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 09 Jun 2023 18:13:02 GMT
+Etag: "1686334382"
+X-Generator: Drupal 9 (https://www.drupal.org)
+Vary: Accept-Encoding
+X-Request-Id: v-45cbcd84-06f1-11ee-8b0c-eb273ccff9af
+X-Ah-Environment: prod
+X-Cache-Hits: 7
+X-Age: 0
+Accept-Ranges: bytes
+X-Akamai-Transformed: 9 - 0 pmb=mRUM,1
+Content-Encoding: gzip
+Date: Fri, 09 Jun 2023 19:09:19 GMT
+Set-Cookie: _ga=GA1.2.1984926306.1686337759; expires=Sun, 08-Jun-2025 19:09:19 GMT; path=/; domain=.cms.gov; secure
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Server-Timing: ak_p; desc="1686337759444_388836659_136331967_99_39669_263_183_-";dur=1
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+Strict-Transport-Security: max-age=31536000

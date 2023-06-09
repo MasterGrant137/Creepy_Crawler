@@ -1,0 +1,13 @@
+Content-Length: 1821
+Date: Wed, 07 Jun 2023 23:03:16 GMT
+Server: Varnish
+X-Cache: cp4041 int
+X-Cache-Status: int-front
+Server-Timing: cache;desc="int-front", host;desc="cp4041"
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Report-To: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+Nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
+Set-Cookie: WMF-Last-Access=07-Jun-2023;Path=/;HttpOnly;secure;Expires=Sun, 09 Jul 2023 12:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=07-Jun-2023;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Sun, 09 Jul 2023 12:00:00 GMT
+X-Client-Ip: 47.158.30.50
+Content-Type: text/html; charset=utf-8

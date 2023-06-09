@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /ControlPanel
+Disallow: /Server
+Disallow: /CP
+Disallow: /360
+Disallow: /SD
+Disallow: /SI
+Disallow: /WRQualtricsControlPanel
+Disallow: /WRQualtricsServer
+Disallow: /WRQualtrics360
+Disallow: /WRQualtricsSiteIntercept
+Disallow: /WRQualtricsContacts
+Disallow: /Contacts
+Disallow: /dg-service
+Disallow: /tractive
+Disallow: /iq-directory

@@ -1,0 +1,21 @@
+Content-Length: 406
+Date: Fri, 09 Jun 2023 17:28:44 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: AWSALB=3uEiGiEwFl9+Sf81gqznXzflm2u5+qdkozzLgW9WBmpkDyQIXNGBA8Nw1F0LmK3G8/HHHI6plSMHxTu5Cm3RU6T4o8cFDdhjC/9KakjAsqjG3KrtztcqQMMUpjww; Expires=Fri, 16 Jun 2023 17:28:44 GMT; Path=/
+Set-Cookie: AWSALBCORS=3uEiGiEwFl9+Sf81gqznXzflm2u5+qdkozzLgW9WBmpkDyQIXNGBA8Nw1F0LmK3G8/HHHI6plSMHxTu5Cm3RU6T4o8cFDdhjC/9KakjAsqjG3KrtztcqQMMUpjww; Expires=Fri, 16 Jun 2023 17:28:44 GMT; Path=/; SameSite=None; Secure
+Server: nginx
+X-Powered-By: PHP/8.1.7
+Location: https://www.niaid.nih.gov/research/rules
+X-Drupal-Route-Normalizer: 1
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+X-Varnish: 17268986
+Age: 0
+Via: 1.1 varnish (Varnish/6.3)
+X-Varnish-Cache: MISS

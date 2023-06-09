@@ -1,0 +1,22 @@
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 09 Jun 2023 17:06:37 GMT
+Set-Cookie: AWSALB=fj7q2dKroDquf4gHX8X1y2n2tMA1wnfIzfkR11OC56D0gIMbvjPJJa2o5rzqBs/c9BXTZJKSJoYIPdjgRYCm2H13cHOMm58IykYQjHkKwmHJF/fJdvC/vnf1CCi0; Expires=Fri, 16 Jun 2023 17:06:37 GMT; Path=/
+Set-Cookie: AWSALBCORS=fj7q2dKroDquf4gHX8X1y2n2tMA1wnfIzfkR11OC56D0gIMbvjPJJa2o5rzqBs/c9BXTZJKSJoYIPdjgRYCm2H13cHOMm58IykYQjHkKwmHJF/fJdvC/vnf1CCi0; Expires=Fri, 16 Jun 2023 17:06:37 GMT; Path=/; SameSite=None; Secure
+Server: Apache/2.4.57
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Redirect-Id: 5106
+Location: https://health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: same-origin
+X-Drupal-Cache: MISS
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: health.gov https://d1il786i4vdqy4.cloudfront.net https://dap.digitalgov.gov https://platform.twitter.com https://www.google.com https://syndication.twitter.com https://abs.twimg.com https://pbs.twimg.com https://cdn.syndication.twimg.com https://ton.twimg.com https://fonts.googleapis.com https://www.googletagmanager.com https://tagmanager.google.com https://themes.googleusercontent.com https://analytics.google.com https://www.google-analytics.com https://*.gstatic.com https://stats.g.doubleclick.net https://www.youtube.com https://www.youtube-nocookie.com survey.alchemer.com *.ytimg.com, frame-ancestors 'self'
+X-Frame-Options: SAMEORIGIN
+X-Cache: Miss from cloudfront
+Via: 1.1 1d05b7ddc539940764dae5665a215c4e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX53-P3
+X-Amz-Cf-Id: R5mf4c9HH3kLlzwl1c5TXffu7sP4HqZi0kPtnRouAfxdmsO58Tu1xg==

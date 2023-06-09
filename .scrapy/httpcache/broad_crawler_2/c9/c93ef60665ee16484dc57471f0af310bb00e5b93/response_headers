@@ -1,0 +1,14 @@
+Content-Length: 0
+Location: https://www.healthcare.gov/have-coverage/
+Date: Fri, 09 Jun 2023 16:33:47 GMT
+Set-Cookie: optimizelyEndUserId=3cad3c17941e02006b5483645a010000db4a0000; expires=Sun, 08-Jun-2025 16:33:47 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: _ga=GA1.2.1688713205.1686328427; expires=Sun, 08-Jun-2025 16:33:47 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: akavpau_vp1=1686328727~id=6b74857c8f838df8c123d4edecc99860; Path=/; HttpOnly; Secure; SameSite=None
+Set-Cookie: _abck=4A3A464C00D4C5C6543D356CD4DEAF66~-1~YAAQPK08F6nF3ZeIAQAAUsMBoQrFEvsEj9X7HZgQndUKqzX0srBfx+DAnME5R4e3TdYc1e4mvWk86BaqiJNWY+Ac7W4FHb3KCuC8AyRy9tpon3rzRWMy9hRLH7K92BcVM/8o5GQWoLDUl/HCRyG0vInXgq6YiXx+gqI4FHI7qMr8KQEjx2pM/dq4qhY3JFoqjnjQHVPEenf6XXq31labFNzJY2/EK87gfZqTlLzluHS8yr6B5hHi+XXsgPqNYmh3R1rjchntjmUV6Qx/iXs8jzv7DWOW4Rt3FxRsqAURe0wiW9kes05KAaREUeEgD3mRpPfrmIoLnQh6W9JGuBYShbRvSUF5qWldVKlQ7fNfvWjpNQkhlPz4hvc+jToV~-1~-1~1686331975; Domain=.healthcare.gov; Path=/; Expires=Sat, 08 Jun 2024 16:33:47 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=5B4CB80BFF4145564E6F2A611A4A358F~YAAQPK08F6rF3ZeIAQAAUsMBoRTXArlKHdkiwv4qKnBjHzeIuZKMWx4JFwnyROv5g1fzvLtaYqsQA05gns/+TjzKw+n6bsTgIr1Q6rinPyJFDV7ISa5UNPPZ3Vbdq2qaRfDbWMktHtU8S86LfyBDf3Dr/I7vZwnz9+8ZeqlpJ6PLDoUUzm2KMw5y2teCYp8o3Z1CQTN86iFf7osTJDLwpJjnxvPya4fZZgejOxg0ycL4s6c09ioo3/FSutXfFJUp8hM/NK5CaUaum9QXwiDbHjhVFg4D40aTmq1edOfIPam5gLuaNEza~3159603~4408389; Domain=.healthcare.gov; Path=/; Expires=Fri, 09 Jun 2023 20:33:47 GMT; Max-Age=14400
+Cache-Control: max-age=0
+Strict-Transport-Security: max-age=31536000 ; preload
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+X-Frame-Options: SAMEORIGIN
+Server-Timing: ak_p; desc="1686328426783_389852476_371297340_16_15579_561_546_-";dur=1

@@ -1,0 +1,16 @@
+Content-Length: 91
+Last-Modified: Mon, 17 Apr 2023 09:04:03 GMT
+Etag: "0983abcd197e1566c931e7397001ba37"
+X-Amz-Server-Side-Encryption: AES256
+Cache-Control: max-age=60, must-revalidate
+Accept-Ranges: bytes
+Content-Type: text/plain
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Fri, 09 Jun 2023 05:15:17 GMT
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET,HEAD,OPTIONS
+Access-Control-Allow-Origin: *
+Server-Timing: ak_p; desc="1686287717167_388836536_59008663_30983_948_168_100_-";dur=1

@@ -1,0 +1,27 @@
+Server: nginx
+Date: Fri, 09 Jun 2023 18:44:01 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: must-revalidate, no-cache, private
+Content-Security-Policy-Report-Only: report-uri /report-csp-violation; upgrade-insecure-requests
+X-Content-Security-Policy-Report-Only: report-uri /report-csp-violation; upgrade-insecure-requests
+X-Webkit-Csp-Report-Only: report-uri /report-csp-violation; upgrade-insecure-requests
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Referrer-Policy: no-referrer-when-downgrade
+Feature-Policy: accelerometer none; ambient-light-sensor none; autoplay none; camera none; document-write self; encrypted-media self; fullscreen self; geolocation self; gyroscope self; layout-animations self; lazyload self; legacy-image-formats self; magnetometer none; m
+X-Frame-Options: SAMEORIGIN
+Allow: GET, POST, HEAD
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Drupal-Cache-Tags: 4xx-response block_content:11 block_content:2 block_content:6 block_content_view block_view config:block.block.aspe_uswds_account_menu config:block.block.aspe_uswds_breadcrumbs config:block.block.aspe_uswds_content config:block.block.aspe_uswds_help config:block.block.aspe_uswds_local_actions config:block.block.aspe_uswds_local_tasks config:block.block.aspe_uswds_messages config:block.block.aspeaddressandphone config:block.block.aspeemailsignup config:block.block.aspeheadercontent config:block.block.aspeheaderimages config:block.block.aspesearch config:block.block.aspetwitterfeed config:block.block.betterresearchforbetterpolicy config:block.block.collaborationscommitteesadvisorygroups config:block.block.connectwithus config:block.block.exposedformadvanced_search_solr_7page_1 config:block.block.footer config:block.block.locationgeographybaseddata config:block.block.mainnavigation config:block.block.mainnavigation_2 config:block.block.mainnavigation_3 config:block.block.mainnavigation_4 config:block.block.mainnavigation_5 config:block.block.offices config:block.block.pagetitle config:block.block.populations config:block.block.producttypes config:block.block.programs config:block.block.sitebranding config:block.block.sortbyadvancedsearchsolr7 config:block.block.topics config:block.block.views_block__aspe_offices_block_1 config:block.block.views_block__aspe_offices_block_2 config:block.block.views_block__collab_commit_advis_groups_block_1 config:block.block.views_block__taxonomy_term_block_1 config:block_list config:color.theme.aspe_uswds config:easy_breadcrumb.settings config:extlink.settings config:filter.format.basic_html config:filter.format.full_html config:system.menu.footer config:system.menu.main config:system.site config:user.role.anonymous http_response local_task node:265286 node:51 node:6 rendered taxonomy_term:1236 taxonomy_term:166 taxonomy_term:167 taxonomy_term:169 taxonomy_term:170 taxonomy_term:438 taxonomy_term:439 taxonomy_term:440 taxonomy_term:441 taxonomy_term:442 taxonomy_term:443 taxonomy_term:445 taxonomy_term:446 taxonomy_term:447 taxonomy_term:448 taxonomy_term:449 taxonomy_term:450 taxonomy_term:451 taxonomy_term:452
+X-Drupal-Cache-Contexts: cookies:big_pipe_nojs languages route session.exists theme url.path url.query_args:_wrapper_format user.permissions
+X-Drupal-Cache-Max-Age: 0 (Uncacheable)
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-999d7620-06f5-11ee-bd55-63185530e81e
+X-Ah-Environment: prod
+Age: 0
+Via: varnish
+X-Cache: MISS

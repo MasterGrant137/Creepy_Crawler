@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/nih_site/themes/nih/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="http://womeninscience.nih.gov/home-page" />
+<link rel="shortlink" href="http://womeninscience.nih.gov/node/21" />
+
+    <title>Home Page | Women in Science</title>
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-91898339-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9D76JM1LFB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-9D76JM1LFB');
+    </script>
+
+    <link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/ajax-progress.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/align.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/autocomplete-loading.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/fieldgroup.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/container-inline.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/clearfix.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/details.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/hidden.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/item-list.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/js.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/nowrap.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/position-container.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/progress.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/reset-appearance.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/resize.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/sticky-header.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-counter.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-counters.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-general-info.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tabledrag.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tablesort.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tree-child.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/views/views.module.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/modules/contrib/paragraphs/css/paragraphs.unpublished.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/core/assets/vendor/normalize-css/normalize.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/core/normalize-fixes.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/sites/nih_site/themes/nih/css/bootstrap.min.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/sites/nih_site/themes/nih/css/fontawesome/css/all.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/action-links.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/breadcrumb.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/button.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/collapse-processed.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/container-inline.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/details.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/exposed-filters.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/field.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/form.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/icons.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/inline-form.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/item-list.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/link.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/links.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/menu.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/more-link.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/pager.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tabledrag.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tableselect.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tablesort.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tabs.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/textarea.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/ui-dialog.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/messages.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/node.css?rvlp18" />
+<link rel="stylesheet" media="all" href="/sites/nih_site/themes/nih/css/main.min.css?rvlp18" />
+
+    <script src="/core/assets/vendor/modernizr/modernizr.min.js?v=3.11.7"></script>
+<script src="/core/misc/modernizr-additional-tests.js?v=3.11.7"></script>
+
+    <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&subagency=NIH"></script>
+  </head>
+  <body class="path-frontpage page-node-type-homepage">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="header">
+    <div class="branding">
+    <div class="container-fluid">
+        <div class="site-header">
+            <div class="site-title">
+                          <a href="/" title="Home" rel="home" class="site-branding__logo">
+      <img src="/sites/nih_site/files/nih-wis-logo_0.png" alt="Home" />
+    </a>
+    
+
+                <div class="search collapse" id="search-display">
+                    <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get">
+                        <input aria-label="searchbar"  id="affiliate" name="affiliate" type="hidden" value="womeninscience">
+                        <label hidden="" for="query">Enter Search Term(s):</label>
+                        <input autocomplete="off" class="usagov-search-autocomplete" id="searchbox" name="query" type="text" placeholder="Search" aria-label="Enter Search terms">
+                        <button class="search-button" aria-label="search button"type="submit" id="query" autocomplete="off" placeholder="search">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <button class="btn search-toggler" aria-label="search bar expand" data-toggle="collapse" data-target="#search-display" type="button" aria-controls="#search-display" aria-expanded="false" aria-label="Toggle Search"><i class="fa fa-search"></i></button>
+            <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+            <nav role="navigation" aria-labelledby="block-nih-main-menu-menu" id="block-nih-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-nih-main-menu-menu">Main navigation</h2>
+  
+
+        
+        
+                    <ul class="navbar-nav mr-auto">
+        
+                                <li class="nav-item">
+                <a href="/about" class="nav-link" data-drupal-link-system-path="node/20">About Us</a>
+                                            
+                    <ul style="overflow: hidden;">
+        
+                                <li class="nav-item">
+                <a href="/about" class="nav-link" data-drupal-link-system-path="node/20">About Women in Biomedical Careers</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/about/history" class="nav-link" data-drupal-link-system-path="node/28">History</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/about/members" class="nav-link" data-drupal-link-system-path="node/27">Members</a>
+                            </li>
+            </ul>
+    
+                            </li>
+                                <li class="nav-item">
+                <a href="/research-opportunities" class="nav-link" data-drupal-link-system-path="node/12">Research Opportunities</a>
+                                            
+                    <ul style="overflow: hidden;">
+        
+                                <li class="nav-item">
+                <a href="/research-opportunities#nih-funding" class="nav-link" data-drupal-link-system-path="node/12">NIH Funding</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/research-opportunities#grants" class="nav-link" data-drupal-link-system-path="node/12">Grants Process Overview &amp; How to Apply</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/research-opportunities#other-research" class="nav-link" data-drupal-link-system-path="node/12">Other Research Funding Portals</a>
+                            </li>
+            </ul>
+    
+                            </li>
+                                <li class="nav-item">
+                <a href="/professionalcareer-development-tools-resources" class="nav-link" data-drupal-link-system-path="node/13">Tools &amp; Resources</a>
+                                            
+                    <ul style="overflow: hidden;">
+        
+                                <li class="nav-item">
+                <a href="/professional-career-development-tools-resources#resources" class="nav-link">Professional/Career Development Resources</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/professional-career-development-tools-resources#tools" class="nav-link">Tools</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/professional-career-development-tools-resources#network-op" class="nav-link">Networking Opportunities</a>
+                            </li>
+            </ul>
+    
+                            </li>
+                                <li class="nav-item">
+                <a href="/nih-diversity-resources-career-flexibility-initiatives" class="nav-link" data-drupal-link-system-path="node/29">NIH Diversity &amp; Career Flexibility</a>
+                                            
+                    <ul style="overflow: hidden;">
+        
+                                <li class="nav-item">
+                <a href="/nih-diversity-resources-career-flexibility-initiatives#commitment" class="nav-link" data-drupal-link-system-path="node/29">Commitment to Diversity</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/nih-diversity-resources-career-flexibility-initiatives#wocis" class="nav-link" data-drupal-link-system-path="node/29">Women of Color in Science</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/nih-diversity-resources-career-flexibility-initiatives#gender" class="nav-link" data-drupal-link-system-path="node/29">Gender Diversity at NIH</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/nih-diversity-resources-career-flexibility-initiatives#career" class="nav-link" data-drupal-link-system-path="node/29">Career Flexibility for Postdocs</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/nih-diversity-resources-career-flexibility-initiatives#professional" class="nav-link" data-drupal-link-system-path="node/29">Other Career Flexibility Initiatives</a>
+                            </li>
+            </ul>
+    
+                            </li>
+                                <li class="nav-item">
+                <a href="/women-science" class="nav-link" data-drupal-link-system-path="node/11">Women in Science</a>
+                                            
+                    <ul style="overflow: hidden;">
+        
+                                <li class="nav-item">
+                <a href="/women-science/women-scientists-in-action" class="nav-link" data-drupal-link-system-path="women-science/women-scientists-in-action">Women Scientists in Action</a>
+                                            
+                    <ul style="overflow: hidden;">
+        
+                                <li class="nav-item">
+                <a href="/women-science/women-scientists-in-action/women-scientists-nas-nam" class="nav-link" data-drupal-link-system-path="women-science/women-scientists-in-action/women-scientists-nas-nam">National Academy of Science (NAS) and National Academy of Medicine (NAM)</a>
+                            </li>
+            </ul>
+    
+                            </li>
+                                <li class="nav-item">
+                <a href="/women-science/women-scientists-pearls-of-wisdom" class="nav-link" data-drupal-link-system-path="women-science/women-scientists-pearls-of-wisdom">Pearls of Wisdom</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/women-science/women-color-research-network-wocrn" class="nav-link" data-drupal-link-system-path="node/26">Women of Color Research Network (WOCRN)</a>
+                            </li>
+            </ul>
+    
+                            </li>
+                                <li class="nav-item">
+                <a href="/news-events" class="nav-link" data-drupal-link-system-path="node/155">News &amp; Events</a>
+                                            
+                    <ul style="overflow: hidden;">
+        
+                                <li class="nav-item">
+                <a href="/news-events#publications" class="nav-link" data-drupal-link-system-path="node/155">Publications of Interest </a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/news-events#podcasts" class="nav-link" data-drupal-link-system-path="node/155">Podcasts</a>
+                            </li>
+                                <li class="nav-item">
+                <a href="/news-events#events" class="nav-link" data-drupal-link-system-path="node/155">Events</a>
+                            </li>
+            </ul>
+    
+                            </li>
+            </ul>
+    
+
+
+
+
+  </nav>
+
+        </div>
+    </div>
+        </nav>
+    </div>
+  
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <div class="jumbo-content">
+
+                                    <div class="slider-container">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                                                    <li>
+                                        <div class="slide container-fluid">
+                                            <h1 class="title">
+                                                Notice of NIH’s Interest in Diversity Now Includes Women as a Formal Category 
+                                            </h1>
+                                            <p>The updated version of the <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-20-031.html" title="Notice of NIH’s Interest in Diversity">Notice of NIH’s Interest in Diversity</a> (NOT-OD20-031), released on November 22, 2019, reflects a formal category recognizing women as an underrepresented population in the U.S. biomedical, clinical, behavioral, and social sciences research enterprise.</p>
+
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="slide container-fluid">
+                                            <h1 class="title">
+                                                Intersectionality
+                                            </h1>
+                                            <p>Check out our <a href="/professionalcareer-development-tools-resources">Tools &amp; Resources</a> to learn more about intersectionality.</p>
+
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="slide container-fluid">
+                                            <h1 class="title">
+                                                Changing the Culture to End Sexual Harassment
+                                            </h1>
+                                            <p>In this <a href="https://acd.od.nih.gov/documents/presentations/12122019ChangingCulture_Report.pdf" title="Working Group report to the Advisory Committee to the NIH Director (ACD)">Working Group report to the Advisory Committee to the NIH Director (ACD)</a>, actionable recommendations are made to end the pervasive culture of sexual harassment in the biomedical sciences.</p>
+
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="slide container-fluid">
+                                            <h1 class="title">
+                                                Check Out the Women of Color Research Network on LinkedIn
+                                            </h1>
+                                            <p>We welcome women of color and all supporters of their advancement in the biomedical sciences. You can discuss topics such as mentorship of women of color, find recommendations to promote inclusivity and diversity in the workplace, share potential career opportunities, and do much more. Learn more <a href="https://www.linkedin.com/groups/8501207">here</a>.</p>
+
+                                        </div>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                
+                <div class="box-container">
+
+                    
+                        <a href="/women-science/women-color-research-network-wocrn">
+
+                                                                                        
+                            <div class="box box-green">
+                                <div class="box-title">
+                                    WOCRN
+                                </div>
+                            </div>
+                        </a>
+
+                    
+                        <a href="/professionalcareer-development-tools-resources#resources">
+
+                                                                                        
+                            <div class="box box-fuschia">
+                                <div class="box-title">
+                                    Professional Development Resources
+                                </div>
+                            </div>
+                        </a>
+
+                    
+                        <a href="/women-science/women-scientists-pearls-of-wisdom">
+
+                                                                                        
+                            <div class="box box-orange">
+                                <div class="box-title">
+                                    Pearls of Wisdom
+                                </div>
+                            </div>
+                        </a>
+
+                    
+                        <a href="/research-opportunities">
+
+                                                                                        
+                            <div class="box box-purple">
+                                <div class="box-title">
+                                    Funding Opportunities
+                                </div>
+                            </div>
+                        </a>
+
+                    
+
+                </div><!-- end of box-container -->
+            </div><!-- end of jumbo-content -->
+        </div>
+    </div>
+</div>
+
+<div id="content">
+      <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-nih-content" class="block block-system block-system-main-block">
+  
+    
+      
+<section data-history-node-id="21" role="article" about="/home-page" class="white-bg node node--type-homepage node--promoted node--view-mode-full clearfix">
+    <header>
+        
+                
+            </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7" id="main-content">
+                
+           <h1 class="title blue">About Us</h1>
+
+<p>The Women in Science website is one of the many <a href="https://orwh.od.nih.gov/career-development-education/nih-working-group-women-biomedical-careers">achievements of the NIH Working Group on Women in Biomedical Careers.</a></p>
+
+<p>Celebrating the successes of women in science can serve as an inspiration to both women and men. The women’s profiles that are featured on this website highlight their contributions to research, what they learned along the way, and advice they have for other women in science. You will also find information, tools, and resources that support and promote the entry, recruitment, retention, and sustained advancement of women in biomedical research careers.</p>
+
+      
+            </div>
+
+                            <div class="col-md-5">
+                    
+            <div class="field field--name-field-newsletter field--type-entity-reference-revisions field--label-hidden field__item">    <div class="media bg-light mb-4 paragraph--type--newsletter paragraph--view-mode--default">
+                    <img src="/sites/nih_site/files/2023-04/ORWH2023InFocusVol6Iss2_cover.jpg" alt="Home page image">
+                <div class="media-body">
+                            <h2 class="card-title title blue">
+            <div class="field field--name-field-paragraph-title field--type-string field--label-hidden field__item">Women&#039;s Health In Focus volume 6 issue 2</div>
+      </h2>
+            
+                            
+            <div class="clearfix text-formatted field field--name-field-paragraph-description field--type-text-long field--label-hidden field__item"><h3 style="color: #265ca0; font-family: 'Playfair Display', serif;">Check out the latest issue of <i>Women’s Health in Focus at NIH</i>, with section on women in biomedical careers.</h3>
+
+<p><a href="https://orwh.od.nih.gov/sites/orwh/files/docs/ORWH2023InFocusVol6Iss2_508_0.pdf" target="_blank">View Newsletter</a></p>
+
+<p class="mb-0"><a href="https://orwh.od.nih.gov/about/newsroom/orwh-quarterly-publication">View Past Issues ›</a></p>
+
+<p class="mb-0"><a href="https://public.govdelivery.com/accounts/USNIHORWH/subscriber/new?qsp=CODE_RED">Subscribe to ORWH Communications ›</a></p>
+</div>
+      
+                    </div>
+    </div>
+</div>
+      
+                </div>
+            
+        </div>
+    </div>
+</section>
+
+  </div>
+
+<section class="banner-content blue-bg">
+    <div class="views-element-container container-fluid" id="block-views-block-featured-scientists-block-1">
+        
+                    <h1 class="title white">Featured Scientists</h1>
+                
+                    <div class="content">
+                <div block="block-views-block-featured-scientists-block-1"><div class="row">
+    
+    
+    
+
+          <header>
+          <style>
+<!--/*--><![CDATA[/* ><!--*/
+
+.banner-content a {
+    height: 100%;
+}
+
+/*--><!]]>*/
+</style>
+      </header>
+    
+    
+    
+          <div class="col-12 col-sm-6 col-md-4">
+      
+<a href="/women-science/women-scientists-pearls-of-wisdom">
+    <div class="scientist">
+        <h2 class="secondary-title">
+            Leslie Stiff Jones, M.D.
+        </h2>
+        <div class="subtitle">
+                    </div>
+        <div class="row">
+            <div class="col-12 col-lg-5">
+                <img alt="Leslie Stiff Jones, M.D." src="/sites/nih_site/files/2020-04/dr_jones_1.jpg">
+            </div>
+            <div class="col-12 col-lg-7">
+                Leslie Stiff Jones, M.D. is an Associate Professor, Chair, Residency Program Director, and Glaucoma Service Director of the Department of Ophthalmology at Howard University. Dr. Jones completed her…
+            </div>
+        </div>
+    </div>
+</a>
+  </div>
+      <div class="col-12 col-sm-6 col-md-4">
+      
+<a href="/women-science/women-scientists-pearls-of-wisdom">
+    <div class="scientist">
+        <h2 class="secondary-title">
+            Janine Austin Clayton, M.D.
+        </h2>
+        <div class="subtitle">
+                    </div>
+        <div class="row">
+            <div class="col-12 col-lg-5">
+                <img alt="Janine Austin Clayton, M.D." src="/sites/nih_site/files/2020-04/clayton_0.jpg">
+            </div>
+            <div class="col-12 col-lg-7">
+                Janine Austin Clayton, M.D., Associate Director for Research on Women's Health and Director of the Office of Research on Women's Health at the National Institutes of Health (NIH), is the architect of…
+            </div>
+        </div>
+    </div>
+</a>
+  </div>
+      <div class="col-12 col-sm-6 col-md-4">
+      
+<a href="/women-science/women-scientists-pearls-of-wisdom">
+    <div class="scientist">
+        <h2 class="secondary-title">
+            Christine Grady, M.S.N., Ph.D.
+        </h2>
+        <div class="subtitle">
+                    </div>
+        <div class="row">
+            <div class="col-12 col-lg-5">
+                <img alt="Christine Grady, M.S.N., Ph.D." src="/sites/nih_site/files/2020-04/christine_grady1_0.jpg">
+            </div>
+            <div class="col-12 col-lg-7">
+                Christine Grady, M.S.N., Ph.D., is a nurse-bioethicist who serves as the Chief of the Department of Bioethics at the National Institutes of Health Clinical Center. Her research contributions are…
+            </div>
+        </div>
+    </div>
+</a>
+  </div>
+
+
+    
+    
+
+    
+    
+
+    
+    
+</div>
+</div>
+
+            </div>
+            </div>
+</section>
+<div class="views-element-container block block-views block-views-blocklast-updated-time-block-1" id="block-views-block-last-updated-time-block-1">
+  
+    
+      <div block="block-views-block-last-updated-time-block-1"><div class="view view-last-updated-time view-id-last_updated_time view-display-id-block_1 js-view-dom-id-c98dfd25fca05b76670ff663c9ddeb17880a872e811fa2f072493a827814fe4a">
+  
+    
+      
+      <div class="view-content">
+          <div class="container-fluid pt-2 views-row"><div class="views-field views-field-changed"><span class="field-content"><p><i><small>Page last updated on April 26, 2023</small></i></p></span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+
+</div>
+
+<footer>
+        <div class="footer-container">
+          <div class="region region-footer">
+    <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-footer-menu">Footer</h2>
+  
+
+                        <nav>
+                            <a href="/about" data-drupal-link-system-path="node/20">About Us</a>
+                            <a href="/research-opportunities" data-drupal-link-system-path="node/12">Research Opportunities</a>
+                            <a href="/professionalcareer-development-tools-resources" data-drupal-link-system-path="node/13">Tools &amp; Resources</a>
+                            <a href="/nih-diversity-resources-career-flexibility-initiatives" data-drupal-link-system-path="node/29">NIH Diversity &amp; Career Flexibility</a>
+                            <a href="/women-science" data-drupal-link-system-path="node/11">Women in Science</a>
+                            <a href="/news-events" data-drupal-link-system-path="node/155">News &amp; Events</a>
+                            <a href="mailto: womeninscience@nih.gov">Contact Us</a>
+                    </nav>
+            
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-secondfooter-menu" id="block-secondfooter" class="block block-menu navigation menu--second-footer">
+            
+  <h2 class="visually-hidden" id="block-secondfooter-menu">Second Footer</h2>
+  
+
+                        <nav>
+                            <a href="http://www.nih.gov/about/privacy.htm">Privacy Policy</a>
+                            <a href="http://www.nih.gov/about/disclaim.htm">Disclaimers</a>
+                            <a href="http://www.nih.gov/about/disclaim.htm">Accessibility</a>
+                            <a href="http://www.nih.gov/icd/od/foia/index.htm">Freedom of Information Act</a>
+                            <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure</a>
+                            <a href="http://www.hhs.gov/">HHS.gov</a>
+                            <a href="http://www.usa.gov/">USA.gov</a>
+                    </nav>
+            
+
+
+  </nav>
+
+  </div>
+
+        <p class="footer-tagline">NIH... Turning Discovery into Health®</p>
+    </div>
+</footer>
+
+<a id="back-to-top" class="hidden-print">▲<span id="back-to-top-tip">Back to Top</span></a>
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/21","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"0acf97e3c247ddbb7ff81d33b52e6be42ce4f73b9e83a2ba9ba0819ae58b70bc"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.5.9"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.5.9"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.9"></script>
+<script src="/core/misc/drupal.js?v=9.5.9"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.9"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.5.9"></script>
+<script src="/sites/nih_site/themes/nih/js/jquery.flexslider-min.js?v=9.5.9"></script>
+<script src="/sites/nih_site/themes/nih/js/bootstrap.min.js?v=9.5.9"></script>
+<script src="/sites/nih_site/themes/nih/js/main.min.js?v=9.5.9"></script>
+
+  </body>
+</html>

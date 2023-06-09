@@ -1,0 +1,28 @@
+Content-Length: 24012
+Accept-Ranges: bytes
+Age: 2671
+Cache-Control: max-age=2764800, public
+Content-Encoding: gzip
+Content-Language: en
+Content-Security-Policy: report-uri /report-csp-violation
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 09 Jun 2023 19:07:23 GMT
+Etag: "1686333984"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 09 Jun 2023 18:06:24 GMT
+Referrer-Policy: no-referrer-when-downgrade
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Cookie,Accept-Encoding
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 2
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-a4c86dfa-06f2-11ee-bdcf-5b8002bf9d52
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block

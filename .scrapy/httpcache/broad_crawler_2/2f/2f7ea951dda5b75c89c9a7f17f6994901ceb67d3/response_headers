@@ -1,0 +1,16 @@
+Content-Length: 209
+Date: Fri, 09 Jun 2023 05:15:18 GMT
+Content-Type: text/html;charset=utf-8
+Location: https://linkinghub.elsevier.com/retrieve/pii/S2211335521003442
+Vary: Accept
+Expires: Fri, 09 Jun 2023 05:16:26 GMT
+Link: <https://dul.usage.elsevier.com/doi/>; rel=dul
+Link: <https://dul.usage.elsevier.com/doi/>; rel=dul
+Permissions-Policy: interest-cohort=(),browsing-topics=()
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YxxsGPk0w6pNvhYszPoaKH%2FQWwDPt95iIH7X9pSXLBvVpry1ESndxVLaesA6j3y1mGXAi4GFxNsvSYN6tPBbgfXoqvPmcCv76U7o96Yf23KGAstDDnXzV2M%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: cloudflare
+Cf-Ray: 7d46e55c1eb42ab4-LAX
+Alt-Svc: h3=":443"; ma=86400
