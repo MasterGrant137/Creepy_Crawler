@@ -1,0 +1,35 @@
+Content-Length: 45553
+Content-Type: text/html; charset=UTF-8
+Belfrage-Cache-Status: MISS
+Bid: bruce
+Brequestid: f08a790f4a2c4336bf9514642091f3ce
+Bsig: 2d3f876524218da82dde1364bf8db239
+Cache-Control: public, stale-if-error=90, stale-while-revalidate=30, max-age=120
+Content-Encoding: gzip
+Content-Language: en-GB
+Link: <https://static.bbci.co.uk/frameworks/jquery/0.4.1/sharedmodules/jquery-1.9.1.js>; rel="preload"; as="script"; nopush,<https://programmes.files.bbci.co.uk/programmes-frontend/js/rv-bootstrap.fb5b2903.js>; rel="preload"; as="script"; nopush,<https://fig.bbc.co.uk>; rel="dns-prefetch",<https://programmes.files.bbci.co.uk/programmes-frontend/css/ds2013.17c14685.css>; rel="preload"; as="style"; nopush,<https://programmes.files.bbci.co.uk/programmes-frontend/js/timezone-notification.9476b56a.js>; rel="preload"; as="script"; nopush
+Req-Svc-Chain: FASTLY,GTM,BELFRAGE
+Via: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+X-Bbc-Edge-Cache-Status: HIT
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Strict-Transport-Security: max-age=31536000; preload
+Permissions-Policy: browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Fri, 09 Jun 2023 23:17:40 GMT
+X-Fastly-Cache-Status: HIT-STALE-CLUSTER
+X-Served-By: cache-bur-kbur8200124-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1686352660.044049,VS0,VE3
+X-Fastly-Pre-Flight-Cache: MISS, HIT
+X-Fastly-Pre-Flight-Cache-Status: HIT-CLUSTER
+X-Cache-Age: 627
+X-Lb-Nocache: true
+Vary: X-BBC-Edge-Scheme,Accept-Encoding
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

@@ -1,0 +1,12 @@
+Content-Length: 189
+Content-Type: text/html; charset=iso-8859-1
+Date: Fri, 09 Jun 2023 23:09:51 GMT
+Server: Apache/2.4.6 (CentOS) PHP/5.4.16 OpenSSL/1.0.2k-fips
+Location: https://www.espn.com/
+Content-Encoding: gzip
+Via: 1.1 varnish (Varnish/6.0), 1.1 298bb3ab59d505aa32a6fcbcb3eb1362.cloudfront.net (CloudFront)
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: LAX50-P4
+X-Amz-Cf-Id: ptdz0H7RRP3zaaMw1vkHz292my5ZBJRYjbtz3Hnj662pLlq3eEHZjQ==
+Age: 466

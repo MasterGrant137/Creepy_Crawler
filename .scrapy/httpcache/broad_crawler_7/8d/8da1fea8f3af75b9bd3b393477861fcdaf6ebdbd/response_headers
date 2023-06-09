@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: Server
+Date: Fri, 09 Jun 2023 23:22:02 GMT
+X-Amz-Rid: 9ZQ789JWFJGGR8RQCVY6
+Cache-Control: max-age=43200
+Expires: Sun, 09 Jul 2023 23:22:02 GMT
+Location: /search/title/?genres=sci-fi&title_type=feature&explore=genres
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,User-Agent
+X-Cache: Miss from cloudfront
+Via: 1.1 a4c0b37c5594897542c32d639430b8b0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX53-P4
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: 5zy1fRqqNB10YQOXG-9vbr_4BEzQSWxylDlgfn1zsNGbd_ADmatjFg==

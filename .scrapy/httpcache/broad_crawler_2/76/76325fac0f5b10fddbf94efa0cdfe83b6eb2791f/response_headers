@@ -1,0 +1,33 @@
+Content-Length: 236659
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: public, max-age=600, stale-if-error=7200, stale-while-revalidate=60
+Etag: W/"c5b4b-Bjzjn1BLoQ4ePZT79JAFpGupX2Y"
+Content-Encoding: gzip
+Via: 1.1 BBC-GTM, 1.1 59b670c858d37003bbfe16adddcf0de4.cloudfront.net (CloudFront), 1.1 varnish
+X-Amz-Cf-Pop: LHR62-C3
+X-Amz-Cf-Id: U-qyECDrz6qcuXy_5N91QpMnAxp_UxVE9hNmXRWdm-whwJKBc-TzwA==
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Req-Svc-Chain: FASTLY,GTM
+X-Bbc-Edge-Cache-Status: MISS
+X-Bbc-Origin-Response-Status: 200
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Strict-Transport-Security: max-age=31536000; preload
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Fri, 09 Jun 2023 23:17:42 GMT
+X-Fastly-Cache-Status: HIT-STALE-CLUSTER
+X-Served-By: cache-bur-kbur8200081-BUR
+X-Cache: Hit from cloudfront, HIT
+X-Cache-Hits: 1
+X-Timer: S1686352663.701689,VS0,VE3
+X-Fastly-Pre-Flight-Cache: MISS, HIT
+X-Fastly-Pre-Flight-Cache-Status: HIT
+X-Cache-Age: 618
+X-Lb-Nocache: true
+Vary: Accept-Encoding
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

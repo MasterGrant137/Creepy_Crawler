@@ -1,0 +1,36 @@
+Content-Length: 62479
+Content-Type: text/html
+Belfrage-Cache-Status: HIT
+Bid: bruce
+Brequestid: 5f5ff15aaa2f4fe0b4bc5b9cccab8c7c
+Bsig: 1208f4af15d5afde4f19a9ad56d6a2c7
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'none'; script-src 'strict-dynamic' 'nonce-7dw2V+LSMrVUh2dF8HNrB1IXJr4DopI4+QHGqxg2dIyKyYL5Ff' 'self' 'report-sample' 'unsafe-inline' assets.wearehearken.eu cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk emp.bbci.co.uk ems.wearehearken.eu modules.wearehearken.eu mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk news.files.bbci.co.uk platform.twitter.com public.flourish.studio static.bbc.co.uk static.bbci.co.uk static.chartbeat.com static2.chartbeat.com www.bbc.co.uk www.instagram.com www.ons.gov.uk gn-web-assets.api.bbc.com www.google-analytics.com bitesize.files.bbci.co.uk www.tiktok.com lf16-tiktok-web.ttwstatic.com static.files.bbci.co.uk; img-src 'self' https: data:; font-src c.files.bbci.co.uk gel.files.bbci.co.uk static.files.bbci.co.uk static.bbci.co.uk news.files.bbci.co.uk ws-downloads.files.bbci.co.uk bitesize.files.bbci.co.uk; style-src cdn.riddle.com flo.uri.sh news.files.bbci.co.uk platform.twitter.com static.bbc.co.uk static.bbci.co.uk static.files.bbci.co.uk ton.twimg.com www.riddle.com 'unsafe-inline' lf16-tiktok-web.ttwstatic.com; frame-src 'self' bbc001.carto.com bbc003.carto.com bbc-maps.carto.com cdn.riddle.com chartbeat.com emp.bbc.co.uk emp.bbc.com flo.uri.sh graphics.reuters.com www.reuters.com m.facebook.com news.files.bbci.co.uk personaltaxcalculator2.deloittecloud.co.uk platform.twitter.com public.flourish.studio static2.chartbeat.com syndication.twitter.com web.facebook.com www.bbc.co.uk www.facebook.com www.instagram.com www.tiktok.com www.ons.gov.uk www.riddle.com www.youtube.com www.youtube-nocookie.com toybox.tools.bbc.co.uk uk-script.dotmetrics.net ssp-app-uk.votenow.tv ssp-app-uktest.votenow.tv; object-src 'none'; manifest-src static.files.bbci.co.uk bitesize.files.bbci.co.uk; media-src 'self' blob: https:; connect-src 'self' https:; child-src blob:; base-uri 'none'; form-action 'self' platform.twitter.com syndication.twitter.com uk-script.dotmetrics.net/DeviceInfo.dotmetrics; frame-ancestors 'none'; upgrade-insecure-requests; report-to default; report-uri https://webcore.bbc-reporting-api.app/report-endpoint;
+Feature-Policy: accelerometer 'none'; autoplay 'none'; camera 'none'; document-domain 'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk; screen-wake-lock 'none'; sync-xhr 'self'; usb 'none'; xr-spatial-tracking 'none'
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Referrer-Policy: strict-origin-when-cross-origin
+Req-Svc-Chain: FASTLY,GTM,BELFRAGE
+Via: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Bbc-Edge-Cache-Status: STALE
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Strict-Transport-Security: max-age=31536000; preload
+Permissions-Policy: browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Fri, 09 Jun 2023 23:17:40 GMT
+X-Fastly-Cache-Status: HIT-CLUSTER
+X-Served-By: cache-bur-kbur8200079-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1686352660.043595,VS0,VE3
+X-Fastly-Pre-Flight-Cache: MISS, HIT
+X-Fastly-Pre-Flight-Cache-Status: HIT-CLUSTER
+X-Cache-Age: 4
+X-Lb-Nocache: true
+Cache-Control: private, stale-if-error=90, stale-while-revalidate=30, max-age=0, must-revalidate
+Vary: X-BBC-Edge-Scheme,x-id-oidc-signedin,Accept-Encoding
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
