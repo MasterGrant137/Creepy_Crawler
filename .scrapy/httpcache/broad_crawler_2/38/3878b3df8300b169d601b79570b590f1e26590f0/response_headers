@@ -1,0 +1,25 @@
+Content-Length: 23436
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Etag: "1686347325"
+Last-Modified: Fri, 09 Jun 2023 21:48:45 GMT
+Link: <https://www.cancer.gov/news-events/events>; rel="canonical"
+Server: nginx
+X-Age: 124814
+X-Ah-Environment: 01live
+X-Cache-Hits: 10
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-685ab6b2-070f-11ee-81d7-03b26dde5a5d
+X-Ua-Compatible: IE=edge
+Expires: Sun, 11 Jun 2023 08:29:00 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Sun, 11 Jun 2023 08:29:00 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload

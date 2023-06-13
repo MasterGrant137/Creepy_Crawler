@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html class=" " lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    
+    <meta name="msvalidate.01" content="7FEF9D64C9916EC9393EB5B21BD0037E" />
+    <link rel="icon" href="/_ux/niddk/9.21.0/favicon.ico">
+    <link rel="apple-touch-icon" href="/_ux/niddk/9.21.0/images/apple-touch-icon.png">
+    
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://dap.digitalgov.gov">
+    <link rel="dns-prefetch" href="https://livechat.niddk.nih.gov">
+    <link rel="preload" as="font" type="font/woff2" href="/_ux/niddk/9.21.0/styles/fonts/merriweather-v30-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="/_ux/niddk/9.21.0/styles/fonts/open-sans-v29-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="/_ux/niddk/9.21.0/styles/fonts/open-sans-v29-latin-600.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="/_ux/niddk/9.21.0/styles/fonts/open-sans-v29-latin-700.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="/_ux/niddk/9.21.0/styles/fonts/montserrat-v24-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="/_ux/niddk/9.21.0/styles/fonts/dki.woff2" crossorigin>
+    
+    <link rel="preload" as="fetch" href="/_internal/livechat/livechatstatus?id={41F2CEE4-FCD6-44EE-9A56-C7958A4D90DE}" id="_lcstatuslink" crossorigin>
+    
+    <link rel="stylesheet" media="print" onload="this.media='all'" href="/_ux/niddk/9.21.0/deps/slick-carousel/slick.min.css">
+    <link rel="stylesheet" media="print" onload="this.media='all'" href="/_ux/niddk/9.21.0/deps/jquery-scrolltabs/scrolltabs.min.css">
+    <link rel="stylesheet" media="print" onload="this.media='all'" href="/_ux/niddk/9.21.0/deps/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" media="print" onload="this.media='all'" href="/_ux/niddk/9.21.0/deps/tablesaw/tablesaw.min.css">
+    
+    <link rel="stylesheet" href="/_ux/niddk/9.21.0/styles/niddk-web.css">
+    <noscript><link rel="stylesheet" href="/_ux/niddk/9.21.0/styles/niddk-nojs.css"></noscript>
+
+    <html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="/health-information/diabetes/overview/insulin-medicines-treatments?dkrd=/health-information/diabetes/overview/insulin-medicines-treatments/questions">here</a>.</h2>
+</body></html>
+
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MBRL4D');</script></head>
+<body itemscope itemtype="http://schema.org/WebPage" class="page-lang-en">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBRL4D" height="0" width="0" style="display:none;visibility:hidden" name="Google Tag Manager" title="Google Tag Manager"></iframe></noscript><div class="site-wrap">
+    <header class="site-header">
+        <a href="#main" class="skip-link">Skip to main content</a>
+        <div class="site-alerts">
+            
+        </div>
+        
+    </header>
+    
+    <footer id="main-footer" itemscope itemtype="http://schema.org/GovernmentOrganization" itemid="https://www.niddk.nih.gov">
+        <meta itemprop="name" content="National Institute of Diabetes and Digestive and Kidney Diseases" />
+        <meta itemprop="alternateName" content="NIDDK" />
+        <link itemprop="url" href="https://www.niddk.nih.gov" />
+        <link itemprop="logo" href="/images/site-logo.png" />
+        <link itemprop="sameAs" href="https://en.wikipedia.org/wiki/National_Institute_of_Diabetes_and_Digestive_and_Kidney_Diseases" />
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <meta itemprop="name" content="NIDDK, NIH" />
+            <meta itemprop="streetAddress" content="31 Center Drive, MSC 2560" />
+            <meta itemprop="addressLocality" content="Bethesda" />
+            <meta itemprop="addressRegion" content="MD" />
+            <meta itemprop="addressCountry" content="US" />
+            <meta itemprop="postalCode" content="20892-2560" />
+        </span>
+        
+        
+        <iframe style="height:0;width:0;visibility:hidden;display:none;" src="about:blank"></iframe>
+    </footer>
+    <div class="page-mask"></div>
+</div>
+
+<script src="/_ux/niddk/9.21.0/deps/jquery.min.js" defer></script>
+<script src="/_ux/niddk/9.21.0/deps/blankshield/blankshield.min.js" defer></script>
+<script src="/_ux/niddk/9.21.0/deps/slick-carousel/slick.min.js" defer></script>
+<script src="/_ux/niddk/9.21.0/deps/jquery-scrolltabs/jquery.scrolltabs.min.js" defer></script>
+<script src="/_ux/niddk/9.21.0/deps/magnific-popup/jquery.magnific-popup.min.js" defer></script>
+<script src="/_ux/niddk/9.21.0/deps/tablesaw/tablesaw.jquery.min.js" defer></script>
+
+<script src="/_ux/niddk/9.21.0/scripts/niddk-main.js" defer></script>
+
+</body>
+</html>

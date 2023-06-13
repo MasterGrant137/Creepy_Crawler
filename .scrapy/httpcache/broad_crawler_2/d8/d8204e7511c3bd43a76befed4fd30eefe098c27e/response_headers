@@ -1,0 +1,24 @@
+Content-Length: 8514
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Language: en
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nih.gov *.googleapis.com *.govdelivery.com *.hatchbuck.com *.youtube.com *.here.com search.usa.gov *.jquery.com *.crazyegg.com *.addthis.com *.addthisedge.com cdn.jsdelivr.net *.google-analytics.com *.moatads.com *.newrelic.com bam.nr-data.net *.feedgrabbr.com *.recaptcha.net *.gstatic.com *.googletagmanager.com *.digitalgov.gov; style-src 'self' 'unsafe-inline' *.nih.gov search.usa.gov *.googleapis.com *.here.com cdn.jsdelivr.net *.feedgrabbr.com; img-src 'self' *.nih.gov *.google-analytics.com data:; frame-src 'self' *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; frame-ancestors 'self' *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; child-src 'self' blob: *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; font-src 'self' *.nih.gov *.googleapis.com *.gstatic.com *.feedgrabbr.com; connect-src 'self' *.nih.gov *.crazyegg.com *.google-analytics.com *.addthis.com stats.g.doubleclick.net bam.nr-data.net; report-uri /report-csp-violation
+Content-Type: text/html; charset=utf-8
+Etag: "1686467600-1"
+Last-Modified: Sun, 11 Jun 2023 07:13:20 GMT
+Link: <https://nihrecord.nih.gov/2021/12/10>; rel="canonical",<https://nihrecord.nih.gov/node/25606>; rel="shortlink",<https://nihrecord.nih.gov/favicon.ico>; rel="shortcut icon"
+X-Age: 0
+X-Ah-Environment: prod
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (https://www.drupal.org)
+X-Request-Id: v-71d03596-0827-11ee-a42f-bba5d9475c45
+X-Ua-Compatible: IE=edge,chrome=IE6
+X-Xss-Protection: 1; mode=block
+Expires: Sun, 11 Jun 2023 07:13:20 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 11 Jun 2023 07:13:20 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000

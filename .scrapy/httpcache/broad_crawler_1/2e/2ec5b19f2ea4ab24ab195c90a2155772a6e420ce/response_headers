@@ -1,0 +1,22 @@
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 13 Jun 2023 07:57:22 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Cache-Control: must-revalidate, no-cache, private
+X-Drupal-Dynamic-Cache: MISS
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 c9b46ce9954a1c765386d2d9d877f24e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-P5
+X-Amz-Cf-Id: VY8Plw4AhmNyExykZjDYRczLbX_piaVQQwtizebxlzCEaloNyAbAuQ==
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000

@@ -1,0 +1,17 @@
+Content-Length: 175
+Cache-Control: max-age=31536000,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0
+Pragma: no-cache
+Content-Type: text/plain
+Expires: 0
+Last-Modified: Fri, 28 Oct 2016 15:46:16 GMT
+Accept-Ranges: bytes
+Etag: "6a6256b3231d21:0"
+Server: 
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: domain
+X-Ua-Compatible: IE=edge, chrome=1
+X-Frame-Options: SAMEORIGIN
+Cleartype: on
+Content-Security-Policy: font-src 'self';           form-action 'self' websrch.cit.nih.gov;        style-src 'self' 'unsafe-hashes' https://www.ssa.gov https://fonts.googleapis.com 'sha256-0EZqoz+oBhx7gF4nvY2bSqoGyy4zLjNF+SDQXGp/ZrY=' 'sha256-tI/XZey0kMcFxwRET/lSkiryG2355Bf9slO2nCn6Clk=';            worker-src blob:;            child-src blob: gap:;           script-src 'self' 'unsafe-hashes' 'sha256-IMyglLZUrhfg3QEEgL+C0TWg5gSf050sD6mN4WLlSak=' 'sha256-LMJv8ESlfiCF+9pWKUez+VXyvZdYrT+fcQ3Eps4XPyQ=' 'sha256-PCJpBSEggMPCN6zeT2sNjtQZgRsUtla6W4SrM7TVRaM=' 'sha256-UITiqbXyaWS7NpwiFrMIbdXAZy5EXLRUHkpylF4504k=' 'sha256-d1ln0Kj03sHnyD24Awx223LDLcyXcmWNL96C6VAuvwo=' 'sha256-2vr5KMButMK7a+bOf/ned/cPnF2yNooMulXA8E65wGw=' 'unsafe-eval' *.adsrvr.org *.adnxs.com http://search.usa.gov https://www.googletagmanager.com https://www.google-analytics.com https://script.crazyegg.com https://dap.digitalgov.gov http://dap.digitalgov.gov https://www.ssa.gov https://www.youtube.com;           default-src 'self' 'unsafe-hashes' https://analytics.google.com https://assets-tracking.crazyegg.com *.crazyegg.com https://pagestates-tracking.crazyegg.com https://script.crazyegg.com https://www.google-analytics.com https://stats.g.doubleclick.net;           img-src 'self' blob: *.googletagmanager.com 'unsafe-hashes' *.adsrvr.org *.adnxs.com *.doubleclick.net data: https://www.google-analytics.com;           media-src 'self';           frame-src 'self' *.adsrvr.org *.fls.doubleclick.net;           frame-ancestors 'self'
+Date: Tue, 13 Jun 2023 07:57:21 GMT
+Strict-Transport-Security: max-age=31536000

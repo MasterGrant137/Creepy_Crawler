@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+  <meta name="google-site-verification" content="2Zthkty_zHQANLMTMzSpEBE9evJxdV-lfXr3p9ksaNI" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta charset="utf-8" />
+<script>window.dataLayer = window.dataLayer || []; window.dataLayer.push({"drupalLanguage":"en","drupalCountry":"US","siteName":"CIT","entityCreated":"1535557016","entityLangcode":"en","entityStatus":"1","entityUid":"1","entityUuid":"fc415dd8-c76f-4d50-b9ad-20b7ebf9707e","entityVid":"1567","entityName":"CITadmin","entityType":"node","entityBundle":"landing_page","entityId":"12","entityTitle":"Welcome to CIT","userUid":0});</script>
+<link rel="canonical" href="https://www.cit.nih.gov/" />
+<link rel="shortlink" href="https://www.cit.nih.gov/" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<script src="/sites/default/files/google_tag/primary/google_tag.data_layer.js?rr4brm" defer></script>
+<script src="/sites/default/files/google_tag/primary/google_tag.script.js?rr4brm" defer></script>
+
+    <title>Welcome to CIT | CIT</title>
+    <link rel="stylesheet" media="all" href="/modules/custom/cit_theme_bridge/css/cit-theme-bridge/css/master.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/resizable.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/button.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/dialog.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/ajax-progress.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/align.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/autocomplete-loading.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/fieldgroup.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/container-inline.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/clearfix.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/details.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/hidden.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/item-list.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/js.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/nowrap.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/position-container.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/progress.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/reset-appearance.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/resize.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/sticky-header.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-counter.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-counters.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-general-info.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tabledrag.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tablesort.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tree-child.module.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/theme.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/modules/custom/noscript_tag/css/noscript_tag.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/modules/contrib/simple_popup_blocks/css/simple_popup_blocks.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/modules/custom/nih_extlink/nih_extlink.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/modules/contrib/paragraphs/css/paragraphs.unpublished.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/core/assets/vendor/normalize-css/normalize.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/core/normalize-fixes.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/action-links.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/breadcrumb.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/button.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/collapse-processed.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/container-inline.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/details.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/exposed-filters.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/field.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/form.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/icons.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/inline-form.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/item-list.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/link.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/links.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/menu.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/more-link.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/pager.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tabledrag.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tableselect.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tablesort.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tabs.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/textarea.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/ui-dialog.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/messages.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/node.css?rr4brm" />
+<link rel="stylesheet" media="all" href="/themes/cit_theme/css/master.css?rr4brm" />
+
+      
+      </js-placeholder>
+    </css-placeholder>
+  </head-placeholder>
+</head>
+<body class="path-frontpage page-node-type-landing-page page-title-welcome-to-cit">
+<a href="#main-content" class="visually-hidden focusable skip-link">
+  Skip to main content
+</a>
+<noscript><p><p>Your browser does not support javascript!</p></p>
+</noscript>
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+    <div class="region-overlay"></div>
+        <header role="banner">
+          <div class="region region-header">
+    <div id="block-sitebranding" class="block block-system block-system-branding-block">
+  
+    
+        <a href="/" rel="home" class="site-logo">
+      <img src="/sites/default/files/2023-03/cit-logo-retina.png" alt="Home" />
+    </a>
+        <div class="site-name">
+      <a href="/" rel="home">CIT</a>
+    </div>
+    </div>
+<div id="block-exitblockmobile" class="block block-block-content block-block-content5b717ea3-594c-466e-91d5-16ff53255c26">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Close</p></div>
+      
+  </div>
+<div id="block-searchsite" class="block block-block-content block-block-content54b0def1-b741-41a9-b4c4-15995ec08726">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="site-search">
+<form action="/search/node" method="get"><input class="icon-search" type="submit" value="Search" /><input class="search-input" name="keys" placeholder="I need help with..." title="Search Site" /> </form>
+</div>
+</div>
+      
+  </div>
+<nav role="navigation" aria-labelledby="block-utility-menu" id="block-utility" class="block block-menu navigation menu--utility-menu">
+            
+  <h2 class="visually-hidden" id="block-utility-menu">Utility</h2>
+  
+
+        
+        <ul class="menu">
+                  <li target="_blank" icon="_lock_icon" class="menu-item">
+        <a href="https://myitsm.nih.gov/sp">IT Support</a>
+              </li>
+                <li icon="_lock_icon" class="menu-item">
+        <a href="https://insider.cit.nih.gov">CIT Employees</a>
+              </li>
+                <li class="menu-item">
+        <a href="/contact-us" data-drupal-link-system-path="node/27">Contact Us</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-cit/news" data-drupal-link-system-path="about-cit/news">News</a>
+              </li>
+      </ul>
+    
+
+
+  </nav>
+<div id="block-menublockmobile" class="block block-block-content block-block-contentf8ac7d76-0e30-441c-89e8-e5c877b3ec61">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Menu</p></div>
+      
+  </div>
+<div id="block-searchblockmobile" class="block block-block-content block-block-contentaf555c0d-4559-4b64-9c01-2edf45d71259">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Search</p></div>
+      
+  </div>
+<nav role="navigation" aria-labelledby="block-mobilemenu-menu" id="block-mobilemenu" class="block block-menu navigation menu--mobile-menu">
+            
+  <h2 class="visually-hidden" id="block-mobilemenu-menu">Mobile Menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/services" data-drupal-link-system-path="node/23">Services</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/i-want-to" data-drupal-link-system-path="node/24">I Want To...</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/i-want-to" data-drupal-link-system-path="node/24">Common Tasks</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://iforgotmypassword.nih.gov/aims/ps/">Change my password</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://wiki.ocio.nih.gov/wiki/index.php/PhishMe_Reporter">Report phishing</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://itservicedesk.nih.gov/">Get help with a computer problem</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://video.nih.gov/VTC/index.html">Request videoconferencing</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://videocast.nih.gov/">Request videocast services</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://webcollaboration.nih.gov/">Launch WebEx web collaboration</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://videocast.nih.gov/search.asp">Watch an NIH video</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://training.cit.nih.gov/?_ga=2.34289959.769526055.1538406511-2133679309.1524589099">Sign up for information technology courses and seminars</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://list.nih.gov/">Browse or manage a mailing list</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/i-want-to" data-drupal-link-system-path="node/24">For Scientists</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/services/supercomputing" data-drupal-link-system-path="node/99">Use Biowulf high-performance computing</a>
+              </li>
+                <li class="menu-item">
+        <a href="/service/tools-programs-researchers">Connect your lab to the high-speed network</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://oir.cit.nih.gov/?_ga=2.234102296.769526055.1538406511-2133679309.1524589099">Collaborate with CIT&#039;s Office of Intramural Research</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://datascience.nih.gov/strides">Learn about STRIDES</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/i-want-to" data-drupal-link-system-path="node/24">For IT Professionals</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://isdp.nih.gov/">Acquire software</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://ocio.nih.gov/aboutus/publicinfosecurity/Pages/default.aspx">Contact OCIO security team</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/networks" data-drupal-link-system-path="node/98">Troubleshoot network</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/hosting-databases" data-drupal-link-system-path="node/97">Get hosting or storage</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/it-support-monitoring" data-drupal-link-system-path="node/113">Get local IT support services for smaller ICs and offices</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://myitsm.nih.gov/nav_to.do?uri=/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3D91e9f10e191b200039f85b07b99dc6ee%26sysparm_link_parent%3D32411ede19db200039f85b07b99dc667%26sysparm_catalog%3De0d08b13c3330100c8b837659bba8fb4%26sy">Request network and phone cabling</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/file-sharing-tools" data-drupal-link-system-path="node/90">Get SharePoint services</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/about-cit" data-drupal-link-system-path="node/26">About CIT</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/leadership">Leadership</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-cit/news" data-drupal-link-system-path="about-cit/news">News</a>
+              </li>
+                <li class="menu-item">
+        <a href="/contact-us" data-drupal-link-system-path="node/27">Contact Us</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+          <div class="region region-mainmenu">
+    <nav role="navigation" aria-labelledby="block-cit-theme-main-menu-menu" id="block-cit-theme-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-cit-theme-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/services" data-drupal-link-system-path="node/23">Services</a>
+              </li>
+                <li class="i-want-menu menu-item menu-item--expanded">
+        <a href="/i-want-to" data-drupal-link-system-path="node/24">I Want To...</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Common Tasks</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://iforgotmypassword.nih.gov/aims/ps/">Change my Password</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://wiki.ocio.nih.gov/wiki/index.php/PhishMe_Reporter">Report Phishing</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://itservicedesk.nih.gov/">Get help with a computer problem</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://video.nih.gov/VTC/index.html">Request videoconferencing</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://videocast.nih.gov/">Request videocast services</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://video.nih.gov/webex/index.html">Launch Webex web collaboration</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://videocast.nih.gov/search.asp">Watch an NIH video</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://training.cit.nih.gov/">Sign up for information technology courses and seminars</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://list.nih.gov/">Browse or manage a mailing list</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">FOR SCIENTISTS</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/services/supercomputing" data-drupal-link-system-path="node/99">Use NIH’s supercomputer (Biowulf)</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/strides-initiative-researchers" data-drupal-link-system-path="node/144">Learn about cloud offerings for research (STRIDES Initiative)</a>
+              </li>
+                <li class="menu-item">
+        <a href="/service/tools-programs-researchers">Connect your lab to the high-speed network</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://brics.cit.nih.gov">Build a customized bioinformatics system (BRICS)</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">FOR IT PROFESSIONALS</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://isdp.nih.gov/">Acquire software</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://ocio.nih.gov/aboutus/publicinfosecurity/Pages/default.aspx">Contact OCIO security team</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/networks" data-drupal-link-system-path="node/98">Troubleshoot network</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/hosting-databases" data-drupal-link-system-path="node/97">Get hosting or storage</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/it-support-monitoring" data-drupal-link-system-path="node/113">Get local IT support services for smaller ICs and offices</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://myitsm.nih.gov/nav_to.do?uri=/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3D91e9f10e191b200039f85b07b99dc6ee%26sysparm_link_parent%3D32411ede19db200039f85b07b99dc667%26sysparm_catalog%3De0d08b13c3330100c8b837659bba8fb4%26sy">Request network and phone cabling</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/file-sharing-tools" data-drupal-link-system-path="node/90">Get SharePoint services</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="about-menu menu-item menu-item--expanded">
+        <a href="/about-cit" data-drupal-link-system-path="node/26">About CIT</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/about-cit/leadership" data-drupal-link-system-path="node/25">Leadership</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-cit/news" data-drupal-link-system-path="about-cit/news">News</a>
+              </li>
+                <li class="menu-item">
+        <a href="/contact-us" data-drupal-link-system-path="node/27">Contact Us</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+    </header>
+
+    
+    
+
+    
+
+    
+
+    <main role="main">
+        
+        <a id="main-content" tabindex="-1"></a>
+        <div class="layout-main">
+            <div class="banner-background-strip-container banner-background-top">
+                <div class="banner-background-color">
+                    <div class="banner-background-texture">
+                        <div class="banner-background-gradiant">
+                            <div class="banner-background-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                            <div class="layout-content-top" role="complementary">
+                      <div class="region region-contenttop">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+                </div>
+                        <div class="layout-content-main">
+                                
+                <div class="layout-content">
+                      <div class="region region-content">
+    <div id="block-cit-theme-content" class="block block-system block-system-main-block">
+  
+    
+      
+<article data-history-node-id="12" role="article" about="/homepage" class="node node--type-landing-page node--view-mode-full">
+
+  
+    
+
+  
+  <div class="node__content">
+    
+      <div class="field field--name-field-content field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">
+    <div class="dark-style paragraph paragraph--type--hero-box paragraph--view-mode--default" style="  " >
+        <div class="hero-box-wrapper">
+            <div class="content">
+                <div class="herobox" style = "background-image: url('/sites/default/files/images/hero/634/hero-background.jpg')">
+                    <div class="hero-box-overlay">
+                        <div class="hero-text">
+                                                        <div class="hero-title"> 
+                                <h1 class="hero-title-header">Harnessing the Power of Technology to Advance Biomedical Research</h1>
+                            </div>
+                                                        <div class="hero-body">
+                                <div class="hero-body-container">
+            <div class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item"><p>Contact us or submit a service request to<br />
+access our high-quality IT services.</p>
+</div>
+      </div>
+                            </div>
+                            
+      <div class="field field--name-field-cta-button field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">
+
+
+
+  <div class="paragraph paragraph--type--cta-button paragraph--view-mode--default">
+        <div class="cit-button">
+      <a href="https://myitsm.nih.gov/sp">
+         
+          <img src="themes/cit_theme/css/images/lock_white_icon.svg" alt="">
+                Request a service
+      </a>
+    </div>  
+      </div>
+</div>
+          </div>
+  
+                            
+            <div class="clearfix text-formatted field field--name-field-vpn-disclaimer field--type-text-long field--label-hidden field__item"><p>If you are not able to authenticate as an NIH user, visit the <a href="/contact-us">Contact Us</a> page.</p></div>
+      
+                        </div>
+                    </div>
+
+        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--what-we-do paragraph--view-mode--default">
+        <div class="icon-wrapper">
+    
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Who We Are</div>
+      
+      <div class="hero-text">
+        
+            <div class="clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__item"><p><strong>CIT provides the NIH community with IT and scientific computing services to help turn discovery into health.</strong></p>
+
+<p>Each day, CIT supports over 40,000 members of the NIH community working in more than 400 buildings and facilities to perform world-class research. As one of NIH’s 27 institutes and centers, CIT collaborates with the NIH intramural community in the areas of computational bioscience, engineering, informatics, and statistics to help make biomedical discoveries that protect and improve our nation’s health. </p>
+
+<p>At CIT, we empower people, enable innovation, and deliver value. These operating principles help us on our mission to deliver enterprise IT infrastructure, services, and support NIH-wide to achieve the NIH mission.</p></div>
+      
+        
+            <div class="field field--name-field-button field--type-link field--label-hidden field__item"><a href="/about-cit">Learn more</a></div>
+      
+      </div>
+      <div class="icon_grid">
+      
+      <div class="field field--name-field-icons field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--icon-grid- paragraph--view-mode--default">
+          
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">  <img width="" height="" src="/sites/default/files/2023-02/Icon.svg" alt="Building Icon" loading="lazy" typeof="foaf:Image" />
+
+</div>
+          </div>
+
+  </article>
+</div>
+      
+            <div class="clearfix text-formatted field field--name-field-icon-title field--type-text-long field--label-hidden field__item"><p>Enhance Enterprise-Wide Technology Services</p></div>
+      
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--icon-grid- paragraph--view-mode--default">
+          
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">  <img width="" height="" src="/sites/default/files/2023-02/Icon2.svg" alt="Computer icon" loading="lazy" typeof="foaf:Image" />
+
+</div>
+          </div>
+
+  </article>
+</div>
+      
+            <div class="clearfix text-formatted field field--name-field-icon-title field--type-text-long field--label-hidden field__item"><p>Optimize Management &amp; Operations</p></div>
+      
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--icon-grid- paragraph--view-mode--default">
+          
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">  <img width="" height="" src="/sites/default/files/2023-02/Icon3.svg" alt="Advance Scientific Research Infrastructure icon" loading="lazy" typeof="foaf:Image" />
+
+</div>
+          </div>
+
+  </article>
+</div>
+      
+            <div class="clearfix text-formatted field field--name-field-icon-title field--type-text-long field--label-hidden field__item"><p>Advance Scientific Research Infrastructure</p></div>
+      
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--icon-grid- paragraph--view-mode--default">
+          
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><article class="media media--type-image media--view-mode-default">
+  
+      
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">  <img width="" height="" src="/sites/default/files/2023-02/Vector.svg" alt="Strengthen Cybersecurity " loading="lazy" typeof="foaf:Image" />
+
+</div>
+          </div>
+
+  </article>
+</div>
+      
+            <div class="clearfix text-formatted field field--name-field-icon-title field--type-text-long field--label-hidden field__item"><p>Strengthen Cybersecurity </p></div>
+      
+      </div>
+</div>
+          </div>
+  
+      </div>
+    </div>
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout-three-column paragraph--view-mode--default">
+        <div class="three-column-wrapper">
+      
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Featured Services</div>
+      
+      <div class="field field--name-field-three-column-content field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="widget-component-wrapper">
+    <h2 class="unique-section-title widget-component-title">
+      
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Accounts &amp; Access</div>
+      
+    </h2>
+    <img src="/sites/default/files/2023-02/Accounts%20and%20Access%20Image.png" alt="" class="widget-component-image">
+    
+    <ul class="widget-component-list">
+              <li>
+          <a href="/solution/accounts-access">
+            Accounts &amp; Access
+          </a>
+        </li>
+          </ul>
+  </div>
+</div>
+              <div class="field__item">  <div class="widget-component-wrapper">
+    <h2 class="unique-section-title widget-component-title">
+      
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Collaboration</div>
+      
+    </h2>
+    <img src="/sites/default/files/2023-02/Collaboration%20Image.png" alt="" class="widget-component-image">
+    
+    <ul class="widget-component-list">
+              <li>
+          <a href="/services/livestreaming">
+            Livestreaming 
+          </a>
+        </li>
+              <li>
+          <a href="/services/video-conferencing-virtual-meetings">
+            Video Conferencing &amp; Virtual Meetings
+          </a>
+        </li>
+              <li>
+          <a href="/services/conference-room-design-av">
+            Conference Room Design &amp; AV
+          </a>
+        </li>
+              <li>
+          <a href="/services/file-sharing-tools">
+            File-Sharing Tools
+          </a>
+        </li>
+              <li>
+          <a href="/services/desktop-voice-video-messaging">
+            Desktop Voice, Video, &amp; Messaging
+          </a>
+        </li>
+          </ul>
+  </div>
+</div>
+              <div class="field__item">  <div class="widget-component-wrapper">
+    <h2 class="unique-section-title widget-component-title">
+      
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Hardware &amp; Software</div>
+      
+    </h2>
+    <img src="/sites/default/files/2023-02/Hardware%20Software%20Image.png" alt="" class="widget-component-image">
+    
+    <ul class="widget-component-list">
+              <li>
+          <a href="/services/software-licensing">
+            Software Licensing 
+          </a>
+        </li>
+              <li>
+          <a href="/services/it-support-monitoring">
+            IT Support &amp; Monitoring
+          </a>
+        </li>
+          </ul>
+  </div>
+</div>
+          </div>
+  
+            <div class="field field--name-field-button field--type-link field--label-hidden field__item"><a href="/services">View all services</a></div>
+      
+  </div>
+      </div>
+</div>
+          </div>
+  
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+                </div>
+                
+                                            </div>
+            <div class="scroll-top not-home">
+                <img class="scroll-top-icon" src="/themes/cit_theme/css/images/top.png" alt ="back to top icon" tabindex="0" role="button"/>
+            </div>
+        </div>
+                                                                                            </main>
+            <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-globalfooter" class="block block-block-content block-block-content9d38a410-ad03-46b8-a0b0-e378b49c8dbb">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="footer-wrapper">
+<div>
+<div class="footer-top">
+<ul class="footer-menu-top"><li class="footer-menu-item"><a class="footer-menu-link" href="/privacy-policy">Privacy Policy</a></li>
+	<li class="footer-menu-item"><a class="footer-menu-link" href="/disclaimers">Disclaimer</a></li>
+	<li class="footer-menu-item"><a class="footer-menu-link" href="/accessibility">Accessibility</a></li>
+	<li class="footer-menu-item"><a class="footer-menu-link" href="/freedom-of-information">FOIA</a></li>
+</ul><ul class="footer-menu-bottom"><li class="footer-menu-item"><a class="footer-menu-link" href="https://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a></li>
+	<li class="footer-menu-item"><a class="footer-menu-link" href="https://www.usa.gov/" target="_blank">USA.gov - Government Made Easy</a></li>
+	<li class="footer-menu-item"><a class="footer-menu-link" href="https://www.nih.gov/" target="_blank">National Institutes of Health</a></li>
+	<li class="footer-menu-item"><a class="footer-menu-link" href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure</a></li>
+</ul><div class="footer-top-text"><span class="nobreak">Center for Information Technology</span>,<br /><span class="nobreak">National Institutes of Health</span><br />
+Bethesda, Maryland</div>
+</div>
+
+<div class="footer-bottom-text">NIH…Turning Discovery Into Health®</div>
+</div>
+
+<div class="footer-menu-right">
+<ul><li class="footer-menu-item"><a href="/services">Services</a></li>
+	<li class="footer-menu-item"><a href="https://myitsm.nih.gov/sp">IT Support</a></li>
+	<li class="footer-menu-item"><a href="/about-cit">About CIT</a></li>
+	<li class="footer-menu-item"><a href="/contact-us">Contact Us</a></li>
+	<li class="footer-menu-item"><a href="/about-cit/news">News</a></li>
+	<li class="footer-menu-item"><a href="https://videocast.nih.gov/PastEvents">Videos &amp; Podcasts</a></li>
+	<li class="footer-menu-item"><a href="https://insider.cit.nih.gov">CIT Employees</a></li>
+	<li class="footer-menu-item"><a href="https://ocio.nih.gov/Pages/default.aspx">IT Policies</a></li>
+</ul><p class="footer-menu-item">Need IT support?</p>
+
+<p class="footer-menu-item"><a href="https://myitsm.nih.gov/sp" style="text-decoration:underline;">Submit a Service Request Online</a> or </p>
+
+<p class="footer-menu-item">call 301-496-4357</p>
+
+<p class="footer-menu-item"> </p>
+</div>
+</div>
+</div>
+      
+  </div>
+
+  </div>
+
+        </footer>
+    </div>
+  </div>
+
+
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/12","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0}}},"simple_popup_blocks":{"settings":[{"identifier":"block-citwebsitesurvey","uid":"survey_popup","type":"0","css_selector":"1","layout":"4","visit_counts":"0","overlay":"1","trigger_method":"0","trigger_selector":"#custom-css-id","enable_escape":"1","delay":".5","minimize":"0","close":"1","use_time_frequency":"0","time_frequency":"3600","show_minimized_button":"0","width":"500","cookie_expiry":"0","status":"1","trigger_width":""}]},"data":{"nih_extlink":{"extTarget":true,"extClass":"ext","extLabel":"","extImgClass":false,"extSubdomains":true,"extExclude":"([^\\\/]nih.gov)|(\\\/\\\/nih.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extIconAlert":true,"extIconAlertTitle":"External Web Site Policy","extIconAlertText":"\u003Ch2 class=\u0022unique\u0022\u003EExternal Web Site Policy\u003C\/h2\u003E\r\n\r\n\u003Cp\u003EThis graphic notice (\u003Cimg alt=\u0022External Web Site Policy\u0022 class=\u0022image-spacing\u0022 height=\u002210\u0022 src=\u0022\/sites\/default\/files\/images\/icons\/external-link.png\u0022 title=\u0022External Web Site Policy\u0022 width=\u002210\u0022 \/\u003E) means that you are leaving the NIH website.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThis external link provides additional information that is consistent with the intended purpose of this site.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ENIH cannot attest to the accuracy of a non-federal site.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ELinking to a non-federal site does not constitute an endorsement by NIH or any of its employees of the sponsors or the information and products presented on the site.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EYou will be subject to the destination site\u2019s privacy policy when you follow the link.\u003C\/p\u003E\r\n","extAlert":true,"extAlertText":"","mailtoClass":"mailto","mailtoLabel":""}},"user":{"uid":0,"permissionsHash":"6cf51e8ca00e35476f65c1aabb92620489dfa30a2e619af357f305e92ddbba30"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.5.9"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.5.9"></script>
+<script src="/core/assets/vendor/css-escape/css.escape.js?v=1.5.1"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.9"></script>
+<script src="/core/misc/drupal.js?v=9.5.9"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.9"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/ie-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=5.3.3"></script>
+<script src="/modules/custom/cit_theme_bridge/js/cit_theme_bridge.js?v=1.x"></script>
+<script src="/modules/contrib/datalayer/js/datalayer.js?v=1.x"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.5.9"></script>
+<script src="/modules/contrib/simple_popup_blocks/js/simple_popup_blocks.js?v=9.5.9"></script>
+<script src="/themes/cit_theme/js/megamenu.js?v=1.x"></script>
+<script src="/themes/cit_theme/js/search.js?v=1.x"></script>
+<script src="/themes/cit_theme/js/initiatives.js?v=1.x"></script>
+<script src="/themes/cit_theme/js/toggle-widget-accordion.js?v=1.x"></script>
+<script src="/themes/cit_theme/js/jquery.mousewheel.min.js?v=1.x"></script>
+<script src="/themes/cit_theme/js/layout.js?v=1.x"></script>
+<script src="/themes/cit_theme/js/parallax.js?v=1.x"></script>
+<script src="/themes/cit_theme/js/scroll-top.js?v=1.x"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=9.5.9"></script>
+<script src="/core/misc/position.js?v=9.5.9"></script>
+<script src="/modules/custom/nih_extlink/nih_extlink.js?v=9.5.9"></script>
+
+</js-bottom-placeholder>
+</body>
+</html>

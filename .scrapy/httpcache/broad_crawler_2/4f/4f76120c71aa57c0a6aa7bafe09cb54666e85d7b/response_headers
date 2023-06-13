@@ -1,0 +1,6 @@
+Content-Length: 162
+Server: nginx
+Date: Sun, 11 Jun 2023 07:17:51 GMT
+Content-Type: text/html
+Location: https://era.nih.gov/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;

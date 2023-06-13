@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<style>/* @see https://github.com/aFarkas/lazysizes#broken-image-symbol */.js img.lazyload:not([src]) { visibility: hidden; }/* @see https://github.com/aFarkas/lazysizes#automatically-setting-the-sizes-attribute */.js img.lazyloaded[data-sizes=auto] { display: block; width: 100%; }</style>
+<link rel="canonical" href="https://www.ninr.nih.gov/newsandinformation/newsandnotes/subscribe" />
+<meta name="description" content="News &amp; Notes is NINR&#039;s online newsletter, providing the latest nursing science discoveries, funding and training opportunities, and news about our events and initiatives." />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org); Commerce 2" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/files/favicon-orange.ico" type="image/vnd.microsoft.icon" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_config.templates.twitter = {
+    text: "National Institute of Nursing Research: ${title} ${link}",
+    hashtags: "NIH,NINR",
+    related: "AddToAny,Twitter"
+}; </script>
+<style>.dropdown-btn[aria-expanded=true]:hover {
+    color: #757575;
+    background-color: #fff;
+}
+
+@media (max-width:  778px) {
+  .service-btns {
+      width: 100%;
+      text-align: right;
+      margin: 0 0 1rem 0 !important;
+  }
+}
+@media print {
+  .page-title { display: block !important; }
+}</style>
+
+    <title>Subscribe | National Institute of Nursing Research</title>
+    <meta name="google-site-verification" content="fIwL3R3vn0tx16jEl15ga-YXR44_1iYvpCv5sMBYi38" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TZ8WRM');</script>
+    <!-- End Google Tag Manager -->
+    <link rel="stylesheet" media="all" href="/sites/files/css/css_PvXryW7SYW6PuxQjK8WaUVI3pPDGizLQwvXh5q7LKGE.css" />
+<link rel="stylesheet" media="all" href="/sites/files/css/css_Lz88qEYqAVPcCUYcRIuovIfs46Npi6ya4IMVP9u20-o.css" />
+
+    <script src="/core/assets/vendor/modernizr/modernizr.min.js?v=3.11.7"></script>
+<script src="/core/misc/modernizr-additional-tests.js?v=3.11.7"></script>
+
+  </head>
+  <body class="layout-no-sidebars general-page path-node page-node-type-general">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZ8WRM" title="hhstagmanager" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <a href="#main-content" id="skip-nav">Skip Navigation Links</a>
+
+<aside aria-label="top-banner">
+              <div class="region region-top-banner">
+    <div id="block-govwebsite" class="block block-block-content block-block-contentb4659c19-a0f6-4631-b5e7-9da6a9cfe56b">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div aria-label="Official government website" class="bg-light d-print-none">
+<div class="container-fluid">
+<div class="usa-banner">
+<div class="usa-accordion">
+<div class="usa-banner__header">
+<div class="row align-items-baseline">
+<div class="col-auto"><img alt="U.S. flag" class="usa-banner__header-flag mt-1 mr-3" src="/sites/www.ninr.nih.gov/files/images/us_flag_small.png" /> An official website of the United States government</div>
+
+<div class="col-auto">
+<p aria-hidden="true" class="m-0 usa-banner__header-action">Here's how you know</p>
+</div>
+<a aria-controls="gov-banner-default" aria-expanded="false" class="usa-accordion__button usa-banner__button" data-toggle="collapse" href="#gov-banner-default"><span class="usa-banner__button-text">Here's how you know</span> </a></div>
+</div>
+
+<div class="usa-banner__content usa-accordion__content collapse" id="gov-banner-default">
+<div class="row py-4">
+<div class="usa-banner__guidance col-md-6">
+<div class="usa-banner__icon"><svg height="42" viewbox="0 0 64 64" width="42" xmlns="http://www.w3.org/2000/svg">
+<title></title>
+<path d="M32 0c17.673 0 32 14.327 32 32 0 17.673-14.327 32-32 32C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0zm0 1.208C14.994 1.208 1.208 14.994 1.208 32S14.994 62.792 32 62.792 62.792 49.006 62.792 32 49.006 1.208 32 1.208zm10.59 38.858a.857.857 0 0 1 .882.822v1.642H18.886v-1.642a.857.857 0 0 1 .882-.822H42.59zM25.443 27.774v9.829h1.642v-9.83h3.273v9.83H32v-9.83h3.272v9.83h1.643v-9.83h3.272v9.83h.76a.857.857 0 0 1 .882.821v.821h-21.3v-.809a.857.857 0 0 1 .88-.82h.762v-9.842h3.272zm5.736-8.188l12.293 4.915v1.642h-1.63a.857.857 0 0 1-.882.822H21.41a.857.857 0 0 1-.882-.822h-1.642v-1.642l12.293-4.915z" fill="#2378C3" fill-rule="evenodd"></path> </svg></div>
+
+<div class="usa-media-block__body">
+<p><strong>Official websites use .gov </strong><br />
+A <strong>.gov</strong> website belongs to an official government organization in the United States.</p>
+</div>
+</div>
+
+<div class="usa-banner__guidance col-md-6">
+<div class="usa-banner__icon"><svg height="42" viewbox="0 0 64 64" width="42" xmlns="http://www.w3.org/2000/svg">
+<title></title>
+<path d="M32 0c17.673 0 32 14.327 32 32 0 17.673-14.327 32-32 32C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0zm0 1.208C14.994 1.208 1.208 14.994 1.208 32S14.994 62.792 32 62.792 62.792 49.006 62.792 32 49.006 1.208 32 1.208zm0 18.886a7.245 7.245 0 0 1 7.245 7.245v3.103h.52c.86 0 1.557.698 1.557 1.558v9.322c0 .86-.697 1.558-1.557 1.558h-15.53c-.86 0-1.557-.697-1.557-1.558V32c0-.86.697-1.558 1.557-1.558h.52V27.34A7.245 7.245 0 0 1 32 20.094zm0 3.103a4.142 4.142 0 0 0-4.142 4.142v3.103h8.284V27.34A4.142 4.142 0 0 0 32 23.197z" fill="#719F2A" fill-rule="evenodd"></path> </svg></div>
+
+<div class="usa-media-block__body">
+<p><strong>Secure .gov websites use HTTPS </strong><br />
+A <strong>lock</strong> ( <span class="icon-lock"> <svg aria-labelledby="banner-lock-title-default banner-lock-description-default" class="usa-banner__lock-image" focusable="false" height="16" role="img" viewbox="0 0 52 64" width="13" xmlns="http://www.w3.org/2000/svg">
+<title id="banner-lock-title-default"></title>
+<desc id="banner-lock-description-default">A locked padlock</desc> <path d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" fill="#000000" fill-rule="evenodd"></path> </svg> </span> ) or <strong>https://</strong> means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    </div>
+  </div>
+<div id="block-surveybanner" class="block block-block-content block-block-contente36dfe0a-605c-4f66-8151-8aba7e599d13">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div aria-hidden="true" aria-labelledby="surveyModalLabel" class="modal modal-dark fade" id="surveyModal">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header bg-primary text-white px-5 py-4">
+<h3 class="modal-title mt-0 text-white" id="surveyModalLabel">Take the NINR Public Website Feedback Survey</h3>
+<button aria-label="Close" class="close text-white" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button></div>
+
+<div class="modal-body px-5 py-4">
+<p><strong>Please share your thoughts! This survey takes about 2 minutes to complete. We'll use your responses to update the website and improve the user experience.</strong></p>
+
+<p><a class="btn btn-secondary no-exit-notification" href="https://forms.office.com/g/0u171qZRrk" target="_blank" type="button">Take the Survey <svg alt="Exit Disclaimer" enable-background="new 0 0 72 72" height="16px" style="
+    margin: -1px -1px 1px 11px;
+" version="1.1" viewbox="0 0 72 72" width="20px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" y="0px"><path d="M54.7,52.6c0,2.3-1.9,4.1-4.1,4.1H13.2c-2.3,0-4.1-1.9-4.1-4.1V27.7c0-2.3,1.9-4.1,4.1-4.1h24.9l4.1-4.1h-29 c-4.6,0-8.3,3.7-8.3,8.3v24.9c0,4.6,3.7,8.3,8.3,8.3h37.3c4.6,0,8.3-3.7,8.3-8.3V36l-4.1,4.1V52.6z M42.2,11.1l8.3,8.3L33.9,36 l8.3,8.3l16.6-16.6l8.3,8.3V11.1H42.2z" fill="#fff"></path></svg> </a></p>
+</div>
+</div>
+</div>
+</div>
+<style type="text/css">.cke_editable .modal { display: block !important; opacity: 1;}
+.btn { -webkit-appearance: none;}
+</style>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+    </aside>
+
+<header id="header" aria-label="header">
+    <div class="branding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col logo text-left">
+                <h1><a href="/"><img src="/sites/www.ninr.nih.gov/themes/ninr/images/ninr-logo-white-2.png" alt="National Institute of Nursing Research"></a>
+                </h1>
+            </div>
+            <div class="col-sm-auto search-wrapper search-collapse text-right collapse collapse-mobile"
+                data-parent="#header">
+                                      <div class="clearfix region region-header">
+    <form id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+  <input type="hidden" name="affiliate" id="affiliate" value="ninr-search" />
+  <input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete form-control d-inline-block" placeholder="Search" aria-label="Enter Search Terms" />
+  <input type="submit" name="commit" value="Search" id="search-submit" />
+</form>
+
+  </div>
+
+                            </div>
+            <div class="col col-sm-auto social-media social-media--small">
+                    <a class="social-media-link social-media-link--youtube no-exit-notification" href="https://www.youtube.com/user/NINRnews?sub_confirmation=1" title="YouTube"><span class="sr-only">YouTube</span></a>
+                    <a class="social-media-link social-media-link--twitter no-exit-notification" href="https://twitter.com/NINR" title="Twitter"><span class="sr-only">Twitter</span></a>
+                    <a class="social-media-link social-media-link--linkedin no-exit-notification" href="https://www.linkedin.com/company/ninr" title="LinkedIn"><span class="sr-only">LinkedIn</span></a>
+                    <a class="social-media-link social-media-link--email no-exit-notification" href="/newsandinformation/newsandnotes/subscribe" title="Email Subscription"><span class="sr-only">Email Subscription</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-navigation">
+    <div class="container-fluid">
+          <div class="region region-primary-menu">
+    <div id="block-mainnavigation" class="block block-stmp-site-structure block-main-navigation">
+  
+    
+      <div class="content">
+      <nav class="navbar navbar-expand-lg navbar-light" aria-label="main navigation">
+    <button class="navbar-toggler" type="button" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <button class="search-toggler" type="button" data-toggle="collapse" data-target=".search-collapse" aria-controls="search-collapse"
+            aria-expanded="false" aria-label="Toggle Search">
+        <span class="search-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse" id="navbarSupportedContent">
+
+                                                <ul class="navbar-nav nav">
+                    
+                                                                        
+                                                                            
+                                                                                                                                <li class="nav-item mobile-only">
+                            <a class="nav-link" href="/home">Home</a>
+                                                    </li>
+                    
+                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                                            <li class="nav-item ">
+                            <a class="nav-link" href="#">Research &amp; Funding</a>
+                                                            <div class='mega-menu'>
+                                    <div class='mega-menu-item'>
+                                      <ul class='mega-menu-list'>
+                                                                                  <li><a href="">Research Divisions</a></li>
+                                                                                  <li><a href="/researchandfunding/desp">NINR Division of Extramural Science Programs (DESP)</a></li>
+                                                                                  <li><a href="/researchandfunding/dir">NINR Division of Intramural Research (DIR)</a></li>
+                                                                                  <li><a href="">Funding</a></li>
+                                                                                  <li><a href="/researchandfunding/fundingopportunities">Research Funding Opportunities</a></li>
+                                                                                  <li><a href="/training/training-grants">Training Funding Opportunities</a></li>
+                                                                                  <li><a href="/researchandfunding/sbir-sttr">Small Business Funding</a></li>
+                                                                                  <li><a href="/researchandfunding/grant-applicant-resources">NIH Grant Applicant Resources</a></li>
+                                                                                  <li><a href="/researchandfunding/grantprograms">Grant Programs Supported By NINR</a></li>
+                                                                              </ul>
+                                                                                <p>
+<style type="text/css">.path-cart .search-wrapper form > input#query {
+    float: none;
+    margin-top: 0;
+    margin-right: -32px !important;
+}
+form[action="/cart"] .invalid-tooltip, #content .commerce-order-item-add-to-cart-form .invalid-tooltip {
+    max-width: 100%;
+}
+@media (min-width: 992px) {
+.mega-menu-title:not(:first-child) {
+    break-before: column;
+}
+}
+.mega-menu a[href="/newsandinformation/roundtable"] {display: none !important; }
+.navbar-dark .navbar-nav > li .mega-menu .mega-menu-item ul li { overflow: hidden; }
+</style>
+</p>
+
+
+                                                                          </div>
+                                </div>
+                                                    </li>
+                    
+                                                                        
+                                                                            
+                                                                                                                                                                                            <li class="nav-item ">
+                            <a class="nav-link" href="#">Training</a>
+                                                            <div class='mega-menu'>
+                                    <div class='mega-menu-item'>
+                                      <ul class='mega-menu-list'>
+                                                                                  <li><a href="">NINR Training Opportunities</a></li>
+                                                                                  <li><a href="/training/training-grants">Training Funding Opportunities</a></li>
+                                                                                  <li><a href="">NIH Training Opportunities and Resources</a></li>
+                                                                                  <li><a href="">hidden</a></li>
+                                                                                  <li><a href="/training/nih-training-opportunities">NIH Training Opportunities</a></li>
+                                                                                  <li><a href="/training/nih-training-resources">NIH Training Resources</a></li>
+                                                                              </ul>
+                                                                          </div>
+                                </div>
+                                                    </li>
+                    
+                                                                        
+                                                                            
+                                                                                                                                                                                            <li class="nav-item active-section">
+                            <a class="nav-link" href="#">News &amp; Information</a>
+                                                            <div class='mega-menu'>
+                                    <div class='mega-menu-item'>
+                                      <ul class='mega-menu-list'>
+                                                                                  <li><a href="">Latest News &amp; Events</a></li>
+                                                                                  <li><a href="/newsandinformation/newsandnotes">News and Notes NINR Newsletter</a></li>
+                                                                                  <li><a href="/newsandinformation/featured-research">Featured Research</a></li>
+                                                                                  <li><a href="/newsandinformation/events">Events </a></li>
+                                                                                  <li><a href="">Media Information</a></li>
+                                                                                  <li><a href="/newsandinformation/pressreleases">Press Releases</a></li>
+                                                                                  <li><a href="/newsandinformation/budgetandlegislation">Budget &amp; Legislation</a></li>
+                                                                                  <li><a href="/newsandinformation/foiaoffice">FOIA Information</a></li>
+                                                                              </ul>
+                                                                          </div>
+                                </div>
+                                                    </li>
+                    
+                                                                        
+                                                                            
+                                                                                                                                                                                            <li class="nav-item ">
+                            <a class="nav-link" href="#">About NINR</a>
+                                                            <div class='mega-menu'>
+                                    <div class='mega-menu-item'>
+                                      <ul class='mega-menu-list'>
+                                                                                  <li><a href="">About NINR</a></li>
+                                                                                  <li><a href="/aboutninr/who-we-are">Who We Are</a></li>
+                                                                                  <li><a href="/aboutninr/what-we-do">What We Do</a></li>
+                                                                                  <li><a href="/aboutninr/ninr-mission-and-strategic-plan">Strategic Plan</a></li>
+                                                                                  <li><a href="">Connect With Us</a></li>
+                                                                                  <li><a href="/aboutninr/connect-with-us">Connect With Us</a></li>
+                                                                                  <li><a href="/aboutninr/visitorinformation">Visitor Information</a></li>
+                                                                                  <li><a href="/aboutninr/ninrjobopportunities">Jobs at NINR</a></li>
+                                                                              </ul>
+                                                                          </div>
+                                </div>
+                                                    </li>
+                                    </ul>
+                    
+            </div>
+</nav>
+
+    </div>
+  </div>
+
+  </div>
+
+    </div>
+</div>
+</header>
+
+<main id="content">
+    <div class="fold fold-main">
+                <div class="container-fluid">
+            <div class="row">
+                                    <div class="col-lg-3">
+                          <div class="region region-first-side-bar">
+    <div id="block-leftnavigation" class="block block-custom-menu block-left-navigation">
+  
+    
+      <div class="content">
+      <div class="section-menu">
+    <button class="btn btn-secondary btn-block section-menu-toggler" type="button" data-toggle="collapse"
+            data-target=".section-menu-container" aria-expanded="false" aria-label="Toggle section navigation">
+        Section Menu
+    </button>
+    <nav class="section-menu-container collapse show" aria-label="sidebar navigation">
+                                                                    <h2 class="section-title"><a href="#">News &amp; Information</a></h2>
+                
+                <ul>
+                                                                                                                                                                                                    <li><a href="/newsandinformation/newsandnotes">News and Notes NINR Newsletter</a></li>
+                                                                                                                            <li><a href="/newsandinformation/featured-research">Featured Research</a></li>
+                                                                                                                            <li><a href="/newsandinformation/events">Events </a></li>
+                                                                                                                                                                                        <li><a href="/newsandinformation/pressreleases">Press Releases</a></li>
+                                                                                                                            <li><a href="/newsandinformation/budgetandlegislation">Budget &amp; Legislation</a></li>
+                                                                                                                            <li><a href="/newsandinformation/foiaoffice">FOIA Information</a></li>
+                                                                                                                        </ul>
+
+                    
+        
+    </nav>
+</div>
+
+
+
+    </div>
+  </div>
+
+  </div>
+
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="content-header">
+                            
+                              <div class="region region-title">
+    <div id="block-addtoanybuttons-2" class="block block-addtoany block-addtoany-block">
+  
+    
+      <div class="content">
+      <span class="a2a_kit a2a_kit_size_24 addtoany_list" data-a2a-url="https://www.ninr.nih.gov/newsandinformation/newsandnotes/subscribe" data-a2a-title="Subscribe"><div class="float-right service-btns d-print-none" aria-label="Share Buttons"><button class="btn btn-outline-gray" onClick="window.print()"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer mr-2" viewBox="0 0 16 16"><path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/><path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z"/></svg>PRINT</button><button aria-expanded="false" aria-haspopup="true" class="btn btn-outline-gray dropdown-btn" data-toggle="dropdown" type="button" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share mr-2" viewBox="0 0 16 16"><path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/></svg>SHARE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down ml-1" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg></button><div class="mid-block"></div><div class="dropdown-menu dropdown-menu-right"><div><a class="a2a_button_facebook ml-3"  title="Facebook" target="_blank">Facebook</a></div><div><a class="a2a_button_twitter  ml-3"  title="Twitter" target="_blank">Twitter</a></div><div><a class="a2a_button_linkedin ml-3" title="LinkedIn" target="_blank">LinkedIn</a></div><div><a class="a2a_button_email ml-3" title="Email">Email</a></div><div><a class="a2a_button_copy_link ml-3"  title="Copy Link">Copy Link</a></div></div></div></span>
+    </div>
+  </div>
+<div id="block-ninr-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+    <h2 class="page-title"><span class="field field--name-title field--type-string field--label-hidden">Subscribe</span>
+</h2>
+
+
+    </div>
+  </div>
+
+  </div>
+
+                        </div>
+
+                        <div id="main-content">
+                              <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-ninr-stmp-theme-block-2" class="block block-block-content block-block-content1a9fb86a-8c34-4990-962e-fc885cd3ab3c">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><form accept-charset="UTF-8" action="https://public.govdelivery.com/accounts/USNIHNINR/subscribers/qualify" id="GD-snippet-form" method="post"><input name="utf8" type="hidden" value="âœ“" /> <input name="authenticity_token" type="hidden" value="Px1Eg4/p7EsA+SGMjblF2ycWI1xTlvNCJ93wi4YTHRfXVtH1Fq5i/1Jtv59ZGX5wg2REzfVsiFTMAFKNMPMF8A==" />
+<p>To receive updates from NINR directly to your inbox, please enter your contact information below.</p>
+<input aria-label="Enter Email Address" class="form-control long mb-4" id="email" name="email" placeholder="Email Address" type="text" value="" /> <input class="form_submit btn btn-sm btn-primary" name="commit" type="submit" value="Subscribe" />&nbsp;</form>
+</div>
+      
+    </div>
+  </div>
+<div id="block-ninr-stmp-theme-system-main" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+<article data-history-node-id="3743" role="article" about="/newsandinformation/newsandnotes/subscribe" class="node node--type-general node--view-mode-full clearfix">
+    <div class="content-header">
+            </div>
+    <div class="node__content clearfix">
+        
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="text-hide hidden sr-only">Subscribe</p>
+</div>
+      
+    </div>
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <a id="back-to-top" class="hidden-print" role="button">
+    <span id="back-to-top-tip">Back to Top</span>
+</a>
+<div class="bg-footer-light">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <div class="text-dark h4">Helpful Links</div>
+                <div class="row">
+                                              <div class="region region-footer-second">
+        <div class="block block-search">
+                        <div class="col-md">
+            <ul>
+                                    <li>
+                        <a href="/footer/accessibility">Accessibility</a>
+                    </li>
+                                    <li>
+                        <a href="https://www.nih.gov/nondiscrimination-notice-language-assistance-services">Information in Other Languages</a>
+                    </li>
+                                    <li>
+                        <a href="/footer/policies">Policies</a>
+                    </li>
+                                    <li>
+                        <a href="/newsandinformation/foiaoffice" data-drupal-link-system-path="node/2316">FOIA Information</a>
+                    </li>
+                                    <li>
+                        <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">Vulnerability Disclosure</a>
+                    </li>
+                                    <li>
+                        <a href="/aboutninr/connect-with-us" data-drupal-link-system-path="node/74">Contact Us</a>
+                    </li>
+                            </ul>
+        </div>
+    
+
+
+    </div>
+  <div class="block block-search">
+                    <div class="col-md">
+            <ul>
+                                    <li>
+                        <a href="https://www.nih.gov/">National Institutes of Health</a>
+                    </li>
+                                    <li>
+                        <a href="https://www.hhs.gov/">U.S. Department of Health &amp; Human Services</a>
+                    </li>
+                                    <li>
+                        <a href="https://www.usa.gov">USA.gov</a>
+                    </li>
+                            </ul>
+        </div>
+    
+
+
+  </div>
+
+  </div>
+
+                                    </div>
+            </div>
+            <div class="col-sm-auto">
+                <div class="subscription-box">
+                    <div class="text-secondary h4">Subscribe to the NINR Newsletter</div>
+                    <form accept-charset="UTF-8" action="https://public.govdelivery.com/accounts/USNIHNINR/subscribers/qualify"
+                        id="GD-snippet-form" method="post">
+                        <input name="utf8" type="hidden" value="✓">
+                        <input name="authenticity_token" type="hidden"
+                            value="Px1Eg4/p7EsA+SGMjblF2ycWI1xTlvNCJ93wi4YTHRfXVtH1Fq5i/1Jtv59ZGX5wg2REzfVsiFTMAFKNMPMF8A==">
+                        <label for="email-2">Your email address</label>
+                        <input class="form-control long" id="email-2" name="email"
+                            placeholder="example@email.com" type="text" value="">
+                        <input class="form_submit btn btn-secondary mt-4" name="commit" type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-footer-dark">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col">
+                <a href="/" class="ninr-logo"><img src="/sites/www.ninr.nih.gov/themes/ninr/images/ninr-logo-white-2.png" alt="NIH National Institute of Nursing Research"></a>
+            </div>
+            <div class="col-sm-auto text-sm-right">
+                <div class="social-media">
+                    <a class="social-media-link social-media-link--dark social-media-link--youtube no-exit-notification" href="https://www.youtube.com/user/NINRnews?sub_confirmation=1" title="YouTube"><span
+                            class="sr-only">YouTube</span></a>
+                    <a class="social-media-link social-media-link--dark social-media-link--twitter no-exit-notification" href="https://twitter.com/NINR" title="Twitter"><span
+                            class="sr-only">Twitter</span></a>
+                    <a class="social-media-link social-media-link--dark social-media-link--linkedin no-exit-notification" href="https://www.linkedin.com/company/ninr" title="LinkedIn"><span
+                            class="sr-only">LinkedIn</span></a>
+                    <a class="social-media-link social-media-link--dark social-media-link--email no-exit-notification" href="/newsandinformation/newsandnotes/subscribe" title="Email Subscription"><span class="sr-only">Email
+                            Subscription</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></footer>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/3743","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":[]},"placeholderSrc":"","preferNative":false,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"user":{"uid":0,"permissionsHash":"febb3a84dba76baadb4f82992792561fbfd60b88703e53857116ca81a3b39f85"}}</script>
+<script src="/sites/files/js/js_OOjtsk_rHxLtUzyGNwko9wVdrzJ2rLgOOQPDzvPX3J4.js"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/files/js/js_OYtkRPrWQoorsPSkrdMxXD8AcVBSHTTMmaXRWvbiKrk.js"></script>
+
+  </body>
+</html>

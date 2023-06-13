@@ -1,0 +1,16 @@
+Server: Apache-Coyote/1.1
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1
+Set-Cookie: JSESSIONID=2F92DE6DCE2E81BA12170A94A3190778; Path=/; Secure; HttpOnly
+Set-Cookie: BIGipServerProd-Liferay-HTTPS-Pool=675400970.32287.0000; expires=Sun, 11-Jun-2023 09:02:57 GMT; path=/; Httponly; Secure
+Content-Security-Policy: frame-ancestors 'self'
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Liferay-Portal: Liferay Digital Experience Platform 7.0.10 GA1 (Wilberforce / Build 7010 / June 15, 2016)
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Date: Sun, 11 Jun 2023 08:32:57 GMT
+X-Cnection: close
+Strict-Transport-Security: max-age=31536000

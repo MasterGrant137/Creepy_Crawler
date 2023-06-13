@@ -1,0 +1,16 @@
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Date: Sun, 11 Jun 2023 06:37:27 GMT
+X-Amz-Rid: 9QWP431PSWEYM8BX7Q1N
+Set-Cookie: uu=eyJpZCI6InV1ZDBkZTZlOWQ2ODI4NDFkZGIyM2YiLCJwcmVmZXJlbmNlcyI6eyJmaW5kX2luY2x1ZGVfYWR1bHQiOmZhbHNlfX0=; Domain=.imdb.com; Expires=Fri, 29 Jun 2091 09:51:34 GMT; Path=/; Secure
+Set-Cookie: session-id=000-0000000-0000000; Domain=.imdb.com; Expires=Fri, 29 Jun 2091 09:51:34 GMT; Path=/; Secure
+Set-Cookie: session-id-time=2317185447; Domain=.imdb.com; Expires=Fri, 29 Jun 2091 09:51:34 GMT; Path=/; Secure
+Content-Security-Policy: frame-ancestors 'self' imdb.com *.imdb.com *.media-imdb.com withoutabox.com *.withoutabox.com amazon.com *.amazon.com amazon.co.uk *.amazon.co.uk amazon.de *.amazon.de translate.google.com images.google.com www.google.com www.google.co.uk search.aol.com bing.com www.bing.com
+Content-Language: en
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,User-Agent
+X-Cache: Miss from cloudfront
+Via: 1.1 cfcfb1d8fbf5ce2b107182799687a614.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YTO50-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: gelB0uzuRbxnLzGy8IML0XjdmtN-piuVMs7ftu63nPXo73uoH85viw==

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /about/a-message-from-the-director
+Sitemap: https://www.nccih.nih.gov/sitemap/sitemap-index.xml
+Host: https://www.nccih.nih.gov

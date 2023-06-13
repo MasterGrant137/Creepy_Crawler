@@ -1,0 +1,15 @@
+Content-Length: 600
+Date: Sat, 10 Jun 2023 21:18:19 UTC
+Perf: 7626143928
+Server: tsa_p
+Set-Cookie: guest_id_marketing=v1%3A168643189976765034; Max-Age=63072000; Expires=Mon, 09 Jun 2025 21:18:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A168643189976765034; Max-Age=63072000; Expires=Mon, 09 Jun 2025 21:18:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_ts5CtnhE42OyQmZ9/xARSw=="; Max-Age=63072000; Expires=Mon, 09 Jun 2025 21:18:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A168643189976765034; Max-Age=63072000; Expires=Mon, 09 Jun 2025 21:18:19 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Content-Type: text/plain;charset=utf-8
+Cache-Control: no-cache, no-store, max-age=0
+X-Transaction-Id: e31a93bded987f3e
+Strict-Transport-Security: max-age=631138519
+Content-Encoding: gzip
+X-Response-Time: 2
+X-Connection-Hash: 730d602d5edae79b3ea9f7acf0f7cd34bc9c6a77fcfae5f08e639f392eba07d9

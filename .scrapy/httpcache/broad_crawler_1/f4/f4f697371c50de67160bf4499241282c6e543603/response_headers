@@ -1,0 +1,21 @@
+Content-Length: 56
+Content-Type: text/plain
+X-Amz-Id-2: jlq1S2Hj/nYbXi4BUtC+I+Ph8Lq0itRN74xIh+A9XOYwB2OK7NdKpqBfWcYZ70XcFunr7Szd27bCdgWaYSyol7sZnWI5tJdg5ECLbxbfltA=
+X-Amz-Request-Id: KHMN5R689VSF1066
+Last-Modified: Mon, 15 May 2023 18:45:44 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 0GTo0H6zx.etvonPELDLEI4BTehP6RDq
+Accept-Ranges: bytes
+Server: AmazonS3
+Content-Security-Policy: frame-ancestors 'self' https://cde-qa.nlm.nih.gov https://cde.nlm.nih.gov; default-src 'self' fonts.gstatic.com *.youtube.com; font-src 'self' fonts.gstatic.com *.nih.gov; frame-src 'self' https://uts.nlm.nih.gov; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.ckeditor.com cdn.jsdelivr.net script.crazyegg.com cdnjs.cloudflare.com *.nih.gov ajax.googleapis.com www.googletagmanager.com www.google-analytics.com dap.digitalgov.gov *.siteintercept.qualtrics.com siteintercept.qualtrics.com; style-src 'self' maxcdn.bootstrapcdn.com fonts.googleapis.com fonts.gstatic.com 'unsafe-inline' *.nih.gov cdn.ckeditor.com; img-src 'self' data: cdn.ckeditor.com *.nih.gov www.google-analytics.com www.googletagmanager.com siteintercept.qualtrics.com *.qualtrics.com; connect-src *; report-uri https://nlmoccs.report-uri.com/r/d/csp/reportOnly; worker-src 'self' data: blob:; object-src 'none';
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Access-Control-Allow-Origin: *
+Nlm-Options: Served by UTS Lambda
+Date: Tue, 13 Jun 2023 07:50:04 GMT
+Etag: "453d4e9523d9a1661c10883665d0fb01"
+Vary: Accept-Encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 b0cf88fce5b426f643a724856a8060ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-P4
+X-Amz-Cf-Id: i5FF7dLCzc5bSfuoI30odqadwGJHCEmubI7Vx_V6prljfAzVDOEDqw==

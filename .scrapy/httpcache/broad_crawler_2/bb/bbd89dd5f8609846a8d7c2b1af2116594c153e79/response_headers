@@ -1,0 +1,18 @@
+Date: Sun, 11 Jun 2023 07:17:16 GMT
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Permissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+Cf-Mitigated: challenge
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: __cf_bm=i6JyeCdEBhDttWpZ2v0Wi19atWikRAuFP9otDoM.N_A-1686467836-0-AUpNPYvom+utfxuPcB7wjUPFovc7cye0PIa5yuIyFQN7WKPjyIw70GH426+CROGUZxKpcDvpoS6loYOrBTe49QA=; path=/; expires=Sun, 11-Jun-23 07:47:16 GMT; domain=.ehp.niehs.nih.gov; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+Server: cloudflare
+Cf-Ray: 7d5812c9ae177d52-LAX
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400

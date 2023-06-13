@@ -1,0 +1,25 @@
+Content-Length: 0
+Content-Type: text/plain; charset=utf-8
+Cache-Control: public, max-age=60
+Location: /sport/cricket/59766226
+Req-Svc-Chain: FASTLY,GTM,BELFRAGE
+Via: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+X-Bbc-No-Scheme-Rewrite: 1
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+X-Bbc-Edge-Cache-Status: MISS
+X-Bbc-Origin-Response-Status: 301
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Strict-Transport-Security: max-age=31536000; preload
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Sat, 10 Jun 2023 21:18:20 GMT
+X-Fastly-Cache-Status: MISS-CLUSTER
+X-Served-By: cache-bur-kbur8200115-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686431900.053394,VS0,VE568
+X-Fastly-Pre-Flight-Cache: MISS, HIT
+X-Fastly-Pre-Flight-Cache-Status: HIT-CLUSTER
+X-Cache-Age: 0
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

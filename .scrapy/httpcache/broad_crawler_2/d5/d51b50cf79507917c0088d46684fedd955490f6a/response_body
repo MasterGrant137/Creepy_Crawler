@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48385047-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-48385047-1');
+	</script>
+	
+	<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZVM4K2192"></script>
+    <script>
+    	window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'G-SZVM4K2192');
+	</script>
+	
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v20.8 (Yoast SEO v20.8) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Blog - Office of Science Policy</title>
+	<link rel="canonical" href="https://osp.od.nih.gov/blog/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Blog" />
+	<meta property="og:url" content="https://osp.od.nih.gov/blog/" />
+	<meta property="og:site_name" content="Office of Science Policy" />
+	<meta property="article:modified_time" content="2022-12-19T21:28:21+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@NIH_OSP" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://osp.od.nih.gov/blog/","url":"https://osp.od.nih.gov/blog/","name":"Blog - Office of Science Policy","isPartOf":{"@id":"https://osp.od.nih.gov/#website"},"datePublished":"2022-10-20T20:21:05+00:00","dateModified":"2022-12-19T21:28:21+00:00","breadcrumb":{"@id":"https://osp.od.nih.gov/blog/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://osp.od.nih.gov/blog/"]}]},{"@type":"BreadcrumbList","@id":"https://osp.od.nih.gov/blog/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://osp.od.nih.gov/"},{"@type":"ListItem","position":2,"name":"Blog"}]},{"@type":"WebSite","@id":"https://osp.od.nih.gov/#website","url":"https://osp.od.nih.gov/","name":"Office of Science Policy","description":"","publisher":{"@id":"https://osp.od.nih.gov/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://osp.od.nih.gov/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://osp.od.nih.gov/#organization","name":"Office of Science Policy","url":"https://osp.od.nih.gov/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://osp.od.nih.gov/#/schema/logo/image/","url":"https://osp.od.nih.gov/wp-content/uploads/2022/02/cropped-cropped-NIH_Logo.png","contentUrl":"https://osp.od.nih.gov/wp-content/uploads/2022/02/cropped-cropped-NIH_Logo.png","width":247,"height":32,"caption":"Office of Science Policy"},"image":{"@id":"https://osp.od.nih.gov/#/schema/logo/image/"},"sameAs":["https://twitter.com/NIH_OSP"]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Office of Science Policy &raquo; Feed" href="https://osp.od.nih.gov/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Office of Science Policy &raquo; Comments Feed" href="https://osp.od.nih.gov/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/osp.od.nih.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://osp.od.nih.gov/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://osp.od.nih.gov/wp-includes/css/classic-themes.min.css?ver=6.2.2' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary-blue: #103881;--wp--preset--color--secondary-blue: #0a589a;--wp--preset--color--light-purple: #A392C8;--wp--preset--color--special-purple: #4C2C92;--wp--preset--color--secondary-purple: #a74593;--wp--preset--color--light-pink: #B175AF;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wp-pagenavi-css' href='https://osp.od.nih.gov/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css' href='https://osp.od.nih.gov/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.12' media='all' />
+<link rel='stylesheet' id='nih-osp-theme-style-css' href='https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/style.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css2?family=Source+Sans+Pro%3Awght%40300%3B400%3B600%3B700&#038;display=swap&#038;ver=6.2.2' media='all' />
+<link rel='stylesheet' id='bootstrap-4-css' href='https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/dist/bootstrap.min.css?ver=6.2.2' media='all' />
+<link rel='stylesheet' id='style-name-css' href='https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/dist/app.css?ver=6.2.2' media='all' />
+<link rel='stylesheet' id='addtoany-css' href='https://osp.od.nih.gov/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' media='all' />
+<script id='addtoany-core-js-before'>
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+a2a_config.icon_color="transparent,#1e73be";
+</script>
+<script async src='https://static.addtoany.com/menu/page.js' id='addtoany-core-js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js' id='jquery-js'></script>
+<script async src='https://osp.od.nih.gov/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1' id='addtoany-jquery-js'></script>
+<script id='search-filter-plugin-build-js-extra'>
+var SF_LDATA = {"ajax_url":"https:\/\/osp.od.nih.gov\/wp-admin\/admin-ajax.php","home_url":"https:\/\/osp.od.nih.gov\/","extensions":[]};
+</script>
+<script src='https://osp.od.nih.gov/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=2.5.12' id='search-filter-plugin-build-js'></script>
+<script src='https://osp.od.nih.gov/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=2.5.12' id='search-filter-plugin-chosen-js'></script>
+<link rel="https://api.w.org/" href="https://osp.od.nih.gov/wp-json/" /><link rel="alternate" type="application/json" href="https://osp.od.nih.gov/wp-json/wp/v2/pages/20959" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://osp.od.nih.gov/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://osp.od.nih.gov/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2.2" />
+<link rel='shortlink' href='https://osp.od.nih.gov/?p=20959' />
+<link rel="alternate" type="application/json+oembed" href="https://osp.od.nih.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fosp.od.nih.gov%2Fblog%2F" />
+		<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+				}
+					</style>
+				<style id="wp-custom-css">
+			.pum-theme-530 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close {
+	background-color: #B175AF !important;
+}
+.nf-before-form-content {
+	margin-bottom: 20px;
+}
+/* .search-container {
+	flex-wrap: nowrap;
+}
+@media only screen and (max-width: 1179px) { 
+	.search-container {
+		display: block;
+	}
+}
+@media only screen and (max-width: 991px) { 
+	.search-container {
+		flex-wrap: wrap;
+	}
+}
+.searchandfilter h4 {
+    min-width: 365px;
+} */
+
+header .mobile-search input[type=submit] {
+    margin: -10px;
+}
+header .mobile-search label input[type=search] {
+    padding: 7px 16px;
+}
+.visualization-wrapper { margin-bottom: 60px; }
+.visualization-wrapper { background: #f9f9f9; padding: 60px !important; max-width: 1200px !important; position: relative; top: 10px; border-bottom: 4px solid #16b8e0; }
+
+.hela-link-box-red:hover {background-color: #fde2e6;}
+
+.hela-link-box-purple:hover {background-color: #f1e1f2;}
+
+.hela-link-box-green:hover {background-color: #ebfaf5;}
+
+.hela-link-box-blue:hover {background-color: #e5f7fa;}
+
+.path-heading { padding-top: 20px;}
+
+.path-heading::after { content: ''; display: block; width: 100px; height: 5px; background-color: #16b8e0; margin: 10px 0;}
+
+.path-heading a { color: #000; transition: 0.375s; -webkit-transition: 0.375s; position: relative; display: block; }
+
+.hela-link-box:hover .path-heading a { color: #16b8e0; transition: 0.375s; -webkit-transition: 0.375s; }
+.hela-link-box img { width: 100vw; }
+
+.hela-link-box p { color: rgba(0, 0, 0, 0.56); padding-bottom: 20px; }
+
+.hela-link-box { transition: 0.375s; -webkit-transition: 0.375s; } 
+.hela-link-box:hover { background-color: #f1e1f2; padding: 0 10px;  transition: 0.375s; -webkit-transition: 0.375s; }
+
+.landing-heading { font-size: 25px; line-height: 1.2; font-family: 'Raleway-Medium'; text-align: center; margin-bottom: 30px; }
+
+.centered-caption-wp-block-image figcaption {
+    text-align: center;
+}		</style>
+		</head>
+
+<body class="page-template page-template-page-notitle page-template-page-notitle-php page page-id-20959 wp-custom-logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+
+	<header id="masthead" class="site-header">
+		
+		<div class="site-branding">
+			<div class="inner-container logo-container">
+				<div class="logo">
+					
+					<a href="https://osp.od.nih.gov">
+						<img alt="logo" src="https://osp.od.nih.gov/wp-content/uploads/2022/10/OSP-logo.png">
+					</a>
+
+											<p class="site-title"><a href="https://osp.od.nih.gov/" rel="home">Office of Science Policy</a></p>
+										</div>
+				<div class="desktop-hide mobile-searchbtn pull-right">
+					<button id="mobile-search">Search</button>
+				</div>
+				<div class="header-search pull-right">
+					<form role="search" method="get" class="search-form" action="https://osp.od.nih.gov/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>				</div>
+			</div>
+		</div><!-- .site-branding -->
+		
+		<div class="inner-container">
+			<div class="mobile-search header-search">
+				<form role="search" method="get" class="search-form" action="https://osp.od.nih.gov/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>			</div>
+		</div>
+
+		<div class="nav-container">
+			<div class="inner-container">
+				<nav class="navbar navbar-expand-lg navbar-light" role="navigation">
+					<div class="container inner-container">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						
+							<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse"><ul id="menu-main-menu" class="nav navbar-nav" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li  id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238 nav-item"><a itemprop="url" href="https://osp.od.nih.gov/about-us/" class="nav-link"><span itemprop="name">About Us</span></a></li>
+<li  id="menu-item-15975" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15975 nav-item"><a itemprop="url" href="https://osp.od.nih.gov/category/announcements/" class="nav-link"><span itemprop="name">News &amp; Announcements</span></a></li>
+<li  id="menu-item-239" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-239 nav-item"><a href="/policy-areas/" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-239"><span itemprop="name">Policy Areas</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-239">
+	<li  id="menu-item-17580" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17580 nav-item"><a itemprop="url" href="https://osp.od.nih.gov/policies/clinical-research/" class="dropdown-item"><span itemprop="name">Clinical Research</span></a></li>
+	<li  id="menu-item-17581" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17581 nav-item"><a itemprop="url" href="https://osp.od.nih.gov/policies/scientific-data-management-policy/" class="dropdown-item"><span itemprop="name">Scientific Data Sharing</span></a></li>
+	<li  id="menu-item-17582" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17582 nav-item"><a itemprop="url" href="https://osp.od.nih.gov/policies/biosafety-and-biosecurity-policy/" class="dropdown-item"><span itemprop="name">Biosafety and Biosecurity</span></a></li>
+	<li  id="menu-item-17772" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17772 nav-item"><a itemprop="url" href="https://osp.od.nih.gov/policies/bioethics-in-research/" class="dropdown-item"><span itemprop="name">Bioethics in Research</span></a></li>
+	<li  id="menu-item-17773" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17773 nav-item"><a itemprop="url" href="https://osp.od.nih.gov/policies/healthcare-research/" class="dropdown-item"><span itemprop="name">Healthcare Research</span></a></li>
+	<li  id="menu-item-17774" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17774 nav-item"><a itemprop="url" href="https://osp.od.nih.gov/policies/innovation-and-partnerships/" class="dropdown-item"><span itemprop="name">Innovation and Partnerships</span></a></li>
+	<li  id="menu-item-17583" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17583 nav-item"><a itemprop="url" href="https://osp.od.nih.gov/policies/stem-cell-and-developmental-biology-policy/" class="dropdown-item"><span itemprop="name">Stem Cell and Developmental Biology</span></a></li>
+	<li  id="menu-item-17775" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17775 nav-item"><a itemprop="url" href="/policy-areas/advisory-committee-activities/" class="dropdown-item"><span itemprop="name">Advisory Committee Activities</span></a></li>
+</ul>
+</li>
+<li  id="menu-item-21027" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20959 current_page_item active menu-item-21027 nav-item"><a itemprop="url" href="https://osp.od.nih.gov/blog/" class="nav-link" aria-current="page"><span itemprop="name">Under the Poliscope Blog</span></a></li>
+</ul></div>					</div>
+				</nav><!-- #site-navigation -->
+				<div class="engage-cta">
+					<div class="pull-right">
+													<a class="btn secondary-btn" href="http://137.187.173.51/get-involved/">Get Involved</a>
+											</div>
+				</div>
+			</div>
+		</div>				
+
+	</header><!-- #masthead -->
+
+	<main id="primary" class="site-main">
+
+		
+<article id="post-20959" class="post-20959 page type-page status-publish hentry">
+
+	<div class="entry-content">
+		<div id="hero-block_b28a88e8437acfe31b767e8841e72da3" class="hero " style="background-image: url('https://osp.od.nih.gov/wp-content/uploads/2022/02/Rectangle-22.jpg'); color: #ffffff">
+
+  <div class="inner-container">
+    <div class="container-hero">
+      <div class="hero-left">
+
+        
+                  <p><p><img decoding="async" loading="lazy" class="wp-image-21062 aligncenter" src="http://137.187.173.51/wp-content/uploads/2022/10/blog-logo-150x150.png" alt="" width="167" height="167" srcset="https://osp.od.nih.gov/wp-content/uploads/2022/10/blog-logo-150x150.png 150w, https://osp.od.nih.gov/wp-content/uploads/2022/10/blog-logo-300x300.png 300w, https://osp.od.nih.gov/wp-content/uploads/2022/10/blog-logo.png 334w" sizes="(max-width: 167px) 100vw, 167px" /></p>
+</p>
+        
+        
+      </div>
+    </div>
+  </div>
+     
+</div> 
+
+
+<div class="wp-block-group alignwide is-layout-flow"><div class="wp-block-group__inner-container"><div class="yoast-breadcrumbs"><span><span><a href="https://osp.od.nih.gov/">Home</a></span> » <span class="breadcrumb_last" aria-current="page">Blog</span></span></div>
+
+<div id="featured-blogs-block_4dbbfdb7db46015406063f727e63c2c7" class="featured-blogs ">
+	
+		
+	<div class="featured-content">	
+		<div class="main-article">
+							<div id="post-22999">
+					
+					<div class="entry-content">
+						<a class="entry-title" href="https://osp.od.nih.gov/a-fun-way-to-learn-more-about-osp/" title="A Fun Way to Learn More About OSP">
+														<div class="thumbnail-img">
+								<!-- displays static featured image for newest blog page - image will be replaced manually -->
+								<img decoding="async" src="/wp-content/uploads/2022/12/Blog_Static_Image.png" alt="Featured Blog Image">
+								
+							</div>
+													</a>
+					</div>
+				</div>
+					</div>
+		<div class="sub-articles">
+								<div id="post-22804">
+						<div class="entry-content">
+							
+							<a class="entry-title" href="https://osp.od.nih.gov/reflections-on-womens-history-month/" title="Reflections on Women’s History Month">
+									<figure class="thumbnail-caption">
+										<div class="thumbnail-img">
+											<img loading="lazy" width="300" height="300" src="https://osp.od.nih.gov/wp-content/uploads/2023/03/WHM-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" srcset="https://osp.od.nih.gov/wp-content/uploads/2023/03/WHM-300x300.jpg 300w, https://osp.od.nih.gov/wp-content/uploads/2023/03/WHM-1024x1024.jpg 1024w, https://osp.od.nih.gov/wp-content/uploads/2023/03/WHM-150x150.jpg 150w, https://osp.od.nih.gov/wp-content/uploads/2023/03/WHM-768x768.jpg 768w, https://osp.od.nih.gov/wp-content/uploads/2023/03/WHM-1536x1536.jpg 1536w, https://osp.od.nih.gov/wp-content/uploads/2023/03/WHM-2048x2048.jpg 2048w" sizes="(max-width: 300px) 100vw, 300px" />										</div>
+
+										<figcaption class="thumbnail-caption-text">
+											<strong>Reflections on Women’s History Month</strong>											<div class="caption-date">
+												March 31, 2023											</div>
+											
+										</figcaption>
+									</figure>
+							</a>
+						</div>
+					</div>
+								<div id="post-22167">
+						<div class="entry-content">
+							
+							<a class="entry-title" href="https://osp.od.nih.gov/advancing-the-promise-of-open-science/" title="Advancing the Promise of Open Science: We Want to Hear from You!">
+									<figure class="thumbnail-caption">
+										<div class="thumbnail-img">
+																								<img loading="lazy" width="300" height="300" src="https://osp.od.nih.gov/wp-content/uploads/2023/05/OSP_Logo300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" sizes="(max-width: 300px) 100vw, 300px">
+																					</div>
+
+										<figcaption class="thumbnail-caption-text">
+											Advancing the Promise of Open Science: We Want to Hear from You!											<div class="caption-date">
+												February 21, 2023											</div>
+											
+										</figcaption>
+									</figure>
+							</a>
+						</div>
+					</div>
+								<div id="post-22103">
+						<div class="entry-content">
+							
+							<a class="entry-title" href="https://osp.od.nih.gov/building-a-solid-policy-foundation-through-meaningful-engagement/" title="Building a Solid Policy Foundation Through Meaningful Engagement">
+									<figure class="thumbnail-caption">
+										<div class="thumbnail-img">
+											<img width="300" height="200" src="https://osp.od.nih.gov/wp-content/uploads/2023/02/shutterstock_192883130-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://osp.od.nih.gov/wp-content/uploads/2023/02/shutterstock_192883130-300x200.jpg 300w, https://osp.od.nih.gov/wp-content/uploads/2023/02/shutterstock_192883130-1024x684.jpg 1024w, https://osp.od.nih.gov/wp-content/uploads/2023/02/shutterstock_192883130-768x513.jpg 768w, https://osp.od.nih.gov/wp-content/uploads/2023/02/shutterstock_192883130-1536x1025.jpg 1536w, https://osp.od.nih.gov/wp-content/uploads/2023/02/shutterstock_192883130-2048x1367.jpg 2048w" sizes="(max-width: 300px) 100vw, 300px" />										</div>
+
+										<figcaption class="thumbnail-caption-text">
+											Building a Solid Policy Foundation Through Meaningful Engagement											<div class="caption-date">
+												February 3, 2023											</div>
+											
+										</figcaption>
+									</figure>
+							</a>
+						</div>
+					</div>
+						<div class="more-link">
+				<a href="/category/blog/">more posts</a>
+			</div>
+		</div>
+		
+	</div>
+</div></div></div>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-20959 -->
+
+	</main><!-- #main -->
+
+
+	<footer id="colophon" class="site-footer">
+		<div class="footer-page-date">
+			<p>Last updated: December 2022</p> 		</div>
+		<div class="footer-container">
+			<div class="footer-menu inner-container">
+				<div class="footer-menu-1">
+					<h5>ABOUT US</h5>
+					<div class="menu-footer-1-menu-container"><ul id="footermenu-1" class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li id="menu-item-16966" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16966"><a href="/about-us/leadership">Meet the Senior Leadership Team</a></li>
+<li id="menu-item-12914" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12914"><a href="/about-us/#our-mission">Mission Statement</a></li>
+<li id="menu-item-12915" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12915"><a href="https://osp.od.nih.gov/category/blog/">Under the Poliscope Blog</a></li>
+<li id="menu-item-12917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12917"><a href="https://osp.od.nih.gov/about-us/directory/">OSP Employee Directory</a></li>
+<li id="menu-item-12918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12918"><a href="https://osp.od.nih.gov/resources/">OSP Staff Publications</a></li>
+<li id="menu-item-19136" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19136"><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure</a></li>
+</ul></div>				</div>
+				<div class="footer-menu-2">
+				<h5>POLICY AREAS</h5>
+					<div class="menu-footer-2-menu-container"><ul id="footermenu-2" class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li id="menu-item-17608" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17608"><a href="https://osp.od.nih.gov/policies/clinical-research/">Clinical Research</a></li>
+<li id="menu-item-17609" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17609"><a href="https://osp.od.nih.gov/policies/scientific-data-management-policy/">Scientific Data Sharing</a></li>
+<li id="menu-item-17610" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17610"><a href="https://osp.od.nih.gov/policies/biosafety-and-biosecurity-policy/">Biosafety and Biosecurity Policy</a></li>
+<li id="menu-item-17783" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17783"><a href="https://osp.od.nih.gov/policies/bioethics-in-research/">Bioethics in Research</a></li>
+<li id="menu-item-17784" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17784"><a href="https://osp.od.nih.gov/policies/healthcare-research/">Healthcare Research</a></li>
+<li id="menu-item-17785" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17785"><a href="https://osp.od.nih.gov/policies/innovation-and-partnerships/">Innovation and Partnerships</a></li>
+<li id="menu-item-17611" class="menu-item menu-item-type-post_type menu-item-object-policies menu-item-17611"><a href="https://osp.od.nih.gov/policies/stem-cell-and-developmental-biology-policy/">Stem Cell and Developmental Biology Policy</a></li>
+<li id="menu-item-17786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17786"><a href="/policy-area/advisory-committee-activities/">Advisory Committee Activities</a></li>
+</ul></div>				</div>
+				<div class="footer-menu-3">
+					<h5>MEETINGS AND EVENTS</h5>
+					<div class="menu-footer-4-menu-container"><ul id="footermenu-4" class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li id="menu-item-12924" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12924"><a href="/events">Recent &#038; Upcoming Meetings</a></li>
+</ul></div>
+					<div class="social-icons">
+						<h5>CONNECT WITH US</h5>
+						<a href="https://twitter.com/NIH_OSP" target="_blank">
+							<img alt="Twitter icon" src="https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/dist/images/twitter.svg">
+						</a>
+						<a href="https://www.linkedin.com/company/nih-office-of-science-policy/" target="_blank">
+							<img alt="LinkedIn icon" src="https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/dist/images/linkedIn.svg">
+						</a>
+						<a href="https://www.youtube.com/channel/UClLO4iMAvv2LIQDdAqtLs1Q" target="_blank">
+							<img alt="YouTube icon" src="https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/dist/images/youtube.svg">
+						</a>
+					</div>
+				</div>
+				<div class="footer-menu-4">
+					<h5>USA.GOV</h5>
+					<div class="menu-footer-3-menu-container"><ul id="footermenu-3" class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><li id="menu-item-16682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16682"><a href="https://osp.od.nih.gov/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-16683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16683"><a href="https://osp.od.nih.gov/accessibility-policy/">Accessibility</a></li>
+<li id="menu-item-16684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16684"><a href="https://osp.od.nih.gov/web-privacy-notice/">Web Privacy Notice</a></li>
+<li id="menu-item-12922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12922"><a target="_blank" rel="noopener" href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office">NIH FOIA</a></li>
+<li id="menu-item-12923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12923"><a target="_blank" rel="noopener" href="http://get.adobe.com/reader/">Get Acrobat Reader</a></li>
+</ul></div>				</div>
+			</div>	
+
+		</div>			
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+	<script type="text/javascript">
+	var relevanssi_rt_regex = /(&|\?)_(rt|rt_nonce)=(\w+)/g
+	var newUrl = window.location.search.replace(relevanssi_rt_regex, '')
+	history.replaceState(null, null, window.location.pathname + newUrl + window.location.hash)
+	</script>
+	<link rel='stylesheet' id='block-acf-hero-css' href='https://osp.od.nih.gov/wp-content/plugins/nih-custom-blocks//blocks/hero/hero.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='block-acf-featured-blogs-css' href='https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/template-parts/block/featured-blogs/featured-blogs.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='plugincss-override-css' href='https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/dist/plugin.css?ver=1.0.0' media='all' />
+<script src='https://osp.od.nih.gov/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+<script src='https://osp.od.nih.gov/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.2' id='jquery-ui-datepicker-js'></script>
+<script id='jquery-ui-datepicker-js-after'>
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script src='https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/js/navigation.js?ver=1.0.0' id='nih-osp-theme-navigation-js'></script>
+<script src='https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/dist/bootstrap.min.js?ver=1.0.0' id='bootstrap-4-js'></script>
+<script src='https://osp.od.nih.gov/wp-content/themes/nih-osp-theme/dist/app.js?ver=1.0.0' id='script-name-js'></script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+Content-Length: 0
+Age: 0
+Cache-Control: max-age=900, public
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 11 Jun 2023 07:17:35 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Location: https://www.edi.nih.gov/
+Server: nginx
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: MISS
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Request-Id: v-09c3ba4e-0828-11ee-a5e1-c70a106630de

@@ -1,0 +1,18 @@
+Content-Length: 40189
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 13 Jun 2023 07:50:41 GMT
+Server: nginx/1.18.0
+X-Powered-By: PHP/7.0.31
+Link: <https://www.bu.edu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.bu.edu/?p=367311>; rel=shortlink
+Content-Encoding: gzip
+Content-Security-Policy: upgrade-insecure-requests
+Set-Cookie: BIGipServerist-wp-app-prod-443-pool=1826746634.47873.0000; path=/; Httponly; Secure
+X-Lookup: input: (articles:articles/2023) backend=wordpress(:)
+X-Backend: wordpress
+X-Upstream: wordpress
+Vary: Accept-Encoding,User-Agent
+X-Cache: Miss from cloudfront
+Via: 1.1 81316ca7254949464a40e31d08fd91bc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-P4
+X-Amz-Cf-Id: vQfmnHEvu61a4jQMaNMgZDW7YQbGbbke13ldP0TXa7d33_oC9tgovQ==

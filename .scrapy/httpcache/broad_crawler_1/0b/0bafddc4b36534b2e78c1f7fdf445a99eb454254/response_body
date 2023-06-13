@@ -1,0 +1,210 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta name="Description" content="This CE activity explains research on SIDS, other sleep-related causes of infant death &amp; ways to reduce the risk of both of these types of deaths." /><meta property="og:title" content="SIDS CBT" /><meta property="og:type" content="website" /><meta property="og:url" content="https://www1.nichd.nih.gov/cbt/sids/nursececourse/" /><meta property="og:image" content="https://www1.nichd.nih.gov/cbt/sids/nursececourse/images/sids_cbt_nurse/banner_welcome.jpg" /><meta property="og:image:type" content="image/jpeg" /><meta property="og:image:width" content="790" /><meta property="og:image:height" content="381" /><meta property="og:description" content="Reducing the Risk for Sudden Infant Death Syndrome (SIDS) and Sudden Unexpected Infant Death (SUID): Continuing Education for Nurses" /><title>
+	Reducing the Risk for Sudden Infant Death Syndrome (SIDS) and Sudden Unexpected Infant Death (SUID): Continuing Education Home
+</title>
+
+    <link href="/nursececourse/style/sids_cbt_nurse/sids1.css" rel="Stylesheet" type="text/css" />
+    <link href="/nursececourse/style/sids_cbt_nurse/sids_pdf_style.css" rel="Stylesheet" type="text/css" />
+    <link href="/nursececourse/style/sids_cbt_nurse/sids_print.css" rel="Stylesheet" type="text/css" media="print" />
+    
+    <script language="javascript" type="text/javascript">
+       var url = window.location.pathname;
+       var filename = url.substring(url.lastIndexOf('/')+1);
+    
+        function renderForPrintAutoPrint(){
+		    if( confirm("Do you wish to send to printer?") ){
+			    /*
+			    not sure why they do this via a form...
+			    theform = eval("document.renderforprintautoprintform");
+			    theform.printBtn.click();
+    			
+			    */
+			    //timer = setTimeout('renderForPrintAutoPrintWait();', 2000);
+			    window.print();
+			    //timer = setTimeout('self.close();', 1000);
+		    }
+		    else {
+			    self.close();
+		    }
+	    }
+	    
+	    var reqXML;
+                    
+        function LoadXMLDoc(url){
+          if (window.XMLHttpRequest){                                                                     //Mozilla, Firefox, Opera 8.01, Safari
+            reqXML = new XMLHttpRequest(); 
+            reqXML.onreadystatechange = BuildXMLResults; 
+            reqXML.open("GET", url, true); 
+            reqXML.send(null); 
+          }
+          else if(window.ActiveXObject){ //IE
+            reqXML = new ActiveXObject("Microsoft.XMLHTTP"); 
+            if (reqXML) { 
+              reqXML.onreadystatechange = BuildXMLResults; 
+              reqXML.open("GET", url, true); 
+              reqXML.send(); 
+            } 
+          }
+          else{ //Older Browsers
+            alert("Your Browser does not support Ajax!");
+          }
+        } 
+
+        function BuildXMLResults(){
+            if(reqXML.readyState == 4){                                                                     //completed state                            
+                if(reqXML.status == "200"){                                                                 //We got a sucess page back  
+                                   
+                    //Check to verify the message from the server                                                         
+                    if(reqXML.responseText.indexOf("Session Updated - Server Time:") != -1){                        
+                        SetTimer(); //restart timer
+                    }
+                    else{                        
+                        alert("Your session appears to have expired. You may lose your current data.");    //display that that session expired
+                        if (filename != "Welcome.aspx") {
+                            window.location = redirectPage;
+                        }
+                    }
+                    reqXML.responseText.Clear;
+                } 
+                else
+                    alert("There was a problem retrieving the XML data:\n" + reqXML.statusText);            //display server code not be accessed                	
+            }
+        }
+              
+        function ConfirmUpdate(){            
+            if(confirm("Your session is about to expire due to inactivity. Click 'OK' to continue."))       //Ask them to extend
+                LoadXMLDoc('MaintainSession.aspx');                                                         //load server side page if ok               
+        }
+        
+        function SetTimer(){   
+            var timerObj;
+                      
+            timerObj = setTimeout("ConfirmUpdate()", dblMinutes);              
+        }
+
+        var dblMinutes      = '840000';
+        var redirectPage    = 'Welcome.aspx';
+        
+                           // start the timer if guid exists
+         
+    </script>
+    
+</head>
+<body >
+    <a href="#skipnav" class="hide">Skip Navigation</a>
+    <form method="post" action="./Welcome.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="vXYQ66f76Mc2iPI272F4mmwtdVaZMSA5/EBBvKGN91qYYxQPhdVrXk/6LTejuTQn8owspFZoj/5YyV9sSkAyS7e/LjqOUyyamYbajmtt7/sRKEzpUyviI8fWmUGcIHzkVpYYQPzzj+XqRpxVfl4lTvKhLm9eMnFDhzy7ffiAnYRkr1Lu8GzKvjgErYBMNq1e9J64w/pU16x2lyuMXMvE7YYE1NN6EViJzzh6p3Cp7TMOrNO+kCVf3UJjDAwxm8kCtjyl9szKv3QIeG9hlxnuP+2+RoxZP4OUGD5Cdo7wcg82fWrMCrn7hMWegfFAQlmeASjY0srKH31ArY4bpX0LK21iiM92feDg0uM/o8Jxhm/VVsIFTDLDHVwpLjMWA6MrC8PJ1fTgG2mBNNg0ALp6Ql5D9IjNYhBaO+h/7E5RnvU29ESSnAVsWdYwrh982Q+2eIOiq+LltZCLF9HgSFGQxtUuks27UoW65w+LO1mEr3HJITN+kpnKdx4EIgcBCtnamvM32SBoAicgVeoOYttqBlU4mhfuRXgu9JaIGsFUCsBSh1uHevzIh2h1d9yJZOh6" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9337EF4E" />
+            
+        <div id="wrapper">
+
+            <div id="welcome_banner_above"></div>
+
+            <span id="LabelHeader">
+                <div id="nav">
+                    <div class="menu">
+                        <ul>
+                            <li><a class="active" href="/nursececourse/Welcome.aspx">Home</a></li>
+                            <li><a  href="/nursececourse/Page.aspx?page_id=1">About<!--[if IE 7]><!--></a><!--<![endif]-->
+                                <!--[if lte IE 6]><table><tr><td><![endif]-->
+                                <ul>
+                                    <li><a href="/nursececourse/Page.aspx?page_id=1">About</a></li>
+                                    <li><a href="/nursececourse/Page.aspx?page_id=3">From the Director</a></li>
+                                    <li><a href="/nursececourse/Page.aspx?page_id=2">Partners</a></li>
+                                </ul>
+                                <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                            </li>
+                            <li><a  href="/nursececourse/Page.aspx?page_id=4">Accreditation</a></li>
+                            <li><a  href="/nursececourse/Default.aspx">Start CE</a></li>
+                            <li><a  href="/nursececourse/Page.aspx?page_id=11">Glossary</a></li>
+                            <li><a  href="/nursececourse/Page.aspx?page_id=7">Resources<!--[if IE 7]><!--></a><!--<![endif]-->
+                                <!--[if lte IE 6]><table><tr><td><![endif]-->
+                                <ul>
+                                    <li><a href="/nursececourse/Page.aspx?page_id=7">References</a></li>
+                                    <li><a href="/nursececourse/Page.aspx?page_id=5">More on SIDS</a></li>
+                                    <li><a href="/nursececourse/Page.aspx?page_id=6">SIDS Risk-Reduction Recommendations</a></li>
+                                </ul>
+                                <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                            </li>
+                            <li><a href="/nursececourse/Page.aspx?page_id=10">Help</a></li>
+                        </ul>
+                    </div>
+                    <div id="above_toolbar">
+                        <a id="HyperLinkPrint" href="/nursececourse/Welcome.aspx?print=1&amp;" target="_blank"><img id="ImagePrint" title="Print" alt="" src="/nursececourse/images/sids_cbt_nurse/icons/print_icon.gif" border="0" /> Print</a>&nbsp;&nbsp;
+                        <a id="HyperLinkEmail" href="EmailPage.aspx" target="_blank"><img id="ImageEmail" title="Email" alt="" src="/nursececourse/images/sids_cbt_nurse/icons/email_icon.gif" border="0" /> Email</a>&nbsp;&nbsp;
+                        
+                    </div>
+                </div>       
+            </span>
+            
+            <div id="welcome_banner_below"></div>
+            
+            <div id="welcome_content">
+                <a name="skipnav"></a>
+
+                <div class="content-body-all">
+                 
+
+
+    
+    <h1>Reducing the Risk for Sudden Infant Death Syndrome (SIDS) and Sudden Unexpected Infant Death (SUID): Continuing Education for Nurses <br /><img src="/nursececourse/images/sids_cbt_nurse/text-home.jpg" title="Reducing the Risk for Sudden Infant Death Syndrome (SIDS) and Sudden Unexpected Infant Death (SUID): Continuing Education for Nurses." alt="As a nurse, you make a difference every day." border="0" /></h1>
+
+    <!--
+    <p>Sudden Infant Death Syndrome (SIDS) is the leading cause of death among infants between one month and one year of age,  but there are ways to reduce the risk. This continuing education (CE) course explains the latest research on 
+    SIDS and reducing SIDS risk and outlines and how you can communicate risk-reduction messages to parents and caregivers in just a few minutes. By completing this course, you can earn 1.1 hours of 
+    <a href="Page.aspx?page_id=4">CE credit</a>. Learn how to teach parents and caregivers to keep their babies safe and healthy, so they can make a difference - just like you.</p>
+    -->
+
+    <p>Some of your smallest patients, babies younger than 1 year of age, are at risk for SIDS and other sleep-related causes of infant death. But there are ways to reduce the risk.</p>
+
+    <p>This continuing education (CE) activity explains the latest research on SIDS, other sleep-related causes of infant death, and ways to reduce the risks of these types of deaths. The CE activity also outlines how you can communicate risk-reduction messages to parents and caregivers in just a few minutes.</p>
+
+    <p>Learn how to teach parents and caregivers to keep their babies safe and healthy so they can grow up to make a difference&mdash;just like you.</p>
+    
+    <p>This CE activity is approved for 1.5 contact hours by the Maryland Nurses Association, an accredited approver of continuing education by the American Nurses Credentialing Center’s Commission on Accreditation</p>
+ 
+    <p><a href="default.aspx">Start the activity now.</a></p>
+
+
+                </div>
+                
+                <!--
+                
+                -->
+                
+            </div> <!-- /welcome_content -->
+            
+            <span id="LabelFooter">
+                <div id="main_footer">
+                    <a href="http://www.nichd.nih.gov " target="_blank">NICHD Home</a> &nbsp;<strong>|</strong>&nbsp;
+                    <a href="https://safetosleep.nichd.nih.gov/ " target="_blank">NICHD Safe to Sleep<sup style="color:White;">&reg;</sup> Campaign</a> &nbsp;<strong>|</strong>&nbsp;
+                    <a href="http://www.nichd.nih.gov/pages/accessibility.aspx" target="_blank">Accessibility</a> &nbsp;<strong>|</strong>&nbsp;
+                    <a href="http://www.nichd.nih.gov/contact" target="_blank">Contact</a> &nbsp;<strong>|</strong>&nbsp;
+                    <a href="http://www.nichd.nih.gov/pages/disclaimer#disclaimers" target="_blank">Disclaimer</a> &nbsp;<strong>|</strong>&nbsp;
+                    <a href="http://www.nichd.nih.gov/about/foia" target="_blank">FOIA</a> &nbsp;<strong><br /></strong>&nbsp;
+                    <a href="http://www.nih.gov" target="_blank">NIH Home</a> &nbsp;<strong>|</strong>&nbsp;
+                    <a href="http://www.dhhs.gov" target="_blank">HHS Home</a> &nbsp;<strong>|</strong>&nbsp;
+                    <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" title="HHS Vulnerability Disclosure" target="_blank">HHS Vulnerability Disclosure</a>
+
+                    <div id="nichd_footer_tagline">NIH...Turning Discovery Into Health<sup>&reg;</sup></div>
+                </div>
+            </span>          
+            
+            
+       </div><!--wrapper-->
+    
+    </form>
+<!-- Google Analytics -->
+<script type="text/javascript" src="/nichdWWWAssets2013/js/google-analytics.js"></script>
+<script type="text/javascript">
+    loadGAScriptandDoCallBack(NICHDGAFunction); // defined in google-analytics.js file
+</script>
+
+
+</body>
+</html>

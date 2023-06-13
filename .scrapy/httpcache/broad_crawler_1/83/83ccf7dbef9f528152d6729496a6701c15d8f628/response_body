@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Web Policies and Notices</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="index.css">
+		<link rel="shortcut icon" href="https://www.nih.gov/favicon.ico" type="image/vnd.microsoft.icon">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.js" integrity="sha256-Z1t+wxZ7Eh5T1sK6aePWMhEQOghR4jZVLwjwrUZAReE=" crossorigin="anonymous"></script>
+		<script>
+			function searchText(srnum, tabnum) {
+				var input, filter, table, tr, td, i, txtValue;
+				input = document.getElementById(srnum);
+				filter = input.value.toUpperCase();
+				table = document.getElementById(tabnum);
+				tr = table.getElementsByTagName("tr");
+				for (i = 0; i < tr.length; i++) {
+					td = tr[i].getElementsByTagName("td")[0];
+					if (td) {
+						txtValue = td.textContent || td.innerText;
+						if (txtValue.toUpperCase().indexOf(filter) > -1) {
+							tr[i].style.display = "";
+						} else {
+							tr[i].style.display = "none";
+						}
+					}       
+				}
+			}
+</script>
+	</head>
+	<body>
+		<header class="nih-header d-flex align-items-center">
+			<div class="container">
+				<div class="row justify-content-left">
+					<div class="col col-10 offset-xl-1">
+						<img src="images/NIHLogo.png" alt="National Institutes of Health" class="header-logo">
+					</div>
+				</div>
+			</div>
+		</header>
+			
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1">
+					<main class="nih-login-content">
+							<div class="col">
+								<h1><b>NIH Login Service Privacy Policy</b></h1><br>
+								<div class="panel-group" id="accordion">
+
+											<div class="panel-body">The <a href="https://auth.nih.gov/CertAuthV3/forms/hrsl/Login.aspx?TYPE=33554433&REALMOID=06-0a45fa03-3e11-40ce-b135-0196d9c4df35&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=nihwamwebagent&TARGET=-SM-HTTPS%3a%2f%2fauth%2enih%2egov%2fiTrust%2fLoginHeaders%2easp%3fFED">NIH Login Service (NIH Login)</a> facilitates access by National Institutes of Health (NIH) staff and registered external collaborators to NIH operated websites, applications, and services that require a log in.  Protecting your privacy is very important to us.  NIH never collects information for commercial marketing or any purpose unrelated to the NIH’s mission and goals.  Therefore, NIH Login will never sell your information to anyone, and we will only use it to provide secure access to the NIH websites and systems you log in to.  Remember that once you leave the NIH Login screen, you will be subject to the privacy policies for the site(s) you are visiting.
+
+											</div>
+
+
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a href="https://www.nih.gov/web-policies-notices">Types of Information Collected</a>
+											</h4>
+										</div>
+										
+											<div class="panel-body">NIH Login automatically collects and retains a limited set of information about you when you use the service.  We collect different information for badged NIH staff and non-NIH external collaborators:
+											<br><ul>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>NIH Staff: first name, last name, email address, and HHS identification number (HHSID); and</li>
+											<li>Non-NIH External Collaborators: first name, last name, email address, and persistent identifier from the external identity provider (the owner of the account you used to log in).</li>
+
+											</ul>
+										<br>The NIH Login Service only allows you to provide the information indicated above.  You cannot provide information we do not automatically request from the identity provider (the owner of the account you used to log in). 
+											</div>
+											
+										<div class="panel-heading">
+											<h4 class="panel-title" color="blue">
+												<a href="https://www.nih.gov/web-policies-notices">How NIH Login Collects Information</a>
+											</h4>
+										</div>
+
+											<div class="panel-body">After you log in, NIH Login asks the identity provider (the owner of the account you used to log in) to send the information listed in the Types of Information Collected section. </div>
+
+										<div class="panel-heading">
+											<h4 class="panel-title" color="blue">
+												<a href="https://www.nih.gov/web-policies-notices">How NIH Login Uses Cookies</a>
+											</h4>
+										</div>
+
+											<div class="panel-body">When you visit any website, its server may generate a piece of text known as a "cookie" to place on your computer.  The cookie allows the server to "remember" specific information about your visit while you are connected. The cookie makes it easier for you to use the dynamic features of webpages.</div>
+											<div class="panel-body">There are two types of cookies, single session (temporary), and multi-session (persistent).  Session cookies last only as long as your web browser is open.  Once you close your browser, the session cookie disappears.  Persistent cookies are stored on your computer for longer periods.</div>
+											<div class="panel-body">The Office of Management and Budget <a href="https://www.nih.gov/sites/default/files/misc/m10-22.pdf">M-10-22, Guidance for Online Use of Web Measurement and Customization Technologies</a> allows Federal agencies to use both session and persistent cookies.  The NIH Login Service uses session cookies to facilitate your secure access to NIH applications and websites.  These session cookies contain only information about your browser’s visit to the site; they do not contain any personal information about you.  NIH Login does not use persistent cookies.</div>
+
+											
+
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a href="https://www.nih.gov/web-policies-notices">How to Disable Cookies</a>
+											</h4>
+										</div>
+								
+
+											<div class="panel-body">If you do not wish to allow the NIH Login Service to place session cookies on your computer, you can disable in your web browser.  You can find instructions to disable cookies in the most popular browsers at <a href="https://www.usa.gov/optout-instructions">https://www.usa.gov/optout-instructions</a>.</div>
+											<div class="panel-body">Notes:<br><ul><li>If you choose to disable cookies, you will experience issues accessing information and resources at sites and applications that rely on the NIH Login service.</li>
+											                                      <li>Configuring your browser to disable cookies will disable cookies for all websites, not just NIH sites that rely on NIH Login services.</li>
+																				</ul>
+											</div>
+											
+
+										<div class="panel-heading">
+											<h4 class="panel-title" color="blue">
+												<a href="https://www.nih.gov/web-policies-notices">Your Right to Correct Your Personal Information at NIH</a>
+											</h4>
+										</div>
+
+											<div class="panel-body">Your right to request corrections to errors in your personal information used by the NIH Login Service is specified in the published NIH System of Records Notice (SORN) <a href="https://www.hhs.gov/foia/privacy/sorns/nih-sorns.html">09-25-0216</a>.</div>
+										<div class="panel-heading">
+
+												NIH Staff
+
+										</div>
+											<div class="panel-body">For NIH staff, the NIH Login Service uses information from the NIH Enterprise Directory (NED).  You may update your personal information in NED via the <a href="https://nedportal.nih.gov/ProcessPortal/dashboards/SYSRP/2657">NED self-service portal</a>.  You may also contact the <a href="https://itservicedesk.nih.gov/">NIH IT Service Desk</a> if you need help.</div>
+										<div class="panel-heading">
+
+												Non-NIH Individuals
+
+										</div>
+											<div class="panel-body">NIH does not have a process in place for non-NIH individuals to correct your personal information used by NIH Login because the information is sent directly to the NIH Login Service by the identity provider (the owner of the account you used to log in) when you log in.  To correct your personal information, you will need to contact the owner of the account you used to log in.  For example, if you work at a research institution and use your institution’s credentials to log in via NIH Login, you must contact your research institution’s information technology (IT) department.</div>
+
+										<div class="panel-heading">
+											<h4 class="panel-title" color="blue">
+												<a href="https://www.nih.gov/web-policies-notices">How NIH Login Protects Your Personal Information</a>
+											</h4>
+										</div>
+
+											<div class="panel-body">NIH Login has implemented administrative, technical, and physical controls to protect your personal information that we collect.</div>											
+										<div class="panel-heading">
+											Administrative
+										</div>
+											<div class="panel-body">NIH Login assigns specific roles on a case-by-case basis to qualified, vetted, and authorized NIH staff.  Through those role assignments, authorized NIH staff get the system permissions they need to perform various job functions.  NIH Login regularly reviews role assignments, and revokes role assignments when they are no longer required or appropriate.</div>
+										<div class="panel-heading">
+
+												Technical
+
+										</div>
+											<div class="panel-body">NIH Login segregates IT hardware and software from the internet to prevent unauthorized or malicious access.  NIH Login maintains and monitors access control lists and event logs to detect unauthorized, suspicious, or malicious activity.  Only authorized NIH IT technical staff have access to these logs and access lists, and they must use multi-factor authentication to access the information.  In addition, NIH Login uses an array of tools to monitor and audit file and system integrity.</div>
+										<div class="panel-heading">
+
+												Physical
+
+										</div>
+											<div class="panel-body">NIH Login limits physical access to NIH Login servers that are all located in a secured facility or cloud environment. Security personnel are stationed at the main entrance of the complex, 24 hours a day, seven days a week.  Anyone entering the facility must be pre-authorized and must display a valid government identification (ID) showing a current identification photo.  All entrance doors to the data centers are controlled by card-activated locks that restrict access 24 hours a day, seven days a week.</div>											
+										<div class="panel-heading">
+											<h4 class="panel-title" color="blue">
+												<a href="https://www.nih.gov/web-policies-notices">Data Safeguarding and Privacy</a>
+											</h4>
+										</div>
+
+											<div class="panel-body">The session cookies used by NIH Login are considered web measurement and customization technologies.  These technologies comply with existing Federal and NIH policies with respect to privacy and data safeguarding standards.</div>
+											<div class="panel-body">NIH conducts and publishes a Privacy Impact Assessment (PIA) for each use of an IT system or third-party website application (TPWA) because each application or site may have different functionality or practices.  PIAs are stored with the <a href="https://oma.od.nih.gov/DMS/Pages/Privacy-Program-Privacy-Impact-Assessments.aspx">NIH Privacy Office</a> and TPWAs are posted for public view on DHHS’ <a href="https://www.hhs.gov/pia/index.html#Third-Party">Third Party Websites and Applications</a> web site.</div>											
+											<div class="panel-body">Because NIH Login relies on groups of records that are designed to be retrieved by an individual’s name or other personal identifier linked to the individual, NIH Login is covered by the Privacy Act of 1974, as amended (5 U.S.C. Section 552a).  NIH System of Records Notices are published in the Federal Register and posted on the <a href="https://www.hhs.gov/foia/privacy/sorns/index.html">HHS System of Records Notices Website</a>.</div> 											
+											
+										<div class="panel-heading">
+											<h4 class="panel-title" color="blue">
+												<a href="https://www.nih.gov/web-policies-notices">Data Retention and Access Limits</a>
+											</h4>
+										</div>
+
+											<div class="panel-body">NIH Login retains records for NIH users until business use ceases, or for six (6) years after their password is altered or user account is terminated, but longer retention is authorized if required for business use.  Records are destroyed six years after cutoff, unless continuation is requested by the NIH, in accordance with the National Archives and Records Administration (NARA) approved disposition schedule #s DAA-GRS-2013-0006-0003 and DAA-GRS-2013-0006-0004.  NIH Login retains a limited set of information for non-NIH individuals only for the short duration of time when they are using the service.</div>
+											<div class="panel-body">NIH Login employs the principles of least privilege and need to know, allowing only authorized accesses for NIH staff where access is required to perform primary job responsibilities in accordance with organizational missions and business functions.  Information collected by the NIH Login Service is available only to NIH Login System Administrators, and other designated NIH staff who require this information to perform their duties.</div>																					
+											<div class="panel-body">For further information about NIH privacy policy, please contact the NIH Senior Official for Privacy at <a href="mailto:privacy@mail.nih.gov">privacy@mail.nih.gov</a> ; call 301-496-4606 or visit the <a href="https://oma.od.nih.gov/DMS/Pages/Privacy-Program.aspx">NIH Privacy Program</a> web page.</div>											
+											
+											<div class="panel-body">Link to <a href="https://www.nih.gov/web-policies-notices">NIH Privacy Policy</a></div>
+										</div>
+									</div>									
+								</div>
+							</div>
+					</main>
+				</div>
+			</div>
+			<aside role="doc-notice" class="container nih-warning-content no-gutters">
+				<div class="col-xl-10 offset-xl-1">
+					<h2 class="warning-header">WARNING NOTICE:</h2>
+					<p class="warning-text">
+						For public facing web pages to which the public has privileged access, e.g., clinical trial or adverse effects systems where users/patients are logging in to enter PII/PHI: You are accessing a U.S. Government web site which may contain information that must be protected under the U.S. Privacy Act or other sensitive information and is intended for Government authorized use only. Unauthorized attempts to upload information, change information, or use of this web site may result in disciplinary action, civil, and/or criminal penalties. Unauthorized users of this web site should have no expectation of privacy regarding any communications or data processed by this web site. Anyone accessing this web site expressly consents to monitoring of their actions and all communication or data transitioning or stored on or related to this web site and is advised that if such monitoring reveals possible evidence of criminal activity, NIH may provide that evidence to law enforcement officials.
+					</p>
+				</div>
+			</aside>
+		</div>
+		<footer class="nih-footer">
+			<p>For assistance, call the NIH IT Service Desk at <br><span class="text-nowrap text-break"><a href="tel:301-496-4357">301-496-4357</a> (6-HELP)</span> or <span class="text-nowrap"><a href="tel:866-319-4357">866-319-4357</a> (toll-free)</span></p>
+			<img src="images/HHSLogo.svg" class="footer-logo-hhs" alt="HHS">
+			<img src="images/NIHLogo.png" alt="NIH" class="footer-logo-nih-small">
+		</footer>
+	</body>
+</html>

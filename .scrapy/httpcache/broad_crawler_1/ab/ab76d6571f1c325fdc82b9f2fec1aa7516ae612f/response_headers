@@ -1,0 +1,25 @@
+Content-Length: 28
+Cache-Control: private,max-age=0
+Expires: Mon, 29 May 2023 07:50:06 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/10.0
+X-Networkstatistics: 0,262144,0,0,1401,0,24006
+X-Sharepointhealthscore: 2
+Public-Extension: http://schemas.microsoft.com/repl-2
+X-Databoundary: NONE
+X-1Dscollectorurl: https://mobile.events.data.microsoft.com/OneCollector/1.0/
+X-Ariacollectorurl: https://browser.pipe.aria.microsoft.com/Collector/3.0/
+Sprequestguid: 895ebca0-907e-3000-c5c6-01c388c54526
+Request-Id: 895ebca0-907e-3000-c5c6-01c388c54526
+Ms-Cv: oLxeiX6QADDFxgHDiMVFJg.0
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self' teams.microsoft.com *.teams.microsoft.com *.skype.com *.teams.microsoft.us local.teams.office.com *.powerapps.com *.yammer.com *.officeapps.live.com *.office.com *.stream.azure-test.net *.microsoftstream.com *.dynamics.com *.microsoft.com onedrive.live.com *.onedrive.live.com securebroker.sharepointonline.com;
+Sprequestduration: 17
+Spiislatency: 0
+X-Powered-By: ASP.NET
+Microsoftsharepointteamservices: 16.0.0.23724
+X-Content-Type-Options: nosniff
+X-Ms-Invokeapp: 1; RequireReadOnly
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Date: Tue, 13 Jun 2023 07:50:05 GMT

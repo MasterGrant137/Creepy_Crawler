@@ -1,0 +1,21 @@
+Content-Length: 510
+Date: Sun, 11 Jun 2023 08:29:03 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: AWSALB=WiGBX4g3iQIBSICREBuFjRD/G22W4XLfY5o7lsmjdiBj0Q8qT4VeV79aDULwGsj8k6yQhI8GAX78RI8tiBfrbHDvPmKEpHOUV1d6fJawUSHEOUxBPH04ipAfj49I; Expires=Sun, 18 Jun 2023 08:29:03 GMT; Path=/
+Set-Cookie: AWSALBCORS=WiGBX4g3iQIBSICREBuFjRD/G22W4XLfY5o7lsmjdiBj0Q8qT4VeV79aDULwGsj8k6yQhI8GAX78RI8tiBfrbHDvPmKEpHOUV1d6fJawUSHEOUxBPH04ipAfj49I; Expires=Sun, 18 Jun 2023 08:29:03 GMT; Path=/; SameSite=None; Secure
+Server: nginx
+X-Powered-By: PHP/8.1.7
+Location: https://www.niaid.nih.gov/grants-contracts/negotiate-initial-award
+X-Drupal-Route-Normalizer: 1
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+X-Varnish: 15705156
+Age: 0
+Via: 1.1 varnish (Varnish/6.3)
+X-Varnish-Cache: MISS

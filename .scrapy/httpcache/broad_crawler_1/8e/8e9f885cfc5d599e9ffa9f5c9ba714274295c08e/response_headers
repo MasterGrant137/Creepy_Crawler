@@ -1,0 +1,19 @@
+Content-Length: 82
+Date: Tue, 13 Jun 2023 07:57:21 GMT
+Perf: 7626143928
+Vary: Accept
+Server: tsa_p
+Location: /NIAAAnews
+Set-Cookie: guest_id_marketing=v1%3A168664304173786565; Max-Age=63072000; Expires=Thu, 12 Jun 2025 07:57:21 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id_ads=v1%3A168664304173786565; Max-Age=63072000; Expires=Thu, 12 Jun 2025 07:57:21 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: personalization_id="v1_vhNutfch/hTIOBA68I+ARw=="; Max-Age=63072000; Expires=Thu, 12 Jun 2025 07:57:21 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: guest_id=v1%3A168664304173786565; Max-Age=63072000; Expires=Thu, 12 Jun 2025 07:57:21 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Cache-Control: no-cache, no-store, max-age=0
+X-Transaction-Id: 62ffaaccfe9d7236
+X-Xss-Protection: 0
+Strict-Transport-Security: max-age=631138519
+Content-Encoding: gzip
+X-Response-Time: 16
+X-Connection-Hash: 535d3ad34efa61bc76b00512659ea6b169ad10d03c4152848f26cec9f511265f

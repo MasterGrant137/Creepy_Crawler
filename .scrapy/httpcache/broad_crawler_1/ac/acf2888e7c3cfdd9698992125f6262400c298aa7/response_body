@@ -1,0 +1,2932 @@
+<!DOCTYPE html>
+<html data-generated-by="stalefish@0.0.8"
+  class="no-js lb-breakpoints lb-font--no-crop"
+  lang="en"
+  locale="en_us"
+  dir="ltr"
+  geo="us"
+  theme="light"
+  data-page-name=""
+  lb-auto-init="YTCPage"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- GTM & GA -->
+    <script nonce="5qrzJ6NCAeNynfcNjmZQcA">
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-K7VCRCF");
+    </script>
+    <script nonce="5qrzJ6NCAeNynfcNjmZQcA">
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-202330759-2", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "location", window.location.href.split("?")[0]);
+      ga("send", "pageview");
+    </script>
+    <!-- End GTM & GA -->
+
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, minimum-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <title>
+      YouTube Creators - Education &amp; Inspiration for Video Creators
+    </title>
+    <meta
+      name="description"
+      content="Explore YouTube Creators for everything you need to know about the video &amp; content creator journey, and how to make the most of yours."
+    />
+
+    <!-- The canonical tag tells search engines the canonical URL of pages that
+          may otherwise appear as different pages (e.g. with/without query params). -->
+    <link rel="canonical" href="https://www.youtube.com/intl/en_us/creators/" />
+
+    <!-- Social -->
+    <meta name="pinterest" content="nopin" />
+    <meta
+      property="og:url"
+      class="meta-url"
+      content="https://www.youtube.com/intl/en_us/creators/"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://lh3.googleusercontent.com/q067m09_qRgFPyCxAwUT1ZRNi2PoWXyzeSSdxkKpIikCnAmO9lTJX7cVsfdGk6fN-CDUCvm29DUNMrSEjKBT8ozQlITpYmTM9wql2LBdtDOBPFevYjev=w600"
+    />
+    <meta
+      property="og:title"
+      content="YouTube Creators - Education &amp; Inspiration for Video Creators"
+    />
+    <meta property="og:site_name" content="" />
+    <meta
+      property="og:description"
+      content="Explore YouTube Creators for everything you need to know about the video &amp; content creator journey, and how to make the most of yours."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:url"
+      class="meta-url"
+      content="https://www.youtube.com/intl/en_us/creators/"
+    />
+    <meta
+      name="twitter:title"
+      content="YouTube Creators - Education &amp; Inspiration for Video Creators"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore YouTube Creators for everything you need to know about the video &amp; content creator journey, and how to make the most of yours."
+    />
+    <meta
+      name="twitter:image"
+      content="https://lh3.googleusercontent.com/q067m09_qRgFPyCxAwUT1ZRNi2PoWXyzeSSdxkKpIikCnAmO9lTJX7cVsfdGk6fN-CDUCvm29DUNMrSEjKBT8ozQlITpYmTM9wql2LBdtDOBPFevYjev=w600"
+    />
+
+    <link rel="preconnect" href="//lh3.googleusercontent.com" />
+    <link rel="preconnect" href="//kstatic.googleusercontent.com" />
+
+    <!-- Preload assets -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en"
+      as="style"
+   nonce="5qrzJ6NCAeNynfcNjmZQcA" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900"
+      as="style"
+   nonce="5qrzJ6NCAeNynfcNjmZQcA" />
+    <link
+      rel="preload"
+      href="/creators/static/compiled/index.min.css"
+      as="style"
+   nonce="5qrzJ6NCAeNynfcNjmZQcA" />
+    <link
+      rel="preload"
+      href="/creators/static/compiled/index.min.js"
+      as="script"
+   nonce="5qrzJ6NCAeNynfcNjmZQcA" />
+
+    <link
+      rel="shortcut icon"
+      href="https://www.youtube.com/yts/img/favicon-vfl8qSV2F.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="https://www.youtube.com/yts/img/favicon_32-vflOogEID.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="https://www.youtube.com/yts/img/favicon_48-vflVjB_Qk.png"
+      sizes="48x48"
+    />
+    <link
+      rel="icon"
+      href="https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      href="https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png"
+      sizes="144x144"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en"
+   nonce="5qrzJ6NCAeNynfcNjmZQcA" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,400,500,600,700,900"
+   nonce="5qrzJ6NCAeNynfcNjmZQcA" />
+    <link rel="stylesheet" href="/creators/static/compiled/index.min.css" nonce="5qrzJ6NCAeNynfcNjmZQcA" />
+
+    <script nonce="5qrzJ6NCAeNynfcNjmZQcA">
+      (function () {
+        const de = document.documentElement;
+
+        // add dark theme attr to document
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          de.setAttribute("theme", "dark");
+        }
+
+        de.classList.replace("no-js", "js");
+      })();
+    </script>
+
+    <script type="application/ld+json" nonce="5qrzJ6NCAeNynfcNjmZQcA">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "YouTube Creators",
+        "url": "https://www.youtube.com/creators/",
+        "logo": "https://kstatic.googleusercontent.com/files/61ad26239c558ff8e5413f1809a4e555e47da57ed2a0905da62501d229adaef78fa0544d73acd98589e16070e7b31d8c6f614255275fbff3db4fa4a0daac7f63",
+        "sameAs": [
+          "https://twitter.com/YouTube",
+          "https://www.facebook.com/youtube/",
+          "https://www.instagram.com/youtube/"
+        ]
+      }
+    </script>
+    <script type="application/ld+json" nonce="5qrzJ6NCAeNynfcNjmZQcA">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "name": "YouTube Creators - Education & Inspiration for Video Creators",
+        "description": "Explore YouTube Creators for everything you need to know about the video & content creator journey, and how to make the most of yours.",
+        "publisher": { "@type": "WebPageElement", "name": "YouTube Creators" }
+      }
+    </script>
+
+    <script type="application/ld+json" nonce="5qrzJ6NCAeNynfcNjmZQcA">
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How do I start creating on YouTube?",
+          "description": "Creator basics: how to set up and customize your channel",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/kRDLobr0ADLapnUqFD7_Pc86XpCHXMFNTZZeaafhYEydfLlB0A4niH4DBIVOGeTKr3ma0kgMlGWf8M0eWDB-Xwa5b-cv1MvhuQ5ZD8mHLRgVPwVSpQ",
+          "uploadDate": "2021-07-26T20:59:12Z",
+          "duration": "PT2M11S",
+          "contentUrl": "https://www.youtube.com/watch?v=aKydtOXW8mI",
+          "embedUrl": "https://www.youtube.com/embed/aKydtOXW8mI"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How do I grow my channel?",
+          "description": "Help your videos stand out & keep viewers watching",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/tpX60GOgt4wh6tfnmkeERzXC2XAudmiT_VnOfaF0_V4luA0XRD_UWCsgoQiJxVLOLAVig5tUVm6hF-IYsKG8e9qfO_OFQbIjSe1KcXazTgPrfM6Lrg",
+          "uploadDate": "2021-07-30T19:19:54Z",
+          "duration": "PT2M3S",
+          "contentUrl": "https://www.youtube.com/watch?v=6NKhcV3v2nw",
+          "embedUrl": "https://www.youtube.com/embed/6NKhcV3v2nw"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How do I make edits to my channel?",
+          "description": "Navigating YouTube Studio",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/XXynpW0JldCLMwixcftb0L3ub1zj83tgpvjQ5h-i3l4289cJiB6MT2Fm2-GF1_Y5IubaKq-IxbbwDm5XxxYv5oWUiWBf1p_tsp5E6HEktjx7oxQbipw",
+          "uploadDate": "2020-03-11T19:56:24Z",
+          "duration": "PT2M43S",
+          "contentUrl": "https://www.youtube.com/watch?v=Ygpx7FcLKAY",
+          "embedUrl": "https://www.youtube.com/embed/Ygpx7FcLKAY"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How do I promote my videos?",
+          "description": "Promoting your videos",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/_YJX5nRKstpyatFpN9wDLgs8OJZtNdmIdfDOnlkNC7oVPUK6j5pYSSKo9pSC8fmLA9tS8klPCMbT4h2JFSBFBqUDJzvwRvfQ8u1bXCwZ85RY3s7I_aV7",
+          "uploadDate": "2022-08-11T21:27:22Z",
+          "duration": "PT5M7S",
+          "contentUrl": "https://www.youtube.com/watch?v=iCbn31svcBg",
+          "embedUrl": "https://www.youtube.com/embed/iCbn31svcBg"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How does the algorithm work?",
+          "description": "How YouTube recommends videos using \"the algorithm\"",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/WzVgDKPqE7j3pKUxMgn1w4Wqm2FUO355NoM5FAGFtL7mrQz3U5it_4oCnSkNSol7DZhHW6Wvn3SPmVe8OBYdEu6UjqUNHdgo6ihyuF1cWISR2Cnr5_Y",
+          "uploadDate": "2022-08-11T21:28:41Z",
+          "duration": "PT7M47S",
+          "contentUrl": "https://www.youtube.com/watch?v=GOHWPVMPq84",
+          "embedUrl": "https://www.youtube.com/embed/GOHWPVMPq84"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How do Trending videos happen?",
+          "description": "Trending on YouTube",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/OHHz_Ai47dly0R3TE5DZ6Syg2T8gcXmKqxLKj609RKHQRv9KXWWTbxyf3sWfC_kiHaGgEpRxayOHXPywsVYkPQI4czGyM71NcZkidblihK0gMejaBQ",
+          "uploadDate": "2022-08-11T21:30:15Z",
+          "duration": "PT5M42S",
+          "contentUrl": "https://www.youtube.com/watch?v=GAIQnkQUmvE",
+          "embedUrl": "https://www.youtube.com/embed/GAIQnkQUmvE"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How do I make money on YouTube?",
+          "description": "More ways to make money and join the YouTube Partner Program",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/WC5LT4-tbWJtMwVtcseJ3mjA5FVi7PJo90cqhrcsv45j7DUS1aJJ69OAYvClo2bGIX5BzKJkb9mGJcUUdKG2aXSwnHmdtlaM5qc29YGvB9iMlvwi9w",
+          "uploadDate": "2022-10-07T16:00:29Z",
+          "duration": "PT3M17S",
+          "contentUrl": "https://www.youtube.com/watch?v=P3Ut1a489nc",
+          "embedUrl": "https://www.youtube.com/embed/P3Ut1a489nc"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How do I fix a copyright strike?",
+          "description": "Copyright in YouTube Studio: addressing copyright claims with new tools, filters and more",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/LWSt96IqjuzFZ1tSUQYhSccYdjZenXZGbVpiaLz4AVG038glg2SWRqMOh6jSte7795ucJe-LPSrbqFuqZm9KIWjMVBr5G3gffHOprkNOW2m1rG7SYDs",
+          "uploadDate": "2020-05-19T17:50:19Z",
+          "duration": "PT1M59S",
+          "contentUrl": "https://www.youtube.com/watch?v=Bv4CvzyAkV0",
+          "embedUrl": "https://www.youtube.com/embed/Bv4CvzyAkV0"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How do I fix a demonetized channel?",
+          "description": "Fixing a demonetized channel",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/fbQmGoRfjeH2NsEdIdMYR6Fx-XjUyrrgjVTqkDBKOFO54IkUPD6_hJbLPCQzVntIVFYAWz2JdY4-xauKXjUxkyPUbN6hypxnbqpEBXcN2RMgMTJGzunF",
+          "uploadDate": "2022-08-11T21:31:55Z",
+          "duration": "PT5M24S",
+          "contentUrl": "https://www.youtube.com/watch?v=9jimHpWd64o",
+          "embedUrl": "https://www.youtube.com/embed/9jimHpWd64o"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How do I fix a hacked account?",
+          "description": "Fixing a hacked account",
+          "thumbnailUrl": "https://lh3.googleusercontent.com/m76PBr5hZYzadSJ8Kcm1pAR1fIWN-73txKVy36hcyZ-KZ9VcHOh2xBYnEEY9CNNpHNewn4Lf8sSIJPF0L2o8feri5lCa9qwx-ZwwFw8ABt2RZvqX4Q",
+          "uploadDate": "2022-08-11T21:29:34Z",
+          "duration": "PT5M35S",
+          "contentUrl": "https://www.youtube.com/watch?v=p4002tAwCyM",
+          "embedUrl": "https://www.youtube.com/embed/p4002tAwCyM"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How do I start creating on YouTube?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<div class=\"ytc-md\"><p>There are a few ways to get started on YouTube. We offer up different formats and functionalities, giving you the flexibility to create everything from Shorts, which are vertical videos that run 60 seconds or less, to longer form videos.</p>\n<p>No matter what you’re creating, you’ll need to start by creating a YouTube Channel.</p>\n<ul>\n<li>First you need to sign into YouTube using a Google Account.</li>\n<li>Once you’re signed in, click ‘Create Account’, and choose whether it’s for you or for your business.</li>\n<li>You can then create a YouTube channel on your account, upload videos, leave comments, and create Shorts and playlists.</li>\n</ul>\n<p>Next, you’ll want to upload your videos!</p>\n<ul>\n<li>Uploading is easy. You just sign into your YouTube account and then click on the “Create” icon.</li>\n<li>If you’re planning to upload a longer form video, select “upload video” and then choose your desired video file -  you can upload 15 files at a time!</li>\n<li>If you’d like to <a href=\"https://support.google.com/youtube/answer/10343433\" target=\"_blank\" rel=\"noopener\">upload a YouTube Short</a>, you’ll need to be signed into YouTube mobile, where you’ll tap ‘Create’ and then ‘Create a Short’. From here you can either upload a video from your camera roll or create using our suite of lightweight tools.</li>\n</ul>\n</div>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I grow my channel?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<div class=\"ytc-md\"><p>Growing your channel is all about creating videos viewers want to watch and accurately presenting them to the audience. When doing so, here’s a few tips to keep in mind.</p>\n<p>With each video, think carefully about the title, description, and <a href=\"https://support.google.com/youtube/answer/72431\" target=\"_blank\" rel=\"noopener\">thumbnail</a> you plan to use - these should all accurately reflect your content and let viewers know what they can expect from the video. If you’re a Shorts creator, think about how the first 1-2 seconds of your content can grab viewers scrolling through the video feed!</p>\n<p>Once you’ve got viewers watching, you can redirect their attention via hashtags, <a href=\"https://support.google.com/youtube/answer/57792\" target=\"_blank\" rel=\"noopener\">playlists</a>, <a href=\"https://support.google.com/youtube/answer/6140493\" target=\"_blank\" rel=\"noopener\">cards</a>, <a href=\"https://support.google.com/youtube/answer/6388789\" target=\"_blank\" rel=\"noopener\">end screens</a>, and more.</p>\n</div>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I make edits to my channel?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<div class=\"ytc-md\"><p>YouTube Studio is your home base for posting videos and making edits to your channel. To update your channel’s basic info like name, <a href=\"https://support.google.com/youtube/answer/2972003\" target=\"_blank\" rel=\"noopener\">profile picture</a>, and banner, just log in and tap ‘Customisation’ to see your options.</p>\n<p>You can also make changes to your channel using the Studio Mobile app. You can tap ‘Your Channel’ and then ‘Edit Channel’ to update and edit how your channel looks to your viewers. Note that you can only change your channel’s name three times every 90 days.</p>\n<p><a href=\"https://support.google.com/youtube/answer/2657964\" target=\"_blank\" class=\"ytc-arrow-link\" rel=\"noopener\">Read more about managing your channel</a></p>\n</div>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I promote my videos?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<div class=\"ytc-md\"><p>Promoting your videos is all about getting the word out there. On YouTube, you can use tools like cards, end screens, Stories, and Community Posts to drive viewers to a specific piece of content!</p>\n<p>Off-platform, think about promoting your videos on your socials and relevant communities, podcasts, or platforms that align with your content and your intended audience.</p>\n<p><a href=\"https://support.google.com/youtube/answer/141808\" target=\"_blank\" class=\"ytc-arrow-link\" rel=\"noopener\">Read more about promoting your videos</a></p>\n</div>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does the algorithm work?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<div class=\"ytc-md\"><p>Our search and discovery systems are built to find videos that match viewers’ individual interests. We <a href=\"https://support.google.com/youtube/answer/141805\" target=\"_blank\" rel=\"noopener\">recommend videos</a> based on things such as: what your audience watches and doesn’t watch, how much time they spend watching, what they like and dislike, if they mark a video as ‘not interested’, and on satisfaction surveys.</p>\n<p>So, rather than trying trying to find a secret code to these systems, focus instead on making videos that you think will resonate with your audience. A great tool here is YouTube Analytics, which provides data that can help you understand how your existing content is performing and provide insights for future videos!</p>\n</div>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do Trending videos happen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<div class=\"ytc-md\"><p>Trending is all about helping viewers see what’s happening on YouTube, and in the world. Trending tries to surface videos that a wide range of viewers would find interesting.</p>\n<p>Trending isn't personalized, and it displays the same list of trending videos in each country to all users, which is why you may see videos in Trending that aren’t in the same language as your browser.</p>\n<p>At any given time, at least 50% of the videos on Trending in major markets are from YouTube Creators, with the remainder coming from music and traditional media.</p>\n<p><a href=\"https://www.youtube.com/feed/trending\" target=\"_blank\" class=\"ytc-arrow-link\" rel=\"noopener\">See what’s Trending now</a></p>\n</div>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I make money on YouTube?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<div class=\"ytc-md\"><p>There are a few ways for Creators to make money on YouTube, but most start with becoming a member of the <a href=\"https://support.google.com/youtube/answer/72851\" target=\"_blank\" rel=\"noopener\">YouTube Partner Program (YPP)</a>.*</p>\n<p>Once accepted, you'll begin to gain access to a variety of monetization products, including a share of the Ad and YouTube Premium Revenue generated by your videos; Channel Memberships; Merch Shelf; Super Chat &amp; Super Stickers; and BrandConnect. Each feature has its own performance and <a href=\"https://support.google.com/youtube/answer/1311392\" target=\"_blank\" rel=\"noopener\">eligibility requirements</a>.</p>\n<p>Our newest offering through the YouTube Shorts Fund is not limited to Creators in the YouTube Partner Program. Anyone is eligible to participate by creating unique Shorts that delight the YouTube Community. Each month, we’ll reach out to thousands of creators with the most popular Shorts to reward them for their contributions.</p>\n<p><a href=\"/creators/how-things-work/video-monetization\" class=\"ytc-arrow-link\" rel=\"noopener\">How to make money</a></p>\n<p class=\"ytc-font-footnote\">*Subject to eligibility requirements.</p>\n</div>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I fix a copyright strike?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<div class=\"ytc-md\"><p>A copyright strike means that a copyright owner submitted a verified, legal takedown request on a video that uses their content.</p>\n<p>To comply with copyright law, we took the video down. A copyright strike is a warning. The first copyright strike is a warning. If you get one, you’ll need to go through Copyright School, which helps you understand copyright and how it’s enforced at YouTube.</p>\n<p><a href=\"https://support.google.com/youtube/answer/2814000#zippy=%2Cresolve-a-copyright-strike\" target=\"_blank\" class=\"ytc-arrow-link\" rel=\"noopener\">Here are the three ways to resolve a copyright strike</a></p>\n</div>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I fix a demonetized channel?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<div class=\"ytc-md\"><p>There are a few reasons your YouTube channel can have monetization disabled. Any of these actions can result in suspension of payments:</p>\n<ul>\n<li>Attempting to monetize videos you don't own. Make sure you have the right to upload the content: Check the Copyright FAQ, and make sure you know how fair use works.</li>\n<li>Attempting monetization of videos that don't meet our advertiser-friendly content guidelines. We may reserve the right to disable ads on your entire channel in situations where the majority of your content is not suitable for any advertisers or where there are repeated, serious violations (e.g. uploading of content which is incendiary, demeaning or hateful).</li>\n<li>Violations of YouTube monetization policies, YouTube spam policies, AdSense Program Policies, or YouTube Terms of Service.</li>\n</ul>\n<p>Depending on the issue with your video or channel, there are steps you can take to reinstate monetization.</p>\n<p>Remember: Severe violations of our YouTube monetization policies may result in monetization being permanently disabled on any of your accounts.</p>\n<p>Your channel’s <a href=\"https://support.google.com/youtube/answer/10269388\" target=\"_blank\" rel=\"noopener\">monetization can also be paused</a>. This happens when there isn’t an active and approved AdSense account linked to your channel.  If you’re in the YouTube Partner Program and your monetization was paused, don’t worry – you’re still in the program. Monetization will resume after linking an active and approved AdSense account.</p>\n<p><a href=\"/creators/how-things-work/policies-guidelines\" class=\"ytc-arrow-link\" rel=\"noopener\">See Policies &amp; Guidelines</a></p>\n</div>"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I fix a hacked account?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<div class=\"ytc-md\"><p>If you notice that your YouTube account or channel has been hacked or compromised, you’ll first want to check whether or not you can sign into your account.</p>\n<p>If you can’t sign into your account, you’ll need to recover your Google Account by answering some security questions to verify it’s yours. Then, you’ll be prompted to reset your password.</p>\n<p>To keep your account protected, we also recommend turning on 2-step verification, which can be done in your Security settings.</p>\n<p><a href=\"https://support.google.com/youtube/answer/76187\" target=\"_blank\" class=\"ytc-arrow-link\" rel=\"noopener\">More on hacked accounts</a></p>\n</div>"
+              }
+            }
+          ]
+        }
+      ]
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K7VCRCF"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="0"
+      height="0"
+      class="lb-hide"
+    >
+      <defs>
+        <path
+          d="M15.71 15.03L4.69 4.01h9.71v-1H2.98v11.42h1V4.72L15 15.74l.71-.71z"
+          id="arrow-diagonal"
+        />
+        <path
+          d="M3.01 12v-1h15.36l-6.72-6.72.71-.71 7.92 7.92-7.92 7.92-.71-.71 6.71-6.7H3.01z"
+          id="arrow-right"
+        />
+        <path
+          d="M18.35 8.94L12 15.29 5.65 8.94l.71-.71L12 13.88l5.65-5.65.7.71z"
+          id="chevron-down"
+        />
+        <path
+          d="M21.58 7.19c-.23-.86-.91-1.54-1.77-1.77C18.25 5 12 5 12 5s-6.25 0-7.81.42c-.86.23-1.54.91-1.77 1.77C2 8.75 2 12 2 12s0 3.25.42 4.81c.23.86.91 1.54 1.77 1.77C5.75 19 12 19 12 19s6.25 0 7.81-.42c.86-.23 1.54-.91 1.77-1.77C22 15.25 22 12 22 12s0-3.25-.42-4.81zM10 15V9l5.2 3-5.2 3z"
+          id="youtube-logo-icon-filled"
+        />
+        <path
+          d="M17.5 11.93c0 2.14-1.5 3.92-3.5 4.38v-1.04c1.44-.43 2.5-1.76 2.5-3.34 0-1.58-1.06-2.9-2.5-3.34V7.55c2 .46 3.5 2.24 3.5 4.38zM12 4v15.86l-5.84-4.93H3v-6h3.16L12 4zm-1 2.15L6.52 9.93H4v4h2.52L11 17.71V6.15zm10 5.78c0 4.08-3.05 7.44-7 7.93v-1.01c3.39-.49 6-3.4 6-6.92s-2.61-6.43-6-6.92V4c3.95.49 7 3.85 7 7.93z"
+          id="volume-up"
+        />
+        <path
+          d="M3.15 3.85l4.17 4.17L6.16 9H3v6h3.16L12 19.93v-7.22l2.45 2.45c-.15.07-.3.13-.45.18v1.04c.43-.1.83-.27 1.2-.48l1.81 1.81c-.88.62-1.9 1.04-3.01 1.2v1.01c1.39-.17 2.66-.71 3.73-1.49l2.42 2.42.71-.71-17-17-.71.71zM11 11.71v6.07L6.52 14H4v-4h2.52l1.5-1.27L11 11.71zm-.67-4.92l-.71-.71L12 4.07v4.39l-1-1V6.22l-.67.57zM14 8.66V7.62c2 .46 3.5 2.24 3.5 4.38 0 .58-.13 1.13-.33 1.64l-.79-.79c.07-.27.12-.55.12-.85 0-1.58-1.06-2.9-2.5-3.34zm0-3.58V4.07c3.95.49 7 3.85 7 7.93 0 1.56-.46 3.01-1.23 4.24l-.73-.73c.61-1.03.96-2.23.96-3.51 0-3.52-2.61-6.43-6-6.92z"
+          id="volume-off"
+        />
+        <path
+          d="M12.7 12l6.6 6.6-.7.7-6.6-6.6-6.6 6.6-.7-.7 6.6-6.6-6.7-6.6.7-.7 6.6 6.6 6.6-6.6.7.7-6.5 6.6z"
+          id="x"
+        ></path>
+      </defs>
+    </svg>
+
+    <header class="lb-header lb-header--ytc" lb-auto-init="LBHeader">
+      <!-- Row -->
+      <div class="lb-header__row">
+        <!-- Row left -->
+        <div class="lb-header__row-left lb-header-js-row-left">
+          <!-- Mobile menu button -->
+          <button
+            class="lb-header__menu-button lb-header-js-menu-btn"
+            aria-label="Toggle navigation"
+          >
+            <span class="lb-header__menu-button-box">
+              <span class="lb-header__menu-button-stroke"></span>
+            </span>
+          </button>
+          <!-- end Mobile menu button -->
+          <!-- Logo -->
+          <a
+            class="lb-header__logo-wrapper lb-header-js-logo-wrapper"
+            href="/intl/en_us/creators/"
+            aria-label="Home page"
+          >
+            <img
+              class="lb-theme--light lb-header__logo lb-header-js-logo"
+              lb-auto-init="LBImageLoader"
+              lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/61ad26239c558ff8e5413f1809a4e555e47da57ed2a0905da62501d229adaef78fa0544d73acd98589e16070e7b31d8c6f614255275fbff3db4fa4a0daac7f63 1x'
+      }"
+              src="https://kstatic.googleusercontent.com/files/61ad26239c558ff8e5413f1809a4e555e47da57ed2a0905da62501d229adaef78fa0544d73acd98589e16070e7b31d8c6f614255275fbff3db4fa4a0daac7f63"
+              alt="YouTube Creators"
+            />
+            <img
+              class="lb-theme--dark lb-header__logo lb-header-js-logo"
+              lb-auto-init="LBImageLoader"
+              lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/6820cf54147c4eaf19bc418aa04651f5cdf2361227af4f0842f5469f866b09bd50ff6c6c6774acbfda52f5ca1df2f6a12be9b52fa69276b979a8b5776034edb0 1x'
+      }"
+              src="https://kstatic.googleusercontent.com/files/6820cf54147c4eaf19bc418aa04651f5cdf2361227af4f0842f5469f866b09bd50ff6c6c6774acbfda52f5ca1df2f6a12be9b52fa69276b979a8b5776034edb0"
+              alt="YouTube Creators"
+            />
+          </a>
+          <!-- end Logo -->
+          <!-- Jump to -->
+          <a class="lb-button lb-header__jump-to" href="#content">
+            Jump to content
+          </a>
+          <!-- end Jump to -->
+          <!-- Nav -->
+          <div class="lb-header__nav-wrapper lb-header-js-nav-wrapper">
+            <nav class="lb-header__nav lb-header-js-nav">
+              <div class="lb-header__nav-item-wrapper" role="menu">
+                <a
+                  class="lb-header-js-nav-item lb-header__nav-item"
+                  href="/intl/en_us/creators/welcome-creators/"
+                  role="menuitem"
+                >
+                  Welcome, Creators
+                </a>
+              </div>
+
+              <div class="lb-header__nav-item-wrapper" role="menu">
+                <span
+                  class="lb-header-js-nav-item lb-header__nav-item"
+                  aria-haspopup="true"
+                  aria-label="1"
+                  role="menuitem"
+                  tabindex="0"
+                >
+                  How things work
+                  <span class="lb-header__subnav-chevron"></span>
+                </span>
+                <div
+                  class="lb-header__subnav-wrapper lb-header-js-subnav-wrapper"
+                  role="menu"
+                  id="subnav-1"
+                >
+                  <nav class="lb-header__subnav">
+                    <div class="lb-header__subnav-item-wrapper">
+                      <a
+                        class="lb-header-js-subnav-item lb-header__subnav-item"
+                        href="/intl/en_us/creators/how-things-work/getting-started/"
+                      >
+                        <img
+                          class="lb-theme--light lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/ee9c7ea56c863254d2fde2870e07ab62bff86d3b784d303bbd58b6801376029c2599a422d27f3e3a23bfece1e4a298c60dc09e79cafeceb494d30f6b4a92c67b 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/ee9c7ea56c863254d2fde2870e07ab62bff86d3b784d303bbd58b6801376029c2599a422d27f3e3a23bfece1e4a298c60dc09e79cafeceb494d30f6b4a92c67b"
+                          alt="Getting started on YouTube"
+                        />
+                        <img
+                          class="lb-theme--dark lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/8c685bf8af4006f0a807fcec91e85abf7e94f6bf5643cf4e8c861f593fe4df962f2712029231592541e764573deb4e8b3566420cfe17e548337bee0a301a1928 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/8c685bf8af4006f0a807fcec91e85abf7e94f6bf5643cf4e8c861f593fe4df962f2712029231592541e764573deb4e8b3566420cfe17e548337bee0a301a1928"
+                          alt="Getting started on YouTube"
+                        />
+
+                        <div class="lb-margin-left-xs lb-margin-right-xs">
+                          <h3
+                            class="lb-header__subnav-item-heading lb-font-subhead lb-font-weight-600 lb-font--no-crop lb-margin-bottom-xxs"
+                          >
+                            Getting started on YouTube
+                          </h3>
+                          <p class="lb-header__subnav-item-desc">
+                            Everything you need to create and manage a channel.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="lb-header__subnav-item-wrapper">
+                      <a
+                        class="lb-header-js-subnav-item lb-header__subnav-item"
+                        href="/intl/en_us/creators/how-things-work/building-community/"
+                      >
+                        <img
+                          class="lb-theme--light lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/e87277c7325a99683e6b38ffd8794d918c4a6829a833f84b57a769ef5593910e335d5ef270f311473f8422b43ed22ab53ea36aa0e5957f4b974907441d0d6494 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/e87277c7325a99683e6b38ffd8794d918c4a6829a833f84b57a769ef5593910e335d5ef270f311473f8422b43ed22ab53ea36aa0e5957f4b974907441d0d6494"
+                          alt="Building your community"
+                        />
+                        <img
+                          class="lb-theme--dark lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/1e806fbcec5e20e26e0dd775c08c37391df6a2bfa754b7b7610f4bec9c18dd9086599eb65281c34d9168ead5fd0c67315793dcf92d504f521ffce9152325b508 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/1e806fbcec5e20e26e0dd775c08c37391df6a2bfa754b7b7610f4bec9c18dd9086599eb65281c34d9168ead5fd0c67315793dcf92d504f521ffce9152325b508"
+                          alt="Building your community"
+                        />
+
+                        <div class="lb-margin-left-xs lb-margin-right-xs">
+                          <h3
+                            class="lb-header__subnav-item-heading lb-font-subhead lb-font-weight-600 lb-font--no-crop lb-margin-bottom-xxs"
+                          >
+                            Building your community
+                          </h3>
+                          <p class="lb-header__subnav-item-desc">
+                            Tips &amp; tricks to find, nurture, and build an
+                            audience.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="lb-header__subnav-item-wrapper">
+                      <a
+                        class="lb-header-js-subnav-item lb-header__subnav-item"
+                        href="/intl/en_us/creators/how-things-work/video-monetization/"
+                      >
+                        <img
+                          class="lb-theme--light lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/8e603f63e6f9fa8991ec17290d4f8841c60a8e3410c92703b43f53e87b2de2159caf104c63398ce0d6908d432dff2df765fc6cec7296b98336e5eecf496a2bb3 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/8e603f63e6f9fa8991ec17290d4f8841c60a8e3410c92703b43f53e87b2de2159caf104c63398ce0d6908d432dff2df765fc6cec7296b98336e5eecf496a2bb3"
+                          alt="How to make money on YouTube"
+                        />
+                        <img
+                          class="lb-theme--dark lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/5fe53ccdd011a15f932bf0e145cd6eb8d0c10bd083bc3e31ba81e2860742247ea21f47299ad055e9963f3ddaec22d198965243ac253f611653699c3b6240a507 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/5fe53ccdd011a15f932bf0e145cd6eb8d0c10bd083bc3e31ba81e2860742247ea21f47299ad055e9963f3ddaec22d198965243ac253f611653699c3b6240a507"
+                          alt="How to make money on YouTube"
+                        />
+
+                        <div class="lb-margin-left-xs lb-margin-right-xs">
+                          <h3
+                            class="lb-header__subnav-item-heading lb-font-subhead lb-font-weight-600 lb-font--no-crop lb-margin-bottom-xxs"
+                          >
+                            How to make money on YouTube
+                          </h3>
+                          <p class="lb-header__subnav-item-desc">
+                            Explore all ways you can get paid on YouTube.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="lb-header__subnav-item-wrapper">
+                      <a
+                        class="lb-header-js-subnav-item lb-header__subnav-item"
+                        href="/intl/en_us/creators/how-things-work/content-creation-strategy/"
+                      >
+                        <img
+                          class="lb-theme--light lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/aa6125103ef38094eb826319838e32c01d8faeeebb81f30d1ab13b8c1f5d86bf21b54db41984c7d9ebda15f24d0dca1c2f4618ee72f1e63fc3b051154a4a5ed2 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/aa6125103ef38094eb826319838e32c01d8faeeebb81f30d1ab13b8c1f5d86bf21b54db41984c7d9ebda15f24d0dca1c2f4618ee72f1e63fc3b051154a4a5ed2"
+                          alt="Growing your channel"
+                        />
+                        <img
+                          class="lb-theme--dark lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/7315378c5702051a16f287c44bbe4daedc9d6fd105d9ef85eb07b897bfbb3fb58c1d46f0a97889fcbd03a4a509da01d499e28df3b2ac76b7b48b11729591ef43 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/7315378c5702051a16f287c44bbe4daedc9d6fd105d9ef85eb07b897bfbb3fb58c1d46f0a97889fcbd03a4a509da01d499e28df3b2ac76b7b48b11729591ef43"
+                          alt="Growing your channel"
+                        />
+
+                        <div class="lb-margin-left-xs lb-margin-right-xs">
+                          <h3
+                            class="lb-header__subnav-item-heading lb-font-subhead lb-font-weight-600 lb-font--no-crop lb-margin-bottom-xxs"
+                          >
+                            Growing your channel
+                          </h3>
+                          <p class="lb-header__subnav-item-desc">
+                            Tools to help you create, connect, and grow.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="lb-header__subnav-item-wrapper">
+                      <a
+                        class="lb-header-js-subnav-item lb-header__subnav-item"
+                        href="/intl/en_us/creators/how-things-work/policies-guidelines/"
+                      >
+                        <img
+                          class="lb-theme--light lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/56ac1c911da0a53e3aac1c02136e48d290f61308f43508f1c160f75754e8cbc229bce528a8a050e5cb619afa34596f984e1e18b17193a24dd1d6deb35337d4ca 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/56ac1c911da0a53e3aac1c02136e48d290f61308f43508f1c160f75754e8cbc229bce528a8a050e5cb619afa34596f984e1e18b17193a24dd1d6deb35337d4ca"
+                          alt="Policies & Guidelines"
+                        />
+                        <img
+                          class="lb-theme--dark lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/0347eb74dbee171c26da84337af6df89f869d0337fe36200c8efd91345ea665d92e0357a3625bffddc6d35865dd680ac5a0e4d56a24d8f05ca5ca35164b5e425 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/0347eb74dbee171c26da84337af6df89f869d0337fe36200c8efd91345ea665d92e0357a3625bffddc6d35865dd680ac5a0e4d56a24d8f05ca5ca35164b5e425"
+                          alt="Policies & Guidelines"
+                        />
+
+                        <div class="lb-margin-left-xs lb-margin-right-xs">
+                          <h3
+                            class="lb-header__subnav-item-heading lb-font-subhead lb-font-weight-600 lb-font--no-crop lb-margin-bottom-xxs"
+                          >
+                            Policies &amp; Guidelines
+                          </h3>
+                          <p class="lb-header__subnav-item-desc">
+                            Get the explanations behind the rules.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="lb-header__subnav-item-wrapper">
+                      <a
+                        class="lb-header-js-subnav-item lb-header__subnav-item"
+                        href="/intl/en_us/creators/how-things-work/get-involved/"
+                      >
+                        <img
+                          class="lb-theme--light lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/340d99a2493a1b7d58656d5eed867a61d06f5924f80df5ba2d65b78518964ddd00f5eca9c3a7522e67fd473124aa88407dd07a4a6327ba10633b650ba93de62a 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/340d99a2493a1b7d58656d5eed867a61d06f5924f80df5ba2d65b78518964ddd00f5eca9c3a7522e67fd473124aa88407dd07a4a6327ba10633b650ba93de62a"
+                          alt="How to get involved"
+                        />
+                        <img
+                          class="lb-theme--dark lb-header__subnav-item-img"
+                          lb-auto-init="LBImageLoader"
+                          lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/d68d259c41361592ddb5a6804007490879ef8e5ee919bf78774bfd02c0db2a5b8526ba140e0c4819b12753913562d055bc0f8d1ae3a486c10443e50cd3d86f35 1x'
+      }"
+                          src="https://kstatic.googleusercontent.com/files/d68d259c41361592ddb5a6804007490879ef8e5ee919bf78774bfd02c0db2a5b8526ba140e0c4819b12753913562d055bc0f8d1ae3a486c10443e50cd3d86f35"
+                          alt="How to get involved"
+                        />
+
+                        <div class="lb-margin-left-xs lb-margin-right-xs">
+                          <h3
+                            class="lb-header__subnav-item-heading lb-font-subhead lb-font-weight-600 lb-font--no-crop lb-margin-bottom-xxs"
+                          >
+                            How to get involved
+                          </h3>
+                          <p class="lb-header__subnav-item-desc">
+                            How we support, recognize, and celebrate Creators.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+
+              <div class="lb-header__nav-item-wrapper" role="menu">
+                <a
+                  class="lb-header-js-nav-item lb-header__nav-item"
+                  href="/intl/en_us/creators/top-questions/"
+                  role="menuitem"
+                >
+                  Top questions
+                </a>
+              </div>
+            </nav>
+          </div>
+          <!-- end Nav -->
+        </div>
+        <!-- end Row left -->
+        <!-- Row right -->
+        <div class="lb-header__row-right lb-header-js-row-right">
+          <!-- Search -->
+          <div class="lb-header__search-wrapper lb-header-js-search-wrapper">
+            <!-- Search inner -->
+            <div class="lb-header__search-inner lb-header-js-search-inner">
+              <form
+                class="lb-header__search-bar-wrapper"
+                novalidate
+                role="search"
+                lb-auto-init="LBSearchForm"
+                lb-options="{
+              'resultsPage': '/creators/search/'
+            }"
+              >
+                <!-- Search expand/search button -->
+                <button
+                  class="lb-header__search-button lb-header-js-search-toggle"
+                  aria-label="Search"
+                  type="submit"
+                  role="search"
+                >
+                  <svg
+                    class="lb-header__search-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path
+                      d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                    />
+                  </svg>
+                </button>
+                <!-- end Search expand/search button -->
+                <!-- Search bar -->
+                <input
+                  class="lb-font-body lb-header__search-bar lb-header-js-search-bar"
+                  type="text"
+                  placeholder="Search"
+                  aria-hidden="false"
+                  aria-label="Search"
+                  tabindex="-1"
+                  name="lb-search"
+                />
+              </form>
+              <!-- Search collapse button -->
+              <button
+                class="lb-header__search-button lb-header__search-button--collapse lb-header-js-search-toggle"
+                aria-label="Close"
+                tabindex="-1"
+              >
+                <svg
+                  class="lb-header__search-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                  />
+                </svg>
+              </button>
+              <!-- end Search collapse button -->
+            </div>
+            <!-- end Search inner -->
+            <div
+              class="lb-header__search-overlay lb-header-js-search-toggle"
+            ></div>
+          </div>
+          <!-- end Search -->
+        </div>
+        <!-- end Row right -->
+      </div>
+      <!-- end Row -->
+    </header>
+
+    <aside
+      class="lb-banner"
+      lb-auto-init="LBBanner"
+      lb-options="{'theme':'blue'}"
+    >
+      <div class="lb-banner__text">
+        <div class="ytc-md">
+          <p>
+            Visit our new
+            <a
+              href="https://www.youtube.com/creators/safety/"
+              rel="noopener noreferrer"
+              >Safety Center</a
+            >
+            and make a plan to stay safe on YouTube.
+          </p>
+        </div>
+      </div>
+      <div class="lb-banner__close">
+        <button aria-label="Close">
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <path
+                fill="#FFF"
+                fill-rule="nonzero"
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+              <path d="M0 0h24v24H0z" />
+            </g>
+          </svg>
+        </button>
+      </div>
+    </aside>
+
+    <main class="ytc-main ytc-home">
+      <svg style="position: absolute" width="0" height="0">
+        <defs>
+          <clipPath id="ytc-home-hero__mask">
+            <path
+              d="M1001.9,27.6c-5.3-30.8-21.2-58.9-45.5-78.5c-13.6-11-29.6-19.2-47-23.9C829.8-96,510.3-96,510.3-96s-319.2,0-398.7,22.7c-11.9,3.1-23,7.9-33.2,14C46.5-40.1,25-7.5,18.8,29.1C5.8,105.9-0.4,183.6,0,261.5C-0.5,340,6,418.3,19.4,495.6c5.2,29.8,20.3,57.1,43.4,76.6c14.1,11.9,30.8,20.7,49.2,25.7C191.2,619,510.3,619,510.3,619s319.2,0,398.7-21.5c17.5-4.7,33.4-13,47-23.9c24.3-19.6,40.2-47.6,45.5-78.4c13.4-77.3,19.8-155.6,19.3-234C1021.6,182.9,1015.2,104.7,1001.9,27.6z"
+            />
+          </clipPath>
+        </defs>
+      </svg>
+      <section class="lb-grid ytc-home-hero">
+        <div
+          class="lb-grid__cell lb-grid__cell--span-4 lb-grid__cell--md-span-12 lb-grid__cell--sm-span-12 ytc-home-hero__text-column"
+        >
+          <div>
+            <h1
+              class="lb-font-display-2 lb-margin-bottom-m--bp-auto ytc-home-hero__heading"
+            >
+              Everything you need to create on YouTube
+            </h1>
+            <p class="ytc-font-body ytc-home-hero__desc">
+              No matter what kind of information, advice, or help you’re looking
+              for, this is the spot.
+            </p>
+          </div>
+        </div>
+        <div
+          class="lb-grid__cell lb-grid__cell--offset-5-span-7 lb-grid__cell--md-span-12 lb-grid__cell--sm-span-12 ytc-home-hero__video-column"
+        >
+          <div
+            class="ytc-home-hero__video-container"
+            lb-auto-init="YTCHomeVideo"
+          >
+            <video
+              class="ytc-home-hero__video"
+              src="https://kstatic.googleusercontent.com/files/e852a07aeb11e152a5b29108c1a171fbc6a858c707e349eb0c0146b5fb28056e94cb21645d57a9764d6324a2e57596b97adf5384e9b7a26abe6391f00046ee23"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+            <button
+              class="lb-button lb-button--overlay lb-button--square lb-button--filled ytc-home-hero__mute"
+              aria-label="Mute Video"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                class="lb-icon ytc-home-hero__mute-icon"
+                aria-hidden="true"
+              >
+                <use href="#volume-off"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <style>
+        .h-lockup-4888337051680768 {
+          background-color: #def1ff;
+        }
+
+        [theme="dark"] .h-lockup-4888337051680768 {
+          background-color: #030303;
+        }
+      </style>
+
+      <section
+        class="lb-grid ytc-highlight-lockup ytc-module ytc-module--featured ytc-highlight-lockup--blue h-lockup-4888337051680768"
+      >
+        <div
+          class="lb-grid__cell lb-grid__cell--sm-span-12 lb-grid__cell--md-span-12 lb-grid__cell--lg-offset-1-span-5"
+        >
+          <figure class="ytc-content-image">
+            <div class="tablet-up-only">
+              <img
+                class="lb-theme--light"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/XaxKLnJw4Bx0aj0JhMT8JT9fQBMUFeYNlzQI1C8pPEKq_0oC4zeVWPUmISw7q56PSTgm-AlD4CPkkTvLzberv_mzyOqhtrLWtlpf-1aaEZUBAAuqq-lo=v1-rw-lo-w450-h560 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/XaxKLnJw4Bx0aj0JhMT8JT9fQBMUFeYNlzQI1C8pPEKq_0oC4zeVWPUmISw7q56PSTgm-AlD4CPkkTvLzberv_mzyOqhtrLWtlpf-1aaEZUBAAuqq-lo=v1-rw-lo-w675-h840 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/XaxKLnJw4Bx0aj0JhMT8JT9fQBMUFeYNlzQI1C8pPEKq_0oC4zeVWPUmISw7q56PSTgm-AlD4CPkkTvLzberv_mzyOqhtrLWtlpf-1aaEZUBAAuqq-lo=v1-rw-lo-w900-h1120 2x'
+        }"
+                src="https://lh3.googleusercontent.com/XaxKLnJw4Bx0aj0JhMT8JT9fQBMUFeYNlzQI1C8pPEKq_0oC4zeVWPUmISw7q56PSTgm-AlD4CPkkTvLzberv_mzyOqhtrLWtlpf-1aaEZUBAAuqq-lo=v3-s20-fblur=1,20"
+                alt="Start your earning journey earlier"
+              />
+              <img
+                class="lb-theme--dark"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/FfbsNE2LA4pL-s7mRnNBffDdhA1ZEsNmxNh33VqpD84BTWH-qv4Eu902wcmXjGpM-q6FHIs8fcscrN7Gib7jTI6E1wcmj0IfCpOrsGPRjGHEhtFt1so=v1-rw-lo-w450-h560 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/FfbsNE2LA4pL-s7mRnNBffDdhA1ZEsNmxNh33VqpD84BTWH-qv4Eu902wcmXjGpM-q6FHIs8fcscrN7Gib7jTI6E1wcmj0IfCpOrsGPRjGHEhtFt1so=v1-rw-lo-w675-h840 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/FfbsNE2LA4pL-s7mRnNBffDdhA1ZEsNmxNh33VqpD84BTWH-qv4Eu902wcmXjGpM-q6FHIs8fcscrN7Gib7jTI6E1wcmj0IfCpOrsGPRjGHEhtFt1so=v1-rw-lo-w900-h1120 2x'
+        }"
+                src="https://lh3.googleusercontent.com/FfbsNE2LA4pL-s7mRnNBffDdhA1ZEsNmxNh33VqpD84BTWH-qv4Eu902wcmXjGpM-q6FHIs8fcscrN7Gib7jTI6E1wcmj0IfCpOrsGPRjGHEhtFt1so=v3-s20-fblur=1,20"
+                alt="Start your earning journey earlier"
+              />
+            </div>
+            <div class="mobile-only">
+              <img
+                class="lb-theme--light"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/BzTGINAptB6fQh-v0mzAcxJaxPjuGQRn95F2YCf9qtRtS6NFe_KY41pnpn7uZ-ihugy1lL78ne6fzIuGSw_Oda2V9fhisNJaARnrTY3lvFxWPSycnJs=v1-rw-lo-w450-h560 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/BzTGINAptB6fQh-v0mzAcxJaxPjuGQRn95F2YCf9qtRtS6NFe_KY41pnpn7uZ-ihugy1lL78ne6fzIuGSw_Oda2V9fhisNJaARnrTY3lvFxWPSycnJs=v1-rw-lo-w675-h840 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/BzTGINAptB6fQh-v0mzAcxJaxPjuGQRn95F2YCf9qtRtS6NFe_KY41pnpn7uZ-ihugy1lL78ne6fzIuGSw_Oda2V9fhisNJaARnrTY3lvFxWPSycnJs=v1-rw-lo-w900-h1120 2x'
+        }"
+                src="https://lh3.googleusercontent.com/BzTGINAptB6fQh-v0mzAcxJaxPjuGQRn95F2YCf9qtRtS6NFe_KY41pnpn7uZ-ihugy1lL78ne6fzIuGSw_Oda2V9fhisNJaARnrTY3lvFxWPSycnJs=v3-s20-fblur=1,20"
+                alt="Start your earning journey earlier"
+              />
+              <img
+                class="lb-theme--dark"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/j4tc1vm1Bcm9dIz7AXlEmqtgFg02ZV9fMvqtLc96dwWN6NJFt0BpWmdyviXunr8mh7hBR8K3tMSakOsSqRJEXFCnm2eLQwoqO8I2TfNTHHiexpDRxg=v1-rw-lo-w450-h560 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/j4tc1vm1Bcm9dIz7AXlEmqtgFg02ZV9fMvqtLc96dwWN6NJFt0BpWmdyviXunr8mh7hBR8K3tMSakOsSqRJEXFCnm2eLQwoqO8I2TfNTHHiexpDRxg=v1-rw-lo-w675-h840 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/j4tc1vm1Bcm9dIz7AXlEmqtgFg02ZV9fMvqtLc96dwWN6NJFt0BpWmdyviXunr8mh7hBR8K3tMSakOsSqRJEXFCnm2eLQwoqO8I2TfNTHHiexpDRxg=v1-rw-lo-w900-h1120 2x'
+        }"
+                src="https://lh3.googleusercontent.com/j4tc1vm1Bcm9dIz7AXlEmqtgFg02ZV9fMvqtLc96dwWN6NJFt0BpWmdyviXunr8mh7hBR8K3tMSakOsSqRJEXFCnm2eLQwoqO8I2TfNTHHiexpDRxg=v3-s20-fblur=1,20"
+                alt="Start your earning journey earlier"
+              />
+            </div>
+          </figure>
+        </div>
+        <div
+          class="lb-grid__cell lb-grid__cell--sm-span-12 lb-grid__cell--md-span-12 lb-grid__cell--lg-offset-6-span-5"
+        >
+          <div class="ytc-highlight-lockup__text">
+            <div
+              class="lb-font-eyebrow lb-margin-bottom-xs ytc-highlight-lockup__eyebrow"
+            >
+              Featured
+            </div>
+
+            <h2
+              class="lb-font-headline-2 lb-margin-bottom-xs ytc-highlight-lockup__heading"
+            >
+              Start your earning journey earlier
+            </h2>
+
+            <p
+              class="lb-margin-bottom-xs ytc-font-body ytc-highlight-lockup__description"
+            >
+              Creators can now qualify to apply to the YouTube Partner Program
+              and start their earning journey earlier, with access to fan
+              funding, select Shopping features, and more.
+            </p>
+
+            <a
+              class="lb-font-subhead ytc-arrow-link"
+              data-file-name=""
+              href="https://www.youtube.com/creators/how-things-work/video-monetization/#youtube-partner-program"
+              target="_self"
+              >See all the details</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        id='Home page related pages ("How Things Work")'
+        class="lb-padding-top-xxl ytc-related ytc-module"
+      >
+        <h2
+          class="lb-font-headline-2 lb-margin-bottom-s--bp-auto ytc-centered-type--responsive-xs ytc-related__heading"
+        >
+          How things work
+        </h2>
+
+        <ul class="lb-grid ytc-related-nav">
+          <li class="lb-grid__cell lb-grid__cell--span-6 ytc-related-nav__item">
+            <a
+              class="ytc-related-nav__link"
+              href="/intl/en_us/creators/how-things-work/getting-started/"
+            >
+              <img
+                class="lb-theme--light ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/ee9c7ea56c863254d2fde2870e07ab62bff86d3b784d303bbd58b6801376029c2599a422d27f3e3a23bfece1e4a298c60dc09e79cafeceb494d30f6b4a92c67b 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/ee9c7ea56c863254d2fde2870e07ab62bff86d3b784d303bbd58b6801376029c2599a422d27f3e3a23bfece1e4a298c60dc09e79cafeceb494d30f6b4a92c67b"
+                alt="Getting started on YouTube"
+              />
+              <img
+                class="lb-theme--dark ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/8c685bf8af4006f0a807fcec91e85abf7e94f6bf5643cf4e8c861f593fe4df962f2712029231592541e764573deb4e8b3566420cfe17e548337bee0a301a1928 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/8c685bf8af4006f0a807fcec91e85abf7e94f6bf5643cf4e8c861f593fe4df962f2712029231592541e764573deb4e8b3566420cfe17e548337bee0a301a1928"
+                alt="Getting started on YouTube"
+              />
+
+              <div class="ytc-related-nav__text-container">
+                <h3
+                  class="lb-font-subhead-1 lb-margin-bottom-xs ytc-related-nav__label"
+                >
+                  Getting started on YouTube
+                </h3>
+                <p class="ytc-font-body ytc-related-nav__desc">
+                  Everything you need to create and manage a channel.
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="lb-grid__cell lb-grid__cell--span-6 ytc-related-nav__item">
+            <a
+              class="ytc-related-nav__link"
+              href="/intl/en_us/creators/how-things-work/building-community/"
+            >
+              <img
+                class="lb-theme--light ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/e87277c7325a99683e6b38ffd8794d918c4a6829a833f84b57a769ef5593910e335d5ef270f311473f8422b43ed22ab53ea36aa0e5957f4b974907441d0d6494 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/e87277c7325a99683e6b38ffd8794d918c4a6829a833f84b57a769ef5593910e335d5ef270f311473f8422b43ed22ab53ea36aa0e5957f4b974907441d0d6494"
+                alt="Building your community"
+              />
+              <img
+                class="lb-theme--dark ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/1e806fbcec5e20e26e0dd775c08c37391df6a2bfa754b7b7610f4bec9c18dd9086599eb65281c34d9168ead5fd0c67315793dcf92d504f521ffce9152325b508 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/1e806fbcec5e20e26e0dd775c08c37391df6a2bfa754b7b7610f4bec9c18dd9086599eb65281c34d9168ead5fd0c67315793dcf92d504f521ffce9152325b508"
+                alt="Building your community"
+              />
+
+              <div class="ytc-related-nav__text-container">
+                <h3
+                  class="lb-font-subhead-1 lb-margin-bottom-xs ytc-related-nav__label"
+                >
+                  Building your community
+                </h3>
+                <p class="ytc-font-body ytc-related-nav__desc">
+                  Tips &amp; tricks to find, nurture, and build an audience.
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="lb-grid__cell lb-grid__cell--span-6 ytc-related-nav__item">
+            <a
+              class="ytc-related-nav__link"
+              href="/intl/en_us/creators/how-things-work/video-monetization/"
+            >
+              <img
+                class="lb-theme--light ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/8e603f63e6f9fa8991ec17290d4f8841c60a8e3410c92703b43f53e87b2de2159caf104c63398ce0d6908d432dff2df765fc6cec7296b98336e5eecf496a2bb3 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/8e603f63e6f9fa8991ec17290d4f8841c60a8e3410c92703b43f53e87b2de2159caf104c63398ce0d6908d432dff2df765fc6cec7296b98336e5eecf496a2bb3"
+                alt="How to make money on YouTube"
+              />
+              <img
+                class="lb-theme--dark ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/5fe53ccdd011a15f932bf0e145cd6eb8d0c10bd083bc3e31ba81e2860742247ea21f47299ad055e9963f3ddaec22d198965243ac253f611653699c3b6240a507 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/5fe53ccdd011a15f932bf0e145cd6eb8d0c10bd083bc3e31ba81e2860742247ea21f47299ad055e9963f3ddaec22d198965243ac253f611653699c3b6240a507"
+                alt="How to make money on YouTube"
+              />
+
+              <div class="ytc-related-nav__text-container">
+                <h3
+                  class="lb-font-subhead-1 lb-margin-bottom-xs ytc-related-nav__label"
+                >
+                  How to make money on YouTube
+                </h3>
+                <p class="ytc-font-body ytc-related-nav__desc">
+                  Explore all ways you can get paid on YouTube.
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="lb-grid__cell lb-grid__cell--span-6 ytc-related-nav__item">
+            <a
+              class="ytc-related-nav__link"
+              href="/intl/en_us/creators/how-things-work/content-creation-strategy/"
+            >
+              <img
+                class="lb-theme--light ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/aa6125103ef38094eb826319838e32c01d8faeeebb81f30d1ab13b8c1f5d86bf21b54db41984c7d9ebda15f24d0dca1c2f4618ee72f1e63fc3b051154a4a5ed2 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/aa6125103ef38094eb826319838e32c01d8faeeebb81f30d1ab13b8c1f5d86bf21b54db41984c7d9ebda15f24d0dca1c2f4618ee72f1e63fc3b051154a4a5ed2"
+                alt="Growing your channel"
+              />
+              <img
+                class="lb-theme--dark ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/7315378c5702051a16f287c44bbe4daedc9d6fd105d9ef85eb07b897bfbb3fb58c1d46f0a97889fcbd03a4a509da01d499e28df3b2ac76b7b48b11729591ef43 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/7315378c5702051a16f287c44bbe4daedc9d6fd105d9ef85eb07b897bfbb3fb58c1d46f0a97889fcbd03a4a509da01d499e28df3b2ac76b7b48b11729591ef43"
+                alt="Growing your channel"
+              />
+
+              <div class="ytc-related-nav__text-container">
+                <h3
+                  class="lb-font-subhead-1 lb-margin-bottom-xs ytc-related-nav__label"
+                >
+                  Growing your channel
+                </h3>
+                <p class="ytc-font-body ytc-related-nav__desc">
+                  Tools to help you create, connect, and grow.
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="lb-grid__cell lb-grid__cell--span-6 ytc-related-nav__item">
+            <a
+              class="ytc-related-nav__link"
+              href="/intl/en_us/creators/how-things-work/policies-guidelines/"
+            >
+              <img
+                class="lb-theme--light ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/56ac1c911da0a53e3aac1c02136e48d290f61308f43508f1c160f75754e8cbc229bce528a8a050e5cb619afa34596f984e1e18b17193a24dd1d6deb35337d4ca 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/56ac1c911da0a53e3aac1c02136e48d290f61308f43508f1c160f75754e8cbc229bce528a8a050e5cb619afa34596f984e1e18b17193a24dd1d6deb35337d4ca"
+                alt="Policies & Guidelines"
+              />
+              <img
+                class="lb-theme--dark ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/0347eb74dbee171c26da84337af6df89f869d0337fe36200c8efd91345ea665d92e0357a3625bffddc6d35865dd680ac5a0e4d56a24d8f05ca5ca35164b5e425 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/0347eb74dbee171c26da84337af6df89f869d0337fe36200c8efd91345ea665d92e0357a3625bffddc6d35865dd680ac5a0e4d56a24d8f05ca5ca35164b5e425"
+                alt="Policies & Guidelines"
+              />
+
+              <div class="ytc-related-nav__text-container">
+                <h3
+                  class="lb-font-subhead-1 lb-margin-bottom-xs ytc-related-nav__label"
+                >
+                  Policies &amp; Guidelines
+                </h3>
+                <p class="ytc-font-body ytc-related-nav__desc">
+                  Get the explanations behind the rules.
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="lb-grid__cell lb-grid__cell--span-6 ytc-related-nav__item">
+            <a
+              class="ytc-related-nav__link"
+              href="/intl/en_us/creators/how-things-work/get-involved/"
+            >
+              <img
+                class="lb-theme--light ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/340d99a2493a1b7d58656d5eed867a61d06f5924f80df5ba2d65b78518964ddd00f5eca9c3a7522e67fd473124aa88407dd07a4a6327ba10633b650ba93de62a 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/340d99a2493a1b7d58656d5eed867a61d06f5924f80df5ba2d65b78518964ddd00f5eca9c3a7522e67fd473124aa88407dd07a4a6327ba10633b650ba93de62a"
+                alt="How to get involved"
+              />
+              <img
+                class="lb-theme--dark ytc-related-nav__img"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+        '_1x': 'https://kstatic.googleusercontent.com/files/d68d259c41361592ddb5a6804007490879ef8e5ee919bf78774bfd02c0db2a5b8526ba140e0c4819b12753913562d055bc0f8d1ae3a486c10443e50cd3d86f35 1x'
+      }"
+                src="https://kstatic.googleusercontent.com/files/d68d259c41361592ddb5a6804007490879ef8e5ee919bf78774bfd02c0db2a5b8526ba140e0c4819b12753913562d055bc0f8d1ae3a486c10443e50cd3d86f35"
+                alt="How to get involved"
+              />
+
+              <div class="ytc-related-nav__text-container">
+                <h3
+                  class="lb-font-subhead-1 lb-margin-bottom-xs ytc-related-nav__label"
+                >
+                  How to get involved
+                </h3>
+                <p class="ytc-font-body ytc-related-nav__desc">
+                  How we support, recognize, and celebrate Creators.
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="ytc-top-questions-tabular">
+        <section
+          id=""
+          class="lb-padding-top-xxl ytc-tabular-lockup ytc-module t-lockup-6345253214486528"
+        >
+          <h2
+            class="lb-font-headline-2 lb-margin-bottom-s--bp-auto ytc-centered-type--responsive-xs ytc-panel-lockup__heading"
+          >
+            Top questions
+          </h2>
+
+          <div
+            class="lb-margin-bottom-l--bp-auto ytc-font-body ytc-centered-type--responsive-xxs ytc-panel-lockup__description"
+          >
+            <div class="ytc-md">
+              <p>
+                Creators have questions and we’ve got answers. We compiled the
+                most common questions we get with answers, plus links to helpful
+                how tos and help center articles. So you can get all the info
+                you need, fast.
+              </p>
+            </div>
+          </div>
+
+          <section lb-auto-init="YTCTabularSwitcher">
+            <div
+              class="lbd-tablist__section lbd-js-section ytc-tabular-lockup__tab-section"
+            >
+              <div class="lbd-tablist__section-inner lbd-js-section-inner">
+                <div
+                  class="lb-tablist"
+                  lb-auto-init="LBTablist"
+                  lb-options="{'uid': 't-lockup-6345253214486528', 'enableBroadcast': 'true'}"
+                >
+                  <ul
+                    class="lb-tablist__tabs-wrapper lb-js-tablist-wrapper"
+                    role="tablist"
+                    aria-owns="t-lockup-6345253214486528-0 t-lockup-6345253214486528-1 t-lockup-6345253214486528-2 t-lockup-6345253214486528-3 t-lockup-6345253214486528-4"
+                  >
+                    <li
+                      class="lb-tablist__tab-container"
+                      role="presentation"
+                      lb-auto-init="YTCDatalayerTriggers"
+                      lb-options="{
+              &#x27;name&#x27;: &#x27;tablist&#x27;,
+              &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+              &#x27;tabName&#x27;: &#x27;How%20do%20I%20start%20creating%20on%20YouTube%3F&#x27;
+            }"
+                    >
+                      <button
+                        class="lb-tablist__tab lb-js-tablist-tab"
+                        id="t-lockup-6345253214486528-0"
+                        value="0"
+                        tabindex="0"
+                        aria-selected="true"
+                        role="tab"
+                      >
+                        <span
+                          class="lb-font-subhead ytc-list-number ytc-font-subhead lb-font--no-crop"
+                          >01</span
+                        >
+
+                        <span class="ytc-list-title"
+                          >How do I start creating on YouTube?</span
+                        >
+                      </button>
+                    </li>
+
+                    <li
+                      class="lb-tablist__tab-container"
+                      role="presentation"
+                      lb-auto-init="YTCDatalayerTriggers"
+                      lb-options="{
+              &#x27;name&#x27;: &#x27;tablist&#x27;,
+              &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+              &#x27;tabName&#x27;: &#x27;How%20do%20I%20grow%20my%20channel%3F&#x27;
+            }"
+                    >
+                      <button
+                        class="lb-tablist__tab lb-js-tablist-tab"
+                        id="t-lockup-6345253214486528-1"
+                        value="1"
+                        tabindex="-1"
+                        aria-selected="false"
+                        role="tab"
+                      >
+                        <span
+                          class="lb-font-subhead ytc-list-number ytc-font-subhead lb-font--no-crop"
+                          >02</span
+                        >
+
+                        <span class="ytc-list-title"
+                          >How do I grow my channel?</span
+                        >
+                      </button>
+                    </li>
+
+                    <li
+                      class="lb-tablist__tab-container"
+                      role="presentation"
+                      lb-auto-init="YTCDatalayerTriggers"
+                      lb-options="{
+              &#x27;name&#x27;: &#x27;tablist&#x27;,
+              &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+              &#x27;tabName&#x27;: &#x27;How%20do%20I%20make%20edits%20to%20my%20channel%3F&#x27;
+            }"
+                    >
+                      <button
+                        class="lb-tablist__tab lb-js-tablist-tab"
+                        id="t-lockup-6345253214486528-2"
+                        value="2"
+                        tabindex="-1"
+                        aria-selected="false"
+                        role="tab"
+                      >
+                        <span
+                          class="lb-font-subhead ytc-list-number ytc-font-subhead lb-font--no-crop"
+                          >03</span
+                        >
+
+                        <span class="ytc-list-title"
+                          >How do I make edits to my channel?</span
+                        >
+                      </button>
+                    </li>
+
+                    <li
+                      class="lb-tablist__tab-container"
+                      role="presentation"
+                      lb-auto-init="YTCDatalayerTriggers"
+                      lb-options="{
+              &#x27;name&#x27;: &#x27;tablist&#x27;,
+              &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+              &#x27;tabName&#x27;: &#x27;How%20do%20I%20promote%20my%20videos%3F&#x27;
+            }"
+                    >
+                      <button
+                        class="lb-tablist__tab lb-js-tablist-tab"
+                        id="t-lockup-6345253214486528-3"
+                        value="3"
+                        tabindex="-1"
+                        aria-selected="false"
+                        role="tab"
+                      >
+                        <span
+                          class="lb-font-subhead ytc-list-number ytc-font-subhead lb-font--no-crop"
+                          >04</span
+                        >
+
+                        <span class="ytc-list-title"
+                          >How do I promote my videos?</span
+                        >
+                      </button>
+                    </li>
+
+                    <li
+                      class="lb-tablist__tab-container"
+                      role="presentation"
+                      lb-auto-init="YTCDatalayerTriggers"
+                      lb-options="{
+              &#x27;name&#x27;: &#x27;tablist&#x27;,
+              &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+              &#x27;tabName&#x27;: &#x27;How%20does%20the%20algorithm%20work%3F&#x27;
+            }"
+                    >
+                      <button
+                        class="lb-tablist__tab lb-js-tablist-tab"
+                        id="t-lockup-6345253214486528-4"
+                        value="4"
+                        tabindex="-1"
+                        aria-selected="false"
+                        role="tab"
+                      >
+                        <span
+                          class="lb-font-subhead ytc-list-number ytc-font-subhead lb-font--no-crop"
+                          >05</span
+                        >
+
+                        <span class="ytc-list-title"
+                          >How does the algorithm work?</span
+                        >
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="lb-tabpanel-group lbd-js-tabpanel-group">
+                  <div
+                    id="start-creating"
+                    class="lb-tabpanel lb-tabpanel--open"
+                    lb-auto-init="LBTabpanel, YTCDatalayerTriggers"
+                    lb-options="{
+            &#x27;uid&#x27;: &#x27;t-lockup-6345253214486528&#x27;,
+            &#x27;panelIndex&#x27;: &#x27;0&#x27;,
+            &#x27;name&#x27;: &#x27;tabpanel&#x27;,
+            &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+            &#x27;tabName&#x27;: &#x27;How%20do%20I%20start%20creating%20on%20YouTube%3F&#x27;
+          }"
+                  >
+                    <div class="lb-tabpanel__inner">
+                      <div class="ytc-tabular-lockup__panel">
+                        <div class="ytc-font-body ytc-image-item__description">
+                          <div
+                            class="ytc-video-card"
+                            lb-auto-init="YTCVideoCard"
+                          >
+                            <div
+                              class="lb-player"
+                              lb-auto-init="LBPlayer"
+                              lb-video-id="aKydtOXW8mI"
+                              lb-options="{
+    'uid': 'aKydtOXW8mI'
+  }"
+                            ></div>
+                            <button
+                              class="lb-button ytc-video-card__play-button"
+                              aria-label="Play Video"
+                            >
+                              <img
+                                class="ytc-video-card__img"
+                                lb-auto-init="LBImageLoader"
+                                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/kRDLobr0ADLapnUqFD7_Pc86XpCHXMFNTZZeaafhYEydfLlB0A4niH4DBIVOGeTKr3ma0kgMlGWf8M0eWDB-Xwa5b-cv1MvhuQ5ZD8mHLRgVPwVSpQ=v1-rw-lo-w960-h540 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/kRDLobr0ADLapnUqFD7_Pc86XpCHXMFNTZZeaafhYEydfLlB0A4niH4DBIVOGeTKr3ma0kgMlGWf8M0eWDB-Xwa5b-cv1MvhuQ5ZD8mHLRgVPwVSpQ=v1-rw-lo-w1440-h810 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/kRDLobr0ADLapnUqFD7_Pc86XpCHXMFNTZZeaafhYEydfLlB0A4niH4DBIVOGeTKr3ma0kgMlGWf8M0eWDB-Xwa5b-cv1MvhuQ5ZD8mHLRgVPwVSpQ=v1-rw-lo-w1920-h1080 2x'
+        }"
+                                src="https://lh3.googleusercontent.com/kRDLobr0ADLapnUqFD7_Pc86XpCHXMFNTZZeaafhYEydfLlB0A4niH4DBIVOGeTKr3ma0kgMlGWf8M0eWDB-Xwa5b-cv1MvhuQ5ZD8mHLRgVPwVSpQ=v3-s20-fblur=1,20"
+                                alt="Creator basics: how to set up and customize your channel"
+                              />
+                              <div class="ytc-video-card__caption">
+                                <svg
+                                  viewBox="0 0 24 24"
+                                  class="lb-icon lb-icon--48 ytc-video-card__icon"
+                                >
+                                  <use href="#youtube-logo-icon-filled"></use>
+                                </svg>
+                                <div
+                                  class="lb-font-subhead-2 lb-font-color-white-1"
+                                >
+                                  Creator basics: how to set up and customize
+                                  your channel
+                                </div>
+                              </div>
+                            </button>
+                          </div>
+
+                          <div class="ytc-md">
+                            <p>
+                              There are a few ways to get started on YouTube. We
+                              offer up different formats and functionalities,
+                              giving you the flexibility to create everything
+                              from Shorts, which are vertical videos that run 60
+                              seconds or less, to longer form videos.
+                            </p>
+                            <p>
+                              No matter what you’re creating, you’ll need to
+                              start by creating a YouTube Channel.
+                            </p>
+                            <ul>
+                              <li>
+                                First you need to sign into YouTube using a
+                                Google Account.
+                              </li>
+                              <li>
+                                Once you’re signed in, click ‘Create Account’,
+                                and choose whether it’s for you or for your
+                                business.
+                              </li>
+                              <li>
+                                You can then create a YouTube channel on your
+                                account, upload videos, leave comments, and
+                                create Shorts and playlists.
+                              </li>
+                            </ul>
+                            <p>Next, you’ll want to upload your videos!</p>
+                            <ul>
+                              <li>
+                                Uploading is easy. You just sign into your
+                                YouTube account and then click on the “Create”
+                                icon.
+                              </li>
+                              <li>
+                                If you’re planning to upload a longer form
+                                video, select “upload video” and then choose
+                                your desired video file - you can upload 15
+                                files at a time!
+                              </li>
+                              <li>
+                                If you’d like to
+                                <a
+                                  href="https://support.google.com/youtube/answer/10343433"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  >upload a YouTube Short</a
+                                >, you’ll need to be signed into YouTube mobile,
+                                where you’ll tap ‘Create’ and then ‘Create a
+                                Short’. From here you can either upload a video
+                                from your camera roll or create using our suite
+                                of lightweight tools.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    id="grow-channel"
+                    class="lb-tabpanel"
+                    lb-auto-init="LBTabpanel, YTCDatalayerTriggers"
+                    lb-options="{
+            &#x27;uid&#x27;: &#x27;t-lockup-6345253214486528&#x27;,
+            &#x27;panelIndex&#x27;: &#x27;1&#x27;,
+            &#x27;name&#x27;: &#x27;tabpanel&#x27;,
+            &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+            &#x27;tabName&#x27;: &#x27;How%20do%20I%20grow%20my%20channel%3F&#x27;
+          }"
+                  >
+                    <div class="lb-tabpanel__inner">
+                      <div class="ytc-tabular-lockup__panel">
+                        <div class="ytc-font-body ytc-image-item__description">
+                          <div
+                            class="ytc-video-card"
+                            lb-auto-init="YTCVideoCard"
+                          >
+                            <div
+                              class="lb-player"
+                              lb-auto-init="LBPlayer"
+                              lb-video-id="6NKhcV3v2nw"
+                              lb-options="{
+    'uid': '6NKhcV3v2nw'
+  }"
+                            ></div>
+                            <button
+                              class="lb-button ytc-video-card__play-button"
+                              aria-label="Play Video"
+                            >
+                              <img
+                                class="ytc-video-card__img"
+                                lb-auto-init="LBImageLoader"
+                                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/tpX60GOgt4wh6tfnmkeERzXC2XAudmiT_VnOfaF0_V4luA0XRD_UWCsgoQiJxVLOLAVig5tUVm6hF-IYsKG8e9qfO_OFQbIjSe1KcXazTgPrfM6Lrg=v1-rw-lo-w960-h540 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/tpX60GOgt4wh6tfnmkeERzXC2XAudmiT_VnOfaF0_V4luA0XRD_UWCsgoQiJxVLOLAVig5tUVm6hF-IYsKG8e9qfO_OFQbIjSe1KcXazTgPrfM6Lrg=v1-rw-lo-w1440-h810 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/tpX60GOgt4wh6tfnmkeERzXC2XAudmiT_VnOfaF0_V4luA0XRD_UWCsgoQiJxVLOLAVig5tUVm6hF-IYsKG8e9qfO_OFQbIjSe1KcXazTgPrfM6Lrg=v1-rw-lo-w1920-h1080 2x'
+        }"
+                                src="https://lh3.googleusercontent.com/tpX60GOgt4wh6tfnmkeERzXC2XAudmiT_VnOfaF0_V4luA0XRD_UWCsgoQiJxVLOLAVig5tUVm6hF-IYsKG8e9qfO_OFQbIjSe1KcXazTgPrfM6Lrg=v3-s20-fblur=1,20"
+                                alt="Help your videos stand out & keep viewers watching"
+                              />
+                              <div class="ytc-video-card__caption">
+                                <svg
+                                  viewBox="0 0 24 24"
+                                  class="lb-icon lb-icon--48 ytc-video-card__icon"
+                                >
+                                  <use href="#youtube-logo-icon-filled"></use>
+                                </svg>
+                                <div
+                                  class="lb-font-subhead-2 lb-font-color-white-1"
+                                >
+                                  Help your videos stand out & keep viewers
+                                  watching
+                                </div>
+                              </div>
+                            </button>
+                          </div>
+
+                          <div class="ytc-md">
+                            <p>
+                              Growing your channel is all about creating videos
+                              viewers want to watch and accurately presenting
+                              them to the audience. When doing so, here’s a few
+                              tips to keep in mind.
+                            </p>
+                            <p>
+                              With each video, think carefully about the title,
+                              description, and
+                              <a
+                                href="https://support.google.com/youtube/answer/72431"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >thumbnail</a
+                              >
+                              you plan to use - these should all accurately
+                              reflect your content and let viewers know what
+                              they can expect from the video. If you’re a Shorts
+                              creator, think about how the first 1-2 seconds of
+                              your content can grab viewers scrolling through
+                              the video feed!
+                            </p>
+                            <p>
+                              Once you’ve got viewers watching, you can redirect
+                              their attention via hashtags,
+                              <a
+                                href="https://support.google.com/youtube/answer/57792"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >playlists</a
+                              >,
+                              <a
+                                href="https://support.google.com/youtube/answer/6140493"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >cards</a
+                              >,
+                              <a
+                                href="https://support.google.com/youtube/answer/6388789"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >end screens</a
+                              >, and more.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    id="edit-my-youtube-channel"
+                    class="lb-tabpanel"
+                    lb-auto-init="LBTabpanel, YTCDatalayerTriggers"
+                    lb-options="{
+            &#x27;uid&#x27;: &#x27;t-lockup-6345253214486528&#x27;,
+            &#x27;panelIndex&#x27;: &#x27;2&#x27;,
+            &#x27;name&#x27;: &#x27;tabpanel&#x27;,
+            &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+            &#x27;tabName&#x27;: &#x27;How%20do%20I%20make%20edits%20to%20my%20channel%3F&#x27;
+          }"
+                  >
+                    <div class="lb-tabpanel__inner">
+                      <div class="ytc-tabular-lockup__panel">
+                        <div class="ytc-font-body ytc-image-item__description">
+                          <div
+                            class="ytc-video-card"
+                            lb-auto-init="YTCVideoCard"
+                          >
+                            <div
+                              class="lb-player"
+                              lb-auto-init="LBPlayer"
+                              lb-video-id="Ygpx7FcLKAY"
+                              lb-options="{
+    'uid': 'Ygpx7FcLKAY'
+  }"
+                            ></div>
+                            <button
+                              class="lb-button ytc-video-card__play-button"
+                              aria-label="Play Video"
+                            >
+                              <img
+                                class="ytc-video-card__img"
+                                lb-auto-init="LBImageLoader"
+                                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/XXynpW0JldCLMwixcftb0L3ub1zj83tgpvjQ5h-i3l4289cJiB6MT2Fm2-GF1_Y5IubaKq-IxbbwDm5XxxYv5oWUiWBf1p_tsp5E6HEktjx7oxQbipw=v1-rw-lo-w960-h540 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/XXynpW0JldCLMwixcftb0L3ub1zj83tgpvjQ5h-i3l4289cJiB6MT2Fm2-GF1_Y5IubaKq-IxbbwDm5XxxYv5oWUiWBf1p_tsp5E6HEktjx7oxQbipw=v1-rw-lo-w1440-h810 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/XXynpW0JldCLMwixcftb0L3ub1zj83tgpvjQ5h-i3l4289cJiB6MT2Fm2-GF1_Y5IubaKq-IxbbwDm5XxxYv5oWUiWBf1p_tsp5E6HEktjx7oxQbipw=v1-rw-lo-w1920-h1080 2x'
+        }"
+                                src="https://lh3.googleusercontent.com/XXynpW0JldCLMwixcftb0L3ub1zj83tgpvjQ5h-i3l4289cJiB6MT2Fm2-GF1_Y5IubaKq-IxbbwDm5XxxYv5oWUiWBf1p_tsp5E6HEktjx7oxQbipw=v3-s20-fblur=1,20"
+                                alt="Navigating YouTube Studio"
+                              />
+                              <div class="ytc-video-card__caption">
+                                <svg
+                                  viewBox="0 0 24 24"
+                                  class="lb-icon lb-icon--48 ytc-video-card__icon"
+                                >
+                                  <use href="#youtube-logo-icon-filled"></use>
+                                </svg>
+                                <div
+                                  class="lb-font-subhead-2 lb-font-color-white-1"
+                                >
+                                  Navigating YouTube Studio
+                                </div>
+                              </div>
+                            </button>
+                          </div>
+
+                          <div class="ytc-md">
+                            <p>
+                              YouTube Studio is your home base for posting
+                              videos and making edits to your channel. To update
+                              your channel’s basic info like name,
+                              <a
+                                href="https://support.google.com/youtube/answer/2972003"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >profile picture</a
+                              >, and banner, just log in and tap ‘Customisation’
+                              to see your options.
+                            </p>
+                            <p>
+                              You can also make changes to your channel using
+                              the Studio Mobile app. You can tap ‘Your Channel’
+                              and then ‘Edit Channel’ to update and edit how
+                              your channel looks to your viewers. Note that you
+                              can only change your channel’s name three times
+                              every 90 days.
+                            </p>
+                            <p>
+                              <a
+                                href="https://support.google.com/youtube/answer/2657964"
+                                target="_blank"
+                                class="ytc-arrow-link"
+                                rel="noopener noreferrer"
+                                >Read more about managing your channel</a
+                              >
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    id="how-to-promote-youtube-videos"
+                    class="lb-tabpanel"
+                    lb-auto-init="LBTabpanel, YTCDatalayerTriggers"
+                    lb-options="{
+            &#x27;uid&#x27;: &#x27;t-lockup-6345253214486528&#x27;,
+            &#x27;panelIndex&#x27;: &#x27;3&#x27;,
+            &#x27;name&#x27;: &#x27;tabpanel&#x27;,
+            &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+            &#x27;tabName&#x27;: &#x27;How%20do%20I%20promote%20my%20videos%3F&#x27;
+          }"
+                  >
+                    <div class="lb-tabpanel__inner">
+                      <div class="ytc-tabular-lockup__panel">
+                        <div class="ytc-font-body ytc-image-item__description">
+                          <div
+                            class="ytc-video-card"
+                            lb-auto-init="YTCVideoCard"
+                          >
+                            <div
+                              class="lb-player"
+                              lb-auto-init="LBPlayer"
+                              lb-video-id="iCbn31svcBg"
+                              lb-options="{
+    'uid': 'iCbn31svcBg'
+  }"
+                            ></div>
+                            <button
+                              class="lb-button ytc-video-card__play-button"
+                              aria-label="Play Video"
+                            >
+                              <img
+                                class="ytc-video-card__img"
+                                lb-auto-init="LBImageLoader"
+                                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/_YJX5nRKstpyatFpN9wDLgs8OJZtNdmIdfDOnlkNC7oVPUK6j5pYSSKo9pSC8fmLA9tS8klPCMbT4h2JFSBFBqUDJzvwRvfQ8u1bXCwZ85RY3s7I_aV7=v1-rw-lo-w960-h540 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/_YJX5nRKstpyatFpN9wDLgs8OJZtNdmIdfDOnlkNC7oVPUK6j5pYSSKo9pSC8fmLA9tS8klPCMbT4h2JFSBFBqUDJzvwRvfQ8u1bXCwZ85RY3s7I_aV7=v1-rw-lo-w1440-h810 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/_YJX5nRKstpyatFpN9wDLgs8OJZtNdmIdfDOnlkNC7oVPUK6j5pYSSKo9pSC8fmLA9tS8klPCMbT4h2JFSBFBqUDJzvwRvfQ8u1bXCwZ85RY3s7I_aV7=v1-rw-lo-w1920-h1080 2x'
+        }"
+                                src="https://lh3.googleusercontent.com/_YJX5nRKstpyatFpN9wDLgs8OJZtNdmIdfDOnlkNC7oVPUK6j5pYSSKo9pSC8fmLA9tS8klPCMbT4h2JFSBFBqUDJzvwRvfQ8u1bXCwZ85RY3s7I_aV7=v3-s20-fblur=1,20"
+                                alt="Promoting your videos"
+                              />
+                              <div class="ytc-video-card__caption">
+                                <svg
+                                  viewBox="0 0 24 24"
+                                  class="lb-icon lb-icon--48 ytc-video-card__icon"
+                                >
+                                  <use href="#youtube-logo-icon-filled"></use>
+                                </svg>
+                                <div
+                                  class="lb-font-subhead-2 lb-font-color-white-1"
+                                >
+                                  Promoting your videos
+                                </div>
+                              </div>
+                            </button>
+                          </div>
+
+                          <div class="ytc-md">
+                            <p>
+                              Promoting your videos is all about getting the
+                              word out there. On YouTube, you can use tools like
+                              cards, end screens, Stories, and Community Posts
+                              to drive viewers to a specific piece of content!
+                            </p>
+                            <p>
+                              Off-platform, think about promoting your videos on
+                              your socials and relevant communities, podcasts,
+                              or platforms that align with your content and your
+                              intended audience.
+                            </p>
+                            <p>
+                              <a
+                                href="https://support.google.com/youtube/answer/141808"
+                                target="_blank"
+                                class="ytc-arrow-link"
+                                rel="noopener noreferrer"
+                                >Read more about promoting your videos</a
+                              >
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    id="algorithm"
+                    class="lb-tabpanel"
+                    lb-auto-init="LBTabpanel, YTCDatalayerTriggers"
+                    lb-options="{
+            &#x27;uid&#x27;: &#x27;t-lockup-6345253214486528&#x27;,
+            &#x27;panelIndex&#x27;: &#x27;4&#x27;,
+            &#x27;name&#x27;: &#x27;tabpanel&#x27;,
+            &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+            &#x27;tabName&#x27;: &#x27;How%20does%20the%20algorithm%20work%3F&#x27;
+          }"
+                  >
+                    <div class="lb-tabpanel__inner">
+                      <div class="ytc-tabular-lockup__panel">
+                        <div class="ytc-font-body ytc-image-item__description">
+                          <div
+                            class="ytc-video-card"
+                            lb-auto-init="YTCVideoCard"
+                          >
+                            <div
+                              class="lb-player"
+                              lb-auto-init="LBPlayer"
+                              lb-video-id="GOHWPVMPq84"
+                              lb-options="{
+    'uid': 'GOHWPVMPq84'
+  }"
+                            ></div>
+                            <button
+                              class="lb-button ytc-video-card__play-button"
+                              aria-label="Play Video"
+                            >
+                              <img
+                                class="ytc-video-card__img"
+                                lb-auto-init="LBImageLoader"
+                                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/WzVgDKPqE7j3pKUxMgn1w4Wqm2FUO355NoM5FAGFtL7mrQz3U5it_4oCnSkNSol7DZhHW6Wvn3SPmVe8OBYdEu6UjqUNHdgo6ihyuF1cWISR2Cnr5_Y=v1-rw-lo-w960-h540 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/WzVgDKPqE7j3pKUxMgn1w4Wqm2FUO355NoM5FAGFtL7mrQz3U5it_4oCnSkNSol7DZhHW6Wvn3SPmVe8OBYdEu6UjqUNHdgo6ihyuF1cWISR2Cnr5_Y=v1-rw-lo-w1440-h810 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/WzVgDKPqE7j3pKUxMgn1w4Wqm2FUO355NoM5FAGFtL7mrQz3U5it_4oCnSkNSol7DZhHW6Wvn3SPmVe8OBYdEu6UjqUNHdgo6ihyuF1cWISR2Cnr5_Y=v1-rw-lo-w1920-h1080 2x'
+        }"
+                                src="https://lh3.googleusercontent.com/WzVgDKPqE7j3pKUxMgn1w4Wqm2FUO355NoM5FAGFtL7mrQz3U5it_4oCnSkNSol7DZhHW6Wvn3SPmVe8OBYdEu6UjqUNHdgo6ihyuF1cWISR2Cnr5_Y=v3-s20-fblur=1,20"
+                                alt="How YouTube recommends videos using the algorithm"
+                              />
+                              <div class="ytc-video-card__caption">
+                                <svg
+                                  viewBox="0 0 24 24"
+                                  class="lb-icon lb-icon--48 ytc-video-card__icon"
+                                >
+                                  <use href="#youtube-logo-icon-filled"></use>
+                                </svg>
+                                <div
+                                  class="lb-font-subhead-2 lb-font-color-white-1"
+                                >
+                                  How YouTube recommends videos using "the
+                                  algorithm"
+                                </div>
+                              </div>
+                            </button>
+                          </div>
+
+                          <div class="ytc-md">
+                            <p>
+                              Our search and discovery systems are built to find
+                              videos that match viewers’ individual interests.
+                              We
+                              <a
+                                href="https://support.google.com/youtube/answer/141805"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >recommend videos</a
+                              >
+                              based on things such as: what your audience
+                              watches and doesn’t watch, how much time they
+                              spend watching, what they like and dislike, if
+                              they mark a video as ‘not interested’, and on
+                              satisfaction surveys.
+                            </p>
+                            <p>
+                              So, rather than trying trying to find a secret
+                              code to these systems, focus instead on making
+                              videos that you think will resonate with your
+                              audience. A great tool here is YouTube Analytics,
+                              which provides data that can help you understand
+                              how your existing content is performing and
+                              provide insights for future videos!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="lb-expansion-panel__container">
+              <div
+                id="start-creating"
+                class="lb-expansion-panel lb-expansion-panel--light"
+                lb-auto-init="LBExpansionPanel, YTCDatalayerTriggers"
+                lb-options="{
+          &#x27;family&#x27;: &#x27;t-lockup-6345253214486528&#x27;,
+          &#x27;computeBeforeOpen&#x27;: true,
+          &#x27;open&#x27;: true,
+          &#x27;name&#x27;: &#x27;accordion&#x27;,
+          &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+          &#x27;tabName&#x27;: &#x27;How%20do%20I%20start%20creating%20on%20YouTube%3F&#x27;
+        }"
+              >
+                <div class="lb-expansion-panel__divider"></div>
+                <div
+                  class="lb-expansion-panel__heading"
+                  role="heading"
+                  aria-level="2"
+                >
+                  <div
+                    class="lb-expansion-panel__trigger"
+                    role="button"
+                    tabindex="0"
+                    aria-expanded="false"
+                    aria-controls="t-lockup-6345253214486528-content-0"
+                    id="t-lockup-6345253214486528-header-0"
+                    lb-auto-init="LBExpansionPanelTrigger"
+                    lb-options="{'component': 'expansion-panel', 'action': 'toggle', 'detail': {'family': 't-lockup-6345253214486528', 'index': 0}}"
+                  >
+                    <span class="lb-expansion-panel__trigger-name">
+                      <span
+                        class="lb-font-subhead ytc-list-number ytc-font-subhead"
+                      >
+                        01
+                      </span>
+
+                      How do I start creating on YouTube?
+                    </span>
+                    <span class="lb-expansion-panel__trigger-icon">
+                      <svg
+                        width="12"
+                        height="8"
+                        viewBox="0 0 12 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.41 0.589966L6 5.16997L10.59 0.589966L12 1.99997L6 7.99997L0 1.99997L1.41 0.589966Z"
+                          fill="#606060"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="lb-expansion-panel__surface"
+                  id="t-lockup-6345253214486528-content-0"
+                  role="region"
+                  aria-labelledby="t-lockup-6345253214486528-header-0"
+                >
+                  <div class="lb-expansion-panel__surface-content">
+                    <div class="lb-grid">
+                      <div class="lb-grid__cell lb-grid__cell--span-6">
+                        <div class="ytc-video-card" lb-auto-init="YTCVideoCard">
+                          <div
+                            class="lb-player"
+                            lb-auto-init="LBPlayer"
+                            lb-video-id="aKydtOXW8mI"
+                            lb-options="{
+    'uid': 'aKydtOXW8mI'
+  }"
+                          ></div>
+                          <button
+                            class="lb-button ytc-video-card__play-button"
+                            aria-label="Play Video"
+                          >
+                            <img
+                              class="ytc-video-card__img"
+                              lb-auto-init="LBImageLoader"
+                              lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/kRDLobr0ADLapnUqFD7_Pc86XpCHXMFNTZZeaafhYEydfLlB0A4niH4DBIVOGeTKr3ma0kgMlGWf8M0eWDB-Xwa5b-cv1MvhuQ5ZD8mHLRgVPwVSpQ=v1-rw-lo-w960-h540 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/kRDLobr0ADLapnUqFD7_Pc86XpCHXMFNTZZeaafhYEydfLlB0A4niH4DBIVOGeTKr3ma0kgMlGWf8M0eWDB-Xwa5b-cv1MvhuQ5ZD8mHLRgVPwVSpQ=v1-rw-lo-w1440-h810 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/kRDLobr0ADLapnUqFD7_Pc86XpCHXMFNTZZeaafhYEydfLlB0A4niH4DBIVOGeTKr3ma0kgMlGWf8M0eWDB-Xwa5b-cv1MvhuQ5ZD8mHLRgVPwVSpQ=v1-rw-lo-w1920-h1080 2x'
+        }"
+                              src="https://lh3.googleusercontent.com/kRDLobr0ADLapnUqFD7_Pc86XpCHXMFNTZZeaafhYEydfLlB0A4niH4DBIVOGeTKr3ma0kgMlGWf8M0eWDB-Xwa5b-cv1MvhuQ5ZD8mHLRgVPwVSpQ=v3-s20-fblur=1,20"
+                              alt="Creator basics: how to set up and customize your channel"
+                            />
+                            <div class="ytc-video-card__caption">
+                              <svg
+                                viewBox="0 0 24 24"
+                                class="lb-icon lb-icon--48 ytc-video-card__icon"
+                              >
+                                <use href="#youtube-logo-icon-filled"></use>
+                              </svg>
+                              <div
+                                class="lb-font-subhead-2 lb-font-color-white-1"
+                              >
+                                Creator basics: how to set up and customize your
+                                channel
+                              </div>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="lb-grid__cell lb-grid__cell--span-6">
+                        <div class="ytc-md">
+                          <p>
+                            There are a few ways to get started on YouTube. We
+                            offer up different formats and functionalities,
+                            giving you the flexibility to create everything from
+                            Shorts, which are vertical videos that run 60
+                            seconds or less, to longer form videos.
+                          </p>
+                          <p>
+                            No matter what you’re creating, you’ll need to start
+                            by creating a YouTube Channel.
+                          </p>
+                          <ul>
+                            <li>
+                              First you need to sign into YouTube using a Google
+                              Account.
+                            </li>
+                            <li>
+                              Once you’re signed in, click ‘Create Account’, and
+                              choose whether it’s for you or for your business.
+                            </li>
+                            <li>
+                              You can then create a YouTube channel on your
+                              account, upload videos, leave comments, and create
+                              Shorts and playlists.
+                            </li>
+                          </ul>
+                          <p>Next, you’ll want to upload your videos!</p>
+                          <ul>
+                            <li>
+                              Uploading is easy. You just sign into your YouTube
+                              account and then click on the “Create” icon.
+                            </li>
+                            <li>
+                              If you’re planning to upload a longer form video,
+                              select “upload video” and then choose your desired
+                              video file - you can upload 15 files at a time!
+                            </li>
+                            <li>
+                              If you’d like to
+                              <a
+                                href="https://support.google.com/youtube/answer/10343433"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >upload a YouTube Short</a
+                              >, you’ll need to be signed into YouTube mobile,
+                              where you’ll tap ‘Create’ and then ‘Create a
+                              Short’. From here you can either upload a video
+                              from your camera roll or create using our suite of
+                              lightweight tools.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                id="grow-channel"
+                class="lb-expansion-panel lb-expansion-panel--light"
+                lb-auto-init="LBExpansionPanel, YTCDatalayerTriggers"
+                lb-options="{
+          &#x27;family&#x27;: &#x27;t-lockup-6345253214486528&#x27;,
+          &#x27;computeBeforeOpen&#x27;: true,
+          &#x27;open&#x27;: false,
+          &#x27;name&#x27;: &#x27;accordion&#x27;,
+          &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+          &#x27;tabName&#x27;: &#x27;How%20do%20I%20grow%20my%20channel%3F&#x27;
+        }"
+              >
+                <div class="lb-expansion-panel__divider"></div>
+                <div
+                  class="lb-expansion-panel__heading"
+                  role="heading"
+                  aria-level="2"
+                >
+                  <div
+                    class="lb-expansion-panel__trigger"
+                    role="button"
+                    tabindex="0"
+                    aria-expanded="false"
+                    aria-controls="t-lockup-6345253214486528-content-1"
+                    id="t-lockup-6345253214486528-header-1"
+                    lb-auto-init="LBExpansionPanelTrigger"
+                    lb-options="{'component': 'expansion-panel', 'action': 'toggle', 'detail': {'family': 't-lockup-6345253214486528', 'index': 1}}"
+                  >
+                    <span class="lb-expansion-panel__trigger-name">
+                      <span
+                        class="lb-font-subhead ytc-list-number ytc-font-subhead"
+                      >
+                        02
+                      </span>
+
+                      How do I grow my channel?
+                    </span>
+                    <span class="lb-expansion-panel__trigger-icon">
+                      <svg
+                        width="12"
+                        height="8"
+                        viewBox="0 0 12 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.41 0.589966L6 5.16997L10.59 0.589966L12 1.99997L6 7.99997L0 1.99997L1.41 0.589966Z"
+                          fill="#606060"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="lb-expansion-panel__surface"
+                  id="t-lockup-6345253214486528-content-1"
+                  role="region"
+                  aria-labelledby="t-lockup-6345253214486528-header-1"
+                >
+                  <div class="lb-expansion-panel__surface-content">
+                    <div class="lb-grid">
+                      <div class="lb-grid__cell lb-grid__cell--span-6">
+                        <div class="ytc-video-card" lb-auto-init="YTCVideoCard">
+                          <div
+                            class="lb-player"
+                            lb-auto-init="LBPlayer"
+                            lb-video-id="6NKhcV3v2nw"
+                            lb-options="{
+    'uid': '6NKhcV3v2nw'
+  }"
+                          ></div>
+                          <button
+                            class="lb-button ytc-video-card__play-button"
+                            aria-label="Play Video"
+                          >
+                            <img
+                              class="ytc-video-card__img"
+                              lb-auto-init="LBImageLoader"
+                              lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/tpX60GOgt4wh6tfnmkeERzXC2XAudmiT_VnOfaF0_V4luA0XRD_UWCsgoQiJxVLOLAVig5tUVm6hF-IYsKG8e9qfO_OFQbIjSe1KcXazTgPrfM6Lrg=v1-rw-lo-w960-h540 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/tpX60GOgt4wh6tfnmkeERzXC2XAudmiT_VnOfaF0_V4luA0XRD_UWCsgoQiJxVLOLAVig5tUVm6hF-IYsKG8e9qfO_OFQbIjSe1KcXazTgPrfM6Lrg=v1-rw-lo-w1440-h810 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/tpX60GOgt4wh6tfnmkeERzXC2XAudmiT_VnOfaF0_V4luA0XRD_UWCsgoQiJxVLOLAVig5tUVm6hF-IYsKG8e9qfO_OFQbIjSe1KcXazTgPrfM6Lrg=v1-rw-lo-w1920-h1080 2x'
+        }"
+                              src="https://lh3.googleusercontent.com/tpX60GOgt4wh6tfnmkeERzXC2XAudmiT_VnOfaF0_V4luA0XRD_UWCsgoQiJxVLOLAVig5tUVm6hF-IYsKG8e9qfO_OFQbIjSe1KcXazTgPrfM6Lrg=v3-s20-fblur=1,20"
+                              alt="Help your videos stand out & keep viewers watching"
+                            />
+                            <div class="ytc-video-card__caption">
+                              <svg
+                                viewBox="0 0 24 24"
+                                class="lb-icon lb-icon--48 ytc-video-card__icon"
+                              >
+                                <use href="#youtube-logo-icon-filled"></use>
+                              </svg>
+                              <div
+                                class="lb-font-subhead-2 lb-font-color-white-1"
+                              >
+                                Help your videos stand out & keep viewers
+                                watching
+                              </div>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="lb-grid__cell lb-grid__cell--span-6">
+                        <div class="ytc-md">
+                          <p>
+                            Growing your channel is all about creating videos
+                            viewers want to watch and accurately presenting them
+                            to the audience. When doing so, here’s a few tips to
+                            keep in mind.
+                          </p>
+                          <p>
+                            With each video, think carefully about the title,
+                            description, and
+                            <a
+                              href="https://support.google.com/youtube/answer/72431"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >thumbnail</a
+                            >
+                            you plan to use - these should all accurately
+                            reflect your content and let viewers know what they
+                            can expect from the video. If you’re a Shorts
+                            creator, think about how the first 1-2 seconds of
+                            your content can grab viewers scrolling through the
+                            video feed!
+                          </p>
+                          <p>
+                            Once you’ve got viewers watching, you can redirect
+                            their attention via hashtags,
+                            <a
+                              href="https://support.google.com/youtube/answer/57792"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >playlists</a
+                            >,
+                            <a
+                              href="https://support.google.com/youtube/answer/6140493"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >cards</a
+                            >,
+                            <a
+                              href="https://support.google.com/youtube/answer/6388789"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >end screens</a
+                            >, and more.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                id="edit-my-youtube-channel"
+                class="lb-expansion-panel lb-expansion-panel--light"
+                lb-auto-init="LBExpansionPanel, YTCDatalayerTriggers"
+                lb-options="{
+          &#x27;family&#x27;: &#x27;t-lockup-6345253214486528&#x27;,
+          &#x27;computeBeforeOpen&#x27;: true,
+          &#x27;open&#x27;: false,
+          &#x27;name&#x27;: &#x27;accordion&#x27;,
+          &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+          &#x27;tabName&#x27;: &#x27;How%20do%20I%20make%20edits%20to%20my%20channel%3F&#x27;
+        }"
+              >
+                <div class="lb-expansion-panel__divider"></div>
+                <div
+                  class="lb-expansion-panel__heading"
+                  role="heading"
+                  aria-level="2"
+                >
+                  <div
+                    class="lb-expansion-panel__trigger"
+                    role="button"
+                    tabindex="0"
+                    aria-expanded="false"
+                    aria-controls="t-lockup-6345253214486528-content-2"
+                    id="t-lockup-6345253214486528-header-2"
+                    lb-auto-init="LBExpansionPanelTrigger"
+                    lb-options="{'component': 'expansion-panel', 'action': 'toggle', 'detail': {'family': 't-lockup-6345253214486528', 'index': 2}}"
+                  >
+                    <span class="lb-expansion-panel__trigger-name">
+                      <span
+                        class="lb-font-subhead ytc-list-number ytc-font-subhead"
+                      >
+                        03
+                      </span>
+
+                      How do I make edits to my channel?
+                    </span>
+                    <span class="lb-expansion-panel__trigger-icon">
+                      <svg
+                        width="12"
+                        height="8"
+                        viewBox="0 0 12 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.41 0.589966L6 5.16997L10.59 0.589966L12 1.99997L6 7.99997L0 1.99997L1.41 0.589966Z"
+                          fill="#606060"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="lb-expansion-panel__surface"
+                  id="t-lockup-6345253214486528-content-2"
+                  role="region"
+                  aria-labelledby="t-lockup-6345253214486528-header-2"
+                >
+                  <div class="lb-expansion-panel__surface-content">
+                    <div class="lb-grid">
+                      <div class="lb-grid__cell lb-grid__cell--span-6">
+                        <div class="ytc-video-card" lb-auto-init="YTCVideoCard">
+                          <div
+                            class="lb-player"
+                            lb-auto-init="LBPlayer"
+                            lb-video-id="Ygpx7FcLKAY"
+                            lb-options="{
+    'uid': 'Ygpx7FcLKAY'
+  }"
+                          ></div>
+                          <button
+                            class="lb-button ytc-video-card__play-button"
+                            aria-label="Play Video"
+                          >
+                            <img
+                              class="ytc-video-card__img"
+                              lb-auto-init="LBImageLoader"
+                              lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/XXynpW0JldCLMwixcftb0L3ub1zj83tgpvjQ5h-i3l4289cJiB6MT2Fm2-GF1_Y5IubaKq-IxbbwDm5XxxYv5oWUiWBf1p_tsp5E6HEktjx7oxQbipw=v1-rw-lo-w960-h540 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/XXynpW0JldCLMwixcftb0L3ub1zj83tgpvjQ5h-i3l4289cJiB6MT2Fm2-GF1_Y5IubaKq-IxbbwDm5XxxYv5oWUiWBf1p_tsp5E6HEktjx7oxQbipw=v1-rw-lo-w1440-h810 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/XXynpW0JldCLMwixcftb0L3ub1zj83tgpvjQ5h-i3l4289cJiB6MT2Fm2-GF1_Y5IubaKq-IxbbwDm5XxxYv5oWUiWBf1p_tsp5E6HEktjx7oxQbipw=v1-rw-lo-w1920-h1080 2x'
+        }"
+                              src="https://lh3.googleusercontent.com/XXynpW0JldCLMwixcftb0L3ub1zj83tgpvjQ5h-i3l4289cJiB6MT2Fm2-GF1_Y5IubaKq-IxbbwDm5XxxYv5oWUiWBf1p_tsp5E6HEktjx7oxQbipw=v3-s20-fblur=1,20"
+                              alt="Navigating YouTube Studio"
+                            />
+                            <div class="ytc-video-card__caption">
+                              <svg
+                                viewBox="0 0 24 24"
+                                class="lb-icon lb-icon--48 ytc-video-card__icon"
+                              >
+                                <use href="#youtube-logo-icon-filled"></use>
+                              </svg>
+                              <div
+                                class="lb-font-subhead-2 lb-font-color-white-1"
+                              >
+                                Navigating YouTube Studio
+                              </div>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="lb-grid__cell lb-grid__cell--span-6">
+                        <div class="ytc-md">
+                          <p>
+                            YouTube Studio is your home base for posting videos
+                            and making edits to your channel. To update your
+                            channel’s basic info like name,
+                            <a
+                              href="https://support.google.com/youtube/answer/2972003"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >profile picture</a
+                            >, and banner, just log in and tap ‘Customisation’
+                            to see your options.
+                          </p>
+                          <p>
+                            You can also make changes to your channel using the
+                            Studio Mobile app. You can tap ‘Your Channel’ and
+                            then ‘Edit Channel’ to update and edit how your
+                            channel looks to your viewers. Note that you can
+                            only change your channel’s name three times every 90
+                            days.
+                          </p>
+                          <p>
+                            <a
+                              href="https://support.google.com/youtube/answer/2657964"
+                              target="_blank"
+                              class="ytc-arrow-link"
+                              rel="noopener noreferrer"
+                              >Read more about managing your channel</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                id="how-to-promote-youtube-videos"
+                class="lb-expansion-panel lb-expansion-panel--light"
+                lb-auto-init="LBExpansionPanel, YTCDatalayerTriggers"
+                lb-options="{
+          &#x27;family&#x27;: &#x27;t-lockup-6345253214486528&#x27;,
+          &#x27;computeBeforeOpen&#x27;: true,
+          &#x27;open&#x27;: false,
+          &#x27;name&#x27;: &#x27;accordion&#x27;,
+          &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+          &#x27;tabName&#x27;: &#x27;How%20do%20I%20promote%20my%20videos%3F&#x27;
+        }"
+              >
+                <div class="lb-expansion-panel__divider"></div>
+                <div
+                  class="lb-expansion-panel__heading"
+                  role="heading"
+                  aria-level="2"
+                >
+                  <div
+                    class="lb-expansion-panel__trigger"
+                    role="button"
+                    tabindex="0"
+                    aria-expanded="false"
+                    aria-controls="t-lockup-6345253214486528-content-3"
+                    id="t-lockup-6345253214486528-header-3"
+                    lb-auto-init="LBExpansionPanelTrigger"
+                    lb-options="{'component': 'expansion-panel', 'action': 'toggle', 'detail': {'family': 't-lockup-6345253214486528', 'index': 3}}"
+                  >
+                    <span class="lb-expansion-panel__trigger-name">
+                      <span
+                        class="lb-font-subhead ytc-list-number ytc-font-subhead"
+                      >
+                        04
+                      </span>
+
+                      How do I promote my videos?
+                    </span>
+                    <span class="lb-expansion-panel__trigger-icon">
+                      <svg
+                        width="12"
+                        height="8"
+                        viewBox="0 0 12 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.41 0.589966L6 5.16997L10.59 0.589966L12 1.99997L6 7.99997L0 1.99997L1.41 0.589966Z"
+                          fill="#606060"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="lb-expansion-panel__surface"
+                  id="t-lockup-6345253214486528-content-3"
+                  role="region"
+                  aria-labelledby="t-lockup-6345253214486528-header-3"
+                >
+                  <div class="lb-expansion-panel__surface-content">
+                    <div class="lb-grid">
+                      <div class="lb-grid__cell lb-grid__cell--span-6">
+                        <div class="ytc-video-card" lb-auto-init="YTCVideoCard">
+                          <div
+                            class="lb-player"
+                            lb-auto-init="LBPlayer"
+                            lb-video-id="iCbn31svcBg"
+                            lb-options="{
+    'uid': 'iCbn31svcBg'
+  }"
+                          ></div>
+                          <button
+                            class="lb-button ytc-video-card__play-button"
+                            aria-label="Play Video"
+                          >
+                            <img
+                              class="ytc-video-card__img"
+                              lb-auto-init="LBImageLoader"
+                              lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/_YJX5nRKstpyatFpN9wDLgs8OJZtNdmIdfDOnlkNC7oVPUK6j5pYSSKo9pSC8fmLA9tS8klPCMbT4h2JFSBFBqUDJzvwRvfQ8u1bXCwZ85RY3s7I_aV7=v1-rw-lo-w960-h540 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/_YJX5nRKstpyatFpN9wDLgs8OJZtNdmIdfDOnlkNC7oVPUK6j5pYSSKo9pSC8fmLA9tS8klPCMbT4h2JFSBFBqUDJzvwRvfQ8u1bXCwZ85RY3s7I_aV7=v1-rw-lo-w1440-h810 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/_YJX5nRKstpyatFpN9wDLgs8OJZtNdmIdfDOnlkNC7oVPUK6j5pYSSKo9pSC8fmLA9tS8klPCMbT4h2JFSBFBqUDJzvwRvfQ8u1bXCwZ85RY3s7I_aV7=v1-rw-lo-w1920-h1080 2x'
+        }"
+                              src="https://lh3.googleusercontent.com/_YJX5nRKstpyatFpN9wDLgs8OJZtNdmIdfDOnlkNC7oVPUK6j5pYSSKo9pSC8fmLA9tS8klPCMbT4h2JFSBFBqUDJzvwRvfQ8u1bXCwZ85RY3s7I_aV7=v3-s20-fblur=1,20"
+                              alt="Promoting your videos"
+                            />
+                            <div class="ytc-video-card__caption">
+                              <svg
+                                viewBox="0 0 24 24"
+                                class="lb-icon lb-icon--48 ytc-video-card__icon"
+                              >
+                                <use href="#youtube-logo-icon-filled"></use>
+                              </svg>
+                              <div
+                                class="lb-font-subhead-2 lb-font-color-white-1"
+                              >
+                                Promoting your videos
+                              </div>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="lb-grid__cell lb-grid__cell--span-6">
+                        <div class="ytc-md">
+                          <p>
+                            Promoting your videos is all about getting the word
+                            out there. On YouTube, you can use tools like cards,
+                            end screens, Stories, and Community Posts to drive
+                            viewers to a specific piece of content!
+                          </p>
+                          <p>
+                            Off-platform, think about promoting your videos on
+                            your socials and relevant communities, podcasts, or
+                            platforms that align with your content and your
+                            intended audience.
+                          </p>
+                          <p>
+                            <a
+                              href="https://support.google.com/youtube/answer/141808"
+                              target="_blank"
+                              class="ytc-arrow-link"
+                              rel="noopener noreferrer"
+                              >Read more about promoting your videos</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                id="algorithm"
+                class="lb-expansion-panel lb-expansion-panel--light"
+                lb-auto-init="LBExpansionPanel, YTCDatalayerTriggers"
+                lb-options="{
+          &#x27;family&#x27;: &#x27;t-lockup-6345253214486528&#x27;,
+          &#x27;computeBeforeOpen&#x27;: true,
+          &#x27;open&#x27;: false,
+          &#x27;name&#x27;: &#x27;accordion&#x27;,
+          &#x27;moduleName&#x27;: &#x27;Top%20questions&#x27;,
+          &#x27;tabName&#x27;: &#x27;How%20does%20the%20algorithm%20work%3F&#x27;
+        }"
+              >
+                <div class="lb-expansion-panel__divider"></div>
+                <div
+                  class="lb-expansion-panel__heading"
+                  role="heading"
+                  aria-level="2"
+                >
+                  <div
+                    class="lb-expansion-panel__trigger"
+                    role="button"
+                    tabindex="0"
+                    aria-expanded="false"
+                    aria-controls="t-lockup-6345253214486528-content-4"
+                    id="t-lockup-6345253214486528-header-4"
+                    lb-auto-init="LBExpansionPanelTrigger"
+                    lb-options="{'component': 'expansion-panel', 'action': 'toggle', 'detail': {'family': 't-lockup-6345253214486528', 'index': 4}}"
+                  >
+                    <span class="lb-expansion-panel__trigger-name">
+                      <span
+                        class="lb-font-subhead ytc-list-number ytc-font-subhead"
+                      >
+                        05
+                      </span>
+
+                      How does the algorithm work?
+                    </span>
+                    <span class="lb-expansion-panel__trigger-icon">
+                      <svg
+                        width="12"
+                        height="8"
+                        viewBox="0 0 12 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1.41 0.589966L6 5.16997L10.59 0.589966L12 1.99997L6 7.99997L0 1.99997L1.41 0.589966Z"
+                          fill="#606060"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="lb-expansion-panel__surface"
+                  id="t-lockup-6345253214486528-content-4"
+                  role="region"
+                  aria-labelledby="t-lockup-6345253214486528-header-4"
+                >
+                  <div class="lb-expansion-panel__surface-content">
+                    <div class="lb-grid">
+                      <div class="lb-grid__cell lb-grid__cell--span-6">
+                        <div class="ytc-video-card" lb-auto-init="YTCVideoCard">
+                          <div
+                            class="lb-player"
+                            lb-auto-init="LBPlayer"
+                            lb-video-id="GOHWPVMPq84"
+                            lb-options="{
+    'uid': 'GOHWPVMPq84'
+  }"
+                          ></div>
+                          <button
+                            class="lb-button ytc-video-card__play-button"
+                            aria-label="Play Video"
+                          >
+                            <img
+                              class="ytc-video-card__img"
+                              lb-auto-init="LBImageLoader"
+                              lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/WzVgDKPqE7j3pKUxMgn1w4Wqm2FUO355NoM5FAGFtL7mrQz3U5it_4oCnSkNSol7DZhHW6Wvn3SPmVe8OBYdEu6UjqUNHdgo6ihyuF1cWISR2Cnr5_Y=v1-rw-lo-w960-h540 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/WzVgDKPqE7j3pKUxMgn1w4Wqm2FUO355NoM5FAGFtL7mrQz3U5it_4oCnSkNSol7DZhHW6Wvn3SPmVe8OBYdEu6UjqUNHdgo6ihyuF1cWISR2Cnr5_Y=v1-rw-lo-w1440-h810 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/WzVgDKPqE7j3pKUxMgn1w4Wqm2FUO355NoM5FAGFtL7mrQz3U5it_4oCnSkNSol7DZhHW6Wvn3SPmVe8OBYdEu6UjqUNHdgo6ihyuF1cWISR2Cnr5_Y=v1-rw-lo-w1920-h1080 2x'
+        }"
+                              src="https://lh3.googleusercontent.com/WzVgDKPqE7j3pKUxMgn1w4Wqm2FUO355NoM5FAGFtL7mrQz3U5it_4oCnSkNSol7DZhHW6Wvn3SPmVe8OBYdEu6UjqUNHdgo6ihyuF1cWISR2Cnr5_Y=v3-s20-fblur=1,20"
+                              alt="How YouTube recommends videos using the algorithm"
+                            />
+                            <div class="ytc-video-card__caption">
+                              <svg
+                                viewBox="0 0 24 24"
+                                class="lb-icon lb-icon--48 ytc-video-card__icon"
+                              >
+                                <use href="#youtube-logo-icon-filled"></use>
+                              </svg>
+                              <div
+                                class="lb-font-subhead-2 lb-font-color-white-1"
+                              >
+                                How YouTube recommends videos using "the
+                                algorithm"
+                              </div>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="lb-grid__cell lb-grid__cell--span-6">
+                        <div class="ytc-md">
+                          <p>
+                            Our search and discovery systems are built to find
+                            videos that match viewers’ individual interests. We
+                            <a
+                              href="https://support.google.com/youtube/answer/141805"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >recommend videos</a
+                            >
+                            based on things such as: what your audience watches
+                            and doesn’t watch, how much time they spend
+                            watching, what they like and dislike, if they mark a
+                            video as ‘not interested’, and on satisfaction
+                            surveys.
+                          </p>
+                          <p>
+                            So, rather than trying trying to find a secret code
+                            to these systems, focus instead on making videos
+                            that you think will resonate with your audience. A
+                            great tool here is YouTube Analytics, which provides
+                            data that can help you understand how your existing
+                            content is performing and provide insights for
+                            future videos!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <div class="lb-grid ytc-top-questions-tabular__link-grid">
+          <div class="ytc-top-questions-tabular__link-container ytc-font-body">
+            <a
+              href="/intl/en_us/creators/top-questions/"
+              class="ytc-arrow-link"
+              target="_self"
+              >See all questions</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="lb-padding-top-xxl ytc-resources ytc-module content-stacked-6701793196900352"
+      >
+        <h2
+          class="lb-font-headline-2 lb-margin-bottom-s--bp-auto ytc-centered-type--responsive-xs"
+        >
+          Resources
+        </h2>
+
+        <div class="lb-grid">
+          <div class="lb-grid__cell lb-grid__cell--span-4">
+            <div style="width: 64px">
+              <img
+                class="lb-theme--light ytc-resources__img lb-margin-bottom-xxs"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/wGb2ZQMwQUNtdZx3bgUb3-ImHKK4kMZLV9fsX1lqtVRYR7enIjhmuVlxfTeRWT_5vM8hJie2J97wpO5qiXQvkcQN5Tz-WppJeJG0SeOvo52r-HhMo4c=v1-rw-lo-w64-h64 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/wGb2ZQMwQUNtdZx3bgUb3-ImHKK4kMZLV9fsX1lqtVRYR7enIjhmuVlxfTeRWT_5vM8hJie2J97wpO5qiXQvkcQN5Tz-WppJeJG0SeOvo52r-HhMo4c=v1-rw-lo-w96-h96 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/wGb2ZQMwQUNtdZx3bgUb3-ImHKK4kMZLV9fsX1lqtVRYR7enIjhmuVlxfTeRWT_5vM8hJie2J97wpO5qiXQvkcQN5Tz-WppJeJG0SeOvo52r-HhMo4c=v1-rw-lo-w128-h128 2x'
+        }"
+                src="https://lh3.googleusercontent.com/wGb2ZQMwQUNtdZx3bgUb3-ImHKK4kMZLV9fsX1lqtVRYR7enIjhmuVlxfTeRWT_5vM8hJie2J97wpO5qiXQvkcQN5Tz-WppJeJG0SeOvo52r-HhMo4c=v3-s20-fblur=1,20"
+                alt="Resources"
+              />
+              <img
+                class="lb-theme--dark ytc-resources__img lb-margin-bottom-xxs"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/OrKuVneSNvKBMwXFZUistL_Zr6vmkr5L92KzDJio7Ufnq5GShCpb5AFRRRDJy792S8OEDE6A5JGlw7Qtu8Umd44ooK_JEN5go2EyiVrdH9kFmr1uOyI=v1-rw-lo-w64-h64 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/OrKuVneSNvKBMwXFZUistL_Zr6vmkr5L92KzDJio7Ufnq5GShCpb5AFRRRDJy792S8OEDE6A5JGlw7Qtu8Umd44ooK_JEN5go2EyiVrdH9kFmr1uOyI=v1-rw-lo-w96-h96 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/OrKuVneSNvKBMwXFZUistL_Zr6vmkr5L92KzDJio7Ufnq5GShCpb5AFRRRDJy792S8OEDE6A5JGlw7Qtu8Umd44ooK_JEN5go2EyiVrdH9kFmr1uOyI=v1-rw-lo-w128-h128 2x'
+        }"
+                src="https://lh3.googleusercontent.com/OrKuVneSNvKBMwXFZUistL_Zr6vmkr5L92KzDJio7Ufnq5GShCpb5AFRRRDJy792S8OEDE6A5JGlw7Qtu8Umd44ooK_JEN5go2EyiVrdH9kFmr1uOyI=v3-s20-fblur=1,20"
+                alt="Resources"
+              />
+            </div>
+            <h3 class="lb-font-subhead-1 lb-margin-bottom-xs">Learn</h3>
+
+            <p
+              class="ytc-font-body lb-font-color-text-secondary lb-margin-bottom-s"
+            >
+              From getting started to improving your channel’s performance,
+              these resources help you continue to learn and grow.
+            </p>
+
+            <div class="ytc-md">
+              <hr />
+              <p>Updates, news, and education from experts and Creators.</p>
+              <p>
+                <a
+                  href="https://www.youtube.com/channel/UCkRfArvrzheW2E7b6SVT7vQ"
+                  target="_blank"
+                  class="ytc-arrow-link"
+                  rel="noopener noreferrer"
+                  >YouTube Creators Channel</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="lb-grid__cell lb-grid__cell--span-4">
+            <div style="width: 64px">
+              <img
+                class="lb-theme--light ytc-resources__img lb-margin-bottom-xxs"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/Z5W5sK7_Tue_oFW1zmSVQcK9SM0cPvlS7IciB7LOUodgX8bvZsJw1NNwwM3qldlSUsVlkwe1BVgS5wCKPRVRS1NDBS73Jr2paUgQz8zTG0_eVi69127b=v1-rw-lo-w64-h64 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/Z5W5sK7_Tue_oFW1zmSVQcK9SM0cPvlS7IciB7LOUodgX8bvZsJw1NNwwM3qldlSUsVlkwe1BVgS5wCKPRVRS1NDBS73Jr2paUgQz8zTG0_eVi69127b=v1-rw-lo-w96-h96 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/Z5W5sK7_Tue_oFW1zmSVQcK9SM0cPvlS7IciB7LOUodgX8bvZsJw1NNwwM3qldlSUsVlkwe1BVgS5wCKPRVRS1NDBS73Jr2paUgQz8zTG0_eVi69127b=v1-rw-lo-w128-h128 2x'
+        }"
+                src="https://lh3.googleusercontent.com/Z5W5sK7_Tue_oFW1zmSVQcK9SM0cPvlS7IciB7LOUodgX8bvZsJw1NNwwM3qldlSUsVlkwe1BVgS5wCKPRVRS1NDBS73Jr2paUgQz8zTG0_eVi69127b=v3-s20-fblur=1,20"
+                alt="Resources"
+              />
+              <img
+                class="lb-theme--dark ytc-resources__img lb-margin-bottom-xxs"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/IWnFS2zj5za8uYj2_LJJc8iTXDTuy-6XJHCWH4_Bc_B9MIEsJxVxUgkdBRAigR94ZqsGX2Rt1J47le3y4P82P8AhNAOOWpU5Yv8RiadCQWFF1-Z0k7c=v1-rw-lo-w64-h64 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/IWnFS2zj5za8uYj2_LJJc8iTXDTuy-6XJHCWH4_Bc_B9MIEsJxVxUgkdBRAigR94ZqsGX2Rt1J47le3y4P82P8AhNAOOWpU5Yv8RiadCQWFF1-Z0k7c=v1-rw-lo-w96-h96 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/IWnFS2zj5za8uYj2_LJJc8iTXDTuy-6XJHCWH4_Bc_B9MIEsJxVxUgkdBRAigR94ZqsGX2Rt1J47le3y4P82P8AhNAOOWpU5Yv8RiadCQWFF1-Z0k7c=v1-rw-lo-w128-h128 2x'
+        }"
+                src="https://lh3.googleusercontent.com/IWnFS2zj5za8uYj2_LJJc8iTXDTuy-6XJHCWH4_Bc_B9MIEsJxVxUgkdBRAigR94ZqsGX2Rt1J47le3y4P82P8AhNAOOWpU5Yv8RiadCQWFF1-Z0k7c=v3-s20-fblur=1,20"
+                alt="Resources"
+              />
+            </div>
+            <h3 class="lb-font-subhead-1 lb-margin-bottom-xs">Support</h3>
+
+            <p
+              class="ytc-font-body lb-font-color-text-secondary lb-margin-bottom-s"
+            >
+              If you have a problem, we’re here to help you solve it. Fix upload
+              problems, troubleshoot account issues, and more.
+            </p>
+
+            <div class="ytc-md">
+              <hr />
+              <p>Get the breakdown on topics most important to Creators.</p>
+              <p>
+                <a
+                  href="https://support.google.com/youtube"
+                  target="_blank"
+                  class="ytc-arrow-link"
+                  rel="noopener noreferrer"
+                  >Help Center</a
+                >
+              </p>
+              <hr />
+              <p>The place to ask questions and provide feedback.</p>
+              <p>
+                <a
+                  href="https://support.google.com/youtube/community"
+                  target="_blank"
+                  class="ytc-arrow-link"
+                  rel="noopener noreferrer"
+                  >Community Forum</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="lb-grid__cell lb-grid__cell--span-4">
+            <div style="width: 64px">
+              <img
+                class="lb-theme--light ytc-resources__img lb-margin-bottom-xxs"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/rslwADgv9WDSGJPorMnA11IOemtGn_XaXLlAJUUZO0RoXYa-lOEoAIa4hrjJKngoOW9t9O1P15NeXfA9HvIiqMQ94J6zK2-0QQ_31nqm8tUD86lkzhc=v1-rw-lo-w64-h64 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/rslwADgv9WDSGJPorMnA11IOemtGn_XaXLlAJUUZO0RoXYa-lOEoAIa4hrjJKngoOW9t9O1P15NeXfA9HvIiqMQ94J6zK2-0QQ_31nqm8tUD86lkzhc=v1-rw-lo-w96-h96 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/rslwADgv9WDSGJPorMnA11IOemtGn_XaXLlAJUUZO0RoXYa-lOEoAIa4hrjJKngoOW9t9O1P15NeXfA9HvIiqMQ94J6zK2-0QQ_31nqm8tUD86lkzhc=v1-rw-lo-w128-h128 2x'
+        }"
+                src="https://lh3.googleusercontent.com/rslwADgv9WDSGJPorMnA11IOemtGn_XaXLlAJUUZO0RoXYa-lOEoAIa4hrjJKngoOW9t9O1P15NeXfA9HvIiqMQ94J6zK2-0QQ_31nqm8tUD86lkzhc=v3-s20-fblur=1,20"
+                alt="Resources"
+              />
+              <img
+                class="lb-theme--dark ytc-resources__img lb-margin-bottom-xxs"
+                lb-auto-init="LBImageLoader"
+                lb-options="{
+          '_1x': 'https://lh3.googleusercontent.com/ORac9Tsf2ivDOS2VXMWqMqSJm539XxBZ7cbiLmDMs3O4pU-IP3hDyC6jA4_iIakdv5fW4VPuAUsDfSP4BMKxxF5MeHbrspVM9h26Or6iHaPStG9sMQ=v1-rw-lo-w64-h64 1x',
+          '_1.5x': 'https://lh3.googleusercontent.com/ORac9Tsf2ivDOS2VXMWqMqSJm539XxBZ7cbiLmDMs3O4pU-IP3hDyC6jA4_iIakdv5fW4VPuAUsDfSP4BMKxxF5MeHbrspVM9h26Or6iHaPStG9sMQ=v1-rw-lo-w96-h96 1.5x',
+          '_2x': 'https://lh3.googleusercontent.com/ORac9Tsf2ivDOS2VXMWqMqSJm539XxBZ7cbiLmDMs3O4pU-IP3hDyC6jA4_iIakdv5fW4VPuAUsDfSP4BMKxxF5MeHbrspVM9h26Or6iHaPStG9sMQ=v1-rw-lo-w128-h128 2x'
+        }"
+                src="https://lh3.googleusercontent.com/ORac9Tsf2ivDOS2VXMWqMqSJm539XxBZ7cbiLmDMs3O4pU-IP3hDyC6jA4_iIakdv5fW4VPuAUsDfSP4BMKxxF5MeHbrspVM9h26Or6iHaPStG9sMQ=v3-s20-fblur=1,20"
+                alt="Resources"
+              />
+            </div>
+            <h3 class="lb-font-subhead-1 lb-margin-bottom-xs">Connect</h3>
+
+            <p
+              class="ytc-font-body lb-font-color-text-secondary lb-margin-bottom-s"
+            >
+              Ask questions, find answers, and understand more about YouTube via
+              our social channels and email.
+            </p>
+
+            <div class="ytc-md">
+              <hr />
+              <p>
+                The latest tools, tips, and inspiration for Creators like you.
+              </p>
+              <p>
+                <a
+                  href="https://twitter.com/YouTubeCreators"
+                  target="_blank"
+                  class="ytc-arrow-link"
+                  rel="noopener noreferrer"
+                  >@YouTubeCreators</a
+                >
+              </p>
+              <hr />
+              <p>
+                Real-time answers. Available in: English, Español, Português,
+                Deutsch, Français, Pусский, 日本語, and Bahasa Indonesia.
+              </p>
+              <p>
+                <a
+                  href="https://twitter.com/TeamYouTube"
+                  target="_blank"
+                  class="ytc-arrow-link"
+                  rel="noopener noreferrer"
+                  >@TeamYouTube</a
+                >
+              </p>
+              <hr />
+              <p>Get the latest information and resources in your inbox.</p>
+              <p>
+                <a
+                  href="https://support.google.com/youtube/answer/7123737"
+                  target="_blank"
+                  class="ytc-arrow-link"
+                  rel="noopener noreferrer"
+                  >YouTube Emails</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="lb-footer"
+      role="contentinfo"
+      lb-auto-init="LBFooter"
+      lb-options="{
+            'bareUrl': '/creators/',
+            'locales': 'ja_ALL,es_us,en_au,en_ca,en_hk,en_in,en_ke,en_ng,en_us,en_uk,en_tw,en_za,ko_ALL,hi_ALL,zh-TW_hk,zh-TW_ALL,id_ALL,vi_ALL,th_ALL,pt-BR_ALL,es_ALL,fr_ca,fr_ALL,de_ALL,ru_ALL,ar_ALL,cs_ALL,nl_ALL,hu_ALL,it_ALL,pl_ALL,pt-PT_ALL,ro_ALL,es_es,sv_ALL,tr_ALL,uk_ALL,en_vn,en_th,en_id,en_ph,en_br'
+          }"
+    ></footer>
+
+    <div lb-auto-init="LBCookieConsentBar" lb-options="{'theme':'light'}"></div>
+
+    <!-- HATS survey -->
+    <script src="https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js" nonce="5qrzJ6NCAeNynfcNjmZQcA"></script>
+    <script src="/creators/static/compiled/index.min.js" nonce="5qrzJ6NCAeNynfcNjmZQcA"></script>
+  </body>
+</html>

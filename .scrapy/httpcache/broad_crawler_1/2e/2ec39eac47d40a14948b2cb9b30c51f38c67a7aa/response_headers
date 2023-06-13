@@ -1,0 +1,12 @@
+Set-Cookie: CFID=49200092; Expires=Wed, 14-Jun-2023 07:51:43 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: CFTOKEN=a7e877e6f779eecc-056466A5-C140-85EE-3751FB6AF628AE34; Expires=Wed, 14-Jun-2023 07:51:43 GMT; Path=/; Secure; HttpOnly
+Location: https://ncses.nsf.gov/
+Cache-Control: no-cache
+Pragma: no-cache
+Vary: accept-encoding
+Content-Encoding: gzip
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 13 Jun 2023 07:51:43 GMT
+X-Frame-Options: sameorigin
+Content-Security-Policy: frame-ancestors  'self'
+Strict-Transport-Security: max-age=31536000

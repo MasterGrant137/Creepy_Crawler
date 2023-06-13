@@ -105,15 +105,12 @@ def scrape_with_crochet(raw_query):
           space or punctuation).
         - Unicode: \u002D (hyphen-minus), \u2010 (hyphen), \u2013 (en-dash), \u2014 (em-dash).
     """
-    trunc_amt_1 = 160
-    trunc_amt_2 = 16
-
     raw_query_str_list = raw_query.split()
     query_permutations = []
     broad_crawler_str = ''
 
     for i in range(len(raw_query_str_list)):
-        raw_query_substring = raw_query_str_list[i]
+        raw_query_substring = raw_query_str_list[i].lower()
         if i <= 4: query_permutations += [' '.join(perm) for perm in permutations(raw_query_str_list, i + 1)]
         if raw_query_substring not in stop_word_set: 
             broad_crawler_str += f'(?<!\w){raw_query_substring}[\s|.|,|?|!|:|;|\u002D|\u2010|\u2013|\u2014]'
@@ -121,12 +118,17 @@ def scrape_with_crochet(raw_query):
 
     broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    broad_crawlers = [caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
-    deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
+    # broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
+    broad_crawlers = [caerostris_darwini.BroadCrawler1]
+    # deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
 
     if len(broad_crawler_str):
-        for broad_crawler in broad_crawlers: crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex, trunc_amt_1=trunc_amt_1)
-        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=raw_query_str_list, query_perms=query_permutations, trunc_amt_1=trunc_amt_1, trunc_amt_2=trunc_amt_2)
+        for broad_crawler in broad_crawlers: 
+            broad_crawler.broad_crawler_monitor.reset_crawl_depth()
+            broad_crawler.accrued_data = []
+            broad_crawler.crawled_urls = set()
+            crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex)
+        # for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=raw_query_str_list, query_perms=query_permutations, trunc_amt_1=trunc_amt_1, trunc_amt_2=trunc_amt_2)
         eventual = crawl_runner.join()
         return eventual
 

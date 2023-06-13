@@ -1,0 +1,21 @@
+Content-Length: 106
+Content-Type: text/plain
+X-Amz-Id-2: juEgoROml5ubdhHwh3MWg7jaq8NJOIpQ36lb2Q/3penybMvGlf1XVWczRujtjbmUS9TbzFmIAW3E59hmC9piwg==
+X-Amz-Request-Id: P8RBRXVAFVT8BA57
+Last-Modified: Thu, 18 Mar 2021 17:26:41 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: ED.aYqXP4EuiCFonTMNE6S8HKrDEWxYX
+Accept-Ranges: bytes
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Expect-Ct: max-age=600, enforce
+X-Xss-Protection: X-XSS-Protection: 1; mode=block
+Date: Sun, 11 Jun 2023 07:17:54 GMT
+Cache-Control: max-age=600, s-maxage=300, must-revalidate
+Etag: "a2a34e06b1c822f5b64b758f6b9764e0"
+Vary: Accept-Encoding
+X-Cache: RefreshHit from cloudfront
+X-Amz-Cf-Pop: IAD66-C2
+X-Amz-Cf-Id: yOOICzA8c7INWFLl5Hy2A_uIJVJAieKpfgLEdemuivsYfjsRFtR29w==
+Set-Cookie: BIGipServerBr6x/CxU9ewovj4LNdZjqw=!1qoUyDm0np6es5dpSmfvBp2hz8im/laQQauEnuUaX+H8lZchPVOm8Xy3duy3cFixPVjGJnD7FgN30Q==; path=/; Httponly; Secure

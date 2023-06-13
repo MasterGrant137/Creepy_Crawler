@@ -1,0 +1,11 @@
+Content-Length: 60278
+Cache-Control: max-age=60
+Cache-Control: no-cache, no-store, private
+Content-Type: text/html;charset=utf-8
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Security-Policy: script-src  *.moatads.com graph.facebook.com *.gstatic.com *.addthis.com *.addthisedge.com www.npdb-hipdb.hrsa.gov *.npdb-hipdb.hrsa.gov npdb-hipdb.hrsa.gov sso.npdb.hrsa.gov iqrs.npdb.hrsa.gov iqrs.npdb.hrsa.gov:450 *.npdb.hrsa.gov npdb.hrsa.gov www.npdb.hrsa.gov www.npdb.hrsa.gov:7777 www.npdb.hrsa.gov:7778 ajax.googleapis.com https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js www.google-analytics.com www.youtube.com s.ytimg.com *.cloudfront.net *.smartystreets.com tableau.hrsa.gov search.usa.gov 'unsafe-eval' 'unsafe-inline'
+Date: Tue, 13 Jun 2023 07:52:11 GMT
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Last-Modified: Tue, 13 Jun 2023 07:41:30 GMT
+X-Frame-Options: SAMEORIGIN

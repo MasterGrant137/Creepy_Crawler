@@ -1,0 +1,18 @@
+Content-Length: 23
+Content-Type: text/plain
+Date: Mon, 12 Jun 2023 15:33:55 GMT
+Last-Modified: Mon, 01 May 2023 14:03:39 GMT
+Etag: "50d8a018e8ae96732c8a2ba663c61d4e"
+X-Amz-Server-Side-Encryption: AES256
+Accept-Ranges: bytes
+Server: 
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: same-origin
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-Cache: Hit from cloudfront
+Via: 1.1 d2e1925e3446aa20959021695b8efb88.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ORD52-C1
+X-Amz-Cf-Id: nPM_2k9KfapjZ98GfXHrKSbcA93Ja4pJn3qyjgkARQXH8SbOZ_gkkQ==
+Age: 59037

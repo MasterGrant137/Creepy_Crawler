@@ -1,0 +1,23 @@
+Date: Fri, 09 Jun 2023 23:43:00 GMT
+Server: mw2439.codfw.wmnet
+X-Content-Type-Options: nosniff
+Content-Language: en
+Vary: Accept-Encoding,Cookie,Authorization
+Last-Modified: Fri, 26 May 2023 23:43:00 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Age: 0
+X-Cache: cp4041 miss, cp4041 miss
+X-Cache-Status: miss
+Server-Timing: cache;desc="miss", host;desc="cp4041"
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Report-To: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+Nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
+Set-Cookie: WMF-Last-Access=09-Jun-2023;Path=/;HttpOnly;secure;Expires=Tue, 11 Jul 2023 12:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=09-Jun-2023;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue, 11 Jul 2023 12:00:00 GMT
+Set-Cookie: WMF-DP=996;Path=/;HttpOnly;secure;Expires=Sat, 10 Jun 2023 00:00:00 GMT
+Set-Cookie: GeoIP=US:CA:Indio:33.72:-116.22:v4; Path=/; secure; Domain=.wikipedia.org
+Set-Cookie: NetworkProbeLimit=0.001;Path=/;Secure;Max-Age=3600
+X-Client-Ip: 47.158.30.50
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Accept-Ranges: bytes

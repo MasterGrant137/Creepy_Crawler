@@ -1,0 +1,20 @@
+Content-Type: text/html
+X-Amz-Id-2: BkS/LRrxpjO1cd8fD4AJAcB602iabEiHdkl4zK1mtHD+/eqXFqh5J4TppGpsNGkBP30pTHe5eyI=
+X-Amz-Request-Id: MMANTQJHKZ5SPP3X
+Last-Modified: Tue, 06 Jun 2023 21:58:52 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: bR3GiZhvYxujkpgLGNL1QCWjSikO_jws
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Expect-Ct: max-age=600, enforce
+X-Xss-Protection: X-XSS-Protection: 1; mode=block
+Content-Encoding: gzip
+Date: Tue, 13 Jun 2023 07:51:06 GMT
+Cache-Control: max-age=600, s-maxage=300, must-revalidate
+Etag: W/"bd9876fb20f6807c4ec0dbb1fc22492a"
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: IAD66-C2
+X-Amz-Cf-Id: kxV02QEbWw8s2nf2RNF9hS-VrijJdGGCjg5eCU42pY8wI7JqXEL7Ig==
+Age: 38

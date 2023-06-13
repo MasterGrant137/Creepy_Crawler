@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /BlastAlign.cgi 
+Disallow: /dumpgnl.cgi

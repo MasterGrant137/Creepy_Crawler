@@ -1,0 +1,11 @@
+Content-Length: 0
+Server: nginx
+Date: Sun, 11 Jun 2023 08:31:30 GMT
+Set-Cookie: AWSALB=rAvRN1w3LMwrUP0tcycEx7tYR/2cFVkYP8V5ArcLpuU+0GhZ8pLrB7ecV3d6y4sIHZXegHQHEAvY/k34nbI5wB9hcARRrGPgXL4/gcn2TzhTSPKx1KqZWKWRuS/C; Expires=Sun, 18 Jun 2023 08:31:30 GMT; Path=/
+Set-Cookie: AWSALBCORS=rAvRN1w3LMwrUP0tcycEx7tYR/2cFVkYP8V5ArcLpuU+0GhZ8pLrB7ecV3d6y4sIHZXegHQHEAvY/k34nbI5wB9hcARRrGPgXL4/gcn2TzhTSPKx1KqZWKWRuS/C; Expires=Sun, 18 Jun 2023 08:31:30 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: dtCookie=v_4_srv_2_sn_B6C915C93A7977A595B3BFAA780E41C1_perc_100000_ol_0_mul_1_app-3A62de54d7f6c66c4a_1; Path=/; Domain=.nih.gov
+Set-Cookie: JSESSIONID=00F3DD7779F1FA2248DBD241BBB526F3; Expires=Sun, 11 Jun 2023 17:31:30 GMT; Path=/commonsplus; Secure; HttpOnly
+X-Oneagent-Js-Injection: true
+Server-Timing: dtRpid;desc="658798371", dtSInfo;desc="0"
+X-Xss-Protection: 1; mode=block
+Location: https://public.era.nih.gov/commonsplus/public/login.era?TARGET=https%3A%2F%2Fpublic.era.nih.gov%3A443%2Fcommonsplus

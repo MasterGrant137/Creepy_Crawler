@@ -1,0 +1,8 @@
+Content-Length: 0
+Location: https://get.adobe.com/reader/
+Date: Tue, 13 Jun 2023 07:52:11 GMT
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET,HEAD,OPTIONS
+Access-Control-Allow-Origin: *

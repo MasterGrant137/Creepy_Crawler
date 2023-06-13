@@ -1,0 +1,459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>NCI Division of Cancer Treatment and Diagnosis (DCTD)</title>
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/includefiles/redesign/css/desktop/home.css" />
+<![endif]-->
+
+
+<style type="text/css">
+
+@import url(/includefiles/redesign/css/desktop/home.css) (min-width: 1037px);
+@import url(/includefiles/redesign/css/tablet/home.css) (min-width: 691px) and (max-width: 1036px);
+@import url(/includefiles/redesign/css/phone/home.css) (min-width: 451px) and (max-width: 690px);
+@import url(/includefiles/redesign/css/xs/home.css) (max-width: 450px);
+
+</style>
+
+<script type="text/javascript" src="/includefiles/redesign/javascript/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="/includefiles/redesign/javascript/jquery-ui-1.9.0.custom.min.js"></script>
+<script type="text/javascript" src="/includefiles/redesign/javascript/jquery-ui-tabs-rotate.js"></script>
+<script type="text/javascript" src="/includefiles/redesign/javascript/homefunctions.js"></script>
+
+
+<script type="text/javascript" src="/includefiles/redesign/javascript/jquery.rwdImageMaps.js"></script>
+<script type="text/javascript" src="/includefiles/redesign/javascript/superfish.js"></script>
+<script type="text/javascript" src="/includefiles/redesign/javascript/globalfunctions.js"></script>
+<script type="text/javascript" src="/FeaturedTrials/javascript/featuredTrials.js"></script>
+<script type="text/javascript" src="/FeaturedTrials/javascript/featuredTrials_breastCancer.js"></script>
+<script type="text/javascript" src="/includefiles/redesign/javascript/SpryAccordion.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<script language="JavaScript" type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCTD_PageLoad.js"></script>
+
+</head>
+
+<body>
+
+
+<div class="skipToContent"><a title="Skip to Content" href="#mainColumn">Skip to Content</a></div>
+
+
+
+<div id="pageWrapper">
+<div id="contentWrapper">
+
+
+<!-- NIH/NCI/DCTD logo at top of all pages, and associated image map -->
+<div id="toplevelNAV" class="clearfix">
+
+        <div id="DCTDlogo"><img src="/images/redesign/dctd_logo_54.png" alt="NIH, National Cancer Institute, Division of Cancer Treatment and Diagnosis (DCTD)" border="0" id="NIHbanner" usemap="#NIHmap" />
+                <map name="NIHmap">
+                    <area shape="rect" coords="2,20,89,80" href="http://www.nih.gov" target="_blank" alt="NIH - National Institutes of Health" />
+                    <area shape="rect" coords="99,29,351,45" href="http://www.cancer.gov" target="_blank" alt="National Cancer Institute" />
+                    <area shape="rect" coords="99,52,597,78" href="http://dctd.cancer.gov" target="_blank" alt="DCTD - Division of Cancer Treatment and Diagnosis" />
+                </map>
+        </div>
+
+</div>
+
+
+
+<!-- Begin wrapper for main (i.e. non-page header) page content -->
+<div id="mainContent">
+
+
+
+
+
+
+<!-- Additional navigation, including text links, Search, and "mobile" buttons -->
+<div id="mobileMenu">
+
+    <div id="menuToggle" class="mobileButtons"><a id="menuButton" href="#"><img src="/images/redesign/mb_menu.png" alt="Menu" /></a></div>
+    <div id="contactButton" class="mobileButtons"><a href="/contactUs.htm"><img src="/images/redesign/mb_contact.png" alt="Contact DCTD" /></a></div>
+    <div id="hideSearch"><a id="hideSearchButton" class="searchToggle" href="#"><img src="/images/redesign/mb_hideSearch.png" alt="Show menu" /></a></div>
+
+
+    <div id="toplevelLINKS">
+
+        <div id="toplevelTextLinks"><a href="/">Home</a> | <a href="/sitemap.htm">Sitemap</a> | <a href="/contactUs.htm">Contact DCTD</a></div>
+
+        <div id="searchBox">
+            <script type="text/javascript" src="/includefiles/redesign/javascript/search.js"></script>
+            <form action="/search/search.asp" method="get" enctype="application/x-www-form-urlencoded" name="SearchForm" id="SearchForm" onSubmit="return validate_search();">
+                <label id="searchLabel" for="zoom_query">Search this site</label>
+                <input type="text" name="zoom_query" id="zoom_query" maxlength="255" class="search" value="Search this site" />
+                <input class="searchButton" id="mobileSearchButton" type="image" src="/images/redesign/mb_search.png" name="Action" alt="Search"  />
+            </form>
+        </div>
+
+    </div>
+
+    <div id="showSearch"><a id="showSearchButton" class="searchToggle" href="#"><img src="/images/redesign/mb_search.png" alt="Search this site" /></a></div>
+
+</div>
+
+
+<!-- Main menu -->
+<div id="dropDownMenu">
+
+    <ul class="sf-menu">
+
+        <li id="homeLink"><a href="/default.htm">Home</a></li>
+
+        <li><a href="/FundingPartnerships/PAsRFAs.htm">Funding Opportunities</a>
+		    <ul>
+                <li><a href="/FundingPartnerships/PAsRFAs.htm">Funding Announcements</a></li>
+                <li><a href="/FundingPartnerships/grantsmanship_resources.htm">Grantsmanship Resources</a></li>
+                <li><a href="/About/grants.htm">Research Grants</a></li>
+            </ul>
+		</li>
+
+        <li><a href="/MajorInitiatives/MajorInitiatives.htm">Research</a>
+            <ul>
+                <li><a href="/MajorInitiatives/MajorInitiatives.htm">Major Initiatives</a></li>
+                <li><a href="/ScientificAdvances/default.htm">Scientific Advances</a>
+                    <ul>
+                        <li><a href="/ScientificAdvances/default.htm">DCTD Research Findings</a></li>
+                        <li><a href="/ScientificAdvances/Primer-main.htm">Drug Development Primer</a></li>
+                        <li><a href="http://dtp.cancer.gov/discovery_development/approved_drugs.htm" target="_blank">Drugs Developed with DTP Involvement</a></li>
+                        <li><a href="https://ctep.cancer.gov/content/docs/Selected_CTEP_Accomplishments.pdf" target="_blank">Selected Drugs Developed with CTEP Involvement</a></li>
+                    </ul>
+                </li>
+                <li><a href="/Partnerships/Agreements.htm">Partnerships</a></li>
+            </ul>
+        </li>
+
+        <li><a href="/ResearchResources/default.htm">Research Resources</a>
+            <ul>
+                <li><a href="/ResearchResources/ResearchResources-biomarkers.htm">Biomarkers</a></li>
+                <li><a href="/ResearchResources/default.htm#BiometricResearch">Biometric Research</a></li>
+                <li><a href="/ResearchResources/default.htm#CancerDiagnosisResearch">Cancer Diagnosis Research</a></li>
+                <li><a href="/ResearchResources/default.htm#ClinicalProteogenomics">Clinical Proteogenomics</a></li>
+                <li><a href="/ResearchResources/default.htm#ClinicalTrials">Clinical Trials</a></li>
+                <li><a href="/ResearchResources/default.htm#DrugDiscoveryDevelopment">Drug Discovery and Development</a></li>
+                <li><a href="/ResearchResources/default.htm#Imaging">Imaging</a></li>
+                <li><a href="http://rrp.cancer.gov/programsResources/default.htm" target="_blank">Radiation Research</a></li>
+            </ul>
+        </li>
+
+        <li><a href="/NewsEvents/default.htm">News &amp; Events</a>
+            <ul>
+                <li><a href="/NewsEvents/dctd_meetings.htm">DCTD Meetings</a></li>
+                <li><a href="/NewsEvents/newsletter.htm">DCTD Newsletter</a></li>
+                <li><a href="/NewsEvents/News-2023.htm">2023 News</a></li>
+			    <li><a href="/NewsEvents/News-2022.htm">2022 News</a></li>
+                <li><a href="/NewsEvents/News-2021.htm">2021 News</a></li> 
+                <li><a href="/NewsEvents/News-2020.htm">2020 News</a></li> 
+                <li><a href="/NewsEvents/News-2019.htm">2019 News</a></li>
+                <li><a href="/NewsEvents/News-archive.htm">News Archive</a></li>
+            </ul>
+        </li>       
+		
+        <li><a href="/Careers/default.htm">Careers</a></li>
+
+        <li><a href="/About/default.htm">About</a>
+            <ul>
+                <li><a href="/About/default.htm">Overview</a></li>
+                <li><a href="/DirectorsMessage/default.htm#research_interests">Research Interests</a></li>
+                <li><a href="/About/management.htm">DCTD Management</a></li>
+                <li><a href="/About/grants.htm">DCTD Research Grants</a></li>
+				<li><a href="/About/deia.htm">DCTD Diversity, Equity, Inclusion, and Accessibility</a></li>
+                <li><a href="/About/Roster.pdf" target="_blank">Staff Roster</a></li>
+            </ul>
+        </li>
+
+    </ul>
+</div>
+
+
+<div id="bodycopy">
+<div id="mainColumn">
+
+
+
+
+
+<div id="carousel">
+    <div id="featured">
+
+
+      <div id="fragment-1" class="ui-tabs-panel">
+		   <div class="linkBox"><a href="/About/deia.htm"><img src="/images/redesign/featured-deia.jpg" alt="DCTD Workforce: Diversity, Equity, Inclusion, and Accessibility (DEIA). DCTD is committed to Diversity, Equity, Inclusion, and Accessibility (DEIA) and providing a safe work environment for staff in our nine major programs that work together. More..." border="0" /></a></div>
+      </div>
+
+      <div id="fragment-2" class="ui-tabs-panel">
+		   <div class="linkBox"><a href="/Careers/default.htm"><img src="/images/redesign/featured-careers.jpg" alt="Division of Cancer Treatment and Diagnosis Career Opportunities. DCTD is committed to Diversity, Equity, Inclusion, and Accessibility (DEIA) and providing a safe work environment for staff in our nine major programs that work together. Learn about federal careers opportunities in DCTD. More..." border="0" /></a></div>
+      </div>
+		  
+      <div id="fragment-3" class="ui-tabs-panel">
+		   <div class="linkBox"><a href="https://www.cancer.gov/news-events/press-releases/2023/pragmatica-lung-study-begins-enrollment" target="_blank"><img src="/images/redesign/featured_pragmaticLung.jpg" alt="Pragmatica-Lung Study, a streamlined model for future cancer clinical trials, begins enrolling patients. More..." border="0" /></a></div>
+      </div>
+
+      <div id="fragment-4" class="ui-tabs-panel">
+		   <div class="linkBox"><a href="/NewsEvents/newsletter.htm"><img src="/images/redesign/featured-newsletter.jpg" alt="Read the latest news in the DCTD Pipeline. More..." border="0" /></a></div>
+      </div>
+
+
+
+
+
+        <ul class="ui-tabs-nav">
+		  		<li class="ui-tabs-nav-item" id="nav-fragment-1"><a href="#fragment-1">DEIA</a></li>
+				<li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment-2">Careers</a></li>
+		  		<li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment-3">Pragmatica-Lung</a></li>
+		      <li class="ui-tabs-nav-item" id="nav-fragment-4"><a href="#fragment-4">DCTD Newsletter</a></li>
+        </ul>
+
+
+    </div>
+</div>
+
+
+
+<div id="homeBoxes" class="clearfix">
+
+
+<div id="programBox" class="paElements">
+
+    <h2>DCTD PROGRAMS</h2>
+
+    <div class="homeProgramBox clearfix">
+        <div class="programLogo"><a href="https://brb.nci.nih.gov" target="_blank"><img src="/images/redesign/logo_small_brb_gray.gif" alt="Biometric Research Branch" height="33" width="11" border="0" /></a></div>
+        <div class="programText"><a href="https://brb.nci.nih.gov" target="_blank">Biometric Research Program</a><br />Provides statistical, computational, and systems biology analyses</div>
+    </div>
+
+    <div class="homeProgramBox clearfix">
+        <div class="programLogo"><a href="http://cdp.cancer.gov/" target="_blank"><img src="/images/redesign/logo_small_cdp_gray.gif" alt="Cancer Diagnosis Program" height="33" width="46" border="0" /></a></div>
+        <div class="programText"><a href="http://cdp.cancer.gov/" target="_blank">Cancer Diagnosis Program</a><br />Funds specimen resources and research to characterize tumors</div>
+    </div>
+
+    <div class="homeProgramBox clearfix">
+        <div class="programLogo"><a href="http://imaging.cancer.gov/" target="_blank"><img src="/images/redesign/logo_small_cip_gray.gif" alt="Cancer Imaging Program" height="33" width="43" border="0" /></a></div>
+        <div class="programText"><a href="http://imaging.cancer.gov/" target="_blank">Cancer Imaging Program</a><br />Evaluates imaging in diagnosis, disease staging, and treatment monitoring</div>
+    </div>
+
+    <div class="homeProgramBox clearfix">
+        <div class="programLogo"><a href="http://ctep.cancer.gov" target="_blank"><img src="/images/redesign/logo_small_ctep_gray.gif" alt="Cancer Therapy Evaluation Program" height="33" width="32" border="0" /></a></div>
+        <div class="programText"><a href="http://ctep.cancer.gov" target="_blank">Cancer Therapy Evaluation Program</a><br />Assesses new anticancer agents, radiation treatments, and surgical methods</div>
+    </div>
+
+    <div class="homeActivitiesBox clearfix">
+        <div class="programLogo"><a href="http://dtc.cancer.gov/" target="_blank"><img src="/images/redesign/logo_small_dtc_gray.gif" alt="Developmental Therapeutics Clinic" height="21" width="48" border="0" /></a></div>
+        <div class="programText"><a href="http://dtc.cancer.gov/" target="_blank">Developmental Therapeutics Clinic</a><br />Conducts early-phase clinical trials of novel cancer treatment agents</div>
+    </div>
+
+    <div class="homeProgramBox clearfix">
+        <div class="programLogo"><a href="http://dtp.cancer.gov" target="_blank"><img src="/images/redesign/logo_small_dtp_gray.gif" alt="Developmental Therapeutics Program" height="33" width="33" border="0" /></a></div>
+        <div class="programText"><a href="http://dtp.cancer.gov" target="_blank">Developmental Therapeutics Program</a><br />Funds drug discovery and development and provides related services</div>
+    </div>
+
+    <div class="homeProgramBox clearfix">
+        <div class="programLogo"><a href="http://rrp.cancer.gov" target="_blank"><img src="/images/redesign/logo_small_rrp_gray.gif" alt="Radiation Research Program" height="33" width="33" border="0" /></a></div>
+        <div class="programText"><a href="http://rrp.cancer.gov" target="_blank">Radiation Research Program</a><br />Funds novel radiotherapy research</div>
+    </div>
+
+    <div class="homeProgramBox clearfix">
+        <div class="programLogo"><a href="http://trp.cancer.gov" target="_blank"><img src="/images/redesign/logo_small_trp_gray.gif" alt="Translational Research Program" height="33" width="34" border="0" /></a></div>
+        <div class="programText"><a href="http://trp.cancer.gov" target="_blank">Translational Research Program</a><br />Integrates scientific advancements in the understanding of the biology of human cancer</div>
+    </div>
+
+
+
+
+    <div class="homeProgramBox clearfix">
+        <div class="programLogo"><a href="https://proteomics.cancer.gov/" target="_blank"><img src="/images/redesign/logo_small_occp_gray.gif" alt="Office of Cancer Clinical Proteomics" height="33" width="34" border="0" /></a></div>
+        <div class="programText"><a href="https://proteomics.cancer.gov/" target="_blank">Office of Cancer Clinical Proteomics Research</a><br />Applies proteomic and proteogenomic methods to improve cancer diagnosis and treatment</div>
+    </div>
+
+
+
+    <div class="homeProgramBox clearfix">
+        <div class="programLogo"><a href="http://cam.cancer.gov" target="_blank"><img src="/images/redesign/logo_small_occam_gray.gif" alt="Office of Cancer Complementary and Alternative Medicine" height="18" width="50" border="0" /></a></div>
+        <div class="programText"><a href="http://cam.cancer.gov" target="_blank">Office of Cancer Complementary and Alternative Medicine</a><br />Improves the quality of cancer research on complementary and alternative modalities</div>
+    </div>
+
+</div>
+
+
+<div id="activitiesBox" class="paElements">
+
+    <h2>DCTD ACTIVITIES</h2>
+
+
+
+    <div class="homeActivitiesBox clearfix">
+        <div class="activitiesAcronym"><a href="http://ctep.cancer.gov/initiativesPrograms/etctn.htm" target="_blank">ETCTN</a></div>
+        <div class="activitiesText"><a href="http://ctep.cancer.gov/initiativesPrograms/etctn.htm" target="_blank">Experimental Therapeutics Clinical Trials Network</a><br />Defines approaches to cancer treatment based on molecular characterization and biomarker assay development</div>
+    </div>
+
+    <div class="homeActivitiesBox clearfix">
+        <div class="activitiesAcronym"><a href="https://nciformulary.cancer.gov/" target="_blank">NCI Formulary</a></div>
+        <div class="activitiesText"><a href="https://nciformulary.cancer.gov/" target="_blank">NCI Formulary</a><br />Provides main-member ETCTN or NCTN investigators with rapid access to agents for on-site, investigator-held-IND clinical or preclinical research</div>
+    </div>
+
+    <div class="homeActivitiesBox clearfix">
+        <div class="activitiesAcronym"><a href="http://ctep.cancer.gov/initiativesPrograms/nctn.htm" target="_blank">NCTN</a></div>
+        <div class="activitiesText"><a href="http://ctep.cancer.gov/initiativesPrograms/nctn.htm" target="_blank">National Clinical Trials Network</a><br />Maximizes knowledge of tumor biology and resources to facilitate rapid initiation and completion of cancer clinical trials</div>
+    </div>
+
+    <div class="homeActivitiesBox clearfix">
+        <div class="activitiesAcronym"><a href="https://navigator.ctsu.org/" target="_blank">NCTN<br />Navigator</a></div>
+        <div class="activitiesText"><a href="https://navigator.ctsu.org/" target="_blank">NCTN Navigator</a><br />Provides a searchable database of specimens from NCTN Phase 3 clinical trials</div>
+    </div>
+
+    <div class="homeActivitiesBox short clearfix">
+        <div class="activitiesAcronym" id="nctnncorp"><a href="https://nctn-data-archive.nci.nih.gov/" target="_blank">NCTN/NCORP Data Archive</a></div>
+        <div class="activitiesText"><a href="https://nctn-data-archive.nci.nih.gov/" target="_blank">NCTN/NCORP Data Archive</a><br />Provides access to a centralized repository of patient-level data from Phase 3 clinical trials</div>
+    </div>
+
+    <div class="homeActivitiesBox short clearfix">
+        <div class="activitiesAcronym"><a href="http://next.cancer.gov/" target="_blank">NExT</a></div>
+        <div class="activitiesText"><a href="http://next.cancer.gov/" target="_blank">NCI Experimental Therapeutics Program</a><br />Supports the most promising new drug discovery and development projects</div>
+    </div>
+
+    <div class="homeActivitiesBox clearfix">
+        <div class="activitiesAcronym"><a href="https://pdmr.cancer.gov" target="_blank">PDMR</a></div>
+        <div class="activitiesText"><a href="https://pdmr.cancer.gov" target="_blank">NCI Patient-Derived Models Repository</a><br />Provides early-passage, molecularly characterized, and clinically annotated patient-derived xenograft models to the scientific community</div>
+    </div>
+
+    <div class="homeActivitiesBox clearfix">
+        <div class="activitiesAcronym"><a href="https://imaging.cancer.gov/programs_resources/specialized_initiatives/qin/about/default.htm " target="_blank">QIN</a></div>
+        <div class="activitiesText"><a href="https://imaging.cancer.gov/programs_resources/specialized_initiatives/qin/about/default.htm " target="_blank">Quantitative Imaging Network</a><br />Promotes research and development of quantitative imaging methods to measure tumor response to therapies in clinical trials</div>
+    </div>
+
+    <div class="homeActivitiesBox clearfix">
+        <div class="activitiesAcronym"><a href="http://trp.cancer.gov/" target="_blank">SPOREs</a></div>
+        <div class="activitiesText"><a href="http://trp.cancer.gov/" target="_blank">Specialized Programs of Research Excellence</a><br />Promotes collaborative, interdisciplinary, translational research leading to new approaches for prevention, early detection, diagnosis, and treatment of cancer</div>
+    </div>
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+<div id="secondaryColumn">
+
+
+<div class="sidebarBlock">
+    <div id="messageFromDirector">
+        <h3><a href="DirectorsMessage/default.htm">Message from the DCTD Director:</a></h3>
+        <p><img src="/About/images/JamesDoroshowThumbnail.gif" alt="Dr. James H. Doroshow, Director" align="left" /> The Division of Cancer Treatment and Diagnosis (DCTD) focuses its activities on developing novel diagnostics and therapies for cancer. DCTD staff members, along with colleagues throughout the National Cancer  Institute (NCI), academia, and industry, are working to generate a seamless pipeline of biomarkers and therapeutics that runs the gamut from initial efforts in drug discovery through late-stage clinical trials. <a href="DirectorsMessage/default.htm">More&#8230;</a></p>
+    </div>
+</div>
+
+
+<div class="sidebarBlock">
+    <h3><a href="/MajorInitiatives/MajorInitiatives.htm">Major Initiatives</a></h3>
+</div>
+
+
+
+<div class="sidebarBlock">
+
+   <h3 id="homeNewsHead"><a href="/NewsEvents/default.htm">News &amp; Events</a></h3>
+
+
+   <a class="twitter-timeline" data-width="260" data-height="300" data-theme="light" data-link-color="#BB0E3D" href="https://twitter.com/NCItreatment">Tweets by NCItreatment</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+   <!-- keep these three at the top of the News list -->	
+	<div id="pipelineBanner"><a href="/NewsEvents/newsletter.htm"><img src="/images/redesign/pipeline_news.png" alt="Pipeline News" /></a></div>
+   <!--<div class="hSidebarLink"><span><a href="/NewsEvents/newsletter.htm">DCTD Newsletter</a></span></div>-->
+   <div class="hSidebarLink"><span><a href="/NewsEvents/dctd_meetings.htm">DCTD Meetings</a></span></div>
+   <div class="hSidebarLink"><span><a href="/NewsEvents/2019DCTDprograms.pdf" target="_blank">DCTD Programs and Initiatives Book (2018-2019)</a></span></div>
+   <!-- keep these three at the top of the News list -->
+
+    <div class="hSidebarLink"><span><a href="/NewsEvents/asco2023.htm" target="_blank">2023 American Society of Clinical Oncology Annual Meeting; Schedule of DCTD Presentations</a></span></div>
+    <div class="hSidebarLink"><span><a href="https://events.cancer.gov/dctd/drugdevelopment" target="_blank">Second NCI Drug Development Workshop; 3 sets of Webinars on Thur/Fri from June 22-July 28, 2023</a></span></div> 
+	<div class="hSidebarLink"><span><a href="/NewsEvents/20230523_cirp.htm">The Cancer Imaging Program Convenes the Co-Clinical Imaging Research Resource Program (CIRP) Annual Virtual Meeting 2023</a></span></div> 
+    <div class="hSidebarLink"><span><a href="https://www.cancer.gov/news-events/press-releases/2023/pragmatica-lung-study-begins-enrollment" target="_blank">Pragmatica-Lung Study, a streamlined model for future cancer clinical trials, begins enrolling patients; NCI Press Release </a></span></div>
+    <div class="hSidebarLink"><span><a href="/NewsEvents/aacr2023.htm">2023 American Association for Cancer Research Annual Meeting; Schedule of DCTD Presentations</a></span></div> 
+    <div class="hSidebarLink"><span><a href="/NewsEvents/20230324_fusion_oncoproteins.htm">NCI Webinar Series: Novel Chemical Approaches for Targeting Fusion Oncoproteins; August 19 - October 21, 2022</a></span></div> 
+	<div class="hSidebarLink"><span><a href="https://www.cancer.gov/news-events/cancer-currents-blog/2023/preventing-resistance-cancer-targeted-therapies" target="_blank">Preventing Resistance to Cancer Targeted Therapies; NCI Cancer Currents Blog</a></span></div>
+	<div class="hSidebarLink"><span><a href="https://www.cancer.gov/news-events/cancer-currents-blog/2023/fda-tucatinib-her2-colorectal-cancer" target="_blank">Tucatinib Approved for HER2-Positive Colorectal Cancer; NCI Cancer Currents Blog</a></span></div>
+
+
+</div>
+
+
+
+
+<div class="sidebarBlock">
+
+    <h3><a href="FeaturedTrials/FeaturedTrials.htm">Featured Trials</a></h3>
+
+    <div class="hSidebarLink"><span><script type="text/javascript">featuredTrialsBreastCancer();</script><noscript><a href="/FeaturedTrials/FeaturedTrials.htm">Click here to view all DCTD Featured Trials</a></noscript></span></div>
+    <div class="hSidebarLink"><span><script type="text/javascript">featuredTrials();</script><noscript><a href="/FeaturedTrials/FeaturedTrials.htm">Click here to view all DCTD Featured Trials</a></noscript></span></div>
+
+
+</div>
+
+
+<!-- close "secondaryColumn" and "bodycopy" <div>s -->
+</div>
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div id="footer">
+
+    <ul>
+        <li><a href="/default.htm">DCTD Home</a></li>
+        <li><a href="/contactUs.htm">Contact DCTD</a></li>
+        <li><a href="/sitemap.htm">Site Map</a></li>
+        <li><a href="https://www.cancer.gov/policies/accessibility" target="_blank">Accessibility</a></li>
+        <li><a href="https://www.cancer.gov/policies/disclaimer" target="_blank">Disclaimer Policy</a></li>
+        <li><a href="https://www.cancer.gov/policies/foia" target="_blank">FOIA</a></li>
+        <li class="last"><a href="https://www.hhs.gov/vulnerability-disclosure-policy" target="_blank">HHS Vulnerability Disclosure</a></li>
+    </ul>
+
+
+
+
+
+
+    <ul id="agencyLinks">
+        <li><a href="http://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a></li>
+        <li><a href="http://www.nih.gov/" target="_blank">National Institutes of Health</a></li>
+        <li><a href="http://www.cancer.gov/" target="_blank">National Cancer Institute</a></li>
+        <li class="last"><a href="http://www.usa.gov/" target="_blank">USA.gov</a></li>
+    </ul>
+
+    <div id="bottomTagline">NIH&#8230; Turning Discovery Into Health<sup>&reg;</sup></div>
+
+</div>
+
+
+
+</div>
+
+
+<script type="text/javascript">
+// resize any image maps along with the image
+$(document).ready(function(e) {
+	$('img[usemap]').rwdImageMaps();
+});
+</script>
+</body>
+</html>

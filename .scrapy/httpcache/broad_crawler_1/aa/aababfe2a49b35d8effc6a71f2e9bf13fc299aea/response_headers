@@ -1,0 +1,13 @@
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, HEAD
+Access-Control-Max-Age: 300
+Cache-Control: max-age=300
+Expires: 300
+Access-Control-Allow-Headers: x-requested-with, content-type, origin, access-control-request-method, access-control-request-headers, x-csrf-token, range, if-range, content-range, content-type, connection, accept-encoding, etag, last-modified, if-none-match
+Location: /surveys/federal-funds-research-development/2021
+Accept-Ranges: bytes
+Date: Tue, 13 Jun 2023 07:57:06 GMT
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: sameorigin
+Content-Security-Policy: frame-ancestors  'self'

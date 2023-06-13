@@ -1,0 +1,20 @@
+Content-Length: 26711
+Server: nginx
+Date: Tue, 13 Jun 2023 07:57:50 GMT
+Content-Type: text/html; charset=UTF-8
+X-Redirect-Id: 3166
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Drupal-Cache: HIT
+Location: https://www.nibib.nih.gov/news-events/meetings-events/upcoming-events?field_this_is_a_nibib_event_value=1
+X-Request-Id: v-d8342436-09bd-11ee-99e5-d3eaecd84230
+X-Ah-Environment: prod
+Cache-Control: max-age=900, public
+Age: 923
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 1

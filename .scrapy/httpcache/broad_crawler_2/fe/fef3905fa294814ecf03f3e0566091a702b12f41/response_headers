@@ -1,0 +1,27 @@
+Content-Length: 24876
+Cache-Control: public, max-age=900
+Content-Encoding: gzip
+Content-Language: en
+Content-Location: https://www.vet.cornell.edu/news/20210127/cvm-graduates-see-success-nih-loan-repayment-program?fbclid=IwAR1CjwHB0zxN-yN79ILEoS3fqTNpnamcrvwvBrGCqrfQWZ4t-zE5uOyJdbc
+Content-Type: text/html; charset=utf-8
+Etag: W/"1686472290-0"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sun, 11 Jun 2023 08:31:30 GMT
+Link: <https://www.vet.cornell.edu/sites/default/files/casey%20cazer%207-2019.jpg>; rel="image_src",<https://www.vet.cornell.edu/news/20210127/cvm-graduates-see-success-nih-loan-repayment-program>; rel="canonical",<https://www.vet.cornell.edu/node/8832>; rel="shortlink"
+Server: nginx
+Strict-Transport-Security: max-age=300
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (https://www.drupal.org)
+X-Pantheon-Styx-Hostname: styx-fe3-a-58f57df86f-89dwz
+X-Styx-Req-Id: 5d6b6da4-0832-11ee-bc65-7afbfc12e002
+Date: Sun, 11 Jun 2023 08:31:30 GMT
+X-Served-By: cache-chi-klot8100057-CHI, cache-bur-kbur8200067-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1686472290.343349,VS0,VE366
+Vary: Accept-Encoding, Cookie, Cookie, Cookie
+Age: 0
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish

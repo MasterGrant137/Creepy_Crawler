@@ -1,0 +1,22 @@
+Date: Sun, 11 Jun 2023 07:13:52 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: public, max-age=600
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Link: <https://childrensinn.org/wp-json/>; rel="https://api.w.org/"
+Strict-Transport-Security: max-age=31536001; includeSubDomains; preload
+Strict-Transport-Security: max-age=300
+X-Pantheon-Styx-Hostname: styx-fe2-b-85879b7d89-4gl2w
+X-Styx-Req-Id: 851ef85f-0827-11ee-b1fd-9658d6b81c83
+X-Served-By: cache-chi-klot8100178-CHI, cache-lax10629-LGB
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1686467632.490931,VS0,VE476
+Vary: Accept-Encoding, Cookie, Cookie
+Age: 0
+Via: 1.1 varnish, 1.1 varnish
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YxMfdQNc23ba1kaoqPg8Q8KvncenSSzTdPp%2BiAJbhs%2BWNO3A1YYM2ukL1KaXPDY9kgFu0Dicq6yjmmXsRuXlA78caBeyjDCLqTIbXKOrg%2Fm7SD8HjsH%2FTooQNKIhO6NOzl4%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 7d580dcf08ec2b7e-LAX
+Content-Encoding: gzip

@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: openresty
+Date: Sun, 11 Jun 2023 07:16:26 GMT
+Content-Type: text/html; charset=UTF-8
+X-Rid: c6c1856a8e848bdf64dad182c3cfaf74
+P3P: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=15552001
+Location: https://nihmedarts.tumblr.com/robots.txt
+X-Ua-Compatible: IE=Edge,chrome=1
+X-Ua-Device: desktop
+Vary: X-UA-Device, Accept

@@ -1,0 +1,23 @@
+Content-Length: 159
+Server: daiquiri/3.0.0
+Content-Type: text/plain
+X-Apple-Version-Number: 2322.0.0
+Last-Modified: Thu, 8 Jun 2023 20:23:04 GMT
+Etag: "d87252eb01f99cc30f7b419717eec276"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Responding-Instance: silverbullet-external:3021:mr28p00it-ztdg08102301:8300:22REL2
+X-Apple-Jingle-Correlation-Key: Y327D2WXZNQSPCPOESDGIPEDIQ
+X-Apple-Request-Uuid: c6f5f1ea-d7cb-6127-89ee-2486643c8344
+Apple-Seq: 0.0
+Apple-Tk: false
+Apple-Originating-System: UnknownOriginatingSystem
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Daiquiri-Instance: daiquiri:15887002:mr85p00it-hyhk04103901:7987:23RELEASE81:daiquiri-amp-all-shared-int-001-mr
+X-Daiquiri-Instance: daiquiri:18493001:mr85p00it-hyhk03154801:7987:23RELEASE81:daiquiri-amp-all-shared-ext-001-mr
+X-Daiquiri-Instance: daiquiri:17117001:mr85p00it-hyhk04124701:7987:23RELEASE81:daiquiri-amp-store-shared-ext-002-mr
+Cache-Control: no-transform, max-age=98
+Date: Sun, 11 Jun 2023 07:16:26 GMT
+X-Cache: TCP_REFRESH_HIT from a23-45-44-43.deploy.akamaitechnologies.com (AkamaiGHost/11.1.1-48600985) (S)
+X-Cache-Remote: TCP_IMS_HIT from a23-217-140-69.deploy.akamaitechnologies.com (AkamaiGHost/11.1.1-48600985) (-)
+Set-Cookie: geo=US; domain=.apple.com

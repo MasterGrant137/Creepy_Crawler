@@ -1,0 +1,15 @@
+Server: nginx
+Date: Tue, 13 Jun 2023 07:50:05 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+Vary: Cookie
+X-Hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+Host-Header: WordPress.com
+X-Pingback: https://nlmdirector.nlm.nih.gov/xmlrpc.php
+Set-Cookie: ultp_view_9898=1; expires=Wed, 14-Jun-2023 07:50:05 GMT; Max-Age=86400; path=/
+Link: <https://nlmdirector.nlm.nih.gov/wp-json/>; rel="https://api.w.org/"
+Link: <https://nlmdirector.nlm.nih.gov/wp-json/wp/v2/posts/9898>; rel="alternate"; type="application/json"
+Link: <https://wp.me/p83RVm-2zE>; rel=shortlink
+Content-Encoding: gzip
+X-Ac: 1.bur _atomic_bur BYPASS

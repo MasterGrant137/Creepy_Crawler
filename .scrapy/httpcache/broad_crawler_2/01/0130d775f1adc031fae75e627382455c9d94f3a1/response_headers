@@ -1,0 +1,12 @@
+Content-Length: 253
+Server: nginx
+Date: Sun, 11 Jun 2023 07:15:45 GMT
+Content-Type: text/html; charset=iso-8859-1
+X-Content-Type-Options: nosniff
+Location: https://prevention.nih.gov/education-training
+Expires: Sun, 25 Jun 2023 07:15:45 GMT
+X-Request-Id: v-c8b1737a-0827-11ee-8207-5b6f568b9f72
+Cache-Control: max-age=900, public
+Age: 0
+Via: varnish
+X-Cache: MISS

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://neuroscienceblueprint.nih.gov/" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NVDJC99');</script>
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/themes/custom/blueprint_bootstrap/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Client error | Blueprint</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_gBVddYDDKVJL5dXAlgqIW0tSbBO6dUDpqpO2YFeCcOg.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_6zA_sP9VXNSPoFlSpn4nez3kxZm2HVia27QAbIhTIRg.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_Y4H_4BqmgyCtG7E7YdseTs2qvy9C34c51kBamDdgark.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_5RgYJuqYKzmHZPzTE9ySAVMvDT4BNO4Tgzo36Lhp3zg.css" />
+
+    
+  </head>
+  <body class="layout-one-sidebar layout-sidebar-first path-home">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVDJC99" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+    <header id="header" class="header" role="banner" aria-label="Site header">
+        <section class="usa-banner" aria-label="Official government website">
+  <div class="container">
+    <div class="usa-accordion" id="usaBanner">
+      <div id="usaHeader" class="row no-gutters">
+        <div class="usa-img-wrapper col-auto">
+          <img class="usa-banner__header-flag" src="/themes/contrib/ninds_base_theme_barrio/assets/images/theme/us_flag_small.png" alt="U.S. flag">
+        </div>
+        <div class="usa-text-wrapper col">
+          <div class="usa-header-text d-sm-inline-block">An official website of the United States government</div>
+          <button class="usa-banner-link btn-link collapsed" type="button" data-toggle="collapse" data-target="#usaBodyWrapper" aria-expanded="true" aria-controls="usaBodyWrapper">
+            Here’s how you know<i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+      </div>
+
+      <div id="usaBodyWrapper" class="collapse" aria-labelledby="usaHeader" data-parent="#usaBanner">
+        <div id="usaBody" class="row">
+          <div class="usa-banner__guidance col-sm-6">
+            <div class="row">
+              <div class="usa-media-block__img col-auto">
+                <img src="/themes/contrib/ninds_base_theme_barrio/assets/images/theme/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
+              </div>
+              <div class="usa-media-block__body col">
+                <div class="font-weight-bold">Official websites use .gov </div>
+                A
+                <span class="font-weight-bold">.gov</span>
+                website belongs to an official government organization in the United States.
+              </div>
+            </div>
+          </div>
+          <div class="usa-banner__guidance col-sm-6">
+            <div class="row">
+              <div class="usa-media-block__img col-auto">
+                <img src="/themes/contrib/ninds_base_theme_barrio/assets/images/theme/icon-https.svg" role="img" alt="" aria-hidden="true">
+              </div>
+              <div class="usa-media-block__body col">
+                <div class="font-weight-bold">Secure .gov websites use HTTPS</div>
+                <div>
+                  A lock
+                  <span class="font-weight-bold">(</span>
+                  <i class="fas fa-lock"></i>
+                  <span class="font-weight-bold">)</span>
+                   or
+                  <span class="font-weight-bold">https://</span>
+                   means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<nav class="navbar" id="navbar-top" aria-label="Site Search">
+  <div class="container">
+                      <a class="navbar-brand" href="/">
+        <img class="navbar-img img-fluid" src="/themes/custom/blueprint_bootstrap/assets/images/theme/bp_logo.svg" alt="Blueprint - Home" />
+      </a>
+    
+              <div class="mobile-icons-container d-lg-none">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch">
+          <i aria-hidden="true" class="fas fa-search" title="Search"></i>
+          <span class="sr-only">Search</span>
+        </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <i aria-hidden="true" class="fas fa-bars mobile-menu-button" title="Menu"></i><span class="sr-only">Menu</span>
+        </button>
+      </div>
+    
+                      <div class="d-none d-lg-inline-block site-search navbar-form">
+                                <section class="region region-top-header-form">
+    <div class="views-exposed-form block block-views block-views-exposed-filter-blocksite-search-page-1" data-drupal-selector="views-exposed-form-site-search-page-1" id="block-exposedformsite-searchpage-1">
+  
+    
+      <div class="content">
+      
+<form block="exposedformsite_searchpage_1" action="/search" method="get" id="views-exposed-form-site-search-page-1" accept-charset="UTF-8" class="form-inline">
+  <div class="form-group">
+  
+
+
+
+  <fieldset class="js-form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-search-api-fulltext form-item-search-api-fulltext form-group">
+          <label for="edit-search-api-fulltext">Search Blueprint</label>
+                    <input placeholder="Search Blueprint" data-drupal-selector="edit-search-api-fulltext" data-search-api-autocomplete-search="site_search" class="form-autocomplete form-control" data-autocomplete-path="/search_api_autocomplete/site_search?display=page_1&amp;&amp;filter=search_api_fulltext" type="text" id="edit-search-api-fulltext" name="search_api_fulltext" value="" size="30" maxlength="128" />
+
+                      </fieldset>
+
+</div>
+<div class="form-group site-search-submit ">
+  <button type="submit" class="btn btn-search" aria-label="Submit Search"><i class="fas fa-search"></i></button>
+</div>
+
+</form>
+
+    </div>
+  </div>
+
+  </section>
+
+        </div>
+      
+              </div>
+</nav>
+
+<div class="navbar navbar-expand-lg" id="navbar-main">
+  <div class="container-fluid">
+              <div class="mobile-search-form site-search collapse" id="collapseSearch">
+          <section class="region region-header-form">
+    <div class="views-exposed-form block block-views block-views-exposed-filter-blocksite-search-page-2" data-drupal-selector="views-exposed-form-site-search-page-2" id="block-exposedformsite-searchpage-2">
+  
+    
+      <div class="content">
+      
+<form block="exposedformsite_searchpage_2" action="/search" method="get" id="views-exposed-form-site-search-page-2" accept-charset="UTF-8" class="form-inline">
+  <div class="form-group">
+  
+
+
+
+  <fieldset class="js-form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-search-api-fulltext form-item-search-api-fulltext form-group">
+          <label for="edit-search-api-fulltext--2">Search Blueprint</label>
+                    <input placeholder="Search Blueprint" data-drupal-selector="edit-search-api-fulltext" data-search-api-autocomplete-search="site_search" class="form-autocomplete form-control" data-autocomplete-path="/search_api_autocomplete/site_search?display=page_2&amp;&amp;filter=search_api_fulltext" type="text" id="edit-search-api-fulltext--2" name="search_api_fulltext" value="" size="30" maxlength="128" />
+
+                      </fieldset>
+
+</div>
+<div class="form-group site-search-submit ">
+  <button type="submit" class="btn btn-search" aria-label="Submit Search"><i class="fas fa-search"></i></button>
+</div>
+
+</form>
+
+    </div>
+  </div>
+
+  </section>
+
+      </div>
+            
+
+            <div class="container">
+      <div class="collapse navbar-collapse" id="CollapsingNavbar">
+          <nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main">
+            
+  <h2 class="sr-only" id="block-mainnavigation-menu">Main navigation</h2>
+  
+
+        
+              <ul block="mainnavigation" class="clearfix nav navbar-nav">
+                    <li class="nav-item menu-item--expanded dropdown">
+                                                      <div class="btn-group">
+                                       <span class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-1">Funding &amp; Research </span>
+                                     <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-1">
+              <span class="sr-only">Toggle Funding & Research Dropdown</span>
+            </button>
+                                <ul class="dropdown-menu" tabindex="-1" id="main-nav-1">
+                    <li class="dropdown-item">
+                                  <a href="/funding-research/funding-opportunities" class="nav-link--funding-research-funding-opportunities" data-drupal-link-system-path="funding-research/funding-opportunities">Funding Opportunities</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/funding-research/blueprint-research-initiatives" class="nav-link--funding-research-blueprint-research-initiatives" data-drupal-link-system-path="node/172">Blueprint Research Initiatives</a>
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                                      <div class="btn-group">
+                                       <span class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-2">Human Connectome</span>
+                                     <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-2">
+              <span class="sr-only">Toggle Human Connectome Dropdown</span>
+            </button>
+                                <ul class="dropdown-menu" tabindex="-1" id="main-nav-2">
+                    <li class="dropdown-item">
+                                  <a href="/human-connectome/connectome-programs" class="nav-link--human-connectome-connectome-programs" data-drupal-link-system-path="node/173">Connectome Programs</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/human-connectome/connectome-projects" title="A list of connectome projects" class="nav-link--human-connectome-connectome-projects" data-drupal-link-system-path="human-connectome/connectome-projects">Connectome Projects</a>
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                                      <div class="btn-group">
+                                       <span class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-3">Neurotherapeutics &amp; MedTech</span>
+                                     <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-3">
+              <span class="sr-only">Toggle Neurotherapeutics & MedTech Dropdown</span>
+            </button>
+                                <ul class="dropdown-menu" tabindex="-1" id="main-nav-3">
+                    <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/neurotherapeutics/bpn-small-molecules" class="nav-link--neurotherapeutics-bpn-small-molecules" data-drupal-link-system-path="node/174">Blueprint Neurotherapeutics Network (BPN) for Small Molecules</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/neurotherapeutics/bpn-biologics" class="nav-link--neurotherapeutics-bpn-biologics" data-drupal-link-system-path="node/258">Blueprint Neurotherapeutics Network for Biologics (BPN-Biologics)</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/neurotherapeutics/blueprint-medtech/blueprint-medtech" class="nav-link--neurotherapeutics-blueprint-medtech-blueprint-medtech" data-drupal-link-system-path="node/282">Blueprint MedTech</a>
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                                      <div class="btn-group">
+                                       <span class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-4">Training</span>
+                                     <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-4">
+              <span class="sr-only">Toggle Training Dropdown</span>
+            </button>
+                                <ul class="dropdown-menu" tabindex="-1" id="main-nav-4">
+                    <li class="dropdown-item">
+                                  <a href="/training/endure-undergraduate-education" class="nav-link--training-endure-undergraduate-education" data-drupal-link-system-path="node/181">ENDURE Undergraduate Education</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/training/nih-blueprint-d-span-award-f99k00" class="nav-link--training-nih-blueprint-d-span-award-f99k00" data-drupal-link-system-path="node/182">D-SPAN Award (F99/K00)</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/training/training-computational-neuroscience" class="nav-link--training-training-computational-neuroscience" data-drupal-link-system-path="node/183">Training in Computational Neuroscience</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/training/related-nih-sponsored-training" class="nav-link--training-related-nih-sponsored-training" data-drupal-link-system-path="node/184">Related NIH-Sponsored Training</a>
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                                      <div class="btn-group">
+                                       <span class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-5">Resource &amp; Tools</span>
+                                     <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-5">
+              <span class="sr-only">Toggle Resource & Tools Dropdown</span>
+            </button>
+                                <ul class="dropdown-menu" tabindex="-1" id="main-nav-5">
+                    <li class="dropdown-item">
+                                  <a href="/resources-tools/blueprint-resources-tools-library" title="Resource &amp; Tools listing" class="nav-link--resources-tools-blueprint-resources-tools-library" data-drupal-link-system-path="resources-tools/blueprint-resources-tools-library">Blueprint Resources &amp; Tools Library</a>
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                                      <div class="btn-group">
+                                       <span class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-6">About</span>
+                                     <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" aria-controls="main-nav-6">
+              <span class="sr-only">Toggle About Dropdown</span>
+            </button>
+                                <ul class="dropdown-menu" tabindex="-1" id="main-nav-6">
+                    <li class="dropdown-item">
+                                  <a href="/about/nih-blueprint-overview" class="nav-link--about-nih-blueprint-overview" data-drupal-link-system-path="node/185">Blueprint Facts</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/about/diversity-and-scientific-excellence" class="nav-link--about-diversity-and-scientific-excellence" data-drupal-link-system-path="node/250">Diversity and Scientific Excellence</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/about/participating-nih-institutes-and-centers-nih-blueprint-neuroscience-research" class="nav-link--about-participating-nih-institutes-and-centers-nih-blueprint-neuroscience-research" data-drupal-link-system-path="node/186">Participating NIH Institutes</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/about/news" class="nav-link--about-news" data-drupal-link-system-path="about/news">News</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/about/events" class="nav-link--about-events" data-drupal-link-system-path="about/events">Events</a>
+              </li>
+        </ul>
+  
+          </div>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+      </div>
+    </div>
+    
+  </div>
+</div>
+      </header>
+          <div class="highlighted">
+        <aside class="container section clearfix" role="complementary">
+            <div data-drupal-messages-fallback class="hidden"></div>
+
+
+        </aside>
+      </div>
+            <div id="main-wrapper" class="layout-main-wrapper clearfix">
+        <div id="main" class="container">
+      <section class="row region region-breadcrumb">
+    <div id="block-blueprint-bootstrap-breadcrumbs" class="col block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="content">
+      
+
+  <nav role="navigation" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+          <a href="/">Home</a>
+        </li>
+                        <li class="breadcrumb-item active">
+          Client error
+        </li>
+              </ol>
+  </nav>
+
+    </div>
+  </div>
+<div id="block-blueprint-bootstrap-sharethis" class="col-auto block block-ninds-share-this block-share-this">
+  
+    
+      <div class="content">
+      
+<div class="clear-both share-this-buttons">
+    <span class="share-this-text">SHARE: </span>
+          <a title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://neuroscienceblueprint.nih.gov/system/4xx"><i class="fab fa-facebook"></i></a>
+      
+              <a title="Share on Twitter" href="https://twitter.com/share?text=Client error&url=https://neuroscienceblueprint.nih.gov/system/4xx&hashtags=NINDS"><i class="fab fa-twitter"></i></a>
+              <a title="Share on Reddit" href="https://www.reddit.com/submit?url=https://neuroscienceblueprint.nih.gov/system/4xx&title=Client error"><i class="fab fa-reddit-alien"></i></a>
+              <a title="Email this Page" href="mailto:?subject=Client error&body=https://neuroscienceblueprint.nih.gov/system/4xx"><i class="fas fa-envelope"></i></a>
+              <a id="print-page" title="Print" href="#"><i class="fas fa-print"></i></a>
+    </div>
+
+    </div>
+  </div>
+
+  </section>
+
+            <div  class="row row-offcanvas row-offcanvas-left clearfix main-row">
+      <main class="main-content col" id="content" role="main">
+        <section class="section">
+          <a id="main-content" tabindex="-1"></a>
+            <div id="block-blueprint-bootstrap-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+  <h1 class="title">Client error</h1>
+
+
+    </div>
+  </div>
+<div id="block-mainpagecontent" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      A client error happened
+    </div>
+  </div>
+
+
+        </section>
+      </main>
+              <div class="sidebar_first sidebar order-first col-lg-3 d-block" id="sidebar_first">
+          <aside class="section" role="complementary" aria-label="First Sidebar">
+              <div id="block-webform" class="block block-webform block-webform-block">
+  
+    
+      <div class="content">
+      <span id="webform-submission-was-this-page-helpful-form-ajax-content"></span><div id="webform-submission-was-this-page-helpful-form-ajax" class="webform-ajax-form-wrapper" data-effect="fade" data-progress-type="throbber"><form class="webform-submission-form webform-submission-add-form webform-submission-was-this-page-helpful-form webform-submission-was-this-page-helpful-add-form js-webform-details-toggle webform-details-toggle" data-drupal-selector="webform-submission-was-this-page-helpful-add-form" action="/" method="post" id="webform-submission-was-this-page-helpful-add-form" accept-charset="UTF-8">
+  
+  <fieldset data-drupal-selector="edit-find-content" class="webform-vote-options find-content webform-vote--wrapper fieldgroup form-composite webform-composite-visible-title js-webform-type-webform-vote webform-type-webform-vote js-form-item form-item js-form-wrapper form-group" id="edit-find-content--wrapper">
+      <legend>
+    <span class="fieldset-legend">Did you find the content you were looking for?</span>
+  </legend>
+  <div class="fieldset-wrapper">
+            <div id="edit-find-content" class="js-webform-webform-vote radio">
+
+<input data-drupal-selector="edit-find-content-no" data-type="webform_vote" data-icon="fa-thumbs-down" data-icon-size="fa-2x" class="form-radio" type="radio" id="edit-find-content-no" name="find_content" value="No">
+<label tabindex="0" class="form-check-label" for="edit-find-content-no">
+  <span class="sr-only">No, I did not find the content I was looking for</span>
+      <i class="fa fa-thumbs-down fa-2x" title="No"></i>
+  </label>
+
+
+
+<input data-drupal-selector="edit-find-content-yes" class="webform-vote-options form-radio" data-type="webform_vote" data-icon="fa-thumbs-up" data-icon-size="fa-2x" type="radio" id="edit-find-content-yes" name="find_content" value="Yes">
+<label tabindex="0" class="form-check-label" for="edit-find-content-yes">
+  <span class="sr-only">Yes, I did find the content I was looking for</span>
+      <i class="fa fa-thumbs-up fa-2x" title="Yes"></i>
+  </label>
+
+</div>
+
+          </div>
+</fieldset>
+<div class="hidden-elements js-webform-states-hidden js-form-wrapper form-group" data-drupal-selector="edit-hidden-elements" data-drupal-states="{&quot;visible-slide&quot;:{&quot;.webform-submission-was-this-page-helpful-add-form :input[name=\u0022find_content\u0022]&quot;:{&quot;checked&quot;:true}}}" id="edit-hidden-elements"><fieldset data-drupal-selector="edit-rating" class="webform-vote-options webform-rating webform-vote--wrapper fieldgroup form-composite webform-composite-visible-title js-webform-type-webform-vote webform-type-webform-vote js-form-item form-item js-form-wrapper form-group" id="edit-rating--wrapper">
+      <legend>
+    <span class="fieldset-legend">Please rate how easy it was to navigate the NINDS website</span>
+  </legend>
+  <div class="fieldset-wrapper">
+            <div id="edit-rating" class="js-webform-webform-vote radio">
+
+<input data-drupal-selector="edit-rating-very-easy-to-navigate" data-type="webform_vote" data-icon="fa-star" data-icon-size="fa-2x" class="webform-rating form-radio" type="radio" id="edit-rating-very-easy-to-navigate" name="rating" value="Very easy to navigate">
+<label tabindex="0" class="form-check-label" for="edit-rating-very-easy-to-navigate">
+  <span class="sr-only">Very easy to navigate</span>
+      <i class="fa fa-star fa-2x" title="Very easy to navigate"></i>
+  </label>
+
+
+
+<input data-drupal-selector="edit-rating-easy-to-navigate" class="webform-vote-options webform-rating form-radio" data-type="webform_vote" data-icon="fa-star" data-icon-size="fa-2x" type="radio" id="edit-rating-easy-to-navigate" name="rating" value="Easy to navigate">
+<label tabindex="0" class="form-check-label" for="edit-rating-easy-to-navigate">
+  <span class="sr-only">Easy to navigate</span>
+      <i class="fa fa-star fa-2x" title="Easy to navigate"></i>
+  </label>
+
+
+
+<input data-drupal-selector="edit-rating-neutral" class="webform-vote-options webform-rating form-radio" data-type="webform_vote" data-icon="fa-star" data-icon-size="fa-2x" type="radio" id="edit-rating-neutral" name="rating" value="Neutral">
+<label tabindex="0" class="form-check-label" for="edit-rating-neutral">
+  <span class="sr-only">Neutral</span>
+      <i class="fa fa-star fa-2x" title="Neutral"></i>
+  </label>
+
+
+
+<input data-drupal-selector="edit-rating-difficult-to-navigate" class="webform-vote-options webform-rating form-radio" data-type="webform_vote" data-icon="fa-star" data-icon-size="fa-2x" type="radio" id="edit-rating-difficult-to-navigate" name="rating" value="Difficult to navigate">
+<label tabindex="0" class="form-check-label" for="edit-rating-difficult-to-navigate">
+  <span class="sr-only">Difficult to navigate</span>
+      <i class="fa fa-star fa-2x" title="Difficult to navigate"></i>
+  </label>
+
+
+
+<input data-drupal-selector="edit-rating-very-difficult-to-navigate" class="webform-vote-options webform-rating form-radio" data-type="webform_vote" data-icon="fa-star" data-icon-size="fa-2x" type="radio" id="edit-rating-very-difficult-to-navigate" name="rating" value="Very difficult to navigate">
+<label tabindex="0" class="form-check-label" for="edit-rating-very-difficult-to-navigate">
+  <span class="sr-only">Very difficult to navigate</span>
+      <i class="fa fa-star fa-2x" title="Very difficult to navigate"></i>
+  </label>
+
+</div>
+
+          </div>
+</fieldset>
+
+
+
+
+  <fieldset class="js-form-item js-form-type-textarea form-type-textarea js-form-item-feedback form-item-feedback form-group">
+          <label for="edit-feedback">Thank you for letting us know! Any other feedback?</label>
+                    <div class="form-textarea-wrapper">
+  <textarea autocomplete="off" data-drupal-selector="edit-feedback" id="edit-feedback" name="feedback" rows="5" cols="60" placeholder="Leave a comment" class="form-textarea form-control resize-vertical"></textarea>
+</div>
+
+                      </fieldset>
+<div data-drupal-selector="edit-actions" class="form-actions webform-actions js-form-wrapper form-group" id="edit-actions--3"><button class="webform-button--submit button button--primary js-form-submit form-submit btn btn-ninds" data-drupal-selector="edit-actions-submit" data-disable-refocus="true" type="submit" id="edit-actions-submit" name="op" value="Submit">Submit</button>
+
+</div>
+</div>
+<div class="recaptcha_container js-form-wrapper form-group" data-sitekey="6LdBRjgeAAAAAMxQXlEJoHa3fp0iQH54b61cqiCy" data-drupal-selector="edit-recaptcha-container" id="edit-recaptcha-container"></div>
+
+
+
+
+  <fieldset class="omb-link small js-form-item js-form-type-processed-text form-type-processed-text js-form-item- form-item- form-no-label form-group" id="edit-omb-link">
+                    <p><a href="https://www.ninds.nih.gov/privacy-statement">Form Approved OMB# 0925-0648 Exp. Date 06/2024</a></p>
+                      </fieldset>
+<div class="js-webform-states-hidden js-form-wrapper" data-drupal-states="{&quot;visible&quot;:{&quot;.webform-submission-was-this-page-helpful-add-form :input[name=\u0022find_content\u0022]&quot;:{&quot;checked&quot;:true}}}">
+
+
+
+  <fieldset class="recaptcha_disclaimer js-form-item js-form-type-processed-text form-type-processed-text js-form-item- form-item- form-no-label form-group" id="edit-recaptcha-disclaimer">
+                    <p>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a>and <a href="https://policies.google.com/terms">Terms of Service</a>apply.</p>
+                      </fieldset>
+</div><input autocomplete="off" data-drupal-selector="form-ry1nok3gvxp5ke-27kccl-h-cksjtqfbo8ayj8pzru8" type="hidden" name="form_build_id" value="form-Ry1nOK3gvXP5KE_27KccL_h-CkSJTqfBo8ayj8pZRU8" class="form-control" />
+<input data-drupal-selector="edit-webform-submission-was-this-page-helpful-add-form" type="hidden" name="form_id" value="webform_submission_was_this_page_helpful_add_form" class="form-control" />
+
+
+  
+</form>
+</div>
+    </div>
+  </div>
+
+
+          </aside>
+        </div>
+                </div>
+  </div>
+
+  
+    </div>
+        <footer class="site-footer">
+          <a id="back-to-top" class="btn btn-default btn-lg" role="button" title="Back to top" data-toggle="tooltip" data-placement="left">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<div class="site-footer-top">
+  <div class="container">
+            <section class="region region-footer-first">
+    <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="sr-only" id="block-footer-menu">Footer Menu</h2>
+  
+
+        
+              <ul block="footer" class="clearfix nav navbar-nav">
+                    <li class="nav-item">
+                <a href="mailto:blueprint@mail.nih.gov" class="nav-link nav-link-mailtoblueprintmailnihgov">Contact Us</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.foia.gov/" class="nav-link nav-link-https--wwwfoiagov-">Freedom of Information Act (FOIA)</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.nih.gov/web-policies-notices" class="nav-link nav-link-https--wwwnihgov-web-policies-notices">NIH Web Policies &amp; Notices</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </section>
+
+    <div class="row">
+    <div class="site-footer-top-second col-lg-3 col-md-4 col-12">
+                <section class="region region-footer-second">
+    <nav role="navigation" aria-labelledby="block-footertools-menu" id="block-footertools" class="block block-menu navigation menu--footer-tools">
+      
+  <h2 id="block-footertools-menu">Tools</h2>
+  
+
+        
+              <ul block="footertools" class="clearfix nav">
+                    <li class="nav-item">
+                <a href="https://get.adobe.com/reader/" class="nav-link nav-link-https--getadobecom-reader-">Download Adobe Plug-In</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </section>
+
+          </div>
+    <div class="site-footer-top-third col-md-4 col-12 mt-4 mt-md-0">
+                <section class="region region-footer-third">
+    <nav role="navigation" aria-labelledby="block-related-menu" id="block-related" class="block block-menu navigation menu--related">
+      
+  <h2 id="block-related-menu">Related</h2>
+  
+
+        
+              <ul block="related" class="clearfix nav">
+                    <li class="nav-item">
+                <a href="https://hhs.gov/" class="nav-link nav-link-https--hhsgov-">Department of Health &amp; Human Services</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://nih.gov/" class="nav-link nav-link-https--nihgov-">National Institutes of Health</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://usa.gov/" class="nav-link nav-link-https--usagov-">USA.gov</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="nav-link nav-link-https--wwwhhsgov-vulnerability-disclosure-policy-indexhtml">Vulnerability Disclosure Policy</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </section>
+
+          </div>
+    <div class="site-footer-top-fourth col-lg-5 col-md-4 col-12 mt-4 mt-md-0">
+                <section class="region region-footer-fourth">
+    <nav role="navigation" aria-labelledby="block-partners-menu" id="block-partners" class="block block-menu navigation menu--partners">
+      
+  <h2 id="block-partners-menu">Partners</h2>
+  
+
+        
+              <ul block="partners" class="clearfix nav">
+                    <li class="nav-item">
+                <a href="https://nccih.nih.gov/" class="nav-link nav-link-https--nccihnihgov-">NCCIH</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.nibib.nih.gov/" class="nav-link nav-link-https--wwwnibibnihgov-">NIBIB</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.niehs.nih.gov/" class="nav-link nav-link-https--wwwniehsnihgov-">NIEHS</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://nei.nih.gov/" class="nav-link nav-link-https--neinihgov-">NEI</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.nichd.nih.gov/" class="nav-link nav-link-https--wwwnichdnihgov-">NICHD</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.nimh.nih.gov/" class="nav-link nav-link-https--wwwnimhnihgov-">NIMH</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.nia.nih.gov/" class="nav-link nav-link-https--wwwnianihgov-">NIA</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.drugabuse.gov/" class="nav-link nav-link-https--wwwdrugabusegov-">NIDA</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.ninds.nih.gov/" class="nav-link nav-link-https--wwwnindsnihgov-">NINDS</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.niaaa.nih.gov/" class="nav-link nav-link-https--wwwniaaanihgov-">NIAAA</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.nidcr.nih.gov/" class="nav-link nav-link-https--wwwnidcrnihgov-">NIDCR</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://obssr.od.nih.gov/" class="nav-link nav-link-https--obssrodnihgov-">OBSSR</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </section>
+
+          </div>
+  </div>
+  </div>
+</div>
+<div class="site-footer-bottom ninds-footer">
+  <div class="container">
+      <div class="footer-icon">
+  <a href="/">
+    <img src="/themes/custom/blueprint_bootstrap/assets/images/theme/bp_footer_logo.svg" alt="Blueprint - Home" />
+  </a>
+  </div>
+      </div>
+</div>
+    </footer>
+  </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"blueprint_bootstrap\/global-styling,bootstrap_barrio\/breadcrumb,bootstrap_barrio\/fontawesome,bootstrap_barrio\/form,bootstrap_barrio\/global-styling,bootstrap_barrio\/image_fluid,cacheable_recaptcha\/cacheable_recaptcha.webform.container,cacheable_recaptcha\/recaptcha,core\/drupal.ajax,core\/drupal.autocomplete,core\/internal.jquery.form,extlink\/drupal.extlink,ninds_base_theme_barrio\/bootstrap,ninds_base_theme_barrio\/global-styling,ninds_base_theme_barrio\/main_menu,ninds_config\/ninds_config,ninds_config\/textarea_overrides,ninds_config\/webform_vote,ninds_share_this\/share_this,search_api_autocomplete\/search_api_autocomplete,solr_config\/search,system\/base,webform\/webform.ajax,webform\/webform.composite,webform\/webform.element.details.save,webform\/webform.element.details.toggle,webform\/webform.element.message,webform\/webform.form","theme":"blueprint_bootstrap","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/system\/4xx?ajax_form=1":true,"\/search":true},"data":{"extlink":{"extTarget":false,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":".*\\.gov|nindsweb.com|ninds-large-s3-hosted-files.s3.amazonaws.com","extInclude":"","extCssExclude":".nindsBox-link","extCssExplicit":"","extAlert":true,"extAlertText":"You are leaving the NINDS website. The NINDS cannot attest to the accuracy of the content on a non-federal site. Linking to a non-federal site does not constitute an endorsement of that site by the NINDS or NIH.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"ajax":{"edit-actions-submit":{"callback":"::submitAjaxForm","event":"click","effect":"fade","speed":500,"progress":{"type":"throbber","message":""},"disable-refocus":true,"url":"\/system\/4xx?ajax_form=1","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Submit"}}},"search_api_autocomplete":{"site_search":{"selector":"input[name=\u0022search_api_fulltext\u0022]","auto_submit":true}},"user":{"uid":0,"permissionsHash":"3ff758aa01c76db970f521f6a5e4d59516936d333d2f71da714998507af561e3"}}</script>
+<script src="/sites/default/files/js/js_473NHFAMFTs9P0USUyaiGdJggRXqgHoDh4g_tM1v0O8.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onLoad&amp;render=explicit"></script>
+<script src="/sites/default/files/js/js_wnvbiIKprJv3crjX_YS0c6PNxO--FAs_4EztgNFZ5Dk.js"></script>
+
+  </body>
+</html>

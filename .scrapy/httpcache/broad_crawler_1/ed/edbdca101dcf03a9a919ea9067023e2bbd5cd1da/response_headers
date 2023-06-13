@@ -1,0 +1,25 @@
+Content-Length: 27341
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Etag: "1686611198"
+Last-Modified: Mon, 12 Jun 2023 23:06:38 GMT
+Link: <https://www.cancer.gov/>; rel="canonical"
+Server: nginx
+X-Age: 6856
+X-Ah-Environment: 01live
+X-Cache-Hits: 5
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Drupal-Dynamic-Cache: HIT
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Request-Id: v-c91b76c2-0975-11ee-add1-5782335bd410
+X-Ua-Compatible: IE=edge
+Expires: Tue, 13 Jun 2023 04:59:51 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Tue, 13 Jun 2023 04:59:51 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload

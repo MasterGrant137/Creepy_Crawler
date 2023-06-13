@@ -1,0 +1,25 @@
+Content-Length: 215
+Cache-Control: private,max-age=0
+Content-Type: text/plain
+Content-Encoding: gzip
+Expires: Sat, 27 May 2023 08:32:34 GMT
+Last-Modified: Sat, 10 Jun 2023 17:52:00 GMT
+Accept-Ranges: bytes
+Etag: "{2833739A-B0C4-4589-8384-8B61576F3CB0},1743"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-Sharepointhealthscore: 0
+Resourcetag: rt:2833739A-B0C4-4589-8384-8B61576F3CB0@00000001743
+Public-Extension: http://schemas.microsoft.com/repl-2
+Sprequestguid: 2cbcbba0-2425-e0c7-87b1-dc7ed550a0d0
+Request-Id: 2cbcbba0-2425-e0c7-87b1-dc7ed550a0d0
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+Sprequestduration: 90
+Spiislatency: 0
+X-Powered-By: ASP.NET
+Microsoftsharepointteamservices: 16.0.0.10398
+X-Content-Type-Options: nosniff
+X-Ms-Invokeapp: 1; RequireReadOnly
+Strict-Transport-Security: max-age=31536000
+Date: Sun, 11 Jun 2023 08:32:34 GMT

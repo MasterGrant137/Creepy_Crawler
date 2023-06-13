@@ -1,0 +1,14 @@
+Content-Length: 3563
+Date: Tue, 13 Jun 2023 07:52:12 GMT
+Content-Type: text/html
+Server: Apache/2.4.51 (Unix) OpenSSL/1.0.2k-fips mod_wsgi/4.9.4 Python/3.9
+X-Xss-Protection: 1;  mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: frame-ancestors 'self'
+Last-Modified: Wed, 31 May 2023 18:31:53 GMT
+Etag: "2e53-5fd0188ab595e-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: public
+X-Content-Type-Options: nosniff

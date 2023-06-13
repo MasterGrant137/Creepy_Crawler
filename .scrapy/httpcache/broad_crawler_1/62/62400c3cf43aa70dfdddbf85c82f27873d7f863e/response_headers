@@ -1,0 +1,18 @@
+Date: Tue, 13 Jun 2023 07:50:41 GMT
+Server: Apache/2.4.57 (Win32) OpenSSL/1.1.1t mod_jk/1.2.43
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+Cache-Control: max-age=1800, public
+X-Drupal-Dynamic-Cache: MISS
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 05 Jun 2023 05:04:57 GMT
+Etag: "1685941497"
+Vary: Cookie
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Content-Type: text/html; charset=UTF-8

@@ -1,0 +1,12 @@
+Content-Length: 0
+Server: nginx
+Date: Sun, 11 Jun 2023 08:32:57 GMT
+Set-Cookie: AWSALB=m1g7hzJ0PBubUplTTKUNXWAr17wdLy1jar6RY32kdpnpM3nT2jQBRFpWaLNg0xxxvdmiXgg/3kmRZEW0y4LXoFWeMUxpARvgwyShEVdih0e6oUpVfVBomnNXTgQk; Expires=Sun, 18 Jun 2023 08:32:57 GMT; Path=/
+Set-Cookie: AWSALBCORS=m1g7hzJ0PBubUplTTKUNXWAr17wdLy1jar6RY32kdpnpM3nT2jQBRFpWaLNg0xxxvdmiXgg/3kmRZEW0y4LXoFWeMUxpARvgwyShEVdih0e6oUpVfVBomnNXTgQk; Expires=Sun, 18 Jun 2023 08:32:57 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: JSESSIONID=4134782A08667B5312647F0D5381245D; Expires=Sun, 11 Jun 2023 17:32:57 GMT; Path=/assist; Secure; HttpOnly
+Set-Cookie: dtCookie=v_4_srv_3_sn_DE3733D991A9F4081DD2520A92EE5094_perc_100000_ol_0_mul_1_app-3A62de54d7f6c66c4a_1; Path=/; Domain=.nih.gov
+Cache-Control: private
+X-Oneagent-Js-Injection: true
+Server-Timing: dtRpid;desc="130428231", dtSInfo;desc="0"
+X-Xss-Protection: 1; mode=block
+Location: https://public.era.nih.gov/assist/public/login.era?TARGET=https%3A%2F%2Fpublic.era.nih.gov%3A443%2Fassist%2F

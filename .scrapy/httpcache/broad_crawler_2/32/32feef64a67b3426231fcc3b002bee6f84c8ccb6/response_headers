@@ -1,0 +1,9 @@
+Date: Sun, 11 Jun 2023 07:17:53 GMT
+Cache-Control: max-age=3600
+Expires: Sun, 11 Jun 2023 08:17:53 GMT
+Location: https://www.oecd.org/robots.txt
+Set-Cookie: __cf_bm=tirO5.6mCupxpdvVh7.nSkKv52ESE6p9RC.uawJzMJ4-1686467873-0-AdkB9X82dwudYgL7two8V9snIplN26b9G1rP1QhUTWjJBetpABVysloB2fXihBMPU8VicVmZkpCafypEmXZJvLQ=; path=/; expires=Sun, 11-Jun-23 07:47:53 GMT; domain=.oecd.org; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 7d5813ae4d9408f6-LAX
+Alt-Svc: h3=":443"; ma=86400

@@ -1,0 +1,34 @@
+Content-Type: text/html; charset=utf-8
+X-Webapp: iplayer-web-app-bundles
+Link: <https://emp.bbci.co.uk/emp/bump-4/bump-4.js>; rel=prefetch, <https://mybbc.files.bbci.co.uk>; rel=preconnect, <https://nav.files.bbci.co.uk>; rel=preconnect, <https://ichef.bbci.co.uk>; rel=preconnect, <https://iplayer-web.files.bbci.co.uk>; rel=preconnect, <https://iplayer-web.files.bbci.co.uk>; rel=preconnect; crossorigin, <https://iplayer-web.files.bbci.co.uk/react/16.13.1-1/react.js>; rel=preload; as=script; nopush, <https://iplayer-web.files.bbci.co.uk/iplayer-web-components/125.3.0/iplayer.css>; rel=preload; as=style; nopush, <https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1538/css/bundles.css>; rel=preload; as=style; nopush
+Cache-Control: no-store, must-revalidate, max-age=0
+Server-Timing: data;dur=73.869, identity;dur=0.002, markup;dur=24.210, total;dur=104.419, hit
+X-Edge-Cache-Date: Sat, 10 Jun 2023 21:17:37 GMT
+Content-Encoding: gzip
+Request-Id: aba2643ce9cedba0de0a353ca3ed278e
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Via: 1.1 BBC-GTM, 1.1 varnish
+Req-Svc-Chain: FASTLY,GTM
+X-Bbc-Edge-Cache-Status: MISS
+X-Bbc-Origin-Response-Status: 200
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Strict-Transport-Security: max-age=31536000; preload
+Permissions-Policy: browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()
+Fastly-Restarts: 1
+X-Fastly-Cache-Reason: CACHE-CONTROL
+X-Fastly-Cache-Reason: MISS
+Accept-Ranges: bytes
+Date: Sat, 10 Jun 2023 21:18:23 GMT
+X-Fastly-Cache-Status: PASS
+X-Served-By: cache-bur-kbur8200027-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686431903.208953,VS0,VE696
+X-Fastly-Pre-Flight-Cache: MISS, HIT
+X-Fastly-Pre-Flight-Cache-Status: HIT
+Vary: x-bbc-edge-scheme, x-bbc-edge-host,Accept-Encoding
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

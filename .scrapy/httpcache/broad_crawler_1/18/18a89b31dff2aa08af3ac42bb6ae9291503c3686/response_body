@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+  <script src="/core/assets/vendor/jquery/jquery.min.js?v=3.5.1"></script>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/era2019/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>News | eRA</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/modules/extlink/extlink.css?rvshc7" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.css" integrity="sha256-0XAFLBbK7DgQ8t7mRWU5BF2OMm9tjtfH945Z7TTeNIo=" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap.css" integrity="sha512-j4mdyNbQqqp+6Q/HtootpbGoc2ZX0C/ktbXnauPFEz7A457PB6le79qasOBVcrSrOBtGAm0aVU2SOKFzBl6RhA==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="/themes/era2019/css/style.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/themes/era2019/css/view.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/themes/era2019/css/responsiveness.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/themes/era2019/css/redesign2022.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/themes/era2019/css/redesign2022scss.css?rvshc7" />
+<link rel="stylesheet" media="all" href="https://use.typekit.net/iur2uiz.css" />
+<link rel="stylesheet" media="all" href="https://use.typekit.net/fnh5uoh.css" />
+<link rel="stylesheet" media="all" href="https://use.typekit.net/ros0tnl.css" />
+
+   
+      <!-- GTM -->
+      <!-- ADDED ON 05/01/2023 -->
+      <!-- All services and snippets (AKA tags) have been removed from this file -->
+      <!-- They are handled in the ralated container in Google Tag Manger -->
+      <!-- Google Tag Manager -->
+      <script>(function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+              'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8NWC3');</script>
+      <!-- End Google Tag Manager -->
+
+      
+
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <link rel="stylesheet" href="/libraries/baguetteBox/dist/baguetteBox.css">
+      <script src="/libraries/baguetteBox/dist/baguetteBox.js" async></script>
+  </head>
+  <body class="path-news has-glyphicons">
+
+
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <!--Logo, search, high level links in the top right -->
+
+
+
+<div id="top-links">
+  <div class="top-links-wrapper">
+    <div class="gov-site">
+      <img src="/images/2022_img/us-flag.png" alt="usa flag" />
+      <div id="us-gov-site">An official website of the United States government
+        <div id="how-you-know">
+          <span id="tag">Here's how you know</span>
+          <div id="how-you-know-sign-down">
+            <img src="/images/2022_img/chevron-down.svg" alt="" />
+          </div> 
+          <div id="how-you-know-sign-up">
+            <img src="/images/2022_img/chevron-up.svg" alt="" />
+          </div>             
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="hhs-nih-leyend">
+      <span><a href="https://www.hhs.gov"><img src="/themes/era2019/images/hhsfavicon.png" class="topnav-icon-hhs" width="20px" height="20px" alt=""/>U.S. Department of Health and Human Services</a></span>
+      <span><a href="https://www.nih.gov"><img src="/themes/era2019/images/nihfavicon.png" class="topnav-icon-nih" width="28px" height="20px" alt=""/>National Institutes of Health</a></span>
+      <span><a href="https://grants.nih.gov"><img src="/themes/era2019/images/nihfavicon.png" class="topnav-icon-nih" width="28px" height="20px" alt=""/>NIH Grants and Funding</a></span>
+    </div>
+  </div>
+</div>
+<div class="us-gov-site-note">
+  <div class="note-wrapper">
+  <div class="section">
+    <div class="gov-icon">
+      <img src="/images/2022_img/icon-dot-gov.svg" alt="" />
+    </div>
+    <div class="content">
+      <div class="title">
+        The .gov means it’s official.
+      </div>
+      <div class="description">
+        Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="gov-icon">
+      <img src="/images/2022_img/icon-https.svg" alt="" />
+    </div>
+    <div class="content">
+      <div class="title">
+        The site is secure.
+      </div>
+      <div class="description">
+        Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="brand-search">
+  <div class="logo"><a href="/"><img src="/images/2022_img/logo.png"/ alt="era logo"></a></div>
+  <div class="logins">
+    <div class="commons-login"><a href="https://public.era.nih.gov/commons/" target="_blank" style="color:#fff"><span class="fas fa-lock"></span>&nbsp;&nbsp;Commons Login</a></div>
+    <div class="assist-login"><a href="https://public.era.nih.gov/assist" target="_blank" style="color:#fff"><span class="fas fa-lock"></span>&nbsp;&nbsp;ASSIST Login</a></div>
+  </div>
+  <div class="search-sub-menu">
+    <div class="search">
+    <form accept-charset="UTF-8" action="//search.usa.gov/search" id="search_form" method="get" name="formSearch">
+      <label for="query" class="hide"> Search this site </label>
+      <input autocomplete="on" class="usagov-search-autocomplete" id="query" name="query" type="text" size="42" maxlength="255" style="padding: 5px;    margin-right: -8px;" onfocus="if(this.value=='Search this Site')this.value='';" value="Search this Site">
+      <input type="hidden" name="site" value="ERA_ALL">
+      <input id="affiliate" name="affiliate" type="hidden" value="era.nih.gov">
+    
+    <script type="text/javascript">
+    //<![CDATA[
+          var usasearch_config = { siteHandle:"era.nih.gov" };
+
+          var script = document.createElement("script");
+          script.type = "text/javascript";
+          script.src = "//search.usa.gov/javascripts/remote.loader.js";
+          document.getElementsByTagName("head")[0].appendChild(script);
+
+    //]]>
+    </script>
+
+      <i class="fa fa-fw fa-search" style="margin-left: -20px;" id="Go" name="commit"></i></form></div>
+     
+    <div class="sub-menu-search">
+      <ul class="sub-menu-list">
+        <li><a href="/faqs.htm" style="color:black !important">FAQS</a></li>
+        <li><a href="/about-era/get-connected.htm" style="color:black !important">Subscribe</a></li>
+        <li><a href="https://grants.nih.gov/grants/glossary.htm" style="color:black !important">Glossary</a></li>
+        <li><a href="https://inside.era.nih.gov" target="_blank" style="color:black !important"><img src="/themes/era2019/images/lock.png" width="14px" height="14px" style="margin-top: -4px;" alt="lock icon"> eRA Intranet</a></li>
+        <li style="border-right:none;"><a href="https://www.era.nih.gov/need-help" style="color:#CD040B;">Need Help?</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<style>
+
+
+
+</style>
+   <script type="text/javascript" src="/libraries/jquery-accessible-subnav-dropdown/jquery-accessible-subnav-dropdown.js"></script>
+
+
+      
+<!-- Main nav -->
+
+<div class="mobile-menu-area"  onclick="mobileview()"> <a href="javascript:void(0);" style="font-size:15px;margin-left:10px;color:#000" class="icon" >&#9776;</a> <a href="/search" style="font-size:15px;float:right; position: absolute; right: 0%;margin-right:10px;color:#000" class="search-icon" onclick="mobileview()"><i class="fa fa-fw fa-search"></i><span class="sr-only">Search</span></a>  </div>
+<div class="topnav" id="myTopnav">   <div class="centered-menu js-nav-system"> <a href="#" style="display:none"><span class="sr-only">Home</span></a> <a href="/" class="homeactiveitem mainmenu js-nav-system__link">Home</a>  
+    <div class="grantees js-nav-system__item"> <a href="/eracommons-timeline.htm" class="mainmenu js-nav-system__link " style="text-transform:none">NEW TO eRA COMMONS</a></div>
+    <div class="applicants js-nav-system__item"> <a href="/applicants" class="mainmenu js-nav-system__link ">Applicants</a>
+      <div class="applicants-menu hide js-nav-system__subnav">
+        <div class="sub-section-how-to-apply">
+          <h4>To Apply</h4>
+
+
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="https://grants.nih.gov/grants/How-to-Apply-Application-Guide.htm" class="js-nav-system__subnav__link">How to Apply — Application Guide</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="https://grants.nih.gov/grants/how-to-apply-application-guide/prepare-to-apply-and-register/submission-options/assist.htm" class="js-nav-system__subnav__link">Preparing Your Application Using ASSIST</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/applicants/system" class="js-nav-system__subnav__link">Information for System-to-System Developers</a></div>
+
+
+          
+
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/applicants/sek-prior-approval-applicants.htm" class="js-nav-system__subnav__link">Seek Prior Approval for Withdrawal of Application</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/applicants/reference-letter.htm" class="js-nav-system__subnav__link">Have a Referee Submit A Reference Letter (If Needed)</a></div>
+
+        </div>
+        <div class="sub-section-after-submission">
+          <h4>After Submission</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="https://grants.nih.gov/grants/how-to-apply-application-guide/submission-process/submit-track-view.htm" class="js-nav-system__subnav__link">Submit, Track, and View Application</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/applicants/view-ss-scores.htm" class="js-nav-system__subnav__link">View Review Outcome</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/applicants/submit-jit.htm" class="js-nav-system__subnav__link">Submit Just-in-Time (If Needed)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/view-notice-of-award.htm" class="js-nav-system__subnav__link">View Notice of Award</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="grantees js-nav-system__item"> <a href="/recipients" class="mainmenu js-nav-system__link  ">Recipients</a>
+      <div class="grantees-menu hide js-nav-system__subnav">
+        <!--<div class="sub-section-grantees" style="width: 40%;">
+         
+                    <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/view-notice-of-award.htm" class="js-nav-system__subnav__link">View Notice of Award</a></div>
+
+        </div>-->
+        <div class="sub-section-post-award-actions">
+          <h4>Post-Award Actions</h4>
+           <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/view-notice-of-award.htm" class="js-nav-system__subnav__link">View Notice of Award</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-reports" class="js-nav-system__subnav__link">Submit Reports</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/manage-publications.htm" class="js-nav-system__subnav__link">Manage Publications</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-no-cost-ext.htm" class="js-nav-system__subnav__link">Submit No Cost Extensions</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="https://era.nih.gov/iedison/iedison.htm" class="js-nav-system__subnav__link">Report Inventions (If Needed)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-relinq-statement.htm" class="js-nav-system__subnav__link">Submit Relinquishing Statement (If Needed)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="https://grants.nih.gov/grants/administrative-supplements.htm" class="js-nav-system__subnav__link">Submit Administrative Supplements</a></div>
+       <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/seek-prior-approval-for-withdrawal-of-grant" class="js-nav-system__subnav__link">Seek Prior Approval (If Needed)</a></div>
+           <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/manage-trainees-fellows.htm" class="js-nav-system__subnav__link">Manage Trainees, and Fellows</a></div>
+        </div>
+        <div class="sub-section-submit-closeout">
+          <h4>Closeout</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-closeout.htm" class="js-nav-system__subnav__link">Submit Closeout</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/financial-status-report.htm" class="js-nav-system__subnav__link">Submit Federal Financial Report (FFR)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-final-rppr.htm" class="js-nav-system__subnav__link">Submit Final RPPR</a></div>
+		   <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-final-invention-statement.htm" class="js-nav-system__subnav__link">Submit Final Invention Statement  </a></div>
+
+       
+<div style="border: 3px solid #268167;
+    padding: 10px;
+    margin-top: 30px;"><a href="/recipients/submitting-data-on-r-and-d-contracts">Submitting Data on R&D Contracts</a></div>
+
+        </div>
+      </div>
+    </div>
+    <div class="reviewers js-nav-system__item"><a href="/reviewers" class="mainmenu js-nav-system__link ">Reviewers</a>
+      <div class="reviewers-menu hide js-nav-system__subnav">
+        <div class="sub-section-premeeting">
+          <h4>Pre-Meeting</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/access-iar.htm" class="js-nav-system__subnav__link">Access IAR</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/personal-profile.htm" class="js-nav-system__subnav__link">Fill out Personal Profile; Reviewer Reimbursement Info</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/certify-confidentiality-statement.htm" class="js-nav-system__subnav__link">Certify Confidentiality Statement</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/check-conflicts.htm" class="js-nav-system__subnav__link">Check Conflicts (Recruitment Phase)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewer/pre-meeting-coi.htm" class="js-nav-system__subnav__link">Certify Pre-Meeting COI</a></div>
+
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/access-meeting-materials.htm" class="js-nav-system__subnav__link">Access Meeting Materials</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/access-applications.htm" class="js-nav-system__subnav__link">Access Applications</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/access-critique-templates.htm" class="js-nav-system__subnav__link">Access Critique Template(s)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/critique-scores.htm" class="js-nav-system__subnav__link">Submit &amp; Manage Critiques, Scores</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/view-all-critiques.htm" class="js-nav-system__subnav__link">View Other Reviewers Critiques</a></div>
+        </div> 
+        <div class="sub-section-atmeeting" style="margin-bottom: 60px;" >
+          <h4>At Meeting</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/submit-final-scores.htm" class="js-nav-system__subnav__link">Submit Final Scores</a></div>
+        </div>
+        <div class="sub-section-postmeeting" style="clear: right;">
+          <h4>Post-Meeting</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/post-meeting-coi.htm" class="js-nav-system__subnav__link">Certify Post-Meeting COI</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/edit-critiques.htm" class="js-nav-system__subnav__link">Edit Critiques</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="manage-accounts js-nav-system__item"> <a href="/register-accounts" class="mainmenu js-nav-system__link ">Accounts</a>
+      <div class="manage-accounts-menu hide js-nav-system__subnav">
+        <div class="sub-section-how-to">
+          <h4>How to</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/understanding-era-commons-accounts.htm" class="js-nav-system__subnav__link">Understanding eRA Commons Accounts</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/register-in-era-commons.htm" class="js-nav-system__subnav__link">Register in eRA Commons</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/manage-institutional-profile.htm" class="js-nav-system__subnav__link">Manage Institutional Profile</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/access-era-modules-via-login-gov.htm" class="js-nav-system__subnav__link">Two-Factor Authentication: <br> Access eRA Modules via Login.gov</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/access-modules-with-federated-account.htm" class="js-nav-system__subnav__link">Two-Factor Authentication: <br> Access eRA Modules via an InCommon Federated Account</a></div>
+        </div>
+        <div class="sub-section-manage-accounts">
+          <h4>Manage Accounts</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/create-and-edit-an-account.htm" class="js-nav-system__subnav__link">Create and Edit an Account</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/account-roles.htm" class="js-nav-system__subnav__link">Account Roles</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/manage-delegation.htm" class="js-nav-system__subnav__link">Manage Delegation</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/manage-personal-profile.htm" class="js-nav-system__subnav__link">Manage Personal Profile</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/change-password.htm" class="js-nav-system__subnav__link">Change Password</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/affiliation.htm" class="js-nav-system__subnav__link">Manage Affiliation</a></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="/news" class="mainmenu js-nav-system__link activeitem">News</a>
+    
+        
+    <a href="/about-era" class="mainmenu js-nav-system__link ">About <span style="text-transform: lowercase;">e</span>RA | AGENCY PARTNERSHIP</a> </div>
+
+
+
+<a href="/faqs.htm" class="mainmenu js-nav-system__link mobile-only">FAQs</a>
+<a href="/about-era/get-connected.htm" class="mainmenu js-nav-system__link mobile-only">Subscribe</a>
+<a href="https://grants.nih.gov/grants/glossary.htm" class="mainmenu js-nav-system__link mobile-only">Glossary</a>
+<a href="https://inside.era.nih.gov/" class="mainmenu js-nav-system__link mobile-only">eRA Intranet</a>
+<a href="https://www.era.nih.gov/need-help" class="mainmenu js-nav-system__link mobile-only">Need Help?</a>
+
+
+</div>
+<div style="height:4px; background-color:#41505f"></div>
+ 
+
+<!--Gray background for breadcrumbs that does not display on the home page-->
+<div class="graybackground-breadcrumbs"></div>
+    
+
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  <div role="main" class="main-container container js-quickedit-main-content">
+    <div class="row">
+
+                              <div class="col-sm-12" role="heading">
+              <div class="region region-header">
+      
+
+
+
+  <ol class="breadcrumb">
+
+
+
+		        <li >
+                  <a href="/">Home</a>
+              </li>
+          <li >
+                  News
+              </li>
+    
+   
+  </ol>
+
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+          </div>
+              
+            
+                  <section class="col-sm-12">
+      
+    
+                
+                
+                          <a id="main-content"></a>
+            <div class="region region-content">
+        <h1 class="page-header">News</h1>
+
+<section id="block-newsblock" class="block block-block-content block-block-content7db7f5b9-2071-40b1-8207-f3055866a893 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><style>
+  .warning-background {
+    background-color: #f8ebeb;
+    padding: 15px;
+    border-left: 7px solid #992929;
+    margin: 20px;
+    margin-left: 0px;
+    width: 100%;
+}
+  
+    .note-background {
+    background-color: #ffefcd;;
+    padding: 15px;
+    border-left: 7px solid #ffc012;
+    margin: 20px;
+    margin-left: 0px;
+    width: 100%;
+</style>
+
+<div class="note-background">
+If you would like to receive these news articles in your mailbox, click the <a href="https://era.nih.gov/about-era/get-connected.htm"> Subscribe </a> link in the banner above.
+</div>
+
+</div>
+      
+  </section>
+  <div class="views-element-container form-group"><div class="view view-news view-id-news view-display-id-page_1 js-view-dom-id-db8fa347e04465e200c151c8d384ec8007e659a8132bb0487c2a5b4c8ec1206b">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-new-contracts-screen-link-era-commons-improving-nih-rd-contracts-data-pilot" hreflang="en">eRA Information: New Contracts Screen &amp; Link in eRA Commons for Improving NIH R&amp;D Contracts Data; Pilot Program to Begin May 15</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/11/23</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-select-withdrawn-nih-applications-will-display-grant-number-appended-d-era" hreflang="en">eRA Information: Select Withdrawn NIH Applications Will Display a Grant Number Appended with ‘D’ in eRA Commons Effective April 26</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/25/23</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-intermittent-difficulty-accessing-grantsgov-reminder-nih-system-issue-policy.htm-0" hreflang="en">eRA Alert: Intermittent Difficulty Accessing Grants.gov; Reminder of NIH System Issue Policy </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/04/23</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-redesigned-xtrain-module-be-released-tomorrow-march-30.htm" hreflang="en">eRA Reminder: Redesigned xTrain Module To Be Released Tomorrow, March 30</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/29/23</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-intermittent-difficulty-accessing-grantsgov-reminder-nih-system-issue-policy.htm" hreflang="en">eRA Alert: Intermittent Difficulty Accessing Grants.gov; Reminder of NIH System Issue Policy</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/23/23</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-redesigned-xtrain-module-era-commons-coming-march-30.htm" hreflang="en">eRA Enhancements: Redesigned xTrain Module in eRA Commons Coming on March 30</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/16/23</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-forms-h-package-grant-applications-coming-soon.htm" hreflang="en">eRA Enhancements: New FORMS-H Package for Grant Applications Coming Soon</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/27/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-ability-bypass-2-business-day-viewing-window-option-electronic-administrative" hreflang="en">eRA Enhancements: Ability to Bypass 2 Business Day Viewing Window as an Option for Electronic Administrative Supplements Coming Tomorrow, October 27</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/26/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-status-information-screen-released-today-october-26.htm" hreflang="en">eRA Enhancements: New Status Information Screen Released Today, October 26</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/26/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-status-screens-signing-officials-be-released-october-27.htm" hreflang="en">eRA Enhancements: New Status Screens for Signing Officials to Be Released October 27</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/25/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-samhsa-applicantsrecipients-please-press-4-when-calling-era-service-desk.htm" hreflang="en">eRA Information: SAMHSA Applicants/Recipients — Please Press 4 When Calling the eRA Service Desk</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/13/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-look-status-information-screen-era-commons-coming-soon.htm" hreflang="en">eRA Enhancements: New Look for Status Information Screen in eRA Commons Coming Soon</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/03/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-grantsgov-downtime-september-23-29-information-and-advice-applicantsrecipients" hreflang="en">eRA Information: Grants.gov Downtime September 23-29 — Information and Advice for Applicants/Recipients </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">08/25/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-form-versions-prior-forms-e-will-be-retired-assist-august-31.htm" hreflang="en">eRA Information: Form Versions Prior to FORMS-E Will Be Retired in ASSIST On August 31</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">08/16/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-nist-has-launched-new-iedison-system-following-transfer-nih-era.htm" hreflang="en">eRA Information: NIST Has Launched New iEdison System, Following Transfer From NIH eRA</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">08/09/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-iedison-system-going-offline-august-2-new-nist-iedison-launch-august-9.htm" hreflang="en">eRA Reminder: iEdison System Going Offline on August 2; New NIST iEdison to Launch on August 9</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">07/27/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-ability-users-consolidate-multiple-commons-accounts-coming-early-2023.htm" hreflang="en">eRA Update: Ability for Users to Consolidate Multiple Commons Accounts Coming in Early 2023</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">07/26/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-logingov-maintenance-thursday-july-21-1-am-430-am-et.htm" hreflang="en">eRA Alert: Login.gov Maintenance Thursday, July 21 from 1 a.m. to 4:30 a.m. ET</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">07/18/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-visual-appearance-public-roster-website-coming-july-14.htm" hreflang="en">eRA Enhancements: New Visual Appearance for Public Roster Website Coming on July 14</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">07/12/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-nih-transfer-iedison-system-nist-august-9-2022-take-steps-now-prepare" hreflang="en">eRA Information: NIH to Transfer iEdison System to NIST on August 9, 2022; Take Steps Now to Prepare for Transition and Associated System Downtime </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">06/27/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-updated-research-performance-progress-report-rppr-screens-released-today.htm" hreflang="en">eRA Reminder: Updated Research Performance Progress Report (RPPR) Screens Released Today</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">06/23/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-look-fcoi-module-be-released-era-commons-june-30.htm" hreflang="en">eRA Enhancements: New Look for FCOI Module to Be Released in eRA Commons on June 30</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">06/23/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-reminder-new-visual-appearance-coming-june-23-research-performance-progress" hreflang="en">eRA Enhancements: Reminder that a New Visual Appearance  is Coming June 23 to Research Performance Progress Report (RPPR) Module in eRA Commons</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">06/16/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-performance-sites-research-performance-progress-report-rppr-require-uei-effective" hreflang="en">eRA Alert: Performance Sites of Research Performance Progress Report (RPPR) Require UEI Effective June 23</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/26/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-action-required-progress-rppr-budget-forms-due-rppr-update-june-23-updated-rppr.htm" hreflang="en">eRA Alert: Action Required for In-Progress RPPR Budget Forms Due to RPPR Update June 23; Updated RPPR Instruction Guide Available</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/16/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-look-delegations-era-commons-released-today-monday-may-16.htm" hreflang="en">eRA Enhancements: New Look for Delegations in eRA Commons Released Today, Monday, May 16 </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/16/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-uei-field-will-be-added-institutional-profile-era-commons-tomorrow-may-12.htm" hreflang="en">eRA Information: UEI Field Will be Added to Institutional Profile in eRA Commons Tomorrow, May 12</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/11/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/refreshed-era-website-launched-today.htm" hreflang="en">Refreshed eRA Website Launched Today</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/25/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-refreshed-public-era-website-coming-soon.htm" hreflang="en">eRA Enhancements: Refreshed Public eRA Website Coming Soon</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/13/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-samgov-unavailable-april-1-4-2022-transition-duns-uei.htm" hreflang="en">eRA Information: SAM.gov Unavailable April 1 – 4, 2022 for Transition from DUNS to UEI</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/31/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-iedison-move-nih-era-nist-summer-2022-action-required-users.htm" hreflang="en">eRA Information: iEdison to Move from NIH eRA to NIST in Summer 2022; Action Required By Users</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/30/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-commons-mobile-site-retiring-april-25-use-mobile-friendly-status-screen-era" hreflang="en">eRA Information: Commons Mobile Site Retiring April 25; Use the Mobile-Friendly Status Screen in eRA Commons Instead</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/25/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-ability-users-consolidate-multiple-commons-accounts-coming-summer-2022.htm" hreflang="en">eRA Information: Ability for Users to Consolidate Multiple Commons Accounts Coming in Summer 2022</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/07/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-look-coming-march-7-prior-approval-module-era-commons.htm" hreflang="en">eRA Enhancements: New Look Coming March 7 to Prior Approval Module in eRA Commons</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/04/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-new-wizard-feature-coming-tomorrow-march-2-era-commons-registration-screens" hreflang="en">eRA Information: New Wizard-Like Feature Coming Tomorrow, March 2, to eRA Commons Registration Screens </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/01/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-forms-g-changes-be-reflected-human-subjects-clinical-trials-form-february-10" hreflang="en">eRA Information: FORMS-G Changes to be Reflected in Human Subjects Clinical Trials Form on February 10 – Action Required by Users</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">02/09/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-look-coming-january-20-federal-financial-report-module-era-commons.htm" hreflang="en">eRA Enhancements: New Look Coming January 20 to Federal Financial Report Module in eRA Commons</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">01/13/22</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-new-mandatory-award-condition-radx-recipients-specific-nosisfoas.htm" hreflang="en">eRA Information: New Mandatory Award Condition for RADx-UP Recipients for Specific NOSIs/FoAs</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">12/23/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-password-moving-passphrase-era-commons-users-starting-november-17-2021.htm" hreflang="en">eRA Reminder: Password Moving to Passphrase for eRA Commons Users Starting November 17, 2021</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">11/12/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-errors-non-compliance-clinical-trial-registration-and-reporting-time" hreflang="en">eRA Enhancements: New Errors for Non-Compliance with Clinical Trial Registration and Reporting at Time of Award and in RPPR in a Release Today</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/01/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/new-look-and-feel-submit-reference-letter-screen-era-commons.htm" hreflang="en">New Look and Feel for Submit Reference Letter Screen in eRA Commons</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">09/29/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-prior-name-options-personal-profile-coming-september-8.htm" hreflang="en">eRA Enhancements: New Prior Name Options in Personal Profile Coming September 8</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">09/01/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-final-reminder-use-internet-explorer-access-era-modules-ends-july-19-2021-switch-supported" hreflang="en">eRA Final Reminder: The Use of Internet Explorer to Access eRA Modules Ends July 19, 2021; Switch to Supported Browsers</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">07/12/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-switch-supported-browsers-use-internet-explorer-be-phased-out-july-19-2021.htm" hreflang="en">eRA Reminder: Switch to Supported Browsers, the Use of Internet Explorer to be Phased Out by July 19, 2021 </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">06/21/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-switch-now-secure-use-logingov-access-era-modules-deadline-september-15-2021.htm" hreflang="en">eRA Reminder: Switch Now to the Secure Use of Login.gov to Access eRA Modules Before the Deadline of September 15, 2021</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/27/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-reminder-flatten-pdfs-just-time-and-rppr-uploading-era-commons.htm" hreflang="en">eRA Information: Reminder to “Flatten” PDFs for Just-in-Time and RPPR Before Uploading to eRA Commons </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/19/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-logingov-unavailable-friday-may-14-1-am-430-am-et.htm" hreflang="en">eRA Information: Login.gov Unavailable Friday, May 14, 1 a.m. to 4:30 a.m. ET</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/11/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-iar-button-added-era-commons-landing-screen-today.htm" hreflang="en">eRA Reminder: IAR Button Added to eRA Commons Landing Screen Today</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/03/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-iar-button-be-added-era-commons-landing-screen-monday-may-3.htm" hreflang="en">eRA Information: IAR Button to be Added to eRA Commons Landing Screen on Monday, May 3</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/26/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/all-seniorkey-personnel-required-get-commons-id-due-dates-or-after-january-25-2022.htm" hreflang="en">All Senior/Key Personnel Required to Get A Commons ID for Due Dates on Or After January 25, 2022</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/20/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-maintenance-downtime-saturday-april-24-10-am-10-pm-systems-unavailable.htm" hreflang="en">eRA Alert: Maintenance Downtime Saturday, April 24 from 10 a.m. to 10 p.m.; Systems Unavailable</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/19/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-use-internet-explorer-era-modules-be-phased-out-july-19-2021.htm" hreflang="en">eRA Information: Use of Internet Explorer for eRA Modules to be Phased Out by July 19, 2021</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/12/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-external-user-acceptance-testing-ext-uat-environment-downtime-monday-april-26" hreflang="en">eRA Information: External User Acceptance Testing (Ext-UAT) Environment Downtime Monday, April 26, 2021</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/01/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-switch-early-new-secure-two-factor-authentication-required-access-era-modules.htm" hreflang="en">eRA Reminder: Switch Early to the New Secure Two-Factor Authentication Required to Access eRA Modules</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">02/16/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-new-era-commons-login-and-landing-screens-have-arrived.htm" hreflang="en">eRA Reminder: New eRA Commons Login and Landing Screens Have Arrived!</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">01/12/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-transition-early-use-logingov-access-era-commons-assist-iar-and-commons-mobile" hreflang="en">eRA Reminder: Transition Early to Use of Login.gov to Access eRA Commons, ASSIST, IAR and Commons Mobile </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">01/11/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-new-era-commons-login-and-landing-screens-coming-january12-watch-new-navigation" hreflang="en">eRA Reminder: New eRA Commons Login and Landing Screens Coming January12; Watch for New Navigation Once Logged In </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">01/07/21</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-federal-financial-report-required-be-submitted-payment-management-system" hreflang="en">eRA Information: Federal Financial Report Required to be Submitted in the Payment Management System, Starting January 1, 2021</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">12/21/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-new-era-commons-log-and-landing-screens-scheduledfor-release-january-12.htm" hreflang="en">eRA Update: New eRA Commons Log-in and Landing Screens Scheduledfor Release January 12 </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">12/18/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-required-use-logingov-access-era-commons-assist-iar-and-commons-mobile-coming" hreflang="en">eRA Information: Required Use of Login.gov to Access eRA Commons, ASSIST, IAR and Commons Mobile Coming in 2021 </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">12/14/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancement-ability-search-and-report-multiple-publications-xtract-research-training-data" hreflang="en">eRA Enhancement: Ability to Search and Report Multiple Publications in xTRACT for Research Training Data Tables</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">12/10/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancement-new-era-commons-home-page-landing-screen-coming-january-2021.htm" hreflang="en">eRA Enhancement: New eRA Commons Home Page &amp; Landing Screen Coming in January 2021</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">12/03/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-rppr-submissions-issue-resolved-era-commons.htm" hreflang="en">eRA Update: RPPR Submissions Issue Resolved in eRA Commons  </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">11/18/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-technical-issue-rppr-submissions-near-resolution.htm" hreflang="en">eRA Update: Technical Issue with RPPR Submissions Is Near Resolution</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">11/17/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-technical-issue-rppr-submissions-era-commons.htm" hreflang="en">eRA Alert: Technical Issue with RPPR Submissions in eRA Commons  </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">11/16/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-external-user-acceptance-testing-ext-uat-environment-downtime-friday-november" hreflang="en">eRA Information: External User Acceptance Testing (Ext-UAT) Environment Downtime Friday, November 6, 8 p.m. to Midnight</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">11/02/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancement-new-features-coming-just-time-screen-era-commons-tomorrow-friday-october-30" hreflang="en">eRA Enhancement: New Features Coming to Just-in-Time Screen in eRA Commons Tomorrow, Friday, October 30</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/29/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/automated-trainee-diversity-report-required-be-submitted-electronically-rppr-specified" hreflang="en">Automated Trainee Diversity Report Required to be Submitted Electronically with RPPR for Specified Training, Career and Other Grants Starting October 30, 2020</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/22/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-institutions-must-submit-fcoi-policy-electronically-era-commons-effective-0" hreflang="en">eRA Enhancements: Institutions Must Submit FCOI Policy Electronically in eRA Commons, Effective November 12, 2020</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/22/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-institutions-must-submit-fcoi-policy-electronically-era-commons-effective" hreflang="en">eRA Enhancements: Institutions Must Submit FCOI Policy Electronically in eRA Commons, Effective November 12, 2020</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/22/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-log-issue-intermittently-affecting-era-systems.htm" hreflang="en">eRA Alert: Log-in Issue Intermittently Affecting eRA Systems</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/19/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-intermittent-log-issue-resolved.htm" hreflang="en">eRA Update: Intermittent Log-in Issue Resolved</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/19/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-nih-encourages-sos-review-accuracy-grant-information-fy-2020-october-2.htm" hreflang="en">eRA Information: NIH Encourages SOs to Review the Accuracy of Grant Information for FY 2020 Before October 2</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">09/23/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancement-ability-select-awarded-components-rppr-screen-instead-manually-adding-multi" hreflang="en">eRA Enhancement: Ability to Select Awarded Components on RPPR Screen, Instead of Manually Adding for Multi-Project Awards</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">09/01/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-assist-era-commons-login-screens-issue-resolved.htm" hreflang="en">eRA Update: ASSIST &amp; eRA Commons Login Screens Issue Resolved</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">08/12/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-issue-affecting-assist-era-commons-login-screens.htm" hreflang="en">eRA Alert: Issue Affecting ASSIST &amp; eRA Commons Login Screens</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">08/12/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancement-change-format-notice-award-starting-october-1-2020.htm" hreflang="en">eRA Enhancement: Change in Format to the Notice of Award Starting October 1, 2020</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">08/05/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-use-assist-expanded-submission-administrative-supplements.htm" hreflang="en">eRA Information: Use of ASSIST Expanded for Submission of Administrative Supplements</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">07/22/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-overall-impact-score-and-summary-statements-available-signing-officials-starting" hreflang="en">eRA Reminder: Overall Impact Score and Summary Statement(s) Available to Signing Officials Starting Today </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">06/24/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-overall-impact-score-and-summary-statements-available-signing-officials" hreflang="en">eRA Information: Overall Impact Score and Summary Statement(s) Available to Signing Officials Starting June 24 </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">06/18/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-changes-hss-post-submission-updates-forms-f-starting-june-13.htm" hreflang="en">eRA Information: Changes in HSS Post-Submission Updates with FORMS-F Starting June 13</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">06/15/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-extended-hours-eras-scheduled-maintenance-may-9-10-weekend-systems-unavailable" hreflang="en">eRA Information: Extended Hours for eRA’s Scheduled Maintenance on the May 9-10 Weekend; Systems Unavailable </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/04/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-xtract-and-xtrain-changes-accommodate-transition-forms-f-due-dates-or-after-may" hreflang="en">eRA Reminder: xTRACT and xTrain Changes to Accommodate Transition to FORMS-F for Due Dates on or After May 25, 2020</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/24/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-migration-era-systems-cloud-successfully-completed-all-modules-available.htm" hreflang="en">eRA Update: Migration of eRA Systems to the Cloud Successfully Completed: All Modules Available</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/20/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-transition-forms-f-due-dates-or-after-may-25-2020.htm" hreflang="en">eRA Information: Transition to FORMS-F for Due Dates on or After May 25, 2020</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/17/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-final-reminder-era-modules-will-be-unavailable-tomorrow-friday-april-17-through-monday" hreflang="en">eRA Final Reminder: eRA Modules Will Be Unavailable Tomorrow Friday, April 17 Through Monday, April 20 During Cloud Migration </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/16/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-era-modules-will-be-unavailable-april-17-april-20-during-cloud-migration.htm" hreflang="en">eRA Information: eRA Modules Will Be Unavailable April 17 to April 20 During Cloud Migration </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/13/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-two-factor-authentication-login-option-available-today.htm" hreflang="en">eRA Reminder: Two-Factor Authentication Login Option Available Today</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/08/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-era-moving-cloud-era-modules-will-be-unavailable-april-17-april-20.htm" hreflang="en">eRA Reminder: eRA Moving to the Cloud; eRA Modules Will Be Unavailable April 17 to April 20</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/07/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancement-assist-has-been-streamlined-support-easier-initiation-and-submission" hreflang="en">eRA Enhancement: ASSIST Has Been Streamlined to Support Easier Initiation and Submission of Administrative Supplements </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/07/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancement-two-factor-authentication-login-option-coming-era-modules.htm" hreflang="en">eRA Enhancement: Two Factor Authentication Login Option Coming to eRA Modules</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/06/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-intermittent-network-connectivity-issue-resolved.htm" hreflang="en">eRA Update: Intermittent Network Connectivity Issue Resolved</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/18/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-intermittent-network-connectivity-affecting-assist-and-esubmission.htm" hreflang="en">eRA Alert: Intermittent Network Connectivity Affecting ASSIST and eSubmission </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/17/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/tls-11-be-decommissioned-make-way-updated-security-protocol.htm" hreflang="en">TLS 1.1 to be Decommissioned to Make Way for Updated Security Protocol</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">02/25/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/nih-era-items-interest-january-2020.htm" hreflang="en">NIH eRA Items of Interest — January 2020</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">01/31/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-all-era-modules-and-websites-unavailable-thursday-january-16-6-pm-930-pm-et" hreflang="en">eRA Information: All eRA Modules and Websites Unavailable Thursday, January 16 from 6 P.M. to 9:30 P.M. ET For Critical Maintenance</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">01/15/20</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-enhancements-xtract-reporting-coming-december-release.htm" hreflang="en">eRA Information: Enhancements to xTRACT Reporting Coming in December Release</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">12/17/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-reminder-requirements-start-october-1-use-orcid-ids-xtrain-appointments-and-use-xtract" hreflang="en">eRA Reminder: Requirements Start October 1 for the Use of ORCID iDs for xTrain Appointments and the Use of xTRACT for Training Tables </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">10/01/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-issue-blank-pages-grant-application-images-has-been-resolved.htm" hreflang="en">eRA Update: The Issue with Blank Pages in Grant Application Images Has Been Resolved</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">09/20/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-reminder-thoroughly-check-grant-application-images-era-commons.htm" hreflang="en">eRA Alert: Reminder to Thoroughly Check Grant Application Images in eRA Commons </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">09/11/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-era-website-unavailable-june-26-730-930-pm-et.htm" hreflang="en">eRA Information: eRA Website Unavailable June 26 from 7:30 – 9:30 p.m. ET </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">06/20/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-users-experiencing-issues-era-commons-assist-and-iar.htm" hreflang="en">eRA Alert: Users Experiencing Issues with eRA Commons, ASSIST and IAR</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/29/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-issue-resolved-era-commons-assist-and-iar.htm" hreflang="en">eRA Update: Issue Resolved with eRA Commons, ASSIST and IAR </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/29/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-users-receiving-error-accessing-era-modules.htm" hreflang="en">eRA Alert: Users Receiving an Error Accessing eRA Modules</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/28/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-issue-preventing-users-accessing-era-modules-has-been-resolved.htm" hreflang="en">eRA Update: The Issue Preventing Users from Accessing eRA Modules Has Been Resolved</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/28/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-external-user-acceptance-testing-ext-uat-environment-downtime-june-1-starting" hreflang="en">eRA Information: External User Acceptance Testing (Ext-UAT) Environment Downtime June 1, Starting at 9 a.m. ET</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/23/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-era-modules-back-normal-network-issue-resolved.htm" hreflang="en">eRA Update: eRA Modules Back to Normal as Network Issue Resolved</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/09/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-era-modules-affected-intermittent-network-outages.htm" hreflang="en">eRA Alert: eRA Modules Affected by Intermittent Network Outages</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/09/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-intermittent-issues-when-submitting-rpprs-publications-and-possible-issues" hreflang="en">eRA Alert: Intermittent Issues When Submitting RPPRs with Publications and Possible Issues with Publications in xTRACT</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/03/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-intermittent-issues-publications-affecting-rpprs-and-xtract-have-been-resolved.htm" hreflang="en">eRA Update: The Intermittent Issues with Publications Affecting RPPRs and xTRACT Have Been Resolved</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/03/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-rpprs-publications-can-once-again-be-submitted.htm" hreflang="en">eRA Update: RPPRs With Publications Can Once Again be Submitted</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/02/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-hold-submitting-rpprs-publications-now.htm" hreflang="en">eRA Alert: Hold off on Submitting RPPRs with Publications For Now </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/01/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-newly-redesigned-era-website-launched.htm" hreflang="en">eRA Update: Newly Redesigned eRA Website is Launched! </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/30/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-new-redesigned-era-website-be-launched-april-30-2019.htm" hreflang="en">eRA Information: New Redesigned eRA Website To Be Launched April 30, 2019 </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/23/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-connection-issue-era-systems-has-been-resolved.htm" hreflang="en">eRA Update: Connection Issue to eRA Systems Has Been Resolved</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/14/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-era-commons-upgrades-validations-and-messages-rppr-have-been-rescheduled-march-4" hreflang="en">eRA Update: eRA Commons Upgrades for Validations and Messages for RPPR Have Been Rescheduled for March 4 </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/01/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-commons-upgrades-rppr-rescheduled-march-4.htm" hreflang="en">eRA Commons Upgrades for RPPR - rescheduled for March 4</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">03/01/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-commons-upgrades-rppr-have-been-postponed.htm" hreflang="en"> eRA Commons Upgrades for RPPR Have Been Postponed</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">02/27/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-update-era-commons-upgrades-validations-and-messages-rppr-have-been-postponed.htm" hreflang="en">eRA Update: eRA Commons Upgrades for Validations and Messages for RPPR Have Been Postponed </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">02/27/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-enhancements-new-ability-export-study-records-human-subjects-system.htm" hreflang="en">eRA Enhancements: New Ability to Export Study Records From the Human Subjects System</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">02/26/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-new-validations-and-messages-rppr.htm" hreflang="en">eRA Information: New Validations and Messages for RPPR</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">02/25/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-issues-concerning-logging-era-commons-and-assist.htm" hreflang="en">eRA Information: Issues Concerning Logging into eRA Commons and ASSIST</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">02/19/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-users-experiencing-connection-issues-era-systems.htm" hreflang="en">eRA Alert: Users Experiencing Connection Issues to eRA Systems</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">02/14/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/assist-application-previews-prior-dec-12-be-removed.htm" hreflang="en">ASSIST Application Previews Prior to Dec. 12 To Be Removed </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">01/30/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/new-validations-hss-form-when-completing-rppr.htm" hreflang="en">New Validations for HSS Form When Completing an RPPR</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">01/23/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-new-2-step-submission-process-rpprs-inclusion-enrollment-data.htm" hreflang="en">eRA Information: New 2-Step Submission Process for RPPRs with Inclusion Enrollment Data</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">01/22/19</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-detailed-status-information-unavailable-900-1000-pm.htm" hreflang="en">eRA Information: Detailed Status Information Unavailable from 9:00 to 10:00 p.m.</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">01/14/19</span></span></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="archive-link-btn"><a href="/news/archive.htm">eRA News Archive</a>
+</div><h1><br>eRA Items of Interest <hr></h1>
+<h3>  <a href="/news/nih-era-items-interest-august-2019.htm"> NIH eRA Items of Interest - August 2019 </a></h3>
+<ul>
+<li><a href="/news/nih-era-items-interest-august-2019.htm#hi"> More on ESI </a> </li> 
+<li><a href="/news/nih-era-items-interest-august-2019.htm#goodinfo">Information is Good (Unfunded Applications)</li> 
+</ul>
+
+<h3>  <a href="/news/nih-era-items-interest-july-2019.htm"> NIH eRA Items of Interest - July 2019 </a></h3>
+<ul>
+<li><a href="/news/nih-era-items-interest-july-2019.htm#orcid"> The Beauty of Being Unique (ORCID iD) </a> </li> 
+<li><a href="/news/nih-era-items-interest-july-2019.htm#esi">Badda Bing, Badda Boom! (ESI Status Extension)</li> 
+<li><a href="/news/nih-era-items-interest-july-2019.htm#xtract">What’s in a Name? (xTRACT)</li> 
+<li><a href="/news/nih-era-items-interest-july-2019.htm#regional">Like a Phoenix (NIH Regional Seminar) </li> 
+</ul>
+
+
+<h3>  <a href="/news/era-item-march2019.htm">NIH eRA Items of Interest - March 2019 </a></h3>
+<ul>
+<li><a href="/news/era-item-march2019.htm#best">The Best Present Ever!  </a> </li> 
+<li><a href="/news/era-item-march2019.htm#regional">NIH Regional Seminar at Baltimore </li> 
+</ul>
+
+
+<h3>    <a href="/news/nih-era-items-interest-february-2019.htm">NIH eRA Items of Interest - February 2019 </a></h3>
+<ul>
+<li><a href="/news/nih-era-items-interest-february-2019.htm#kee">“Kee-wik Wik” Queries Doin’ A Waltz</a> </li> 
+<li><a href="/news/nih-era-items-interest-february-2019.htm#regional"> NIH Regional Seminar at Baltimore </li> 
+</ul>
+
+
+ <h3> <a href="/news/era-item-August2018.htm">NIH eRA Items of Interest - August 2018</a></h3>
+<ul>
+<li><a href="/news/era-item-August2018.htm#happy-aniversary">Haaappy Anniversary! </a> </li> 
+<li><a href="/news/era-item-August2018.htm#golden_gate">From Golden Gates to Nuggets of Knowledge</li> 
+</ul>
+
+
+<div class="archive-link-btn"><a href="/news-and-events/era-items.htm">eRA Items of Interest Archive</a>
+</div>
+    </div>
+    </div>
+</div>
+
+
+  </div>
+
+        
+     
+        
+        
+  
+  
+  
+<!-- Embeded survey --> 
+	<div id="embed-survey" style="clear:left; margin-top:20px"></div> 
+
+         		  <style>
+
+
+#close{
+    display:inline;
+    position: fixed;
+    top: 5%;
+    left: 90%;
+    float:right;
+    width:30px;
+    height:29px;
+    background:url(/images/close_icon-l.png) no-repeat center center;
+    z-index:-1
+}
+
+
+</style>
+
+<script>
+
+//This adds the lightbox feature to every image in the body area aka .main-container
+      $('.main-container img').each(function() { // For each image
+
+
+       if (!$(this).is(".nobaguettebox")) {
+              var $img = $(this),
+            href = $img.attr('src');
+        $img.wrap('<a class="baguetteBox gallery" href="' + href + '"></a>');
+    }
+      });
+
+
+
+</script>		  
+
+      </section>
+
+                </div>
+  </div>
+
+
+
+
+ <div class ="page-updated">
+      </div>
+  
+
+
+
+  </div>
+
+    
+
+    
+<script>
+$(document).ready(function(){
+
+
+
+
+
+
+  //This toggles the leftnav for the Reviewers section
+  $(".main-section-premeeting h4, .main-section-premeeting .arrows").click(function(){
+    $(".main-section-premeeting .section-item").slideToggle("slow");
+  
+    $(".main-section-premeeting .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+   $(".main-section-atmeeting h4, .main-section-atmeeting .arrows").click(function(){
+    $(".main-section-atmeeting .section-item").slideToggle("slow");
+    $(".main-section-atmeeting .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+   $(".main-section-postmeeting h4, .main-section-postmeeting .arrows").click(function(){
+    $(".main-section-postmeeting .section-item").slideToggle("slow");
+    $(".main-section-postmeeting .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+
+ //This toggles the leftnav for the Applicants section
+  $(".main-section-how-to-apply h4, .main-section-how-to-apply .arrows").click(function(){
+    $(".main-section-how-to-apply .section-item").slideToggle("slow");
+    $(".main-section-how-to-apply .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+   $(".main-section-after-submission h4, .main-section-after-submission .arrows").click(function(){
+    $(".main-section-after-submission .section-item").slideToggle("slow");
+    $(".main-section-after-submission .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+
+   //This toggles the leftnav for the Grantees section
+  $(".main-section-post-award-actions h4, .main-section-post-award-actions .arrows").click(function(){
+    $(".main-section-post-award-actions .section-item").slideToggle("slow");
+    $(".main-section-post-award-actions .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+   $(".main-section-submit-closeout h4, .main-section-submit-closeout .arrows").click(function(){
+    $(".main-section-submit-closeout .section-item").slideToggle("slow");
+    $(".main-section-submit-closeout .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+
+  //This toggles the leftnav for the Manage Accounts section
+  $(".main-section-how-to h4, .main-section-how-to .arrows").click(function(){
+    $(".main-section-how-to .section-item").slideToggle("slow");
+    $(".main-section-how-to .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+   $(".main-section-manage-accounts h4, .main-section-manage-accounts .arrows").click(function(){
+    $(".main-section-manage-accounts .section-item").slideToggle("slow");
+    $(".main-section-manage-accounts .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+
+
+// $('.applicants').hover(function(e) {
+  //  e.preventDefault();
+   //  $('.applicants-menu').stop().toggleClass('hide');
+  
+ // });
+
+ 
+ //$('.grantees').hover(function(e) {
+   //e.preventDefault();
+  //    $('.grantees-menu').stop().toggleClass('hide');
+        
+//});
+
+ //$('.reviewers').hover(function(e) {
+   // e.preventDefault();
+   //    $('.reviewers-menu').stop().toggleClass('hide');
+  //  });
+
+// $('.manage-accounts').hover(function(e) {
+ //  e.preventDefault();
+ //    $('.manage-accounts-menu').stop().toggleClass('hide');
+    
+//});
+
+// These are needed because the tab through menu feature does not load the hide 
+// submenu fast enough when the page loads, so the hide class is applied to all 
+// the submenus and then this code removes it so it does not interfer with the
+// keyboard tab feature. I know it sounds dumb but it works. ¯\_(ツ)_/¯  
+ 
+ $(".applicants-menu").removeClass("hide");
+ $(".grantees-menu").removeClass("hide");
+ $(".reviewers-menu").removeClass("hide");
+ $(".manage-accounts-menu").removeClass("hide");
+
+
+
+ $('.news').hover(function(e) {
+   e.preventDefault();
+     $('.news-menu').stop().toggleClass('hide');
+});
+
+ $('.help-and-tutorials').hover(function(e) {
+   e.preventDefault();
+     $('.help-and-tutorials-menu').stop().toggleClass('hide');
+});
+
+ $('.about').hover(function(e) {
+   e.preventDefault();
+     $('.about-menu').stop().toggleClass('hide');
+});
+
+
+//This adds the active-nav class to the items in the leftnav when the user is on that page
+  var loc = window.location.pathname;
+
+var segment_str = window.location.pathname; // return segment1/segment2/segment3/segment4
+var segment_array = segment_str.split( '/' );
+var last_segment_loc = segment_array[segment_array.length - 2];
+
+
+  $('.main-section-premeeting').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+          $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+   });
+
+   $('.main-section-atmeeting').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-postmeeting').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-how-to-apply').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-after-submission').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-grantees').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+      
+
+  });
+
+ $('.main-section-post-award-actions').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+     
+  });
+
+
+ // For leftnavs that have menu items which will have sub items instead of displaying them in the leftnav we want to highlight
+ // the parent item. To do this easier this looks at the parent url and applies several styles to get the gray highlight effect 
+if((window.location.href.indexOf("/grantees/submit-reports") > -1) || (window.location.href.indexOf("/recipients/submit-reports") > -1)){
+   
+  $('a[href^="/grantees/submit-reports"]').addClass("active-nav2");
+   $('a[href^="/recipients/submit-reports"]').addClass("active-nav2");
+
+    $(".active-nav").next("div").toggleClass("hide");
+    $(".active-nav2").next("div").toggleClass("hide");
+
+$(".js-nav-system__subnav__link.active-nav2").removeClass("active-nav2");
+$(".js-nav-system__subnav__link.active-nav").removeClass("active-nav");
+}
+  
+
+ // For leftnavs that have menu items which will have sub items instead of displaying them in the leftnav we want to highlight
+ // the parent item. To do this easier this looks at the parent url and applies several styles to get the gray highlight effect 
+if((window.location.href.indexOf("/grantees/seek-prior-approval-for-withdrawal-of-grant") > -1) || (window.location.href.indexOf("/recipients/seek-prior-approval-for-withdrawal-of-grant") > -1)){
+   
+  $('a[href^="/grantees/seek-prior-approval-for-withdrawal-of-grant"]').addClass("active-nav2");
+  $('a[href^="/recipients/seek-prior-approval-for-withdrawal-of-grant"]').addClass("active-nav2");
+
+    $(".active-nav").next("div").toggleClass("hide");
+    $(".active-nav2").next("div").toggleClass("hide");
+
+    $(".js-nav-system__subnav__link.active-nav2").removeClass("active-nav2");
+$(".js-nav-system__subnav__link.active-nav").removeClass("active-nav");
+
+}
+
+  // For leftnavs that have menu items which will have sub items instead of displaying them in the leftnav we want to highlight
+ // the parent item. To do this easier this looks at the parent url and applies several styles to get the gray highlight effect 
+if(window.location.href.indexOf("/applicants/system") > -1){
+   
+  $('a[href^="/applicants/system"]').addClass("active-nav2");
+
+    $(".active-nav").next("div").toggleClass("hide");
+    $(".active-nav2").next("div").toggleClass("hide");
+
+$(".js-nav-system__subnav__link.active-nav2").removeClass("active-nav2");
+$(".js-nav-system__subnav__link.active-nav").removeClass("active-nav");
+
+}
+
+
+
+  $('.main-section-submit-closeout').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-how-to').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-manage-accounts').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+
+    baguetteBox.run('.baguetteBox', {
+    captions: function(element) {
+        return element.getElementsByTagName('img')[0].alt;
+    }
+});
+
+
+
+    onResize = function() {
+        if($(window).width() < 767) {
+          $('aside.first-sidebar').appendTo('section.col-sm-6');
+        } else {
+            $('aside.first-sidebar').insertBefore( $( 'section.col-sm-6' ) );
+        }
+    }
+
+    $(document).ready(onResize);
+    $(window).resize(onResize);
+
+    var delay = (function() {
+        var timer = 0;
+        return function(callback, ms){
+            clearTimeout(timer);
+            timer = setTimeout(callback, ms);
+        }
+    })();
+
+    $(window).resize(function() {
+        delay(function(){
+            onResize();
+        },100)
+    });
+
+});
+
+function mobileview() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+ //Use to give a pop up message for clicking on a link but web browsers do not like it and block it $('a').filter(function() {
+	  //  return this.hostname && this.hostname !== location.hostname;
+	//  })
+	 // .click(function () { 
+	//	  var x=window.confirm('You are leaving the eRA website. eRA has no control over the content of this site.  Click OK to proceed.');
+	//		var val = false;
+	//		if (x)
+	//			val = true;
+	//		else
+	//			val = false;
+	//		return val;
+ 
+      //  });
+
+     
+//if ($(window).width() < 767) {
+ 
+  //$('aside.col-sm-3').appendTo('section.col-sm-6');
+ // }
+  //else {
+
+//}
+
+
+//$(window).resize(function(){
+	//if ($(window).width() <= 767){	
+		// $('aside.col-sm-3').appendTo('section.col-sm-6'); }
+
+	//else {
+
+
+ 
+    //$('aside.col-sm-3').insertBefore( $( 'section.section.col-sm-6' ) ); 
+    
+  //}
+
+//});
+
+</script>     
+<div class="footer">
+
+
+        <style>
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+  
+   
+}
+
+#myBtn:hover {
+ /* background-color: #fff;*/
+}
+</style>
+<button onclick="topFunction();return false" id="myBtn" title="Go to top"><div style="padding-left: 5px;"><span><i class="fa fa-arrow-up" aria-hidden="true"></i>
+</span><br>Back <br>to top</div></button>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.documentElement.scrollTop > 100) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+var timeOut;
+function topFunction()  {
+		var position = document.body.scrollTop || document.documentElement.scrollTop;
+		if (position){
+			window.scrollBy(0,-Math.max(10, Math.floor(position / 10)));
+			scrollAnimation=setTimeout('topFunction()',10);
+		}
+		else clearTimeout(scrollAnimation);
+	}
+</script>
+
+
+
+
+    <div class="social-media">
+        <ul class="social-media-links">
+            <li><a href="https://grants.nih.gov/grants/contacts.htm"><i class="fas fa-envelope"></i> Contact Us</a></li>
+            <li><a class="bookmark" href="http://www.addthis.com/bookmark.php" target="_blank" rel="noopener noreferrer" onclick="addthis_url = location.href; addthis_title = document.title; return addthis_click(this);"><i class="fas fa-bookmark"></i> Bookmark &amp; Share</a></li>
+            <li><a href="https://grants.nih.gov/grants/listservs_and_rss.htm"><i class="fas fa-at"></i> E-mail Updates</a></li>
+            <li><a href="https://grants.nih.gov/grants/listservs_and_rss.htm"><i class="fas fa-rss-square"></i> RSS Feed</a></li>
+            <li><a href="https://grants.nih.gov/news/virtual-learning/podcasts.htm"><i class="fas fa-podcast"></i> Podcast</a></li>
+            <li><a href="https://twitter.com/NIHgrants"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+            <li style="border-right:0px"><a href="https://www.youtube.com/user/nihgrants"><i class="fab fa-youtube-square"></i> YouTube</a></li>
+        </ul>
+    </div>
+
+
+
+<div style="height:2.5px; background-color:#41505f"></div>
+
+<!--<div class="foot-logo">
+<img src="/themes/era2019/images/footer-logo.png" >
+</div>-->
+
+     <div class="contact-info" style="margin-top: 20px;">
+        <ul class="contact-info-links">
+            <li><a href="https://search.usa.gov/search/advanced?affiliate=grants.nih.gov">Search</a></li>
+            <li><a href="https://grants.nih.gov/grants/edocs.htm">Help Downloading Files</a></li>
+            <li><a href="https://grants.nih.gov/grants/disclaimer.htm">Disclaimer</a></li>
+            <li><a href="https://web.archive.org/web/*/era.nih.gov">Older Versions of this Page</a></li>
+            <li><a href="https://grants.nih.gov/grants/privacy.htm">Privacy Notice<a/></li>
+            <li><a href="https://grants.nih.gov/accessibility.htm">Accessibility</a></li>
+<li><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure</a></li>
+            
+
+            <li style="border-right:0px"><a href="https://www.nih.gov/icd/od/foia/index.htm">FOIA</a></li>
+        </ul>
+
+        <ul class="contact-info-links">
+            <li><a href="https://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+            <li><a href="https://www.grants.gov/">Grants.gov</a></li>
+            <li style="border-right:0px"><a href="https://www.usa.gov/">USA.gov – Government Made Easy</a></li>
+        </ul>
+
+          <ul class="contact-info-links">
+            <li>National Institutes of Health (NIH), 9000 Rockville Pike, Bethesda, Maryland 20892</li>
+            <li style="border-right:0px">NIH... Turning Discovery Into Health</li>
+        </ul>
+    </div>
+
+
+
+</div>  
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"news","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"q":"news"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":".logins, .help-body-grantees, .view-display-id-block_2","extCssExplicit":"","extAlert":false,"extAlertText":"You are leaving the eRA website. eRA has no control over the content of this site.  Click OK to proceed.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":["www.era.nih.gov","era.nih.gov"]}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"d31bc8ae3d5da7efeb38326e9e82157ff89297990f34e2aba33ec04fc77b1f99"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.6"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.9"></script>
+<script src="/core/misc/drupal.js?v=9.5.9"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.9"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.js" integrity="sha256-29KjXnLtx9a95INIGpEvHDiqV/qydH2bBx0xcznuA6I=" crossorigin="anonymous"></script>
+<script src="/themes/bootstrap/js/drupal.bootstrap.js?rvshc7"></script>
+<script src="/themes/bootstrap/js/attributes.js?rvshc7"></script>
+<script src="/themes/bootstrap/js/theme.js?rvshc7"></script>
+<script src="/themes/era2019/js/help-faqs.js?rvshc7"></script>
+<script src="/themes/era2019/js/bio.js?rvshc7"></script>
+<script src="/themes/era2019/js/govsite.js?rvshc7"></script>
+<script src="/modules/extlink/extlink.js?v=9.5.9"></script>
+<script src="/themes/bootstrap/js/popover.js?rvshc7"></script>
+<script src="/themes/bootstrap/js/tooltip.js?rvshc7"></script>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,12 @@
+Content-Length: 122531
+Cache-Control: no-cache, no-store, must-revalidate, no-cache:set-cookie
+Pragma: no-cache
+Content-Type: text/html;charset=UTF-8
+Expires: {ts '2023-06-13 03:57:20'}
+Server: Microsoft-IIS/8.5
+Set-Cookie: CFID=8152599;domain=tools.niehs.nih.gov;path=/wetp/;HTTPOnly;Secure
+Set-Cookie: CFTOKEN=642a3257e651fe87-0597BAC3-A789-5209-D77B04D1AE6F9272;domain=tools.niehs.nih.gov;path=/wetp/;HTTPOnly;Secure
+X-Powered-By: ASP.NET
+Date: Tue, 13 Jun 2023 07:57:20 GMT
+X-Forwarded-For: 47.158.30.50
+Strict-Transport-Security: max-age=31536000; includeSubDomains

@@ -1,0 +1,15 @@
+Content-Length: 162
+Cache-Control: public,max-age=604800,public
+Content-Type: text/plain
+Content-Encoding: gzip
+Last-Modified: Wed, 25 Mar 2020 16:30:11 GMT
+Accept-Ranges: bytes
+Etag: "804bb9a7c22d61:0"
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin
+Access-Control-Allow-Origin: https://ods.od.nih.gov
+Date: Tue, 13 Jun 2023 07:52:10 GMT

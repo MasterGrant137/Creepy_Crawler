@@ -1,0 +1,22 @@
+Content-Length: 15962
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: Mon, 29 May 2023 07:51:44 GMT
+Last-Modified: Tue, 13 Jun 2023 07:51:44 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-Sharepointhealthscore: 0
+X-Aspnet-Version: 4.0.30319
+Sprequestguid: a15ebca0-9a83-c0ca-6d79-7e0bbb7a42c9
+Request-Id: a15ebca0-9a83-c0ca-6d79-7e0bbb7a42c9
+X-Frame-Options: SAMEORIGIN
+Sprequestduration: 107
+Spiislatency: 0
+X-Powered-By: ASP.NET
+Microsoftsharepointteamservices: 16.0.0.10398
+X-Content-Type-Options: nosniff
+X-Ms-Invokeapp: 1; RequireReadOnly
+Date: Tue, 13 Jun 2023 07:51:44 GMT
+Set-Cookie: asig_persistence=!+jkQlk9uJ8+kXPC44YFRk8uGDvae/4AaychWmWfzOsF3GqVswcspNl1Z7PJ58+yT3dcdT3ifbw+HZIk=; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains
