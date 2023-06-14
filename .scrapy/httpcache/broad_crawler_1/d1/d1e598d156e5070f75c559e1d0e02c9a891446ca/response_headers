@@ -1,0 +1,13 @@
+Content-Length: 287
+Server: nginx
+Date: Tue, 13 Jun 2023 03:25:07 GMT
+Content-Type: text/html; charset=iso-8859-1
+X-Content-Type-Options: nosniff
+Location: https://public.csr.nih.gov/aboutcsr/NewsAndPublications/News/Pages/default.aspx
+Cache-Control: max-age=1209600
+Expires: Tue, 27 Jun 2023 03:25:07 GMT
+X-Request-Id: v-e50ec3e2-0999-11ee-ad7d-efeec2f6128d
+Age: 51910
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 5

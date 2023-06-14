@@ -1,0 +1,19 @@
+Content-Length: 22156
+Cache-Control: private,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: 0
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: __RequestVerificationToken=W8UsLP6HwtD-be09ZfU8tz_uvRoD1VJmCGtZBVO7tpBfojBc7wjqgSZuYrYhZ9C5rchI1NMGDartcD-odbhJDW6-PPM1; path=/; secure; HttpOnly; SameSite=Strict
+X-Ua-Compatible: IE=edge, chrome=1
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: domain
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Content-Security-Policy: font-src 'self' fonts.googleapis.com ajax.googleapis.com use.fontawesome.com fonts.gstatic.com;              form-action 'self' websrch.cit.nih.gov;              style-src 'self' 'unsafe-hashes' 'sha256-lsY0Ge8Ztl86UOx+kXvqh5WQghl14I4vKjnutPnE5Dg=' 'sha256-aqNNdDLnnrDOnTNdkJpYlAxKVJtLt9CtFLklmInuUAE=' use.fontawesome.com fonts.googleapis.com ajax.googleapis.com;               script-src 'self' 'unsafe-eval' stg.spectrum.niaaa.cit.nih.gov www.google-analytics.com script.crazyegg.com  www.youtube.com dap.digitalgov.gov www.googletagmanager.com fonts.googleapis.com ajax.googleapis.com cdnjs.cloudflare.com;               default-src 'self' assets-tracking.crazyegg.com pagestates-tracking.crazyegg.com fonts.googleapis.com ajax.googleapis.com use.fontawesome.com www.google-analytics.com stats.g.doubleclick.net tracking.crazyegg.com script.crazyegg.com cdnjs.cloudflare.com;               img-src 'self' data: www.google-analytics.com www.googletagmanager.com;              media-src 'self';              frame-ancestors 'self'
+Cleartype: on
+Apple-Mobile-Web-App-Capable: yes
+Date: Tue, 13 Jun 2023 16:59:19 GMT
+Strict-Transport-Security: max-age=31536000

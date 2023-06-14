@@ -8,6 +8,11 @@ Class attributes:
 - Attributes are passed from Flask *search_routes.py* as kwargs in the `crawl` method inside the
   `scrape_with_crochet` function.
 - They are accessed by keying into the self parameter.
+
+Additional Information:
+- The spiders run as long as the settings passed to them allow, particularly:
+    - `CLOSESPIDER_TIMEOUT` (after timing out, there's a cool down period as spiders clear their queue)
+    - `CLOSESPIDER_PAGECOUNT` (tightly coupled with how long the spiders crawl)
 """
 
 import scrapy
@@ -15,7 +20,7 @@ from scrapy.http import FormRequest
 
 
 class DeepCrawlerMonitor():
-    """Monitor and regulate deep crawling spiders."""
+    """Monitor deep crawling spiders."""
 
     trunc_amt_1 = 160
     trunc_amt_2 = 16

@@ -118,17 +118,14 @@ def scrape_with_crochet(raw_query):
 
     broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    # broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5, caerostris_darwini.BroadCrawler6, caerostris_darwini.BroadCrawler7]
-    broad_crawlers = [caerostris_darwini.BroadCrawler1]
-    # deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
+    broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5]
+    deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
 
     if len(broad_crawler_str):
         for broad_crawler in broad_crawlers: 
-            broad_crawler.broad_crawler_monitor.reset_crawl_depth()
-            broad_crawler.accrued_data = []
             broad_crawler.crawled_urls = set()
             crawl_runner.crawl(broad_crawler, query_regex=broad_crawler_query_regex)
-        # for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=raw_query_str_list, query_perms=query_permutations, trunc_amt_1=trunc_amt_1, trunc_amt_2=trunc_amt_2)
+        for deep_crawler in deep_crawlers: crawl_runner.crawl(deep_crawler, query_list=raw_query_str_list, query_perms=query_permutations)
         eventual = crawl_runner.join()
         return eventual
 

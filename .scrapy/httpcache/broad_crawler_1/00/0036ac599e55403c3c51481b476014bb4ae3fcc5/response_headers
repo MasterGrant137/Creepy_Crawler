@@ -1,0 +1,25 @@
+Content-Length: 16506
+Server: nginx
+Date: Tue, 13 Jun 2023 16:59:19 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=2592000, public
+X-Drupal-Dynamic-Cache: MISS
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 12 Jun 2023 19:55:58 GMT
+Etag: "1686599758"
+Vary: Cookie,Accept-Encoding
+X-Generator: Drupal 9 (https://www.drupal.org)
+Strict-Transport-Security: max-age=31536000
+X-Drupal-Cache: HIT
+Content-Encoding: gzip
+X-Request-Id: v-b0ac558a-096f-11ee-840c-cb661682c155
+X-Ah-Environment: prod
+Age: 66978
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 34
+Accept-Ranges: bytes

@@ -1,0 +1,24 @@
+Content-Length: 165
+Cache-Control: private,max-age=0
+Allow: GET, POST, OPTIONS, HEAD, MKCOL, PUT, PROPFIND, PROPPATCH, DELETE, MOVE, COPY, GETLIB, LOCK, UNLOCK
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 29 May 2023 17:10:53 GMT
+Accept-Ranges: bytes
+Location: http://images.nigms.nih.gov/errorpage.html
+Server: 
+X-Sharepointhealthscore: 0
+Public-Extension: http://schemas.microsoft.com/repl-2
+Sprequestguid: a07ebca0-f721-70c9-bd1c-5193bff34eb3
+Request-Id: a07ebca0-f721-70c9-bd1c-5193bff34eb3
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+Sprequestduration: 4
+Spiislatency: 0
+X-Content-Type-Options: nosniff
+X-Ms-Invokeapp: 1; RequireReadOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Strict-Transport-Security: max-age=31557600; includeSubDomains
+Access-Control-Allow-Origin: *
+Microsoftsharepointteamservices: 
+X-Aspnet-Version: 
+Date: Tue, 13 Jun 2023 17:10:52 GMT
