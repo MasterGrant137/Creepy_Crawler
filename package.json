@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "@babel/eslint-parser": "^7.22.5",
-    "@babel/preset-react": "^7.22.5"
-  }
-}

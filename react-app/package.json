@@ -48,12 +48,13 @@
   "proxy": "http://localhost:8080",
   "devDependencies": {
     "@babel/core": "^7.22.1",
-    "@babel/preset-react": "^7.22.3",
+    "@babel/eslint-parser": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
     "eslint": "^8.42.0",
     "eslint-config-airbnb": "19.0.0",
     "eslint-plugin-import": "2.25.3",
     "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-react": "7.27.0",
+    "eslint-plugin-react": "^7.27.0",
     "eslint-plugin-react-hooks": "4.3.0"
   }
 }

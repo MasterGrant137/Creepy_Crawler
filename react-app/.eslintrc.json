@@ -1,6 +1,7 @@
 {
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:react/recommended"
     ],
     "env": {
         "browser": true,

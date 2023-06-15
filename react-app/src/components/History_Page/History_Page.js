@@ -23,7 +23,7 @@ const HistoryPage = ({ style }) => {
   const entriesObj = useSelector((state) => state.history);
   const clock24 = useSelector((state) => state.session.user.clock_24);
   const [loading, setLoading] = useState(false);
-  const [count, setCount] = useState(50);
+  const [count, setCount] = useState(15);
 
   useEffect(() => {
     dispatch(readHistoryEntries());
