@@ -1,9 +1,0 @@
-Content-Length: 1293
-Server: nginx
-Date: Tue, 13 Jun 2023 07:50:40 GMT
-Content-Type: text/html; charset=utf8
-Set-Cookie: AWSALB=Duwkrn8XCNj+ky5zSC8k7UsA5VtCI+yKKtZ+6mIKvy6iHGMGPKT5/VI+jmZj4A1LZE8cQl6ovqtcIMOTt+d1OZquLMfdXemOSS1IqvBwxi6mDKKpzrSZKU3L4I5c; Expires=Tue, 20 Jun 2023 07:50:40 GMT; Path=/
-Set-Cookie: AWSALBCORS=Duwkrn8XCNj+ky5zSC8k7UsA5VtCI+yKKtZ+6mIKvy6iHGMGPKT5/VI+jmZj4A1LZE8cQl6ovqtcIMOTt+d1OZquLMfdXemOSS1IqvBwxi6mDKKpzrSZKU3L4I5c; Expires=Tue, 20 Jun 2023 07:50:40 GMT; Path=/; SameSite=None; Secure
-Allow: GET, HEAD, OPTIONS, TRACE
-Content-Security-Policy: upgrade-insecure-requests
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;

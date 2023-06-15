@@ -1,4 +1,0 @@
-# videocast robots.txt
-User-agent: *
-Allow: /
-Sitemap: https://videocast.nih.gov/sitemap.xml

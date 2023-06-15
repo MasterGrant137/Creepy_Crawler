@@ -1,8 +1,0 @@
-Content-Length: 0
-Server: AkamaiGHost
-Location: https://www.tsn.ca/robots.txt
-Date: Thu, 23 Dec 2021 18:46:05 GMT
-Server-Timing: cdn-cache; desc=HIT
-Server-Timing: edge; dur=1
-Content-Security-Policy: frame-ancestors 'self'
-X-Frame-Options: SAMEORIGIN

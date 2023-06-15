@@ -1,7 +1,0 @@
-Content-Length: 203
-Date: Tue, 13 Jun 2023 07:57:22 GMT
-Server: Apache/2.4.57 (Unix) OpenSSL/1.1.1t
-Strict-Transport-Security: max-age=31536001; includeSubDomains; preload
-X-Content-Type-Options: nosniff
-Allow: OPTIONS,HEAD,GET,POST
-Content-Type: text/html; charset=iso-8859-1

@@ -1,7 +1,0 @@
-Content-Length: 1293
-Allow: GET, HEAD, OPTIONS, TRACE
-Content-Type: text/html
-Server: Microsoft-IIS/10.0
-P3P: NOI DSP COR NID ADM DEV TAI PSA PUBo STP PHY
-Strict-Transport-Security: max-age=31536000; includeSubDomains
-Date: Tue, 13 Jun 2023 07:51:45 GMT

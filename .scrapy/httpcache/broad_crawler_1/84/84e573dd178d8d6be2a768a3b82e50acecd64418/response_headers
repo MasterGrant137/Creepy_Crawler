@@ -1,6 +1,0 @@
-Content-Length: 1293
-Allow: GET, HEAD, OPTIONS, TRACE
-Content-Type: text/html
-Server: Microsoft-IIS/10.0
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-Date: Tue, 13 Jun 2023 07:52:12 GMT

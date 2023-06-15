@@ -1,8 +1,0 @@
-Content-Length: 282
-Server: nginx
-Date: Tue, 13 Jun 2023 04:59:57 GMT
-Content-Type: text/html; charset=iso-8859-1
-X-Content-Type-Options: nosniff
-Allow: GET,POST,OPTIONS,HEAD
-Strict-Transport-Security: max-age=31536000; preload
-X-Frame-Options: SAMEORIGIN

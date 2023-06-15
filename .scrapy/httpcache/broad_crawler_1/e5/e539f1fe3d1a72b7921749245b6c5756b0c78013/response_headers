@@ -1,8 +1,0 @@
-Content-Length: 0
-Server: AkamaiGHost
-Location: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfMQSA/mqsa.cfm
-Expires: Tue, 13 Jun 2023 17:49:29 GMT
-Cache-Control: max-age=0, no-cache, no-store
-Pragma: no-cache
-Date: Tue, 13 Jun 2023 17:49:29 GMT
-Strict-Transport-Security: max-age=31536000

@@ -1,8 +1,0 @@
-Content-Length: 256
-Date: Tue, 13 Jun 2023 07:52:11 GMT
-Server: Apache
-X-Content-Type-Options: nosniff
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-X-Frame-Options: DENY
-Location: https://domains.dotgov.gov/dotgov-web/robots.txt
-Content-Type: text/html; charset=iso-8859-1

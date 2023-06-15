@@ -1,8 +1,0 @@
-Content-Length: 162
-Date: Tue, 13 Jun 2023 04:59:51 GMT
-Content-Type: text/html
-Set-Cookie: AWSALB=/MJ81xqtOpafy2fL6IcZvnyl1C8IR4ckaSEJqJyaY4YwEutUziF1GKPXWzMxKfxIM0KJGRMqQjSk1KhAPqGUyPWh/8UGdRaFfXHJrqXmUfNgnzNiA8wjAwTLjWtC; Expires=Tue, 20 Jun 2023 04:59:51 GMT; Path=/
-Set-Cookie: AWSALBCORS=/MJ81xqtOpafy2fL6IcZvnyl1C8IR4ckaSEJqJyaY4YwEutUziF1GKPXWzMxKfxIM0KJGRMqQjSk1KhAPqGUyPWh/8UGdRaFfXHJrqXmUfNgnzNiA8wjAwTLjWtC; Expires=Tue, 20 Jun 2023 04:59:51 GMT; Path=/; SameSite=None; Secure
-Server: nginx
-Location: https://public.era.nih.gov/commons
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;

@@ -1,9 +1,0 @@
-Content-Length: 215
-Date: Thu, 23 Dec 2021 18:51:34 GMT
-Server: Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-X-Frame-Options: SAMEORIGIN, ALLOW-FROM https://iris.helpdesk.nih.gov/jira
-Location: https://irbo.nih.gov/confluence
-Server-Timing: dtSInfo;desc="0", dtRpid;desc="-403572346"
-Set-Cookie: dtCookie=v_4_srv_3_sn_3BC51F2603B10C2E1F8DA27A7CB67EAC_perc_100000_ol_0_mul_1_app-3Afdeb99ea69d97281_1; Path=/; Domain=.nih.gov
-Content-Type: text/html; charset=iso-8859-1

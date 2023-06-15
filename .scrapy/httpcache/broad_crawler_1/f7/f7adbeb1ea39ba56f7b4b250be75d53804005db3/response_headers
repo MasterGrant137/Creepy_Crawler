@@ -1,5 +1,0 @@
-Server: nginx
-Date: Tue, 13 Jun 2023 07:50:39 GMT
-Set-Cookie: AWSALB=gQAYuEB94LeQB7KFpfF+mf2kmEGu6GGuDqvO9IrcmJMu93hiOYM1DuuJ4e4VeOOPc7AUvsLhf+mHfjUjfmqLcyzY76geUuDn561IiQp0kXXqtq0iakIMA7vlmyPr; Expires=Tue, 20 Jun 2023 07:50:39 GMT; Path=/
-Set-Cookie: AWSALBCORS=gQAYuEB94LeQB7KFpfF+mf2kmEGu6GGuDqvO9IrcmJMu93hiOYM1DuuJ4e4VeOOPc7AUvsLhf+mHfjUjfmqLcyzY76geUuDn561IiQp0kXXqtq0iakIMA7vlmyPr; Expires=Tue, 20 Jun 2023 07:50:39 GMT; Path=/; SameSite=None; Secure
-Location: /assist/

@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-{'url': 'https://public.govdelivery.com/accounts/USNIHODP/subscriber/new?qsp=CODE_RED', 'method': 'GET', 'status': 200, 'response_url': 'https://public.govdelivery.com/accounts/USNIHODP/subscriber/new?qsp=CODE_RED', 'timestamp': 1686287925.996841}
-=======
-{'url': 'https://public.govdelivery.com/accounts/USNIHODP/subscriber/new?qsp=CODE_RED', 'method': 'GET', 'status': 200, 'response_url': 'https://public.govdelivery.com/accounts/USNIHODP/subscriber/new?qsp=CODE_RED', 'timestamp': 1686467787.3567328}
->>>>>>> fix/seo-1

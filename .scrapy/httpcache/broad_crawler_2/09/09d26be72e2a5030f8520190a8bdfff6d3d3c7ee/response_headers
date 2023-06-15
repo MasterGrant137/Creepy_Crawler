@@ -1,8 +1,0 @@
-Content-Length: 102
-Server: gunicorn/19.10.0
-Date: Fri, 09 Jun 2023 05:15:17 GMT
-Etag: "wzsdm-1640218083-102-384631848"
-Cache-Control: max-age=43200, public
-Expires: Fri, 09 Jun 2023 17:15:17 GMT
-Content-Type: text/plain
-Last-Modified: Thu, 23 Dec 2021 00:08:03 GMT

@@ -1,9 +1,0 @@
-Content-Length: 167
-Server: CloudFront
-Date: Fri, 09 Jun 2023 17:39:17 GMT
-Content-Type: text/html
-Location: https://search.usa.gov/search?affiliate=hip&query=heart%20disease
-X-Cache: Redirect from cloudfront
-Via: 1.1 1ffd5cdb315141702d5377ba909be92a.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: LAX50-P1
-X-Amz-Cf-Id: 1dUYQd91w4HIJ7irT2IWrVRX_D-Y3Fq25uG4_1VOQ59eMQ_E_MgdWQ==

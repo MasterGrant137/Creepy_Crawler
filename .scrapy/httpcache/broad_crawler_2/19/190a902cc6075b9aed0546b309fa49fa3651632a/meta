@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-{'url': 'https://service.govdelivery.com/accounts/USNIH/subscriber/new?topic_id=USNIH_48', 'method': 'GET', 'status': 200, 'response_url': 'https://service.govdelivery.com/accounts/USNIH/subscriber/new?topic_id=USNIH_48', 'timestamp': 1686336369.572504}
-=======
-{'url': 'https://service.govdelivery.com/accounts/USNIH/subscriber/new?topic_id=USNIH_48', 'method': 'GET', 'status': 200, 'response_url': 'https://service.govdelivery.com/accounts/USNIH/subscriber/new?topic_id=USNIH_48', 'timestamp': 1686467599.866129}
->>>>>>> fix/seo-1

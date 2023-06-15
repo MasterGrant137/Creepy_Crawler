@@ -1,1 +1,0 @@
-{'url': 'https://www.imdb.com/search/title?genres=sci-fi&title_type=tv_series,mini_series&explore=genres', 'method': 'GET', 'status': 301, 'response_url': 'https://www.imdb.com/search/title?genres=sci-fi&title_type=tv_series,mini_series&explore=genres', 'timestamp': 1686352921.999275}

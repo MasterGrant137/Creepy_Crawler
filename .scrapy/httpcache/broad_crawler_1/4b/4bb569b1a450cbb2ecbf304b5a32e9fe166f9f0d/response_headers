@@ -1,6 +1,0 @@
-Content-Length: 0
-Server: AkamaiGHost
-Location: https://www.cdc.gov/coronavirus/2019-ncov/index.html
-Date: Tue, 13 Jun 2023 07:57:07 GMT
-Set-Cookie: akamai_visit_id=27ad3c17430271d70bc1; expires=Thu, 12-Jun-2025 07:57:07 GMT; path=/; secure; HttpOnly
-Strict-Transport-Security: max-age=31536000 ; includeSubDomains

@@ -1,5 +1,0 @@
-User-agent: bingbot
-Allow: /superfresh
-
-User-agent: *
-Disallow: /
