@@ -6,6 +6,7 @@
         "browser": true,
         "node": true
     },
+    "parser": "babel-eslint",
     "plugins": ["jsx", "jsx-a11y"],
     "rules": {
         "default-param-last": "off", //? React reducer functional with "action" param last
