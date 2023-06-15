@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'http://newsinhealth.nih.gov/', 'method': 'GET', 'status': 301, 'response_url': 'http://newsinhealth.nih.gov/', 'timestamp': 1686332616.1539001}
+=======
+{'url': 'http://newsinhealth.nih.gov/', 'method': 'GET', 'status': 301, 'response_url': 'http://newsinhealth.nih.gov/', 'timestamp': 1686467630.767827}
+>>>>>>> fix/seo-1

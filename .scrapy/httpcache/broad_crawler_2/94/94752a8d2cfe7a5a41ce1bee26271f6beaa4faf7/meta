@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://twitter.com/nciadvocacy', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/nciadvocacy', 'timestamp': 1686287408.964295}
+=======
+{'url': 'https://twitter.com/nciadvocacy', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/nciadvocacy', 'timestamp': 1686467786.777929}
+>>>>>>> fix/seo-1

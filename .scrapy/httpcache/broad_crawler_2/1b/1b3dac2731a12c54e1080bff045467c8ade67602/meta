@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.nih.gov/news-events/nih-research-matters/measuring-protection-after-covid-19-vaccination', 'method': 'GET', 'status': 200, 'response_url': 'https://www.nih.gov/news-events/nih-research-matters/measuring-protection-after-covid-19-vaccination', 'timestamp': 1686332768.272265}
+=======
+{'url': 'https://www.nih.gov/news-events/nih-research-matters/measuring-protection-after-covid-19-vaccination', 'method': 'GET', 'status': 200, 'response_url': 'https://www.nih.gov/news-events/nih-research-matters/measuring-protection-after-covid-19-vaccination', 'timestamp': 1686467603.252726}
+>>>>>>> fix/seo-1

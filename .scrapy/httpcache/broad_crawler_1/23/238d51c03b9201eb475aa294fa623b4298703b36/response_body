@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!-- Sorry no IE7 support! -->
+<!-- @see http://foundation.zurb.com/docs/index.html#basicHTMLMarkup -->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en" dir="ltr">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" dir="ltr">
+<!--<![endif]-->
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8" />
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-7993733-11"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7993733-11');
+</script>
+
+
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://cssi.cancer.gov/sites/default/files/favicon-32x32.png" />
+<meta name="viewport" content="width=device-width, maximum-scale = 1.0" />
+<meta http-equiv="ImageToolbar" content="false" />
+<meta name="description" content="The Center for Strategic Scientific Initiatives (CSSI) creates opportunities for researchers through the development of new science initiatives, tools, and public resources to accelerate progress in cancer research." />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="image_src" href="https://cssi.cancer.gov/sites/default/files/twitter-4.jpg" />
+<link rel="canonical" href="https://cssi.cancer.gov/home" />
+<link rel="shortlink" href="https://cssi.cancer.gov/node/1" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@NCI_CSSI" />
+<meta name="twitter:creator" content="@NCI_CSSI" />
+<meta name="twitter:site:id" content="878292949460824064" />
+<meta name="twitter:creator:id" content="878292949460824064" />
+<meta name="twitter:url" content="https://cssi.cancer.gov/home" />
+<meta name="twitter:title" content="home" />
+<meta name="twitter:description" content="The Center for Strategic Scientific Initiatives (CSSI) creates opportunities for researchers through the development of new science initiatives, tools, and public resources to accelerate progress in" />
+<meta name="twitter:image" content="https://cssi.cancer.gov/sites/default/files/twitter-4.jpg" />
+<meta name="twitter:image:width" content="120" />
+<meta name="twitter:image:height" content="120" />
+<meta name="twitter:image:alt" content="CSSI" />
+  <title>home | Center for Strategic Scientific Initiatives (CSSI)</title>
+  <link href='//fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800" rel="stylesheet"> 
+  <style>
+@import url("https://cssi.cancer.gov/modules/system/system.base.css?rvwd2n");
+@import url("https://cssi.cancer.gov/modules/system/system.messages.css?rvwd2n");
+@import url("https://cssi.cancer.gov/modules/system/system.theme.css?rvwd2n");
+</style>
+<style>
+@import url("https://cssi.cancer.gov/modules/aggregator/aggregator.css?rvwd2n");
+@import url("https://cssi.cancer.gov/modules/comment/comment.css?rvwd2n");
+@import url("https://cssi.cancer.gov/modules/field/theme/field.css?rvwd2n");
+@import url("https://cssi.cancer.gov/modules/node/node.css?rvwd2n");
+@import url("https://cssi.cancer.gov/modules/search/search.css?rvwd2n");
+@import url("https://cssi.cancer.gov/modules/user/user.css?rvwd2n");
+@import url("https://cssi.cancer.gov/sites/all/modules/extlink/css/extlink.css?rvwd2n");
+@import url("https://cssi.cancer.gov/sites/all/modules/views/css/views.css?rvwd2n");
+@import url("https://cssi.cancer.gov/sites/all/modules/ckeditor/css/ckeditor.css?rvwd2n");
+</style>
+<style>
+@import url("https://cssi.cancer.gov/sites/all/modules/ctools/css/ctools.css?rvwd2n");
+@import url("https://cssi.cancer.gov/sites/all/libraries/sidr/stylesheets/jquery.sidr.dark.css?rvwd2n");
+@import url("https://cssi.cancer.gov/sites/all/libraries/fontawesome/css/font-awesome.css?rvwd2n");
+</style>
+<style>
+@import url("https://cssi.cancer.gov/sites/all/themes/cssi/css/app.css?rvwd2n");
+@import url("https://cssi.cancer.gov/sites/all/themes/cssi/css/slider.css?rvwd2n");
+@import url("https://cssi.cancer.gov/sites/all/themes/cssi/css/cssi.css?rvwd2n");
+@import url("https://cssi.cancer.gov/sites/all/themes/cssi/css/mobile.css?rvwd2n");
+@import url("https://cssi.cancer.gov/sites/all/themes/cssi/css/submenu.css?rvwd2n");
+</style>
+<style>#admin-menu,#admin-menu .dropdown{z-index:8001;}#sidr-0-button{color:#fff;padding:5px;border:1px solid;border-radius:5px;text-decoration:none;}ul.pagination li a{color:#415a73;}ul.pagination li:hover a,ul.pagination li a:focus{background:none;}button,.button{background-color:#415a73;}footer h1{font-size:23px;color:#ffffff;}footer h1 span{display:block;font-size:16px;}@media only screen and (max-width:767px){.main-menu-block{top:20px;position:relative;}.minibarslogan{text-align:right;}.breadcrumbs{display:none;}}html > body > .timeline-Widget > .timeline-Body.customisable-border > .timeline-Viewport > ol > li:nth-child(1) > div > .timeline-Tweet-metadata > a > time.dt-updated{color:#000000;}a{color:#3C78B4;}a:hover,a:focus{color:#3C78B4;}.body a{color:#3C78B4;}.body a:hover,.body a:focus{color:#3C78B4;}.breadcrumbs > * a,.breadcrumbs > * span{color:#3C78B4;}abbr[title]{color:inherit;border-bottom:none;font-size:inherit;}h2.banner,h3.banner{padding:10px;background:#0f4377 url('/sites/default/files/program-header.jpg') no-repeat left top;line-height:1.4em;text-transform:uppercase;color:#FFFFFF;font-size:1em;}.body h2.banner a,.body h3.banner a{color:#FFFFFF;text-decoration:none;}main section.l-messages.row:first-child{display:none;}
+</style>
+  <script src="https://cssi.cancer.gov/sites/all/modules/jquery_update/replace/jquery/1.12/jquery.min.js?v=1.12.4"></script>
+<script src="https://cssi.cancer.gov/misc/jquery-extend-3.4.0.js?v=1.12.4"></script>
+<script src="https://cssi.cancer.gov/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.12.4"></script>
+<script src="https://cssi.cancer.gov/misc/jquery.once.js?v=1.2"></script>
+<script src="https://cssi.cancer.gov/misc/drupal.js?rvwd2n"></script>
+<script src="https://cssi.cancer.gov/sites/all/modules/jquery_update/js/jquery_browser.js?v=0.0.1"></script>
+<script src="https://cssi.cancer.gov/sites/all/modules/behavior_weights/behavior_weights.js?rvwd2n"></script>
+<script src="https://cssi.cancer.gov/sites/all/modules/responsive_menus/styles/sidr/js/responsive_menus_sidr.js?rvwd2n"></script>
+<script src="https://cssi.cancer.gov/sites/all/libraries/sidr/jquery.sidr.min.js?rvwd2n"></script>
+<script src="https://cssi.cancer.gov/sites/all/modules/extlink/js/extlink.js?rvwd2n"></script>
+<script src="https://cssi.cancer.gov/sites/all/themes/cssi/js/vendor/custom.modernizr.js?rvwd2n"></script>
+<script src="https://cssi.cancer.gov/sites/all/themes/cssi/js/foundation.min.js?rvwd2n"></script>
+<script src="https://cssi.cancer.gov/sites/all/themes/cssi/js/cssi.js?rvwd2n"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"cssi","theme_token":"zzASdbydUC2CJJ4sWVv9adfuLQYDlgJNiYCTIPRVoHA","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.12\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/modules\/behavior_weights\/behavior_weights.js":1,"sites\/all\/modules\/responsive_menus\/styles\/sidr\/js\/responsive_menus_sidr.js":1,"sites\/all\/libraries\/sidr\/jquery.sidr.min.js":1,"sites\/all\/modules\/extlink\/js\/extlink.js":1,"sites\/all\/themes\/cssi\/js\/vendor\/custom.modernizr.js":1,"sites\/all\/themes\/cssi\/js\/foundation.min.js":1,"sites\/all\/themes\/cssi\/js\/cssi.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/css\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/sidr\/stylesheets\/jquery.sidr.dark.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/zurb_foundation\/css\/normalize.css":1,"sites\/all\/themes\/cssi\/css\/foundation.min.css":1,"sites\/all\/themes\/cssi\/css\/app.css":1,"sites\/all\/themes\/cssi\/css\/slider.css":1,"sites\/all\/themes\/cssi\/css\/cssi.css":1,"sites\/all\/themes\/cssi\/css\/mobile.css":1,"sites\/all\/themes\/cssi\/css\/submenu.css":1,"0":1}},"better_exposed_filters":{"views":{"recent_news":{"displays":{"block":{"filters":[]}}}}},"ckeditor_responsive_plugin":{"basePath":"https:\/\/cssi.cancer.gov\/sites\/all\/modules\/ckeditor_responsive_plugin"},"responsive_menus":[{"selectors":[".menu-name-main-menu"],"trigger_txt":"\u2630 Menu","side":"right","speed":"200","media_size":"768","displace":"1","renaming":"1","onOpen":"","onClose":"","responsive_menus_style":"sidr"}],"urlIsAjaxTrusted":{"\/":true},"extlink":{"extTarget":"_blank","extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extIconPlacement":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":".front .homepage-movie, .front .view-homepage-blocks, .view-informatics-tools .views-field-php, .no-external","extCssExplicit":".page .header, .page .main","extAlert":"_blank","extAlertText":"This link will take you to an external web site.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false}});</script>
+<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page" >
+  <div class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+    <!--start nci_header-->
+<div class="row full-width banner minibar">
+	<div class="minibanner-white">
+		<section class="row ">
+			<div class="large-9 columns left-banner-block">
+								  <div id="block-block-1" class="block block-block block-block-1" >
+        <div class="content" >
+    <a href="/"><img alt="NCI CSSI logo" src="/sites/default/files/nih-cssi-logo.png" /></a>  </div>
+</div>
+							</div>
+            
+            <div class="large-3 columns right-search-block">
+                                  <div id="block-search-form" class="block block-search block-search-form" >
+        <div class="content" >
+    <form class="form-search content-search" action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="field append"><input title="Enter the terms you wish to search for." class="small-8 columns wide input headsearch form-text" placeholder="Search..." id="search-form" type="text" name="search_block_form" value="" size="15" maxlength="128" /><button type="submit" class="medium primary btn small-4 headsearch-btn"><span class="icon-search entypo scale-lg"><label for="search-form">SEARCH</label></span></button></div><button class="secondary button radius postfix small-4 columns element-invisible form-submit" id="edit-submit" name="op" value="Search" type="submit">Search</button>
+<input type="hidden" name="form_build_id" value="form-NLMGWKgVC94_QdPGjn0q94AjQRwY1rcUH_8j_6gVmUU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+                            </div>
+
+		</section>
+	</div>
+</div>
+<!--end nci_header-->
+<!--start nci_slogan-->
+<div class="row full-width banner minibarslogan">
+	<section class="row ">
+		<div class="large-12 columns slogan-banner-block">
+			  <div id="block-menu-block-2" class="block block-menu-block main-menu-block block-menu-block-2" >
+        <div class="content" >
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first expanded menu-mlid-429"><a href="/about-us">About Us</a><ul class="menu"><li class="first leaf menu-mlid-434"><a href="/about-us/cssi-offices">CSSI Offices</a></li>
+<li class="leaf menu-mlid-439"><a href="/about-us/leadership">Leadership</a></li>
+<li class="last leaf menu-mlid-453"><a href="/about-us/contact">Contact</a></li>
+</ul></li>
+<li class="expanded menu-mlid-854"><a href="/research">Research</a><ul class="menu"><li class="first leaf menu-mlid-856"><a href="/research/focus-areas">Focus Areas</a></li>
+<li class="last leaf menu-mlid-438"><a href="/research/program-evaluation">Program Evaluation</a></li>
+</ul></li>
+<li class="leaf menu-mlid-1090"><a href="/news-and-events" title="News and Events">News and Events</a></li>
+<li class="last leaf menu-mlid-698"><a href="/research-resources">Research Resources</a></li>
+</ul></div>
+  </div>
+</div>
+		</div>
+	</section>
+</div>
+<!--end nci_slogan-->
+
+<!--.page -->
+<div role="document" class="page">
+
+	<div class="row full-width full-width-slider">
+
+				<div class="skip-link">
+			<a class="element-invisible element-focusable" href="#">Use the left and right arrows to navigate slider</a>
+		</div>
+		<!--/.featured -->
+		<section class="l-slider">
+			<div class="large-12">
+				  <div id="block-block-39" class="block block-block block-block-39" >
+        <div class="content" >
+    <p style="text-align:center"><a href="research/focus-areas"><img alt="Prioritizing Gaps in Cancer Research" src="/sites/default/files/hero-homepage-v2.png" style="width: 100%; " /></a></p>
+  </div>
+</div>
+			</div>
+		</section>
+		<!--/.l-featured -->
+		
+	</div>
+	<!--/.row.full-width.slider-->
+
+
+<div id="main-content"></div>
+
+	<div class="row full-width main">
+
+		<main role="main" class="row l-main">
+
+			
+						<!--/.l-messages -->
+			<section class="l-messages row">
+				<div class="large-12 columns">
+					<div data-alert class="alert-box alert">
+<h2 class="element-invisible">Error message</h2>
+<em class="placeholder">Deprecated function</em>: Optional parameter $buttons declared before required parameter $form_name is implicitly treated as a required parameter in <em class="placeholder">include_once()</em> (line <em class="placeholder">1439</em> of <em class="placeholder">/local/drupal/cssi/includes/bootstrap.inc</em>).<a href="#" class="close">&times;</a></div>
+				</div>
+			</section>
+			<!--/.l-messages -->
+			
+			
+			<div class="large-12 main columns main-content-wrapper">
+
+				<section class="l-breadcrumb row">
+					<div class="large-12">
+											</div>
+				</section>
+				<!--/.l-breadcrumb -->
+
+				<div class="main-content">
+
+					
+					<a id="main-content"></a>
+
+					  <div id="block-system-main" class="block block-system block-system-main" >
+        <div class="content" >
+    <article id="node-1" class="node node-page view-mode-full" about="/home" typeof="foaf:Document">
+
+      <span property="dc:title" content="home" class="rdf-meta element-hidden"></span>
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden field-wrapper body field"><p> </p>
+<h2 class="rtecenter">About CSSI</h2>
+<p class="rtecenter"><span style="font-size:18px;">The Center for Strategic Scientific Initiatives (CSSI) creates opportunities for researchers through the development of new science initiatives, tools, and public resources to accelerate progress in cancer research.</span></p>
+<div class="ckeditor-col-container row clearfix">
+<div class="large-3 columns fourcol first-col hvrgray" style="height:330px;">
+<p style="text-align:center"><a href="/research/focus-areas#sp"><img alt="Strategic Planning" height="150" src="/sites/default/files/strategicplanning_icon.png" width="150" /></a></p>
+<hr class="purple" /><p class="rtecenter"><a href="/research/focus-areas#sp"><strong>Strategic Planning</strong></a></p>
+</div>
+<div class="large-3 columns fourcol hvrgray" style="height:330px;">
+<p style="text-align:center"><a href="/research/focus-areas#est"><img alt="Emerging Science &amp; Technology " height="150" src="/sites/default/files/emwrgingscience_icon.png" width="150" /></a></p>
+<hr class="green" /><p class="rtecenter"><a href="/research/focus-areas#est"><strong>Emerging Science &amp; Technology</strong></a></p>
+</div>
+<div class="large-3 columns fourcol hvrgray" style="height:330px;">
+<p style="text-align:center"><a href="/research/focus-areas#ep"><img alt="Exploratory Projects" height="150" src="/sites/default/files/exploratoryprojects_icon.png" width="150" /></a></p>
+<hr class="blue" /><div class="rtecenter"><a href="/research/focus-areas#ep"><strong>Exploratory Projects</strong></a></div>
+</div>
+<div class="large-3 columns fourcol last-col hvrgray" style="height:330px;">
+<p style="text-align:center"><a href="/research/focus-areas#twd"><img alt="Training &amp; Workforce Development" height="150" src="/sites/default/files/trainingandworkforce_icon.png" width="150" /></a></p>
+<hr class="orange" /><div class="rtecenter"><a href="/research/focus-areas#twd"><strong>Training &amp; Workforce Development</strong></a></div>
+</div>
+</div>
+</div>
+  
+    
+</article>
+  </div>
+</div>
+                    
+																				
+					                    
+				</div>
+				<!--/.main-content -->
+
+			</div>
+			<!--/.main region -->
+
+			
+					</main>
+		<!--/.main-->
+
+	</div>
+	<!--/.row.full-width.main-->
+
+
+    <!--.home feature-->
+	<div class="row full-width main full-width-features homepage-feature" style="text-align: center; ">
+		<main role="main" class="row l-main">
+			<div class="large-12 main columns main-content-wrapper">
+				<!-- <div class="large-6 columns">
+									</div>-->
+				<div class="homepage-tweets" style="margin: 0 15%; ">
+					  <div id="block-block-27" class="block block-block block-block-27" >
+        <div class="block-headline">
+      <div class="middle">
+        <h2 class="block-title">Latest Tweets</h2>
+      </div>
+    </div>
+      <div class="content" >
+    <hr class="gray">
+<a class="twitter-timeline" href="//twitter.com/NCI_CSSI?ref_src=twsrc%5Etfw" data-tweet-limit="2">Tweets by NCI_CSSI</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>   </div>
+</div>
+				</div>
+			</div>
+			<!--/.main region -->
+		</main>
+		<!--/.main-->
+	</div>
+	<!--/.row.full-width.main-->
+    <!--/.home feature-->
+
+	<div class="row full-width footer">
+
+		<!--.l-footer-->
+		<footer class="l-footer row" role="contentinfo">
+						<div class="footer large-12 columns">
+				  <div id="block-block-37" class="block block-block block-block-37">
+      
+  <div class="content">
+    <h1>National Cancer Institute <span>at the National Institutes of Health</span></h1>
+  </div>
+</div>
+<div id="block-menu-block-3" class="block block-menu-block block-menu-block-3">
+      
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-3 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-442"><a href="https://cssi.cancer.gov/" title="">CSSI Home</a></li>
+<li class="leaf menu-mlid-443"><a href="http://www.cancer.gov/policies" title="">Policies</a></li>
+<li class="leaf menu-mlid-444"><a href="http://www.cancer.gov/policies/accessibility" title="">Accessibility</a></li>
+<li class="leaf menu-mlid-1029"><a href="https://cancer.gov/policies/disclaimer" title="">Disclaimer</a></li>
+<li class="leaf menu-mlid-445"><a href="http://www.cancer.gov/policies/foia" title="">FOIA</a></li>
+<li class="leaf menu-mlid-446"><a href="http://www.cancer.gov/policies/accessibility" title="">Viewing Files</a></li>
+<li class="leaf menu-mlid-1148"><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" title="">Vulnerability Disclosure Policy</a></li>
+<li class="last leaf menu-mlid-859"><a href="/about-us/contact" title="">Contact Us</a></li>
+</ul></div>
+  </div>
+</div>
+<div id="block-block-4" class="block block-block block-block-4">
+      
+  <div class="content">
+    <ul class="menu">
+	<li class="first leaf"><a href="http://www.hhs.gov" target="_blank">U.S. Department of Health and Human Services</a></li>
+	<li class="leaf"><a href="http://www.nih.gov" target="_blank">National Institutes of Health</a></li>
+	<li class="leaf"><a href="https://www.cancer.gov" target="_blank">National Cancer Institute</a></li>
+	<li class="last leaf"><a href="http://www.usa.gov" target="_blank">USA.gov</a></li>
+</ul>
+
+<p>NIH… Turning Discovery Into Health<sup>®</sup></p>  </div>
+</div>
+			</div>
+			
+					</footer>
+		<!--/.footer-->
+
+		
+	</div>
+	<!--/.row.full-width.footer-->
+
+</div>
+<!--/.page -->      <script>
+    (function ($, Drupal, window, document, undefined) {
+      $(document).foundation();
+    })(jQuery, Drupal, this, this.document);
+  </script>
+  
+<script language="JavaScript" type="text/javascript" src="https://static.cancer.gov/webanalytics/wa_cssi_pageload.js"></script>
+<!--<script type="text/javascript">_satellite.pageBottom();</script>-->
+</body>
+</html>

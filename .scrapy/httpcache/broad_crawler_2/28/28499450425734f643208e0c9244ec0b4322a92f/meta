@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.hhs.gov/healthcare/index.html', 'method': 'NONE', 'status': 400, 'response_url': 'https://www.hhs.gov/healthcare/index.html', 'timestamp': 1686332616.132351}
+=======
+{'url': 'https://www.hhs.gov/healthcare/index.html', 'method': 'NONE', 'status': 400, 'response_url': 'https://www.hhs.gov/healthcare/index.html', 'timestamp': 1686472377.907742}
+>>>>>>> fix/seo-1

@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us">
+<head>
+
+    <script type="text/javascript" src="/_javascripts/gtm.js"></script>
+
+             
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link href="/_stylesheets/508styles.css" rel="stylesheet" type="text/css" /><link href="/_stylesheets/Notificationbanner.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="../_stylesheets/aim/aim-style.css?20190920" /><link rel="stylesheet" type="text/css" href="../_stylesheets/aim/AIM508.css?20210303" />
+    <script src='/_javascripts/jquery-3.6.0.min.js' type="text/javascript"></script>
+    <!-- RWB Accordian Includes -->
+    <script type="text/javascript" src="/_javascripts/accordion.js"></script>
+    <!-- Gang Ytilities Script Includes -->
+    <script type="text/javascript" src="/_javascripts/utilities_2021_08_09.js"></script>
+
+        
+
+
+
+    
+
+<!--[if IE]>
+  <link href="/_stylesheets/aim/IE.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<![endif]-->
+    <link href="/_stylesheets/aim/print.css" rel="stylesheet" type="text/css" media="print" />
+    <title>CollegeAIM NIAAA's Alcohol Intervention Matrix </title> 
+    <meta name="title" content="CollegeAIM NIAAA's Alcohol Intervention Matrix">
+    <meta name="description" content="NIAAA has developed this research-based tool to help schools address harmful and underage drinking.">
+    <meta name="keywords" content="college drinking, underage drinking, tool, research, high-risk drinking">
+</head>
+<body>
+
+    <a id="skipNav" tabindex="1" class="sr-only sr-only-focusable" href="#skipnav-content">
+        <span class="skiplink-text">Skip to main content</span>
+    </a>
+    <form method="post" action="./Default.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="576TUdchT4UsaBalHwyhS9ZFu92d+9bCgdEXG7+OeVyGcPrAVAPT8lGoUcqAeoYHJ9oqvYwFjHI4cvNhciYHD86ugxQ0o1FJL1KJlCKHWVymjNXVkPkCzmNAjD5mtElCAfpnFxUUvqfmB2RDZqa9UQ==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="21F4233F" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="GuFikXLz/l1rUlIAnIs7Md5UfsdtmlwQlktB1jT4uSkjQzGffQ8Q0zmFLIaW41ajzrStNhqVqd0SkjyZv4+G2WJG839nLFR7Xw9DaYjMOGyo2FAw62Ss/b2HOzy/6PA9Djmd0lzaoI6lIjo0m2C2bA==" />
+        <div id="wrap">
+    	    <header class="grid">
+               <div id="secondary-header">
+                    <span class="toolbar-toggle-icon tablet-show"></span>
+                    <div class="full-width box red small-font tablet-hidden" id="toolbar-container">
+                        <div class="inner">
+                            <a href="/">Go to collegedrinkingprevention.gov</a>
+                            <ul class="toolbar">
+                                <li><a id="aim-desktop-print" class="icon icon-printer"><span>Print</span></a></li>
+                                <li><a id="pagetoolsshare" class="icon icon-share" target="_blank" href="https://www.addthis.com/bookmark.php?v=250&amp;username=macrointernational"><span>Share</span></a></li>
+                            </ul>
+                            <label class="sr-only" for="search-box">Search</label>
+                    	    <input id="search-box" type="search" name="search"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="full-width box no-padding grey" id="primary-header">
+                    <div class="inner grid-nested">
+                        <div class="two-col-a first">
+                            <a href="/CollegeAIM/Default.aspx"><img border="0" src="/_images/logo-header.png" alt="College AIM Alcohol Intervention Matrix"/></a>
+                        </div>
+                        <div class="two-col-a last">
+                            <nav>
+                                <div class="site-nav-toggle"><span class="nav-toggle-icon"></span></div>
+                                <ul class="site-nav">  
+                                    <li id="introduction" class="nav-item"><a href="/CollegeAIM/Introduction/default.aspx">Overview</a><span class="mobile-drop-icon" id="introduction-icon"></span></li>
+                                    <ul class="mobile-drop-nav introduction-drop">
+                                        <li><a href="/CollegeAIM/Introduction/default.aspx">Introduction</a></li>
+                                        <li><a href="/CollegeAIM/Introduction/AboutMatrix.aspx">About the College Alcohol Intervention Matrix (<em>College AIM</em>)</a></li>
+                                        <li><a href="/CollegeAIM/Introduction/AboutInterventions.aspx">About the Interventions in <em>College AIM</em></a></li>
+                                        <li><a href="/CollegeAIM/Introduction/howtouse.aspx">How To Use <em>College AIM</em></a></li>
+                                    </ul>
+                                    <li id="individual" class="nav-item"><a href="/CollegeAIM/IndividualStrategies/default.aspx">Individual Strategies</a><span class="mobile-drop-icon" id="individual-icon"></span></li>
+                                    <ul class="mobile-drop-nav individual-drop">
+                                        <li><a href="/CollegeAIM/IndividualStrategies/default.aspx#showStrategy-1-">Higher effectiveness</a></li>
+                                        <li><a href="/CollegeAIM/IndividualStrategies/default.aspx#showStrategy-2-">Moderate effectiveness</a></li>
+                                        <li><a href="/CollegeAIM/IndividualStrategies/default.aspx#showStrategy-3-">Lower effectiveness</a></li>
+                                        <li><a href="/CollegeAIM/IndividualStrategies/default.aspx#showStrategy-4-">Not effective</a></li>
+                                        <li><a href="/CollegeAIM/IndividualStrategies/default.aspx#showStrategy-5-">Too few studies to rate effectiveness</a></li>
+                                        <li><a href="/CollegeAIM/IndividualStrategies/default.aspx#showStrategy-6-">Not Rated by <em>CollegeAIM</em></a></li>
+                                    </ul>
+                                    <li id="environment" class="nav-item"><a href="/CollegeAIM/EnvironmentalStrategies/default.aspx">Environmental Strategies</a><span class="mobile-drop-icon" id="environment-icon"></span></li>
+                                    <ul class="mobile-drop-nav environment-drop">
+                                        <li><a href="/CollegeAIM/EnvironmentalStrategies/default.aspx#showStrategy-21-">Higher effectiveness</a></li>
+                                        <li><a href="/CollegeAIM/EnvironmentalStrategies/default.aspx#showStrategy-22-">Moderate effectiveness</a></li>
+                                        <li><a href="/CollegeAIM/EnvironmentalStrategies/default.aspx#showStrategy-23-">Lower effectiveness</a></li>
+                                        <li><a href="/CollegeAIM/EnvironmentalStrategies/default.aspx#showStrategy-24-">Too few studies to rate effectiveness</a></li>
+                                    </ul>
+                                     <li id="mainnavworksheet" class="nav-item"><a  target="_blank"  href="/CollegeAIM/Resources/Worksheet_for_Choosing_Alcohol_Interventions.pdf">Worksheet</a></li>
+                                    <li id="mainnavfaqs" class="nav-item"><a href="/CollegeAIM/Resources/faq.aspx">FAQs</a><span class="mobile-drop-icon" id="faq-icon"></span></li>
+                                        <ul class="mobile-drop-nav faq-drop">
+                                            <li><a href="/CollegeAIM/Resources/faq.aspx#faq-head1">About monitoring campus alcohol problems</a></li>
+                                            <li><a href="/CollegeAIM/Resources/faq.aspx#faq-head2">About selecting and implementing strategies</a></li>
+                                            <li><a href="/CollegeAIM/Resources/faq.aspx#faq-head3">About responding to potential objections or challenges</a></li>
+                                            <li><a href="/CollegeAIM/Resources/faq.aspx#faq-head4">About CollegeAIM and ongoing research</a></li>
+                                        </ul>
+		                            <li id="additionalinformation" class="nav-item"><a href="/CollegeAIM/Resources/default.aspx">Additional Information</a><span class="mobile-drop-icon" id="additionalinformation-icon"></span></li>
+                                    <ul class="mobile-drop-nav additionalinformation-drop">
+                                        <!--<li><a target="_blank" href="/CollegeAIM/Resources/Worksheet_for_Choosing_Alcohol_Interventions.pdf">Worksheet</a></li>
+                                        <li><a href="/CollegeAIM/Resources/faq.aspx">FAQs</a></li>-->
+                                        <li><a href="/CollegeAIM/Resources/SupportingResources.aspx">Supporting Resources</a></li> 
+                                        <li><a href="/CollegeAIM/Resources/Acknowledgments.aspx">Acknowledgements</a></li>
+                                    </ul>   
+	                            </ul>
+                            </nav>
+                        </div>
+                    </div>  
+                </div>
+            </header>
+            
+            <div id="maincontentdiv" class="grid">
+
+
+    
+
+   
+            <a id="skipnav-content" name="skipnav-content"></a>
+                
+    <div class="picture-fill">
+        <div class="body-home grid-inner" id="homepage-two-col">
+            <div class="half-width first">
+                <img id="guide" alt="image of a CollegeAIM guide" src="/_images/collegeaim/home/collegeaim-guide-cover.png" alt="NIAA CollegeAIM Guide" />
+                <p id="pdf-home"><a class="pdf-text" href="/CollegeAIM/Resources/NIAAA_College_Matrix_Booklet.pdf" target="_blank">Download as a PDF<span class="download icon icon-file-pdf"></span></a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a class="pdf-text order-print-copy" href="https://www.niaaa.nih.gov/niaaa-publications-order-form" target="_blank">Order a print copy</a>
+
+                </p>
+            </div>
+            <div class="half-width last">
+                <h3>What Is <em>CollegeAIM</em> and Why Is It Needed?</h3>
+                <p class="intro-home">Developed by the National Institute on Alcohol Abuse and Alcoholism (NIAAA) with leading college alcohol researchers and staff, <em>CollegeAIM</em>—the College Alcohol Intervention Matrix—is an <strong>easy-to-use</strong> and <strong>comprehensive</strong> booklet and website to help schools identify effective alcohol interventions.</p>
+                <p class="intro-home">While there are numerous options for addressing alcohol issues, they are not all equally effective.</p>
+                <p class="intro-home"><em>CollegeAIM</em> can help schools <strong>choose interventions wisely</strong>—boosting their chances for success and helping them improve the health and safety of their students.</p>
+                <div class="learnmore-button"><input type="submit" name="ctl00$ContentPlaceHolder1$BTN_Learnmore" value="Learn More" id="ContentPlaceHolder1_BTN_Learnmore" class="btn btn-red" /></div>
+            </div>
+        </div>           
+    </div>
+    <div class="body-home">
+        <div class="body-home-sec1">
+            <h3>How can schools use <em>CollegeAIM</em>?</h3>
+            <p>With the help of <em>CollegeAIM</em>, school officials can:</p>
+            <ul>                 
+                <li>Review the <a href="/CollegeAIM/IndividualStrategies/default.aspx">individual-</a> and <a href="/CollegeAIM/EnvironmentalStrategies/default.aspx">environmental-level</a> strategies to learn how their current strategies compare to other alternatives.</li>
+                <li>Find new evidence-based options.</li>
+                <li>Use the <a href="/CollegeAIM/Resources/Worksheet_for_Choosing_Alcohol_Interventions.pdf" target="_blank">interactive strategy planning worksheet</a> to help select a combination of approaches that meets the needs of their campus  and their budget.</li>
+            </ul>
+
+               <p><a href="/CollegeAIM/Introduction/howtouse.aspx">Watch the Webinar: “The Updated College Alcohol Intervention Matrix (CollegeAIM): What Colleges and Communities Need to Know Now”</a></p>
+             
+            <h3>How is <em>CollegeAIM</em> different?</h3>
+            <p><em>CollegeAIM</em> is distinctive because of the breadth of its research and analysis, the expertise of its contributors, and its user-friendly format. This version of <em>CollegeAIM</em> is based on updates completed in 2019, and provides:</p>
+            <ul>
+                <li>An extensive review of decades of scientific literature</li>
+                <li>A multi-year collaboration involving 16 leaders in college alcohol intervention research</li>
+                <li>More than 60 interventions rated for effectiveness, costs, and other criteria</li>
+                <li>Two <strong>user-friendly</strong> matrices and other resources</li>  
+            </ul>
+        </div>
+        <div class="body-home-sec2">
+            <blockquote>
+                “This instrument is one of the most thoroughly vetted and user-friendly summaries of intervention strategies I have seen in decades.”<footer>-Jonathan Gibralter, Ph.D.<br />
+                    President, Wells College</footer>
+            </blockquote>
+        </div>
+    </div>
+
+            </div>
+        </div>
+
+        <footer class="box dark-grey">
+            <div class="grid inner">
+                <div class="half-width first" id="footer-menu">
+                    <ul>
+                        <li><a id="footerprivacy" href="https://www.niaaa.nih.gov/privacy" target="_blank">Privacy</a></li>
+                        <li><a id="footeraccessibility" href="https://www.niaaa.nih.gov/accessibility" target="_blank">Accessibility</a></li>
+                        <li><a id="footerdisclaimer" href="https://www.niaaa.nih.gov/disclaimer" target="_blank">Disclaimer</a></li>
+                        <li><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">Vulnerability Disclosure</a></li>
+
+                        <li><a id="footerfoia" href="https://www.niaaa.nih.gov/freedom-information-act-foia" target="_blank">FOIA</a></li>
+                        <li><a href="mailto:niaaaweb-r@exchange.nih.gov">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="half-width last" id="footer-icons">
+                    <img src="/_images/logo-footer.png" alt="NIH (National Institute of Health), HHS (Health and Human Services), USA.gov">
+                </div>    
+            </div>
+        </footer>   
+    </form>
+    <span class="mobile-show"><!--Used for Detection--></span>
+    <script src='/_javascripts/jquery.flexslider-min.js' type="text/javascript"></script>
+    <script src='/_javascripts/aim-custom.js' type="text/javascript"></script>
+
+
+    
+</body>
+</html>

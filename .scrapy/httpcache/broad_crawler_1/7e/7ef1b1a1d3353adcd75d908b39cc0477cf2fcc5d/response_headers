@@ -1,0 +1,12 @@
+Content-Length: 0
+Location: https://www.cms.gov/CCIIO/Programs-and-Initiatives/Health-Insurance-Marketplaces/State-Marketplace-Resources
+Date: Tue, 13 Jun 2023 17:49:29 GMT
+Set-Cookie: _ga=GA1.2.2034043020.1686678569; expires=Thu, 12-Jun-2025 17:49:29 GMT; path=/; domain=.cms.gov; secure
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Server-Timing: ak_p; desc="468521_399004167_262844566_1174_9974_31_-_-";dur=1
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+Strict-Transport-Security: max-age=31536000

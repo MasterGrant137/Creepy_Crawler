@@ -4,7 +4,11 @@ Cache-Control: max-age=900, public
 Content-Encoding: gzip
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 05:14:55 GMT
+=======
+Date: Sun, 11 Jun 2023 08:32:57 GMT
+>>>>>>> fix/seo-1
 Etag: "1685632070"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Last-Modified: Thu, 01 Jun 2023 15:07:50 GMT
@@ -19,5 +23,9 @@ X-Drupal-Cache: HIT
 X-Drupal-Dynamic-Cache: UNCACHEABLE
 X-Frame-Options: SAMEORIGIN
 X-Generator: Drupal 9 (https://www.drupal.org)
+<<<<<<< HEAD
 X-Request-Id: v-92676562-0684-11ee-97b3-4f2983537c4b
+=======
+X-Request-Id: v-916b4840-0832-11ee-876b-d3c770665aa3
+>>>>>>> fix/seo-1
 X-Ua-Compatible: IE=edge

@@ -1,0 +1,155 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en">
+	<head>
+		<title>Sign In - NIH Login</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="index.css">
+		<link rel="shortcut icon" href="https://www.nih.gov/favicon.ico" type="image/vnd.microsoft.icon">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+		<script language="JavaScript" type="text/javascript">
+function submitForm()
+{
+        document.getElementById('CredSelectorNotice').method = 'GET';
+		window.location.href = '/CertAuthV3/forms/NIHPIVRedirector.aspx?TARGET='+document.CredSelectorNotice.TARGET.value;
+		return false;
+    
+}
+function redirecttouserpass()
+{
+	var url= window.location.toString();
+	url=url.substring(url.indexOf("?")+1);
+	window.location.href='/CertAuthV3/forms/mfa/Userpassonly.aspx?'+url;
+}
+function submitAMSLogin()
+{
+  
+	
+	window.location.href = "https://auth.nih.gov/affwebservices/public/saml2authnrequest?ProviderID=https://ams.hhs.gov&RelayState=https%3A%2F%2Fauth.nih.gov%2FFederationPortal%2Famsportal.asp%3FTARGET%3DHTTPS://auth.nih.gov/eRA/redirectornew.asp?TARGET=https://commons.era.nih.gov:443/commons";
+	return false;
+
+}
+function ProcessFedTarget(targetStr)
+{
+		if(targetStr.indexOf("-SM-") == 0) //trimming -SM- from the begining
+		{
+			targetStr = targetStr.substring(targetStr.indexOf("-SM-")+ 4);
+		}
+		targetStr = targetStr.replace(/-:/g,":"); 
+		targetStr = targetStr.replace(/-\//g,"\/"); 
+		targetStr = targetStr.replace(/-=/g,"="); 
+		targetStr = targetStr.replace(/-\%/g,"\%"); 
+		targetStr = targetStr.replace(/-\?/g,"\?"); 
+		targetStr = targetStr.replace(/-;/g,";");
+		targetStr = targetStr.replace(/-\+/g,"\+");
+		targetStr = targetStr.replace(/-\#/g,"\#");
+		targetStr = targetStr.replace(/-\&/g,"%26");
+		targetStr = targetStr.replace(/-\ /g,"\ ");
+		targetStr = targetStr.replace(/-_/g,"_");
+		targetStr = targetStr.replace(/-\./g,"\.");
+		targetStr = targetStr.replace(/-\@/g,"\@");
+		targetStr = targetStr.replace(/--/g,"-");
+		targetStr = targetStr.replace(/-%/g,"%");
+		return targetStr;
+}
+function submitDocLogin()
+{
+   
+   window.location.href="https://auth.nih.gov/affwebservices/public/saml2authnrequest?ProviderID=https://docsso.doc.gov/am&RelayState=https%3A%2F%2Fauth.nih.gov%2FFederationPortal%2FPortalLDAP.asp%3FTARGET%3DHTTPS://auth.nih.gov/eRA/redirectornew.asp?TARGET=https://commons.era.nih.gov:443/commons";
+}
+</script>
+	</head>
+	<body>
+	<noscript>
+		We have detected that your browser does not have javascript enabled. To continue, please enable javascript.
+	</noscript>
+			<header class="nih-header d-flex align-items-center">
+				<div class="container">
+					<div class="row justify-content-left">
+						<div class="col col-10 offset-xl-1">
+							<img src="images/NIHLogo.png" alt="National Institutes of Health" class="header-logo">
+						</div>
+					</div>
+				</div>
+			</header>
+			
+			<div class="container main-container">
+				<div class="row">
+					<div class="col-xl-10 offset-xl-1 main-container-columns">
+						<main class="nih-login-content">
+						
+
+<h1>Sign in</h1>
+
+<div class="row no-gutters piv-box vertical-spaced-mid">
+	<div class="col-sm-6 col-12">
+		<h2 class="h3">Smart Card Login</h2>
+<p class="piv-text">Insert your PIV card into your smart card reader or sign in using your mobile PIV-D credentials. For help, visit the <a href="https://ocio.nih.gov/Smartcard/Pages/default.aspx">NIH Smart Card page</a>.</p>
+		<form AUTOCOMPLETE = "off" method="post" name="CredSelectorNotice" id="CredSelectorNotice" class="nih-login-form right-border">
+          <input type="hidden" name="SMLOCALE"             value="US-EN"/>
+          <input type="hidden" name="SMENC"                value="ISO-8859-1"/>
+          <input type="hidden" name="TARGET"	           value="-SM-HTTPS%3a%2f%2fauth.nih.gov%2feRA%2fredirectornew.asp%3fTARGET%3dhttps-%3a-%2f-%2fcommons.era.nih.gov-%3a443-%2fcommons" />
+          <input type="hidden" name="REALMOID" 		       value="06-f49bf240-8100-4c49-9c91-82052bea7c90"/>
+          <input type="hidden" name="SMQUERYDATA"          value=""/>
+          <input type="hidden" name="SMAGENTNAME"          value="nihwamwebagent"/>
+          <input type="hidden" name="SMAUTHREASON" 	       value="0" />
+          <input type="hidden" name="POSTPRESERVATIONDATA" value=""/>  
+          <input type="hidden" name="minloa"               value="NIHIssuedLOA4" />
+<button
+	type="button"
+	class="nih-blue-button vertical-spaced-mid"
+	aria-label="Sign in with your PIV card"
+	onclick="javascript:submitForm();"
+>Sign in</button>
+</form>
+	</div>
+</div>
+
+<div class="notification notification-primary">
+	<p><span class="heavy">PIV-Exempt? Not a PIV Card Holder? <a href="javascript:redirecttouserpass()">Sign in using your account credentials.</a></span></p>
+</div>
+
+<div class="horizontal-divider-with-aasp"></div>
+
+
+
+<div class="d-flex flex-wrap align-content-between external-login-container">
+	
+	<a href="javascript:submitAMSLogin()" class="external-login-button">
+		<img alt="" src="images/Logo_HHS.svg">
+		HHS AMS
+	</a>
+	</a>
+		<a href="javascript:submitDocLogin()" class="external-login-button">
+		<img alt="" src="images/DoC-seal-64.png">
+		DOC
+	</a>
+</div>
+
+						
+							<p class="h4 vertical-spaced"><a href="/CertAuthV3/forms/passwordlinks.html">Trouble signing in?</a></p>
+						
+						</main>
+					</div>
+				</div>
+				<aside
+					role="doc-notice"
+					class="container nih-warning-content no-gutters"
+				>
+					<div class="col-xl-10 offset-xl-1">
+						<h2 class="warning-header">WARNING NOTICE:</h2>
+<p class="warning-text">For public facing web pages to which the public has privileged access, e.g., clinical trial or adverse effects systems where users/patients are logging in to enter PII/PHI: You are accessing a U.S. Government web site which may contain information that must be protected under the U.S. Privacy Act or other sensitive information and is intended for Government authorized use only. Unauthorized attempts to upload information, change information, or use of this web site may result in disciplinary action, civil, and/or criminal penalties. Unauthorized users of this web site should have no expectation of privacy regarding any communications or data processed by this web site. Anyone accessing this web site expressly consents to monitoring of their actions and all communication or data transitioning or stored on or related to this web site and is advised that if such monitoring reveals possible evidence of criminal activity, NIH may provide that evidence to law enforcement officials.</p><p class="warning-text"><a href="https://www.nih.gov/web-policies-notices">NIH Web Policies and Notices</a></p>
+					</div>
+				</aside>
+			</div>
+			<footer class="nih-footer">
+				<p>For assistance, call the NIH IT Service Desk at <br><span class="text-nowrap text-break"><a href="tel:301-496-4357">301-496-4357</a> (6-HELP)</span> or <span class="text-nowrap"><a href="tel:866-319-4357">866-319-4357</a> (toll-free)</span></p>
+				<img src="images/HHSLogo.svg" class="footer-logo-hhs" alt="HHS">
+				<img src="images/NIHLogo.png" alt="NIH" class="footer-logo-nih-small">
+			</footer>
+	</body>
+</html>

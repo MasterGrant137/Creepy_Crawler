@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://en.wikipedia.org/wiki/Indio', 'method': 'GET', 'status': 200, 'response_url': 'https://en.wikipedia.org/wiki/Indio', 'timestamp': 1686254680.213382}
+=======
+{'url': 'https://en.wikipedia.org/wiki/Indio', 'method': 'GET', 'status': 200, 'response_url': 'https://en.wikipedia.org/wiki/Indio', 'timestamp': 1686354181.054812}
+>>>>>>> fix/seo-1

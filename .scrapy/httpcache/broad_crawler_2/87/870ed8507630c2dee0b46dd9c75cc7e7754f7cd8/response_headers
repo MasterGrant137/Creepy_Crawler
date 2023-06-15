@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 16:55:01 GMT
 Cache-Control: max-age=3600
 Expires: Fri, 09 Jun 2023 17:55:01 GMT
@@ -6,4 +7,14 @@ Set-Cookie: __cf_bm=Ymm2tWOAvSrpxT0GjovhJMX8eKTFy2nQvQha.f15Nag-1686329701-0-AUj
 Vary: Accept-Encoding
 Server: cloudflare
 Cf-Ray: 7d4ae65a2be90cf3-LAX
+=======
+Date: Sun, 11 Jun 2023 07:17:53 GMT
+Cache-Control: max-age=3600
+Expires: Sun, 11 Jun 2023 08:17:53 GMT
+Location: https://www.oecd.org/sti/msti.htm
+Set-Cookie: __cf_bm=3ASN3e4V_U3tQDOr.89Wan3qyNKVMPJlg6Dl3CaVP1k-1686467873-0-AUvRQwhqJTr6n5rekOcMZwft1XKv7Wf+LVAFCDxPuNTYx5R0CvzCKPCU4taQssfs0AebevDBtL8vTowFmHAKIFg=; path=/; expires=Sun, 11-Jun-23 07:47:53 GMT; domain=.oecd.org; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 7d5813b3dbfc08f6-LAX
+>>>>>>> fix/seo-1
 Alt-Svc: h3=":443"; ma=86400

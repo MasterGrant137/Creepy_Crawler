@@ -12,4 +12,8 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 X-Powered-By: ASP.NET
 Content-Security-Policy: upgrade-insecure-requests
 Referrer-Policy: no-referrer
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 17:34:13 GMT
+=======
+Date: Sun, 11 Jun 2023 07:17:54 GMT
+>>>>>>> fix/seo-1

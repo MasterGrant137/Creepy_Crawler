@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://twitter.com/AlertNIH', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/AlertNIH', 'timestamp': 1686287104.789077}
+=======
+{'url': 'https://twitter.com/AlertNIH', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/AlertNIH', 'timestamp': 1686467786.976856}
+>>>>>>> fix/seo-1

@@ -2,6 +2,7 @@ Content-Length: 150
 Content-Type: text/html
 Server: nginx
 Strict-Transport-Security: max-age=31622400; includeSubDomains; preload
+<<<<<<< HEAD
 X-Pantheon-Styx-Hostname: styx-fe1-b-6f854dbb8b-kb2bm
 X-Styx-Req-Id: 9256c3ca-0684-11ee-867e-9e46887d352b
 Date: Fri, 09 Jun 2023 05:14:55 GMT
@@ -9,6 +10,15 @@ X-Served-By: cache-chi-klot8100053-CHI, cache-bur-kbur8200137-BUR
 X-Cache: MISS, MISS
 X-Cache-Hits: 0, 0
 X-Timer: S1686287695.495477,VS0,VE102
+=======
+X-Pantheon-Styx-Hostname: styx-fe1-b-6f854dbb8b-t2xbp
+X-Styx-Req-Id: 914dfe83-0832-11ee-b4f6-5ea4f3778629
+Date: Sun, 11 Jun 2023 08:32:57 GMT
+X-Served-By: cache-chi-klot8100069-CHI, cache-bur-kbur8200034-BUR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1686472377.359693,VS0,VE96
+>>>>>>> fix/seo-1
 Vary: Cookie, Cookie
 Age: 0
 Accept-Ranges: bytes

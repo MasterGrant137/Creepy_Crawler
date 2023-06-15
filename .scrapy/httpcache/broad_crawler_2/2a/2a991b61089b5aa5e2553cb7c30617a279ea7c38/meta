@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.cancer.gov/news-events/press-releases/2021', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cancer.gov/news-events/press-releases/2021', 'timestamp': 1686287305.16838}
+=======
+{'url': 'https://www.cancer.gov/news-events/press-releases/2021', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cancer.gov/news-events/press-releases/2021', 'timestamp': 1686472139.85135}
+>>>>>>> fix/seo-1

@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 Content-Length: 29573
+=======
+Content-Length: 29258
+>>>>>>> fix/seo-1
 Accept-Ranges: bytes
 Content-Encoding: gzip
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
+<<<<<<< HEAD
 Etag: "1686268819"
 Last-Modified: Fri, 09 Jun 2023 00:00:19 GMT
 Link: <https://www.cancer.gov/news-events/media-resources>; rel="canonical"
@@ -10,11 +15,21 @@ Server: nginx
 X-Age: 15655
 X-Ah-Environment: 01live
 X-Cache-Hits: 2
+=======
+Etag: "1686360243"
+Last-Modified: Sat, 10 Jun 2023 01:24:03 GMT
+Link: <https://www.cancer.gov/news-events/media-resources>; rel="canonical"
+Server: nginx
+X-Age: 63333
+X-Ah-Environment: 01live
+X-Cache-Hits: 8
+>>>>>>> fix/seo-1
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: SAMEORIGIN
 X-Generator: Drupal 9 (https://www.drupal.org)
+<<<<<<< HEAD
 X-Request-Id: v-9f1aeba2-0658-11ee-a0c6-177fa267c463
 X-Ua-Compatible: IE=edge
 Expires: Fri, 09 Jun 2023 05:08:25 GMT
@@ -24,3 +39,13 @@ Date: Fri, 09 Jun 2023 05:08:25 GMT
 Vary: Accept-Encoding
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
 Server-Timing: ak_p; desc="1686287305118_400336282_450725717_10018_6209_42_0_-";dur=1
+=======
+X-Request-Id: v-7c2f3794-072d-11ee-89eb-1b183b8a7a5e
+X-Ua-Compatible: IE=edge
+Expires: Sun, 11 Jun 2023 08:29:00 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Sun, 11 Jun 2023 08:29:00 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+>>>>>>> fix/seo-1

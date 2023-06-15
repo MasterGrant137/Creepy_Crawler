@@ -11,13 +11,21 @@
 <link rel="icon" type="image/png" href="/themes/custom/nei/images/favicon.png" />
 <link rel="apple-touch-icon" href="/themes/custom/nei/images/apple-touch-icon.png" />
 <link rel="icon" href="/themes/custom/nei/favicon.ico" type="image/vnd.microsoft.icon" />
+<<<<<<< HEAD
 <script src="/sites/default/files/google_tag/google_tag/www.nei.nih.gov/google_tag.script.js?rvyq0x" defer></script>
+=======
+<script src="/sites/default/files/google_tag/google_tag/www.nei.nih.gov/google_tag.script.js?rw2nz2" defer></script>
+>>>>>>> fix/seo-1
 
     <title>Client error | National Eye Institute</title>
     <link rel="preload" href="/themes/custom/nei/fonts/Aleo-Bold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/themes/custom/nei/fonts/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" media="all" href="/sites/default/files/css/css_hNue8-GCTKcwE5OTbz3A-zsPcg5njxErgnFy3WrQAQk.css" />
+<<<<<<< HEAD
 <link rel="stylesheet" media="all" href="/themes/custom/nei/css/style.css?rvyq0x" />
+=======
+<link rel="stylesheet" media="all" href="/themes/custom/nei/css/style.css?rw2nz2" />
+>>>>>>> fix/seo-1
 
     <script src="https://script.crazyegg.com/pages/scripts/0114/8948.js" async></script>
 
@@ -37,7 +45,11 @@
 
     
       <div>
+<<<<<<< HEAD
 <div class="js-view-dom-id-11453ecbce2ee57a02a6afbfc624596f42000ac5083d8ac8721950898001674f site-notices">
+=======
+<div class="js-view-dom-id-259c8582ff67c13d5d11e9d277e15434b4125f195b09eb80747ff4cf119637ec site-notices">
+>>>>>>> fix/seo-1
   
   
   
@@ -134,7 +146,11 @@
         <input data-drupal-selector="edit-global-terms" type="text" id="edit-global-terms" name="global-terms" value="" size="30" maxlength="128" placeholder="Search the site" class="form-text" />
 
         </div>
+<<<<<<< HEAD
 <input data-drupal-selector="form-rge2f8sibo4dyswnd6s4lxm1ceui-2b0ryj4fqt0lgg" type="hidden" name="form_build_id" value="form-rGE2f8Sibo4DySwND6S4lXM1cEUi-2B0ryJ4FqT0lgg" />
+=======
+<input data-drupal-selector="form-qkvwcah7vmzffjqkt4bahak78a1evfqe79x6fvyw-k0" type="hidden" name="form_build_id" value="form-QkvwcaH7VMzfFjqKT4BAHak78A1evfQE79x6fvyW-k0" />
+>>>>>>> fix/seo-1
 <input data-drupal-selector="edit-search-global" type="hidden" name="form_id" value="search_global" />
 <div data-drupal-selector="edit-global-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-global-actions"><input data-drupal-selector="edit-global-submit" type="submit" id="edit-global-submit" name="op" value="Search" class="button js-form-submit form-submit" />
 </div>
@@ -394,7 +410,11 @@
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"user":{"uid":0,"permissionsHash":"0fa9200a36eebbc2a47e551a2b8bc3d3e3c4449f13e357233cdb5b06e78c551f"}}</script>
 <script src="/sites/default/files/js/js_zXskSOmqoToAFP4u0tAeLqa69rVFWfRr7FJHu5d1uRI.js"></script>
+<<<<<<< HEAD
 <script src="/themes/custom/nei/js/scripts.js?rvyq0x"></script>
+=======
+<script src="/themes/custom/nei/js/scripts.js?rw2nz2"></script>
+>>>>>>> fix/seo-1
 
   </body>
 </html>

@@ -1,0 +1,15 @@
+Content-Type: text/html; charset=utf-8
+Date: Tue, 13 Jun 2023 07:50:38 GMT
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Set-Cookie: NSC_MC-JBF-tbngspoufoeqspe=ffffffff09b92d5445525d5f4f58455e445a4a42378b; Max-Age=120; Path=/; Version=1; Secure; HttpOnly
+Set-Cookie: citrix_ns_id=kJoB2UhEeX6URolsQx0g+nWGIOk0001; Domain=.sam.gov; Path=/; Secure; HttpOnly
+Set-Cookie: citrix_ns_id_.sam.gov_%2F_wlf=AAAAAAWsDgRMBIN-ppLjdd4R23qvNp-MxwH0sBEqUqLjdvcwEk9UyNzIZaNZFe9PWtSBnMM87F0DY5DO9bytCtoTJgszFpQjqs0dq7lufxYxgHyJEQCfe8u9Ca2zAWrpwkEC8Ho=&; Domain=.sam.gov; Max-Age=604800; Path=/; Version=1; Secure; HttpOnly
+X-Cache-Control-Orig: 
+Cache-Control: max-age=0, must-revalidate, private
+X-Expires-Orig: None
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 f3219597d17b6efcbda39f405ca2692a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX50-P4
+X-Amz-Cf-Id: 06BEF7w5MBJYePg0jnxp49uHY1Azb4-43EdI8BnH19pyXpFABMM8VA==

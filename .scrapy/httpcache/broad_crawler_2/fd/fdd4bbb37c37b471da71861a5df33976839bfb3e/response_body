@@ -1,0 +1,3 @@
+# robots.txt for BoxOfficeMojo
+User-agent: *
+Allow: /

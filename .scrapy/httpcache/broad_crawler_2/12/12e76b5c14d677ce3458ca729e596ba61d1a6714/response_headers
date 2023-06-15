@@ -1,0 +1,21 @@
+Cache-Control: max-age=86400, public
+Content-Type: text/html; charset=utf-8
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sun, 11 Jun 2023 07:13:51 GMT
+Etag: "1686467631"
+Vary: Cookie
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Powered-By: PHP/8.0.28
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+Content-Security-Policy: report-uri /report-csp-violation
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: MISS
+X-Cache: CONFIG_NOCACHE
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Azure-Ref: 0L3SFZAAAAADhjLRERjOhT7MaBNuSErKdTEFYRURHRTIxMTMANzgwMmFkNWUtZTNiYy00OWQxLWI4N2QtNzhiN2IwN2Q1YWMw
+Date: Sun, 11 Jun 2023 07:13:51 GMT

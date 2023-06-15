@@ -1,0 +1,10 @@
+Content-Length: 167
+Server: CloudFront
+Date: Sun, 11 Jun 2023 08:32:57 GMT
+Content-Type: text/html
+Location: https://annex.exploratorium.edu/robots.txt
+X-Cache: Redirect from cloudfront
+Via: 1.1 ba55932f4947672586f0865cea81e028.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YVR50-C1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: zKedCkBWfyJrxsjpwhIS_GgCUl0GvpO5p8ZnhHPf-gy-X21DcPqxbg==

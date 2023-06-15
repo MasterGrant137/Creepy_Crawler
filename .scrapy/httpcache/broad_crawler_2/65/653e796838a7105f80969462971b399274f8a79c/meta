@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.healthcare.gov/using-this-site/', 'method': 'NONE', 'status': 400, 'response_url': 'https://www.healthcare.gov/using-this-site/', 'timestamp': 1686287104.6549902}
+=======
+{'url': 'https://www.healthcare.gov/using-this-site/', 'method': 'NONE', 'status': 400, 'response_url': 'https://www.healthcare.gov/using-this-site/', 'timestamp': 1686472377.3662999}
+>>>>>>> fix/seo-1

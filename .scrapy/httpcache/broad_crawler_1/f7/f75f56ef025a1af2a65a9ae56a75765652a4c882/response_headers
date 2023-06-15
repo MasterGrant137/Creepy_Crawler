@@ -1,0 +1,15 @@
+Content-Length: 1305
+Cache-Control: max-age=86400
+Content-Type: text/plain
+Content-Encoding: gzip
+Last-Modified: Tue, 13 Dec 2022 17:17:57 GMT
+Accept-Ranges: bytes
+Etag: "20b96d816fd91:0:dtagent10265230425083909QhYP"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="1564674368"
+Set-Cookie: dtCookie=v_4_srv_2_sn_B39EB0F57A5086A2FA9364FE609225B1_perc_100000_ol_0_mul_1_app-3Ac645a92f09aaadc1_1; Path=/; Domain=.nih.gov
+Date: Tue, 13 Jun 2023 07:57:05 GMT

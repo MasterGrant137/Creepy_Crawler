@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'http://nihmedarts.tumblr.com/robots.txt', 'method': 'GET', 'status': 302, 'response_url': 'http://nihmedarts.tumblr.com/robots.txt', 'timestamp': 1686287104.617333}
+=======
+{'url': 'http://nihmedarts.tumblr.com/robots.txt', 'method': 'GET', 'status': 302, 'response_url': 'http://nihmedarts.tumblr.com/robots.txt', 'timestamp': 1686467786.1434162}
+>>>>>>> fix/seo-1

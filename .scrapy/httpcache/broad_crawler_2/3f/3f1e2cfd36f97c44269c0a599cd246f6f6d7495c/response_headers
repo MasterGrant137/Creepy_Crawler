@@ -10,6 +10,7 @@ X-Drupal-Cache: MISS
 X-Frame-Options: SAMEORIGIN
 X-Generator: Drupal 9 (https://www.drupal.org)
 X-Redirect-Id: 114251
+<<<<<<< HEAD
 X-Request-Id: v-a9e30238-0683-11ee-be4d-73fea277f944
 X-Ua-Compatible: IE=edge
 Expires: Fri, 09 Jun 2023 05:08:25 GMT
@@ -18,3 +19,12 @@ Pragma: no-cache
 Date: Fri, 09 Jun 2023 05:08:25 GMT
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
 Server-Timing: ak_p; desc="1686287305312_400336282_450726511_59745_4516_21_0_-";dur=1
+=======
+X-Request-Id: v-0413e664-0832-11ee-b88e-eb77cb0051d2
+X-Ua-Compatible: IE=edge
+Expires: Sun, 11 Jun 2023 08:29:00 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Sun, 11 Jun 2023 08:29:00 GMT
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+>>>>>>> fix/seo-1

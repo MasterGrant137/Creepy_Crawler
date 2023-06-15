@@ -11,175 +11,190 @@ Class attributes:
   `scrape_with_crochet` function.
 - They are accessed by keying into the self parameter.
 
-Logic:
-- `yield from response.follow_all(...)` is what drives the broadness and, in turn, the duration
-  of each spider's scrape
-- 
+Additional Information:
+- The spiders run as long as the settings passed to them allow, particularly:
+    - `CLOSESPIDER_TIMEOUT` (after timing out, there's a cool down period as spiders clear their queue)
+    - `CLOSESPIDER_PAGECOUNT` (tightly coupled with how long the spiders crawl)
 """
 
 import re
 import scrapy
-from scrapy.exceptions import CloseSpider
 
 class BroadCrawlerMonitor():
-    """Monitor and regulate broad crawling spiders."""
+    """Monitor broad crawling spiders."""
 
-    crawl_depths = {}
+    trunc_amt_1 = 160
+    trunc_amt_2 = 16
 
     def __init__(self, name):
         """Initialize BroadCrawlerMonitor."""
         self.name = name
-    
-    def increment_crawl_depth(self):
-        """Increment the depth a given spider has crawled."""
-        if not self.name in self.crawl_depths: self.crawl_depths[self.name] = 0
-        self.crawl_depths[self.name] += 1
-        # print(f'{self.name}: {self.crawl_depths[self.name]}')
-    
-    def get_crawl_depth(self) -> int:
-        """Return the depth a given spider has crawled."""
-        if not self.name in self.crawl_depths: self.crawl_depths[self.name] = 0
-        return self.crawl_depths[self.name]
-    
-    def reset_crawl_depth(self):
-        """Reset a given spider's accrued crawl depth to 0."""
-        self.crawl_depths[self.name] = 0
+
+class BroadCrawler1(scrapy.Spider):
+    """Broad crawling spider."""
+
+    name = 'broad_crawler_1'
+    start_urls = ['https://www.nih.gov/news-events/news-releases']
+    crawled_urls = set()
+    broad_crawler_monitor = BroadCrawlerMonitor(name)
+
+    def parse(self, response):
+        """Parse and yield page data."""
+        try:
+            text_list = response.css('*:not(script):not(style)::text').getall()
+            match_count, unique_matches, unique_matches_string = 0, set(), ''
+
+            for text_item in text_list:
+                match = re.search(self.query_regex, text_item)
+                add_to_matches_string = len(unique_matches_string) <= self.broad_crawler_monitor.trunc_amt_1
+                if match: match_count += 1
+                if match and add_to_matches_string and match.group(0) not in unique_matches:
+                    unique_matches.add(match.group(0))
+                    unique_matches_string += match.group(0)
+
+            if match_count and response.request.url not in self.crawled_urls:
+                self.crawled_urls.add(response.request.url)
+                match_count_display_text = f"[broad crawler found {match_count} {'matches' if match_count > 1 else 'match'}]"
+                yield { 
+                    'url': response.request.url, 
+                    'text': f"{match_count_display_text} {unique_matches_string}" 
+                }
+
+            yield from response.follow_all(xpath="//a[starts-with(@href, 'http')]", callback=self.parse)
+        except Exception as e: print(f'Affected spider: {self.name}. Error: {e}.')
+
 
 class BroadCrawler2(scrapy.Spider):
     """Broad crawling spider."""
 
-    start_urls = ['https://www.nih.gov/news-events/news-releases']
-    crawled_urls = set()
-    exceptions = []
     name = 'broad_crawler_2'
-    broad_crawler_2_monitor = BroadCrawlerMonitor(name)
-    max_crawl_depth = 200
+    start_urls = ['https://www.bbc.com/news']
+    crawled_urls = set()
+    broad_crawler_monitor = BroadCrawlerMonitor(name)
 
     def parse(self, response):
-        """Follow links."""
+        """Parse and yield page data."""
         try:
-            urls = response.css('a::attr(href)').getall()
+            text_list = response.css('*:not(script):not(style)::text').getall()
+            match_count, unique_matches, unique_matches_string = 0, set(), ''
 
-            while self.broad_crawler_2_monitor.get_crawl_depth() <= self.max_crawl_depth:
-                url = urls[len(urls)//2]
-                print('curr crawl depth', self.broad_crawler_2_monitor.get_crawl_depth())
+            for text_item in text_list:
+                match = re.search(self.query_regex, text_item)
+                add_to_matches_string = len(unique_matches_string) <= self.broad_crawler_monitor.trunc_amt_1
+                if match: match_count += 1
+                if match and add_to_matches_string and match.group(0) not in unique_matches:
+                    unique_matches.add(match.group(0))
+                    unique_matches_string += match.group(0)
 
-                all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
-                match_list = re.findall(self.query_regex, all_text)
-                match_str = ''.join(match_list)
+            if match_count and response.request.url not in self.crawled_urls:
+                self.crawled_urls.add(response.request.url)
+                match_count_display_text = f"[broad crawler found {match_count} {'matches' if match_count > 1 else 'match'}]"
+                yield { 
+                    'url': response.request.url, 
+                    'text': f"{match_count_display_text} {unique_matches_string}" 
+                }
 
-                if match_str and response.request.url not in self.crawled_urls:
-                    self.crawled_urls.add(response.request.url)
-                    trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_1]}...'
-                    yield { 'url': response.request.url, 'text': f"[broad crawler found {len(match_list)} {'matches' if len(match_list) > 1 else 'match'}] {trunc_match_str}" }
-
-                yield response.follow(url, callback=self.parse)
-                self.broad_crawler_2_monitor.increment_crawl_depth()
-            print(self.crawled_urls)
-        except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
-
-# class BroadCrawler2(scrapy.Spider):
-#     """Broad crawling spider."""
-
-#     name = 'broad_crawler_2'
-#     exceptions = []
-#     start_urls = ['https://www.nih.gov/news-events/news-releases']
-
-#     def halt(self, broad_crawler_2_monitor):
-#         """Stop crawling."""
-#         print('should stop NOW ----------->')
-#         # broad_crawler_2_monitor.reset_crawl_depth()
-#         raise CloseSpider('Crawl depth reached.')
-
-#     def parse(self, response):
-#         """Follow links."""
-#         try:
-#             broad_crawler_2_monitor = BroadCrawlerMonitor(self.name)
-#             crawl_depth = broad_crawler_2_monitor.increment_and_get_crawl_depth()
-#             if crawl_depth >= 50: self.halt(broad_crawler_2_monitor)
-
-#             all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
-#             match_list = re.findall(self.query_regex, all_text)
-#             match_str = ''.join(match_list)
-
-#             if match_str:
-#                 trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_1]}...'
-#                 yield { 'url': response.request.url, 'text': f"[broad crawler found {len(match_list)} {'matches' if len(match_list) > 1 else 'match'}] {trunc_match_str}" }
-#             yield from response.follow_all(css='a::attr(href)', callback=self.parse)
-#         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
+            yield from response.follow_all(xpath="//a[starts-with(@href, 'http')]", callback=self.parse)
+        except Exception as e: print(f'Affected spider: {self.name}. Error: {e}.')
 
 
-# class BroadCrawler4(scrapy.Spider):o
-#     """Broad crawling spider."""
+class BroadCrawler3(scrapy.Spider):
+    """Broad crawling spider."""
 
-#     name = 'broad_crawler_4'
-#     start_urls = ['https://www.bbc.com/news']
+    name = 'broad_crawler_3'
+    start_urls = ['https://espn.com/']
+    crawled_urls = set()
+    broad_crawler_monitor = BroadCrawlerMonitor(name)
 
-#     def parse(self, response):
-#         """Follow links."""
-#         try:
-#             all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
-#             match_list = re.findall(self.query_regex, all_text)
-#             match_str = ''.join(match_list)
-#             if match_str:
-#                 trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_1]}...'
-#                 yield { 'url': response.request.url, 'text': f"[broad crawler found {len(match_list)} {'matches' if len(match_list) > 1 else 'match'}] {trunc_match_str}" }
-#         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
-#         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+    def parse(self, response):
+        """Parse and yield page data."""
+        try:
+            text_list = response.css('*:not(script):not(style)::text').getall()
+            match_count, unique_matches, unique_matches_string = 0, set(), ''
 
+            for text_item in text_list:
+                match = re.search(self.query_regex, text_item)
+                add_to_matches_string = len(unique_matches_string) <= self.broad_crawler_monitor.trunc_amt_1
+                if match: match_count += 1
+                if match and add_to_matches_string and match.group(0) not in unique_matches:
+                    unique_matches.add(match.group(0))
+                    unique_matches_string += match.group(0)
 
-# class BroadCrawler5(scrapy.Spider):
-#     """Broad crawling spider."""
+            if match_count and response.request.url not in self.crawled_urls:
+                self.crawled_urls.add(response.request.url)
+                match_count_display_text = f"[broad crawler found {match_count} {'matches' if match_count > 1 else 'match'}]"
+                yield { 
+                    'url': response.request.url, 
+                    'text': f"{match_count_display_text} {unique_matches_string}" 
+                }
 
-#     name = 'broad_crawler_5'
-#     start_urls = ['https://espn.com/']
-
-#     def parse(self, response):
-#         """Follow links."""
-#         try:
-#             all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
-#             match_list = re.findall(self.query_regex, all_text)
-#             match_str = ''.join(match_list)
-#             if match_str:
-#                 trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_1]}...'
-#                 yield { 'url': response.request.url, 'text': f"[broad crawler found {len(match_list)} {'matches' if len(match_list) > 1 else 'match'}] {trunc_match_str}" }
-#         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
-#         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+            yield from response.follow_all(xpath="//a[starts-with(@href, 'http')]", callback=self.parse)
+        except Exception as e: print(f'Affected spider: {self.name}. Error: {e}.')
 
 
-# class BroadCrawler6(scrapy.Spider):
-#     """Broad crawling spider."""
+class BroadCrawler4(scrapy.Spider):
+    """Broad crawling spider."""
 
-#     name = 'broad_crawler_6'
-#     start_urls = ['https://ign.com/']
+    name = 'broad_crawler_4'
+    start_urls = ['https://ign.com/']
+    crawled_urls = set()
+    broad_crawler_monitor = BroadCrawlerMonitor(name)
 
-#     def parse(self, response):
-#         """Follow links."""
-#         try:
-#             all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
-#             match_list = re.findall(self.query_regex, all_text)
-#             match_str = ''.join(match_list)
-#             if match_str:
-#                 trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_1]}...'
-#                 yield { 'url': response.request.url, 'text': f"[broad crawler found {len(match_list)} {'matches' if len(match_list) > 1 else 'match'}] {trunc_match_str}" }
-#         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
-#         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+    def parse(self, response):
+        """Parse and yield page data."""
+        try:
+            text_list = response.css('*:not(script):not(style)::text').getall()
+            match_count, unique_matches, unique_matches_string = 0, set(), ''
+
+            for text_item in text_list:
+                match = re.search(self.query_regex, text_item)
+                add_to_matches_string = len(unique_matches_string) <= self.broad_crawler_monitor.trunc_amt_1
+                if match: match_count += 1
+                if match and add_to_matches_string and match.group(0) not in unique_matches:
+                    unique_matches.add(match.group(0))
+                    unique_matches_string += match.group(0)
+
+            if match_count and response.request.url not in self.crawled_urls:
+                self.crawled_urls.add(response.request.url)
+                match_count_display_text = f"[broad crawler found {match_count} {'matches' if match_count > 1 else 'match'}]"
+                yield { 
+                    'url': response.request.url, 
+                    'text': f"{match_count_display_text} {unique_matches_string}" 
+                }
+
+            yield from response.follow_all(xpath="//a[starts-with(@href, 'http')]", callback=self.parse)
+        except Exception as e: print(f'Affected spider: {self.name}. Error: {e}.')
 
 
-# class BroadCrawler7(scrapy.Spider):
-#     """Broad crawling spider."""
+class BroadCrawler5(scrapy.Spider):
+    """Broad crawling spider."""
 
-#     name = 'broad_crawler_7'
-#     start_urls = ['https://www.imdb.com/feature/genre/']
+    name = 'broad_crawler_5'
+    start_urls = ['https://www.imdb.com/feature/genre/']
+    crawled_urls = set()
+    broad_crawler_monitor = BroadCrawlerMonitor(name)
 
-#     def parse(self, response):
-#         """Follow links."""
-#         try:
-#             all_text = ''.join(response.css('*:not(script):not(style)::text').getall())
-#             match_list = re.findall(self.query_regex, all_text)
-#             match_str = ''.join(match_list)
-#             if match_str:
-#                 trunc_match_str = match_str if len(match_str) <= self.trunc_amt_1 else f'{match_str[0:self.trunc_amt_1]}...'
-#                 yield { 'url': response.request.url, 'text': f"[broad crawler found {len(match_list)} {'matches' if len(match_list) > 1 else 'match'}] {trunc_match_str}" }
-#         except Exception as e: print(f'Affected Spider: {self.name}. Error: {e}.')
-#         yield from response.follow_all(css='a::attr(href)', callback=self.parse)
+    def parse(self, response):
+        """Parse and yield page data."""
+        try:
+            text_list = response.css('*:not(script):not(style)::text').getall()
+            match_count, unique_matches, unique_matches_string = 0, set(), ''
+
+            for text_item in text_list:
+                match = re.search(self.query_regex, text_item)
+                add_to_matches_string = len(unique_matches_string) <= self.broad_crawler_monitor.trunc_amt_1
+                if match: match_count += 1
+                if match and add_to_matches_string and match.group(0) not in unique_matches:
+                    unique_matches.add(match.group(0))
+                    unique_matches_string += match.group(0)
+
+            if match_count and response.request.url not in self.crawled_urls:
+                self.crawled_urls.add(response.request.url)
+                match_count_display_text = f"[broad crawler found {match_count} {'matches' if match_count > 1 else 'match'}]"
+                yield { 
+                    'url': response.request.url, 
+                    'text': f"{match_count_display_text} {unique_matches_string}" 
+                }
+
+            yield from response.follow_all(xpath="//a[starts-with(@href, 'http')]", callback=self.parse)
+        except Exception as e: print(f'Affected spider: {self.name}. Error: {e}.')

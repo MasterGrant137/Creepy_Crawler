@@ -1,0 +1,20 @@
+Server: nginx
+Date: Tue, 13 Jun 2023 06:33:49 GMT
+Content-Type: text/html; charset=utf8
+Set-Cookie: AWSALB=CGfnhp1PKX7nTcqBwrxPwZuYFEjJg1+vNZqBD0Ib2QkHT2Iq7H4WkM7iEmss15S3lk2fLHZCShbkOC/p7N5C4c28U20u6oxz/AwoGRFtHYRtfcPBB0GB5Twx1bma; Expires=Tue, 20 Jun 2023 06:33:49 GMT; Path=/
+Set-Cookie: AWSALBCORS=CGfnhp1PKX7nTcqBwrxPwZuYFEjJg1+vNZqBD0Ib2QkHT2Iq7H4WkM7iEmss15S3lk2fLHZCShbkOC/p7N5C4c28U20u6oxz/AwoGRFtHYRtfcPBB0GB5Twx1bma; Expires=Tue, 20 Jun 2023 06:33:49 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: dtCookie=v_4_srv_1_sn_9A085D7124D51FB8DF862CB45234A6B7_perc_100000_ol_0_mul_1_app-3A611b5bc1cdd55364_1; Path=/; Domain=.nih.gov
+Content-Encoding: gzip
+Last-Modified: Wed, 24 May 2023 22:00:03 GMT
+Accept-Ranges: bytes
+Etag: "1d98e8b1818860e:dtagent10263230321103025v04G"
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Rate-Limit-Limit: 1m
+X-Rate-Limit-Remaining: 199
+X-Rate-Limit-Reset: 2023-06-13T06:34:49.8017010Z
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+X-Oneagent-Js-Injection: true
+X-Ruxit-Js-Agent: true
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="1439595667"

@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: Server
+Date: Fri, 09 Jun 2023 23:22:01 GMT
+X-Amz-Rid: ZPQBW2C8T63QHF66R3RH
+Cache-Control: max-age=43200
+Expires: Sun, 09 Jul 2023 23:22:01 GMT
+Location: /search/keyword/?keywords=anime
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,User-Agent
+X-Cache: Miss from cloudfront
+Via: 1.1 1d4a0c5c1e2a08b50c7d9e658a3f4fec.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX53-P4
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: WxO0_Zl_tAU4qct8WZ2GWU4nE8uPuwR8oi0RPDT1upvmHUfnACdPyw==

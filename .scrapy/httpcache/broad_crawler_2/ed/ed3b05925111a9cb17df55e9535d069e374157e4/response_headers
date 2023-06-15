@@ -1,13 +1,22 @@
 Content-Length: 19
 Cache-Control: private,max-age=0
 Allow: GET, POST, OPTIONS, HEAD, MKCOL, PUT, PROPFIND, PROPPATCH, DELETE, MOVE, COPY, GETLIB, LOCK, UNLOCK
+<<<<<<< HEAD
 Expires: Thu, 25 May 2023 05:18:46 GMT
+=======
+Expires: Sat, 27 May 2023 08:34:31 GMT
+>>>>>>> fix/seo-1
 Accept-Ranges: bytes
 Server: Microsoft-IIS/10.0
 X-Sharepointhealthscore: 0
 Public-Extension: http://schemas.microsoft.com/repl-2
+<<<<<<< HEAD
 Sprequestguid: 490cbba0-84b3-e0c7-87b1-dc89625c152c
 Request-Id: 490cbba0-84b3-e0c7-87b1-dc89625c152c
+=======
+Sprequestguid: 48bcbba0-44c8-e0c7-87b1-d1a2cd16af48
+Request-Id: 48bcbba0-44c8-e0c7-87b1-d1a2cd16af48
+>>>>>>> fix/seo-1
 X-Frame-Options: SAMEORIGIN
 X-Frame-Options: SAMEORIGIN
 Sprequestduration: 5
@@ -17,4 +26,8 @@ Microsoftsharepointteamservices: 16.0.0.10398
 X-Content-Type-Options: nosniff
 X-Ms-Invokeapp: 1; RequireReadOnly
 Strict-Transport-Security: max-age=31536000
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 05:18:45 GMT
+=======
+Date: Sun, 11 Jun 2023 08:34:31 GMT
+>>>>>>> fix/seo-1

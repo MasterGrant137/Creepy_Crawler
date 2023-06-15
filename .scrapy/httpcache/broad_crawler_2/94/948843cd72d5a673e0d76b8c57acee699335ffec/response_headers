@@ -3,8 +3,16 @@ Cache-Control: no-cache
 Pragma: no-cache
 Content-Type: text/html;charset=UTF-8
 Location: /grants/how-to-apply-application-guide/due-dates-and-submission-policies/standard-due-dates.htm
+<<<<<<< HEAD
 Set-Cookie: CFID=24169567; Expires=Sun, 01-Jun-2053 05:14:55 GMT; Path=/; Secure; HttpOnly
 Set-Cookie: CFTOKEN=be4a79bce76c5ef4-31C9DE30-DA46-068B-06F659A0175674D4; Expires=Sun, 01-Jun-2053 05:14:55 GMT; Path=/; Secure; HttpOnly
 Content-Security-Policy: upgrade-insecure-requests
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Date: Fri, 09 Jun 2023 05:14:55 GMT
+=======
+Set-Cookie: CFID=24484856; Expires=Tue, 03-Jun-2053 08:33:48 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: CFTOKEN=eff67fdf779a8d15-9FE595CA-0B13-8EF9-A45632DC09824254; Expires=Tue, 03-Jun-2053 08:33:48 GMT; Path=/; Secure; HttpOnly
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Date: Sun, 11 Jun 2023 08:33:47 GMT
+>>>>>>> fix/seo-1

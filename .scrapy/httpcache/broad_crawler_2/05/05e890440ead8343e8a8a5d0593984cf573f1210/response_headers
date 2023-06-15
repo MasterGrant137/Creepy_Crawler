@@ -4,8 +4,13 @@ Content-Type: text/html; charset=utf-8
 Content-Encoding: gzip
 Content-Language: en
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
+<<<<<<< HEAD
 Last-Modified: Fri, 09 Jun 2023 19:13:17 GMT
 Etag: "1686337997-1"
+=======
+Last-Modified: Sun, 11 Jun 2023 07:17:55 GMT
+Etag: "1686467875-1"
+>>>>>>> fix/seo-1
 Vary: Cookie,Accept-Encoding
 Server: Microsoft-IIS/8.5
 X-Powered-By: PHP/7.4.33
@@ -17,4 +22,8 @@ X-Content-Type-Options: nosniff
 Permissions-Policy: interest-cohort=()
 Link: <https://commonfund.nih.gov/about>; rel="canonical"
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 19:13:17 GMT
+=======
+Date: Sun, 11 Jun 2023 07:17:56 GMT
+>>>>>>> fix/seo-1

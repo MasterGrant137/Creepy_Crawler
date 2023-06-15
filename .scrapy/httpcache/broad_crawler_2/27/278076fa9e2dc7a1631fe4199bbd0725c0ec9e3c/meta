@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'http://public.era.nih.gov/commons/', 'method': 'GET', 'status': 301, 'response_url': 'http://public.era.nih.gov/commons/', 'timestamp': 1686287695.803473}
+=======
+{'url': 'http://public.era.nih.gov/commons/', 'method': 'GET', 'status': 301, 'response_url': 'http://public.era.nih.gov/commons/', 'timestamp': 1686472377.341386}
+>>>>>>> fix/seo-1

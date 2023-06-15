@@ -1,0 +1,10 @@
+Content-Length: 297
+Server: nginx
+Date: Tue, 13 Jun 2023 17:10:52 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: private, max-age=90
+Content-Security-Policy: referrer always;
+Location: https://grants.nih.gov/funding/searchguide/index.html#/?query=empty&type=active,notices&foa=all&orgs=nigms&ac=all&ct=all&pfoa=yes&date=01021991-03212019&fields=all&spons=true
+Referrer-Policy: unsafe-url
+Set-Cookie: _bit=n5dhaQ-2506ad18fc3d2a107b-00H; Domain=bit.ly; Expires=Sun, 10 Dec 2023 17:10:52 GMT
+Via: 1.1 google

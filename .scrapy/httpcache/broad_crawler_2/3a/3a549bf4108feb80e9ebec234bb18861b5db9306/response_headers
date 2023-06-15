@@ -1,5 +1,9 @@
 Server: nginx
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 05:14:55 GMT
+=======
+Date: Sun, 11 Jun 2023 07:17:52 GMT
+>>>>>>> fix/seo-1
 Content-Type: text/html; charset=UTF-8
 Cache-Control: max-age=600, public
 X-Drupal-Dynamic-Cache: MISS
@@ -8,6 +12,7 @@ Content-Language: en
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
+<<<<<<< HEAD
 Last-Modified: Thu, 08 Jun 2023 08:03:04 GMT
 Etag: "1686211384"
 Vary: Cookie,Accept-Encoding
@@ -16,6 +21,16 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
 X-Drupal-Cache: HIT
 Content-Encoding: gzip
 X-Request-Id: v-926abe92-0684-11ee-9784-431bcd000e88
+=======
+Last-Modified: Sun, 11 Jun 2023 07:17:52 GMT
+Etag: "1686467872"
+Vary: Cookie,Accept-Encoding
+X-Generator: Drupal 9 (https://www.drupal.org)
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Drupal-Cache: MISS
+Content-Encoding: gzip
+X-Request-Id: v-13fad330-0828-11ee-9295-6b313d0fa5bf
+>>>>>>> fix/seo-1
 X-Ah-Environment: prod
 Age: 0
 Via: varnish

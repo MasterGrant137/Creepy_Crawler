@@ -1,3 +1,6 @@
+#### June 14, 2023,
++ Search engine optimization: speed and performance.
+---
 #### June 7, 2023
 + Site redeployment, from Heroku to fly.io.
 ---

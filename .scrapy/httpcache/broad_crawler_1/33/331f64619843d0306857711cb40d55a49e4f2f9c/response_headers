@@ -1,0 +1,29 @@
+Server: nginx/1.19.5
+Date: Tue, 13 Jun 2023 07:52:12 GMT
+Content-Type: text/html; charset=UTF-8
+X-Archive-Orig-Cache-Control: max-age=3, must-revalidate
+X-Archive-Orig-Vary: Accept-Encoding, Cookie
+X-Archive-Orig-Server: Microsoft-IIS/10.0
+X-Archive-Orig-X-Powered-By: ASP.NET
+X-Archive-Orig-Content-Security-Policy: upgrade-insecure-requests
+X-Archive-Orig-Strict-Transport-Security: max-age=31536000
+X-Archive-Orig-Date: Mon, 15 May 2023 10:32:45 GMT
+X-Archive-Orig-Content-Length: 76642
+X-Archive-Guessed-Content-Type: text/html
+X-Archive-Guessed-Charset: utf-8
+Memento-Datetime: Mon, 15 May 2023 10:32:45 GMT
+Link: <https://nexus.od.nih.gov/all/>; rel="original", <https://web.archive.org/web/timemap/link/https://nexus.od.nih.gov/all/>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://nexus.od.nih.gov/all/>; rel="timegate", <https://web.archive.org/web/20110204051120/http://nexus.od.nih.gov/all/>; rel="first memento"; datetime="Fri, 04 Feb 2011 05:11:20 GMT", <https://web.archive.org/web/20230514150324/https://nexus.od.nih.gov/all/>; rel="prev memento"; datetime="Sun, 14 May 2023 15:03:24 GMT", <https://web.archive.org/web/20230515103245/https://nexus.od.nih.gov/all/>; rel="memento"; datetime="Mon, 15 May 2023 10:32:45 GMT", <https://web.archive.org/web/20230515103245/https://nexus.od.nih.gov/all/>; rel="last memento"; datetime="Mon, 15 May 2023 10:32:45 GMT"
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org wayback-api.archive.org analytics.archive.org pragma.archivelab.org
+X-Archive-Src: spn2-20230515111721/spn2-20230515101550-wwwb-spn17.us.archive.org-8005.warc.gz
+Server-Timing: captures_list;dur=192.393185, exclusion.robots;dur=0.242402, exclusion.robots.policy;dur=0.230949, cdx.remote;dur=0.072647, esindex;dur=0.009528, LoadShardBlock;dur=94.494213, PetaboxLoader3.datanode;dur=139.323791, load_resource;dur=150.680816, PetaboxLoader3.resolve;dur=65.591323
+X-App-Server: wwwb-app209
+X-Ts: 200
+X-Tr: 688
+X-Location: All
+X-Rl: 0
+X-Na: 0
+X-Page-Cache: MISS
+X-Nid: -
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+Content-Encoding: gzip

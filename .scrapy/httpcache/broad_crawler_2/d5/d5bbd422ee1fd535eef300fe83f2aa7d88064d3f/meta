@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.cancer.gov/news-events', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cancer.gov/news-events', 'timestamp': 1686287305.27206}
+=======
+{'url': 'https://www.cancer.gov/news-events', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cancer.gov/news-events', 'timestamp': 1686472140.156685}
+>>>>>>> fix/seo-1

@@ -6,7 +6,11 @@
 <meta content='width=device-width, initial-scale=1.0, user-scalable=yes' name='viewport' />
 <link href='https://prevention.nih.gov/favicon.ico' rel='shortcut icon' />
 <meta name="csrf-param" content="authenticity_token" />
+<<<<<<< HEAD
 <meta name="csrf-token" content="CMnl3zB0mxc+vkyY66YwBWJCQaclx/EkO4EO/KDWfy4kZVPWf/yE69Q/kdm++lW8KlN86uhPzfQxguf/0LZ4BQ==" />
+=======
+<meta name="csrf-token" content="S03lJ7ED6R3ti7L8AP6pO5v9C+on6p1/kytd4O6mLzbNK6kBxFhHYJ28GFjDehI4iOcUFoMSNMTSYgCDk1i9WQ==" />
+>>>>>>> fix/seo-1
 <link rel="stylesheet" media="screen" href="https://content.govdelivery.com/assets/subscriber-6fa22a4cc01bd61bfc57e67ad3871548d6adbf1f5c067eb8cdad078eaddf6675.css" />
 <link rel="stylesheet" media="screen" href="https://public.govdelivery.com/accounts/USNIHODP/style.css?v=1592839890" />
 
@@ -34,7 +38,11 @@
 </p>
 
 
+<<<<<<< HEAD
 <form action="/accounts/USNIHODP/subscriber/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="J5qnVz1S9s08j+XL8lDWJHB+Scjya2YPqAvHx16leD4LNhFectrpMdYOOIqnDLOdOG90hT/jWt+iCC7ELsV/FQ==" />
+=======
+<form action="/accounts/USNIHODP/subscriber/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="icaxGpAR8gGeuot8N4l84MaW8ozll+YDD2FOxAJFI00PoP085UpcfO6NIdj0Dcfj1YztcEFvT7hOKBOnf7uxIg==" />
+>>>>>>> fix/seo-1
 
 <fieldset id='quick_subscribe_new'>
 <legend>

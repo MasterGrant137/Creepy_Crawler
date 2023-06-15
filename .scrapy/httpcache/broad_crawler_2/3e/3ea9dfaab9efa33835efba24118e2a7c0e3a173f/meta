@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://twitter.com/NCIBillDahut', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NCIBillDahut', 'timestamp': 1686287409.1286368}
+=======
+{'url': 'https://twitter.com/NCIBillDahut', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NCIBillDahut', 'timestamp': 1686467787.9669929}
+>>>>>>> fix/seo-1

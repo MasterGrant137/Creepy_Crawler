@@ -1,0 +1,13 @@
+Content-Length: 0
+Server: nginx
+Date: Sun, 11 Jun 2023 08:31:30 GMT
+Set-Cookie: AWSALB=cGX4DgAE+pufCc1yxdsNpufU9OtQdbqOArGh6bosKGsI6Yt0ZaT8HMp2ApmEM609fFSSlnsnlOkYz+RimksaodBE+0lHj1+scbfyic0RPQYxD4j6uRLF5SpOe8wm; Expires=Sun, 18 Jun 2023 08:31:30 GMT; Path=/
+Set-Cookie: AWSALBCORS=cGX4DgAE+pufCc1yxdsNpufU9OtQdbqOArGh6bosKGsI6Yt0ZaT8HMp2ApmEM609fFSSlnsnlOkYz+RimksaodBE+0lHj1+scbfyic0RPQYxD4j6uRLF5SpOe8wm; Expires=Sun, 18 Jun 2023 08:31:30 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: dtCookie=v_4_srv_2_sn_79D1ADDBE106E7C58C497E9E4B68AB19_perc_100000_ol_0_mul_1_app-3A611b5bc1cdd55364_1; Path=/; Domain=.nih.gov
+Allow: GET, HEAD, OPTIONS, TRACE
+Content-Security-Policy: frame-ancestors 'self' *.nih.gov;
+X-Frame-Options: ALLOW-FROM https://seed.nih.gov
+X-Powered-By: 
+X-Aspnet-Version: 
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="-1813452433"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;

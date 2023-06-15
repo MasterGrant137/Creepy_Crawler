@@ -1,0 +1,21 @@
+Date: Sun, 11 Jun 2023 07:17:52 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000; includeSubdomains;preload;
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Powered-By: PHP/8.0.28
+Cache-Control: public,max-age=3600
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Last-Modified: Sat, 10 Jun 2023 01:24:44 GMT
+Etag: "1686360284-gzip"
+Vary: Accept-Encoding
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

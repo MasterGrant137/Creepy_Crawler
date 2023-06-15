@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://ncifrederick.cancer.gov/robots.txt', 'method': 'GET', 'status': 200, 'response_url': 'https://ncifrederick.cancer.gov/robots.txt', 'timestamp': 1686330722.889801}
+=======
+{'url': 'https://ncifrederick.cancer.gov/robots.txt', 'method': 'GET', 'status': 200, 'response_url': 'https://ncifrederick.cancer.gov/robots.txt', 'timestamp': 1686467631.3716962}
+>>>>>>> fix/seo-1

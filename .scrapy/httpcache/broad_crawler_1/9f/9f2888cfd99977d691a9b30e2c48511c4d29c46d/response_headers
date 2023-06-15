@@ -1,0 +1,28 @@
+Date: Tue, 13 Jun 2023 07:50:02 GMT
+Content-Type: text/html; charset=UTF-8
+X-Fw-Version: 5.0.0
+X-Xss-Protection: 1
+X-Fw-Dynamic: TRUE
+Referrer-Policy: no-referrer-when-downgrade
+X-Fw-Hash: 6sj9imp4tg
+X-Content-Type-Options: nosniff
+Link: <https://988lifeline.org/wp-json/>; rel="https://api.w.org/"
+Link: <https://988lifeline.org/wp-json/wp/v2/pages/99>; rel="alternate"; type="application/json"
+Link: <https://988lifeline.org/>; rel=shortlink
+X-Fw-Server: Flywheel/5.1.0
+X-Cacheable: YES
+Fastly-Restarts: 1
+X-Served-By: cache-lax10626-LGB, cache-lax10649-LGB
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 1
+X-Timer: S1686642603.910185,VS0,VE2
+Vary: Accept-Encoding
+X-Fw-Serve: TRUE
+X-Fw-Static: NO
+X-Fw-Type: FLYWHEEL_BOT
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ysOmjZZNGJmtoOMRGsk9dsvla4p4povttrTsTOPevTYd16TfamjrRk%2B9bI4tIr%2F0I0Syfc7wFMTajZM%2FCDz5TE%2FD%2BLYnr1HpdPL48eAd7tO2aA6ooyoidk1iYGXAcB3I4A%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 7d68bd8c1e225331-LAX
+Content-Encoding: gzip

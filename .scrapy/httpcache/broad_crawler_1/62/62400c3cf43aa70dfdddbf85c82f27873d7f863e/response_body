@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<style>body #backtotop {left: 50%; margin-left: -50px;background: #333;border-color: #000;color: #fff;}body #backtotop:hover { background: #666; border-color: #666; }</style>
+<style>#block-cheeseburgermenu, #block-cheeseburgermenutrigger {--cheese-aside-bg-color: rgba( 255, 255, 255, 1);--cheese-aside-text-color: rgba( 63, 92, 125, 1);--cheese-main-bg-color: rgba( 255, 255, 255, 1);--cheese-main-text-color: rgba( 63, 92, 125, 1);--cheese-trigger-color: rgba( 0, 133, 188, 1);--cheese-trigger-bg-color: rgba( 255, 255, 255, 1);--cheese-scrollbar-color: rgba( 211, 211, 211, 1);}</style>
+<link rel="canonical" href="https://oamp.od.nih.gov/content/technical-proposal-instructions" />
+<meta name="description" content="General Information COMMITMENT OF PUBLIC FUNDS COMMUNICATIONS PRIOR TO CONTRACT AWARD RELEASE OF INFORMATION PREPARATION COSTS Instructions to Offerors GENERAL INSTRUCTIONS Contract Clauses Authorized Official and Submission of Proposal Proposal Summary and Data Record (NIH-2043) Separation of Technical and Busines" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/images/logo.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Technical Proposal Instructions | Office of Management</title>
+    <link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/ajax-progress.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/align.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/autocomplete-loading.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/fieldgroup.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/container-inline.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/clearfix.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/details.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/hidden.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/item-list.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/js.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/nowrap.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/position-container.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/progress.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/reset-appearance.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/resize.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/sticky-header.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-counter.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-counters.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-general-info.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tabledrag.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tablesort.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tree-child.module.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/system.admin.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/system.maintenance.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/modules/contrib/back_to_top/css/back_to_top_text.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/extlink.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/modules/contrib/cheeseburger_menu/css/cheeseburger_menu.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/core/assets/vendor/normalize-css/normalize.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/core/normalize-fixes.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/action-links.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/breadcrumb.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/button.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/collapse-processed.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/container-inline.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/details.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/exposed-filters.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/field.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/form.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/icons.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/inline-form.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/item-list.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/link.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/links.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/menu.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/more-link.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/pager.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tabledrag.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tableselect.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tablesort.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tabs.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/textarea.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/ui-dialog.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/messages.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/progress.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/node.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" media="all" href="/themes/oamp_theme/css/base.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/themes/oamp_theme/css/style.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/themes/oamp_theme/css/media.css?ru1ivt" />
+<link rel="stylesheet" media="all" href="/themes/oamp_theme/css/maintenance-page.css?ru1ivt" />
+
+    
+        <script src="https://kit.fontawesome.com/5fc2b821f2.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+    if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent))
+        document.write('<script src="/themes/custom/oamp_theme/js/ie-menu.js"><\/script>');
+</script>
+	
+  </head>
+  <body class="contenttechnical-proposal-instructions path-node not-front path-node page-node-type-page sidebar-first anonymous">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<!-- Header and Navbar -->
+<header class="main-header">
+<!-- Sliding Header Widget -->
+<!--Sliding Header Widget -->
+  <nav class="navbar topnav navbar-default" role="navigation">
+    <div class="container">
+      <div class="row">
+      <div class="navbar-header col-md-12">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search-block-form">
+          <span class="sr-only">Toggle navigation</span>
+          <span><i class="fa fa-fw fa-search"></i></span>
+        </button>	
+		  <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>-->
+		<div class="toplogo">
+                    <div class="region region-header">
+    <div id="block-oamp-theme-branding" class="site-branding block block-system block-system-branding-block">
+  
+      
+        <div class="brand logo">
+      <a href="/" title="Home" rel="home" class="site-branding__logo">
+        <img src="/sites/default/files/images/logo.png" alt="Home" />
+      </a>
+    </div>
+        <div class="brand site-name">
+              <div class="site-branding__name">
+          <a href="/" title="Home" rel="home">Office of Management</a>
+        </div>
+    </div>
+                  <div class="site-branding__slogan"><a href="/" title="Home" rel="home">Office of Acquisition Management and Policy</a></div>
+        </div>
+
+  </div>
+
+        		</div>
+		<div class="topsearch">
+		          <div class="region region-primary-menu">
+    <div class="search-block-form block block-search container-inline" data-drupal-selector="search-block-form" id="block-searchform-2" role="search">
+  
+    
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="Search..." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Go" class="button js-form-submit form-submit" /><i class="fa fa-search"></i>
+</div>
+
+</form>
+
+  </div>
+
+  </div>
+
+          
+        </div>
+		<div class="topmenu">
+		          <div class="region region-top-menu">
+    <div id="block-cheeseburgermenutrigger" class="block block-cheeseburger-menu block-cheeseburger-menu-trigger">
+  
+      
+      <div class="content">
+      <button role="button" aria-expanded="true" data-target="#block-cheeseburgermenu" class="block-cheeseburgermenu__trigger-element" data-cheeseburger-id="block-cheeseburgermenu" tabindex="0">
+    menu
+</button>
+
+    </div>
+  </div>
+<div style="display: none;" class="block-cheeseburgermenu-container block-cheeseburgermenu-container--with-navigation block block-cheeseburger-menu" id="block-cheeseburgermenu">
+  
+      
+      <div class="content">
+      	<div class="cheeseburger-menu__side-menu">
+		<div class="cheeseburger-menu__side-trigger" data-cheeseburger-close="true" tabindex="0"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
+	 height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g id="Bounding_Boxes">
+	<path fill="none" d="M0,0h24v24H0V0z"/>
+</g>
+<g id="Rounded">
+	<path d="M18.3,5.71L18.3,5.71c-0.39-0.39-1.02-0.39-1.41,0L12,10.59L7.11,5.7c-0.39-0.39-1.02-0.39-1.41,0l0,0
+		c-0.39,0.39-0.39,1.02,0,1.41L10.59,12L5.7,16.89c-0.39,0.39-0.39,1.02,0,1.41h0c0.39,0.39,1.02,0.39,1.41,0L12,13.41l4.89,4.89
+		c0.39,0.39,1.02,0.39,1.41,0l0,0c0.39-0.39,0.39-1.02,0-1.41L13.41,12l4.89-4.89C18.68,6.73,18.68,6.09,18.3,5.71z"/>
+</g>
+</svg>
+</div>
+
+		      						</div>
+
+<div class="cheeseburger-menu__main-navigation-area">
+				<div class="menu-main-body"  data-cheeseburger-id="menu-main">
+						<ul
+				class="cheeseburger-menu__mainmenu">
+															<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded cheeseburger-parent" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/node">
+				<span>Home</span>
+			</a>
+		
+					<ul class="cheeseburger-menu__submenu">
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/about-oamp">
+				<span>About OAMP</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/oamp-associate-director">
+				<span>OAMP Associate Director</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/oamp-organizational-structure">
+				<span>OAMP Organizational Structure</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/staff-directory">
+				<span>Staff Directory</span>
+			</a>
+		
+			</li>
+
+							</ul>
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded cheeseburger-parent" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation">
+				<span>Division of Acquisition Policy and Evaluation (DAPE)</span>
+			</a>
+		
+					<ul class="cheeseburger-menu__submenu">
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/about-dape">
+				<span>About DAPE</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/dape-organization-chart">
+				<span>DAPE Organization Chart</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/acquisition-resources">
+				<span>Acquisition Resources</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/review-instructions">
+				<span>Review Instructions</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/continuously-open-broad-agency-announcements">
+				<span>Continuously Open Broad Agency Announcements</span>
+			</a>
+		
+			</li>
+
+							</ul>
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded cheeseburger-parent" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-financial-advisory-services">
+				<span>Division of Financial Advisory Services (DFAS)</span>
+			</a>
+		
+					<ul class="cheeseburger-menu__submenu">
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-financial-advisory-services/about-dfas">
+				<span>About DFAS</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-financial-advisory-services/dfas-organization-chart">
+				<span>DFAS Organization Chart</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-financial-advisory-services/indirect-cost-branch">
+				<span>Indirect Cost Branch</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-financial-advisory-services/special-reviews-branch">
+				<span>Special Reviews Branch</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-financial-advisory-services/links-and-resources">
+				<span>DFAS Links and Resources</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-financial-advisory-services/dfas-frequently-asked-questions">
+				<span>DFAS Frequently Asked Questions</span>
+			</a>
+		
+			</li>
+
+							</ul>
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded cheeseburger-parent" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-simplified-acquisition-policy-and-services">
+				<span>Division of Simplified Acquisition Policy and Services (DSAPS)</span>
+			</a>
+		
+					<ul class="cheeseburger-menu__submenu">
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-simplified-acquisition-policy-and-services/about-dsaps">
+				<span>About DSAPS</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-simplified-acquisition-policy-and-services/dsaps-organization-chart">
+				<span>DSAPS Organization Chart</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="https://oalmsps.od.nih.gov/OAMP/DSAPS/ASRB/SAPhD/SitePages/Home.aspx">
+				<span>Acquisition Services Review Branch </span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-simplified-acquisition-policy-and-services/bpa-program">
+				<span>BPA Program Branch</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="http://oampintranet.od.nih.gov/purchasecard/purchasecard.html">
+				<span>Purchase Card Program Branch</span>
+			</a>
+		
+			</li>
+
+							</ul>
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded cheeseburger-parent" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-document-generation-system">
+				<span>The NIH Enterprise Document Generation System</span>
+			</a>
+		
+					<ul class="cheeseburger-menu__submenu">
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-document-generation-system/about-dgs">
+				<span>About DGS</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-document-generation-system/dgs-frequently-asked-questions">
+				<span>DGS Frequently Asked Questions</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-document-generation-system/dgs-user-guides">
+				<span>DGS User Guides</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-document-generation-system/dgs-workform-information">
+				<span>DGS Workform Information</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-document-generation-system/reference-material-prospective-offerors-and-contractors">
+				<span>Reference Material for Prospective Offerors and Contractors</span>
+			</a>
+		
+			</li>
+
+							</ul>
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded cheeseburger-parent" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-small-business-program-office">
+				<span>NIH Small Business Program Office (SBPO)</span>
+			</a>
+		
+					<ul class="cheeseburger-menu__submenu">
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-small-business-program-office/about-sbpo">
+				<span>About SBPO</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="https://oamp.od.nih.gov/current-small-business-opportunities">
+				<span>Current SBPO Opportunities</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-small-business-program-office/small-business-resources">
+				<span>Small Business Resources</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-small-business-program-office/nih-path-to-excellence-innovation-initiative">
+				<span>The NIH Path to Excellence &amp; Innovation Initiative</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="https://oamp.od.nih.gov/hbcu-resources">
+				<span>HBCU Resources</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-small-business-program-office/nih-hubzone-consortium">
+				<span>NIH HUBZone Consortium</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-small-business-program-office/sbpo-frequently-asked-questions">
+				<span>SBPO Frequently Asked Questions</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-small-business-program-office/upcoming-events">
+				<span>Upcoming Events</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/nih-small-business-program-office/nih-sbpo-appointment-inquiry-tool">
+				<span>NIH Small Business Program Office Appointment &amp; Inquiry Tool</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/staff-directory/hhs-small-business-specialist">
+				<span>Staff</span>
+			</a>
+		
+			</li>
+
+							</ul>
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded cheeseburger-parent" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/acquisition-resources">
+				<span>Acquisition Resources</span>
+			</a>
+		
+					<ul class="cheeseburger-menu__submenu">
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/acquisition-resources/tools">
+				<span>Tools</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/acquisition-resources/forms">
+				<span>Forms</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/acquisition-resources/websites">
+				<span>Websites</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/acquisition-resources/documents">
+				<span>Documents</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/acquisition-resources/acquisition-offices">
+				<span>NIH Acquisition Offices</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/acquisition-resources/acquisition-offices/contract-tool-box">
+				<span>NIH Contract Tool Box and External links</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/acquisition-resources/nih-acquisition-policy">
+				<span>NIH Acquisition Policy</span>
+			</a>
+		
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="/division-of-acquisition-policy-and-evaluation/acquisition-resources/rd-contract-awards-policy-changes">
+				<span>R&amp;D Contract Awards Policy Changes</span>
+			</a>
+		
+			</li>
+
+							</ul>
+			</li>
+
+											<li  class="menu-link cheeseburger-menu__item main__item cheeseburger-menu__item--is-expanded" data-cheeseburger-default-expand="">
+					<a class="cheeseburger-menu__item-label" href="https://oalm.od.nih.gov/">
+				<span>Office of Acquisition and Logistics Management (OALM)</span>
+			</a>
+		
+			</li>
+
+							</ul>
+		</div>
+	</div>
+
+
+    </div>
+  </div>
+
+  </div>
+
+         
+		</div>
+	</div>
+
+      </div>
+    </div>
+  </nav>
+
+</header>
+<!--End Header & Navbar -->
+<div id="main-content">
+  
+      <div class="container front-promo">
+      <div class="row">
+        <div>
+            <div class="region region-promo">
+    <div id="block-topbluebar" class="block block-block-content block-block-content8d7d48f4-00a9-4760-94b7-4731a2dfc6cb">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div style="display: block;width: 100%;height: 30px;"></div></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+        </div>
+      </div>
+    </div>
+  	
+  
+
+<div id="wrapper">
+  <!-- start: Container -->
+  <div class="container-fluid">
+    
+	    <div class="row">
+      <div class="col-md-12">  <div class="region region-breadcrumb">
+    <div id="block-oamp-theme-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+      
+      <div class="content">
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ul>
+		<li><a href="/"><img src="../../../../sites/default/files/images/home-blue.png" width="32" alt="Home"> OAMP</a> 
+		</li>
+    		<li> <i class="fas fa-angle-right"></i>  
+                  Technical Proposal Instructions
+         
+      </li>
+        </ul>
+  </nav>
+
+    </div>
+  </div>
+
+  </div>
+</div>
+    </div>
+	
+    <div class="row layout contentall">
+
+                <div class = "sidebar-first">
+            
+          </div>
+              
+		
+<div class="contentwrap">
+
+<div class="contentdiv content-layout contentmain">
+			  
+  <div id="page-title">
+    <div id="page-title-inner">
+      <!-- start: Container -->
+      <div class="container-fluid">
+          <div class="region region-page-title">
+    <div id="block-oamp-theme-page-title" class="block block-core block-page-title-block">
+  
+      
+      <div class="content">
+      
+  <h1 class="page-title"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Technical Proposal Instructions</span>
+</h1>
+
+
+    </div>
+  </div>
+
+  </div>
+
+      </div>
+    </div>
+  </div>
+
+      <div class="container">
+      <div class="row">
+        <div>
+          
+        </div>
+      </div>
+    </div>
+  
+  
+<div style="clear:both;"></div>
+              
+
+			  <div style="clear:both;height:0;"></div>
+              <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-oamp-theme-content" class="block block-system block-system-main-block">
+  
+      
+      <div class="content">
+      
+<article data-history-node-id="107" role="article" about="/content/technical-proposal-instructions" typeof="schema:WebPage" class="node node--type-page node--view-mode-full">
+
+  
+      <span property="schema:name" content="Technical Proposal Instructions" class="rdf-meta hidden"></span>
+
+
+  
+  <div class="node__content">
+    
+            <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3>General Information</h3>
+
+<ol><li><a href="#Standard 2">COMMITMENT OF PUBLIC FUNDS</a></li>
+	<li><a href="#Standard 3">COMMUNICATIONS PRIOR TO CONTRACT AWARD</a></li>
+	<li><a href="#Standard 4">RELEASE OF INFORMATION</a></li>
+	<li><a href="#Standard 5">PREPARATION COSTS</a></li>
+</ol><h3>Instructions to Offerors</h3>
+
+<ol><li><a href="#Instructions- General">GENERAL INSTRUCTIONS</a></li>
+</ol><ol class="rteindent1"><li>Contract Clauses</li>
+	<li>Authorized Official and Submission of Proposal</li>
+	<li>Proposal Summary and Data Record (NIH-2043)</li>
+	<li>Separation of Technical and Business Proposals</li>
+	<li>Alternate Proposal</li>
+	<li>Confidentiality of Proposal</li>
+	<li>Evaluation of Proposal</li>
+	<li>Use of the Metric System of Measurement</li>
+	<li>Privacy Act</li>
+	<li>Selection of Offeror</li>
+	<li>Small, Small Disadvantaged and Women-Owned Small Business Subcontracting Plan</li>
+	<li>Salary Rate Limitation Information for Offeror</li>
+	<li>Institutional Responsibility Regarding Conflicting Interests of Investigators</li>
+	<li>Institutional Management of Conflicting Interests</li>
+	<li>ROTC Access and Federal Military Recruiting on Campus</li>
+	<li>Solicitation Provisions Incorporated by Reference, FAR 52.252-1 (February 1998)</li>
+	<li>Small Disadvantaged Business Participation Plan</li>
+	<li>HUBZone Small Business Concerns</li>
+</ol><ol><li><a href="#Instructions- Technical">TECHNICAL PROPOSAL INSTRUCTIONS</a></li>
+</ol><ol><li>
+	<ol><li>Technical Proposal
+		<ol><li>Personnel</li>
+			<li>Statement of Work</li>
+			<li>Facilities and Resources</li>
+			<li>Other Considerations</li>
+			<li>Summary of Related Activities</li>
+			<li>Technical Proposal Cost Information</li>
+			<li>Technical Evaluation</li>
+			<li>Additional Technical Proposal Information</li>
+		</ol></li>
+	</ol></li>
+</ol><ol><li><a href="#Instructions- Business">BUSINESS PROPOSAL INSTRUCTIONS</a></li>
+</ol><ol><li>
+	<ol><li>Basic Cost/Price Information</li>
+		<li>Cost and Pricing Data</li>
+		<li>Qualifications of the Offeror</li>
+		<li>Property, Equipment, Facilities</li>
+		<li>Royalties</li>
+		<li>Submission of Electronic Funds Transfer Information with Offer, FAR Clause 52.232-38 (MAY 1999)</li>
+		<li>Financial Capacity</li>
+		<li>Incremental Funding</li>
+		<li>Subcontractors</li>
+		<li>Representations and Certifications</li>
+		<li>Travel Policy and Annual Report</li>
+	</ol></li>
+</ol><p> </p>
+
+<hr /><p><a id="Standard 1" name="Standard 1"></a></p>
+<!--!A. will be used for all the provision headings-->
+
+<p> </p>
+
+<ol><li>
+	<p><a id="Standard 2" name="Standard 2"></a>1. <strong>COMMITMENT OF PUBLIC FUNDS</strong></p>
+	</li>
+</ol><p>The Contracting Officer is the only individual who can legally commit the Government to the expenditure of public funds in connection with the proposed procurement. Any other commitment, either explicit or implied, is invalid.</p>
+
+<p> </p>
+
+<p><a id="Standard 3" name="Standard 3"></a></p>
+
+<ol><li><strong>COMMUNICATIONS PRIOR TO CONTRACT AWARD</strong></li>
+</ol><p>Offerors shall direct all communications to the attention of the Contract Specialist or Contracting Officer cited on the face page of this RFP. Communications with other officials may compromise the competitiveness of this acquisition and result in cancellation of the requirement.</p>
+
+<p> </p>
+
+<ol><li><a id="Standard 4" name="Standard 4"></a><strong>RELEASE OF INFORMATION</strong></li>
+</ol><p>Contract selection and award information will be disclosed to offerors in accordance with regulations applicable to negotiated acquisition. Prompt written notice will be given to unsuccessful offerors as they are eliminated from the competition, and to all offerors following award.</p>
+
+<p> </p>
+
+<ol><li><a id="Standard 5" name="Standard 5"></a><strong>PREPARATION COSTS</strong></li>
+</ol><p>This RFP does not commit the Government to pay for the preparation and submission of a proposal.</p>
+
+<p> </p>
+
+<h2 align="center">Instructions to Offerors</h2>
+
+<p> </p>
+
+<p><a id="Instructions- General" name="Instructions- General"></a></p>
+
+<ol><li><strong>GENERAL INSTRUCTIONS</strong></li>
+</ol><p>Introduction</p>
+
+<p>The following instructions will establish the acceptable minimum requirements for the format and contents of proposals. Special attention is directed to the requirements for technical and business proposals to be submitted in accordance with these instructions. Also, please note that the technical proposal must be organized and presented in accordance with the "Technical Proposal Table of Contents" found in the "Specific RFP Instructions and Provisions" section/attachment of an RFP.</p>
+
+<p><strong>Note: It is required that all Information Technology related procurements be Year 2000 compliant. For information regarding NIH policy on this see: <a href="http://datacenter.cit.nih.gov/interface/interface211/readiness.htm">Millennial Milestones—A Status Report on NIH Y2K Readiness</a>. </strong></p>
+
+<p><br wp="BR1" /><br />
+ </p>
+
+<ol><li>
+	<ol><li><strong>Contract Clauses</strong></li>
+		<li>Any resultant contract shall include the clauses applicable to the selected offeror's organization and type of contract awarded as required by Public Law, Executive Order, or acquisition regulations in effect at the time of execution of the proposed contract.</li>
+		<li><strong>Authorized Official and Submission of Proposal</strong></li>
+		<li>The proposal must be signed by an official authorized to bind your organization and must stipulate that it is predicated upon all the terms and conditions of this RFP. Your proposal shall be submitted in the number of copies, to the addresses, and marked as indicated in the item entitled "Packaging and Delivery of Proposal" found in the "Specific RFP Instructions and Provisions" section/attachment of an RFP. Proposals will be typewritten, paginated, reproduced on letter size paper and will be legible in all required copies. To expedite the proposal evaluation, all documents required for responding to the RFP should be placed in the following order:</li>
+		<li>
+		<ol><li><a href="/sites/default/files/ContractToolbox/techcov.htm">TECHNICAL PROPOSAL COVER SHEET</a></li>
+			<li>Include RFP number, title, name of organization, name of Principal Investigator, names of other offeror key personnel, name of any subcontractor(s) and their proposed Principal Investigator(s), names of any collaborators or consultants, and indicate whether the proposal is an original or a copy.</li>
+			<li>TECHNICAL PROPOSAL</li>
+			<li>Format and organization of the technical proposal must follow the Table of Contents identified in the RFP, and must include the information requested in the Technical Proposal Instructions (below) and as otherwise specified in the RFP and REFERENCES. <strong>All pages of the technical proposal must be numbered sequentially and these numbers must be consistent with the information outlined in the technical proposal table of contents.</strong></li>
+			<li> </li>
+			<li>BUSINESS PROPOSAL</li>
+			<li>It is recommended that the business proposal consist of a cover page, a table of contents, and the information requested in the Business Proposal Instructions (below) and as otherwise specified in the RFP and REFERENCES.<br wp="BR1" /><br /><br wp="BR2" />
+			 </li>
+		</ol></li>
+		<li><strong>Proposal Summary and Data Record (NIH-2043)</strong></li>
+		<li>The Offeror must submit with the business proposal a completed <a href="/sites/default/files/DGS/contracting-forms/NIH2043.pdf">Form NIH-2043</a> with particular attention to the length of time the proposal is firm and the designation of those personnel authorized to conduct negotiations. <em>(Note: A MS Word version of the NIH-2043 form may be accessed under the FORMS, FORMATS, AND ATTACHMENTS section of this website.)</em></li>
+		<li><strong>Separation of Technical and Business Proposals</strong></li>
+		<li>The proposal must be prepared in two parts: a "Technical Proposal" and a "Business Proposal." Each of the parts shall be separate and complete in itself so that evaluation of one may be accomplished independently of, and concurrently with, evaluation of the other. The technical proposal must include direct cost and resources information, such as labor-hours and categories and applicable rates, materials, subcontracts, travel, etc., and associated costs so that the offeror's understanding of the project may be evaluated (See FORMS, FORMATS AND ATTACHMENTS, for format entitled TECHNICAL PROPOSAL COST INFORMATION). However, the technical proposal should not include pricing data relating to individual salary information, indirect cost rates or amounts, fee amounts (if any), and total costs. The technical proposal should disclose your technical approach in as much detail as possible, including, but not limited to, the requirements of the technical proposal instructions.</li>
+		<li><strong>Alternate Proposals</strong></li>
+		<li>You may, at your discretion, submit alternate proposals, or proposals which deviate from the requirements; provided, that you also submit a proposal for performance of the work as specified in the statement of work. Such proposals may be considered if overall performance would be improved or not compromised and if they are in the best interests of the Government. Alternative proposals, or deviations from any requirements of this RFP, shall be clearly identified.</li>
+		<li><strong>Confidentiality of Proposal -- HHSAR 352.215-12, Restriction on Disclosure and Use of Data</strong></li>
+		<li>The proposal submitted in response to this request for proposals may contain data (trade secrets; business data, e.g., commercial information, financial information, and cost and pricing data; and technical data) which the offeror, including its prospective subcontractor(s), does not want used or disclosed for any purpose other than for evaluation of the proposal. The use and disclosure of any data may be so restricted; provided, that the Government determines that the data is not required to be disclosed under the Freedom of Information Act, 5 U.S.C. 552, as amended, and the offeror marks the cover sheet of the proposal with the following legend, specifying the particular portions of the proposal which are to be restricted in accordance with the conditions of the legend.</li>
+		<li>The Government's determination to withhold or disclose a record will be based upon the particular circumstances involving the record in question and whether the record may be exempted from disclosure under the Freedom of Information Act:
+		<ol><li> </li>
+			<li>Unless disclosure is required by the Freedom of Information Act, 5 U.S.C. 552, as amended, (the Act) as determined by Freedom of Information (FOI) Officials of the Department of Health and Human Services, data contained in the portions of this proposal which have been specifically identified by page number, paragraph, etc. by the offeror as containing restricted information shall not be used or disclosed except for evaluation purposes.</li>
+			<li>The offeror acknowledges that the Department may not be able to withhold a record (data, document, etc.) nor deny access to a record requested pursuant to the Act, and that the Department's FOI officials must make that determination. The offeror hereby agrees that the Government is not liable for disclosure if the Department has determined that disclosure is required by the Act.</li>
+			<li>If a contract is awarded to the offeror as a result of, or in connection with, the submission of this proposal; the Government shall have the right to use or disclose the data to the extent provided in the contract. Proposals not resulting in a contract remain subject to the Act.</li>
+			<li>The offeror also agrees that the Government is not liable for disclosure or use of unmarked data and may use or disclose the data for any purpose, including the release of the information pursuant to requests under the Act.</li>
+			<li>The data subject to this restriction are contained in pages (insert page numbers, paragraph designations, etc. or other identification)</li>
+			<li>In addition, the offeror should mark each page of data it wishes to restrict with the following legend:
+			<ol><li> </li>
+				<li>"Use or disclosure of data contained on this page is subject to the restriction on the cover sheet of this proposal."</li>
+				<li>NOTE: Offerors are cautioned that proposals submitted with the restrictive legends or statements differing in substance from the above legend may not be considered for award. The Government reserves the right to reject any proposal submitted with a nonconforming legend.</li>
+			</ol></li>
+		</ol></li>
+		<li><strong>Evaluation of Proposal</strong></li>
+		<li>The Government will evaluate technical proposals in accordance with the criteria set forth in the Technical Evaluation Criteria of each specific Streamlined Technical RFP. Cost and past performance will be addressed in each specific RFP, either as specific Technical Evaluation Criteria or by indicating what their relative importance and roles are. If past performance is not addressed, then it has been determined by the Contracting Officer that past performance does not apply to this R &amp; D solicitation as a separate evaluation factor.</li>
+		<li><strong>Use of the Metric System of Measurement</strong></li>
+		<li>It is the policy of the Department of Health and Human Services to support the Federal transition to the metric system and to use the metric system of measurement in all procurements, grants, and other business related activities unless such use is impracticable or is likely to cause significant inefficiencies.</li>
+		<li>The offeror is encouraged to prepare their proposal using either "Hard Metric," "Soft Metric," or "Dual Systems" of measurement. The following definitions are provided for your information:</li>
+		<li>
+		<ol><li>Hard Metric - The replacement of a standard inch-pound size with an accepted metric size for a particular purpose. An example of size substitution might be: selling or packaging liquids by the liter instead of by the pint or quart (as for soft drinks), or instead of by the gallon (as for gasoline).</li>
+			<li>Soft Metric - The result of a mathematical conversion of inch-pound measurements to metric equivalents for a particular purpose. The physical characteristics are not changed.</li>
+			<li>Dual Systems - The use of both inch-pound and metric systems. For example, an item is designed, produced, and described in inch-pound values with soft metric values also shown for information or comparison purposes.</li>
+		</ol></li>
+		<li><strong>Privacy Act</strong></li>
+		<li>The Privacy Act of 1974 (P.L. 93-579) requires that a Federal agency advise each individual whom it asks to supply information, the authority which authorizes the solicitation, whether disclosure is voluntary or mandatory, the principal purpose or purposes for which the information is intended to be used, the uses outside the agency which may be made of the information, and the effects on the individual, if any, of not providing all or any part of the requested information.</li>
+		<li>The NIH is requesting the information called for in this RFP pursuant to the authority provided by Sec. 301(a)(7) of the Public Health Service Act, as amended, and, as applicable, P.L. 92-218 or 95-83, as amended.</li>
+		<li>Providing the information requested is entirely voluntary. The collection of this information is for the purpose of conducting an accurate, fair, and adequate review prior to a discussion as to whether to award a contract.</li>
+		<li>Failure to provide any or all of the requested information may result in a less than adequate review.</li>
+		<li>In addition, the Privacy Act of 1974 (P.L. 93-579, Section 7) requires that the following information be provided when individuals are requested to disclose their social security number.</li>
+		<li>Provision of the social security number is voluntary. Social security numbers are requested for the purpose of accurate and efficient identification, referral, review and management of NIH contracting programs. Authority for requesting this information is provided by Section 301 and Title IV of the PHS Act, as amended.</li>
+		<li>The information provided by you may be routinely disclosed for the following purposes:
+		<ol><li>to the cognizant audit agency and the General Accounting Office for auditing.</li>
+			<li>to the Department of Justice as required for litigation.</li>
+			<li>to respond to congressional inquiries.</li>
+			<li>to qualified experts, not within the definition of Department employees, for opinions as a part of the review process.</li>
+		</ol></li>
+		<li><strong>Selection of Offeror</strong>
+		<ol><li>The acceptability of the scientific and technical portion of your research contract proposal will be evaluated by a technical review committee. They will evaluate your proposal in strict conformity with the evaluation criteria of the RFP, utilizing point scores and written critiques. The committee may suggest that the Contracting Officer request clarifying information from an offeror.</li>
+			<li>The business portion of each contract proposal will be subjected to a cost analysis.</li>
+			<li>Best Value Analysis. Although technical is paramount on this R &amp; D acquisition, a final best-value analysis may be performed, taking into consideration the results of the technical evaluation, cost and past performance analyses, and ability to complete the work within the Government's required schedule, as appropriate. The Government reserves the right to make an award to the best advantage of the Government, all factors considered.</li>
+			<li>The Government reserves the right to make a single award, multiple awards, or no award at all to the RFP. In addition, the RFP may be amended or canceled as necessary to meet Government requirements. Synopses of awards exceeding $25,000 and offering subcontracting opportunities will be published in the Commerce Business Daily.<br wp="BR1" /><br /><br wp="BR2" />
+			 </li>
+		</ol></li>
+	</ol></li>
+</ol><p> </p>
+<!-- Mike - I'm moving this in from the optional section - most of our RFP's contain this.  only sb business don't require thisbut i think that that info is apparent in the very first section of this beast-->
+
+<p> </p>
+
+<ol><li>
+	<ol><li><strong>Small, Small Disadvantaged, HUBZone and Women-Owned Small Business Subcontracting Plan</strong></li>
+		<li>If the proposed contract exceeds a total estimated cost of $500,000 for the entire period of performance, the offeror shall be required to submit an acceptable subcontracting plan in accordance with the terms of the clause entitled "Small, Small Disadvantaged, HUBzone and Women-Owned Small Business Model Subcontracting Plan," FAR Clause No. 52.219-9, incorporated herein by reference in the Solicitation.</li>
+		<li>a. <strong>THIS PROVISION DOES NOT APPLY TO SMALL BUSINESS CONCERNS.</strong></li>
+		<li>b. The term "subcontract" means any agreement (other than one involving an employer-employee relationship) entered into by a Federal Government prime Contractor or subcontractor calling for supplies or services required for the performance of the original contract or subcontract. This includes, but is not limited to, agreements/purchase orders for supplies and services such as equipment purchase, copying services, and travel services.</li>
+		<li>c. The offeror understands that:</li>
+		<li>
+		<ol><li>No contract will be awarded unless and until an acceptable plan is negotiated with the Contracting Officer which plan will be incorporated into the contract, as a material part thereof.</li>
+			<li>An acceptable plan must, in the determination of the Contracting Officer, provide the maximum practicable opportunity for small business concerns and small business concerns owned and controlled by socially and economically disadvantaged persons to participate in the performance of the contract.</li>
+			<li>If a subcontracting plan acceptable to the Contracting Officer is not negotiated within the time limits prescribed by the contracting activity and such failure arises out of causes within the control and with the fault or negligence of the offeror, the offeror shall be ineligible for an award. The Contracting Officer shall notify the Contractor in writing of the reasons for determining a subcontracting plan unacceptable early enough in the negotiation process to allow the Contractor to modify the plan within the time limits prescribed.</li>
+			<li>Prior compliance of the offeror with other such subcontracting plans under previous contracts will be considered by the Contracting Officer in determining the responsibility of the offeror for award of the contract.</li>
+			<li>It is the offeror's responsibility to develop a satisfactory subcontracting plan with respect to small business concerns, small business concerns owned and controlled by socially and economically disadvantaged individuals, and women-owned small business concerns and that each such aspect of the offeror's plan will be judged independent of the other.</li>
+			<li>The offeror will submit, as required by the Contracting Officer, subcontracting reports in accordance with the instructions thereon, and as further directed by the Contracting Officer. Subcontractors will also submit these reports to the Government's Contracting Officer or as otherwise directed, with a copy to the prime Contractor's designated small and disadvantaged business liaison.</li>
+		</ol></li>
+	</ol></li>
+</ol><p>d. Each plan must contain the following:</p>
+
+<ol><li>
+	<ol><li>
+		<ol><li>Goals, expressed in terms of percentages of total planned subcontracting dollars, for the use of Small, small disadvantaged, women-owned and HUBZone small business concerns as subcontractors.</li>
+			<li>A statement of total dollars planned to be subcontracted. A statement of total dollars to be subcontracted to each of the following type of small business concerns: Small, Small Disadvantaged, Women-Owned, and HUBZone Small Businesses.</li>
+			<li>A description of the principal types of supplies and services to be subcontracted with an identification of which supplies and services are expected to be subcontracted to small, small disadvantaged, women-owned and/or HUBZone small business concerns.</li>
+			<li>A description of the method used to develop the subcontracting goals.</li>
+			<li>A description of the method used to identify potential sources for solicitation purposes.</li>
+			<li>A statement as to whether or not indirect costs were included in establishing subcontracting goals. If they were, a description of the method used to determine the proportionate share of indirect costs to be incurred with small, small disadvantaged, women-owned and HUBZone small business concerns.</li>
+			<li>The name of the individual employed by the offeror who will administer the offeror's subcontracting program and a description of his/her duties.</li>
+			<li>A description of the efforts the offeror will make to assure that small, small disadvantaged and women-owned small business concerns have an equitable chance to compete for subcontracts.</li>
+			<li>Assurances that the offeror will include in all subcontracts the contract clause "Utilization of Small, Small Disadvantaged, Women-Owned and HUBZone Small business Concerns." Assure that all subcontractors, other than small businesses, in excess of $500,000 adopt a plan similar to the plan agreed upon by the offeror.</li>
+			<li>Assurances that the offeror (and any required subcontractors) will cooperate in studies or surveys as required and submit required reports (SF 294 and SF 295) to the Government.</li>
+			<li>List the types of records the offeror will maintain to demonstrate procedures that have been adopted to comply with the requirement and goals in the plan, including establishing source lists. Also, the offeror shall describe its efforts to locate small, small disadvantaged, women-owned and HUBZone small business concerns and award subcontracts to them.</li>
+		</ol></li>
+	</ol></li>
+</ol><p>For additional information about each of the above elements required to be contained the subcontracting plan, see FAR Clause 52.219-9, Small Business Subcontracting Plan. A <a href="http://www.hhs.gov/about/smallbusiness/" target="_blank">Sample Subcontracting Plan</a> is contained in the FORMS, FORMATS AND ATTACHMENTS section of this website. Please refer to the instructions in your RFP to determine when (and if) submission of this plan is required.</p>
+
+<ol><li>
+	<ol><li><strong>Salary Rate Limitation Information for Offerors</strong></li>
+		<li>Offerors are advised that pursuant to Public Law 106-113, no NIH funds may be used to pay the direct salary of an individual through any contract awarded as a result of this solicitation at a rate in excess of <strong>$136,700</strong> as specified in the Public Law setting forth such limitations. The applicable Public Law number, the fiscal year to which it applies, and the dollar amount of the salary rate limitation may be obtained from the Contracting Officer identified in each specific RFP, if this information is not included in a specific RFP.</li>
+		<li>Direct salary is considered to be exclusive of Overhead, Fringe Benefits and General and Administrative expenses. This does not preclude the offeror from absorbing that portion of an employee's salary (plus the dollar amount for fringe benefits and associated indirect costs) that exceeds the rate specified. Multi-year contracts awarded pursuant to this solicitation may be subject to unilateral modifications by the Government if an individual's salary exceeds any salary rate ceiling established in future appropriations acts. The applicable salary rate limit also applies to individuals proposed under subcontracts.</li>
+		<li><strong>Institutional Responsibility Regarding Conflicting Interests of Investigators</strong></li>
+		<li>EACH INSTITUTION MUST:</li>
+		<li>
+		<ol><li>Maintain an appropriate written, enforced policy on conflict of interest that complies with 42 CFR Part 50 Subpart F and/or 45 CFR Part 94 as appropriate and inform each investigator of the Institution's policy, the Investigator's reporting responsibilities, and the applicable regulations. If the Institution carries out the NIH funded research through subgrantees, contractors or collaborators, the Institution must take reasonable steps to ensure that Investigators working for such entities comply with the regulations, either by requiring those investigators to comply with the Institution's policy or by requiring the entities to provide assurances to the Institution that will enable the Institution to comply with the regulations.</li>
+			<li>Designate an Institutional official(s) to solicit and review financial disclosure statements from each Investigator who is planning to participate in NIH-funded research.</li>
+			<li>Require that by the time an application/proposal is submitted to the NIH each investigator who is planning to participate in the NIH-funded research has submitted to the designated official(s) a listing of his/her known Significant Financial Interests (and those of his/her spouse and dependent children): (i) that would reasonably appear to be affected by the research for which the NIH funding is sought; and (ii) in entities whose financial interests would reasonably appear to be affected by the research. All financial disclosures must be updated during the period of the award, either on an annual basis or as new reportable Significant Financial Interests are obtained.</li>
+			<li>Provide guidelines consistent with the regulations for the designated official(s) to identify conflicting interests and take such actions as necessary to ensure that such conflicting interests will be managed, reduced, or eliminated.</li>
+			<li>Maintain records, identifiable to each award, of all financial disclosures and all actions taken by the institution with respect to each conflicting interest for: (1) in the case of grants, at least three years from the date of submission of the final expenditures report or, where applicable, from other dates specified in 45 CFR Part 74.53(b) and (2) in the case of contracts, 3 years after final payment or, where applicable, for the other time period specified in 48 CFR Part 4 Subpart 4.7, Contract Records Retention.</li>
+			<li>Establish adequate enforcement mechanisms and provide for sanctions where appropriate.</li>
+			<li>Certify, in each application/proposal for funding to which the regulations applies, that:</li>
+			<li>
+			<ol><li>there is in effect at the Institution a written and enforced administrative process to identify and manage, reduce or eliminate conflicting interests with respect to all research projects for which funding is sought from the NIH;</li>
+				<li>prior to the Institution's expenditure of any funds under the award, the Institution will report to the awarding component the existence of a conflicting interest (but not the nature of the interest or other details) found by the Institution and assure that the interest has been managed, reduced or eliminated in accord with the regulations; and for any interest that the Institution identifies as conflicting subsequent to the expenditure of funds after award, the report will be made and the conflicting interest managed, reduced, or eliminated, at least on a temporary basis within sixty days of that identification;</li>
+				<li>the Institution agrees to make information available, upon request, to the awarding component regarding all conflicting interests identified by the Institution and how those interested have been managed, reduced, or eliminated to protect the research from bias; and</li>
+				<li>the Institution will otherwise comply with the regulations.</li>
+			</ol></li>
+		</ol></li>
+		<li><strong>Institutional Management of Conflicting Interests </strong></li>
+		<li>
+		<ol><li>The designated official(s) must: (i) review all financial disclosures; and (ii) determine whether conflict of interest exists, and if so, determine what actions should be taken by the Institution to manage, reduce or eliminate such conflict of interest. A conflict of interest exists when the designated official(s) reasonably determines that a Significant Financial Interest could directly and significantly affect the design, conduct, or reporting of the NIH-funded research.</li>
+			<li>Examples of conditions or restrictions that might be imposed to manage actual or potential conflicts of interests include, but are not limited to:
+			<ol><li>public disclosure of significant financial interests;</li>
+				<li>monitoring of research by independent reviewers;</li>
+				<li>modification of the research plan;</li>
+				<li>disqualification of the Investigator(s) from participation in all or a portion of the research funded by the awarding component;</li>
+				<li>divestiture of significant financial interests; or</li>
+				<li>severance of relationships that create actual or potential conflicts of interests.<br wp="BR1" /><br /><br wp="BR2" />
+				 </li>
+			</ol></li>
+			<li>An Institution may require the management of other conflicting financial interests in addition to those described in paragraph (a) of this section, as the Institution deems appropriate.</li>
+		</ol></li>
+		<li><strong>ROTC Access and Federal Military Recruiting on Campus</strong></li>
+		<li>Section 514 of the FY 1997 Appropriations Act prohibits NIH from providing contract funds to educational institutions that the Secretary of Defense determines have a policy or practice (regardless of when implemented ) that either prohibits, or in effect prevents (1) the maintaining, establishing, or operation of a unit of the Senior Reserve Officer Training Corps at the covered education entity; or (2) a student at the covered educational entity from enrolling in a unit of the Senior Reserve Officer Training Corps at another institution of higher education.</li>
+		<li>Further, contract funds may not be provided to educational institutions that have a policy or practice that prohibits or prevents (i) entry to campuses, or access to students (who are 17 years of age or older) on campuses, for purposes of Federal military recruiting; or (ii) access by military recruiters for purposes of Federal military recruiting to information pertaining to students (who are 17 years of age or older) enrolled at the covered educational entity.</li>
+		<li><strong>Solicitation Provisions Incorporated by Reference, FAR 52.252-1 (February 1998)</strong></li>
+		<li>This Solicitation incorporates the following solicitation provisions by reference with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. Also, the full text of a solicitation provision may be accessed electronically at the <a href="http://www.acquisition.gov/">Acquisition.gov</a> website.</li>
+		<li>FEDERAL ACQUISITION REGULATION (48 CFR CHAPTER 1):
+		<ol><li>Submission of Offers in the English Language, FAR Clause 52.214-34, (April 1991).</li>
+			<li>Submission of Offers in U.S. Currency, FAR Clause 52.214-35, (April 1991).</li>
+			<li>Requirements for Cost or Pricing Data or Information Other Than Cost or Pricing Data, 52.215-20 (October 1997)</li>
+			<li>Order of Precedence, 52.215-33 (October 1997)</li>
+			<li>Preaward On-Site Equal Opportunity Compliance Review (over $10,000,000), 52.222-24 (Feb 1999)<br wp="BR1" /><br /><br wp="BR2" />
+			 </li>
+		</ol></li>
+		<li><strong>Small Disadvantaged Business Participation Plan</strong></li>
+		<li>In accordance with FAR part 15.304(c)4, the extent of participation of Small Disadvantaged Business (SDB) concerns in performance of the contract shall be evaluated in unrestricted acquisitions expected to exceed a total estimated cost of $500,000 ($1,000,000 for construction) subject to certain limitations (see FAR 19.201 and 19.1202). If an SDB concern waives the price evaluation adjustment (PEA) at Subpart 19.11, participation in performance of that contract includes the work expected to be performed by the SDB concern at the prime contract level.</li>
+		<li>
+		<ol><li><strong>Offerors shall submit the following information in one clearly marked section of their business proposal.</strong></li>
+			<li>A plan on the extent of participation of Small Disadvantaged Business concerns in performance of the contract. Participation in performance of the contract includes the work expected to be performed by SDB concern(s). This can include SDB (as prime contractor), joint ventures, teaming arrangements, and subcontracts. Include the following information in SDB participation plans:</li>
+			<li>
+			<ol><li>The extent of an offerors commitment to use SDB concerns. Commitment should be as specific as possible, i.e. are subcontract arrangements already in place, letters of commitment, ect. Enforceable commitments will be weighted more heavily than non enforceable ones.</li>
+				<li>Specifically identify the SDB concerns with point of contact and phone number.</li>
+				<li>The complexity and variety of the work SDB concerns are to perform.</li>
+				<li>Realism for the use of SDB in the proposal.</li>
+				<li>Past performance of the Offerors in complying with subcontracting plans for SDB concerns</li>
+				<li>Targets expressed as dollars and percentage of total contract value for each participating SDB; which will be incorporated into and become part of any resulting contract.</li>
+				<li>The extent of participation of SDB concerns in terms of the value of the total acquisition.<br wp="BR1" /><br /><br wp="BR2" />
+				 </li>
+			</ol></li>
+			<li>SDB Participation information will be used for both responsibility determinations and as an evaluation factor against which offeror's relative rankings will be compared to assure the best value to the Government. The Government will focus on information that demonstrates realistic commitments to use SDB concerns relative to the size and complexity of the acquisition under consideration. The Government is not required to contact all references provided by the offeror. Also, references other than those identified by the offeror may be contacted by the Government to obtain additional information that will be used in the evaluation of the offeror's commitment to SDB participation.</li>
+		</ol></li>
+		<li><strong>HUBZone Small Business Concerns</strong></li>
+		<li>Small Business offerors located in underutilized business zones, called "HUBZones," will be evaluated in accordance with FAR Clause 52.219-4, NOTICE OF PRICE EVALUATION PREFERENCE FOR HUBZONE SMALL BUSINESS CONCERNS, which is incorporated by reference in this solicitation. Qualified HUBZone firms are identified at the <a href="http://www.sba.gov/hubzone">HubZone Program</a> page of the Small Business Administration website.</li>
+	</ol></li>
+	<li><a id="Instructions- Technical" name="Instructions- Technical"></a><strong>TECHNICAL PROPOSAL INSTRUCTIONS</strong></li>
+</ol><p>Introduction</p>
+
+<p>A detailed work plan must be submitted indicating how each aspect of the statement of work is to be accomplished. Your technical proposal should be in as much detail as you consider necessary to fully explain your proposed technical approach or method. The technical proposal should reflect a clear understanding of the nature of the work being undertaken, and must include information on how the project is to be organized, staffed, and managed.</p>
+
+<p>The Technical Proposal should be organized and presented according to the <strong>"Technical Proposal Table of Contents"</strong> found in the "Specific RFP Instructions and Provisions" section/attachment of the RFP. All pages of your technical proposal must be numbered sequentially and these numbers must be consistent with the information outlined in the technical proposal table of contents.</p>
+
+<p><br wp="BR1" /><br />
+ </p>
+
+<ol><li>
+	<ol><li><strong>Technical Proposal</strong></li>
+		<li>The technical proposal should respond to the items set forth below:</li>
+		<li>
+		<ol><li>Personnel</li>
+			<li>Describe the experience and qualifications of personnel who will be assigned for direct work on this program. Information is required which will show the composition of the task or work group, its general qualifications, and recent experience with similar equipment or programs. Special mention shall be made of direct technical supervisors and key technical personnel, and the approximate percentage of the total time each will be available for this program.</li>
+			<li>OFFERORS SHOULD ASSURE THAT THE PRINCIPAL INVESTIGATOR, AND ALL OTHER PERSONNEL PROPOSED, SHALL NOT BE COMMITTED ON FEDERAL GRANTS AND CONTRACTS FOR MORE THAN A TOTAL OF 100% OF THEIR TIME. IF THE SITUATION ARISES WHERE IT IS DETERMINED THAT A PROPOSED EMPLOYEE IS COMMITTED FOR MORE THAN 100% OF HIS OR HER TIME, THE GOVERNMENT WILL REQUIRE ACTION ON THE PART OF THE OFFEROR TO CORRECT THE TIME COMMITMENT.</li>
+			<li>
+			<ol><li>Principal Investigator/Project Director</li>
+				<li>List the name of the Principal Investigator/Project Director responsible for overall implementation of the contract and key contact for technical aspects of the project. Even though there may be co-investigators, identify the Principal Investigator/Project Director who will be responsible for the overall implementation of any awarded contract. Discuss the qualifications, experience, and accomplishments of the Principal Investigator/Project Director. State the estimated time to be spent on the project, his/her proposed duties, and the areas or phases for which he/she will be responsible. If the Principal Investigator proposed for this RFP is committed in excess of 100% of his/her time the proposal must include appropriate explanations.</li>
+				<li>Other Investigators</li>
+				<li>List all other investigators/professional personnel who will be participating in the project. Discuss the qualifications, experience, and accomplishments. State the estimated time each will spend on the project, proposed duties on the project, and the areas or phases for which each will be responsible.</li>
+				<li>Additional Personnel</li>
+				<li>List names, titles, and proposed duties of additional personnel, if any, who will be required for full-time employment, or on a subcontract or consultant basis. The technical areas, character, and extent of subcontract or consultant activity will be indicated and the anticipated sources will be specified and qualified. For all proposed personnel who are not currently members of the offeror's staff, a letter of commitment or other evidence of availability is required. A resume does not meet this requirement. Commitment letters for use of consultants and other personnel to be hired must include:
+				<ol><li>The specific items or expertise they will provide.</li>
+					<li>Their availability to the project and the amount of time anticipated.</li>
+					<li>Willingness to act as a consultant.</li>
+					<li>How rights to publications and patents will be handled.</li>
+				</ol></li>
+				<li>Resumes</li>
+				<li>Resumes of all key personnel are required. Each must indicate educational background, recent experience, specific or technical accomplishments, and a listing of relevant publications. Resumes must not exceed two pages.<br wp="BR1" /><br /><br wp="BR2" />
+				 </li>
+			</ol></li>
+			<li>Statement of Work</li>
+			<li>
+			<ol><li>Objectives</li>
+				<li>State the overall objectives and the specific accomplishments you hope to achieve. Indicate the rationale for your plan, and relation to comparable work in progress elsewhere. Review pertinent work already published which is relevant to this project and your proposed approach. This should support the scope of the project as you perceive it.</li>
+				<li>Approach</li>
+				<li>Use as many subparagraphs, appropriately titled, as needed to clearly outline the general plan of work. Discuss phasing of research and, if appropriate, include experimental design and possible or probable outcome of approaches proposed.</li>
+				<li>Methods</li>
+				<li>Describe in detail the methodologies you will use for the project, indicating your level of experience with each, areas of anticipated difficulties, and any unusual expenses you anticipate.</li>
+				<li>Schedule</li>
+				<li>Provide a schedule for completion of the work and delivery of items specified in the statement of work. Performance or delivery schedules shall be indicated for phases or segments, as applicable, as well as for the overall program. Schedules shall be shown in terms of calendar months from the date of authorization to proceed or, where applicable, from the date of a stated event, as for example, receipt of a required approval by the Contracting Officer. Unless the request for proposal indicates that the stipulated schedules are mandatory, they shall be treated as desired or recommended schedules. In this event, proposals based upon the offeror's best alternative schedule, involving no overtime, extra shift or other premium, will be accepted for consideration.<br wp="BR1" /><br /><br wp="BR2" />
+				 </li>
+			</ol></li>
+			<li>Facilities and Resources</li>
+			<li>List/describe all facilities and resources available for this project, including any equipment.</li>
+			<li>Other Considerations</li>
+			<li>Record and discuss specific factors not included elsewhere which support your proposal. Using specifically titled subparagraphs, items may include:
+			<ol><li>Any agreements and/or agrrangements with subcontractor(s). Provide as much detail as necessary to explain how the statement of work will be accomplished within this working relationship.</li>
+				<li>Unique arrangements which none or very few organizations are likely to have which is advantageous for effective implementation of this project.</li>
+				<li>Equipment and unusual operating procedures established to protect personnel from hazards associated with this project.</li>
+				<li>Other factors you feel are important and support your proposed research.</li>
+				<li>Recommendations for changing reporting requirements or other deliverables if such changes would be more compatible with the offeror's proposed schedules.<br wp="BR1" /><br /><br wp="BR2" />
+				 </li>
+			</ol></li>
+			<li>Summary of Related Activities</li>
+			<li>The offeror shall complete and include with the technical proposal the <a href="/sites/default/files/DGS/contracting-forms/summary-related-activities.pdf">"Summary of Current and Proposed Activities"</a> form found in, FORMS, FORMATS, AND ATTACHMENTS. Include this form (or similar formatted document) with the Other Support portion of your technical proposal.</li>
+			<li>Technical Proposal Cost Information</li>
+			<li>Complete and include with your Technical Proposal the <a href="/sites/default/files/DGS/contracting-forms/Tech-Prop-Cost-Summ.pdf">"Technical Proposal Cost Information"</a> format contained in FORMS, FORMATS, AND ATTACHMENTS.</li>
+			<li>Technical Evaluation</li>
+			<li>Proposals will be technically evaluated in accordance with the factors, weights, and order of relative importance as set forth in the Technical Evaluation Criteria of each specific Streamlined Technical RFP.</li>
+			<li>Additional Technical Proposal Information</li>
+			<li>
+			<ol><li>Proposals which merely offer to conduct a program in accordance with the requirements of the Governments's scope of work will not be eligible for award. The offeror must submit an explanation of the proposed technical approach in conjunction with the tasks to be performed in achieving the projects objectives.</li>
+				<li>The technical evaluation is conducted in accordance with the weighted technical evaluation criteria by an initial review panel. This evaluation produces a numerical score (points) which is based upon information contained in the offeror's proposal only.<br wp="BR1" /><br /><br wp="BR2" />
+				 </li>
+			</ol></li>
+		</ol></li>
+	</ol></li>
+</ol><ol><li><a id="Instructions- Business" name="Instructions- Business"></a><strong>BUSINESS PROPOSAL INSTRUCTIONS</strong><br wp="BR1" /><br /><br wp="BR2" />
+	 </li>
+</ol><ol><li>
+	<ol><li><strong>Basic Cost/Price Information</strong></li>
+		<li>The business proposal must contain sufficient information to allow the Government to perform a basic analysis of the proposed cost or price of the work. This information shall include the amounts of the basic elements of the proposed cost or price. These elements will include, as applicable, direct labor, fringe benefits, travel, materials, subcontracts, purchased parts, shipping, indirect costs and rate, fee, and profit.</li>
+		<li><strong>Cost and Pricing Data</strong></li>
+		<li>
+		<ol><li>General Instructions</li>
+		</ol></li>
+	</ol></li>
+</ol><p>(1) You must provide the following information on the first page of your pricing proposal:</p>
+
+<ol><li>
+	<ol><li>
+		<ol><li>
+			<ol><li>Solicitation, contract, and/or modification number;</li>
+				<li>Name and address of offeror;</li>
+				<li>Name and telephone number of point of contact;</li>
+				<li>Name of contract administration office (if available);</li>
+				<li>Type of contract action (that is, new contract, change order, price revision/redetermination, letter contract, unpriced order, or other);</li>
+				<li>Proposed cost; profit or fee; and total;</li>
+				<li>Whether you will require the use of Government property in the performance of the contract, and, if so, what property;</li>
+				<li>Whether your organization is subject to cost accounting standards; whether your organization has submitted a CASB Disclosure Statement, and if it has been determined adequate; whether you have been notified that you are or may be in noncompliance with your Disclosure Statement or CAS, and, if yes, an explanation; whether any aspect of this proposal is inconsistent with your disclosed practices or applicable CAS, and, if so, an explanation; and whether the proposal is consistent with your established estimating and accounting principles and procedures and FAR Part 31, Cost Principles, and, if not, an explanation;</li>
+				<li>The following statement: This proposal reflects our estimates and/or actual costs as of this date and conforms with the instructions in FAR 15.403-5(b)(1) and Table 15-2. By submitting this proposal, we grant the Contracting Officer and authorized representative(s) the right to examine, at any time before award, those records, which include books, documents, accounting procedures and practices, and other data, regardless of type and form or whether such supporting information is specifically referenced or included in the proposal as the basis for pricing, that will permit an adequate evaluation of the proposed price;</li>
+				<li>Date of submission; and</li>
+				<li>Name, title and signature of authorized representative.</li>
+			</ol></li>
+		</ol></li>
+	</ol></li>
+</ol><p>(2) In submitting your proposal, you must include an index, appropriately referenced, of all the cost or pricing data and information accompanying or identified in the proposal. In addition, you must annotate any future additions and/or revisions, up to the date of agreement on price, or an earlier date agreed upon by the parties, on a supplemental index.</p>
+
+<p>(3) As part of the specific information required, you must submit, with your proposal, cost or pricing data (that is, data that are verifiable and factual and otherwise as defined at FAR 15.401). You must clearly identify on your cover sheet that cost or pricing data are included as part of the proposal. In addition, you must submit with your proposal any information reasonably required to explain your estimating process, including--</p>
+
+<ol><li>
+	<ol><li>
+		<ol><li>
+			<ol><li>The judgmental factors applied and the mathematical or other methods used in the estimate, including those used in projecting from known data; and</li>
+				<li>The nature and amount of any contingencies included in the proposed price.</li>
+			</ol></li>
+		</ol></li>
+	</ol></li>
+</ol><p>(4) You must show the relationship between contract line item prices and the total contract price. You must attach cost-element breakdowns for each proposed line item, using the appropriate format prescribed in the "Formats for Submission of Line Item Summaries'' section of this table. You must furnish supporting breakdowns for each cost element, consistent with your cost accounting system.</p>
+
+<p>(5) When more than one contract line item is proposed, you must also provide summary total amounts covering all line items for each element of cost.</p>
+
+<p>(6) Whenever you have incurred costs for work performed before submission of a proposal, you must identify those costs in your cost/price proposal.</p>
+
+<p>(7) If you have reached an agreement with Government representatives on use of forward pricing rates/factors, identify the agreement, include a copy, and describe its nature.</p>
+
+<p>(8) As soon as practicable after final agreement on price or an earlier date agreed to by the parties, but before the award resulting from the proposal, you must, under the conditions stated in FAR 15.406-2, submit a Certificate of Current Cost or Pricing Data.</p>
+
+<ol><li>
+	<ol><li>
+		<ol><li><strong>Cost Elements</strong></li>
+			<li>Depending on your system, you must provide breakdowns for the following basic costelements, as applicable:</li>
+			<li>
+			<ol><li>Direct Labor.</li>
+				<li>Provide a time-phased (e.g., monthly, quarterly, etc.) breakdown of labor hours, rates, and cost by appropriate category, and furnish basis for estimates.</li>
+				<li>Fringe Benefits.</li>
+				<li>Show fringe benefits as a separate line item. Include the rate(s) and/or method of calculating fringe benefits. Provide a copy of your fringe benefit rate or organizational guidelines.</li>
+				<li>Materials and services.</li>
+				<li>Provide a consolidated priced summary of individual material quantities included in the various tasks, orders, or contract line items being proposed and the basis for pricing (vendor quotes, invoice prices, etc.). Include raw materials, parts, components, assemblies, and services to be produced or performed by others. For all items proposed, identify the item and show the source, quantity, and price. Conduct price analyses of all subcontractor proposals. Conduct cost analyses for all subcontracts when cost or pricing data are submitted by the subcontractor. Include these analyses as part of your own cost or pricing data submissions for subcontracts expected to exceed the appropriate threshold in FAR 15.403-4. Submit the subcontractor cost or pricing data as part of your own cost or pricing data as required in paragraph (2), below. These requirements also apply to all subcontractors if required to submit cost or pricing data.
+				<ol><li> </li>
+					<li>(a) <em>Adequate Price Competition</em>. Provide data showing the degree of competition and the basis for establishing the source and reasonableness of price for those acquisitions (such as subcontracts, purchase orders, material order, etc.) exceeding, or expected to exceed, the appropriate threshold set forth at FAR 15.403-4 priced on the basis of adequate price competition. For interorganizational transfers priced at other than the cost of comparable competitive commercial work of the division, subsidiary, or affiliate of the contractor, explain the pricing method (see FAR 31.205-26(e)).</li>
+					<li>(b) <em>All Other</em>. Obtain cost or pricing data from prospective sources for those acquisitions (such as subcontracts, purchase orders, material order, etc.) exceeding the threshold set forth in FAR 15.403-4 ($500,000) and not otherwise exempt, in accordance with FAR 15.403-1(b) (i.e., adequate price competition, commercial items, prices set by law or regulation or waiver). Also provide data showing the basis for establishing source and reasonableness of price. In addition, provide a summary of your cost analysis and a copy of cost or pricing data submitted by the prospective source in support of each subcontract, or purchase order that is the lower of either $10,000,000 or more, or both more than the pertinent cost or pricing data threshold and more than 10 percent of the prime contractor's proposed price. The Contracting Officer may require you to submit cost or pricing data in support of proposals in lower amounts. Subcontractor cost or pricing data must be accurate, complete and current as of the date of final price agreement, or an earlier date agreed upon by the parties, given on the prime contractor's Certificate of Current Cost or Pricing Data. The prime contractor is responsible for updating a prospective subcontractor's data. For standard commercial items fabricated by the offeror that are generally stocked in inventory, provide aseparate cost breakdown, if priced based on cost. For interorganizational transfers priced at cost, provide a separate breakdown of cost elements. Analyze the cost or pricing data and submit the results of your analysis of the prospective source's proposal. When submission of a prospective source's cost or pricing data is required as described in this paragraph, it must be included along with your own cost or pricing data submission, as part of your own cost or pricing data. You must also submit any other cost or pricing data obtained from a subcontractor, either actually or by specific identification, along with the results of any analysis performed on that data.</li>
+				</ol></li>
+				<li>Indirect Costs.</li>
+				<li>Indicate how you have computed and applied your indirect costs, including cost breakdowns. Show trends and budgetary data to provide a basis for evaluating the reasonableness of proposed rates. Indicate the rates used and provide an appropriate explanation. Where a rate agreement exists, provide a copy.</li>
+				<li>Special Equipment.</li>
+				<li>If direct charge, list any equipment proposed including description, price, quantity, total price, purchase of lease, and the basis for pricing.</li>
+				<li>Travel.</li>
+				<li>Provide the cost of travel including destination, duration, purpose, per diem, transportation, and the basis for pricing.</li>
+				<li>Other Costs.</li>
+				<li>List all other costs not otherwise included in the categories described above (e.g., computer services, consultant services) and provide basis for pricing.</li>
+				<li>Royalties.</li>
+				<li>If royalties exceed $1,500, you must provide the following information on a separate page for each separate royalty or license fee:
+				<ol><li>Name and address of licensor.</li>
+					<li>Date of license agreement.</li>
+					<li>Patent numbers.</li>
+					<li>Patent application serial numbers, or other basis on which the royalty is payable.</li>
+					<li>Brief description (including any part or model numbers of each contract item or component on which the royalty is payable).</li>
+					<li>Percentage or dollar rate of royalty per unit.</li>
+					<li>Unit price of contract item.</li>
+					<li>Number of units.</li>
+					<li>Total dollar amount of royalties.</li>
+					<li>If specifically requested by the Contracting Officer, a copy of the current license agreement and identification of applicable claims of specific patents (see FAR 27.204 and 31.205-37).<br wp="BR1" /><br /><br wp="BR2" />
+					 </li>
+				</ol></li>
+				<li>Facilities Capital Cost of Money (Commercial Organizations, only).</li>
+				<li>When you elect to claim facilities capital cost of money as an allowable cost, you must submit Form CASB-CMF and show the calculation of the proposed amount (see FAR 31.205-10).<br wp="BR1" /><br /><br wp="BR2" />
+				 </li>
+			</ol></li>
+			<li><strong>Formats for Submission of Line Item Summaries.</strong></li>
+			<li>The detailed breakdown shall be in a format similar to that shown on the <a href="/content/breakdown-proposed-estimated-cost-plus-fee-and-labor-hours">"Business Proposal Cost Information"</a> form found under the "FORMS, FORMATS, AND ATTACHMENTS" section of the NIH RFP Directory. For each separate cost estimate, the offeror must furnish a breakdown by cost element as indicated above. In addition, summary total amounts shall be furnished. In the event the RFP cites specific line items, by number, a cost breakdown for each line item must be furnished.</li>
+			<li>Further, in an effort to assist the cost proposal review process, Offerors who have prepared their business proposal using the following software spreadsheet programs are requested to provide a copy of the cost proposal spreadsheet(s) on a computer disk (high density) along with the submission of your paper copies of the business proposal. IBM PC compatible software programs are: Excel; Lotus 1-2-3; and Quattro Pro. A <a href="/sites/default/files/DFASDocs/buscntrctprpslsprdsht08-2014_508.xlsx">pre-formatted cost proposal spreadsheet</a> is available (also available under "Business Proposal Cost Information). [Note: This is an EXCEL spreadsheet.]</li>
+			<li>There is a clear distinction between submitting cost or pricing data and merely making available books, records, and other documents without identification. The requirement for submission of cost or pricing data is met when all accurate cost or pricing data reasonably available to the offeror have been submitted, either actually or by specific identification, to the Contracting Officer or an authorized representative. As later information comes into your possession, it should be submitted promptly to the Contracting Officer in a manner that clearly shows how the information relates to the offeror's price proposal. The requirement for submission of cost or pricing data continues up to the time of agreement on price, or an earlier date agreed upon between the parties if applicable.</li>
+			<li>By submitting your proposal, you grant the Contracting Officer or an authorized representative the right to examine records that formed the basis for the pricing proposal. That examination can take place at any time before award. It may include those books, records, documents, and other types of factual information (regardless of form or whether the information is specifically referenced or included in the proposal as the basis for pricing) that will permit an adequate evaluation of the proposed price.</li>
+		</ol></li>
+	</ol></li>
+</ol><p><em>[Note to Offeror: For RFPs which are using "JUST IN TIME" procedures, the data substantiating the costs or prices proposed (i.e., payroll documentation, vendor quotes, invoice price, etc.) shall not be submitted with the initial proposal. This information will be requested from the offeror during the negotiation process. The initial proposal need only indicate from what source the proposed costs and prices are substantiated.]</em></p>
+
+<ol><li>
+	<ol><li><strong>Qualifications of the Offeror</strong></li>
+		<li><em>[Note to Offeror: The Evaluation Factors for Award portion of the Streamlined Technical RFP will specify how past performance is to be treated. If past performance is a specific, weighted evaluation factor, then "Qualifications of the Offeror" does not apply. In that case, the RFP would reference the "Past Performance Information" section of the "Optional RFP Instructions and Provisions."]</em></li>
+		<li>You are required to submit a summary of your General Experience, Organizational Experience Related to this RFP, Performance History, and Pertinent Contracts and Grants.</li>
+		<li>
+		<ol><li>General Experience</li>
+			<li>General experience is defined as general background, experience and qualifications of the offeror. A discussion of proposed facilities which can be devoted to the project may be appropriate.</li>
+			<li>Organizational Experience Related to the RFP</li>
+			<li>Organizational experience is defined as the accomplishment of work, either past or on-going, which is comparable or related to the effort required by this RFP. This includes overall offeror or corporate experience, but not the experience and/or past performance of individuals who are proposed as personnel involved with the Statement of Work in this RFP (the evaluation of proposed personnel will be done through the applicable technical evaluation criterion).</li>
+			<li>Performance History</li>
+			<li>Performance history is defined as meeting contract objectives within delivery and cost schedules on efforts, either past or on-going, which are comparable or related to the effort required by this RFP.</li>
+			<li>Pertinent Contracts</li>
+			<li>Pertinent contracts is defined as a listing of each related contract completed within the last three years or currently in process. List contracts awarded by the Government that involved similar or related work to that called for in this RFP. Include the contract number, contracting agency, contract dollar value, dates contract began and ended (or ends), description of contract work, explanation of relevance of work to this RFP, names and telephone numbers of the Contract Specialist and the Health Science Administrator.</li>
+			<li>Pertinent Grants</li>
+			<li>Pertinent grants is defined as a listing of each related grant completed within the last three years or currently in process. List grants supported by the Government that involved similar or related work to that called for in this RFP. Include the grant number, involved agency, names and telephone numbers of the Grant Specialist and the Health Science Administrator, identification of the work, and when performed.</li>
+			<li>You are cautioned that omission of the above information or an inadequate or inaccurate response to this very important RFP requirement could have a negative effect on the overall selection process. Experience and past performance are relevant to the ability of the offerors to perform and, while not a specific, weighted evaluation factor they are inherent in one or more technical evaluation criterion. Also, they may be used to conduct a relative assessment of offerors during the source selection process if the Evaluation Factors for Award in the specific RFP so indicates.<br wp="BR1" /><br /><br wp="BR2" />
+			 </li>
+		</ol></li>
+		<li><strong>Property, Equipment, Facilities</strong></li>
+		<li>
+		<p> </p>
+
+		<p> </p>
+
+		<ol><li>It is DHHS policy that Contractors will provide all equipment and facilities necessary for performance of contracts. Exception may be granted to furnish Government-owned property, or to authorize purchase with contract funds, only when approved by the Contracting Officer. If the offeror is proposing that the Government provide any equipment, other than that specified under Government Furnished Property in the RFP, the proposal must include comprehensive justification which includes, in addition to the description and estimated cost of each item:
+			<ol><li>An explanation that the item is for a special use essential to the direct performance of the contract and the item will be used exclusively for the purpose. Office equipment such as desks, office machines, etc., will not be provided under a contract except under very exceptional circumstances.</li>
+				<li>No practical or economical alternative exists (e.g., rental, capital investment) that can be used to perform the work.<br /><br wp="BR1" /><br /><br wp="BR2" />
+				 </li>
+			</ol></li>
+			<li>The offeror shall identify Government-owned property in its possession and/or Contractor titled property acquired from Federal funds, which it proposes to use in the performance of the prospective contract.</li>
+			<li>If an offeror intends to use existing Government-owned facilities in the performance of this proposed contract, the following shall be furnished with the offer: (1) Description and value of all Government production and research property which the offeror or his/her anticipated subcontractors propose to use on a rent-free basis and the cognizant Government Contract Number; (2) Written permission of the Contracting Officer having cognizance of the property for use of that property without charges; (3) Amount of use (in months) to be made of such property, and (4) Amount of rent which would otherwise be charged for such use, computed in accordance with applicable procurement regulations.</li>
+			<li>The management and control of any Government property shall be in accordance with DHHS Publication (OS) 686 entitled, "Contractor's Guide for Control of Government Property (1990)," a copy of which will be provided upon request.<br /><br wp="BR1" /><br /><br wp="BR2" />
+			 </li>
+		</ol></li>
+		<li><strong>Royalties</strong></li>
+		<li>The offeror shall furnish information concerning royalties which are anticipated to be paid in connection with performance of work under the proposed contract.</li>
+		<li><strong>Submission of Electronic Funds Transfer Information with Offer, FAR Clause 52.232-38 (MAY 1999)</strong></li>
+		<li>The offeror shall provide, with its offer, the following information that is required to make payment by electronic funds transfer (EFT) under any contract that results from this solicitation. This submission satisfies the requirement to provide EFT information under paragraphs (b)(1) and (j) of the clause at 52.232-34, Payment by Electronic Funds Transfer--Other than Central Contractor Registration.</li>
+		<li>
+		<ol><li>(1) The solicitation number (or other procurement identification number). (2) The offeror's name and remittance address, as stated in the offer. (3) The signature (manual or electronic, as appropriate), title, and telephone number of the offeror's official authorized to provide this information. (4) The name, address, and 9-digit Routing Transit Number of the offeror's financial agent. (5) The offeror's account number and the type of account (checking, savings, or lockbox). (6) If applicable, the Fedwire Transfer System telegraphic abbreviation of the offeror's financial agent. (7) If applicable, the offeror shall also provide the name, address, telegraphic abbreviation, and 9-digit Routing Transit Number of the correspondent financial institution receiving the wire transfer payment if the offeror's financial agent is not directly on-line to the Fedwire and, therefore, not the receiver of the wire transfer payment.</li>
+		</ol></li>
+		<li><strong>Financial Capacity</strong></li>
+		<li>The offeror shall indicate if it has the necessary financial capacity, working capital, and other resources to perform the contract without assistance from any outside source. If not, indicate the amount required and the anticipated source.</li>
+		<li><strong>Incremental Funding</strong> --(Note: This is applicable if the RFP has stated that the contract resulting from this solicitation will be incrementally funded.)</li>
+		<li>An incrementally funded cost-reimbursement contract is a contract in which the total work effort is to be performed over a multiple year period and funds are allotted, as they become available, to cover discernible phases or increments of performance. The incremental funding technique allows for contracts to be awarded for periods in excess of one year even though the total estimated amount of funds expected to be obligated for the contract are not available at the time of the contract award. If this requirement is specified elsewhere in this RFP, the offeror shall submit a cost proposal for each year. In addition, the following provisions are applicable:</li>
+		<li>Sufficient funds are not presently available to cover the total cost of the complete multiple year project described in this solicitation. However, it is the Government's intention to negotiate and award a contract using the incremental funding concepts described in the clause entitled "Limitation of Funds." Under that clause, which will be included in the resultant contract, initial funds will be obligated under the contract to cover an initial period of performance. Additional funds are intended to be allotted from time to time, to the contract by contract modification, up to and including the full estimated cost of the contract, to accomplish the entire project. While it is the Government's intention to progressively fund this contract over the entire period of performance up to and including the full estimated cost, the Government will not be obligated to reimburse the Contractor for costs incurred in excess of the periodic allotments, nor will the Contractor be obligated to perform in excess of the amount allotted.</li>
+		<li><strong>Subcontractors</strong></li>
+		<li>If subcontractors are proposed, please include a commitment letter from the subcontractor detailing:
+		<ol><li>Willingness to perform as a subcontractor for specific duties (list duties).</li>
+			<li>What priority the work will be given and how it will relate to other work.</li>
+			<li>The amount of time and facilities available to this project.</li>
+			<li>Information on their cognizant field audit offices.</li>
+			<li>How rights to publications and patents are to be handled.</li>
+			<li>A complete cost proposal in the same format as the offeror's cost proposal.<br /><br wp="BR1" /><br /><br wp="BR2" />
+			 </li>
+		</ol></li>
+		<li><strong>Representations and Certifications</strong></li>
+		<li>One copy of the <a href="/sites/default/files/DGS/contracting-forms/sectionk_508.pdf">Representations and Certifications</a> (link to RFP REFERENCES) shall be completed and be signed by an official authorized to bind your organization. Additionally, a completed copy of the Representations and Certifications shall be submitted from any proposed subcontractor.</li>
+		<li>Travel Policy and Annual Report</li>
+		<li>The Proposer's Travel Policy and Annual Report are two items that will be requested of offerors in the competitive range, offerors who submit FRPs, or offerors who will receive an award (i.e., "Just in Time"), rather than of all offerors with their initial business proposals. <em>(Note: In cases where the RFPs specifically state that awards may be made without discussions, offerors must submit these documents with their initial business proposal.)</em></li>
+	</ol></li>
+</ol><p>NOTE: If additional "Just in Time" items are selected from the Optional Instructions and Provisions, then the RFP will so indicate. A <a href="/sites/default/files/DFASDocs/buscntrctprpslsprdsht08-2014_508.xlsx">pre-formatted cost proposal spreadsheet</a> is available (also available under "Business Proposal Cost Information). Note: This is an EXCEL spreadsheet.</p>
+</div>
+      
+  <div class="field field--name-field-last-modified-on field--type-datetime field--label-inline clearfix">
+    <div class="field__label">Last modified on</div>
+              <div class="field__item"><time datetime="2020-12-05T12:00:00Z" class="datetime">2020-12-05</time>
+</div>
+          </div>
+  <div class="node__links">
+    <ul class="links inline"><li class="statistics-counter">3200 views</li></ul>  </div>
+
+  </div>
+
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+          </div>
+      
+</div>
+      <!--- Start Right Sidebar -->
+            <!---End Right Sidebar -->
+
+    </div>
+    <!--End Content -->
+<div style="clear:both;"></div>
+
+<!-- Bottom Title -->
+  <div style="clear:both;"></div>
+      
+<div class="col-md-12 bottomtop">  
+           
+                    
+          
+</div>
+<div style="clear:both;"></div>
+      
+      <div class="col-md-12 bottomwidget">  
+        
+          <!-- Bottom widget left region -->
+           
+                    
+          <!-- End bottom widget left region -->		  
+          <!-- Bottom widget middle region -->
+          
+                    
+          <!-- End bottom widget middle region -->
+          <!-- Bottom widget right region -->
+          
+                    
+          <!-- End bottom widget right region -->
+        </div>
+  </div>
+    
+     <div style="clear:both;"></div>     
+    <!--Start Bottom Wide Top-->
+        <!--End Bottom Wide Top-->
+    <div style="clear:both;"></div>      
+    <!--Start Bottom Wide Bottom-->
+        <!--End Bottom Wide Bottom-->
+    
+    
+</div>
+<!-- End layout -->
+</div>
+<!-- Start Footer -->
+    <!-- Footer Region-->
+      <div class="footer-space">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+              <div class="region region-footer">
+    <div id="block-footerdepartmentlogos" class="block block-block-content block-block-content36902748-074b-41f1-acc1-a5381e5a0432">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="department-logos">
+
+
+<div class="footer-logo" id="dhhs-logo"><a class="ext" href="https://www.hhs.gov/" title="department of health and human services"><img alt="department of health and human services" src="/sites/default/files/images/dhhs-logo.jpg" /></a></div>
+
+<div class="footer-logo" id="nih-logo"><a href="https://www.nih.gov/" title="National Institutes of Health"><img alt="National Institutes of Health" src="/sites/default/files/images/nih-logo.jpg" /></a></div>
+
+<div class="footer-logo" id="oalm-logo"><a href="https://oalm.od.nih.gov/" title="Office of Acquistions and logistics Management"><img alt="Office of Acquistions and logistics Management" src="/sites/default/files/images/oalm-logo.jpg" /></a></div>
+<!-- department of health and human services -->
+
+<div class="clearfix"> </div>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+          </div>
+      </div>
+      </div>
+	</div>
+    <!-- End Footer Region-->
+<!--End Footer -->
+
+<!-- Start Footer Ribbon -->
+  <div class="footer-ribbon">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="region region-footer-menu">
+    <div id="block-footermostbottomlinks" class="block block-block-content block-block-contenteddc8422-4318-4916-ab46-00cef5cd744b">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="footerbottomlinks">
+<ul class="menu clearfix"><li class="first leaf"><a href="/disclaimer" title="Disclaimer">Disclaimer</a> |</li>
+	<li class="leaf"><a href="http://www.nih.gov/about/access.htm" title="Accessibility">Accessibility</a> |</li>
+	<li class="leaf"><a href="/directions-office-acquisition-management-and-policy" title="Directions">Directions</a> |</li>
+	<li class="last leaf"><a href="/sitemap" title="Sitemap">Sitemap</a> |</li>
+	<li class="last leaf"><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" title="Sitemap">HHS Vulnerability Disclosure</a></li>
+</ul></div>
+
+<div class="footerbottomslogan">NIH...TURNING DISCOVERY INTO HEALTH</div>
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+.region-content a, .region-footer-menu a, .region-content-bottom a {text-decoration: underline;}
+.topbluebartitleall {color: #fff;font-size: 32px;font-weight: 400;padding: 12px;margin: 0;}
+.topbluebartitleall a {color: #fff;font-size: 32px;font-weight: 400;}
+.topbluebartitleall a:hover {color: #fff;text-decoration: none;}
+
+/*--><!]]>*/
+</style></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Footer Ribbon -->
+
+
+<!-- #footer-bottom -->
+<div id="footer-bottom">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12 copy_credit">
+                </div>
+		</div>
+    </div>
+</div>
+<!-- #footer-bottom ends here -->
+
+  </div>
+
+    
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/107","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"back_to_top\/back_to_top_js,back_to_top\/back_to_top_text,cheeseburger_menu\/cheeseburger_menu.css,cheeseburger_menu\/cheeseburger_menu.js,classy\/base,classy\/messages,classy\/node,core\/normalize,extlink\/drupal.extlink,oamp_theme\/bootstrap,oamp_theme\/global-styling,oamp_theme\/maintenance-page,simple_responsive_table\/global-styling,statistics\/drupal.statistics,sticky\/sticky,system\/base","theme":"oamp_theme","theme_token":null},"ajaxTrustedUrl":{"\/search\/node":true},"back_to_top":{"back_to_top_button_trigger":"100","back_to_top_prevent_on_mobile":1,"back_to_top_prevent_in_admin":1,"back_to_top_button_type":"text","back_to_top_button_text":"Back to top"},"simpleResponsiveTable":{"maxWidth":"300","modulePath":"modules\/contrib\/simple_responsive_table"},"sticky":{"selector":".main-header","top_spacing":"77","bottom_spacing":"0","class_name":"is-sticky","wrapper_class_name":"sticky-wrapper","center":0,"get_width_from":"","width_from_wrapper":1,"responsive_width":0,"z_index":"auto"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"statistics":{"data":{"nid":"107"},"url":"\/core\/modules\/statistics\/statistics.php"},"user":{"uid":0,"permissionsHash":"a339bfc242f9d5bf5cbc7d108a1fd91e79f77949b839df61d5e7a7b4baeed802"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.0"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.4.12"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.4.12"></script>
+<script src="/core/misc/polyfills/nodelist.foreach.js?v=9.4.12"></script>
+<script src="/core/assets/vendor/css-escape/css.escape.js?v=1.5.1"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.4.12"></script>
+<script src="/core/misc/drupal.js?v=9.4.12"></script>
+<script src="/core/misc/drupal.init.js?v=9.4.12"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/version-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/jquery-var-for-color-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/vendor/jquery-color/jquery.color-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/effect-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=5.3.2"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.4.12"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/effects/effect-fade-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/back_to_top/js/back_to_top.js?v=9.4.12"></script>
+<script src="/modules/contrib/simple_responsive_table/js/simple-responsive-table.js?v=1.x"></script>
+<script src="/libraries/sticky/jquery.sticky.js?v=9.4.12"></script>
+<script src="/modules/contrib/sticky/js/sticky.js?v=9.4.12"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/core/misc/progress.js?v=9.4.12"></script>
+<script src="/core/misc/ajax.js?v=9.4.12"></script>
+<script src="/core/themes/stable/js/ajax.js?v=9.4.12"></script>
+<script src="/themes/oamp_theme/js/oamp-theme.js?ru1ivt"></script>
+<script src="/themes/oamp_theme/js/custom-oalm.js?ru1ivt"></script>
+<script src="/modules/contrib/extlink/extlink.js?v=9.4.12"></script>
+<script src="/core/modules/statistics/statistics.js?v=9.4.12"></script>
+<script src="/modules/contrib/cheeseburger_menu/js/cheeseburger_menu.js?v=1.x"></script>
+
+	
+
+<script>
+	var accItem = document.getElementsByClassName('accordionItem');
+    var accHD = document.getElementsByClassName('accordionItemHeading');
+    for (i = 0; i < accHD.length; i++) {
+        accHD[i].addEventListener('click', toggleItem, false);
+    }
+    function toggleItem() {
+        var itemClass = this.parentNode.className;
+        for (i = 0; i < accItem.length; i++) {
+            accItem[i].className = 'accordionItem close';
+        }
+        if (itemClass == 'accordionItem close') {
+            this.parentNode.className = 'accordionItem open';
+        }
+    }
+</script>
+		
+  </body>
+</html>

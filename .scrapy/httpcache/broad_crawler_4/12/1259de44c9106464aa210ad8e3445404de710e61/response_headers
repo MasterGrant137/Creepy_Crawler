@@ -1,0 +1,23 @@
+Content-Length: 162
+Content-Type: text/html
+Location: https://www.bbc.co.uk/sounds/play/live:bbc_world_service
+Cache-Control: public, max-age=3600
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+Via: 1.1 BBC-GTM, 1.1 varnish
+Req-Svc-Chain: FASTLY,GTM
+X-Bbc-Edge-Cache-Status: HIT
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Strict-Transport-Security: max-age=31536000; preload
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Sat, 10 Jun 2023 21:18:24 GMT
+X-Fastly-Cache-Status: HIT-STALE-CLUSTER
+X-Served-By: cache-bur-kbur8200062-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1686431904.079136,VS0,VE7
+X-Fastly-Pre-Flight-Cache: MISS, HIT
+X-Fastly-Pre-Flight-Cache-Status: HIT
+X-Cache-Age: 3733
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.healthcare.gov/blog/', 'method': 'NONE', 'status': 400, 'response_url': 'https://www.healthcare.gov/blog/', 'timestamp': 1686336369.1413682}
+=======
+{'url': 'https://www.healthcare.gov/blog/', 'method': 'NONE', 'status': 400, 'response_url': 'https://www.healthcare.gov/blog/', 'timestamp': 1686472377.886166}
+>>>>>>> fix/seo-1

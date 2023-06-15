@@ -1,0 +1,19 @@
+Content-Length: 1946
+Server: nginx
+Content-Type: text/plain
+X-Content-Type-Options: nosniff
+Last-Modified: Thu, 16 Feb 2023 13:02:58 GMT
+Cache-Control: max-age=1209600
+Expires: Thu, 15 Jun 2023 12:13:21 GMT
+X-Request-Id: v-b3584238-0075-11ee-bcbf-d7bd28919919
+X-Ah-Environment: prod
+Via: varnish, 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Tue, 13 Jun 2023 07:51:43 GMT
+Age: 1021102
+X-Served-By: cache-iad-kcgs7200164-IAD, cache-bur-kbur8200069-BUR
+X-Cache: MISS, HIT, HIT
+X-Cache-Hits: 1024, 1
+X-Timer: S1686642703.319129,VS0,VE2
+Vary: Host
+Strict-Transport-Security: max-age=300

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'http://commonfund.nih.gov/diversity/index', 'method': 'GET', 'status': 301, 'response_url': 'http://commonfund.nih.gov/diversity/index', 'timestamp': 1686332053.91959}
+=======
+{'url': 'http://commonfund.nih.gov/diversity/index', 'method': 'GET', 'status': 301, 'response_url': 'http://commonfund.nih.gov/diversity/index', 'timestamp': 1686467599.528279}
+>>>>>>> fix/seo-1

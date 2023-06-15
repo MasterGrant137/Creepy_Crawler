@@ -6,7 +6,11 @@
 <meta content='width=device-width, initial-scale=1.0, user-scalable=yes' name='viewport' />
 <link href='https://grants.nih.gov/favicon.ico' rel='shortcut icon' />
 <meta name="csrf-param" content="authenticity_token" />
+<<<<<<< HEAD
 <meta name="csrf-token" content="oGGQzhrPQGtURtraKFhdNWP50COUjvSw0jWCyHq9AzPZ5rB1lSeSxxCzOg7/gHWBFHTwOWmnXaejnNp/LOzspQ==" />
+=======
+<meta name="csrf-token" content="aqXWjFaWOkt0JdYkHw2CoA5Yz/Yo8VzZVLStt03NXlvJhV/wwDF0VD98J3Zg2lwo4ZBpWMXDoLzIa+XO7S0Jug==" />
+>>>>>>> fix/seo-1
 <link rel="stylesheet" media="screen" href="https://content.govdelivery.com/assets/subscriber-6fa22a4cc01bd61bfc57e67ad3871548d6adbf1f5c067eb8cdad078eaddf6675.css" />
 <link rel="stylesheet" media="screen" href="https://public.govdelivery.com/accounts/USNIHOER/style.css?v=1592839890" />
 
@@ -34,7 +38,11 @@
 </p>
 
 
+<<<<<<< HEAD
 <form action="/accounts/USNIHOER/subscriber/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/h7x8ec/AJ7TxR09DrE3q8zWg3KDYHR+Zpa0GcpHSlmHmdFKaNfSMpcw/enZaR8fu1ujaH5J3WkXP+yunBalzw==" />
+=======
+<form action="/accounts/USNIHOER/subscriber/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yyRKuCPSW1sOh0+uMGxrvikzUti2M2h0L72pwlUWkMJoBMPEtXUVREXevvxPu7U2xvv0dlsBlBGzYuG79fbHIw==" />
+>>>>>>> fix/seo-1
 
 <fieldset id='quick_subscribe_new'>
 <legend>

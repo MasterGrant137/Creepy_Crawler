@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.cancer.gov/news-events/media-resources', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cancer.gov/news-events/media-resources', 'timestamp': 1686287305.1074848}
+=======
+{'url': 'https://www.cancer.gov/news-events/media-resources', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cancer.gov/news-events/media-resources', 'timestamp': 1686472140.0048058}
+>>>>>>> fix/seo-1

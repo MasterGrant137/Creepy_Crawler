@@ -8,5 +8,9 @@
     </head>
     <body>
         Redirecting to <a href="https://www.cancer.gov/grants-training/training/idwb">https://www.cancer.gov/grants-training/training/idwb</a>.
+<<<<<<< HEAD
     <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"gov-bam.nr-data.net","licenseKey":"bfc00e1ee3","applicationID":"355359682,336353556","transactionName":"NVVTbBMHDEQDBUVcDgwfZEoISQtZBgNJGxEKQA==","queueTime":61,"applicationTime":152,"atts":"GRJQGlsdH0o=","errorBeacon":"gov-bam.nr-data.net","agent":""}</script></body>
+=======
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"gov-bam.nr-data.net","licenseKey":"bfc00e1ee3","applicationID":"355359682,336353556","transactionName":"NVVTbBMHDEQDBUVcDgwfZEoISQtZBgNJGxEKQA==","queueTime":59,"applicationTime":172,"atts":"GRJQGlsdH0o=","errorBeacon":"gov-bam.nr-data.net","agent":""}</script></body>
+>>>>>>> fix/seo-1
 </html>

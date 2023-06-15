@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://researchtraining.nih.gov/', 'method': 'GET', 'status': 200, 'response_url': 'https://researchtraining.nih.gov/', 'timestamp': 1686335135.60005}
+=======
+{'url': 'https://researchtraining.nih.gov', 'method': 'GET', 'status': 200, 'response_url': 'https://researchtraining.nih.gov', 'timestamp': 1686467745.8317592}
+>>>>>>> fix/seo-1

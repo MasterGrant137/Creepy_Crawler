@@ -1,0 +1,19 @@
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Redirect-Id: 11499
+Location: https://www.hhs.gov/web/developer/index.html
+X-Varnish: 134802 1181775
+Content-Security-Policy: frame-ancestors 'self' hhs.gov
+Content-Security-Policy: frame-ancestors 'self' hhs.gov *.hhs.gov
+X-Content-Security-Policy: frame-ancestors 'self' hhs.gov
+X-Frame-Options: SAMEORIGIN
+X-Varnish-Cache: HIT
+X-Request-Id: fa3fbbd965ab925a466c336d89f93d3c
+Date: Tue, 13 Jun 2023 07:57:22 GMT
+Server-Timing: cdn-cache; desc=REVALIDATE
+Server-Timing: edge; dur=455
+Server-Timing: origin; dur=95
+Server-Timing: ak_p; desc="468511_399004170_104017206_55128_7142_180_-_-";dur=1
+Strict-Transport-Security: max-age=31536000;includeSubDomains;preload

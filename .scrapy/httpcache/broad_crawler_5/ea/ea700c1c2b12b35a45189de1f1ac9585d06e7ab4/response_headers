@@ -1,0 +1,18 @@
+Content-Type: text/html; charset=utf-8
+Server: Server
+Date: Fri, 09 Jun 2023 22:56:25 GMT
+X-Amz-Rid: AAT0A8QNWHMR0TCTD3QH
+Set-Cookie: next-sid=beGyIV6EhJxjjFPO18NZP; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly
+Content-Security-Policy: frame-ancestors 'self' imdb.com *.imdb.com *.media-imdb.com withoutabox.com *.withoutabox.com amazon.com *.amazon.com amazon.co.uk *.amazon.co.uk amazon.de *.amazon.de translate.google.com images.google.com www.google.com www.google.co.uk search.aol.com bing.com www.bing.com
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Etag: "48nxuk32buag0l"
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Content-Encoding: gzip
+Vary: Accept-Encoding,Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Cache: Miss from cloudfront
+Via: 1.1 019b4503d2ffede0ae900992ff140770.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: YTO50-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: xhWqtBEbb-3osg6aojjsZZOFSECljaCcPoI5N_dJsfxRSUjxIkvpZw==

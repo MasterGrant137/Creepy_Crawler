@@ -1,0 +1,16 @@
+Content-Length: 22719
+Content-Type: text/html; charset=utf-8
+Date: Tue, 13 Jun 2023 07:57:21 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Encoding: gzip
+Expires: -1
+Pragma: no-cache
+Set-Cookie: Dynamics365PortalAnalytics=k-XTgMzPJlca9xfsTqMPmgwQVBzN0l4EXzkq9rzu-lVt10IWqpDhCiQV07w9zwdRD1y4bqEdcpncgdZhsK22NmclC7hSx1fjypoPGqVjwB1pwYJl1sDT5SVdxWFmv7fMXRvSGc-NgHqnX3lSny650g2; expires=Mon, 11-Sep-2023 07:57:22 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: ASP.NET_SessionId=qgnvgn5cc1q4rvyzrgowiylp; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: ARRAffinity=98d3604fe335b99a97aeab5ddd0722275da6b5f58511e01814a55583ee08ae59;Path=/;HttpOnly;Secure;Domain=nih-niaidportal.dynamics365portals.us
+Set-Cookie: ARRAffinitySameSite=98d3604fe335b99a97aeab5ddd0722275da6b5f58511e01814a55583ee08ae59;Path=/;HttpOnly;SameSite=None;Secure;Domain=nih-niaidportal.dynamics365portals.us
+Vary: Accept-Encoding
+X-Ms-Request-Id: 701ddfaa-5c90-4897-9cf3-8c0bbf870af4
+X-Ms-Portal-App: site-8c401b68-8b04-4c6d-9fea-9dc77345a204-GCt
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

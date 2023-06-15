@@ -1,0 +1,17 @@
+Content-Type: text/html
+Last-Modified: Mon, 12 Jun 2023 22:23:38 GMT
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+X-Content-Type-Options: nosniff
+X-Vcap-Request-Id: 06158348-d6d7-4532-5a83-6e8a9d821051
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+Content-Encoding: gzip
+Date: Tue, 13 Jun 2023 04:53:41 GMT
+Cache-Control: max-age=900
+Etag: W/"084327178849f722fe90bc33dd6b9db5"
+Vary: Accept-Encoding,Accept-Encoding,Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 af69b08a6e74f6e1ecd27d2f7631f4b8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ORD56-P4
+X-Amz-Cf-Id: gEcEv2F14mgqUwbhiy5qv7eFbmGPCBWDpg-CUAIkMNuHMHvgtqxO4Q==
+Age: 372

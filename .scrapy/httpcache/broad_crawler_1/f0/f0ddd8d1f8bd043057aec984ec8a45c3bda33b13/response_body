@@ -1,0 +1,1147 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5B8TQK');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://nida.nih.gov/" />
+<meta http-equiv="content-language" content="en" />
+<meta name="rights" content="Unless otherwise specified, NIDA publications and videos are available for your use and may be reproduced in their entirety without permission from NIDA. Citation is appreciated." />
+<meta property="og:site_name" content="National Institute on Drug Abuse" />
+<meta property="og:url" content="https://nida.nih.gov/" />
+<meta property="og:title" content="Client error | National Institute on Drug Abuse" />
+<meta property="og:image:url" content="https://nida.nih.gov/sites/default/files/2020-05/nida-social-media-default.jpg" />
+<meta property="og:image:alt" content="National Institute on Drug Abuse" />
+<meta property="og:see_also" content="https://nida.nih.gov/frequently-asked-questions" />
+<meta property="article:author" content="National Institute on Drug Abuse" />
+<meta property="article:publisher" content="National Institute on Drug Abuse" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@NIDAnews" />
+<meta name="twitter:title" content="Client error | National Institute on Drug Abuse" />
+<meta name="twitter:site:id" content="102234123" />
+<meta name="twitter:creator" content="@NIDAnews" />
+<meta name="twitter:creator:id" content="102234123" />
+<meta name="twitter:image:alt" content="National Institute on Drug Abuse" />
+<meta name="twitter:image" content="https://nida.nih.gov/sites/default/files/2020-05/nida-social-media-default.jpg" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/solstice/favicon.ico" type="image/vnd.microsoft.icon" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_config.icon_color = "#6e6e6e";</script>
+<style>.a2a_svg {border-radius:0 !important;margin-right:.5rem;}
+.addtoany_list a:hover span {opacity:1 !important;}
+.a2a_button_email .a2a_svg:hover {background: #7B0A07 !important;}
+.a2a_button_facebook .a2a_svg:hover {background: #3b5998 !important;}
+.a2a_button_twitter .a2a_svg:hover {background: #1da1f3 !important;}</style>
+
+    <title>Client error | National Institute on Drug Abuse (NIDA)</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_vFCle1998k6hrCImO3cykYJHAFAZg27TAXHHMyUyiYI.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_c2rERJyF-EkWOX25_ni0zy5J1SyckLgsBcF07QVgL0k.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_7GViD4mdIhpE98Fk65zMBIblhbVu2fCxgVmpTSB0KOM.css" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Slab:100,300,400,700&amp;display=swap" />
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body class="path-node body">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B8TQK"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div class="l-page-container">
+  <div class="mobile-overlay" id="overlay" aria-hidden="true"></div>
+    
+
+    <div class="top-bar">
+    <div class="top-bar-nih">
+    <a class="link" href="https://www.nih.gov/">National Institutes of Health</a>
+    </div>
+    <div class="top-bar-social">
+      <div class="top-bar-social-links">
+        <div>
+          <a href="https://public.govdelivery.com/accounts/USNIHNIDA/subscriber/new?qsp=USNIHNIDA_3" class="sm-icon social-media-email" aria-label="Contact NIDA"><i class="far fa-envelope" title="Envelope" role="img" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/NIDAnews" class="sm-icon social-media-twitter" aria-label="Follow us on Twitter"><i class="fab fa-twitter" title="Twitter" role="img" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/NIDANIH" class="sm-icon social-media-facebook" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f" title="Facebook" role="img" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/company/the-national-institute-on-drug-abuse-nida" class="sm-icon social-media-linkedin" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin-in" title="LinkedIn" role="img" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/user/NIDANIH" class="sm-icon social-media-youtube" aria-label="Follow us on YouTube"><i class="fab fa-youtube" title="YouTube" role="img" aria-hidden="true"></i></a>
+          <a href="https://www.flickr.com/photos/nida-nih/albums/" class="sm-icon social-media-flickr " aria-label="Follow us on Flickr"><i class="fab fa-flickr" title="Flickr" role="img" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="top-bar-language">
+        <a class="link" href="/es">En espa&ntilde;ol</a>
+      </div>
+    </div>
+
+  </div>
+
+    <header role="banner" class="header">
+    
+<div class="row v-align-middle space-between width-100">
+  <div class="header-inner col-12 col-desktop-8">
+    <div id="block-solstice-branding" class="site-branding col-10">
+      <div class="logo">
+      <a href="/" title="Home" rel="home">
+        <img src="/themes/custom/solstice/nida-logo.svg" alt="Home" width="282" height="37" />
+      </a>
+    </div>
+    
+    </div>
+
+        <button role="button" aria-label="Menu" aria-haspopup="menu" aria-expanded="false" class="button button-primary button--menu hide-desktop ml-1" id="menu-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="white-icon svg-inline">
+        <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/>
+      </svg>
+    </button>
+  </div>
+  <div class="col-12 col-desktop-4 align-end">
+    <div id="block-sitesearchheader">
+  
+    
+      
+            <div>    <form method="get" action="/search" class="form-horizontal form-small">
+      <label for="search" class="is-vishidden">Search Component</label>
+      <input type="search" name="query" id="search" placeholder="Search" required oninvalid="this.setCustomValidity('Please enter at least one keyword.')" oninput="setCustomValidity('')">
+<input type="hidden" name="sort" id="sort" value="_score">
+      <button class="button button-primary button--small"><i title="Search" class="fas fa-search"></i></button>
+    </form><!-- end search-form -->
+</div>
+      
+  </div>
+
+  </div>
+</div>
+
+  </header>
+
+          <nav role="navigation" aria-labelledby="block-megamenu-menu" id="block-megamenu" class="primary-nav">
+            
+  <div class="visually-hidden" id="block-megamenu-menu">Mega Menu</div>
+  
+
+        
+
+      <ul class="primary-nav--list row menu menu-level-0">
+              <li class="menu-item col primary-nav--list-item menu-item-1">
+      <a href="/" class="menu-item menu-item-1 primary-nav--link" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                    
+    
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown secondary-nav">
+              
+      </div>
+
+
+
+          </li>
+              <li class="menu-item menu-item--expanded col primary-nav--list-item menu-item-2">
+      <a href="/research-topics" class="menu-item menu-item--expanded menu-item-2 primary-nav--link" data-drupal-link-system-path="node/1861">Research Topics</a>
+                    
+    
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown menu-dropdown-0 menu-type-default secondary-nav">
+              
+<div  class="nav-section header-content">
+      
+<div  class="section-header">
+      
+            <div><a href="/research-topics">Research Topics</a></div>
+      
+  </div>
+
+    <ul class="secondary-nav--list menu menu-level-1">
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/addiction-science" data-drupal-link-system-path="node/341">Addiction Science</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/prevention" data-drupal-link-system-path="node/348">Prevention</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/treatment" data-drupal-link-system-path="node/49630">Treatment</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/harm-reduction" data-drupal-link-system-path="node/50074">Harm Reduction</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/stigma-discrimination" data-drupal-link-system-path="node/48993">Stigma and Discrimination</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/syringe-services-programs" data-drupal-link-system-path="node/48992">Syringe Services Programs</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/hiv" data-drupal-link-system-path="node/49621">HIV</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/comorbidity/covid-19-substance-use" data-drupal-link-system-path="node/23603">COVID-19</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/opioids" data-drupal-link-system-path="node/20240">Opioids</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/drug-topics/fentanyl">Fentanyl</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/xylazine" data-drupal-link-system-path="node/48896">Xylazine</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/kratom" data-drupal-link-system-path="node/48990">Kratom</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/cannabis-marijuana" data-drupal-link-system-path="node/334">Cannabis (Marijuana)</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/psychedelic-dissociative-drugs" data-drupal-link-system-path="node/50846">Psychedelic and Dissociative Drugs</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/tobacconicotine-vaping" data-drupal-link-system-path="node/337">Tobacco/Nicotine and Vaping</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/methamphetamine" data-drupal-link-system-path="node/336">Methamphetamine</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/cocaine" data-drupal-link-system-path="node/330">Cocaine</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research-topics/heroin" data-drupal-link-system-path="node/331">Heroin</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+    </ul>
+
+
+
+<div  class="more-button-container">
+      
+            <div><a href="/research-topics">More Research Topics</a></div>
+      
+  </div>
+
+  </div>
+
+<div  class="nav-section">
+      
+<div  class="nav-list-block">
+      
+            <div>
+            <div><div class="h2 font-primary text-med-2 mt-0-5">Quick Links</div>
+
+<ul><li><a href="/research-topics/parents-educators">Resources for Parents and Educators</a></li>
+	<li><a href="/research-topics/addiction-science/words-matter-preferred-language-talking-about-addiction">Words Matter: Preferred Language</a></li>
+	<li><a href="/research-topics/commonly-used-drugs-charts">Commonly Used Drugs Chart</a></li>
+	<li><a href="/research-topics/publications">NIDA Publications</a></li>
+	<li><a href="/research-topics/trends-statistics/infographics">Infographics</a></li>
+</ul></div>
+      </div>
+      
+  </div>
+
+  </div>
+
+      </div>
+
+
+
+          </li>
+              <li class="menu-item menu-item--expanded col primary-nav--list-item menu-item-3">
+      <a href="/research" class="menu-item menu-item--expanded menu-item-3 primary-nav--link" data-drupal-link-system-path="node/22803">Research &amp; Training</a>
+                    
+    
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown menu-dropdown-0 menu-type-default secondary-nav">
+              
+<div  class="nav-section header-content">
+      
+<div  class="section-header">
+      
+            <div><a href="/research">Research &amp; Training</a></div>
+      
+  </div>
+
+    <ul class="secondary-nav--list menu menu-level-1">
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research/nida-research-programs-activities" data-drupal-link-system-path="node/22824">NIDA Research Programs &amp; Activities</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research/clinical-research" data-drupal-link-system-path="node/22807">Clinical Research</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research/nih-policies-guidance" data-drupal-link-system-path="node/22810">NIH Policies &amp; Guidance</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research/research-data-measures-resources" data-drupal-link-system-path="node/22825">Research Data, Measures, &amp; Resources</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research/research-training-career-development" data-drupal-link-system-path="node/22808">Research Training &amp; Career Development</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research/resources-grants-contracts" data-drupal-link-system-path="node/22809">Resources for Grants &amp; Contracts</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+    </ul>
+
+
+
+  </div>
+
+<div  class="nav-section">
+      
+<div  class="nav-list-block">
+      
+            <div>
+            <div><div class="h2 font-primary text-med-2 mt-0-5">Quick Links</div>
+
+<ul><li><a href="/drug-topics/opioids/nidas-role-in-nih-heal-initiative">HEAL Initiative</a></li>
+	<li><a href="/research/research-data-measures-resources/nida-drug-supply-program">NIDA Drug Supply Program</a></li>
+	<li><a href="/research/nih-policies-guidance/clinical-trials-stewardship">Clinical Trials Stewardship</a></li>
+	<li><a href="/research/research-training-career-development/training-career-development-fellowships-grants">Fellowships &amp; Grants</a></li>
+	<li><a href="/funding-app?sort=rel_date:desc&amp;document_types=NOSI&amp;issuing_institution=NIDA%20Primary">NIDA Notice of Special Interest (NOSI)</a></li>
+</ul></div>
+      </div>
+      
+  </div>
+
+  </div>
+
+      </div>
+
+
+
+          </li>
+              <li class="menu-item menu-item--expanded col primary-nav--list-item menu-item-4">
+      <a href="/nidamed-medical-health-professionals" class="menu-item menu-item--expanded menu-item-4 primary-nav--link" data-drupal-link-system-path="node/22863">Clinical Resources</a>
+                    
+    
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown menu-dropdown-0 menu-type-default secondary-nav">
+              
+<div  class="nav-section header-content">
+      
+<div  class="section-header">
+      
+            <div><a href="/nidamed-medical-health-professionals">NIDAMED: Clinical Resources</a></div>
+      
+  </div>
+
+    <ul class="secondary-nav--list menu menu-level-1">
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/nidamed-medical-health-professionals/resources-for-your-professional-discipline-specialty" data-drupal-link-system-path="node/22769">For Your Discipline</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/nidamed-medical-health-professionals/health-professions-education" data-drupal-link-system-path="node/22723">Health Professions Education</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/nidamed-medical-health-professionals/vaping-marijuana-other-drugs" data-drupal-link-system-path="node/22726">Marijuana and Other Drugs</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/nidamed-medical-health-professionals/opioid-crisis-pain-management">Opioid Crisis and Pain Management</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/nidamed-medical-health-professionals/screening-tools-prevention" data-drupal-link-system-path="node/22727">Screening Tools &amp; Prevention</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/nidamed-medical-health-professionals/treatment-resources" data-drupal-link-system-path="node/22768">Treatment</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+    </ul>
+
+
+
+  </div>
+
+<div  class="nav-section">
+      
+<div  class="nav-list-block">
+      
+            <div>
+            <div><div class="h2 font-primary text-med-2 mt-0-5">Quick Links</div>
+
+<ul><li><a href="/drug-topics/comorbidity/covid-19-substance-use">NIDA Resources on COVID-19 and Substance Use</a></li>
+	<li><a href="/nidamed-medical-health-professionals/resources-to-help-your-patients-sud-during-covid-19-pandemic">Resources to Help Your Patients with SUD During the COVID-19 Pandemic</a></li>
+</ul></div>
+      </div>
+      
+  </div>
+
+  </div>
+
+      </div>
+
+
+
+          </li>
+              <li class="menu-item menu-item--expanded col primary-nav--list-item menu-item-5">
+      <a href="/funding" class="menu-item menu-item--expanded menu-item-5 primary-nav--link" data-drupal-link-system-path="node/22854">Grants &amp; Funding</a>
+                    
+    
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown menu-dropdown-0 menu-type-default secondary-nav">
+              
+<div  class="nav-section header-content">
+      
+<div  class="section-header">
+      
+            <div><a href="/funding">Grants &amp; Funding</a></div>
+      
+  </div>
+
+    <ul class="secondary-nav--list menu menu-level-1">
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/funding/nida-funding-opportunities" data-drupal-link-system-path="node/22851">NIDA Funding Opportunities</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/funding/small-business-innovation-research-sbir-technology-transfer-sttr-programs" title="Small Business Innovation Research (SBIR) and Technology Transfer (STTR) Programs" data-drupal-link-system-path="node/47954">Small Business Innovation Research (SBIR) and Technology Transfer (STTR) Programs</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/funding/fy22-research-priorities" title="FY22 Priority Research Areas" data-drupal-link-system-path="node/48347">FY22 Priority Research Areas</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/funding/trans-nih-funding-opportunities" data-drupal-link-system-path="node/22852">Trans-NIH Funding Opportunities</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/funding/nida-office-acquisitions-contracting" title="NIDA Office of Acquisitions Contracting" data-drupal-link-system-path="node/1443">NIDA Office of Acquisitions Contracting</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/research/research-data-measures-resources/technology-transfer" title="Technology Transfer" data-drupal-link-system-path="node/1451">Technology Transfer</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+    </ul>
+
+
+
+  </div>
+
+<div  class="nav-section">
+      
+<div  class="nav-list-block">
+      
+            <div>
+            <div><div class="h2 font-primary text-med-2 mt-0-5">Quick Links</div>
+
+<ul><li><a href="/research/resources-grants-contracts/peer-review">Peer Review</a></li>
+	<li><a href="/research/resources-grants-contracts/grant-contract-application-process/forms">Grant Application Forms</a></li>
+	<li><a href="/research/resources-grants-contracts/grant-contract-application-process">Grants &amp; Contract Application Process</a></li>
+	<li><a href="/funding-app?sort=rel_date:desc&amp;document_types=NOSI&amp;issuing_institution=NIDA%20Primary">NIDA Notice of Special Interest (NOSI)</a></li>
+</ul></div>
+      </div>
+      
+  </div>
+
+  </div>
+
+      </div>
+
+
+
+          </li>
+              <li class="menu-item menu-item--expanded col primary-nav--list-item menu-item-6">
+      <a href="/news-events" class="menu-item menu-item--expanded menu-item-6 primary-nav--link" data-drupal-link-system-path="node/1860">News &amp; Events</a>
+                    
+    
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown menu-dropdown-0 menu-type-default secondary-nav">
+              
+<div  class="nav-section header-content">
+      
+<div  class="section-header">
+      
+            <div><a href="/news-events">News</a></div>
+      
+  </div>
+
+    <ul class="secondary-nav--list menu menu-level-1">
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/news-events/latest-from-nida/news" data-drupal-link-system-path="news-events/latest-from-nida/news">News Releases</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/about-nida/noras-blog" data-drupal-link-system-path="node/36652">Nora&#039;s Blog</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/news-events/meetings-events" title="Meeting and Events" data-drupal-link-system-path="node/37562">Meeting and Events</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/news-events/nida-in-news" data-drupal-link-system-path="node/47623">NIDA in the News</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+    </ul>
+
+
+
+  </div>
+
+<div  class="nav-section">
+      
+<div  class="nav-list-block">
+      
+            <div>
+            <div><div class="h2 font-primary text-med-2 mt-0-5">Quick Links</div>
+
+<ul><li><a href="/news-events/contact-press-office">Contact the Press Office</a><br /><a href="mailto:media@nida.nih.gov" title="mailto:media@nida.nih.gov">media@nida.nih.gov</a><br /><span>301-443-6245</span></li>
+</ul></div>
+      </div>
+      
+  </div>
+
+  </div>
+
+      </div>
+
+
+
+          </li>
+              <li class="menu-item menu-item--expanded col primary-nav--list-item menu-item-7">
+      <a href="/about-nida" class="menu-item menu-item--expanded menu-item-7 primary-nav--link" data-drupal-link-system-path="node/2389">About NIDA</a>
+                    
+    
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown menu-dropdown-0 menu-type-default secondary-nav">
+              
+<div  class="nav-section header-content">
+      
+<div  class="section-header">
+      
+            <div><a href="/about-nida">About NIDA</a></div>
+      
+  </div>
+
+    <ul class="secondary-nav--list menu menu-level-1">
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/about-nida/advisory-boards-groups" data-drupal-link-system-path="node/3422">Advisory Boards and Review Groups</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/about-nida/directors-page" data-drupal-link-system-path="node/2340">Director&#039;s Page</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/about-nida/legislative-activities" data-drupal-link-system-path="node/2390">Legislative Activities</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/about-nida/organization" data-drupal-link-system-path="node/3228">Organization</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+      
+    <li class="menu-item secondary-nav--list-item">
+      <a href="/about-nida/working-nida" data-drupal-link-system-path="node/36660">Working at NIDA</a>
+                    
+  
+  <div class="menu_link_content menu-link-contentmega-menu view-mode-default menu-dropdown">
+              
+      </div>
+
+
+
+          </li>
+    </ul>
+
+
+
+  </div>
+
+<div  class="nav-section">
+      
+<div  class="nav-list-block">
+      
+            <div>
+            <div><div class="h2 font-primary text-med-2 mt-0-5">Quick Links</div>
+
+<ul><li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="7b7362ae-806e-4df2-b5bc-eb4dcd6f60ab" href="/about-nida/2022-2026-strategic-plan">NIDA Strategic Plan</a></li>
+	<li><a href="/about-nida/legislative-activities/budget-information">FY Budget Information</a></li>
+	<li><a href="/about-nida/organization/cctn/clinical-trials-network-ctn">Clinical Trials Network</a></li>
+	<li><a href="/about-nida/frequently-asked-questions">Frequently Asked Questions</a></li>
+	<li><a href="/about-nida/contact-us">Contact Us</a></li>
+</ul></div>
+      </div>
+      
+  </div>
+
+  </div>
+
+      </div>
+
+
+
+          </li>
+    </ul>
+
+
+ 
+  </nav>
+
+
+  
+        <div class="breadcrumb">
+        <div>
+    <div id="block-solstice-breadcrumbs">
+  
+    
+        <nav role="navigation" aria-labelledby="system-breadcrumb">
+    <div id="system-breadcrumb" class="visually-hidden">Breadcrumb</div>
+    <ol class="breadcrumb-list no-bullets">
+          <li class="breadcrumb-list-item">
+                  <a href="/">Home</a>
+              </li>
+          <li class="breadcrumb-list-item">
+                  Client error
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+    </div>
+  
+  <div class="content">
+    <div class="content-inner">
+
+      
+      <main role="main" class="main inner">
+        <a id="main-content" tabindex="-1"></a>
+                          <div class="above-content relative">
+              <div>
+    <div id="block-nidapagetitle">
+  
+    
+        <h1 class="h1 l-inner-b">
+    Client error
+</h1>
+  </div>
+
+  </div>
+
+          </div>
+        
+        <div class="main-wrapper">
+          
+          <div class="layout-center-content ">
+            
+  <div>
+    <div class="content-river">
+      <div id="block-nida-vic-adaptive-system-main">
+  
+    
+      A client error happened
+  </div>
+
+    </div>
+  </div>
+
+          </div>
+
+                  </div>
+      </main>
+
+    </div>   </div>  
+   
+      <footer role="contentinfo" class="footer l-section l-section--dark">
+      
+  <div class="l-inner row no-margin">
+    <nav role="navigation" aria-labelledby="block-solstice-footer-menu" id="block-solstice-footer" class="col-12 col-desktop-9">
+            
+  <div class="visually-hidden" id="block-solstice-footer-menu">Footer menu</div>
+  
+
+        
+              <ul class="footer-links">
+              <li>
+              <a href="/" class="link" data-drupal-link-system-path="&lt;front&gt;">NIDA Home</a>
+              </li>
+          <li>
+              <a href="/research-topics" class="link" data-drupal-link-system-path="node/1861">Research Topics</a>
+              </li>
+          <li>
+              <a href="/research" class="link" data-drupal-link-system-path="node/22803">Research &amp; Training</a>
+              </li>
+          <li>
+              <a href="/nidamed-medical-health-professionals" class="link" data-drupal-link-system-path="node/22863">NIDAMED: Clinical Resources</a>
+              </li>
+          <li>
+              <a href="/funding" class="link" data-drupal-link-system-path="node/22854">Grants &amp; Funding</a>
+              </li>
+          <li>
+              <a href="/news-events" class="link" data-drupal-link-system-path="node/1860">News</a>
+              </li>
+          <li>
+              <a href="/about-nida" class="link" data-drupal-link-system-path="node/2389">About NIDA</a>
+              </li>
+          <li>
+              <a href="https://public.govdelivery.com/accounts/USNIHNIDA/subscriber/new?qsp=USNIHNIDA_3" title="Subscribe" class="link">Subscribe to NIDA e-mail updates</a>
+              </li>
+          <li>
+              <a href="/accessibility-section-508-information" class="link" data-drupal-link-system-path="node/2753">Accessibility and Section 508 Information</a>
+              </li>
+          <li>
+              <a href="/privacy-notice" title="Privacy Notice" class="link" data-drupal-link-system-path="node/2754">Privacy Notice</a>
+              </li>
+          <li>
+              <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="link">Vulnerability Disclosure (HHS)</a>
+              </li>
+          <li>
+              <a href="/freedom-information-act-foia" title="Freedom of Information Act (FOIA)" class="link" data-drupal-link-system-path="node/22972">Freedom of Information Act (FOIA)</a>
+              </li>
+          <li>
+              <a href="/about-nida/working-nida" title="Working at NIDA" class="link" data-drupal-link-system-path="node/36660">Working at NIDA</a>
+              </li>
+          <li>
+              <a href="/about-nida/frequently-asked-questions" title="Frequently Asked Questions" class="link" data-drupal-link-system-path="node/2777">Frequently Asked Questions</a>
+              </li>
+          <li>
+              <a href="/about-nida/contact-us" title="Contact Us" class="link" data-drupal-link-system-path="node/378">Contact Us</a>
+              </li>
+          <li>
+              <a href="/about-nida/sitemap" class="link" data-drupal-link-system-path="node/48387">Sitemap</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-othernidasites" class="col-12 col-desktop-3">
+  <div class="other-footer-links">
+    
+        
+          
+            <div><h3 class="text-accent">Other NIDA Sites</h3>
+
+<ul class="footer-links">
+	<li><a href="https://researchstudies.drugabuse.gov/">NIDA Research Studies in Baltimore</a></li>
+	<li><a href="https://irp.drugabuse.gov/">Intramural Research Program</a></li>
+	<li><a href="/intranet">Employee Intranet - Staff Only, Requires VPN</a></li>
+</ul>
+
+<div class="social-media-white row space-between">
+  <a href="https://public.govdelivery.com/accounts/USNIHNIDA/subscriber/new?qsp=USNIHNIDA_3" class="social-media-email" aria-label="Contact NIDA"><i class="far fa-envelope" title="Envelope" role="img" aria-hidden="true"></i></a>
+  <a href="https://twitter.com/NIDAnews" class="social-media-twitter" aria-label="Follow us on Twitter"><i class="fab fa-twitter" title="Twitter" role="img" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/NIDANIH" class="social-media-facebook" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f" title="Facebook" role="img" aria-hidden="true"></i></a>
+  <a href="https://www.linkedin.com/company/the-national-institute-on-drug-abuse-nida" class="social-media-linkedin" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin-in" title="LinkedIn" role="img" aria-hidden="true"></i></a>
+  <a href="https://www.youtube.com/user/NIDANIH" class="social-media-youtube" aria-label="Follow us on YouTube"><i class="fab fa-youtube" title="YouTube" role="img" aria-hidden="true"></i></a>
+  <a href="https://www.flickr.com/photos/nida-nih/albums" class="social-media-flickr " aria-label="Follow us on Flickr"><i class="fab fa-flickr" title="Flickr" role="img" aria-hidden="true"></i></a>
+</div></div>
+      
+      </div>
+</div>
+<div id="block-footernihlinks" class="footer-links col-12 r-m-t-quad pt-1-2">
+  
+    
+      
+            <div><ul class="nih-links">
+	<li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+	<li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
+	<li><a href="/">National Institute on Drug Abuse</a></li>
+	<li><a href="http://usa.gov/">USA.gov</a></li>
+</ul>
+
+<p class="nih-links" style="color:white;">NIH...Turning Discovery Into Health ®</p>
+</div>
+      
+  </div>
+
+  </div>
+
+    </footer>
+  
+</div>
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"(\\.gov)","extInclude":"","extCssExclude":".no-ext,\r\n.social-media","extCssExplicit":"","extAlert":true,"extAlertText":"You are leaving the NIDA Website. This external link provides additional information that is consistent with the intended purpose of this federal site. The National Institute on Drug Abuse (NIDA) or the Department of Health and Human Services (HHS) cannot attest to the accuracy of a non-federal site. Linking to a non-federal site does not constitute an endorsement by NIDA, HHS, or any of its employees of the sponsors or the information and products presented on the site. You will be subject to the destination site\u2019s privacy policy when you follow the link.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-square-alt","extFaMailtoClasses":"fas fa-envelope-square","whitelistedDomains":[]}},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":1}},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"classes":"section-header","id":"","element":"div","show_label":false,"label_element":"h3","label_element_classes":"","attributes":"","effect":"none","speed":"fast"}}},"mediaelement":{"attachSitewide":0},"user":{"uid":0,"permissionsHash":"a4212bb14edbabaaec3a347ce85d19dcfa45de595694938128ce18bade7afd71"}}</script>
+<script src="/sites/default/files/js/js_ka2i-4mlmalzyG3BYxlyBZJIWPXD8_8hvjedOAknp5s.js"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/default/files/js/js_x7lzkzmWbikqUT3mlmxdM0TxpHuA1tcwsZLLmprq51w.js"></script>
+
+  </body>
+</html>

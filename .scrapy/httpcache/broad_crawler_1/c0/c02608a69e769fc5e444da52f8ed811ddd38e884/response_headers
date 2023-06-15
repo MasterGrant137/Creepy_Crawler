@@ -1,0 +1,16 @@
+Content-Length: 1003
+Content-Type: text/plain
+Last-Modified: Thu, 01 Jun 2023 19:11:06 GMT
+Etag: "6478ed4a-c92"
+Content-Security-Policy: frame-ancestors 'self' hhs.gov *.hhs.gov
+X-Content-Type-Options: nosniff
+X-Request-Id: 6946f8275cd5b8125a0b7f1589eb5270
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Date: Tue, 13 Jun 2023 04:59:51 GMT
+Vary: Accept-Encoding
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=8
+Server-Timing: origin; dur=0
+Server-Timing: ak_p; desc="468508_400321170_120086219_765_5385_121_-_-";dur=1
+Strict-Transport-Security: max-age=31536000;includeSubDomains;preload

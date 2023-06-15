@@ -4,8 +4,13 @@ Content-Encoding: gzip
 Content-Language: en
 Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nih.gov *.googleapis.com *.govdelivery.com *.hatchbuck.com *.youtube.com *.here.com search.usa.gov *.jquery.com *.crazyegg.com *.addthis.com *.addthisedge.com cdn.jsdelivr.net *.google-analytics.com *.moatads.com *.newrelic.com bam.nr-data.net *.feedgrabbr.com *.recaptcha.net *.gstatic.com *.foresee.com *.4seeresults.com *.answerscloud.com *.foreseeresults.com *.googletagmanager.com *.digitalgov.gov code.ctpprojects.com; style-src 'self' 'unsafe-inline' *.nih.gov search.usa.gov *.googleapis.com *.here.com cdn.jsdelivr.net *.feedgrabbr.com *.foresee.com style.ctpprojects.com; img-src 'self' *.nih.gov *.google-analytics.com data: *.foresee.com nih.hostexp.com i.vimeocdn.com; media-src nih.hostexp.com; frame-src 'self' *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net analytics.ctpprojects.com player.vimeo.com; frame-ancestors 'self' *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com com *.recaptcha.net; child-src 'self' blob: *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com com *.recaptcha.net; font-src 'self' *.nih.gov *.googleapis.com *.gstatic.com *.feedgrabbr.com *.foresee.com style.ctpprojects.com; connect-src 'self' *.nih.gov *.crazyegg.com *.google-analytics.com *.addthis.com stats.g.doubleclick.net bam.nr-data.net *.foresee.com *.4seeresults.com *.answerscloud.com *.foreseeresults.com maps.googleapis.com nih.hostexp.com vimeo.com; report-uri /report-csp-violation
 Content-Type: text/html; charset=utf-8
+<<<<<<< HEAD
 Etag: "1685838794-1"
 Last-Modified: Sun, 04 Jun 2023 00:33:14 GMT
+=======
+Etag: "1685929030-1"
+Last-Modified: Mon, 05 Jun 2023 01:37:10 GMT
+>>>>>>> fix/seo-1
 Link: <https://www.nih.gov/grants-funding/three-scientists-goggles-test-tube.jpg>; rel="canonical",<https://www.nih.gov/file/38561>; rel="shortlink"
 X-Age: 0
 X-Ah-Environment: prod
@@ -13,6 +18,7 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Frame-Options: SAMEORIGIN
 X-Generator: Drupal 7 (http://drupal.org)
+<<<<<<< HEAD
 X-Request-Id: v-645924f8-026f-11ee-8b25-63641e2d4ac5
 X-Ua-Compatible: IE=edge,chrome=IE6
 X-Xss-Protection: 1; mode=block
@@ -21,3 +27,12 @@ Date: Fri, 09 Jun 2023 18:46:09 GMT
 Vary: Accept-Encoding
 Strict-Transport-Security: max-age=31536000
 Server-Timing: ak_p; desc="1686336369248_400336268_207092467_1515_5802_110_132_-";dur=1
+=======
+X-Request-Id: v-7d0d4d9e-0341-11ee-a7eb-07a4b6a0863a
+X-Ua-Compatible: IE=edge,chrome=IE6
+X-Xss-Protection: 1; mode=block
+Cache-Control: public, max-age=21600
+Date: Sun, 11 Jun 2023 08:33:45 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+>>>>>>> fix/seo-1

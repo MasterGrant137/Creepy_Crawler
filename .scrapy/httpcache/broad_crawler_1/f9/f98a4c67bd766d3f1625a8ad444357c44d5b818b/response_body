@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<!-- Sorry no IE7 support! -->
+<!-- @see http://foundation.zurb.com/docs/index.html#basicHTMLMarkup -->
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" dir="ltr"> <!--<![endif]-->
+<head>
+  <script src='//assets.adobedtm.com/f1bfa9f7170c81b1a9a9ecdcc6c5215ee0b03c84/satelliteLib-d2f12c9d63b33dcd3a2a118fa98ccce1b6255ee7.js'></script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="ImageToolbar" content="false" />
+  <title>NCI Technology Transfer Center | TTC | Serving NCI and Client Institutes and Centers</title>
+  <link rel="shortcut icon" type="image/ico" href="/sites/default/themes/ttctheme/public/images/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://techtransfer.cancer.gov/sites/ttc/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" />
+<link rel="stylesheet" href="https://techtransfer.cancer.gov/sites/ttc/files/css/css_wRmSnZ8hHBb2HqtcO--01w2yJ31xv7Typ2DY9HwQVa4.css" />
+<link rel="stylesheet" href="https://techtransfer.cancer.gov/sites/ttc/files/css/css_vp8oeqsNap-Ik7YwuFTfQabzNZCppUsaeoa1XKobTTc.css" />
+<style>.panels-flexible-new .panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-new .panels-flexible-region-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-new .panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-new .panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-new .panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-new .panels-flexible-column-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-new .panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-new .panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-new .panels-flexible-row {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.panels-flexible-new .panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-new-main {
+  float: left;
+  width: 100.0000%;
+}
+
+.panels-flexible-new-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-new {
+  width: auto;
+}
+
+.panels-flexible-region-new-center {
+  float: left;
+  width: 100.0000%;
+}
+
+.panels-flexible-row-new-main-row-inside {
+  padding-right: 0px;
+}
+
+</style>
+<link rel="stylesheet" href="https://techtransfer.cancer.gov/sites/ttc/files/css/css_-dCFvaOpby7JL9q3YS5Ya-OSI7j0SO3-mfPM1mH_EM8.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&amp;rt312g" />
+  <script src="https://techtransfer.cancer.gov/sites/ttc/files/js/js_pTA6geK2jzzMJqLhqHk0rrD9u1vN1P1J_BC-7zCbIbM.js"></script>
+<script src="https://techtransfer.cancer.gov/sites/ttc/files/js/js_-oEDdwe4XpUqUj4W0KJs96ENaXIrGvjBvIP-WYYBi54.js"></script>
+<script src="https://techtransfer.cancer.gov/sites/ttc/files/js/js_cAC4hD1NPIGKff3E45I3fcjXn0hXvVplxzZhlS9Egrw.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"ttctheme","theme_token":"cKKOFIll4ubhLteVdrPNVClQGcfzn3MMlT10bSmH7qc","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/extlink\/js\/extlink.js":1,"sites\/all\/themes\/zurb_foundation\/js\/vendor\/modernizr.js":1,"sites\/all\/themes\/zurb_foundation\/js\/foundation.min.js":1,"sites\/default\/themes\/ttctheme\/public\/js\/libs.min.js":1,"sites\/default\/themes\/ttctheme\/public\/js\/foundation.min.js":1,"sites\/default\/themes\/ttctheme\/public\/js\/app.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/css\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"0":1,"sites\/all\/themes\/zurb_foundation\/css\/normalize.css":1,"sites\/all\/themes\/zurb_foundation\/css\/foundation.min.css":1,"sites\/default\/themes\/ttctheme\/public\/css\/ttctheme.css":1,"sites\/default\/themes\/ttctheme\/public\/css\/normalize.css":1,"sites\/default\/themes\/ttctheme\/public\/css\/foundation.min.css":1,"https:\/\/fonts.googleapis.com\/css?family=Lato:400,700,400italic,700italic":1}},"better_exposed_filters":{"views":{"available_technologies":{"displays":{"block_1":{"filters":[]}}},"available_institutes":{"displays":{"block":{"filters":[]}}},"news":{"displays":{"block_1":{"filters":[]}}},"success_stories":{"displays":{"block_home":{"filters":[]}}}}},"urlIsAjaxTrusted":{"\/":true},"extlink":{"extTarget":0,"extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"hhs\\.gov|nih\\.gov|usa\\.gov|cancer\\.gov","extInclude":"","extCssExclude":".follow-us, .menu","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false}});</script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!-- **** Google Analytics **** -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
+    { (i[r].q=i[r].q||[]).push(arguments)}
+
+    ,i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-73617437-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+  <!-- **** End Google Analytics **** -->
+
+
+    <meta name="google-site-verification" content="aq74WBGDgXriyHEKfGK8Gpe39U7wZz_85BQu6e_ArtU" />
+
+</head>
+<body class="html front not-logged-in no-sidebars page-home panels-page" >
+  <div class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+  
+
+        <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+     
+      
+<!--.page -->
+<div role="document" class="page">
+
+  <!--.l-header -->
+  <header role="banner" class="l-header">
+
+    
+    
+          <!--.l-header-region -->
+      <section class="l-header-region row">
+        <div class="columns">
+            <div class="block block-block block-block-4 header block--logo-header">
+  
+      
+    <div class="logo">
+  <a class="logo__link" href="/" title="Home">
+    <img alt="Technology Transfer Center of the National Cancer Institute" class="logo__image" onerror="this.src='/sites/default/themes/ttctheme/public/images/ttc-logo.png'; this.removeAttribute('onerror');" src="/sites/default/themes/ttctheme/public/images/ttc-logo.svg" /></a>
+</div>  
+  </div>
+
+
+<div class="block block-block block-block-7 header block--subscribe-button">
+        <a role="button" href="#subscribe-off-canvas" class="right-off-canvas-toggle small-3">Subscribe</a>
+</div>
+<div class="block block-search block-search-form header">
+  
+      
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="row -no-margin"><div class="small-9 columns search-form__input-container"><div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search..." class="search-form__input form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+</div><div class="small-3 columns search-form__submit-container"><button class="button radius postfix expand primary search-form__submit form-submit" id="edit-submit" name="op" value="Search" type="submit">Search</button>
+</div></div><input type="hidden" name="form_build_id" value="form-jNgTwoTL65StLVhw4au36_xFOKJB9aDXN6u6tVbQdkw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  
+  </div>
+
+        </div>
+      </section>
+      <!--/.l-header-region -->
+    
+  </header>
+  <!--/.l-header -->
+  <!--.l-main -->
+  <main role="main" class="main row">
+    <nav class="mobile-menu hidden-for-large-up">
+        <a role="button" href="#idOfLeftMenu" class="left-off-canvas-toggle small-3">Menu <i class="fa fa-bars" aria-hidden="true"></i></a>
+        <a role="button" href="#search" class="search-toggle small-3">Search <i class="fa fa-search" aria-hidden="true"></i></a>
+        <a role="button" href="#subscribe-off-canvas" class="right-off-canvas-toggle small-3">Subscribe<span class="icon-govdelivery"></span></i></a>
+    </nav>
+  <nav class="desktop-menu">
+     <ul class="menu"><li class="first leaf"><a href="/" title="" class="active">Home</a></li>
+<li class="leaf"><a href="/availabletechnologies">Available Technologies</a><div class = "submenu"></div></li>
+<li class="expanded"><a href="/partnering">Partnering with NIH</a><div class = "submenu"><ul class="menu"><li class="first leaf"><a href="/partnering-with-nih/transactional-agreements" title="Summary of transactional agreements negotiated by the National Cancer Institute&#039;s Technology Transfer Center">Transactional Agreements</a></li>
+<li class="collapsed"><a href="/partnering-with-nih/co-development-agreements">Co-Development Agreements</a></li>
+<li class="collapsed"><a href="/partnering-with-nih/licensingagreements" title="This page describes the different licenses available to organizations to commercialize discoveries from the NIH. The NCI Technology Transfer Center (TTC) licenses exclusively and non-exclusively the discoveries made in its laboratories and those of nine other NIH Institutes and Centers.">License Agreements</a></li>
+<li class="leaf"><a href="/sbirtechtransfer" title="NCI&#039;s SBIR-TT combines SBIR grants for commercializing NCI intramural research discoveries.">SBIR Tech Transfer</a></li>
+<li class="collapsed"><a href="/nci-ttc-partnering-events" title="The Technology Transfer Center&#039;s Technology Analysis and Marketing Unit proactively engages with companies at biopharma partnering events such as AACR, ASCO, BIO, Bio Innovation Conference, JP Morgan Healthcare Conference, the Texas Life Science Forum and NCI&#039;s annual Technology Showcase">Partnering Events</a></li>
+<li class="last leaf"><a href="/reporter" title="Use NIH RePORTER to search our portfolio">Search NIH portfolio</a></li>
+</ul></div></li>
+<li class="expanded"><a href="/intellectualproperty">Intellectual Property</a><div class = "submenu"><ul class="menu"><li class="first collapsed"><a href="/intellectualproperty/inventions" title="Obtaining patent protection for NIH inventions facilitates commercial development of new, novel products and services that benefit public health. Further, commercial partners who license NIH inventions also acquire the patent system&#039;s protections (i.e., the right to exclude other from making, using or selling), allowing the investment of capital and resources into development and commercialization with lower risk.">Inventions</a></li>
+<li class="leaf"><a href="/intellectualproperty/patents" title="Timely reporting of discoveries is critical, because patent protection may be lost if an invention is publicly disclosed prior to filing a patent application.">Patents</a></li>
+<li class="leaf"><a href="/intellectualproperty/copyright-publications" title="Policies and procedures for copyright, trademark, publication at NIH.">Copyright &amp; Publications</a></li>
+<li class="collapsed"><a href="/intellectualproperty/ip-information-grantees-contractors" title="Inventions made under NIH extramural grants and contracts are generally owned by the funded institution. Information on the grant process and components of grant applications can be found below">IP Information for Grantees &amp; Contractors</a></li>
+<li class="last leaf"><a href="/intellectualproperty/researchresources" title="Research Tools can be found in TTC&#039;s Available Technologies and in scientific publications. They are freely available to non-profits and universities through a Material Transfer Agreement (or other appropriate mechanism), and available via licensing to companies.">Research Tools and Materials</a></li>
+</ul></div></li>
+<li class="leaf"><a href="/news" title="NCI TTC News and announcements">News</a><div class = "submenu"></div></li>
+<li class="last expanded"><a href="/aboutttc" title="About the NCI Technology Transfer Center: Who we are, what we do, how we can help you.">About TTC</a><div class = "submenu"><ul class="menu"><li class="first leaf"><a href="/aboutttc/contactttc" title="NCI technology transfer center contact information">Contact TTC</a></li>
+<li class="leaf"><a href="/aboutttc/contactttc/staff" title="Contact information for TTC Staff">Staff Contact Information</a></li>
+<li class="leaf"><a href="/aboutttc/missionrole" title="The NCI Technology Transfer Center supports technology development activities for the National Cancer Institute and nine other NIH Institutes and Centers.">Vision, Mission, &amp; Role</a></li>
+<li class="leaf"><a href="/aboutttc/missionrole/institutes-served-ttc" title="TTC services the NCI Intramural Research laboratories as well as nine other NIH institutes and Centers--NIDA, NIA, NICHD, NIMHD, NLM, CIT, NCCIH, Clinical Center, NIMHD, NEI.">Institutes and Centers Served by TTC</a></li>
+<li class="leaf"><a href="/aboutttc/successstories">Success Stories</a></li>
+<li class="leaf"><a href="/aboutttc/ambassadors" title="The NCI Technology Transfer Ambassadors Program (NCI TTAP) is a free training program for NIH Scientists (Staff Scientists, Staff Clinicians, post-doctoral fellows, graduate students, etc.)  seeking to augment their current research activities with hands-on training in biomedical invention development, commercialization, and entrepreneurship.">NCI Technology Transfer Ambassadors Program (TTAP)</a></li>
+<li class="leaf"><a href="/positionsttc" title="Current openings in TTC">Employment in TTC</a></li>
+<li class="leaf"><a href="/aboutttc/jointtc" title="The TTC has fellowship opportunities available to qualified candidates in the field of technology transfer. This Fellowship starts with your science, legal, and/or business background to create a new competency in technology transfer, preparing you for technology transfer positions within academia, industry, or the federal government.">TTC Fellowships</a></li>
+<li class="leaf"><a href="/trainingtechnologytransfer">Training in Technology Transfer</a></li>
+<li class="leaf"><a href="/aboutttc/training-technology-transfer" title="A few resources for learning more about technology transfer are included on this page">Tech Transfer Resources</a></li>
+<li class="leaf"><a href="/nci-advancing-innovations-through-mentorship">NCI Advancing Innovations through Mentorship (AIM)</a></li>
+<li class="last leaf"><a href="/transition-industry-fellowship-t2i" title="Transition to Industry Fellowship (T2I)">Transition to Industry Fellowship (T2I)</a></li>
+</ul></div></li>
+</ul>  </nav>
+
+  <div class="main-wrapper">
+    <!-- .l-main region -->
+    <div class="main__inner row">
+
+      
+      
+      
+       
+      
+          <div id="mainid" class="large-12 columns main__content">
+
+
+        
+        <a id="main-content"></a>
+
+        
+                                    
+        
+          
+      
+    <div class="panel-flexible panels-flexible-new clearfix" >
+<div class="panel-flexible-inside panels-flexible-new-inside">
+<div class="panels-flexible-region panels-flexible-region-new-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-new-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-custom pane-1 row"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="banner"><h2 class="banner__headline">Innovation Through Collaboration</h2><p class="banner__tagline"><a href="/aboutttc/missionrole/institutes-served-ttc ">Serving NCI and Client Institutes and Centers</a></p></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views pane-available-technologies row"  >
+  
+        <h2 class="pane-title">
+      <a href="/availabletechnologies">Explore Our Technologies Available for Licensing and Co-development</a>    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-available-technologies view-id-available_technologies view-display-id-block_1 view-dom-id-78e6f0c65da856da640319aec2566c9d">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list available-technologies">    <ul class="available-technologies__list home-page">          <li class="views-row-odd views-row-first">
+    <div class="at-icons icon-Therapeutics">
+   
+           
+    <a href='availabletechnologies/all?f[0]=field_product_type%3A1'>
+<div class='available-technologies__block -therapeutics'>
+<span class='field-content'><span class='product-label'>Therapeutics</span></span>
+</div></a>   
+   </div>
+</li>
+          <li class="views-row-even">
+    <div class="at-icons icon-Diagnostics">
+   
+           
+    <a href='availabletechnologies/all?f[0]=field_product_type%3A3'>
+<div class='available-technologies__block -diagnostics'>
+<span class='field-content'><span class='product-label'>Diagnostics</span></span>
+</div></a>   
+   </div>
+</li>
+          <li class="views-row-odd">
+    <div class="at-icons icon-Research Tools">
+   
+           
+    <a href='availabletechnologies/all?f[0]=field_product_type%3A5'>
+<div class='available-technologies__block -research-tools'>
+<span class='field-content'><span class='product-label'>Research Tools</span></span>
+</div></a>   
+   </div>
+</li>
+          <li class="views-row-even">
+    <div class="at-icons icon-Vaccines">
+   
+           
+    <a href='availabletechnologies/all?f[0]=field_product_type%3A2'>
+<div class='available-technologies__block -vaccines'>
+<span class='field-content'><span class='product-label'>Vaccines</span></span>
+</div></a>   
+   </div>
+</li>
+          <li class="views-row-odd">
+    <div class="at-icons icon-Devices">
+   
+           
+    <a href='availabletechnologies/all?f[0]=field_product_type%3A4'>
+<div class='available-technologies__block -devices'>
+<span class='field-content'><span class='product-label'>Devices</span></span>
+</div></a>   
+   </div>
+</li>
+          <li class="views-row-even views-row-last">
+    <div class="at-icons icon-Software">
+   
+           
+    <a href='availabletechnologies/all?f[0]=field_product_type%3A6'>
+<div class='available-technologies__block -software'>
+<span class='field-content'><span class='product-label'>Software</span></span>
+</div></a>   
+   </div>
+</li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views pane-available-institutes row"  >
+  
+      <h2 class="pane-title">
+  <span>Explore Technologies from Institutes and Centers We Serve</span>
+</h2>
+
+
+<div class="pane-content">
+  <div class="view view-available-institutes view-id-available_institutes view-display-id-block view-dom-id-140807cafc2d8ba731ad0bcdbfbee5fa">
+        
+  
+  
+      <div class="view-content">
+      
+  
+  
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-short-name">        <div class="field-content"><a href="/availabletechnologies/all?f%5B0%5D=field_pdf_img%3A49">NCI</a></div>  </div>  </div>
+
+  
+  
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-short-name">        <div class="field-content"><a href="/availabletechnologies/all?f%5B0%5D=field_pdf_img%3A53">NEI</a></div>  </div>  </div>
+
+  
+  
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-short-name">        <div class="field-content"><a href="/availabletechnologies/all?f%5B0%5D=field_pdf_img%3A85">NIMHD</a></div>  </div>  </div>
+
+  
+  
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-short-name">        <div class="field-content"><a href="/availabletechnologies/all?f%5B0%5D=field_pdf_img%3A88">NICHD</a></div>  </div>  </div>
+
+  
+  
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-field-short-name">        <div class="field-content"><a href="/availabletechnologies/all?f%5B0%5D=field_pdf_img%3A50"> NIH CC</a></div>  </div>  </div>
+
+      <div class="flex-break"></div>
+  
+  
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-field-short-name">        <div class="field-content"><a href="/availabletechnologies/all?f%5B0%5D=field_pdf_img%3A52">NCCIH</a></div>  </div>  </div>
+
+  
+  
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-field-short-name">        <div class="field-content"><a href="/availabletechnologies/all?f%5B0%5D=field_pdf_img%3A89">NIA</a></div>  </div>  </div>
+
+  
+  
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-field-short-name">        <div class="field-content"><a href="/availabletechnologies/all?f%5B0%5D=field_pdf_img%3A90">NIDA</a></div>  </div>  </div>
+
+  
+  
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-field-short-name">        <div class="field-content"><a href="/availabletechnologies/all?f%5B0%5D=field_pdf_img%3A57">NLM</a></div>  </div>  </div>
+
+  
+  
+  <div class="views-row views-row-10 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-short-name">        <div class="field-content"><a href="/availabletechnologies/all?f%5B0%5D=field_pdf_img%3A51">NIH CIT</a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+
+
+</div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-menu-menu-information row"  >
+  
+        <h2 class="pane-title">
+      Information For    </h2>
+    
+  
+  <div class="pane-content">
+    <ul class="menu"><li class="first expanded"><a href="/" title="" class="active">NIH Employees</a><ul class="menu"><li class="first leaf"><a href="https://techtransfer.cancer.gov/intellectualproperty/patents" title="Page describes the patenting process and intellectual property rights.">Patents: What, How, and Why</a></li>
+<li class="leaf"><a href="https://techtransfer.cancer.gov/intellectualproperty/inventions" title="How to: patenting, updating an existing invention, or filing an Employee Invention Report for a new invention.">Reporting an Invention</a></li>
+<li class="leaf"><a href="https://techtransfer.cancer.gov/idp" title="The TTC&#039;s Invention Development Program funds proof-of-concept studies as it seeks to facilitate partnering by de-risking NCI inventions.">Funding for Invention Development</a></li>
+<li class="last leaf"><a href="mailto:ncitechtransfer@mail.nih.gov" title="Contact your Technology Transfer Manager for help with a new or existing invention.">Contact your Tech Transfer Manager</a></li>
+</ul></li>
+<li class="last expanded"><a href="/" title="" class="active">Prospective Partners</a><ul class="menu"><li class="first leaf"><a href="/availabletechnologies" title="Search or browse through the technology portfolio of the NCI and nine other NIH institutes and centers.">Find Available Technologies</a></li>
+<li class="leaf"><a href="https://techtransfer.cancer.gov/reporter" title="The NIH RePORTER is a database of all NIH-funded projects.">Search NIH Research Portfolio</a></li>
+<li class="leaf"><a href="https://techtransfer.cancer.gov/partnering" title="NIH has a variety of agreements that allow companies, universities, and government agencies to leverage our unique and wide-ranging resources.">How to Partner with NIH</a></li>
+<li class="last leaf"><a href="https://techtransfer.cancer.gov/nci-ttc-partnering-events" title="Partnering Events">Meet TTC at a Partnering Event</a></li>
+</ul></li>
+</ul>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views pane-news row"  >
+  
+        <h2 class="pane-title">
+      Latest News    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-news view-id-news view-display-id-block_1 view-dom-id-9e32c48cf40287145588b3d1a677f71e">
+        
+  
+  
+      <div class="view-content">
+          <ul class="latest-announcements small-block-grid-1  medium-block-grid-2">          <li class="">  
+  <div class="views-field views-field-title">    <h4 class="field-content"><a href="/news#seeking-candidates-ttcs-fellowship-program">Seeking Candidates for TTC&#039;s Fellowship Program</a></h4>  </div>  
+  <div class="views-field views-field-field-date-published">    <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2023-05-25T00:00:00-04:00">May 25, 2023</span></div>  </div>  
+  <div class="views-field views-field-body">    <div class="field-content">TTC offers three types of Technology Transfer Fellowship Opportunities: Negotiator, Innovation and Business Development &amp;...</div>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">    <h4 class="field-content"><a href="/news#recording-available-ttc-hosted-technology-opportunity-webinar-focal-transcranial-magnetic">Recording available, TTC-Hosted Technology Opportunity Webinar: &quot;Focal Transcranial Magnetic Stimulation (TMS) Using High-density Theta Burst: Translation and Back-Translation&quot;</a></h4>  </div>  
+  <div class="views-field views-field-field-date-published">    <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2023-04-26T00:00:00-04:00">April 26, 2023</span></div>  </div>  
+  <div class="views-field views-field-body">    <div class="field-content">A recording from our&nbsp;free technology opportunity webinar on April 26th is now available. To request&nbsp;a link to the...</div>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">    <h4 class="field-content"><a href="/news#ttcs-dr-whitney-hastings-elected-federal-laboratory-consortium-chair">TTC&#039;s Dr. Whitney Hastings Elected Federal Laboratory Consortium Chair</a></h4>  </div>  
+  <div class="views-field views-field-field-date-published">    <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2023-04-11T00:00:00-04:00">April 11, 2023</span></div>  </div>  
+  <div class="views-field views-field-body">    <div class="field-content">Congratulations to Whitney Hastings, Ph.D., a senior technology transfer manager at TTC, who was elected to serve as chair for...</div>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-title">    <h4 class="field-content"><a href="/news#thank-you-attending-ttc-hosted-technology-opportunity-webinar-march-22-bone-marrow-mesenchymal-stem">Thank you for attending the TTC-Hosted Technology Opportunity Webinar on March 22: &quot;Bone Marrow Mesenchymal Stem Cell (BMSC)-Derived Exosomes for the Treatment of Glaucoma&quot;</a></h4>  </div>  
+  <div class="views-field views-field-field-date-published">    <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2023-03-23T00:00:00-04:00">March 23, 2023</span></div>  </div>  
+  <div class="views-field views-field-body">    <div class="field-content">Thank you for attending the free NIH webinar on March 22 at 11:00 am ET. Attendees learned about a new method for treating...</div>  </div></li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views pane-success-stories row"  >
+  
+        <h2 class="pane-title">
+      Success Stories    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-success-stories view-id-success_stories view-display-id-block_home view-dom-id-8543b836d9198e535e6b287f52e19dcf">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list success-stories">    <ul class="success-stories__list">          <li class="views-row-odd views-row-first">  
+  <div class="listwrapper">        <a href="/aboutttc/successstories/dinutuximabunituxin"><div class="success-stories__image"><img typeof="foaf:Image" src="https://techtransfer.cancer.gov/sites/ttc/files/styles/medium/public/images/Unituxin%20image_reduced%20size.jpg?itok=ui_K0UuZ" width="220" height="220" alt="Unituxin package and bottle" /></div>
+<div class="success-stories__title">Dinutuximab (Unituxin™)</div></a>  </div></li>
+          <li class="views-row-even">  
+  <div class="listwrapper">        <a href="/aboutttc/successstories/micatu-tissue-arrayer"><div class="success-stories__image"><img typeof="foaf:Image" src="https://techtransfer.cancer.gov/sites/ttc/files/styles/medium/public/images/Kris%20Ylaya_micatu%20protype.jpg?itok=5KHNdH0f" width="220" height="220" alt="NCI lab technician using a MicaArray prototype " /></div>
+<div class="success-stories__title">Micatu Tissue Arrayer</div></a>  </div></li>
+          <li class="views-row-odd views-row-last">  
+  <div class="listwrapper">        <a href="/aboutttc/successstories/eribulin-mesylate"><div class="success-stories__image"><img typeof="foaf:Image" src="https://techtransfer.cancer.gov/sites/ttc/files/styles/medium/public/images/Approved%20from%20Eisai_halaven-product-shot-10-HR.png?itok=vYA-YycZ" width="220" height="220" alt="bottle of Halaven" /></div>
+<div class="success-stories__title">Halaven® - eribulin mesylate (analog of halichondrin B)</div></a>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div>
+</div>
+  
+  
+
+      </div>
+      <!--/.l-main region -->
+
+
+          </div>
+   </div>
+  </main>
+  <!--/.l-main -->
+
+  
+  
+  <!--.l-footer -->
+  <footer class="l-footer panel row" role="contentinfo">
+          <div class="footer columns">
+          <div class="block block-block block-block-3 block--logo-footer">
+  
+      
+    <div class="logo">
+  <a class="logo__link" href="/" title="Home">
+    <img alt="Technology Transfer Center of the National Cancer Institute" class="logo__image--white" onerror="this.src='/sites/default/themes/ttctheme/public/images/ttc-logo--white.png'; this.removeAttribute('onerror');" src="/sites/default/themes/ttctheme/public/images/ttc-logo--white.svg" /></a>
+</div>  
+  </div>
+
+<div class="block block-block block-block-2 block--follow-us-header">
+  
+      
+    <div class="follow-us">
+<ul class="follow-us__list"><li class="follow-us__list-item"><a class="icon -size-54 -icon-linkedin" href="https://www.linkedin.com/company/ncitechtransfer" title="LinkedIn" target="_blank"><span class="fa fa-linkedin" aria-hidden="true"> </span><span class="element-invisible">follow us on LinkedIn</span></a></li>
+<li class="follow-us__list-item"><a class="icon -size-54 -icon-twitter" href="https://twitter.com/NCITechTransfer" title="Twitter" target="_blank"><span class="fa fa-twitter" aria-hidden="true"> </span><span class="element-invisible">follow us on Twitter</span></a></li>
+<li class="follow-us__list-item"><a class="icon -size-54 -icon-govdelivery-font" href="https://public.govdelivery.com/accounts/USNIHNCI/subscriber/new?category_id=USNIHNCI_C25" title="Subscribe via GovDelivery" target="_blank"><span class="fa fa-envelope" aria-hidden="true"></span><span class="element-invisible">subscribe via GovDelivery</span></a></li>
+</ul></div>
+  
+  </div>
+
+<div class="block block-menu block-menu-menu-footer-menu-primary">
+  
+      
+    <ul class="menu"><li class="first leaf"><a href="/" title="Home" class="active">Home</a></li>
+<li class="leaf"><a href="mailto:NCITechTransfer@mail.nih.gov" title="Contact Us">Contact Us</a></li>
+<li class="leaf"><a href="http://www.cancer.gov/policies/disclaimer" title="">Disclaimer Policy</a></li>
+<li class="leaf"><a href="http://www.cancer.gov/policies/accessibility" title="Accessibility">Accessibility</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" title="">HHS Vulnerability Disclosure</a></li>
+<li class="leaf"><a href="http://www.cancer.gov/policies/foia" title="">FOIA</a></li>
+<li class="last leaf"><a href="/sitemap" title="Site Map">Site Map</a></li>
+</ul>  
+  </div>
+
+<div class="block block-menu block-menu-menu-footer-menu-secondary">
+  
+      
+    <ul class="menu"><li class="first leaf"><a href="http://www.hhs.gov/" title="U.S. Department of Health and Human Services">U.S. Department of Health and Human Services</a></li>
+<li class="leaf"><a href="https://www.nih.gov/" title="National Institutes of Health">National Institutes of Health</a></li>
+<li class="leaf"><a href="http://www.cancer.gov/" title="National Cancer Institute">National Cancer Institute</a></li>
+<li class="last leaf"><a href="https://www.usa.gov/" title="USA.gov">USA.gov</a></li>
+</ul>  
+  </div>
+
+<div class="block block-block block-block-5 block--tagline">
+  
+      
+    <div class="row">
+  <div class="tagline">NIH … Turning Discovery Into Health<sup>®</sup></div>
+</div>  
+  </div>
+
+      </div>
+    
+    
+      </footer>
+  <!--/.l-footer -->
+
+  </div>
+<!--/.page -->
+          <nav class="left-off-canvas-menu">
+
+            <ul class="menu"><li class="first leaf"><a href="/" title="" class="active">Home</a></li>
+<li class="leaf"><a href="/availabletechnologies">Available Technologies</a></li>
+<li class="expanded"><a href="/partnering">Partnering with NIH</a><ul class="menu"><li class="first leaf"><a href="/partnering-with-nih/transactional-agreements" title="Summary of transactional agreements negotiated by the National Cancer Institute&#039;s Technology Transfer Center">Transactional Agreements</a></li>
+<li class="expanded"><a href="/partnering-with-nih/co-development-agreements">Co-Development Agreements</a><ul class="menu"><li class="first leaf"><a href="/partnering-with-nih/co-development-agreements/examples-co-development-agreements">Examples of Co-Development Agreements</a></li>
+<li class="leaf"><a href="/partnering-with-nih/co-development-agreements/co-development-agreement-process">Co-Development Agreement Process</a></li>
+<li class="last leaf"><a href="/partnering-with-nih/co-development-agreements/information-for-our-partners" title="Instructions for making CRADA Payments">CRADA Payment Options</a></li>
+</ul></li>
+<li class="expanded"><a href="/partnering-with-nih/licensingagreements" title="This page describes the different licenses available to organizations to commercialize discoveries from the NIH. The NCI Technology Transfer Center (TTC) licenses exclusively and non-exclusively the discoveries made in its laboratories and those of nine other NIH Institutes and Centers.">License Agreements</a><ul class="menu"><li class="first leaf"><a href="/partnering-with-nih/licensingagreements/exclusive-licenses" title="Exclusive licenses are available, when appropriate, to promote successful commercial development of an invention.">Exclusive License Agreements</a></li>
+<li class="leaf"><a href="/partnering-with-nih/licensingagreements/non-exclusive-licenses" title="NIH has several non-exclusive license agreement templates to meet a company&#039;s needs for access to NIH technologies.">Non-Exclusive License Agreements</a></li>
+<li class="leaf"><a href="/license/startup20" title="National Cancer Institute&#039;s Start-Up Evaluation Option License facilitates licensing by start-up companies that seek development of NIH technologies. It applies to certain technologies that can be licensed from NCI, NIA, NIDA. Clinical Center, NEI, NLM, NICHD, NIH CIT, and NICHD.">Start-Up Exclusive License Agreements</a></li>
+<li class="last leaf"><a href="/partnering-with-nih/licensingagreements/licensing-policies" title="How you can find technologies available for licensing in TTC’s online database of Available Technologies and submit a License Application for an exclusive or non-exclusive license.">Licensing Process and Policies</a></li>
+</ul></li>
+<li class="leaf"><a href="/sbirtechtransfer" title="NCI&#039;s SBIR-TT combines SBIR grants for commercializing NCI intramural research discoveries.">SBIR Tech Transfer</a></li>
+<li class="expanded"><a href="/nci-ttc-partnering-events" title="The Technology Transfer Center&#039;s Technology Analysis and Marketing Unit proactively engages with companies at biopharma partnering events such as AACR, ASCO, BIO, Bio Innovation Conference, JP Morgan Healthcare Conference, the Texas Life Science Forum and NCI&#039;s annual Technology Showcase">Partnering Events</a><ul class="menu"><li class="first leaf"><a href="/2022technologyshowcase" title="The NCI/FNLCR 2022 Technology Showcase 1st will highlight technologies under development at the National Cancer Institute and the Frederick National Laboratory. The goal of the Showcase is to encourage technology licensing and collaborations, start-up company formation, and the translation of NCI discoveries into solutions to benefit patients.">2022 Technology Showcase</a></li>
+<li class="leaf"><a href="/2021technologyshowcase" title="The NCI/FNLCR 2021 Technology Showcase on September 1st will highlight technologies under development at the National Cancer Institute and the Frederick National Laboratory. The goal of the Showcase is to encourage technology licensing and collaborations, start-up company formation, and the translation of NCI discoveries into solutions to benefit patients.">2021 Technology Showcase</a></li>
+<li class="leaf"><a href="/2020-Technology-Showcase" title="2020 NCI Technology Showcase">2020 Technology Showcase</a></li>
+<li class="leaf"><a href="/2019-Technology-Showcase" title="2019 NCI Technology Showcase">2019 Technology Showcase</a></li>
+<li class="leaf"><a href="/2018technologyshowcase" title="Partnering event on June 13, 2018 showcasing technologies being developed at the NCI and the Frederick National Laboratory.">2018 Technology Showcase</a></li>
+<li class="leaf"><a href="/nci-ttc-partnering-events/2017technologyshowcase" title="The 2017 Technology Showcase was an inaugural, half-day event on June 7, 2017 that showcased technologies developed by the National Cancer Institute&#039;s Center for Cancer Research (CCR) and the Frederick National Laboratory for Cancer Research (FNLCR).">2017 Technology Showcase</a></li>
+<li class="last leaf"><a href="/2023technologyshowcase" title="Annual event highlighting how external partners can work with the NCI and the Frederick National Laboratory">2023 Technology Showcase</a></li>
+</ul></li>
+<li class="last leaf"><a href="/reporter" title="Use NIH RePORTER to search our portfolio">Search NIH portfolio</a></li>
+</ul></li>
+<li class="expanded"><a href="/intellectualproperty">Intellectual Property</a><ul class="menu"><li class="first expanded"><a href="/intellectualproperty/inventions" title="Obtaining patent protection for NIH inventions facilitates commercial development of new, novel products and services that benefit public health. Further, commercial partners who license NIH inventions also acquire the patent system&#039;s protections (i.e., the right to exclude other from making, using or selling), allowing the investment of capital and resources into development and commercialization with lower risk.">Inventions</a><ul class="menu"><li class="first leaf"><a href="/intellectualproperty/inventions/inventor-guidance/guide-keeping-laboratory-records-dos-dont" title="it is important that the scientist captures his/her ideas/conception of an invention in written format. Laboratory notebooks, if used properly, can serve as the basis of conception for proving inventorship.">Guide for Keeping Laboratory Records: Do&#039;s &amp; Don&#039;t</a></li>
+<li class="leaf"><a href="/intellectualproperty/inventions/reporting-an-invention" title="Explains the EIR Review Process">EIR Review Process</a></li>
+<li class="leaf"><a href="/intellectualproperty/inventions/inventor-guidance/employee-inventor-waivers">Employee Inventor Waivers</a></li>
+<li class="leaf"><a href="/intellectualproperty/inventions/inventor-guidance/inventor-resources">Inventor Resources</a></li>
+<li class="leaf"><a href="/intellectualproperty/inventions/reporting-an-invention/employee-invention-report-eir" title="NIH researchers must immediately contact their Laboratory or Branch Chief and inform him or her of a possible invention and consult with your NCI TTC Technology Transfer Specialist about submitting an Employee Invention Report (EIR) Form. The document is a form to accompany Employee Invention Reports that have inventors from the Frederick National Laboratory for Cancer Research contractor, Leidos Biomedical Research.  The form contains questions for the contractor about the circumstances under which the invention was made.  It also has clearances for the contractor as part of their reporting of the invention to NCI.">NIH Employee Invention Report (EIR)</a></li>
+<li class="last leaf"><a href="/idp" title="The TTC&#039;s Invention Development Program funds commercially-relevant, proof-of-concept studies as it seeks to de-risk NCI inventions that have on-going patent activity.">TTC Invention Development Program</a></li>
+</ul></li>
+<li class="leaf"><a href="/intellectualproperty/patents" title="Timely reporting of discoveries is critical, because patent protection may be lost if an invention is publicly disclosed prior to filing a patent application.">Patents</a></li>
+<li class="leaf"><a href="/intellectualproperty/copyright-publications" title="Policies and procedures for copyright, trademark, publication at NIH.">Copyright &amp; Publications</a></li>
+<li class="expanded"><a href="/intellectualproperty/ip-information-grantees-contractors" title="Inventions made under NIH extramural grants and contracts are generally owned by the funded institution. Information on the grant process and components of grant applications can be found below">IP Information for Grantees &amp; Contractors</a><ul class="menu"><li class="first leaf"><a href="/intellectualproperty/ip-information-grantees-contractors/ip-sample-plan1" title="Sample letter that shows how Universities including co-investigators, consultants, and collaborators can describe a data and research tool sharing plan and procedures for exercising intellectual property rights. The letter is to be used as part of the University&#039;s application. ">IP Sample Plan #1</a></li>
+<li class="leaf"><a href="/intellectualproperty/ip-information-grantees-contractors/ip-sample-plan2">IP Sample Plan #2</a></li>
+<li class="leaf"><a href="/intellectualproperty/ip-information-grantees-contractors/ip-sample-plan3">IP Sample Plan #3</a></li>
+<li class="leaf"><a href="/intellectualproperty/ip-information-grantees-contractors/ip-sample-plan4" title="Sample letter from Research Institutes and their principal investigator and consultants, describing a data and research tool sharing plan and procedures for sharing data, research materials, and patent and licensing of intellectual property. This letter is designed to be included as part of an application.">IP Sample Plan #4</a></li>
+<li class="leaf"><a href="/intellectualproperty/ip-information-grantees-contractors/sample-ip-management-plans/ip-sample-plan5" title="Intellectual Property Sample Plan #5">IP Sample Plan #5</a></li>
+<li class="last leaf"><a href="/intellectualproperty/ip-information-grantees-contractors/ip-sample-plan6" title="Intellectual Property Sample Plan #6">IP Sample Plan #6</a></li>
+</ul></li>
+<li class="last leaf"><a href="/intellectualproperty/researchresources" title="Research Tools can be found in TTC&#039;s Available Technologies and in scientific publications. They are freely available to non-profits and universities through a Material Transfer Agreement (or other appropriate mechanism), and available via licensing to companies.">Research Tools and Materials</a></li>
+</ul></li>
+<li class="leaf"><a href="/news" title="NCI TTC News and announcements">News</a></li>
+<li class="last expanded"><a href="/aboutttc" title="About the NCI Technology Transfer Center: Who we are, what we do, how we can help you.">About TTC</a><ul class="menu"><li class="first leaf"><a href="/aboutttc/contactttc" title="NCI technology transfer center contact information">Contact TTC</a></li>
+<li class="leaf"><a href="/aboutttc/contactttc/staff" title="Contact information for TTC Staff">Staff Contact Information</a></li>
+<li class="leaf"><a href="/aboutttc/missionrole" title="The NCI Technology Transfer Center supports technology development activities for the National Cancer Institute and nine other NIH Institutes and Centers.">Vision, Mission, &amp; Role</a></li>
+<li class="leaf"><a href="/aboutttc/missionrole/institutes-served-ttc" title="TTC services the NCI Intramural Research laboratories as well as nine other NIH institutes and Centers--NIDA, NIA, NICHD, NIMHD, NLM, CIT, NCCIH, Clinical Center, NIMHD, NEI.">Institutes and Centers Served by TTC</a></li>
+<li class="leaf"><a href="/aboutttc/successstories">Success Stories</a></li>
+<li class="leaf"><a href="/aboutttc/ambassadors" title="The NCI Technology Transfer Ambassadors Program (NCI TTAP) is a free training program for NIH Scientists (Staff Scientists, Staff Clinicians, post-doctoral fellows, graduate students, etc.)  seeking to augment their current research activities with hands-on training in biomedical invention development, commercialization, and entrepreneurship.">NCI Technology Transfer Ambassadors Program (TTAP)</a></li>
+<li class="leaf"><a href="/positionsttc" title="Current openings in TTC">Employment in TTC</a></li>
+<li class="leaf"><a href="/aboutttc/jointtc" title="The TTC has fellowship opportunities available to qualified candidates in the field of technology transfer. This Fellowship starts with your science, legal, and/or business background to create a new competency in technology transfer, preparing you for technology transfer positions within academia, industry, or the federal government.">TTC Fellowships</a></li>
+<li class="leaf"><a href="/trainingtechnologytransfer">Training in Technology Transfer</a></li>
+<li class="leaf"><a href="/aboutttc/training-technology-transfer" title="A few resources for learning more about technology transfer are included on this page">Tech Transfer Resources</a></li>
+<li class="leaf"><a href="/nci-advancing-innovations-through-mentorship">NCI Advancing Innovations through Mentorship (AIM)</a></li>
+<li class="last leaf"><a href="/transition-industry-fellowship-t2i" title="Transition to Industry Fellowship (T2I)">Transition to Industry Fellowship (T2I)</a></li>
+</ul></li>
+</ul>          </nav> <!-- /#mobile-menu -->
+
+          <nav class="right-off-canvas-menu" id="subscribe-off-canvas">
+            <div class="block block-block block-block-6 block--listserv-block">
+  
+      
+    <div><!-- placeholder html for block body --></div>  
+  </div>
+
+  <div class="listserv-subscribe-block-wrapper row">
+    <form id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USNIHNCI/subscribers/qualify" class="listserv-subscribe-block" target="_blank" accept-charset="UTF-8" method="post">
+      <input name="utf8" type="hidden" value="&#x2713;" />
+      <input type="hidden" name="authenticity_token" value="NbWlxeuxWUI5bV49T0epIil4bZhHHIPhDXOaTkIa4XNU1OCf5LcfC/my+aU4yrWGPR2cfeXn5NqhjzuwZ8EDJQ==" />
+      <input type="hidden" name="category_id" id="category_id" value="USNIHNCI_C25" />
+      <input type="hidden" name="subscription_type" id="subscription_type" value="email" />
+      <div class="container-inline">
+        <div><a class="exit-off-canvas right-bar-cross"></a></div>
+        <div class="listserv-subscribe-message">Subscribe to our Available Technology Emails:</div>
+        
+        <div class="row1">
+          <div class="small-12 columns listserv-input-container">
+            <div class="form-item form-type-textfield">
+              <label class="element-invisible" for="email">Enter Your Email Address</label>  
+              <input type="text" name="email" id="email" title="Enter an email address to subscribe." placeholder="Your Email Address..." class="subscribe-form-input-text" />
+            </div>
+          </div>
+          <div class="small-12 columns listserv-submit-container">
+            <button class="button radius postfix expand primary form-submit" id="edit-submit" name="commit" value="Subscribe" type="submit">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+          </nav> <!-- /#mobile-govdelivery-menu -->
+                    <!-- close the off-canvas menu -->
+        <a class="exit-off-canvas left-slide-main"> X </a>
+      </div>
+  </div>
+  <!-- **** NCI Web Analytics  - DO NOT ALTER **** -->
+  <script type="text/javascript" src="//static.cancer.gov/webanalytics/WA_TTC_HTTPS_PageLoad.js"></script>
+  <!-- **** End NCI Web Analytics Page **** -->
+  <script type="text/javascript">_satellite.pageBottom();</script>
+</body>
+</html>

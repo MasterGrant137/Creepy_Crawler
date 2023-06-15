@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'http://grants.nih.gov', 'method': 'GET', 'status': 301, 'response_url': 'http://grants.nih.gov', 'timestamp': 1686331189.0359738}
+=======
+{'url': 'http://grants.nih.gov', 'method': 'GET', 'status': 301, 'response_url': 'http://grants.nih.gov', 'timestamp': 1686472381.414069}
+>>>>>>> fix/seo-1

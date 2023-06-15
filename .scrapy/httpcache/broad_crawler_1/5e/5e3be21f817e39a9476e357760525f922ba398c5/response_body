@@ -1,0 +1,45 @@
+# robots.txt
+User-agent: Baiduspider
+Crawl-delay: 30
+Disallow: /                  # disallow everything
+
+User-agent: *
+Crawl-delay: 30
+
+Disallow: /resources/antibodies/
+
+Disallow: /*Any/
+Disallow: /*/Any/
+
+Disallow: /*literature/
+Disallow: /*/literature/
+Disallow: /*literature/
+
+Disallow: /*data/
+Disallow: /*/data/
+
+Disallow: /*Resources/
+Disallow: /*/Resources/
+
+Disallow: /*Materials/
+Disallow: /*Funding/
+Disallow: /*Protocols/
+Disallow: /*Data/
+Disallow: /*Organisms/
+Disallow: /*Resources/
+Disallow: /*/Materials/
+Disallow: /*/Funding/
+Disallow: /*/Protocols/
+Disallow: /*/Data/
+Disallow: /*/Organisms/
+Disallow: /*/Resources/
+
+Disallow: /*search
+Disallow: /*/search
+
+Disallow: /browse/resources/
+Disallow: /browse/
+
+Disallow: /api/
+
+Sitemap: https://neuinfo.org/sitemap.xml

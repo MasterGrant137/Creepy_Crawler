@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://hescregapp.od.nih.gov/robots.txt', 'method': 'NONE', 'status': 400, 'response_url': 'https://hescregapp.od.nih.gov/robots.txt', 'timestamp': 1686287105.409194}
+=======
+{'url': 'https://hescregapp.od.nih.gov/robots.txt', 'method': 'NONE', 'status': 400, 'response_url': 'https://hescregapp.od.nih.gov/robots.txt', 'timestamp': 1686467631.94289}
+>>>>>>> fix/seo-1

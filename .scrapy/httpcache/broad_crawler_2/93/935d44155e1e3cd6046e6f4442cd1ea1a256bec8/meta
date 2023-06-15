@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.cancer.gov/news-events/nca50/commemorate-national-cancer-act-50-years', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cancer.gov/news-events/nca50/commemorate-national-cancer-act-50-years', 'timestamp': 1686287305.199735}
+=======
+{'url': 'https://www.cancer.gov/news-events/nca50/commemorate-national-cancer-act-50-years', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cancer.gov/news-events/nca50/commemorate-national-cancer-act-50-years', 'timestamp': 1686472140.5018759}
+>>>>>>> fix/seo-1

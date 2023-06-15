@@ -3,8 +3,16 @@ Cache-Control: no-cache
 Pragma: no-cache
 Content-Type: text/html;charset=UTF-8
 Location: https://era.nih.gov/about_era/get_connected.cfm
+<<<<<<< HEAD
 Set-Cookie: CFID=24168847; Expires=Sun, 01-Jun-2053 05:10:08 GMT; Path=/; Secure; HttpOnly
 Set-Cookie: CFTOKEN=ac3810fdd3260045-319E1A6D-FF1C-9BFC-8687EAD1F3553931; Expires=Sun, 01-Jun-2053 05:10:08 GMT; Path=/; Secure; HttpOnly
 Content-Security-Policy: upgrade-insecure-requests
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Date: Fri, 09 Jun 2023 05:10:08 GMT
+=======
+Set-Cookie: CFID=24479126; Expires=Tue, 03-Jun-2053 07:13:52 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: CFTOKEN=9d99f2a2f96e5f85-9D09CDC8-CF88-5B00-DDDA3EC4835F52B9; Expires=Tue, 03-Jun-2053 07:13:52 GMT; Path=/; Secure; HttpOnly
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Date: Sun, 11 Jun 2023 07:13:51 GMT
+>>>>>>> fix/seo-1

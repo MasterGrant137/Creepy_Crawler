@@ -1,0 +1,2175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon_nih.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://www.lrp.nih.gov/az-index" />
+<link rel="shortlink" href="https://www.lrp.nih.gov/node/25" />
+
+    <title>A-Z Index | National Institutes of Health | Division of Loan Repayment</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/ajax-progress.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/autocomplete-loading.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tabledrag.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
+<link rel="stylesheet" media="all" href="/themes/radix/assets/css/radix.style.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/themes/radix_lrp/assets/css/radix_lrp.style.css?ru1c2u" />
+<link rel="stylesheet" media="all" href="/themes/radix_lrp/assets/css/radix_lrp.style_custom.css?ru1c2u" />
+
+
+    <!-- GTM -->
+    <!-- ADDED ON 05/01/2023 -->
+    <!-- All services and snippets (AKA tags) have been removed from this file -->
+    <!-- They are handled in the ralated container in Google Tag Manger -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KMZ2M8V');</script>
+    <!-- End Google Tag Manager -->
+
+    
+  </head>
+  <body>
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="page">
+
+      
+  <div class="block block--basic block--uswdstopbanner">
+
+  
+    
+
+      
+            <div class="basic__body"><!-- [BEGIN] USWDS BLOCK -->
+<!-- This block emulates the USWDS Design guidelines for the banner (https://designsystem.digital.gov/components/banner/) without importing the whole framework -->
+<!-- Optimized for Bootstrap 4 -->
+<style>
+	#us-banner {
+		background: #f0f0f0;
+	/*	font: 400 .9rem/1.2 'Public Sans';*/
+	}
+
+	#us-banner .fas {
+		font-size: 0.7rem;
+	}
+
+	#us-banner [aria-expanded="true"]+i:before {
+		content: "\f077";
+	}
+
+	#us-banner #collapseUsaBanner>div>div {
+		font-size: .94rem;
+		line-height: 1.6;
+	}
+</style>
+
+<section id="us-banner" class="px-3 px-lg-5 py-1" aria-label="Official government website">
+    <div class="d-flex justify-content-between">
+		<div>
+			<img src="/themes/radix_lrp/img/us_flag_small.png" class="mr-2" alt="US Flag Icon" width="16" height="11">
+			An official website of the United States government
+			<a class="btn-link link-primary text-decoration-underline ml-2 collapsed" data-toggle="collapse"
+				href="#collapseUsaBanner" data-label="Expand/Collapse USWDS Website Header" role="button"
+				aria-expanded="false" aria-controls="collapseUsaBanner">
+				Here's how you know
+			</a>
+			<i class="ml-1 fas fa-chevron-down"></i>
+		</div>
+		<div>
+			<a href="https://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a> |
+			<a href="https://www.nih.gov/" target="_blank">National Institutes of Health</a> | 
+			<a href="https://grants.nih.gov/" target="_blank"><img src="/themes/radix_lrp/img/nihfavicon.png" class="me-2" alt="US Flag Icon" width="22" height="auto"> NIH Grants and Funding</a>
+		</div>
+	</div>
+
+    <div class="collapse" id="collapseUsaBanner">
+		<div class="row py-5">
+			<div class="col-12 col-md-4 d-flex align-items-start">
+				<img class="mr-3" src="/themes/radix_lrp/img/icon-dot-gov.svg" role="img" alt=".GOV Icon"
+					aria-hidden="true" style="width: 2.5rem;">
+				<div>
+					<strong> Official websites use .gov </strong><br>
+					A <strong>.gov</strong> website belongs to an official government<br>
+					organization in the United States.
+				</div>
+			</div>
+			<div class="col-12 col-md-4 mt-3 mt-md-0 col-4 d-flex align-items-start">
+				<img class="mr-3" src="/themes/radix_lrp/img/icon-https.svg" role="img" alt="HTTPS Icon"
+					aria-hidden="true" style="width: 2.5rem;">
+				<div>
+					<strong> Secure .gov websites use HTTPS </strong><br>
+					A <strong>lock</strong> (
+					<span class="icon-lock">
+						<svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 52 64" role="img"
+							aria-labelledby="banner-lock-title-default banner-lock-description-default"
+							focusable="false">
+							<title id="banner-lock-title-default">A locked padlock</title>
+							<desc id="banner-lock-description-default">A locked padlock</desc>
+							<path fill="#000000" fill-rule="evenodd"
+								d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z">
+							</path>
+						</svg></span>
+					) or <strong>https://</strong> means you've safely connected to the<br>
+					.gov website. Share sensitive information only on official,<br>
+					secure websites.
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- [END] USWDS BLOCK --></div>
+      
+  
+  </div>
+
+
+
+    <header class="randomHeader">
+                  <div class="container d-none d-lg-block">
+            <div class="row">
+              <div id="tippyTop" class="col-12 d-flex">
+                  
+  <div class="block block--basic block--lrpglobaltippytopheader">
+
+  
+    
+
+      
+            <div class="basic__body"><div class="d-flex justify-content-between align-center">
+    <a href="http://www.hhs.gov/"><img alt="" data-entity-type="" data-entity-uuid="" src="/sites/default/files/uploaded/images/dep-of-health-icon.png" />U.S. Department of Health &amp; Human Services</a>
+    <a href="http://www.nih.gov/" class="ml-4 mr-auto"><img alt="" data-entity-type="" data-entity-uuid="" src="/sites/default/files/uploaded/images/nih-icon-small.png" /> National Institutes of Health</a>
+    <a href="/faqs" class="mr-4">FAQs</a>
+    <a href="/az-index">A-Z Index</a>
+</div></div>
+      
+  
+  </div>
+
+  <div class="block block--basic block--customsearch">
+
+  
+    
+
+      
+            <div class="basic__body"><div class="search-block-form block block--searchform" data-drupal-selector="search-block-form" role="search">
+    <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="form-inline">
+        <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+            <input title="Enter the terms you wish to search for." type="search" id="edit-keys" name="keys" value="" size="20" maxlength="128" placeholder="Search" class="form-search form-control">
+        </div>
+        
+        <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+            <input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit btn btn-primary">
+        </div>
+    </form>
+</div></div>
+      
+  
+  </div>
+
+
+              </div>
+            </div>
+          </div>
+        
+        
+
+
+<nav class="navbar navbar-expand-lg justify-content-between navbar-light  p-0">
+      <div class="container">
+  
+                              
+  <div class="block block--sitebranding">
+
+  
+    
+
+    
+  <a href="/" class="navbar-brand d-flex align-items-center " aria-label="">
+            <img src="/sites/default/files/uploaded/images/nih-lrp-logo.png" width="30" height="auto" alt="National Institutes of Health | Division of Loan Repayment logo" class="mr-2" />
+
+        
+  </a>
+
+
+  </div>
+
+
+                      
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse">
+                          
+                                
+  <div class="block block--radix-lrp-main-menu">
+
+  
+    
+
+      
+  
+
+
+  <ul class="nav navbar-nav">
+                                          <li class="nav-item  dropdown">
+                      <a href="/eligibility-programs" class="nav-link dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/17">Eligibility &amp; Programs</a>
+                          <div class="dropdown-menu">
+              <a href="/eligibility-programs" class="dropdown-item" data-drupal-link-system-path="node/17">Overview</a>
+              <a href="/eligibility-programs#eligibility" class="dropdown-item" data-drupal-link-system-path="node/17">Eligibility Requirements</a>
+              <a href="/eligibility-programs#programs" class="dropdown-item" data-drupal-link-system-path="node/17">Extramural Program</a>
+              <a href="/eligibility-programs#programs" class="dropdown-item" data-drupal-link-system-path="node/17">Intramural Program</a>
+              <a href="/eligibility-programs#lrpBenefits" class="dropdown-item" data-drupal-link-system-path="node/17">LRP Benefits</a>
+              <a href="#calculatorModal" class="dropdown-item">Repayment Calculator</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  dropdown">
+                      <a href="/data-reports" class="nav-link dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/20">Data &amp; Reports</a>
+                          <div class="dropdown-menu">
+              <a href="/data-reports#DataReportsDataBooksTile" class="dropdown-item" data-drupal-link-system-path="node/20">Program Data</a>
+              <a href="/data-reports#HistoricalDataBooks" class="dropdown-item" data-drupal-link-system-path="node/20">Previously Published Program Data</a>
+              <a href="/data-reports#DataReportsFindingsandAnalysesTile" class="dropdown-item" data-drupal-link-system-path="node/20">Trends and Evaluations</a>
+              <a href="http://report.nih.gov/" class="dropdown-item">NIH RePORT</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  dropdown">
+                      <a href="/contact-engage" class="nav-link dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/65">Contact &amp; Engage</a>
+                          <div class="dropdown-menu">
+              <a href="/contact-engage" class="dropdown-item" data-drupal-link-system-path="node/65">LRP Information Center</a>
+              <a href="/contact-engage#ContactEngageContactListsTile" class="dropdown-item" data-drupal-link-system-path="node/65">NIH Institutes and Centers</a>
+              <a href="/contact-engage#ContactEngageImageCollage" class="dropdown-item" data-drupal-link-system-path="node/65">Engage</a>
+              <a href="/contact-engage#contactengage" class="dropdown-item" data-drupal-link-system-path="node/65">Connect</a>
+              <a href="/blog" class="dropdown-item" data-drupal-link-system-path="blog">LRP Director&#039;s Blog</a>
+              <a href="/conferences" class="dropdown-item" data-drupal-link-system-path="node/22">Upcoming Conferences</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  dropdown">
+                      <a href="/about" class="nav-link dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/23">About DLR</a>
+                          <div class="dropdown-menu">
+              <a href="/about" class="dropdown-item" data-drupal-link-system-path="node/23">Mission Statement</a>
+              <a href="/about#vision" class="dropdown-item" data-drupal-link-system-path="node/23">Vision Statement</a>
+              <a href="/about#staff-directory" class="dropdown-item" data-drupal-link-system-path="node/23">Staff Directory</a>
+              <a href="/privacy-act-notice" class="dropdown-item" data-drupal-link-system-path="node/24">DLR Privacy Notice</a>
+  </div>
+                              </li>
+                                      <li class="nav-item  ">
+                      <a href="/apply" class="nav-link" data-drupal-link-system-path="node/18">Apply</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/conferences" class="nav-link" data-drupal-link-system-path="node/22">Upcoming Conferences</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/award" class="nav-link" data-drupal-link-system-path="node/32">Award</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/renew" class="nav-link" data-drupal-link-system-path="node/26">Renew</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/research-supervisors-mentors" class="nav-link" data-drupal-link-system-path="node/51">Research Supervisors / Mentors</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/referees-recommenders" class="nav-link" data-drupal-link-system-path="node/52">Referees/Recommenders</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/institutional-business-officials" class="nav-link" data-drupal-link-system-path="node/27">Institutional Business Officials</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/nih-employees" class="nav-link" data-drupal-link-system-path="node/53">For NIH Employees</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/ambassador-program" class="nav-link" data-drupal-link-system-path="node/56">LRP Ambassador Program</a>
+                  </li>
+            </ul>
+
+
+  
+  </div>
+
+
+                        </div>
+
+      </div>
+  </nav>
+
+        <div class="container p-0 wrapper">
+            
+  <div class="block block--basic block--mainnavigationsecondary">
+
+  
+    
+
+      
+            <div class="basic__body"><nav id="main-second" class="navbar navbar-expand-lg bg-fifth p-0 d-none d-lg-flex" style="background-color: #226aba !important;">
+  <ul class="navbar-nav m-0">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/apply" title="">Apply</a>
+      <div class="dropdown-menu d-flex">
+        <div class="col py-4 pl-4 pr-0">
+          <ul class="squares">
+            <li>Check Eligibility for a <a href="/apply" title="">New Award</a></li>
+            <li>Find a Program for a <a href="/apply#programs" title="">New Award</a></li>
+            <li><a href="/oas-welcome" title="Registration">Register to Start an Application</a></li>
+          </ul>
+          <br />
+          <p>Already Started an Application?</p>
+          <a class="btn btn-fourth" href="/oas-welcome" title="">Login Here</a>
+        </div>
+        <div class="col p-4">
+          <div class="p-3 cBox bg-light shadow-none">
+            <h4>LRP Resources</h4>
+            <ul class="squares">
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-DrowningDebt-final.pdf">LRP Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-Updated-Infographic.pdf">Applying to the LRP is as easy as 1...2...3!</a>
+              </li>
+              <li class="d-none">
+                <a target="_blank" href="#">LRP Helps Cut Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/Extramual-LRP-FAQ.pdf">Extramural LRP FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/award" title="">Award</a>
+      <div class="dropdown-menu d-flex">
+        <div class="col py-4 pl-4 pr-0">
+          <ul class="squares">
+            <li>
+              <a href="/award#AwardeesPaymentTile" title="">Payment &amp; Distribution</a>
+            </li>
+            <li>
+              <a href="/award#AwardeesLoanRepaymentTile" title="">Loan Repayment Process</a>
+            </li>
+            <li>
+              <a href="/award#AwardResearchTile" title="">Research Service Changes</a>
+            </li>
+            <li>
+              <a href="/award#AwardeesLoanChangesTile" title="">Loan Changes</a>
+            </li>
+            <li>
+              <a href="/award#AwardeesTaxesTile" title="">Taxes</a>
+            </li>
+            <li>
+              <a href="/award#AwardeesRenewingTile" title="">Renew an LRP Award</a>
+            </li>
+          </ul>
+          <br />
+          <a class="btn btn-fourth" href="https://public.era.nih.gov/commonsplus/" title="Awardee Portal">Participant Portal Login</a>
+        </div>
+        <div class="col py-4 pl-0 pr-4">
+          <div data-target="#calculatorModal" data-toggle="modal" class="cBox calc fet bg-sixth h-lighten p-4 mb-3">
+            <h6 class="text-white">Repayment Calculator</h6>
+            <p class="text-dark">Use the repayment calculator to get a renewal award estimate</p>
+            <a data-target="#calculatorModal" data-toggle="modal" href="#" title="Repayment Calculator" class="btn btn-third px-4 mr-auto">
+              CALCULATE
+            </a>
+          </div>
+
+          <br />
+          <div class="p-3 cBox bg-light shadow-none">
+            <h4>LRP Resources</h4>
+            <ul class="squares">
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-DrowningDebt-final.pdf">LRP Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-Updated-Infographic.pdf">Applying to the LRP is as easy as 1...2...3!</a>
+              </li>
+              <li class="d-none">
+                <a target="_blank" href="#">LRP Helps Cut Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/Extramual-LRP-FAQ.pdf">Extramural LRP FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/renew" title="">Renew</a>
+
+      <div class="dropdown-menu d-flex">
+        <div class="col py-4 pl-4 pr-0">
+          <ul class="squares">
+            <li>Check Eligibility for a <a href="/renew" title="">Renewal</a></li>
+            <li>Find a Program for a <a href="/renew#programs" title="">Renewal</a></li>
+            <li>
+              <a href="/oas-welcome">Register to Start an Application</a>
+            </li>
+          </ul>
+          <br />
+          <p>Already Started an Application?</p>
+          <a class="btn btn-fourth" href="/oas-welcome" title="">Login Here</a>
+        </div>
+        <div class="col p-4">
+          <div class="p-3 cBox bg-light shadow-none">
+            <h4>LRP Resources</h4>
+            <ul class="squares">
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-DrowningDebt-final.pdf">LRP Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/LRP-Updated-Infographic.pdf">Applying to the LRP is as easy as 1...2...3!</a>
+              </li>
+              <li class="d-none">
+                <a target="_blank" href="">LRP Helps Cut Debt Flyer</a>
+              </li>
+              <li>
+                <a target="_blank" href="/sites/default/files/uploaded/documents/Extramual-LRP-FAQ.pdf">Extramural LRP FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/research-supervisors-mentors" title="">Research Supervisors/Mentors</a>
+      <div class="dropdown-menu d-flex">
+        <div class="col py-4 pl-4 pr-0">
+          <ul class="squares">
+            <li>
+              <a href="/research-supervisors-mentors" title="">Who is a Research Supervisor</a>
+            </li>
+            <li>
+              <a href="https://public.era.nih.gov/commonsplus/" title="">Extramural Research/Service Verification</a>
+            </li>
+            <li>
+              <a href="https://public.era.nih.gov/commonsplus/" title="">Intramural Research/Service Verification</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col p-4">
+          <ul class="squares">
+            <li>
+              <a href="/research-supervisors-mentors#mentors">Who is a Mentor</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://public.era.nih.gov/commonsplus/public/lrpreference/referenceLetter.era?mode=mentor" title="">Submit Primary Mentor Reference Letter</a>
+            </li>
+          </ul>
+          <br />
+          <a class="btn btn-fourth" href="https://public.era.nih.gov/commonsplus/public/lrpreference/referenceLetter.era?mode=mentor" title="">Mentor's Portal</a>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/referees-recommenders" title="">Referees / Recommenders</a>
+
+      <div class="dropdown-menu d-flex" style="min-width: 400px;">
+        <div class="col p-4">
+          <ul class="squares">
+            <li>
+              <a href="/referees-recommenders" title="">Who is a Referee?</a>
+            </li>
+            <li>
+              <a href="/referees-recommenders#ref" title="">Responsibilities of a Referee</a>
+            </li>
+          </ul>
+          <br />
+          <a target="_blank" class="btn btn-fourth" href="https://public.era.nih.gov/commonsplus/public/lrpreference/referenceLetter.era?mode=referee" title="">Reference Letter Submission</a>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/institutional-business-officials" title="">Institutional Business Officials</a>
+
+      <div class="dropdown-menu d-flex" style="min-width: 400px;">
+        <div class="col p-4">
+          <ul class="squares">
+            <li>
+              <a href="/institutional-business-officials" title="">Who is an Institutional Business Official?</a>
+            </li>
+            <li>
+              <a href="/institutional-business-officials#ibo" title="">Responsibilities of an IBO</a>
+            </li>
+            <li>
+              <a href="https://grants.nih.gov/grants/ElectronicReceipt/files/registration_handout.pdf" title="">Obtain a Commons ID</a>
+            </li>
+          </ul>
+          <br />
+          <a class="btn btn-fourth" href="https://public.era.nih.gov/commonsplus/" title="IBO Login">Commons Login</a>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/nih-employees" title="">For NIH Employees</a>
+
+      <div class="dropdown-menu d-flex">
+        <div class="col p-4">
+          <ul class="squares">
+            <li>
+              <a href="/nih-employees" title="about Intramural LRPs">Intramural Loan Repayment Programs</a>
+            </li>
+            <li>
+              <a href="/nih-employees#NIHEmployeesStudentLRPTile" title="about NIH Student Program">NIH Student Loan Repayment Program</a>
+            </li>
+            <li>
+              <a href="/nih-employees#NIHEmployeesFundingOpportunitiesTile" title="list of useful links">Funding Opportunities and Other Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="/ambassador-program" title="">LRP Ambassador Program</a>
+
+      <div class="dropdown-menu d-flex">
+        <div class="col p-4">
+          <ul class="squares">
+            <li>
+              <a href="/sign-become-lrp-ambassador" title="">Become an LRP Ambassador</a>
+            </li>
+            <li>
+              <a href="/ambassador-resources" title="">Resources for Ambassadors</a>
+            </li>
+            <li>
+              <a href="/ambassador-directory" title="">Find an Ambassador</a>
+            </li>
+          </ul>
+          <br />
+          <a class="btn btn-fourth" href="/ambassador-resources">Ambassador's Login</a>
+        </div>
+        <div class="col p-4">
+          <img alt="Ambassador Badge" class="w-100" src="/sites/default/files/uploaded/images/ambassador-badge.png" />
+        </div>
+      </div>
+    </li>
+  </ul>
+</nav></div>
+      
+  
+  </div>
+
+
+
+          <div class="titleMeta d-flex align-items-center ml-3 ml-xl-2 mt-4 mt-lg-5">
+          
+            <i class=""></i>
+            <div>
+                            <h1>
+<span>A-Z Index</span>
+ </h1>
+              <h2></h2>
+            </div>
+        
+          </div>
+        </div>
+
+    </header>
+
+
+            <!-- [AVK] Following strcture can be found in layouts files -->
+          <div data-drupal-messages-fallback class="hidden"></div>
+  <div class="block block--basic block--accessibilityblock">
+
+  
+    
+
+      
+            <div class="basic__body"><div class="bg-light border rounded p-2" style="position: fixed; top: 50%; left: 0; transform: translateY(-50%); z-index: 9999; margin-left: -3px">
+    <div id="accessibility-block" class="d-flex flex-column">
+        <a id="decrease-text" class="mb-2 p-2 bg-opaque rounded noU text-dark" title="Decrease Text Size" href="#">A<sup>–</sup><span class="sr-only">Decrease text size</span></a>
+        <a id="increase-text" class="mb-2 p-2 bg-opaque rounded noU text-dark" title="Increase Text Size" href="#">A<sup>+</sup><span class="sr-only">Increase text size</span></a>
+        <a id="print-page" class="rounded p-2 bg-opaque" href="javascript:window.print()" title="Print"><i class="fas fa-print text-dark"></i><span class="sr-only">Print this Page</span></a>
+    </div>
+</div>
+</div>
+      
+  
+  </div>
+
+  <div class="block block--radix-lrp-content">
+
+  
+    
+
+      <article role="article" about="/az-index" class="node page page--full">
+  
+  
+
+      
+<div  class="panel-display one-col-contained clearfix">
+
+  <div class="container py-5">
+    <div  class="panel-panel-inner">
+      
+  <div class="block">
+
+  
+    
+
+      
+            <div class="page__body"><div id="az-index" class="my-5 py-5">
+  <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+    <li>
+      <a class="active" id="a-tab" data-toggle="tab" href="#a" role="tab" aria-controls="a" aria-selected="true">A</a>
+    </li>
+    <li>
+      <a id="b-tab" data-toggle="tab" href="#b" role="tab" aria-controls="b" aria-selected="false">B</a>
+    </li>
+    <li>
+      <a id="c-tab" data-toggle="tab" href="#c" role="tab" aria-controls="C" aria-selected="false">C</a>
+    </li>
+    <li>
+      <a id="d-tab" data-toggle="tab" href="#d" role="tab" aria-controls="D" aria-selected="false">D</a>
+    </li>
+    <li>
+      <a id="e-tab" data-toggle="tab" href="#e" role="tab" aria-controls="e" aria-selected="false">E</a>
+    </li>
+    <li>
+      <a id="f-tab" data-toggle="tab" href="#f" role="tab" aria-controls="f" aria-selected="false">F</a>
+    </li>
+    <li>
+      <a id="g-tab" data-toggle="tab" href="#g" role="tab" aria-controls="g" aria-selected="false">G</a>
+    </li>
+    <li>
+      <a id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="false">H</a>
+    </li>
+    <li>
+      <a id="i-tab" data-toggle="tab" href="#i" role="tab" aria-controls="i" aria-selected="false">I</a>
+    </li>
+    <li>
+      <a class="disabled" id="j-tab" data-toggle="tab" href="#j" role="tab" aria-controls="j" aria-selected="false">J</a>
+    </li>
+    <li>
+      <a class="disabled" id="k-tab" data-toggle="tab" href="#k" role="tab" aria-controls="k" aria-selected="false">K</a>
+    </li>
+    <li>
+      <a id="l-tab" data-toggle="tab" href="#l" role="tab" aria-controls="l" aria-selected="false">L</a>
+    </li>
+    <li>
+      <a id="m-tab" data-toggle="tab" href="#m" role="tab" aria-controls="m" aria-selected="false">M</a>
+    </li>
+    <li>
+      <a id="n-tab" data-toggle="tab" href="#n" role="tab" aria-controls="n" aria-selected="false">N</a>
+    </li>
+    <li>
+      <a id="o-tab" data-toggle="tab" href="#o" role="tab" aria-controls="o" aria-selected="false">O</a>
+    </li>
+    <li>
+      <a id="p-tab" data-toggle="tab" href="#p" role="tab" aria-controls="p" aria-selected="false">P</a>
+    </li>
+    <li>
+      <a id="q-tab" data-toggle="tab" href="#q" role="tab" aria-controls="q" aria-selected="false">Q</a>
+    </li>
+    <li>
+      <a id="r-tab" data-toggle="tab" href="#r" role="tab" aria-controls="r" aria-selected="false">R</a>
+    </li>
+    <li>
+      <a id="s-tab" data-toggle="tab" href="#s" role="tab" aria-controls="s" aria-selected="false">S</a>
+    </li>
+    <li>
+      <a id="t-tab" data-toggle="tab" href="#t" role="tab" aria-controls="t" aria-selected="false">T</a>
+    </li>
+    <li>
+      <a id="u-tab" data-toggle="tab" href="#u" role="tab" aria-controls="u" aria-selected="false">U</a>
+    </li>
+    <li>
+      <a class="disabled" id="v-tab" data-toggle="tab" href="#v" role="tab" aria-controls="v" aria-selected="false">V</a>
+    </li>
+    <li>
+      <a id="w-tab" data-toggle="tab" href="#w" role="tab" aria-controls="w" aria-selected="false">W</a>
+    </li>
+    <li>
+      <a class="disabled" id="x-tab" data-toggle="tab" href="#x" role="tab" aria-controls="x" aria-selected="false">X</a>
+    </li>
+    <li>
+      <a class="disabled" id="y-tab" data-toggle="tab" href="#y" role="tab" aria-controls="y" aria-selected="false">Y</a>
+    </li>
+    <li>
+      <a class="disabled" id="z-tab" data-toggle="tab" href="#z" role="tab" aria-controls="z" aria-selected="false">Z</a>
+    </li>
+  </ul>
+  <div class="tab-content bg-light p-5 mt-4">
+    <div class="tab-pane fade show active" id="a" role="tabpanel" aria-labelledby="a-tab">
+      <h2>
+        A
+      </h2>
+
+      <h3>
+        Account Statement
+      </h3>
+
+      <p>
+        An account statement is a document that provides the current status of a loan or a group of loans. Most loan servicers provide an account statement on a monthly basis or following a payment and many loan servicers now provide make this information available on their website through an online
+        account for the borrower. This document usually includes the current loan balance (or payoff amount), interest charges, and other information, including an account number and payment address. DLR requires this statement for all eligible loans before awarding an LRP contract.
+      </p>
+
+      <h3>
+        Accrued Interest
+      </h3>
+
+      <p>
+        Accrued interest is part of an LRP applicant's qualified student debt and is eligible to be repaid by the LRPs. If a loan is in repayment status, accrued interest is the amount of interest accumulated since the last payment that was made to this loan. If a loan is not in repayment status,
+        accrued interest is the amount accumulated since the original disbursement of the loan (or since the beginning of a grace period, deferment, or forbearance).
+      </p>
+
+      <h3>
+        Assessment of Research Activities
+      </h3>
+
+      <p>
+        Please see “Research Supervisor.”
+      </p>
+    </div>
+    <div class="tab-pane fade" id="b" role="tabpanel" aria-labelledby="b-tab">
+      <h2>
+        B
+      </h2>
+
+      <h3>
+        Biosketch
+      </h3>
+
+      <p>
+        A biosketch is an individual's curriculum vitae presented in a specified format established by NIH guidelines and should include the individual's education/training, personal statement, and contributions to science. A curriculum vitae is not acceptable where a biosketch is requested on the
+        LRP application. A template of the biosketch can be downloaded as a fillable PDF file or Word document. Once the biosketch is completed, it may be uploaded through the LRP online application system.
+      </p>
+
+      <h3>
+        Breach of Contract
+      </h3>
+
+      <p>
+        A breach of contract results when an LRP participant fails to complete the research service or other obligation(s) required under the contract. When a breach of contract occurs, the LRP participant may be subject to assessment of monetary damages and penalties as defined by statute.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="c" role="tabpanel" aria-labelledby="c-tab">
+      <h2>
+        C
+      </h2>
+
+      <h3>
+        Capitalization (or capitalized interest)
+      </h3>
+
+      <p>
+        Unpaid interest that is added to the principal balance of a loan when a loan enters repayment status after a grace period (i.e., deferment or forbearance), which results in an increase to the loan balance or payoff amount. Capitalized interest should not be reported separately to DLR since
+        it is included in the principal balance, as reported by the lender.
+      </p>
+
+      <h3>
+        Center for Scientific Review (CSR)
+      </h3>
+
+      <p>
+        Applications that meet the eligibility criteria and satisfy DLR requirements during the eligibility vetting review are forwarded to the NIH Center for Scientific Review (CSR). CSR will then assign each application to the appropriate NIH Institute/Center (IC) for peer review and scoring.
+      </p>
+
+      <h3>
+        Change of Institution (COI)
+      </h3>
+
+      <p>
+        Change of institution, or COI, occurs when an LRP applicant or awardee physically move from one institution to another to continue their research. A change of institution involves providing DLR with updated research information and the names of a new supervisor and an organizational c. COIs
+        are reviewed and subject to approval by the NIH Institute/Center (IC) that funded the LRP award (or is reviewing the LRP application). Approval of a submitted COI application is not guaranteed. LRP applicants must submit a COI application by January 31 in order for the application to be
+        considered for review.
+      </p>
+
+      <h3>
+        Clinical Research
+      </h3>
+
+      <p>
+        Patient-oriented research conducted with human subjects, or research on the causes and consequences of disease in human populations involving material of human origin (such as tissue specimens and cognitive phenomena) for which an investigator or colleague directly interacts with human
+        subjects in an outpatient or inpatient setting to clarify a problem in human physiology, pathophysiology or disease, epidemiologic or behavioral studies, outcomes or health services research, or developing new technologies, therapeutic interventions, or clinical trials.
+      </p>
+
+      <h3>
+        Consolidation Loan
+      </h3>
+
+      <p>
+        Merging of qualified student loans into a single loan. Applicants and awardees should review the list of Ineligible Loans to learn what pitfalls to avoid when consolidating their loans and their impact on the applicant's or awardee's eligibility to participate in the NIH Loan Repayment
+        Programs.
+      </p>
+
+      <h3>
+        Contraception &amp; Infertility Research
+      </h3>
+
+      <p>
+        Research that includes evaluating, treating, or ameliorating conditions that impact on the ability to conceive or bear young.
+      </p>
+
+      <h3>
+        Contractual Obligation
+      </h3>
+
+      <p>
+        Terms and conditions each party must agree to abide by when they enter into a contract. In LRP terms, the participant must adhere to the terms and conditions outlined in Section B of the
+        <a href="/sites/default/files/uploaded/documents/LRP_Contract_ Rev_10-2019.pdf">LRP Contract</a>.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="d" role="tabpanel" aria-labelledby="d-tab">
+      <h2>
+        D
+      </h2>
+
+      <h3>
+        Debt Threshold
+      </h3>
+
+      <p>
+        The minimum amount of qualified student loan debt that allows an applicant to be eligible for the NIH Loan Repayment Programs (LRPs). To meet the debt threshold, LRP applicants must have qualified student loans that is at least 20 percent of their institutional base salary. For example, with
+        an annual salary of $100,000, the applicant must hve at least $20,000 in qualified student loan debt to be eligible to apply for, and receive, an LRP award.
+      </p>
+
+      <h3>
+        Deferment
+      </h3>
+
+      <p>
+        A period of time when a lender suspends payments on principal or interest charges, or both, on a loan. On federally subsidized student loans, the federal government may pay the interest during a deferment. Deferment may be obtained or extended for a variety of reasons, including financial
+        hardship or continuing education. Deferments vary by lender and by type of loan.
+      </p>
+
+      <h3>
+        Delinquent Student Loans
+      </h3>
+
+      <p>
+        A loan is considered delinquent when payments to the lender are past due. DLR will exclude all delinquent loans when determining "qualifying debt" and will not pay late fees for loans that go into delinquent status.
+      </p>
+
+      <h3>
+        Disadvantaged Background
+      </h3>
+
+      <p>
+        An individual from a disadvantaged background is defined as one who comes from a family with an annual income below a level based on low-income thresholds according to family size published by the U.S. Census Bureau, adjusted annually for the changes in the Consumer Price Index, and adjusted
+        by the Secretary of the U.S. Department of Health and Human Services (HHS) for use in all health professions programs. The Secretary of HHS periodically publishes these income levels in the Federal Register.
+      </p>
+
+      <h3>
+        Disadvantaged Status
+      </h3>
+
+      <p style="line-height: 20px;">
+        To be eligible to apply for, and receive, a new award in the Extramural or Intramural Clinical Research LRP for Individuals from Disadvantaged Backgrounds, applicants must certify their disadvantaged status by submitting one of the following: (1) a written statement from the applicant's
+        former health professions school(s) that indicate the applicant qualified for Federal disadvantaged assistance during attendance; (2) documentation that the applicant received any of the following financial aid: Health Professions Student Loans (HPSL) or Loans for Disadvantaged Student
+        Program; or (3) documentation that the applicant received scholarships from the U.S. Department of Health and Human Services (DHHS) under the Scholarship for Individuals with Exceptional Financial Need.
+      </p>
+
+      <h3>
+        Disclosure Statement
+      </h3>
+
+      <p>
+        Provides the borrower with information about the actual cost of the loan, including the interest rate, origination, insurance and loan fees, and other finance charges. Lenders are required to provide the borrower with a disclosure statement before issuing a loan. DLR will accept a copy of
+        this document in lieu of a promissory note to document qualified student debt.
+      </p>
+
+      <h3>
+        Doctoral-level Degree
+      </h3>
+
+      <p>
+        Individuals with the following doctoral-level degrees are eligible to apply for the NIH LRPs: M.D., Ph.D., Pharm.D., Psy.D., D.O., Sc.D., D.D.S., D.M.D., D.P.M., D.C., N.D., O.D., D.V.M., or an equivalent doctoral degree from an accredited institution. Note: The Contraception &amp;
+        Infertility Research LRP accepts applications from non-doctoral researchers.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="e" role="tabpanel" aria-labelledby="e-tab">
+      <h2>
+        E
+      </h2>
+
+      <h3>
+        Educational Debt
+      </h3>
+
+      <p>
+        The sum of qualified student loans (principal + interest + related expenses) recorded at the start of the NIH LRP contract.
+      </p>
+
+      <h3>
+        Eligible Loans
+      </h3>
+
+      <p>
+        A loan is considered eligible if it is issued by any U.S. federal, state, or local government, academic institution or commercial lender, and used for school tuition or other reasonable educational or living expenses (including room and board and transportation) while attending
+        undergraduate, graduate, medical, dental, or veterinary schools.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="f" role="tabpanel" aria-labelledby="f-tab">
+      <h2>
+        F
+      </h2>
+
+      <h3>
+        Federal Direct Student Loan Program (FDSLP)
+      </h3>
+
+      <p>
+        The William D. Ford Federal Direct Loan Program (also known as the Direct Loan Program) is a federal program wherein the school becomes the lending agency and manages the funds directly, with the federal government providing the funds. Similar to the Federal Family Education Loan Program
+        (FFELP), funds for these loans are provided by the U.S. government directly to students and their parents through schools. The FDSLP includes the Federal Direct Stafford Loan (Subsidized and Unsubsidized) and the Federal Direct Parent Loan for Undergraduate Students (PLUS). These loans,
+        including PLUS loans disbursed to graduate and professional students on or after July 1, 2006, qualify for LRP repayment. PLUS loans to parents do not qualify.
+      </p>
+
+      <h3>
+        Federal Family Education Loans (FFEL) Consolidation Loan
+      </h3>
+
+      <p>
+        Consolidated, federally-sponsored student loans, FFEL Consolidated Loans are eligible for repayment. Also see "Federal Family Education Loan Program (FFELP)," "SMART Loans," and "Stafford Loans."
+      </p>
+
+      <h3>
+        Federal Family Education Loan Program (FFELP)
+      </h3>
+
+      <p>
+        Includes the Federal Stafford Loan (Subsidized and Unsubsidized), the Federal Perkins Loan, and the Parent Loan for Undergraduate Students (PLUS). The funds for these loans are provided by private lenders, such as banks, credit unions, and savings and loan associations. These loans are
+        guaranteed against default by the federal government. These loans, including PLUS loans disbursed to graduate and professional students on or after July 1, 2006, qualify for LRP repayment. PLUS loans to parents do not qualify.
+      </p>
+
+      <h3>
+        Forbearance
+      </h3>
+
+      <p>
+        A period in which a lender suspends regular loan payments. Interest charges accumulate and are added to the balance at the end of the forbearance period. Forbearance is usually granted for financial hardship. The NIH LRPs will repay the interest charges that accumulate while a loan is in
+        forbearance.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="g" role="tabpanel" aria-labelledby="g-tab">
+      <h2>
+        G
+      </h2>
+
+      <h3>
+        Grace Period
+      </h3>
+
+      <p>
+        A period after graduation/separation from school during which the borrower is not required to make student loan payments. See “forbearance,” “deferment,”and “service obligation.”
+      </p>
+    </div>
+    <div class="tab-pane fade" id="h" role="tabpanel" aria-labelledby="h-tab">
+      <h2>
+        H
+      </h2>
+
+      <h3>
+        Health Disparities Research
+      </h3>
+
+      <p>
+        Basic, clinical, or behavioral research on a health disparity population (including individual members and communities of such populations), including the causes of health disparities and methods to prevent, diagnose, and treat such disparities.
+      </p>
+
+      <h3>
+        Health Disparity Populations
+      </h3>
+
+      <p>
+        Groups determined by the Director of the National Institute on Minority Health and Health Disparities (NIMHD), in consultation with the Director of the Agency for Healthcare Research and Quality (AHRQ), in which there is significant disparity in the overall rate of disease incidence,
+        prevalence, morbidity, mortality, or survival rates in the population as compared to the health status of the general population. The following populations have been designated as health disparity populations: Blacks/African Americans, Hispanics/Latinos, American Indians/Alaska Natives,
+        Asian Americans, Native Hawaiians and other Pacific Islanders, socioeconomically disadvantaged populations, underserved rural populations, and sexual and gender minorities.
+      </p>
+
+      <h3>
+        Health Education Assistance Loan (HEAL)
+      </h3>
+
+      <p>
+        Student loans sponsored by the U.S. Department of Health and Human Services. HEAL loans qualify for repayment.
+      </p>
+
+      <h3>
+        Health Professions Student Loan (HPSL)
+      </h3>
+
+      <p>
+        Loans sponsored by the U.S. Department of Health and Human Services. HPSL loans qualify for repayment. Applicants with HPSL loans also meet the disadvantaged background criteria for the Clinical Research LRP for Individuals from Disadvantaged Backgrounds.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="i" role="tabpanel" aria-labelledby="i-tab">
+      <h2>
+        I
+      </h2>
+
+      <h3>
+        Income Tax Allowance
+      </h3>
+
+      <p>
+        See Tax Allowance
+      </p>
+
+      <h3>
+        Independent Researcher
+      </h3>
+
+      <p>
+        An LRP applicant should apply as an independent researcher if one or more of the items listed below apply:
+      </p>
+
+      <ul class="squares">
+        <li>
+          the applicant has a full-time faculty position;
+        </li>
+        <li>
+          the applicant received a start-up package for support of his/her independent research;
+        </li>
+        <li>
+          the applicant has research space dedicated to his/her own research;
+        </li>
+        <li>
+          the applicant may be the responsible supervisor for graduate students, and/or hire technical support or postdoctoral fellows; and/or
+        </li>
+        <li>
+          the applicant is eligible to apply for independent research funding as the PD/PI of a Federal or non-Federal research grant.
+        </li>
+      </ul>
+
+      <h3>
+        Ineligible Loans
+      </h3>
+
+      <p>
+        Loans that do not meet LRP criteria for “eligible loans” are ineligible for LRP consideration. This includes non-educational loans, PLUS loans to parents (PLUS loans disbursed to graduate and professional students on or after July 1, 2006, however, are qualified for LRP repayment ), loans
+        consolidated with another individual's loan (including a spouse or child), a equity loans, personal loans, and loans received from family or friends.
+      </p>
+
+      <h3>
+        Infertility Research
+      </h3>
+
+      <p>
+        Research that has the long-range objectives of evaluating, treating, or ameliorating conditions that result in the failure of couples to either conceive or bear young. Contraception research is defined as research that has the ultimate goal to provide new or improved methods of preventing
+        pregnancy.
+      </p>
+
+      <h3>
+        Institutional Base Salary
+      </h3>
+
+      <p>
+        The total annual compensation an applicant receives from his/her supporting institution. Institutional base salary (also called “base salary”) includes pay for research, teaching, or other activities. Institutional base salary excludes fringe payments, administrative or reimbursed expenses,
+        and income earned outside of duties to the institution.
+      </p>
+
+      <h3>
+        Institutional Business Official
+      </h3>
+
+      <p>
+        An individual authorized to act in an official capacity on behalf of an LRP applicant's employer. The institutional c is asked to report the applicant's salary and confirm to NIH that (1) the applicant will be provided time and resources to engage in research for the term of the LRP
+        contract; (2) the applicant is or will be engaged in qualifying research for at least 50 percent or more of his/her total level of effort for an average of at least 20 hours per week during each quarterly service period, and; (3) the employer is a nonprofit organization.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="j" role="tabpanel" aria-labelledby="j-tab">
+      <h2>
+        J
+      </h2>
+    </div>
+    <div class="tab-pane fade" id="k" role="tabpanel" aria-labelledby="k-tab">
+      <h2>
+        K
+      </h2>
+    </div>
+    <div class="tab-pane fade" id="l" role="tabpanel" aria-labelledby="l-tab">
+      <h2>
+        L
+      </h2>
+
+      <h3>
+        Loans for Disadvantaged Students (LDS)
+      </h3>
+
+      <p>
+        Loans issued by the U.S. Department of Health and Human Services. LDS loans qualify for repayment. Applicants with LDS loans also meet the disadvantaged background criteria for the Clinical Research LRP for Individuals from Disadvantaged Backgrounds.
+      </p>
+
+      <h3>
+        Loan Repayment Committee (LRC) - Intramural
+      </h3>
+
+      <p>
+        The Loan Repayment Committee (LRC), is composed of senior intramural scientists, including basic (bench) and clinical researchers, and science policy administrators. The LRC is chaired by the NIH Deputy Director for Intramural Research. DLR verifies the eligibility of applicants and loans
+        submitted for repayment and notifies individuals when awards are made by the LRC. Since LRP participation is contingent upon NIH employment, applicants must be recommended by their employing Institute or Center (IC) of the NIH to be considered by the LRC.
+      </p>
+
+      <h3>
+        LRP Information Center
+      </h3>
+
+      <p>
+        A one-stop source for answers to questions about the NIH Loan Repayment Programs, including questions about the application, eligibility, and loan payments. Known formerly as the LRP HelpLine, LRP Information Center staff can be reached toll-free at 866-849-4047 or by e-mail at
+        <a href="mailto:lrp@nih.gov" title="Contact Email">lrp@nih.gov</a>.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="m" role="tabpanel" aria-labelledby="m-tab">
+      <h2>
+        M
+      </h2>
+
+      <h3>
+        Master Promissory Note (MPN)
+      </h3>
+
+      <p>
+        A contract that borrowers sign when taking out either subsidized or unsubsidized Stafford Loans. When submitting the MPN to LRP, you are required to include the attachment that lists loan amounts and dates for all disbursements. For students who attended four-year or graduate schools, the
+        MPN also covers Stafford Loans for future enrollment periods at the same school within a 10-year period. See “Stafford Loans.”
+      </p>
+
+      <h3>
+        MEDEX Loan
+      </h3>
+
+      <p>
+        Sponsored by the Association of American Medical Colleges, this loan is offered to medical students exclusively for expenses incurred with residency interviews and relocation. MEDEX Loans qualify for repayment.
+      </p>
+
+      <h3>
+        Medically Underserved
+      </h3>
+
+      <p>
+        A term that refers to individuals who lack access to primary and specialty care either because they are socioeconomically disadvantaged and may live in areas with high poverty rates or because they reside in rural areas. The term also refers to individuals who reside in geographic areas
+        where the Index of Medical Underservice (IMU) is 62 or less. Health Resource Services Administration (HRSA) criteria designate a service area with an IMU of 62 or less as a "medically underserved area (MUA)." The IMU is a weighted score derived from four variables: the ratio of primary
+        medical care physicians per 1,000 population, infant mortality rate, percentage of population below the federal poverty level, and percentage of the population age 65 years or over.
+      </p>
+
+      <h3>
+        MEDLOANS
+      </h3>
+
+      <p>
+        A loan program sponsored by the Association of American Medical Colleges and offered exclusively to medical students. The loans include those under the federally-subsidized Stafford Loans and Alternative Loan Program (See “Alternative Loan Program-ALP”). MEDLOANS qualify for repayment.
+      </p>
+
+      <h3>
+        Mentored Research Scientist
+      </h3>
+
+      <p>
+        An LRP applicant should apply as a mentored research scientist if one or more of the items listed below apply:
+      </p>
+
+      <ul class="squares">
+        <li>
+          the applicant's research is partially funded by another investigator's grant(s);
+        </li>
+        <li>
+          the applicant's research is conducted entirely in another investigator's assigned space;
+        </li>
+        <li>
+          the applicant is not allowed to submit an application as the PD/PI of an NIH research grant application (e.g., R01, a subproject leader on a Program Project (P01) or Center Grant (P50));
+        </li>
+        <li>
+          the applicant lacks other rights and privileges of faculty, such as attendance at faculty meetings; and/or
+        </li>
+        <li>
+          the applicant is receiving support and protected time from a fellowship or career development award.
+        </li>
+      </ul>
+
+      <h3>
+        Minority Health Conditions
+      </h3>
+
+      <p>
+        Diseases, disorders, and other conditions (including mental health and substance abuse) that are unique to, more serious, or more prevalent in racial and ethnic minorities, for which the medical risk factors or types of medical interventions may be different, or research involving such
+        populations as subjects or data on such individuals is insufficient.
+      </p>
+
+      <h3>
+        Minority Health Disparities Research
+      </h3>
+
+      <p>
+        Basic, clinical, or behavioral research on minority health conditions, including research to prevent, diagnose, and treat such conditions.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="n" role="tabpanel" aria-labelledby="n-tab">
+      <h2>
+        N
+      </h2>
+
+      <h3>
+        Nonprofit
+      </h3>
+
+      <p>
+        Applicants must conduct qualifying research supported by a domestic nonprofit foundation, nonprofit professional association or other nonprofit institution, or a U.S. federal, state or local government agency. A domestic foundation, professional association, or institution is considered to
+        be nonprofit if exempt from federal tax under the provisions of Section 501 of the Internal Revenue Code (26 U.S.C. 501).
+      </p>
+
+      <h3>
+        Nursing Student Loan Program (NSL)
+      </h3>
+
+      <p>
+        Issued by the U.S. Department of Health and Human Services, NSL loans qualify for repayment.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="o" role="tabpanel" aria-labelledby="o-tab">
+      <h2>
+        O
+      </h2>
+
+      <h3>
+        Overpayment
+      </h3>
+
+      <p>
+        An overpayment occurs when a payment amount is higher than the remaining loan balance. When a loan is paid-in-full, the excess amount, if there is any, will be directed to the remaining loan(s) with the next highest priority. If all loans with a lender are paid in full, the lender may send
+        the excess amount, if there is any, directly to the awardee. There is an exception, however, when an overpayment occurs as a result of a loan forgiveness program. DLR will request the lender to return the most recent LRP payment to NIH. The awardee is expected to assist DLR in the resolution
+        of an overpayment when and where necessary.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="p" role="tabpanel" aria-labelledby="p-tab">
+      <h2>
+        P
+      </h2>
+
+      <h3>
+        Participant Reimbursement
+      </h3>
+
+      <p>
+        When all of an awardee's qualified loans have been paid in full, but an LRP award balance remains, DLR will make a payment directly to the awardee. This is called a participant reimbursement. Current banking documentation is required to make a direct deposit of funds into an awardee's bank
+        account. If an awardee does not provide banking documentation within 30 days of the initial request from DLR, the participant reimbursement will be returned to the U.S. Treasury.
+      </p>
+
+      <h3>
+        Payment Verification
+      </h3>
+
+      <p>
+        When NIH releases a payment to a participant's lender, the participant is required to submit an “account statement” from the lender that details the payment amount and resulting account balance.
+      </p>
+
+      <h3>
+        Payoff Quotes
+      </h3>
+
+      <p>
+        A quote from the lender detailing the total dollar amount required to pay the loan in full within a predetermined number of days.
+      </p>
+
+      <h3>
+        Pediatric Research
+      </h3>
+
+      <p>
+        Research that is directly related to diseases, disorders, and other conditions in children, including pediatric pharmacology.
+      </p>
+
+      <h3>
+        Perkins Loan
+      </h3>
+
+      <p>
+        Formerly the National Direct Student Loan Program, Perkins loans are issued by educational institutions and provide up to $3,000 per year for undergraduate programs, and up to $6,000 per year for graduate school. Perkins loans are guaranteed by the U.S. Department of Education and qualify
+        for repayment.
+      </p>
+
+      <h3>
+        PLUS Loans (Parent Loan for Undergraduate Students)
+      </h3>
+
+      <p>
+        Federally-guaranteed unsubsidized loans issued to parents for educational expenses incurred by their children. PLUS loans disbursed to graduate and professional students on or after July 1, 2006, qualify for LRP repayment. PLUS loans to parents do not qualify for repayment.
+      </p>
+
+      <h3>
+        Program Eligibility Date
+      </h3>
+
+      <p>
+        The date that the initial LRP contract is executed by the Secretary, or an authorized designee, of the U.S. Department of Health and Human Services.
+      </p>
+
+      <h3>
+        Promissory Note
+      </h3>
+
+      <p>
+        The binding legal document that must be signed by the borrower <em>before</em> loan funds are disbursed by the lender. The promissory note states the terms and conditions of the loan, including repayment schedule, interest rate, deferment policy, and cancellations. The student should keep
+        this document until the loan has been repaid. The NIH LRP relies on promissory notes to determine an LRP participant's student debt. Promissory notes are never retroactive to previously disbursed loans.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="q" role="tabpanel" aria-labelledby="q-tab">
+      <h2>
+        Q
+      </h2>
+
+      <h3>
+        Qualifying Debt
+      </h3>
+
+      <p>
+        The total educational debt owed by the participant as of the start date of the LRP contract.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="r" role="tabpanel" aria-labelledby="r-tab">
+      <h2>
+        R
+      </h2>
+
+      <h3>
+        Recommenders
+      </h3>
+
+      <p>
+        Individuals who can comment on the research skills and the abilities of the applicant. This includes the applicants' research supervisor or most recent mentor.
+      </p>
+
+      <h3>
+        Repayable Debt
+      </h3>
+
+      <p>
+        The amount of debt qualified for LRP participation at beginning of contract. NIH repays 25 percent of a participant's repayable debt (up to $50,000) for each year of LRP participation during the initial two-year contract, for a total of 50 percent repayment (up to $100,000) during the
+        initial contract.
+      </p>
+
+      <h3>
+        Repayment Start Date
+      </h3>
+
+      <p>
+        The date when any deferment or grace period ends and a borrower must start repaying student loans. Most student loans are automatically granted grace status at time of disbursement, and remain in grace status as long as the borrowers are full-time students.
+      </p>
+
+      <h3>
+        Research Activities Statement
+      </h3>
+
+      <p>
+        This statement is part of the LRP application. It describes the current or proposed research project and the applicant's role in conducting the research. It includes a brief statement regarding the research environment and colleagues.
+      </p>
+
+      <h3>
+        Research in Emerging Areas Critical to Human Health (REACH)
+      </h3>
+
+      <p>
+        Emerging areas are considered new areas of biomedical and biobehavioral research that are ripe for targeted investments that can have a transformative relevance and impact for years to come. Each NIH Institute and Center will determine which emerging areas of research fit with their research priorities. Review the <a href="https://www.lrp.nih.gov/reach-priority-statements">REACH Priority Statements list</a> for information on each IC-specified area that is considered to be an emerging and/or a gap area.
+      </p>
+
+      <h3>
+        Research Supervisor
+      </h3>
+
+      <p>
+        The person in a position of authority with the ability to verify that an LRP awardee is conducting research as described in the awardee's research plan at the required level of effort. NIH asks each LRP awardee's research supervisor to verify an awardee's research service at the end of each
+        quarter (three months) throughout the length of an awardee's LRP contract.
+      </p>
+
+      <h3>
+        Research Verification
+      </h3>
+
+      <p>
+        Occurs when a Research Supervisor verifies an awardee's research obligations for a specified service period (every three months).
+      </p>
+
+      <h3>
+        Responsive
+      </h3>
+
+      <p><span>An LRP application is responsive when the research plan describes research that is consistent with the specific LRP definition of research and the reviewing IC's Mission and LRP Priorities</span>.</p>
+
+      <h3>
+        Review Process
+      </h3>
+
+      <p><span>LRP applications go through four stages of the review process before funding decisions are made. The four stages are Eligibility Review, IC Review, Peer Review, and Financial Review</span>.</p>
+    </div>
+    <div class="tab-pane fade" id="s" role="tabpanel" aria-labelledby="s-tab">
+      <h2>
+        S
+      </h2>
+
+      <h3>
+        Service Obligation
+      </h3>
+
+      <p>
+        In exchange for NIH repaying student loan debt, LRP participants are required to conduct qualified research for their contract period. This is their “service obligation.” Applicants with any remaining outside service obligations (other than to the LRP) must complete those commitments or
+        gain deferment before they are eligible for the LRPs.
+      </p>
+
+      <h3>
+        Service Verification
+      </h3>
+
+      <p>
+        Service verification is completed on a quarterly basis by the participant's supervisor and is a required step before funds are released to the lender(s). The supervisor must verify that the participant continues to complete research at the accepted level of effort and that the research is as
+        described in the LRP application.
+      </p>
+
+      <h3>
+        SMART Loans
+      </h3>
+
+      <p>
+        Sallie Mae's name for Federal Family Education Loans (FFEL) consolidation loans. SMART Loans qualify for NIH loan repayment programs.
+      </p>
+
+      <h3>
+        Stafford Loans
+      </h3>
+
+      <p>
+        Federal loans that come in two forms: subsidized and unsubsidized. Subsidized loans are based on need; unsubsidized loans are not. Interest on subsidized Stafford Loans is paid by the federal government while the student is in school and during the six-month grace period. The subsidized
+        Stafford Loan was formerly known as the Guaranteed Student Loan (GSL). These loans are eligible for LRP repayment.
+      </p>
+
+      <h3>
+        Subsidized Loans
+      </h3>
+
+      <p>
+        The federal government pays the interest that accrues on subsidized loans during all in-school, grace period, authorized deferment, and (if applicable) post-deferment grace period times if the loan meets certain eligibility requirements. Examples include Stafford (either FFELP or direct),
+        Perkins, Loans for Disadvantaged Students (LDS), and Health Professions Student Loans (HPSL).
+      </p>
+    </div>
+    <div class="tab-pane fade" id="t" role="tabpanel" aria-labelledby="t-tab">
+      <h2>
+        T
+      </h2>
+
+      <h3>
+        Tax Allowance
+      </h3>
+
+      <p>
+        LRP repayments made to lenders are taxable income to participants. To partially offset the increase in income tax liability that result from the LRP award, NIH makes a federal tax payment equal to 39 percent of the loan payment directly to the participant's IRS tax account each time a loan
+        payment is made on their behalf(an additional tax payment at the rate of 7.5% of the loan repayment amount is also made to cover social security and FICA taxes for intramural LRP participants only). Both loan and tax payments are reported after the end of the calendar year and a 1099-G form
+        (or a W-2 form for NIH employees) is mailed to participants no later than January 31 of the following calendar year.
+      </p>
+
+      <h3>
+        The Education Resources Institute (TERI) Loans
+      </h3>
+
+      <p>
+        Low-interest student loans backed by TERI, a nonprofit organization that sponsors loans for both graduate and undergraduate students. Also called ALP (Alternative Loan Program) loans, these loans are qualified for NIH loan repayment.
+      </p>
+    </div>
+    <div class="tab-pane fade" id="u" role="tabpanel" aria-labelledby="u-tab">
+      <h2>
+        U
+      </h2>
+
+      <h3>
+        Unsubsidized Loans
+      </h3>
+
+      <p>
+        When student loans are unsubsidized, borrowers are responsible for paying all accrued interest, whether accrued in school or during grace or deferment periods, or during NIH repayment contract periods. Examples include Federal Unsubsidized Stafford (either FFELP or direct), Federal SLS,
+        Federal PLUS, Health Education Assistance Loans (HEAL), private loans, and some institutional loans. See “Capitalization.”
+      </p>
+    </div>
+    <div class="tab-pane fade" id="v" role="tabpanel" aria-labelledby="v-tab">
+      <h2>
+        V
+      </h2>
+    </div>
+    <div class="tab-pane fade" id="w" role="tabpanel" aria-labelledby="w-tab">
+      <h2>
+        W
+      </h2>
+
+      <h3>
+        William D. Ford Federal Direct Student Loan Program (FDSLP)
+      </h3>
+
+      <p>
+        See “Federal Direct Student Loan Program.”
+      </p>
+    </div>
+    <div class="tab-pane fade" id="x" role="tabpanel" aria-labelledby="x-tab">
+      <h2>
+        X
+      </h2>
+    </div>
+    <div class="tab-pane fade" id="y" role="tabpanel" aria-labelledby="y-tab">
+      <h2>
+        Y
+      </h2>
+    </div>
+    <div class="tab-pane fade" id="z" role="tabpanel" aria-labelledby="z-tab">
+      <h2>
+        Z
+      </h2>
+    </div>
+  </div>
+</div></div>
+      
+  
+  </div>
+
+    </div>
+  </div>
+
+</div><!-- /.one-col-contained -->
+
+  </article>
+
+  
+  </div>
+
+
+      
+
+          <footer class="page__footer">
+        <div class="container-fluid bg-opaque">
+          <div class="container px-0 py-5">
+              
+  <div class="block block--basic block--footer">
+
+  
+    
+
+      
+            <div class="basic__body"><div class="container">
+    <div class="row">
+        <div class="col-3 px-4">
+            <img src="/sites/default/files/uploaded/images/LRP_logo_color_temp.JPG" class="w-100 mb-3" /><br>
+            National Institutes of Health<br>
+            6700B Rockledge Drive,<br>
+            Suite 2300<br>
+            Bethesda, MD 20892
+            
+            <h4 class="mt-3">Powered By</h4>
+            <ul class="pl-0">
+                <li><a href="https://www.nih.gov/" target="_blank">National Institutes of Health</a></li>
+                <li><a href="https://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a></li>
+                <li><a href="https://www.usa.gov/" target="_blank">USA.gov - Government made easy</a></li>
+            </ul>
+        </div>
+        <div class="col-3 px-4">
+            <h4 class="mt-3">Site Map</h4>
+            <ul class="pl-0">
+                <li><a href="/eligibility-programs">Eligibility &amp; Programs</a></li>
+                <li><a href="/data-reports">Data &amp; Reports</a></li>
+                <li><a href="/contact-engage">Contact &amp; Engage</a></li>
+                <li><a href="/about">About DLR</a></li>
+                <li><a href="https://web.archive.org/web/*/www.lrp.nih.gov" target="_blank">Older Versions of This Page</a></li>
+            </ul>
+        </div>
+        <div class="col-3 px-4">
+            <h4 class="mt-3">Resources</h4>
+            <ul class="pl-0">
+                <li><a href="/faqs">FAQs</a></li>
+                <li><a href="/az-index">A-Z Index</a></li>
+                <li><a href="/nih-employees">For NIH Employees</a></li>
+                <li><a href="http://www.nih.gov/about/privacy.htm" target="_blank">NIH Privacy Notice</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a href="http://www.nih.gov/icd/od/foia/index.htm">FOIA</a></li>
+                <li><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" target="_blank">HHS Vulnerability Disclosure</a></li>
+                <li><a href="/disclaimer">Disclaimer</a></li>
+            </ul>
+        </div>
+        <div class="col-3 px-4">
+            <h4 class="mt-3">Connect with us</h4>
+            <div class="d-flex aling-items-center text-primary h3">
+                <a href="tel:866-849-4047"><i class="fas fa-phone text-primary"></i></a>
+                <a href="mailto:lrp@nih.gov"><i class="fas fa-envelope ml-3 text-primary"></i></a>
+                <a href="https://twitter.com/NIH_LRP" target="_blank"><i class="fab fa-twitter ml-3 text-primary"></i></a>
+                <a href="https://www.facebook.com/nihlrp" target="_blank"><i class="fab fa-facebook ml-3 text-primary"></i></a>
+            </div>
+            <h4 class="mt-5">Stay in the loop</h4>
+            <p>Subscribe to our mailing list to be updated of deadlines and important information.</p>
+            <a href="https://public.govdelivery.com/accounts/USNIHOER/signup/31415" class="btn btn-secondary btn-lg" target="_blank">SUBSCRIBE</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="d-flex justify-content-end align-items-center mt-5">
+        Download Reader <span class="sr-only">Readers for Documents on the Page</span>
+        <a href="https://get.adobe.com/reader/" target="_blank">
+            <i class="fab fa-adobe text-danger ml-3" style="font-size: 1.5em"></i>
+        </a>
+    </div>
+</div></div>
+      
+  
+  </div>
+
+  <div class="block block--bootstrap-modals block--bootstrapmodals">
+
+  
+    
+
+      
+            <div class="bootstrap-modals__body"><!-- Calculator Modal -->
+<div aria-hidden="true" aria-labelledby="calculatorModalLabel" class="modal fade in" id="calculatorModal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="calculatorModalLabel">LRP Repayment Calculator</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12 px-3">
+            <div class="calculator-well">
+              <p>
+                The repayment amounts shown here are non-binding estimates based on the information entered. If an applicant receives an LRP award,&nbsp;the total award&nbsp;will be calculated by NIH
+                and may be different than the values shown in this calculator.
+              </p>
+            </div>
+            <form class="ng-pristine ng-valid">
+              <div class="calculator-well calculator-buttons">
+                <fieldset>
+                  <legend class="mt-3 mb-2"><span class="coin1">1</span>Award Type <small>(choose one)</small></legend>
+                  <div class="d-flex align-items-start justify-content-between">
+                    <div class="col">
+                      <label for="type-new">New <input id="type-new" name="type" type="radio" value="new" /> <span class="coin2">✔</span> </label>
+                    </div>
+                    <div class="col">
+                      <label for="type-renew">Renewal <input id="type-renew" name="type" type="radio" value="renew" /> <span class="coin2">✔</span> </label>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="calculator-well calculator-buttons">
+                <fieldset class="mt-3 mb-2">
+                  <legend><span class="coin1">2</span>Programs <small>(choose one)</small></legend>
+                  <div class="d-flex align-items-start justify-content-between">
+                    <div class="col">
+                      <strong class="program-type"><em>Extramural</em></strong>
+                      <label for="extramural-clinical">
+                        Clinical
+                        <input id="extramural-clinical" name="program" type="radio" value="extramural-clinical" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="extramural-pediatric">
+                        Pediatric
+                        <input id="extramural-pediatric" name="program" type="radio" value="extramural-pediatric" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="extramural-disparities">
+                        Health Disparities
+                        <input id="extramural-disparities" name="program" type="radio" value="extramural-disparities" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="extramural-disadvantaged">
+                        Clinical Disadvantaged
+                        <input id="extramural-disadvantaged" name="program" type="radio" value="extramural-disadvantaged" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="extramural-contraception">
+                        Contraception &amp; Infertility
+                        <input id="extramural-contraception" name="program" type="radio" value="extramural-contraception" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="extramural-reach">
+                        REACH
+                        <input id="extramural-reach" name="program" type="radio" value="extramural-reach" />
+                        <span class="coin2">✔</span>
+                      </label>
+                    </div>
+                    <div class="col">
+                      <strong class="program-type"><em>Intramural</em></strong>
+                      <label for="intramural-aids">
+                        AIDS
+                        <input id="intramural-aids" name="program" type="radio" value="intramural-aids" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="intramural-clinical">
+                        Clinical
+                        <input id="intramural-clinical" name="program" type="radio" value="intramural-clinical" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="intramural-general">
+                        General
+                        <input id="intramural-general" name="program" type="radio" value="intramural-general" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <label for="intramural-acgme">
+                        General ACGME
+                        <input id="intramural-acgme" name="program" type="radio" value="intramural-acgme" />
+                        <span class="coin2">✔</span>
+                      </label>
+                      <p class="warnings" id="acgme-warning">&nbsp;</p>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="calculator-well short-label">
+                <legend class="mt-3 mb-2"><span class="coin1">3</span>Enter&nbsp;Debt and Salary&nbsp;Information</legend>
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <label class="col" for="debt">Eligible Educational Debt Amount:</label>
+                  <div class="col d-flex align-items-center dollar"><input id="debt" type="number" step="0.01" /> <span>◀ Enter Amount</span></div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <label class="col" for="income">Annual Base Salary:</label>
+                  <div class="col d-flex align-items-center dollar"><input id="income" type="number" step="0.01" /> <span>◀ Enter Amount</span></div>
+                </div>
+                <div id="calculator-warning-container" class="col">
+                  <p id="calculator-warning">&nbsp;</p>
+                </div>
+              </div>
+            </form>
+            <div class="calculator-well calculator-well-buttons text-right">
+              <button class="btn" id="calculate" value="Calculate Quaterly payments">Calculate</button>
+              <button class="btn" id="calculator-reset" value="Reset">Reset</button>
+              <button class="btn" data-dismiss="modal" value="Close the Calculator">Close</button>
+            </div>
+            <div class="results">
+              <div class="d-flex align-items-center justify-content-between"><strong>Total Repayment for Award:</strong> <span class="amount">&nbsp;</span></div>
+              <table>
+                <caption class="year1">
+                  <em>Quarterly Payment Breakdown</em>
+                </caption>
+                <thead>
+                  <tr>
+                    <th>Year 1</th>
+                    <th>Year 1 Payments</th>
+                    <th>Year 2</th>
+                    <th>Year 2 Payments</th>
+                    <th>Year 3</th>
+                    <th>Year 3 Payments</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="year1">Quarter 1</td>
+                    <td class="year1-payment">&nbsp;</td>
+                    <td class="year2">Quarter 5</td>
+                    <td class="year2-payment">&nbsp;</td>
+                    <td class="year3">Quarter 9</td>
+                    <td class="year3-payment">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="year1">Quarter 2</td>
+                    <td class="year1-payment">&nbsp;</td>
+                    <td class="year2">Quarter 6</td>
+                    <td class="year2-payment">&nbsp;</td>
+                    <td class="year3">Quarter 10</td>
+                    <td class="year3-payment">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="year1">Quarter 3</td>
+                    <td class="year1-payment">&nbsp;</td>
+                    <td class="year2">Quarter 7</td>
+                    <td class="year2-payment">&nbsp;</td>
+                    <td class="year3">Quarter 11</td>
+                    <td class="year3-payment">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="year1">Quarter 4</td>
+                    <td class="year1-payment">&nbsp;</td>
+                    <td class="year2">Quarter 8</td>
+                    <td class="year2-payment">&nbsp;</td>
+                    <td class="year3">Quarter 12</td>
+                    <td class="year3-payment">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="warnings" id="calculator-notes"><span class="sr-only">Results notes</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+      
+            <div class="bootstrap-modals__field-body-2"><!-- Loan Priority Modal -->
+<div aria-hidden="true" aria-labelledby="priorityModalLabel" class="modal fade in" id="priorityModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="priorityModalLabel">Loan Priority Order</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body p-4">
+        <p>When awardees have outstanding loans from multiple sources, NIH prioritizes which loans are repaid first based on the loan type. NIH will repay loans in the following order:</p>
+        <a class="btn btn-outline-primary expand-toggle my-3" href="#" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false">Expand the list</a>
+
+        <div class="collapseBoxes pl-3 mb-5">
+          <div>
+            <a class="collapsed" data-toggle="collapse" href="#loanInfo1" role="button" aria-expanded="false" aria-controls="loanInfo1">
+              Loans guaranteed by the U.S. Department of Health and Human Services:
+            </a>
+            <div id="loanInfo1" class="collapse multi-collapse">
+              <div class="card card-body border-0 p-0 pt-3">
+                <ul class="squares">
+                  <li>Health Education Assistance Loans (HEAL)</li>
+                  <li>Health Professions Student Loans (HPSL)</li>
+                  <li>Loans for Disadvantaged Students (LDS)</li>
+                  <li>Nursing Student Loans (NSL)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <a class="collapsed" data-toggle="collapse" href="#loanInfo2" role="button" aria-expanded="false" aria-controls="loanInfo2">
+              Loans guaranteed by the U.S. Department of Education:
+            </a>
+            <div id="loanInfo2" class="collapse multi-collapse">
+              <div class="card card-body border-0 p-0 pt-3">
+                <ul class="squares">
+                  <li>
+                    Direct Loans
+                    <ul class="squares">
+                      <li>Stafford Loans</li>
+                      <li>Consolidation Loans</li>
+                      <li>Perkins Loans</li>
+                      <li>Graduate PLUS Loans (on or after July 1, 2006)</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Federal Family Education Loans (FFEL)
+                    <ul class="squares">
+                      <li>Stafford Loans</li>
+                      <li>Consolidation Loans</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <ul class="squares">
+            <li>Loans made or guaranteed by a state, the District of Columbia, the Commonwealth of Puerto Rico, or a territory or possession of the United States</li>
+            <li>Loans made by academic institutions</li>
+          </ul>
+
+          <div>
+            <a class="collapsed" data-toggle="collapse" href="#loanInfo3" role="button" aria-expanded="false" aria-controls="loanInfo3">
+              Loan Eligibility Private (Alternative) Educational Loans:
+            </a>
+            <div id="loanInfo3" class="collapse multi-collapse">
+              <div class="card card-body border-0 p-0 pt-3">
+                <ul class="squares">
+                  <li>MEDLOANS</li>
+                  <li>Private (non-guaranteed) Consolidation Loans</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p><strong>Note:</strong> Parent PLUS loans do not qualify for repayment.</p>
+      </div>
+
+      <div class="modal-footer border-0 bg-fifth"><button class="btn btn-outline-light" data-dismiss="modal" type="button">Close</button></div>
+    </div>
+  </div>
+</div></div>
+      
+            <div class="bootstrap-modals__field-body-3"><!-- Consolidating Loans modal -->
+<div aria-hidden="true" aria-labelledby="consolidationModalLabel" class="modal fade in" id="consolidationModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog" style="max-width: 840px;">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="consolidationModalLabel">Consolidating Loans after the Start of an LRP Award</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body p-4">
+        <p>
+          If an applicant or awardee wishes to consolidate loans, the applicant/awardee should inform DLR as soon as possible by emailing <a href="mailto:lrp@nih.gov">lrp@nih.gov</a>. Only loans listed in the LRP portfolio may be included in the consolidation for the loan to remain eligible for loan
+          repayment. This includes ensuring that a consolidation loan does not include loans that are ineligible for the LRP, such as:
+        </p>
+        <ul class="squares">
+          <li>Non-educational loans (e.g., home equity loan);</li>
+          <li>Loans belonging to another individual (e.g., spouse or child); and</li>
+          <li>Loans disbursed after the start date of the first LRP award</li>
+        </ul>
+        <p>DLR must be provided with the following:</p>
+        <ol>
+          <li>Loan Information Form – Complete Section 1 of the Form</li>
+          <li>Consolidation promissory note or disclosure statement</li>
+          <li>Current statement from the new lender, showing the balance or payoff amount of the consolidated loan</li>
+          <li>Final statement from the previous lender(s), showing $0 balances or paid-in-full status</li>
+          <li>
+            NSLDS reports including:
+            <ul class="squares">
+              <li>
+                Aid Summary page<br />
+                Example: <a href="/sites/default/files/uploaded/documents/1009_2_LT_NSLDS-summary_sheet.pdf" target="_blank" title="Aid Summary PDF file">1009_2_LT_NSLDS-summary_sheet.pdf</a>
+              </li>
+              <li>
+                Detail Loan Information pages for all individual loans<br />
+                Example: <a href="/sites/default/files/uploaded/documents/1009_2_LT_NSLDS-detail_sheet.pdf" target="_blank" title="Detail Loan PDF file">1009_2_LT_NSLDS-detail_sheet.pdf</a>
+              </li>
+            </ul>
+          </li>
+        </ol>
+        <p>
+          The Association of American Medical Colleges has a <a href="https://students-residents.aamc.org/financial-aid/article/consolidating-your-federal-student-loans/" title="PDF file" class="exit-link" target="_blank">a loan consolidation primer</a>
+          <a href="#" data-toggle="modal" data-target="#externalLinkModal"><i class="fas fa-external-link-alt"></i></a> that can be helpful in determining whether consolidating loans is appropriate.
+        </p>
+      </div>
+
+      <div class="modal-footer border-0 bg-fifth"><button class="btn btn-outline-light" data-dismiss="modal" type="button">Close</button></div>
+    </div>
+  </div>
+</div></div>
+      
+            <div class="bootstrap-modals__field-body-4"><!-- Application Periods Modal -->
+<div aria-hidden="true" aria-labelledby="applicationPeriodsModalLabel" class="modal fade in" id="applicationPeriodsModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog" style="max-width: 840px">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="applicationPeriodsModalLabel">Application Periods and Documentation Deadlines</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body p-4">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="card appd shadow text-white mb-3">
+              <div class="card-header">
+                <h6 class="card-title mb-0">Extramural New & Renewal Awards</h6>
+              </div>
+              <div class="card-body">
+                <strong class="text-primary">Online Application Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Sep 1, 2022 - Nov 17, 2022</p>
+                <strong class="text-primary">Supporting Documentation Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Sep 1, 2022 - Nov 17, 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card appd shadow text-white mb-3">
+              <div class="card-header">
+                <h6 class="card-title mb-0">Intramural New & Renewal Awards</h6>
+              </div>
+              <div class="card-body">
+                <strong class="text-primary">Online Application Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Jan 3, 2023 - Mar 15, 2023</p>
+                <strong class="text-primary">Supporting Documentation Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Jan 3, 2023 - Mar 15, 2023</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card appd shadow text-white mb-3">
+              <div class="card-header">
+                <h6 class="card-title mb-0">Intramural ACGME New Awards</h6>
+              </div>
+              <div class="card-body">
+                <strong class="text-primary">Online Application Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Jan 3, 2023 - Apr 15, 2023</p>
+                <strong class="text-primary">Supporting Documentation Period</strong>
+                <p class="card-text text-dark"><i class="far fa-clock text-third"></i> Jan 3, 2023 - Apr 15, 2023</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="modal-footer border-0 bg-fifth"><button class="btn btn-outline-light" data-dismiss="modal" type="button">Close</button></div>
+    </div>
+  </div>
+</div></div>
+      
+            <div class="bootstrap-modals__field-body-5"><!-- Ambassador Administration Modal | The body for this modal changes depedning on the action and will be populated dynamically -->
+<div aria-hidden="true" aria-labelledby="ambEditModalLabel" class="modal fade in" id="ambEditModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="ambEditModalLabel">Ambassadors Administration</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body p-4"></div>
+
+      <div class="modal-footer d-flex justify-content-between align-items-center">
+        <div class="loading">
+          <i class="fas fa-spinner" style="display: none;"></i>
+          <span class="text-success" style="display: none;">Saved. Refreshing table...</span>
+          <span class="text-danger" style="display: none;">An error has occurred. Please try again.</span>
+        </div>
+        <div>
+          <button class="btn cancel btn-outline-opaque" data-dismiss="modal" type="button">Cancel</button>
+          <button class="btn save btn-fifth">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Ambassador Administration Modal | The body of this modal is always fixed: Full Edit Form -->
+<form id="ambassadorEditForm">   
+  <div aria-hidden="true" aria-labelledby="ambEditModalLabel" class="modal fade in" id="ambFullEditModal" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content shadow">
+        <div class="modal-header align-items-center border-0 bg-fifth">
+          <h2 class="modal-title" id="ambEditModalLabel">Ambassadors Administration</h2>
+          <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="modal-body p-4">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Full Name</div>
+            </div>
+            <input type="text" class="form-control" data-edit="name" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" required />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Position/Title</div>
+            </div>
+            <input type="text" class="form-control" data-edit="position_title" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Institution</div>
+            </div>
+            <input type="text" class="form-control" data-edit="institution" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" required/>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Degree(s)</div>
+            </div>
+            <input type="text" class="form-control" data-edit="degree_s_" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Tel</div>
+            </div>
+            <input type="tel" class="form-control" data-edit="telephone" pattern="^\+(?:\d|\d{2}|\d{3}) \d{3}-\d{3}-\d{4}$" title="Your phone number format should be in the format +x xxx-xxx-xxxx" required/>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Email</div>
+            </div>
+            <input type="email" class="form-control" data-edit="email" required/>
+          </div>
+          <div class="mb-3">
+            <div class="input-group d-flex align-items-center">
+              <div class="input-group-prepend">
+                <div class="input-group-text">Address</div>
+              </div>
+              <input type="text" class="form-control" data-edit="address" placeholder="Street" style="width: 33%" pattern="^[a-zA-Z0-9 ,.'-\/]+$" title="Allowed characters: , . ' - /" required />
+              <input type="text" class="form-control" data-edit="city" placeholder="City" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" required />
+              <select class="form-control" data-edit="state_province" required><option value="">- Select -</option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="American Samoa">American Samoa</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="Armed Forces (Canada, Europe, Africa, or Middle East)">Armed Forces (Canada, Europe, Africa, or Middle East)</option><option value="Armed Forces Americas">Armed Forces Americas</option><option value="Armed Forces Pacific">Armed Forces Pacific</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Federated States of Micronesia">Federated States of Micronesia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Marshall Islands">Marshall Islands</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Mariana Islands">Northern Mariana Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Palau">Palau</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virgin Islands">Virgin Islands</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option><option value="Alberta">Alberta</option><option value="British Columbia">British Columbia</option><option value="Manitoba">Manitoba</option><option value="New Brunswick">New Brunswick</option><option value="Newfoundland and Labrador">Newfoundland and Labrador</option><option value="Nova Scotia">Nova Scotia</option><option value="Northwest Territories">Northwest Territories</option><option value="Nunavut">Nunavut</option><option value="Ontario">Ontario</option><option value="Prince Edward Island">Prince Edward Island</option><option value="Quebec">Quebec</option><option value="Saskatchewan">Saskatchewan</option><option value="Yukon">Yukon</option></select>
+              <input type="text" class="form-control" data-edit="postal_code" placeholder="Zip" />
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Type of LRP</div>
+            </div>
+            <select class="form-control" data-edit="type_of_lrp_" required><option value="">- Select -</option><option value="Not Applicable">Not Applicable</option><option value="Clinical Research">Clinical Research</option><option value="Pediatric Research">Pediatric Research</option><option value="Health Disparities Research">Health Disparities Research</option><option value="Clinical Research for Individuals from Disadvantaged Backgrounds">Clinical Research for Individuals from Disadvantaged Backgrounds</option><option value="Contraception and Infertility Research">Contraception and Infertility Research</option><option value="Research in Emerging Areas Critical to Human Health">Research in Emerging Areas Critical to Human Health</option></select>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Year(s) Received</div>
+            </div>
+            <input type="text" class="form-control" data-edit="year_s_received_lrp" pattern="^[0-9, -]+$" title="Please insert a range/list of ranges in the format xxxx-xxxx, xxxx-xxxx" />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Research Interest</div>
+            </div>
+            <input type="text" class="form-control" data-edit="primary_research_interest" pattern="^[a-zA-Z ,.'-\/]+$" title="Allowed characters: , . ' - /" />
+          </div>
+          <div class="d-flex align-items-center">
+            <strong>Application Status: </strong>
+            <select class="form-control ml-3 w-50 mr-auto" data-edit="approve_deny">
+              <option value="">Pending</option>
+              <option value="Approved">Approved</option>
+              <option value="Denied">Denied</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-between align-items-center">
+          <div class="loading">
+            <i class="fas fa-spinner" style="display: none;"></i>
+            <span class="text-success" style="display: none;">Saved. Refreshing table...</span>
+            <span class="text-danger" style="display: none;">An error has occurred. Please try again.</span>
+          </div>
+          <div>
+            <button class="btn cancel btn-outline-opaque" data-dismiss="modal" type="button">Cancel</button>
+            <input type="submit" class="btn btn-fifth" value="Save">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form></div>
+      
+            <div class="bootstrap-modals__field-body-6"><!-- External Link Modal | Must Always be the last modal (put this code in the last Body Input on this page) -->
+<div aria-hidden="true" aria-labelledby="externalLinkModalLabel" class="modal fade in" id="externalLinkModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog mt-5">
+    <div class="modal-content shadow">
+      <div class="modal-header align-items-center border-0 bg-fifth">
+        <h2 class="modal-title" id="externalLinkModalLabel">External Link Disclaimer</h2>
+        <button aria-label="Close" class="close" data-dismiss="modal" value="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body p-4">
+        <ul class="squares">
+          <li>This graphic notice (exit link icon) means that you are leaving the NIH Loan Repayment Programs Web site and going to a non-federal Web site.</li>
+          <li>This external Web site provides additional information that is consistent with the intended purpose of the NIH Loan Repayment Programs.</li>
+          <li>The NIH Loan Repayment Programs cannot attest to the accuracy of a non-federal Web site.</li>
+          <li>Linking to a non-federal site does not constitute an endorsement by NIH Loan Repayment Programs or any of its employees of the sponsors or the information and products presented on the site.</li>
+          <li>You will be subject to the destination site's privacy policy when you follow the link.</li>
+        </ul>
+      </div>
+
+      <div class="modal-footer border-0 bg-fifth"><button class="btn btn-outline-light" data-dismiss="modal" type="button">Close</button></div>
+    </div>
+  </div>
+</div>
+</div>
+      
+  
+  </div>
+
+
+          </div>
+        </div>
+      </footer>
+    
+</div>
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/25","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"q":"az-index"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"1689c06d7084b07716eeef6cdc555334f4e7e04c5a41ecae353ccf55a4fa7b82"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.8"></script>
+<script src="/core/misc/drupal.js?v=9.5.8"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.8"></script>
+<script src="/themes/radix_lrp/assets/js/radix_lrp.script.js?v=9.5.8"></script>
+
+
+  </body>
+</html>

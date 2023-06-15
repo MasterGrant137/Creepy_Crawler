@@ -1,0 +1,14 @@
+Content-Length: 13184
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Set-Cookie: ASP.NET_SessionId=1dvnfbvijj5zfbj5wis5jqer; path=/; secure; HttpOnly; SameSite=Lax
+Set-Cookie: ASP.NET_SessionId=1dvnfbvijj5zfbj5wis5jqer; path=/; secure; HttpOnly; SameSite=Lax
+Set-Cookie: __AntiXsrfToken=d571e56f26cf45bd9d11c1e6f0f1d565; path=/; secure; HttpOnly
+X-Powered-By: ASP.NET
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Strict-Transport-Security: max-age=157680000; preload
+Server: 
+Date: Tue, 13 Jun 2023 07:51:43 GMT

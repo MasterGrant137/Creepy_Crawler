@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://womeninscience.nih.gov', 'method': 'GET', 'status': 200, 'response_url': 'https://womeninscience.nih.gov', 'timestamp': 1686335528.79916}
+=======
+{'url': 'https://womeninscience.nih.gov', 'method': 'GET', 'status': 200, 'response_url': 'https://womeninscience.nih.gov', 'timestamp': 1686467600.694177}
+>>>>>>> fix/seo-1

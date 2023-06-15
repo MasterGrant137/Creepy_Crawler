@@ -1,0 +1,14 @@
+Content-Length: 238
+Age: 1175402
+Cache-Control: max-age=1209600
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 30 May 2023 17:20:01 GMT
+Expires: Tue, 13 Jun 2023 17:20:01 GMT
+Location: https://edi.nih.gov/robots.txt
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 111
+X-Content-Type-Options: nosniff
+X-Request-Id: v-35a10b4e-ff0e-11ed-831f-3350c9723bdb

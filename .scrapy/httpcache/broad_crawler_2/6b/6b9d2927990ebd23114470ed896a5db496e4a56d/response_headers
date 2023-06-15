@@ -1,0 +1,13 @@
+Server: nginx
+Date: Sun, 11 Jun 2023 07:13:52 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+Vary: Cookie
+X-Hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+Host-Header: WordPress.com
+Link: <https://directorsblog.nih.gov/wp-json/>; rel="https://api.w.org/"
+Link: <https://directorsblog.nih.gov/wp-json/wp/v2/pages/10081>; rel="alternate"; type="application/json"
+Link: <https://wp.me/P3ucSF-2CB>; rel=shortlink
+Content-Encoding: gzip
+X-Ac: 5.bur _atomic_bur BYPASS

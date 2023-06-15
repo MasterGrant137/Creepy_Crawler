@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.cdc.gov/coronavirus/2019-ncov/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2Findex.html', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cdc.gov/coronavirus/2019-ncov/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2Findex.html', 'timestamp': 1686286112.416378}
+=======
+{'url': 'https://www.cdc.gov/coronavirus/2019-ncov/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2Findex.html', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cdc.gov/coronavirus/2019-ncov/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2Findex.html', 'timestamp': 1686467599.2080698}
+>>>>>>> fix/seo-1

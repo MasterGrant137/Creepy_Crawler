@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://twitter.com/NCICCR_WMB', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NCICCR_WMB', 'timestamp': 1686287409.264031}
+=======
+{'url': 'https://twitter.com/NCICCR_WMB', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NCICCR_WMB', 'timestamp': 1686467788.122543}
+>>>>>>> fix/seo-1

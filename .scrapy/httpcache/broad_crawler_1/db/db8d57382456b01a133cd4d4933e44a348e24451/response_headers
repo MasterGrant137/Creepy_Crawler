@@ -1,0 +1,10 @@
+Date: Tue, 13 Jun 2023 07:50:05 GMT
+Content-Type: text/plain
+Set-Cookie: CookieConsentPolicy=0:1; path=/; expires=Wed, 12-Jun-2024 07:50:05 GMT; Max-Age=31536000
+Set-Cookie: LSKey-c$CookieConsentPolicy=0:1; path=/; expires=Wed, 12-Jun-2024 07:50:05 GMT; Max-Age=31536000
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Server: sfdcedge
+X-Sfdc-Request-Id: 4ba0bf4f9b3a8282f75770a47d13e768

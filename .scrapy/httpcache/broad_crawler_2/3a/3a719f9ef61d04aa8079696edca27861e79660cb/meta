@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://ntp.niehs.nih.gov/robots.txt', 'method': 'GET', 'status': 200, 'response_url': 'https://ntp.niehs.nih.gov/robots.txt', 'timestamp': 1686287717.5996218}
+=======
+{'url': 'https://ntp.niehs.nih.gov/robots.txt', 'method': 'GET', 'status': 200, 'response_url': 'https://ntp.niehs.nih.gov/robots.txt', 'timestamp': 1686467633.0083961}
+>>>>>>> fix/seo-1

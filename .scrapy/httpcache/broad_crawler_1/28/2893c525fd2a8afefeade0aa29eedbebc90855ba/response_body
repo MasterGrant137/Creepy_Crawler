@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+  <script src="/core/assets/vendor/jquery/jquery.min.js?v=3.5.1"></script>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/era2019/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://www.era.nih.gov/node/1" />
+<link rel="shortlink" href="https://www.era.nih.gov/node/1" />
+
+    <title>Home | eRA</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/modules/extlink/extlink.css?rvshc7" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.css" integrity="sha256-0XAFLBbK7DgQ8t7mRWU5BF2OMm9tjtfH945Z7TTeNIo=" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap.css" integrity="sha512-j4mdyNbQqqp+6Q/HtootpbGoc2ZX0C/ktbXnauPFEz7A457PB6le79qasOBVcrSrOBtGAm0aVU2SOKFzBl6RhA==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="/themes/era2019/css/style.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/themes/era2019/css/view.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/themes/era2019/css/responsiveness.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/themes/era2019/css/redesign2022.css?rvshc7" />
+<link rel="stylesheet" media="all" href="/themes/era2019/css/redesign2022scss.css?rvshc7" />
+<link rel="stylesheet" media="all" href="https://use.typekit.net/iur2uiz.css" />
+<link rel="stylesheet" media="all" href="https://use.typekit.net/fnh5uoh.css" />
+<link rel="stylesheet" media="all" href="https://use.typekit.net/ros0tnl.css" />
+
+   
+      <!-- GTM -->
+      <!-- ADDED ON 05/01/2023 -->
+      <!-- All services and snippets (AKA tags) have been removed from this file -->
+      <!-- They are handled in the ralated container in Google Tag Manger -->
+      <!-- Google Tag Manager -->
+      <script>(function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+              'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8NWC3');</script>
+      <!-- End Google Tag Manager -->
+
+      
+
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <link rel="stylesheet" href="/libraries/baguetteBox/dist/baguetteBox.css">
+      <script src="/libraries/baguetteBox/dist/baguetteBox.js" async></script>
+  </head>
+  <body class="path-frontpage page-node-type-page has-glyphicons">
+
+
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <!--Logo, search, high level links in the top right -->
+
+
+
+<div id="top-links">
+  <div class="top-links-wrapper">
+    <div class="gov-site">
+      <img src="/images/2022_img/us-flag.png" alt="usa flag" />
+      <div id="us-gov-site">An official website of the United States government
+        <div id="how-you-know">
+          <span id="tag">Here's how you know</span>
+          <div id="how-you-know-sign-down">
+            <img src="/images/2022_img/chevron-down.svg" alt="" />
+          </div> 
+          <div id="how-you-know-sign-up">
+            <img src="/images/2022_img/chevron-up.svg" alt="" />
+          </div>             
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="hhs-nih-leyend">
+      <span><a href="https://www.hhs.gov"><img src="/themes/era2019/images/hhsfavicon.png" class="topnav-icon-hhs" width="20px" height="20px" alt=""/>U.S. Department of Health and Human Services</a></span>
+      <span><a href="https://www.nih.gov"><img src="/themes/era2019/images/nihfavicon.png" class="topnav-icon-nih" width="28px" height="20px" alt=""/>National Institutes of Health</a></span>
+      <span><a href="https://grants.nih.gov"><img src="/themes/era2019/images/nihfavicon.png" class="topnav-icon-nih" width="28px" height="20px" alt=""/>NIH Grants and Funding</a></span>
+    </div>
+  </div>
+</div>
+<div class="us-gov-site-note">
+  <div class="note-wrapper">
+  <div class="section">
+    <div class="gov-icon">
+      <img src="/images/2022_img/icon-dot-gov.svg" alt="" />
+    </div>
+    <div class="content">
+      <div class="title">
+        The .gov means it’s official.
+      </div>
+      <div class="description">
+        Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="gov-icon">
+      <img src="/images/2022_img/icon-https.svg" alt="" />
+    </div>
+    <div class="content">
+      <div class="title">
+        The site is secure.
+      </div>
+      <div class="description">
+        Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="brand-search">
+  <div class="logo"><a href="/"><img src="/images/2022_img/logo.png"/ alt="era logo"></a></div>
+  <div class="logins">
+    <div class="commons-login"><a href="https://public.era.nih.gov/commons/" target="_blank" style="color:#fff"><span class="fas fa-lock"></span>&nbsp;&nbsp;Commons Login</a></div>
+    <div class="assist-login"><a href="https://public.era.nih.gov/assist" target="_blank" style="color:#fff"><span class="fas fa-lock"></span>&nbsp;&nbsp;ASSIST Login</a></div>
+  </div>
+  <div class="search-sub-menu">
+    <div class="search">
+    <form accept-charset="UTF-8" action="//search.usa.gov/search" id="search_form" method="get" name="formSearch">
+      <label for="query" class="hide"> Search this site </label>
+      <input autocomplete="on" class="usagov-search-autocomplete" id="query" name="query" type="text" size="42" maxlength="255" style="padding: 5px;    margin-right: -8px;" onfocus="if(this.value=='Search this Site')this.value='';" value="Search this Site">
+      <input type="hidden" name="site" value="ERA_ALL">
+      <input id="affiliate" name="affiliate" type="hidden" value="era.nih.gov">
+    
+    <script type="text/javascript">
+    //<![CDATA[
+          var usasearch_config = { siteHandle:"era.nih.gov" };
+
+          var script = document.createElement("script");
+          script.type = "text/javascript";
+          script.src = "//search.usa.gov/javascripts/remote.loader.js";
+          document.getElementsByTagName("head")[0].appendChild(script);
+
+    //]]>
+    </script>
+
+      <i class="fa fa-fw fa-search" style="margin-left: -20px;" id="Go" name="commit"></i></form></div>
+     
+    <div class="sub-menu-search">
+      <ul class="sub-menu-list">
+        <li><a href="/faqs.htm" style="color:black !important">FAQS</a></li>
+        <li><a href="/about-era/get-connected.htm" style="color:black !important">Subscribe</a></li>
+        <li><a href="https://grants.nih.gov/grants/glossary.htm" style="color:black !important">Glossary</a></li>
+        <li><a href="https://inside.era.nih.gov" target="_blank" style="color:black !important"><img src="/themes/era2019/images/lock.png" width="14px" height="14px" style="margin-top: -4px;" alt="lock icon"> eRA Intranet</a></li>
+        <li style="border-right:none;"><a href="https://www.era.nih.gov/need-help" style="color:#CD040B;">Need Help?</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<style>
+
+
+
+</style>
+   <script type="text/javascript" src="/libraries/jquery-accessible-subnav-dropdown/jquery-accessible-subnav-dropdown.js"></script>
+
+
+      
+<!-- Main nav -->
+
+<div class="mobile-menu-area"  onclick="mobileview()"> <a href="javascript:void(0);" style="font-size:15px;margin-left:10px;color:#000" class="icon" >&#9776;</a> <a href="/search" style="font-size:15px;float:right; position: absolute; right: 0%;margin-right:10px;color:#000" class="search-icon" onclick="mobileview()"><i class="fa fa-fw fa-search"></i><span class="sr-only">Search</span></a>  </div>
+<div class="topnav" id="myTopnav">   <div class="centered-menu js-nav-system"> <a href="#" style="display:none"><span class="sr-only">Home</span></a> <a href="/" class="homeactiveitem mainmenu js-nav-system__link">Home</a>  
+    <div class="grantees js-nav-system__item"> <a href="/eracommons-timeline.htm" class="mainmenu js-nav-system__link " style="text-transform:none">NEW TO eRA COMMONS</a></div>
+    <div class="applicants js-nav-system__item"> <a href="/applicants" class="mainmenu js-nav-system__link ">Applicants</a>
+      <div class="applicants-menu hide js-nav-system__subnav">
+        <div class="sub-section-how-to-apply">
+          <h4>To Apply</h4>
+
+
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="https://grants.nih.gov/grants/How-to-Apply-Application-Guide.htm" class="js-nav-system__subnav__link">How to Apply — Application Guide</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="https://grants.nih.gov/grants/how-to-apply-application-guide/prepare-to-apply-and-register/submission-options/assist.htm" class="js-nav-system__subnav__link">Preparing Your Application Using ASSIST</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/applicants/system" class="js-nav-system__subnav__link">Information for System-to-System Developers</a></div>
+
+
+          
+
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/applicants/sek-prior-approval-applicants.htm" class="js-nav-system__subnav__link">Seek Prior Approval for Withdrawal of Application</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/applicants/reference-letter.htm" class="js-nav-system__subnav__link">Have a Referee Submit A Reference Letter (If Needed)</a></div>
+
+        </div>
+        <div class="sub-section-after-submission">
+          <h4>After Submission</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="https://grants.nih.gov/grants/how-to-apply-application-guide/submission-process/submit-track-view.htm" class="js-nav-system__subnav__link">Submit, Track, and View Application</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/applicants/view-ss-scores.htm" class="js-nav-system__subnav__link">View Review Outcome</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/applicants/submit-jit.htm" class="js-nav-system__subnav__link">Submit Just-in-Time (If Needed)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/view-notice-of-award.htm" class="js-nav-system__subnav__link">View Notice of Award</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="grantees js-nav-system__item"> <a href="/recipients" class="mainmenu js-nav-system__link  ">Recipients</a>
+      <div class="grantees-menu hide js-nav-system__subnav">
+        <!--<div class="sub-section-grantees" style="width: 40%;">
+         
+                    <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/view-notice-of-award.htm" class="js-nav-system__subnav__link">View Notice of Award</a></div>
+
+        </div>-->
+        <div class="sub-section-post-award-actions">
+          <h4>Post-Award Actions</h4>
+           <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/view-notice-of-award.htm" class="js-nav-system__subnav__link">View Notice of Award</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-reports" class="js-nav-system__subnav__link">Submit Reports</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/manage-publications.htm" class="js-nav-system__subnav__link">Manage Publications</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-no-cost-ext.htm" class="js-nav-system__subnav__link">Submit No Cost Extensions</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="https://era.nih.gov/iedison/iedison.htm" class="js-nav-system__subnav__link">Report Inventions (If Needed)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-relinq-statement.htm" class="js-nav-system__subnav__link">Submit Relinquishing Statement (If Needed)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="https://grants.nih.gov/grants/administrative-supplements.htm" class="js-nav-system__subnav__link">Submit Administrative Supplements</a></div>
+       <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/seek-prior-approval-for-withdrawal-of-grant" class="js-nav-system__subnav__link">Seek Prior Approval (If Needed)</a></div>
+           <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/manage-trainees-fellows.htm" class="js-nav-system__subnav__link">Manage Trainees, and Fellows</a></div>
+        </div>
+        <div class="sub-section-submit-closeout">
+          <h4>Closeout</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-closeout.htm" class="js-nav-system__subnav__link">Submit Closeout</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/financial-status-report.htm" class="js-nav-system__subnav__link">Submit Federal Financial Report (FFR)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-final-rppr.htm" class="js-nav-system__subnav__link">Submit Final RPPR</a></div>
+		   <div class="sub-section-item js-nav-system__subnav__item"><a href="/recipients/submit-final-invention-statement.htm" class="js-nav-system__subnav__link">Submit Final Invention Statement  </a></div>
+
+       
+<div style="border: 3px solid #268167;
+    padding: 10px;
+    margin-top: 30px;"><a href="/recipients/submitting-data-on-r-and-d-contracts">Submitting Data on R&D Contracts</a></div>
+
+        </div>
+      </div>
+    </div>
+    <div class="reviewers js-nav-system__item"><a href="/reviewers" class="mainmenu js-nav-system__link ">Reviewers</a>
+      <div class="reviewers-menu hide js-nav-system__subnav">
+        <div class="sub-section-premeeting">
+          <h4>Pre-Meeting</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/access-iar.htm" class="js-nav-system__subnav__link">Access IAR</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/personal-profile.htm" class="js-nav-system__subnav__link">Fill out Personal Profile; Reviewer Reimbursement Info</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/certify-confidentiality-statement.htm" class="js-nav-system__subnav__link">Certify Confidentiality Statement</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/check-conflicts.htm" class="js-nav-system__subnav__link">Check Conflicts (Recruitment Phase)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewer/pre-meeting-coi.htm" class="js-nav-system__subnav__link">Certify Pre-Meeting COI</a></div>
+
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/access-meeting-materials.htm" class="js-nav-system__subnav__link">Access Meeting Materials</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/access-applications.htm" class="js-nav-system__subnav__link">Access Applications</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/access-critique-templates.htm" class="js-nav-system__subnav__link">Access Critique Template(s)</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/critique-scores.htm" class="js-nav-system__subnav__link">Submit &amp; Manage Critiques, Scores</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/view-all-critiques.htm" class="js-nav-system__subnav__link">View Other Reviewers Critiques</a></div>
+        </div> 
+        <div class="sub-section-atmeeting" style="margin-bottom: 60px;" >
+          <h4>At Meeting</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/submit-final-scores.htm" class="js-nav-system__subnav__link">Submit Final Scores</a></div>
+        </div>
+        <div class="sub-section-postmeeting" style="clear: right;">
+          <h4>Post-Meeting</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/post-meeting-coi.htm" class="js-nav-system__subnav__link">Certify Post-Meeting COI</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/reviewers/edit-critiques.htm" class="js-nav-system__subnav__link">Edit Critiques</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="manage-accounts js-nav-system__item"> <a href="/register-accounts" class="mainmenu js-nav-system__link ">Accounts</a>
+      <div class="manage-accounts-menu hide js-nav-system__subnav">
+        <div class="sub-section-how-to">
+          <h4>How to</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/understanding-era-commons-accounts.htm" class="js-nav-system__subnav__link">Understanding eRA Commons Accounts</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/register-in-era-commons.htm" class="js-nav-system__subnav__link">Register in eRA Commons</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/manage-institutional-profile.htm" class="js-nav-system__subnav__link">Manage Institutional Profile</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/access-era-modules-via-login-gov.htm" class="js-nav-system__subnav__link">Two-Factor Authentication: <br> Access eRA Modules via Login.gov</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/access-modules-with-federated-account.htm" class="js-nav-system__subnav__link">Two-Factor Authentication: <br> Access eRA Modules via an InCommon Federated Account</a></div>
+        </div>
+        <div class="sub-section-manage-accounts">
+          <h4>Manage Accounts</h4>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/create-and-edit-an-account.htm" class="js-nav-system__subnav__link">Create and Edit an Account</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/account-roles.htm" class="js-nav-system__subnav__link">Account Roles</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/manage-delegation.htm" class="js-nav-system__subnav__link">Manage Delegation</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/manage-personal-profile.htm" class="js-nav-system__subnav__link">Manage Personal Profile</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/change-password.htm" class="js-nav-system__subnav__link">Change Password</a></div>
+          <div class="sub-section-item js-nav-system__subnav__item"><a href="/register-accounts/affiliation.htm" class="js-nav-system__subnav__link">Manage Affiliation</a></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="/news" class="mainmenu js-nav-system__link ">News</a>
+    
+        
+    <a href="/about-era" class="mainmenu js-nav-system__link ">About <span style="text-transform: lowercase;">e</span>RA | AGENCY PARTNERSHIP</a> </div>
+
+
+
+<a href="/faqs.htm" class="mainmenu js-nav-system__link mobile-only">FAQs</a>
+<a href="/about-era/get-connected.htm" class="mainmenu js-nav-system__link mobile-only">Subscribe</a>
+<a href="https://grants.nih.gov/grants/glossary.htm" class="mainmenu js-nav-system__link mobile-only">Glossary</a>
+<a href="https://inside.era.nih.gov/" class="mainmenu js-nav-system__link mobile-only">eRA Intranet</a>
+<a href="https://www.era.nih.gov/need-help" class="mainmenu js-nav-system__link mobile-only">Need Help?</a>
+
+
+</div>
+<div style="height:4px; background-color:#41505f"></div>
+ 
+<!--Gray background for breadcrumbs that does not display on the home page--> 
+<!--Add some margin to bring down the h1 text-->
+<style>
+    .page-header {margin-top:35px}
+    </style>
+    
+
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  <div role="main" class="main-container container js-quickedit-main-content">
+    <div class="row">
+
+                              <div class="col-sm-12" role="heading">
+              <div class="region region-header">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+          </div>
+              
+            
+                  <section class="col-sm-12">
+      
+          <div class="page-wrapper">
+  <div class="landing-page">
+    <div class="hero-block-wrapper">
+      <div class="hero-right-background"></div>
+      <div class="hero-head-wrapper">
+        <div class="hero-left-wrapper">
+          <div class="sub-slogan1">End-to-End Grants Management Solutions</div>
+          <div class="slogan">Offering Powerful Grants Lifecycle Solutions</div>
+          <div class="sub-slogan2">
+            Mission critical support for over $39.6 billion in grants awarded
+            by federal agencies.
+          </div>
+          <a class="learn-more-button" href="/about-era">LEARN MORE</a>
+        </div>
+        <div class="hero-right-wrapper">
+          <div class="hero-image-stack">
+            <div id="first">
+              <img src="/images/screen1@2x.png" alt="era first image" />
+            </div>
+            <div id="second">
+              <img src="/images/screen2@2x.png" alt="era second image" />
+            </div>
+            <div id="third">
+              <img src="/images/screen3@2x.png" alt="era third image" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-footer">
+        <h3>READ MORE</h3>
+        <img
+          id="down-arrow"
+          src="/images/read-more-arrow@2x.png"
+          alt="Read more"
+        />
+      </div>
+    </div>
+    <a id="getstarted"></a>
+    <div class="section-wrapper get-started-section">
+      <h2 class="section-header">Get Started</h2>
+      <p class="description">
+        Providing information and resources to help applicants and recipients
+        navigate eRA systems during the grants lifecycle, as well as help
+        reviewers during the application review process.
+      </p>
+      <div class="icon-block-wrapper">
+        <a class="icon-wrapper" href="/eracommons-timeline.htm">
+          <div class="icon">
+            <img src="/images/newtoera-white@2x.png" alt="" />
+          </div>
+          <div class="caption">New to eRA Commons?</div>
+        </a>
+        <a class="icon-wrapper" href="/applicants">
+          <div class="icon">
+            <img src="/images/applicants-white@2x.png" alt="" />
+          </div>
+          <div class="caption">Applicants</div>
+        </a>
+        <a class="icon-wrapper" href="/grantees">
+          <div class="icon">
+            <img src="/images/grantees-white@2x.png" alt="" />
+          </div>
+          <div class="caption">Recipients</div>
+        </a>
+        <a class="icon-wrapper" href="/reviewers">
+          <div class="icon">
+            <img src="/images/reviewers-white@2x.png" alt="" />
+          </div>
+          <div class="caption">Reviewers</div>
+        </a>
+        <a class="icon-wrapper" href="/about-era#agency-partnerships">
+          <div class="icon">
+            <img
+              src="/images/partner-icon@2x.png"
+              alt=""
+              style="width: 68px"
+            />
+          </div>
+          <div class="caption">Partners</div>
+        </a>
+      </div>
+    </div>
+    <div class="section-wrapper need-help-section">
+      <div class="section-sub-wrapper">
+        <div class="section-header">Need Help Navigating eRA Systems?</div>
+        <p>
+          Get a deeper understanding of eRA modules, from checking the status of
+          applications in eRA Commons to submitting critiques in IAR, with our
+          handy resources.
+        </p>
+        <div class="side-arrow">
+          <img
+            src="/images/Icon ionic-ios-arrow-round-forward-white@2x.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <a class="section-sub-wrapper white-card" href="/help-tutorials">
+        <img src="/images/help-tut-icon@2x.png" alt="help and tutorial"/>
+        <div class="title">Help & Tutorials</div>
+        <div class="description">
+          Step-by-step instructions in our online help (user manuals) and video
+          tutorials to help you find your way
+        </div>
+      </a>
+      <a class="section-sub-wrapper white-card" href="/faqs.htm">
+        <img
+          src="/images/faq-icon@2x.png"
+          style="width: 60px; margin-top: -24px" alt ="faqs"
+        />
+        <div class="title">FAQs</div>
+        <div class="description">
+          Have a question? We have you covered in our Frequently Asked
+          Questions.
+        </div>
+      </a>
+    </div>
+    <div class="section-wrapper p-0">
+      <div class="content-wrapper-news">
+        <div class="latest-news">
+          <div class="header">
+            <div class="title">What's New?</div>
+            <img src="/images/whats-new@2x.png" alt="" />
+          </div>
+          <section class="views-element-container block block-views block-views-blocknews-block-1 clearfix" id="block-views-block-news-block-1">
+  
+    
+
+      <div class="form-group"><div class="view view-news view-id-news view-display-id-block_1 js-view-dom-id-59d6539e6ea2ca92ab6eb820fb14a2af9b15e18027e578abf2e4a5346df844ee">
+  
+    
+      <div class="view-header">
+      <style>/*.view-id-news .view-content {height:150px}*/</style>
+    </div>
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-new-contracts-screen-link-era-commons-improving-nih-rd-contracts-data-pilot" hreflang="en">eRA Information: New Contracts Screen &amp; Link in eRA Commons for Improving NIH R&amp;D Contracts Data; Pilot Program to Begin May 15</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/11/2023</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-information-select-withdrawn-nih-applications-will-display-grant-number-appended-d-era" hreflang="en">eRA Information: Select Withdrawn NIH Applications Will Display a Grant Number Appended with ‘D’ in eRA Commons Effective April 26</a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/25/2023</span></span></li>
+          <li><span class="views-field views-field-title"><span class="field-content"><a href="/news/era-alert-intermittent-difficulty-accessing-grantsgov-reminder-nih-system-issue-policy.htm-0" hreflang="en">eRA Alert: Intermittent Difficulty Accessing Grants.gov; Reminder of NIH System Issue Policy </a></span></span> - <span class="views-field views-field-field-date"><span class="field-content">04/04/2023</span></span></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+          <div class="view-more">
+            <a href="/news">VIEW MORE</a>
+          </div>
+        </div>
+        <div class="latest-postings">
+          <div class="header">
+            <div class="title">Latest Postings</div>
+            <img src="/images/latest-posting@2x.png" alt="" />
+          </div>
+          <section class="views-element-container block block-views block-views-blocknews-block-2 clearfix" id="block-views-block-news-block-2">
+  
+    
+
+      <div class="form-group"><div class="view view-news view-id-news view-display-id-block_2 js-view-dom-id-765230fd6ce1778b026a9ad6489ba608ab883d373d0400a3d6c747bc37a67e12">
+  
+    
+      
+      <div class="view-content">
+      <div class="item-list">
+  
+  <ul>
+
+          <li><span class="views-field views-field-body"><span class="field-content"><a href="https://www.era.nih.gov/erahelp/commons/">eRA Commons online help</a> posted
+</span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/17/2023</span></span></li>
+          <li><span class="views-field views-field-body"><span class="field-content"><a href="https://www.era.nih.gov/erahelp/commons/">eRA Commons online help</a> posted
+</span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/15/2023</span></span></li>
+          <li><span class="views-field views-field-body"><span class="field-content">Updated <a href="https://www.era.nih.gov/erahelp/lrp/">Loan Repayment Program online help</a>
+</span></span> - <span class="views-field views-field-field-date"><span class="field-content">05/05/2023</span></span></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+          <div class="view-more">
+            <a href="/latest-postings.htm">VIEW MORE</a>
+          </div>
+        </div>
+        <div class="deployment-wrapper">
+          <a class="deployment-calendar" href="/calendar">
+            <div class="header">
+              <div class="title">
+                <span class="highlight">Deployment Maintenance Calendar</span>
+              </div>
+              <img
+                src="/images/calendar@2x.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <div class="seminar-banner"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .main-container {
+    max-width: 100%;
+  }
+</style>
+
+<script>
+  $(document).ready(function () {
+    $("img").hover(function () {
+      var temp = $(this).attr("src");
+      $(this).attr("src", $(this).attr("data-alt-src"));
+      $(this).attr("data-alt-src", temp);
+    });
+    $("#down-arrow").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#getstarted").offset().top,
+        },
+        2000
+      );
+    });
+  });
+</script>
+    
+                
+                
+                          <a id="main-content"></a>
+            <div class="region region-content">
+      <article data-history-node-id="1" role="article" about="/node/1" typeof="schema:WebPage" class="page full clearfix">
+
+  
+      <span property="schema:name" content="Home" class="hidden"></span>
+
+
+  
+  <div class="content">
+    
+  </div>
+
+</article>
+
+
+  </div>
+
+        
+     
+        
+        
+  
+  
+  
+<!-- Embeded survey --> 
+	<div id="embed-survey" style="clear:left; margin-top:20px"></div> 
+
+         
+
+      </section>
+
+                </div>
+  </div>
+
+
+
+
+ <div class ="page-updated">
+          This page last updated on  January 4, 2021<br>
+      Technical Issues: <a href="mailto:OERWebmaster03@od.nih.gov">E-mail OER Webmaster</a>
+      </div>
+  
+
+
+
+  </div>
+
+    
+
+    
+<script>
+$(document).ready(function(){
+
+
+
+
+
+
+  //This toggles the leftnav for the Reviewers section
+  $(".main-section-premeeting h4, .main-section-premeeting .arrows").click(function(){
+    $(".main-section-premeeting .section-item").slideToggle("slow");
+  
+    $(".main-section-premeeting .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+   $(".main-section-atmeeting h4, .main-section-atmeeting .arrows").click(function(){
+    $(".main-section-atmeeting .section-item").slideToggle("slow");
+    $(".main-section-atmeeting .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+   $(".main-section-postmeeting h4, .main-section-postmeeting .arrows").click(function(){
+    $(".main-section-postmeeting .section-item").slideToggle("slow");
+    $(".main-section-postmeeting .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+
+ //This toggles the leftnav for the Applicants section
+  $(".main-section-how-to-apply h4, .main-section-how-to-apply .arrows").click(function(){
+    $(".main-section-how-to-apply .section-item").slideToggle("slow");
+    $(".main-section-how-to-apply .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+   $(".main-section-after-submission h4, .main-section-after-submission .arrows").click(function(){
+    $(".main-section-after-submission .section-item").slideToggle("slow");
+    $(".main-section-after-submission .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+
+   //This toggles the leftnav for the Grantees section
+  $(".main-section-post-award-actions h4, .main-section-post-award-actions .arrows").click(function(){
+    $(".main-section-post-award-actions .section-item").slideToggle("slow");
+    $(".main-section-post-award-actions .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+   $(".main-section-submit-closeout h4, .main-section-submit-closeout .arrows").click(function(){
+    $(".main-section-submit-closeout .section-item").slideToggle("slow");
+    $(".main-section-submit-closeout .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+
+  //This toggles the leftnav for the Manage Accounts section
+  $(".main-section-how-to h4, .main-section-how-to .arrows").click(function(){
+    $(".main-section-how-to .section-item").slideToggle("slow");
+    $(".main-section-how-to .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+   $(".main-section-manage-accounts h4, .main-section-manage-accounts .arrows").click(function(){
+    $(".main-section-manage-accounts .section-item").slideToggle("slow");
+    $(".main-section-manage-accounts .arrows").find(".arrow-up, .arrow-down").toggle();
+  });
+
+
+// $('.applicants').hover(function(e) {
+  //  e.preventDefault();
+   //  $('.applicants-menu').stop().toggleClass('hide');
+  
+ // });
+
+ 
+ //$('.grantees').hover(function(e) {
+   //e.preventDefault();
+  //    $('.grantees-menu').stop().toggleClass('hide');
+        
+//});
+
+ //$('.reviewers').hover(function(e) {
+   // e.preventDefault();
+   //    $('.reviewers-menu').stop().toggleClass('hide');
+  //  });
+
+// $('.manage-accounts').hover(function(e) {
+ //  e.preventDefault();
+ //    $('.manage-accounts-menu').stop().toggleClass('hide');
+    
+//});
+
+// These are needed because the tab through menu feature does not load the hide 
+// submenu fast enough when the page loads, so the hide class is applied to all 
+// the submenus and then this code removes it so it does not interfer with the
+// keyboard tab feature. I know it sounds dumb but it works. ¯\_(ツ)_/¯  
+ 
+ $(".applicants-menu").removeClass("hide");
+ $(".grantees-menu").removeClass("hide");
+ $(".reviewers-menu").removeClass("hide");
+ $(".manage-accounts-menu").removeClass("hide");
+
+
+
+ $('.news').hover(function(e) {
+   e.preventDefault();
+     $('.news-menu').stop().toggleClass('hide');
+});
+
+ $('.help-and-tutorials').hover(function(e) {
+   e.preventDefault();
+     $('.help-and-tutorials-menu').stop().toggleClass('hide');
+});
+
+ $('.about').hover(function(e) {
+   e.preventDefault();
+     $('.about-menu').stop().toggleClass('hide');
+});
+
+
+//This adds the active-nav class to the items in the leftnav when the user is on that page
+  var loc = window.location.pathname;
+
+var segment_str = window.location.pathname; // return segment1/segment2/segment3/segment4
+var segment_array = segment_str.split( '/' );
+var last_segment_loc = segment_array[segment_array.length - 2];
+
+
+  $('.main-section-premeeting').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+          $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+   });
+
+   $('.main-section-atmeeting').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-postmeeting').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-how-to-apply').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-after-submission').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-grantees').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+      
+
+  });
+
+ $('.main-section-post-award-actions').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+     
+  });
+
+
+ // For leftnavs that have menu items which will have sub items instead of displaying them in the leftnav we want to highlight
+ // the parent item. To do this easier this looks at the parent url and applies several styles to get the gray highlight effect 
+if((window.location.href.indexOf("/grantees/submit-reports") > -1) || (window.location.href.indexOf("/recipients/submit-reports") > -1)){
+   
+  $('a[href^="/grantees/submit-reports"]').addClass("active-nav2");
+   $('a[href^="/recipients/submit-reports"]').addClass("active-nav2");
+
+    $(".active-nav").next("div").toggleClass("hide");
+    $(".active-nav2").next("div").toggleClass("hide");
+
+$(".js-nav-system__subnav__link.active-nav2").removeClass("active-nav2");
+$(".js-nav-system__subnav__link.active-nav").removeClass("active-nav");
+}
+  
+
+ // For leftnavs that have menu items which will have sub items instead of displaying them in the leftnav we want to highlight
+ // the parent item. To do this easier this looks at the parent url and applies several styles to get the gray highlight effect 
+if((window.location.href.indexOf("/grantees/seek-prior-approval-for-withdrawal-of-grant") > -1) || (window.location.href.indexOf("/recipients/seek-prior-approval-for-withdrawal-of-grant") > -1)){
+   
+  $('a[href^="/grantees/seek-prior-approval-for-withdrawal-of-grant"]').addClass("active-nav2");
+  $('a[href^="/recipients/seek-prior-approval-for-withdrawal-of-grant"]').addClass("active-nav2");
+
+    $(".active-nav").next("div").toggleClass("hide");
+    $(".active-nav2").next("div").toggleClass("hide");
+
+    $(".js-nav-system__subnav__link.active-nav2").removeClass("active-nav2");
+$(".js-nav-system__subnav__link.active-nav").removeClass("active-nav");
+
+}
+
+  // For leftnavs that have menu items which will have sub items instead of displaying them in the leftnav we want to highlight
+ // the parent item. To do this easier this looks at the parent url and applies several styles to get the gray highlight effect 
+if(window.location.href.indexOf("/applicants/system") > -1){
+   
+  $('a[href^="/applicants/system"]').addClass("active-nav2");
+
+    $(".active-nav").next("div").toggleClass("hide");
+    $(".active-nav2").next("div").toggleClass("hide");
+
+$(".js-nav-system__subnav__link.active-nav2").removeClass("active-nav2");
+$(".js-nav-system__subnav__link.active-nav").removeClass("active-nav");
+
+}
+
+
+
+  $('.main-section-submit-closeout').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-how-to').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+  $('.main-section-manage-accounts').find('a').each(function() {
+    $(this).toggleClass('active-nav', $(this).attr('href') == loc);
+     $(this).next("div").toggleClass('hide', $(this).attr('href') != loc);
+  });
+
+
+    baguetteBox.run('.baguetteBox', {
+    captions: function(element) {
+        return element.getElementsByTagName('img')[0].alt;
+    }
+});
+
+
+
+    onResize = function() {
+        if($(window).width() < 767) {
+          $('aside.first-sidebar').appendTo('section.col-sm-6');
+        } else {
+            $('aside.first-sidebar').insertBefore( $( 'section.col-sm-6' ) );
+        }
+    }
+
+    $(document).ready(onResize);
+    $(window).resize(onResize);
+
+    var delay = (function() {
+        var timer = 0;
+        return function(callback, ms){
+            clearTimeout(timer);
+            timer = setTimeout(callback, ms);
+        }
+    })();
+
+    $(window).resize(function() {
+        delay(function(){
+            onResize();
+        },100)
+    });
+
+});
+
+function mobileview() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+ //Use to give a pop up message for clicking on a link but web browsers do not like it and block it $('a').filter(function() {
+	  //  return this.hostname && this.hostname !== location.hostname;
+	//  })
+	 // .click(function () { 
+	//	  var x=window.confirm('You are leaving the eRA website. eRA has no control over the content of this site.  Click OK to proceed.');
+	//		var val = false;
+	//		if (x)
+	//			val = true;
+	//		else
+	//			val = false;
+	//		return val;
+ 
+      //  });
+
+     
+//if ($(window).width() < 767) {
+ 
+  //$('aside.col-sm-3').appendTo('section.col-sm-6');
+ // }
+  //else {
+
+//}
+
+
+//$(window).resize(function(){
+	//if ($(window).width() <= 767){	
+		// $('aside.col-sm-3').appendTo('section.col-sm-6'); }
+
+	//else {
+
+
+ 
+    //$('aside.col-sm-3').insertBefore( $( 'section.section.col-sm-6' ) ); 
+    
+  //}
+
+//});
+
+</script>     
+<div class="footer">
+
+
+        <style>
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+  
+   
+}
+
+#myBtn:hover {
+ /* background-color: #fff;*/
+}
+</style>
+<button onclick="topFunction();return false" id="myBtn" title="Go to top"><div style="padding-left: 5px;"><span><i class="fa fa-arrow-up" aria-hidden="true"></i>
+</span><br>Back <br>to top</div></button>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.documentElement.scrollTop > 100) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+var timeOut;
+function topFunction()  {
+		var position = document.body.scrollTop || document.documentElement.scrollTop;
+		if (position){
+			window.scrollBy(0,-Math.max(10, Math.floor(position / 10)));
+			scrollAnimation=setTimeout('topFunction()',10);
+		}
+		else clearTimeout(scrollAnimation);
+	}
+</script>
+
+
+
+
+    <div class="social-media">
+        <ul class="social-media-links">
+            <li><a href="https://grants.nih.gov/grants/contacts.htm"><i class="fas fa-envelope"></i> Contact Us</a></li>
+            <li><a class="bookmark" href="http://www.addthis.com/bookmark.php" target="_blank" rel="noopener noreferrer" onclick="addthis_url = location.href; addthis_title = document.title; return addthis_click(this);"><i class="fas fa-bookmark"></i> Bookmark &amp; Share</a></li>
+            <li><a href="https://grants.nih.gov/grants/listservs_and_rss.htm"><i class="fas fa-at"></i> E-mail Updates</a></li>
+            <li><a href="https://grants.nih.gov/grants/listservs_and_rss.htm"><i class="fas fa-rss-square"></i> RSS Feed</a></li>
+            <li><a href="https://grants.nih.gov/news/virtual-learning/podcasts.htm"><i class="fas fa-podcast"></i> Podcast</a></li>
+            <li><a href="https://twitter.com/NIHgrants"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+            <li style="border-right:0px"><a href="https://www.youtube.com/user/nihgrants"><i class="fab fa-youtube-square"></i> YouTube</a></li>
+        </ul>
+    </div>
+
+
+
+<div style="height:2.5px; background-color:#41505f"></div>
+
+<!--<div class="foot-logo">
+<img src="/themes/era2019/images/footer-logo.png" >
+</div>-->
+
+     <div class="contact-info" style="margin-top: 20px;">
+        <ul class="contact-info-links">
+            <li><a href="https://search.usa.gov/search/advanced?affiliate=grants.nih.gov">Search</a></li>
+            <li><a href="https://grants.nih.gov/grants/edocs.htm">Help Downloading Files</a></li>
+            <li><a href="https://grants.nih.gov/grants/disclaimer.htm">Disclaimer</a></li>
+            <li><a href="https://web.archive.org/web/*/era.nih.gov">Older Versions of this Page</a></li>
+            <li><a href="https://grants.nih.gov/grants/privacy.htm">Privacy Notice<a/></li>
+            <li><a href="https://grants.nih.gov/accessibility.htm">Accessibility</a></li>
+<li><a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure</a></li>
+            
+
+            <li style="border-right:0px"><a href="https://www.nih.gov/icd/od/foia/index.htm">FOIA</a></li>
+        </ul>
+
+        <ul class="contact-info-links">
+            <li><a href="https://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+            <li><a href="https://www.grants.gov/">Grants.gov</a></li>
+            <li style="border-right:0px"><a href="https://www.usa.gov/">USA.gov – Government Made Easy</a></li>
+        </ul>
+
+          <ul class="contact-info-links">
+            <li>National Institutes of Health (NIH), 9000 Rockville Pike, Bethesda, Maryland 20892</li>
+            <li style="border-right:0px">NIH... Turning Discovery Into Health</li>
+        </ul>
+    </div>
+
+
+
+</div>  
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/1","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":".logins, .help-body-grantees, .view-display-id-block_2","extCssExplicit":"","extAlert":false,"extAlertText":"You are leaving the eRA website. eRA has no control over the content of this site.  Click OK to proceed.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":["www.era.nih.gov","era.nih.gov"]}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"d31bc8ae3d5da7efeb38326e9e82157ff89297990f34e2aba33ec04fc77b1f99"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.6"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.9"></script>
+<script src="/core/misc/drupal.js?v=9.5.9"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.9"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.js" integrity="sha256-29KjXnLtx9a95INIGpEvHDiqV/qydH2bBx0xcznuA6I=" crossorigin="anonymous"></script>
+<script src="/themes/bootstrap/js/drupal.bootstrap.js?rvshc7"></script>
+<script src="/themes/bootstrap/js/attributes.js?rvshc7"></script>
+<script src="/themes/bootstrap/js/theme.js?rvshc7"></script>
+<script src="/themes/era2019/js/help-faqs.js?rvshc7"></script>
+<script src="/themes/era2019/js/bio.js?rvshc7"></script>
+<script src="/themes/era2019/js/govsite.js?rvshc7"></script>
+<script src="/modules/extlink/extlink.js?v=9.5.9"></script>
+<script src="/themes/bootstrap/js/popover.js?rvshc7"></script>
+<script src="/themes/bootstrap/js/tooltip.js?rvshc7"></script>
+
+
+  </body>
+</html>
+

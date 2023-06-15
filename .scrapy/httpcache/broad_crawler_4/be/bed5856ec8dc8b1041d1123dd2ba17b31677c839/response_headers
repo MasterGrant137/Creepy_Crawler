@@ -1,0 +1,14 @@
+Content-Length: 742
+Retry-After: 0
+Content-Type: text/plain
+Accept-Ranges: bytes
+Date: Fri, 09 Jun 2023 22:56:25 GMT
+X-Served-By: cache-bur-kbur8200041-BUR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686351385.070488,VS0,VE1
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT
+Access-Control-Allow-Headers: Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, Authorization
+Set-Cookie: geoCC=US; path=/
+Strict-Transport-Security: max-age=300

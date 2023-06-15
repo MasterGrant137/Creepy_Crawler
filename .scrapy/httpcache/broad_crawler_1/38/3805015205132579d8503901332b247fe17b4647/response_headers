@@ -1,0 +1,20 @@
+Content-Length: 165
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0
+Pragma: no-cache
+Content-Type: text/plain
+Expires: 0
+Last-Modified: Wed, 05 Apr 2023 19:57:57 GMT
+Accept-Ranges: bytes
+Etag: "b431d1eaf867d91:0"
+Server: Microsoft-IIS/8.5
+X-Ua-Compatible: IE=edge, chrome=1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: domain
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Content-Security-Policy: font-src 'self' fonts.googleapis.com ajax.googleapis.com use.fontawesome.com fonts.gstatic.com;              form-action 'self' websrch.cit.nih.gov;              style-src 'self' 'unsafe-hashes' 'sha256-lsY0Ge8Ztl86UOx+kXvqh5WQghl14I4vKjnutPnE5Dg=' 'sha256-aqNNdDLnnrDOnTNdkJpYlAxKVJtLt9CtFLklmInuUAE=' use.fontawesome.com fonts.googleapis.com ajax.googleapis.com;               script-src 'self' 'unsafe-eval' stg.spectrum.niaaa.cit.nih.gov www.google-analytics.com script.crazyegg.com  www.youtube.com dap.digitalgov.gov www.googletagmanager.com fonts.googleapis.com ajax.googleapis.com cdnjs.cloudflare.com;               default-src 'self' assets-tracking.crazyegg.com pagestates-tracking.crazyegg.com fonts.googleapis.com ajax.googleapis.com use.fontawesome.com www.google-analytics.com stats.g.doubleclick.net tracking.crazyegg.com script.crazyegg.com cdnjs.cloudflare.com;               img-src 'self' data: www.google-analytics.com www.googletagmanager.com;              media-src 'self';              frame-ancestors 'self'
+Cleartype: on
+Apple-Mobile-Web-App-Capable: yes
+Date: Tue, 13 Jun 2023 16:59:19 GMT
+Strict-Transport-Security: max-age=31536000

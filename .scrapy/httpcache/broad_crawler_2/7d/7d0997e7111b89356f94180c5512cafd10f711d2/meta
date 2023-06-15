@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://twitter.com/JanineClaytonMD', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/JanineClaytonMD', 'timestamp': 1686287104.784815}
+=======
+{'url': 'https://twitter.com/JanineClaytonMD', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/JanineClaytonMD', 'timestamp': 1686467786.952223}
+>>>>>>> fix/seo-1

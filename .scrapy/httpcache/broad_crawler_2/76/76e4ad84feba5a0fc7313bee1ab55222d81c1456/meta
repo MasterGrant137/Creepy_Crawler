@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://nih.us12.list-manage.com/robots.txt', 'method': 'GET', 'status': 200, 'response_url': 'https://nih.us12.list-manage.com/robots.txt', 'timestamp': 1686287104.67972}
+=======
+{'url': 'https://nih.us12.list-manage.com/robots.txt', 'method': 'GET', 'status': 200, 'response_url': 'https://nih.us12.list-manage.com/robots.txt', 'timestamp': 1686467630.9179718}
+>>>>>>> fix/seo-1

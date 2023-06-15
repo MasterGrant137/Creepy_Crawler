@@ -6,7 +6,11 @@
 <meta content='width=device-width, initial-scale=1.0, user-scalable=yes' name='viewport' />
 <link href='https://www.nih.gov/favicon.ico' rel='shortcut icon' />
 <meta name="csrf-param" content="authenticity_token" />
+<<<<<<< HEAD
 <meta name="csrf-token" content="qyZOeqcL5YtDroFYIvU2B82Bmv+kxv3pK8dwveZG9uN15aa8cSCi9M3z2DEnjKZsRnUsFXVA6CW7Hi9vrPKgPw==" />
+=======
+<meta name="csrf-token" content="fhsiwA581dxjWBIRy8RBelwYYzRzIS9uyrw23wthYZLPJcguyYEarkjet2qOidIJdYN27ppwsyext2mqxNLxrA==" />
+>>>>>>> fix/seo-1
 <link rel="stylesheet" media="screen" href="https://content.govdelivery.com/assets/subscriber-6fa22a4cc01bd61bfc57e67ad3871548d6adbf1f5c067eb8cdad078eaddf6675.css" />
 <link rel="stylesheet" media="screen" href="https://service.govdelivery.com/accounts/USNIH/style.css?v=1384556645" />
 
@@ -34,7 +38,11 @@
 </p>
 
 
+<<<<<<< HEAD
 <form action="/accounts/USNIH/subscriber/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="t5T6QS5tRuRee+ayshJuygvOZxrEycb/8hM7EJmvpMFpVxKH+EYBm9Amv9u3a/6hgDrR8BVP0zNiymTC0xvyHQ==" />
+=======
+<form action="/accounts/USNIH/subscriber/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Qzd8FGDsg/043yfHEBN4rLErSid+/WbkSlvLSe1vr1vyCZb6pxFMjxNZgrxVXuvfmLBf/Zes+q0xUJQ8Itw/ZQ==" />
+>>>>>>> fix/seo-1
 
 <fieldset id='quick_subscribe_new'>
 <legend>

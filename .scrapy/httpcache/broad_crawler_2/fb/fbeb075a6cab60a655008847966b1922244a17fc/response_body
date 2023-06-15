@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>The National Institute on Alcohol Abuse and Alcoholism</title>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+<meta content='width=device-width, initial-scale=1.0, user-scalable=yes' name='viewport' />
+<link href='https://www.niaaa.nih.gov/favicon.ico' rel='shortcut icon' />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="oI2XT7lKRmws8S64tEvx45kSkn/gYypz2Z2FPxTBiFwAhKeHfSieufC6sRbxeUrgIo7qKg4H3eKHJqkDBA4cWA==" />
+<link rel="stylesheet" media="screen" href="https://content.govdelivery.com/assets/subscriber-6fa22a4cc01bd61bfc57e67ad3871548d6adbf1f5c067eb8cdad078eaddf6675.css" />
+<link rel="stylesheet" media="screen" href="https://public.govdelivery.com/accounts/USNIAAA/style.css?v=1592839890" />
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" media="screen" href="https://content.govdelivery.com/assets/image_fallbacks-4158072338fe39a7068cb4e24030302b5b49a32f58407c057e78415bbc45090c.css" />
+<![endif]-->
+<script src="https://content.govdelivery.com/assets/Subscriber-03b5bf34260cdca6e914f294c508fe8c563c3c79ab47587418b3eea2174fc840.js"></script>
+
+<script src="https://content.govdelivery.com/assets/controller_manifests/AccountSubscribers-f2e9a22e55b33b13f4e281a4a29f41721ccc798b95189d3ad6ed83ace3f04aa0.js"></script>
+
+</head>
+<body id='sub'>
+<div id='page_margins'>
+<main id='page'>
+
+<div class='qs_banner'>
+<a href='https://www.niaaa.nih.gov' rel='noopener noreferrer' target='_blank'>
+<img alt='The National Institute on Alcohol Abuse and Alcoholism' src='/system/images/35185/original/niaaaLogo2013.png?1368648369' />
+</a>
+</div>
+
+<div id='col3'>
+<p class='name'>
+
+</p>
+
+
+<form action="/accounts/USNIAAA/subscriber/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CdfxUk9Tu+mNs3NW6kTwSAnhFbhmCMFLeTeUHXxbdwOp3sGaizFjPFH47PivdktLsn1t7YhsNtonjLghbJTjBw==" />
+
+<fieldset id='quick_subscribe_new'>
+<legend>
+<h1>
+Email Updates
+</h1>
+</legend>
+<div id='quick_subscribe_new_instructions'>
+<p>To sign up for&nbsp;NIAAA's publications or to<span>&nbsp;</span>access your subscriber preferences, please enter your contact information below.</p>
+</div>
+<ol class='form'>
+<li>
+<label for="subscription_type">Subscription Type</label>
+<div class='input_group'>
+<select name="subscription_type" id="subscription_type"><option value="email">Email</option>
+<option value="phone">SMS/Text Message</option></select>
+</div>
+
+</li>
+<li class='wireless_fields' style='display: none'>
+<label for="phone"><img class="required" alt="" aria-hidden="true" src="https://content.govdelivery.com/images/required.gif" />Wireless Number</label>
+<div class='input_group'>
+<select name="country_code_display" id="country_code_display" disabled="disabled" aria-label="Country code"><option value="1 (US)">1 (US)</option>
+<option value="1">1</option></select>
+<input type="hidden" name="country_code" id="country_code" value="1" title="Country code" />
+
+<input type="tel" name="phone" id="phone" value="" class="medium wireless_text_field" title="Provide your full phone number without country code or characters such as a dash or space. e.g 5555550123" onInvalid="setCustomValidity(&#39;Provide your full phone number without country code or characters such as a dash or space. e.g 5555550123&#39;)" pattern="[0-9]{10}" onInput="if (validity.patternMismatch) { setCustomValidity(&#39;Provide your full phone number without country code or characters such as a dash or space. e.g 5555550123&#39;); } else { setCustomValidity(&#39;&#39;); }" disabled="disabled" />
+</div>
+
+</li>
+<li class='email_fields' style='display: block'>
+<label for="email"><img class="required" alt="" aria-hidden="true" src="https://content.govdelivery.com/images/required.gif" />Email Address</label>
+<input type="email" name="email" id="email" value="" class="long email_text_field" required="required" />
+
+</li>
+</ol>
+<span aria-hidden='aria-hidden' style='display: none'>
+<label for="name"><img class="required" alt="" aria-hidden="true" src="https://content.govdelivery.com/images/required.gif" />Name</label>
+<input type="text" name="name" id="name" value="" aria-disabled="true" autocomplete="off" />
+</span>
+
+<div class='button_panel'>
+<input type="submit" name="commit" value="Submit" data-disable-with="Submit" /><input type="button" value="Cancel" class="js_only cancel_button" />
+</div>
+</fieldset>
+</form>
+
+<script type='text/javascript'>
+  //<![CDATA[
+    new GD.views.AccountSubscribersNew({
+      facebookAppId: 188927694463050,
+      facebookAPIVersion: "v3.2",
+      facebookLoginURL: "/accounts/USNIAAA/facebook_subscriber/login",
+      wirelessEnabled: true,
+      facebookEnabled: false,
+      permissions: "email"
+    }).init();
+  //]]>
+</script>
+
+</div>
+</main>
+<footer id='footer'>
+<p>Your contact information is used to deliver requested updates or to access your subscriber preferences.</p>
+<hr />
+<a id="privacy_policy" target="_blank" rel="noopener noreferrer" href="http://www.niaaa.nih.gov/privacy">Privacy Policy</a> | <a id="cookie_statement" target="_blank" rel="noopener noreferrer" href="https://subscriberhelp.granicus.com/s/article/Cookies">Cookie Statement</a> | <a id="help" target="_blank" rel="noopener noreferrer" href="https://subscriberhelp.granicus.com/">Help</a>
+
+</footer>
+</div>
+<script type='text/javascript'>
+  //<![CDATA[
+    new GD.views.LayoutsAccountsSubscribers({
+      GDPRCookiePolicy: {
+        message: "We only use cookies that are necessary for this site to function to provide you with the best experience. The controller of this site may choose to place supplementary cookies to support additional functionality such as support analytics, and has an obligation to disclose these cookies. Learn more in our \u003ca href=\"https://subscriberhelp.granicus.com/s/article/Cookies\" target=\"_blank\" rel=\"noopener noreferrer\"\u003eCookie Statement\u003c/a\u003e.\n",
+        prefix: "USNIAAA_production"
+      }
+    }).init();
+    new GD.ui.SubscriberButtonPanel({
+      navigate_confirm_text: "Are you sure you want to navigate away from this page?",
+      close_confirm_text: "Are you sure you want to close this page?",
+      logout_path: "https://public.govdelivery.com/accounts/USNIAAA/subscriber/session/destroy",
+      change_to_wireless_confirm_text: "You are about to change your email address to a phone number. You may be missing out on valuable information because not all alerts are sent to phones. Do you want to continue?"
+    }).init();
+    function closeFlash(node) {
+      var nextFocus = GD.ui.tools.getNextFocus(node)[0];
+      nextFocus?nextFocus.focus():false;
+      $(node.closest('.flash')).hide({effect: 'slide', direction: 'left', easing: 'swing', duration: '2000'});
+    }
+  //]]>
+</script>
+</body>
+</html>

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://researchmethodsresources.nih.gov', 'method': 'GET', 'status': 200, 'response_url': 'https://researchmethodsresources.nih.gov', 'timestamp': 1686287695.78486}
+=======
+{'url': 'https://researchmethodsresources.nih.gov', 'method': 'GET', 'status': 200, 'response_url': 'https://researchmethodsresources.nih.gov', 'timestamp': 1686467872.3311622}
+>>>>>>> fix/seo-1

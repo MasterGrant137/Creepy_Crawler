@@ -106,7 +106,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <!-- Google Tag Manager for WordPress by gtm4wp.com -->
 <!-- GTM Container placement set to manual -->
 <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+<<<<<<< HEAD
 	var dataLayer_content = {"pageTitle":"blog |","pagePostType":"post","pagePostType2":"category-post","pageCategory":["blog","open-mike"],"browserName":"Chrome","browserVersion":"113.0.0.0","browserEngineName":"Blink","browserEngineVersion":"","osName":"Windows","osVersion":"10.0","deviceType":"desktop","deviceManufacturer":"","deviceModel":""};
+=======
+	var dataLayer_content = {"pageTitle":"blog |","pagePostType":"post","pagePostType2":"category-post","pageCategory":["blog","open-mike"],"browserName":"","browserVersion":"","browserEngineName":"","browserEngineVersion":"","osName":"","osVersion":"","deviceType":"","deviceManufacturer":"","deviceModel":""};
+>>>>>>> fix/seo-1
 	dataLayer.push( dataLayer_content );
 </script>
 <script data-cfasync="false">
@@ -521,7 +525,11 @@ var wpcf7 = {"api":{"root":"https:\/\/nexus.od.nih.gov\/all\/wp-json\/","namespa
 </script>
 <script src='https://nexus.od.nih.gov/all/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.5.1' id='contact-form-7-js'></script>
 <script id='ppress-frontend-script-js-extra'>
+<<<<<<< HEAD
 var pp_ajax_form = {"ajaxurl":"https:\/\/nexus.od.nih.gov\/all\/wp-admin\/admin-ajax.php","confirm_delete":"Are you sure?","deleting_text":"Deleting...","deleting_error":"An error occurred. Please try again.","nonce":"a8401cb1a8","disable_ajax_form":"false","is_checkout":"0","is_checkout_tax_enabled":"0"};
+=======
+var pp_ajax_form = {"ajaxurl":"https:\/\/nexus.od.nih.gov\/all\/wp-admin\/admin-ajax.php","confirm_delete":"Are you sure?","deleting_text":"Deleting...","deleting_error":"An error occurred. Please try again.","nonce":"c856d77db6","disable_ajax_form":"false","is_checkout":"0","is_checkout_tax_enabled":"0"};
+>>>>>>> fix/seo-1
 </script>
 <script src='https://nexus.od.nih.gov/all/wp-content/plugins/wp-user-avatar/assets/js/frontend.min.js?ver=4.9.0' id='ppress-frontend-script-js'></script>
 <script src='https://platform.twitter.com/widgets.js?ver=1.1' id='script-js'></script>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 05:15:17 GMT
 Content-Type: text/plain
 Access-Control-Allow-Methods: GET
@@ -15,4 +16,23 @@ Cf-Cache-Status: DYNAMIC
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Server: cloudflare
 Cf-Ray: 7d46e5599e0a0921-LAX
+=======
+Date: Sun, 11 Jun 2023 07:13:53 GMT
+Content-Type: text/plain
+Access-Control-Allow-Methods: GET
+X-Content-Type-Options: nosniff
+Last-Modified: Thu, 12 Jan 2023 19:56:37 GMT
+Cache-Control: max-age=1209600
+Expires: Fri, 23 Jun 2023 11:49:01 GMT
+X-Request-Id: v-a020fe8e-06bb-11ee-91e5-67ccf32dd8b2
+X-Ah-Environment: prod
+Age: 156292
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 988
+Cf-Cache-Status: DYNAMIC
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server: cloudflare
+Cf-Ray: 7d580dd0bf0c0fb6-LAX
+>>>>>>> fix/seo-1
 Content-Encoding: gzip

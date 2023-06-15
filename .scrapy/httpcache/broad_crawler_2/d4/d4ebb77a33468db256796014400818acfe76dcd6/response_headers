@@ -1,0 +1,13 @@
+Content-Length: 176
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Location: https://datascience.nih.gov/content/data-science-home
+Server: Microsoft-IIS/8.5
+X-Drupal-Cache: MISS
+X-Content-Type-Options: nosniff
+X-Redirect-Id: 25
+X-Powered-By: ASP.NET
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Date: Sun, 11 Jun 2023 07:13:18 GMT

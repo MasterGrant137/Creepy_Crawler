@@ -11,4 +11,8 @@ X-Frame-Options: SAMEORIGIN
 X-Generator: Drupal 9 (https://www.drupal.org)
 Content-Security-Policy: upgrade-insecure-requests
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 05:15:00 GMT
+=======
+Date: Sun, 11 Jun 2023 07:17:54 GMT
+>>>>>>> fix/seo-1

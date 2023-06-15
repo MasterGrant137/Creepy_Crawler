@@ -1,0 +1,26 @@
+Date: Tue, 13 Jun 2023 17:46:16 GMT
+Content-Type: text/html; charset=UTF-8
+Cache-Control: s-maxage=10800, max-age=0
+Etag: W/"80d1db72e4c7934d48ececcf5681a4ea"
+Last-Modified: Tue, 13 Jun 2023 14:33:08 GMT
+Link: </hs/hsstatic/HubspotToolsMenu/static-1.191/js/index.js>; rel=preload; as=script,</hs/hsstatic/cos-i18n/static-1.53/bundles/project.js>; rel=preload; as=script,</_hcms/forms/v2.js>; rel=preload; as=script
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Security-Policy: upgrade-insecure-requests
+Edge-Cache-Tag: CT-95497440363,CG-2767851901,P-532040,L-6171246741,L-6205385864,CW-6204772541,CW-6237013583,CW-6313970023,CW-6317240143,E-2793895623,E-6169923840,E-6172245986,E-6204270459,E-6204714011,PGS-ALL,SW-4,GC-30314923225
+Referrer-Policy: no-referrer-when-downgrade
+X-Hs-Cache-Config: BrowserCache-5s-EdgeCache-180s
+X-Hs-Cache-Control: s-maxage=10800, max-age=0
+X-Hs-Cf-Cache-Status: HIT
+X-Hs-Content-Id: 95497440363
+X-Hs-Https-Only: worker
+X-Hs-Hub-Id: 532040
+X-Hs-Prerendered: Tue, 13 Jun 2023 14:33:08 GMT
+Set-Cookie: __cf_bm=NwEMeNarwmBB_7tCdlbKW4gD38x6SSqqBY9pejQg.FU-1686678376-0-AVUERLD8egyDJ1WditzfjaXHIZcd3S+X5dtUEHvESosfUdlZ8cRes1NO4yJpfWQVfzrHi8dte25XpYVd30hiw0s=; path=/; expires=Tue, 13-Jun-23 18:16:16 GMT; domain=.blog.usa.gov; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=16eb63bab9a130c2645a69956d73ba62c7959903-1686678376; path=/; domain=.blog.usa.gov; HttpOnly; Secure; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vwwHJqPx8k3SkCww89xYoXXHkRtVcJhf0c5li5m71bi9XMfXhzhLKgZAoGjCcw1ucfAatQNSrJunvfxuo%2FuxJIW3w5wo68d5iz5D3O2zcVt%2BykumyAHCdGs1zlm%2BPA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 7d6c26ebda020fe0-LAX
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400

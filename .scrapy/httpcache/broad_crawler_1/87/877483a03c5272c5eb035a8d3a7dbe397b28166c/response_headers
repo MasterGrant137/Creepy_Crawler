@@ -1,0 +1,11 @@
+Content-Length: 3787
+Date: Tue, 13 Jun 2023 07:50:41 GMT
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; preload
+X-Content-Type-Options: nosniff
+Set-Cookie: SimpleSAMLSessionID=9c4328eb0fe00d9c9276174519ad6cb2; path=/; secure; HttpOnly
+Location: https://auth.nih.gov/affwebservices/public/saml2sso?SAMLRequest=nZJfT8IwFMW%2FytL3rd0%2FkAZIUB4kwUhg%2BuCL6drCmmxt3e3Qj2%2FZUDExPPjU9Pae3z33pFNgTW3ponOV3sq3ToILPppaA%2B0fZqhrNTUMFFDNGgnUcbpbPKxpEhFqW%2BMMNzW6kFxXMADZOmU0ClbLGXpN95NYsHEsWSYmZDzieZ7dcJklcSqI4CQl8ahM8rxMUfAsW%2FDKGfIgLwfo5EqDY9r5EknSkIzCOC3ImOaEZvELCpZ%2BG6WZ61WVcxYoxsyvGmlVRQdzxGy%2Ff5el93RUXAK2XVkrjk97JAAGBYsvv3dGQ9fIdje0Pm3XP0SlQQnZRly5bzCoxtbyBMKNEV0tI1vZHoxhOJOQceirXheeGSFYFGzOsd4qLZQ%2BXE%2B0HJqA3hfFJtw87go0n574tE%2Bonf%2FfZSMdE8yxP0xO8eWI4fb7F80%2FAQ%3D%3D&RelayState=https%3A%2F%2Finsider.cit.nih.gov%2Fsaml_login%3Fdestination%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=ZcBVt3Dip0xZU06s1sgItcAC18ZHTTqcRfxq7XCm2wufp35V4nbvK1TNELpRHUwfRsuySEvrjUaJ%2BHJD99lbCoetVtjlGI5SliM6mRooBUqtcjy2WzuWeU67rLKLozfO7l%2FSP%2B%2BRDo6GHaj9L%2Ftd8vK1TEc88bKyDKBez5AtKovWNVEUvhYmPF%2FsFEAyCiv4GidJWxdjrZX9sBDAulK9hVyO3ZvEil%2BMF6HJxpQzve%2Ft2v6JZYMkvA0V3GhOAI1de%2BY9965Fx31r5fJdvUg%2BlfvTipZSgvjZrbjIje2z0FesvWkkj4NlUc14CFngsmAWjPZAnIM3ZAQEDi9BneUyEA%3D%3D
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate

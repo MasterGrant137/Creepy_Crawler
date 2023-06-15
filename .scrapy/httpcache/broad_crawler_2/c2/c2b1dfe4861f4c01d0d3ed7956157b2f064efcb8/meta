@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://drugpubs.drugabuse.gov/promotions/back-to-school', 'method': 'GET', 'status': 301, 'response_url': 'https://drugpubs.drugabuse.gov/promotions/back-to-school', 'timestamp': 1686287106.368778}
+=======
+{'url': 'https://drugpubs.drugabuse.gov/promotions/back-to-school', 'method': 'GET', 'status': 301, 'response_url': 'https://drugpubs.drugabuse.gov/promotions/back-to-school', 'timestamp': 1686472379.102817}
+>>>>>>> fix/seo-1

@@ -3,8 +3,16 @@ Cache-Control: no-cache
 Pragma: no-cache
 Content-Type: text/html;charset=UTF-8
 Location: /support
+<<<<<<< HEAD
 Set-Cookie: CFID=24250278; Expires=Sun, 01-Jun-2053 16:55:02 GMT; Path=/; Secure; HttpOnly
 Set-Cookie: CFTOKEN=19924a3eb25eb6-4AD3773E-E367-2D6E-103E5CD986226661; Expires=Sun, 01-Jun-2053 16:55:02 GMT; Path=/; Secure; HttpOnly
 Content-Security-Policy: upgrade-insecure-requests
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Date: Fri, 09 Jun 2023 16:55:02 GMT
+=======
+Set-Cookie: CFID=24480131; Expires=Tue, 03-Jun-2053 07:17:52 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: CFTOKEN=b63fef5adbdf19ce-9D2E8268-922F-D445-7FD2F425649FE415; Expires=Tue, 03-Jun-2053 07:17:52 GMT; Path=/; Secure; HttpOnly
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Date: Sun, 11 Jun 2023 07:17:52 GMT
+>>>>>>> fix/seo-1

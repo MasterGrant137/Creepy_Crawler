@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 X-Snapchat-Dot-Com-Proxy-Target: https://static.snapchat.com/snapchat-dot-com
 Content-Type: text/plain
 Date: Fri, 19 May 2023 01:32:58 GMT
 Last-Modified: Thu, 18 May 2023 13:37:18 GMT
 X-Amz-Server-Side-Encryption: AES256
 Cache-Control: max-age=31536000,public,immutable
+=======
+Content-Length: 194
+X-Snapchat-Dot-Com-Proxy-Target: https://static.snapchat.com/snapchat-dot-com
+X-Amz-Server-Side-Encryption: AES256
+>>>>>>> fix/seo-1
 X-Amz-Version-Id: null
 Accept-Ranges: bytes
 Server: API Gateway
@@ -11,9 +17,21 @@ X-Cache: Hit from cloudfront
 Via: 1.1 966d01179c7098b0cf2a20ba8c352dee.cloudfront.net (CloudFront), 1.1 google
 X-Amz-Cf-Pop: IAD89-C2
 X-Amz-Cf-Id: QkaLrxc39uzJzoquqzSVbSS4jBlANelid_ve5ozM9ujT_xeOqwGU8g==
+<<<<<<< HEAD
 Age: 1876392
 Vary: Accept-Encoding
 X-Envoy-Upstream-Service-Time: 10
 Content-Encoding: gzip
 Strict-Transport-Security: max-age=31536000; includeSubDomains
+=======
+X-Envoy-Upstream-Service-Time: 10
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Date: Fri, 19 May 2023 01:32:58 GMT
+Cache-Control: max-age=31536000,public,immutable
+Age: 2007652
+Last-Modified: Thu, 18 May 2023 13:37:18 GMT
+Content-Type: text/plain
+Vary: Accept-Encoding
+>>>>>>> fix/seo-1
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

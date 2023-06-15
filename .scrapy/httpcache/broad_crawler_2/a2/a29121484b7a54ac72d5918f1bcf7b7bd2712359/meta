@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.ors.od.nih.gov/ser/dpsac/resources/newsletter/Pages/newsletter.aspx', 'method': 'NONE', 'status': 301, 'response_url': 'https://www.ors.od.nih.gov/ser/dpsac/resources/newsletter/Pages/newsletter.aspx', 'timestamp': 1686287408.995069}
+=======
+{'url': 'https://www.ors.od.nih.gov/ser/dpsac/resources/newsletter/Pages/newsletter.aspx', 'method': 'NONE', 'status': 301, 'response_url': 'https://www.ors.od.nih.gov/ser/dpsac/resources/newsletter/Pages/newsletter.aspx', 'timestamp': 1686467855.083078}
+>>>>>>> fix/seo-1

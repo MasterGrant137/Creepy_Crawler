@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://twitter.com/NCIFredOutreach', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NCIFredOutreach', 'timestamp': 1686287408.967606}
+=======
+{'url': 'https://twitter.com/NCIFredOutreach', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NCIFredOutreach', 'timestamp': 1686467786.415745}
+>>>>>>> fix/seo-1

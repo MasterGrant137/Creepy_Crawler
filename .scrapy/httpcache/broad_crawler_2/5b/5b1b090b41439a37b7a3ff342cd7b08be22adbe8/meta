@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://twitter.com/NCISymptomMgmt', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NCISymptomMgmt', 'timestamp': 1686287408.981684}
+=======
+{'url': 'https://twitter.com/NCISymptomMgmt', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NCISymptomMgmt', 'timestamp': 1686467786.4051359}
+>>>>>>> fix/seo-1

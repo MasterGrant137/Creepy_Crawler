@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://newsinhealth.nih.gov/', 'method': 'NONE', 'status': 400, 'response_url': 'https://newsinhealth.nih.gov/', 'timestamp': 1686332915.82976}
+=======
+{'url': 'https://newsinhealth.nih.gov/', 'method': 'NONE', 'status': 400, 'response_url': 'https://newsinhealth.nih.gov/', 'timestamp': 1686467631.211757}
+>>>>>>> fix/seo-1

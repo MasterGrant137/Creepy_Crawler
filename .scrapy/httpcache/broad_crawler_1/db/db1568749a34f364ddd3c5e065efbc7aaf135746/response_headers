@@ -1,0 +1,16 @@
+Server: nginx
+Date: Tue, 13 Jun 2023 07:57:07 GMT
+Content-Type: text/plain; charset=utf-8
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+Vary: Cookie
+X-Hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+Host-Header: WordPress.com
+X-Frame-Options: sameorigin
+X-Robots-Tag: noindex, follow
+Link: <https://ncbiinsights.ncbi.nlm.nih.gov/wp-json/>; rel="https://api.w.org/"
+Last-Modified: Tue, 13 Jun 2023 07:57:07 GMT
+Cache-Control: max-age=300, must-revalidate
+X-Nananana: Batcache-Set
+Content-Encoding: gzip
+X-Ac: 5.bur _atomic_bur BYPASS

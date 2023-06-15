@@ -1,0 +1,23 @@
+Date: Tue, 13 Jun 2023 07:50:41 GMT
+Content-Type: text/plain; charset=UTF-8
+Cache-Control: public, max-age=2764800
+X-Drupal-Dynamic-Cache: MISS
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+Expires: Sat, 15 Jul 2023 07:50:41 GMT
+Last-Modified: Fri, 09 Jun 2023 15:31:35 GMT
+Etag: W/"1686324695"
+Vary: Cookie, Accept-Encoding
+X-Generator: Drupal 9 (https://www.drupal.org)
+Strict-Transport-Security: max-age=31536000
+X-Drupal-Cache: HIT
+X-Request-Id: v-a9cc01cc-0995-11ee-a8c4-7b9d409f123b
+X-Ah-Environment: prod
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 6
+Cf-Cache-Status: MISS
+Server: cloudflare
+Cf-Ray: 7d68be7a287e2f75-LAX
+Content-Encoding: gzip

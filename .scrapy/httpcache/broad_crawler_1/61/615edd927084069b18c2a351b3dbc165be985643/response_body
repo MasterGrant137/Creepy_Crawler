@@ -1,0 +1,34 @@
+<html><head><title>NIH Image Home Page</title></head><body bgcolor="#ffffff">
+
+<blockquote>
+<table width="350"><tr><td>
+
+<img src="logo.gif" hspace="8" width="180" height="32" alt="[NIH Image]">
+<p>
+
+<font size="+1">
+  <a href="about.html"><b>About NIH Image </b></a><br>
+  <a href="manual/faq.html"><b>FAQs</b></a><br>
+  <a href="manual/contents.html"><b>Online Manual</b></a><br>
+  <a href="more-docs/docs.html"><b>More Documentation</b></a><br>
+         
+  <a href="download.html"><b>Downloads</b></a><br>
+
+  <a href="list.html"><b>Mailing List</b></a>
+      <br>
+  <a href="links.html"><b>Links</b></a><br>
+  <a href="http://rsb.info.nih.gov/ij/"><b>ImageJ</b></a>
+</font>
+<br>
+
+</p><hr align="left" noshade>
+This page has been visited 
+<img src="/cgi-bin/Count.cgi?df=image.dat&amp;dd=E&amp;ft=2&amp;comma=T" align="absmiddle" alt="[page counter]">
+times. 
+Send comments to <a href="mailto:wayne@codon.nih.gov">wayne@codon.nih.gov</a>. <a href="../rsb/disclaimer.html"> Disclaimer</a>.
+<p>
+
+</p></td></tr></table>
+</blockquote>
+
+</body></html>

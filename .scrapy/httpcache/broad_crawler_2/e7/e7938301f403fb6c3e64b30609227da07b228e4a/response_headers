@@ -1,0 +1,10 @@
+Content-Length: 0
+Date: Sun, 11 Jun 2023 08:08:11 GMT
+Set-Cookie: AWSALB=5XRRrCwrPmBTY3hdcLI5cjHwdHRz4hwrfcTS91WF3ytFVaO8yN/qk0RTPlOrza8WmuApgChi9vfWIuCKYFD0+YJLJf6BruDNe5mM8pTt6KBQRF9WBsUT68G6ru50; Expires=Sun, 18 Jun 2023 08:08:11 GMT; Path=/
+Set-Cookie: AWSALBCORS=5XRRrCwrPmBTY3hdcLI5cjHwdHRz4hwrfcTS91WF3ytFVaO8yN/qk0RTPlOrza8WmuApgChi9vfWIuCKYFD0+YJLJf6BruDNe5mM8pTt6KBQRF9WBsUT68G6ru50; Expires=Sun, 18 Jun 2023 08:08:11 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: dtCookie=v_4_srv_2_sn_438A9916203A26F689D831DC1F8B6BF1_perc_100000_ol_0_mul_1_app-3A62de54d7f6c66c4a_1; Path=/; Domain=.nih.gov
+Set-Cookie: JSESSIONID=16C3E85793A804458F5C36C0C3FA8D83; Expires=Sun, 11 Jun 2023 17:08:11 GMT; Path=/commons; Secure; HttpOnly
+X-Oneagent-Js-Injection: true
+Server-Timing: dtRpid;desc="-982136496", dtSInfo;desc="0"
+Location: https://auth.nih.gov/eRA/redirectornew.asp?TARGET=https%3A%2F%2Fcommons.era.nih.gov%3A443%2Fcommons
+Server: Apache Tomcat

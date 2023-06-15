@@ -1,0 +1,18 @@
+Content-Length: 5421
+X-Frame-Options: ALLOWALL
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src * data: 'unsafe-eval' 'unsafe-inline'
+Content-Type: text/html; charset=utf-8
+Pragma: no-cache
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+P3P: CP="CAO DSP COR ADM DEV TAIo PSAo IVAo IVDo OUR DELo SAMo OTRo BUS UNI PRE", policyref="/w3c/p3p.xml"
+Etag: W/"79b9fb008e342ca1e6bcda5dc39439f2"
+Set-Cookie: _trunk_session=008474da6eef92d6969e754e21b3c4e1; path=/; secure; HttpOnly; SameSite=Lax
+X-Request-Id: 16b6d23d-8755-48bb-b1f7-cb0b9e69db0f
+X-Runtime: 0.086485
+Strict-Transport-Security: max-age=31536000
+Date: Tue, 13 Jun 2023 17:10:52 GMT

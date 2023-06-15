@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.clinicaltrials.gov/', 'method': 'GET', 'status': 200, 'response_url': 'https://www.clinicaltrials.gov/', 'timestamp': 1686336344.726551}
+=======
+{'url': 'https://www.clinicaltrials.gov/', 'method': 'GET', 'status': 200, 'response_url': 'https://www.clinicaltrials.gov/', 'timestamp': 1686467873.92327}
+>>>>>>> fix/seo-1

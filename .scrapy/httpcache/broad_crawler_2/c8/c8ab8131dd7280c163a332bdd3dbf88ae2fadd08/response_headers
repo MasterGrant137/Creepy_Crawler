@@ -1,0 +1,25 @@
+Content-Length: 9623
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Language: en
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nih.gov *.googleapis.com *.govdelivery.com *.hatchbuck.com *.youtube.com *.here.com search.usa.gov *.jquery.com *.crazyegg.com *.addthis.com *.addthisedge.com cdn.jsdelivr.net *.google-analytics.com *.moatads.com *.newrelic.com bam.nr-data.net *.feedgrabbr.com *.recaptcha.net *.gstatic.com *.foresee.com *.4seeresults.com *.answerscloud.com *.foreseeresults.com *.googletagmanager.com *.digitalgov.gov code.ctpprojects.com; style-src 'self' 'unsafe-inline' *.nih.gov search.usa.gov *.googleapis.com *.here.com cdn.jsdelivr.net *.feedgrabbr.com *.foresee.com style.ctpprojects.com; img-src 'self' *.nih.gov *.google-analytics.com data: *.foresee.com nih.hostexp.com i.vimeocdn.com; media-src nih.hostexp.com; frame-src 'self' *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net analytics.ctpprojects.com player.vimeo.com; frame-ancestors 'self' *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com com *.recaptcha.net; child-src 'self' blob: *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com com *.recaptcha.net; font-src 'self' *.nih.gov *.googleapis.com *.gstatic.com *.feedgrabbr.com *.foresee.com style.ctpprojects.com; connect-src 'self' *.nih.gov *.crazyegg.com *.google-analytics.com *.addthis.com stats.g.doubleclick.net bam.nr-data.net *.foresee.com *.4seeresults.com *.answerscloud.com *.foreseeresults.com maps.googleapis.com nih.hostexp.com vimeo.com; report-uri /report-csp-violation
+Content-Type: text/html; charset=utf-8
+Etag: "1686455600-1"
+Last-Modified: Sun, 11 Jun 2023 03:53:20 GMT
+Link: <https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/resources-effective-health-communication>; rel="canonical",<https://www.nih.gov/node/237926>; rel="shortlink"
+X-Age: 16824
+X-Ah-Environment: prod
+X-Cache-Hits: 4
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+X-Request-Id: v-8185f942-080b-11ee-8bc1-d3c7eb8c3a93
+X-Ua-Compatible: IE=edge,chrome=IE6
+X-Xss-Protection: 1; mode=block
+Expires: Sun, 11 Jun 2023 08:33:45 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 11 Jun 2023 08:33:45 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000

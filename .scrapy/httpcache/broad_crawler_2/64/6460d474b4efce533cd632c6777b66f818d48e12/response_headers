@@ -15,4 +15,8 @@ Content-Security-Policy: default-src https: 'unsafe-inline'; frame-src 'none'
 X-Xss-Protection: 1; mode=block
 Referrer-Policy: no-referrer
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 19:03:06 GMT
+=======
+Date: Sun, 11 Jun 2023 07:17:53 GMT
+>>>>>>> fix/seo-1

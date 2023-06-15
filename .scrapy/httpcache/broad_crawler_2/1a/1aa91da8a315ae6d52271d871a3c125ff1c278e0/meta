@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.whitehouse.gov/', 'method': 'GET', 'status': 200, 'response_url': 'https://www.whitehouse.gov/', 'timestamp': 1686254703.336713}
+=======
+{'url': 'https://www.whitehouse.gov/', 'method': 'GET', 'status': 200, 'response_url': 'https://www.whitehouse.gov/', 'timestamp': 1686472377.369643}
+>>>>>>> fix/seo-1

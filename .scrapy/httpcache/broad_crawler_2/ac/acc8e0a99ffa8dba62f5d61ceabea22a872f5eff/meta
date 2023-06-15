@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.nih.gov/about-nih/sign-free-nih-email-updates', 'method': 'GET', 'status': 200, 'response_url': 'https://www.nih.gov/about-nih/sign-free-nih-email-updates', 'timestamp': 1686332834.403782}
+=======
+{'url': 'https://www.nih.gov/about-nih/sign-free-nih-email-updates', 'method': 'GET', 'status': 200, 'response_url': 'https://www.nih.gov/about-nih/sign-free-nih-email-updates', 'timestamp': 1686467630.9470851}
+>>>>>>> fix/seo-1

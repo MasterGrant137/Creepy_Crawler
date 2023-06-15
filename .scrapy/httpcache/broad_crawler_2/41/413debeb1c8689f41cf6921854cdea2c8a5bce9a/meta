@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://factor.niehs.nih.gov/robots.txt', 'method': 'GET', 'status': 200, 'response_url': 'https://factor.niehs.nih.gov/robots.txt', 'timestamp': 1686326319.243905}
+=======
+{'url': 'https://factor.niehs.nih.gov/robots.txt', 'method': 'GET', 'status': 200, 'response_url': 'https://factor.niehs.nih.gov/robots.txt', 'timestamp': 1686467633.0012999}
+>>>>>>> fix/seo-1

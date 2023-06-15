@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://twitter.com/fogarty_nih', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/fogarty_nih', 'timestamp': 1686331189.193569}
+=======
+{'url': 'https://twitter.com/fogarty_nih', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/fogarty_nih', 'timestamp': 1686467632.02816}
+>>>>>>> fix/seo-1

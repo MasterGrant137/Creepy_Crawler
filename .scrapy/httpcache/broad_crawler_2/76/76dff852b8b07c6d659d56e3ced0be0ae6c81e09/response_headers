@@ -3,7 +3,11 @@ Age: 0
 Cache-Control: max-age=900, public
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 18:46:09 GMT
+=======
+Date: Sun, 11 Jun 2023 08:32:58 GMT
+>>>>>>> fix/seo-1
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Permissions-Policy: interest-cohort=()
 Server: nginx
@@ -14,5 +18,9 @@ X-Cache: MISS
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Generator: Drupal 9 (https://www.drupal.org)
+<<<<<<< HEAD
 X-Request-Id: v-e639db68-06f5-11ee-bf1c-875061142343
+=======
+X-Request-Id: v-91d50596-0832-11ee-8980-bb181a25620f
+>>>>>>> fix/seo-1
 X-Ua-Compatible: IE=edge

@@ -1,0 +1,16 @@
+Content-Length: 162
+Content-Type: text/html
+Location: https://nimhd.blogs.govdelivery.com/
+Server: nginx
+X-Pantheon-Styx-Hostname: styx-fe2-b-85879b7d89-bn5l4
+X-Styx-Req-Id: 6fbabc40-0769-11ee-97d9-da1a1c0f8d61
+Cache-Control: public, max-age=86400
+Date: Sun, 11 Jun 2023 07:13:52 GMT
+X-Served-By: cache-chi-klot8100050-CHI, cache-bur-kbur8200171-BUR
+X-Cache: HIT, HIT
+X-Cache-Hits: 6, 1
+X-Timer: S1686467633.968177,VS0,VE2
+Vary: Cookie, Cookie
+Age: 81640
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish

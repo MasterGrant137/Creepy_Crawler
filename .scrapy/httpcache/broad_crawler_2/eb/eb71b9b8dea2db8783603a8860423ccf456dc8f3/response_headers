@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 Content-Length: 13103
 Date: Fri, 09 Jun 2023 17:31:22 GMT
+=======
+Content-Length: 13108
+Date: Sun, 11 Jun 2023 07:38:17 GMT
+>>>>>>> fix/seo-1
 X-Content-Type-Options: nosniff
 X-Content-Type-Options: nosniff
 X-Ua-Compatible: IE=edge
@@ -14,9 +19,15 @@ Content-Type: text/html; charset=UTF-8
 X-Host: www.nimh.nih.gov
 X-Url: /health/publications/tips-for-talking-with-your-health-care-provider
 Cache-Control: public, max-age: 3600
+<<<<<<< HEAD
 Age: 951
 X-Cache: HIT
 X-Cache-Hits: 3
+=======
+Age: 3280
+X-Cache: HIT
+X-Cache-Hits: 6
+>>>>>>> fix/seo-1
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Strict-Transport-Security: max-age=31557600; includeSubDomains; preload
 Accept-Ranges: bytes

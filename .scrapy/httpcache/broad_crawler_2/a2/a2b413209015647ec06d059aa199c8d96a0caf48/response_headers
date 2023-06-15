@@ -1,0 +1,20 @@
+Content-Length: 19
+Cache-Control: private,max-age=0
+Allow: GET, POST, OPTIONS, HEAD, MKCOL, PUT, PROPFIND, PROPPATCH, DELETE, MOVE, COPY, GETLIB, LOCK, UNLOCK
+Expires: Sat, 27 May 2023 07:16:27 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/10.0
+X-Sharepointhealthscore: 0
+Public-Extension: http://schemas.microsoft.com/repl-2
+Sprequestguid: d1b7bba0-aa2e-c0ca-6d79-7b4a77572c15
+Request-Id: d1b7bba0-aa2e-c0ca-6d79-7b4a77572c15
+X-Frame-Options: SAMEORIGIN
+Sprequestduration: 4
+Spiislatency: 0
+X-Powered-By: ASP.NET
+Microsoftsharepointteamservices: 16.0.0.10398
+X-Content-Type-Options: nosniff
+X-Ms-Invokeapp: 1; RequireReadOnly
+Date: Sun, 11 Jun 2023 07:16:27 GMT
+Set-Cookie: asig_persistence=!TfPZLOukCwYx/Pm44YFRk8uGDvae/3bXQbHmdTYDqdTTvC3GMYcnRw5+51uaZ795kha+5qSgPlBwzvI=; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=31557600; includeSubDomains; preload

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.nccih.nih.gov/robots.txt', 'method': 'NONE', 'status': 404, 'response_url': 'https://www.nccih.nih.gov/robots.txt', 'timestamp': 1686286113.322638}
+=======
+{'url': 'https://www.nccih.nih.gov/robots.txt', 'method': 'NONE', 'status': 404, 'response_url': 'https://www.nccih.nih.gov/robots.txt', 'timestamp': 1686467630.583194}
+>>>>>>> fix/seo-1

@@ -1,0 +1,6 @@
+Content-Length: 134
+Server: nginx
+Date: Sun, 11 Jun 2023 07:17:52 GMT
+Content-Type: text/html
+Location: https://www.era.nih.gov:443/help-tutorials/hss
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;

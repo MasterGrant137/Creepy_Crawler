@@ -1,0 +1,26 @@
+Content-Length: 0
+Content-Type: text/plain
+Cache-Control: public, stale-while-revalidate=10, max-age=60
+Location: https://www.bbc.com/news/10628994
+Req-Svc-Chain: FASTLY,GTM,BELFRAGE
+Via: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+X-Bbc-No-Scheme-Rewrite: 1
+Nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+X-Bbc-Edge-Cache-Status: MISS
+X-Bbc-Origin-Response-Status: 302
+Report-To: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Strict-Transport-Security: max-age=31536000; preload
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Fri, 09 Jun 2023 23:17:41 GMT
+X-Fastly-Cache-Status: HIT-STALE-CLUSTER
+X-Served-By: cache-bur-kbur8200106-BUR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1686352662.775248,VS0,VE3
+X-Fastly-Pre-Flight-Cache: MISS, HIT
+X-Fastly-Pre-Flight-Cache-Status: HIT
+X-Cache-Age: 4202
+Vary: x-bbc-edge-scheme
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

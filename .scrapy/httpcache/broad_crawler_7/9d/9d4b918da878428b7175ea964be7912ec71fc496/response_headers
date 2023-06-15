@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: Server
+Date: Fri, 09 Jun 2023 23:22:00 GMT
+X-Amz-Rid: JP9P3NHJXSG92ABYV3GG
+Cache-Control: max-age=43200
+Expires: Sun, 09 Jul 2023 23:22:00 GMT
+Location: /search/keyword/?keywords=femme-fatale
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,User-Agent
+X-Cache: Miss from cloudfront
+Via: 1.1 50bf9ea99e10190e38f24297556f4a24.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX53-P4
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: w9_vUXWfMIvwJ4RUJ0f1rtMsi38NKNeyW00k4WEKepJ3FcjxhSrgZg==

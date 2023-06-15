@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 18:46:09 GMT
+=======
+Date: Sun, 11 Jun 2023 08:32:58 GMT
+>>>>>>> fix/seo-1
 Content-Type: text/html; charset=UTF-8
 Server: Apache
 X-Content-Type-Options: nosniff
@@ -13,6 +17,10 @@ Permissions-Policy: interest-cohort=()
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 X-Generator: Drupal 9 (https://www.drupal.org)
 Strict-Transport-Security: max-age=31536000; preload;
+<<<<<<< HEAD
 X-Varnish: 374178
+=======
+X-Varnish: 2815776
+>>>>>>> fix/seo-1
 Age: 0
 X-Vc-Cache: MISS

@@ -1,0 +1,8 @@
+Content-Length: 7381
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Set-Cookie: tgtcookie=HTTPS://auth.nih.gov/eRA/redirectornew.asp?TARGET=https://commons.era.nih.gov:443/commons; path=/; secure; HttpOnly
+Set-Cookie: asig_persistence=!SNzLJvF1TVJb0fLoskvuSwhvDuz/iTlV8bazNu+YP7vrGPlrMgGo1wxew+X7nodZTBaHa/FRpMIeThM=; Secure; HttpOnly; path=/; Httponly; Secure
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31557600; includeSubDomains; preload
+Date: Tue, 13 Jun 2023 07:50:38 GMT

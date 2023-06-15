@@ -1,0 +1,20 @@
+Server: nginx
+Date: Sun, 11 Jun 2023 07:17:53 GMT
+Content-Type: text/html; charset=UTF-8
+X-Ua-Compatible: IE=edge
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+Content-Security-Policy: report-uri /report-csp-violation; upgrade-insecure-requests
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+From-Origin: same
+Referrer-Policy: no-referrer-when-downgrade
+X-Request-Id: v-14ee8b56-0828-11ee-bd08-abeec4e74742
+X-Ah-Environment: prod
+Cache-Control: max-age=900, public
+Age: 0
+Via: varnish
+X-Cache: MISS

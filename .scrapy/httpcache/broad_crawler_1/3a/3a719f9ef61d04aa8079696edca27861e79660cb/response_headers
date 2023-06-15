@@ -1,0 +1,18 @@
+Date: Tue, 13 Jun 2023 07:50:41 GMT
+Content-Type: text/plain
+Access-Control-Allow-Methods: GET
+X-Content-Type-Options: nosniff
+Last-Modified: Thu, 12 Jan 2023 19:56:18 GMT
+Cache-Control: max-age=1209600
+Expires: Mon, 26 Jun 2023 18:00:18 GMT
+X-Request-Id: v-fdb0d844-094a-11ee-8cf3-c70c1991ccc1
+X-Ah-Environment: prod
+Age: 49822
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 356
+Cf-Cache-Status: DYNAMIC
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server: cloudflare
+Cf-Ray: 7d68be7a28532b6d-LAX
+Content-Encoding: gzip

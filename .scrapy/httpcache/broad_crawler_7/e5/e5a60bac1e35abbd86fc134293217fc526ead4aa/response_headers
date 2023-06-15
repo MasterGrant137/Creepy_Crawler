@@ -1,0 +1,14 @@
+Content-Length: 0
+Server: Server
+Date: Fri, 09 Jun 2023 23:22:01 GMT
+X-Amz-Rid: QJ24C76GPM5BVEHDB2R3
+Cache-Control: max-age=43200
+Expires: Sun, 09 Jul 2023 23:22:01 GMT
+Location: /search/title/?genres=thriller&title_type=tv_series,mini_series&explore=genres
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Content-Type,Accept-Encoding,User-Agent
+X-Cache: Miss from cloudfront
+Via: 1.1 751fc053858a7dcbf0836b1907c888d0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX53-P4
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: hAmNgs6PeWrV_p8z-45C-bIxnDQ5t65pEkANzHsF3OXAGFPdTl4nzA==

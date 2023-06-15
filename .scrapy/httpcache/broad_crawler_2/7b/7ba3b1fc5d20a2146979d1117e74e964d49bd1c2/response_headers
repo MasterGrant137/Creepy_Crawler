@@ -3,5 +3,10 @@ Cache-Control: private
 Content-Type: text/html; charset=utf-8
 X-Frame-Options: SAMEORIGIN
 Strict-Transport-Security: max-age=31557600; includeSubDomains; preload
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 04:48:32 GMT
 Set-Cookie: asig_persistence=!eaFMRe6GEVy0wVkGXQ6srExUMwXt/7qU8NUV5kLcoCzei8q9C0IWLlYKaxjhVAhe0yQDGMPMuPMWQ90=; Secure; HttpOnly; path=/; Httponly; Secure
+=======
+Date: Sun, 11 Jun 2023 07:13:19 GMT
+Set-Cookie: asig_persistence=!psk6WkgbRlU0MKAGXQ6srExUMwXt/6rvB1w60Z2RCWYHZ2dhP2kbyNSH2ca4ouwAcxO4KCYY2GXvQFs=; Secure; HttpOnly; path=/; Httponly; Secure
+>>>>>>> fix/seo-1

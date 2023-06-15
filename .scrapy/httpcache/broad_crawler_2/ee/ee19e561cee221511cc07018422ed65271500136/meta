@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://prevention.nih.gov/education-training', 'method': 'NONE', 'status': 405, 'response_url': 'https://prevention.nih.gov/education-training', 'timestamp': 1686331939.349138}
+=======
+{'url': 'https://prevention.nih.gov/education-training', 'method': 'NONE', 'status': 405, 'response_url': 'https://prevention.nih.gov/education-training', 'timestamp': 1686467746.664865}
+>>>>>>> fix/seo-1

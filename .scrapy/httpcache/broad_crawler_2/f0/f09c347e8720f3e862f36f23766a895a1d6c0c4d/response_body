@@ -6,7 +6,11 @@
 <meta content='width=device-width, initial-scale=1.0, user-scalable=yes' name='viewport' />
 <link href='https://orwh.od.nih.gov/favicon.ico' rel='shortcut icon' />
 <meta name="csrf-param" content="authenticity_token" />
+<<<<<<< HEAD
 <meta name="csrf-token" content="MY93VVg48nxWJE9nNVj0PkFV9tPak2OFPCxKOI59aDtuK6dJWWAuMhx0ebCBg6tzlVD2rCfFoXqv768wqEJPxg==" />
+=======
+<meta name="csrf-token" content="fC3fOwPmMGxuZbN2U3GrbfIUBgHauS7yaTuwMF0xjV3DO8XW1NfgbY7afZUK55Fst/utGhG0VCYbuB/4gah7/g==" />
+>>>>>>> fix/seo-1
 <link rel="stylesheet" media="screen" href="https://content.govdelivery.com/assets/subscriber-6fa22a4cc01bd61bfc57e67ad3871548d6adbf1f5c067eb8cdad078eaddf6675.css" />
 <link rel="stylesheet" media="screen" href="https://public.govdelivery.com/accounts/USNIHORWH/style.css?v=1423094634" />
 
@@ -34,7 +38,11 @@
 </p>
 
 
+<<<<<<< HEAD
 <form action="/accounts/USNIHORWH/subscriber/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4gVeuexDfEcYizAf72t/CKxOFZOoRMr/yyGsDsYhe6C9oY6l7RugCVLbBshbsCBFeEsV7FUSCABY4kkG4B5cXQ==" />
+=======
+<form action="/accounts/USNIHORWH/subscriber/qualify" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="mxpLHHhpOH0zJAoiHWPispjck7Yx5FvX3Pq6XleudywkDFHxr1jofNObxMFE9diz3TM4rfrpIQOueRWWizeBjw==" />
+>>>>>>> fix/seo-1
 
 <fieldset id='quick_subscribe_new'>
 <legend>

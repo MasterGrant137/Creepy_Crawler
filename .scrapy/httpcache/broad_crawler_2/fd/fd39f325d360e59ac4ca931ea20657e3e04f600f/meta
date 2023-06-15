@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://era.nih.gov/', 'method': 'NONE', 'status': 301, 'response_url': 'https://era.nih.gov/', 'timestamp': 1686332768.115555}
+=======
+{'url': 'https://era.nih.gov/', 'method': 'NONE', 'status': 301, 'response_url': 'https://era.nih.gov/', 'timestamp': 1686467872.3526201}
+>>>>>>> fix/seo-1

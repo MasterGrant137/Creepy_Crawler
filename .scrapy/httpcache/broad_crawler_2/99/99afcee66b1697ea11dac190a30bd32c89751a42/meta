@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://twitter.com/NIHWALS', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NIHWALS', 'timestamp': 1686287104.793032}
+=======
+{'url': 'https://twitter.com/NIHWALS', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NIHWALS', 'timestamp': 1686467786.986339}
+>>>>>>> fix/seo-1

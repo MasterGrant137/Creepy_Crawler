@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'http://www.niehs.nih.gov/health/scied/index.cfm', 'method': 'GET', 'status': 301, 'response_url': 'http://www.niehs.nih.gov/health/scied/index.cfm', 'timestamp': 1686287695.381781}
+=======
+{'url': 'http://www.niehs.nih.gov/health/scied/index.cfm', 'method': 'GET', 'status': 301, 'response_url': 'http://www.niehs.nih.gov/health/scied/index.cfm', 'timestamp': 1686472377.362008}
+>>>>>>> fix/seo-1

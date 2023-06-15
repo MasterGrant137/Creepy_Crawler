@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url='/saml_login?destination='" />
+
+        <title>Redirecting to /saml_login?destination=</title>
+    </head>
+    <body>
+        Redirecting to <a href="/saml_login?destination=">/saml_login?destination=</a>.
+    </body>
+</html>

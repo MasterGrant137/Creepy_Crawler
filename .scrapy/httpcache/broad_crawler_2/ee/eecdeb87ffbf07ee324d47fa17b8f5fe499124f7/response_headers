@@ -12,4 +12,8 @@ X-Frame-Options: SAMEORIGIN
 X-Generator: Drupal 10 (https://www.drupal.org)
 X-Drupal-Cache: HIT
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 18:25:35 GMT
+=======
+Date: Sun, 11 Jun 2023 07:15:45 GMT
+>>>>>>> fix/seo-1

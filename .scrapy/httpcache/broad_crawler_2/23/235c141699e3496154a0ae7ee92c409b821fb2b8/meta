@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://twitter.com/NIHgrants', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NIHgrants', 'timestamp': 1686332768.1464489}
+=======
+{'url': 'https://twitter.com/NIHgrants', 'method': 'GET', 'status': 302, 'response_url': 'https://twitter.com/NIHgrants', 'timestamp': 1686467631.344967}
+>>>>>>> fix/seo-1

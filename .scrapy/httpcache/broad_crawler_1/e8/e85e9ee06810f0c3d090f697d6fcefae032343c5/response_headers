@@ -1,0 +1,7 @@
+Content-Length: 0
+Cache-Control: no-store
+Location: https://auth.nih.gov/CertAuthV3/forms/erapivamswexemptMFADOC.aspx?TYPE=33554433&REALMOID=06-f49bf240-8100-4c49-9c91-82052bea7c90&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=nihwamwebagent&TARGET=-SM-HTTPS%3a%2f%2fauth%2enih%2egov%2feRA%2fredirectornew%2easp%3fTARGET%3dhttps-%3A-%2F-%2Fcommons%2eera%2enih%2egov-%3A443-%2Fcommons
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31557600; includeSubDomains; preload
+Date: Tue, 13 Jun 2023 04:59:57 GMT
+Set-Cookie: asig_persistence=!X0R77f5zvtieonvoskvuSwhvDuz/iW5dGkhY5XjYpLwGI4z4WN9oMLzjSBh+duqoxK/IoKqaJaH9Yxo=; Secure; HttpOnly; path=/; Httponly; Secure

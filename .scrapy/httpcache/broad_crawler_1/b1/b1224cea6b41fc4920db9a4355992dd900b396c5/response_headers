@@ -1,0 +1,17 @@
+Content-Length: 0
+Server: nginx/1.19.5
+Date: Tue, 13 Jun 2023 07:52:11 GMT
+Content-Type: text/plain; charset=utf-8
+X-Archive-Redirect-Reason: found capture at 20230515103245
+Location: https://web.archive.org/web/20230515103245/https://nexus.od.nih.gov/all/
+Server-Timing: captures_list;dur=259.787111, exclusion.robots;dur=0.297309, exclusion.robots.policy;dur=0.283001, RedisCDXSource;dur=2.932572, esindex;dur=0.012129, LoadShardBlock;dur=212.377796, PetaboxLoader3.datanode;dur=60.550064, PetaboxLoader3.resolve;dur=95.393064
+X-App-Server: wwwb-app221
+X-Ts: 302
+X-Tr: 266
+X-Location: All
+X-Rl: 0
+X-Na: 0
+X-Page-Cache: MISS
+X-Nid: -
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()

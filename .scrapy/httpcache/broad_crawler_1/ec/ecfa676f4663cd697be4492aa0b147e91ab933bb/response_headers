@@ -1,0 +1,20 @@
+Content-Type: text/html; charset=utf-8
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Tue, 13 Jun 2023 07:51:43 GMT
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+Origin-Trial: AvC9UlR6RDk2crliDsFl66RWLnTbHrDbp+DiY6AYz/PNQ4G4tdUTjrHYr2sghbkhGQAVxb7jaPTHpEVBz0uzQwkAAAB4eyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJXZWJWaWV3WFJlcXVlc3RlZFdpdGhEZXByZWNhdGlvbiIsImV4cGlyeSI6MTcxOTUzMjc5OSwiaXNTdWJkb21haW4iOnRydWV9
+Report-To: {"group":"youtube_main","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/youtube_main"}]}
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to="youtube_main"
+P3P: CP="This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=en for more info."
+Content-Encoding: gzip
+Server: ESF
+X-Xss-Protection: 0
+Set-Cookie: GPS=1; Domain=.youtube.com; Expires=Tue, 13-Jun-2023 08:21:43 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: YSC=4Q1or6dg0OY; Domain=.youtube.com; Path=/; Secure; HttpOnly; SameSite=none
+Set-Cookie: VISITOR_INFO1_LIVE=arnisBGQQvc; Domain=.youtube.com; Expires=Sun, 10-Dec-2023 07:51:43 GMT; Path=/; Secure; HttpOnly; SameSite=none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

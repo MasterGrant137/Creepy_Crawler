@@ -1,0 +1,16 @@
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Type: text/html
+Cross-Origin-Opener-Policy: same-origin; report-to="yt-ce-dev"
+Report-To: {"group":"yt-ce-dev","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/yt-ce-dev"}]}
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Tue, 13 Jun 2023 07:52:11 GMT
+Expires: Tue, 13 Jun 2023 07:52:11 GMT
+Cache-Control: private, max-age=0
+Last-Modified: Mon, 05 Jun 2023 05:28:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-Xss-Protection: 0
+Set-Cookie: NID=511=nZ-9gapsvM9JrCQRSAT6tQ7aXNT4ILyhH1yd1wYZaBhXnqEm9x36f-HBai6nwVM0Kt4NcbaqSrFzrSpLoTx9pmaj5dga63PMKPS6Jq7U5Q1jpi5UulKegQ5PHlxXLV4hoHb-Ibxaw01BkjhXp2kHuwsfFaKEdh-sULRf1OTyhuk; expires=Wed, 13-Dec-2023 07:52:11 GMT; path=/; domain=.youtube.com; Secure; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

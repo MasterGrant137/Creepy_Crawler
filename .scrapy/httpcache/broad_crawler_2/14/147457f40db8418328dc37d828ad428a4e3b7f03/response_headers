@@ -3,8 +3,16 @@ Cache-Control: no-cache
 Pragma: no-cache
 Content-Type: text/html;charset=UTF-8
 Location: /news/contact-in-person/seminars.htm
+<<<<<<< HEAD
 Set-Cookie: CFID=24168848; Expires=Sun, 01-Jun-2053 05:10:08 GMT; Path=/; Secure; HttpOnly
 Set-Cookie: CFTOKEN=68ce3b8bf3ca7e0e-319E1A97-D0AA-51E6-52A8F8455A0F3B3A; Expires=Sun, 01-Jun-2053 05:10:08 GMT; Path=/; Secure; HttpOnly
 Content-Security-Policy: upgrade-insecure-requests
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Date: Fri, 09 Jun 2023 05:10:08 GMT
+=======
+Set-Cookie: CFID=24479125; Expires=Tue, 03-Jun-2053 07:13:52 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: CFTOKEN=8dfd21176850950-9D09CD9B-C1B7-13CB-B402F06C321AB929; Expires=Tue, 03-Jun-2053 07:13:52 GMT; Path=/; Secure; HttpOnly
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Date: Sun, 11 Jun 2023 07:13:51 GMT
+>>>>>>> fix/seo-1

@@ -1,0 +1,13 @@
+Content-Length: 25
+Content-Type: text/plain; charset=utf-8
+Etag: W/"19-2NTlN/votVlrfMtAaltZ799LfR0"
+Vary: Origin
+Server: Microsoft-IIS/10.0
+Content-Security-Policy: script-src 'self' 'unsafe-eval';worker-src 'self' blob:;child-src 'self' blob:;img-src 'self' data: blob: https://cdn.directus.io;media-src 'self' https://cdn.directus.io;connect-src 'self' https://*;default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline'
+Content-Security-Policy: upgrade-insecure-requests
+X-Powered-By: Directus
+X-Powered-By: ASP.NET
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Content-Range
+Strict-Transport-Security: max-age=31536000
+Date: Tue, 13 Jun 2023 07:50:04 GMT

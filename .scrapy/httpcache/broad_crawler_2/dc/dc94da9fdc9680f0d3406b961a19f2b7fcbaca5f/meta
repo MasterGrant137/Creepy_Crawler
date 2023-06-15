@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.nih.gov/research-training/advances-colorectal-cancer-research', 'method': 'GET', 'status': 200, 'response_url': 'https://www.nih.gov/research-training/advances-colorectal-cancer-research', 'timestamp': 1686330722.865119}
+=======
+{'url': 'https://www.nih.gov/research-training/advances-colorectal-cancer-research', 'method': 'GET', 'status': 200, 'response_url': 'https://www.nih.gov/research-training/advances-colorectal-cancer-research', 'timestamp': 1686467684.387883}
+>>>>>>> fix/seo-1

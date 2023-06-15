@@ -8,5 +8,9 @@
     </head>
     <body>
         Redirecting to <a href="https://obssr.od.nih.gov/news-and-events/news/the-director-voice-blog">https://obssr.od.nih.gov/news-and-events/news/the-director-voice-blog</a>.
+<<<<<<< HEAD
     <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f0b7e8493a","applicationID":"431784748","transactionName":"YFxVNUQCWxEHVBZbXlkWdgJCCloMSUcDVVRoWlYCXgY=","queueTime":7,"applicationTime":39,"atts":"TBtWQwwYSB8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+=======
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f0b7e8493a","applicationID":"431784748","transactionName":"YFxVNUQCWxEHVBZbXlkWdgJCCloMSUcDVVRoWlYCXgY=","queueTime":1,"applicationTime":27,"atts":"TBtWQwwYSB8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+>>>>>>> fix/seo-1
 </html>

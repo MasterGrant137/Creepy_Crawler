@@ -1,0 +1,22 @@
+Server: daiquiri/3.0.0
+Content-Type: text/html; charset=utf-8
+X-Daiquiri-Rate-Limit-Generic: generic-minute-lim:180000;generic-minute-rem:79956;
+X-Daiquiri-Rate-Limit-Timing-Generic: 0
+X-Daiquiri-Rate-Limit-Ip: ip-minute-lim:125;ip-minute-rem:124;
+X-Daiquiri-Rate-Limit-Timing-Ip: 0
+Content-Security-Policy: upgrade-insecure-requests ; default-src 'none'; img-src 'self' https://*.apple.com https://*.mzstatic.com data:; style-src 'self' https://*.apple.com 'unsafe-inline'; font-src 'self' https://*.apple.com; media-src 'self' https://*.apple.com blob:; connect-src 'self' https://*.apple.com https://*.mzstatic.com; script-src 'self' https://*.apple.com 'unsafe-eval' 'sha256-4ywTGAe4rEpoHt8XkjbkdOWklMJ/1Py/x6b3/aGbtSQ=' blob:; frame-src 'self' https://*.apple.com itmss: itms-appss: itms-bookss: itms-itunesus: itms-messagess: itms-podcasts: itms-watchs: macappstores: musics: apple-musics: podcasts: videos:;
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Apple-Jingle-Correlation-Key: 5Y2BCF6AFBRMQ6GJSHEQSOGZ34
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Daiquiri-Instance: daiquiri:41896003:st53p00it-qujn13050301:7987:23RELEASE91:daiquiri-amp-store-l7shared-int-001-st
+X-Daiquiri-Instance: daiquiri:48215002:st44p00it-hyhk16084701:7987:23RELEASE91:daiquiri-amp-store-shared-ext-001-st
+Cache-Control: public, max-age=56
+Expires: Tue, 13 Jun 2023 07:58:46 GMT
+Date: Tue, 13 Jun 2023 07:57:50 GMT
+X-Cache: TCP_MISS from a23-45-44-43.deploy.akamaitechnologies.com (AkamaiGHost/11.1.1-48600985) (-)
+X-Cache-Remote: TCP_MISS from a23-217-140-28.deploy.akamaitechnologies.com (AkamaiGHost/11.1.1-48600985) (-)
+Set-Cookie: geo=US; domain=.apple.com
+Vary: X-Apple-Store-Front, Cookie

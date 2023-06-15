@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://grants.nih.gov/policy/reproducibility/training.htm', 'method': 'GET', 'status': 200, 'response_url': 'https://grants.nih.gov/policy/reproducibility/training.htm', 'timestamp': 1686287700.724546}
+=======
+{'url': 'https://grants.nih.gov/policy/reproducibility/training.htm', 'method': 'GET', 'status': 200, 'response_url': 'https://grants.nih.gov/policy/reproducibility/training.htm', 'timestamp': 1686467872.348319}
+>>>>>>> fix/seo-1

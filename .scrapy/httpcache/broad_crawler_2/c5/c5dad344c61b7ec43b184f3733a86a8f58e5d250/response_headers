@@ -1,5 +1,6 @@
 Content-Type: text/html
 X-Amz-Replication-Status: COMPLETED
+<<<<<<< HEAD
 Last-Modified: Fri, 09 Jun 2023 04:36:31 GMT
 X-Amz-Server-Side-Encryption: AES256
 X-Amz-Version-Id: myB78cBhmKPqXsqqTUhnRjq__t2PP3vb
@@ -14,6 +15,22 @@ Via: 1.1 56f3eb40037bf45331af054618b17ca2.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: LAX53-P4
 Alt-Svc: h3=":443"; ma=86400
 X-Amz-Cf-Id: xDQgpA1ClKESHnJqIqFlsDlmMdLcTGCULAiZkrS_cv13pjaTbw_Msw==
+=======
+Last-Modified: Sun, 11 Jun 2023 04:36:26 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: oe4MuyU8JF5.TLnXuL8kpfRgGGz14L3r
+Server: AmazonS3
+Content-Encoding: gzip
+Date: Sun, 11 Jun 2023 08:32:58 GMT
+Cache-Control: public, max-age=0, must-revalidate
+Etag: W/"625de94870ad48ccf32a48e3d4524d75"
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 d59d2ab357c0c409dc4be130a9aab01e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: LAX53-P4
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: ZGz9ll7jaDIbGy996xL6UtxFHvieQTLEIgUhAOA1gXZtT9D76QNHLA==
+>>>>>>> fix/seo-1
 X-Xss-Protection: 1; mode=block
 X-Frame-Options: DENY
 Referrer-Policy: no-referrer-when-downgrade

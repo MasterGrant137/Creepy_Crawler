@@ -1,0 +1,23 @@
+Content-Length: 214
+Accept-Ranges: bytes
+Cache-Control: private,max-age=0
+Content-Encoding: gzip
+Content-Type: text/plain
+Date: Tue, 13 Jun 2023 07:57:20 GMT
+Etag: "{9D47D37F-1E0C-4FEA-A925-9072A5EF02D4},207"
+Expires: Mon, 29 May 2023 07:57:21 GMT
+Last-Modified: Tue, 13 Jun 2023 04:43:26 GMT
+Microsoftsharepointteamservices: 16.0.0.10398
+Public-Extension: http://schemas.microsoft.com/repl-2
+Request-Id: f35ebca0-52cb-a051-e7ab-d6924d2b2017
+Resourcetag: rt:9D47D37F-1E0C-4FEA-A925-9072A5EF02D4@00000000207
+Server: Microsoft-IIS/10.0
+Spiislatency: 0
+Sprequestduration: 20
+Sprequestguid: f35ebca0-52cb-a051-e7ab-d6924d2b2017
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ms-Invokeapp: 1; RequireReadOnly
+X-Powered-By: ASP.NET
+X-Sharepointhealthscore: 0

@@ -1,0 +1,20 @@
+Cache-Control: must-revalidate, no-cache, private
+Allow: GET, POST, HEAD
+Content-Type: text/html; charset=utf-8
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Powered-By: PHP/8.0.28
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+Content-Security-Policy: report-uri /report-csp-violation
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Cache: CONFIG_NOCACHE
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Azure-Ref: 05A+IZAAAAAAFtyczbpE5SYENKSH9H+hLTEFYRURHRTIxMTUANzgwMmFkNWUtZTNiYy00OWQxLWI4N2QtNzhiN2IwN2Q1YWMw
+Set-Cookie: ASLBSA=0003eada6083ec9e38caccf054091adffe40ef3600d71077599e3fdf6458026cf6b2; path=/; secure
+Set-Cookie: ASLBSACORS=0003eada6083ec9e38caccf054091adffe40ef3600d71077599e3fdf6458026cf6b2; samesite=none; path=/; secure
+Date: Tue, 13 Jun 2023 06:42:45 GMT

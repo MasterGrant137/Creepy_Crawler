@@ -1,0 +1,6 @@
+Content-Length: 1245
+Content-Type: text/html
+Server: Microsoft-IIS/10.0
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Security-Policy: frame-ancestors 'none';
+Date: Tue, 13 Jun 2023 07:50:05 GMT

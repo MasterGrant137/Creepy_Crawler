@@ -1,0 +1,9 @@
+User-agent: usasearch  
+Crawl-delay: 2
+Disallow: /community_n_education/urp/
+Disallow: /resources/reports/
+Disallow: /ext/selfquery/
+Sitemap: https://www.npdb.hrsa.gov/sitemap.xml
+
+User-agent: *
+Disallow:

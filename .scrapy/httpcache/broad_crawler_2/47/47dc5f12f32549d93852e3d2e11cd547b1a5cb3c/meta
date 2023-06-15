@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.cancer.gov/espanol/cancer/sobrellevar/adaptacion-al-cancer/comunicacion-pdq', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cancer.gov/espanol/cancer/sobrellevar/adaptacion-al-cancer/comunicacion-pdq', 'timestamp': 1686332616.5594518}
+=======
+{'url': 'https://www.cancer.gov/espanol/cancer/sobrellevar/adaptacion-al-cancer/comunicacion-pdq', 'method': 'GET', 'status': 200, 'response_url': 'https://www.cancer.gov/espanol/cancer/sobrellevar/adaptacion-al-cancer/comunicacion-pdq', 'timestamp': 1686472378.345057}
+>>>>>>> fix/seo-1

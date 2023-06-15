@@ -1,9 +1,16 @@
 Content-Length: 2189
 Accept-Ranges: bytes
+<<<<<<< HEAD
 Age: 833622
 Cache-Control: max-age=1209600
 Content-Type: text/plain
 Date: Fri, 09 Jun 2023 04:48:32 GMT
+=======
+Age: 900170
+Cache-Control: max-age=1209600
+Content-Type: text/plain
+Date: Fri, 09 Jun 2023 23:17:40 GMT
+>>>>>>> fix/seo-1
 Expires: Tue, 13 Jun 2023 13:14:50 GMT
 Last-Modified: Sat, 08 Apr 2023 06:29:43 GMT
 Server: nginx
@@ -12,6 +19,10 @@ Vary: Host
 Via: varnish
 X-Ah-Environment: prod
 X-Cache: HIT
+<<<<<<< HEAD
 X-Cache-Hits: 882
+=======
+X-Cache-Hits: 949
+>>>>>>> fix/seo-1
 X-Content-Type-Options: nosniff
 X-Request-Id: v-f5171f4a-feeb-11ed-bb5c-77423bb543ee

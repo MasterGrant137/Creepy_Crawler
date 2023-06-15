@@ -1,0 +1,14 @@
+Content-Length: 453491
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, HEAD
+Access-Control-Max-Age: 300
+Cache-Control: max-age=300
+Expires: 300
+Access-Control-Allow-Headers: x-requested-with, content-type, origin, access-control-request-method, access-control-request-headers, x-csrf-token, range, if-range, content-range, content-type, connection, accept-encoding, etag, last-modified, if-none-match
+Accept-Ranges: bytes
+Etag: "0d2d42aa5810649d60e32dcf86d396a23"
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 13 Jun 2023 07:57:06 GMT
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: sameorigin
+Content-Security-Policy: frame-ancestors  'self'

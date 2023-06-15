@@ -1,16 +1,29 @@
 Content-Length: 801
+<<<<<<< HEAD
 Date: Fri, 09 Jun 2023 05:14:55 GMT
+=======
+Date: Sun, 11 Jun 2023 07:16:27 GMT
+>>>>>>> fix/seo-1
 Content-Type: text/plain
 Server: Apache
 X-Content-Type-Options: nosniff
 Last-Modified: Sat, 25 Mar 2023 13:28:57 GMT
 Etag: "976-5f7b97de93840-gzip"
 Cache-Control: max-age=1209600
+<<<<<<< HEAD
 Expires: Fri, 23 Jun 2023 02:09:32 GMT
 Vary: Accept-Encoding
 Content-Encoding: gzip
 Strict-Transport-Security: max-age=31536000; preload;
 X-Varnish: 921506 524561
 Age: 11123
+=======
+Expires: Sun, 25 Jun 2023 02:10:01 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; preload;
+X-Varnish: 4035194 3133651
+Age: 18385
+>>>>>>> fix/seo-1
 X-Vc-Cache: HIT
 Accept-Ranges: bytes

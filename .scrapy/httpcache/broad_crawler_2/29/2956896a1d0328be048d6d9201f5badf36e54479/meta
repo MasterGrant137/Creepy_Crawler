@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {'url': 'https://www.pinterest.com/irpatnih/', 'method': 'NONE', 'status': 400, 'response_url': 'https://www.pinterest.com/irpatnih/', 'timestamp': 1686287925.5407832}
+=======
+{'url': 'https://www.pinterest.com/irpatnih/', 'method': 'NONE', 'status': 400, 'response_url': 'https://www.pinterest.com/irpatnih/', 'timestamp': 1686467631.617116}
+>>>>>>> fix/seo-1

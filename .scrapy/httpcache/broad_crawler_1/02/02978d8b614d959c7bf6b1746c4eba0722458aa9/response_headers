@@ -1,0 +1,23 @@
+Content-Length: 28827
+Date: Tue, 13 Jun 2023 05:20:05 GMT
+Cache-Control: max-age=31536000, public
+X-Drupal-Dynamic-Cache: MISS
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Tue, 13 Jun 2023 05:20:05 GMT
+Etag: "1686633605-gzip"
+Vary: Cookie,Accept-Encoding
+X-Commerce-Core: 2
+X-Drupal-Cache: MISS
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-Varnish: 69991790 68608697
+Age: 5675
+Via: 1.1 varnish (Varnish/6.2), 1.1 sjc1-bit12045
+X-Varnish-Cache: HIT
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536002; preload; includeSubDomains
+X-Xss-Protection: 1; mode=block

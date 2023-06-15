@@ -1,0 +1,16 @@
+Content-Length: 14002
+Content-Type: text/html; charset=utf-8
+Server: DKweb
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: interest-cohort=()
+Expires: Tue, 13 Jun 2023 07:57:50 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 13 Jun 2023 07:57:50 GMT
+Set-Cookie: shell#lang=en; path=/
+Set-Cookie: ASP.NET_SessionId=ndnclzw3vxrazweawzidvk1c; path=/; secure; HttpOnly; SameSite=Lax
+Set-Cookie: .ASPXAUTH=; path=/; secure
+Set-Cookie: SC_ANALYTICS_GLOBAL_COOKIE=d15a24e7237b45ce8a3bb28e89e347d9|False; expires=Fri, 10-Jun-2033 07:57:50 GMT; path=/; HttpOnly
+Strict-Transport-Security: max-age=31536000
