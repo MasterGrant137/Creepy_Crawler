@@ -22,7 +22,7 @@ gunicorn==20.1.0
 itsdangerous==2.0.1
 jinja2==3.0.1
 jmespath==0.10.0
-mako==1.1.4
+mako==1.2.2
 markupsafe==2.0.1
 psycopg2==2.9.1
 python-dateutil==2.8.1
