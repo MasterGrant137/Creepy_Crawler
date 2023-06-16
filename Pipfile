@@ -68,6 +68,7 @@ urllib3 = "==1.26.8"
 w3lib = "==1.22.0"
 wrapt = "==1.13.3"
 "zope.interface" = "==5.4.0"
+scrapeops-scrapy = "*"
 
 [dev-packages]
 psycopg2-binary = "==2.8.6"

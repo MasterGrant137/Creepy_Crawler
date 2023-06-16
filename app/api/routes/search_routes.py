@@ -30,10 +30,12 @@ from flask_login import current_user, login_required
 
 output_data = []
 stop_word_set = {'ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than'}
+
 settings = get_project_settings()
 upload_path = join(dirname(realpath(__file__)), 'settings.json')
 settings_dict = json.load(open(upload_path))
 settings.update(settings_dict)
+
 crawl_runner = CrawlerRunner(settings)
 search_routes = Blueprint('entries', __name__)
 
@@ -118,8 +120,8 @@ def scrape_with_crochet(raw_query):
 
     broad_crawler_query_regex = re.compile(rf'{broad_crawler_str}', re.I)
     dispatcher.connect(_crawler_result, signal=signals.item_scraped)
-    broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2]
-    deep_crawlers = [theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
+    broad_crawlers = [caerostris_darwini.BroadCrawler1, caerostris_darwini.BroadCrawler2, caerostris_darwini.BroadCrawler3, caerostris_darwini.BroadCrawler4, caerostris_darwini.BroadCrawler5]
+    deep_crawlers = [theraphosidae.DeepCrawler1, theraphosidae.DeepCrawler2, theraphosidae.DeepCrawler3]
 
     if len(broad_crawler_str):
         for broad_crawler in broad_crawlers: 

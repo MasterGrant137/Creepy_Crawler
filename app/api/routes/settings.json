@@ -1,6 +1,6 @@
 {
     "AJAXCRAWL_ENABLED": true,
-    "BOT_NAME": "Caerostris Darwini",
+    "BOT_NAME": "Caerostris Darwini and Theraphosidae",
     "CLOSESPIDER_PAGECOUNT": 3,
     "CONCURRENT_REQUESTS": 100,
     "COOKIES_ENABLED": false,
@@ -10,5 +10,5 @@
     "LOG_ENABLED": false,
     "RETRY_ENABLED": false,
     "ROBOTSTXT_OBEY": true,
-    "USER_AGENT": "authorcgrant@gmail.com (https://creepy-crawler.fly.dev"
+    "USER_AGENT": "authorcgrant@gmail.com (https://creepy-crawler.fly.dev)"
 }
