@@ -36,7 +36,6 @@ class BroadCrawler1(scrapy.Spider):
     name = 'broad_crawler_1'
     start_urls = ['https://www.nih.gov/news-events/news-releases']
     crawled_urls = set()
-    broad_crawler_monitor = BroadCrawlerMonitor(name)
 
     def parse(self, response):
         """Parse and yield page data."""
@@ -70,7 +69,6 @@ class BroadCrawler2(scrapy.Spider):
     name = 'broad_crawler_2'
     start_urls = ['https://www.bbc.com/news']
     crawled_urls = set()
-    broad_crawler_monitor = BroadCrawlerMonitor(name)
 
     def parse(self, response):
         """Parse and yield page data."""
@@ -104,7 +102,6 @@ class BroadCrawler3(scrapy.Spider):
     name = 'broad_crawler_3'
     start_urls = ['https://espn.com/']
     crawled_urls = set()
-    broad_crawler_monitor = BroadCrawlerMonitor(name)
 
     def parse(self, response):
         """Parse and yield page data."""
@@ -138,7 +135,6 @@ class BroadCrawler4(scrapy.Spider):
     name = 'broad_crawler_4'
     start_urls = ['https://ign.com/']
     crawled_urls = set()
-    broad_crawler_monitor = BroadCrawlerMonitor(name)
 
     def parse(self, response):
         """Parse and yield page data."""
@@ -172,7 +168,6 @@ class BroadCrawler5(scrapy.Spider):
     name = 'broad_crawler_5'
     start_urls = ['https://www.imdb.com/feature/genre/']
     crawled_urls = set()
-    broad_crawler_monitor = BroadCrawlerMonitor(name)
 
     def parse(self, response):
         """Parse and yield page data."""

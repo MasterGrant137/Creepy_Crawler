@@ -12,7 +12,7 @@ const SearchPage = ({ style }) => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.session.user);
   const [loading, setLoading] = useState(false);
-  const [count, setCount] = useState(15);
+  const [count, setCount] = useState(20);
   const isUser = user && !user.errors;
 
   const searchHandler = async (e) => {
